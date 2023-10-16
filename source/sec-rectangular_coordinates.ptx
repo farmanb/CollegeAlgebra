@@ -2,163 +2,169 @@
 
 <section xml:id="sec-cartesian_coordinates" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Cartesian Coordinates</title>
-  <introdution>
+  <introduction>
     <p>
       In mathematics, we are interested in studying how two quantities change together.
       We will often find it useful to visualize these relationships.
       The Cartesian plane is the natural setting for these visualizations.
     </p>
-  </introdution>
-  
-  <!--TODO: Add a preview activity -->
+    <!-- TODO: Add a preview activity -->
+  </introduction>
 
-  <definition xml:id="defn-cartesian_plane">
-    The <term>Cartesian plane</term>
-    <idx>
-      <h>Cartesian Plane</h>
-    </idx>
-    is a grid system used to locate objects using two perpendicular directions.
-    The horizontal direction is called the <term><m>x</m>-axis</term>
-    <idx>
-      <h><m>x</m>-axis</h>
-    </idx>
-    and the vertical direction is called the <term><m>y</m>-axis</term>
-    <idx>
-      <h><m>y</m>-axis</h>
-    </idx>
-    The plane is partitioned into four pieces called <term>quadrants</term>, depicted in <xref ref="fig-cartesian_plane"/>
-  </definition>
-
-  <figure xml:id="fig-cartesian_plane">
-    <caption>The Cartesian Plane</caption>
-    <image xml:id="img-cartesian_plane">
-      <latex-image >
-	\begin{tikzpicture}
-	\def\xmin{-5}
-	\def\xmax{5}
-	\def\ymin{-5}
-	\def\ymax{5}
-	\path [draw, help lines, opacity=.5]  (\xmin,\ymin) grid (\xmax,\ymax);
-	\foreach \i in {1,...,5} 
-	\draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
-	(-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
-	(2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
-	(2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
-	\draw [very thick] (\xmin,0) -- (\xmax,0) node [anchor=south] {$x$};
-	\draw [very thick] (0,\ymin) -- (0,\ymax) node [anchor=west] {$y$};
-	\node at (2.5,2.5) {Quadrant I};
-	\node at (-2.5,2.5) {Quadrant II};
-	\node at (-2.5,-2.5) {Quadrant III};
-	\node at (2.5,-2.5) {Quadrant IV};
-	\end{tikzpicture}
-      </latex-image>
-    </image>
-  </figure>
-
-  <p>
-    The type of objects we are interested in locating will vary by application.
-    In general, we will refer to these simply as <term>points</term>.
-    <idx>
-      <h>Point</h>
-    </idx>
-    A point is located in the plane by its position relative to the <m>x</m>-axis, called the <term><m>x</m>-coordinate</term>
-    <idx>
-      <h><m>x</m>-Coordinate</h>
-    </idx>
-    and relative to the <m>y</m>-axis, called the <term><m>y</m>-coordinate</term>.
-    <idx>
-      <h><m>y</m>-Coordinate</h>
-    </idx>
-  </p>
-  
-  <figure xml:id="fig-location_point">
-    <caption>The <m>x</m>- and <m>y</m>-Coordinates of Points <m>P</m> and <m>Q</m></caption>
-    <image xml:id="img-location_point">
-      <latex-image >
-	\begin{tikzpicture}
-	\def\xmin{0}
-	\def\xmax{5}
-	\def\ymin{0}
-	\def\ymax{5}
-	\path [draw, help lines, opacity=.5]  (\xmin,\ymin) grid (\xmax,\ymax);
-	\foreach \i in {1,...,5} 
-	\draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
-	(2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$};
-	\draw [very thick] (\xmin,0) -- (\xmax,0) node [anchor=south] {$x$};
-	\draw [very thick] (0,\ymin) -- (0,\ymax) node [anchor=west] {$y$};
-
-	\node at (3,2) {$\bullet$};
-	\node at (3,2) [above right] {$P$};
-	\draw [blue,dashed,thick] (0,2) -- (3,2);
-	\draw [blue,dashed,thick] (3,0) -- (3,2);
-
-	\node at (2,3) {$\bullet$};
-	\node at (2,3) [above right] {$Q$};
-	\draw [red,dashed,thick] (0,3) -- (2,3);
-	\draw [red,dashed,thick] (2,0) -- (2,3);
-	
-	\end{tikzpicture}
-      </latex-image>
-    </image>
-  </figure>
-
-  <p>
-    By convention, we locate a point by first giving the <m>x</m>-coordinate, then the <m>y</m>-coordinate.
-  </p>
-  
-  <definition xml:id="defn-ordered_pair">
-    An <term>ordered pair</term>, <m>(x,y)</m>, is the data of two numbers where the order the numbers appear matters.
-  </definition>
-
-  <p>
-    In <xref ref="fig-location_point"/>, the point <m>P</m> is given by the ordered pair <m>(3,2)</m> and the point <m>Q</m> is given by the ordered pair <m>(2,3)</m>
-  </p>
-
-  <!-- TODO: Add an activity here. -->
-
-  <subsection xml:id="sec-cartesian_coordinates-distance">
-    <title>Distance</title>
-    <introduction>
+  <subsection xml:id="sec-cartesian_coordinates-points_in_the_plane">
+    <title>Points in the Plane</title>
+    <definition xml:id="defn-cartesian_plane">
       <p>
-	Sometimes it is useful to measure the distance between two different points in the plane.
-	The distance between points <m>P</m> and <m>Q</m> in the plane is the length of the line segment joining them.
+	The <term>Cartesian plane</term>
+	<idx>
+	  <h>Cartesian Plane</h>
+	</idx>
+	is a grid system used to locate objects using two perpendicular directions.
+	The horizontal direction is called the <term><m>x</m>-axis</term>
+	<idx>
+	  <h><m>x</m>-axis</h>
+	</idx>
+	and the vertical direction is called the <term><m>y</m>-axis</term>
+	<idx>
+	  <h><m>y</m>-axis</h>
+	</idx>
+	The plane is partitioned into four pieces called <term>quadrants</term>, depicted in <xref ref="fig-cartesian_plane"/>
       </p>
-      <figure xml:id="fig-distance">
-	<caption>The distance between the points <m>P</m> and <m>Q</m>.</caption>
-	<image xml:id="img-distance">
-	  <latex-image >
-	    \begin{tikzpicture}
-	    \def\xmin{0}
-	    \def\xmax{5}
-	    \def\ymin{0}
-	    \def\ymax{5}
-	    \path [draw, help lines, opacity=.5]  (\xmin,\ymin) grid (\xmax,\ymax);
-	    \foreach \i in {1,...,5} 
-	    \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
-	    (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$};
-	    \draw [very thick] (\xmin,0) -- (\xmax,0) node [anchor=south] {$x$};
-	    \draw [very thick] (0,\ymin) -- (0,\ymax) node [anchor=west] {$y$};
+    </definition>
 
-	    \def\P{(3,2)}
-	    \def\Q{(2,3)}
+    <figure xml:id="fig-cartesian_plane">
+      <caption>The Cartesian Plane</caption>
+      <image xml:id="img-cartesian_plane">
+	<latex-image >
+	  \begin{tikzpicture}
+	  \def\xmin{-5}
+	  \def\xmax{5}
+	  \def\ymin{-5}
+	  \def\ymax{5}
+	  \path [draw, help lines, opacity=.5]  (\xmin,\ymin) grid (\xmax,\ymax);
+	  \foreach \i in {1,...,5} 
+	  \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
+	  (-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
+	  (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
+	  (2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
+	  \draw [very thick] (\xmin,0) -- (\xmax,0) node [anchor=south] {$x$};
+	  \draw [very thick] (0,\ymin) -- (0,\ymax) node [anchor=west] {$y$};
+	  \node at (2.5,2.5) {Quadrant I};
+	  \node at (-2.5,2.5) {Quadrant II};
+	  \node at (-2.5,-2.5) {Quadrant III};
+	  \node at (2.5,-2.5) {Quadrant IV};
+	  \end{tikzpicture}
+	</latex-image>
+      </image>
+    </figure>
+    
+    <p>
+      The type of objects we are interested in locating will vary by application.
+      In general, we will refer to these simply as <term>points</term>.
+      <idx>
+	<h>Point</h>
+      </idx>
+      A point is located in the plane by its position relative to the <m>x</m>-axis, called the <term><m>x</m>-coordinate</term>
+      <idx>
+	<h><m>x</m>-Coordinate</h>
+      </idx>
+      and relative to the <m>y</m>-axis, called the <term><m>y</m>-coordinate</term>.
+      <idx>
+	<h><m>y</m>-Coordinate</h>
+      </idx>
+    </p>
 
-	    \draw [decorate,decoration={brace,mirror,amplitude=5pt}] \P -- \Q;
-	    \draw [blue,thick] \P -- \Q;
-	    
-	    \node at \P {$\bullet$};
-	    \node at \P [above right] {$P$};
-	    
-	    \node at \Q {$\bullet$};
-	    \node at \Q [above right] {$Q$};
-	    
-	    \node at (2.5,2.5) [sloped,above right] {$d$};
-	    \end{tikzpicture}
-	  </latex-image>
-	</image>
-      </figure>
-    </introduction>
+    <figure xml:id="fig-location_point">
+      <caption>The <m>x</m>- and <m>y</m>-Coordinates of Points <m>P</m> and <m>Q</m></caption>
+      <image xml:id="img-location_point">
+	<latex-image >
+	  \begin{tikzpicture}
+	  \def\xmin{0}
+	  \def\xmax{5}
+	  \def\ymin{0}
+	  \def\ymax{5}
+	  \path [draw, help lines, opacity=.5]  (\xmin,\ymin) grid (\xmax,\ymax);
+	  \foreach \i in {1,...,5} 
+	  \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
+	  (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$};
+	  \draw [very thick] (\xmin,0) -- (\xmax,0) node [anchor=south] {$x$};
+	  \draw [very thick] (0,\ymin) -- (0,\ymax) node [anchor=west] {$y$};
 
-    <definition xml:id="defn-distance">
+	  \node at (3,2) {$\bullet$};
+	  \node at (3,2) [above right] {$P$};
+	  \draw [blue,dashed,thick] (0,2) -- (3,2);
+	  \draw [blue,dashed,thick] (3,0) -- (3,2);
+
+	  \node at (2,3) {$\bullet$};
+	  \node at (2,3) [above right] {$Q$};
+	  \draw [red,dashed,thick] (0,3) -- (2,3);
+	  \draw [red,dashed,thick] (2,0) -- (2,3);
+	  
+	  \end{tikzpicture}
+	</latex-image>
+      </image>
+    </figure>
+
+    <p>
+      By convention, we locate a point by first giving the <m>x</m>-coordinate, then the <m>y</m>-coordinate.
+    </p>
+    
+    <definition xml:id="defn-ordered_pair">
+      <p>
+	An <term>ordered pair</term>, <m>(x,y)</m>, is the data of two numbers where the order the numbers appear matters.
+      </p>
+    </definition>
+
+    <p>
+      In <xref ref="fig-location_point"/>, the point <m>P</m> is given by the ordered pair <m>(3,2)</m> and the point <m>Q</m> is given by the ordered pair <m>(2,3)</m>
+    </p>
+    <p><!-- TODO: Add an activity. --></p>
+  </subsection>
+  
+<subsection xml:id="sec-cartesian_coordinates-distance">
+  <title>Distance</title>
+  <introduction>
+    <p>
+      Sometimes it is useful to measure the distance between two different points in the plane.
+      The distance between points <m>P</m> and <m>Q</m> in the plane is the length of the line segment joining them.
+    </p>
+    <figure xml:id="fig-distance">
+      <caption>The distance between the points <m>P</m> and <m>Q</m>.</caption>
+      <image xml:id="img-distance">
+	<latex-image >
+	  \begin{tikzpicture}
+	  \def\xmin{0}
+	  \def\xmax{5}
+	  \def\ymin{0}
+	  \def\ymax{5}
+	  \path [draw, help lines, opacity=.5]  (\xmin,\ymin) grid (\xmax,\ymax);
+	  \foreach \i in {1,...,5} 
+	  \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
+	  (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$};
+	  \draw [very thick] (\xmin,0) -- (\xmax,0) node [anchor=south] {$x$};
+	  \draw [very thick] (0,\ymin) -- (0,\ymax) node [anchor=west] {$y$};
+
+	  \def\P{(3,2)}
+	  \def\Q{(2,3)}
+
+	  \draw [decorate,decoration={brace,mirror,amplitude=5pt}] \P -- \Q;
+	  \draw [blue,thick] \P -- \Q;
+	  
+	  \node at \P {$\bullet$};
+	  \node at \P [above right] {$P$};
+	  
+	  \node at \Q {$\bullet$};
+	  \node at \Q [above right] {$Q$};
+	  
+	  \node at (2.5,2.5) [sloped,above right] {$d$};
+	  \end{tikzpicture}
+	</latex-image>
+      </image>
+    </figure>
+  </introduction>
+
+  <definition xml:id="defn-distance">
+    <p>
       The <term>distance</term>
       <idx>
 	<h>Distance</h>
@@ -167,60 +173,68 @@
       <me>
 	\sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2} = \sqrt{(x_2 - x_1)^2 + (y_2 - y_2)^2}
       </me>
-    </definition>
+    </p>
+  </definition>
 
+  <p>
     <!-- TODO: Add an activity here. -->
-  </subsection>
+  </p>
+</subsection>
 
-  <subsection xml:id="sec-cartesian_coordinates-midpoint">
-    <title>Midpoint</title>
-    <introduction>
-      <p>
-	The midpoint between points <m>P</m> and <m>Q</m> in the plane is the point in the center of the line segment joining them.
-      </p>
-      <figure xml:id="fig-midpoint">
-	<caption>The midpoint, <m>R</m>, between the points <m>P</m> and <m>Q</m>.</caption>
-	<image xml:id="img-midpoint">
-	  <latex-image >
-	    \begin{tikzpicture}
-	    \def\xmin{0}
-	    \def\xmax{5}
-	    \def\ymin{0}
-	    \def\ymax{5}
-	    \path [draw, help lines, opacity=.5]  (\xmin,\ymin) grid (\xmax,\ymax);
-	    \foreach \i in {1,...,5} 
-	    \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
-	    (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$};
-	    \draw [very thick] (\xmin,0) -- (\xmax,0) node [anchor=south] {$x$};
-	    \draw [very thick] (0,\ymin) -- (0,\ymax) node [anchor=west] {$y$};
+<subsection xml:id="sec-cartesian_coordinates-midpoint">
+  <title>Midpoint</title>
+  <introduction>
+    <p>
+      The midpoint between points <m>P</m> and <m>Q</m> in the plane is the point in the center of the line segment joining them.
+    </p>
+    <figure xml:id="fig-midpoint">
+      <caption>The midpoint, <m>R</m>, between the points <m>P</m> and <m>Q</m>.</caption>
+      <image xml:id="img-midpoint">
+	<latex-image >
+	  \begin{tikzpicture}
+	  \def\xmin{0}
+	  \def\xmax{5}
+	  \def\ymin{0}
+	  \def\ymax{5}
+	  \path [draw, help lines, opacity=.5]  (\xmin,\ymin) grid (\xmax,\ymax);
+	  \foreach \i in {1,...,5} 
+	  \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
+	  (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$};
+	  \draw [very thick] (\xmin,0) -- (\xmax,0) node [anchor=south] {$x$};
+	  \draw [very thick] (0,\ymin) -- (0,\ymax) node [anchor=west] {$y$};
 
-	    \def\P{(3,2)}
-	    \def\Q{(2,3)}
+	  \def\P{(3,2)}
+	  \def\Q{(2,3)}
 
-	    \draw [blue,thick] \P -- \Q;
-	    
-	    \node at \P {$\bullet$};
-	    \node at \P [above right] {$P$};
-	    
-	    \node at \Q {$\bullet$};
-	    \node at \Q [above right] {$Q$};
-	    
-	    \node at (2.5,2.5) {$\bullet$};
-	    \node at (2.5,2.5) [above right] {$R$};
-	    \end{tikzpicture}
-	  </latex-image>
-	</image>
-      </figure>
-    </introduction>
+	  \draw [blue,thick] \P -- \Q;
+	  
+	  \node at \P {$\bullet$};
+	  \node at \P [above right] {$P$};
+	  
+	  \node at \Q {$\bullet$};
+	  \node at \Q [above right] {$Q$};
+	  
+	  \node at (2.5,2.5) {$\bullet$};
+	  \node at (2.5,2.5) [above right] {$R$};
+	  \end{tikzpicture}
+	</latex-image>
+      </image>
+    </figure>
+  </introduction>
 
-    <definition xml:id="defn-midpoint">
-      The <term>midpoint</term> between the points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m> is given by the formula
-      <me>
-	\left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right).
-      </me>
-    </definition>
+  <definition xml:id="defn-midpoint">
+    The <term>midpoint</term> between the points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m> is given by the formula
+    <me>
+      \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right).
+    </me>
+  </definition>
 
-    <!-- TODO: Add an activity here. -->
-  </subsection>
+  <p>
+    <!-- TODO: Add an activity. -->
+  </p>
+</subsection>
 
+<conclusion>
+  <!-- TODO: Add a summary -->
+</conclusion>
 </section>
