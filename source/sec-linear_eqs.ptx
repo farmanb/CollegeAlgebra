@@ -4,11 +4,14 @@
   <title>Linear Equations in Two Variables</title>
   <objectives>
     <ul>
-      <lI>
-	Recognize linear equations in two variables.
-      </lI>
       <li>
-	Find <m>x</m>- and <m>y</m>-intercepts of a linear equation.
+	Recognize linear equations in two variables.
+      </li>
+      <li>
+	Find <m>x</m>-intercepts of a linear equation.
+      </li>
+      <li>
+	Find the <m>y</m>-intercept of a linear equation.
       </li>
       <li>
 	Graph a linear equation.
