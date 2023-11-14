@@ -11,7 +11,7 @@
       <stringparams author.tools="yes"/>
     </target>
     <target name="print" format="pdf" output-dir="pdf">
-      <stringparams author.tools="yes"/>
+      <stringparams author.tools="no"/>
     </target>
     <target name="print-latex" format="latex"/>
   </targets>
