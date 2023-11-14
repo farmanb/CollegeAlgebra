@@ -2,6 +2,16 @@
 
 <section xml:id="sec-cartesian_coordinates-graphing_equations">
   <title>Graphing Equations</title>
+
+  <objectives>
+    <!-- <title>Test?</title> -->
+    <ul>
+      <li>
+	Identify points in the plane that are solutions to equations in two variables.
+      </li>
+    </ul>
+  </objectives>
+  
   <introduction>
     <p>
       When two quantities vary together, the relationship is modeled by an equation in two variables.

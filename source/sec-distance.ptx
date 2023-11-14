@@ -2,6 +2,16 @@
 
 <section xml:id="sec-cartesian_coordinates-distance">
   <title>The Distance Formula</title>
+
+    <objectives>
+    <!-- <title>Test?</title> -->
+    <ul>
+      <li>
+	Find the distance between two points in the Cartesian plane.
+      </li>
+    </ul>
+    </objectives>
+    
   <introduction>
     <p>
       Within the Cartesian plane, we will often want to determine the distance between two points.
