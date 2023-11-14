@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+
 
 <chapter xml:id="ch-chapter-title" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>The Cartesian Plane</title>
@@ -9,7 +9,11 @@
 
   <!-- include sections -->
   <xi:include href="sec-rectangular_coordinates.ptx" />
+  <xi:include href="sec-graphing_eqs.ptx"/>
+  <xi:include href="sec-distance.ptx"/>
+  <xi:include href="sec-midpoint.ptx"/>
 
 
+  
 </chapter>
 

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-cartesian_coordinates-distance">
+  <title>The Distance Formula</title>
+  <introduction>
+    <p>
+      Within the Cartesian plane, we will often want to determine the distance between two points.
+      In this section, we extend the notion of distance between two points on the number line to the Cartesian plane.
+    </p>
+  </introduction>
+  <definition xml:id="defn-1_distance">
+    <p>
+      The <term>distance</term>
+      <idx>
+	<h>Distance</h>
+	<h>Number Line</h>
+      </idx>
+      between two numbers <m>x</m> and <m>y</m> on a number line is given by the formula
+      <me>\abs{x - y} = \sqrt{(x - y)^2}.</me>
+      This number measures the length of the segment of the number line between <m>x</m> and <m>y</m>, as depicted in <xref ref="fig-1_distance"/>.
+    </p>
+    <figure xml:id="fig-1_distance">
+      <caption>The distance between points on the number line.</caption>
+      <image xml:id="img-1_distance">
+	<latex-image>
+	  \begin{tikzpicture}
+	  \coordinate (A) at (-5,0);
+	  \coordinate (B) at (5,0);
+
+	  \draw [very thick,\lt->] (A) -- (B);
+	  \draw [very thick,blue] (-3,0) -- (4,0);
+	  \draw [very thick] (-3,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$x$};
+	  \draw [very thick] (4,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$y$};
+	  \draw[thick,decorate,decoration={brace,amplitude=10pt},yshift=2.5pt] (-3,0) -- (4,0) node [midway,above,yshift=5pt] {$\abs{x - y}$};
+	  \end{tikzpicture}
+	</latex-image>
+      </image>
+    </figure>
+  </definition>
+
+  <p>
+    We can pair this with the Pythagorean Theorem to find the distance between points in the plane.
+  </p>
+  
+  <theorem xml:id="thm-pythagorean">
+    <title>The Pythagorean Theorem</title>
+    <statement>
+      <p>
+	The right triangle in <xref ref="fig-pythagorean"/> satisfies the equation <m>a^2 + b^2 = c^2</m>
+      </p>
+      <figure xml:id="fig-pythagorean">
+	<caption>Right triangle with sides of length <m>a</m>, <m>b</m>, and <m>c</m>.</caption>
+	<image width="50%">
+	  <latex-image>
+	    \begin{tikzpicture}
+	    \def\trilen{1}
+	    \def\triht{1}
+	    \coordinate (A) at (0,0);
+	    \coordinate (B) at (\trilen,0);
+	    \coordinate (C) at (\trilen,\triht);
+
+	    \def\squareside{.25}
+	    \draw (B) -- (\trilen,\squareside) -- (\trilen-\squareside,\squareside) -- (\trilen-\squareside,0);
+
+	    \draw[thick] node {$\bullet$} (A)
+	    -- (B) node {$\bullet$}
+	    -- (C) node {$\bullet$}
+	    -- (A);
+	    \draw [decorate,decoration={brace,amplitude=10pt,mirror},xshift=-4pt,yshift=0pt] (A) -- (B) node [midway,below,yshift=-8pt] {$a$};
+	    \draw [decorate,decoration={brace,amplitude=10pt,mirror},xshift=-4pt,yshift=0pt] (B) -- (C) node [midway,xshift=14pt] {$b$};
+	    \draw [decorate,decoration={brace,amplitude=10pt,mirror},xshift=-4pt,yshift=0pt] (C) -- (A) node [midway,xshift=-12pt,yshift=12pt] {$c$};
+	    \end{tikzpicture}
+	  </latex-image>
+	</image>
+      </figure>
+    </statement>
+  </theorem>
+
+  <p>
+    Given two points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m>, we can introduce a third point to create a triangle, as in <xref ref="fig-2_distance"/>.
+  </p>
+  <figure xml:id="fig-2_distance">
+    <caption>The triangle formed by adding in the point <m>(x_1, y_2)</m>.</caption>
+    <image width="50%">
+      <latex-image>
+	\begin{tikzpicture}
+	\def\xmin{0}
+	\def\xmax{5}
+	\def\ymin{0}
+	\def\ymax{4}
+
+	\def\a{2.1}
+	\def\b{2.72}
+	\def\c{4.8}
+	\def\d{1}
+	
+	\draw [very thick,->] (\xmin,0) -- (\xmax+.1,0) node [anchor=south] {$x$};
+	\draw [very thick,->] (0,\ymin) -- (0,\ymax+.1) node [anchor=west] {$y$};
+	
+	\path [draw, help lines, opacity=.5]  (\xmin,\ymin) grid (\xmax,\ymax);
+	\draw [very thick, green] (\a,0) -- (\c,0);
+	\draw [very thick, red] (0,\b) -- (0,\d);
+	\draw [very thick] (\a,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$x_1$};
+	\draw [very thick] (\c,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$x_2$};
+	\draw [very thick] (2.5pt,\b) -- +(-5pt,0) node [anchor=east, font=\small] {$y_1$};
+	\draw [very thick] (2.5pt,\d) -- +(-5pt,0) node [anchor=east, font=\small] {$y_2$};
+	
+	\coordinate (P) at (\a,\b);
+	\coordinate (Q) at (\c,\d);
+	\coordinate (R) at (\a,\d);
+	
+	\draw [thick,blue] (P) -- (Q);
+	\draw [thick,green] (Q) -- (R);
+	\draw [thick,red] (R) -- (P);
+	\draw [decorate,decoration={brace,amplitude=10pt},xshift=-4pt,yshift=0pt] (P) -- (Q) node [midway,above,sloped,yshift=7.2pt,xshift=.2pt] {$c$};
+	\draw [decorate,decoration={brace,amplitude=10pt,mirror},xshift=-4pt,yshift=0pt] (P) -- (R) node [midway,xshift=-14pt] {$b$};
+	\draw [decorate,decoration={brace,amplitude=10pt},xshift=-4pt,yshift=0pt] (Q) -- (R) node [midway,yshift=-14pt] {$a$};
+
+	\node at (P) {$\bullet$};
+	\node at (Q) {$\bullet$};
+	\node at (R) {$\bullet$};
+	\node [above] at (P) {$(x_1,y_1)$};
+	\node [right] at (Q) {$(x_2,y_2)$};
+	\node [below] at (R) {$(x_1,y_2)$};
+	\end{tikzpicture}
+      </latex-image>
+    </image>
+  </figure>
+
+  <p>
+    From <xref ref="fig-2_distance"/>, we can see the length of the horizontal side is the distance between the points <m>x_1</m> and <m>x_2</m> along the <m>x</m>-axis.
+    Similarly, the length of the vertical side is the distance between the points <m>y_1</m> and <m>y_2</m> along the <m>y</m>-axis.
+    Using <xref ref="defn-1_distance"/>, we have
+    <me>a = \abs{x_1 - x_2} = \sqrt{(x_1 - x_2)^2}
+    \quad\text{and}\quad
+    b = \abs{y_1 - y_2} = \sqrt{(y_1 - y_2)^2}.</me>
+    If we square these two side lengths, then
+    <me>
+      a^2 = \sqrt{(x_1 - x_2)^2}^2 = (x_1 - x_2)^2
+      \quad\text{and}\quad
+      b^2 = \sqrt{(y_1 - y_2)^2} = (y_1 - y_2)^2.
+    </me>
+    By the Pythagorean Theorem, the length of the line segment that connects the points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m> is
+    <md>
+      <mrow>c \amp= \sqrt{a^2 + b^2}\\</mrow>
+      <mrow>\amp= \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}.</mrow>
+    </md>
+  </p>
+
+  <definition xml:id="def-2_distance">
+    <title>The Distance Formula</title>
+    <p>
+      The <term>distance</term>
+      <idx>
+	<h>Distance</h>
+	<h>Cartesian Plane</h>
+      </idx>
+      between the points <m>(x_1,y_1)</m> and <m>(x_2,y_2)</m> in the Cartesian plane is given by
+      <me>\sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}.</me>
+      This number measures the length of the line segment connecting the two points.
+    </p>
+  </definition>
+
+  <worksheet>
+    <title>Using the Distance Formula</title>
+    <objectives>
+      <ul>
+	<li>
+	  Find the distance between two points in the Cartesian plane.
+	</li>
+      </ul>
+    </objectives>
+    <introduction>
+      Use <xref ref="def-2_distance" text="title"/> to answer the following questions.
+    </introduction>
+    <exercise workspace="0.5in">
+      <p>
+	Find the distance between the points <m>(3,2)</m> and <m>(-2,-10)</m>.
+      </p>
+    </exercise>
+    <exercise workspace="0.5in">
+      <p>
+	Find the perimeter of the triangle in <xref ref="fig-perimeter"/>.
+      </p>
+      <figure xml:id="fig-perimeter">
+	<image width="50%">
+	  <latex-image>
+	    \begin{tikzpicture}
+
+	    \def\xmin{-2}
+	    \def\xmax{5}
+	    \def\ymin{-2}
+	    \def\ymax{5}
+
+	    \def\a{1}
+	    \def\b{4}
+	    \def\c{4}
+	    \def\d{-1}
+	    
+	    \draw [very thick,->] (\xmin,0) -- (\xmax+.1,0) node [anchor=south] {$x$};
+	    \draw [very thick,->] (0,\ymin) -- (0,\ymax+.1) node [anchor=west] {$y$};
+	    
+	    \path [draw, help lines, opacity=.5]  (\xmin,\ymin) grid (\xmax,\ymax);
+
+	    \foreach \i in {-2,...,5}
+	    \draw [very thick] (\i,2.5pt) -- +(0,-5pt)
+	    [very thick] (2.5pt,\i) -- +(-5pt,0);
+	    
+	    \coordinate (P) at (\a,\b);
+	    \coordinate (Q) at (\c,\d);
+	    \coordinate (R) at (\a,\d);
+	    
+	    \draw [thick,blue] (P) -- (Q) -- (R) -- (P);
+
+
+	    \node at (P) {$\bullet$};
+	    \node at (Q) {$\bullet$};
+	    \node at (R) {$\bullet$};
+	    \node [above] at (P) {$(\a,\b)$};
+	    \node [right] at (Q) {$(\c,\d)$};
+	    \node [below] at (R) {$(\a,\d)$};
+	    \end{tikzpicture}
+	  </latex-image>
+	</image>
+      </figure>
+    </exercise>
+  </worksheet>
+</section>
