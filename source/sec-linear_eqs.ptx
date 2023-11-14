@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-linear_eqs">
+  <title>Linear Equations in Two Variables</title>
+  <objectives>
+    <ul>
+      <lI>
+	Recognize linear equations in two variables.
+      </lI>
+      <li>
+	Find <m>x</m>- and <m>y</m>-intercepts of a linear equation.
+      </li>
+      <li>
+	Graph a linear equation.
+      </li>
+    </ul>
+  </objectives>
+  
+</section>
