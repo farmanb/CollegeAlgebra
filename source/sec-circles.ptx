@@ -15,5 +15,280 @@
       </li>
     </ul>
   </objectives>
-  
+
+  <introduction>
+    <p>
+      In this section, we study circles in the Cartesian plane.
+    </p>
+
+    <definition>
+      <p>
+	The <term>circle</term>
+	<idx>
+	  <h>Circle</h>
+	</idx>
+	with radius <m>r</m> centered at <m>(h,k)</m> consists of all points in the Cartesian plane <m>r</m> units away from <m>(h,k)</m> as depicted in <xref ref="fig-circle_def"/>.
+      </p>
+      <figure xml:id="fig-circle_def">
+	<caption>The circle of radius <m>r</m> centered at <m>(h,k)</m>.</caption>
+	<image xml:id="img-circle_def" width="50%">
+	  <latex-image>
+	    \begin{tikzpicture}
+	    \coordinate (C) at (0,0);
+	    \coordinate (P) at ({cos(45)}, {sin(45)});
+	    \def\r{1}
+
+	    \draw (C) -- (P);
+	    \draw (C) circle (\r);
+
+	    \node at (P) {$\bullet$};
+	    \node [right] at (P) {$(x,y)$};
+	    \node at (C) {$\bullet$};
+	    \node[below] at (C) {$(h,k)$};
+	    
+	    \draw[thick,decorate,decoration={brace,amplitude=5pt},yshift=2.5pt] (C) -- (P) node [midway,above,xshift=-6pt,yshift=2pt] {$r$};
+	    
+	    \end{tikzpicture}
+	  </latex-image>
+	</image>
+      </figure>
+    </definition>
+    
+    <p>
+      To find the equation of the circle with radius <m>r</m> and center <m>(h,k)</m> we use <xref ref="def-2_distance" text="title"/>.
+      A point <m>(x,y)</m> is on this circle if the distance between <m>(x,y)</m> and <m>(h,k)</m> is exactly <m>r</m>:
+      <me>
+	r = \sqrt{(x - h)^2 + (y - k)^2}.
+      </me>
+      To make this simpler, we square each side of the equation.
+    </p>
+
+    <definition>
+      <title>The Standard Form of a Circle</title>
+      <p>
+	The <term>standard form of a circle</term>
+	<idx>
+	  <h>Circle</h>
+	  <h>Standard Form</h>
+	</idx>
+	with radius <m>r</m> and center <m>(h,k)</m> is
+	<me>
+	  (x - h)^2 + (y - k)^2 = r^2.
+	</me>
+      </p>
+    </definition>
+
+    <definition>
+      <p>
+	A <term>diameter</term>
+	<idx>
+	  <h>Circle</h>
+	  <h>Diameter</h>
+	</idx>
+	of a circle is a line that connects two points on the circle through the center.
+	The length of a diameter of a circle of radius <m>r</m> is <m>2r</m>, and the midpoint of the diameter is the center of the circle.
+      </p>
+      <figure xml:id="fig-diameter">
+	<caption>A diameter of the circle of radius <m>r</m> centered at <m>(h,k)</m>.</caption>
+	<image xml:id="img-diameter" width="50%">
+	  <latex-image>
+	    \begin{tikzpicture}
+	    \coordinate (C) at (0,0);
+	    \coordinate (P) at ({cos(45)}, {sin(45)});
+	    \coordinate (Q) at ({cos(225)}, {sin(225)});
+	    \def\r{1}
+
+	    \draw (Q) -- (P);
+	    \draw (C) circle (\r);
+
+	    \node at (P) {$\bullet$};
+	    <!-- \node [right] at (P) {$(x,y)$}; -->
+	    \node at (C) {$\bullet$};
+	    \node at (Q) {$\bullet$};
+	    <!-- \node[right] at (C) {$(h,k)$}; -->
+	    
+	    \draw[thick,decorate,decoration={brace,amplitude=5pt},yshift=2.5pt] (C) -- (P) node [midway,above,xshift=-6pt,yshift=2pt] {$r$};
+	    \draw[thick,decorate,decoration={brace,amplitude=5pt},yshift=2.5pt] (Q) -- (C) node [midway,above,xshift=-6pt,yshift=2pt] {$r$};
+	    
+	    \end{tikzpicture}
+	  </latex-image>
+	</image>
+      </figure>
+    </definition>
+  </introduction>
+
+  <subsection xml:id="subsec-completing_the_square">
+    <title>Completing the Square</title>
+    <p>
+      Remember that when we multiply two binomials, we must distribute.
+      We can remember how to distribute using the mnemonic FOIL: <alert>F</alert>irst, <alert>O</alert>uter, <alert>I</alert>nner, <alert>L</alert>ast:
+    </p>
+    <figure>
+      <caption>How to multiply binomials using the FOIL method.</caption>
+      <image source="images/FOIL.png"/>
+    </figure>
+    <p>
+      We can use this method to multiply a binomial by itself
+      <md>
+	<mrow>
+	  (x + a)^2 \amp = (x + a)(x + a)
+	</mrow>
+	<mrow>\amp = xx + xa + ax + aa</mrow>
+	<mrow>\amp = x^2 + ax + ax + a^2</mrow>
+	<mrow>\amp = x^2 + 2ax + a^2.</mrow>
+      </md>
+      We call a trinomial of the form <m>x^2 + 2ax + a^2</m> a <term>perfect square</term>.
+      <idx>
+	<h>Perfect Square</h>
+      </idx>
+    </p>
+    <p>
+      If we have a trinomial of the form <m>ax^2 + bx + c</m>, then we can use the formula
+      <me>(x + a)^2 = x^2 + 2ax + a^2 </me>
+      to <term>complete the square</term>
+      <idx>
+	<h>Complete the Square</h>
+      </idx>
+      as follows.
+      <algorithm xml:id="alg-completing_the_square">
+	<title>Completing the Square</title>
+	<ol>
+	  <li>
+	    Factor an <m>a</m> from the first two terms to get
+	    <me>ax^2 + bx + c = a\left(x^2 + \frac{b}{a}x\right) + c.</me>
+	  </li>
+	  <li>
+	    Add and subtract <m>\left(\frac{b}{2a}\right)^2</m> inside the parentheses to get
+	    <me>
+	      ax^2 + bx + c = a\left(x^2 + \frac{b}{a}x + \left(\frac{b}{2a}\right)^2 - \left(\frac{b}{2a}\right)^2 \right) + c
+	    </me>
+	  </li>
+	  <li>
+	    Recognize the first three terms inside the parentheses as a perfect square
+	    <me>ax^2 + bx + c = a\left(\left(x + \frac{b}{2a}\right)^2 - \left(\frac{b}{2a}\right)^2 \right) + c</me>
+	  </li>
+	  <li>
+	    Distribute the <m>a</m> in front through the sum to get
+	    <md>
+	      <mrow>ax^2 + bx + c \amp= a\left(x + \frac{b}{2a}\right)^2 - a\left(\frac{b}{2a}\right)^2 + c</mrow>
+	    </md>
+	  </li>
+	</ol>
+      </algorithm>
+    </p>
+
+    <example>
+      <p> When the coefficient on <m>x^2</m> is 1, we can skip the first step and the last step:</p>
+      <md>
+	<mrow>x^2 + 4x + 5 \amp= x^2 + 4x + 2^2 - 2^2 + 5</mrow>
+	<mrow>\amp = (x + 2)^2 - 4 + 5</mrow>
+	<mrow>\amp = (x + 2)^2 + 1.</mrow>
+      </md>
+    </example>
+    <example>
+      <p>
+	When the coefficient on <m>x</m> is a negative number, such as <m>x^2 - 4x + 5</m>, we can still use the formula by rewriting the subtraction as addition with a negative number.
+	<md>
+	  <mrow>3x^2 - 4x + 5 \amp = 3x^2 + (-4)x + 5</mrow>
+	  <mrow>\amp= 3\left(x^2 + \left(-\frac{4}{3}\right)x\right) + 5</mrow>
+	  <mrow>\amp = 3\left(x^2 + \left(-\frac{4}{3}\right)x +  \left(-\frac{2}{3}\right)^2 - \left(-\frac{2}{3}\right)^2\right) + 5</mrow>
+	  <mrow>\amp = 3\left(\left(x + \left(-\frac{2}{3}\right)\right)^2 - \frac{4}{9}\right) + 5</mrow>
+	  <mrow>\amp = 3\left(x - \frac{2}{3}\right)^2 - \frac{4}{3} + \frac{15}{3}</mrow>
+	  <mrow>\amp = 3\left(x - \frac{2}{3}\right)^2 + \frac{11}{3}.</mrow>
+	</md>
+      </p>
+    </example>
+  </subsection>
+
+  <subsection>
+    <title>Recognizing Circles</title>
+    <p>
+      Sometimes, we will encounter the equation of a circle that is not in standard form.
+      We can use <xref ref="alg-completing_the_square" text="title"/> twice to put it back into standard form.
+      For example, consider the equation
+      <m>x^2 - 4x + y^2 + 6x = -9.</m>
+      While this does not look like a circle, we can first complete the square in <m>x</m> as follows.
+      First, recognize <m>x^2 - 4x = x^2 + (-4)x</m>.
+      Add <m>(-2)^2 = 4</m> to both sides of the equation to obtain
+      <me>x^2 + (-4)x + (-2)^2 + y^2 + 6x = -9 + (-2)^2.</me>
+      Rewrite the first three terms as a perfect square to obtain
+      <me>(x - 2)^2 + y^2 + 6x = -5.</me>
+      Next, we complete the square in <m>y</m>.
+      Adding <m>3^2 = 9</m> to both sides yields
+      <me>(x - 2)^2 + y^2 + 6x + 3^2 = -5 + 9.</me>
+      Recognize the trinomial as a perfect square to find
+      <me>(x - 2)^2 + (y + 3)^2 = 4.</me>
+      Finally, rewrite <m>y + 3</m> as <m>y - (-3)</m> and <m>4 = 2^2</m> to arrive at the standard form of the circle
+      <me>(x - 2)^2 + (y - (-3))^2 = 2^2.</me>
+      Since these operations preserve the solutions to our equation, we can see that the equation <m>x^2 - 4x + y^2 + 6x = -9</m> represents the circle of radius <m>2</m> centered at the point <m>(2, -3)</m>.
+    </p>
+    <worksheet>
+      <page>
+      <objectives>
+	<ul>
+	  <li>
+	    Complete the square to put the equation of a circle into standard form.
+	  </li>
+	  <li>
+	    Use the standard form of a circle to identify the center and radius.
+	  </li>
+	  <li>
+	    Use the standard form of a circle to produce a graph.
+	  </li>
+	</ul>
+      </objectives>
+
+	<exercise workspace="1in">
+	<p>
+	  Write down the equation of the circle of radius <m>\sqrt{2}</m> centered at <m>(-3, 1)</m>.
+	</p>
+      </exercise>
+      <exercise workspace="1in">
+	<p>
+	  Find the center and radius of the circle
+	  <me>(x - 3)^2 + (y - 17)^2  = 1225.</me>
+	</p>
+      </exercise>
+      <exercise workspace="1in">
+	<p>
+	  Find the radius of the circle with center <m>(2,3)</m> that passes through the point <m>(-1,7)</m>.
+	  Write the equation of this circle in standard form.
+	</p>
+      </exercise>
+      </page>
+      <page>
+	<exercise workspace="1in">
+	  <figure xml:id="fig-diameter_exercise">
+	    <image xml:id="img-diameter_exercise" width="50%">
+	      <latex-image>
+		\begin{tikzpicture}
+		\coordinate (C) at (0,0);
+		\coordinate (P) at ({cos(45)},{sin(45)});
+		\coordinate (Q) at ({cos(225)},{sin(225)});
+
+		\draw (P) -- (Q);
+		\draw (C) circle (1);
+		\node at (P) {$\bullet$};
+		\node at (Q) {$\bullet$};
+		\node [left] at (Q)  {$(2,2)$};
+		\node [right] at (P) {$(4,4)$};
+		\end{tikzpicture}
+	      </latex-image>
+	    </image>
+	  </figure>
+	  <p>
+	    The endpoints of a diameter of a circle are <m>(2,2)</m> and <m>(4,4)</m> as in <xref ref="fig-diameter_exercise"/>.
+	    Write the equation for this circle in standard form.
+	  </p>
+	</exercise>
+	<exercise workspace="1in">
+	  <p>
+	    Put the circle
+	    <me>4x^2 - 4x + 4y^2 + 16y = 19</me>
+	    into standard form.
+ 	  </p>
+	</exercise>
+      </page>
+    </worksheet>
+  </subsection>
 </section>

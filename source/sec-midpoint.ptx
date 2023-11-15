@@ -211,9 +211,9 @@
     <p>
       The two shaded triangles have the same side lengths.
       The horizontal side has length
-      <me>\frac{a}{2} = \frac{\abs{y_1 - y_2}}{2}</me>
+      <me>\frac{a}{2} = \frac{\abs{x_1 - x_2}}{2}</me>
       and the vertical side has length
-      <me>\frac{b}{2} = \frac{\abs{x_1 - x_2}}{2}.</me>
+      <me>\frac{b}{2} = \frac{\abs{y_1 - y_2}}{2}.</me>
       Using <xref ref="thm-pythagorean" text="title"/>, the third side of each triangle has length
       <md>
 	<mrow>\sqrt{\left(\frac{a}{2}\right)^2 + \left(\frac{b}{2}\right)^2} \amp = \sqrt{\frac{a^2}{4} + \frac{b^2}{4}}</mrow>
