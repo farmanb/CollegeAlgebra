@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-relations">
+  <title>Relations and Functions</title>
+  <objectives>
+    <ul>
+      <li>
+	Find the domain and codomain of a relation.
+      </li>
+      <li>
+	Find the range of a relation.
+      </li>
+      <li>
+	Determine whether a relation is a function.
+      </li>
+    </ul>
+  </objectives>
+
+  <introduction>
+    <p>
+      In this section, we study the basics of relations and functions.
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec-relations">
+    <title>Relations</title>
+    <definition xml:id="def-relation">
+      A <term>relation</term>
+      <idx>
+	<h>Relation</h>
+      </idx>
+      is a set of ordered pairs of real numbers.
+      The <term>domain</term>
+      <idx>
+	<h>Relation</h>
+	<h>Domain</h>
+      </idx>
+      is the set of first coordinates in the relation.
+      The <term>range</term>
+      <idx>
+	<h>Relation</h>
+	<h>Range</h>
+      </idx>
+      is the set of second coordinates in the relation.
+    </definition>
+
+    <example>
+      <p>
+	Relations with only finitely many elements are easy to write down using <xref ref="def-roster_notation" text="title"/>.
+	For example, 
+	<me>\{(1, 2), (3,4), (5,6), (7,8)\}</me>
+	defines a relation.
+	The domain of this relation is the set
+	<me>D = \{1, 3, 5, 7\}</me>
+	and the range of this relation is the set
+	<me>R = \{2, 4, 6, 8\}.</me>
+      </p>
+    </example>
+    
+    <example>
+      <p>
+	Most of the relations we are interested in studying have infinitely many elements.
+	Since we cannot write down all of the elements, we rely on <xref ref="def-set_builder_notation" text="title"/> to specify the relation.
+	The relation
+	<me>\left\{(x, x + 2) \;\middle\vert\; x \in \R \right\}</me>
+	tells us the domain is the set, <m>\R</m>, of all real numbers.
+      </p>
+      <p>
+	To find the range, we must determine which real numbers can be written as 2 more than another real number.
+	We can see this is is all of <m>\R</m> because for every real number <m>y</m>, the real number <m>x = y - 2</m> satisfies 
+	<me>x + 2 = (y - 2) + 2 = y</me>.
+	Therefore the pair <m>(y - 2, y)</m> is an element of the relation.
+      </p>
+    </example>
+  </subsection>
+</section>

@@ -13,7 +13,7 @@
 
     <!-- Include chapters -->
     <xi:include href="./ch-cartesian_plane.ptx" />
-
+    <xi:include href="./ch-functions.ptx" />
 
     <!-- Include backmatter -->
     <!-- <xi:include href="./backmatter.ptx" /> -->

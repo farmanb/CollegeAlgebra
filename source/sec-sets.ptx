@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-sets">
+  <title>Sets</title>
+  <objectives>
+    <ul>
+      <li>
+	
+      </li>
+      <li>
+	
+      </li>
+      <li>
+	
+      </li>
+    </ul>
+  </objectives>
+
+  <introduction>
+    <p>
+      In this section, we study the basic theory of sets.
+    </p>
+    
+  </introduction>
+
+  <definition xml:id="def-set">
+    <p>
+      A <term>set</term>
+      <idx>
+	<h>Set</h>
+      </idx>
+      is a collection of objects called <term>elements</term>
+      <idx>
+	<h>Set</h>
+	<h>Element</h>
+      </idx>
+      or <term>members</term>
+      <idx>
+	<h>Set</h>
+	<h>Member</h>
+      </idx>
+      of the set.
+      We specify that an object <m>x</m> is an element of the set <m>S</m> by writing <m>x \in S</m>
+      <notation>
+	<usage>
+	  <m>x \in S</m>
+	</usage>
+      </notation>
+      and say "<m>x</m> is an element (or member) of <m>S</m>"
+    </p>
+  </definition>
+
+  <definition xml:id="def-roster_notation">
+    <title>Roster Notation</title>
+    <p>
+      <term>Roster notation</term>
+      <idx>
+	<h>Set</h>
+	<h>Roster Notation</h>
+      </idx>
+      specifies the elements of a set as a comma separated list surrounded by curly braces.
+    </p>
+  </definition>
+
+  <example>
+    <p>
+      The set <m>S = \{1, 2, 3, 4\}</m> has as its elements the numbers <m>1</m>, <m>2</m>, <m>3</m>, and <m>4</m>.
+    </p>
+  </example>
+  
+  <definition xml:id="def-set_builder_notation">
+    <title>Set-Builder Notation</title>
+    <p>
+      <term>Set-builder notation</term>
+      <idx>
+	<h>Set</h>
+	<h>Set-Builder Notation</h>
+      </idx>
+      specifies the members of a set using a variable and condition for membership in the set.
+    </p>
+  </definition>
+
+  <example>
+    <p>
+      The set, <m>E</m>, of all positive, even integers can be written in set-builder notation as
+      <me>E = \left\{x \;\middle\vert\; x\ \text{is a positive, even integer}\right\}.</me>
+      This is read as "<m>E</m> is the set of all <m>x</m> such that <m>x</m> is a positive, even integer."
+    </p>
+  </example>
+
+  <subsection xml:id="subsec-special_sets">
+    <title>Special Sets</title>
+    <introduction>
+      <p>
+	We have special names for some commonly used sets.
+      </p>
+    </introduction>
+    
+    <definition xml:id="def-naturals">
+      The set of <term>natural numbers</term>
+      <idx>
+	<h>Set</h>
+	<h>Natural Numbers</h>
+      </idx>
+      is the set with elements all positive integers,
+      <me>\N = \left\{1, 2, 3, 4, \ldots\right\}.</me>
+      <notation>
+	<usage>
+	  <m>\N</m>
+	</usage>
+      </notation>
+    </definition>
+
+    <definition xml:id="def-integers">
+      The set of <term>integers</term>
+      <idx>
+	<h>Set</h>
+	<h>Integers</h>
+      </idx>
+      is the set with elements all integers,
+      <me>\Z = \left\{\ldots, -4,-3,-2, -1, 0, 1, 2, 3, 4, \ldots\right\}.</me>
+      <notation>
+	<usage>
+	  <m>\Z</m>
+	</usage>
+      </notation>
+    </definition>
+
+    <definition xml:id="def-rationals">
+      The set of <term>rational numbers</term>
+      <idx>
+	<h>Set</h>
+	<h>Rational Numbers</h>
+      </idx>
+      is the set with elements all rational numbers,
+      <me>\Q = \left\{\frac{a}{b} \;\middle\vert\; a \in \Z,\, b \in \Z,\, b \neq 0\right\}.</me>
+      <notation>
+	<usage>
+	  <m>\Q</m>
+	</usage>
+      </notation>
+    </definition>
+
+    <definition xml:id="def-reals">
+      The set of <term>real numbers</term>
+      <idx>
+	<h>Set</h>
+	<h>Real Numbers</h>
+      </idx>
+      is the set with elements all real numbers, <m>\R</m>.
+      <notation>
+	<usage>
+	  <m>\R</m>
+	</usage>
+      </notation>
+    </definition>
+  </subsection>
+</section>
