@@ -223,7 +223,6 @@
       Since these operations preserve the solutions to our equation, we can see that the equation <m>x^2 - 4x + y^2 + 6x = -9</m> represents the circle of radius <m>2</m> centered at the point <m>(2, -3)</m>.
     </p>
     <worksheet>
-      <page>
       <objectives>
 	<ul>
 	  <li>
@@ -237,7 +236,7 @@
 	  </li>
 	</ul>
       </objectives>
-
+      <page>
 	<exercise workspace="1in">
 	<p>
 	  Write down the equation of the circle of radius <m>\sqrt{2}</m> centered at <m>(-3, 1)</m>.
