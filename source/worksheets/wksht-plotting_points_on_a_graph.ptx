@@ -1,0 +1,60 @@
+<worksheet>
+    <title>Plotting Points on a Graph</title>
+    <objectives>
+      <ul>
+	<li>
+	  Identify points in the plane that are solutions to equations in two variables.
+	</li>
+      </ul>
+    </objectives>
+    <introduction>
+      <p>
+	Consider the equation <m>2x - 3y = 6</m>.
+	The graph of this equation is given below.
+	Use the equation and the graph to answer the following questions.
+      </p>
+      <figure>
+	<image width="50%">
+	  <latex-image>
+	    \begin{tikzpicture}[domain=-5:5]
+	    \draw[very thin,color=gray] (-5,-5) grid (5,5);
+	    \draw[->,very thick] (0,-5) -- (0,5.1) node [above] {$y$};
+	    \draw[->,very thick](-5,0) -- (5.1,0) node [right] {$x$};
+	    \foreach \i in {1,...,5} 
+	    \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
+	    (-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
+	    (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
+	    (2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
+	    
+	    \draw[smooth,color=blue,very thick] plot (\x, 2/3*\x - 2);
+	    \end{tikzpicture}
+	  </latex-image>
+	</image>
+	<caption>Graph of <m>2x - 3y = 6</m>.</caption>
+      </figure>
+    </introduction>
+    <exercise workspace=".5in">
+      <p>
+	Find the value of <m>x</m> such that the point <m>(x,0)</m> lies on the graph of the equation.
+	Plot this point on the graph above and label it.
+      </p>
+    </exercise>
+    <exercise workspace=".5in">
+      <p>
+	Find the value of <m>y</m> such that the point <m>(0,y)</m> lies on the graph of the equation.
+	Plot this point on the graph above and label it.
+      </p>
+    </exercise>
+    <exercise workspace=".5in">
+      <p>
+	Is the point <m>(-3,-4)</m> on the graph of the equation?
+	Justify your answer using the equation of the graph.
+      </p>
+    </exercise>
+    <exercise workspace=".5in">
+      <p>
+	Is the point <m>\left(4,\frac{1}{2}\right)</m> on the graph of the equation?
+	Justify your answer using the equation of the graph.
+      </p>
+    </exercise>
+  </worksheet>

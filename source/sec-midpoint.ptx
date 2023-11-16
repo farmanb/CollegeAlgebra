@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<section xml:id="sec-cartesian_coordinates-midpoint">
+<section xml:id="sec-cartesian_coordinates-midpoint" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>The Midpoint Formula</title>
 
   <objectives>
@@ -226,28 +226,6 @@
     </p>
   </remark>
 
-  <worksheet>
-    <title>Using the Midpoint Formula</title>
-    <objectives>
-      <ul>
-	<li>
-	  Find the midpoint between two points in the Cartesian plane.
-	</li>
-      </ul>
-    </objectives>
-    <introduction>
-      Use the <xref ref="defn-2_midpoint" text="title"/> to find the midpoint for each pair of points in the Cartesian plane.
-    </introduction>
-    <exercise>
-      <p>
-	<m>(1,3)</m> and <m>(3,-1)</m>.
-      </p>
-    </exercise>
-    <exercise>
-      <p>
-	<m>(3,2)</m> and <m>(-5,-10)</m>.
-      </p>
-    </exercise>
-  </worksheet>
+  <xi:include href="worksheets/wksht-using_the_midpoint_formula.ptx"/>
 </section>
 
