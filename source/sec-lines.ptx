@@ -48,11 +48,16 @@
   </figure>
 
   <example>
-    <p>
-      The slope of the line through the points <m>(3,5)</m> and <m>(6,2)</m> is
-      <me>\frac{2 - 5}{6 - 3} = \frac{-3}{3} = -1.</me>
-      This says when the <m>x</m>-coordinate increases by 1, the <m>y</m>-coordinate decreases by 1.
-    </p>
+    <statement>
+      <p>Find the slope of the line through the points <m>(3,5)</m> and <m>(6,2)</m>.</p>
+    </statement>
+    <solution>
+      <p>
+	The slope of the line through the points <m>(3,5)</m> and <m>(6,2)</m> is
+	<me>\frac{2 - 5}{6 - 3} = \frac{-3}{3} = -1.</me>
+	This says when the <m>x</m>-coordinate increases by 1, the <m>y</m>-coordinate decreases by 1.
+      </p>
+    </solution>
   </example>
   
   <definition xml:id="def-slope_intercept">
@@ -69,30 +74,44 @@
   </definition>
 
   <example>
-    <p>
-      The equation of the line through the point <m>(0,5)</m> with slope <m>3</m> is
-      <me>y = 3x + 5.</me>
-    </p>
+    <statement>
+      <p>
+	Find <xref ref="def-slope_intercept" text="title"/> using the point <m>(0,5)</m> and slope <m>3</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+	The equation of the line through the point <m>(0,5)</m> with slope <m>3</m> is
+	<me>y = 3x + 5.</me>
+      </p>
+    </solution>
   </example>
 
   <example>
-    <p>
-      Consider the linear equation <m>3x + 2y = 6</m>.
-      This is the <xref ref="def-linear_equation" text="title"/>.
-      We can place this in <xref ref="def-slope_intercept" text="title"/> by subtracting <m>3x</m> from both sides to obtain
-      <me>2y = -3x + 6</me>
-      then dividing both sides by <m>2</m>
-      <me>y = -\frac{3}{2}x + 3.</me>
-      This tells us the linear equation <m>3x + 2y = 6</m> represents the line through the point <m>(0,3)</m> with slope <m>-3/2</m>.
-    </p>
-    <figure>
-      <image>
-	<latex-image>
-	  <xi:include parse="text" href="tex/3x_2y_6.tex"/>
-	</latex-image>
-      </image>
-      <caption>The graph of the line <m>3x + 2y = 6</m>.</caption>
-    </figure>
+    <statement>
+      <p>
+	Find the slope and <m>y</m>-intercept for line represented by the linear equation <m>3x + 2y = 6</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+	Consider the linear equation <m>3x + 2y = 6</m>.
+	This is the <xref ref="def-linear_equation" text="title"/>.
+	We can place this in <xref ref="def-slope_intercept" text="title"/> by subtracting <m>3x</m> from both sides to obtain
+	<me>2y = -3x + 6</me>
+	then dividing both sides by <m>2</m>
+	<me>y = -\frac{3}{2}x + 3.</me>
+	This tells us the linear equation <m>3x + 2y = 6</m> represents the line through the point <m>(0,3)</m> with slope <m>-3/2</m>.
+      </p>
+      <figure>
+	<image>
+	  <latex-image>
+	    <xi:include parse="text" href="tex/3x_2y_6.tex"/>
+	  </latex-image>
+	</image>
+	<caption>The graph of the line <m>3x + 2y = 6</m>.</caption>
+      </figure>
+    </solution>
   </example>
 
   <definition xml:id="def-point_slope">
@@ -109,30 +128,44 @@
   </definition>
 
   <example>
-    <p>
-      Using <xref ref="def-point_slope" text="title"/>, the equation of the line through <m>(1,2)</m> with slope <m>3</m> is
-      <me>y - 2 = 3(x - 1).</me>
-    </p>
+    <statement>
+      <p>
+	Find the <xref ref="def-point_slope"/> using hte point <m>(1,2)</m> and the slope <m>3</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+	Using <xref ref="def-point_slope" text="title"/>, the equation of the line through <m>(1,2)</m> with slope <m>3</m> is
+	<me>y - 2 = 3(x - 1).</me>
+      </p>
+    </solution>
   </example>
 
   <example>
-    <p>
-      We can use the <xref ref="def-point_slope" text="title"/> to find the line between the points <m>(3,2)</m> and <m>(4,3)</m>.
-      First compute the slope of the line
-      <me>m = \frac{3 - 2}{4 - 3} = \frac{1}{1} = 1.</me>
-      Use either of the two points to find the equation
-      <me>y - 2 = x - 3
-      \quad\text{or}\quad
-      y - 3 = x - 4.</me>
-    </p>
-    <p>
-      While these equations may look different, we can compare them by placing them in <xref ref="def-slope_intercept" text="title"/>.
-      For the first equation, add <m>2</m> to both sides to get
-      <me>y =  x - 1</me>
-      and for the second, add <m>3</m> to both sides to get
-      <me>y = x - 1.</me>
-      In this form, we can see that these equations represent the same line.
-    </p>
+    <statement>
+      <p>
+	Find an equation for the line that passes through the points <m>(3,2)</m> and <m>(4,3)</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+	We can use the <xref ref="def-point_slope" text="title"/> to find the line between the points <m>(3,2)</m> and <m>(4,3)</m>.
+	First compute the slope of the line
+	<me>m = \frac{3 - 2}{4 - 3} = \frac{1}{1} = 1.</me>
+	Use either of the two points to find the equation
+	<me>y - 2 = x - 3
+	\quad\text{or}\quad
+	y - 3 = x - 4.</me>
+      </p>
+      <p>
+	While these equations may look different, we can compare them by placing them in <xref ref="def-slope_intercept" text="title"/>.
+	For the first equation, add <m>2</m> to both sides to get
+	<me>y =  x - 1</me>
+	and for the second, add <m>3</m> to both sides to get
+	<me>y = x - 1.</me>
+	In this form, we can see that these equations represent the same line.
+      </p>
+    </solution>
   </example>
 
   <xi:include href="worksheets/wksht-rep_of_lines.ptx"/>

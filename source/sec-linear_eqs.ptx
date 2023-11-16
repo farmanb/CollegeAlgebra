@@ -44,24 +44,33 @@
   </definition>
 
   <example>
-    <p>
-      The equation
-      <me>x + 3y - 2x + 7 = 5 + y - 4x</me>
-      can be placed in standard form as follows.
-      First, move the variables to the left-hand side of the equation.
-      Subtract <m>y - 4x</m> from both sides
-      <me>x - 2x + 3y + 7 - (y - 4x) = 5</me>
-      and distribute the negative
-      <me>x - 2x + 3y + 7 - y + 4x = 5.</me>
-      Collect like terms
-      <me>x - 2x + 4x + 3y - y + 7 = 5</me>
-      and simplify
-      <me>3x + 2y + 7 = 5.</me>
-      Finally, subtract 7 from both sides of the equation
-      <me>3x + 4y = 5 - 7</me>
-      and simplify to arrive at the standard form
-      <me>3x + 4y = -2.</me>
-    </p>
+    <statement>
+      <p>
+	Place the linear equation
+	<me>x + 3y - 2x + 7 = 5 + y - 4x</me>
+	into <xref ref="def-linear_equation"/>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+	The equation
+	<me>x + 3y - 2x + 7 = 5 + y - 4x</me>
+	can be placed in standard form as follows.
+	First, move the variables to the left-hand side of the equation.
+	Subtract <m>y - 4x</m> from both sides
+	<me>x - 2x + 3y + 7 - (y - 4x) = 5</me>
+	and distribute the negative
+	<me>x - 2x + 3y + 7 - y + 4x = 5.</me>
+	Collect like terms
+	<me>x - 2x + 4x + 3y - y + 7 = 5</me>
+	and simplify
+	<me>3x + 2y + 7 = 5.</me>
+	Finally, subtract 7 from both sides of the equation
+	<me>3x + 4y = 5 - 7</me>
+	and simplify to arrive at the standard form
+	<me>3x + 4y = -2.</me>
+      </p>
+    </solution>
   </example>
 
   <example>
@@ -92,47 +101,61 @@
       </p>
 
       <example>
-	<p>
-	  The solutions to the linear equation <m>y = 0</m> have the form <m>(x, 0)</m>, where <m>x</m> is allowed to be any real number.
-	  The graph of this equation forms the <m>x</m>-axis in the Cartesian plane.
-	  <figure xml:id="fig-x_axis">
-	    <image xml:id="img-x_axis">
-	      <latex-image>
-		<xi:include parse="text" href="tex/x_axis.tex"/>
-	      </latex-image>
-	    </image>
-	  </figure>
-	</p>
+	<statement>
+	  <p>
+	    Graph the linear equation <m>y = 0</m>.
+	  </p>
+	</statement>
+	<solution>
+	  <p>
+	    The solutions to the linear equation <m>y = 0</m> have the form <m>(x, 0)</m>, where <m>x</m> is allowed to be any real number.
+	    The graph of this equation forms the <m>x</m>-axis in the Cartesian plane.
+	    <figure xml:id="fig-x_axis">
+	      <image xml:id="img-x_axis">
+		<latex-image>
+		  <xi:include parse="text" href="tex/x_axis.tex"/>
+		</latex-image>
+	      </image>
+	    </figure>
+	  </p>
+	</solution>
       </example>
       
       <example>
-	<p>
-	  The linear equation <m>0x + 3y = 7</m> simplifies to <m>y = \frac{7}{3}</m>.
-	  The graph of this equation is a horizontal line <m>\frac{7}{3}</m> units above the <m>x</m>-axis.
-	  <figure xml:id="fig-horiz_line">
-	    <caption>The graph of <m>y = \frac{7}{3}</m>.</caption>
-	    <image xml:id="img-horiz_line" width="50%">
-	      <latex-image >
-		\begin{tikzpicture}
-		\def\size{5}
+	<statement>
+	  <p>
+	    Graph the linear equation <m>0x + 3y = 7</m>.
+	  </p>
+	</statement>
+	<solution>
+	  <p>
+	    The linear equation <m>0x + 3y = 7</m> simplifies to <m>y = \frac{7}{3}</m>.
+	    The graph of this equation is a horizontal line <m>\frac{7}{3}</m> units above the <m>x</m>-axis.
+	    <figure xml:id="fig-horiz_line">
+	      <caption>The graph of <m>y = \frac{7}{3}</m>.</caption>
+	      <image xml:id="img-horiz_line" width="50%">
+		<latex-image >
+		  \begin{tikzpicture}
+		  \def\size{5}
 
-		\path [draw, help lines, opacity=.5]  (-\size,0) grid (\size,\size);
+		  \path [draw, help lines, opacity=.5]  (-\size,0) grid (\size,\size);
 
-		\foreach \i in {1,...,\size} 
-		\draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
-		(-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
-		(2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$};
-		<!-- (2.5pt,-\i) -\- +(-5pt,0) node [anchor=east, font=\small] {$-\i$}; -->
+		  \foreach \i in {1,...,\size} 
+		  \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
+		  (-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
+		  (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$};
+		  <!-- (2.5pt,-\i) -\- +(-5pt,0) node [anchor=east, font=\small] {$-\i$}; -->
 
-		\draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
-		\draw [very thick,->] (0,0) -- (0,\size+.1) node [anchor=west] {$y$};
+		  \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
+		  \draw [very thick,->] (0,0) -- (0,\size+.1) node [anchor=west] {$y$};
 
-		\draw [thick,blue] (-5, 7/3) -- (5,7/3);
-		\end{tikzpicture}
-	      </latex-image>
-	    </image>
-	  </figure>
-	</p>
+		  \draw [thick,blue] (-5, 7/3) -- (5,7/3);
+		  \end{tikzpicture}
+		</latex-image>
+	      </image>
+	    </figure>
+	  </p>
+	</solution>
       </example>
     </subsubsection>
 
@@ -147,47 +170,61 @@
       </p>
 
       <example>
-	<p>
-	  The solutions to the linear equation <m>x = 0</m> have the form <m>(0, y)</m>, where <m>y</m> is allowed to be any real number.
-	  The graph of this equation forms the <m>y</m>-axis in the Cartesian plane.
-	</p>
-	<figure xml:id="fig-y_axis">
+	<statement>
+	  <p>
+	    Graph the linear equation <m>x = 0</m>.
+	  </p>
+	</statement>
+	<solution>
+	  <p>
+	    The solutions to the linear equation <m>x = 0</m> have the form <m>(0, y)</m>, where <m>y</m> is allowed to be any real number.
+	    The graph of this equation forms the <m>y</m>-axis in the Cartesian plane.
+	  </p>
+	  <figure xml:id="fig-y_axis">
 	    <image xml:id="img-y_axis">
 	      <latex-image>
 		<xi:include parse="text" href="tex/y_axis.tex"/>
 	      </latex-image>
 	    </image>
 	  </figure>
+	</solution>
       </example>
       
       <example>
-	<p>
-	  The linear equation <m>3x + 0y = 2</m> reduces to <m>x = \frac{2}{3}</m>.
-	  The graph of this equation is a vertical line <m>\frac{2}{3}</m> units to the right of the <m>y</m>-axis.
-	  <figure xml:id="fig-vert_line">
-	    <caption>The graph of <m>x = \frac{2}{3}</m>.</caption>
-	    <image xml:id="img-vert_line" width="50%">
-	      <latex-image >
-		\begin{tikzpicture}
-		\def\size{5}
+	<statemnt>
+	  <p>
+	    Graph the linear equation <m>3x + 0y = 2</m>.
+	  </p>
+	</statemnt>
+	<solution>
+	  <p>
+	    The linear equation <m>3x + 0y = 2</m> reduces to <m>x = \frac{2}{3}</m>.
+	    The graph of this equation is a vertical line <m>\frac{2}{3}</m> units to the right of the <m>y</m>-axis.
+	    <figure xml:id="fig-vert_line">
+	      <caption>The graph of <m>x = \frac{2}{3}</m>.</caption>
+	      <image xml:id="img-vert_line" width="50%">
+		<latex-image >
+		  \begin{tikzpicture}
+		  \def\size{5}
 
-		\path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
+		  \path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
 
-		\foreach \i in {1,...,\size} 
-		\draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
-		(-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
-		(2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
-		(2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
+		  \foreach \i in {1,...,\size} 
+		  \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
+		  (-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
+		  (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
+		  (2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
 
-		\draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
-		\draw [very thick,->] (0,-\size) -- (0,\size+.1) node [anchor=west] {$y$};
+		  \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
+		  \draw [very thick,->] (0,-\size) -- (0,\size+.1) node [anchor=west] {$y$};
 
-		\draw [thick,blue] (2/3, -5) -- (2/3,5);
-		\end{tikzpicture}
-	      </latex-image>
-	    </image>
-	  </figure>
-	</p>
+		  \draw [thick,blue] (2/3, -5) -- (2/3,5);
+		  \end{tikzpicture}
+		</latex-image>
+	      </image>
+	    </figure>
+	  </p>
+	</solution>
       </example>
     </subsubsection>
 
@@ -217,12 +254,19 @@
       </p>
 
       <example>
-	<p>
-	  To find the <m>x</m>-intercept of the linear equation <m>2x + 3y = 6</m>, we substitute <m>0</m> for <m>y</m> to get
-	  <me>2x = 6.</me>
-	  To solve for <m>x</m>, we divide both sides by <m>2</m> to see that <M>x = 3</M>.
-	  Therefore the <m>x</m>-intercept of the linear equation <m>2x + 3y = 6</m> is the point <m>(3,0)</m>.
-	</p>
+	<statement>
+	  <p>
+	    Find the <m>x</m>-intercept of the linear equation <m>2x + 3y = 5</m>.
+	  </p>
+	</statement>
+	<solution>
+	  <p>
+	    To find the <m>x</m>-intercept of the linear equation <m>2x + 3y = 6</m>, we substitute <m>0</m> for <m>y</m> to get
+	    <me>2x = 6.</me>
+	    To solve for <m>x</m>, we divide both sides by <m>2</m> to see that <M>x = 3</M>.
+	    Therefore the <m>x</m>-intercept of the linear equation <m>2x + 3y = 6</m> is the point <m>(3,0)</m>.
+	  </p>
+	</solution>
       </example>
 
       <claim>
@@ -262,46 +306,38 @@
       </claim>
 
       <example>
-	<p>
-	  To find the <m>y</m>-intercept of the linear equation <m>2x + 3y = 6</m>, we substitute <m>0</m> for <m>x</m> to get
-	  <me>3y = 6.</me>
-	  To solve for <m>y</m>, we divide both sides by <m>3</m> to see that <m>y = 2</m>.
-	  Therefore the <m>y</m>-intercept of the linear equation <m>2x + 3y = 6</m> is the point <m>(0,2)</m>.
-	</p>
+	<statement>
+	  <p>
+	    Find the <m>y</m>-intercept of the linear equation <m>2x + 3y = 6</m>.
+	  </p>
+	</statement>
+	<solution>
+	  <p>
+	    To find the <m>y</m>-intercept of the linear equation <m>2x + 3y = 6</m>, we substitute <m>0</m> for <m>x</m> to get
+	    <me>3y = 6.</me>
+	    To solve for <m>y</m>, we divide both sides by <m>3</m> to see that <m>y = 2</m>.
+	    Therefore the <m>y</m>-intercept of the linear equation <m>2x + 3y = 6</m> is the point <m>(0,2)</m>.
+	  </p>
+	</solution>
       </example>
 
       <example>
-	<p>
-	  To graph the equation <m>2x + 3y = 6</m>, we simply need to plot the two intercepts and draw a straight line through them.
-	  <figure xml:id="fig-2x_3y_6">
-	    <caption>The graph of <m>2x + 3y = 6</m>.</caption>
-	    <image xml:id="img-2x_3y_6" width="50%">
-	      <latex-image >
-		\begin{tikzpicture}
-		\def\size{5}
-
-		\path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
-
-		\foreach \i in {1,...,\size} 
-		\draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
-		(-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
-		(2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
-		(2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
-
-		\draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
-		\draw [very thick,->] (0,-\size) -- (0,\size+.1) node [anchor=west] {$y$};
-
-		\draw [thick,blue] (-4.5, 5) -- (5,-4/3);
-		\node at (0,2) {$\bullet$};
-		\node [above right] at (0,2) {$(0, 2)$};
-
-		\node at (3,0) {$\bullet$};
-		\node [above right] at (3,0) {$(3,0)$};
-		\end{tikzpicture}
-	      </latex-image>
-	    </image>
-	  </figure>	
-	</p>
+	<statement>
+	  <p>Graph the equation <m>2x + 3y = 6</m></p>.
+	</statement>
+	<solution>
+	  <p>
+	    To graph the equation <m>2x + 3y = 6</m>, we simply need to plot the two intercepts and draw a straight line through them.
+	    <figure xml:id="fig-2x_3y_6">
+	      <caption>The graph of <m>2x + 3y = 6</m>.</caption>
+	      <image xml:id="img-2x_3y_6" width="50%">
+		<latex-image >
+		  <xi:include parse="text" href="tex/2x_3y_6.tex"/>
+		</latex-image>
+	      </image>
+	    </figure>	
+	  </p>
+	</solution>
       </example>
     </subsubsection>
   </subsection>
