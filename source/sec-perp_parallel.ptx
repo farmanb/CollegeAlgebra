@@ -15,5 +15,118 @@
       </li>
     </ul>
   </objectives>
-  
+
+  <definition xml:id="def-parallel">
+    <title>Parallel</title>
+    <p>
+      Two lines in the Cartesian plane are said to be <term>parallel</term>
+      <idx>
+	<h>Line</h>
+	<h>Parallel</h>
+      </idx>
+      if they do not intersect.
+    </p>
+  </definition>
+
+  <figure>
+    <image>
+      <latex-image>
+	\begin{tikzpicture}
+	\def\size{5}
+	\path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
+	\foreach \i in {1,...,\size} 
+	\draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
+	(-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
+	(2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
+	(2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
+	\draw [very thick,->] (-\size,0) -- (\size+.2,0) node [anchor=south] {$x$};
+	\draw [very thick,->] (0,-\size) -- (0,\size+.2) node [anchor=west] {$y$};
+
+	\draw [thick,blue] (-5,-4) -- (4,5);
+	\draw [thick,blue] (-5,-3) -- (3,5);
+	\end{tikzpicture}
+      </latex-image>
+    </image>
+    <caption>Parallel lines.</caption>
+  </figure>
+
+  <theorem xml:id="thm-parallel">
+    <statement>
+      Two lines are parallel if and only if they have the same slope.
+    </statement>
+  </theorem>
+
+  <example>
+    <statement>
+      <p>
+	Determine whether the lines
+	<me>
+	  -x + 3y=-4
+	  \quad\text{and}\quad
+	  -4x + 12y = 9
+	</me>
+	are parallel.
+      </p>
+    </statement>
+
+    <solution>
+      <p>
+	In order to determine whether these lines are parallel, we need to find the slope of each line.
+	We do this by placing each line into <xref ref="def-slope_intercept" text="title"/>.
+      </p>
+      <p>
+	For the first line, add <m>x</m> to both sides
+	<me>3y = x - 4</me>
+	and divide both sides by <m>3</m>
+	<me>y = \frac{1}{3} - \frac{4}{3}.</me>
+	This tells us the slope of the line <m>-x + 3y = -4</m> is <m>1/3</m>.
+      </p>
+      <p>
+	For the second line, add <m>4x</m> to both sides
+	<me>12y = 4x + 9,</me>
+	divide both sides by <m>12</m>
+	<me>y = \frac{4}{12}x + \frac{9}{12}</me>
+	and reduce
+	<me>y = \frac{1}{3}x + \frac{3}{4}.</me>
+	This tells the slope of the line <m>-4x + 12y = 9</m> is also <m>1/3</m>.
+	Therefore the lines <m>-x + 3y = -4</m> and <m>-4x + 12y = 9</m> are parallel by <xref ref="thm-parallel"/>.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+	Find the equation of the line parallel to <m>4x + 2y = 9</m> that passes through the point <m>(-1,5)</m>.
+	Write your answer in <xref ref="def-slope_intercept"/>
+      </p>
+    </statement>
+    <solution>
+      <p>
+	First, find the slope of the line <m>4x + 2y = 9</m> by placing the equation into <xref ref="def-slope_intercept" text="title"/>.
+	Subtract <m>4x</m> from both sides
+	<me>2y = -4x + 9,</me>
+	divide both sides by <m>2</m>
+	<me>y = -\frac{4}{2}x + \frac{9}{2}</me>
+	and simplify to
+	<me>y = -2x + \frac{9}{2}.</me>
+	In this form, we see the slope of the line is <m>-2.</m>
+      </p>
+      <p>
+	By <xref ref="thm-parallel"/>, the slope of a line parallel to <m>4x + 2y = 9</m> is <m>-2</m>.
+	Now we use <xref ref="def-point_slope"/> to write down a line with slope <m>-2</m> through the point <m>(-1,5)</m>
+	<me>y - 5 = -2(x - (-1))</me>
+	and simplify
+	<me>y - 5 = -2(x + 1).</me>
+      </p>
+      <p>
+	Finally, to put this line into <xref ref="def-slope_intercept" text="title"/>, distribute the <m>-2</m>
+	<me>y - 5 = -2x - 2,</me>
+	add 5 to both sides of the equation
+	<me>y = -2x -2 + 5,</me>
+	and simplify
+	<me>y = -2x + 3.</me>
+      </p>
+    </solution>
+  </example>
 </section>
