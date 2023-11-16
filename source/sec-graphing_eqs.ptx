@@ -21,6 +21,7 @@
   </introduction>
   
   <definition xml:id="defn-solution">
+    <title>Solution</title>
     <p>
       A <term>solution</term>
       <idx>
@@ -52,6 +53,7 @@
   </example>
 
   <definition xml:id="defn-graph">
+    <title>Graph</title>
     <p>
       The <term>graph</term>
       <idx>
