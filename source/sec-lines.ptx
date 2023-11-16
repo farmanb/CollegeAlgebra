@@ -55,7 +55,7 @@
     </p>
   </example>
   
-  <definition xml:id="defn-slope_intercept">
+  <definition xml:id="def-slope_intercept">
     <title>The Slope-Intercept Form of a Line</title>
     <p>
       The <term>slope-intercept form of the line</term>
@@ -79,7 +79,7 @@
     <p>
       Consider the linear equation <m>3x + 2y = 6</m>.
       This is the <xref ref="def-linear_equation" text="title"/>.
-      We can place this in <xref ref="defn-slope_intercept" text="title"/> by subtracting <m>3x</m> from both sides to obtain
+      We can place this in <xref ref="def-slope_intercept" text="title"/> by subtracting <m>3x</m> from both sides to obtain
       <me>2y = -3x + 6</me>
       then dividing both sides by <m>2</m>
       <me>y = -\frac{3}{2}x + 3.</me>
@@ -126,7 +126,7 @@
       y - 3 = x - 4.</me>
     </p>
     <p>
-      While these equations may look different, we can compare them by placing them in <xref ref="defn-slope_intercept" text="title"/>.
+      While these equations may look different, we can compare them by placing them in <xref ref="def-slope_intercept" text="title"/>.
       For the first equation, add <m>2</m> to both sides to get
       <me>y =  x - 1</me>
       and for the second, add <m>3</m> to both sides to get
