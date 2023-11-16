@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Equations and Inequalities in Two Variables</title>
+
+  <introduction>
+    <p>
+    In this chapter, we study equations and inequalities in two variables and their graphical representations in the Cartesian plane.
+    </p>
+  </introduction>
+  
+  <xi:include href="sec-circles.ptx"/>
+  <xi:include href="sec-linear_eqs.ptx"/>
+  <xi:include href="sec-lines.ptx"/>
+  <xi:include href="sec-perp_parallel.ptx"/>
+  <xi:include href="sec-linear_ineq.ptx"/>
+</chapter>  

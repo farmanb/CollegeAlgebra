@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-chapter-title" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="ch-cartesian_plane" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>The Cartesian Plane</title>
 
   <introduction>
-    <p>In this chapter, we study the Cartesian plane and graphical representations of equations in the Cartesian plane. </p>
+    <p>In this chapter, we study the Cartesian plane and graphical representations of equations in two variables. </p>
   </introduction>
 
   <!-- include sections -->
@@ -12,10 +12,7 @@
   <xi:include href="sec-graphing_eqs.ptx"/>
   <xi:include href="sec-distance.ptx"/>
   <xi:include href="sec-midpoint.ptx"/>
-  <xi:include href="sec-circles.ptx"/>
-  <xi:include href="sec-linear_eqs.ptx"/>
-  <xi:include href="sec-lines.ptx"/>
-  <xi:include href="sec-perp_parallel.ptx"/>
-  <xi:include href="sec-linear_ineq.ptx"/>
 </chapter>
+
+
 
