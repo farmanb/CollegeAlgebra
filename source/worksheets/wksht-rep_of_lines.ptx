@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet>
+  <title>Representation of Lines</title>
+  <objectives>
+    <ul>
+      <li>
+	Determine the slope of a line through two points.
+      </li>
+      <li>
+	<p>
+	  Represent a line using
+	  <ul>
+	    <li>Slope-Intercept Form,</li>
+	    <li>Point-Slope Form, and</li>
+	    <li>Standard Form.</li>
+	  </ul>
+	</p>
+      </li>
+    </ul>
+  </objectives>
+
+  <page>
+    <exercise workspace="1in">
+      <p>
+	Find the slope of the line through the points <m>(2,11)</m> and <m>(7,1)</m>.
+      </p>
+    </exercise>
+    
+    <exercise workspace="1in">
+      <p>
+	Write the equation of the line through the points <m>(2,11)</m> and <m>(7,1)</m> in Point-Slope Form.
+      </p>
+    </exercise>
+
+    <exercise workspace="1in">
+      <p>
+	Write the equation of the line through the points <m>(2,11)</m> and <m>(7,1)</m> in Slope-Intercept Form.
+      </p>
+    </exercise>
+
+    <exercise workspace="1in">
+      <p>
+	Write the equation of the line through the points <m>(2,11)</m> and <m>(7,1)</m> in Standard Form.
+      </p>
+    </exercise>
+
+    <exercise workspace="1in">
+      <p>
+	Find the slope of the line represented by the equation <m>\frac{1}{2}x - \frac{2}{3}y = 1</m>.
+      </p>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise>
+      <introduction>
+	<p>
+	You and a friend used the same parking garage.
+	You parked your car for 2 hours and it cost <m>\$12</m>.
+	Your friend parked her car for 4 hours and it cost <m>\$22</m>.
+	</p>
+      </introduction>
+      <task workspace="1in">
+	<p>
+	  Let <m>x</m> represent the number of hours of parking and let <m>y</m> represent the cost.
+	  Assuming the relationship is linear, how much does parking cost per hour?
+	</p>
+      </task>
+      <task workspace="1in">
+	<p>
+	  Find a linear equation that models the cost of parking.
+	</p>
+      </task>
+      <task workspace="1in">
+	<p>
+	  The garage charges a flat fee to enter the parking garage.
+	  How much is this fee?
+	</p>
+      </task>
+    </exercise>
+  </page>
+</worksheet>
