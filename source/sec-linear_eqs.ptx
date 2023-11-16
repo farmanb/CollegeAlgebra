@@ -97,7 +97,7 @@
 	  <figure xml:id="fig-x_axis">
 	    <image xml:id="img-x_axis">
 	      <latex-image>
-		<xi:include parse="text" href="x_axis.tex"/>
+		<xi:include parse="text" href="tex/x_axis.tex"/>
 	      </latex-image>
 	    </image>
 	  </figure>
@@ -153,7 +153,7 @@
 	<figure xml:id="fig-y_axis">
 	    <image xml:id="img-y_axis">
 	      <latex-image>
-		<xi:include parse="text" href="y_axis.tex"/>
+		<xi:include parse="text" href="tex/y_axis.tex"/>
 	      </latex-image>
 	    </image>
 	  </figure>
@@ -346,7 +346,7 @@
 	</p>
 	  <image width="50%" xml:id="img-5x_2y_10_blank">
 	    <latex-image >
-	      <xi:include parse="text" href="10_10_grid.tex" />
+	      <xi:include parse="text" href="tex/10_10_grid.tex" />
 	    </latex-image>
 	  </image>
       </exercise>
@@ -378,7 +378,7 @@
 	  <p>
 	      <image xml:id="img-lin_eq-match_grid_e">
 		<latex-image>
-		  <xi:include parse="text" href="wksht-lin_eq-match_grid_e.tex"/>
+		  <xi:include parse="text" href="tex/wksht-lin_eq-match_grid_e.tex"/>
 		</latex-image>
 	      </image> 
 	    </p>
@@ -388,7 +388,7 @@
 	    <p>
 	      <image xml:id="img-lin_eq-match_grid_a">
 	      <latex-image>
-		<xi:include parse="text" href="wksht-lin_eq-match_grid_a.tex"/>
+		<xi:include parse="text" href="tex/wksht-lin_eq-match_grid_a.tex"/>
 	      </latex-image>
 	    </image>
 	    </p>
@@ -398,7 +398,7 @@
 	    <p>
 	    <image xml:id="img-lin_eq-match_grid_d">
 	      <latex-image>
-		<xi:include parse="text" href="wksht-lin_eq-match_grid_d.tex"/>
+		<xi:include parse="text" href="tex/wksht-lin_eq-match_grid_d.tex"/>
 	      </latex-image>
 	    </image>
 	    </p>
@@ -408,7 +408,7 @@
 	    <p>
 	    <image xml:id="img-lin_eq-match_grid_f">
 	      <latex-image>
-		<xi:include parse="text" href="wksht-lin_eq-match_grid_f.tex"/>
+		<xi:include parse="text" href="tex/wksht-lin_eq-match_grid_f.tex"/>
 	      </latex-image>
 	    </image>
 	    </p>
@@ -416,7 +416,7 @@
 	    <p>
 	      <image xml:id="img-lin_eq-match_grid_b">
 	      <latex-image>
-		<xi:include parse="text" href="wksht-lin_eq-match_grid_b.tex"/>
+		<xi:include parse="text" href="tex/wksht-lin_eq-match_grid_b.tex"/>
 	      </latex-image>
 	    </image>
 	    </p>
@@ -424,7 +424,7 @@
 	    <p>
 	    <image xml:id="img-lin_eq-match_grid_c">
 	      <latex-image>
-		<xi:include parse="text" href="wksht-lin_eq-match_grid_c.tex"/>
+		<xi:include parse="text" href="tex/wksht-lin_eq-match_grid_c.tex"/>
 	      </latex-image>
 	    </image>
 	    </p>
