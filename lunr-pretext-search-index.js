@@ -106,7 +106,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Graphing Equations",
-  "body": " Graphing Equations     Identify points in the plane that are solutions to equations in two variables.     When two quantities vary together, the relationship is modeled by an equation in two variables. By convention, mathematicians use the variables and . Often, it is convenient to visualize this relationship using a graph.    Solution  A solution   Equation  Solution  to an equation in two variables, and , is an ordered pair that make the equation true when  the first coordinate, , is substituted into the equation for , and  the second coordinate, , is substituted into the equation for .      Consider the equation . The ordered pair is a solution to this equation because is a true statement. The ordered pair is not a solution to this equation because is a false statement.    Graph  The graph   Equation  Graph  of an equation in the variables and consists of all the points in the plane that are solutions to the equation.    The graph of the equation is shown below. Coordinates for some of the points on this graph have been marked. In general, every point on this line has coordinates of the form , where can be any real number we choose.   The graph of the equation .        Plotting Points on a Graph    Identify points in the plane that are solutions to equations in two variables.     Consider the equation . The graph of this equation is given below. Use the equation and the graph to answer the following questions.      Graph of .    Find the value of such that the point lies on the graph of the equation. Plot this point on the graph above and label it.  Find the value of such that the point lies on the graph of the equation. Plot this point on the graph above and label it.  Is the point on the graph of the equation? Justify your answer using the equation of the graph.  Is the point on the graph of the equation? Justify your answer using the equation of the graph.   "
+  "body": " Graphing Equations     Identify points in the plane that are solutions to equations in two variables.     When two quantities vary together, the relationship is modeled by an equation in two variables. By convention, mathematicians use the variables and . Often, it is convenient to visualize this relationship using a graph.    Solution to an Equation  A solution   Equation  Solution  to an equation in the variables and is an ordered pair that make the equation true when  the first coordinate, , is substituted into the equation for , and  the second coordinate, , is substituted into the equation for .      Consider the equation . The ordered pair is a solution to this equation because is a true statement. The ordered pair is not a solution to this equation because is a false statement.    Graph of an Equation  The graph   Equation  Graph  of an equation in the variables and consists of all the points in the plane that are solutions to the equation.    The graph of the equation is shown below. Coordinates for some of the points on this graph have been marked. In general, every point on this line has coordinates of the form , where can be any real number we choose.   The graph of the equation .        Plotting Points on a Graph    Identify points in the plane that are solutions to equations in two variables.     Consider the equation . The graph of this equation is given below. Use the equation and the graph to answer the following questions.      Graph of .    Find the value of such that the point lies on the graph of the equation. Plot this point on the graph above and label it.  Find the value of such that the point lies on the graph of the equation. Plot this point on the graph above and label it.  Is the point on the graph of the equation? Justify your answer using the equation of the graph.  Is the point on the graph of the equation? Justify your answer using the equation of the graph.   "
 },
 {
   "id": "objectives-3",
@@ -123,8 +123,8 @@ var ptx_lunr_docs = [
   "url": "sec-cartesian_coordinates-graphing_equations.html#defn-solution",
   "type": "Definition",
   "number": "1.2.1",
-  "title": "Solution.",
-  "body": " Solution  A solution   Equation  Solution  to an equation in two variables, and , is an ordered pair that make the equation true when  the first coordinate, , is substituted into the equation for , and  the second coordinate, , is substituted into the equation for .    "
+  "title": "Solution to an Equation.",
+  "body": " Solution to an Equation  A solution   Equation  Solution  to an equation in the variables and is an ordered pair that make the equation true when  the first coordinate, , is substituted into the equation for , and  the second coordinate, , is substituted into the equation for .    "
 },
 {
   "id": "example-1",
@@ -141,8 +141,8 @@ var ptx_lunr_docs = [
   "url": "sec-cartesian_coordinates-graphing_equations.html#defn-graph",
   "type": "Definition",
   "number": "1.2.3",
-  "title": "Graph.",
-  "body": " Graph  The graph   Equation  Graph  of an equation in the variables and consists of all the points in the plane that are solutions to the equation.  "
+  "title": "Graph of an Equation.",
+  "body": " Graph of an Equation  The graph   Equation  Graph  of an equation in the variables and consists of all the points in the plane that are solutions to the equation.  "
 },
 {
   "id": "example-2",
@@ -1042,7 +1042,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.5",
   "title": "Linear Inequalities",
-  "body": " Linear Inequalities    Graph linear inequalities.  Graph linear absolute value inequalities.    "
+  "body": " Linear Inequalities    Graph linear inequalities.  Graph linear absolute value inequalities.     Linear Inequality  A linear inequality   Inequality  Linear  in the variables and is an expression of the form , , , or .    Solution to an Inequality  A solution   Inequality  Linear  Solution  to an inequality in the variables and is an ordered pair that make the equation true when  the first coordinate, , is substituted into the inequality for , and  the second coordinate, , is substituted into the inequality for .      Graph of an Inequality  The graph   Inequality  Linear  Graph  of an inequality in the variables and consists of all the points in the plane that are solutions to the inequality.     Graph the linear inequality     The graph of consists of all the points that are below the line . We use a dashed line to indicate the points on the line are not a solution to the inequality and shade the portion of the plane beneath the line to indicate they are solutions to the inequality.           Graph the linear inequality     The graph of consists of all the points that are either on or below the line . We use a solid line to indicate the points on the line are a solution to the linear inequality and shade the portion of the plane beneath the line to indicate that those points are also solutions.           Graph the linear inequality     The graph of consists of all the points that are either on or above the line . We use a dashed line to indicate the points on the line are not a solution to the inequality and shade the portion of the plane that contains solutions.           Graph the linear inequality     The graph of consists of all the points that are either on or above the line . We use a solid line to indicate the points on the line are a solution to the linear inequality and shade the portion of the plane above the line to indicate that those points are also solutions.         "
 },
 {
   "id": "objectives-17",
@@ -1052,6 +1052,69 @@ var ptx_lunr_docs = [
   "number": "2.5",
   "title": "",
   "body": "  Graph linear inequalities.  Graph linear absolute value inequalities.   "
+},
+{
+  "id": "def-linear_inequality",
+  "level": "2",
+  "url": "sec-linear_ineq.html#def-linear_inequality",
+  "type": "Definition",
+  "number": "2.5.1",
+  "title": "Linear Inequality.",
+  "body": " Linear Inequality  A linear inequality   Inequality  Linear  in the variables and is an expression of the form , , , or .  "
+},
+{
+  "id": "def-solution_inequality",
+  "level": "2",
+  "url": "sec-linear_ineq.html#def-solution_inequality",
+  "type": "Definition",
+  "number": "2.5.2",
+  "title": "Solution to an Inequality.",
+  "body": " Solution to an Inequality  A solution   Inequality  Linear  Solution  to an inequality in the variables and is an ordered pair that make the equation true when  the first coordinate, , is substituted into the inequality for , and  the second coordinate, , is substituted into the inequality for .    "
+},
+{
+  "id": "defn-graph_inequality",
+  "level": "2",
+  "url": "sec-linear_ineq.html#defn-graph_inequality",
+  "type": "Definition",
+  "number": "2.5.3",
+  "title": "Graph of an Inequality.",
+  "body": " Graph of an Inequality  The graph   Inequality  Linear  Graph  of an inequality in the variables and consists of all the points in the plane that are solutions to the inequality.  "
+},
+{
+  "id": "example-25",
+  "level": "2",
+  "url": "sec-linear_ineq.html#example-25",
+  "type": "Example",
+  "number": "2.5.4",
+  "title": "",
+  "body": "  Graph the linear inequality     The graph of consists of all the points that are below the line . We use a dashed line to indicate the points on the line are not a solution to the inequality and shade the portion of the plane beneath the line to indicate they are solutions to the inequality.        "
+},
+{
+  "id": "example-26",
+  "level": "2",
+  "url": "sec-linear_ineq.html#example-26",
+  "type": "Example",
+  "number": "2.5.6",
+  "title": "",
+  "body": "  Graph the linear inequality     The graph of consists of all the points that are either on or below the line . We use a solid line to indicate the points on the line are a solution to the linear inequality and shade the portion of the plane beneath the line to indicate that those points are also solutions.        "
+},
+{
+  "id": "example-27",
+  "level": "2",
+  "url": "sec-linear_ineq.html#example-27",
+  "type": "Example",
+  "number": "2.5.8",
+  "title": "",
+  "body": "  Graph the linear inequality     The graph of consists of all the points that are either on or above the line . We use a dashed line to indicate the points on the line are not a solution to the inequality and shade the portion of the plane that contains solutions.        "
+},
+{
+  "id": "example-28",
+  "level": "2",
+  "url": "sec-linear_ineq.html#example-28",
+  "type": "Example",
+  "number": "2.5.10",
+  "title": "",
+  "body": "  Graph the linear inequality     The graph of consists of all the points that are either on or above the line . We use a solid line to indicate the points on the line are a solution to the linear inequality and shade the portion of the plane above the line to indicate that those points are also solutions.        "
 },
 {
   "id": "sec-sets",
@@ -1090,9 +1153,9 @@ var ptx_lunr_docs = [
   "body": " Roster Notation   Roster notation   Set  Roster Notation  specifies the elements of a set as a comma separated list surrounded by curly braces.  "
 },
 {
-  "id": "example-25",
+  "id": "example-29",
   "level": "2",
-  "url": "sec-sets.html#example-25",
+  "url": "sec-sets.html#example-29",
   "type": "Example",
   "number": "3.1.3",
   "title": "",
@@ -1108,9 +1171,9 @@ var ptx_lunr_docs = [
   "body": " Set-Builder Notation   Set-builder notation   Set  Set-Builder Notation  specifies the members of a set using a variable and condition for membership in the set.  "
 },
 {
-  "id": "example-26",
+  "id": "example-30",
   "level": "2",
-  "url": "sec-sets.html#example-26",
+  "url": "sec-sets.html#example-30",
   "type": "Example",
   "number": "3.1.5",
   "title": "",
@@ -1180,18 +1243,18 @@ var ptx_lunr_docs = [
   "body": "A relation   Relation  is a set of ordered pairs of real numbers. The domain   Relation  Domain  is the set of first coordinates in the relation. The range   Relation  Range  is the set of second coordinates in the relation. "
 },
 {
-  "id": "example-27",
+  "id": "example-31",
   "level": "2",
-  "url": "sec-relations.html#example-27",
+  "url": "sec-relations.html#example-31",
   "type": "Example",
   "number": "3.2.2",
   "title": "",
   "body": " Relations with only finitely many elements are easy to write down using . For example, defines a relation. The domain of this relation is the set and the range of this relation is the set   "
 },
 {
-  "id": "example-28",
+  "id": "example-32",
   "level": "2",
-  "url": "sec-relations.html#example-28",
+  "url": "sec-relations.html#example-32",
   "type": "Example",
   "number": "3.2.3",
   "title": "",
