@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Parallel and Perpendicular Lines</title>
+  <objectives>
+    <ul>
+      <li>
+	Determine whether two lines are parallel, perpendicular, or neither.
+      </li>
+      <li>
+	Find the equation of a line parallel to a given line.
+      </li>
+      <li>
+	Find the equation of a line perpendicular to a given line.
+      </li>
+    </ul>
+  </objectives>
+  <page>
+    <exercise>
+      <introduction>
+	<p>
+	  Determine whether the given lines are parallel, perpendicular, or neithe.
+	</p>
+      </introduction>
+      <task workspace="2in">
+	<p>
+	  <m>2x+3y = 5</m> and <m>2y-3x - 1 = 0</m>.
+	</p>
+      </task>
+      <task workspace="2in">
+	<p>
+	  <m>5x + 7y = 11</m> and <m>2x + 13y = 23</m>.
+	</p>
+      </task>
+      <task workspace="2in">
+	<p>
+	  <m>11x+2y - 3= 0</m> and <m>11x + 2y - 23 = 0</m>.
+	</p>
+      </task>
+    </exercise>
+  </page>
+  <page>
+    <exercise workspace="4in">
+      <p>
+	Find the equation of the line parallel to <m>5x + 7y = 11</m> that passes through the point <m>(2,2)</m>.
+      </p>
+    </exercise>
+    <exercise workspace="4in">
+      <p>
+	Find the equation of the line perpendicular to <m>5x + 7y = 11</m> that passes through the point <m>(2,2)</m>.
+      </p>
+    </exercise>
+  </page>
+</worksheet>
