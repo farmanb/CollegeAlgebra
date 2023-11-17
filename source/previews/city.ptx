@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exploration xmlns:xi="http://www.w3.org/2001/XInclude">
+    <!-- TODO: Finish this -->
+    <title>Navigating a Foreign City</title>
+
+    <introduction>
+      <p>
+	Suppose you and a friend are visiting a foreign city.
+	Neither of you can read the road signs, but you both brought a compass with you.
+	You arrived the day before your friend, so you had an opportunity to explore and found some places you would like to visit.
+	You have marked these locations on the map, relative to your hotel, which is marked with an <m>H</m>.
+      </p>
+      <figure xml:id="fig-city">
+	<caption>The City</caption>
+	<image xml:id="img-city" width="50%">
+	  <latex-image >
+  <xi:include parse="text" href="../tex/city_map.tex"/>
+	  </latex-image>
+	</image>
+      </figure>
+    </introduction>
+    <task xml:id="city-part-a">
+      <statement>
+	<p>
+	  Using only two instructions, explain to your friend how to get to the point labelled 1.
+	</p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+	<p>
+	  Repeat for each of the remaining points on the map.
+	</p>
+      </statement>
+    </task>
+  </exploration>
