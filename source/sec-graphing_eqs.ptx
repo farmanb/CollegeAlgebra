@@ -21,14 +21,14 @@
   </introduction>
   
   <definition xml:id="defn-solution">
-    <title>Solution</title>
+    <title>Solution to an Equation</title>
     <p>
       A <term>solution</term>
       <idx>
 	<h>Equation</h>
 	<h>Solution</h>
       </idx>
-      to an equation in two variables, <m>x</m> and <m>y</m>, is an ordered pair <m>(a,b)</m> that make the equation true when
+      to an equation in the variables <m>x</m> and <m>y</m> is an ordered pair <m>(a,b)</m> that make the equation true when
       <ol>
 	<li>
 	  the first coordinate, <m>a</m>, is substituted into the equation for <m>x</m>, and
@@ -53,7 +53,7 @@
   </example>
 
   <definition xml:id="defn-graph">
-    <title>Graph</title>
+    <title>Graph of an Equation</title>
     <p>
       The <term>graph</term>
       <idx>
@@ -79,6 +79,6 @@
       </image>
     </figure>
   </example>
-
+  
   <xi:include href="worksheets/wksht-plotting_points_on_a_graph.ptx"/>
 </section>
