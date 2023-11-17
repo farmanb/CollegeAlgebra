@@ -33,16 +33,7 @@
       <caption>The distance between points on the number line.</caption>
       <image xml:id="img-1_distance">
 	<latex-image>
-	  \begin{tikzpicture}
-	  \coordinate (A) at (-5,0);
-	  \coordinate (B) at (5,0);
-
-	  \draw [very thick,\lt->] (A) -- (B);
-	  \draw [very thick,blue] (-3,0) -- (4,0);
-	  \draw [very thick] (-3,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$x$};
-	  \draw [very thick] (4,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$y$};
-	  \draw[thick,decorate,decoration={brace,amplitude=10pt},yshift=2.5pt] (-3,0) -- (4,0) node [midway,above,yshift=5pt] {$\abs{x - y}$};
-	  \end{tikzpicture}
+	  <xi:include parse="text" href="tex/1_distance.tex"/>
 	</latex-image>
       </image>
     </figure>
@@ -62,24 +53,7 @@
 	<caption>Right triangle with sides of length <m>a</m>, <m>b</m>, and <m>c</m>.</caption>
 	<image width="50%">
 	  <latex-image>
-	    \begin{tikzpicture}
-	    \def\trilen{1}
-	    \def\triht{1}
-	    \coordinate (A) at (0,0);
-	    \coordinate (B) at (\trilen,0);
-	    \coordinate (C) at (\trilen,\triht);
-
-	    \def\squareside{.25}
-	    \draw (B) -- (\trilen,\squareside) -- (\trilen-\squareside,\squareside) -- (\trilen-\squareside,0);
-
-	    \draw[thick] node {$\bullet$} (A)
-	    -- (B) node {$\bullet$}
-	    -- (C) node {$\bullet$}
-	    -- (A);
-	    \draw [decorate,decoration={brace,amplitude=10pt,mirror},xshift=-4pt,yshift=0pt] (A) -- (B) node [midway,below,yshift=-8pt] {$a$};
-	    \draw [decorate,decoration={brace,amplitude=10pt,mirror},xshift=-4pt,yshift=0pt] (B) -- (C) node [midway,xshift=14pt] {$b$};
-	    \draw [decorate,decoration={brace,amplitude=10pt,mirror},xshift=-4pt,yshift=0pt] (C) -- (A) node [midway,xshift=-12pt,yshift=12pt] {$c$};
-	    \end{tikzpicture}
+	    <xi:include parse="text" href="tex/pythagorean.tex"/>
 	  </latex-image>
 	</image>
       </figure>
@@ -91,48 +65,9 @@
   </p>
   <figure xml:id="fig-2_distance">
     <caption>The triangle formed by adding in the point <m>(x_1, y_2)</m>.</caption>
-    <image width="50%">
+    <image>
       <latex-image>
-	\begin{tikzpicture}
-	\def\xmin{0}
-	\def\xmax{5}
-	\def\ymin{0}
-	\def\ymax{4}
-
-	\def\a{2.1}
-	\def\b{2.72}
-	\def\c{4.8}
-	\def\d{1}
-	
-	\draw [very thick,->] (\xmin,0) -- (\xmax+.1,0) node [anchor=south] {$x$};
-	\draw [very thick,->] (0,\ymin) -- (0,\ymax+.1) node [anchor=west] {$y$};
-	
-	\path [draw, help lines, opacity=.5]  (\xmin,\ymin) grid (\xmax,\ymax);
-	\draw [very thick, green] (\a,0) -- (\c,0);
-	\draw [very thick, red] (0,\b) -- (0,\d);
-	\draw [very thick] (\a,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$x_1$};
-	\draw [very thick] (\c,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$x_2$};
-	\draw [very thick] (2.5pt,\b) -- +(-5pt,0) node [anchor=east, font=\small] {$y_1$};
-	\draw [very thick] (2.5pt,\d) -- +(-5pt,0) node [anchor=east, font=\small] {$y_2$};
-	
-	\coordinate (P) at (\a,\b);
-	\coordinate (Q) at (\c,\d);
-	\coordinate (R) at (\a,\d);
-	
-	\draw [thick,blue] (P) -- (Q);
-	\draw [thick,green] (Q) -- (R);
-	\draw [thick,red] (R) -- (P);
-	\draw [decorate,decoration={brace,amplitude=10pt},xshift=-4pt,yshift=0pt] (P) -- (Q) node [midway,above,sloped,yshift=7.2pt,xshift=.2pt] {$c$};
-	\draw [decorate,decoration={brace,amplitude=10pt,mirror},xshift=-4pt,yshift=0pt] (P) -- (R) node [midway,xshift=-14pt] {$b$};
-	\draw [decorate,decoration={brace,amplitude=10pt},xshift=-4pt,yshift=0pt] (Q) -- (R) node [midway,yshift=-14pt] {$a$};
-
-	\node at (P) {$\bullet$};
-	\node at (Q) {$\bullet$};
-	\node at (R) {$\bullet$};
-	\node [above] at (P) {$(x_1,y_1)$};
-	\node [right] at (Q) {$(x_2,y_2)$};
-	\node [below] at (R) {$(x_1,y_2)$};
-	\end{tikzpicture}
+	<xi:include parse="text" href="tex/2_distance.tex"/>
       </latex-image>
     </image>
   </figure>
