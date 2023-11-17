@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Linear Equations in Two Variables</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="College Algebra">
+<meta property="book:author" content="Blake Farman">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.32/pretext_search.js"></script><link href="https://pretextbook.org/css/0.82/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.32</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.32/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.32/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.32/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="https://pretextbook.org/css/0.82/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">College Algebra</span></a></h1>
+<p class="byline">Blake Farman</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="index-1.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-circles.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-equations.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-lines.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \newcommand{\C}{\mathbb C} \newcommand{\abs}[1]{\left|#1\right|}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-cartesian_plane.html" class="internal"><span class="codenumber">1</span> <span class="title">The Cartesian Plane</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-cartesian_coordinates.html" class="internal"><span class="codenumber">1.1</span> <span class="title">The Cartesian Plane</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-cartesian_coordinates.html#sec-cartesian_coordinates-points_in_the_plane" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Points in the Plane</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-cartesian_coordinates.html#worksheet-1" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Plotting Points in the Plane</span></a></div></li></ul>
+</li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-cartesian_coordinates-graphing_equations.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Graphing Equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-cartesian_coordinates-graphing_equations.html#worksheet-2" class="internal"><span class="codenumber">1.2</span> <span class="title">Plotting Points on a Graph</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-cartesian_coordinates-distance.html" class="internal"><span class="codenumber">1.3</span> <span class="title">The Distance Formula</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-cartesian_coordinates-distance.html#worksheet-3" class="internal"><span class="codenumber">1.3</span> <span class="title">Using the Distance Formula</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-cartesian_coordinates-midpoint.html" class="internal"><span class="codenumber">1.4</span> <span class="title">The Midpoint Formula</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-cartesian_coordinates-midpoint.html#worksheet-4" class="internal"><span class="codenumber">1.4</span> <span class="title">Using the Midpoint Formula</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-equations.html" class="internal"><span class="codenumber">2</span> <span class="title">Equations and Inequalities in Two Variables</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-circles.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Circles</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-circles.html#subsec-completing_the_square" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Completing the Square</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circles.html#subsection-3" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Recognizing Circles</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circles.html#worksheet-5" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Working with Circles</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="sec-linear_eqs.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Linear Equations in Two Variables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-linear_eqs.html#subsection-4" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Graphing Linear Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-linear_eqs.html#subsubsection-1" class="internal"><span class="codenumber">2.2.1.1</span> <span class="title">Horizontal Lines</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-linear_eqs.html#subsubsection-2" class="internal"><span class="codenumber">2.2.1.2</span> <span class="title">Vertical Lines</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-linear_eqs.html#subsubsection-3" class="internal"><span class="codenumber">2.2.1.3</span> <span class="title">General Lines</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-linear_eqs.html#worksheet-6" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Working with Linear Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-lines.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Representations of Lines</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-lines.html#worksheet-7" class="internal"><span class="codenumber">2.3</span> <span class="title">Representation of Lines</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-perp_parallel.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Parallel and Perpendicular Lines</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-perp_parallel.html#worksheet-8" class="internal"><span class="codenumber">2.4</span> <span class="title">Parallel and Perpendicular Lines</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-linear_ineq.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Linear Inequalities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-functions.html" class="internal"><span class="codenumber">3</span> <span class="title">Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-sets.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Sets</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sets.html#subsec-special_sets" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Special Sets</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-relations.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Relations and Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-relations.html#subsec-relations" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Relations</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="meta_backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-1.html" class="internal"><span class="codenumber">A</span> <span class="title">List of Symbols</span></a></div></li>
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="index-1.html" class="internal"><span class="title">Index</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="colophon-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-linear_eqs"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">2.2</span><span class="space"> </span><span class="title">Linear Equations in Two Variables</span>
+</h2>
+<article class="objectives goal-like" id="objectives-11"><h3 class="heading"><span class="type">Objectives</span></h3>
+<ul class="disc">
+<li id="li-22"><div class="para" id="p-derived-li-22">Recognize linear equations in two variables.</div></li>
+<li id="li-23"><div class="para" id="p-derived-li-23">Find <span class="process-math">\(x\)</span>-intercepts of a linear equation.</div></li>
+<li id="li-24"><div class="para" id="p-derived-li-24">Find the <span class="process-math">\(y\)</span>-intercept of a linear equation.</div></li>
+<li id="li-25"><div class="para" id="p-derived-li-25">Graph a linear equation.</div></li>
+</ul></article><section class="introduction" id="introduction-12"><div class="para" id="p-68">In this section, we study the simplest equations in two variables.</div></section><article class="definition definition-like" id="def-linear_equation"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.2.1</span><span class="period">.</span><span class="space"> </span><span class="title">Standard Form of a Linear Equation.</span>
+</h3> <div class="para logical" id="p-69">
+<div class="para">A <dfn class="terminology">linear equation</dfn>  in the variables <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> is an equation that can be placed in the form</div>
+<div class="displaymath process-math">
+\begin{equation*}
+ax + by = c.
+\end{equation*}
+</div>
+<div class="para">This is called the <dfn class="terminology">standard form of a linear equation</dfn>  in two variables.</div>
+</div></article><article class="example example-like" id="example-7"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.2</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-70">
+<div class="para">Place the linear equation</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def-linear_equation.html">
+\begin{equation*}
+x + 3y - 2x + 7 = 5 + y - 4x
+\end{equation*}
+</div>
+<div class="para">into <a href="" class="xref" data-knowl="./knowl/xref/def-linear_equation.html" title="Definition 2.2.1: Standard Form of a Linear Equation">Definition 2.2.1</a>.</div>
+</div>
+<div class="solutions"><details id="solution-5" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like"><div class="para logical" id="p-71">
+<div class="para">The equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x + 3y - 2x + 7 = 5 + y - 4x
+\end{equation*}
+</div>
+<div class="para">can be placed in standard form as follows. First, move the variables to the left-hand side of the equation. Subtract <span class="process-math">\(y - 4x\)</span> from both sides</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x - 2x + 3y + 7 - (y - 4x) = 5
+\end{equation*}
+</div>
+<div class="para">and distribute the negative</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x - 2x + 3y + 7 - y + 4x = 5.
+\end{equation*}
+</div>
+<div class="para">Collect like terms</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x - 2x + 4x + 3y - y + 7 = 5
+\end{equation*}
+</div>
+<div class="para">and simplify</div>
+<div class="displaymath process-math">
+\begin{equation*}
+3x + 2y + 7 = 5.
+\end{equation*}
+</div>
+<div class="para">Finally, subtract 7 from both sides of the equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+3x + 4y = 5 - 7
+\end{equation*}
+</div>
+<div class="para">and simplify to arrive at the standard form</div>
+<div class="displaymath process-math">
+\begin{equation*}
+3x + 4y = -2.
+\end{equation*}
+</div>
+</div></div></details></div></article><article class="example example-like" id="example-8"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.3</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-72">Not all equations are linear. For example, the equation <span class="process-math">\(xy + y - 7 = 2\)</span> is not linear because of the term <span class="process-math">\(xy\text{.}\)</span>
+</div></article><section class="subsection" id="subsection-4"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.2.1</span><span class="space"> </span><span class="title">Graphing Linear Equations</span>
+</h3>
+<section class="introduction" id="introduction-13"><div class="para" id="p-73">Recall that the <a href="" class="xref" data-knowl="./knowl/xref/defn-graph.html" title="Definition 1.2.3: Graph">Graph</a> of an equation consists of all points <span class="process-math">\((x,y)\)</span> that are a <a href="" class="xref" data-knowl="./knowl/xref/defn-solution.html" title="Definition 1.2.1: Solution">Solution</a> to the equation. The graph of a linear equation is always a line. We can graph the equation by finding any two points on the line and drawing a line through them.</div></section><section class="subsubsection" id="subsubsection-1"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">2.2.1.1</span><span class="space"> </span><span class="title">Horizontal Lines</span>
+</h4>
+<div class="para logical" id="p-74">
+<div class="para">If <span class="process-math">\(a = 0\)</span> and <span class="process-math">\(b \neq 0\text{,}\)</span> then the standard form is <span class="process-math">\(by = c\text{.}\)</span> Dividing both sides of the equation by <span class="process-math">\(b\)</span> allows us to write</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y = \frac{c}{b}.
+\end{equation*}
+</div>
+<div class="para">The solutions to this equation are points of the form <span class="process-math">\(\left(x, \frac{c}{b}\right)\text{,}\)</span> where <span class="process-math">\(x\)</span> is allowed to be <em class="emphasis">any</em> real number. The graph of this equation is a horizontal line.</div>
+</div>
+<article class="example example-like" id="example-9"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.4</span><span class="period">.</span>
+</h5>
+<div class="para" id="p-75">Graph the linear equation <span class="process-math">\(y = 0\text{.}\)</span>
+</div>
+<div class="solutions"><details id="solution-6" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like"><div class="para" id="p-76">The solutions to the linear equation <span class="process-math">\(y = 0\)</span> have the form <span class="process-math">\((x, 0)\text{,}\)</span> where <span class="process-math">\(x\)</span> is allowed to be any real number. The graph of this equation forms the <span class="process-math">\(x\)</span>-axis in the Cartesian plane. <figure class="figure figure-like" id="fig-x_axis"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/img-x_axis.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.2.5<span class="period">.</span></span><span class="space"> </span></figcaption></figure>
+</div></div></details></div></article><article class="example example-like" id="example-10"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.6</span><span class="period">.</span>
+</h5>
+<div class="para" id="p-77">Graph the linear equation <span class="process-math">\(0x + 3y = 7\text{.}\)</span>
+</div>
+<div class="solutions"><details id="solution-7" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like"><div class="para" id="p-78">The linear equation <span class="process-math">\(0x + 3y = 7\)</span> simplifies to <span class="process-math">\(y = \frac{7}{3}\text{.}\)</span> The graph of this equation is a horizontal line <span class="process-math">\(\frac{7}{3}\)</span> units above the <span class="process-math">\(x\)</span>-axis. <figure class="figure figure-like" id="fig-horiz_line"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/img-horiz_line.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.2.7<span class="period">.</span></span><span class="space"> </span>The graph of <span class="process-math">\(y = \frac{7}{3}\text{.}\)</span></figcaption></figure>
+</div></div></details></div></article></section><section class="subsubsection" id="subsubsection-2"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">2.2.1.2</span><span class="space"> </span><span class="title">Vertical Lines</span>
+</h4>
+<div class="para logical" id="p-79">
+<div class="para">If <span class="process-math">\(a \neq 0\)</span> and <span class="process-math">\(b = 0\text{,}\)</span> then the standard form is <span class="process-math">\(ax = c\text{.}\)</span> Dividing both sides by <span class="process-math">\(a\)</span> allows us to write</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x = \frac{c}{a}.
+\end{equation*}
+</div>
+<div class="para">The solutions to this equation are points of the form <span class="process-math">\(\left(\frac{c}{a}, y\right)\text{,}\)</span> where <span class="process-math">\(y\)</span> is allowed to be <em class="emphasis">any</em> real number. The graph of this equation is a vertical line.</div>
+</div>
+<article class="example example-like" id="example-11"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.8</span><span class="period">.</span>
+</h5>
+<div class="para" id="p-80">Graph the linear equation <span class="process-math">\(x = 0\text{.}\)</span>
+</div>
+<div class="solutions"><details id="solution-8" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like">
+<div class="para" id="p-81">The solutions to the linear equation <span class="process-math">\(x = 0\)</span> have the form <span class="process-math">\((0, y)\text{,}\)</span> where <span class="process-math">\(y\)</span> is allowed to be any real number. The graph of this equation forms the <span class="process-math">\(y\)</span>-axis in the Cartesian plane.</div> <figure class="figure figure-like" id="fig-y_axis"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/img-y_axis.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.2.9<span class="period">.</span></span><span class="space"> </span></figcaption></figure>
+</div></details></div></article><article class="example example-like" id="example-12"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.10</span><span class="period">.</span>
+</h5>
+<div class="para" id="p-82">Graph the linear equation <span class="process-math">\(3x + 0y = 2\text{.}\)</span>
+</div> <details id="solution-9" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like"><div class="para" id="p-83">The linear equation <span class="process-math">\(3x + 0y = 2\)</span> reduces to <span class="process-math">\(x = \frac{2}{3}\text{.}\)</span> The graph of this equation is a vertical line <span class="process-math">\(\frac{2}{3}\)</span> units to the right of the <span class="process-math">\(y\)</span>-axis. <figure class="figure figure-like" id="fig-vert_line"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/img-vert_line.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.2.11<span class="period">.</span></span><span class="space"> </span>The graph of <span class="process-math">\(x = \frac{2}{3}\text{.}\)</span></figcaption></figure>
+</div></div></details></article></section><section class="subsubsection" id="subsubsection-3"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">2.2.1.3</span><span class="space"> </span><span class="title">General Lines</span>
+</h4>
+<div class="para" id="p-84">When <span class="process-math">\(a \neq 0\)</span> and <span class="process-math">\(b \neq 0\text{,}\)</span> we can graph the equation <span class="process-math">\(ax + by = c\)</span> by finding any two points and drawing a line through them. There are always two simple points we can find on the line.</div>
+<article class="definition definition-like" id="def-x_intercept"><h5 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.2.12</span><span class="period">.</span>
+</h5>The <dfn class="terminology"><span class="process-math">\(x\)</span>-intercept</dfn>  the line <span class="process-math">\(ax + by = c\)</span> is the point where the line intersects the <span class="process-math">\(x\)</span>-axis.</article><div class="para logical" id="p-85">
+<div class="para">Every point on the <span class="process-math">\(x\)</span>-axis has the form <span class="process-math">\((x,0)\text{.}\)</span> By substituting 0 for <span class="process-math">\(y\)</span> in the equation <span class="process-math">\(ax + by = c\)</span> we get the equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+c = ax + 0y = ax.
+\end{equation*}
+</div>
+<div class="para">Dividing both sides by <span class="process-math">\(a\)</span> tells us the <span class="process-math">\(x\)</span>-coordinate of the <span class="process-math">\(x\)</span>-intercept is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x = \frac{c}{a}.
+\end{equation*}
+</div>
+</div>
+<article class="example example-like" id="example-13"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.13</span><span class="period">.</span>
+</h5>
+<div class="para" id="p-86">Find the <span class="process-math">\(x\)</span>-intercept of the linear equation <span class="process-math">\(2x + 3y = 5\text{.}\)</span>
+</div>
+<div class="solutions"><details id="solution-10" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like"><div class="para logical" id="p-87">
+<div class="para">To find the <span class="process-math">\(x\)</span>-intercept of the linear equation <span class="process-math">\(2x + 3y = 6\text{,}\)</span> we substitute <span class="process-math">\(0\)</span> for <span class="process-math">\(y\)</span> to get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2x = 6.
+\end{equation*}
+</div>
+<div class="para">To solve for <span class="process-math">\(x\text{,}\)</span> we divide both sides by <span class="process-math">\(2\)</span> to see that x = 3. Therefore the <span class="process-math">\(x\)</span>-intercept of the linear equation <span class="process-math">\(2x + 3y = 6\)</span> is the point <span class="process-math">\((3,0)\text{.}\)</span>
+</div>
+</div></div></details></div></article><article class="claim theorem-like" id="claim-1"><h5 class="heading">
+<span class="type">Formula</span><span class="space"> </span><span class="codenumber">2.2.14</span><span class="period">.</span>
+</h5>
+<div class="para logical" id="p-88">
+<div class="para">The <span class="process-math">\(x\)</span>-intercept of the linear equation <span class="process-math">\(ax + by = c\)</span> is the point</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\left(\frac{c}{a},0\right).
+\end{equation*}
+</div>
+</div></article><article class="definition definition-like" id="def-y_intercept"><h5 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.2.15</span><span class="period">.</span>
+</h5>The <dfn class="terminology"><span class="process-math">\(y\)</span>-intercept</dfn>  the line <span class="process-math">\(ax + by = c\)</span> is the point where the line intersects the <span class="process-math">\(y\)</span>-axis.</article><div class="para logical" id="p-89">
+<div class="para">Every point on the <span class="process-math">\(y\)</span>-axis has the form <span class="process-math">\((0,y)\text{.}\)</span> By substituting 0 for <span class="process-math">\(x\)</span> in the equation <span class="process-math">\(ax + by = c\)</span> we get the equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+c = 0x + by = by.
+\end{equation*}
+</div>
+<div class="para">Dividing both sides by <span class="process-math">\(b\)</span> tells us the <span class="process-math">\(y\)</span>-coordinate of the <span class="process-math">\(y\)</span>-intercept is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y = \frac{c}{b}.
+\end{equation*}
+</div>
+</div>
+<article class="claim theorem-like" id="claim-2"><h5 class="heading">
+<span class="type">Formula</span><span class="space"> </span><span class="codenumber">2.2.16</span><span class="period">.</span>
+</h5>
+<div class="para logical" id="p-90">
+<div class="para">The <span class="process-math">\(y\)</span>-intercept of the linear equation <span class="process-math">\(ax + by = c\)</span> is the point</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\left(0,\frac{c}{b}\right).
+\end{equation*}
+</div>
+</div></article><article class="example example-like" id="example-14"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.17</span><span class="period">.</span>
+</h5>
+<div class="para" id="p-91">Find the <span class="process-math">\(y\)</span>-intercept of the linear equation <span class="process-math">\(2x + 3y = 6\text{.}\)</span>
+</div>
+<div class="solutions"><details id="solution-11" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like"><div class="para logical" id="p-92">
+<div class="para">To find the <span class="process-math">\(y\)</span>-intercept of the linear equation <span class="process-math">\(2x + 3y = 6\text{,}\)</span> we substitute <span class="process-math">\(0\)</span> for <span class="process-math">\(x\)</span> to get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+3y = 6.
+\end{equation*}
+</div>
+<div class="para">To solve for <span class="process-math">\(y\text{,}\)</span> we divide both sides by <span class="process-math">\(3\)</span> to see that <span class="process-math">\(y = 2\text{.}\)</span> Therefore the <span class="process-math">\(y\)</span>-intercept of the linear equation <span class="process-math">\(2x + 3y = 6\)</span> is the point <span class="process-math">\((0,2)\text{.}\)</span>
+</div>
+</div></div></details></div></article><article class="example example-like" id="example-15"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.18</span><span class="period">.</span>
+</h5>
+<div class="para" id="p-93">Graph the equation <span class="process-math">\(2x + 3y = 6\)</span>
+</div>.<div class="solutions"><details id="solution-12" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like"><div class="para" id="p-94">To graph the equation <span class="process-math">\(2x + 3y = 6\text{,}\)</span> we simply need to plot the two intercepts and draw a straight line through them. <figure class="figure figure-like" id="fig-2x_3y_6"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/img-2x_3y_6.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.2.19<span class="period">.</span></span><span class="space"> </span>The graph of <span class="process-math">\(2x + 3y = 6\text{.}\)</span></figcaption></figure>
+</div></div></details></div></article></section></section><section class="worksheet" id="worksheet-6"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber">2.2.2</span><span class="space"> </span><span class="title">Working with Linear Equations</span><div class="print-links">
+<a href="worksheet-6-a4.html" class="a4">A4</a><a href="worksheet-6-letter.html" class="us">US</a>
+</div>
+</h3>
+<article class="objectives goal-like" id="objectives-12"><h4 class="heading"><span class="type">Objectives</span></h4>
+<ul class="disc">
+<li id="li-26"><div class="para" id="p-derived-li-26">Recognize linear equations in two variables.</div></li>
+<li id="li-27"><div class="para" id="p-derived-li-27">Find <span class="process-math">\(x\)</span>-intercepts of a linear equation.</div></li>
+<li id="li-28"><div class="para" id="p-derived-li-28">Find the <span class="process-math">\(y\)</span>-intercept of a linear equation.</div></li>
+<li id="li-29"><div class="para" id="p-derived-li-29">Graph a linear equation.</div></li>
+</ul></article><section class="onepage" id="page-6"><article class="exercise exercise-like" id="exercise-16"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="para" id="p-95">Determine whether the equation <span class="process-math">\(2x + 3yx = 3xy + 7y - 4\)</span> is linear. If the equation is linear, put it standard form. Otherwise, explain why the equation is not linear.</div>
+<div class="workspace" data-space="1in"></div></article> <article class="exercise exercise-like" id="exercise-17"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="para" id="p-96">Determine whether the equation <span class="process-math">\(2(x - 2)^2 + y = 3x\)</span> is linear. If the equation is linear, put it standard form. Otherwise, explain why the equation is not linear.</div>
+<div class="workspace" data-space="1in"></div></article></section><section class="onepage" id="page-7"><article class="exercise exercise-like" id="exercise-18"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="para" id="p-97">Find the <span class="process-math">\(x\)</span>- and <span class="process-math">\(y\)</span>-intercepts of the linear equation <span class="process-math">\(5x - 2y = 10\)</span> and sketch the graph of the equation.</div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/img-5x_2y_10_blank.svg" role="img" class="contained"></div></article></section><section class="onepage" id="page-8"><article class="exercise exercise-like" id="exercise-19"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="para" id="p-98">Match the following equations with their graphs.</div>
+<ol class="lower-alpha cols2">
+<li id="li-30"><div class="para" id="p-derived-li-30"><span class="process-math">\(\displaystyle y + \frac{6}{4}x - 2 = 0\)</span></div></li>
+<li id="li-31"><div class="para" id="p-derived-li-31"><span class="process-math">\(\displaystyle 2y - x + 12 = 2x + 16\)</span></div></li>
+<li id="li-32"><div class="para" id="p-derived-li-32"><span class="process-math">\(\displaystyle 3y = 2x - 6\)</span></div></li>
+<li id="li-33"><div class="para" id="p-derived-li-33"><span class="process-math">\(\displaystyle y + x -xy = \frac{1}{3}x - 2 - xy\)</span></div></li>
+<li id="li-34"><div class="para" id="p-derived-li-34"><span class="process-math">\(\displaystyle x + 2y = 1 + x + y\)</span></div></li>
+<li id="li-35"><div class="para" id="p-derived-li-35"><span class="process-math">\(\displaystyle y + x = -1 + y\)</span></div></li>
+</ol>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:33.3333333333333%;"><div class="para" id="p-99"><img src="generated/latex-image/img-lin_eq-match_grid_e.svg" role="img" class="contained"></div></div>
+<div class="sbspanel top" style="width:33.3333333333333%;"><div class="para" id="p-100"><img src="generated/latex-image/img-lin_eq-match_grid_a.svg" role="img" class="contained"></div></div>
+<div class="sbspanel top" style="width:33.3333333333333%;"><div class="para" id="p-101"><img src="generated/latex-image/img-lin_eq-match_grid_d.svg" role="img" class="contained"></div></div>
+</div></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:33.3333333333333%;"><div class="para" id="p-102"><img src="generated/latex-image/img-lin_eq-match_grid_f.svg" role="img" class="contained"></div></div>
+<div class="sbspanel top" style="width:33.3333333333333%;"><div class="para" id="p-103"><img src="generated/latex-image/img-lin_eq-match_grid_b.svg" role="img" class="contained"></div></div>
+<div class="sbspanel top" style="width:33.3333333333333%;"><div class="para" id="p-104"><img src="generated/latex-image/img-lin_eq-match_grid_c.svg" role="img" class="contained"></div></div>
+</div></div></article></section></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec-circles.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-lines.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
