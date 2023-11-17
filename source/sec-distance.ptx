@@ -106,5 +106,23 @@
     </p>
   </definition>
 
+  <example>
+    <statement>
+      <p>
+	Find the distance between the points <m>(3,-2)</m> and <m>(4,7)</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+	By <xref ref="def-2_distance" text="title"/> the distance between the points <m>(3,-2)</m> and <m>(4,7)</m> is
+	<md>
+	  <mrow>\sqrt{(3 - 4)^2 + (-2 - 7)^2} \amp= \sqrt{(-1)^2 + (-9)^2}</mrow>
+	  <mrow>\amp = \sqrt{1 + 81}</mrow>
+	  <mrow>\amp = \sqrt{82}.</mrow>
+	</md>
+      </p>
+    </solution>
+  </example>
+  
   <xi:include href="worksheets/wksht-using_the_distance_formula.ptx"/>
 </section>
