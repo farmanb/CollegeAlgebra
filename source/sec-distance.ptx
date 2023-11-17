@@ -18,7 +18,7 @@
       In this section, we extend the notion of distance between two points on the number line to the Cartesian plane.
     </p>
   </introduction>
-  <definition xml:id="defn-1_distance">
+  <definition xml:id="def-1_distance">
     <p>
       The <term>distance</term>
       <idx>
@@ -75,7 +75,7 @@
   <p>
     From <xref ref="fig-2_distance"/>, we can see the length of the horizontal side is the distance between the points <m>x_1</m> and <m>x_2</m> along the <m>x</m>-axis.
     Similarly, the length of the vertical side is the distance between the points <m>y_1</m> and <m>y_2</m> along the <m>y</m>-axis.
-    Using <xref ref="defn-1_distance"/>, we have
+    Using <xref ref="def-1_distance"/>, we have
     <me>a = \abs{x_1 - x_2} = \sqrt{(x_1 - x_2)^2}
     \quad\text{and}\quad
     b = \abs{y_1 - y_2} = \sqrt{(y_1 - y_2)^2}.</me>

@@ -17,7 +17,7 @@
     </p>
   </introduction>
   
-  <definition xml:id="defn-1_midpoint">
+  <definition xml:id="def-1_midpoint">
     <p>
       The <term>midpoint</term>
       <idx>
@@ -31,16 +31,7 @@
     <figure xml:id="fig-1_midpoint">
       <image xml:id="img-1_midpoint">
 	<latex-image>
-	  \begin{tikzpicture}
-	  \coordinate (A) at (-5,0);
-	  \coordinate (B) at (5,0);
-	  
-	  \draw [very thick,\lt->] (A) -- (B); 
-	  \draw [very thick,blue] (-3,0) -- (4,0);
-	  \draw [very thick] (-3,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$x$};
-	  \draw [very thick] (4,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$y$};
-	  \draw [very thick] (.5,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\frac{x + y}{2}$};
-	  \end{tikzpicture}
+	  <xi:include parse="text" href="tex/1_midpoint.tex"/>
 	</latex-image>
       </image>
     </figure>
@@ -49,7 +40,7 @@
   <remark>
     <p>
       The midpoint is so named because it is halfway between the numbers <m>x</m> and <m>y</m>.
-      We can check this using <xref ref="defn-1_distance"/>: the distance from <m>x</m> to the midpoint is
+      We can check this using <xref ref="def-1_distance"/>: the distance from <m>x</m> to the midpoint is
       <md>
 	<mrow>\abs{x - \frac{x + y}{2}} \amp = \abs{\frac{2x}{2} - \frac{x + y}{2}}</mrow>
 	<mrow>\amp = \abs{\frac{2x - x - y}{2}}</mrow>
@@ -66,68 +57,18 @@
 
   <p>
     Similar to the distance formula, we can find the midpoint of a line segment between the points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m> in the Cartesian plane using a triangle.
-    We use <xref ref="defn-1_midpoint"/> to find the midpoint of the vertical and horizontal sides of the triangle, and use those as the coordinates for the midpoint as depicted in <xref ref="fig-2_midpoint"/>.
+    We use <xref ref="def-1_midpoint"/> to find the midpoint of the vertical and horizontal sides of the triangle, and use those as the coordinates for the midpoint as depicted in <xref ref="fig-2_midpoint"/>.
   </p>
   <figure xml:id="fig-2_midpoint">
     <caption>The triangle formed by adding in the point <m>(x_1, y_2)</m>.</caption>
-    <image width="50%">
+    <image>
       <latex-image>
-	\begin{tikzpicture}
-	\def\xmin{0}
-	\def\xmax{6}
-	\def\ymin{0}
-	\def\ymax{4}
-
-	\def\a{2.8}
-	\def\b{2.72}
-	\def\c{5.8}
-	\def\d{1}
-	\def\mx{{(\a + \c)/2}}
-	\def\my{{(\b + \d)/2}}
-	
-	\draw [very thick,->] (\xmin,0) -- (\xmax+.1,0) node [anchor=south] {$x$};
-	\draw [very thick,->] (0,\ymin) -- (0,\ymax+.1) node [anchor=west] {$y$};
-	
-	\path [draw, help lines, opacity=.5]  (\xmin,\ymin) grid (\xmax,\ymax);
-	\draw [very thick, green] (\a,0) -- (\c,0);
-	\draw [very thick, red] (0,\b) -- (0,\d);
-	\draw [very thick] (\a,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$x_1$};
-	\draw [very thick] (\c,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$x_2$};
-	\draw [very thick] (\mx,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\frac{x_1+x_2}{2}$};
-	\draw [very thick] (2.5pt,\b) -- +(-5pt,0) node [anchor=east, font=\small] {$y_1$};
-	\draw [very thick] (2.5pt,\d) -- +(-5pt,0) node [anchor=east, font=\small] {$y_2$};
-	\draw [very thick] (2.5pt,\my) -- +(-5pt,0) node [anchor=east, font=\small] {$\frac{y_1 + y_2}{2}$};
-	
-	\coordinate (P) at (\a,\b);
-	\coordinate (Q) at (\c,\d);
-	\coordinate (R) at (\a,\d);
-	\coordinate (MX) at (\mx,\d);
-	\coordinate (MY) at (\a,\my);
-	\coordinate (M) at (\mx,\my);
-	
-	\draw [thick,blue] (P) -- (Q);
-	\draw [thick,green] (Q) -- (R);
-	\draw [thick,red] (R) -- (P);
-	
-	\node at (P) {$\bullet$};
-	\node at (Q) {$\bullet$};
-	\node at (R) {$\bullet$};
-	\node at (MX) {$\bullet$};
-	\node at (MY) {$\bullet$};
-	\node at (M) {$\bullet$};
-	
-	\node [above, font=\small] at (P) {$(x_1,y_1)$};
-	\node [below right, font=\small] at (Q) {$(x_2,y_2)$};
-	\node [below left, font=\small] at (R) {$(x_1,y_2)$};
-	\node [below, font=\small] at (MX) {$\left(\frac{x_1 + x_2}{2}, y_2\right)$};
-	\node [left, font=\small] at (MY) {$\left(x_1, \frac{y_1 + y_2}{2}\right)$};
-	\node [above right, font=\small] at (M) {$\left(\frac{x_1 + x_2}{2},\frac{y_1 + y_2}{2}\right)$};
-	\end{tikzpicture}
+	<xi:include parse="text" href="tex/2_midpoint.tex"/>
       </latex-image>
     </image>
   </figure>
 
-  <definition xml:id="defn-2_midpoint">
+  <definition xml:id="def-2_midpoint">
     <title>The Midpoint Formula</title>
     <statement>
       <p>
@@ -142,6 +83,23 @@
     </statement>
   </definition>
 
+  <example>
+    <statement>
+      <p>
+	Use <xref ref="def-2_midpoint" text="title"/> to find the midpoint between <m>(1,-3)</m> and <m>(-3, 5)</m>
+      </p>
+    </statement>
+    <solution>
+      <p>
+	The <m>x</m>-coordinate of the midpoint is
+	<me>\frac{1 + (-3)}{2} = \frac{-2}{2} = -1</me>
+	and the <m>y</m>-coordinate of the midpoint is
+	<me>\frac{-3 + 5}{2} = \frac{2}{2} = 1.</me>
+	Therefore the midpoint is <m>(-1,1).</m>
+      </p>
+    </solution>
+  </example>
+  
   <remark>
     <p>
       Just as with the midpoint on the real line, the midpoint is halfway between the points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m>.
@@ -149,65 +107,13 @@
     </p>
     <figure xml:id="fig-2_midpoint_is_midpoint">
       <caption>The triangle formed by adding in the point <m>(x_1, y_2)</m>.</caption>
-      <image width="50%" xml:id="img-2_midpoint_is_midpoint">
+      <image xml:id="img-2_midpoint_is_midpoint">
 	<latex-image>
-	  \begin{tikzpicture}
-	  \def\xmin{0}
-	  \def\xmax{6}
-	  \def\ymin{0}
-	  \def\ymax{4}
-
-	  \def\a{2.8}
-	  \def\b{2.72}
-	  \def\c{5.8}
-	  \def\d{1}
-	  \def\mx{{(\a + \c)/2}}
-	  \def\my{{(\b + \d)/2}}
-
-	  \coordinate (P) at (\a,\b);
-	  \coordinate (Q) at (\c,\d);
-	  \coordinate (R) at (\a,\d);
-	  \coordinate (MX) at (\mx,\d);
-	  \coordinate (MY) at (\a,\my);
-	  \coordinate (M) at (\mx,\my);
-
-	  \draw [fill=teal] (P) -- (MY) -- (M);
-	  \draw [fill=purple] (M) -- (MX) -- (Q);
-
-	  \draw [very thick,->] (\xmin,0) -- (\xmax+.1,0) node [anchor=south] {$x$};
-	  \draw [very thick,->] (0,\ymin) -- (0,\ymax+.1) node [anchor=west] {$y$};
-	  
-	  \path [draw, help lines, opacity=.5]  (\xmin,\ymin) grid (\xmax,\ymax);
-	  \draw [very thick, green] (\a,0) -- (\c,0);
-	  \draw [very thick, red] (0,\b) -- (0,\d);
-	  \draw [very thick] (\a,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$x_1$};
-	  \draw [very thick] (\c,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$x_2$};
-	  \draw [very thick] (\mx,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\frac{x_1+x_2}{2}$};
-	  \draw [very thick] (2.5pt,\b) -- +(-5pt,0) node [anchor=east, font=\small] {$y_1$};
-	  \draw [very thick] (2.5pt,\d) -- +(-5pt,0) node [anchor=east, font=\small] {$y_2$};
-	  \draw [very thick] (2.5pt,\my) -- +(-5pt,0) node [anchor=east, font=\small] {$\frac{y_1 + y_2}{2}$};
-	  
-	  \draw [thick,blue] (P) -- (Q);
-	  \draw [thick,green] (Q) -- (R);
-	  \draw [thick,red] (R) -- (P);
-	  
-	  \node at (P) {$\bullet$};
-	  \node at (Q) {$\bullet$};
-	  \node at (R) {$\bullet$};
-	  \node at (MX) {$\bullet$};
-	  \node at (MY) {$\bullet$};
-	  \node at (M) {$\bullet$};
-	  
-	  \node [above, font=\small] at (P) {$(x_1,y_1)$};
-	  \node [below right, font=\small] at (Q) {$(x_2,y_2)$};
-	  \node [below left, font=\small] at (R) {$(x_1,y_2)$};
-	  \draw [decorate,decoration={brace,amplitude=10pt,mirror},xshift=-4pt,yshift=0pt] (P) -- (R) node [midway,xshift=-14pt] {$b$};
-	  \draw [decorate,decoration={brace,amplitude=10pt,mirror},xshift=-4pt,yshift=0pt] (R) -- (Q) node [midway,yshift=-14pt] {$a$};
-	  \draw [decorate,decoration={brace,amplitude=10pt},xshift=-4pt,yshift=0pt] (P) -- (Q) node [midway,above,sloped,yshift=7.2pt,xshift=.2pt] {$c$};
-	  \end{tikzpicture}
+	  <xi:include parse="text" href="tex/2_midpoint_is_midpoint.tex"/>
 	</latex-image>
       </image>
     </figure>
+
     <p>
       The two shaded triangles have the same side lengths.
       The horizontal side has length

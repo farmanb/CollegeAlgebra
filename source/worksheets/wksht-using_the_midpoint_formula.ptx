@@ -1,14 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <worksheet>
-    <title>Using the Midpoint Formula</title>
-    <objectives>
-      <ul>
-	<li>
-	  Find the midpoint between two points in the Cartesian plane.
-	</li>
-      </ul>
-    </objectives>
+  <title>Using the Midpoint Formula</title>
+  <objectives>
+    <ul>
+      <li>
+	Find the midpoint between two points in the Cartesian plane.
+      </li>
+    </ul>
+  </objectives>
+  <page>
     <introduction>
-      Use the <xref ref="defn-2_midpoint" text="title"/> to find the midpoint for each pair of points in the Cartesian plane.
+      Use the <xref ref="def-2_midpoint" text="title"/> to find the midpoint for each pair of points in the Cartesian plane.
     </introduction>
     <exercise>
       <p>
@@ -20,4 +22,5 @@
 	<m>(3,2)</m> and <m>(-5,-10)</m>.
       </p>
     </exercise>
-  </worksheet>
+  </page>
+</worksheet>
