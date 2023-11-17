@@ -1,0 +1,12 @@
+\begin{tikzpicture}
+  \coordinate (C) at (0,0);
+  \coordinate (P) at ({cos(45)},{sin(45)});
+  \coordinate (Q) at ({cos(225)},{sin(225)});
+
+  \draw (P) -- (Q);
+  \draw (C) circle (1);
+  \node at (P) {$\bullet$};
+  \node at (Q) {$\bullet$};
+  \node [left] at (Q)  {$(2,2)$};
+  \node [right] at (P) {$(4,4)$};
+\end{tikzpicture}

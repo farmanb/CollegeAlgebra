@@ -1,4 +1,5 @@
-<worksheet>
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
       <title>Working with Circles</title>
       <objectives>
 	<ul>
@@ -37,18 +38,7 @@
 	  <figure xml:id="fig-diameter_exercise">
 	    <image xml:id="img-diameter_exercise" width="50%">
 	      <latex-image>
-		\begin{tikzpicture}
-		\coordinate (C) at (0,0);
-		\coordinate (P) at ({cos(45)},{sin(45)});
-		\coordinate (Q) at ({cos(225)},{sin(225)});
-
-		\draw (P) -- (Q);
-		\draw (C) circle (1);
-		\node at (P) {$\bullet$};
-		\node at (Q) {$\bullet$};
-		\node [left] at (Q)  {$(2,2)$};
-		\node [right] at (P) {$(4,4)$};
-		\end{tikzpicture}
+		<xi:include parse="text" href="../tex/diameter_exercise.tex"/>
 	      </latex-image>
 	    </image>
 	  </figure>

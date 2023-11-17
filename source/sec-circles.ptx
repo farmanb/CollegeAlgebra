@@ -32,23 +32,9 @@
       <figure xml:id="fig-circle_def">
 	<caption>The circle of radius <m>r</m> centered at <m>(h,k)</m>.</caption>
 	<image xml:id="img-circle_def" width="50%">
+	  
 	  <latex-image>
-	    \begin{tikzpicture}
-	    \coordinate (C) at (0,0);
-	    \coordinate (P) at ({cos(45)}, {sin(45)});
-	    \def\r{1}
-
-	    \draw (C) -- (P);
-	    \draw (C) circle (\r);
-
-	    \node at (P) {$\bullet$};
-	    \node [right] at (P) {$(x,y)$};
-	    \node at (C) {$\bullet$};
-	    \node[below] at (C) {$(h,k)$};
-	    
-	    \draw[thick,decorate,decoration={brace,amplitude=5pt},yshift=2.5pt] (C) -- (P) node [midway,above,xshift=-6pt,yshift=2pt] {$r$};
-	    
-	    \end{tikzpicture}
+	    <xi:include parse="text" href="tex/circle_def.tex"/>
 	  </latex-image>
 	</image>
       </figure>
@@ -93,25 +79,7 @@
 	<caption>A diameter of the circle of radius <m>r</m> centered at <m>(h,k)</m>.</caption>
 	<image xml:id="img-diameter" width="50%">
 	  <latex-image>
-	    \begin{tikzpicture}
-	    \coordinate (C) at (0,0);
-	    \coordinate (P) at ({cos(45)}, {sin(45)});
-	    \coordinate (Q) at ({cos(225)}, {sin(225)});
-	    \def\r{1}
-
-	    \draw (Q) -- (P);
-	    \draw (C) circle (\r);
-
-	    \node at (P) {$\bullet$};
-	    <!-- \node [right] at (P) {$(x,y)$}; -->
-	    \node at (C) {$\bullet$};
-	    \node at (Q) {$\bullet$};
-	    <!-- \node[right] at (C) {$(h,k)$}; -->
-	    
-	    \draw[thick,decorate,decoration={brace,amplitude=5pt},yshift=2.5pt] (C) -- (P) node [midway,above,xshift=-6pt,yshift=2pt] {$r$};
-	    \draw[thick,decorate,decoration={brace,amplitude=5pt},yshift=2.5pt] (Q) -- (C) node [midway,above,xshift=-6pt,yshift=2pt] {$r$};
-	    
-	    \end{tikzpicture}
+	    <xi:include parse="text" href="tex/diameter.tex"/>
 	  </latex-image>
 	</image>
       </figure>
@@ -179,25 +147,39 @@
     </p>
 
     <example>
-      <p> When the coefficient on <m>x^2</m> is 1, we can skip the first step and the last step:</p>
-      <md>
-	<mrow>x^2 + 4x + 5 \amp= x^2 + 4x + 2^2 - 2^2 + 5</mrow>
-	<mrow>\amp = (x + 2)^2 - 4 + 5</mrow>
-	<mrow>\amp = (x + 2)^2 + 1.</mrow>
-      </md>
+      <statement>
+	<p>
+	  Complete the square with <m>x^2 + 4x + 5</m>.
+	</p>
+      </statement>
+      <solution>
+	<p> When the coefficient on <m>x^2</m> is 1, we can skip the first step and the last step:</p>
+	<md>
+	  <mrow>x^2 + 4x + 5 \amp= x^2 + 4x + 2^2 - 2^2 + 5 \amp\amp \text{Add and subtract}\ \left(\frac{4}{2}\right)^2 = 2^2 = 4</mrow>
+	  <mrow>\amp = (x + 2)^2 - 4 + 5 \amp\amp \text{Factor}</mrow>
+	  <mrow>\amp = (x + 2)^2 + 1 \amp\amp \text{Simplify}.</mrow>
+	</md>
+      </solution>
     </example>
     <example>
+      <statement>
+	<p>
+	  Complete the square with <m>3x^2 - 4x + 5</m>.
+	</p>
+      </statement>
+      <solution>
       <p>
 	When the coefficient on <m>x</m> is a negative number, such as <m>x^2 - 4x + 5</m>, we can still use the formula by rewriting the subtraction as addition with a negative number.
 	<md>
-	  <mrow>3x^2 - 4x + 5 \amp = 3x^2 + (-4)x + 5</mrow>
-	  <mrow>\amp= 3\left(x^2 + \left(-\frac{4}{3}\right)x\right) + 5</mrow>
-	  <mrow>\amp = 3\left(x^2 + \left(-\frac{4}{3}\right)x +  \left(-\frac{2}{3}\right)^2 - \left(-\frac{2}{3}\right)^2\right) + 5</mrow>
-	  <mrow>\amp = 3\left(\left(x + \left(-\frac{2}{3}\right)\right)^2 - \frac{4}{9}\right) + 5</mrow>
-	  <mrow>\amp = 3\left(x - \frac{2}{3}\right)^2 - \frac{4}{3} + \frac{15}{3}</mrow>
+	  <mrow>3x^2 - 4x + 5 \amp = 3x^2 + (-4)x + 5 \amp\amp \text{Factor}\ 3\ \text{from the first two terms}</mrow>
+	  <mrow>\amp= 3\left(x^2 + \left(-\frac{4}{3}\right)x\right) + 5 \amp\amp \text{Add and subtract}\ \left(\frac{\frac{4}{3}}{2}\right)^2 = \left(\frac{2}{3}\right)^2</mrow>
+	  <mrow>\amp = 3\left(x^2 + \left(-\frac{4}{3}\right)x +  \left(-\frac{2}{3}\right)^2 - \left(-\frac{2}{3}\right)^2\right) + 5 \amp\amp \text{Factor}</mrow>
+	  <mrow>\amp = 3\left(\left(x + \left(-\frac{2}{3}\right)\right)^2 - \frac{4}{9}\right) + 5 \amp\amp \text{Distribute}</mrow>
+	  <mrow>\amp = 3\left(x - \frac{2}{3}\right)^2 - \frac{4}{3} + \frac{15}{3} \amp\amp \text{Simplify}</mrow>
 	  <mrow>\amp = 3\left(x - \frac{2}{3}\right)^2 + \frac{11}{3}.</mrow>
 	</md>
       </p>
+      </solution>
     </example>
   </subsection>
 

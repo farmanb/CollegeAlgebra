@@ -1,0 +1,16 @@
+\begin{tikzpicture}
+  \coordinate (C) at (0,0);
+  \coordinate (P) at ({cos(45)}, {sin(45)});
+  \def\r{1}
+
+  \draw (C) -- (P);
+  \draw (C) circle (\r);
+
+  \node at (P) {$\bullet$};
+  \node [right] at (P) {$(x,y)$};
+  \node at (C) {$\bullet$};
+  \node[below] at (C) {$(h,k)$};
+  
+  \draw[thick,decorate,decoration={brace,amplitude=5pt},yshift=2.5pt] (C) -- (P) node [midway,above,xshift=-6pt,yshift=2pt] {$r$};
+  
+\end{tikzpicture}
