@@ -1,5 +1,8 @@
 \begin{tikzpicture}[scale=0.5]
   \def\size{5}
+
+  \draw [color=white,fill=blue,opacity=0.75] (-2,5) -- (14/3,5) -- (14/3,-5) -- (-2,5);
+  
   \path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
   \foreach \i in {1,...,\size} 
   \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
