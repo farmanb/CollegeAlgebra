@@ -1,0 +1,22 @@
+\begin{tikzpicture}[scale=0.5]
+  \def\size{10}
+  \path [draw, help lines, opacity=.5]  (0,0) grid (\size,\size);
+  \foreach \i in {1,...,\size} 
+  \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
+  (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$};
+  
+  \draw [very thick,->] (0,0) -- (\size+.2,0) node [anchor=south] {$x$};
+  \draw [very thick,->] (0,0) -- (0,\size+.2) node [anchor=west] {$y$};
+
+  \node at (1,2) {$\bullet$};
+  \node [above] at (1,2) {$(1,2)$};
+  
+  \node at (3,4) {$\bullet$};
+  \node [above] at (3,4) {$(3,4)$};
+
+  \node at (5,6) {$\bullet$};
+  \node [above] at (5,6) {$(5,6)$};
+
+  \node at (7,8) {$\bullet$};
+  \node [above] at (7,8) {$(7,8)$};
+\end{tikzpicture}

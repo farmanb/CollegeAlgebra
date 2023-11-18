@@ -24,7 +24,7 @@
 
   <subsection xml:id="sec-cartesian_coordinates-points_in_the_plane">
     <title>Points in the Plane</title>
-    <definition xml:id="defn-cartesian_plane">
+    <definition xml:id="def-cartesian_plane">
       <p>
 	The <term>Cartesian plane</term>
 	<idx>
@@ -79,7 +79,7 @@
       By convention, we locate a point by first giving the <m>x</m>-coordinate, then the <m>y</m>-coordinate.
     </p>
     
-    <definition xml:id="defn-ordered_pair">
+    <definition xml:id="def-ordered_pair">
       <p>
 	An <term>ordered pair</term>, <m>(a,b)</m>, is the data of two real numbers.
       </p>

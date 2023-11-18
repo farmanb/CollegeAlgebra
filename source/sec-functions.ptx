@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-relations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Functions</title>
+  <objectives>
+    <ul>
+      <li>
+	Find the domain and codomain of a function.
+      </li>
+      <li>
+	Find the range of a function.
+      </li>
+      <li>
+	Determine whether a relation is a function.
+      </li>
+    </ul>
+  </objectives>
+
+  <introduction>
+    <p>
+      In this section, we study the basics of functions.
+    </p>
+  </introduction>
+  
+  <definition xml:id="def-function">
+    <title>Function</title>
+    <p>
+      A <term>function</term>,
+      <idx>
+	<h>Function</h>
+      </idx>
+      <m>f \colon A \to B</m>,
+      <notation>
+	<usage>
+	  <m>f \colon A \to B</m>
+	</usage>
+      </notation>
+      is a rule that assigns to each element <m>x \in A</m> a unique element <m>f(x) \in B</m>.
+      <notation>
+	<usage>
+	  <m>f(x)</m>
+	</usage>
+      </notation>
+    </p>
+    <p>
+      The set <m>A</m> is the <term>domain</term>
+      <idx>
+	<h>Function</h>
+	<h>Domain</h>
+      </idx>
+      of <m>f</m>, the set <m>B</m> is the <term>codomain</term>
+      <idx>
+	<h>Function</h>
+	<h>Codomain</h>
+      </idx>
+      of <m>f</m>.
+      The <term>range</term>
+      <idx>
+	<h>Function</h>
+	<h>Range</h>
+      </idx>
+      of <m>f</m> is the set of all output values
+      <me>\left\{f(x) \;\middle\vert\; x \in A\right\}.</me>
+    </p>
+  </definition>
+
+  <p>
+    By convention, we will write <m>y = f(x)</m> to indicate that <m>y</m> is a function of <m>x</m>.
+    We call <m>x</m> the <term>independent variable</term>
+    <idx>
+      <h>Function</h>
+      <h>Independent Variable</h>
+    </idx>
+    and <m>y</m> the <term>dependent variable</term>
+    <idx>
+      <h>Function</h>
+      <h>Dependent Variable</h>
+    </idx>
+    because every choice of <m>x</m> from the domain of <m>f</m> determines a value <m>y</m> in the range that depends on that choice.
+    In this case, we say <term><m>y</m> is a function of <m>x</m>.</term>
+  </p>
+
+  <example>
+    <statement>
+      <p>
+	Find the domain and range of the function <m>f(x) = 3x + 7</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+	The domain of <m>f</m> is <m>\R</m> because for any real number <m>x</m>, <m>3x + 7</m> is always well-defined.
+	The codomain of this function is also <m>\R</m> because for any real number <m>x</m>, <m>3x + 7</m> will also be a real number.
+	To find the range, we want to describe the set
+	<me>\left\{3x + 7 \;\middle\vert\; x \in \R\right\}.</me>
+      </p>
+      <p>
+	We can show this is <m>\R</m> by showing that for every real number <m>y</m>, we can find a number <m>x</m> such that <m>3x + 7 = y</m>.
+	We simply solve this equation for <m>y</m> in terms of <m>x</m>
+	<md>
+	  <mrow>3x + 7 \amp = y \amp\amp \text{Subtract}\ 7\ \text{from both sides}</mrow>
+	  <mrow>3x \amp = y - 7 \amp\amp \text{Divide both sides by}\ 3</mrow>
+	  <mrow>x \amp = \frac{y - 7}{3}.</mrow>
+	</md>
+	For example, if <m>y = 10</m>, then this formula tells us this corresponds to the input
+	<me>x = \frac{10 - 7}{3} = \frac{3}{3} = 1.</me>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+	Find the domain and range of the function <m>f(x) = x^2</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+	The domain of <m>f</m> is <m>\R</m> because for any real number <m>x</m>, <m>x^2 = x \times x</m> is always well-defined.
+	The codomain of this function is also <m>\R</m> because for any real number <m>x</m>, <m>x^2</m> is a real number.
+	To find the range, we want to describe the set
+	<me>\left\{x^2 \;\middle\vert\; x \in \R\right\}.</me>
+      </p>
+      <p>
+	Given a real number <m>y</m>, we want to determine whether the equation <m>y = x^2</m> can be solved for <m>y</m>.
+	<ul>
+	  <li>
+	    When <m>y = 0</m>, there is exactly one solution: <m>x = 0</m>.
+	  </li>
+	  <li>
+	    When <m>y > 0</m>, there are two solutions: <m>x = \sqrt{y}</m> and <m>x = -\sqrt{y}</m>.
+	  </li>
+	  <li>
+	    When <m>y \lt 0</m>, there are no solutions because the square root of a negative number is not a real number.
+	  </li>
+	</ul>
+	This tells us the range of our function is the interval <m>[0, \infty)</m>.
+      </p>
+    </solution>
+  </example>
+  
+  <p>
+    Just like an equation in the variables <m>x</m> and <m>y</m>, we will often want to visualize the functions we define.
+  </p>
+
+
+  <definition xml:id="def-graph_function">
+    <title>Graph of a Function</title>
+    <p>
+      Assume <m>A \subseteq \R</m>.
+      The <term>graph</term> of a function <m>f \colon A \to \R</m> is the set of points
+      <me>\left\{(x, f(x))\;\middle\vert\; x \in A\right\} \subseteq \R^2</me>
+    </p>
+  </definition>
+
+  <p>
+    When the function we are considering is defined by an equation, the <xref ref="def-graph" text="title"/> will coincide with the <xref ref="def-graph_function" text="title"/>.
+    While most of the functions we consider will be defined by an equation in the variables <m>x</m> and <m>y</m>, it is not the case that all equations in <m>x</m> and <m>y</m> define <m>y</m> as a function of <m>x</m>.
+  </p>
+  
+  <theorem xml:id="thm-vertical_line_test">
+    <title>The Vertical Line Test</title>
+    <statement>
+      <p>
+	An equation in the variables <m>x</m> and <m>y</m> is defines <m>y</m> as a function of <m>x</m> if and only if every vertical line intersects the graph of the relation in <alert>at most</alert> one point.
+      </p>
+    </statement>
+  </theorem>
+
+  <example>
+    <p>
+      Consider the function <m>f \colon \R \to \R</m> defined by the rule <m>f(x) = x + 2</m>.
+      We can verify this is a function in one of two ways.
+      One way is to interpret the <xref ref="thm-vertical_line_test" text="title"/> algebraically.
+    </p>
+    <p>
+      From the <xref ref="def-graph" text="title"/>, the graph of the vertical line <m>x = a</m> is the set
+      <me>\left\{(a,y) \;\middle\vert\; y \in \R\right\},</me>
+      and the <xref ref="def-graph_function" text="title"/> of <m>f</m> is the set of
+      <me>\left\{(x, x + 2) \;\middle\vert\; x \in R \right\}.</me>
+      To say these graphs intersect is to say there is a point <m>(x,y)</m> in the intersection of these two sets.
+      The condition for membership on the graph of <m>x = a</m> determines the <m>x</m> value of such a point and the definition of the graph of <m>f</m> determines the <m>y</m>-coordinate:
+      <me>y = x + 2 = a + 2</me>.
+      This tells us the line <m>x = a</m> intersects the graph of <m>f</m> at the single point <m>(a,a+2)</m>.
+    </p>
+    <p>
+      We can more readily see this graphically from  <xref ref="fig-vertical_line_test_example"/>.
+    </p>
+    <figure xml:id="fig-vertical_line_test_example">
+      <image>
+	<latex-image>
+	  <xi:include parse="text" href="tex/vertical_line_test.tex"/>
+	</latex-image>
+      </image>
+      <caption>The graph <m>y = x + 2</m> and <m>y = a</m>.</caption>
+    </figure>
+  </example>
+
+  <example>
+    <p>
+      The equation <m>x = y^2</m> does <alert>not</alert> define <m>y</m> as a function of <m>x</m>.
+    </p>
+    <p>
+      Recall that for every positive number <m>x</m>, there are always two square roots: <m>\sqrt{x}</m> and <m>-\sqrt{x}</m>.
+      This tells us the ordered pairs <m>(x, \sqrt{x})</m> and <m>(x, -\sqrt{x})</m> both satisfy the equation <m>x = y^2</m>
+      For example, the ordered pairs <m>(1,1)</m> and <m>(1,-1)</m> satisfy
+      <me>1 = 1^2 \quad\text{and}\quad 1 = (-1)^2.</me>
+      Since the definition a <xref ref="def-function" text="title"/> requires that each element of the domain corresponds to <alert>exactly</alert> one element of the codomain, we see this cannot be a function.
+      That is, equation <m>x = y^2</m> fails the <xref ref="thm-vertical_line_test" text="title"/>.
+      <figure xml:id="fig-non_function">
+	<image xml:id="img-non_function">
+	  <latex-image>
+	    <xi:include parse="text" href="tex/non_function.tex"/>
+	  </latex-image>
+	</image>
+	<caption>The graph of the equation <m>x = y^2</m> and the line <m>x = 1</m>.</caption>
+      </figure>
+    </p>
+  </example>
+</section>

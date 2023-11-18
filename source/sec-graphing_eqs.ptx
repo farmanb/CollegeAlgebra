@@ -20,7 +20,7 @@
     </p>
   </introduction>
   
-  <definition xml:id="defn-solution">
+  <definition xml:id="def-solution">
     <title>Solution to an Equation</title>
     <p>
       A <term>solution</term>
@@ -52,7 +52,7 @@
     </p>
   </example>
 
-  <definition xml:id="defn-graph">
+  <definition xml:id="def-graph">
     <title>Graph of an Equation</title>
     <p>
       The <term>graph</term>

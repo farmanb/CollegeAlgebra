@@ -84,7 +84,7 @@
     <title>Graphing Linear Equations</title>
     <introduction>
       <p>
-	Recall that the <xref ref="defn-graph" text="title"/> of an equation consists of all points <m>(x,y)</m> that are a <xref ref="defn-solution" text="title"/> to the equation.
+	Recall that the <xref ref="def-graph" text="title"/> of an equation consists of all points <m>(x,y)</m> that are a <xref ref="def-solution" text="title"/> to the equation.
 	The graph of a linear equation is always a line.
 	We can graph the equation by finding any two points on the line and drawing a line through them.
       </p>

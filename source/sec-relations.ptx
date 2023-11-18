@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-relations">
+<section xml:id="sec-relations" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Relations and Functions</title>
   <objectives>
     <ul>
@@ -29,7 +29,8 @@
       <idx>
 	<h>Relation</h>
       </idx>
-      is a set of ordered pairs of real numbers.
+      is a subset of the Cartesian plane
+      <me>\R^2 = \left\{(x,y) \;\middle\vert\; x \in \R,\, y \in \R\right\}.</me>
       The <term>domain</term>
       <idx>
 	<h>Relation</h>
@@ -55,21 +56,152 @@
 	and the range of this relation is the set
 	<me>R = \{2, 4, 6, 8\}.</me>
       </p>
+      <p>
+	We can graph the relation by plotting the points in the Cartesian plane.
+	<figure>
+	  <image>
+	    <latex-image>
+	      <xi:include parse="text" href="tex/finite_relation_example.tex"/>
+	    </latex-image>
+	  </image>
+	  <caption>The graph of the relation <m>\{(1, 2), (3,4), (5,6), (7,8)\}</m></caption>
+	</figure>
+      </p>
     </example>
+
+    <p>
+      Most of the relations we are interested in studying have infinitely many elements.
+      Since we cannot write down all of the elements, we rely on <xref ref="def-set_builder_notation" text="title"/> to specify the relation.
+    </p>
     
     <example>
+      <statement>
+	<p>
+	  Find the domain and relation of the relation
+	  <me>\left\{(x, x + 2) \;\middle\vert\; x \in \R \right\}.</me>
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  The condition <m>x \in \R</m> in the set-builder notation tells us the domain is the set, <m>\R</m>, of all real numbers.
+	</p>
+	<p>
+	  To find the range, we must determine which real numbers can be written as 2 more than another real number.
+	  We can see this is is all of <m>\R</m> because for every real number <m>y</m>, the real number <m>x = y - 2</m> satisfies 
+	  <me>x + 2 = (y - 2) + 2 = y</me>.
+	  This demonstrates that for every real number <m>y</m>, the pair <m>(y - 2, y)</m> is an element of the relation.
+	  Therefore the range of this relation is <m>\R</m>.
+	</p>
+	<p>
+	  As in the last example, we can also visualize this relation.
+	  The graph of this relation is a line.
+	  <figure xml:id="fig-infinite_relation_example">
+	    <image>
+	      <latex-image>
+		<xi:include parse="text" href="tex/infinite_relation_example.tex"/>
+	      </latex-image>
+	    </image>
+	    <caption>The graph of the relation <m>\left\{(x, x + 2) \;\middle\vert\; x \in \R \right\}</m>.</caption>
+	  </figure>
+	</p>
+      </solution>
+    </example>
+  </subsection>
+
+  <subsection>
+    <title>Functions</title>
+    <definition xml:id="def-function">
+      <title>Function</title>
       <p>
-	Most of the relations we are interested in studying have infinitely many elements.
-	Since we cannot write down all of the elements, we rely on <xref ref="def-set_builder_notation" text="title"/> to specify the relation.
-	The relation
-	<me>\left\{(x, x + 2) \;\middle\vert\; x \in \R \right\}</me>
-	tells us the domain is the set, <m>\R</m>, of all real numbers.
+	A <term>function</term>
+	<idx>
+	  <h>Function</h>
+	</idx>
+	is a relation, <m>f</m>, in which each element of the domain is paired with exactly one element of the range.
       </p>
       <p>
-	To find the range, we must determine which real numbers can be written as 2 more than another real number.
-	We can see this is is all of <m>\R</m> because for every real number <m>y</m>, the real number <m>x = y - 2</m> satisfies 
-	<me>x + 2 = (y - 2) + 2 = y</me>.
-	Therefore the pair <m>(y - 2, y)</m> is an element of the relation.
+	The <term>domain</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Domain</h>
+	</idx>
+	of <m>f</m> is the set of first coordinates, the <term>codomain</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Codomain</h>
+	</idx>
+	of <m>f</m> is the set that contains all of second coordiantes, and the <term>range</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Range</h>
+	</idx>
+	of <m>f</m> is the set of all second coordinates.
+      </p>
+      <p>
+	If <m>f</m> has domain <m>A</m> and codomain <m>B</m>, then we write
+	<me>f \colon A \to B</me>
+	<notation>
+	  <usage>
+	    <m>f \colon A \to B</m>
+	  </usage>
+	</notation>
+	and for each element <m>(x,y)</m> of the relation, we write <m>f(x)</m>
+	<notation>
+	  <usage>
+	    <m>f(x)</m>
+	  </usage>
+	</notation>
+	for the second coordinate.
+      </p>
+    </definition>
+    
+    <theorem xml:id="thm-vertical_line_test">
+      <title>The Vertical Line Test</title>
+      <statement>
+	<p>
+	  A relation is a function if and only if every vertical line intersects the graph of the relation in <alert>at most</alert> one point.
+	</p>
+      </statement>
+    </theorem>
+
+    <example>
+      <p>
+	We can see from <xref ref="fig-infinite_relation_example"/> that the relation <m>\left\{(x, x+2) \;\middle\vert\; x \in \R\right\}</m> is a function.
+	The function <m>f</m> has domain <m>\R</m> and range <m>\R</m>.
+	We would write <m>f \colon \R \to \R</m> to indicate that the function <m>f</m> has domain all real numbers and codomain <m>\R</m>.
+	For each <m>x \in \R</m>, we write
+	<me>f(x) = x + 2</me>
+	to indicate that <m>f</m> represents the rule that assigns the output value <m>x + 2</m> to each element <m>x \in \R</m>.
+	In particular,
+	<me>f(2) = 2 + 2 = 4.</me>
+      </p>
+    </example>
+
+    <example>
+      <p>
+	The relation
+	<me>R = \left\{(x^2, x) \;\middle\vert\; x \in \R\right\}</me>
+	is <alert>not</alert> a function.
+      </p>
+      <p>
+	Algebraically, we first note the domain of this function is the set of non-negative real numbers, <m>[0, \infty)</m>.
+	Recall that for every positive number <m>x</m>, there are always two square roots: <m>\sqrt{x}</m> and <m>-\sqrt{x}</m>.
+	This tells us the ordered pairs <m>(x, \sqrt{x})</m> and <m>(x, -\sqrt{x})</m> are both elements of the relation <m>R</m>.
+      </p>
+      <p>
+	Concretely, the ordered pairs <m>(1,1)</m> and <m>(1,-1)</m> are both elements of the relation.
+	Since the definition a <xref ref="def-function" text="title"/> requires that each element of the domain corresponds to <alert>exactly</alert> one element of the codomain, we see this cannot be a function.
+      </p>
+      <p>
+	Graphically, this tells us the relation fails the <xref ref="thm-vertical_line_test" text="title"/>.
+	<figure xml:id="fig-non_function">
+	  <image>
+	    <latex-image>
+	      <xi:include parse="text" href="tex/non_function.tex"/>
+	    </latex-image>
+	  </image>
+	  <caption>The graph of the relation <m>R = \left\{(x^2, x) \;\middle\vert\; x \in \R\right\}</m>.</caption>
+	</figure>
       </p>
     </example>
   </subsection>
