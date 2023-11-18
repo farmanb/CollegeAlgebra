@@ -11,7 +11,7 @@
 	Find the range of a function.
       </li>
       <li>
-	Determine whether a relation is a function.
+	Determine whether an equation defines <m>y</m> as a function of <m>x</m>.
       </li>
     </ul>
   </objectives>
@@ -216,4 +216,6 @@
       </figure>
     </p>
   </example>
+
+  <xi:include href="worksheets/wksht-functions.ptx"/>
 </section>

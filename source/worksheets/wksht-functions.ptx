@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Functions</title>
+    <objectives>
+    <ul>
+      <li>
+	Find the domain and codomain of a function.
+      </li>
+      <li>
+	Find the range of a function.
+      </li>
+      <li>
+	Determine whether an equation defines <m>y</m> as a function of <m>x</m>.
+      </li>
+    </ul>
+    </objectives>
+
+    <page>
+      <exercise>
+	<introduction>
+	  <p>
+	    For each of the following functions, find the domain, codomain, and range.
+	</p>
+	</introduction>
+	<task workspace="2in">
+	  <p>
+	    <m>f(x) = \sqrt{x}</m>
+	  </p>
+	</task>
+	<task workspace="2in">
+	  <p>
+	    <m>g(x) = \frac{1}{x}</m>
+	  </p>
+	</task>
+	<task workspace="2in">
+	  <p>
+	    <m>h(x) = \abs{x}</m>
+	  </p>
+	</task>
+      </exercise>
+    </page>
+
+    <page>
+      <exercise>
+	<introduction>
+	  <p>
+	    Evaluate the function at the given value.
+	  </p>
+	</introduction>
+	<task workspace="2in">
+	  <p>
+	    <m>f(x) = 3x^2 + 2x - 7</m>; <m>x = 2</m>.
+	  </p>
+	</task>
+
+	<task workspace="2in">
+	  <p>
+	    <m>g(x) = x - \sqrt{x} + \frac{7}{x}</m>; <m>x = 49</m>.
+	  </p>
+	</task>
+
+	<task workspace="2in">
+	  <p>
+	    <m>h(x) = \abs{x} + 3x - 5</m>; <m>x = -11</m>.
+	  </p>
+	</task>
+      </exercise>
+    </page>
+    
+    <page>
+      <exercise>
+	<introduction>
+	  <p>
+	    For each of the graphs, find the domain and range.
+	    Use the <xref ref="thm-vertical_line_test" text="title"/> to determine whether <m>y</m> is a function of <m>x</m>.
+	  </p>
+	</introduction>
+	<task>
+	  <image>
+	    <latex-image>
+	      <xi:include parse="text" href="../tex/wksht-functions_a.tex"/>
+	    </latex-image>
+	  </image>
+	</task>
+	<task>
+	  <image>
+	    <latex-image>
+	      <xi:include parse="text" href="../tex/wksht-functions_b.tex"/>
+	    </latex-image>
+	  </image>
+	</task>
+      </exercise>
+    </page>
+</worksheet>
