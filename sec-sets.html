@@ -189,12 +189,14 @@ window.MathJax = {
 <ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-section active">
 <div class="toc-title-box"><a href="sec-sets.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Sets</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sets.html#subsec-special_sets" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Special Sets</span></a></div></li></ul>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sets.html#subsec-special_sets" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Special Sets</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-sets.html#subsubsection-4" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Intervals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sets.html#subsection-7" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Subsets and Equality</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sets.html#subsection-8" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Basic Set Operations</span></a></div></li>
+</ul>
 </li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-relations.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Relations and Functions</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-relations.html#subsec-relations" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Relations</span></a></div></li></ul>
-</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-relations.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Functions</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter">
@@ -209,12 +211,7 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-sets"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">3.1</span><span class="space"> </span><span class="title">Sets</span>
 </h2>
-<article class="objectives goal-like" id="objectives-19"><h3 class="heading"><span class="type">Objectives</span></h3>
-<ul class="disc">
-<li id="li-72"><div class="para" id="p-derived-li-72"></div></li>
-<li id="li-73"><div class="para" id="p-derived-li-73"></div></li>
-<li id="li-74"><div class="para" id="p-derived-li-74"></div></li>
-</ul></article><section class="introduction" id="introduction-17"><div class="para" id="p-195">In this section, we study the basic theory of sets.</div></section><article class="definition definition-like" id="def-set"><h3 class="heading">
+<section class="introduction" id="introduction-17"><div class="para" id="p-195">In this section, we study the basic theory of sets.</div></section><article class="definition definition-like" id="def-set"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.1</span><span class="period">.</span>
 </h3>
 <div class="para" id="p-196">A <dfn class="terminology">set</dfn>  is a collection of objects called <dfn class="terminology">elements</dfn>  or <dfn class="terminology">members</dfn>  of the set. We specify that an object <span class="process-math">\(x\)</span> is an element of the set <span class="process-math">\(S\)</span> by writing <span class="process-math">\(x \in S\)</span>  and say "<span class="process-math">\(x\)</span> is an element (or member) of <span class="process-math">\(S\)</span>"</div></article><article class="definition definition-like" id="def-roster_notation"><h3 class="heading">
@@ -241,27 +238,159 @@ E = \left\{x \;\middle\vert\; x\ \text{is a positive, even integer}\right\}.
 </div></article><section class="subsection" id="subsec-special_sets"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.1</span><span class="space"> </span><span class="title">Special Sets</span>
 </h3>
-<section class="introduction" id="introduction-18"><div class="para" id="p-201">We have special names for some commonly used sets.</div></section><article class="definition definition-like" id="def-naturals"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.6</span><span class="period">.</span>
-</h4>The set of <dfn class="terminology">natural numbers</dfn>  is the set with elements all positive integers,<div class="displaymath process-math">
+<section class="introduction" id="introduction-18"><div class="para" id="p-201">We have special names for some commonly used sets.</div></section><article class="definition definition-like" id="def-empty_set"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.6</span><span class="period">.</span><span class="space"> </span><span class="title">The Empty Set.</span>
+</h4> <div class="para" id="p-202">The <dfn class="terminology">empty set</dfn>  is the set with no elements, <span class="process-math">\(\emptyset\text{.}\)</span> </div></article><article class="definition definition-like" id="def-naturals"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.7</span><span class="period">.</span><span class="space"> </span><span class="title">The Natural Numbers.</span>
+</h4> The set of <dfn class="terminology">natural numbers</dfn>  is the set with elements all positive integers,<div class="displaymath process-math">
 \begin{equation*}
 \N = \left\{1, 2, 3, 4, \ldots\right\}.
 \end{equation*}
 </div></article><article class="definition definition-like" id="def-integers"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.7</span><span class="period">.</span>
-</h4>The set of <dfn class="terminology">integers</dfn>  is the set with elements all integers,<div class="displaymath process-math">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.8</span><span class="period">.</span><span class="space"> </span><span class="title">The Integers.</span>
+</h4> The set of <dfn class="terminology">integers</dfn>  is the set with elements all integers,<div class="displaymath process-math">
 \begin{equation*}
 \Z = \left\{\ldots, -4,-3,-2, -1, 0, 1, 2, 3, 4, \ldots\right\}.
 \end{equation*}
 </div></article><article class="definition definition-like" id="def-rationals"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.8</span><span class="period">.</span>
-</h4>The set of <dfn class="terminology">rational numbers</dfn>  is the set with elements all rational numbers,<div class="displaymath process-math">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.9</span><span class="period">.</span><span class="space"> </span><span class="title">The Rational Numbers.</span>
+</h4> The set of <dfn class="terminology">rational numbers</dfn>  is the set with elements all rational numbers,<div class="displaymath process-math">
 \begin{equation*}
 \Q = \left\{\frac{a}{b} \;\middle\vert\; a \in \Z,\, b \in \Z,\, b \neq 0\right\}.
 \end{equation*}
 </div></article><article class="definition definition-like" id="def-reals"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.9</span><span class="period">.</span>
-</h4>The set of <dfn class="terminology">real numbers</dfn>  is the set with elements all real numbers, <span class="process-math">\(\R\text{.}\)</span> </article></section></section></div>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.10</span><span class="period">.</span><span class="space"> </span><span class="title">The Real Numbers.</span>
+</h4> The set of <dfn class="terminology">real numbers</dfn>  is the set with elements all real numbers, <span class="process-math">\(\R\text{.}\)</span> </article></section><section class="subsubsection" id="subsubsection-4"><h3 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">3.1.1</span><span class="space"> </span><span class="title">Intervals</span>
+</h3>
+<section class="introduction" id="introduction-19"><div class="para" id="p-203">We will mostly be concerned with subsets of the real numbers known as <em class="emphasis">intervals</em>.</div></section><article class="definition definition-like" id="def-interval-open"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.11</span><span class="period">.</span><span class="space"> </span><span class="title">Open Interval.</span>
+</h4> <div class="para logical" id="p-204">
+<div class="para">Let <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> be real numbers and assume that <span class="process-math">\(a \lt b\text{.}\)</span> An <dfn class="terminology">open interval</dfn>  is a set that takes one of the following forms.</div>
+<div class="displaymath process-math" id="md-15">
+\begin{align*}
+(a,b) \amp= \left\{x \in \R \;\middle\vert\; a \lt x \lt b\right\},\\
+(a, \infty) \amp = \left\{x \in \R \;\middle\vert\; a \lt x \right\},\\
+(-\infty, b) \amp = \left\{x \in \R \;\middle\vert\; x \lt b\right\},\, \text{or}\\
+(-\infty, \infty) \amp= \R.
+\end{align*}
+</div>
+</div> <figure class="figure figure-like" id="fig-interval-open"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/img-interval-open.svg" role="img" class="contained"></div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/img-interval-left_open_ray.svg" role="img" class="contained"></div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/img-interval-right_open_ray.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.12<span class="period">.</span></span><span class="space"> </span>The open intervals <span class="process-math">\((a,b)\text{,}\)</span> <span class="process-math">\((a,\infty)\text{,}\)</span> and <span class="process-math">\((-\infty, b)\text{.}\)</span></figcaption></figure></article><article class="definition definition-like" id="def-interval-closed"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.13</span><span class="period">.</span><span class="space"> </span><span class="title">Closed Interval.</span>
+</h4> <div class="para logical" id="p-205">
+<div class="para">Let <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> be real numbers and assume that <span class="process-math">\(a \lt b\text{.}\)</span> A <dfn class="terminology">closed interval</dfn>  is a set that takes one of the following forms</div>
+<div class="displaymath process-math" id="md-16">
+\begin{align*}
+[a,b] \amp= \left\{x \in \R \;\middle\vert\; a \leq x \leq b\right\},\\
+[a, \infty) \amp = \left\{x \in \R ;\middle\vert\; a \leq x\right\},\, \text{or}\\
+(-\infty, b] \amp = \left\{x \in \R \;\middle\vert\; x \leq b\right\}.\\
+(-\infty, \infty) \amp = \R.
+\end{align*}
+</div>
+</div> <figure class="figure figure-like" id="fig-interval-closed"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/img-interval-closed.svg" role="img" class="contained"></div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/img-interval-left_closed_ray.svg" role="img" class="contained"></div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/img-interval-right_closed_ray.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.14<span class="period">.</span></span><span class="space"> </span>The closed intervals <span class="process-math">\([a,b]\text{,}\)</span> <span class="process-math">\([a,\infty)\text{,}\)</span> and <span class="process-math">\((-\infty,b]\text{.}\)</span></figcaption></figure></article><article class="definition definition-like" id="def-interval-half-open"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.15</span><span class="period">.</span><span class="space"> </span><span class="title">Half-Open Interval.</span>
+</h4> <div class="para logical" id="p-206">
+<div class="para">Let <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> be real numbers and assume that <span class="process-math">\(a \lt b\text{.}\)</span> A <dfn class="terminology">half-open interval</dfn>  from <span class="process-math">\(a\)</span> to <span class="process-math">\(b\)</span> takes one of the following forms.</div>
+<div class="displaymath process-math" id="md-17">
+\begin{align*}
+(a,b] \amp= \left\{x \in \R \;\middle\vert\; a \lt x \leq b\right\},\\
+[a,b) \amp= \left\{x \in \R \;\middle\vert\; a \leq x \lt b\right\},
+\end{align*}
+</div>
+</div> <figure class="figure figure-like" id="fig-interval-half_open"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/img-interval-half_open-left.svg" role="img" class="contained"></div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/img-interval-half_open-right.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.16<span class="period">.</span></span><span class="space"> </span>The half-open intervals <span class="process-math">\((a,b]\)</span> and <span class="process-math">\([a,b)\text{.}\)</span></figcaption></figure></article></section><section class="subsection" id="subsection-7"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.2</span><span class="space"> </span><span class="title">Subsets and Equality</span>
+</h3>
+<article class="definition definition-like" id="def-set_equality"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.17</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-207">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets. We say the sets <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are <dfn class="terminology">equal</dfn>  and write <span class="process-math">\(A = B\)</span>  if <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> have the exact same elements.</div></article><article class="example example-like" id="example-35"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.18</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-208">The sets <span class="process-math">\(\{1,2,3\}\)</span> and <span class="process-math">\(\{3, 1, 2\}\)</span> are equal.</div></article><article class="example example-like" id="example-36"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.19</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-209">The sets <span class="process-math">\(\{1,2,3\}\)</span> and <span class="process-math">\(\{1,2,4\}\)</span> are <em class="alert">not</em> equal.</div></article><article class="definition definition-like" id="def-subset"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.20</span><span class="period">.</span><span class="space"> </span><span class="title">Subset.</span>
+</h4> <div class="para" id="p-210">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets. We say that <span class="process-math">\(A\)</span> is a <dfn class="terminology">subset</dfn>  of <span class="process-math">\(B\)</span> and write <span class="process-math">\(A \subseteq B\)</span>  if every element of <span class="process-math">\(A\)</span> is also an element of <span class="process-math">\(B\text{.}\)</span>
+</div></article><article class="example example-like" id="example-37"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.21</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-211">The set <span class="process-math">\(\{1,2\}\)</span> is a subset of the set <span class="process-math">\(\{1,2,3\}\text{.}\)</span>
+</div></article><article class="example example-like" id="example-38"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.22</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-212">The set <span class="process-math">\(\{1,2,3\}\)</span> is <em class="alert">not</em> a subset of <span class="process-math">\(\{1,3\}\text{.}\)</span>
+</div></article></section><section class="subsection" id="subsection-8"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.3</span><span class="space"> </span><span class="title">Basic Set Operations</span>
+</h3>
+<section class="introduction" id="introduction-20"><div class="para" id="p-213">There are two common operations that we will frequently need to perform on sets.</div></section><article class="definition definition-like" id="def-intersection"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.23</span><span class="period">.</span><span class="space"> </span><span class="title">Intersection.</span>
+</h4> <div class="para logical" id="p-214">
+<div class="para">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets. The <dfn class="terminology">intersection</dfn>  of <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> is the set</div>
+<div class="displaymath process-math">
+\begin{equation*}
+A \cap B = \left\{x \;\middle\vert\; x \in A\ \text{and}\ x \in B\right\}.
+\end{equation*}
+</div>
+</div></article><article class="remark remark-like" id="remark-3"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">3.1.24</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-215">The intersection is the largest set that is a subset of <span class="process-math">\(A\)</span> and a subset of <span class="process-math">\(B\text{.}\)</span>
+</div></article><article class="example example-like" id="example-39"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.25</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="p-216">
+<div class="para">The intersection of the intervals <span class="process-math">\([0,2)\)</span> and <span class="process-math">\((1,3]\)</span> is the set</div>
+<div class="displaymath process-math" id="md-18">
+\begin{align*}
+[1,2) \cap (1,3] \amp = \left\{x \in \R \;\middle\vert\; 1 \leq x \lt 2\ \text{and}\ 1 \lt x \leq 3\right\}\\
+\amp = \left\{x \in \R\;\middle\vert\; 1 \lt x \lt 2\right\}\\
+\amp = (1,2)
+\end{align*}
+</div>
+</div> <figure class="figure figure-like" id="figure-38"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-58.svg" role="img" class="contained"></div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-59.svg" role="img" class="contained"></div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-60.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.26<span class="period">.</span></span><span class="space"> </span>The intervals <span class="process-math">\([0,2)\text{,}\)</span> <span class="process-math">\((1,3]\text{,}\)</span> and <span class="process-math">\([0,2) \cap (1,3])\text{.}\)</span></figcaption></figure></article><article class="definition definition-like" id="def-union"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.27</span><span class="period">.</span><span class="space"> </span><span class="title">Union.</span>
+</h4> <div class="para logical" id="p-217">
+<div class="para">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets. The <dfn class="terminology">union</dfn>  of <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> is the set</div>
+<div class="displaymath process-math">
+\begin{equation*}
+A \cup B = \left\{x \;\middle\vert\; x \in A\ \text{or}\ x \in B\right\}.
+\end{equation*}
+</div>
+</div></article><article class="remark remark-like" id="remark-4"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">3.1.28</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-218">In mathematics, the word <em class="emphasis">or</em> is <dfn class="terminology">inclusive</dfn>. This means the condition <span class="process-math">\(x \in A\)</span> or <span class="process-math">\(x \in B\)</span> allows for the possibility that <span class="process-math">\(x \in A\)</span> <em class="emphasis">and</em> <span class="process-math">\(x \in B\text{.}\)</span>
+</div></article><article class="remark remark-like" id="remark-5"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">3.1.29</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-219">The union is the smallest set that contains both <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> as subsets.</div></article><article class="example example-like" id="example-40"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.30</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="p-220">
+<div class="para">The union of the two intervals <span class="process-math">\([-1,2)\)</span> and <span class="process-math">\((1,3]\)</span> is the set</div>
+<div class="displaymath process-math" id="md-19">
+\begin{align*}
+[0,2) \cup (1,3] \amp = \left\{x \in \R \;\middle\vert\; 0 \leq x \lt 2\ \text{or}\ 1 \lt x \leq 3\right\}\\
+\amp = 0 \leq x \leq 3\\
+\amp = [0,3]
+\end{align*}
+</div>
+</div> <figure class="figure figure-like" id="figure-39"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-61.svg" role="img" class="contained"></div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-62.svg" role="img" class="contained"></div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-63.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.31<span class="period">.</span></span><span class="space"> </span>The intervals <span class="process-math">\([0,2)\text{,}\)</span> <span class="process-math">\((1,3]\text{,}\)</span> and <span class="process-math">\([0,2) \cup (1,3])\text{.}\)</span></figcaption></figure></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="ch-functions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-relations.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

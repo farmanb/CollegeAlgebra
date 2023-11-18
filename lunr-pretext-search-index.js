@@ -28,9 +28,9 @@ var ptx_lunr_docs = [
   "body": "   Identify points in the plane using Cartesian coordinates.   "
 },
 {
-  "id": "defn-cartesian_plane",
+  "id": "def-cartesian_plane",
   "level": "2",
-  "url": "sec-cartesian_coordinates.html#defn-cartesian_plane",
+  "url": "sec-cartesian_coordinates.html#def-cartesian_plane",
   "type": "Definition",
   "number": "1.1.1",
   "title": "",
@@ -55,9 +55,9 @@ var ptx_lunr_docs = [
   "body": "points -coordinate -coordinate "
 },
 {
-  "id": "defn-ordered_pair",
+  "id": "def-ordered_pair",
   "level": "2",
-  "url": "sec-cartesian_coordinates.html#defn-ordered_pair",
+  "url": "sec-cartesian_coordinates.html#def-ordered_pair",
   "type": "Definition",
   "number": "1.1.3",
   "title": "",
@@ -118,9 +118,9 @@ var ptx_lunr_docs = [
   "body": "   Identify points in the plane that are solutions to equations in two variables.   "
 },
 {
-  "id": "defn-solution",
+  "id": "def-solution",
   "level": "2",
-  "url": "sec-cartesian_coordinates-graphing_equations.html#defn-solution",
+  "url": "sec-cartesian_coordinates-graphing_equations.html#def-solution",
   "type": "Definition",
   "number": "1.2.1",
   "title": "Solution to an Equation.",
@@ -136,9 +136,9 @@ var ptx_lunr_docs = [
   "body": " Consider the equation . The ordered pair is a solution to this equation because is a true statement. The ordered pair is not a solution to this equation because is a false statement.  "
 },
 {
-  "id": "defn-graph",
+  "id": "def-graph",
   "level": "2",
-  "url": "sec-cartesian_coordinates-graphing_equations.html#defn-graph",
+  "url": "sec-cartesian_coordinates-graphing_equations.html#def-graph",
   "type": "Definition",
   "number": "1.2.3",
   "title": "Graph of an Equation.",
@@ -1231,16 +1231,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Sets",
-  "body": " Sets             In this section, we study the basic theory of sets.    A set   Set  is a collection of objects called elements   Set  Element  or members   Set  Member  of the set. We specify that an object is an element of the set by writing      and say \" is an element (or member) of \"    Roster Notation   Roster notation   Set  Roster Notation  specifies the elements of a set as a comma separated list surrounded by curly braces.    The set has as its elements the numbers , , , and .    Set-Builder Notation   Set-builder notation   Set  Set-Builder Notation  specifies the members of a set using a variable and condition for membership in the set.    The set, , of all positive, even integers can be written in set-builder notation as This is read as \" is the set of all such that is a positive, even integer.\"    Special Sets   We have special names for some commonly used sets.   The set of natural numbers   Set  Natural Numbers  is the set with elements all positive integers,        The set of integers   Set  Integers  is the set with elements all integers,        The set of rational numbers   Set  Rational Numbers  is the set with elements all rational numbers,        The set of real numbers   Set  Real Numbers  is the set with elements all real numbers, .        "
-},
-{
-  "id": "objectives-19",
-  "level": "2",
-  "url": "sec-sets.html#objectives-19",
-  "type": "Objectives",
-  "number": "3.1",
-  "title": "",
-  "body": "         "
+  "body": " Sets             In this section, we study the basic theory of sets.    A set   Set  is a collection of objects called elements   Set  Element  or members   Set  Member  of the set. We specify that an object is an element of the set by writing      and say \" is an element (or member) of \"    Roster Notation   Roster notation   Set  Roster Notation  specifies the elements of a set as a comma separated list surrounded by curly braces.    The set has as its elements the numbers , , , and .    Set-Builder Notation   Set-builder notation   Set  Set-Builder Notation  specifies the members of a set using a variable and condition for membership in the set.    The set, , of all positive, even integers can be written in set-builder notation as This is read as \" is the set of all such that is a positive, even integer.\"    Special Sets   We have special names for some commonly used sets.    The Empty Set  The empty set   Set  Empty  is the set with no elements, .         The Natural Numbers The set of natural numbers   Set  Natural Numbers  is the set with elements all positive integers,         The Integers The set of integers   Set  Integers  is the set with elements all integers,         The Rational Numbers The set of rational numbers   Set  Rational Numbers  is the set with elements all rational numbers,         The Real Numbers The set of real numbers   Set  Real Numbers  is the set with elements all real numbers, .         Intervals   We will mostly be concerned with subsets of the real numbers known as intervals .    Open Interval  Let and be real numbers and assume that . An open interval   Set  Interval  Open  is a set that takes one of the following forms.             The open intervals , , and .     Closed Interval  Let and be real numbers and assume that . A closed interval   Set  Interval  Closed  is a set that takes one of the following forms             The closed intervals , , and .     Half-Open Interval  Let and be real numbers and assume that . A half-open interval   Set  Interval  Half-Open  from to takes one of the following forms.          The half-open intervals and .      Subsets and Equality   Let and be sets. We say the sets and are equal   Set  Equal  and write      if and have the exact same elements.    The sets and are equal.    The sets and are not equal.    Subset  Let and be sets. We say that is a subset   Set  Subset  of and write      if every element of is also an element of .    The set is a subset of the set .    The set is not a subset of .     Basic Set Operations   There are two common operations that we will frequently need to perform on sets.    Intersection  Let and be sets. The intersection   Set  Intersection  of and is the set     The intersection is the largest set that is a subset of and a subset of .    The intersection of the intervals and is the set             The intervals , , and .     Union  Let and be sets. The union   Set  Union  of and is the set     In mathematics, the word or is inclusive . This means the condition or allows for the possibility that  and  .    The union is the smallest set that contains both and as subsets.    The union of the two intervals and is the set             The intervals , , and .     "
 },
 {
   "id": "def-set",
@@ -1288,40 +1279,193 @@ var ptx_lunr_docs = [
   "body": " The set, , of all positive, even integers can be written in set-builder notation as This is read as \" is the set of all such that is a positive, even integer.\"  "
 },
 {
+  "id": "def-empty_set",
+  "level": "2",
+  "url": "sec-sets.html#def-empty_set",
+  "type": "Definition",
+  "number": "3.1.6",
+  "title": "The Empty Set.",
+  "body": " The Empty Set  The empty set   Set  Empty  is the set with no elements, .       "
+},
+{
   "id": "def-naturals",
   "level": "2",
   "url": "sec-sets.html#def-naturals",
   "type": "Definition",
-  "number": "3.1.6",
-  "title": "",
-  "body": "The set of natural numbers   Set  Natural Numbers  is the set with elements all positive integers,       "
+  "number": "3.1.7",
+  "title": "The Natural Numbers.",
+  "body": " The Natural Numbers The set of natural numbers   Set  Natural Numbers  is the set with elements all positive integers,       "
 },
 {
   "id": "def-integers",
   "level": "2",
   "url": "sec-sets.html#def-integers",
   "type": "Definition",
-  "number": "3.1.7",
-  "title": "",
-  "body": "The set of integers   Set  Integers  is the set with elements all integers,       "
+  "number": "3.1.8",
+  "title": "The Integers.",
+  "body": " The Integers The set of integers   Set  Integers  is the set with elements all integers,       "
 },
 {
   "id": "def-rationals",
   "level": "2",
   "url": "sec-sets.html#def-rationals",
   "type": "Definition",
-  "number": "3.1.8",
-  "title": "",
-  "body": "The set of rational numbers   Set  Rational Numbers  is the set with elements all rational numbers,       "
+  "number": "3.1.9",
+  "title": "The Rational Numbers.",
+  "body": " The Rational Numbers The set of rational numbers   Set  Rational Numbers  is the set with elements all rational numbers,       "
 },
 {
   "id": "def-reals",
   "level": "2",
   "url": "sec-sets.html#def-reals",
   "type": "Definition",
-  "number": "3.1.9",
+  "number": "3.1.10",
+  "title": "The Real Numbers.",
+  "body": " The Real Numbers The set of real numbers   Set  Real Numbers  is the set with elements all real numbers, .      "
+},
+{
+  "id": "def-interval-open",
+  "level": "2",
+  "url": "sec-sets.html#def-interval-open",
+  "type": "Definition",
+  "number": "3.1.11",
+  "title": "Open Interval.",
+  "body": " Open Interval  Let and be real numbers and assume that . An open interval   Set  Interval  Open  is a set that takes one of the following forms.             The open intervals , , and .   "
+},
+{
+  "id": "def-interval-closed",
+  "level": "2",
+  "url": "sec-sets.html#def-interval-closed",
+  "type": "Definition",
+  "number": "3.1.13",
+  "title": "Closed Interval.",
+  "body": " Closed Interval  Let and be real numbers and assume that . A closed interval   Set  Interval  Closed  is a set that takes one of the following forms             The closed intervals , , and .   "
+},
+{
+  "id": "def-interval-half-open",
+  "level": "2",
+  "url": "sec-sets.html#def-interval-half-open",
+  "type": "Definition",
+  "number": "3.1.15",
+  "title": "Half-Open Interval.",
+  "body": " Half-Open Interval  Let and be real numbers and assume that . A half-open interval   Set  Interval  Half-Open  from to takes one of the following forms.          The half-open intervals and .   "
+},
+{
+  "id": "def-set_equality",
+  "level": "2",
+  "url": "sec-sets.html#def-set_equality",
+  "type": "Definition",
+  "number": "3.1.17",
   "title": "",
-  "body": "The set of real numbers   Set  Real Numbers  is the set with elements all real numbers, .      "
+  "body": " Let and be sets. We say the sets and are equal   Set  Equal  and write      if and have the exact same elements.  "
+},
+{
+  "id": "example-35",
+  "level": "2",
+  "url": "sec-sets.html#example-35",
+  "type": "Example",
+  "number": "3.1.18",
+  "title": "",
+  "body": " The sets and are equal.  "
+},
+{
+  "id": "example-36",
+  "level": "2",
+  "url": "sec-sets.html#example-36",
+  "type": "Example",
+  "number": "3.1.19",
+  "title": "",
+  "body": " The sets and are not equal.  "
+},
+{
+  "id": "def-subset",
+  "level": "2",
+  "url": "sec-sets.html#def-subset",
+  "type": "Definition",
+  "number": "3.1.20",
+  "title": "Subset.",
+  "body": " Subset  Let and be sets. We say that is a subset   Set  Subset  of and write      if every element of is also an element of .  "
+},
+{
+  "id": "example-37",
+  "level": "2",
+  "url": "sec-sets.html#example-37",
+  "type": "Example",
+  "number": "3.1.21",
+  "title": "",
+  "body": " The set is a subset of the set .  "
+},
+{
+  "id": "example-38",
+  "level": "2",
+  "url": "sec-sets.html#example-38",
+  "type": "Example",
+  "number": "3.1.22",
+  "title": "",
+  "body": " The set is not a subset of .  "
+},
+{
+  "id": "def-intersection",
+  "level": "2",
+  "url": "sec-sets.html#def-intersection",
+  "type": "Definition",
+  "number": "3.1.23",
+  "title": "Intersection.",
+  "body": " Intersection  Let and be sets. The intersection   Set  Intersection  of and is the set   "
+},
+{
+  "id": "remark-3",
+  "level": "2",
+  "url": "sec-sets.html#remark-3",
+  "type": "Remark",
+  "number": "3.1.24",
+  "title": "",
+  "body": " The intersection is the largest set that is a subset of and a subset of .  "
+},
+{
+  "id": "example-39",
+  "level": "2",
+  "url": "sec-sets.html#example-39",
+  "type": "Example",
+  "number": "3.1.25",
+  "title": "",
+  "body": " The intersection of the intervals and is the set             The intervals , , and .   "
+},
+{
+  "id": "def-union",
+  "level": "2",
+  "url": "sec-sets.html#def-union",
+  "type": "Definition",
+  "number": "3.1.27",
+  "title": "Union.",
+  "body": " Union  Let and be sets. The union   Set  Union  of and is the set   "
+},
+{
+  "id": "remark-4",
+  "level": "2",
+  "url": "sec-sets.html#remark-4",
+  "type": "Remark",
+  "number": "3.1.28",
+  "title": "",
+  "body": " In mathematics, the word or is inclusive . This means the condition or allows for the possibility that  and  .  "
+},
+{
+  "id": "remark-5",
+  "level": "2",
+  "url": "sec-sets.html#remark-5",
+  "type": "Remark",
+  "number": "3.1.29",
+  "title": "",
+  "body": " The union is the smallest set that contains both and as subsets.  "
+},
+{
+  "id": "example-40",
+  "level": "2",
+  "url": "sec-sets.html#example-40",
+  "type": "Example",
+  "number": "3.1.30",
+  "title": "",
+  "body": " The union of the two intervals and is the set             The intervals , , and .   "
 },
 {
   "id": "sec-relations",
@@ -1329,44 +1473,89 @@ var ptx_lunr_docs = [
   "url": "sec-relations.html",
   "type": "Section",
   "number": "3.2",
-  "title": "Relations and Functions",
-  "body": " Relations and Functions    Find the domain and codomain of a relation.  Find the range of a relation.  Determine whether a relation is a function.     In this section, we study the basics of relations and functions.    Relations  A relation   Relation  is a set of ordered pairs of real numbers. The domain   Relation  Domain  is the set of first coordinates in the relation. The range   Relation  Range  is the set of second coordinates in the relation.   Relations with only finitely many elements are easy to write down using . For example, defines a relation. The domain of this relation is the set and the range of this relation is the set     Most of the relations we are interested in studying have infinitely many elements. Since we cannot write down all of the elements, we rely on to specify the relation. The relation tells us the domain is the set, , of all real numbers.  To find the range, we must determine which real numbers can be written as 2 more than another real number. We can see this is is all of because for every real number , the real number satisfies . Therefore the pair is an element of the relation.    "
+  "title": "Functions",
+  "body": " Functions    Find the domain and codomain of a function.  Find the range of a function.  Determine whether a relation is a function.     In this section, we study the basics of functions.    Function  A function ,  Function   ,     is a rule that assigns to each element a unique element .       The set is the domain   Function  Domain  of , the set is the codomain   Function  Codomain  of . The range   Function  Range  of is the set of all output values    By convention, we will write to indicate that is a function of . We call the independent variable   Function  Independent Variable  and the dependent variable   Function  Dependent Variable  because every choice of from the domain of determines a value in the range that depends on that choice. In this case, we say is a function of .     Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , will also be a real number. To find the range, we want to describe the set   We can show this is by showing that for every real number , we can find a number such that . We simply solve this equation for in terms of  For example, if , then this formula tells us this corresponds to the input       Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , is a real number. To find the range, we want to describe the set   Given a real number , we want to determine whether the equation can be solved for .  When , there is exactly one solution: .  When , there are two solutions: and .  When , there are no solutions because the square root of a negative number is not a real number.  This tells us the range of our function is the interval .    Just like an equation in the variables and , we will often want to visualize the functions we define.   Graph of a Function  Assume . The graph of a function is the set of points    When the function we are considering is defined by an equation, the will coincide with the . While most of the functions we consider will be defined by an equation in the variables and , it is not the case that all equations in and define as a function of .   The Vertical Line Test   An equation in the variables and is defines as a function of if and only if every vertical line intersects the graph of the relation in at most one point.     Consider the function defined by the rule . We can verify this is a function in one of two ways. One way is to interpret the algebraically.  From the , the graph of the vertical line is the set and the of is the set of To say these graphs intersect is to say there is a point in the intersection of these two sets. The condition for membership on the graph of determines the value of such a point and the definition of the graph of determines the -coordinate: . This tells us the line intersects the graph of at the single point .  We can more readily see this graphically from .      The graph and .     The equation does not define as a function of .  Recall that for every positive number , there are always two square roots: and . This tells us the ordered pairs and both satisfy the equation For example, the ordered pairs and satisfy Since the definition a requires that each element of the domain corresponds to exactly one element of the codomain, we see this cannot be a function. That is, equation fails the .     The graph of the equation and the line .     "
 },
 {
-  "id": "objectives-20",
+  "id": "objectives-19",
   "level": "2",
-  "url": "sec-relations.html#objectives-20",
+  "url": "sec-relations.html#objectives-19",
   "type": "Objectives",
   "number": "3.2",
   "title": "",
-  "body": "  Find the domain and codomain of a relation.  Find the range of a relation.  Determine whether a relation is a function.   "
+  "body": "  Find the domain and codomain of a function.  Find the range of a function.  Determine whether a relation is a function.   "
 },
 {
-  "id": "def-relation",
+  "id": "def-function",
   "level": "2",
-  "url": "sec-relations.html#def-relation",
+  "url": "sec-relations.html#def-function",
   "type": "Definition",
   "number": "3.2.1",
-  "title": "",
-  "body": "A relation   Relation  is a set of ordered pairs of real numbers. The domain   Relation  Domain  is the set of first coordinates in the relation. The range   Relation  Range  is the set of second coordinates in the relation. "
+  "title": "Function.",
+  "body": " Function  A function ,  Function   ,     is a rule that assigns to each element a unique element .       The set is the domain   Function  Domain  of , the set is the codomain   Function  Codomain  of . The range   Function  Range  of is the set of all output values   "
 },
 {
-  "id": "example-35",
+  "id": "p-224",
   "level": "2",
-  "url": "sec-relations.html#example-35",
+  "url": "sec-relations.html#p-224",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "independent variable dependent variable is a function of . "
+},
+{
+  "id": "example-41",
+  "level": "2",
+  "url": "sec-relations.html#example-41",
   "type": "Example",
   "number": "3.2.2",
   "title": "",
-  "body": " Relations with only finitely many elements are easy to write down using . For example, defines a relation. The domain of this relation is the set and the range of this relation is the set   "
+  "body": "  Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , will also be a real number. To find the range, we want to describe the set   We can show this is by showing that for every real number , we can find a number such that . We simply solve this equation for in terms of  For example, if , then this formula tells us this corresponds to the input    "
 },
 {
-  "id": "example-36",
+  "id": "example-42",
   "level": "2",
-  "url": "sec-relations.html#example-36",
+  "url": "sec-relations.html#example-42",
   "type": "Example",
   "number": "3.2.3",
   "title": "",
-  "body": " Most of the relations we are interested in studying have infinitely many elements. Since we cannot write down all of the elements, we rely on to specify the relation. The relation tells us the domain is the set, , of all real numbers.  To find the range, we must determine which real numbers can be written as 2 more than another real number. We can see this is is all of because for every real number , the real number satisfies . Therefore the pair is an element of the relation.  "
+  "body": "  Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , is a real number. To find the range, we want to describe the set   Given a real number , we want to determine whether the equation can be solved for .  When , there is exactly one solution: .  When , there are two solutions: and .  When , there are no solutions because the square root of a negative number is not a real number.  This tells us the range of our function is the interval .   "
+},
+{
+  "id": "def-graph_function",
+  "level": "2",
+  "url": "sec-relations.html#def-graph_function",
+  "type": "Definition",
+  "number": "3.2.4",
+  "title": "Graph of a Function.",
+  "body": " Graph of a Function  Assume . The graph of a function is the set of points   "
+},
+{
+  "id": "thm-vertical_line_test",
+  "level": "2",
+  "url": "sec-relations.html#thm-vertical_line_test",
+  "type": "Theorem",
+  "number": "3.2.5",
+  "title": "The Vertical Line Test.",
+  "body": " The Vertical Line Test   An equation in the variables and is defines as a function of if and only if every vertical line intersects the graph of the relation in at most one point.   "
+},
+{
+  "id": "example-43",
+  "level": "2",
+  "url": "sec-relations.html#example-43",
+  "type": "Example",
+  "number": "3.2.6",
+  "title": "",
+  "body": " Consider the function defined by the rule . We can verify this is a function in one of two ways. One way is to interpret the algebraically.  From the , the graph of the vertical line is the set and the of is the set of To say these graphs intersect is to say there is a point in the intersection of these two sets. The condition for membership on the graph of determines the value of such a point and the definition of the graph of determines the -coordinate: . This tells us the line intersects the graph of at the single point .  We can more readily see this graphically from .      The graph and .   "
+},
+{
+  "id": "example-44",
+  "level": "2",
+  "url": "sec-relations.html#example-44",
+  "type": "Example",
+  "number": "3.2.8",
+  "title": "",
+  "body": " The equation does not define as a function of .  Recall that for every positive number , there are always two square roots: and . This tells us the ordered pairs and both satisfy the equation For example, the ordered pairs and satisfy Since the definition a requires that each element of the domain corresponds to exactly one element of the codomain, we see this cannot be a function. That is, equation fails the .     The graph of the equation and the line .    "
 },
 {
   "id": "appendix-1",
