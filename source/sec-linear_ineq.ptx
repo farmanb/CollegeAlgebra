@@ -177,28 +177,28 @@
 	in the variables <m>x</m> and <m>y</m> is an expression that can be placed in one of the following forms
 	<ul>
 	  <li>
-	    <m>\abs{ax + by} \lt c</m>,
+	    <m>\abs{ax + by + c} \lt d</m>,
 	  </li>
 	  <li>
-	    <m>\abs{ax + by} \leq c</m>,
+	    <m>\abs{ax + by + c} \leq d</m>,
 	  </li>
 	  <li>
-	    <m>\abs{ax + by} \gt c</m>, or
+	    <m>\abs{ax + by + c} \gt d</m>, or
 	  </li>
 	  <li>
-	    <m>\abs{ax + by} \geq c</m>.
+	    <m>\abs{ax + by + c} \geq d</m>.
 	  </li>
 	</ul>
       </p>
     </definition>
 
     <p>
-      Recall from <xref ref="def-1_distance" />, for any number <m>c</m>,
-      <me>\abs{c} = \abs{c - 0}</me>
-      measures the distance between <m>c</m> and the origin on the number line.
+      Recall from <xref ref="def-1_distance" />, for any number <m>d</m>,
+      <me>\abs{d} = \abs{d - 0}</me>
+      measures the distance between <m>d</m> and the origin on the number line.
       We can see from 
-      <me>\abs{-c} = \abs{(-c)^2} = \abs{c^2} = \abs{c}</me>
-      that <m>c</m> and <m>-c</m> are the same distance from the origin.
+      <me>\abs{-d} = \abs{(-d)^2} = \abs{d^2} = \abs{d}</me>
+      that <m>d</m> and <m>-d</m> are the same distande from the origin.
     </p>
     <figure xml:id="fig-abs_val_two_sol">
       <image>
@@ -206,32 +206,37 @@
 	  <xi:include parse="text" href="tex/abs_val_two_sol.tex"/>
 	</latex-image>
       </image>
-      <caption>The distance between <m>c</m> and the origin, and between <m>-c</m> and the origin.</caption>
+      <caption>The distance between <m>d</m> and the origin, and between <m>-d</m> and the origin.</caption>
     </figure>
     <p>
-      This observation tells us for an linear absolute value inequality of the form <m>\abs{ax + by} \lt c</m>, we are looking for the points <m>(x,y)</m> in the plane such that the number <m>ax + by</m> is less than <m>c</m> units away from 0 on the number line.
+      This observation tells us for an linear absolute value inequality of the form <m>\abs{ax + by + c} \lt d</m>, we are looking for the points <m>(x,y)</m> in the plane such that the number <m>ax + by + c</m> is less than <m>d</m> units away from 0 on the number line.
       From <xref ref="fig-abs_val_two_sol"/> we can see these are the solutions to <alert>both</alert>
-      <me>-c \lt ax + by
+      <me>-d \lt ax + by + c
       \quad\text{and}\quad
-      ax + by \lt c.
+      ax + by + c \lt d.
       </me>
-      Similarly, the solutions to the linear absolute value inequality <m>\abs{ax + by} \leq c</m> are the solutions to <alert>both</alert>
-      <me>-c \leq ax + by
+      If we rewrite these as the linear inequalities 
+      <me>-d - c \lt ax + by + c
       \quad\text{and}\quad
-      ax + by \leq c.</me>
+      ax + by \lt -c + d,
+      </me>
+      then we can see the solutions to <m>\abs{ax + by + c} \lt d</m> are the points that are above the line <m>-d - c = ax + by + c</m> and below the line <m>ax + by = -c + d</m>.
+      Similarly, the solutions to <m>\abs{ax + by + c} \leq d</m> are the points that are either on or between the lines <m>-d - c = ax + by + c</m> and below the line <m>ax + by = -c + d</m>.
     </p>
     <p>
-      For an linear absolute value inequality of the form <m>\abs{ax + by} > 5</m>, the observation above tells us we are looking for the points <m>(x,y)</m> in the plane such that the number <m>ax + by</m> is more than <m>c</m> units away from 0 on the number line.
+      For an linear absolute value inequality of the form <m>\abs{ax + by + c} > d</m>, the observation above tells us we are looking for the points <m>(x,y)</m> in the plane such that the number <m>ax + by + c</m> is more than <m>d</m> units away from 0 on the number line.
       From <xref ref="fig-abs_val_two_sol"/> we can see these are solutions to <alert>either</alert>
-      <me>ax + by \lt -c
+      <me>ax + by +c \lt -d
       \quad\text{or}\quad
-      c \lt ax + by.
+      d \lt ax + by + c.
       </me>
-      Similarly, the solutoisn to the linear absolute value inequality <m>\abs{ax + by} \geq c</m> are the solutions to <alert>either</alert>
-      <me>ax + by \leq -c
+      If we rewrite these as the liner inequalities
+      <me>ax + by \lt -c - d
       \quad\text{or}\quad
-      c \leq ax + by.
+      -c + d \lt ax + by,
       </me>
+      then we can see the solutions to <m>\abs{ax + by + c} \gt d</m> are the points that are below the line <m>ax + by = -c - d</m> or above the line <m>ax + by = -c + d</m>.
+      Similarly, the solutions to the linear absolute value inequality <m>\abs{ax + by + c} \geq d</m> are the points that are either on or below the line <m>ax + by = -c - d</m> or on or above the line <m>ax + by = -c + d</m>.
     </p>
 
     <example>
@@ -343,6 +348,7 @@
 	</figure>
       </solution>
     </example>
+
   </subsection>
 
   <xi:include href="worksheets/wksht-linear_ineq.ptx"/>
