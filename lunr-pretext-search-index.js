@@ -1042,7 +1042,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.5",
   "title": "Linear Inequalities",
-  "body": " Linear Inequalities    Graph linear inequalities.  Graph linear absolute value inequalities.     Linear Inequality  A linear inequality   Inequality  Linear  in the variables and is an expression of the form , , , or .    Solution to an Inequality  A solution   Inequality  Linear  Solution  to an inequality in the variables and is an ordered pair that make the equation true when  the first coordinate, , is substituted into the inequality for , and  the second coordinate, , is substituted into the inequality for .      Graph of an Inequality  The graph   Inequality  Linear  Graph  of an inequality in the variables and consists of all the points in the plane that are solutions to the inequality.     Graph the linear inequality     The graph of consists of all the points that are below the line . We use a dashed line to indicate the points on the line are not a solution to the inequality and shade the portion of the plane beneath the line to indicate they are solutions to the inequality.           Graph the linear inequality     The graph of consists of all the points that are either on or below the line . We use a solid line to indicate the points on the line are a solution to the linear inequality and shade the portion of the plane beneath the line to indicate that those points are also solutions.           Graph the linear inequality     The graph of consists of all the points that are either on or above the line . We use a dashed line to indicate the points on the line are not a solution to the inequality and shade the portion of the plane that contains solutions.           Graph the linear inequality     The graph of consists of all the points that are either on or above the line . We use a solid line to indicate the points on the line are a solution to the linear inequality and shade the portion of the plane above the line to indicate that those points are also solutions.         "
+  "body": " Linear Inequalities    Graph linear inequalities.  Graph linear absolute value inequalities.     Linear Inequality  A linear inequality   Inequality  Linear  in the variables and is an expression that can be placed in one of the following forms  ,  ,  , or  .      Solution to an Inequality  A solution   Inequality  Linear  Solution  to an inequality in the variables and is an ordered pair that make the equation true when  the first coordinate, , is substituted into the inequality for , and  the second coordinate, , is substituted into the inequality for .      Graph of an Inequality  The graph   Inequality  Linear  Graph  of an inequality in the variables and consists of all the points in the plane that are solutions to the inequality.     Graph the linear inequality     The graph of consists of all the points that are below the line .  We use a dashed line to indicate the points on the line are not a solution to the inequality and shade the portion of the plane beneath the line to indicate those points are solutions to the inequality.      The graph of the linear inequality .       Graph the linear inequality     The graph of consists of all the points that are on or below the line .  We use a solid line to indicate the points on the line are a solution to the linear inequality and shade the portion of the plane beneath the line to indicate that those points are also solutions.      The graph of the linear inequality .       Graph the linear inequality     The graph of consists of all the points that are above the line .  We use a dashed line to indicate the points on the line are not solutions to the inequality and shade the portion of the plane above the line to indicate that those points are solutions.      The graph of the linear inequality .       Graph the linear inequality     The graph of consists of all the points that are either on or above the line .  We use a solid line to indicate the points on the line are solutions to the linear inequality and shade the portion of the plane above the line to indicate that those points are also solutions.      The graph of the linear inequality .      Absolute Value and Inequality   Linear Absolute Value Inequality  A linear absolute value inequality   Inequality  Linear  Absolute Value  in the variables and is an expression that can be placed in one of the following forms   ,   ,   , or   .     Recall from , for any number , measures the distance between and the origin on the number line. We can see from that and are the same distance from the origin.      The distance between and the origin, and between and the origin.   This observation tells us for an linear absolute value inequality of the form , we are looking for the points in the plane such that the number is less than units away from 0 on the number line. From we can see these are the solutions to both  Similarly, the solutions to the linear absolute value inequality are the solutions to both    For an linear absolute value inequality of the form , the observation above tells us we are looking for the points in the plane such that the number is more than units away from 0 on the number line. From we can see these are solutions to either  Similarly, the solutoisn to the linear absolute value inequality are the solutions to either      Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to both of the linear inequalities This means the graph is the overlap between and . That is, the points that are between the lines       The graph of the linear absolute value inequality .       Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to both of the linear inequalities This means the graph is the overlap between and . That is, the points that are either on or between the lines       The graph of the linear absolute value inequality .       Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to either  This means the graph is the combination of the graphs for the linear inequalities That is, the points that are either above the line or below the line .      The graph of the linear absolute value inequality .       Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to either the linear inequality or the linear inequality This means the graph is the combination of the graphs for the linear inequalities That is, the points that are either on or above the line , or on or below the line .      The graph of the linear absolute value inequality .       Working with Linear Inequalities    Graph linear inequalities.  Graph linear absolute value inequalities.     Sketch graph of the linear inequality .    Sketch graph of the linear inequality .      Match the following equations with their graphs.                                                       Graph the linear absolute value inequality    Graph the linear absolute value inequality .   "
 },
 {
   "id": "objectives-17",
@@ -1060,7 +1060,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "2.5.1",
   "title": "Linear Inequality.",
-  "body": " Linear Inequality  A linear inequality   Inequality  Linear  in the variables and is an expression of the form , , , or .  "
+  "body": " Linear Inequality  A linear inequality   Inequality  Linear  in the variables and is an expression that can be placed in one of the following forms  ,  ,  , or  .    "
 },
 {
   "id": "def-solution_inequality",
@@ -1072,9 +1072,9 @@ var ptx_lunr_docs = [
   "body": " Solution to an Inequality  A solution   Inequality  Linear  Solution  to an inequality in the variables and is an ordered pair that make the equation true when  the first coordinate, , is substituted into the inequality for , and  the second coordinate, , is substituted into the inequality for .    "
 },
 {
-  "id": "defn-graph_inequality",
+  "id": "def-graph_inequality",
   "level": "2",
-  "url": "sec-linear_ineq.html#defn-graph_inequality",
+  "url": "sec-linear_ineq.html#def-graph_inequality",
   "type": "Definition",
   "number": "2.5.3",
   "title": "Graph of an Inequality.",
@@ -1087,7 +1087,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.5.4",
   "title": "",
-  "body": "  Graph the linear inequality     The graph of consists of all the points that are below the line . We use a dashed line to indicate the points on the line are not a solution to the inequality and shade the portion of the plane beneath the line to indicate they are solutions to the inequality.        "
+  "body": "  Graph the linear inequality     The graph of consists of all the points that are below the line .  We use a dashed line to indicate the points on the line are not a solution to the inequality and shade the portion of the plane beneath the line to indicate those points are solutions to the inequality.      The graph of the linear inequality .    "
 },
 {
   "id": "example-26",
@@ -1096,7 +1096,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.5.6",
   "title": "",
-  "body": "  Graph the linear inequality     The graph of consists of all the points that are either on or below the line . We use a solid line to indicate the points on the line are a solution to the linear inequality and shade the portion of the plane beneath the line to indicate that those points are also solutions.        "
+  "body": "  Graph the linear inequality     The graph of consists of all the points that are on or below the line .  We use a solid line to indicate the points on the line are a solution to the linear inequality and shade the portion of the plane beneath the line to indicate that those points are also solutions.      The graph of the linear inequality .    "
 },
 {
   "id": "example-27",
@@ -1105,7 +1105,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.5.8",
   "title": "",
-  "body": "  Graph the linear inequality     The graph of consists of all the points that are either on or above the line . We use a dashed line to indicate the points on the line are not a solution to the inequality and shade the portion of the plane that contains solutions.        "
+  "body": "  Graph the linear inequality     The graph of consists of all the points that are above the line .  We use a dashed line to indicate the points on the line are not solutions to the inequality and shade the portion of the plane above the line to indicate that those points are solutions.      The graph of the linear inequality .    "
 },
 {
   "id": "example-28",
@@ -1114,7 +1114,115 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.5.10",
   "title": "",
-  "body": "  Graph the linear inequality     The graph of consists of all the points that are either on or above the line . We use a solid line to indicate the points on the line are a solution to the linear inequality and shade the portion of the plane above the line to indicate that those points are also solutions.        "
+  "body": "  Graph the linear inequality     The graph of consists of all the points that are either on or above the line .  We use a solid line to indicate the points on the line are solutions to the linear inequality and shade the portion of the plane above the line to indicate that those points are also solutions.      The graph of the linear inequality .    "
+},
+{
+  "id": "def-linear_absolute_value_inequality",
+  "level": "2",
+  "url": "sec-linear_ineq.html#def-linear_absolute_value_inequality",
+  "type": "Definition",
+  "number": "2.5.12",
+  "title": "Linear Absolute Value Inequality.",
+  "body": " Linear Absolute Value Inequality  A linear absolute value inequality   Inequality  Linear  Absolute Value  in the variables and is an expression that can be placed in one of the following forms   ,   ,   , or   .    "
+},
+{
+  "id": "fig-abs_val_two_sol",
+  "level": "2",
+  "url": "sec-linear_ineq.html#fig-abs_val_two_sol",
+  "type": "Figure",
+  "number": "2.5.13",
+  "title": "",
+  "body": "    The distance between and the origin, and between and the origin.  "
+},
+{
+  "id": "example-29",
+  "level": "2",
+  "url": "sec-linear_ineq.html#example-29",
+  "type": "Example",
+  "number": "2.5.14",
+  "title": "",
+  "body": "  Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to both of the linear inequalities This means the graph is the overlap between and . That is, the points that are between the lines       The graph of the linear absolute value inequality .    "
+},
+{
+  "id": "example-30",
+  "level": "2",
+  "url": "sec-linear_ineq.html#example-30",
+  "type": "Example",
+  "number": "2.5.16",
+  "title": "",
+  "body": "  Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to both of the linear inequalities This means the graph is the overlap between and . That is, the points that are either on or between the lines       The graph of the linear absolute value inequality .    "
+},
+{
+  "id": "example-31",
+  "level": "2",
+  "url": "sec-linear_ineq.html#example-31",
+  "type": "Example",
+  "number": "2.5.18",
+  "title": "",
+  "body": "  Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to either  This means the graph is the combination of the graphs for the linear inequalities That is, the points that are either above the line or below the line .      The graph of the linear absolute value inequality .    "
+},
+{
+  "id": "example-32",
+  "level": "2",
+  "url": "sec-linear_ineq.html#example-32",
+  "type": "Example",
+  "number": "2.5.20",
+  "title": "",
+  "body": "  Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to either the linear inequality or the linear inequality This means the graph is the combination of the graphs for the linear inequalities That is, the points that are either on or above the line , or on or below the line .      The graph of the linear absolute value inequality .    "
+},
+{
+  "id": "objectives-18",
+  "level": "2",
+  "url": "sec-linear_ineq.html#objectives-18",
+  "type": "Objectives",
+  "number": "2.5.2",
+  "title": "",
+  "body": "  Graph linear inequalities.  Graph linear absolute value inequalities.   "
+},
+{
+  "id": "exercise-29",
+  "level": "2",
+  "url": "sec-linear_ineq.html#exercise-29",
+  "type": "Worksheet Exercise",
+  "number": "2.5.2.1",
+  "title": "",
+  "body": "Sketch graph of the linear inequality .   "
+},
+{
+  "id": "exercise-30",
+  "level": "2",
+  "url": "sec-linear_ineq.html#exercise-30",
+  "type": "Worksheet Exercise",
+  "number": "2.5.2.2",
+  "title": "",
+  "body": "Sketch graph of the linear inequality .   "
+},
+{
+  "id": "exercise-31",
+  "level": "2",
+  "url": "sec-linear_ineq.html#exercise-31",
+  "type": "Worksheet Exercise",
+  "number": "2.5.2.3",
+  "title": "",
+  "body": "Match the following equations with their graphs.                                                    "
+},
+{
+  "id": "exercise-32",
+  "level": "2",
+  "url": "sec-linear_ineq.html#exercise-32",
+  "type": "Worksheet Exercise",
+  "number": "2.5.2.4",
+  "title": "",
+  "body": "Graph the linear absolute value inequality  "
+},
+{
+  "id": "exercise-33",
+  "level": "2",
+  "url": "sec-linear_ineq.html#exercise-33",
+  "type": "Worksheet Exercise",
+  "number": "2.5.2.5",
+  "title": "",
+  "body": "Graph the linear absolute value inequality . "
 },
 {
   "id": "sec-sets",
@@ -1126,9 +1234,9 @@ var ptx_lunr_docs = [
   "body": " Sets             In this section, we study the basic theory of sets.    A set   Set  is a collection of objects called elements   Set  Element  or members   Set  Member  of the set. We specify that an object is an element of the set by writing      and say \" is an element (or member) of \"    Roster Notation   Roster notation   Set  Roster Notation  specifies the elements of a set as a comma separated list surrounded by curly braces.    The set has as its elements the numbers , , , and .    Set-Builder Notation   Set-builder notation   Set  Set-Builder Notation  specifies the members of a set using a variable and condition for membership in the set.    The set, , of all positive, even integers can be written in set-builder notation as This is read as \" is the set of all such that is a positive, even integer.\"    Special Sets   We have special names for some commonly used sets.   The set of natural numbers   Set  Natural Numbers  is the set with elements all positive integers,        The set of integers   Set  Integers  is the set with elements all integers,        The set of rational numbers   Set  Rational Numbers  is the set with elements all rational numbers,        The set of real numbers   Set  Real Numbers  is the set with elements all real numbers, .        "
 },
 {
-  "id": "objectives-18",
+  "id": "objectives-19",
   "level": "2",
-  "url": "sec-sets.html#objectives-18",
+  "url": "sec-sets.html#objectives-19",
   "type": "Objectives",
   "number": "3.1",
   "title": "",
@@ -1153,9 +1261,9 @@ var ptx_lunr_docs = [
   "body": " Roster Notation   Roster notation   Set  Roster Notation  specifies the elements of a set as a comma separated list surrounded by curly braces.  "
 },
 {
-  "id": "example-29",
+  "id": "example-33",
   "level": "2",
-  "url": "sec-sets.html#example-29",
+  "url": "sec-sets.html#example-33",
   "type": "Example",
   "number": "3.1.3",
   "title": "",
@@ -1171,9 +1279,9 @@ var ptx_lunr_docs = [
   "body": " Set-Builder Notation   Set-builder notation   Set  Set-Builder Notation  specifies the members of a set using a variable and condition for membership in the set.  "
 },
 {
-  "id": "example-30",
+  "id": "example-34",
   "level": "2",
-  "url": "sec-sets.html#example-30",
+  "url": "sec-sets.html#example-34",
   "type": "Example",
   "number": "3.1.5",
   "title": "",
@@ -1225,9 +1333,9 @@ var ptx_lunr_docs = [
   "body": " Relations and Functions    Find the domain and codomain of a relation.  Find the range of a relation.  Determine whether a relation is a function.     In this section, we study the basics of relations and functions.    Relations  A relation   Relation  is a set of ordered pairs of real numbers. The domain   Relation  Domain  is the set of first coordinates in the relation. The range   Relation  Range  is the set of second coordinates in the relation.   Relations with only finitely many elements are easy to write down using . For example, defines a relation. The domain of this relation is the set and the range of this relation is the set     Most of the relations we are interested in studying have infinitely many elements. Since we cannot write down all of the elements, we rely on to specify the relation. The relation tells us the domain is the set, , of all real numbers.  To find the range, we must determine which real numbers can be written as 2 more than another real number. We can see this is is all of because for every real number , the real number satisfies . Therefore the pair is an element of the relation.    "
 },
 {
-  "id": "objectives-19",
+  "id": "objectives-20",
   "level": "2",
-  "url": "sec-relations.html#objectives-19",
+  "url": "sec-relations.html#objectives-20",
   "type": "Objectives",
   "number": "3.2",
   "title": "",
@@ -1243,18 +1351,18 @@ var ptx_lunr_docs = [
   "body": "A relation   Relation  is a set of ordered pairs of real numbers. The domain   Relation  Domain  is the set of first coordinates in the relation. The range   Relation  Range  is the set of second coordinates in the relation. "
 },
 {
-  "id": "example-31",
+  "id": "example-35",
   "level": "2",
-  "url": "sec-relations.html#example-31",
+  "url": "sec-relations.html#example-35",
   "type": "Example",
   "number": "3.2.2",
   "title": "",
   "body": " Relations with only finitely many elements are easy to write down using . For example, defines a relation. The domain of this relation is the set and the range of this relation is the set   "
 },
 {
-  "id": "example-32",
+  "id": "example-36",
   "level": "2",
-  "url": "sec-relations.html#example-32",
+  "url": "sec-relations.html#example-36",
   "type": "Example",
   "number": "3.2.3",
   "title": "",
