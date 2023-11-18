@@ -1,0 +1,20 @@
+\begin{tikzpicture}
+  \def\a{1}
+  \def\b{3}
+  
+  \coordinate (A) at (-5,0);
+  \coordinate (B) at (5,0);
+
+  \coordinate (P) at (\a,0);
+  \coordinate (Q) at (\b,0);
+  
+  \draw [very thick,\lt->] (A) -- (B);
+  \draw [very thick,blue] (P) -- (Q);
+
+  \draw [very thick,blue] (P) circle (2.5pt);
+  \draw [very thick,blue,fill=blue] (Q) circle (2.5pt);
+
+  \node [anchor=north, font=\small] at (\a,-5pt) {$1$};
+  \node [anchor=north, font=\small] at (\b,-5pt) {$3$};
+  
+\end{tikzpicture}

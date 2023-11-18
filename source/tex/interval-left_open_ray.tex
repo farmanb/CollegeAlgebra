@@ -1,0 +1,17 @@
+\begin{tikzpicture}
+  \def\a{-3}
+  \def\b{4}
+  
+  \coordinate (A) at (-5,0);
+  \coordinate (B) at (5,0);
+
+  \coordinate (P) at (\a,0);
+  \coordinate (Q) at (\b,0);
+  
+  \draw [very thick,\lt->] (A) -- (B);
+  \draw [very thick,blue,->] (P) -- (B);
+
+  \draw [very thick,blue] (P) circle (2.5pt);
+
+  \node [anchor=north, font=\small] at (\a,-5pt) {$a$};
+\end{tikzpicture}
