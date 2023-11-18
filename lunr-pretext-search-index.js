@@ -1474,7 +1474,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.2",
   "title": "Functions",
-  "body": " Functions    Find the domain and codomain of a function.  Find the range of a function.  Determine whether a relation is a function.     In this section, we study the basics of functions.    Function  A function ,  Function   ,     is a rule that assigns to each element a unique element .       The set is the domain   Function  Domain  of , the set is the codomain   Function  Codomain  of . The range   Function  Range  of is the set of all output values    By convention, we will write to indicate that is a function of . We call the independent variable   Function  Independent Variable  and the dependent variable   Function  Dependent Variable  because every choice of from the domain of determines a value in the range that depends on that choice. In this case, we say is a function of .     Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , will also be a real number. To find the range, we want to describe the set   We can show this is by showing that for every real number , we can find a number such that . We simply solve this equation for in terms of  For example, if , then this formula tells us this corresponds to the input       Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , is a real number. To find the range, we want to describe the set   Given a real number , we want to determine whether the equation can be solved for .  When , there is exactly one solution: .  When , there are two solutions: and .  When , there are no solutions because the square root of a negative number is not a real number.  This tells us the range of our function is the interval .    Just like an equation in the variables and , we will often want to visualize the functions we define.   Graph of a Function  Assume . The graph of a function is the set of points    When the function we are considering is defined by an equation, the will coincide with the . While most of the functions we consider will be defined by an equation in the variables and , it is not the case that all equations in and define as a function of .   The Vertical Line Test   An equation in the variables and is defines as a function of if and only if every vertical line intersects the graph of the relation in at most one point.     Consider the function defined by the rule . We can verify this is a function in one of two ways. One way is to interpret the algebraically.  From the , the graph of the vertical line is the set and the of is the set of To say these graphs intersect is to say there is a point in the intersection of these two sets. The condition for membership on the graph of determines the value of such a point and the definition of the graph of determines the -coordinate: . This tells us the line intersects the graph of at the single point .  We can more readily see this graphically from .      The graph and .     The equation does not define as a function of .  Recall that for every positive number , there are always two square roots: and . This tells us the ordered pairs and both satisfy the equation For example, the ordered pairs and satisfy Since the definition a requires that each element of the domain corresponds to exactly one element of the codomain, we see this cannot be a function. That is, equation fails the .     The graph of the equation and the line .     "
+  "body": " Functions    Find the domain and codomain of a function.  Find the range of a function.  Determine whether an equation defines as a function of .     In this section, we study the basics of functions.    Function  A function ,  Function   ,     is a rule that assigns to each element a unique element .       The set is the domain   Function  Domain  of , the set is the codomain   Function  Codomain  of . The range   Function  Range  of is the set of all output values    By convention, we will write to indicate that is a function of . We call the independent variable   Function  Independent Variable  and the dependent variable   Function  Dependent Variable  because every choice of from the domain of determines a value in the range that depends on that choice. In this case, we say is a function of .     Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , will also be a real number. To find the range, we want to describe the set   We can show this is by showing that for every real number , we can find a number such that . We simply solve this equation for in terms of  For example, if , then this formula tells us this corresponds to the input       Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , is a real number. To find the range, we want to describe the set   Given a real number , we want to determine whether the equation can be solved for .  When , there is exactly one solution: .  When , there are two solutions: and .  When , there are no solutions because the square root of a negative number is not a real number.  This tells us the range of our function is the interval .    Just like an equation in the variables and , we will often want to visualize the functions we define.   Graph of a Function  Assume . The graph of a function is the set of points    When the function we are considering is defined by an equation, the will coincide with the . While most of the functions we consider will be defined by an equation in the variables and , it is not the case that all equations in and define as a function of .   The Vertical Line Test   An equation in the variables and is defines as a function of if and only if every vertical line intersects the graph of the relation in at most one point.     Consider the function defined by the rule . We can verify this is a function in one of two ways. One way is to interpret the algebraically.  From the , the graph of the vertical line is the set and the of is the set of To say these graphs intersect is to say there is a point in the intersection of these two sets. The condition for membership on the graph of determines the value of such a point and the definition of the graph of determines the -coordinate: . This tells us the line intersects the graph of at the single point .  We can more readily see this graphically from .      The graph and .     The equation does not define as a function of .  Recall that for every positive number , there are always two square roots: and . This tells us the ordered pairs and both satisfy the equation For example, the ordered pairs and satisfy Since the definition a requires that each element of the domain corresponds to exactly one element of the codomain, we see this cannot be a function. That is, equation fails the .     The graph of the equation and the line .      Functions    Find the domain and codomain of a function.  Find the range of a function.  Determine whether an equation defines as a function of .      For each of the following functions, find the domain, codomain, and range.            Evaluate the function at the given value.   ; .  ; .  ; .     For each of the graphs, find the domain and range. Use the to determine whether is a function of .         "
 },
 {
   "id": "objectives-19",
@@ -1483,7 +1483,7 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "3.2",
   "title": "",
-  "body": "  Find the domain and codomain of a function.  Find the range of a function.  Determine whether a relation is a function.   "
+  "body": "  Find the domain and codomain of a function.  Find the range of a function.  Determine whether an equation defines as a function of .   "
 },
 {
   "id": "def-function",
@@ -1556,6 +1556,42 @@ var ptx_lunr_docs = [
   "number": "3.2.8",
   "title": "",
   "body": " The equation does not define as a function of .  Recall that for every positive number , there are always two square roots: and . This tells us the ordered pairs and both satisfy the equation For example, the ordered pairs and satisfy Since the definition a requires that each element of the domain corresponds to exactly one element of the codomain, we see this cannot be a function. That is, equation fails the .     The graph of the equation and the line .    "
+},
+{
+  "id": "objectives-20",
+  "level": "2",
+  "url": "sec-relations.html#objectives-20",
+  "type": "Objectives",
+  "number": "3.2",
+  "title": "",
+  "body": "  Find the domain and codomain of a function.  Find the range of a function.  Determine whether an equation defines as a function of .   "
+},
+{
+  "id": "exercise-34",
+  "level": "2",
+  "url": "sec-relations.html#exercise-34",
+  "type": "Worksheet Exercise",
+  "number": "3.2.1",
+  "title": "",
+  "body": " For each of the following functions, find the domain, codomain, and range.        "
+},
+{
+  "id": "exercise-35",
+  "level": "2",
+  "url": "sec-relations.html#exercise-35",
+  "type": "Worksheet Exercise",
+  "number": "3.2.2",
+  "title": "",
+  "body": " Evaluate the function at the given value.   ; .  ; .  ; . "
+},
+{
+  "id": "exercise-36",
+  "level": "2",
+  "url": "sec-relations.html#exercise-36",
+  "type": "Worksheet Exercise",
+  "number": "3.2.3",
+  "title": "",
+  "body": " For each of the graphs, find the domain and range. Use the to determine whether is a function of .      "
 },
 {
   "id": "appendix-1",
