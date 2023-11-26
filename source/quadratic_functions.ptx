@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-quadratic_functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Quadratic Functions</title>
+  <objectives>
+    <ul>
+      <li>
+	find the vertex of a quadratic function,
+      </li>
+      <li>
+	find the \(x\)-intercept(s) of a quadratic function
+      </li>
+      <li>
+	find the \(y\)-intercept of a quadratic functions,
+      </li>
+      <li>
+	find the line of symmetry of a quadratic functions, and
+      </li>
+      <li>
+	graph a quadratic function.
+      </li>
+    </objectives>
+
+  <introduction>
+    <p>
+      In this section, we study a polynomial functions of degree 2.
+      These polynomial functions are often called <em>quadratic function</em>.
+    </p>
+  </introduction>
+
+  <subsection>
+    <title>Quadratic Functions as Degree Two Polynomials</title>
+    <definition xml:id="def-quadratic_function">
+      <title>Quadratic Function</title>
+      <p>
+	A function <m>f \colon \R \to \R</m> is <term>quadratic</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Quadratic</h>
+	</idx>
+	if it has the form
+	<me>f(x) = ax^2 + bx + c
+	\quad\text{or}\quad
+	y = ax^2 + bx + c,</me>
+	where <m>a</m>, <m>b</m>, and <m>c</m> are numbers, and <m>a \neq 0</m>.
+      </p>
+    </definition>
+
+  <xi:include href="worksheets/wksht-quadratic_functions.ptx"/>
+</section>
