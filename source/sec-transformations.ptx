@@ -28,18 +28,20 @@
   <introduction>
     <p>
       Graphing arbitrary functions can be a difficult task and the general methods are beyond the scope of basic algebra.
-      However, if we know the graph of a function, <m>f</m>, and we can write another function, <m>g</m>, in terms of <m>f</m> in a specific way, then we can use the graph of <m>f</m> to graph <m>g</m> using <em>transformations</em>.
+      However, if we know the graph of a function, <m>f</m>, and we can write another function, <m>g</m>, in terms of <m>f</m> in a specific way, then we can use the graph of <m>f(x)</m> to graph <m>g(x)</m> using <em>transformations</em>.
       In this seciton, we discuss three types of transformations: translation, scaling, and reflection.
     </p>
   </introduction>
 
   <subsection>
     <title>Translation</title>
+    <p>
+      Throughout this section, assume that the graph of the function <m>y = f(x)</m> is known.
+    </p>
+    
     <subsubsection>
       <title>Vertical Translation</title>
-      <p>
-	Throughout this section, assume that the graph of the function <m>y = f(x)</m> is known.
-      </p>
+      
       <definition>
 	<title>Vertical Translation</title>
 	<p>
@@ -53,62 +55,122 @@
 	  </idx>
 	  of the function <m>f(x)</m> if <m>g(x) = f(x) \pm c</m>.
 	</p>
-	<p>
-	  The graph of <m>g(x) = f(x) + c</m> is obtained by shifting the graph of <m>y = f(x)</m> up the <m>y</m>-axis by <m>c</m> units, and the graph of <m>g(x) = f(x) - c</m> is obtained by shifting the graph of <m>y = f(x)</m> down the <m>y</m>-axis by <m>c</m>-units.
-	</p>
+	<ul>
+	  <li>
+	    <p>
+	      The graph of <m>g(x) = f(x) + c</m> is obtained by shifting the graph of <m>y = f(x)</m> up the <m>y</m>-axis by <m>c</m> units.
+	    </p>
+	  </li>
+	  <li>
+	    <p>
+	      The graph of <m>g(x) = f(x) - c</m> is obtained by shifting the graph of <m>y = f(x)</m> down the <m>y</m>-axis by <m>c</m>-units.
+	    </p>
+	  </li>
+	</ul>
       </definition>
-    </subsubsection>
-
-    <example>
-      <statement>
-	<p>
-	  Use the graph of <m>f(x) = x^2</m> to graph the functions <m>g(x) = x^2 + 2</m> and <m>h(x) = x^2 - 3</m>.
-	</p>
-	<figure>
-	  <image>
-	    <latex-image>
-	      <xi:include parse="text" href="tex/parabola.tex"/>
-	    </latex-image>
-	  </image>
-	  <caption>The graph of <m>y = x^2</m>.</caption>
-	</figure>
-      </statement>
-      <solution>
-	<p>
-	  The graph of <m>g(x)</m> is obtained by shifting the graph of <m>f(x)</m> up the <m>y</m>-axis by <m>2</m> units, and the graph of <m>h(x)</m> is obtained by shifting the graph of <m>f(x)</m> down by 3 units.
-	</p>
-	<figure>
-	  <image>
-	    <latex-image>
-	      <xi:include parse="text" href="tex/vertical_translation.tex"/>
-	    </latex-image>
-	  </image>
-	</figure>
-      </solution>
-    </example>
-	
-    <subsubsection>
-      <title>Horizontal Translation</title>
+      
+      <example>
+	<statement>
+	  <p>
+	    Use <xref ref="fig-parabola" text="title"/> to graph the functions <m>g(x) = x^2 + 2</m> and <m>h(x) = x^2 - 3</m>.
+	  </p>
+	</statement>
+	<solution>
+	  <p>
+	    The graph of <m>g(x)</m> is obtained by shifting the graph of <m>f(x)</m> up the <m>y</m>-axis by <m>2</m> units, and the graph of <m>h(x)</m> is obtained by shifting the graph of <m>f(x)</m> down the <m>y</m>-axis by 3 units.
+	  </p>
+	  <figure>
+	    <image>
+	      <latex-image>
+		<xi:include parse="text" href="tex/vertical_translation.tex"/>
+	      </latex-image>
+	    </image>
+	  </figure>
+	</solution>
+      </example>
     </subsubsection>
     
+    <subsubsection>
+      <title>Horizontal Translation</title>
+
+      <definition>
+	<title>Horizontal Translation</title>
+	<p>
+	  Let <m>c</m> be a positive number.
+	  We say the function <m>g(x)</m> is a <term>horizontal translation</term>
+	  <idx>
+	    <h>Graph</h>
+	    <h>Tranformation</h>
+	    <h>Translation</h>
+	    <h>Horizontal</h>
+	  </idx>
+	  of the function <m>f(x)</m> if <m>g(x) = f(x \pm c)</m>.
+	</p>
+	<ul>
+	  <li>
+	    <p>
+	      The graph of <m>g(x) = f(x - c)</m> is obtained by shifting the graph of <m>y = f(x)</m> to the right along the <m>x</m>-axis by <m>c</m> units.
+	    </p>
+	  </li>
+	  <li>
+	    <p>
+	      The graph of <m>g(x) = f(x + c)</m> is obtained by shifting the graph of <m>y = f(x)</m> to the left along the <m>x</m>-axis by <m>c</m>-units.
+	    </p>
+	  </li>
+	</ul>
+      </definition>
+
+      <example>
+	<statement>
+	  <p>
+	    Use <xref ref="fig-parabola" text="title"/> to graph the functions <m>g(x) = (x+2)^2</m> and <m>h(x) = (x-3)^2</m>.
+	  </p>
+	  <figure>
+	    <image>
+	      <latex-image>
+		<xi:include parse="text" href="tex/parabola.tex"/>
+	      </latex-image>
+	    </image>
+	    <caption>The graph of <m>y = x^2</m>.</caption>
+	  </figure>
+	</statement>
+	<solution>
+	  <p>
+	    The graph of <m>g(x)</m> is obtained by shifting the graph of <m>f(x)</m> to the left along the <m>x</m>-axis by <m>2</m> units, and the graph of <m>h(x)</m> is obtained by shifting the graph of <m>f(x)</m> to the right along the <m>x</m>-axis by 3 units.
+	  </p>
+	  <figure>
+	    <image>
+	      <latex-image>
+		<xi:include parse="text" href="tex/horizontal_translation.tex"/>
+	      </latex-image>
+	    </image>
+	  </figure>
+	</solution>
+      </example>
+    </subsubsection>
+
   </subsection>
 
   
 
   <subsection>
     <title>Scaling</title>
+
     <subsubsection>
       <title>Vertical Scaling</title>
     </subsubsection>
+    
     <subsubsection>
       <title>Horizontal Scaling</title>
     </subsubsection>
+
+    
   </subsection>
 
   <subsection>
     <title>Reflection</title>
   </subsection>
-    
+  
 </section>
 
-		       
+
