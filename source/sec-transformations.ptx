@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-transformations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Transformations of Functions</title>
+  <objectives>
+    <introduction>
+      <p>Use graphs of basic functions and the following operations to graph general functions.</p>
+    </introduction>
+    <ol>
+      <li>
+	Vertical Translation
+      </li>
+      <li>
+	Horizontal Translation
+      </li>
+      <li>
+	Vertical Scaling,
+      </li>
+      <li>
+	Horizontal Scaling, and
+      </li>
+      <li>
+	Reflection.
+      </li>
+    </ol>
+  </objectives>
+
+  <introduction>
+    <p>
+      Graphing arbitrary functions can be a difficult task and the general methods are beyond the scope of basic algebra.
+      However, if we know the graph of a function, <m>f</m>, and we can write another function, <m>g</m>, in terms of <m>f</m> in a specific way, then we can use the graph of <m>f</m> to graph <m>g</m> using <em>transformations</em>.
+      In this seciton, we discuss three types of transformations: translation, scaling, and reflection.
+    </p>
+  </introduction>
+
+  <subsection>
+    <title>Translation</title>
+    <subsubsection>
+      <title>Vertical Translation</title>
+      <p>
+	Throughout this section, assume that the graph of the function <m>y = f(x)</m> is known.
+      </p>
+      <definition>
+	<title>Vertical Translation</title>
+	<p>
+	  Let <m>c</m> be a positive number.
+	  We say the function <m>g(x)</m> is a <term>vertical translation</term>
+	  <idx>
+	    <h>Graph</h>
+	    <h>Tranformation</h>
+	    <h>Translation</h>
+	    <h>Vertical</h>
+	  </idx>
+	  of the function <m>f(x)</m> if <m>g(x) = f(x) \pm c</m>.
+	</p>
+	<p>
+	  The graph of <m>g(x) = f(x) + c</m> is obtained by shifting the graph of <m>y = f(x)</m> up the <m>y</m>-axis by <m>c</m> units, and the graph of <m>g(x) = f(x) - c</m> is obtained by shifting the graph of <m>y = f(x)</m> down the <m>y</m>-axis by <m>c</m>-units.
+	</p>
+      </definition>
+    </subsubsection>
+
+    <example>
+      <statement>
+	<p>
+	  Use the graph of <m>f(x) = x^2</m> to graph the functions <m>g(x) = x^2 + 2</m> and <m>h(x) = x^2 - 3</m>.
+	</p>
+	<figure>
+	  <image>
+	    <latex-image>
+	      <xi:include parse="text" href="tex/parabola.tex"/>
+	    </latex-image>
+	  </image>
+	  <caption>The graph of <m>y = x^2</m>.</caption>
+	</figure>
+      </statement>
+      <solution>
+	<p>
+	  The graph of <m>g(x)</m> is obtained by shifting the graph of <m>f(x)</m> up the <m>y</m>-axis by <m>2</m> units, and the graph of <m>h(x)</m> is obtained by shifting the graph of <m>f(x)</m> down by 3 units.
+	</p>
+	<figure>
+	  <image>
+	    <latex-image>
+	      <xi:include parse="text" href="tex/vertical_translation.tex"/>
+	    </latex-image>
+	  </image>
+	</figure>
+      </solution>
+    </example>
+	
+    <subsubsection>
+      <title>Horizontal Translation</title>
+    </subsubsection>
+    
+  </subsection>
+
+  
+
+  <subsection>
+    <title>Scaling</title>
+    <subsubsection>
+      <title>Vertical Scaling</title>
+    </subsubsection>
+    <subsubsection>
+      <title>Horizontal Scaling</title>
+    </subsubsection>
+  </subsection>
+
+  <subsection>
+    <title>Reflection</title>
+  </subsection>
+    
+</section>
+
+		       

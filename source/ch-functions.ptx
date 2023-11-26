@@ -14,6 +14,6 @@
   <!-- <xi:include href="sec-relations.ptx" /> -->
   <xi:include href="sec-functions.ptx" />
   <xi:include href="sec-avg_roc.ptx" />
-
+  <xi:include href="sec-transformations.ptx" />
 </chapter>
 
