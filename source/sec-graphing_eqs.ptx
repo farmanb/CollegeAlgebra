@@ -4,7 +4,6 @@
   <title>Graphing Equations</title>
 
   <objectives>
-    <!-- <title>Test?</title> -->
     <ul>
       <li>
 	Identify points in the plane that are solutions to equations in two variables.
@@ -19,66 +18,262 @@
       Often, it is convenient to visualize this relationship using a graph.
     </p>
   </introduction>
-  
-  <definition xml:id="def-solution">
-    <title>Solution to an Equation</title>
+
+  <subsection>
+    <title>Solutions to an Equation</title>
+    <definition xml:id="def-solution">
+      <title>Solution to an Equation</title>
+      <p>
+	A <term>solution</term>
+	<idx>
+	  <h>Equation</h>
+	  <h>Solution</h>
+	</idx>
+	to an equation in the variables <m>x</m> and <m>y</m> is an ordered pair <m>(a,b)</m> that make the equation true when
+	<ol>
+	  <li>
+	    the first coordinate, <m>a</m>, is substituted into the equation for <m>x</m>, and
+	  </li>
+	  <li>
+	    the second coordinate, <m>b</m>, is substituted into the equation for <m>y</m>.
+	  </li>
+	</ol>
+      </p>
+    </definition>
+
+    <example>
+      <p>
+	Consider the equation <m>y = 2x - 2</m>.
+	The ordered pair <m>(1,0)</m> is a solution to this equation because
+	<me>0 = 2(1) - 2 = 2 - 2</me>
+	is a true statement.
+	The ordered pair <m>(3,5)</m> is <alert>not</alert> a solution to this equation because
+	<me>5 = 2(3) - 2 = 6 - 2 = 4</me>
+	is a false statement.
+      </p>
+    </example>
+
+    <definition xml:id="def-graph">
+      <title>Graph of an Equation</title>
+      <p>
+	The <term>graph</term>
+	<idx>
+	  <h>Equation</h>
+	  <h>Graph</h>
+	</idx>
+	of an equation in the variables <m>x</m> and <m>y</m> consists of all the points in the plane that are solutions to the equation.
+      </p>
+    </definition>
+
     <p>
-      A <term>solution</term>
+      Most equations that we will encounter will have infinitely many solutions.
+      Since we cannot find all of the solutions, we will mostly rely on studying the shape of certain graphs and some specific solutions.
+    </p>
+
+    <definition xml:id="def-y_intercept">
+      <title><m>y</m>-intercept</title>
+      A <xref ref="def-solution" text="title"/> of the form <m>(0,y)</m> is called a <term><m>y</m>-intercept</term>.
       <idx>
 	<h>Equation</h>
-	<h>Solution</h>
+	<h><m>y</m>-intercept</h>
       </idx>
-      to an equation in the variables <m>x</m> and <m>y</m> is an ordered pair <m>(a,b)</m> that make the equation true when
-      <ol>
-	<li>
-	  the first coordinate, <m>a</m>, is substituted into the equation for <m>x</m>, and
-	</li>
-	<li>
-	  the second coordinate, <m>b</m>, is substituted into the equation for <m>y</m>.
-	</li>
-      </ol>
-    </p>
-  </definition>
+    </definition>
 
-  <example>
-    <p>
-      Consider the equation <m>y = 2x - 2</m>.
-      The ordered pair <m>(1,0)</m> is a solution to this equation because
-      <me>0 = 2(1) - 2 = 2 - 2</me>
-      is a true statement.
-      The ordered pair <m>(3,5)</m> is <alert>not</alert> a solution to this equation because
-      <me>5 = 2(3) - 2 = 6 - 2 = 4</me>
-      is a false statement.
-    </p>
-  </example>
+    <!-- <example> -->
+    <!--   <statement> -->
+    <!--     <p> -->
+    <!-- 	Find the <m>y</m>-intercepts of the equation <m>2x + 3y = 6</m>. -->
+    <!--     </p> -->
+    <!--   </statement> -->
 
-  <definition xml:id="def-graph">
-    <title>Graph of an Equation</title>
-    <p>
-      The <term>graph</term>
+    <!--   <solution> -->
+    <!--     <p> -->
+    <!-- 	To find the <m>y</m>-intercept of the linear equation <m>2x + 3y = 6</m>, we substitute <m>0</m> for <m>x</m> and solve for <m>y</m>: -->
+    <!-- 	<md> -->
+    <!-- 	  <mrow>2(0) + 3y \amp= 6 \amp\amp \text{Simplify}</mrow> -->
+    <!-- 	  <mrow>3y \amp = 6 \amp\amp \text{Divide both sides by}\ y</mrow> -->
+    <!-- 	  <mrow>y \amp = \frac{6}{3} \amp\amp \text{Simplify}</mrow> -->
+    <!-- 	  <mrow>y \amp = 2.</mrow> -->
+    <!-- 	</md> -->
+    <!-- 	Therefore the <m>y</m>-intercept of the linear equation <m>2x + 3y = 6</m> is the point <m>(0,2)</m>. -->
+    <!--     </p> -->
+    <!--   </solution> -->
+    <!-- </example> -->
+
+
+    <definition xml:id="def-x_intercept">
+      <title><m>x</m>-intercept</title>
+      A <xref ref="def-solution" text="title"/> of the form <m>(x,0)</m> is called an <term><m>x</m>-intercept</term>.
       <idx>
 	<h>Equation</h>
-	<h>Graph</h>
+	<h><m>x</m>-intercept</h>
       </idx>
-      of an equation in the variables <m>x</m> and <m>y</m> consists of all the points in the plane that are solutions to the equation.
-    </p>
-  </definition>
+    </definition>
+    
+    <example>
+      <p>
+	The graph of the equation <m>y = 2x - 2</m> is shown below.
+	The <m>y</m>-intercept occurs when <m>x = 0</m> and
+	<md>
+	  <mrow>y \amp = 2(0) -2 \amp\amp \text{Simplify}</mrow>
+	  <mrow>y \amp = -2.</mrow>
+	</md>
+	The <m>x</m>-intercept occurs when <m>y = 0</m> and
+	<md>
+	  <mrow>0 \amp = 2x - 2 \amp\amp \text{Add}\ 2\ \text{to both sides}</mrow>
+	  <mrow>2 \amp = 2x \amp\amp \text{Divide both sides by}\ 2</mrow>
+	  <mrow>1 \amp = x \amp\amp \text{Swap sides}</mrow>
+	  <mrow>x \amp = 1.</mrow>
+	</md>
+	This tells us, as ordered pairs, the <m>x</m>-intercept occurs at <m>(1,0)</m> and the <m>y</m>-intercept occurs at <m>(0,-2)</m>.
+	In general, every point on this line has coordinates of the form <m>(x,2x - 2)</m>, where <m>x</m> can be any real number we choose.
+      </p>
+      <figure>
+	<caption>The graph of the equation <m>y = 2x - 2</m>.</caption>
+	<image>
+	  <latex-image>
+	    <xi:include parse="text" href="tex/y_2x_-2.tex"/>
+	  </latex-image>
+	</image>
+      </figure>
+    </example>
+  </subsection>
 
-  <example>
+  <subsection>
+    <title>Horizontal Lines</title>
     <p>
-      The graph of the equation <m>y = 2x - 2</m> is shown below.
-      Coordinates for some of the points on this graph have been marked.
-      In general, every point on this line has coordinates of the form <m>(x,2x - 2)</m>, where <m>x</m> can be any real number we choose.
+      The equation
+      <me>y = a</me>
+      where <m>a</m> is a constant has solutions of the form <m>\left(x, a\right)</m>, where <m>x</m> is allowed to be <em>any</em> real number.
+      The graph of this equation is a horizontal line.
     </p>
-    <figure>
-      <caption>The graph of the equation <m>y = 2x - 2</m>.</caption>
-      <image>
-	<latex-image>
-	  <xi:include parse="text" href="tex/y_2x_-2.tex"/>
-	</latex-image>
-      </image>
-    </figure>
-  </example>
+
+    <example>
+      <statement>
+	<p>
+	  Graph the equation <m>y = 0</m>.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  The solutions to the equation <m>y = 0</m> have the form <m>(x, 0)</m>, where <m>x</m> is allowed to be any real number.
+	  The graph of this equation forms the <m>x</m>-axis in the Cartesian plane.
+	  <figure xml:id="fig-x_axis">
+	    <image xml:id="img-x_axis">
+	      <latex-image>
+		<xi:include parse="text" href="tex/x_axis.tex"/>
+	      </latex-image>
+	    </image>
+	  </figure>
+	</p>
+      </solution>
+    </example>
+    
+    <example>
+      <statement>
+	<p>
+	  Graph the equation <m>0x + 3y = 7</m>.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  The equation <m>0x + 3y = 7</m> simplifies to <m>y = \frac{7}{3}</m>.
+	  The graph of this equation is a horizontal line <m>\frac{7}{3}</m> units above the <m>x</m>-axis.
+	  <figure xml:id="fig-horiz_line">
+	    <caption>The graph of <m>y = \frac{7}{3}</m>.</caption>
+	    <image xml:id="img-horiz_line">
+	      <latex-image >
+		\begin{tikzpicture}
+		\def\size{5}
+
+		\path [draw, help lines, opacity=.5]  (-\size,0) grid (\size,\size);
+
+		\foreach \i in {1,...,\size} 
+		\draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
+		(-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
+		(2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$};
+		<!-- (2.5pt,-\i) -\- +(-5pt,0) node [anchor=east, font=\small] {$-\i$}; -->
+
+		\draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
+		\draw [very thick,->] (0,0) -- (0,\size+.1) node [anchor=west] {$y$};
+
+		\draw [thick,blue] (-5, 7/3) -- (5,7/3);
+		\end{tikzpicture}
+	      </latex-image>
+	    </image>
+	  </figure>
+	</p>
+      </solution>
+    </example>
+  </subsection>
+
+  <subsection>
+    <title>Vertical Lines</title>
+    <p>
+      The equation
+      <me>x = a</me>
+      where <m>a</m> is a constant has solutions of the form <m>\left(a, y\right)</m>, where <m>y</m> is allowed to be <em>any</em> real number.
+      The graph of this equation is a vertical line.
+    </p>
+    
+    <example>
+      <statement>
+	<p>
+	  Graph the equation <m>x = 0</m>.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  The solutions to the equation <m>x = 0</m> have the form <m>(0, y)</m>, where <m>y</m> is allowed to be any real number.
+	  The graph of this equation forms the <m>y</m>-axis in the Cartesian plane.
+	</p>
+	<figure xml:id="fig-y_axis">
+	  <image xml:id="img-y_axis">
+	    <latex-image>
+	      <xi:include parse="text" href="tex/y_axis.tex"/>
+	    </latex-image>
+	  </image>
+	</figure>
+      </solution>
+    </example>
+    
+    <example>
+      <statemnt>
+	<p>
+	  Graph the equation <m>3x + 0y = 2</m>.
+	</p>
+      </statemnt>
+      <solution>
+	<p>
+	  The equation <m>3x + 0y = 2</m> reduces to <m>x = \frac{2}{3}</m>.
+	  The graph of this equation is a vertical line <m>\frac{2}{3}</m> units to the right of the <m>y</m>-axis.
+	  <figure xml:id="fig-vert_line">
+	    <caption>The graph of <m>x = \frac{2}{3}</m>.</caption>
+	    <image xml:id="img-vert_line">
+	      <latex-image >
+		\begin{tikzpicture}
+		\def\size{5}
+
+		\path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
+
+		\foreach \i in {1,...,\size} 
+		\draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
+		(-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
+		(2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
+		(2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
+
+		\draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
+		\draw [very thick,->] (0,-\size) -- (0,\size+.1) node [anchor=west] {$y$};
+
+		\draw [thick,blue] (2/3, -5) -- (2/3,5);
+		\end{tikzpicture}
+	      </latex-image>
+	    </image>
+	  </figure>
+	</p>
+      </solution>
+    </example>
+  </subsection>
   
   <xi:include href="worksheets/wksht-plotting_points_on_a_graph.ptx"/>
 </section>

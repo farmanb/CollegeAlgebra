@@ -8,10 +8,9 @@
     In this chapter, we study equations and inequalities in two variables and their graphical representations in the Cartesian plane.
     </p>
   </introduction>
-  
+
+  <!-- <xi:include href="sec-linear_eqs.ptx"/> -->
   <xi:include href="sec-circles.ptx"/>
-  <xi:include href="sec-linear_eqs.ptx"/>
-  <xi:include href="sec-lines.ptx"/>
-  <xi:include href="sec-perp_parallel.ptx"/>
-  <xi:include href="sec-linear_ineq.ptx"/>
+
+  
 </chapter>  

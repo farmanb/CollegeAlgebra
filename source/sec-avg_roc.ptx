@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-avg_roc" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Average Rate of Change</title>
+  <objectives>
+    <ul>
+      <li>
+	Find the average rate of change of a function on an interval.
+      </li>
+    </ul>
+  </objectives>
+
+  <definition xml:id="def-average_rate_of_change">
+    <title>The Average Rate of Change</title>
+    <p>
+      Assume <m>f</m> is a function and the domain of <m>f</m> contains the interval <m>[a,b]</m>.
+      The <term>average rate of change</term> of <m>f</m> on the interval <m>[a,b]</m> is
+      <me>\frac{f(b) - f(a)}{b-a}.</me>
+    </p>
+  </definition>
+
+  <example>
+    <introduction>
+      <p>
+	An object is thrown straight up in the air.
+	The object reaches a maximum height of 1 meter after 1 seconds, and returns to the thrower's hand after 2 seconds.
+	The function <m>h \colon [0,2] \to \R</m> models the height of the object in meters as a function of <m>x</m> seconds.
+	<figure xml:id="fig-kinematic">
+	  <image>
+	    <latex-image>
+	      <xi:include parse="text" href="tex/kinematic.tex"/>
+	    </latex-image>
+	  </image>
+	  <caption>The graph of <m>h(x)</m></caption>
+	</figure>
+      </p>
+    </introduction>
+    <task>
+      <statement>
+	<p>
+	  What is the average rate of change for the function on the interval <m>[0,1]</m>?
+	  Interpret the meaning of this number.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  Using <xref ref="def-average_rate_of_change" text="title"/>, the average rate of change on the interval <m>[0,1]</m> is
+	  <me>
+	    \frac{h(1) - h(0)}{1 - 0} = \frac{1 - 0}{1 - 0} = 1.
+	  </me>
+	  This tells us the object is moving up at an average rate of 1 meter per second.
+	</p>
+      </solution>
+    </task>
+
+    <task>
+      <statement>
+	<p>
+	  What is the average rate of change for the function on the interval <m>[0,1]</m>?
+	  Interpret the meaning of this number.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  Using <xref ref="def-average_rate_of_change" text="title"/>, the average rate of change on the interval <m>[0,1]</m> is
+	  <me>
+	    \frac{h(2) - h(1)}{2 - 1} = \frac{0 - 1}{2 - 1} = \frac{-1}{1} = -1
+	  </me>
+	  This tells us the object is falling back at an average rate of 1 meter per second.
+	</p>
+      </solution>
+    </task>
+    
+    <task>
+      <statement>
+	<p>
+	  What is the average rate of change for the function on the interval <m>[0,2]</m>?
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  Using <xref ref="def-average_rate_of_change" text="title"/>, the average rate of change on the interval <m>[0,1]</m> is
+	  <me>
+	    \frac{f(2) - f(0)}{2 - 0} = \frac{0 - 0}{2 - 0} = 0.
+	  </me>
+	  We can interpret this as saying the object climbs and falls at the same speed.
+	</p>
+      </solution>
+      </task>
+  </example>
+
+  <xi:include href="worksheets/wksht-avg_roc.ptx"/>
+</section>

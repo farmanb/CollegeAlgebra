@@ -13,9 +13,10 @@
 
     <!-- Include chapters -->
     <xi:include href="./ch-cartesian_plane.ptx" />
-    <xi:include href="./ch-equations.ptx" />
     <xi:include href="./ch-functions.ptx" />
-
+    <xi:include href="./ch-linear.ptx" />
+    <xi:include href="./ch-equations.ptx" />
+    
     <!-- Include backmatter -->
     <!-- <xi:include href="./backmatter.ptx" /> -->
     <xi:include href="./meta_backmatter.ptx" />

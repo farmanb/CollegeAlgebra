@@ -20,7 +20,20 @@
     </ul>
   </objectives>
 
-  <definition>
+  <introduction>
+    <p>
+      In the previous section, we encountered linear functions and saw that we can express these functions in the form <m>y = mx + b</m>.
+      When we graphed a linear function, we used to points to determine the line that represents the graph.
+      We can reverse this process to find a linear function.
+      The first step is to determine the slope.
+      In doing this, we will find two other representations for lines.
+    </p>
+  </introduction>
+
+  <subsection>
+    <title>The Slope of a Line through two Points</title> 
+    <definition xml:id="def-slope">
+    <title>The Slope of a Line</title>
     <p>
       The <term>slope</term>
       <idx>
@@ -29,15 +42,11 @@
       </idx>
       of the line through the points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m> is
       <me>\frac{y_1 - y_2}{x_1 - x_2} = \frac{y_2 - y_1}{x_2 - x_1},</me>
-      provided that <m>x_1 \neq x_1</m>.
+      provided that <m>x_1 \neq x_2</m>.
       The slope measures the rate of change in <m>y</m> with respect to <m>x</m>, as depicted in <xref ref="fig-slope"/>.
     </p>
-    <p>
-      The slope of a line is only defined for lines that are not vertical.
-      We say the slope of a vertical line is undefined.
-    </p>
   </definition>
-  
+
   <figure xml:id="fig-slope">
     <image xml:id="img-slope">
       <latex-image>
@@ -46,8 +55,16 @@
     </image>
     <caption>The slope of the line through the points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m>.</caption>
   </figure>
-
-  <example>
+  
+  <remark>
+    <p>
+      In the definition of <xref ref="def-slope" text="title"/>, we required that <m>x_1 \neq x_2</m>.
+      While there is a line that passes through two distinct points with the same <m>x</m>-coordinate, that line is a vertical line.
+      Since a vertical line is <em>not</em> a function, the slope of a vertical line undefined.
+    </p>
+  </remark>
+  
+  <example xml:id="example-find_slope">
     <statement>
       <p>Find the slope of the line through the points <m>(3,5)</m> and <m>(6,2)</m>.</p>
     </statement>
@@ -59,114 +76,206 @@
       </p>
     </solution>
   </example>
-  
-  <definition xml:id="def-slope_intercept">
-    <title>The Slope-Intercept Form of a Line</title>
-    <p>
-      The <term>slope-intercept form of the line</term>
-      <idx>
-	<h>Line</h>
-	<h>Slope-Intercept Form</h>
-      </idx>
-      through the point <m>(0,b)</m> with slope <m>m</m> is
-      <me>y = mx + b</me>.
-    </p>
-  </definition>
 
-  <example>
+  <p>
+    Suppose we know the slope, <m>m</m>, and a point <m>(x_0, y_0)</m> that lines on the line.
+    We can use the fact that <m>(x_0, y_0)</m> is a <xref ref="def-solution" text="title"/> to determine the <m>y</m>-intercept.
+    We substitute <m>x_0</m> for <m>x</m> and <m>y_0</m> for <m>y</m> in the <xref ref="thm-slope_intercept" text="title"/> and solve for <m>b</m>:
+    <md>
+      <mrow>y_0 \amp= mx_0 + b \amp\amp \text{Subtract}\ mx_0\ \text{from both sides}</mrow>
+      <mrow>b \amp = y_0 - mx_0.</mrow>
+    </md>
+  </p>
+
+  <theorem xml:id="thm-point_slope_intercept">
     <statement>
       <p>
-	Find <xref ref="def-slope_intercept" text="title"/> using the point <m>(0,5)</m> and slope <m>3</m>.
+	The <m>y</m>-intercept of the line with slope <m>m</m> through the point <m>(x_0, y_0)</m> is
+	<me>b = y_0 - mx_0.</me>
+      </p>
+    </statement>
+  </theorem>
+
+  <example xml:id="example-line_through_two_points">
+    <statement>
+      <p>
+	Find the equation of the line through the points <m>(3,5)</m> and <m>(6,2)</m>.
       </p>
     </statement>
     <solution>
       <p>
-	The equation of the line through the point <m>(0,5)</m> with slope <m>3</m> is
-	<me>y = 3x + 5.</me>
+	In <xref ref="example-find_slope"/>, we saw the slope of the line is <m>-1</m>.
+	If we use the point <m>(3,5)</m>, then we can find the <m>y</m>-intercept by solving
+	<md>
+	  <mrow>5 \amp= -3 + b \amp\amp \text{Add}\ 3\ \text{to both sides}</mrow>
+	  <mrow>b \amp= 5 + 3 = 8.</mrow>
+	</md>
+	This tells us the equation of the line through <m>(3,5)</m> and <m>(6,2)</m> is
+	<me>y = -x + 8</me>.
+      </p>
+      <p>
+	We could also have used the point <m>(6,2)</m> to find an equation of the line.
+	If we use the point <m>(6,2)</m>, then the <m>y</m>-intercept is given by solving
+	<md>
+	  <mrow>2 \amp= -6 + b \amp\amp \text{Add}\ 6\ \text{to both sides}</mrow>
+	  <mrow>b \amp= 2 + 6 = 8.</mrow>
+	</md>
+	We can see that no matter which point we use, we obtain the same <xref ref="thm-slope_intercept" text="title"/>.
       </p>
     </solution>
   </example>
+  </subsection>
 
-  <example>
-    <statement>
-      <p>
-	Find the slope and <m>y</m>-intercept for line represented by the linear equation <m>3x + 2y = 6</m>.
-      </p>
-    </statement>
-    <solution>
-      <p>
-	Consider the linear equation <m>3x + 2y = 6</m>.
-	This is the <xref ref="def-linear_equation" text="title"/>.
-	We can place this in <xref ref="def-slope_intercept" text="title"/> by subtracting <m>3x</m> from both sides to obtain
-	<me>2y = -3x + 6</me>
-	then dividing both sides by <m>2</m>
-	<me>y = -\frac{3}{2}x + 3.</me>
-	This tells us the linear equation <m>3x + 2y = 6</m> represents the line through the point <m>(0,3)</m> with slope <m>-3/2</m>.
-      </p>
-      <figure>
-	<image>
-	  <latex-image>
-	    <xi:include parse="text" href="tex/3x_2y_6.tex"/>
-	  </latex-image>
-	</image>
-	<caption>The graph of the line <m>3x + 2y = 6</m>.</caption>
-      </figure>
-    </solution>
-  </example>
-
-  <definition xml:id="def-point_slope">
+  <subsection>
     <title>The Point-Slope Form of a Line</title>
+    
     <p>
-      The <term>point-slope form of the line</term>
-      <idx>
+      Assume we know the slope, <m>m</m>, of a line and a point, <m>(x_0, y_0)</m>, on the line.
+      Suppose <m>(x,y)</m> is any other point on the line.
+      Since the slope of the line is constant, we can write
+      <md>
+	<mrow>m \amp= \frac{y - y_0}{x - x_0} \amp\amp \text{Multiply both sides by}\ x - x_0</mrow>
+	<mrow>m(x - x_0) \amp= \left(\frac{y - y_0}{x - x_0}\right)(x - x_0) \amp\amp \text{Simplify}</mrow>
+	<mrow>m(x - x_0) \amp = y - y_0 \amp\amp \text{Swap sides}</mrow>
+	<mrow>y - y_0 \amp = m(x - x_0)</mrow>
+      </md>
+      to find the next form of a line.
+    </p>
+    
+    <theorem xml:id="thm-point_slope">
+      <title>The Point-Slope Form of a Line</title>
+      <statement>
+	<p>
+	  The <term>point-slope form of the line</term>
+	  <idx>
+	    <h>Line</h>
+	    <h>Point-Slope Form</h>
+	  </idx>
+	  through the point <m>(x_0, y_0)</m> with slope <m>m</m> is
+	  <me>y - y_0 = m(x - x_0).</me>
+	</p>    
+      </statement>
+    </theorem>
+
+    <p>
+      This form of a line is convenient to use when we know the slope of a line and a point on the line.
+    </p>
+
+    <example>
+      <statement>
+	<p>
+	  Find the <xref ref="thm-point_slope" text="title"/> using the point <m>(1,2)</m> and the slope <m>3</m>.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  Using <xref ref="thm-point_slope" text="title"/>, the equation of the line through <m>(1,2)</m> with slope <m>3</m> is
+	  <me>y - 2 = 3(x - 1).</me>
+	</p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+	<p>
+	  Find an equation for the line that passes through the points <m>(3,2)</m> and <m>(4,3)</m>.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  We can use the <xref ref="thm-point_slope" text="title"/> to find the line between the points <m>(3,2)</m> and <m>(4,3)</m>.
+	  First compute the slope of the line
+	  <me>m = \frac{3 - 2}{4 - 3} = \frac{1}{1} = 1.</me>
+	  Use either of the two points to find the equation
+	  <me>y - 2 = x - 3
+	  \quad\text{or}\quad
+	  y - 3 = x - 4.</me>
+	</p>
+	<p>
+	  While these equations may look different, we can compare them by placing them in <xref ref="thm-slope_intercept" text="title"/>.
+	  For the first equation, add <m>2</m> to both sides to get
+	  <me>y =  x - 1</me>
+	  and for the second, add <m>3</m> to both sides to get
+	  <me>y = x - 1.</me>
+	  In this form, we can see that these equations represent the same line.
+	</p>
+      </solution>
+    </example>
+  </subsection>
+
+  <subsection>
+    <title>The Standard Equation of a Line</title>
+    <p>
+      So far, we have only been interested in working with lines with a well-defined slope.
+      Sometimes, it is convenient to work with lines that may be vertical.
+      The standard equation of a line allows us to do just that.
+    </p>
+
+    <definition xml:id="def-linear_equation">
+      <title>Standard Equation of a Line</title>
+      <p>
+        The <term>standard equation of a line</term>
+        <idx>
+	<h>Equation</h>
 	<h>Line</h>
-	<h>Point-Slope Form</h>
-      </idx>
-      through the point <m>(x_1, y_1)</m> with slope <m>m</m> is
-      <me>y - y_1 = m(x - x_1).</me>
-    </p>    
-  </definition>
+	<h>Standard</h>
+        </idx>
+        in the variables <m>x</m> and <m>y</m> is
+        <me>ax + by = c,</me>
+	where <m>a</m> and <m>b</m> are not both zero.
+      </p>
+    </definition>
 
-  <example>
-    <statement>
+    <remark>
+      <title><alert>Caution!</alert></title>
       <p>
-	Find the <xref ref="def-point_slope"/> using hte point <m>(1,2)</m> and the slope <m>3</m>.
+	The standard equation of a line may not always represent an equation where <m>y</m> is a function of <m>x</m>!
+	If <m>b = 0</m>, then the standard equation of a line reduces to
+	<md>
+	  <mrow>ax \amp= c \amp\amp \text{Divide both sides by}\ a</mrow>
+	  <mrow>x \amp = \frac{c}{a},</mrow>
+	</md>
+	which is a vertical line.
       </p>
-    </statement>
-    <solution>
-      <p>
-	Using <xref ref="def-point_slope" text="title"/>, the equation of the line through <m>(1,2)</m> with slope <m>3</m> is
-	<me>y - 2 = 3(x - 1).</me>
-      </p>
-    </solution>
-  </example>
+    </remark>
 
-  <example>
-    <statement>
+    <example>
+      <statement>
+        <p>
+	  Place the linear equation
+	  <me>x + 3y - 2x + 7 = 5 + y - 4x</me>
+	  into <xref ref="def-linear_equation" text="title" />.
+        </p>
+      </statement>
+      <solution>
+        <p>
+	  The equation
+	  <me>x + 3y - 2x + 7 = 5 + y - 4x</me>
+	  can be placed in standard form as follows.
+	  First, move the variables to the left-hand side of the equation.
+	  Subtract <m>y - 4x</m> from both sides
+	  <me>x - 2x + 3y + 7 - (y - 4x) = 5</me>
+	  and distribute the negative
+	  <me>x - 2x + 3y + 7 - y + 4x = 5.</me>
+	  Collect like terms
+	  <me>x - 2x + 4x + 3y - y + 7 = 5</me>
+	  and simplify
+	  <me>3x + 2y + 7 = 5.</me>
+	  Finally, subtract 7 from both sides of the equation
+	  <me>3x + 4y = 5 - 7</me>
+	  and simplify to arrive at the standard form
+	  <me>3x + 4y = -2.</me>
+        </p>
+      </solution>
+    </example>
+
+    <example>
       <p>
-	Find an equation for the line that passes through the points <m>(3,2)</m> and <m>(4,3)</m>.
+        Not all equations are linear.
+        For example, the equation <m>xy + y - 7 = 2</m> is not linear because of the term <m>xy</m>.
       </p>
-    </statement>
-    <solution>
-      <p>
-	We can use the <xref ref="def-point_slope" text="title"/> to find the line between the points <m>(3,2)</m> and <m>(4,3)</m>.
-	First compute the slope of the line
-	<me>m = \frac{3 - 2}{4 - 3} = \frac{1}{1} = 1.</me>
-	Use either of the two points to find the equation
-	<me>y - 2 = x - 3
-	\quad\text{or}\quad
-	y - 3 = x - 4.</me>
-      </p>
-      <p>
-	While these equations may look different, we can compare them by placing them in <xref ref="def-slope_intercept" text="title"/>.
-	For the first equation, add <m>2</m> to both sides to get
-	<me>y =  x - 1</me>
-	and for the second, add <m>3</m> to both sides to get
-	<me>y = x - 1.</me>
-	In this form, we can see that these equations represent the same line.
-      </p>
-    </solution>
-  </example>
+    </example>
+  </subsection>
 
   <xi:include href="worksheets/wksht-rep_of_lines.ptx"/>
 </section>

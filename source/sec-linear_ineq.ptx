@@ -198,10 +198,10 @@
       measures the distance between <m>d</m> and the origin on the number line.
       We can see from 
       <me>\abs{-d} = \abs{(-d)^2} = \abs{d^2} = \abs{d}</me>
-      that <m>d</m> and <m>-d</m> are the same distande from the origin.
+      that <m>d</m> and <m>-d</m> are the same distance from the origin.
     </p>
     <figure xml:id="fig-abs_val_two_sol">
-      <image>
+      <image xml:id="img-abs_val_two_sol">
 	<latex-image>
 	  <xi:include parse="text" href="tex/abs_val_two_sol.tex"/>
 	</latex-image>

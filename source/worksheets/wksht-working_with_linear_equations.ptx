@@ -1,35 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Working with Linear Equations</title>
+    <title>Working with Linear Functions</title>
     <objectives>
       <ul>
 	<li>
-	  Recognize linear equations in two variables.
+	  Recognize linear functions.
 	</li>
 	<li>
-	  Find <m>x</m>-intercepts of a linear equation.
+	  Find <m>x</m>-intercept of a linear function.
 	</li>
 	<li>
-	  Find the <m>y</m>-intercept of a linear equation.
+	  Find the <m>y</m>-intercept of a linear function.
 	</li>
 	<li>
-	  Graph a linear equation.
+	  Graph a linear function.
 	</li>
       </ul>
     </objectives>
     <page>
       <exercise workspace="1in">
 	<p>
-	  Determine whether the equation <m>2x + 3yx = 3xy + 7y - 4</m> is linear.
-	  If the equation is linear, put it standard form.
-	  Otherwise, explain why the equation is not linear.
+	  Determine whether the equation <m>2x + 3yx = 3xy + 7y - 4</m> represents a linear function of <m>y</m> in terms of <m>x</m>.
+	  If so, express the equation in the form <m>y = mx + b</m>.
+	  Otherwise, explain why the equation does not represent a linear function.
 	</p>
       </exercise>
 
       <exercise workspace="1in">
 	<p>
-	  Determine whether the equation <m>2(x - 2)^2 + y = 3x</m> is linear.
-	  If the equation is linear, put it standard form.
-	  Otherwise, explain why the equation is not linear.
+	  Determine whether the equation <m>2(x - 2)^2 + y = 3x</m> represents a linear function of <m>y</m> in terms of <m>x</m>.
+	  If so, express the equation in the form <m>y = mx + b</m>.
+	  Otherwise, explain why the equation does not represent a linear function.
 	</p>
       </exercise>
     </page>
@@ -65,7 +66,7 @@
 	    <m>x + 2y = 1 + x + y</m>
 	  </li>
 	  <li>
-	    <m>y + x = -1 + y</m>
+	    <m>y + x = -1 + x</m>
 	  </li>
 	</ol>
 	<sidebyside>

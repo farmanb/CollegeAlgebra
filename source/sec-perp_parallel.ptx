@@ -59,7 +59,7 @@
     <solution>
       <p>
 	In order to determine whether these lines are parallel, we need to find the slope of each line.
-	We do this by placing each line into <xref ref="def-slope_intercept" text="title"/>.
+	We do this by placing each line into <xref ref="thm-slope_intercept" text="title"/>.
       </p>
       <p>
 	For the first line, add <m>x</m> to both sides
@@ -85,12 +85,12 @@
     <statement>
       <p>
 	Find the equation of the line parallel to <m>4x + 2y = 9</m> that passes through the point <m>(-1,5)</m>.
-	Write your answer in <xref ref="def-slope_intercept"/>
+	Write your answer in <xref ref="thm-slope_intercept" text="title"/>
       </p>
     </statement>
     <solution>
       <p>
-	First, find the slope of the line <m>4x + 2y = 9</m> by placing the equation into <xref ref="def-slope_intercept" text="title"/>.
+	First, find the slope of the line <m>4x + 2y = 9</m> by placing the equation into <xref ref="thm-slope_intercept" text="title"/>.
 	Subtract <m>4x</m> from both sides
 	<me>2y = -4x + 9,</me>
 	divide both sides by <m>2</m>
@@ -101,13 +101,13 @@
       </p>
       <p>
 	By <xref ref="thm-parallel"/>, the slope of a line parallel to <m>4x + 2y = 9</m> is <m>-2</m>.
-	Now we use <xref ref="def-point_slope"/> to write down a line with slope <m>-2</m> through the point <m>(-1,5)</m>
+	Now we use <xref ref="thm-point_slope"/> to write down a line with slope <m>-2</m> through the point <m>(-1,5)</m>
 	<me>y - 5 = -2(x - (-1))</me>
 	and simplify
 	<me>y - 5 = -2(x + 1).</me>
       </p>
       <p>
-	Finally, to put this line into <xref ref="def-slope_intercept" text="title"/>, distribute the <m>-2</m>
+	Finally, to put this line into <xref ref="thm-slope_intercept" text="title"/>, distribute the <m>-2</m>
 	<me>y - 5 = -2x - 2,</me>
 	add 5 to both sides of the equation
 	<me>y = -2x -2 + 5,</me>
@@ -158,7 +158,7 @@
     </statement>
     <solution>
       <p>
-	First we must place the lines in <xref ref="def-slope_intercept" text="title"/> to find the slopes.
+	First we must place the lines in <xref ref="thm-slope_intercept" text="title"/> to find the slopes.
 	The first equation becomes
 	<md>
 	  <mrow>3x + 5y \amp= 7 \amp \amp \text{Subtract}\ 3x\ \text{from both sides}</mrow>
@@ -191,12 +191,12 @@
     <statement>
       <p>
 	Find the equation of a line perpendicular to <m>2x + 3y = 5</m> that passes through the point <m>(3,5)</m>.
-	Write your answer in <xref ref="def-slope_intercept" text="title"/> form.
+	Write your answer in <xref ref="thm-slope_intercept" text="title"/> form.
       </p>
     </statement>
     <solution>
       <p>
-	First, place the line in <xref ref="def-slope_intercept" text="title"/>
+	First, place the line in <xref ref="thm-slope_intercept" text="title"/>
 	<md>
 	  <mrow>2x + 3y \amp= 5 \amp\amp \text{Subtract}\ 2x\ \text{from both sides}</mrow>
 	  <mrow>3y \amp = -2x + 5 \amp\amp \text{Divide both sides by}\ 3</mrow>
@@ -216,9 +216,9 @@
 	</md>
       </p>
       <p>
-	Using <xref ref="def-point_slope" text="title"/>, the equation of the line perpendicular to <m>2x + 3y = 5</m> that passes through the point <m>(3,5)</m> is
+	Using <xref ref="thm-point_slope" text="title"/>, the equation of the line perpendicular to <m>2x + 3y = 5</m> that passes through the point <m>(3,5)</m> is
 	<me>y - 5 = \frac{3}{2}(x - 3).</me>
-	Finally, we convert to <xref ref="def-slope_intercept" text="title"/>
+	Finally, we convert to <xref ref="thm-slope_intercept" text="title"/>
 	<md>
 	  <mrow>y - 5 \amp= \frac{3}{2}(x - 3) \amp \amp \text{Distribute}</mrow>
 	  <mrow>y - 5 \amp = \frac{3}{2}x - \frac{9}{2} \amp\amp \text{Add}\ 5\ \text{to both sides}</mrow>
