@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-linear_functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Linear Functions</title>
+  <objectives>
+    <ul>
+      <li>
+	Recognize linear functions.
+      </li>
+      <li>
+	Find <m>x</m>-intercepts of a linear function.
+      </li>
+      <li>
+	Find the <m>y</m>-intercept of a linear function.
+      </li>
+      <li>
+	Graph a linear function.
+      </li>
+    </ul>
+  </objectives>
+
+  <introduction>
+    <p>
+      A <term>polynomial function</term>
+      <idx>
+	<h>Function</h>
+	<h>Polynomial</h>
+      </idx>
+      of <term>degree</term>
+      <idx>
+	<h>Function</h>
+	<h>Polynomial</h>
+	<h>Degree</h>
+      </idx>
+      <m>n</m> is a function of the form
+      <me>f(x) = a_nx^n + a_{n-1}x^{n-1} + \cdots + a_1x + a_0,</me>
+      where each of <m>a_0, a_1, \ldots, a_n</m> is a number called the <term>coefficient</term>
+      <idx>
+	<h>Function</h>
+	<h>Polynomial</h>
+	<h>Coefficient</h>
+      </idx>
+      of <m>1, x, \ldots, x^n</m>, respectively, and <m>a_n \neq 0</m>.
+      In this section, we study a special kind of polynomial known as a <em>linear function</em>.
+      As we will see, the name linear comes from the fact that the graph of such a function is always a line.
+    </p>
+  </introduction>
+
+  <subsection>
+    <title>Linear Functions as Degree One Polynomials</title>
+    <definition xml:id="def-linear_function">
+      <title>Linear Function</title>
+      <p>
+	A function <m>f \colon \R \to \R</m> is <term>linear</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Linear</h>
+	</idx>
+	if the <xref ref="def-average_rate_of_change" text="title"/> of <m>f</m> is constant.
+	That is, there exists a number <m>m</m> such that for all numbers <m>a</m> and <m>b</m>
+	<me>m = \frac{f(b) - f(a)}{b - a}.</me>
+	We call the number <m>m</m> the <term>slope</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Linear</h>
+	  <h>Slope</h>
+	</idx>
+	of <m>f</m>.
+	The number <m>b</m> is the <m>y</m>-coordinate of the <xref ref="def-y_intercept" text="title"/> <m>\left(0, b\right)</m>.
+      </p>
+    </definition>
+
+    <p>
+      In order to find the equation of a linear function, it is enough to know the slope, <m>m</m>, and the value of the function for a single <m>x</m>-value.
+      The simplest point to find is the <xref ref="def-y_intercept" text="title"/>: the <m>x</m>-coordinate is <m>0</m> and the <m>y</m>-coordinate is <m>b = f(0)</m>.
+      If we write <m>y = f(x)</m>, then by <xref ref="def-linear_function"/>
+      <me>m = \frac{f(x) - f(0)}{x - 0} = \frac{y - b}{x}.</me>
+      We obtain the equation for the function by solving the equation for <m>y</m> in terms of <m>x</m>
+      <md>
+	<mrow>m \amp= \frac{y - b}{x} \amp\amp \text{Multiply both sides by}\ x</mrow>
+	<mrow>mx \amp = y - b \amp\amp \text{Add}\ b\ \text{to both sides}</mrow>
+	<mrow>mx + b \amp = y \amp\amp \text{Swap sides}</mrow>
+	<mrow>y \amp = mx + b \amp\amp \text{Replace}\ y\ \text{with}\ f(x)</mrow>
+	<mrow>f(x) \amp = mx + b</mrow>
+      </md>
+    </p>
+
+    <theorem xml:id="thm-slope_intercept">
+      <title>The Slope-Intercept Form of a Line</title>
+      <p>
+	The <term>slope-intercept form of a linear function</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Linear</h>
+	  <h>Slope-Intercept Form</h>
+	</idx>
+	is
+	<me>f(x) = mx + b
+	\quad\text{or}\quad
+	y = mx + b,</me>
+	where <m>m</m> is the slope or average rate of change of <m>f</m>.
+      </p>
+    </theorem>
+  </subsection>
+  
+  <subsection>
+    <title>Graphing Linear Functions</title>
+    <introduction>
+      <p>
+	Consider a linear function <m>y = mx + b</m> with <m>m \neq 0</m>.
+	Recall that the <xref ref="def-graph" text="title"/> of an equation consists of all points <m>(x,y)</m> that are a <xref ref="def-solution" text="title"/> to the equation.
+	The graph of a linear equation is always a line.
+	We can graph the equation by finding any two points on the line and drawing a line through them.
+	In general, the two points that are simplest to find are the two intercepts.
+      </p>
+    </introduction>
+
+    <p>
+      We find the <xref ref="def-x_intercept" text="title"/> by substituting <m>0</m> for <m>y</m> and solving the resulting equation for <m>x</m>
+      <md>
+	<mrow>0 \amp= mx + b \amp\amp \text{Subtract}\ b\ \text{from both sides}</mrow>
+	<mrow>mx \amp= -b \amp\amp \text{Divide both sides by}\ m</mrow>
+	<mrow>x \amp = -\frac{b}{m}.</mrow>
+      </md>
+    </p>
+    
+    <theorem xml:id="thm-linear_x_intercept">
+      <statement>
+	<p>
+	  The <xref ref="def-x_intercept" text="title"/> of the linear function <m>y = mx + b</m> with <m>m \neq 0</m> is the point
+	  <me>\left(-\frac{b}{m}, 0\right).</me>
+	</p>
+      </statement>
+    </theorem>
+
+    <example xml:id="example-x_intercept_2x_3y_6">
+      <statement>
+	<p>
+	  Find the <m>x</m>-intercept of the linear equation <m>y = -\frac{2}{3}x + 2</m>.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  To find the <m>x</m>-intercept of the linear equation <m>y = -\frac{2}{3}x + 2</m>, we substitute <m>0</m> for <m>y</m> to get
+	  <md>
+	    <mrow>0 \amp= -\frac{2}{3}x + 2 \amp\amp \text{Add}\ -\frac{2}{3}x\ \text{to both sides}</mrow>
+	    <mrow>\frac{2}{3}x \amp = 2 \amp\amp \text{Multiply both sides by}\ \frac{3}{2}</mrow>
+	    <mrow>x \amp = \left(\frac{3}{2}\right) \amp\amp \text{Simplify}</mrow>
+	    <mrow>x \amp = 3.</mrow>
+	  </md>
+	  Therefore the <m>x</m>-intercept of the linear equation <m>y = -\frac{2}{3}x + 2</m> is the point <m>(3,0)</m>.
+	</p>
+      </solution>
+    </example>
+    
+    <p>
+      We find the <xref ref="def-y_intercept" text="title"/> by substituting <m>0</m> for <m>x</m> and solving the resulting equation for <m>y</m>
+      <md>
+	<mrow>y \amp = m(0) + b \amp\amp \text{Simplify}</mrow>
+	<mrow>y \amp = b.</mrow>
+      </md>
+    </p>
+    
+    <example>
+      <statement>
+	<p>Graph the equation <m>y = -\frac{2}{3}x + 2</m></p>.
+      </statement>
+      <solution>
+	<p>
+	  In <xref ref="example-x_intercept_2x_3y_6"/> we found that <m>(3,0)</m> is the <m>x</m>-intercept for the function <m>y = -\frac{2}{3}x + 2</m>.
+	  The <xref ref="def-y_intercept" text="title"/> for the function <m>y = -\frac{2}{3}x + 2</m> is the point <m>(0, 2)</m>.
+	  To graph the equation <m>y = -\frac{2}{3}x + 2</m>, we simply need to plot these two points and draw a straight line through them.
+	  <figure xml:id="fig-2x_3y_6">
+	    <caption>The graph of <m>y = -\frac{2}{3}x + 2</m>.</caption>
+	    <image xml:id="img-2x_3y_6">
+	      <latex-image >
+		<xi:include parse="text" href="tex/2x_3y_6.tex"/>
+	      </latex-image>
+	    </image>
+	  </figure>	
+	</p>
+      </solution>
+    </example>
+  </subsection>
+
+  <xi:include href="worksheets/wksht-working_with_linear_equations.ptx"/>
+</section>
