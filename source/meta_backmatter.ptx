@@ -21,6 +21,19 @@
     <notation-list/>
   </appendix>
 
+  <appendix>
+    <title>Graphs of Basic Functions</title>
+    <figure xml:id="fig-parabola">
+      <title>the graph of <m>y = x^2</m></title>
+      <image xml:id="img-parabola">
+	<latex-image>
+	  <xi:include parse="text" href="tex/parabola.tex"/>
+	</latex-image>
+      </image>
+      <caption>The graph of <m>y = x^2</m>.</caption>
+    </figure>
+  </appendix>
+
   <index>
     <title>Index</title>
     <index-list/>

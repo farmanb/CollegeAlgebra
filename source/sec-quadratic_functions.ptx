@@ -49,7 +49,7 @@
     <title>Graphing Quadratic Functions</title>
     <p>
       Just as with lines, quadratic functions are easier to understand through visualizations.
-      As we will see in <xref ref="sec-transformations"/>, we can understand the graph of a general quadratic function <m>y = ax^2 + bx + c</m> by understanding the graph of the simple quadratic equation <m>y = x^2</m>.
+      As we have seen in <xref ref="sec-transformations"/>, we can understand the graph of a general quadratic function <m>y = ax^2 + bx + c</m> by understanding <xref ref="fig-parabola" text="title"/>.
       The graph of <m>y = x^2</m>, and all other quadratic functions, is a <term>parabola</term>.
       <idx>
 	<h>Graph</h>
@@ -73,15 +73,15 @@
       In order to sketch a graph of these functions, we will need to find the <m>x</m>-intercepts, the <m>y</m>-intercept, the vertex, and the line of symmetry.
       The point 
     </p>
-    
-    <figure xml:id="fig-parabola">
-      <image xml:id="img-parabola">
-	<latex-image>
-	  <xi:include parse="text" href="tex/parabola.tex"/>
-	</latex-image>
-      </image>
-      <caption>The graph of <m>y = x^2</m></caption>
-    </figure>
+
+    <!-- <figure xml:id="fig-parabola"> -->
+    <!--   <image xml:id="img-parabola"> -->
+    <!-- 	<latex-image> -->
+    <!-- 	  <xi:include parse="text" href="tex/parabola.tex"/> -->
+    <!-- 	</latex-image> -->
+    <!--   </image> -->
+    <!--   <caption>The graph of <m>y = x^2</m></caption> -->
+    <!-- </figure> -->
 
     <p>
       
