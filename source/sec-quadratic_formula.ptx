@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-quadratic_formula" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <objectives>
+    <ul>
+      <li>
+	Find the <m>x</m>-intercept(s) of a quadratic function
+      </li>
+    </ul>
+  </objectives>
+  
   <title>The Quadratic Formula</title>
   <p>
-    Now that we know how to 
     A point <m>(x,0)</m> in the Cartesian plane is an <xref ref="def-x_intercept" text="title"/> for the quadratic function <m>y = ax^2 + bx + c</m> if the first coordinate is a solution to the <term>quadratic equation</term>
     <idx>
       <h>Equation</h>
@@ -50,7 +58,7 @@
     <m>ax^2 + bx  +c = 0</m>.
   </p>
   
-  <theorem>
+  <claim xml:id="quadratic_formula">
     <title>The Quadratic Formula</title>
     <statement>
       <p>
@@ -76,7 +84,7 @@
 	</ol>
       </p>
     </statement>
-  </theorem>
+  </claim>
 
   <p>
     On the geometric side, the discriminant tells us how many <m>x</m>-intercepts the graph of <m>y = ax^2 + bx + c</m> has.
