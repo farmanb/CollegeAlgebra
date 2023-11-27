@@ -6,7 +6,7 @@
     <introduction>
       <p>Use graphs of basic functions and the following operations to graph general functions.</p>
     </introduction>
-    <ol>
+    <ul>
       <li>
 	Vertical Translation
       </li>
@@ -22,7 +22,7 @@
       <li>
 	Reflection.
       </li>
-    </ol>
+    </ul>
   </objectives>
 
   <introduction>
@@ -82,7 +82,7 @@
 	  <figure>
 	    <image>
 	      <latex-image>
-		<xi:include parse="text" href="tex/vertical_translation.tex"/>
+		<xi:include parse="text" href="tex/transformations/vertical_translation.tex"/>
 	      </latex-image>
 	    </image>
 	  </figure>
@@ -125,14 +125,6 @@
 	  <p>
 	    Use <xref ref="fig-parabola" text="title"/> to graph the functions <m>g(x) = (x+2)^2</m> and <m>h(x) = (x-3)^2</m>.
 	  </p>
-	  <figure>
-	    <image>
-	      <latex-image>
-		<xi:include parse="text" href="tex/parabola.tex"/>
-	      </latex-image>
-	    </image>
-	    <caption>The graph of <m>y = x^2</m>.</caption>
-	  </figure>
 	</statement>
 	<solution>
 	  <p>
@@ -141,7 +133,7 @@
 	  <figure>
 	    <image>
 	      <latex-image>
-		<xi:include parse="text" href="tex/horizontal_translation.tex"/>
+		<xi:include parse="text" href="tex/transformations/horizontal_translation.tex"/>
 	      </latex-image>
 	    </image>
 	  </figure>
@@ -158,19 +150,201 @@
 
     <subsubsection>
       <title>Vertical Scaling</title>
+
+      <definition>
+	<title>Vertical Scaling</title>
+	<p>
+	  Let <m>c > 1</m> be a number.
+	  We say the function <m>g(x)</m> is a <term>vertical scaling</term>
+	  <idx>
+	    <h>Graph</h>
+	    <h>Tranformation</h>
+	    <h>Scaling</h>
+	    <h>Vertical</h>
+	  </idx>
+	  of the function <m>f(x)</m> if <m>g(x) = cf(x)</m> or <m>g = \frac{1}{c}f(x)</m>.
+	</p>
+	<ul>
+	  <li>
+	    <p>
+	      The graph of <m>g(x) = cf(x)</m> is obtained by stretching the graph of <m>y = f(x)</m> vertically by a factor of <m>c</m>.
+	    </p>
+	  </li>
+	  <li>
+	    <p>
+	      The graph of <m>g(x) = \frac{1}{c}f(x)</m> is obtained by compressing the graph of <m>y = f(x)</m> vertically by a factor of <m>c</m>.
+	    </p>
+	  </li>
+	</ul>
+      </definition>
+
+      <example>
+	<statement>
+	  <p>
+	    Use <xref ref="fig-parabola" text="title"/> to graph the functions <m>g(x) = 2x^2</m> and <m>h(x) = \frac{2}{3}x^2</m>.
+	  </p>
+	</statement>
+	<solution>
+	  <p>
+	    The graph of <m>g(x)</m> is obtained by stretching the graph of <m>f(x)</m> vertically by a factor of <m>2</m>, and the graph of <m>h(x)</m> is obtained by compressing the graph the graph of <m>f(x)</m> vertically by a factor of <m>\frac{3}{2}</m>.
+	  </p>
+	  <figure>
+	    <image>
+	      <latex-image>
+		<xi:include parse="text" href="tex/transformations/vertical_scaling.tex"/>
+	      </latex-image>
+	    </image>
+	  </figure>
+	</solution>
+      </example>
+      
     </subsubsection>
+
+    <subsection>
+      <title>Reflection</title>
+
+      <definition>
+	<title>Reflection of the <m>x</m>-axis</title>
+	<p>
+	  We say the function <m>g(x)</m> is a <term>reflection</term>
+	  <idx>
+	    <h>Graph</h>
+	    <h>Tranformation</h>
+	    <h>Reflection</h>
+	  </idx>
+	  of <m>f(x)</m> if either <m>g(x) = -f(x)</m> or <m>g(x) = f(-x).</m>
+	</p>
+	<ul>
+	  <li>
+	    <p>
+	      The graph of <m>g(x) = -f(x)</m> is obtained by reflecting the graph of <m>y = f(x)</m> over the <m>x</m>-axis.
+	    </p>
+	  </li>
+	  <li>
+	    <p>
+	      The graph of <m>g(x) = f(-x)</m> is obtained by reflecting the graph of <m>y = f(x)</m> over the <m>y</m>-axis.
+	    </p>
+	  </li>
+	</ul>
+      </definition>
+
+      <example>
+	<statement>
+	  <p>
+	    Use <xref ref="fig-sq_root" text="title"/> to graph the functions <m>g(x) = -\sqrt{x}</m> and <m>h(x) = \sqrt{-x}</m>.
+	  </p>
+	</statement>
+	<solution>
+	  <p>
+	    The graph of <m>g(x)</m> is obtained by reflecting the graph of <m>f(x)</m> over the <m>x</m>-axis, and the graph of <m>h(x)</m> is obtained by reflecting the graph of <m>f(x)</m> over the <m>y</m>-axis.
+	  </p>
+	  <figure>
+	    <image>
+	      <latex-image>
+		<xi:include parse="text" href="tex/transformations/reflections.tex"/>
+	      </latex-image>
+	    </image>
+	  </figure>
+	</solution>
+      </example>
+    </subsection>
     
     <subsubsection>
       <title>Horizontal Scaling</title>
+
+      <definition>
+	<title>Horizontal Scaling</title>
+	<p>
+	  Let <m>c > 1</m> be a number.
+	  We say the function <m>g(x)</m> is a <term>horizontal scaling</term>
+	  <idx>
+	    <h>Graph</h>
+	    <h>Tranformation</h>
+	    <h>Scaling</h>
+	    <h>Horizontal</h>
+	  </idx>
+	  of the function <m>f(x)</m> if <m>g(x) = f(cx)</m> or <m>g(x) = f\left(\frac{1}{c}x\right)</m>.
+	</p>
+	<ul>
+	  <li>
+	    <p>
+	      The graph of <m>g(x) = f(cx)</m> is obtained by compressing the graph of <m>y = f(x)</m> horizontally by a factor of <m>c</m>.
+	    </p>
+	  </li>
+	  <li>
+	    <p>
+	      The graph of <m>g(x) = f\left(\frac{1}{c}x\right)</m> is obtained by stretching the graph of <m>y = f(x)</m> horizontally by a factor of <m>c</m>.
+	    </p>
+	  </li>
+	</ul>
+      </definition>
+
+      <example>
+	<statement>
+	  <p>
+	    Use <xref ref="fig-parabola" text="title"/> to graph the functions <m>g(x) = (2x)^2</m> and <m>h(x) = \left(\frac{2}{3}x\right)^2</m>.
+	  </p>
+	</statement>
+	<solution>
+	  <p>
+	    The graph of <m>g(x)</m> is obtained by compressing the graph of <m>f(x)</m> horizontally by a factor of <m>2</m>, and the graph of <m>h(x)</m> is obtained by stretching the graph of <m>f(x)</m> horizontally by a factor of <m>\frac{3}{2}</m>.
+	  </p>
+	  <figure>
+	    <image>
+	      <latex-image>
+		<xi:include parse="text" href="tex/transformations/horizontal_scaling.tex"/>
+	      </latex-image>
+	    </image>
+	  </figure>
+	</solution>
+      </example>
     </subsubsection>
 
-    
+    <subsubsection>
+      <title>Combining Graph Transformations</title>
+
+      <p>
+	Most functions are obtained from a basic function using multiple transformations.
+	When graphing a function, the order in which transformations are applied is important.
+      </p>
+      <algorithm>
+	<title>Graphing Functions using Transformations</title>
+	<ol>
+	  <li>Horizontal Translation</li>
+	  <li>Scaling</li>
+	  <li>Reflection</li>
+	  <li>Vertical Translation</li>
+	</ol>
+      </algorithm>
+
+<example>
+	<statement>
+	  <p>
+	    Use <xref ref="fig-parabola" text="title"/> to graph the function <m>g(x) = 2(x + 3)^2 - 2</m>.
+	  </p>
+	</statement>
+	<solution>
+	  <p>
+	    We can graph <m>g(x)</m> by starting from the basic function <m>f(x) = x^2</m> and applying the following transformations:
+	    <ol>
+	      <li>Translate the graph of <m>f(x) = x^2</m> to the left by 3 to obtain the graph of <m>(x+3)^2</m>.</li>
+	      <li>Stretch the graph of <m>(x+3)^2</m> vertically by a factor of 2 to obtain the graph of <m>2(x+3)^2</m>.</li>
+	      <li>Translate the graph of <m>2(x + 3)^2</m> down by 2 units to obtain the graph of <m>g(x) = 2(x + 3)^2 - 2</m>.</li>
+	    </ol>
+	  </p>
+	  <figure>
+	    <image>
+	      <latex-image>
+		<xi:include parse="text" href="tex/transformations/combined.tex"/>
+	      </latex-image>
+	    </image>
+	  </figure>
+	</solution>
+      </example>
+	
+    </subsubsection>
   </subsection>
 
-  <subsection>
-    <title>Reflection</title>
-  </subsection>
-  
 </section>
 
 
