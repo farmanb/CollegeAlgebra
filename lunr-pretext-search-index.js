@@ -15,8 +15,8 @@ var ptx_lunr_docs = [
   "url": "sec-cartesian_coordinates.html",
   "type": "Section",
   "number": "1.1",
-  "title": "The Cartesian Plane",
-  "body": " The Cartesian Plane     Identify points in the plane using Cartesian coordinates.     In mathematics, we are interested in studying how two quantities change together. We will often find it useful to visualize these relationships. The Cartesian plane is the natural setting for these visualizations.      Points in the Plane   The Cartesian plane   Cartesian Plane  is a grid system used to locate objects using two perpendicular directions. The horizontal direction is usually called the -axis   Cartesian Plane  -axis  and the vertical direction is usually called the -axis .  Cartesian Plane  -axis  The plane is partitioned into four pieces called quadrants , depicted in     The Cartesian Plane      The type of objects we are interested in locating will vary by application. In general, we will refer to these simply as points .  Cartesian Plane  Point  A point is located in the plane by its position relative to the -axis, called the -coordinate ,  Cartesian Plane  Point  -Coordinate  and relative to the -axis, called the -coordinate .  Cartesian Plane  Point  -Coordinate    By convention, we locate a point by first giving the -coordinate, then the -coordinate.   An ordered pair , , is the data of two real numbers.   We encode the position of a point using its -coordinate and -coordinate using an ordered pair with the -coordinate first and the -coordinate second.   The - and -Coordinates of several points in the plane.       Plotting Points in the Plane    Plot points in the plane using Cartesian coordinates,  Identify the quadrant in which a point lies.     In this activity, we will practice plotting some points in the plane.   Plot the following points in the Cartesian plane.              For each of the points that you plotted above, indicate the quadrant that contains the point.    "
+  "title": "Cartesian Coordinates",
+  "body": " Cartesian Coordinates     Identify points in the plane using Cartesian coordinates.     In mathematics, we are interested in studying how two quantities change together. We will often find it useful to visualize these relationships. The Cartesian plane is the natural setting for these visualizations.      Points in the Plane   The Cartesian plane   Cartesian Plane  is a grid system used to locate objects using two perpendicular directions. The horizontal direction is usually called the -axis   Cartesian Plane  -axis  and the vertical direction is usually called the -axis .  Cartesian Plane  -axis  The plane is partitioned into four pieces called quadrants , depicted in     The Cartesian Plane      The type of objects we are interested in locating will vary by application. In general, we will refer to these simply as points .  Cartesian Plane  Point  A point is located in the plane by its position relative to the -axis, called the -coordinate ,  Cartesian Plane  Point  -Coordinate  and relative to the -axis, called the -coordinate .  Cartesian Plane  Point  -Coordinate    By convention, we locate a point by first giving the -coordinate, then the -coordinate.   An ordered pair , , is the data of two real numbers.   We encode the position of a point using its -coordinate and -coordinate using an ordered pair with the -coordinate first and the -coordinate second.   The - and -Coordinates of several points in the plane.       Plotting Points in the Plane    Plot points in the plane using Cartesian coordinates,  Identify the quadrant in which a point lies.     In this activity, we will practice plotting some points in the plane.   Plot the following points in the Cartesian plane.              For each of the points that you plotted above, indicate the quadrant that contains the point.    "
 },
 {
   "id": "objectives-1",
@@ -856,6 +856,132 @@ var ptx_lunr_docs = [
   "body": "  An object is thrown straight up in the air. The object reaches a maximum height of 1 meter after 1 seconds, and returns to the thrower's hand after 2 seconds. The function models the height of the object in meters as a function of seconds.     The graph of      What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is moving up at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is falling back at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ?   Using , the average rate of change on the interval is We can interpret this as saying the object climbs and falls at the same speed.   "
 },
 {
+  "id": "sec-transformations",
+  "level": "1",
+  "url": "sec-transformations.html",
+  "type": "Section",
+  "number": "2.4",
+  "title": "Transformations of Functions",
+  "body": " Transformations of Functions    Use graphs of basic functions and the following operations to graph general functions.    Vertical Translation  Horizontal Translation  Vertical Scaling,  Horizontal Scaling, and  Reflection.     Graphing arbitrary functions can be a difficult task and the general methods are beyond the scope of basic algebra. However, if we know the graph of a function, , and we can write another function, , in terms of in a specific way, then we can use the graph of to graph using transformations . In this seciton, we discuss three types of transformations: translation, scaling, and reflection.    Translation  Throughout this section, assume that the graph of the function is known.   Vertical Translation   Vertical Translation  Let be a positive number. We say the function is a vertical translation   Graph  Tranformation  Translation  Vertical  of the function if .    The graph of is obtained by shifting the graph of up the -axis by units.    The graph of is obtained by shifting the graph of down the -axis by -units.       Use to graph the functions and .    The graph of is obtained by shifting the graph of up the -axis by units, and the graph of is obtained by shifting the graph of down the -axis by 3 units.           Horizontal Translation   Horizontal Translation  Let be a positive number. We say the function is a horizontal translation   Graph  Tranformation  Translation  Horizontal  of the function if .    The graph of is obtained by shifting the graph of to the right along the -axis by units.    The graph of is obtained by shifting the graph of to the left along the -axis by -units.       Use to graph the functions and .    The graph of is obtained by shifting the graph of to the left along the -axis by units, and the graph of is obtained by shifting the graph of to the right along the -axis by 3 units.            Scaling   Vertical Scaling   Vertical Scaling  Let be a number. We say the function is a vertical scaling   Graph  Tranformation  Scaling  Vertical  of the function if or .    The graph of is obtained by stretching the graph of vertically by a factor of .    The graph of is obtained by compressing the graph of vertically by a factor of .       Use to graph the functions and .    The graph of is obtained by stretching the graph of vertically by a factor of , and the graph of is obtained by compressing the graph the graph of vertically by a factor of .           Reflection   Reflection of the -axis  We say the function is a reflection   Graph  Tranformation  Reflection  of if either or     The graph of is obtained by reflecting the graph of over the -axis.    The graph of is obtained by reflecting the graph of over the -axis.       Use to graph the functions and .    The graph of is obtained by reflecting the graph of over the -axis, and the graph of is obtained by reflecting the graph of over the -axis.           Horizontal Scaling   Horizontal Scaling  Let be a number. We say the function is a horizontal scaling   Graph  Tranformation  Scaling  Horizontal  of the function if or .    The graph of is obtained by compressing the graph of horizontally by a factor of .    The graph of is obtained by stretching the graph of horizontally by a factor of .       Use to graph the functions and .    The graph of is obtained by compressing the graph of horizontally by a factor of , and the graph of is obtained by stretching the graph of horizontally by a factor of .           Combining Graph Transformations  Most functions are obtained from a basic function using multiple transformations. When graphing a function, the order in which transformations are applied is important.   Graphing Functions using Transformations   Horizontal Translation  Scaling  Reflection  Vertical Translation      Use to graph the function .    We can graph by starting from the basic function and applying the following transformations:  Translate the graph of to the left by 3 to obtain the graph of .  Stretch the graph of vertically by a factor of 2 to obtain the graph of .  Translate the graph of down by 2 units to obtain the graph of .             "
+},
+{
+  "id": "objectives-12",
+  "level": "2",
+  "url": "sec-transformations.html#objectives-12",
+  "type": "Objectives",
+  "number": "2.4",
+  "title": "",
+  "body": "  Use graphs of basic functions and the following operations to graph general functions.    Vertical Translation  Horizontal Translation  Vertical Scaling,  Horizontal Scaling, and  Reflection.   "
+},
+{
+  "id": "definition-29",
+  "level": "2",
+  "url": "sec-transformations.html#definition-29",
+  "type": "Definition",
+  "number": "2.4.1",
+  "title": "Vertical Translation.",
+  "body": " Vertical Translation  Let be a positive number. We say the function is a vertical translation   Graph  Tranformation  Translation  Vertical  of the function if .    The graph of is obtained by shifting the graph of up the -axis by units.    The graph of is obtained by shifting the graph of down the -axis by -units.    "
+},
+{
+  "id": "example-22",
+  "level": "2",
+  "url": "sec-transformations.html#example-22",
+  "type": "Example",
+  "number": "2.4.2",
+  "title": "",
+  "body": "  Use to graph the functions and .    The graph of is obtained by shifting the graph of up the -axis by units, and the graph of is obtained by shifting the graph of down the -axis by 3 units.        "
+},
+{
+  "id": "definition-30",
+  "level": "2",
+  "url": "sec-transformations.html#definition-30",
+  "type": "Definition",
+  "number": "2.4.4",
+  "title": "Horizontal Translation.",
+  "body": " Horizontal Translation  Let be a positive number. We say the function is a horizontal translation   Graph  Tranformation  Translation  Horizontal  of the function if .    The graph of is obtained by shifting the graph of to the right along the -axis by units.    The graph of is obtained by shifting the graph of to the left along the -axis by -units.    "
+},
+{
+  "id": "example-23",
+  "level": "2",
+  "url": "sec-transformations.html#example-23",
+  "type": "Example",
+  "number": "2.4.5",
+  "title": "",
+  "body": "  Use to graph the functions and .    The graph of is obtained by shifting the graph of to the left along the -axis by units, and the graph of is obtained by shifting the graph of to the right along the -axis by 3 units.        "
+},
+{
+  "id": "definition-31",
+  "level": "2",
+  "url": "sec-transformations.html#definition-31",
+  "type": "Definition",
+  "number": "2.4.7",
+  "title": "Vertical Scaling.",
+  "body": " Vertical Scaling  Let be a number. We say the function is a vertical scaling   Graph  Tranformation  Scaling  Vertical  of the function if or .    The graph of is obtained by stretching the graph of vertically by a factor of .    The graph of is obtained by compressing the graph of vertically by a factor of .    "
+},
+{
+  "id": "example-24",
+  "level": "2",
+  "url": "sec-transformations.html#example-24",
+  "type": "Example",
+  "number": "2.4.8",
+  "title": "",
+  "body": "  Use to graph the functions and .    The graph of is obtained by stretching the graph of vertically by a factor of , and the graph of is obtained by compressing the graph the graph of vertically by a factor of .        "
+},
+{
+  "id": "definition-32",
+  "level": "2",
+  "url": "sec-transformations.html#definition-32",
+  "type": "Definition",
+  "number": "2.4.10",
+  "title": "Reflection of the <span class=\"process-math\">\\(x\\)<\/span>-axis.",
+  "body": " Reflection of the -axis  We say the function is a reflection   Graph  Tranformation  Reflection  of if either or     The graph of is obtained by reflecting the graph of over the -axis.    The graph of is obtained by reflecting the graph of over the -axis.    "
+},
+{
+  "id": "example-25",
+  "level": "2",
+  "url": "sec-transformations.html#example-25",
+  "type": "Example",
+  "number": "2.4.11",
+  "title": "",
+  "body": "  Use to graph the functions and .    The graph of is obtained by reflecting the graph of over the -axis, and the graph of is obtained by reflecting the graph of over the -axis.        "
+},
+{
+  "id": "definition-33",
+  "level": "2",
+  "url": "sec-transformations.html#definition-33",
+  "type": "Definition",
+  "number": "2.4.13",
+  "title": "Horizontal Scaling.",
+  "body": " Horizontal Scaling  Let be a number. We say the function is a horizontal scaling   Graph  Tranformation  Scaling  Horizontal  of the function if or .    The graph of is obtained by compressing the graph of horizontally by a factor of .    The graph of is obtained by stretching the graph of horizontally by a factor of .    "
+},
+{
+  "id": "example-26",
+  "level": "2",
+  "url": "sec-transformations.html#example-26",
+  "type": "Example",
+  "number": "2.4.14",
+  "title": "",
+  "body": "  Use to graph the functions and .    The graph of is obtained by compressing the graph of horizontally by a factor of , and the graph of is obtained by stretching the graph of horizontally by a factor of .        "
+},
+{
+  "id": "algorithm-1",
+  "level": "2",
+  "url": "sec-transformations.html#algorithm-1",
+  "type": "Algorithm",
+  "number": "2.4.16",
+  "title": "Graphing Functions using Transformations.",
+  "body": " Graphing Functions using Transformations   Horizontal Translation  Scaling  Reflection  Vertical Translation   "
+},
+{
+  "id": "example-27",
+  "level": "2",
+  "url": "sec-transformations.html#example-27",
+  "type": "Example",
+  "number": "2.4.17",
+  "title": "",
+  "body": "  Use to graph the function .    We can graph by starting from the basic function and applying the following transformations:  Translate the graph of to the left by 3 to obtain the graph of .  Stretch the graph of vertically by a factor of 2 to obtain the graph of .  Translate the graph of down by 2 units to obtain the graph of .          "
+},
+{
   "id": "sec-linear_functions",
   "level": "1",
   "url": "sec-linear_functions.html",
@@ -865,18 +991,18 @@ var ptx_lunr_docs = [
   "body": " Linear Functions    Recognize linear functions.  Find -intercepts of a linear function.  Find the -intercept of a linear function.  Graph a linear function.     A polynomial function   Function  Polynomial  of degree   Function  Polynomial  Degree   is a function of the form where each of is a number called the coefficient   Function  Polynomial  Coefficient  of , respectively, and . In this section, we study a special kind of polynomial known as a linear function . As we will see, the name linear comes from the fact that the graph of such a function is always a line.    Linear Functions as Degree One Polynomials   Linear Function  A function is linear   Function  Linear  if the of is constant. That is, there exists a number such that for all numbers and  We call the number the slope   Function  Linear  Slope  of . The number is the -coordinate of the  .   In order to find the equation of a linear function, it is enough to know the slope, , and the value of the function for a single -value. The simplest point to find is the : the -coordinate is and the -coordinate is . If we write , then by  We obtain the equation for the function by solving the equation for in terms of     The Slope-Intercept Form of a Line  The slope-intercept form of a linear function   Function  Linear  Slope-Intercept Form  is where is the slope or average rate of change of .     Graphing Linear Functions   Consider a linear function with . Recall that the of an equation consists of all points that are a to the equation. The graph of a linear equation is always a line. We can graph the equation by finding any two points on the line and drawing a line through them. In general, the two points that are simplest to find are the two intercepts.   We find the by substituting for and solving the resulting equation for      The of the linear function with is the point       Find the -intercept of the linear equation .    To find the -intercept of the linear equation , we substitute for to get Therefore the -intercept of the linear equation is the point .    We find the by substituting for and solving the resulting equation for      Graph the equation .   In we found that is the -intercept for the function . The for the function is the point . To graph the equation , we simply need to plot these two points and draw a straight line through them.  The graph of .           Working with Linear Functions    Recognize linear functions.  Find -intercept of a linear function.  Find the -intercept of a linear function.  Graph a linear function.     Determine whether the equation represents a linear function of in terms of . If so, express the equation in the form . Otherwise, explain why the equation does not represent a linear function.  Determine whether the equation represents a linear function of in terms of . If so, express the equation in the form . Otherwise, explain why the equation does not represent a linear function.    Find the - and -intercepts of the linear equation and sketch the graph of the equation.      Match the following equations with their graphs.                                                       "
 },
 {
-  "id": "objectives-12",
+  "id": "objectives-13",
   "level": "2",
-  "url": "sec-linear_functions.html#objectives-12",
+  "url": "sec-linear_functions.html#objectives-13",
   "type": "Objectives",
   "number": "3.1",
   "title": "",
   "body": "  Recognize linear functions.  Find -intercepts of a linear function.  Find the -intercept of a linear function.  Graph a linear function.   "
 },
 {
-  "id": "p-128",
+  "id": "p-159",
   "level": "2",
-  "url": "sec-linear_functions.html#p-128",
+  "url": "sec-linear_functions.html#p-159",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -919,18 +1045,18 @@ var ptx_lunr_docs = [
   "body": "  Find the -intercept of the linear equation .    To find the -intercept of the linear equation , we substitute for to get Therefore the -intercept of the linear equation is the point .   "
 },
 {
-  "id": "example-23",
+  "id": "example-29",
   "level": "2",
-  "url": "sec-linear_functions.html#example-23",
+  "url": "sec-linear_functions.html#example-29",
   "type": "Example",
   "number": "3.1.5",
   "title": "",
   "body": "  Graph the equation .   In we found that is the -intercept for the function . The for the function is the point . To graph the equation , we simply need to plot these two points and draw a straight line through them.  The graph of .        "
 },
 {
-  "id": "objectives-13",
+  "id": "objectives-14",
   "level": "2",
-  "url": "sec-linear_functions.html#objectives-13",
+  "url": "sec-linear_functions.html#objectives-14",
   "type": "Objectives",
   "number": "3.1.3",
   "title": "",
@@ -982,9 +1108,9 @@ var ptx_lunr_docs = [
   "body": " Representations of Lines    Determine the slope of a line through two points.   Represent a line using  Slope-Intercept Form,  Point-Slope Form, and  Standard Form.        In the previous section, we encountered linear functions and saw that we can express these functions in the form . When we graphed a linear function, we used to points to determine the line that represents the graph. We can reverse this process to find a linear function. The first step is to determine the slope. In doing this, we will find two other representations for lines.    The Slope of a Line through two Points   The Slope of a Line  The slope   Line  Slope  of the line through the points and is provided that . The slope measures the rate of change in with respect to , as depicted in .       The slope of the line through the points and .    In the definition of , we required that . While there is a line that passes through two distinct points with the same -coordinate, that line is a vertical line. Since a vertical line is not a function, the slope of a vertical line undefined.     Find the slope of the line through the points and .    The slope of the line through the points and is This says when the -coordinate increases by 1, the -coordinate decreases by 1.    Suppose we know the slope, , and a point that lines on the line. We can use the fact that is a to determine the -intercept. We substitute for and for in the and solve for :     The -intercept of the line with slope through the point is       Find the equation of the line through the points and .    In , we saw the slope of the line is . If we use the point , then we can find the -intercept by solving This tells us the equation of the line through and is .  We could also have used the point to find an equation of the line. If we use the point , then the -intercept is given by solving We can see that no matter which point we use, we obtain the same .      The Point-Slope Form of a Line  Assume we know the slope, , of a line and a point, , on the line. Suppose is any other point on the line. Since the slope of the line is constant, we can write to find the next form of a line.   The Point-Slope Form of a Line   The point-slope form of the line   Line  Point-Slope Form  through the point with slope is     This form of a line is convenient to use when we know the slope of a line and a point on the line.    Find the using the point and the slope .    Using , the equation of the line through with slope is       Find an equation for the line that passes through the points and .    We can use the to find the line between the points and . First compute the slope of the line Use either of the two points to find the equation   While these equations may look different, we can compare them by placing them in . For the first equation, add to both sides to get and for the second, add to both sides to get In this form, we can see that these equations represent the same line.      The Standard Equation of a Line  So far, we have only been interested in working with lines with a well-defined slope. Sometimes, it is convenient to work with lines that may be vertical. The standard equation of a line allows us to do just that.   Standard Equation of a Line  The standard equation of a line   Equation  Line  Standard  in the variables and is where and are not both zero.    Caution!  The standard equation of a line may not always represent an equation where is a function of ! If , then the standard equation of a line reduces to which is a vertical line.     Place the linear equation into .    The equation can be placed in standard form as follows. First, move the variables to the left-hand side of the equation. Subtract from both sides and distribute the negative Collect like terms and simplify Finally, subtract 7 from both sides of the equation and simplify to arrive at the standard form      Not all equations are linear. For example, the equation is not linear because of the term .     Representation of Lines    Determine the slope of a line through two points.   Represent a line using  Slope-Intercept Form,  Point-Slope Form, and  Standard Form.        Find the slope of the line through the points and .  Write the equation of the line through the points and in Point-Slope Form.  Write the equation of the line through the points and in Slope-Intercept Form.  Write the equation of the line through the points and in Standard Form.  Find the slope of the line represented by the equation .     You and a friend used the same parking garage. You parked your car for 2 hours and it cost . Your friend parked her car for 4 hours and it cost .  Let represent the number of hours of parking and let represent the cost. Assuming the relationship is linear, how much does parking cost per hour? Find a linear function that models the cost of parking. The garage charges a flat fee to enter the parking garage. How much is this fee?    "
 },
 {
-  "id": "objectives-14",
+  "id": "objectives-15",
   "level": "2",
-  "url": "sec-lines.html#objectives-14",
+  "url": "sec-lines.html#objectives-15",
   "type": "Objectives",
   "number": "3.2",
   "title": "",
@@ -1054,18 +1180,18 @@ var ptx_lunr_docs = [
   "body": " The Point-Slope Form of a Line   The point-slope form of the line   Line  Point-Slope Form  through the point with slope is    "
 },
 {
-  "id": "example-26",
+  "id": "example-32",
   "level": "2",
-  "url": "sec-lines.html#example-26",
+  "url": "sec-lines.html#example-32",
   "type": "Example",
   "number": "3.2.8",
   "title": "",
   "body": "  Find the using the point and the slope .    Using , the equation of the line through with slope is    "
 },
 {
-  "id": "example-27",
+  "id": "example-33",
   "level": "2",
-  "url": "sec-lines.html#example-27",
+  "url": "sec-lines.html#example-33",
   "type": "Example",
   "number": "3.2.9",
   "title": "",
@@ -1090,27 +1216,27 @@ var ptx_lunr_docs = [
   "body": " Caution!  The standard equation of a line may not always represent an equation where is a function of ! If , then the standard equation of a line reduces to which is a vertical line.  "
 },
 {
-  "id": "example-28",
+  "id": "example-34",
   "level": "2",
-  "url": "sec-lines.html#example-28",
+  "url": "sec-lines.html#example-34",
   "type": "Example",
   "number": "3.2.12",
   "title": "",
   "body": "  Place the linear equation into .    The equation can be placed in standard form as follows. First, move the variables to the left-hand side of the equation. Subtract from both sides and distribute the negative Collect like terms and simplify Finally, subtract 7 from both sides of the equation and simplify to arrive at the standard form    "
 },
 {
-  "id": "example-29",
+  "id": "example-35",
   "level": "2",
-  "url": "sec-lines.html#example-29",
+  "url": "sec-lines.html#example-35",
   "type": "Example",
   "number": "3.2.13",
   "title": "",
   "body": " Not all equations are linear. For example, the equation is not linear because of the term .  "
 },
 {
-  "id": "objectives-15",
+  "id": "objectives-16",
   "level": "2",
-  "url": "sec-lines.html#objectives-15",
+  "url": "sec-lines.html#objectives-16",
   "type": "Objectives",
   "number": "3.2.4",
   "title": "",
@@ -1180,9 +1306,9 @@ var ptx_lunr_docs = [
   "body": " Parallel and Perpendicular Lines    Determine whether two lines are parallel, perpendicular, or neither.  Find the equation of a line parallel to a given line.  Find the equation of a line perpendicular to a given line.     Parallel  Two lines in the Cartesian plane are said to be parallel   Line  Parallel  if they do not intersect.       Parallel lines.    Two lines are parallel if and only if they have the same slope.     Determine whether the lines are parallel.    In order to determine whether these lines are parallel, we need to find the slope of each line. We do this by placing each line into .  For the first line, add to both sides and divide both sides by  This tells us the slope of the line is .  For the second line, add to both sides divide both sides by  and reduce This tells the slope of the line is also . Therefore the lines and are parallel by .      Find the equation of the line parallel to that passes through the point . Write your answer in     First, find the slope of the line by placing the equation into . Subtract from both sides divide both sides by  and simplify to In this form, we see the slope of the line is   By , the slope of a line parallel to is . Now we use to write down a line with slope through the point  and simplify   Finally, to put this line into , distribute the  add 5 to both sides of the equation and simplify      Two lines are perpendicular   Line  Perpendicular  if they intersect at a right angle.       Perpendicular lines.     Two lines are perpendicular if and only if the product of their slopes is .      Determine whether the lines are perpendicular.    First we must place the lines in to find the slopes. The first equation becomes In this form, we can read off the slope of the line as   The second equation becomes In this form, we can read off the slop of the line as .  Finally, to check whether these lines are parallel, we compute the product of these slopes. Since we conclude that these lines are perpendicular by .      Find the equation of a line perpendicular to that passes through the point . Write your answer in form.    First, place the line in  We can read off the slope as from this equation.  To find the slope, , of a perpendicular line, tells us we must solve the equation for :   Using , the equation of the line perpendicular to that passes through the point is Finally, we convert to       Parallel and Perpendicular Lines    Determine whether two lines are parallel, perpendicular, or neither.  Find the equation of a line parallel to a given line.  Find the equation of a line perpendicular to a given line.      Determine whether the given lines are parallel, perpendicular, or neithe.   and .  and .  and .    Find the equation of the line parallel to that passes through the point .  Find the equation of the line perpendicular to that passes through the point .    "
 },
 {
-  "id": "objectives-16",
+  "id": "objectives-17",
   "level": "2",
-  "url": "sec-perp_parallel.html#objectives-16",
+  "url": "sec-perp_parallel.html#objectives-17",
   "type": "Objectives",
   "number": "3.3",
   "title": "",
@@ -1216,18 +1342,18 @@ var ptx_lunr_docs = [
   "body": " Two lines are parallel if and only if they have the same slope.  "
 },
 {
-  "id": "example-30",
+  "id": "example-36",
   "level": "2",
-  "url": "sec-perp_parallel.html#example-30",
+  "url": "sec-perp_parallel.html#example-36",
   "type": "Example",
   "number": "3.3.4",
   "title": "",
   "body": "  Determine whether the lines are parallel.    In order to determine whether these lines are parallel, we need to find the slope of each line. We do this by placing each line into .  For the first line, add to both sides and divide both sides by  This tells us the slope of the line is .  For the second line, add to both sides divide both sides by  and reduce This tells the slope of the line is also . Therefore the lines and are parallel by .   "
 },
 {
-  "id": "example-31",
+  "id": "example-37",
   "level": "2",
-  "url": "sec-perp_parallel.html#example-31",
+  "url": "sec-perp_parallel.html#example-37",
   "type": "Example",
   "number": "3.3.5",
   "title": "",
@@ -1261,27 +1387,27 @@ var ptx_lunr_docs = [
   "body": "  Two lines are perpendicular if and only if the product of their slopes is .   "
 },
 {
-  "id": "example-32",
+  "id": "example-38",
   "level": "2",
-  "url": "sec-perp_parallel.html#example-32",
+  "url": "sec-perp_parallel.html#example-38",
   "type": "Example",
   "number": "3.3.9",
   "title": "",
   "body": "  Determine whether the lines are perpendicular.    First we must place the lines in to find the slopes. The first equation becomes In this form, we can read off the slope of the line as   The second equation becomes In this form, we can read off the slop of the line as .  Finally, to check whether these lines are parallel, we compute the product of these slopes. Since we conclude that these lines are perpendicular by .   "
 },
 {
-  "id": "example-33",
+  "id": "example-39",
   "level": "2",
-  "url": "sec-perp_parallel.html#example-33",
+  "url": "sec-perp_parallel.html#example-39",
   "type": "Example",
   "number": "3.3.10",
   "title": "",
   "body": "  Find the equation of a line perpendicular to that passes through the point . Write your answer in form.    First, place the line in  We can read off the slope as from this equation.  To find the slope, , of a perpendicular line, tells us we must solve the equation for :   Using , the equation of the line perpendicular to that passes through the point is Finally, we convert to     "
 },
 {
-  "id": "objectives-17",
+  "id": "objectives-18",
   "level": "2",
-  "url": "sec-perp_parallel.html#objectives-17",
+  "url": "sec-perp_parallel.html#objectives-18",
   "type": "Objectives",
   "number": "3.3",
   "title": "",
@@ -1324,9 +1450,9 @@ var ptx_lunr_docs = [
   "body": " Linear Inequalities    Graph linear inequalities.  Graph linear absolute value inequalities.     Linear Inequality  A linear inequality   Inequality  Linear  in the variables and is an expression that can be placed in one of the following forms  ,  ,  , or  .      Solution to an Inequality  A solution   Inequality  Linear  Solution  to an inequality in the variables and is an ordered pair that make the equation true when  the first coordinate, , is substituted into the inequality for , and  the second coordinate, , is substituted into the inequality for .      Graph of an Inequality  The graph   Inequality  Linear  Graph  of an inequality in the variables and consists of all the points in the plane that are solutions to the inequality.     Graph the linear inequality     The graph of consists of all the points that are below the line .  We use a dashed line to indicate the points on the line are not a solution to the inequality and shade the portion of the plane beneath the line to indicate those points are solutions to the inequality.      The graph of the linear inequality .       Graph the linear inequality     The graph of consists of all the points that are on or below the line .  We use a solid line to indicate the points on the line are a solution to the linear inequality and shade the portion of the plane beneath the line to indicate that those points are also solutions.      The graph of the linear inequality .       Graph the linear inequality     The graph of consists of all the points that are above the line .  We use a dashed line to indicate the points on the line are not solutions to the inequality and shade the portion of the plane above the line to indicate that those points are solutions.      The graph of the linear inequality .       Graph the linear inequality     The graph of consists of all the points that are either on or above the line .  We use a solid line to indicate the points on the line are solutions to the linear inequality and shade the portion of the plane above the line to indicate that those points are also solutions.      The graph of the linear inequality .      Absolute Value and Inequality   Linear Absolute Value Inequality  A linear absolute value inequality   Inequality  Linear  Absolute Value  in the variables and is an expression that can be placed in one of the following forms   ,   ,   , or   .     Recall from , for any number , measures the distance between and the origin on the number line. We can see from that and are the same distance from the origin.      The distance between and the origin, and between and the origin.   This observation tells us for an linear absolute value inequality of the form , we are looking for the points in the plane such that the number is less than units away from 0 on the number line. From we can see these are the solutions to both  If we rewrite these as the linear inequalities then we can see the solutions to are the points that are above the line and below the line . Similarly, the solutions to are the points that are either on or between the lines and below the line .  For an linear absolute value inequality of the form , the observation above tells us we are looking for the points in the plane such that the number is more than units away from 0 on the number line. From we can see these are solutions to either  If we rewrite these as the liner inequalities then we can see the solutions to are the points that are below the line or above the line . Similarly, the solutions to the linear absolute value inequality are the points that are either on or below the line or on or above the line .    Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to both of the linear inequalities This means the graph is the overlap between and . That is, the points that are between the lines       The graph of the linear absolute value inequality .       Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to both of the linear inequalities This means the graph is the overlap between and . That is, the points that are either on or between the lines       The graph of the linear absolute value inequality .       Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to either  This means the graph is the combination of the graphs for the linear inequalities That is, the points that are either above the line or below the line .      The graph of the linear absolute value inequality .       Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to either the linear inequality or the linear inequality This means the graph is the combination of the graphs for the linear inequalities That is, the points that are either on or above the line , or on or below the line .      The graph of the linear absolute value inequality .       Working with Linear Inequalities    Graph linear inequalities.  Graph linear absolute value inequalities.     Sketch graph of the linear inequality .    Sketch graph of the linear inequality .      Match the following equations with their graphs.                                                       Graph the linear absolute value inequality    Graph the linear absolute value inequality .   "
 },
 {
-  "id": "objectives-18",
+  "id": "objectives-19",
   "level": "2",
-  "url": "sec-linear_ineq.html#objectives-18",
+  "url": "sec-linear_ineq.html#objectives-19",
   "type": "Objectives",
   "number": "3.4",
   "title": "",
@@ -1360,36 +1486,36 @@ var ptx_lunr_docs = [
   "body": " Graph of an Inequality  The graph   Inequality  Linear  Graph  of an inequality in the variables and consists of all the points in the plane that are solutions to the inequality.  "
 },
 {
-  "id": "example-34",
+  "id": "example-40",
   "level": "2",
-  "url": "sec-linear_ineq.html#example-34",
+  "url": "sec-linear_ineq.html#example-40",
   "type": "Example",
   "number": "3.4.4",
   "title": "",
   "body": "  Graph the linear inequality     The graph of consists of all the points that are below the line .  We use a dashed line to indicate the points on the line are not a solution to the inequality and shade the portion of the plane beneath the line to indicate those points are solutions to the inequality.      The graph of the linear inequality .    "
 },
 {
-  "id": "example-35",
+  "id": "example-41",
   "level": "2",
-  "url": "sec-linear_ineq.html#example-35",
+  "url": "sec-linear_ineq.html#example-41",
   "type": "Example",
   "number": "3.4.6",
   "title": "",
   "body": "  Graph the linear inequality     The graph of consists of all the points that are on or below the line .  We use a solid line to indicate the points on the line are a solution to the linear inequality and shade the portion of the plane beneath the line to indicate that those points are also solutions.      The graph of the linear inequality .    "
 },
 {
-  "id": "example-36",
+  "id": "example-42",
   "level": "2",
-  "url": "sec-linear_ineq.html#example-36",
+  "url": "sec-linear_ineq.html#example-42",
   "type": "Example",
   "number": "3.4.8",
   "title": "",
   "body": "  Graph the linear inequality     The graph of consists of all the points that are above the line .  We use a dashed line to indicate the points on the line are not solutions to the inequality and shade the portion of the plane above the line to indicate that those points are solutions.      The graph of the linear inequality .    "
 },
 {
-  "id": "example-37",
+  "id": "example-43",
   "level": "2",
-  "url": "sec-linear_ineq.html#example-37",
+  "url": "sec-linear_ineq.html#example-43",
   "type": "Example",
   "number": "3.4.10",
   "title": "",
@@ -1414,45 +1540,45 @@ var ptx_lunr_docs = [
   "body": "    The distance between and the origin, and between and the origin.  "
 },
 {
-  "id": "example-38",
+  "id": "example-44",
   "level": "2",
-  "url": "sec-linear_ineq.html#example-38",
+  "url": "sec-linear_ineq.html#example-44",
   "type": "Example",
   "number": "3.4.14",
   "title": "",
   "body": "  Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to both of the linear inequalities This means the graph is the overlap between and . That is, the points that are between the lines       The graph of the linear absolute value inequality .    "
 },
 {
-  "id": "example-39",
+  "id": "example-45",
   "level": "2",
-  "url": "sec-linear_ineq.html#example-39",
+  "url": "sec-linear_ineq.html#example-45",
   "type": "Example",
   "number": "3.4.16",
   "title": "",
   "body": "  Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to both of the linear inequalities This means the graph is the overlap between and . That is, the points that are either on or between the lines       The graph of the linear absolute value inequality .    "
 },
 {
-  "id": "example-40",
+  "id": "example-46",
   "level": "2",
-  "url": "sec-linear_ineq.html#example-40",
+  "url": "sec-linear_ineq.html#example-46",
   "type": "Example",
   "number": "3.4.18",
   "title": "",
   "body": "  Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to either  This means the graph is the combination of the graphs for the linear inequalities That is, the points that are either above the line or below the line .      The graph of the linear absolute value inequality .    "
 },
 {
-  "id": "example-41",
+  "id": "example-47",
   "level": "2",
-  "url": "sec-linear_ineq.html#example-41",
+  "url": "sec-linear_ineq.html#example-47",
   "type": "Example",
   "number": "3.4.20",
   "title": "",
   "body": "  Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to either the linear inequality or the linear inequality This means the graph is the combination of the graphs for the linear inequalities That is, the points that are either on or above the line , or on or below the line .      The graph of the linear absolute value inequality .    "
 },
 {
-  "id": "objectives-19",
+  "id": "objectives-20",
   "level": "2",
-  "url": "sec-linear_ineq.html#objectives-19",
+  "url": "sec-linear_ineq.html#objectives-20",
   "type": "Objectives",
   "number": "3.4.2",
   "title": "",
@@ -1504,101 +1630,182 @@ var ptx_lunr_docs = [
   "body": "Graph the linear absolute value inequality . "
 },
 {
-  "id": "sec-circles",
+  "id": "sec-quadratic_functions",
   "level": "1",
-  "url": "sec-circles.html",
+  "url": "sec-quadratic_functions.html",
   "type": "Section",
   "number": "4.1",
-  "title": "Circles",
-  "body": " Circles    Complete the square to put the equation of a circle into standard form.  Use the standard form of a circle to identify the center and radius.  Use the standard form of a circle to produce a graph.     In this section, we study circles in the Cartesian plane.   The circle   Circle  with radius centered at consists of all points in the Cartesian plane units away from as depicted in .   The circle of radius centered at .       To find the equation of the circle with radius and center we use . A point is on this circle if the distance between and is exactly : To make this simpler, we square each side of the equation.   The Standard Form of a Circle  The standard form of a circle   Equation  Circle  Standard Form  with radius and center is     A diameter   Circle  Diameter  of a circle is a line that connects two points on the circle through the center. The length of a diameter of a circle of radius is , and the midpoint of the diameter is the center of the circle.   A diameter of the circle of radius centered at .         Completing the Square  Remember that when we multiply two binomials, we must distribute. We can remember how to distribute using the mnemonic FOIL: F irst, O uter, I nner, L ast:   How to multiply binomials using the FOIL method.    We can use this method to multiply a binomial by itself We call a trinomial of the form a perfect square .  Perfect Square    If we have a trinomial of the form , then we can use the formula to complete the square   Complete the Square  as follows.  Completing the Square   Factor an from the first two terms to get   Add and subtract inside the parentheses to get   Recognize the first three terms inside the parentheses as a perfect square   Distribute the in front through the sum to get        Complete the square with .    When the coefficient on is 1, we can skip the first step and the last step:       Complete the square with .    When the coefficient on is a negative number, such as , we can still use the formula by rewriting the subtraction as addition with a negative number.       Recognizing Circles  Sometimes, we will encounter the equation of a circle that is not in standard form. We can use twice to put it back into standard form. For example, consider the equation While this does not look like a circle, we can first complete the square in as follows. First, recognize . Add to both sides of the equation to obtain Rewrite the first three terms as a perfect square to obtain Next, we complete the square in . Adding to both sides yields Recognize the trinomial as a perfect square to find Finally, rewrite as and to arrive at the standard form of the circle Since these operations preserve the solutions to our equation, we can see that the equation represents the circle of radius centered at the point .   Working with Circles    Complete the square to put the equation of a circle into standard form.  Use the standard form of a circle to identify the center and radius.  Use the standard form of a circle to produce a graph.     Write down the equation of the circle of radius centered at .  Find the center and radius of the circle   Find the radius of the circle with center that passes through the point . Write the equation of this circle in standard form.        The endpoints of a diameter of a circle are and as in . Write the equation for this circle in standard form.  Put the circle into standard form.     "
+  "title": "Quadratic Functions",
+  "body": " Quadratic Functions    find the vertex of a quadratic function,  find the -intercept(s) of a quadratic function  find the -intercept of a quadratic functions,  find the line of symmetry of a quadratic functions, and  graph a quadratic function.     In this section, we study a polynomial functions of degree 2. These polynomial functions are often called quadratic function .    Quadratic Function  A function is quadratic   Function  Quadratic  if it has the form where , , and are numbers, and .    Graphing Quadratic Functions  Just as with lines, quadratic functions are easier to understand through visualizations. While quadratics are slightly more complicated, we will see that using the methods of , we can understand the graph of a general quadratic function by understanding .  The graph of , and all other quadratic functions, is a parabola .  Graph  Parabola  . The graph of has an important point, , called the vertex   Graph  Parabola  Vertex  of the parabola. In order to find the vertex of an arbitrary quadratic function, we will need to change its form.   The Vertex Form of a Quadratic  The vertex form of a quadratic equation is where is the vertex of the parabola.   From this form, we can see that the graph of the quadratic function is obtained from the graph of by a sequence of transformations.   Translate the graph of horizontally by units.  If , then the translation is to the right.  If , then the translation is to the left.  This operation translates the vertex from to .    Scale the graph of by .  If , then the graph is stretched.  If , then the graph is compressed.  This operation fixes the vertex at .    If , reflect the graph of over the -axis This operation fixes the vertex at . .   Translate the graph of vertically by units.  If , then the translation is down.  If , then the translation is up.  This operation translates the vertex to .      Completing the Square   Every quadratic function can be placed into vertex form. In order to do so, we will use the method of completing the square.   Remember that when we multiply two binomials, we must distribute. We can remember how to distribute using the mnemonic FOIL: F irst, O uter, I nner, L ast:   How to multiply binomials using the FOIL method.    We can use this method to multiply a binomial by itself We call a quadratic function of the form a perfect square .  Perfect Square    Given a quadratic equation , we can use the formula to complete the square   Complete the Square  as follows.  Completing the Square  To place the quadratic function into vertex form   Factor an from the first two terms to get   Add and subtract inside the parentheses to get   Factor the first three terms inside the parentheses as a perfect square   Distribute the through the sum The number is the -coordinate of the vertex and the number is the -coordinate of the vertex.       Find the vertex of the quadratic function .    When the coefficient on is 1, we can skip the first step and the last step:   The vertex of the quadratic function is .      Find the vertex of the quadratic function .    When the coefficient on is a negative number, we can still use the formula by rewriting the subtraction as addition with a negative number.   The vertex of the quadratic function is       The Quadratic Equation  A point in the Cartesian plane is an for the quadratic function if the first coordinate is a solution to the quadratic equation   Equation  Quadratic   To find the solutions to a quadratic equation, we use the final form from to rewrite the equation as and solve this equation for    It is important to note that these solutions are real numbers only when is a non-negative number. This is an important invariant of a quadratic function.   The Discriminant  The discriminant   Function  Quadratic  Discriminant  of the quadratic function is the number    The discriminant provides both algebraic and geometric information about quadratic functions. On the algebraic side, the discriminant tells us how many solutions there are to the quadratic equation .   The Quadratic Formula   The quadratic equation has either two, one, or zero real solutions, depending on the , .   If , then the two solutions are    If , then the only solution is   If , then there are no real solutions.      On the geometric side, the discriminant tells us how many -intercepts the graph of has.   The -intercepts of a Quadratic Function  The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.        "
 },
 {
-  "id": "objectives-20",
+  "id": "objectives-21",
   "level": "2",
-  "url": "sec-circles.html#objectives-20",
+  "url": "sec-quadratic_functions.html#objectives-21",
   "type": "Objectives",
   "number": "4.1",
   "title": "",
-  "body": "  Complete the square to put the equation of a circle into standard form.  Use the standard form of a circle to identify the center and radius.  Use the standard form of a circle to produce a graph.   "
+  "body": "  find the vertex of a quadratic function,  find the -intercept(s) of a quadratic function  find the -intercept of a quadratic functions,  find the line of symmetry of a quadratic functions, and  graph a quadratic function.   "
 },
 {
-  "id": "definition-38",
+  "id": "def-quadratic_function",
   "level": "2",
-  "url": "sec-circles.html#definition-38",
+  "url": "sec-quadratic_functions.html#def-quadratic_function",
   "type": "Definition",
   "number": "4.1.1",
+  "title": "Quadratic Function.",
+  "body": " Quadratic Function  A function is quadratic   Function  Quadratic  if it has the form where , , and are numbers, and .  "
+},
+{
+  "id": "p-283",
+  "level": "2",
+  "url": "sec-quadratic_functions.html#p-283",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
   "title": "",
-  "body": " The circle   Circle  with radius centered at consists of all points in the Cartesian plane units away from as depicted in .   The circle of radius centered at .      "
+  "body": "parabola vertex "
 },
 {
-  "id": "definition-39",
+  "id": "definition-44",
   "level": "2",
-  "url": "sec-circles.html#definition-39",
+  "url": "sec-quadratic_functions.html#definition-44",
   "type": "Definition",
-  "number": "4.1.3",
-  "title": "The Standard Form of a Circle.",
-  "body": " The Standard Form of a Circle  The standard form of a circle   Equation  Circle  Standard Form  with radius and center is   "
+  "number": "4.1.2",
+  "title": "The Vertex Form of a Quadratic.",
+  "body": " The Vertex Form of a Quadratic  The vertex form of a quadratic equation is where is the vertex of the parabola.  "
 },
 {
-  "id": "definition-40",
+  "id": "figure-44",
   "level": "2",
-  "url": "sec-circles.html#definition-40",
-  "type": "Definition",
-  "number": "4.1.4",
-  "title": "",
-  "body": " A diameter   Circle  Diameter  of a circle is a line that connects two points on the circle through the center. The length of a diameter of a circle of radius is , and the midpoint of the diameter is the center of the circle.   A diameter of the circle of radius centered at .      "
-},
-{
-  "id": "figure-40",
-  "level": "2",
-  "url": "sec-circles.html#figure-40",
+  "url": "sec-quadratic_functions.html#figure-44",
   "type": "Figure",
-  "number": "4.1.6",
+  "number": "4.1.3",
   "title": "",
   "body": " How to multiply binomials using the FOIL method.   "
 },
 {
-  "id": "p-255",
+  "id": "p-292",
   "level": "2",
-  "url": "sec-circles.html#p-255",
+  "url": "sec-quadratic_functions.html#p-292",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "perfect square "
 },
 {
-  "id": "p-256",
+  "id": "p-293",
   "level": "2",
-  "url": "sec-circles.html#p-256",
+  "url": "sec-quadratic_functions.html#p-293",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "complete the square "
 },
 {
-  "id": "example-42",
+  "id": "example-48",
   "level": "2",
-  "url": "sec-circles.html#example-42",
+  "url": "sec-quadratic_functions.html#example-48",
   "type": "Example",
+  "number": "4.1.5",
+  "title": "",
+  "body": "  Find the vertex of the quadratic function .    When the coefficient on is 1, we can skip the first step and the last step:   The vertex of the quadratic function is .   "
+},
+{
+  "id": "example-49",
+  "level": "2",
+  "url": "sec-quadratic_functions.html#example-49",
+  "type": "Example",
+  "number": "4.1.6",
+  "title": "",
+  "body": "  Find the vertex of the quadratic function .    When the coefficient on is a negative number, we can still use the formula by rewriting the subtraction as addition with a negative number.   The vertex of the quadratic function is    "
+},
+{
+  "id": "p-301",
+  "level": "2",
+  "url": "sec-quadratic_functions.html#p-301",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "quadratic equation "
+},
+{
+  "id": "def-discriminant",
+  "level": "2",
+  "url": "sec-quadratic_functions.html#def-discriminant",
+  "type": "Definition",
+  "number": "4.1.7",
+  "title": "The Discriminant.",
+  "body": " The Discriminant  The discriminant   Function  Quadratic  Discriminant  of the quadratic function is the number   "
+},
+{
+  "id": "theorem-9",
+  "level": "2",
+  "url": "sec-quadratic_functions.html#theorem-9",
+  "type": "Theorem",
   "number": "4.1.8",
-  "title": "",
-  "body": "  Complete the square with .    When the coefficient on is 1, we can skip the first step and the last step:    "
+  "title": "The Quadratic Formula.",
+  "body": " The Quadratic Formula   The quadratic equation has either two, one, or zero real solutions, depending on the , .   If , then the two solutions are    If , then the only solution is   If , then there are no real solutions.     "
 },
 {
-  "id": "example-43",
+  "id": "theorem-10",
   "level": "2",
-  "url": "sec-circles.html#example-43",
-  "type": "Example",
+  "url": "sec-quadratic_functions.html#theorem-10",
+  "type": "Theorem",
   "number": "4.1.9",
-  "title": "",
-  "body": "  Complete the square with .    When the coefficient on is a negative number, such as , we can still use the formula by rewriting the subtraction as addition with a negative number.    "
+  "title": "The <span class=\"process-math\">\\(x\\)<\/span>-intercepts of a Quadratic Function.",
+  "body": " The -intercepts of a Quadratic Function  The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.    "
 },
 {
-  "id": "objectives-21",
+  "id": "sec-circles",
+  "level": "1",
+  "url": "sec-circles.html",
+  "type": "Section",
+  "number": "5.1",
+  "title": "Circles",
+  "body": " Circles    Complete the square to put the equation of a circle into standard form.  Use the standard form of a circle to identify the center and radius.  Use the standard form of a circle to produce a graph.     In this section, we study circles in the Cartesian plane.   The circle   Circle  with radius centered at consists of all points in the Cartesian plane units away from as depicted in .   The circle of radius centered at .       To find the equation of the circle with radius and center we use . A point is on this circle if the distance between and is exactly : To make this simpler, we square each side of the equation.   The Standard Form of a Circle  The standard form of a circle   Equation  Circle  Standard Form  with radius and center is     A diameter   Circle  Diameter  of a circle is a line that connects two points on the circle through the center. The length of a diameter of a circle of radius is , and the midpoint of the diameter is the center of the circle.   A diameter of the circle of radius centered at .         Recognizing Circles  Sometimes, we will encounter the equation of a circle that is not in standard form. We can use twice to put it back into standard form. For example, consider the equation While this does not look like a circle, we can first complete the square in as follows. First, recognize . Add to both sides of the equation to obtain Rewrite the first three terms as a perfect square to obtain Next, we complete the square in . Adding to both sides yields Recognize the trinomial as a perfect square to find Finally, rewrite as and to arrive at the standard form of the circle Since these operations preserve the solutions to our equation, we can see that the equation represents the circle of radius centered at the point .   Working with Circles    Complete the square to put the equation of a circle into standard form.  Use the standard form of a circle to identify the center and radius.  Use the standard form of a circle to produce a graph.     Write down the equation of the circle of radius centered at .  Find the center and radius of the circle   Find the radius of the circle with center that passes through the point . Write the equation of this circle in standard form.        The endpoints of a diameter of a circle are and as in . Write the equation for this circle in standard form.  Put the circle into standard form.     "
+},
+{
+  "id": "objectives-22",
   "level": "2",
-  "url": "sec-circles.html#objectives-21",
+  "url": "sec-circles.html#objectives-22",
   "type": "Objectives",
-  "number": "4.1.2",
+  "number": "5.1",
+  "title": "",
+  "body": "  Complete the square to put the equation of a circle into standard form.  Use the standard form of a circle to identify the center and radius.  Use the standard form of a circle to produce a graph.   "
+},
+{
+  "id": "definition-46",
+  "level": "2",
+  "url": "sec-circles.html#definition-46",
+  "type": "Definition",
+  "number": "5.1.1",
+  "title": "",
+  "body": " The circle   Circle  with radius centered at consists of all points in the Cartesian plane units away from as depicted in .   The circle of radius centered at .      "
+},
+{
+  "id": "definition-47",
+  "level": "2",
+  "url": "sec-circles.html#definition-47",
+  "type": "Definition",
+  "number": "5.1.3",
+  "title": "The Standard Form of a Circle.",
+  "body": " The Standard Form of a Circle  The standard form of a circle   Equation  Circle  Standard Form  with radius and center is   "
+},
+{
+  "id": "definition-48",
+  "level": "2",
+  "url": "sec-circles.html#definition-48",
+  "type": "Definition",
+  "number": "5.1.4",
+  "title": "",
+  "body": " A diameter   Circle  Diameter  of a circle is a line that connects two points on the circle through the center. The length of a diameter of a circle of radius is , and the midpoint of the diameter is the center of the circle.   A diameter of the circle of radius centered at .      "
+},
+{
+  "id": "objectives-23",
+  "level": "2",
+  "url": "sec-circles.html#objectives-23",
+  "type": "Objectives",
+  "number": "5.1.1",
   "title": "",
   "body": "  Complete the square to put the equation of a circle into standard form.  Use the standard form of a circle to identify the center and radius.  Use the standard form of a circle to produce a graph.   "
 },
@@ -1607,7 +1814,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-circles.html#exercise-32",
   "type": "Worksheet Exercise",
-  "number": "4.1.2.1",
+  "number": "5.1.1.1",
   "title": "",
   "body": "Write down the equation of the circle of radius centered at . "
 },
@@ -1616,7 +1823,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-circles.html#exercise-33",
   "type": "Worksheet Exercise",
-  "number": "4.1.2.2",
+  "number": "5.1.1.2",
   "title": "",
   "body": "Find the center and radius of the circle  "
 },
@@ -1625,7 +1832,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-circles.html#exercise-34",
   "type": "Worksheet Exercise",
-  "number": "4.1.2.3",
+  "number": "5.1.1.3",
   "title": "",
   "body": "Find the radius of the circle with center that passes through the point . Write the equation of this circle in standard form. "
 },
@@ -1634,7 +1841,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-circles.html#exercise-35",
   "type": "Worksheet Exercise",
-  "number": "4.1.2.4",
+  "number": "5.1.1.4",
   "title": "",
   "body": "    The endpoints of a diameter of a circle are and as in . Write the equation for this circle in standard form. "
 },
@@ -1643,7 +1850,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-circles.html#exercise-36",
   "type": "Worksheet Exercise",
-  "number": "4.1.2.5",
+  "number": "5.1.1.5",
   "title": "",
   "body": "Put the circle into standard form. "
 },
@@ -1655,6 +1862,177 @@ var ptx_lunr_docs = [
   "number": "A",
   "title": "List of Symbols",
   "body": " List of Symbols   "
+},
+{
+  "id": "subsection-19",
+  "level": "1",
+  "url": "subsection-19.html",
+  "type": "Subsection",
+  "number": "B.1",
+  "title": "Polynomials",
+  "body": " Polynomials   the graph of     The graph of .    the graph of     The graph of .    the graph of     The graph of .    the graph of     The graph of .    the graph of     The graph of .   "
+},
+{
+  "id": "fig-line",
+  "level": "2",
+  "url": "subsection-19.html#fig-line",
+  "type": "Figure",
+  "number": "B.1.7",
+  "title": "the graph of <span class=\"process-math\">\\(y = x\\)<\/span>",
+  "body": " the graph of     The graph of .  "
+},
+{
+  "id": "fig-parabola",
+  "level": "2",
+  "url": "subsection-19.html#fig-parabola",
+  "type": "Figure",
+  "number": "B.1.8",
+  "title": "the graph of <span class=\"process-math\">\\(y = x^2\\)<\/span>",
+  "body": " the graph of     The graph of .  "
+},
+{
+  "id": "fig-cubic",
+  "level": "2",
+  "url": "subsection-19.html#fig-cubic",
+  "type": "Figure",
+  "number": "B.1.9",
+  "title": "the graph of <span class=\"process-math\">\\(y = x^3\\)<\/span>",
+  "body": " the graph of     The graph of .  "
+},
+{
+  "id": "fig-quartic",
+  "level": "2",
+  "url": "subsection-19.html#fig-quartic",
+  "type": "Figure",
+  "number": "B.1.10",
+  "title": "the graph of <span class=\"process-math\">\\(y = x^4\\)<\/span>",
+  "body": " the graph of     The graph of .  "
+},
+{
+  "id": "fig-quintic",
+  "level": "2",
+  "url": "subsection-19.html#fig-quintic",
+  "type": "Figure",
+  "number": "B.1.11",
+  "title": "the graph of <span class=\"process-math\">\\(y = x^5\\)<\/span>",
+  "body": " the graph of     The graph of .  "
+},
+{
+  "id": "subsection-20",
+  "level": "1",
+  "url": "subsection-20.html",
+  "type": "Subsection",
+  "number": "B.2",
+  "title": "Roots",
+  "body": " Roots   the graph of     The graph of .    the graph of     The graph of .    the graph of     The graph of .    the graph of     The graph of .   "
+},
+{
+  "id": "fig-sq_root",
+  "level": "2",
+  "url": "subsection-20.html#fig-sq_root",
+  "type": "Figure",
+  "number": "B.2.12",
+  "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt{x}\\)<\/span>",
+  "body": " the graph of     The graph of .  "
+},
+{
+  "id": "fig-cube_root",
+  "level": "2",
+  "url": "subsection-20.html#fig-cube_root",
+  "type": "Figure",
+  "number": "B.2.13",
+  "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt[3]{x}\\)<\/span>",
+  "body": " the graph of     The graph of .  "
+},
+{
+  "id": "fig-fourth_root",
+  "level": "2",
+  "url": "subsection-20.html#fig-fourth_root",
+  "type": "Figure",
+  "number": "B.2.14",
+  "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt[4]{x}\\)<\/span>",
+  "body": " the graph of     The graph of .  "
+},
+{
+  "id": "fig-fifth_root",
+  "level": "2",
+  "url": "subsection-20.html#fig-fifth_root",
+  "type": "Figure",
+  "number": "B.2.15",
+  "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt[5]{x}\\)<\/span>",
+  "body": " the graph of     The graph of .  "
+},
+{
+  "id": "subsection-21",
+  "level": "1",
+  "url": "subsection-21.html",
+  "type": "Subsection",
+  "number": "B.3",
+  "title": "Rational Functions",
+  "body": " Rational Functions   the graph of     The graph of .    the graph of     The graph of .    the graph of     The graph of .    the graph of     The graph of .    the graph of     The graph of .   "
+},
+{
+  "id": "fig-1_x",
+  "level": "2",
+  "url": "subsection-21.html#fig-1_x",
+  "type": "Figure",
+  "number": "B.3.16",
+  "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x}\\)<\/span>",
+  "body": " the graph of     The graph of .  "
+},
+{
+  "id": "fig-1_x_2",
+  "level": "2",
+  "url": "subsection-21.html#fig-1_x_2",
+  "type": "Figure",
+  "number": "B.3.17",
+  "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^2}\\)<\/span>",
+  "body": " the graph of     The graph of .  "
+},
+{
+  "id": "fig-1_x_3",
+  "level": "2",
+  "url": "subsection-21.html#fig-1_x_3",
+  "type": "Figure",
+  "number": "B.3.18",
+  "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^3}\\)<\/span>",
+  "body": " the graph of     The graph of .  "
+},
+{
+  "id": "fig-1_x_4",
+  "level": "2",
+  "url": "subsection-21.html#fig-1_x_4",
+  "type": "Figure",
+  "number": "B.3.19",
+  "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^4}\\)<\/span>",
+  "body": " the graph of     The graph of .  "
+},
+{
+  "id": "fig-1_x_5",
+  "level": "2",
+  "url": "subsection-21.html#fig-1_x_5",
+  "type": "Figure",
+  "number": "B.3.20",
+  "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^5}\\)<\/span>",
+  "body": " the graph of     The graph of .  "
+},
+{
+  "id": "subsection-22",
+  "level": "1",
+  "url": "subsection-22.html",
+  "type": "Subsection",
+  "number": "B.4",
+  "title": "Miscellaneous Functions",
+  "body": " Miscellaneous Functions   the graph of     The graph of .   "
+},
+{
+  "id": "fig-abs_val",
+  "level": "2",
+  "url": "subsection-22.html#fig-abs_val",
+  "type": "Figure",
+  "number": "B.4.21",
+  "title": "the graph of <span class=\"process-math\">\\(y = \\abs{x}\\)<\/span>",
+  "body": " the graph of     The graph of .  "
 },
 {
   "id": "index-1",
