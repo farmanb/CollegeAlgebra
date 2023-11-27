@@ -5,7 +5,7 @@
   <objectives>
     <ul>
       <li>
-	Complete the square to put the equation of a circle into standard form.
+	Place the equation of a circle into standard form.
       </li>
       <li>
 	Use the standard form of a circle to identify the center and radius.
@@ -90,23 +90,45 @@
     <title>Recognizing Circles</title>
     <p>
       Sometimes, we will encounter the equation of a circle that is not in standard form.
-      We can use <xref ref="alg-completing_the_square" text="title"/> twice to put it back into standard form.
+      <!-- We can use <xref ref="alg-completing_the_square" text="title"/> twice to put it back into standard form. -->
       For example, consider the equation
       <m>x^2 - 4x + y^2 + 6x = -9.</m>
-      While this does not look like a circle, we can first complete the square in <m>x</m> as follows.
-      First, recognize <m>x^2 - 4x = x^2 + (-4)x</m>.
-      Add <m>(-2)^2 = 4</m> to both sides of the equation to obtain
-      <me>x^2 + (-4)x + (-2)^2 + y^2 + 6x = -9 + (-2)^2.</me>
-      Rewrite the first three terms as a perfect square to obtain
-      <me>(x - 2)^2 + y^2 + 6x = -5.</me>
-      Next, we complete the square in <m>y</m>.
-      Adding <m>3^2 = 9</m> to both sides yields
-      <me>(x - 2)^2 + y^2 + 6x + 3^2 = -5 + 9.</me>
-      Recognize the trinomial as a perfect square to find
-      <me>(x - 2)^2 + (y + 3)^2 = 4.</me>
-      Finally, rewrite <m>y + 3</m> as <m>y - (-3)</m> and <m>4 = 2^2</m> to arrive at the standard form of the circle
-      <me>(x - 2)^2 + (y - (-3))^2 = 2^2.</me>
-      Since these operations preserve the solutions to our equation, we can see that the equation <m>x^2 - 4x + y^2 + 6x = -9</m> represents the circle of radius <m>2</m> centered at the point <m>(2, -3)</m>.
+      We can view <m>f(x) = x^2 - 4x</m> and <m>g(y) = y^2 + 6x</m> as quadratic functions in the variables <m>x</m> and <m>y</m>, respectively.
+      Using the <xref ref="vertex_formula" text="title"/>, we can identify the first coordinate of the vertex for <m>x^2 - 4x</m> as
+      <me>h = -\frac{-4}{2} = \frac{4}{2} = 2</me>
+      and the second coordinate of the vertex as
+      <me>k = f(2) = 2^2 - 4(2) = 4 - 8 = -4</me>.
+      This allows us to write
+      <me>f(x) = x^2 - 4x = (x - 2)^2 - 4.</me>
+      Similarly, the first coordinate for the vertex of <m>y^2 + 6x</m> is
+      <me>h = -\frac{6}{2(1)} = -3,</me>
+      the second coordinate of the vertex of <m>y^2 + 6x</m> is
+      <me>k = g(-3) = (-3)^2 + 6(-3) = 9 - 18 = -9,</me>
+      and so
+      <me>g(y) = (x - (-3))^2 - 9 = (x + 3)^2 - 9.</me>
+      Hence we can rewrite the equation
+      <md>
+	<mrow>x^2 - 4x + y^2 + 6x = -9 \amp\amp \text{Replace with vertex forms}</mrow>
+	<mrow>(x - 2)^2 - 4 + (y + 3)^2 - 9 = -9 \amp\amp \text{Add}\ 9\ \text{to both sides}</mrow>
+	<mrow>(x - 2)^2 - 4 + (y + 3)^2 = -9 + 9 \amp\amp \text{Simplify}</mrow>
+	<mrow>(x - 2)^2 - 4 + (y + 3)^2 = 0 \amp\amp \text{Add 4 to both sides}</mrow>
+	<mrow>(x - 2)^2 + (y + 3)^2 =4</mrow>
+      </md>
+      This allows us to recognize the equation <m>x^2 - 4x + y^2 + 6x = -9</m> as the circle of radius <m>2</m> centered at the point <m>(2,-3)</m>.
+      <!-- While this does not look like a circle, we can first complete the square in <m>x</m> as follows. -->
+      <!-- First, recognize <m>x^2 - 4x = x^2 + (-4)x</m>. -->
+      <!-- Add <m>(-2)^2 = 4</m> to both sides of the equation to obtain -->
+      <!-- <me>x^2 + (-4)x + (-2)^2 + y^2 + 6x = -9 + (-2)^2.</me> -->
+      <!-- Rewrite the first three terms as a perfect square to obtain -->
+      <!-- <me>(x - 2)^2 + y^2 + 6x = -5.</me> -->
+      <!-- Next, we complete the square in <m>y</m>. -->
+      <!-- Adding <m>3^2 = 9</m> to both sides yields -->
+      <!-- <me>(x - 2)^2 + y^2 + 6x + 3^2 = -5 + 9.</me> -->
+      <!-- Recognize the trinomial as a perfect square to find -->
+      <!-- <me>(x - 2)^2 + (y + 3)^2 = 4.</me> -->
+      <!-- Finally, rewrite <m>y + 3</m> as <m>y - (-3)</m> and <m>4 = 2^2</m> to arrive at the standard form of the circle -->
+      <!-- <me>(x - 2)^2 + (y - (-3))^2 = 2^2.</me> -->
+      <!-- Since these operations preserve the solutions to our equation, we can see that the equation <m>x^2 - 4x + y^2 + 6x = -9</m> represents the circle of radius <m>2</m> centered at the point <m>(2, -3)</m>. -->
     </p>
     <xi:include href="worksheets/wksht-circles.ptx"/>
   </subsection>
