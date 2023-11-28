@@ -14,34 +14,312 @@
 
   <introduction>
     <p>
-      Functions with certain types of symmetry often have important properties.
+      Intuitively, an object is <em>symmetric</em> if there is some line that divides the object into two (or more) pieces that are mirror images of one another.
+      In this section, we utilize the methods in <xref ref="sec-transformations"/> to detect two types of symmetry mathematically.
     </p>
   </introduction>
-  
-  <definition>
+
+  <subsection>
+    <title>Symmetry about the <m>y</m>-axis</title>
+    <introduction>
+      <p>
+	The first type of symmetry we are interested in is symmetry about the <m>y</m>-axis in the plane.
+	We begin with the intuitive understanding of this symmetry, and formalize a concrete method for detecting it algebraically.
+      </p>
+    </introduction>
+    
+    <definition xml:id="def-y_axis_symmetry">
+      <p>
+	We say a function <m>f</m> has <term><m>y</m>-axis symmetry</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Symmetry</h>
+	  <h><m>y</m>-axis</h>
+	</idx>
+	if the <m>y</m>-axis divides the graph into two pieces that are mirror images of one another.
+      </p>
+    </definition>
+    
     <p>
-      A function <m>f</m> has <term><m>y</m>-axis symmetry</term>
+      For example, consider <xref ref="fig-parabola" text="title"/>.
+      The graph intersects the <m>y</m>-axis at the point <m>(0,0)</m>.
+      If we cut the parabola in half at this point, then we get two pieces.
+      We distinguish the two halves by coloring the left-hand side red and the right-hand side blue.
+    </p>
+    <figure>
+      <image>
+	<latex-image>
+	  \begin{tikzpicture}
+	  \def\a{0}
+	  \draw [color=blue,thick] plot[smooth,samples=500,domain=\a:\a+2] (\x,{(\x-\a)^2});
+	  \draw [color=red,thick] plot[smooth,samples=500,domain=-\a-2:-\a] (\x,{(\x + \a)^2});
+
+	  \end{tikzpicture}
+	</latex-image>
+      </image>
+      <caption>The graph of <m>y = x^2</m> cut in half at <m>(0,0)</m>.</caption>
+    </figure>
+    <p>
+      To say these are mirror images of one another, means if we reflect the graph across the <m>y</m>-axis, then we obtain the same graph just with the colors switched.
+    </p>
+    <figure>
+      <image>
+	<latex-image>
+	  \begin{tikzpicture}
+	  \def\a{0}
+	  \draw [color=red,thick] plot[smooth,samples=500,domain=\a:\a+2] (\x,{(\x-\a)^2});
+	  \draw [color=blue,thick] plot[smooth,samples=500,domain=-\a-2:-\a] (\x,{(\x + \a)^2});
+	  \end{tikzpicture}
+	</latex-image>
+      </image>
+      <caption>The reflection of <m>y = x^2</m> across the <m>y</m>-axis.</caption>
+    </figure>
+    <p>
+      Had we not colored the two pieces, we would be unable to tell which one is which.
+      We say the graph is <term>invariant</term>
       <idx>
-	<h>Function</h>
-	<h>Symmetry</h>
-	<h><m>y</m>-axis</h>
+	<h>Invariant</h>
       </idx>
-      if for all <m>x</m> in the domain of <m>f</m>,
-      <me>f(-x) = f(x)</me>.
+      under reflection across the <m>y</m>-axis to mean the original graph and its reflection across the <m>y</m>-axis are the same.
+      This observation allows us to rephrase <xref ref="def-y_axis_symmetry"/> in terms of reflections.
     </p>
-  </definition>
-
-  <p>
-    As we have seen in <xref ref="sec-transformations"/>, the graph of <m>y = f(-x)</m> is obtained by reflecting the graph of <m>y = f(x)</m> across the <m>y</m>-axis.
-    Since a function with <m>y</m>-axis symmetry satisfies <m>f(-x) = f(x)</m>, this tells us that the portion of the graph on either side of the <m>y</m>-axis are mirror images of one another.
-  </p>
-
-  <example>
+    <theorem>
+      <statement>
+	<p>
+	  The function <m>f</m> has <m>y</m>-axis symmetry if it is invariant under reflection across the <m>y</m>-axis.
+	</p>
+      </statement>
+    </theorem>
     <p>
-      The function <m>f(x) = x^2</m> has <m>y</m>-axis syemmetry since
-      <me>f(-x) = (-x)^2 = (-1)^2 x^2 = x^2 = f(x).</me>
-      This tells us <xref ref="fig-parabola" text="title"/> is symmetric about the <m>y</m>-axis.
+      The characterization of <m>y</m>-axis symmetry above is purely geometric.
+      Just like the intuitive understanding of symmetry, it can be difficult to verify whether two pictures are actually the same.
+      Fortunately, the language of graph transformations provides us a dictionary between algebraic statements and geometric statements.
     </p>
-  </example>
+    <theorem>
+      <statement>
+	<p>
+	  The function <m>f</m> has <m>y</m>-axis symmetry if for every <m>x</m> in the domain of <m>f</m>,
+	  <me>f(-x) = f(x).</me>
+	</p>
+      </statement>
+    </theorem>
+    <p>
+      The algebraic condition allows us to easily verify our intuition about images concretely.
+    </p>
+    <example>
+      <statement>
+	<p>
+	  Verify the function <m>f(x) = x^4 - 5x^2 + 4</m> has <m>y</m>-axis symmetry.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the <m>y</m>-axis.
+	</p>
+	<figure>
+	  <image>
+	    <latex-image>
+	      \begin{tikzpicture}
+	      \path [draw, help lines, opacity=.5]  (-3,-3) grid (4,4);
+
+	      \draw [very thick,->] (-4,0) -- (4+.2,0) node [anchor=south] {$x$};
+	      \draw [very thick,->] (0,-3) -- (0,4+.2) node [anchor=west] {$y$};
+
+	      \draw [color=blue,thick] plot[smooth,samples=500,domain={-sqrt(5)}:{sqrt(5)}] (\x,{(\x)^4 - 5*(\x)^2 + 4});
+	      
+	      \end{tikzpicture}
+	    </latex-image>
+	  </image>
+	</figure>
+	<p>
+	  To verify our intuition, we just need to check
+	  <md>
+	    <mrow>f(-x) \amp= (-x)^4 - 5(-x)^2 + 4</mrow>
+	    <mrow>\amp = (-1)^4x^4 - 5(-1)^2x^2 + 4</mrow>
+	    <mrow>\amp = x^4 - 5x^2 + 4</mrow>
+	    <mrow>\amp = f(x).</mrow>
+	  </md>
+	  Therefore <m>f(x)</m> has <m>y</m>-axis symmetry.
+	</p>
+      </solution>
+    </example>
+  </subsection>
+  <subsection>
+    <title>Origin Symmetry</title>
+    <introduction>
+      <p>
+	The second type of symmetry we consider is slightly more subtle than <m>y</m>-axis symmetry.
+      </p>
+    </introduction>
+    <definition>
+      <p>
+	We say a function <m>f</m> is <term>symmetric about the origin</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Symmetry</h>
+	  <h>Origin</h>
+	</idx>
+	if the graph of <m>f</m> is invariant under rotation by 180 degrees.
+      </p>
+    </definition>
+    <p>
+      To understand this type of symmetry, consider <xref ref="fig-cubic" text="title"/> with the origin and another marked point.
+    </p>
+    <figure>
+      <image>
+	<latex-image>
+	  \begin{tikzpicture}
+
+	  \path [draw, help lines, opacity=.5]  (-4,-4) grid (4,4);
+
+	  \draw [very thick,->] (-4,0) -- (4+.2,0) node [anchor=south] {$x$};
+	  \draw [very thick,->] (0,-4) -- (0,4+.2) node [anchor=west] {$y$};
+
+	  
+	  \draw [color=blue,thick] plot[smooth,samples=500,domain={-4^(1/3)}:{4^(1/3)}] (\x,\x^3);
+	  \node at (1,1) {$\bullet$};
+
+	  \node at (0,0) {$\bullet$};
+	  \node [below right] at (0,0) {$(0,0)$};
+	  
+	  \end{tikzpicture}
+	</latex-image>
+      </image>
+    </figure>
+    <p>
+      First, we rotate the graph by 90 degrees.
+      We note that this rotation does not change the shape of the graph, so the distance of our marked point from the origin should not change.
+    </p>
+    <figure>
+      <image>
+	<latex-image>
+	  \begin{tikzpicture}
+
+	  \path [draw, help lines, opacity=.5]  (-4,-4) grid (4,4);
+
+	  \draw [very thick,->] (-4,0) -- (4+.2,0) node [anchor=south] {$x$};
+	  \draw [very thick,->] (0,-4) -- (0,4+.2) node [anchor=west] {$y$};
+	  
+	  \draw [color=blue,thick,dashed] plot[smooth,samples=500,domain={-4^(1/3)}:{4^(1/3)}] (\x,\x^3);
+	  \draw [thick,->] plot [domain=45:130] ({sqrt(2)*cos(\x)}, {sqrt(2)*sin(\x)}) node [midway,above,yshift=45pt,xshift=-10pt] {$90^\circ$};
+
+	  \draw [color=blue,thick] plot[smooth,samples=500,domain={-4}:{4)}] (\x,{-\x^(1/3)});
+
+	  \node at (1,1) {$\bullet$};
+	  \node at (-1,1) {$\bullet$};
+
+	  \node at (0,0) {$\bullet$};
+	  \node [below right] at (0,0) {$(0,0)$};
+	  
+	  \end{tikzpicture}
+	</latex-image>
+      </image>
+      <caption>The graph of <m>y=x^3</m> rotated 90 degrees counter-clockwise.</caption>
+    </figure>
+    <p>
+      Rotating once more by 90 degrees, we still have not changed the distance of our marked point from the origin.
+      The graph looks the same, except we have moved our marked point from the first quadrant into the third quadrant.
+    </p>
+    <figure>
+      <image>
+	<latex-image>
+	  \begin{tikzpicture}
+
+	  \path [draw, help lines, opacity=.5]  (-4,-4) grid (4,4);
+
+	  \draw [very thick,->] (-4,0) -- (4+.2,0) node [anchor=south] {$x$};
+	  \draw [very thick,->] (0,-4) -- (0,4+.2) node [anchor=west] {$y$};
+
+
+	  \draw [color=blue,thick] plot[smooth,samples=500,domain={-4^(1/3)}:{4^(1/3)}] (\x,\x^3);
+	  \draw [thick,->] plot [domain=135:220] ({sqrt(2)*cos(\x)}, {sqrt(2)*sin(\x)}) node [midway,above,xshift=-50pt,yshift=-15pt] {$90^\circ$};
+
+	  \draw [color=blue,thick,dashed] plot[smooth,samples=500,domain={-4}:{4)}] (\x,{-\x^(1/3)});
+
+	  \node at (-1,-1) {$\bullet$};
+	  \node at (-1,1) {$\bullet$};
+
+	  \node at (0,0) {$\bullet$};
+	  \node [below right] at (0,0) {$(0,0)$};
+	  
+	  \end{tikzpicture}
+	</latex-image>
+      </image>
+      <caption>The graph of <m>y=x^3</m> rotated 180 degrees counter-clockwise.</caption>
+    </figure>
+    <p>
+      Since the rotated point is the same distance away from the origin as our original point, these two points must lie on the same circle.
+      Moreover, a line connecting these points through the origin will give us a diameter.
+    </p>
+    <figure>
+      <image>
+	<latex-image>
+	  \begin{tikzpicture}
+
+	  \path [draw, help lines, opacity=.5]  (-4,-4) grid (4,4);
+
+	  \draw [very thick,->] (-4,0) -- (4+.2,0) node [anchor=south] {$x$};
+	  \draw [very thick,->] (0,-4) -- (0,4+.2) node [anchor=west] {$y$};
+
+
+	  \draw [thick,dashed] (1,1) -- (-1,-1);
+	  \draw [thick] (0,0) circle ({sqrt(2)});
+	  \draw [color=blue,thick] plot[smooth,samples=500,domain={-4^(1/3)}:{4^(1/3)}] (\x,\x^3);
+	  
+	  \node at (1,1) {$\bullet$};
+	  \node at (-1,-1) {$\bullet$};
+
+	  \node at (0,0) {$\bullet$};
+	  \node [below right] at (0,0) {$(0,0)$};
+	  
+	  \end{tikzpicture}	    
+	</latex-image>
+      </image>
+      <caption>The graph of <m>y=x^3</m> with a marked point and the rotation of that point by <m>180^\circ</m></caption>
+    </figure>
+    <p>
+      Assume the original point has coordinates <m>(a,a^3)</m> and its rotation by <m>180^\circ</m> has coordinates <m>(b,b^3)</m>.
+      Since the midpoint of the diameter is <m>(0,0)</m>, we know that <m>0 = (a+b)/2</m> and <m>0 = (a^3 + b^3)/2</m>.
+      Solve the first equation for <m>b</m> in terms of <m>a</m>
+      <md>
+	<mrow>0 \amp= \frac{a + b}{2} \amp\amp \text{Multiply both sides by 2}</mrow>
+	<mrow>0 \amp= a + b \amp\amp \text{Subtract}\ a\ \text{from both sides}</mrow>
+	<mrow>b \amp= -a.</mrow>
+      </md>
+      The second coordinate is then
+      <me>b^3 = (-a)^3 = (-1)^3 a^3 = -a^3.</me>
+      Rewriting this in function notation, this tells us 
+      <me>f(-a) = (-a)^3 = -a^3 = -f(a).</me>
+      This provides us with an algebraic condition for testing origin symmetry.
+    </p>
+    <theorem>
+      <statement>
+	<p>
+	  The function <m>f</m> has origin symmetry if for every <m>x</m> in the domain of <m>f</m>,
+	  <me>f(-x) = -f(x).</me>
+	</p>
+      </statement>
+    </theorem>
+  </subsection>
+  <!-- <definition> -->
+  <!--   <p> -->
+  <!--     A function <m>f</m> has  -->
+  <!--     if for all <m>x</m> in the domain of <m>f</m>, -->
+  <!--     <me>f(-x) = f(x)</me>. -->
+  <!--   </p> -->
+  <!-- </definition> -->
+
+  <!-- <p> -->
+  <!--   As we have seen in <xref ref="sec-transformations"/>, the graph of <m>y = f(-x)</m> is obtained by reflecting the graph of <m>y = f(x)</m> across the <m>y</m>-axis. -->
+  <!--   Since a function with <m>y</m>-axis symmetry satisfies <m>f(-x) = f(x)</m>, this tells us that the portion of the graph on either side of the <m>y</m>-axis are mirror images of one another. -->
+  <!-- </p> -->
+
+  <!-- <example> -->
+  <!--   <p> -->
+  <!--     The function <m>f(x) = x^2</m> has <m>y</m>-axis syemmetry since -->
+  <!--     <me>f(-x) = (-x)^2 = (-1)^2 x^2 = x^2 = f(x).</me> -->
+  <!--     This tells us <xref ref="fig-parabola" text="title"/> is symmetric about the <m>y</m>-axis. -->
+  <!--   </p> -->
+  <!-- </example> -->
   
 </section>
