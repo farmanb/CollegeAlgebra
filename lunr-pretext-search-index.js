@@ -1078,7 +1078,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.5",
   "title": "Symmetry",
-  "body": " Symmetry    Identify if a function has -axis symmetry.  Identify if a function has origin symmetry.     Intuitively, an object is symmetric if there is some line that divides the object into two (or more) pieces that are mirror images of one another. In this section, we utilize the methods in to detect two types of symmetry mathematically.    Symmetry about the -axis   The first type of symmetry we are interested in is symmetry about the -axis in the plane. We begin with the intuitive understanding of this symmetry, and formalize a concrete method for detecting it algebraically.    We say a function has -axis symmetry   Function  Symmetry  -axis  if the -axis divides the graph into two pieces that are mirror images of one another.   For example, consider . The graph intersects the -axis at the point . If we cut the parabola in half at this point, then we get two pieces. We distinguish the two halves by coloring the left-hand side red and the right-hand side blue.      The graph of cut in half at .   To say these are mirror images of one another, means if we reflect the graph across the -axis, then we obtain the same graph just with the colors switched.      The reflection of across the -axis.   Had we not colored the two pieces, we would be unable to tell which one is which. We say the graph is invariant   Invariant  under reflection across the -axis to mean the original graph and its reflection across the -axis are the same. This observation allows us to rephrase in terms of reflections.    The function has -axis symmetry if it is invariant under reflection across the -axis.    The characterization of -axis symmetry above is purely geometric. Just like the intuitive understanding of symmetry, it can be difficult to verify whether two pictures are actually the same. Fortunately, the language of graph transformations provides us a dictionary between algebraic statements and geometric statements.    The function has -axis symmetry if for every in the domain of ,     The algebraic condition allows us to easily verify our intuition about images concretely.    Verify the function has -axis symmetry.    If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the -axis.       To verify our intuition, we just need to check Therefore has -axis symmetry.      Origin Symmetry   The second type of symmetry we consider is slightly more subtle than -axis symmetry.    We say a function is symmetric about the origin   Function  Symmetry  Origin  if the graph of is invariant under rotation by 180 degrees.   To understand this type of symmetry, consider with the origin and another marked point.       First, we rotate the graph by 90 degrees. We note that this rotation does not change the shape of the graph, so the distance of our marked point from the origin should not change.      The graph of rotated 90 degrees counter-clockwise.   Rotating once more by 90 degrees, we still have not changed the distance of our marked point from the origin. The graph looks the same, except we have moved our marked point from the first quadrant into the third quadrant.      The graph of rotated 180 degrees counter-clockwise.   Since the rotated point is the same distance away from the origin as our original point, these two points must lie on the same circle. Moreover, a line connecting these points through the origin will give us a diameter.      The graph of with a marked point and the rotation of that point by   Assume the original point has coordinates and its rotation by has coordinates . Since the midpoint of the diameter is , we know that and . Solve the first equation for in terms of  The second coordinate is then Rewriting this in function notation, this tells us This provides us with an algebraic condition for testing origin symmetry.    The function has origin symmetry if for every in the domain of ,                        "
+  "body": " Symmetry    Identify if a function has -axis symmetry.  Identify if a function has origin symmetry.     Intuitively, an object is symmetric if there is some line that divides the object into two (or more) pieces that are mirror images of one another. In this section, we utilize the methods in to detect two types of symmetry mathematically.    Symmetry about the -axis   The first type of symmetry we are interested in is symmetry about the -axis in the plane. We begin with the intuitive understanding of this symmetry, and formalize a concrete method for detecting it algebraically.    We say a function has -axis symmetry   Function  Symmetry  -axis  if the -axis divides the graph into two pieces that are mirror images of one another.   For example, consider . The graph intersects the -axis at the point . If we cut the parabola in half at this point, then we get two pieces. We distinguish the two halves by coloring the left-hand side red and the right-hand side blue.      The graph of cut in half at .   To say these are mirror images of one another, means if we reflect the graph across the -axis, then we obtain the same graph just with the colors switched.      The reflection of across the -axis.   Had we not colored the two pieces, we would be unable to tell which one is which. We say the graph is invariant   Invariant  under reflection across the -axis to mean the original graph and its reflection across the -axis are the same. This observation allows us to rephrase in terms of reflections.    The function has -axis symmetry if it is invariant under reflection across the -axis.    The characterization of -axis symmetry above is purely geometric. Just like the intuitive understanding of symmetry, it can be difficult to verify whether two pictures are actually the same. Fortunately, the language of graph transformations provides us a dictionary between algebraic statements and geometric statements.    The function has -axis symmetry if for every in the domain of ,     The algebraic condition allows us to easily verify our intuition about images concretely.    Verify the function has -axis symmetry.    If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the -axis.       To verify our intuition, we just need to check Therefore has -axis symmetry.      Origin Symmetry   The second type of symmetry we consider is slightly more subtle than -axis symmetry.    We say a function is symmetric about the origin   Function  Symmetry  Origin  if the graph of is invariant under rotation by 180 degrees.   To understand this type of symmetry, consider with the origin and another marked point.                                                     We can see what happens as we rotate the graph around the origin in the animation below. Note the rotation does not change the shape of the graph, so the distance from the marked point to the origin stays the same.      Rotation of 180 degrees counter-clockwise   The path the marked point follows through the rotation traces out a piece of a circle. Plotting the entirety of this circle, we can see the starting and ending location of the marked point create a diameter.        The graph of with a marked point and the rotation of that point by   Assume the original point has coordinates and its rotation by has coordinates . Since the midpoint of the diameter is , we know that and . Solve the first equation for in terms of  The second coordinate is then Rewriting this in function notation, this tells us This provides us with an algebraic condition for testing origin symmetry.    The function has origin symmetry if for every in the domain of ,                        "
 },
 {
   "id": "objectives-15",
@@ -1177,7 +1177,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "2.5.10",
   "title": "",
-  "body": "    The graph of rotated 90 degrees counter-clockwise.  "
+  "body": "    Rotation of 180 degrees counter-clockwise  "
 },
 {
   "id": "figure-39",
@@ -1186,15 +1186,6 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "2.5.11",
   "title": "",
-  "body": "    The graph of rotated 180 degrees counter-clockwise.  "
-},
-{
-  "id": "figure-40",
-  "level": "2",
-  "url": "sec-symmetry.html#figure-40",
-  "type": "Figure",
-  "number": "2.5.12",
-  "title": "",
   "body": "    The graph of with a marked point and the rotation of that point by  "
 },
 {
@@ -1202,7 +1193,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-symmetry.html#theorem-5",
   "type": "Theorem",
-  "number": "2.5.13",
+  "number": "2.5.12",
   "title": "",
   "body": "  The function has origin symmetry if for every in the domain of ,    "
 },
@@ -1225,9 +1216,9 @@ var ptx_lunr_docs = [
   "body": "  Recognize linear functions.  Find -intercepts of a linear function.  Find the -intercept of a linear function.  Graph a linear function.   "
 },
 {
-  "id": "p-189",
+  "id": "p-188",
   "level": "2",
-  "url": "sec-linear_functions.html#p-189",
+  "url": "sec-linear_functions.html#p-188",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1891,36 +1882,36 @@ var ptx_lunr_docs = [
   "body": " The Vertex Form of a Quadratic  A quadratic function, , is in vertex form   Function  Quadratic  Vertex Form  if there are numbers and such that   "
 },
 {
-  "id": "p-314",
+  "id": "p-313",
   "level": "2",
-  "url": "sec-quadratic_functions.html#p-314",
+  "url": "sec-quadratic_functions.html#p-313",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "parabola vertex "
 },
 {
-  "id": "figure-54",
+  "id": "figure-53",
   "level": "2",
-  "url": "sec-quadratic_functions.html#figure-54",
+  "url": "sec-quadratic_functions.html#figure-53",
   "type": "Figure",
   "number": "4.1.3",
   "title": "",
   "body": " Multiplying binomials using the FOIL method.   "
 },
 {
-  "id": "p-328",
+  "id": "p-327",
   "level": "2",
-  "url": "sec-quadratic_functions.html#p-328",
+  "url": "sec-quadratic_functions.html#p-327",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "perfect square "
 },
 {
-  "id": "p-329",
+  "id": "p-328",
   "level": "2",
-  "url": "sec-quadratic_functions.html#p-329",
+  "url": "sec-quadratic_functions.html#p-328",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1990,9 +1981,9 @@ var ptx_lunr_docs = [
   "body": "  Find the -intercept(s) of a quadratic function   "
 },
 {
-  "id": "p-339",
+  "id": "p-338",
   "level": "2",
-  "url": "sec-quadratic_formula.html#p-339",
+  "url": "sec-quadratic_formula.html#p-338",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
