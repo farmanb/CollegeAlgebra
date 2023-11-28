@@ -3,9 +3,9 @@
       <title>Working with Circles</title>
       <objectives>
 	<ul>
-	  <li>
-	    Place the equation of a circle into standard form.
-	  </li>
+	  <!-- <li> -->
+	  <!--   Place the equation of a circle into standard form. -->
+	  <!-- </li> -->
 	  <li>
 	    Use the standard form of a circle to identify the center and radius.
 	  </li>
@@ -24,12 +24,14 @@
 	<p>
 	  Find the center and radius of the circle
 	  <me>(x - 3)^2 + (y - 17)^2  = 1225.</me>
+	  Sketch a graph of the equation.
 	</p>
       </exercise>
       <exercise workspace="1in">
 	<p>
 	  Find the radius of the circle with center <m>(2,3)</m> that passes through the point <m>(-1,7)</m>.
 	  Write the equation of this circle in standard form.
+	  Sketch a graph of the circle.
 	</p>
       </exercise>
       </page>
@@ -47,11 +49,11 @@
 	    Write the equation for this circle in standard form.
 	  </p>
 	</exercise>
-	<exercise workspace="1in">
-	  <p>
-	    Graph the equation
-	    <me>4x^2 - 4x + 4y^2 + 16y = 19.</me>
- 	  </p>
-	</exercise>
+	<!-- <exercise workspace="1in"> -->
+	<!--   <p> -->
+	<!--     Graph the equation -->
+	<!--     <me>4x^2 - 4x + 4y^2 + 16y = 19.</me> -->
+ 	<!--   </p> -->
+	<!-- </exercise> -->
       </page>
     </worksheet>

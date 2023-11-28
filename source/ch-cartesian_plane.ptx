@@ -12,6 +12,7 @@
   <xi:include href="sec-graphing_eqs.ptx"/>
   <xi:include href="sec-distance.ptx"/>
   <xi:include href="sec-midpoint.ptx"/>
+  <xi:include href="sec-circles.ptx"/>
 </chapter>
 
 

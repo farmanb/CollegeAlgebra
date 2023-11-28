@@ -10,7 +10,5 @@
   </introduction>
 
   <!-- <xi:include href="sec-linear_eqs.ptx"/> -->
-  <xi:include href="sec-circles.ptx"/>
 
-  
 </chapter>  
