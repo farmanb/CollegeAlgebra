@@ -43,6 +43,7 @@
       While general quadratics are slightly more complicated, we can already handle quadratics in the following form.
     </p>
 
+
     <definition>
       <title>The Vertex Form of a Quadratic</title>
       <p>
@@ -65,12 +66,12 @@
 	<h>Parabola</h>
       </idx>
       and the point <m>(0,0)</m> the <term>vertex</term> 
-	<idx>
-	  <h>Graph</h>
-	  <h>Parabola</h>
-	  <h>Vertex</h>
-	</idx>
-	of the parabola.
+      <idx>
+	<h>Graph</h>
+	<h>Parabola</h>
+	<h>Vertex</h>
+      </idx>
+      of the parabola.
     </p>
     
     <p>
@@ -80,8 +81,16 @@
 	  <p>
 	    Translate the graph of <m>y = x^2</m> horizontally by <m>h</m> units.
 	    <ul>
-	      <li>If <m>0 \lt h</m>, then the translation is to the right.</li>
-	      <li>If <m>h \lt 0</m>, then the translation is to the left.</li>
+	      <li>
+		<p>
+		  If <m>0 \lt h</m>, then the translation is to the right.
+		</p>
+	      </li>
+	      <li>
+		<p>
+		  If <m>h \lt 0</m>, then the translation is to the left.
+		</p>
+	      </li>
 	    </ul>
 	    This operation translates the vertex from <m>(0,0)</m> to <m>(h,0)</m>.
 	  </p>
@@ -90,24 +99,38 @@
 	  <p>
 	    Scale the graph of <m>(x - h)^2</m> by <m>\abs{a}</m>.
 	    <ul>
-	      <li>If <m>1 \lt a</m>, then the graph is stretched.</li>
-	      <li>If <m>a \lt 1</m>, then the graph is compressed.</li>
+	      <li>
+		<p>
+		  If <m>1 \lt a</m>, then the graph is stretched.
+		</p>
+	      </li>
+	      <li>
+		<p>If <m>a \lt 1</m>, then the graph is compressed.</p>
+	      </li>
 	    </ul>
 	    This operation fixes the vertex at <m>(h,0)</m>.
 	  </p>
 	</li>
 	<li>
 	  <p>
-	    If <m>a \lt 1</m>, reflect the graph of <m>\abs{a}(x - h)^2</m> over the <m>x</m>-axis
-	    This operation fixes the vertex at <m>(h,0)</m>.
-	  </p>.
+	    If <m>a \lt 1</m>, reflect the graph of <m>\abs{a}(x - h)^2</m> over the <m>x</m>-axis.
+	    This operation fixed the vertex at <m>(h,0)</m>.
+	  </p>
 	</li>
 	<li>
 	  <p>
 	    Translate the graph of <m>a(x - h)^2</m> vertically by <m>k</m> units.
 	    <ul>
-	      <li>If <m>k \lt 0</m>, then the translation is down.</li>
-	      <li>If <m>0 \lt k</m>, then the translation is up.</li>
+	      <li>
+		<p>
+		  If <m>k \lt 0</m>, then the translation is down.
+		</p>
+	      </li>
+	      <li>
+		<p>
+		  If <m>0 \lt k</m>, then the translation is up.
+		</p>
+	      </li>
 	    </ul>
 	    This operation translates the vertex to <m>(h,k)</m>.
 	  </p>
@@ -120,189 +143,189 @@
   </subsection>
   
   <subsection xml:id="subsec-completing_the_square">
+    <title>Completing the Square</title>
+    <introduction>
+      <p>
+	Surprisingly, every quadratic function can be placed into vertex form.
+	Paired with the observations above, this tells us the graph of <em>every</em> quadratic function is a parabola.
+	Placing a general quadratic function into vertex form will require the method of completing the square.
+      </p>
+    </introduction>
+    
+    <p>
+      Remember that when we multiply two binomials, we must distribute.
+      We can remember how to distribute using the mnemonic FOIL: <alert>F</alert>irst, <alert>O</alert>uter, <alert>I</alert>nner, <alert>L</alert>ast:
+    </p>
+    <figure>
+      <caption> Multiplying binomials using the FOIL method.</caption>
+      <image source="images/FOIL.png"/>
+    </figure>
+    <p>
+      If we use this method to multiply a binomial by itself, then we find the useful formula
+      <md>
+	<mrow>
+	  (x + h)^2 \amp = (x + h)(x + h)
+	</mrow>
+	<mrow>\amp = xx + xh + hx + hh</mrow>
+	<mrow>\amp = x^2 + hx + hx + h^2</mrow>
+	<mrow>\amp = x^2 + 2hx + h^2.</mrow>
+      </md>
+      We call a quadratic function of the form <m>y = x^2 + 2hx + h^2</m> a <term>perfect square</term>.
+      <idx>
+	<h>Perfect Square</h>
+      </idx>
+    </p>
+
+    <p>
+      Given a quadratic equation <m>f(x) = ax^2 + bx + c</m>, we can use the formula
+      <me>(x + h)^2 = x^2 + 2hx + h^2 </me>
+      to <term>complete the square</term>
+      <idx>
+	<h>Complete the Square</h>
+      </idx>
+      as follows.
+    </p>
+    <algorithm xml:id="alg-completing_the_square">
       <title>Completing the Square</title>
-      <introduction>
-	<p>
-	  Surprisingly, every quadratic function can be placed into vertex form.
-	  Paired with the observations above, this tells us the graph of <em>every</em> quadratic function is a parabola.
-	  Placing a general quadratic function into vertex form will require the method of completing the square.
-	</p>
-      </introduction>
-      
       <p>
-	Remember that when we multiply two binomials, we must distribute.
-	We can remember how to distribute using the mnemonic FOIL: <alert>F</alert>irst, <alert>O</alert>uter, <alert>I</alert>nner, <alert>L</alert>ast:
+	To complete the square with the quadratic function <m>f(x) = ax^2 + bx + c</m>
       </p>
-      <figure>
-	<caption> Multiplying binomials using the FOIL method.</caption>
-	<image source="images/FOIL.png"/>
-      </figure>
+      <ol>
+	<li>
+	  Factor an <m>a</m> from the first two terms to get
+	  <me>f(x) = a\left(x^2 + \frac{b}{a}x\right) + c.</me>
+	</li>
+	<li>
+	  Add and subtract <m>\left(\frac{b}{2a}\right)^2</m> inside the parentheses to get
+	  <me>
+	    f(x) = a\left(x^2 + \frac{b}{a}x + \left(\frac{b}{2a}\right)^2 - \left(\frac{b}{2a}\right)^2 \right) + c
+	  </me>
+	</li>
+	<li>
+	  Factor the first three terms inside the parentheses as a perfect square
+	  <me>f(x) = a\left(\left(x + \frac{b}{2a}\right)^2 - \left(\frac{b}{2a}\right)^2 \right) + c</me>
+	</li>
+	<li>
+	  Distribute the <m>a</m> through the sum
+	  <me>f(x) = a\left(x + \frac{b}{2a}\right)^2 - a\left(\frac{b}{2a}\right)^2 + c.</me>
+	</li>
+      </ol>
+    </algorithm>
+
+    <p>
+      <!-- The result of completing the square is almost the vertex form for the quadratic function. -->
+      <!-- We just need to rewrite the term -->
+      <!-- <me>x + \frac{b}{2a} = x - \left(-\frac{b}{2a}\right)</me> -->
+      <!-- so that  -->
+      <!-- <me>f(x) = a\left(x - \left(-\frac{b}{2a}\right)\right)^2 - a\left(\frac{b}{2a}\right)^2 + c.</me> -->
+      The number
+      <m>h = -\frac{b}{2a}</m>
+      is the <m>x</m>-coordinate of the vertex, and the number
+      <md>
+	<mrow>k \amp= f(h)</mrow>
+	<mrow>\amp = f\left(-\frac{b}{2a}\right)</mrow>
+	<mrow>\amp = a\left(-\frac{b}{2a} + \frac{b}{2a}\right)^2 - a\left(\frac{b}{2a}\right)^2 + c</mrow>
+	<mrow>\amp =- a\left(\frac{b}{2a}\right)^2 + c</mrow>
+	<!-- <mrow>\amp= -a\left(\frac{b^2}{4a^2}\right) + c</mrow> -->
+	<!-- <mrow>\amp= -\frac{b^2}{4a} + \frac{4ac}{4a}</mrow> -->
+	<!-- <mrow>\amp = - \frac{b^2 - 4ac}{4a}.</mrow> -->
+      </md>
+      is the <m>y</m>-coordinate of the vertex.
+    </p>
+
+    <claim xml:id="vertex_formula">
+      <title>The Vertex Formula</title>
+      <statement>
+	<p>
+	  Let <m>f(x) = ax^2 + bx + c</m> be a quadratic function.
+	  The <m>x</m>-coordinate of the vertex is
+	  <me>h = -\frac{b}{2a}</me>
+	  and the <m>y</m>-coordinate of the vertex is
+	  <me>k = f(h) = f\left(-\frac{b}{2a}\right).</me>
+	</p>
+      </statement>
+    </claim>
+
+    <remark>
       <p>
-	If we use this method to multiply a binomial by itself, then we find the useful formula
+	The vertex formula tells us the vertex form of <m>f(x) = ax^2 + bx + c</m> is
 	<md>
-	  <mrow>
-	    (x + h)^2 \amp = (x + h)(x + h)
-	  </mrow>
-	  <mrow>\amp = xx + xh + hx + hh</mrow>
-	  <mrow>\amp = x^2 + hx + hx + h^2</mrow>
-	  <mrow>\amp = x^2 + 2hx + h^2.</mrow>
+	  <mrow>a(x - h)^2 + k
+	  \amp= a\left(x - \left(-\frac{b}{2a}\right)\right)^2 + f\left(-\frac{b}{2a}\right)</mrow>
+	  <mrow>\amp= a\left(x + \frac{b}{2a}\right)^2 + f\left(-\frac{b}{2a}\right)</mrow>
 	</md>
-	We call a quadratic function of the form <m>y = x^2 + 2hx + h^2</m> a <term>perfect square</term>.
-	<idx>
-	  <h>Perfect Square</h>
-	</idx>
       </p>
-
-      <p>
-	Given a quadratic equation <m>f(x) = ax^2 + bx + c</m>, we can use the formula
-	<me>(x + h)^2 = x^2 + 2hx + h^2 </me>
-	to <term>complete the square</term>
-	<idx>
-	  <h>Complete the Square</h>
-	</idx>
-	as follows.
-      </p>
-      <algorithm xml:id="alg-completing_the_square">
-	<title>Completing the Square</title>
+    </remark>
+    
+    <example>
+      <statement>
 	<p>
-	  To complete the square with the quadratic function <m>f(x) = ax^2 + bx + c</m>
+	  Find the vertex form of the quadratic function <m>f(x) = x^2 + 4x + 5</m>.
 	</p>
-	<ol>
-	  <li>
-	    Factor an <m>a</m> from the first two terms to get
-	    <me>f(x) = a\left(x^2 + \frac{b}{a}x\right) + c.</me>
-	  </li>
-	  <li>
-	    Add and subtract <m>\left(\frac{b}{2a}\right)^2</m> inside the parentheses to get
-	    <me>
-	      f(x) = a\left(x^2 + \frac{b}{a}x + \left(\frac{b}{2a}\right)^2 - \left(\frac{b}{2a}\right)^2 \right) + c
-	    </me>
-	  </li>
-	  <li>
-	    Factor the first three terms inside the parentheses as a perfect square
-	    <me>f(x) = a\left(\left(x + \frac{b}{2a}\right)^2 - \left(\frac{b}{2a}\right)^2 \right) + c</me>
-	  </li>
-	  <li>
-	    Distribute the <m>a</m> through the sum
-	    <me>f(x) = a\left(x + \frac{b}{2a}\right)^2 - a\left(\frac{b}{2a}\right)^2 + c.</me>
-	  </li>
-	</ol>
-      </algorithm>
-
-      <p>
-	<!-- The result of completing the square is almost the vertex form for the quadratic function. -->
-	<!-- We just need to rewrite the term -->
-	<!-- <me>x + \frac{b}{2a} = x - \left(-\frac{b}{2a}\right)</me> -->
-	<!-- so that  -->
-	<!-- <me>f(x) = a\left(x - \left(-\frac{b}{2a}\right)\right)^2 - a\left(\frac{b}{2a}\right)^2 + c.</me> -->
-	The number
-	<m>h = -\frac{b}{2a}</m>
-	is the <m>x</m>-coordinate of the vertex, and the number
+      </statement>
+      <solution>
+	<p>
+	  The <m>x</m>-coordinate of the vertex is
+	  <me>-\frac{4}{2(1)} = -\frac{4}{2} = -2</me>
+	  and the <m>y</m>-coordinate of the vertex is
+	  <me>f(-2) = (-2)^2 + 4(-2) + 5
+	  = 4 - 8 + 5
+	  = 1</me>
+	  Therefore the vertex form of the quadratic function
+	  <me>(x - (-2))^2 + 1 = (x + 2)^2 + 1.</me>
+	  <!-- When the coefficient on <m>x^2</m> is 1, we can skip the first step and the last step: -->
+	  <!-- </p> -->
+	  <!-- <md> -->
+	  <!--   <mrow>f(x) \amp = x^2 + 4x + 5 \amp\amp \text{Add and subtract}\ \left(\frac{4}{2}\right)^2 = 2^2</mrow> -->
+	  <!--   <mrow>\amp= x^2 + 4x + 2^2 - 2^2 + 5 \amp\amp \text{Factor}</mrow> -->
+	  <!--   <mrow>\amp = (x + 2)^2 - 2^2 + 5 \amp\amp \text{Simplify}</mrow> -->
+	  <!--   <mrow>\amp = (x + 2)^2 - 4 + 5 \amp\amp \text{Simplify}</mrow> -->
+	  <!--   <mrow>\amp = (x + 2)^2 + 1.</mrow> -->
+	  <!-- </md> -->
+	  <!-- <p> -->
+	  <!--   The vertex of the quadratic function <m>f(x) = x^2 + 4x + 5</m> is <m>(-2, 1)</m>. -->
+	</p>
+      </solution>
+    </example>
+    <example>
+      <statement>
+	<p>
+	  Find the vertex of the quadratic function <m>f(x) = 3x^2 - 4x + 5</m>.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  The <m>x</m>-coordinate of the vertex is
+	  <me>-\frac{(-4)}{2(3)} = \frac{4}{2(3)} = \frac{2}{3}</me>
+	  and the <m>y</m>-coordinate of the vertex is
+	</p>
 	<md>
-	  <mrow>k \amp= f(h)</mrow>
-	  <mrow>\amp = f\left(-\frac{b}{2a}\right)</mrow>
-	  <mrow>\amp = a\left(-\frac{b}{2a} + \frac{b}{2a}\right)^2 - a\left(\frac{b}{2a}\right)^2 + c</mrow>
-	  <mrow>\amp =- a\left(\frac{b}{2a}\right)^2 + c</mrow>
-	  <!-- <mrow>\amp= -a\left(\frac{b^2}{4a^2}\right) + c</mrow> -->
-	  <!-- <mrow>\amp= -\frac{b^2}{4a} + \frac{4ac}{4a}</mrow> -->
-	  <!-- <mrow>\amp = - \frac{b^2 - 4ac}{4a}.</mrow> -->
+	  <mrow>f\left(\frac{2}{3}\right) \amp= 3\left(\frac{2}{3}\right)^2 - 4\left(\frac{2}{3}\right) + 5</mrow>
+	  <mrow>\amp = 3\left(\frac{4}{9}\right) - \frac{8}{3} + 5</mrow>
+	  <mrow>\amp = \frac{4}{3} - \frac{8}{3} + \frac{15}{3}</mrow>
+	  <mrow>\amp = \frac{4 - 8 + 15}{3}</mrow>
+	  <mrow>\amp = \frac{11}{3}.</mrow>
 	</md>
-	is the <m>y</m>-coordinate of the vertex.
-      </p>
-
-      <claim xml:id="vertex_formula">
-	<title>The Vertex Formula</title>
-	<statement>
-	  <p>
-	    Let <m>f(x) = ax^2 + bx + c</m> be a quadratic function.
-	    The <m>x</m>-coordinate of the vertex is
-	    <me>h = -\frac{b}{2a}</me>
-	    and the <m>y</m>-coordinate of the vertex is
-	    <me>k = f(h) = f\left(-\frac{b}{2a}\right).</me>
-	  </p>
-	</statement>
-      </claim>
-
-      <remark>
-	<p>
-	  The vertex formula tells us the vertex form of <m>f(x) = ax^2 + bx + c</m> is
-	  <md>
-	    <mrow>a(x - h)^2 + k
-	    \amp= a\left(x - \left(-\frac{b}{2a}\right)\right)^2 + f\left(-\frac{b}{2a}\right)</mrow>
-	    <mrow>\amp= a\left(x + \frac{b}{2a}\right)^2 + f\left(-\frac{b}{2a}\right)</mrow>
-	  </md>
-	</p>
-      </remark>
-      
-      <example>
-	<statement>
-	  <p>
-	    Find the vertex form of the quadratic function <m>f(x) = x^2 + 4x + 5</m>.
-	  </p>
-	</statement>
-	<solution>
-	  <p>
-	    The <m>x</m>-coordinate of the vertex is
-	    <me>-\frac{4}{2(1)} = -\frac{4}{2} = -2</me>
-	    and the <m>y</m>-coordinate of the vertex is
-	    <me>f(-2) = (-2)^2 + 4(-2) + 5
-	    = 4 - 8 + 5
-	    = 1</me>
-	    Therefore the vertex form of the quadratic function
-	    <me>(x - (-2))^2 + 1 = (x + 2)^2 + 1.</me>
-	    <!-- When the coefficient on <m>x^2</m> is 1, we can skip the first step and the last step: -->
-	    <!-- </p> -->
-	    <!-- <md> -->
-	    <!--   <mrow>f(x) \amp = x^2 + 4x + 5 \amp\amp \text{Add and subtract}\ \left(\frac{4}{2}\right)^2 = 2^2</mrow> -->
-	    <!--   <mrow>\amp= x^2 + 4x + 2^2 - 2^2 + 5 \amp\amp \text{Factor}</mrow> -->
-	    <!--   <mrow>\amp = (x + 2)^2 - 2^2 + 5 \amp\amp \text{Simplify}</mrow> -->
-	    <!--   <mrow>\amp = (x + 2)^2 - 4 + 5 \amp\amp \text{Simplify}</mrow> -->
-	    <!--   <mrow>\amp = (x + 2)^2 + 1.</mrow> -->
-	    <!-- </md> -->
-	    <!-- <p> -->
-	    <!--   The vertex of the quadratic function <m>f(x) = x^2 + 4x + 5</m> is <m>(-2, 1)</m>. -->
-	  </p>
-	</solution>
-      </example>
-      <example>
-	<statement>
-	  <p>
-	    Find the vertex of the quadratic function <m>f(x) = 3x^2 - 4x + 5</m>.
-	  </p>
-	</statement>
-	<solution>
-	  <p>
-	    The <m>x</m>-coordinate of the vertex is
-	    <me>-\frac{(-4)}{2(3)} = \frac{4}{2(3)} = \frac{2}{3}</me>
-	    and the <m>y</m>-coordinate of the vertex is
-	  </p>
-	  <md>
-	    <mrow>f\left(\frac{2}{3}\right) \amp= 3\left(\frac{2}{3}\right)^2 - 4\left(\frac{2}{3}\right) + 5</mrow>
-	    <mrow>\amp = 3\left(\frac{4}{9}\right) - \frac{8}{3} + 5</mrow>
-	    <mrow>\amp = \frac{4}{3} - \frac{8}{3} + \frac{15}{3}</mrow>
-	    <mrow>\amp = \frac{4 - 8 + 15}{3}</mrow>
-	    <mrow>\amp = \frac{11}{3}.</mrow>
-	  </md>
 	<p>
 	  Therefore the vertex form of the quadratic function is
 	  <me>f(x) = 3\left(x - \frac{2}{3}\right)^2 + \frac{11}{3}.</me>
 	</p>
-	  <!-- <p> -->
-	  <!--   When the coefficient on <m>x</m> is a negative number, we can still use the formula by rewriting the subtraction as addition with a negative number. -->
-	  <!-- </p> -->
-	  <!-- <md> -->
-	  <!--   <mrow>f(x) \amp = 3x^2 - 4x + 5 \amp\amp \text{Rewrite}</mrow> -->
-	  <!--   <mrow>\amp = 3x^2 + (-4)x + 5 \amp\amp \text{Factor}\ 3\ \text{from the first two terms}</mrow> -->
-	  <!--   <mrow>\amp= 3\left(x^2 + \left(-\frac{4}{3}\right)x\right) + 5 \amp\amp \text{Add and subtract}\ \left(\frac{\frac{4}{3}}{2}\right)^2 = \left(\frac{2}{3}\right)^2</mrow> -->
-	  <!--   <mrow>\amp = 3\left(x^2 + \left(-\frac{4}{3}\right)x +  \left(-\frac{2}{3}\right)^2 - \left(-\frac{2}{3}\right)^2\right) + 5\amp\amp \text{Factor}</mrow> -->
-	  <!--   <mrow>\amp = 3\left(\left(x + \left(-\frac{2}{3}\right)\right)^2 - \frac{4}{9}\right) + 5 \amp\amp \text{Distribute}</mrow> -->
-	  <!--   <mrow>\amp = 3\left(x - \frac{2}{3}\right)^2 - \frac{4}{3} + \frac{15}{3} \amp\amp \text{Simplify}</mrow> -->
-	  <!--   <mrow>\amp = 3\left(x - \frac{2}{3}\right)^2 + \frac{11}{3}.</mrow> -->
-	  <!-- </md> -->
-	  <!-- <p> -->
-	  <!--   The vertex of the quadratic function <m>f(x) = 3x^2 -4x + 5</m> is <m>\left(\frac{2}{3}, \frac{11}{3}\right).</m> -->
-	  <!-- </p> -->
-	</solution>
-      </example>
-    </subsection>
+	<!-- <p> -->
+	<!--   When the coefficient on <m>x</m> is a negative number, we can still use the formula by rewriting the subtraction as addition with a negative number. -->
+	<!-- </p> -->
+	<!-- <md> -->
+	<!--   <mrow>f(x) \amp = 3x^2 - 4x + 5 \amp\amp \text{Rewrite}</mrow> -->
+	<!--   <mrow>\amp = 3x^2 + (-4)x + 5 \amp\amp \text{Factor}\ 3\ \text{from the first two terms}</mrow> -->
+	<!--   <mrow>\amp= 3\left(x^2 + \left(-\frac{4}{3}\right)x\right) + 5 \amp\amp \text{Add and subtract}\ \left(\frac{\frac{4}{3}}{2}\right)^2 = \left(\frac{2}{3}\right)^2</mrow> -->
+	<!--   <mrow>\amp = 3\left(x^2 + \left(-\frac{4}{3}\right)x +  \left(-\frac{2}{3}\right)^2 - \left(-\frac{2}{3}\right)^2\right) + 5\amp\amp \text{Factor}</mrow> -->
+	<!--   <mrow>\amp = 3\left(\left(x + \left(-\frac{2}{3}\right)\right)^2 - \frac{4}{9}\right) + 5 \amp\amp \text{Distribute}</mrow> -->
+	<!--   <mrow>\amp = 3\left(x - \frac{2}{3}\right)^2 - \frac{4}{3} + \frac{15}{3} \amp\amp \text{Simplify}</mrow> -->
+	<!--   <mrow>\amp = 3\left(x - \frac{2}{3}\right)^2 + \frac{11}{3}.</mrow> -->
+	<!-- </md> -->
+	<!-- <p> -->
+	<!--   The vertex of the quadratic function <m>f(x) = 3x^2 -4x + 5</m> is <m>\left(\frac{2}{3}, \frac{11}{3}\right).</m> -->
+	<!-- </p> -->
+      </solution>
+    </example>
+  </subsection>
 </section>
