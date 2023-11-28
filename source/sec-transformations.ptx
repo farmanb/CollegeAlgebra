@@ -35,9 +35,11 @@
 
   <subsection>
     <title>Translation</title>
-    <p>
-      Throughout this section, assume that the graph of the function <m>y = f(x)</m> is known.
-    </p>
+    <introduction>
+      <p>
+	Throughout this section, assume that the graph of the function <m>y = f(x)</m> is known.
+      </p>
+    </introduction>
     
     <subsubsection>
       <title>Vertical Translation</title>
