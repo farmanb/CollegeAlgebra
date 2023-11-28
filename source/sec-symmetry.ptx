@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-symmetry" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Symmetry</title>
+  <objectives>
+    <ul>
+      <li>
+	Identify if a function has <m>y</m>-axis symmetry.
+      </li>
+      <li>
+	Identify if a function has origin symmetry.
+      </li>
+    </ul>
+  </objectives>
+
+  <introduction>
+    <p>
+      Functions with certain types of symmetry often have important properties.
+    </p>
+  </introduction>
+  
+  <definition>
+    <p>
+      A function <m>f</m> has <term><m>y</m>-axis symmetry</term>
+      <idx>
+	<h>Function</h>
+	<h>Symmetry</h>
+	<h><m>y</m>-axis</h>
+      </idx>
+      if for all <m>x</m> in the domain of <m>f</m>,
+      <me>f(-x) = f(x)</me>.
+    </p>
+  </definition>
+
+  <p>
+    As we have seen in <xref ref="sec-transformations"/>, the graph of <m>y = f(-x)</m> is obtained by reflecting the graph of <m>y = f(x)</m> across the <m>y</m>-axis.
+    Since a function with <m>y</m>-axis symmetry satisfies <m>f(-x) = f(x)</m>, this tells us that the portion of the graph on either side of the <m>y</m>-axis are mirror images of one another.
+  </p>
+
+  <example>
+    <p>
+      The function <m>f(x) = x^2</m> has <m>y</m>-axis syemmetry since
+      <me>f(-x) = (-x)^2 = (-1)^2 x^2 = x^2 = f(x).</me>
+      This tells us <xref ref="fig-parabola" text="title"/> is symmetric about the <m>y</m>-axis.
+    </p>
+  </example>
+  
+</section>
