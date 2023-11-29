@@ -50,9 +50,18 @@
       <image>
 	<latex-image>
 	  \begin{tikzpicture}
-	  \def\a{0}
-	  \draw [color=blue,thick] plot[smooth,samples=500,domain=\a:\a+2] (\x,{(\x-\a)^2});
-	  \draw [color=red,thick] plot[smooth,samples=500,domain=-\a-2:-\a] (\x,{(\x + \a)^2});
+	  \path [draw, help lines, opacity=.5]  (-4,0) grid (4,4);
+
+	  \draw [very thick,->] (-4,0) -- (4+.2,0) node [anchor=south] {$x$};
+	  \draw [very thick,->] (0,0) -- (0,4+.2) node [anchor=west] {$y$};
+
+	  \node at (0,0) {$\bullet$};
+	  
+	  \begin{scope}
+	  \clip (-4,0) rectangle (4,4);
+	  \draw [color=red,thick] plot[smooth,samples=500,domain=-4:0] (\x,{(\x)^2});
+	  \draw [color=blue,thick] plot[smooth,samples=500,domain=0:4] (\x,{(\x)^2});
+	  \end{scope}
 
 	  \end{tikzpicture}
 	</latex-image>
@@ -66,9 +75,19 @@
       <image>
 	<latex-image>
 	  \begin{tikzpicture}
-	  \def\a{0}
-	  \draw [color=red,thick] plot[smooth,samples=500,domain=\a:\a+2] (\x,{(\x-\a)^2});
-	  \draw [color=blue,thick] plot[smooth,samples=500,domain=-\a-2:-\a] (\x,{(\x + \a)^2});
+	  \path [draw, help lines, opacity=.5]  (-4,0) grid (4,4);
+
+	  \draw [very thick,->] (-4,0) -- (4+.2,0) node [anchor=south] {$x$};
+	  \draw [very thick,->] (0,0) -- (0,4+.2) node [anchor=west] {$y$};
+
+	  \node at (0,0) {$\bullet$};
+	  
+	  \begin{scope}
+	  \clip (-4,0) rectangle (4,4);
+	  \draw [color=blue,thick] plot[smooth,samples=500,domain=-4:0] (\x,{(\x)^2});
+	  \draw [color=red,thick] plot[smooth,samples=500,domain=0:4] (\x,{(\x)^2});
+	  \end{scope}
+
 	  \end{tikzpicture}
 	</latex-image>
       </image>
@@ -186,72 +205,73 @@
 	</latex-image>
       </image>
     </figure>
-    <!-- <p> -->
-    <!--   First, we rotate the graph by 90 degrees. -->
-    <!--   We note that this rotation does not change the shape of the graph, so the distance of our marked point from the origin should not change. -->
-    <!-- </p> -->
-    <!-- <figure> -->
-    <!--   <image> -->
-    <!-- 	<latex-image> -->
-    <!-- 	  \begin{tikzpicture} -->
+    <!-- Print does not support GIFs, so this is the alternate for the printed version. -->
+    <p component="print">
+      First, we rotate the graph by 90 degrees.
+      We note that this rotation does not change the shape of the graph, so the distance of our marked point from the origin should not change.
+    </p>
+    <figure component="print">
+      <image>
+	<latex-image>
+	  \begin{tikzpicture}
 
-    <!-- 	  \path [draw, help lines, opacity=.5]  (-4,-4) grid (4,4); -->
+	  \path [draw, help lines, opacity=.5]  (-4,-4) grid (4,4);
 
-    <!-- 	  \draw [very thick,->] (-4,0) -\- (4+.2,0) node [anchor=south] {$x$}; -->
-    <!-- 	  \draw [very thick,->] (0,-4) -\- (0,4+.2) node [anchor=west] {$y$}; -->
+	  \draw [very thick,->] (-4,0) -- (4+.2,0) node [anchor=south] {$x$};
+	  \draw [very thick,->] (0,-4) -- (0,4+.2) node [anchor=west] {$y$};
 	  
-    <!-- 	  \draw [color=blue,thick,dashed] plot[smooth,samples=500,domain={-4^(1/3)}:{4^(1/3)}] (\x,\x^3); -->
-    <!-- 	  \draw [thick,->] plot [domain=45:130] ({sqrt(2)*cos(\x)}, {sqrt(2)*sin(\x)}) node [midway,above,yshift=45pt,xshift=-10pt] {$90^\circ$}; -->
+	  \draw [color=blue,thick,dashed] plot[smooth,samples=500,domain={-4^(1/3)}:{4^(1/3)}] (\x,\x^3);
+	  \draw [thick,->] plot [domain=45:130] ({sqrt(2)*cos(\x)}, {sqrt(2)*sin(\x)}) node [midway,above,yshift=45pt,xshift=-10pt] {$90^\circ$};
 
-    <!-- 	  \draw [color=blue,thick] plot[smooth,samples=500,domain={-4}:{4)}] (\x,{-\x^(1/3)}); -->
+	  \draw [color=blue,thick] plot[smooth,samples=500,domain={-4}:{4)}] (\x,{-\x^(1/3)});
 
-    <!-- 	  \node at (1,1) {$\bullet$}; -->
-    <!-- 	  \node at (-1,1) {$\bullet$}; -->
+	  \node at (1,1) {$\bullet$};
+	  \node at (-1,1) {$\bullet$};
 
-    <!-- 	  \node at (0,0) {$\bullet$}; -->
-    <!-- 	  \node [below right] at (0,0) {$(0,0)$}; -->
+	  \node at (0,0) {$\bullet$};
+	  \node [below right] at (0,0) {$(0,0)$};
 	  
-    <!-- 	  \end{tikzpicture} -->
-    <!-- 	</latex-image> -->
-    <!--   </image> -->
-    <!--   <caption>The graph of <m>y=x^3</m> rotated 90 degrees counter-clockwise.</caption> -->
-    <!-- </figure> -->
-    <!-- <p> -->
-    <!--   Rotating once more by 90 degrees, we still have not changed the distance of our marked point from the origin. -->
-    <!--   The graph looks the same, except we have moved our marked point from the first quadrant into the third quadrant. -->
-    <!-- </p> -->
-    <!-- <figure> -->
-    <!--   <image> -->
-    <!-- 	<latex-image> -->
-    <!-- 	  \begin{tikzpicture} -->
+	  \end{tikzpicture}
+	</latex-image>
+      </image>
+      <caption>The graph of <m>y=x^3</m> rotated 90 degrees counter-clockwise.</caption>
+    </figure>
+    <p component="print">
+      Rotating once more by 90 degrees, we still have not changed the distance of our marked point from the origin.
+      The graph looks the same, except we have moved our marked point from the first quadrant into the third quadrant.
+    </p>
+    <figure component="print">
+      <image>
+	<latex-image>
+	  \begin{tikzpicture}
 
-    <!-- 	  \path [draw, help lines, opacity=.5]  (-4,-4) grid (4,4); -->
+	  \path [draw, help lines, opacity=.5]  (-4,-4) grid (4,4);
 
-    <!-- 	  \draw [very thick,->] (-4,0) -\- (4+.2,0) node [anchor=south] {$x$}; -->
-    <!-- 	  \draw [very thick,->] (0,-4) -\- (0,4+.2) node [anchor=west] {$y$}; -->
+	  \draw [very thick,->] (-4,0) -- (4+.2,0) node [anchor=south] {$x$};
+	  \draw [very thick,->] (0,-4) -- (0,4+.2) node [anchor=west] {$y$};
 
 
-    <!-- 	  \draw [color=blue,thick] plot[smooth,samples=500,domain={-4^(1/3)}:{4^(1/3)}] (\x,\x^3); -->
-    <!-- 	  \draw [thick,->] plot [domain=135:220] ({sqrt(2)*cos(\x)}, {sqrt(2)*sin(\x)}) node [midway,above,xshift=-50pt,yshift=-15pt] {$90^\circ$}; -->
+	  \draw [color=blue,thick] plot[smooth,samples=500,domain={-4^(1/3)}:{4^(1/3)}] (\x,\x^3);
+	  \draw [thick,->] plot [domain=135:220] ({sqrt(2)*cos(\x)}, {sqrt(2)*sin(\x)}) node [midway,above,xshift=-50pt,yshift=-15pt] {$90^\circ$};
 
-    <!-- 	  \draw [color=blue,thick,dashed] plot[smooth,samples=500,domain={-4}:{4)}] (\x,{-\x^(1/3)}); -->
+	  \draw [color=blue,thick,dashed] plot[smooth,samples=500,domain={-4}:{4)}] (\x,{-\x^(1/3)});
 
-    <!-- 	  \node at (-1,-1) {$\bullet$}; -->
-    <!-- 	  \node at (-1,1) {$\bullet$}; -->
+	  \node at (-1,-1) {$\bullet$};
+	  \node at (-1,1) {$\bullet$};
 
-    <!-- 	  \node at (0,0) {$\bullet$}; -->
-    <!-- 	  \node [below right] at (0,0) {$(0,0)$}; -->
+	  \node at (0,0) {$\bullet$};
+	  \node [below right] at (0,0) {$(0,0)$};
 	  
-    <!-- 	  \end{tikzpicture} -->
-    <!-- 	</latex-image> -->
-    <!--   </image> -->
-    <!--   <caption>The graph of <m>y=x^3</m> rotated 180 degrees counter-clockwise.</caption> -->
-    <!-- </figure> -->
-    <p>
+	  \end{tikzpicture}
+	</latex-image>
+      </image>
+      <caption>The graph of <m>y=x^3</m> rotated 180 degrees counter-clockwise.</caption>
+    </figure>
+    <p component="web">
       We can see what happens as we rotate the graph around the origin in the animation below.
       Note the rotation does not change the shape of the graph, so the distance from the marked point to the origin stays the same.
     </p>
-    <figure>
+    <figure component="web">
       <image>
 	<image source="images/origin_symmetry.gif"/>
       </image>
@@ -260,8 +280,6 @@
     <p>
       The path the marked point follows through the rotation traces out a piece of a circle.
       Plotting the entirety of this circle, we can see the starting and ending location of the marked point create a diameter.
-      <!-- Since the rotated point is the same distance away from the origin as our original point, these two points must lie on the same circle. -->
-      <!-- Moreover, a line connecting these points through the origin will give us a diameter. -->
     </p>
     <figure>
       <image>
