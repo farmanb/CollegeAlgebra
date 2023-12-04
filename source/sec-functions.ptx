@@ -175,7 +175,7 @@
     <p>
       From the <xref ref="def-graph" text="title"/>, the graph of the vertical line <m>x = a</m> is the set
       <me>\left\{(a,y) \;\middle\vert\; y \in \R\right\},</me>
-      and the <xref ref="def-graph_function" text="title"/> of <m>f</m> is the set of
+      and the graph of <m>f</m> is the set of
       <me>\left\{(x, x + 2) \;\middle\vert\; x \in R \right\}.</me>
       To say these graphs intersect is to say there is a point <m>(x,y)</m> in the intersection of these two sets.
       The condition for membership on the graph of <m>x = a</m> determines the <m>x</m> value of such a point and the definition of the graph of <m>f</m> determines the <m>y</m>-coordinate:
@@ -183,10 +183,10 @@
       This tells us the line <m>x = a</m> intersects the graph of <m>f</m> at the single point <m>(a,a+2)</m>.
     </p>
     <p>
-      We can more readily see this graphically from  <xref ref="fig-vertical_line_test_example"/>.
+      We can more readily see this graphically in <xref ref="fig-vertical_line_test_example"/>.
     </p>
     <figure xml:id="fig-vertical_line_test_example">
-      <image>
+      <image xml:id="img-vertical_line_text_example">
 	<latex-image>
 	  <xi:include parse="text" href="tex/vertical_line_test.tex"/>
 	</latex-image>
