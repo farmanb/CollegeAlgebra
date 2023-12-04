@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-linear_functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Polynomial and Rational Functions</title>
+
+  <introduction>
+    <p>
+      In this chapter, we study polynomial functions.
+    </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-polynomials.ptx"/>
+  <xi:include href="sec-linear_functions.ptx" />
+  <xi:include href="sec-lines.ptx"/>
+  <xi:include href="sec-perp_parallel.ptx"/>
+  <xi:include href="sec-quadratic_functions.ptx"/>
+  <xi:include href="sec-rational_functions.ptx"/>
+
+  <!-- <xi:include href="sec-linear_ineq.ptx"/> -->
+</chapter>
+
