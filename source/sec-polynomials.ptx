@@ -3,6 +3,15 @@
 <section xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Polynomial Functions</title>
 
+  <introduction>
+    <p>
+      The simplest algebraic functions are constructed using the operations of addition and multiplication with a variable.
+      While simple to construct, it is often difficult or even impossible to answer basic questions about these functions in general.
+      However, these functions are extraordinarily important in nearly every branch of mathematics.
+      We discuss foundational results about general polynomials in this section, and specialize to some easy to classify cases in the later sections.
+    </p>
+  </introduction>
+
   <definition>
     <title>Polynomial Function</title>
     <p>
@@ -11,75 +20,292 @@
 	<h>Function</h>
 	<h>Polynomial</h>
       </idx>
-      of <term>degree</term>
+      of is a function of the form
+      <me>f(x) = a_nx^n + a_{n-1}x^{n-1} + \cdots + a_1x + a_0,</me>
+      where <m>n</m> is an integer, <m>a_0, a_1, \ldots, a_n</m> are numbers and <m>a_n \neq 0</m>.
+    </p>
+    <p>
+      We say <m>f</m> is a polynomial of <term>degree</term>
       <idx>
 	<h>Function</h>
 	<h>Polynomial</h>
 	<h>Degree</h>
       </idx>
-      <m>n</m> is a function of the form
-      <me>f(x) = a_nx^n + a_{n-1}x^{n-1} + \cdots + a_1x + a_0,</me>
-      where each of <m>a_0, a_1, \ldots, a_n</m> is a number called the <term>coefficient</term>
+      <m>n</m> and write <m>\deg{f} = n</m>.
+      <usage>
+	<notation>
+	  <m>\deg{f}</m>
+	</notation>
+      </usage>
+      The numbers <m>a_0, a_1, \ldots, a_n</m> are called the <term>coefficient</term>
       <idx>
 	<h>Function</h>
 	<h>Polynomial</h>
 	<h>Coefficient</h>
       </idx>
-      of <m>1, x, \ldots, x^n</m>, respectively, and <m>a_n \neq 0</m>.
+      of <m>1, x, \ldots, x^n</m>, respectively.
     </p>
   </definition>
+  
+  <subsection>
+    <title>Roots of Polynomials</title>
 
-  <definition>
-    <title>Root</title>
-    A <term>root</term>
-    <idx>
-      <h>Function</h>
-      <h>Polynomial</h>
-      <h>Root</h>
-    </idx>
-    of the polynomial function <m>f(x) = a_nx^n + a_{n-1}x^{n-1} + \cdots + a_1x + a_0</m> is a number, <m>r</m>, such that
-    <me>0 = f(r) = a_nr^n + a_{n-1}r^{n-1} + \cdots + a_1 r + a_0.</me>
-  </definition>
-
-  <definition>
     <p>
-      Assume <m>f</m> and <m>g</m> are polynomials.
-      The polynomial <m>g</m> <term>divides</term>
+      Polynomial functions are most interesting because they are relatively simple functions that allow us to model real world phenomena.
+    </p>
+    <example>
+      <p>
+	Assume an object is thrown straight up in the air.
+	If we let <m>h_0</m> denote the distance from the thrower's hand to the ground when the object is released, and let <m>v_0</m> denote the velocity of the object in meters/second as it leaves the thrower's hand, then the height of the object as a function of time can be expressed using the polynomial
+	<me>h(t) = -4.9t^2 + v_0t + h_0.</me>
+      </p>
+    </example>
+    
+    <question>
+      <p>
+	How long will it take for the object to return to the hand of the thrower?
+      </p>
+    </question>
+
+    <p>
+      To answer this question, we want the solutions to the equation
+      <me>-4.9t^2 + v_0t + h_0 = h_0.</me>
+      If we subtract <m>h_0</m> from both sides of the equation, then it is equivalent to find solutions to the polynomial equation
+      <me>-4.9t^2 + v_0t = 0.</me>
+      Questions of this type arise frequently when discussing polynomials.
+    </p>
+    
+    <definition>
+      <title>Root</title>
+      A <term>root</term>
       <idx>
 	<h>Function</h>
 	<h>Polynomial</h>
-	<h>Divides</h>
+	<h>Root</h>
       </idx>
-      the polynomial <m>f</m> if there exists a polynomial <m>q</m> such that
-      <me>f(x) = q(x)g(x).</me>
-    </p>
-  </definition>
-  
-  <theorem>
-    <statement>
-      <p>
-	Assume <m>f</m> is a polynomial of degree <m>n</m>.
-	The number <m>r</m> is a root of <m>f</m> if and only if <m>(x - r)</m> divides <m>f</m>.
-      </p>
-    </statement>
-  </theorem>
+      of the polynomial
+      <me>f(x) = a_nx^n + a_{n-1}x^{n-1} + \cdots + a_1x + a_0</me>
+      is a number, <m>r</m>, such that
+      <me>0 = f(r) = a_nr^n + a_{n-1}r^{n-1} + \cdots + a_1 r + a_0.</me>
+    </definition>
 
-  <definition>
     <p>
-      Assume <m>f</m> is a polynomial and <m>r</m> is a root of <m>f</m>.
-      The <term>multiplicity</term> of <m>r</m> is the largest integer <m>m</m> such that <m>(x - r)^m</m> divides <m>f</m>
+      Questions about roots of polynomials have been posed and studied for millenia.
+      One of the simplest questions asks whether we can find a formula that will produce the roots of a general polynomial of a certain degree in terms of its coefficients.
     </p>
-  </definition>
-  
-  <theorem xml:id="thm-fundamental_theorem">
-    <title>The Fundamental Theorem of Algbera</title>
-    <creator>Carl Friedrich Gauss</creator>
-    <statement>
+    
+    <question>
       <p>
-	Every polynomial of degree <m>n > 0</m> has at least one root, which may be a complex number of the form
-	<m>a + bi = a + b\sqrt{-1}</m>.
+	Is there a formula to find all of the roots of the polynomial <m>f(x) = a_nx^n + \cdots + a_0</m> in terms of the coefficients?
       </p>
-    </statement>
-  </theorem>
+    </question>
 
-</section>
+    <p>
+      In general, the answer to this question is deeply unsatisfying.
+      We will find formulas for polynomials of degree 1 in <xref ref="sec-linear_functions"/> and of degree 2 in <xref ref="sec-quadratic_functions"/>.
+      While general formulas exist for polynomials of degree 3 and degree 4, they are beyond the scope of this text.
+      However, there are no such general formulas for polynomials of degree 5 and higher.
+      This means we will need to develop other techniques for finding roots of polynomials.
+    </p>
+
+    <theorem xml:id="thm-rational_root">
+      <title>The Rational Root Theorem</title>
+      <statement>
+	<p>
+	  Assume <m>p</m> and <m>q</m> are integers.
+	  If <m>r = p/q</m> is a root of the polynomial
+	  <me>f(x) = a_nx^n + a_{n-1}x^{n-1} + \cdots + a_1x + a_0,</me>
+	  then <m>p</m> is a divisor of <m>a_0</m> and <m>q</m> is a divisor of <m>a_n</m>.
+	</p>
+      </statement>
+    </theorem>
+
+    <example>
+      <p>
+	Find all rational roots of <m>f(x) = 2x^4 - 7x^3 + 5x^2 - 7x + 3</m>.
+      </p>
+      <solution>
+	<p>
+	  The divisors of <m>2</m> are <m>\pm 2</m> and <m>\pm 1</m>.
+	  The divisors of <m>3</m> are <m>\pm 1</m>, <m>\pm 3</m>.
+	  <xref ref="thm-rational_root" text="title"/> tells us the only possible rational numbers that can be roots of <m>f</m> are
+	  <me>\pm 3,\, \pm \frac{3}{2},\, \pm 1,\,\text{and}\ \pm\frac{1}{2}.</me>
+	  We can check each of these by evaluating the function at these rational numbers.
+	  <md>
+	    <mrow> f(3) \amp= 2(3)^4 - 7(3)^3 + 5(3)^2 - 7(3) + 3 = 0 </mrow>
+	    <mrow>f(-3) \amp= 2(-3)^4 - 7(-3)^3 + 5(-3)^2 - 7(-3) + 3 = 420</mrow>
+	    <mrow>f\left(\frac{3}{2}\right) \amp= 2\left(\frac{3}{2}\right)^4 - 7\left(\frac{3}{2}\right)^3 + 5\left(\frac{3}{2}\right)^2 - 7\left(\frac{3}{2}\right) + 3 = -\frac{39}{4}</mrow>
+	    <mrow>f\left(-\frac{3}{2}\right) \amp= 2\left(-\frac{3}{2}\right)^4 - 7\left(-\frac{3}{2}\right)^3 + 5\left(-\frac{3}{2}\right)^2 - 7\left(-\frac{3}{2}\right) + 3  = \frac{117}{2}</mrow>
+	    <mrow>f(1) \amp= 2(1)^4 - 7(1)^3 + 5(1)^2 - 7(1) + 3 = -4</mrow>
+	    <mrow>f(-1)\amp = 2(-1)^4 - 7(-1)^3 + 5(-1)^2 - 7(-1) + 3 = 24</mrow>
+	    <mrow>f\left(\frac{1}{2}\right) \amp= 2\left(\frac{1}{2}\right)^4 - 7\left(\frac{1}{2}\right)^3 + 5\left(\frac{1}{2}\right)^2 - 7\left(\frac{1}{2}\right) + 3 = 0</mrow>
+	    <mrow>f\left(-\frac{1}{2}\right)\amp = 2\left(-\frac{1}{2}\right)^4 - 7\left(-\frac{1}{2}\right)^3 + 5\left(-\frac{1}{2}\right)^2 - 7\left(-\frac{1}{2}\right) + 3 = \frac{35}{4}.</mrow>
+	  </md>
+	  Therefore the only rational roots of the polynomial <m>f</m> are <m>x = 3</m> and <m>x = 1/2</m>.
+	</p>
+      </solution>
+    </example>
+  </subsection>
+  
+  <subsection>
+    <title>Polynomial Division</title>
+    <p>
+      Another method for finding roots that is often paired with <xref ref="thm-rational_root" text="title"/> is division.
+      Recall that if we have an integer <m>n</m> and a smaller integer, <m>d</m>, then we can always find integers <m>q</m> and <m>r</m> with <m>r \lt d</m> such that
+      <me>n = qd + r.</me>
+      There is an analogous result for polynomials.
+    </p>
+    
+    <theorem xml:id="thm-polynomial_division">
+      <title>Polynomial Division</title>
+      <statement>
+	<p>
+	  Assume <m>f</m> and <m>d</m> are polynomials with <m>\deg{d} \lt \deg{f}</m>.
+	  There exist polynomials <m>q</m> and <m>r</m> with <m>\deg{r} \lt \deg{d}</m> such that
+	  <me>f(x) = q(x)d(x) + r(x)</me>.
+	</p>
+	<p>
+	  In analogy with the integers, we call the polynomials <m>d</m> the <term>dividend</term>, <m>q</m> the <term>quotient</term>, and <m>r</m> the <term>remainder</term>, and 
+	  we say that <m>f</m> divided by <m>d</m> is <m>q</m> with remainder <m>r</m>
+	</p>
+      </statement>
+    </theorem>
+
+    <p>
+      For integers <m>n</m> and <m>d</m>, the process of finding <m>q</m> and <m>r</m> is often performed using long division.
+    </p>
+
+    <example>
+      <p>
+	To divide <m>3135</m> by <m>7</m>, we would perform the long division using the symbols
+	<md>
+	  <mrow>  \amp\phantom{)3}447</mrow>
+	  <mrow>7 \amp\overline{\smash{)}{3135}} </mrow>
+	  <mrow> \amp \underline{-28}</mrow>
+	  <mrow> \amp \phantom{-2}33</mrow>
+	  <mrow> \amp \phantom{2}\underline{-28}</mrow>
+	  <mrow>\amp \phantom{-28}55</mrow>
+	  <mrow>\amp \phantom{28}\underline{-49}</mrow>
+	  <mrow>\amp \phantom{)3135}6</mrow>
+	</md>
+	to find <m>3135 = 447(7) + 6</m>.
+      </p>
+    </example>
+    
+    <p>
+      Another way to interpret the long division is to think about the base ten number system.
+      The first step in long division is to find a string of digits in <m>3135</m> from left to right that is larger than <m>7</m>.
+      In this case, the first two digits form the number <m>31</m>.
+      The closest multiple of <m>7</m> to 31 is <m>4 \times 7 = 28</m>, so we write a <m>4</m> on top of the vinculum to signify this, subtract <m>28</m> from <m>31</m> to get <m>3</m> and carry down the next digit, which is a <m>3</m>.
+      This is shorthand for writing
+      <me>3135 = 400 \times 7 + 335.</me>
+    </p>
+    <p>
+      We repeat this process with <m>335</m> and dividend <m>7</m>.
+      Again, the closest multiple of <m>7</m> to <m>33</m> is <m>28 = 4 \times 7</m>, so we write down another <m>4</m> on top of the vinculum, subtract <m>28</m> from <m>33</m> to obtain <m>5</m>, and carry down the <m>5</m>.
+      As before, this is shorthand for
+      <me>
+	335 = 40 \times 7 + 55.
+      </me>
+    </p>
+    <p>
+      The final step in the process is to perform the same operation with <m>55</m> and dividend <m>7</m>.
+      As before, we can write
+      <me>55 = 49 + 6 = 7 \times 7 + 6.</me>
+    </p>
+      <!-- <md> -->
+      <!-- 	<mrow>3135 \amp= 400(7) + 335</mrow> -->
+      <!-- 	<mrow>335 \amp = 40(7) + 55</mrow> -->
+      <!-- 	<mrow>55 \amp = 7(7) + 6.</mrow> -->
+      <!-- </md> -->
+      <!-- At each stage, our goal is to reduce the number of digits in the remainder by at least one. -->
+      <p>
+	To arrive at the final answer, we can repeatedly replace the remainders to find
+      <md>
+	<mrow>3135 \amp = 400 \times 7 + 335</mrow>
+	<mrow>\amp = 400 \times 7 + (40 \times 7 + 55)</mrow>
+	<mrow>\amp = 400 \times 7 + 40 \times 7 + 55</mrow>
+	<mrow>\amp = 400 \times 7 + 40 \times 7 + (7 \times 7 + 6)</mrow>
+	<mrow>\amp = (400 + 40 + 7) \times 7 + 6</mrow>
+	<mrow>\amp = 447 \times 7 + 6.</mrow>
+      </md>
+    </p>
+    <p>
+      This process terminates because at each stage we are reducing the number of digits in the remainder by at least one.
+      When we do long division with polynomials, our goal will be similar.
+      Instead of reducing the number of digits, we reduce the degree by at least one.
+    </p>
+
+    <example>
+      <statement>
+	<p>
+	  Divide the polynomial <m>f(x) = x^3 - 1</m> by <m>d(x) = x - 1</m>.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  First we eliminate the <m>x^3</m> term.
+	  <md>
+	    <mrow>\amp x^3 - 1 - x^2(x - 1) = x^2 - 1 \amp\amp \text{Subtract}\ x^2(x-1)\ \text{from}\ f(x)</mrow>
+	    <mrow>\amp x^3 - 1 = x^2(x-1) + x^2 - 1 \amp\amp \text{Add}\ x^2(x-1)\ \text{from both sides}</mrow>
+	  </md>
+	</p>
+	<p>
+	  Next eliminate the <m>x^2</m> term.
+	  <md>
+	    <mrow>\amp x^2 - 1 - x(x-1) = x - 1 \amp\amp \text{Subtract}\ x(x-1)\ \text{from}\ x^2 - 1</mrow>
+	    <mrow>\amp x^2 - 1 = x(x - 1) + x - 1\amp\amp \text{Subtract}\ x(x - 1)\ \text{from both sides}</mrow>
+	  </md>
+	</p>
+	<p>
+	  Finally, we can make the substitutions
+	  <md>
+	    <mrow>x^3 - 1 \amp= x^2(x - 1) + (x^2 - 1)</mrow>
+	    <mrow>\amp = x^2(x - 1) + x(x - 1) + (x-1)</mrow>
+	    <mrow>\amp = (x^2 + x + 1)(x - 1).</mrow>
+	  </md>
+	  This tells us that <m>x^3 - 1</m> divided by <m>x-1</m> is <m>x^2 + x + 1</m>.
+	</p>
+      </solution>
+    </example>
+
+    <definition>
+      <p>
+	Assume <m>f</m> and <m>d</m> are polynomials.
+	The polynomial <m>g</m> <term>divides</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Polynomial</h>
+	  <h>Divides</h>
+	</idx>
+	the polynomial <m>f</m> if the remainder in <xref ref="thm-polynomial_division"/> satisfies <m>r(x) = 0</m>.
+      </p>
+    </definition>
+    
+    <theorem>
+      <statement>
+	<p>
+	  The number <m>r</m> is a root of the polynomial <m>f</m> if and only if <m>(x - r)</m> divides <m>f</m>.
+	</p>
+      </statement>
+    </theorem>
+
+    <definition>
+      <p>
+	Assume <m>f</m> is a polynomial and <m>r</m> is a root of <m>f</m>.
+	The <term>multiplicity</term> of <m>r</m> is the largest integer <m>m</m> such that <m>(x - r)^m</m> divides <m>f</m>
+      </p>
+    </definition>
+  </subsection>
+    <theorem xml:id="thm-fundamental_theorem">
+      <title>The Fundamental Theorem of Algbera</title>
+      <creator>Carl Friedrich Gauss</creator>
+      <statement>
+	<p>
+	  Every polynomial of degree <m>n > 0</m> has at least one root, which may be a complex number of the form
+	  <m>a + bi = a + b\sqrt{-1}</m>.
+	</p>
+      </statement>
+    </theorem>
+
+  </section>
