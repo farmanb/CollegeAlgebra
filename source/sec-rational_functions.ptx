@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Rational Functions</title>
+
+  <definition>
+    <p>
+      A <term>rational function</term> is a function of the form
+      <me>f(x) = \frac{p(x)}{q(x)}</me>
+      where <m>p</m> and <m>q \neq 0</m> are polynomial functions.
+    </p>
+  </definition>
+</section>
