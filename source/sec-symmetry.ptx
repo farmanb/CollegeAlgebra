@@ -19,7 +19,7 @@
     </p>
   </introduction>
 
-  <subsection>
+  <subsection xml:id="subsec-y_axis_symmetry">
     <title>Symmetry about the <m>y</m>-axis</title>
     <introduction>
       <p>
