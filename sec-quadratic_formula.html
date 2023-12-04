@@ -8,7 +8,7 @@
 <html lang="en-US" dir="ltr">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>The Quadratic Formula</title>
+<title>The Quadratic FormulaThe Quadratic Formula</title>
 <meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
@@ -193,7 +193,7 @@ window.MathJax = {
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-symmetry.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Symmetry</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-symmetry.html#subsection-11" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Symmetry about the <span class="process-math">\(y\)</span>-axis</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-symmetry.html#subsec-y_axis_symmetry" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Symmetry about the <span class="process-math">\(y\)</span>-axis</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-symmetry.html#subsection-12" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Origin Symmetry</span></a></div></li>
 </ul>
 </li>
@@ -240,13 +240,11 @@ window.MathJax = {
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-quadratic_functions.html#subsection-19" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Vertex Form</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-quadratic_functions.html#subsec-completing_the_square" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Completing the Square</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-quadratic_functions.html#subsection-21" class="internal"><span class="codenumber">4.1.3</span> <span class="title">The Quadratic FormulaThe Quadratic Formula</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-quadratic_formula.html" class="internal"><span class="codenumber">4.2</span> <span class="title">The Quadratic Formula</span></a></div></li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-graphing_quadratics.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Graphing Quadratic Functions</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-graphing_quadratics.html#subsection-21" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Line of Symmetry</span></a></div></li></ul>
-</li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-quadratic_formula.html" class="internal"><span class="codenumber">4.2</span> <span class="title">The Quadratic FormulaThe Quadratic Formula</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-graphing_quadratics.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Graphing Quadratic Functions</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter"><div class="toc-title-box"><a href="ch-equations.html" class="internal"><span class="codenumber">5</span> <span class="title">Equations and Inequalities in Two Variables</span></a></div></li>
@@ -269,63 +267,78 @@ window.MathJax = {
 </li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-quadratic_formula"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space"> </span><span class="codenumber">4.2</span><span class="space"> </span><span class="title">The Quadratic Formula</span>
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">4.2</span><span class="space"> </span><span class="title">The Quadratic FormulaThe Quadratic Formula</span>
 </h2>
 <article class="objectives goal-like" id="objectives-25"><h3 class="heading"><span class="type">Objectives</span></h3>
-<ul class="disc"><li id="li-116"><div class="para" id="p-derived-li-116">Find the <span class="process-math">\(x\)</span>-intercept(s) of a quadratic function</div></li></ul></article><div class="para logical" id="p-338">
-<div class="para">A point <span class="process-math">\((x,0)\)</span> in the Cartesian plane is an <a href="" class="xref" data-knowl="./knowl/xref/def-x_intercept.html" title="Definition 1.2.5: x-intercept"><span class="process-math">\(x\)</span>-intercept</a> for the quadratic function <span class="process-math">\(y = ax^2 + bx + c\)</span> if the first coordinate is a solution to the <dfn class="terminology">quadratic equation</dfn> </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def-x_intercept.html ./knowl/xref/alg-completing_the_square.html">
+<ul class="disc"><li id="li-122"><div class="para" id="p-derived-li-122">Find the <span class="process-math">\(x\)</span>-intercept(s) of a quadratic function</div></li></ul></article><section class="introduction" id="introduction-38"><div class="para logical" id="p-350">
+<div class="para">In order to accurately graph a quadratic function <span class="process-math">\(y = f(x) = ax^2 + bx + c\text{,}\)</span> it is necessary to identify the <span class="process-math">\(x\)</span>-intercepts for the function. A point <span class="process-math">\((x,0)\)</span> in the Cartesian plane is an <a href="" class="xref" data-knowl="./knowl/xref/def-x_intercept.html" title="Definition 1.2.5: x-intercept"><span class="process-math">\(x\)</span>-intercept</a> for this function if</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def-x_intercept.html">
 \begin{equation*}
 0 = ax^2 + bx + c.
 \end{equation*}
 </div>
-<div class="para">To find the solutions to a quadratic equation, we use the final form from <a href="" class="xref" data-knowl="./knowl/xref/alg-completing_the_square.html" title="Algorithm 4.1.4: Completing the Square">Completing the Square</a> to rewrite the equation as</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def-x_intercept.html ./knowl/xref/alg-completing_the_square.html">
+<div class="para">This reduces the geometric problem of finding the <span class="process-math">\(x\)</span>-intercepts of a quadratic to the algebraic problem finding solutions to equations.</div>
+</div></section><article class="definition definition-like" id="definition-52"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.2.1</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-351">An equation of the form <span class="process-math">\(ax^2 + bx + c = 0\)</span> is called a <dfn class="terminology">quadratic equation</dfn> </div></article><div class="para logical" id="p-352">
+<div class="para">To find the solutions to the quadratic equation <span class="process-math">\(ax^2 + bx + c\text{,}\)</span> we use <a href="" class="xref" data-knowl="./knowl/xref/def-vertex_form.html" title="Definition 4.1.2: The Vertex Form of a Quadratic">The Vertex Form of a Quadratic</a> to write</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def-vertex_form.html">
 \begin{equation*}
 0 = ax^2 + bx + c = a\left(x + \frac{b}{2a}\right)^2 - \frac{b^2 - 4ac}{4a}
 \end{equation*}
 </div>
 <div class="para">and solve this equation for <span class="process-math">\(x\)</span>
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def-x_intercept.html ./knowl/xref/alg-completing_the_square.html" id="md-34">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def-vertex_form.html" id="md-35">
 \begin{align*}
-0 \amp= a\left(x + \frac{b}{2a}\right)^2 - \frac{b^2 - 4ac}{4a} \amp\amp \text{Add}\ \frac{b^2 - 4ac}{4a}\ \text{to both sides}\\
-a\left(x + \frac{b}{2a}\right)^2 \amp= \frac{b^2 - 4ac}{4a} \amp\amp \text{Divide both sides by}\ a\\
-\left(x + \frac{b}{2a}\right)^2 \amp= \frac{b^2 - 4ac}{4a^2} \amp\amp \text{Take the square root of both sides}\\
-x + \frac{b}{2a} \amp= \pm\sqrt{\frac{b^2 - 4ac}{4a^2}} \amp\amp \text{Simplify}\\
-x + \frac{b}{2a} \amp= \pm\frac{\sqrt{b^2 - 4ac}}{\sqrt{4a^2}} \amp\amp \text{Simplify}\\
-x + \frac{b}{2a} \amp= \frac{\sqrt{b^2 - 4ac}}{2a} \amp\amp \text{Subtract}\ \frac{b}{2a}\ \text{from both sides}\\
-x \amp= - \frac{b}{2a} + \frac{\sqrt{b^2 - 4ac}}{2a} \amp\amp \text{Simplify}\\
-x \amp= \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \amp\amp \text{Simplify}
+\amp a\left(x + \frac{b}{2a}\right)^2 - \frac{b^2 - 4ac}{4a} = 0 \amp\amp \text{Add}\ \frac{b^2 - 4ac}{4a}\ \text{to both sides}\\
+\amp a\left(x + \frac{b}{2a}\right)^2 = \frac{b^2 - 4ac}{4a} \amp\amp \text{Divide both sides by}\ a\\
+\amp \left(x + \frac{b}{2a}\right)^2 = \frac{b^2 - 4ac}{4a^2} \amp\amp \text{Take the square root of both sides}\\
+\amp x + \frac{b}{2a} = \pm\sqrt{\frac{b^2 - 4ac}{4a^2}} \amp\amp \text{Simplify}\\
+\amp x + \frac{b}{2a} = \pm\frac{\sqrt{b^2 - 4ac}}{\sqrt{4a^2}} \amp\amp \text{Simplify}\\
+\amp x + \frac{b}{2a} = \frac{\sqrt{b^2 - 4ac}}{2a} \amp\amp \text{Subtract}\ \frac{b}{2a}\ \text{from both sides}\\
+\amp x = - \frac{b}{2a} + \frac{\sqrt{b^2 - 4ac}}{2a} \amp\amp \text{Simplify}\\
+\amp x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \amp\amp \text{Simplify}
 \end{align*}
 </div>
 </div>
-<div class="para" id="p-339">It is important to note that these solutions are real numbers only when <span class="process-math">\(b^2 - 4ac\)</span> is a non-negative number. This is an important invariant of a quadratic function.</div>
+<div class="para logical" id="p-353">
+<div class="para">It is important to note that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x = \frac{-b + \sqrt{b^2 - 4ac}}{2a}
+\quad\text{and}\quad
+x = \frac{-b - \sqrt{b^2 - 4ac}}{2a} 
+\end{equation*}
+</div>
+<div class="para">are real numbers only when <span class="process-math">\(b^2 - 4ac\)</span> is a non-negative number. The number <span class="process-math">\(b^2 - 4ac\)</span> is an important invariant of a quadratic function.</div>
+</div>
 <article class="definition definition-like" id="def-discriminant"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.2.1</span><span class="period">.</span><span class="space"> </span><span class="title">The Discriminant.</span>
-</h3> <div class="para logical" id="p-340">
-<div class="para">The <dfn class="terminology">discriminant</dfn>  of the quadratic function <span class="process-math">\(y = ax^2 + bx + c\)</span> is the number</div>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.2.2</span><span class="period">.</span><span class="space"> </span><span class="title">The Discriminant.</span>
+</h3> <div class="para logical" id="p-354">
+<div class="para">The <dfn class="terminology">discriminant</dfn>  of the quadratic function <span class="process-math">\(f(x) = ax^2 + bx + c\)</span> is the number</div>
 <div class="displaymath process-math">
 \begin{equation*}
 D = b^2 - 4ac
 \end{equation*}
 </div>
-</div></article><div class="para" id="p-341">The discriminant provides both algebraic and geometric information about quadratic functions. On the algebraic side, the discriminant tells us how many solutions there are to the quadratic equation <span class="process-math">\(ax^2 + bx  +c = 0\text{.}\)</span>
+</div></article><div class="para" id="p-355">The discriminant provides both algebraic and geometric information about quadratic functions. On the algebraic side, the discriminant tells us how many solutions there are to the quadratic equation <span class="process-math">\(ax^2 + bx  +c = 0\text{.}\)</span>
 </div>
 <article class="claim theorem-like" id="quadratic_formula"><h3 class="heading">
-<span class="type">Formula</span><span class="space"> </span><span class="codenumber">4.2.2</span><span class="period">.</span><span class="space"> </span><span class="title">The Quadratic Formula.</span>
+<span class="type">Formula</span><span class="space"> </span><span class="codenumber">4.2.3</span><span class="period">.</span><span class="space"> </span><span class="title">The Quadratic Formula.</span>
 </h3>
-<div class="para logical" id="p-342">
+<div class="para logical" id="p-356">
 <div class="para">The quadratic equation</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def-discriminant.html">
 \begin{equation*}
 ax + bx + c = 0
 \end{equation*}
 </div>
-<div class="para">has either two, one, or zero real solutions, depending on the <a href="" class="xref" data-knowl="./knowl/xref/def-discriminant.html" title="Definition 4.2.1: The Discriminant">The Discriminant</a>, <span class="process-math">\(D = b^2 - 4ac\text{.}\)</span>
+<div class="para">has either two, one, or zero real solutions, depending on <a href="" class="xref" data-knowl="./knowl/xref/def-discriminant.html" title="Definition 4.1.10: The Discriminant">The Discriminant</a>, <span class="process-math">\(D = b^2 - 4ac\text{.}\)</span>
 </div>
 <ol class="decimal">
-<li id="li-117"><div class="para logical" id="p-343">
+<li id="li-123"><div class="para logical" id="p-357">
 <div class="para">If <span class="process-math">\(D &gt; 0\text{,}\)</span> then the two solutions are</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -335,23 +348,23 @@ x = \frac{-b - \sqrt{D}}{2a}.
 \end{equation*}
 </div>
 </div></li>
-<li id="li-118"><div class="para" id="p-derived-li-118">If <span class="process-math">\(D = 0\text{,}\)</span> then the only solution is<div class="displaymath process-math">
+<li id="li-124"><div class="para" id="p-derived-li-124">If <span class="process-math">\(D = 0\text{,}\)</span> then the only solution is<div class="displaymath process-math">
 \begin{equation*}
 x = \frac{-b + \sqrt{D}}{2a} = \frac{-b}{2a}.
 \end{equation*}
 </div>
 </div></li>
-<li id="li-119"><div class="para" id="p-derived-li-119">If <span class="process-math">\(D \lt 0\text{,}\)</span> then there are no real solutions.</div></li>
+<li id="li-125"><div class="para" id="p-derived-li-125">If <span class="process-math">\(D \lt 0\text{,}\)</span> then there are no real solutions.</div></li>
 </ol>
-</div></article><div class="para" id="p-344">On the geometric side, the discriminant tells us how many <span class="process-math">\(x\)</span>-intercepts the graph of <span class="process-math">\(y = ax^2 + bx + c\)</span> has.</div>
-<article class="theorem theorem-like" id="theorem-12"><h3 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.2.3</span><span class="period">.</span><span class="space"> </span><span class="title">The <span class="process-math">\(x\)</span>-intercepts of a Quadratic Function.</span>
+</div></article><div class="para" id="p-358">On the geometric side, the discriminant tells us how many <span class="process-math">\(x\)</span>-intercepts the graph of <span class="process-math">\(y = ax^2 + bx + c\)</span> has.</div>
+<article class="theorem theorem-like" id="theorem-13"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.2.4</span><span class="period">.</span><span class="space"> </span><span class="title">The <span class="process-math">\(x\)</span>-intercepts of a Quadratic Function.</span>
 </h3>
-<div class="para logical" id="p-345">
-<div class="para">The quadratic function <span class="process-math">\(y = ax^2 + bx + c\)</span> has either two, one, or zero <span class="process-math">\(x\)</span>-intercepts, depending on the <a href="" class="xref" data-knowl="./knowl/xref/def-discriminant.html" title="Definition 4.2.1: The Discriminant">The Discriminant</a>, <span class="process-math">\(D = b^2 - 4ac\text{.}\)</span>
+<div class="para logical" id="p-359">
+<div class="para">The quadratic function <span class="process-math">\(y = ax^2 + bx + c\)</span> has either two, one, or zero <span class="process-math">\(x\)</span>-intercepts, depending on the <a href="" class="xref" data-knowl="./knowl/xref/def-discriminant.html" title="Definition 4.1.10: The Discriminant">The Discriminant</a>, <span class="process-math">\(D = b^2 - 4ac\text{.}\)</span>
 </div>
 <ol class="decimal">
-<li id="li-120"><div class="para logical" id="p-346">
+<li id="li-126"><div class="para logical" id="p-360">
 <div class="para">If <span class="process-math">\(D &gt; 0\text{,}\)</span> then there are two <span class="process-math">\(x\)</span>-intercepts,</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -361,12 +374,12 @@ x = \frac{-b + \sqrt{D}}{2a} = \frac{-b}{2a}.
 \end{equation*}
 </div>
 </div></li>
-<li id="li-121"><div class="para" id="p-derived-li-121">If <span class="process-math">\(D = 0\text{,}\)</span> then there is one <span class="process-math">\(x\)</span>-intercept<div class="displaymath process-math">
+<li id="li-127"><div class="para" id="p-derived-li-127">If <span class="process-math">\(D = 0\text{,}\)</span> then there is one <span class="process-math">\(x\)</span>-intercept<div class="displaymath process-math">
 \begin{equation*}
 \left(\frac{-b}{2a},0\right).
 \end{equation*}
 </div>Note this is the vertex.</div></li>
-<li id="li-122"><div class="para" id="p-derived-li-122">If <span class="process-math">\(D \lt 0\text{,}\)</span> then there are no <span class="process-math">\(x\)</span>-intercepts.</div></li>
+<li id="li-128"><div class="para" id="p-derived-li-128">If <span class="process-math">\(D \lt 0\text{,}\)</span> then there are no <span class="process-math">\(x\)</span>-intercepts.</div></li>
 </ol>
 </div></article></section></div>
 <div class="ptx-content-footer">

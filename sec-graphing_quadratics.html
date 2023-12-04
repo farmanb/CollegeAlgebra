@@ -193,7 +193,7 @@ window.MathJax = {
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-symmetry.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Symmetry</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-symmetry.html#subsection-11" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Symmetry about the <span class="process-math">\(y\)</span>-axis</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-symmetry.html#subsec-y_axis_symmetry" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Symmetry about the <span class="process-math">\(y\)</span>-axis</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-symmetry.html#subsection-12" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Origin Symmetry</span></a></div></li>
 </ul>
 </li>
@@ -240,13 +240,11 @@ window.MathJax = {
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-quadratic_functions.html#subsection-19" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Vertex Form</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-quadratic_functions.html#subsec-completing_the_square" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Completing the Square</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-quadratic_functions.html#subsection-21" class="internal"><span class="codenumber">4.1.3</span> <span class="title">The Quadratic FormulaThe Quadratic Formula</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-quadratic_formula.html" class="internal"><span class="codenumber">4.2</span> <span class="title">The Quadratic Formula</span></a></div></li>
-<li class="toc-item toc-section active">
-<div class="toc-title-box"><a href="sec-graphing_quadratics.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Graphing Quadratic Functions</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-graphing_quadratics.html#subsection-21" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Line of Symmetry</span></a></div></li></ul>
-</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-quadratic_formula.html" class="internal"><span class="codenumber">4.2</span> <span class="title">The Quadratic FormulaThe Quadratic Formula</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-graphing_quadratics.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Graphing Quadratic Functions</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter"><div class="toc-title-box"><a href="ch-equations.html" class="internal"><span class="codenumber">5</span> <span class="title">Equations and Inequalities in Two Variables</span></a></div></li>
@@ -273,12 +271,54 @@ window.MathJax = {
 </h2>
 <article class="objectives goal-like" id="objectives-26"><h3 class="heading"><span class="type">Objectives</span></h3>
 <ul class="disc">
-<li id="li-123"><div class="para" id="p-derived-li-123">Find the line of symmetry of a quadratic functions.</div></li>
-<li id="li-124"><div class="para" id="p-derived-li-124">Graph a quadratic function.</div></li>
-</ul></article><section class="subsection" id="subsection-21"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.3.1</span><span class="space"> </span><span class="title">Line of Symmetry</span>
+<li id="li-129"><div class="para" id="p-derived-li-129">Find the line of symmetry of a quadratic functions.</div></li>
+<li id="li-130"><div class="para" id="p-derived-li-130">Graph a quadratic function.</div></li>
+</ul></article><section class="introduction" id="introduction-39"><div class="para logical" id="p-361">
+<div class="para">As we have already seen, we can graph the quadratic function <span class="process-math">\(y = ax^2 + bx + c = a\left(x - h\right)^2 + k\)</span> by applying the following graph transformations to the graph of <span class="process-math">\(y = x^2\)</span>
+</div>
+<ol class="decimal">
+<li id="li-131"><div class="para logical" id="p-362">
+<div class="para">Translate the graph of <span class="process-math">\(y = x^2\)</span> horizontally by <span class="process-math">\(h\)</span> units.</div>
+<ul class="disc">
+<li id="li-132"><div class="para" id="p-363">If <span class="process-math">\(0 \lt h\text{,}\)</span> then the translation is to the right.</div></li>
+<li id="li-133"><div class="para" id="p-364">If <span class="process-math">\(h \lt 0\text{,}\)</span> then the translation is to the left.</div></li>
+</ul>
+</div></li>
+<li id="li-134"><div class="para logical" id="p-365">
+<div class="para">Scale the graph of <span class="process-math">\((x - h)^2\)</span> by <span class="process-math">\(\abs{a}\text{.}\)</span>
+</div>
+<ul class="disc">
+<li id="li-135"><div class="para" id="p-366">If <span class="process-math">\(1 \lt a\text{,}\)</span> then the graph is stretched.</div></li>
+<li id="li-136"><div class="para" id="p-367">If <span class="process-math">\(a \lt 1\text{,}\)</span> then the graph is compressed.</div></li>
+</ul>
+</div></li>
+<li id="li-137"><div class="para" id="p-368">If <span class="process-math">\(a \lt 1\text{,}\)</span> reflect the graph of <span class="process-math">\(\abs{a}(x - h)^2\)</span> over the <span class="process-math">\(x\)</span>-axis.</div></li>
+<li id="li-138"><div class="para logical" id="p-369">
+<div class="para">Translate the graph of <span class="process-math">\(a(x - h)^2\)</span> vertically by <span class="process-math">\(k\)</span> units.</div>
+<ul class="disc">
+<li id="li-139"><div class="para" id="p-370">If <span class="process-math">\(k \lt 0\text{,}\)</span> then the translation is down.</div></li>
+<li id="li-140"><div class="para" id="p-371">If <span class="process-math">\(0 \lt k\text{,}\)</span> then the translation is up.</div></li>
+</ul>
+</div></li>
+</ol>
+<div class="para">In this section, we synthesize the results of this chapter to graph quadratic functions quickly and efficiently, without the need for graph transformations.</div>
+</div></section><article class="algorithm theorem-like" id="algorithm-3"><h3 class="heading">
+<span class="type">Algorithm</span><span class="space"> </span><span class="codenumber">4.3.1</span><span class="period">.</span><span class="space"> </span><span class="title">Graphing a Quadratic Function.</span>
 </h3>
-<div class="para" id="p-347"></div></section></section></div>
+<ol class="decimal">
+<li id="li-141"><div class="para" id="p-372">Use the <a href="" class="xref" data-knowl="./knowl/xref/vertex_formula.html" title="Formula 4.1.5: The Vertex Formula">The Vertex Formula</a> to find the vertex, <span class="process-math">\((h,k)\text{,}\)</span> of the parabola. Plot the vertex in the plane.</div></li>
+<li id="li-142"><div class="para" id="p-373">Use the <a href="" class="xref" data-knowl="./knowl/xref/quadratic_formula.html" title="Formula 4.1.11: The Quadratic Formula">The Quadratic Formula</a> to find the <span class="process-math">\(x\)</span>-intercept(s). If there are <span class="process-math">\(x\)</span>-intercepts, plot them in the plane.</div></li>
+<li id="li-143"><div class="para" id="p-374">Plot the <span class="process-math">\(y\)</span>-intercept, <span class="process-math">\((0, f(0))\text{,}\)</span> in the plane.</div></li>
+<li id="li-144"><div class="para logical" id="p-375">
+<div class="para">Draw a parabola through the points above.</div>
+<ul class="disc">
+<li id="li-145"><div class="para" id="p-derived-li-145">The parabola will open upwards if <span class="process-math">\(0 \lt a\text{.}\)</span>
+</div></li>
+<li id="li-146"><div class="para" id="p-derived-li-146">The parabola will open downwards if <span class="process-math">\(a \lt 0\text{.}\)</span>
+</div></li>
+</ul>
+</div></li>
+</ol></article></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-quadratic_formula.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-equations.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
