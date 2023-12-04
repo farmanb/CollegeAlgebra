@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Polynomial Functions</title>
+
+  <definition>
+    <title>Polynomial Function</title>
+    <p>
+      A <term>polynomial function</term>
+      <idx>
+	<h>Function</h>
+	<h>Polynomial</h>
+      </idx>
+      of <term>degree</term>
+      <idx>
+	<h>Function</h>
+	<h>Polynomial</h>
+	<h>Degree</h>
+      </idx>
+      <m>n</m> is a function of the form
+      <me>f(x) = a_nx^n + a_{n-1}x^{n-1} + \cdots + a_1x + a_0,</me>
+      where each of <m>a_0, a_1, \ldots, a_n</m> is a number called the <term>coefficient</term>
+      <idx>
+	<h>Function</h>
+	<h>Polynomial</h>
+	<h>Coefficient</h>
+      </idx>
+      of <m>1, x, \ldots, x^n</m>, respectively, and <m>a_n \neq 0</m>.
+    </p>
+  </definition>
+
+  <definition>
+    <title>Root</title>
+    A <term>root</term>
+    <idx>
+      <h>Function</h>
+      <h>Polynomial</h>
+      <h>Root</h>
+    </idx>
+    of the polynomial function <m>f(x) = a_nx^n + a_{n-1}x^{n-1} + \cdots + a_1x + a_0</m> is a number, <m>r</m>, such that
+    <me>0 = f(r) = a_nr^n + a_{n-1}r^{n-1} + \cdots + a_1 r + a_0.</me>
+  </definition>
+
+  <definition>
+    <p>
+      Assume <m>f</m> and <m>g</m> are polynomials.
+      The polynomial <m>g</m> <term>divides</term>
+      <idx>
+	<h>Function</h>
+	<h>Polynomial</h>
+	<h>Divides</h>
+      </idx>
+      the polynomial <m>f</m> if there exists a polynomial <m>q</m> such that
+      <me>f(x) = q(x)g(x).</me>
+    </p>
+  </definition>
+  
+  <theorem>
+    <statement>
+      <p>
+	Assume <m>f</m> is a polynomial of degree <m>n</m>.
+	The number <m>r</m> is a root of <m>f</m> if and only if <m>(x - r)</m> divides <m>f</m>.
+      </p>
+    </statement>
+  </theorem>
+
+  <definition>
+    <p>
+      Assume <m>f</m> is a polynomial and <m>r</m> is a root of <m>f</m>.
+      The <term>multiplicity</term> of <m>r</m> is the largest integer <m>m</m> such that <m>(x - r)^m</m> divides <m>f</m>
+    </p>
+  </definition>
+  
+  <theorem xml:id="thm-fundamental_theorem">
+    <title>The Fundamental Theorem of Algbera</title>
+    <creator>Carl Friedrich Gauss</creator>
+    <statement>
+      <p>
+	Every polynomial of degree <m>n > 0</m> has at least one root, which may be a complex number of the form
+	<m>a + bi = a + b\sqrt{-1}</m>.
+      </p>
+    </statement>
+  </theorem>
+
+</section>

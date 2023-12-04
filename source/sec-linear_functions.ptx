@@ -21,26 +21,6 @@
 
   <introduction>
     <p>
-      A <term>polynomial function</term>
-      <idx>
-	<h>Function</h>
-	<h>Polynomial</h>
-      </idx>
-      of <term>degree</term>
-      <idx>
-	<h>Function</h>
-	<h>Polynomial</h>
-	<h>Degree</h>
-      </idx>
-      <m>n</m> is a function of the form
-      <me>f(x) = a_nx^n + a_{n-1}x^{n-1} + \cdots + a_1x + a_0,</me>
-      where each of <m>a_0, a_1, \ldots, a_n</m> is a number called the <term>coefficient</term>
-      <idx>
-	<h>Function</h>
-	<h>Polynomial</h>
-	<h>Coefficient</h>
-      </idx>
-      of <m>1, x, \ldots, x^n</m>, respectively, and <m>a_n \neq 0</m>.
       In this section, we study a special kind of polynomial known as a <em>linear function</em>.
       As we will see, the name linear comes from the fact that the graph of such a function is always a line.
     </p>
