@@ -611,6 +611,72 @@
     </claim>
 
     <p>
+      If we pair <xref ref="quadratic_formula" text="title"/> with <xref ref="thm-root_div"/>, then we have an algorithmic way to factor any quadratic function.
+    </p>
+
+    <theorem xml:id="thm-quadratic_factorization">
+      <statement>
+	<p>
+	  The quadratic function <m>f(x) = ax^2 + bx + c</m> factors as
+	  <me>f(x) = a\left(x - \frac{-b + \sqrt{D}}{2a}\right)\left(x - \frac{-b - \sqrt{D}}{2a}\right),</me>
+	  where <m>D = b^2 - 4ac</m> is the discriminant.
+	</p>
+      </statement>
+    </theorem>
+
+    <!-- <example> -->
+    <!--   <statement> -->
+    <!-- 	<p> -->
+    <!-- 	  Factor the quadratic <m>f(x) = -x^2 + 4x + 3</m>. -->
+    <!-- 	</p> -->
+    <!--   </statement> -->
+    <!--   <solution> -->
+    <!-- 	<p> -->
+    <!-- 	  The discriminant is -->
+    <!-- 	  <me>D = 4^2 - 4(-1)(3) = 16 + 12 = 28</me> -->
+    <!-- 	  so the roots of <m>f(x)</m> occur at -->
+    <!-- 	  <md> -->
+    <!-- 	    <mrow>\frac{-4 + \sqrt{28}}{2(-1)} \amp= -\frac{-4 + 2\sqrt{7}}{2} = -(-2 + \sqrt{7}) = 2 - \sqrt{7} ,\,\text{and}</mrow> -->
+    <!-- 	    <mrow>\frac{-4 - \sqrt{28}}{2(-1)} \amp= -\frac{-4 - 2\sqrt{7}}{2} = -(-2 - \sqrt{7}) = 2 + \sqrt{7}.</mrow> -->
+    <!-- 	  </md> -->
+    <!-- 	  We can check this yields the factorization -->
+    <!-- 	  <md> -->
+    <!-- 	    <mrow>-\left(x - (2 - \sqrt{7})\right)\left(x - (2 + \sqrt{7})\right) -->
+    <!-- 	    \amp = -\left(x^2 - (2 + \sqrt{7})x - (2 - \sqrt{7})x + (2 - \sqrt{7})(2 + \sqrt{7})\right) -->
+    <!-- 	    </mrow> -->
+    <!-- 	    <mrow>\amp = -x^2 + (2 + \sqrt{7} + 2 - \sqrt{7})x - (4 - 7)</mrow> -->
+    <!-- 	    <mrow>\amp = -x^2 + 4x + 3 = f(x).</mrow> -->
+    <!-- 	  </md> -->
+    <!-- 	</p> -->
+    <!--   </solution> -->
+    <!-- </example> -->
+
+    <example>
+      <statement>
+	<p>
+	  Factor the quadratic <m>f(x) = 10x^2 - 11x + 3</m>.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  The discriminant is
+	  <me>D = (-11)^2 - 4(10)(3) = 121 - 120 = 1</me>
+	  so the roots are
+	  <md>
+	    <mrow>x \amp= \frac{-(-11) + \sqrt{1}}{2(10)} = \frac{11 + 1}{20} = \frac{12}{20} = \frac{3}{5},\,\text{and}</mrow>
+	    <mrow>x \amp = \frac{-(-11) - \sqrt{1}}{2(10)} = \frac{11 - 1}{20} = \frac{10}{20} = \frac{1}{2}.</mrow>
+	  </md>
+	  By <xref ref="thm-quadratic_factorization"/>, the factorization is
+	  <me>10\left(x - \frac{1}{2}\right)\left(x - \frac{3}{5}\right)
+	  = 2\left(x - \frac{1}{2}\right)5\left(x - \frac{3}{5}\right)
+	  = (2x - 1)(5x - 3).</me>
+	  We can check our answer by using FOIL to see
+	  <me>(2x - 1)(5x - 3) = 10x^2 - 6x - 5x + 3 = 10x^2 -11x + 3 = f(x).</me>
+	</p>
+      </solution>
+    </example>
+    
+    <p>
       On the geometric side, the discriminant tells us how many <m>x</m>-intercepts the graph of <m>y = ax^2 + bx + c</m> has.
     </p>
     
