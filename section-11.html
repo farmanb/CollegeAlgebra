@@ -334,7 +334,7 @@ f(x) = a_nx^n + a_{n-1}x^{n-1} + \cdots + a_1x + a_0,
 </div>
 <div class="para">then <span class="process-math">\(p\)</span> is a divisor of <span class="process-math">\(a_0\)</span> and <span class="process-math">\(q\)</span> is a divisor of <span class="process-math">\(a_n\text{.}\)</span>
 </div>
-</div></article><article class="example example-like" id="example-30"><h4 class="heading">
+</div></article><article class="example example-like" id="example-rational_root"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.7</span><span class="period">.</span>
 </h4>
 <div class="para" id="p-199">Find all rational roots of <span class="process-math">\(f(x) = 2x^4 - 7x^3 + 5x^2 - 7x + 3\text{.}\)</span>
@@ -383,114 +383,161 @@ f(x) = q(x)d(x) + r(x)\text{.}
 \end{equation*}
 </div>
 </div> <div class="para" id="p-203">In analogy with the integers, we call the polynomials <span class="process-math">\(d\)</span> the <dfn class="terminology">dividend</dfn>, <span class="process-math">\(q\)</span> the <dfn class="terminology">quotient</dfn>, and <span class="process-math">\(r\)</span> the <dfn class="terminology">remainder</dfn>, and we say that <span class="process-math">\(f\)</span> divided by <span class="process-math">\(d\)</span> is <span class="process-math">\(q\)</span> with remainder <span class="process-math">\(r\)</span>
-</div></article><div class="para" id="p-204">For integers <span class="process-math">\(n\)</span> and <span class="process-math">\(d\text{,}\)</span> the process of finding <span class="process-math">\(q\)</span> and <span class="process-math">\(r\)</span> is often performed using long division.</div>
-<article class="example example-like" id="example-31"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.9</span><span class="period">.</span>
+</div></article><article class="definition definition-like" id="definition-41"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.9</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-205">
-<div class="para">To divide <span class="process-math">\(3135\)</span> by <span class="process-math">\(7\text{,}\)</span> we would perform the long division using the symbols</div>
-<div class="displaymath process-math" id="md-17">
-\begin{align*}
-\amp\phantom{)3}447\\
-7 \amp\overline{\smash{)}{3135}} \\
-\amp \underline{-28}\\
-\amp \phantom{-2}33\\
-\amp \phantom{2}\underline{-28}\\
-\amp \phantom{-28}55\\
-\amp \phantom{28}\underline{-49}\\
-\amp \phantom{)3135}6
-\end{align*}
-</div>
-<div class="para">to find <span class="process-math">\(3135 = 447(7) + 6\text{.}\)</span>
-</div>
-</div></article><div class="para logical" id="p-206">
-<div class="para">Another way to interpret the long division is to think about the base ten number system. The first step in long division is to find a string of digits in <span class="process-math">\(3135\)</span> from left to right that is larger than <span class="process-math">\(7\text{.}\)</span> In this case, the first two digits form the number <span class="process-math">\(31\text{.}\)</span> The closest multiple of <span class="process-math">\(7\)</span> to 31 is <span class="process-math">\(4 \times 7 = 28\text{,}\)</span> so we write a <span class="process-math">\(4\)</span> on top of the vinculum to signify this, subtract <span class="process-math">\(28\)</span> from <span class="process-math">\(31\)</span> to get <span class="process-math">\(3\)</span> and carry down the next digit, which is a <span class="process-math">\(3\text{.}\)</span> This is shorthand for writing</div>
-<div class="displaymath process-math">
-\begin{equation*}
-3135 = 400 \times 7 + 335.
-\end{equation*}
-</div>
-</div>
-<div class="para logical" id="p-207">
-<div class="para">We repeat this process with <span class="process-math">\(335\)</span> and dividend <span class="process-math">\(7\text{.}\)</span> Again, the closest multiple of <span class="process-math">\(7\)</span> to <span class="process-math">\(33\)</span> is <span class="process-math">\(28 = 4 \times 7\text{,}\)</span> so we write down another <span class="process-math">\(4\)</span> on top of the vinculum, subtract <span class="process-math">\(28\)</span> from <span class="process-math">\(33\)</span> to obtain <span class="process-math">\(5\text{,}\)</span> and carry down the <span class="process-math">\(5\text{.}\)</span> As before, this is shorthand for</div>
-<div class="displaymath process-math">
-\begin{equation*}
-335 = 40 \times 7 + 55.
-\end{equation*}
-</div>
-</div>
-<div class="para logical" id="p-208">
-<div class="para">The final step in the process is to perform the same operation with <span class="process-math">\(55\)</span> and dividend <span class="process-math">\(7\text{.}\)</span> As before, we can write</div>
-<div class="displaymath process-math">
-\begin{equation*}
-55 = 49 + 6 = 7 \times 7 + 6.
-\end{equation*}
-</div>
-</div>
-<div class="para logical" id="p-209">
-<div class="para">To arrive at the final answer, we can repeatedly replace the remainders to find</div>
-<div class="displaymath process-math" id="md-18">
-\begin{align*}
-3135 \amp = 400 \times 7 + 335\\
-\amp = 400 \times 7 + (40 \times 7 + 55)\\
-\amp = 400 \times 7 + 40 \times 7 + 55\\
-\amp = 400 \times 7 + 40 \times 7 + (7 \times 7 + 6)\\
-\amp = (400 + 40 + 7) \times 7 + 6\\
-\amp = 447 \times 7 + 6.
-\end{align*}
-</div>
-</div>
-<div class="para" id="p-210">This process terminates because at each stage we are reducing the number of digits in the remainder by at least one. When we do long division with polynomials, our goal will be similar. Instead of reducing the number of digits, we reduce the degree by at least one.</div>
-<article class="example example-like" id="example-32"><h4 class="heading">
+<div class="para" id="p-204">Assume <span class="process-math">\(f\)</span> and <span class="process-math">\(d\)</span> are polynomials. The polynomial <span class="process-math">\(g\)</span> <dfn class="terminology">divides</dfn>  the polynomial <span class="process-math">\(f\)</span> if the remainder in <a href="" class="xref" data-knowl="./knowl/xref/thm-polynomial_division.html" title="Theorem 3.1.8: Polynomial Division">Theorem 3.1.8</a> satisfies <span class="process-math">\(r(x) = 0\text{.}\)</span>
+</div></article><div class="para" id="p-205">For integers <span class="process-math">\(n\)</span> and <span class="process-math">\(d\text{,}\)</span> the process of finding <span class="process-math">\(q\)</span> and <span class="process-math">\(r\)</span> is often performed using long division.</div>
+<article class="example example-like" id="example-integer_division"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.10</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-211">Divide the polynomial <span class="process-math">\(f(x) = x^3 - 1\)</span> by <span class="process-math">\(d(x) = x - 1\text{.}\)</span>
+<div class="para logical" id="p-206">
+<div class="para">To divide <span class="process-math">\(6935\)</span> by <span class="process-math">\(30\text{,}\)</span> we would perform the long division using the symbols</div>
+<div class="displaymath process-math" id="md-17">
+\begin{align*}
+\amp\phantom{)}231\\
+30 \amp\overline{\smash{)}{6935}} \\
+\amp \underline{-60}\\
+\amp \phantom{lllll}93\\
+\amp \phantom{lll}\underline{-90}\\
+\amp \phantom{lllllll}35\\
+\amp \phantom{llll}\underline{-30}\\
+\amp \phantom{lllllllll}5
+\end{align*}
 </div>
-<div class="solutions"><details id="solution-20" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like">
+<div class="para">to find <span class="process-math">\(6935 = 30 \times 231 + 5\text{.}\)</span>
+</div>
+</div></article><div class="para" id="p-207">To understand how to perform division with polynomials, it is helpful to understand how the division algorithm with numbers written in base <span class="process-math">\(10\text{.}\)</span> The four steps in the long division above are shorthand for the following equations.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-rational_root.html ./knowl/xref/thm-polynomial_division.html ./knowl/xref/eq-division_1.html ./knowl/xref/eq-division_2.html ./knowl/xref/eq-division_3.html ./knowl/xref/eq-poly_div_1.html ./knowl/xref/eq-poly_div_2.html ./knowl/xref/eq-poly_div_3.html ./knowl/xref/thm-rational_root.html ./knowl/xref/example-rational_root.html ./knowl/xref/thm-root_div.html" id="mdn-1">
+\begin{align}
+6935 \amp= 30 \times 200 + 935\tag{3.1.1}\\
+935 \amp= 30 \times 30 + 35\tag{3.1.2}\\
+35 \amp= 30 \times 1 + 5\tag{3.1.3}
+\end{align}
+</div>
+<div class="para" id="p-208">We arrive at the final answer by repeated substitution for the remainders starting with <a href="" class="xref" data-knowl="./knowl/xref/eq-division_1.html" title="Equation 3.1.1">(3.1.1)</a>.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-rational_root.html ./knowl/xref/thm-polynomial_division.html ./knowl/xref/eq-division_1.html ./knowl/xref/eq-division_2.html ./knowl/xref/eq-division_3.html ./knowl/xref/eq-poly_div_1.html ./knowl/xref/eq-poly_div_2.html ./knowl/xref/eq-poly_div_3.html ./knowl/xref/thm-rational_root.html ./knowl/xref/example-rational_root.html ./knowl/xref/thm-root_div.html" id="md-18">
+\begin{align*}
+6935 \amp= 30 \times 200 + 935 \amp\amp \text{Substitute the RHS of}\ \knowl{./knowl/xref/eq-division_2.html}{\text{(3.1.2)}}\ \text{for}\ 935\\
+\amp = 30 \times 200 + 30 \times 30 + 35 \amp\amp \text{Substitue the RHS of}\ \knowl{./knowl/xref/eq-division_3.html}{\text{(3.1.3)}}\ \text{for}\ 35\\
+\amp = 30 \times 200 + 30 \times 30 + 30 \times 1 + 5 \amp\amp \text{Factor}\ 3\ \text{from the first three terms}\\
+\amp= (200 + 30 + 1) \times 3 + 2 \amp\amp \text{Simplify}\\
+\amp = 231 \times 30 + 5.
+\end{align*}
+</div>
+<div class="para" id="p-209">This process terminates because at each stage we are reducing the number of digits in the remainder by at least one. When we do long division with polynomials, our goal will be similar, but we will reduce the degree of the remainder polynomial by at least one.</div>
+<article class="example example-like" id="example-32"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.11</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="p-210">
+<div class="para">To divide the polynomial <span class="process-math">\(f(x) = 6x^3 + 9x^2 + 3x + 5\)</span> by the polynomial <span class="process-math">\(d(x) = 3x\text{,}\)</span> we write</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eq-poly_div_1.html ./knowl/xref/eq-poly_div_2.html ./knowl/xref/eq-poly_div_3.html" id="mdn-2">
+\begin{align}
+6x^3 + 9x^2 + 3x + 5 \amp= 2x^2 \times 3x + 9x^2 + 3x + 5\tag{3.1.4}\\
+9x^2 + 3x + 5 \amp= 3x \times 3x + 3x + 5\tag{3.1.5}\\
+3x + 5 \amp= 1 \times 3x + 5\tag{3.1.6}
+\end{align}
+</div>
+<div class="para">then, starting from <a href="" class="xref" data-knowl="./knowl/xref/eq-poly_div_1.html" title="Equation 3.1.4">(3.1.4)</a>, we substitute for the remainders</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eq-poly_div_1.html ./knowl/xref/eq-poly_div_2.html ./knowl/xref/eq-poly_div_3.html" id="md-19">
+\begin{align*}
+6x^3 + 9x^2 + 3x + 5 \amp = 2x^2 \times 3x + 9x^2 + 3x + 5 \amp\amp \text{Substitute using}\ \knowl{./knowl/xref/eq-poly_div_2.html}{\text{(3.1.5)}}\\
+\amp= 2x^2 \times 3x + 3x \times 3x + 3x + 5 \amp\amp \text{Substitute using}\knowl{./knowl/xref/eq-poly_div_3.html}{\text{(3.1.6)}}\\
+\amp= 2x^2 \times 3x + 3x \times 3x + 1 \times 3x + 5 \amp\amp \text{Factor}\\
+\amp= (2x^2 + 3x + 1) \times 3x + 5.
+\end{align*}
+</div>
+<div class="para">Therefore <span class="process-math">\(f(x) = 6x^3 + 9x^2 + 3x + 5\)</span> divided by <span class="process-math">\(d(x) = 3x\)</span> is <span class="process-math">\(q(x) = 2x^2 + 3x + 1\)</span> with remainder <span class="process-math">\(r(x) = 5\text{.}\)</span>
+</div>
+</div> <div class="para" id="p-211">We can also perform polynomial division using the same shorthand as we would for numbers. When performing polynomial division in this way, it is important to carefully distribute signs when subtracting.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eq-poly_div_1.html ./knowl/xref/eq-poly_div_2.html ./knowl/xref/eq-poly_div_3.html" id="md-20">
+\begin{align*}
+\amp\phantom{)}2x^2 + 3x + 1\\
+3x \amp\overline{\smash{)}{6x^3 + 9x^2 + 3x + 5}} \\
+\amp \underline{-6x^3}\\
+\amp \phantom{lllll}0 + 9x^2\\
+\amp \phantom{lllllllll}\underline{-9x^2}\\
+\amp \phantom{6x^3 + 9x^2}0 + 3x\\
+\amp \phantom{6x^3 + 9x^2 0l}\underline{- 3x}\\
+\amp \phantom{6x^3 + 9x^2 + 3}0 + 5
+\end{align*}
+</div></article><article class="remark remark-like" id="remark-6"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">3.1.12</span><span class="period">.</span>
+</h4>
 <div class="para logical" id="p-212">
-<div class="para">First we eliminate the <span class="process-math">\(x^3\)</span> term.</div>
-<div class="displaymath process-math" id="md-19">
-\begin{align*}
-\amp x^3 - 1 - x^2(x - 1) = x^2 - 1 \amp\amp \text{Subtract}\ x^2(x-1)\ \text{from}\ f(x)\\
-\amp x^3 - 1 = x^2(x-1) + x^2 - 1 \amp\amp \text{Add}\ x^2(x-1)\ \text{from both sides}
-\end{align*}
+<div class="para">Note that if we evaluate each of the polynomials at <span class="process-math">\(x = 10\text{,}\)</span> then we find</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f(10) = 6000 + 900 + 30 + 5 = 6935
+\end{equation*}
 </div>
-</div> <div class="para logical" id="p-213">
-<div class="para">Next eliminate the <span class="process-math">\(x^2\)</span> term.</div>
-<div class="displaymath process-math" id="md-20">
-\begin{align*}
-\amp x^2 - 1 - x(x-1) = x - 1 \amp\amp \text{Subtract}\ x(x-1)\ \text{from}\ x^2 - 1\\
-\amp x^2 - 1 = x(x - 1) + x - 1\amp\amp \text{Subtract}\ x(x - 1)\ \text{from both sides}
-\end{align*}
+<div class="para">divided by <span class="process-math">\(d(10) = 30\)</span> is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+q(10) = 200 + 30 + 1 = 231
+\end{equation*}
 </div>
-</div> <div class="para logical" id="p-214">
-<div class="para">Finally, we can make the substitutions</div>
-<div class="displaymath process-math" id="md-21">
-\begin{align*}
-x^3 - 1 \amp= x^2(x - 1) + (x^2 - 1)\\
-\amp = x^2(x - 1) + x(x - 1) + (x-1)\\
-\amp = (x^2 + x + 1)(x - 1).
-\end{align*}
+<div class="para">with remainder <span class="process-math">\(r(10) = 5\text{.}\)</span> Indeed, polynomial long division is a generalization of long division in base <span class="process-math">\(10\text{.}\)</span>
 </div>
-<div class="para">This tells us that <span class="process-math">\(x^3 - 1\)</span> divided by <span class="process-math">\(x-1\)</span> is <span class="process-math">\(x^2 + x + 1\text{.}\)</span>
-</div>
-</div>
-</div></details></div></article><article class="definition definition-like" id="definition-41"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.11</span><span class="period">.</span>
+</div></article><div class="para" id="p-213">When paired with <a href="" class="xref" data-knowl="./knowl/xref/thm-rational_root.html" title="Theorem 3.1.6: The Rational Root Theorem">The Rational Root Theorem</a>, polynomial long division is useful for factoring polynomials. The main tool is the following theorem.</div>
+<article class="theorem theorem-like" id="thm-root_div"><h4 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.1.13</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-215">Assume <span class="process-math">\(f\)</span> and <span class="process-math">\(d\)</span> are polynomials. The polynomial <span class="process-math">\(g\)</span> <dfn class="terminology">divides</dfn>  the polynomial <span class="process-math">\(f\)</span> if the remainder in <a href="" class="xref" data-knowl="./knowl/xref/thm-polynomial_division.html" title="Theorem 3.1.8: Polynomial Division">Theorem 3.1.8</a> satisfies <span class="process-math">\(r(x) = 0\text{.}\)</span>
-</div></article><article class="theorem theorem-like" id="theorem-8"><h4 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.1.12</span><span class="period">.</span>
-</h4>
-<div class="para" id="p-216">The number <span class="process-math">\(r\)</span> is a root of the polynomial <span class="process-math">\(f\)</span> if and only if <span class="process-math">\((x - r)\)</span> divides <span class="process-math">\(f\text{.}\)</span>
+<div class="para" id="p-214">The number <span class="process-math">\(r\)</span> is a root of the polynomial <span class="process-math">\(f\)</span> if and only if <span class="process-math">\((x - r)\)</span> divides <span class="process-math">\(f\text{.}\)</span>
 </div></article><article class="definition definition-like" id="definition-42"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.13</span><span class="period">.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.14</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-217">Assume <span class="process-math">\(f\)</span> is a polynomial and <span class="process-math">\(r\)</span> is a root of <span class="process-math">\(f\text{.}\)</span> The <dfn class="terminology">multiplicity</dfn> of <span class="process-math">\(r\)</span> is the largest integer <span class="process-math">\(m\)</span> such that <span class="process-math">\((x - r)^m\)</span> divides <span class="process-math">\(f\)</span>
+<div class="para" id="p-215">Assume <span class="process-math">\(f\)</span> is a polynomial and <span class="process-math">\(r\)</span> is a root of <span class="process-math">\(f\text{.}\)</span> The <dfn class="terminology">multiplicity</dfn> of <span class="process-math">\(r\)</span> is the largest integer <span class="process-math">\(m\)</span> such that <span class="process-math">\((x - r)^m\)</span> divides <span class="process-math">\(f\)</span>
+</div></article><article class="example example-like" id="example-33"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.15</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-216">As we saw in <a href="" class="xref" data-knowl="./knowl/xref/example-rational_root.html" title="Example 3.1.7">Example 3.1.7</a>, the polynomial <span class="process-math">\(f(x) = 2x^4 - 7x^3 + 5x^2 - 7x + 3\)</span> has a root at <span class="process-math">\(x = 1/2\)</span> and at <span class="process-math">\(x = 3\text{.}\)</span> By <a href="" class="xref" data-knowl="./knowl/xref/thm-root_div.html" title="Theorem 3.1.13">Theorem 3.1.13</a>, the polynomial <span class="process-math">\(x - 1/2\)</span> divides <span class="process-math">\(f(x)\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-rational_root.html ./knowl/xref/thm-root_div.html" id="md-21">
+\begin{align*}
+\amp\phantom{)}2x^3 - 6x^2 + 2x - 6\\
+x - \frac{1}{2} \amp\overline{\smash{)}{2x^4 - 7x^3 + 5x^2 - 7x + 3}} \\
+\amp \underline{-2x^4 + x^3}\\
+\amp \phantom{)2x^4}-6x^3 + 5x^2\\
+\amp \phantom{)2x^4}\underline{+6x^3 - 3x^2}\\
+\amp \phantom{)2x^4 - 7x^3 +}2x^2 - 7x\\
+\amp \phantom{)2x^4 - 7x^3}\underline{-2x^2 + 2x}\\
+\amp \phantom{)2x^4 - 7x^3 + 5x^2}-6x + 3\\
+\amp \phantom{)2x^4 - 7x^3 + 5x^2}\underline{+6x - 3}\\
+\amp \phantom{)2x^4 - 7x^3 + 5x^2 - 7x +}0
+\end{align*}
+</div>
+<div class="para logical" id="p-217">
+<div class="para">This allows us to write</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f(x) = \left(x - \frac{1}{2}\right)\left(2x^3 - 6x^2 + 2x - 6\right).
+\end{equation*}
+</div>
+</div> <div class="para" id="p-218">Since <span class="process-math">\(f(3) = 0\)</span> and <span class="process-math">\(3 - 1/2 \neq 0\text{,}\)</span> we conclude that <span class="process-math">\(x - 3\)</span> divides <span class="process-math">\(2x^3 - 6x^2 + 2x - 6\text{.}\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-rational_root.html ./knowl/xref/thm-root_div.html" id="md-22">
+\begin{align*}
+\amp\phantom{)}2x^2 + 2\\
+x - 3 \amp\overline{\smash{)}{2x^3 - 6x^2 + 2x - 6}} \\
+\amp \underline{-2x^3 + 6x^2}\\
+\amp \phantom{)2x^3}0 + 2x - 6\\
+\amp \phantom{)2x^3-}\underline{-2x + 6}\\
+\amp \phantom{)2x^3 - 6x^2 + }0
+\end{align*}
+</div>
+<div class="para" id="p-219">Hence we have the factorization</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-rational_root.html ./knowl/xref/thm-root_div.html" id="md-23">
+\begin{align*}
+f(x) \amp= \left(x - \frac{1}{2}\right)(x - 3)(2x^2 + 2)\\
+\amp = \left(x - \frac{1}{2}\right)(x - 3)(2)(x^2 + 1)\\
+\amp = 2\left(x - \frac{1}{2}\right)(x - 3)(x^2 + 1)\\
+\amp = (2x - 1)(x - 3)(x^2 + 1).
+\end{align*}
 </div></article></section><article class="theorem theorem-like" id="thm-fundamental_theorem"><h3 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.1.14</span><span class="space"> </span><span class="creator">(Carl Friedrich Gauss)</span><span class="period">.</span><span class="space"> </span><span class="title">The Fundamental Theorem of Algbera.</span>
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.1.16</span><span class="space"> </span><span class="creator">(Carl Friedrich Gauss)</span><span class="period">.</span><span class="space"> </span><span class="title">The Fundamental Theorem of Algbera.</span>
 </h3>
-<div class="para" id="p-218">Every polynomial of degree <span class="process-math">\(n &gt; 0\)</span> has at least one root, which may be a complex number of the form <span class="process-math">\(a + bi = a + b\sqrt{-1}\text{.}\)</span>
+<div class="para" id="p-220">Every polynomial of degree <span class="process-math">\(n &gt; 0\)</span> has at least one root, which may be a complex number of the form <span class="process-math">\(a + bi = a + b\sqrt{-1}\text{.}\)</span>
 </div></article></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="ch-linear_functions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-linear_functions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>

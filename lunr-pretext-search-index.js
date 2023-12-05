@@ -1204,7 +1204,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Polynomial Functions",
-  "body": " Polynomial Functions   The simplest algebraic functions are constructed using the operations of addition and multiplication with a variable. While simple to construct, it is often difficult or even impossible to answer basic questions about these functions in general. However, these functions are extraordinarily important in nearly every branch of mathematics. We discuss foundational results about general polynomials in this section, and specialize to some easy to classify cases in the later sections.    Polynomial Function  A polynomial function   Function  Polynomial  of is a function of the form where is an integer, are numbers and .  We say is a polynomial of degree   Function  Polynomial  Degree   and write .     The numbers are called the coefficient   Function  Polynomial  Coefficient  of , respectively.    Roots of Polynomials  Polynomial functions are most interesting because they are relatively simple functions that allow us to model real world phenomena.   Assume an object is thrown straight up in the air. If we let denote the distance from the thrower's hand to the ground when the object is released, and let denote the velocity of the object in meters\/second as it leaves the thrower's hand, then the height of the object as a function of time can be expressed using the polynomial     How long will it take for the object to return to the hand of the thrower?   To answer this question, we want the solutions to the equation If we subtract from both sides of the equation, then it is equivalent to find solutions to the polynomial equation Questions of this type arise frequently when discussing polynomials.   Root A root   Function  Polynomial  Root  of the polynomial is a number, , such that   Questions about roots of polynomials have been posed and studied for millenia. One of the simplest questions asks whether we can find a formula that will produce the roots of a general polynomial of a certain degree in terms of its coefficients.   Is there a formula to find all of the roots of the polynomial in terms of the coefficients?   In general, the answer to this question is deeply unsatisfying. We will find formulas for polynomials of degree 1 in and of degree 2 in . While general formulas exist for polynomials of degree 3 and degree 4, they are beyond the scope of this text. However, there are no such general formulas for polynomials of degree 5 and higher. This means we will need to develop other techniques for finding roots of polynomials.   The Rational Root Theorem   Assume and are integers. If is a root of the polynomial then is a divisor of and is a divisor of .     Find all rational roots of .   The divisors of are and . The divisors of are , . tells us the only possible rational numbers that can be roots of are We can check each of these by evaluating the function at these rational numbers. Therefore the only rational roots of the polynomial are and .      Polynomial Division  Another method for finding roots that is often paired with is division. Recall that if we have an integer and a smaller integer, , then we can always find integers and with such that There is an analogous result for polynomials.   Polynomial Division   Assume and are polynomials with . There exist polynomials and with such that .  In analogy with the integers, we call the polynomials the dividend , the quotient , and the remainder , and we say that divided by is with remainder     For integers and , the process of finding and is often performed using long division.   To divide by , we would perform the long division using the symbols to find .   Another way to interpret the long division is to think about the base ten number system. The first step in long division is to find a string of digits in from left to right that is larger than . In this case, the first two digits form the number . The closest multiple of to 31 is , so we write a on top of the vinculum to signify this, subtract from to get and carry down the next digit, which is a . This is shorthand for writing   We repeat this process with and dividend . Again, the closest multiple of to is , so we write down another on top of the vinculum, subtract from to obtain , and carry down the . As before, this is shorthand for   The final step in the process is to perform the same operation with and dividend . As before, we can write         To arrive at the final answer, we can repeatedly replace the remainders to find   This process terminates because at each stage we are reducing the number of digits in the remainder by at least one. When we do long division with polynomials, our goal will be similar. Instead of reducing the number of digits, we reduce the degree by at least one.    Divide the polynomial by .    First we eliminate the term.   Next eliminate the term.   Finally, we can make the substitutions This tells us that divided by is .     Assume and are polynomials. The polynomial  divides   Function  Polynomial  Divides  the polynomial if the remainder in satisfies .     The number is a root of the polynomial if and only if divides .     Assume is a polynomial and is a root of . The multiplicity of is the largest integer such that divides      The Fundamental Theorem of Algbera  Carl Friedrich Gauss   Every polynomial of degree has at least one root, which may be a complex number of the form .    "
+  "body": " Polynomial Functions   The simplest algebraic functions are constructed using the operations of addition and multiplication with a variable. While simple to construct, it is often difficult or even impossible to answer basic questions about these functions in general. However, these functions are extraordinarily important in nearly every branch of mathematics. We discuss foundational results about general polynomials in this section, and specialize to some easy to classify cases in the later sections.    Polynomial Function  A polynomial function   Function  Polynomial  of is a function of the form where is an integer, are numbers and .  We say is a polynomial of degree   Function  Polynomial  Degree   and write .     The numbers are called the coefficient   Function  Polynomial  Coefficient  of , respectively.    Roots of Polynomials  Polynomial functions are most interesting because they are relatively simple functions that allow us to model real world phenomena.   Assume an object is thrown straight up in the air. If we let denote the distance from the thrower's hand to the ground when the object is released, and let denote the velocity of the object in meters\/second as it leaves the thrower's hand, then the height of the object as a function of time can be expressed using the polynomial     How long will it take for the object to return to the hand of the thrower?   To answer this question, we want the solutions to the equation If we subtract from both sides of the equation, then it is equivalent to find solutions to the polynomial equation Questions of this type arise frequently when discussing polynomials.   Root A root   Function  Polynomial  Root  of the polynomial is a number, , such that   Questions about roots of polynomials have been posed and studied for millenia. One of the simplest questions asks whether we can find a formula that will produce the roots of a general polynomial of a certain degree in terms of its coefficients.   Is there a formula to find all of the roots of the polynomial in terms of the coefficients?   In general, the answer to this question is deeply unsatisfying. We will find formulas for polynomials of degree 1 in and of degree 2 in . While general formulas exist for polynomials of degree 3 and degree 4, they are beyond the scope of this text. However, there are no such general formulas for polynomials of degree 5 and higher. This means we will need to develop other techniques for finding roots of polynomials.   The Rational Root Theorem   Assume and are integers. If is a root of the polynomial then is a divisor of and is a divisor of .     Find all rational roots of .   The divisors of are and . The divisors of are , . tells us the only possible rational numbers that can be roots of are We can check each of these by evaluating the function at these rational numbers. Therefore the only rational roots of the polynomial are and .      Polynomial Division  Another method for finding roots that is often paired with is division. Recall that if we have an integer and a smaller integer, , then we can always find integers and with such that There is an analogous result for polynomials.   Polynomial Division   Assume and are polynomials with . There exist polynomials and with such that .  In analogy with the integers, we call the polynomials the dividend , the quotient , and the remainder , and we say that divided by is with remainder      Assume and are polynomials. The polynomial  divides   Function  Polynomial  Divides  the polynomial if the remainder in satisfies .   For integers and , the process of finding and is often performed using long division.   To divide by , we would perform the long division using the symbols to find .   To understand how to perform division with polynomials, it is helpful to understand how the division algorithm with numbers written in base . The four steps in the long division above are shorthand for the following equations.   We arrive at the final answer by repeated substitution for the remainders starting with .   This process terminates because at each stage we are reducing the number of digits in the remainder by at least one. When we do long division with polynomials, our goal will be similar, but we will reduce the degree of the remainder polynomial by at least one.   To divide the polynomial by the polynomial , we write then, starting from , we substitute for the remainders Therefore divided by is with remainder .  We can also perform polynomial division using the same shorthand as we would for numbers. When performing polynomial division in this way, it is important to carefully distribute signs when subtracting.     Note that if we evaluate each of the polynomials at , then we find divided by is with remainder . Indeed, polynomial long division is a generalization of long division in base .   When paired with , polynomial long division is useful for factoring polynomials. The main tool is the following theorem.    The number is a root of the polynomial if and only if divides .     Assume is a polynomial and is a root of . The multiplicity of is the largest integer such that divides     As we saw in , the polynomial has a root at and at . By , the polynomial divides    This allows us to write   Since and , we conclude that divides .   Hence we have the factorization      The Fundamental Theorem of Algbera  Carl Friedrich Gauss   Every polynomial of degree has at least one root, which may be a complex number of the form .    "
 },
 {
   "id": "definition-39",
@@ -1261,9 +1261,9 @@ var ptx_lunr_docs = [
   "body": " The Rational Root Theorem   Assume and are integers. If is a root of the polynomial then is a divisor of and is a divisor of .   "
 },
 {
-  "id": "example-30",
+  "id": "example-rational_root",
   "level": "2",
-  "url": "section-11.html#example-30",
+  "url": "section-11.html#example-rational_root",
   "type": "Example",
   "number": "3.1.7",
   "title": "",
@@ -1279,11 +1279,20 @@ var ptx_lunr_docs = [
   "body": " Polynomial Division   Assume and are polynomials with . There exist polynomials and with such that .  In analogy with the integers, we call the polynomials the dividend , the quotient , and the remainder , and we say that divided by is with remainder    "
 },
 {
-  "id": "example-31",
+  "id": "definition-41",
   "level": "2",
-  "url": "section-11.html#example-31",
-  "type": "Example",
+  "url": "section-11.html#definition-41",
+  "type": "Definition",
   "number": "3.1.9",
+  "title": "",
+  "body": " Assume and are polynomials. The polynomial  divides   Function  Polynomial  Divides  the polynomial if the remainder in satisfies .  "
+},
+{
+  "id": "example-integer_division",
+  "level": "2",
+  "url": "section-11.html#example-integer_division",
+  "type": "Example",
+  "number": "3.1.10",
   "title": "",
   "body": " To divide by , we would perform the long division using the symbols to find .  "
 },
@@ -1292,25 +1301,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-11.html#example-32",
   "type": "Example",
-  "number": "3.1.10",
-  "title": "",
-  "body": "  Divide the polynomial by .    First we eliminate the term.   Next eliminate the term.   Finally, we can make the substitutions This tells us that divided by is .   "
-},
-{
-  "id": "definition-41",
-  "level": "2",
-  "url": "section-11.html#definition-41",
-  "type": "Definition",
   "number": "3.1.11",
   "title": "",
-  "body": " Assume and are polynomials. The polynomial  divides   Function  Polynomial  Divides  the polynomial if the remainder in satisfies .  "
+  "body": " To divide the polynomial by the polynomial , we write then, starting from , we substitute for the remainders Therefore divided by is with remainder .  We can also perform polynomial division using the same shorthand as we would for numbers. When performing polynomial division in this way, it is important to carefully distribute signs when subtracting.   "
 },
 {
-  "id": "theorem-8",
+  "id": "remark-6",
   "level": "2",
-  "url": "section-11.html#theorem-8",
-  "type": "Theorem",
+  "url": "section-11.html#remark-6",
+  "type": "Remark",
   "number": "3.1.12",
+  "title": "",
+  "body": " Note that if we evaluate each of the polynomials at , then we find divided by is with remainder . Indeed, polynomial long division is a generalization of long division in base .  "
+},
+{
+  "id": "thm-root_div",
+  "level": "2",
+  "url": "section-11.html#thm-root_div",
+  "type": "Theorem",
+  "number": "3.1.13",
   "title": "",
   "body": "  The number is a root of the polynomial if and only if divides .   "
 },
@@ -1319,16 +1328,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-11.html#definition-42",
   "type": "Definition",
-  "number": "3.1.13",
+  "number": "3.1.14",
   "title": "",
   "body": " Assume is a polynomial and is a root of . The multiplicity of is the largest integer such that divides   "
+},
+{
+  "id": "example-33",
+  "level": "2",
+  "url": "section-11.html#example-33",
+  "type": "Example",
+  "number": "3.1.15",
+  "title": "",
+  "body": " As we saw in , the polynomial has a root at and at . By , the polynomial divides    This allows us to write   Since and , we conclude that divides .   Hence we have the factorization   "
 },
 {
   "id": "thm-fundamental_theorem",
   "level": "2",
   "url": "section-11.html#thm-fundamental_theorem",
   "type": "Theorem",
-  "number": "3.1.14",
+  "number": "3.1.16",
   "title": "The Fundamental Theorem of Algbera.",
   "body": " The Fundamental Theorem of Algbera  Carl Friedrich Gauss   Every polynomial of degree has at least one root, which may be a complex number of the form .   "
 },
@@ -1387,9 +1405,9 @@ var ptx_lunr_docs = [
   "body": "  Find the -intercept of the linear equation .    To find the -intercept of the linear equation , we substitute for to get Therefore the -intercept of the linear equation is the point .   "
 },
 {
-  "id": "example-34",
+  "id": "example-35",
   "level": "2",
-  "url": "sec-linear_functions.html#example-34",
+  "url": "sec-linear_functions.html#example-35",
   "type": "Example",
   "number": "3.2.5",
   "title": "",
@@ -1477,9 +1495,9 @@ var ptx_lunr_docs = [
   "body": "    The slope of the line through the points and .  "
 },
 {
-  "id": "remark-6",
+  "id": "remark-7",
   "level": "2",
-  "url": "sec-lines.html#remark-6",
+  "url": "sec-lines.html#remark-7",
   "type": "Remark",
   "number": "3.3.3",
   "title": "",
@@ -1522,18 +1540,18 @@ var ptx_lunr_docs = [
   "body": " The Point-Slope Form of a Line   The point-slope form of the line   Line  Point-Slope Form  through the point with slope is    "
 },
 {
-  "id": "example-37",
+  "id": "example-38",
   "level": "2",
-  "url": "sec-lines.html#example-37",
+  "url": "sec-lines.html#example-38",
   "type": "Example",
   "number": "3.3.8",
   "title": "",
   "body": "  Find the using the point and the slope .    Using , the equation of the line through with slope is    "
 },
 {
-  "id": "example-38",
+  "id": "example-39",
   "level": "2",
-  "url": "sec-lines.html#example-38",
+  "url": "sec-lines.html#example-39",
   "type": "Example",
   "number": "3.3.9",
   "title": "",
@@ -1549,27 +1567,27 @@ var ptx_lunr_docs = [
   "body": " Standard Equation of a Line  The standard equation of a line   Equation  Line  Standard  in the variables and is where and are not both zero.  "
 },
 {
-  "id": "remark-7",
+  "id": "remark-8",
   "level": "2",
-  "url": "sec-lines.html#remark-7",
+  "url": "sec-lines.html#remark-8",
   "type": "Remark",
   "number": "3.3.11",
   "title": "<em class=\"alert\">Caution!<\/em>",
   "body": " Caution!  The standard equation of a line may not always represent an equation where is a function of ! If , then the standard equation of a line reduces to which is a vertical line.  "
 },
 {
-  "id": "example-39",
+  "id": "example-40",
   "level": "2",
-  "url": "sec-lines.html#example-39",
+  "url": "sec-lines.html#example-40",
   "type": "Example",
   "number": "3.3.12",
   "title": "",
   "body": "  Place the linear equation into .    The equation can be placed in standard form as follows. First, move the variables to the left-hand side of the equation. Subtract from both sides and distribute the negative Collect like terms and simplify Finally, subtract 7 from both sides of the equation and simplify to arrive at the standard form    "
 },
 {
-  "id": "example-40",
+  "id": "example-41",
   "level": "2",
-  "url": "sec-lines.html#example-40",
+  "url": "sec-lines.html#example-41",
   "type": "Example",
   "number": "3.3.13",
   "title": "",
@@ -1684,18 +1702,18 @@ var ptx_lunr_docs = [
   "body": " Two lines are parallel if and only if they have the same slope.  "
 },
 {
-  "id": "example-41",
+  "id": "example-42",
   "level": "2",
-  "url": "sec-perp_parallel.html#example-41",
+  "url": "sec-perp_parallel.html#example-42",
   "type": "Example",
   "number": "3.4.4",
   "title": "",
   "body": "  Determine whether the lines are parallel.    In order to determine whether these lines are parallel, we need to find the slope of each line. We do this by placing each line into .  For the first line, add to both sides and divide both sides by  This tells us the slope of the line is .  For the second line, add to both sides divide both sides by  and reduce This tells the slope of the line is also . Therefore the lines and are parallel by .   "
 },
 {
-  "id": "example-42",
+  "id": "example-43",
   "level": "2",
-  "url": "sec-perp_parallel.html#example-42",
+  "url": "sec-perp_parallel.html#example-43",
   "type": "Example",
   "number": "3.4.5",
   "title": "",
@@ -1729,18 +1747,18 @@ var ptx_lunr_docs = [
   "body": "  Two lines are perpendicular if and only if the product of their slopes is .   "
 },
 {
-  "id": "example-43",
+  "id": "example-44",
   "level": "2",
-  "url": "sec-perp_parallel.html#example-43",
+  "url": "sec-perp_parallel.html#example-44",
   "type": "Example",
   "number": "3.4.9",
   "title": "",
   "body": "  Determine whether the lines are perpendicular.    First we must place the lines in to find the slopes. The first equation becomes In this form, we can read off the slope of the line as   The second equation becomes In this form, we can read off the slop of the line as .  Finally, to check whether these lines are parallel, we compute the product of these slopes. Since we conclude that these lines are perpendicular by .   "
 },
 {
-  "id": "example-44",
+  "id": "example-45",
   "level": "2",
-  "url": "sec-perp_parallel.html#example-44",
+  "url": "sec-perp_parallel.html#example-45",
   "type": "Example",
   "number": "3.4.10",
   "title": "",
@@ -1789,7 +1807,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.5",
   "title": "Quadratic Functions",
-  "body": " Quadratic Functions    Place a quadratic function in vertex form,  Find the vertex of a quadratic function,     In this section, we study polynomial functions of degree 2. These polynomial functions are often called quadratic functions .    Quadratic Function  A function is quadratic   Function  Quadratic  if it has the form where , , and are numbers, and .    Vertex Form   Just as with lines, quadratic functions are easier to understand through visualizations. The simplest quadratic function to understand is . We call the a parabola .  Graph  Parabola  The point is called the vertex .  Graph  Parabola  Vertex    As we have already seen in , the graph of this function is symmetric about the -axis, which is the vertical line through the vertex. While general quadratics are slightly more complicated, we can use the properties of to graph the class of quadratics in the following form.    The Vertex Form of a Quadratic  A quadratic function, , is in vertex form   Function  Quadratic  Vertex Form  if there are numbers and such that    Using the methods of , we can graph quadratics in this form by following the steps below.   Graphing Quadratic Functions in Vertex Form   To graph of the quadratic function      Translate the graph of horizontally by units.   If , then the translation is to the right.    If , then the translation is to the left.       Scale the graph of by .   If , then the graph is stretched.    If , then the graph is compressed.       If , reflect the graph of over the -axis.    Translate the graph of vertically by units.   If , then the translation is down.    If , then the translation is up.          Graph the function .    Following , we perform the following operations on the graph of the function .   Translate the graph of to the left by 1 to obtain the graph of .  Stretch the graph of by a factor of 2 to obtain the graph of .  Reflect the graph of across the -axis to obtain the graph of .  Translate the graph of up by 1 to obtain the graph of .   These operations are shown below.                   The transformations used to graph .     If we follow the vertex, we can see the first operation moves the point to . Since the point lies on the -axis, the second and third operation do not move the point . The fourth operation moves the point to the point . Since these operations preserve the general shape of the graph, a quadratic function in the form is a parabola with vertex at . Hence the reason for the name vertex form .  Similarly, if we follow the line of symmetry for , then we can see the first operation moves the vertical line to the vertical line . The following three operations do not change the vertical line, so the graph of is symmetric about the vertical line .  Finally, we observe the third operation may change the direction in which the parabola opens.   The graph of a parabola is    concave up   Function  Quadratic  Concave  Up  if the parabola opens upwards like .     concave down   Function  Quadratic  Concave  Down  if the parabola opens downwards like .      For quadratics in vertex form , we can see that is concave up whenever and concave down whenever .    Completing the Square   Surprisingly, every quadratic function can be placed into vertex form. Paired with the observations above, this tells us the graph of every quadratic function is a parabola. Placing a general quadratic function into vertex form will require the method of completing the square.   Remember that when we multiply two binomials, we must distribute. We can remember how to distribute using the mnemonic FOIL: F irst, O uter, I nner, L ast:   Multiplying binomials using the FOIL method.    If we use this method to multiply a binomial by itself, then we find the useful formula We call a quadratic function of the form a perfect square .  Perfect Square    Given a quadratic equation , we can use the formula to complete the square   Complete the Square  as follows.   Completing the Square  To complete the square with the quadratic function    Factor an from the first two terms to get   Add and subtract inside the parentheses to get   Factor the first three terms inside the parentheses as a perfect square   Distribute the through the sum          The number is the -coordinate of the vertex, and the number is the -coordinate of the vertex.   The Vertex Formula   Let be a quadratic function. The -coordinate of the vertex is and the -coordinate of the vertex is   As an ordered pair, the vertex of the graph of occurs at      Using , the vertex form of the quadratic function is      Find the vertex form of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function       Find the vertex of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is   Therefore the vertex form of the quadratic function is       The Quadratic Formula   In order to accurately graph a quadratic function , it is necessary to identify the -intercepts for the function. A point in the Cartesian plane is an for this function if This reduces the geometric problem of finding the -intercepts of a quadratic to the algebraic problem finding solutions to equations.    An equation of the form is called a quadratic equation   Equation  Quadratic     To find the solutions to the quadratic equation , we use to write and solve this equation for    It is important to note that are real numbers only when is a non-negative number. The number is an important invariant of a quadratic function.   The Discriminant  The discriminant   Function  Quadratic  Discriminant  of the quadratic function is the number    The discriminant provides both algebraic and geometric information about quadratic functions. On the algebraic side, the discriminant tells us how many solutions there are to the quadratic equation .   The Quadratic Formula   The quadratic equation has either two, one, or zero real solutions, depending on , .   If , then the two solutions are    If , then the only solution is   If , then there are no real solutions.      On the geometric side, the discriminant tells us how many -intercepts the graph of has.   The -intercepts of a Quadratic Function  The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.       Find the -intercepts of the function .    Since the discriminant is this function does not have any -intercepts.      Find the -intercepts of the function .    The discriminant of this quadratic is The solutions to the equation are given by the formula This tells us that one intercept occurs when and the other occurs when Therefore the -intercepts are       Graphing Qudaratics  We can simplify the process of graphing a quadratic function by using the tools we have developed in this section.   Graphing a Quadratic Function    Use the to find the vertex, , of the parabola. Plot the vertex in the plane.    Factor or use the to find the -intercept(s). If there are -intercepts, plot them in the plane.    Plot the -intercept, , in the plane.    Draw a parabola through the points in Steps (1) through (3).  The parabola will open upwards if .  The parabola will open downwards if .         Working with Quadratic Functions    find the vertex of a quadratic function,  find the -intercept(s) of a quadratic function  find the -intercept of a quadratic function,  graph a quadratic function.     Sketch a graph of each of the quadratic functions below. Label the -intercept, the vertex, and any -intercepts.                "
+  "body": " Quadratic Functions    Place a quadratic function in vertex form,  Find the vertex of a quadratic function,     In this section, we study polynomial functions of degree 2. These polynomial functions are often called quadratic functions .    Quadratic Function  A function is quadratic   Function  Quadratic  if it has the form where , , and are numbers, and .    Vertex Form   Just as with lines, quadratic functions are easier to understand through visualizations. The simplest quadratic function to understand is . We call the a parabola .  Graph  Parabola  The point is called the vertex .  Graph  Parabola  Vertex    As we have already seen in , the graph of this function is symmetric about the -axis, which is the vertical line through the vertex. While general quadratics are slightly more complicated, we can use the properties of to graph the class of quadratics in the following form.    The Vertex Form of a Quadratic  A quadratic function, , is in vertex form   Function  Quadratic  Vertex Form  if there are numbers and such that    Using the methods of , we can graph quadratics in this form by following the steps below.   Graphing Quadratic Functions in Vertex Form   To graph of the quadratic function      Translate the graph of horizontally by units.   If , then the translation is to the right.    If , then the translation is to the left.       Scale the graph of by .   If , then the graph is stretched.    If , then the graph is compressed.       If , reflect the graph of over the -axis.    Translate the graph of vertically by units.   If , then the translation is down.    If , then the translation is up.          Graph the function .    Following , we perform the following operations on the graph of the function .   Translate the graph of to the left by 1 to obtain the graph of .  Stretch the graph of by a factor of 2 to obtain the graph of .  Reflect the graph of across the -axis to obtain the graph of .  Translate the graph of up by 1 to obtain the graph of .   These operations are shown below.                   The transformations used to graph .     If we follow the vertex, we can see the first operation moves the point to . Since the point lies on the -axis, the second and third operation do not move the point . The fourth operation moves the point to the point . Since these operations preserve the general shape of the graph, a quadratic function in the form is a parabola with vertex at . Hence the reason for the name vertex form .  Similarly, if we follow the line of symmetry for , then we can see the first operation moves the vertical line to the vertical line . The following three operations do not change the vertical line, so the graph of is symmetric about the vertical line .  Finally, we observe the third operation may change the direction in which the parabola opens.   The graph of a parabola is    concave up   Function  Quadratic  Concave  Up  if the parabola opens upwards like .     concave down   Function  Quadratic  Concave  Down  if the parabola opens downwards like .      For quadratics in vertex form , we can see that is concave up whenever and concave down whenever .    Completing the Square   Surprisingly, every quadratic function can be placed into vertex form. Paired with the observations above, this tells us the graph of every quadratic function is a parabola. Placing a general quadratic function into vertex form will require the method of completing the square.   Remember that when we multiply two binomials, we must distribute. We can remember how to distribute using the mnemonic FOIL: F irst, O uter, I nner, L ast:   Multiplying binomials using the FOIL method.    If we use this method to multiply a binomial by itself, then we find the useful formula We call a quadratic function of the form a perfect square .  Perfect Square    Given a quadratic equation , we can use the formula to complete the square   Complete the Square  as follows.   Completing the Square  To complete the square with the quadratic function    Factor an from the first two terms to get   Add and subtract inside the parentheses to get   Factor the first three terms inside the parentheses as a perfect square   Distribute the through the sum          The number is the -coordinate of the vertex, and the number is the -coordinate of the vertex.   The Vertex Formula   Let be a quadratic function. The -coordinate of the vertex is and the -coordinate of the vertex is   As an ordered pair, the vertex of the graph of occurs at      Using , the vertex form of the quadratic function is      Find the vertex form of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function       Find the vertex of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is   Therefore the vertex form of the quadratic function is       The Quadratic Formula   In order to accurately graph a quadratic function , it is necessary to identify the -intercepts for the function. A point in the Cartesian plane is an for this function if This reduces the geometric problem of finding the -intercepts of a quadratic to the algebraic problem finding solutions to equations.    An equation of the form is called a quadratic equation   Equation  Quadratic     To find the solutions to the quadratic equation , we use to write and solve this equation for    It is important to note that are real numbers only when is a non-negative number. The number is an important invariant of a quadratic function.   The Discriminant  The discriminant   Function  Quadratic  Discriminant  of the quadratic function is the number    The discriminant provides both algebraic and geometric information about quadratic functions. On the algebraic side, the discriminant tells us how many solutions there are to the quadratic equation .   The Quadratic Formula   The quadratic equation has either two, one, or zero real solutions, depending on , .   If , then the two solutions are    If , then the only solution is   If , then there are no real solutions.      If we pair with , then we have an algorithmic way to factor any quadratic function.    The quadratic function factors as where is the discriminant.                                Factor the quadratic .    The discriminant is so the roots are By , the factorization is We can check our answer by using FOIL to see     On the geometric side, the discriminant tells us how many -intercepts the graph of has.   The -intercepts of a Quadratic Function  The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.       Find the -intercepts of the function .    Since the discriminant is this function does not have any -intercepts.      Find the -intercepts of the function .    The discriminant of this quadratic is The solutions to the equation are given by the formula This tells us that one intercept occurs when and the other occurs when Therefore the -intercepts are       Graphing Qudaratics  We can simplify the process of graphing a quadratic function by using the tools we have developed in this section.   Graphing a Quadratic Function    Use the to find the vertex, , of the parabola. Plot the vertex in the plane.    Factor or use the to find the -intercept(s). If there are -intercepts, plot them in the plane.    Plot the -intercept, , in the plane.    Draw a parabola through the points in Steps (1) through (3).  The parabola will open upwards if .  The parabola will open downwards if .         Working with Quadratic Functions    find the vertex of a quadratic function,  find the -intercept(s) of a quadratic function  find the -intercept of a quadratic function,  graph a quadratic function.     Sketch a graph of each of the quadratic functions below. Label the -intercept, the vertex, and any -intercepts.                "
 },
 {
   "id": "objectives-22",
@@ -1810,9 +1828,9 @@ var ptx_lunr_docs = [
   "body": " Quadratic Function  A function is quadratic   Function  Quadratic  if it has the form where , , and are numbers, and .  "
 },
 {
-  "id": "p-303",
+  "id": "p-305",
   "level": "2",
-  "url": "sec-quadratic_functions.html#p-303",
+  "url": "sec-quadratic_functions.html#p-305",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1837,9 +1855,9 @@ var ptx_lunr_docs = [
   "body": " Graphing Quadratic Functions in Vertex Form   To graph of the quadratic function      Translate the graph of horizontally by units.   If , then the translation is to the right.    If , then the translation is to the left.       Scale the graph of by .   If , then the graph is stretched.    If , then the graph is compressed.       If , reflect the graph of over the -axis.    Translate the graph of vertically by units.   If , then the translation is down.    If , then the translation is up.       "
 },
 {
-  "id": "example-45",
+  "id": "example-46",
   "level": "2",
-  "url": "sec-quadratic_functions.html#example-45",
+  "url": "sec-quadratic_functions.html#example-46",
   "type": "Example",
   "number": "3.5.4",
   "title": "",
@@ -1864,18 +1882,18 @@ var ptx_lunr_docs = [
   "body": " Multiplying binomials using the FOIL method.   "
 },
 {
-  "id": "p-330",
+  "id": "p-332",
   "level": "2",
-  "url": "sec-quadratic_functions.html#p-330",
+  "url": "sec-quadratic_functions.html#p-332",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "perfect square "
 },
 {
-  "id": "p-331",
+  "id": "p-333",
   "level": "2",
-  "url": "sec-quadratic_functions.html#p-331",
+  "url": "sec-quadratic_functions.html#p-333",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1900,27 +1918,27 @@ var ptx_lunr_docs = [
   "body": " The Vertex Formula   Let be a quadratic function. The -coordinate of the vertex is and the -coordinate of the vertex is   As an ordered pair, the vertex of the graph of occurs at    "
 },
 {
-  "id": "remark-8",
+  "id": "remark-9",
   "level": "2",
-  "url": "sec-quadratic_functions.html#remark-8",
+  "url": "sec-quadratic_functions.html#remark-9",
   "type": "Remark",
   "number": "3.5.10",
   "title": "",
   "body": " Using , the vertex form of the quadratic function is   "
 },
 {
-  "id": "example-46",
+  "id": "example-47",
   "level": "2",
-  "url": "sec-quadratic_functions.html#example-46",
+  "url": "sec-quadratic_functions.html#example-47",
   "type": "Example",
   "number": "3.5.11",
   "title": "",
   "body": "  Find the vertex form of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function    "
 },
 {
-  "id": "example-47",
+  "id": "example-48",
   "level": "2",
-  "url": "sec-quadratic_functions.html#example-47",
+  "url": "sec-quadratic_functions.html#example-48",
   "type": "Example",
   "number": "3.5.12",
   "title": "",
@@ -1954,29 +1972,47 @@ var ptx_lunr_docs = [
   "body": " The Quadratic Formula   The quadratic equation has either two, one, or zero real solutions, depending on , .   If , then the two solutions are    If , then the only solution is   If , then there are no real solutions.     "
 },
 {
-  "id": "theorem-16",
+  "id": "thm-quadratic_factorization",
   "level": "2",
-  "url": "sec-quadratic_functions.html#theorem-16",
+  "url": "sec-quadratic_functions.html#thm-quadratic_factorization",
   "type": "Theorem",
   "number": "3.5.16",
-  "title": "The <span class=\"process-math\">\\(x\\)<\/span>-intercepts of a Quadratic Function.",
-  "body": " The -intercepts of a Quadratic Function  The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.    "
-},
-{
-  "id": "example-48",
-  "level": "2",
-  "url": "sec-quadratic_functions.html#example-48",
-  "type": "Example",
-  "number": "3.5.17",
   "title": "",
-  "body": "  Find the -intercepts of the function .    Since the discriminant is this function does not have any -intercepts.   "
+  "body": "  The quadratic function factors as where is the discriminant.   "
 },
 {
   "id": "example-49",
   "level": "2",
   "url": "sec-quadratic_functions.html#example-49",
   "type": "Example",
+  "number": "3.5.17",
+  "title": "",
+  "body": "  Factor the quadratic .    The discriminant is so the roots are By , the factorization is We can check our answer by using FOIL to see    "
+},
+{
+  "id": "theorem-17",
+  "level": "2",
+  "url": "sec-quadratic_functions.html#theorem-17",
+  "type": "Theorem",
   "number": "3.5.18",
+  "title": "The <span class=\"process-math\">\\(x\\)<\/span>-intercepts of a Quadratic Function.",
+  "body": " The -intercepts of a Quadratic Function  The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.    "
+},
+{
+  "id": "example-50",
+  "level": "2",
+  "url": "sec-quadratic_functions.html#example-50",
+  "type": "Example",
+  "number": "3.5.19",
+  "title": "",
+  "body": "  Find the -intercepts of the function .    Since the discriminant is this function does not have any -intercepts.   "
+},
+{
+  "id": "example-51",
+  "level": "2",
+  "url": "sec-quadratic_functions.html#example-51",
+  "type": "Example",
+  "number": "3.5.20",
   "title": "",
   "body": "  Find the -intercepts of the function .    The discriminant of this quadratic is The solutions to the equation are given by the formula This tells us that one intercept occurs when and the other occurs when Therefore the -intercepts are    "
 },
@@ -1985,7 +2021,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#algorithm-4",
   "type": "Algorithm",
-  "number": "3.5.19",
+  "number": "3.5.21",
   "title": "Graphing a Quadratic Function.",
   "body": " Graphing a Quadratic Function    Use the to find the vertex, , of the parabola. Plot the vertex in the plane.    Factor or use the to find the -intercept(s). If there are -intercepts, plot them in the plane.    Plot the -intercept, , in the plane.    Draw a parabola through the points in Steps (1) through (3).  The parabola will open upwards if .  The parabola will open downwards if .      "
 },
