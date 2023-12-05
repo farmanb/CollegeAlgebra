@@ -120,7 +120,7 @@
       </statement>
     </theorem>
 
-    <example>
+    <example xml:id="example-rational_root">
       <p>
 	Find all rational roots of <m>f(x) = 2x^4 - 7x^3 + 5x^2 - 7x + 3</m>.
       </p>
@@ -171,104 +171,6 @@
       </statement>
     </theorem>
 
-    <p>
-      For integers <m>n</m> and <m>d</m>, the process of finding <m>q</m> and <m>r</m> is often performed using long division.
-    </p>
-
-    <example>
-      <p>
-	To divide <m>3135</m> by <m>7</m>, we would perform the long division using the symbols
-	<md>
-	  <mrow>  \amp\phantom{)3}447</mrow>
-	  <mrow>7 \amp\overline{\smash{)}{3135}} </mrow>
-	  <mrow> \amp \underline{-28}</mrow>
-	  <mrow> \amp \phantom{-2}33</mrow>
-	  <mrow> \amp \phantom{2}\underline{-28}</mrow>
-	  <mrow>\amp \phantom{-28}55</mrow>
-	  <mrow>\amp \phantom{28}\underline{-49}</mrow>
-	  <mrow>\amp \phantom{)3135}6</mrow>
-	</md>
-	to find <m>3135 = 447(7) + 6</m>.
-      </p>
-    </example>
-    
-    <p>
-      Another way to interpret the long division is to think about the base ten number system.
-      The first step in long division is to find a string of digits in <m>3135</m> from left to right that is larger than <m>7</m>.
-      In this case, the first two digits form the number <m>31</m>.
-      The closest multiple of <m>7</m> to 31 is <m>4 \times 7 = 28</m>, so we write a <m>4</m> on top of the vinculum to signify this, subtract <m>28</m> from <m>31</m> to get <m>3</m> and carry down the next digit, which is a <m>3</m>.
-      This is shorthand for writing
-      <me>3135 = 400 \times 7 + 335.</me>
-    </p>
-    <p>
-      We repeat this process with <m>335</m> and dividend <m>7</m>.
-      Again, the closest multiple of <m>7</m> to <m>33</m> is <m>28 = 4 \times 7</m>, so we write down another <m>4</m> on top of the vinculum, subtract <m>28</m> from <m>33</m> to obtain <m>5</m>, and carry down the <m>5</m>.
-      As before, this is shorthand for
-      <me>
-	335 = 40 \times 7 + 55.
-      </me>
-    </p>
-    <p>
-      The final step in the process is to perform the same operation with <m>55</m> and dividend <m>7</m>.
-      As before, we can write
-      <me>55 = 49 + 6 = 7 \times 7 + 6.</me>
-    </p>
-      <!-- <md> -->
-      <!-- 	<mrow>3135 \amp= 400(7) + 335</mrow> -->
-      <!-- 	<mrow>335 \amp = 40(7) + 55</mrow> -->
-      <!-- 	<mrow>55 \amp = 7(7) + 6.</mrow> -->
-      <!-- </md> -->
-      <!-- At each stage, our goal is to reduce the number of digits in the remainder by at least one. -->
-      <p>
-	To arrive at the final answer, we can repeatedly replace the remainders to find
-      <md>
-	<mrow>3135 \amp = 400 \times 7 + 335</mrow>
-	<mrow>\amp = 400 \times 7 + (40 \times 7 + 55)</mrow>
-	<mrow>\amp = 400 \times 7 + 40 \times 7 + 55</mrow>
-	<mrow>\amp = 400 \times 7 + 40 \times 7 + (7 \times 7 + 6)</mrow>
-	<mrow>\amp = (400 + 40 + 7) \times 7 + 6</mrow>
-	<mrow>\amp = 447 \times 7 + 6.</mrow>
-      </md>
-    </p>
-    <p>
-      This process terminates because at each stage we are reducing the number of digits in the remainder by at least one.
-      When we do long division with polynomials, our goal will be similar.
-      Instead of reducing the number of digits, we reduce the degree by at least one.
-    </p>
-
-    <example>
-      <statement>
-	<p>
-	  Divide the polynomial <m>f(x) = x^3 - 1</m> by <m>d(x) = x - 1</m>.
-	</p>
-      </statement>
-      <solution>
-	<p>
-	  First we eliminate the <m>x^3</m> term.
-	  <md>
-	    <mrow>\amp x^3 - 1 - x^2(x - 1) = x^2 - 1 \amp\amp \text{Subtract}\ x^2(x-1)\ \text{from}\ f(x)</mrow>
-	    <mrow>\amp x^3 - 1 = x^2(x-1) + x^2 - 1 \amp\amp \text{Add}\ x^2(x-1)\ \text{from both sides}</mrow>
-	  </md>
-	</p>
-	<p>
-	  Next eliminate the <m>x^2</m> term.
-	  <md>
-	    <mrow>\amp x^2 - 1 - x(x-1) = x - 1 \amp\amp \text{Subtract}\ x(x-1)\ \text{from}\ x^2 - 1</mrow>
-	    <mrow>\amp x^2 - 1 = x(x - 1) + x - 1\amp\amp \text{Subtract}\ x(x - 1)\ \text{from both sides}</mrow>
-	  </md>
-	</p>
-	<p>
-	  Finally, we can make the substitutions
-	  <md>
-	    <mrow>x^3 - 1 \amp= x^2(x - 1) + (x^2 - 1)</mrow>
-	    <mrow>\amp = x^2(x - 1) + x(x - 1) + (x-1)</mrow>
-	    <mrow>\amp = (x^2 + x + 1)(x - 1).</mrow>
-	  </md>
-	  This tells us that <m>x^3 - 1</m> divided by <m>x-1</m> is <m>x^2 + x + 1</m>.
-	</p>
-      </solution>
-    </example>
-
     <definition>
       <p>
 	Assume <m>f</m> and <m>d</m> are polynomials.
@@ -281,8 +183,115 @@
 	the polynomial <m>f</m> if the remainder in <xref ref="thm-polynomial_division"/> satisfies <m>r(x) = 0</m>.
       </p>
     </definition>
+
+    <p>
+      For integers <m>n</m> and <m>d</m>, the process of finding <m>q</m> and <m>r</m> is often performed using long division.
+    </p>
+
+    <example xml:id="example-integer_division">
+      <p>
+	To divide <m>6935</m> by <m>30</m>, we would perform the long division using the symbols
+	<md>
+	  <mrow>\amp\phantom{)}231</mrow>
+	  <mrow>30 \amp\overline{\smash{)}{6935}} </mrow>
+	  <mrow>\amp \underline{-60}</mrow>
+	  <mrow>\amp \phantom{lllll}93</mrow>
+	  <mrow>\amp \phantom{lll}\underline{-90}</mrow>
+	  <mrow>\amp \phantom{lllllll}35</mrow>
+	  <mrow>\amp \phantom{llll}\underline{-30}</mrow>
+	  <mrow>\amp \phantom{lllllllll}5</mrow>
+	</md>
+	to find <m>6935 = 30 \times 231 + 5</m>.
+      </p>
+    </example>
     
-    <theorem>
+    <p>
+      To understand how to perform division with polynomials, it is helpful to understand how the division algorithm with numbers written in base <m>10</m>.
+      The four steps in the long division above are shorthand for the following equations.
+    </p>
+    <mdn>
+      <mrow xml:id="eq-division_1">6935 \amp= 30 \times 200 + 935</mrow>
+      <mrow xml:id="eq-division_2">935 \amp= 30 \times 30 + 35</mrow>
+      <mrow xml:id="eq-division_3">35 \amp= 30 \times 1 + 5</mrow>
+    </mdn>
+    <p>
+      We arrive at the final answer by repeated substitution for the remainders starting with <xref ref="eq-division_1"/>.
+    </p>
+    <md>
+      <mrow>
+	6935 \amp= 30 \times 200 + 935 \amp\amp \text{Substitute the RHS of}\ <xref ref="eq-division_2"/>\ \text{for}\ 935
+      </mrow>
+      <mrow>
+	\amp = 30 \times 200 + 30 \times 30 + 35 \amp\amp \text{Substitue the RHS of}\ <xref ref="eq-division_3"/>\ \text{for}\ 35
+      </mrow>
+      <!-- <mrow> -->
+      <!-- 	\amp = 30 \times 200 + 30 \times 30 + 30 \times 1 + 5 \amp\amp \text{Substitute the RHS of}\ <xref ref="eq-division_4"/>\ \text{for}\ 5 -->
+      <!-- </mrow> -->
+      <mrow>
+	\amp = 30 \times 200 + 30 \times 30 + 30 \times 1 + 5 \amp\amp \text{Factor}\ 3\ \text{from the first three terms}
+      </mrow>
+      <mrow>
+	\amp= (200 + 30 + 1) \times 3 + 2 \amp\amp \text{Simplify}
+      </mrow>
+      <mrow>
+	\amp = 231 \times 30 + 5.
+      </mrow>
+    </md>
+    <p>
+      This process terminates because at each stage we are reducing the number of digits in the remainder by at least one.
+      When we do long division with polynomials, our goal will be similar, but we will reduce the degree of the remainder polynomial by at least one.
+    </p>
+
+    <example>
+      <p>
+	To divide the polynomial <m>f(x) = 6x^3 + 9x^2 + 3x + 5</m> by the polynomial <m>d(x) = 3x</m>, we write
+	<mdn>
+	  <mrow xml:id="eq-poly_div_1">6x^3 + 9x^2 + 3x + 5 \amp= 2x^2 \times 3x + 9x^2 + 3x + 5</mrow>
+	  <mrow xml:id="eq-poly_div_2">9x^2 + 3x + 5 \amp= 3x \times 3x + 3x + 5</mrow>
+	  <mrow xml:id="eq-poly_div_3">3x + 5 \amp= 1 \times 3x + 5</mrow>
+	</mdn>
+	then, starting from <xref ref="eq-poly_div_1"/>, we substitute for the remainders
+	<md>
+	  <mrow>6x^3 + 9x^2 + 3x + 5 \amp = 2x^2 \times 3x + 9x^2 + 3x + 5 \amp\amp \text{Substitute using}\ <xref ref="eq-poly_div_2"/></mrow>
+	  <mrow>\amp= 2x^2 \times 3x + 3x \times 3x + 3x + 5 \amp\amp \text{Substitute using}<xref ref="eq-poly_div_3"/></mrow>
+	  <mrow>\amp= 2x^2 \times 3x + 3x \times 3x + 1 \times 3x + 5 \amp\amp \text{Factor}</mrow>
+	  <mrow>\amp= (2x^2 + 3x + 1) \times 3x + 5.</mrow>
+	</md>
+	Therefore <m>f(x) = 6x^3 + 9x^2 + 3x + 5</m> divided by <m>d(x) = 3x</m> is <m>q(x) = 2x^2 + 3x + 1</m> with remainder <m>r(x) = 5</m>.
+      </p>
+      <p>
+	We can also perform polynomial division using the same shorthand as we would for numbers.
+	When performing polynomial division in this way, it is important to carefully distribute signs when subtracting.
+      </p>
+      <md>
+	<mrow>\amp\phantom{)}2x^2 + 3x + 1</mrow>
+	<mrow>3x \amp\overline{\smash{)}{6x^3 + 9x^2 + 3x + 5}} </mrow>
+	<mrow>\amp \underline{-6x^3}</mrow>
+	<mrow>\amp \phantom{lllll}0 + 9x^2</mrow>
+	<mrow>\amp \phantom{lllllllll}\underline{-9x^2}</mrow>
+	<mrow>\amp \phantom{6x^3 + 9x^2}0 + 3x</mrow>
+	<mrow>\amp \phantom{6x^3 + 9x^2 0l}\underline{- 3x}</mrow>
+	<mrow>\amp \phantom{6x^3 + 9x^2 + 3}0 + 5</mrow>
+      </md>
+    </example>
+
+    <remark>
+      <p>
+	Note that if we evaluate each of the polynomials at <m>x = 10</m>, then we find
+	<me>f(10) = 6000 + 900 + 30 + 5 = 6935</me>
+	divided by <m>d(10) = 30</m> is
+	<me>q(10) = 200 + 30 + 1 = 231</me>
+	with remainder <m>r(10) = 5</m>.
+	Indeed, polynomial long division is a generalization of long division in base <m>10</m>.
+      </p>
+    </remark>
+
+    <p>
+      When paired with <xref ref="thm-rational_root" text="title"/>, polynomial long division is useful for factoring polynomials.
+      The main tool is the following theorem.
+    </p>
+    
+    <theorem xml:id="thm-root_div">
       <statement>
 	<p>
 	  The number <m>r</m> is a root of the polynomial <m>f</m> if and only if <m>(x - r)</m> divides <m>f</m>.
@@ -296,16 +305,60 @@
 	The <term>multiplicity</term> of <m>r</m> is the largest integer <m>m</m> such that <m>(x - r)^m</m> divides <m>f</m>
       </p>
     </definition>
-  </subsection>
-    <theorem xml:id="thm-fundamental_theorem">
-      <title>The Fundamental Theorem of Algbera</title>
-      <creator>Carl Friedrich Gauss</creator>
-      <statement>
-	<p>
-	  Every polynomial of degree <m>n > 0</m> has at least one root, which may be a complex number of the form
-	  <m>a + bi = a + b\sqrt{-1}</m>.
-	</p>
-      </statement>
-    </theorem>
 
-  </section>
+    <example>
+      <p>
+	As we saw in <xref ref="example-rational_root"/>, the polynomial <m>f(x) = 2x^4 - 7x^3 + 5x^2 - 7x + 3</m> has a root at <m>x = 1/2</m> and at <m>x = 3</m>.
+	By <xref ref="thm-root_div"/>, the polynomial <m>x - 1/2</m> divides <m>f(x)</m>
+      </p>
+      <md>
+	<mrow>\amp\phantom{)}2x^3 - 6x^2 + 2x - 6</mrow>
+	<mrow>x - \frac{1}{2} \amp\overline{\smash{)}{2x^4 - 7x^3 + 5x^2 - 7x + 3}} </mrow>
+	<mrow>\amp \underline{-2x^4 + x^3}</mrow>
+	<mrow>\amp \phantom{)2x^4}-6x^3 + 5x^2</mrow>
+	<mrow>\amp \phantom{)2x^4}\underline{+6x^3 - 3x^2}</mrow>
+	<mrow>\amp \phantom{)2x^4 - 7x^3 +}2x^2 - 7x</mrow>
+	<mrow>\amp \phantom{)2x^4 - 7x^3}\underline{-2x^2 + 2x}</mrow>
+	<mrow>\amp \phantom{)2x^4 - 7x^3 + 5x^2}-6x + 3</mrow>
+	<mrow>\amp \phantom{)2x^4 - 7x^3 + 5x^2}\underline{+6x - 3}</mrow>
+	<mrow>\amp \phantom{)2x^4 - 7x^3 + 5x^2 - 7x +}0</mrow>
+      </md>
+      <p>
+	This allows us to write
+	<me>f(x) = \left(x - \frac{1}{2}\right)\left(2x^3 - 6x^2 + 2x - 6\right).</me>
+      </p>
+      <p>
+	Since <m>f(3) = 0</m> and <m>3 - 1/2 \neq 0</m>, we conclude that <m>x - 3</m> divides <m>2x^3 - 6x^2 + 2x - 6</m>.
+      </p>
+      <md>
+	<mrow>\amp\phantom{)}2x^2 + 2</mrow>
+	<mrow>x - 3 \amp\overline{\smash{)}{2x^3 - 6x^2 + 2x - 6}} </mrow>
+	<mrow>\amp \underline{-2x^3 + 6x^2}</mrow>
+	<mrow>\amp \phantom{)2x^3}0 + 2x - 6</mrow>
+	<mrow>\amp \phantom{)2x^3-}\underline{-2x + 6}</mrow>
+	<mrow>\amp \phantom{)2x^3 - 6x^2 + }0</mrow>
+      </md>
+      <p>
+	Hence we have the factorization
+      </p>
+      <md>
+	<mrow>f(x) \amp= \left(x - \frac{1}{2}\right)(x - 3)(2x^2 + 2)</mrow>
+	<mrow>\amp = \left(x - \frac{1}{2}\right)(x - 3)(2)(x^2 + 1)</mrow>
+	<mrow>\amp = 2\left(x - \frac{1}{2}\right)(x - 3)(x^2 + 1)</mrow>
+	<mrow>\amp = (2x - 1)(x - 3)(x^2 + 1).</mrow>
+      </md>
+    </example>
+  </subsection>
+  
+  <theorem xml:id="thm-fundamental_theorem">
+    <title>The Fundamental Theorem of Algbera</title>
+    <creator>Carl Friedrich Gauss</creator>
+    <statement>
+      <p>
+	Every polynomial of degree <m>n > 0</m> has at least one root, which may be a complex number of the form
+	<m>a + bi = a + b\sqrt{-1}</m>.
+      </p>
+    </statement>
+  </theorem>
+
+</section>
