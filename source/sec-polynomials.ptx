@@ -346,7 +346,7 @@
     </definition>
 
     <p>
-      To understand how to perform division with polynomials, it is helpful to understand how the division algorithm with numbers written in base <m>10</m>.
+      To understand how to perform division with polynomials, it is helpful to understand the division algorithm with numbers written in base <m>10</m>.
       The four steps in the long division above are shorthand for the following equations.
     </p>
     <mdn>
