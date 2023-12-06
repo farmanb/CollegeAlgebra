@@ -34,12 +34,14 @@
 	<usage>
 	  <m>f \colon A \to B</m>
 	</usage>
+	<description>Function with domain <m>A</m> and codomain <m>B</m></description>
       </notation>
       is a rule that assigns to each element <m>x \in A</m> a unique element <m>f(x) \in B</m>.
       <notation>
 	<usage>
 	  <m>f(x)</m>
 	</usage>
+	<description>Output of function</description>
       </notation>
     </p>
     <p>
