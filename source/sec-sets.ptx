@@ -45,6 +45,7 @@
 	<usage>
 	  <m>x \in S</m>
 	</usage>
+	<description>Membership operator</description>
       </notation>
       and say "<m>x</m> is an element (or member) of <m>S</m>"
     </p>
@@ -109,6 +110,7 @@
 	  <usage>
 	    <m>\emptyset</m>
 	  </usage>
+	  <description>The empty set</description>
 	</notation>
       </p>
     </definition>
@@ -126,6 +128,7 @@
 	<usage>
 	  <m>\N</m>
 	</usage>
+	<description>The set of natural numbers</description>
       </notation>
     </definition>
 
@@ -142,6 +145,7 @@
 	<usage>
 	  <m>\Z</m>
 	</usage>
+	<description>The set of integers</description>
       </notation>
     </definition>
 
@@ -158,6 +162,7 @@
 	<usage>
 	  <m>\Q</m>
 	</usage>
+	<description>The set of rational numbers</description>
       </notation>
     </definition>
 
@@ -173,6 +178,7 @@
 	<usage>
 	  <m>\R</m>
 	</usage>
+	<description>The set of real numbers.</description>
       </notation>
     </definition>
   </subsection>
@@ -309,6 +315,7 @@
 	  <usage>
 	    <m>A = B</m>
 	  </usage>
+	  <description>Equality of sets</description>
 	</notation>
 	if <m>A</m> and <m>B</m> have the exact same elements.
       </p>
@@ -340,6 +347,7 @@
 	  <usage>
 	    <m>A \subseteq B</m>
 	  </usage>
+	  <description>Subset operator</description>
 	</notation>
 	if every element of <m>A</m> is also an element of <m>B</m>.
       </p>
