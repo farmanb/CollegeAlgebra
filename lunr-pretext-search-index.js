@@ -790,7 +790,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Functions",
-  "body": " Functions    Find the domain and codomain of a function.  Find the range of a function.  Determine whether an equation defines as a function of .     In this section, we study the basics of functions.    Function  A function ,  Function   ,     Function with domain and codomain  is a rule that assigns to each element a unique element .     Output of function    The set is the domain   Function  Domain  of , the set is the codomain   Function  Codomain  of . The range   Function  Range  of is the set of all output values    By convention, we will write to indicate that is a function of . We call the independent variable   Function  Independent Variable  and the dependent variable   Function  Dependent Variable  because every choice of from the domain of determines a value in the range that depends on that choice. In this case, we say is a function of .     Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , will also be a real number. To find the range, we want to describe the set   We can show this is by showing that for every real number , we can find a number such that . We simply solve this equation for in terms of  For example, if , then this formula tells us this corresponds to the input       Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , is a real number. To find the range, we want to describe the set   Given a real number , we want to determine whether the equation can be solved for .  When , there is exactly one solution: .  When , there are two solutions: and .  When , there are no solutions because the square root of a negative number is not a real number.  This tells us the range of our function is the interval .    Just like an equation in the variables and , we will often want to visualize the functions we define.   Graph of a Function  Assume . The graph of a function is the set of points    When the function we are considering is defined by an equation, the will coincide with the . While most of the functions we consider will be defined by an equation in the variables and , it is not the case that all equations in and define as a function of .   The Vertical Line Test   An equation in the variables and is defines as a function of if and only if every vertical line intersects the graph of the relation in at most one point.     Consider the function defined by the rule . We can verify this is a function in one of two ways. One way is to interpret the algebraically.  From the , the graph of the vertical line is the set and the graph of is the set of To say these graphs intersect is to say there is a point in the intersection of these two sets. The condition for membership on the graph of determines the value of such a point and the definition of the graph of determines the -coordinate: . This tells us the line intersects the graph of at the single point .  We can more readily see this graphically in .      The graph and .     The equation does not define as a function of .  Recall that for every positive number , there are always two square roots: and . This tells us the ordered pairs and both satisfy the equation For example, the ordered pairs and satisfy Since the definition a requires that each element of the domain corresponds to exactly one element of the codomain, we see this cannot be a function. That is, equation fails the .     The graph of the equation and the line .      Functions    Find the domain and codomain of a function.  Find the range of a function.  Determine whether an equation defines as a function of .      For each of the following functions, find the domain, codomain, and range.            Evaluate the function at the given value.   ; .  ; .  ; .     For each of the graphs, find the domain and range. Use the to determine whether is a function of .         "
+  "body": " Functions    Find the domain and codomain of a function.  Find the range of a function.  Determine whether an equation defines as a function of .     In this section, we study the basics of functions.    Function  A function ,  Function   ,     Function with domain and codomain  is a rule that assigns to each element a unique element .     Output of function    The set is the domain   Function  Domain  of , the set is the codomain   Function  Codomain  of . The range   Function  Range  of is the set of all output values    By convention, we will write to indicate that is a function of . We call the independent variable   Function  Independent Variable  and the dependent variable   Function  Dependent Variable  because every choice of from the domain of determines a value in the range that depends on that choice. In this case, we say is a function of .     Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , will also be a real number. To find the range, we want to describe the set   We can show this is by showing that for every real number , we can find a number such that . We simply solve this equation for in terms of  For example, if , then this formula tells us this corresponds to the input       Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , is a real number. To find the range, we want to describe the set   Given a real number , we want to determine whether the equation can be solved for .  When , there is exactly one solution: .  When , there are two solutions: and .  When , there are no solutions because the square root of a negative number is not a real number.  This tells us the range of our function is the interval .    Whenever we define a new mathematical object, it is important to understand when two objects are the same . For functions with the same domain and codomain, we measure equality based on the output.   Equality of Functions  Two functions and are equal   Function  Equality  if for every , .  We write      Equality of functions  to indicate that and represent the same function.    The functions defined by and are equal because    The functions and have the same domain and codomain, and    For every real number  and       The functions and defined by and are not equal because    Just like an equation in the variables and , we will often want to visualize the functions we define.   Graph of a Function  Assume . The graph of a function is the set of points    When the function we are considering is defined by an equation, the will coincide with the . While most of the functions we consider will be defined by an equation in the variables and , it is not the case that all equations in and define as a function of .   The Vertical Line Test   An equation in the variables and is defines as a function of if and only if every vertical line intersects the graph of the relation in at most one point.     Consider the function defined by the rule . We can verify this is a function in one of two ways. One way is to interpret the algebraically.  From the , the graph of the vertical line is the set and the graph of is the set of To say these graphs intersect is to say there is a point in the intersection of these two sets. The condition for membership on the graph of determines the value of such a point and the definition of the graph of determines the -coordinate: . This tells us the line intersects the graph of at the single point .  We can more readily see this graphically in .      The graph and .     The equation does not define as a function of .  Recall that for every positive number , there are always two square roots: and . This tells us the ordered pairs and both satisfy the equation For example, the ordered pairs and satisfy Since the definition a requires that each element of the domain corresponds to exactly one element of the codomain, we see this cannot be a function. That is, equation fails the .     The graph of the equation and the line .      Functions    Find the domain and codomain of a function.  Find the range of a function.  Determine whether an equation defines as a function of .      For each of the following functions, find the domain, codomain, and range.            Evaluate the function at the given value.   ; .  ; .  ; .     For each of the graphs, find the domain and range. Use the to determine whether is a function of .         "
 },
 {
   "id": "objectives-11",
@@ -838,11 +838,38 @@ var ptx_lunr_docs = [
   "body": "  Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , is a real number. To find the range, we want to describe the set   Given a real number , we want to determine whether the equation can be solved for .  When , there is exactly one solution: .  When , there are two solutions: and .  When , there are no solutions because the square root of a negative number is not a real number.  This tells us the range of our function is the interval .   "
 },
 {
+  "id": "definition-30",
+  "level": "2",
+  "url": "sec-relations.html#definition-30",
+  "type": "Definition",
+  "number": "2.2.4",
+  "title": "Equality of Functions.",
+  "body": " Equality of Functions  Two functions and are equal   Function  Equality  if for every , .  We write      Equality of functions  to indicate that and represent the same function.  "
+},
+{
+  "id": "example-19",
+  "level": "2",
+  "url": "sec-relations.html#example-19",
+  "type": "Example",
+  "number": "2.2.5",
+  "title": "",
+  "body": " The functions defined by and are equal because    The functions and have the same domain and codomain, and    For every real number  and     "
+},
+{
+  "id": "example-20",
+  "level": "2",
+  "url": "sec-relations.html#example-20",
+  "type": "Example",
+  "number": "2.2.6",
+  "title": "",
+  "body": " The functions and defined by and are not equal because   "
+},
+{
   "id": "def-graph_function",
   "level": "2",
   "url": "sec-relations.html#def-graph_function",
   "type": "Definition",
-  "number": "2.2.4",
+  "number": "2.2.7",
   "title": "Graph of a Function.",
   "body": " Graph of a Function  Assume . The graph of a function is the set of points   "
 },
@@ -851,25 +878,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-relations.html#thm-vertical_line_test",
   "type": "Theorem",
-  "number": "2.2.5",
+  "number": "2.2.8",
   "title": "The Vertical Line Test.",
   "body": " The Vertical Line Test   An equation in the variables and is defines as a function of if and only if every vertical line intersects the graph of the relation in at most one point.   "
 },
 {
-  "id": "example-19",
+  "id": "example-21",
   "level": "2",
-  "url": "sec-relations.html#example-19",
+  "url": "sec-relations.html#example-21",
   "type": "Example",
-  "number": "2.2.6",
+  "number": "2.2.9",
   "title": "",
   "body": " Consider the function defined by the rule . We can verify this is a function in one of two ways. One way is to interpret the algebraically.  From the , the graph of the vertical line is the set and the graph of is the set of To say these graphs intersect is to say there is a point in the intersection of these two sets. The condition for membership on the graph of determines the value of such a point and the definition of the graph of determines the -coordinate: . This tells us the line intersects the graph of at the single point .  We can more readily see this graphically in .      The graph and .   "
 },
 {
-  "id": "example-20",
+  "id": "example-22",
   "level": "2",
-  "url": "sec-relations.html#example-20",
+  "url": "sec-relations.html#example-22",
   "type": "Example",
-  "number": "2.2.8",
+  "number": "2.2.11",
   "title": "",
   "body": " The equation does not define as a function of .  Recall that for every positive number , there are always two square roots: and . This tells us the ordered pairs and both satisfy the equation For example, the ordered pairs and satisfy Since the definition a requires that each element of the domain corresponds to exactly one element of the codomain, we see this cannot be a function. That is, equation fails the .     The graph of the equation and the line .    "
 },
@@ -937,9 +964,9 @@ var ptx_lunr_docs = [
   "body": " The Average Rate of Change  Assume is a function and the domain of contains the interval . The average rate of change of on the interval is   "
 },
 {
-  "id": "example-21",
+  "id": "example-23",
   "level": "2",
-  "url": "sec-avg_roc.html#example-21",
+  "url": "sec-avg_roc.html#example-23",
   "type": "Example",
   "number": "2.3.2",
   "title": "",
@@ -964,90 +991,90 @@ var ptx_lunr_docs = [
   "body": "  Use graphs of basic functions and the following operations to graph general functions.    Vertical Translation  Horizontal Translation  Vertical Scaling,  Horizontal Scaling, and  Reflection.   "
 },
 {
-  "id": "definition-32",
+  "id": "definition-33",
   "level": "2",
-  "url": "sec-transformations.html#definition-32",
+  "url": "sec-transformations.html#definition-33",
   "type": "Definition",
   "number": "2.4.1",
   "title": "Vertical Translation.",
   "body": " Vertical Translation  Let be a positive number. We say the function is a vertical translation   Graph  Tranformation  Translation  Vertical  of the function if .    The graph of is obtained by shifting the graph of up the -axis by units.    The graph of is obtained by shifting the graph of down the -axis by -units.    "
 },
 {
-  "id": "example-22",
+  "id": "example-24",
   "level": "2",
-  "url": "sec-transformations.html#example-22",
+  "url": "sec-transformations.html#example-24",
   "type": "Example",
   "number": "2.4.2",
   "title": "",
   "body": "  Use to graph the functions and .    The graph of is obtained by shifting the graph of up the -axis by units, and the graph of is obtained by shifting the graph of down the -axis by 3 units.        "
 },
 {
-  "id": "definition-33",
+  "id": "definition-34",
   "level": "2",
-  "url": "sec-transformations.html#definition-33",
+  "url": "sec-transformations.html#definition-34",
   "type": "Definition",
   "number": "2.4.4",
   "title": "Horizontal Translation.",
   "body": " Horizontal Translation  Let be a positive number. We say the function is a horizontal translation   Graph  Tranformation  Translation  Horizontal  of the function if .    The graph of is obtained by shifting the graph of to the right along the -axis by units.    The graph of is obtained by shifting the graph of to the left along the -axis by -units.    "
 },
 {
-  "id": "example-23",
+  "id": "example-25",
   "level": "2",
-  "url": "sec-transformations.html#example-23",
+  "url": "sec-transformations.html#example-25",
   "type": "Example",
   "number": "2.4.5",
   "title": "",
   "body": "  Use to graph the functions and .    The graph of is obtained by shifting the graph of to the left along the -axis by units, and the graph of is obtained by shifting the graph of to the right along the -axis by 3 units.        "
 },
 {
-  "id": "definition-34",
+  "id": "definition-35",
   "level": "2",
-  "url": "sec-transformations.html#definition-34",
+  "url": "sec-transformations.html#definition-35",
   "type": "Definition",
   "number": "2.4.7",
   "title": "Vertical Scaling.",
   "body": " Vertical Scaling  Let be a number. We say the function is a vertical scaling   Graph  Tranformation  Scaling  Vertical  of the function if or .    The graph of is obtained by stretching the graph of vertically by a factor of .    The graph of is obtained by compressing the graph of vertically by a factor of .    "
 },
 {
-  "id": "example-24",
+  "id": "example-26",
   "level": "2",
-  "url": "sec-transformations.html#example-24",
+  "url": "sec-transformations.html#example-26",
   "type": "Example",
   "number": "2.4.8",
   "title": "",
   "body": "  Use to graph the functions and .    The graph of is obtained by stretching the graph of vertically by a factor of , and the graph of is obtained by compressing the graph the graph of vertically by a factor of .        "
 },
 {
-  "id": "definition-35",
+  "id": "definition-36",
   "level": "2",
-  "url": "sec-transformations.html#definition-35",
+  "url": "sec-transformations.html#definition-36",
   "type": "Definition",
   "number": "2.4.10",
   "title": "Reflection of the <span class=\"process-math\">\\(x\\)<\/span>-axis.",
   "body": " Reflection of the -axis  We say the function is a reflection   Graph  Tranformation  Reflection  of if either or     The graph of is obtained by reflecting the graph of over the -axis.    The graph of is obtained by reflecting the graph of over the -axis.    "
 },
 {
-  "id": "example-25",
+  "id": "example-27",
   "level": "2",
-  "url": "sec-transformations.html#example-25",
+  "url": "sec-transformations.html#example-27",
   "type": "Example",
   "number": "2.4.11",
   "title": "",
   "body": "  Use to graph the functions and .    The graph of is obtained by reflecting the graph of over the -axis, and the graph of is obtained by reflecting the graph of over the -axis.        "
 },
 {
-  "id": "definition-36",
+  "id": "definition-37",
   "level": "2",
-  "url": "sec-transformations.html#definition-36",
+  "url": "sec-transformations.html#definition-37",
   "type": "Definition",
   "number": "2.4.13",
   "title": "Horizontal Scaling.",
   "body": " Horizontal Scaling  Let be a number. We say the function is a horizontal scaling   Graph  Tranformation  Scaling  Horizontal  of the function if or .    The graph of is obtained by compressing the graph of horizontally by a factor of .    The graph of is obtained by stretching the graph of horizontally by a factor of .    "
 },
 {
-  "id": "example-26",
+  "id": "example-28",
   "level": "2",
-  "url": "sec-transformations.html#example-26",
+  "url": "sec-transformations.html#example-28",
   "type": "Example",
   "number": "2.4.14",
   "title": "",
@@ -1063,9 +1090,9 @@ var ptx_lunr_docs = [
   "body": " Graphing Functions using Transformations   Horizontal Translation  Scaling  Reflection  Vertical Translation   "
 },
 {
-  "id": "example-27",
+  "id": "example-29",
   "level": "2",
-  "url": "sec-transformations.html#example-27",
+  "url": "sec-transformations.html#example-29",
   "type": "Example",
   "number": "2.4.17",
   "title": "",
@@ -1117,9 +1144,9 @@ var ptx_lunr_docs = [
   "body": "    The reflection of across the -axis.  "
 },
 {
-  "id": "p-172",
+  "id": "p-179",
   "level": "2",
-  "url": "sec-symmetry.html#p-172",
+  "url": "sec-symmetry.html#p-179",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1144,18 +1171,18 @@ var ptx_lunr_docs = [
   "body": "  The function has -axis symmetry if for every in the domain of ,    "
 },
 {
-  "id": "example-28",
+  "id": "example-30",
   "level": "2",
-  "url": "sec-symmetry.html#example-28",
+  "url": "sec-symmetry.html#example-30",
   "type": "Example",
   "number": "2.5.6",
   "title": "",
   "body": "  Verify the function has -axis symmetry.    If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the -axis.       To verify our intuition, we just need to check Therefore has -axis symmetry.   "
 },
 {
-  "id": "definition-38",
+  "id": "definition-39",
   "level": "2",
-  "url": "sec-symmetry.html#definition-38",
+  "url": "sec-symmetry.html#definition-39",
   "type": "Definition",
   "number": "2.5.8",
   "title": "",
@@ -1207,18 +1234,18 @@ var ptx_lunr_docs = [
   "body": " Polynomial Functions   The simplest algebraic functions are constructed using the operations of addition and multiplication with a variable. While simple to construct, it is often difficult or even impossible to answer basic questions about these functions in general. However, these functions are extraordinarily important in nearly every branch of mathematics. We discuss foundational results about general polynomials in this section, and specialize to some easy to classify cases in the later sections.    Polynomial Function  A polynomial function   Function  Polynomial  in the variable is a function of the form where is an integer, are numbers and .  We say is a polynomial of degree   Function  Polynomial  Degree   and write .     Degree of a polynomial  The numbers are called the coefficient   Function  Polynomial  Coefficient  of , respectively.    Roots of Polynomials  Polynomial functions are most interesting because they are relatively simple functions that allow us to model real world phenomena.   Assume an object is thrown straight up in the air. If we let denote the distance from the thrower's hand to the ground when the object is released, and let denote the velocity of the object in meters\/second as it leaves the thrower's hand, then the height of the object as a function of time can be expressed using the polynomial     How long will it take for the object to return to the hand of the thrower?   To answer this question, we want the solutions to the equation If we subtract from both sides of the equation, then it is equivalent to find solutions to the polynomial equation Questions of this type arise frequently when discussing polynomials.   Root A root   Function  Polynomial  Root  of the polynomial is a number, , such that   Questions about roots of polynomials have been posed and studied for millenia. The most important result about roots of polynomials is the following.   The Fundamental Theorem of Algbera  Carl Friedrich Gauss   Given a polynomial of degree , there exist a constant and roots such that We call this expression the factorization   Function  Polynomial  Factorization  of the polynomial .         Up to the constant , the factorization in is unique.   The roots of the polynomial are and . This provides the factorization   However, it is more convenient to distribute the to the term and write   Even though these factorizations are not strictly identical, we consider these factorizations to be equivalent since they both convey that the roots of the polynomial are and .   Another important observation is the roots in the list may not necessarily be distinct.   Assume is a polynomial of degree and is a root of . The multiplicity of , is the number of times of times appears in the factorization of .    The polynomial has roots , , and . We say the root has multiplicity and the root has multiplicity . This allows us to say that the polynomial has three roots counting multiplicity.   Finally, we note the roots of a polynomial may not always be real numbers. For example, the polynomial does not have any real roots because every real number, , satisfies and thus    The Imaginary Unit The imaginary unit , ,     The imaginary unit  is defined to be one of the roots of the polynomial . In particular, or, equivalently, . It is common to write .  Since   the roots and provide the factorization   Numbers that involve arise frequently in the study of roots of polynomials of degree 2.   Complex Number  A complex number has the form , where and are real numbers. The set of all complex numbers is      The set of complex numbers      The number is a complex number.   It is important to note tells us that every polynomial of degree has precisely roots (counting multiplicities), some of which may not be real numbers. However, it does not tell us how to find those roots.   Is there a formula to find all of the roots of the polynomial in terms of the coefficients?   In general, the answer to this question is deeply unsatisfying. We will find formulas for roots of polynomials of degree 1 in and of degree 2 in . While formulas exist for roots of polynomials of degree 3 and degree 4 , they are beyond the scope of this text. However, there are no such general formulas for polynomials of degree 5 and higher. This means we will need to develop other techniques for finding roots of polynomials. One very useful tool for finding roots of general poylnomials is the rational root theorem.   The Rational Root Theorem   Assume with integers and . If and are integers and is a root of , then is a factor of and is a factor of .     Find all rational roots of .   The factors of are and ; the factors of are and . tells us there are eight possible rational roots of : We can check each of these by evaluating the function at these rational numbers. Therefore the only rational roots of the polynomial are and .      Polynomial Division  Another method for finding roots that is often paired with is polynomial division. Besides finding roots, the method of polynomial division will be important in .  Recall that if we have an integer and a smaller integer, , then we can always find integers and with such that Long division provides a convenient method for finding and .   To divide by , we would perform the long division using the symbols to find .   For polynomials, the form is nearly identical, with numbers replaced by polynomials.   Polynomial Division   Assume and are polynomials with . There exist polynomials and with such that .  In analogy with the integers, we call the polynomials the dividend , the quotient , and the remainder , and we say that divided by is with remainder     Recall for integers and , we say that divides (or is a divisor of , or is a factor of ) if the remainder is zero is divided by . We use this same language for polynomials.   Assume and are polynomials. The polynomial  divides   Function  Polynomial  Divides  the polynomial if the remainder when is divided by is the zero polynomial, .   To understand how to perform division with polynomials, it is helpful to understand how the division algorithm with numbers written in base . The four steps in the long division above are shorthand for the following equations.   We arrive at the final answer by repeated substitution for the remainders starting with .   This process terminates because at each stage we are reducing the number of digits in the remainder by at least one. When we do long division with polynomials, our goal will be similar, but we will reduce the degree of the remainder polynomial by at least one.   To divide the polynomial by the polynomial , we write then, starting from , we substitute for the remainders Therefore divided by is with remainder .  We can also perform polynomial division using the same shorthand as we would for numbers. When performing polynomial division in this way, it is important to carefully distribute signs when subtracting.     Note that if we evaluate each of the polynomials at , then we find divided by is with remainder . Indeed, polynomial long division is a generalization of long division in base .   When paired with , polynomial long division is useful for factoring polynomials. The main tool is the following theorem.    The number is a root of the polynomial if and only if divides .     As we saw in , the polynomial has a root at and at . By , the polynomial divides    This allows us to write   Since and , we conclude that divides .   This provides the factorization        Perform long division with polynomials  Find rational roots of polynomials      Consider the polynomial    Use the to list all possible rational roots of .    Use your list to find all the roots of .    Use the roots of to find its factorization.       Consider the polynomial    Use the to list all possible rational roots of .    Use your list to find all rational roots of .    Using the rational roots, use polynomial division to factor as the product of a degree polynomial and a degree polynomial.    What can you say about the other roots of ?      "
 },
 {
-  "id": "definition-39",
+  "id": "definition-40",
   "level": "2",
-  "url": "sec-polynomial_functions.html#definition-39",
+  "url": "sec-polynomial_functions.html#definition-40",
   "type": "Definition",
   "number": "3.1.1",
   "title": "Polynomial Function.",
   "body": " Polynomial Function  A polynomial function   Function  Polynomial  in the variable is a function of the form where is an integer, are numbers and .  We say is a polynomial of degree   Function  Polynomial  Degree   and write .     Degree of a polynomial  The numbers are called the coefficient   Function  Polynomial  Coefficient  of , respectively.  "
 },
 {
-  "id": "example-29",
+  "id": "example-31",
   "level": "2",
-  "url": "sec-polynomial_functions.html#example-29",
+  "url": "sec-polynomial_functions.html#example-31",
   "type": "Example",
   "number": "3.1.2",
   "title": "",
@@ -1234,9 +1261,9 @@ var ptx_lunr_docs = [
   "body": " How long will it take for the object to return to the hand of the thrower?  "
 },
 {
-  "id": "definition-40",
+  "id": "definition-41",
   "level": "2",
-  "url": "sec-polynomial_functions.html#definition-40",
+  "url": "sec-polynomial_functions.html#definition-41",
   "type": "Definition",
   "number": "3.1.4",
   "title": "Root.",
@@ -1252,36 +1279,36 @@ var ptx_lunr_docs = [
   "body": " The Fundamental Theorem of Algbera  Carl Friedrich Gauss   Given a polynomial of degree , there exist a constant and roots such that We call this expression the factorization   Function  Polynomial  Factorization  of the polynomial .     "
 },
 {
-  "id": "example-30",
+  "id": "example-32",
   "level": "2",
-  "url": "sec-polynomial_functions.html#example-30",
+  "url": "sec-polynomial_functions.html#example-32",
   "type": "Example",
   "number": "3.1.6",
   "title": "",
   "body": " The roots of the polynomial are and . This provides the factorization   However, it is more convenient to distribute the to the term and write   Even though these factorizations are not strictly identical, we consider these factorizations to be equivalent since they both convey that the roots of the polynomial are and .  "
 },
 {
-  "id": "definition-41",
+  "id": "definition-42",
   "level": "2",
-  "url": "sec-polynomial_functions.html#definition-41",
+  "url": "sec-polynomial_functions.html#definition-42",
   "type": "Definition",
   "number": "3.1.7",
   "title": "",
   "body": " Assume is a polynomial of degree and is a root of . The multiplicity of , is the number of times of times appears in the factorization of .  "
 },
 {
-  "id": "example-31",
+  "id": "example-33",
   "level": "2",
-  "url": "sec-polynomial_functions.html#example-31",
+  "url": "sec-polynomial_functions.html#example-33",
   "type": "Example",
   "number": "3.1.8",
   "title": "",
   "body": " The polynomial has roots , , and . We say the root has multiplicity and the root has multiplicity . This allows us to say that the polynomial has three roots counting multiplicity.  "
 },
 {
-  "id": "definition-42",
+  "id": "definition-43",
   "level": "2",
-  "url": "sec-polynomial_functions.html#definition-42",
+  "url": "sec-polynomial_functions.html#definition-43",
   "type": "Definition",
   "number": "3.1.9",
   "title": "",
@@ -1297,9 +1324,9 @@ var ptx_lunr_docs = [
   "body": " Complex Number  A complex number has the form , where and are real numbers. The set of all complex numbers is      The set of complex numbers    "
 },
 {
-  "id": "example-32",
+  "id": "example-34",
   "level": "2",
-  "url": "sec-polynomial_functions.html#example-32",
+  "url": "sec-polynomial_functions.html#example-34",
   "type": "Example",
   "number": "3.1.11",
   "title": "",
@@ -1351,18 +1378,18 @@ var ptx_lunr_docs = [
   "body": " Polynomial Division   Assume and are polynomials with . There exist polynomials and with such that .  In analogy with the integers, we call the polynomials the dividend , the quotient , and the remainder , and we say that divided by is with remainder    "
 },
 {
-  "id": "definition-44",
+  "id": "definition-45",
   "level": "2",
-  "url": "sec-polynomial_functions.html#definition-44",
+  "url": "sec-polynomial_functions.html#definition-45",
   "type": "Definition",
   "number": "3.1.17",
   "title": "",
   "body": " Assume and are polynomials. The polynomial  divides   Function  Polynomial  Divides  the polynomial if the remainder when is divided by is the zero polynomial, .  "
 },
 {
-  "id": "example-35",
+  "id": "example-37",
   "level": "2",
-  "url": "sec-polynomial_functions.html#example-35",
+  "url": "sec-polynomial_functions.html#example-37",
   "type": "Example",
   "number": "3.1.18",
   "title": "",
@@ -1387,9 +1414,9 @@ var ptx_lunr_docs = [
   "body": "  The number is a root of the polynomial if and only if divides .   "
 },
 {
-  "id": "example-36",
+  "id": "example-38",
   "level": "2",
-  "url": "sec-polynomial_functions.html#example-36",
+  "url": "sec-polynomial_functions.html#example-38",
   "type": "Example",
   "number": "3.1.21",
   "title": "",
@@ -1477,9 +1504,9 @@ var ptx_lunr_docs = [
   "body": "  Find the -intercept of the linear equation .    To find the -intercept of the linear equation , we substitute for to get Therefore the -intercept of the linear equation is the point .   "
 },
 {
-  "id": "example-38",
+  "id": "example-40",
   "level": "2",
-  "url": "sec-linear_functions.html#example-38",
+  "url": "sec-linear_functions.html#example-40",
   "type": "Example",
   "number": "3.2.5",
   "title": "",
@@ -1612,18 +1639,18 @@ var ptx_lunr_docs = [
   "body": " The Point-Slope Form of a Line   The point-slope form of the line   Line  Point-Slope Form  through the point with slope is    "
 },
 {
-  "id": "example-41",
+  "id": "example-43",
   "level": "2",
-  "url": "sec-lines.html#example-41",
+  "url": "sec-lines.html#example-43",
   "type": "Example",
   "number": "3.3.8",
   "title": "",
   "body": "  Find the using the point and the slope .    Using , the equation of the line through with slope is    "
 },
 {
-  "id": "example-42",
+  "id": "example-44",
   "level": "2",
-  "url": "sec-lines.html#example-42",
+  "url": "sec-lines.html#example-44",
   "type": "Example",
   "number": "3.3.9",
   "title": "",
@@ -1648,18 +1675,18 @@ var ptx_lunr_docs = [
   "body": " Caution!  The standard equation of a line may not always represent an equation where is a function of ! If , then the standard equation of a line reduces to which is a vertical line.  "
 },
 {
-  "id": "example-43",
+  "id": "example-45",
   "level": "2",
-  "url": "sec-lines.html#example-43",
+  "url": "sec-lines.html#example-45",
   "type": "Example",
   "number": "3.3.12",
   "title": "",
   "body": "  Place the linear equation into .    The equation can be placed in standard form as follows. First, move the variables to the left-hand side of the equation. Subtract from both sides and distribute the negative Collect like terms and simplify Finally, subtract 7 from both sides of the equation and simplify to arrive at the standard form    "
 },
 {
-  "id": "example-44",
+  "id": "example-46",
   "level": "2",
-  "url": "sec-lines.html#example-44",
+  "url": "sec-lines.html#example-46",
   "type": "Example",
   "number": "3.3.13",
   "title": "",
@@ -1774,18 +1801,18 @@ var ptx_lunr_docs = [
   "body": " Two lines are parallel if and only if they have the same slope.  "
 },
 {
-  "id": "example-45",
+  "id": "example-47",
   "level": "2",
-  "url": "sec-perp_parallel.html#example-45",
+  "url": "sec-perp_parallel.html#example-47",
   "type": "Example",
   "number": "3.4.4",
   "title": "",
   "body": "  Determine whether the lines are parallel.    In order to determine whether these lines are parallel, we need to find the slope of each line. We do this by placing each line into .  For the first line, add to both sides and divide both sides by  This tells us the slope of the line is .  For the second line, add to both sides divide both sides by  and reduce This tells the slope of the line is also . Therefore the lines and are parallel by .   "
 },
 {
-  "id": "example-46",
+  "id": "example-48",
   "level": "2",
-  "url": "sec-perp_parallel.html#example-46",
+  "url": "sec-perp_parallel.html#example-48",
   "type": "Example",
   "number": "3.4.5",
   "title": "",
@@ -1819,18 +1846,18 @@ var ptx_lunr_docs = [
   "body": "  Two lines are perpendicular if and only if the product of their slopes is .   "
 },
 {
-  "id": "example-47",
+  "id": "example-49",
   "level": "2",
-  "url": "sec-perp_parallel.html#example-47",
+  "url": "sec-perp_parallel.html#example-49",
   "type": "Example",
   "number": "3.4.9",
   "title": "",
   "body": "  Determine whether the lines are perpendicular.    First we must place the lines in to find the slopes. The first equation becomes In this form, we can read off the slope of the line as   The second equation becomes In this form, we can read off the slop of the line as .  Finally, to check whether these lines are parallel, we compute the product of these slopes. Since we conclude that these lines are perpendicular by .   "
 },
 {
-  "id": "example-48",
+  "id": "example-50",
   "level": "2",
-  "url": "sec-perp_parallel.html#example-48",
+  "url": "sec-perp_parallel.html#example-50",
   "type": "Example",
   "number": "3.4.10",
   "title": "",
@@ -1900,9 +1927,9 @@ var ptx_lunr_docs = [
   "body": " Quadratic Function  A function is quadratic   Function  Quadratic  if it has the form where , , and are numbers, and .  "
 },
 {
-  "id": "p-329",
+  "id": "p-336",
   "level": "2",
-  "url": "sec-quadratic_functions.html#p-329",
+  "url": "sec-quadratic_functions.html#p-336",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1927,18 +1954,18 @@ var ptx_lunr_docs = [
   "body": " Graphing Quadratic Functions in Vertex Form   To graph of the quadratic function      Translate the graph of horizontally by units.   If , then the translation is to the right.    If , then the translation is to the left.       Scale the graph of by .   If , then the graph is stretched.    If , then the graph is compressed.       If , reflect the graph of over the -axis.    Translate the graph of vertically by units.   If , then the translation is down.    If , then the translation is up.       "
 },
 {
-  "id": "example-49",
+  "id": "example-51",
   "level": "2",
-  "url": "sec-quadratic_functions.html#example-49",
+  "url": "sec-quadratic_functions.html#example-51",
   "type": "Example",
   "number": "3.5.4",
   "title": "",
   "body": "  Graph the function .    Following , we perform the following operations on the graph of the function .   Translate the graph of to the left by 1 to obtain the graph of .  Stretch the graph of by a factor of 2 to obtain the graph of .  Reflect the graph of across the -axis to obtain the graph of .  Translate the graph of up by 1 to obtain the graph of .   These operations are shown below.                   The transformations used to graph .    "
 },
 {
-  "id": "definition-52",
+  "id": "definition-53",
   "level": "2",
-  "url": "sec-quadratic_functions.html#definition-52",
+  "url": "sec-quadratic_functions.html#definition-53",
   "type": "Definition",
   "number": "3.5.6",
   "title": "",
@@ -1954,18 +1981,18 @@ var ptx_lunr_docs = [
   "body": " Multiplying binomials using the FOIL method.   "
 },
 {
-  "id": "p-356",
+  "id": "p-363",
   "level": "2",
-  "url": "sec-quadratic_functions.html#p-356",
+  "url": "sec-quadratic_functions.html#p-363",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "perfect square "
 },
 {
-  "id": "p-357",
+  "id": "p-364",
   "level": "2",
-  "url": "sec-quadratic_functions.html#p-357",
+  "url": "sec-quadratic_functions.html#p-364",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1999,27 +2026,27 @@ var ptx_lunr_docs = [
   "body": " Using , the vertex form of the quadratic function is   "
 },
 {
-  "id": "example-50",
+  "id": "example-52",
   "level": "2",
-  "url": "sec-quadratic_functions.html#example-50",
+  "url": "sec-quadratic_functions.html#example-52",
   "type": "Example",
   "number": "3.5.11",
   "title": "",
   "body": "  Find the vertex form of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function    "
 },
 {
-  "id": "example-51",
+  "id": "example-53",
   "level": "2",
-  "url": "sec-quadratic_functions.html#example-51",
+  "url": "sec-quadratic_functions.html#example-53",
   "type": "Example",
   "number": "3.5.12",
   "title": "",
   "body": "  Find the vertex of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is   Therefore the vertex form of the quadratic function is    "
 },
 {
-  "id": "definition-53",
+  "id": "definition-54",
   "level": "2",
-  "url": "sec-quadratic_functions.html#definition-53",
+  "url": "sec-quadratic_functions.html#definition-54",
   "type": "Definition",
   "number": "3.5.13",
   "title": "",
@@ -2053,9 +2080,9 @@ var ptx_lunr_docs = [
   "body": "  The quadratic function factors as where is the discriminant.   "
 },
 {
-  "id": "example-52",
+  "id": "example-54",
   "level": "2",
-  "url": "sec-quadratic_functions.html#example-52",
+  "url": "sec-quadratic_functions.html#example-54",
   "type": "Example",
   "number": "3.5.17",
   "title": "",
@@ -2071,18 +2098,18 @@ var ptx_lunr_docs = [
   "body": " The -intercepts of a Quadratic Function  The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.    "
 },
 {
-  "id": "example-53",
+  "id": "example-55",
   "level": "2",
-  "url": "sec-quadratic_functions.html#example-53",
+  "url": "sec-quadratic_functions.html#example-55",
   "type": "Example",
   "number": "3.5.19",
   "title": "",
   "body": "  Find the -intercepts of the function .    Since the discriminant is this function does not have any -intercepts.   "
 },
 {
-  "id": "example-54",
+  "id": "example-56",
   "level": "2",
-  "url": "sec-quadratic_functions.html#example-54",
+  "url": "sec-quadratic_functions.html#example-56",
   "type": "Example",
   "number": "3.5.20",
   "title": "",
@@ -2134,22 +2161,211 @@ var ptx_lunr_docs = [
   "body": " "
 },
 {
+  "id": "section-16",
+  "level": "1",
+  "url": "section-16.html",
+  "type": "Section",
+  "number": "4.1",
+  "title": "Algebraic Combinations of Functions",
+  "body": " Algebraic Combinations of Functions   The simplest way to construct new functions from existing functions is to use the four arithmetic operations.    Sums and Differences of Functions   Assume and are functions. The sum   Function  Sum  of and is the function      Sum of and  defined by     Consider the functions defined by and defined by . The intersection of the domains is and the union of the codomains is so the sum of and is the function defined by   In particular, we can evaluate at by     Suppose and are functions that output real numbers. Since addition of real numbers is commutative the order of addition of functions is also commutative because That is to say or, in words, the sum of and is the same as the sum of and .    Assume and are functions. The difference   Function  Difference  of and is the function      Difference of and  defined by     Consider the functions defined by and defined by . The intersection of the domains is and the union of the codomains is so the difference of and is the function defined by   In particular, we can evaluate at by    Unlike the sum of functions, the difference of functions is not commutative .   Consider the functions defined by and defined by . The intersection of the domains is and the union of the codomains is so the difference of and is the function defined by   We can see this is not the same as the function because      Products of Functions   Assume and are functions. The product   Function  Product  of and is the function      Product of and  defined by     Consider the functions defined by and defined by . The intersection of the domains is and the union of the codomains is so the product of and is the function defined by   In particular, we can evaluate at by     Suppose and are functions that output real numbers. Since multiplication of real numbers is commutative the order of multiplication of functions is also commutative because That is to say or, in words, the product of and is the same as the product of and .     Ratios of Functions   Assume and are functions, and for every , . The ratio   Function  Ratio  of and is the function      Ratio of and  defined by     Consider the functions defined by and defined by . The function is non-zero on the set The intersection with the domain of is the set of positive real numbers and the union of the codomains is so the ratio of and is the function defined by   In particular, we can evaluate at by    Unlike the sum and product of functions, the ratio of functions is not commutative .   Consider the functions defined by and defined by . The function is non-zero on the set . The intersection with the domain of is the set of positive real numbers and the union of the codomains is so the ratio of and is the function defined by   In particular, we can evaluate at to see     "
+},
+{
+  "id": "definition-56",
+  "level": "2",
+  "url": "section-16.html#definition-56",
+  "type": "Definition",
+  "number": "4.1.1",
+  "title": "",
+  "body": " Assume and are functions. The sum   Function  Sum  of and is the function      Sum of and  defined by   "
+},
+{
+  "id": "example-57",
+  "level": "2",
+  "url": "section-16.html#example-57",
+  "type": "Example",
+  "number": "4.1.2",
+  "title": "",
+  "body": " Consider the functions defined by and defined by . The intersection of the domains is and the union of the codomains is so the sum of and is the function defined by   In particular, we can evaluate at by   "
+},
+{
+  "id": "remark-10",
+  "level": "2",
+  "url": "section-16.html#remark-10",
+  "type": "Remark",
+  "number": "4.1.3",
+  "title": "",
+  "body": " Suppose and are functions that output real numbers. Since addition of real numbers is commutative the order of addition of functions is also commutative because That is to say or, in words, the sum of and is the same as the sum of and .  "
+},
+{
+  "id": "definition-57",
+  "level": "2",
+  "url": "section-16.html#definition-57",
+  "type": "Definition",
+  "number": "4.1.4",
+  "title": "",
+  "body": " Assume and are functions. The difference   Function  Difference  of and is the function      Difference of and  defined by   "
+},
+{
+  "id": "example-58",
+  "level": "2",
+  "url": "section-16.html#example-58",
+  "type": "Example",
+  "number": "4.1.5",
+  "title": "",
+  "body": " Consider the functions defined by and defined by . The intersection of the domains is and the union of the codomains is so the difference of and is the function defined by   In particular, we can evaluate at by   "
+},
+{
+  "id": "warning-1",
+  "level": "2",
+  "url": "section-16.html#warning-1",
+  "type": "Warning",
+  "number": "4.1.6",
+  "title": "",
+  "body": "Unlike the sum of functions, the difference of functions is not commutative . "
+},
+{
+  "id": "example-59",
+  "level": "2",
+  "url": "section-16.html#example-59",
+  "type": "Example",
+  "number": "4.1.7",
+  "title": "",
+  "body": " Consider the functions defined by and defined by . The intersection of the domains is and the union of the codomains is so the difference of and is the function defined by   We can see this is not the same as the function because   "
+},
+{
+  "id": "definition-58",
+  "level": "2",
+  "url": "section-16.html#definition-58",
+  "type": "Definition",
+  "number": "4.1.8",
+  "title": "",
+  "body": " Assume and are functions. The product   Function  Product  of and is the function      Product of and  defined by   "
+},
+{
+  "id": "example-60",
+  "level": "2",
+  "url": "section-16.html#example-60",
+  "type": "Example",
+  "number": "4.1.9",
+  "title": "",
+  "body": " Consider the functions defined by and defined by . The intersection of the domains is and the union of the codomains is so the product of and is the function defined by   In particular, we can evaluate at by   "
+},
+{
+  "id": "remark-11",
+  "level": "2",
+  "url": "section-16.html#remark-11",
+  "type": "Remark",
+  "number": "4.1.10",
+  "title": "",
+  "body": " Suppose and are functions that output real numbers. Since multiplication of real numbers is commutative the order of multiplication of functions is also commutative because That is to say or, in words, the product of and is the same as the product of and .  "
+},
+{
+  "id": "definition-59",
+  "level": "2",
+  "url": "section-16.html#definition-59",
+  "type": "Definition",
+  "number": "4.1.11",
+  "title": "",
+  "body": " Assume and are functions, and for every , . The ratio   Function  Ratio  of and is the function      Ratio of and  defined by   "
+},
+{
+  "id": "example-61",
+  "level": "2",
+  "url": "section-16.html#example-61",
+  "type": "Example",
+  "number": "4.1.12",
+  "title": "",
+  "body": " Consider the functions defined by and defined by . The function is non-zero on the set The intersection with the domain of is the set of positive real numbers and the union of the codomains is so the ratio of and is the function defined by   In particular, we can evaluate at by   "
+},
+{
+  "id": "warning-2",
+  "level": "2",
+  "url": "section-16.html#warning-2",
+  "type": "Warning",
+  "number": "4.1.13",
+  "title": "",
+  "body": "Unlike the sum and product of functions, the ratio of functions is not commutative . "
+},
+{
+  "id": "example-62",
+  "level": "2",
+  "url": "section-16.html#example-62",
+  "type": "Example",
+  "number": "4.1.14",
+  "title": "",
+  "body": " Consider the functions defined by and defined by . The function is non-zero on the set . The intersection with the domain of is the set of positive real numbers and the union of the codomains is so the ratio of and is the function defined by   In particular, we can evaluate at to see   "
+},
+{
   "id": "sec-rational_functions",
   "level": "1",
   "url": "sec-rational_functions.html",
   "type": "Section",
-  "number": "3.6",
+  "number": "4.2",
   "title": "Rational Functions",
-  "body": " Rational Functions   A rational function is a function of the form where and are polynomial functions.   "
+  "body": " Rational Functions    Find the domain of a rational functions     A special case of ratios of functions that is of interest is when the numerator and denominator are both polynomials.    A rational function is a function of the form where and are polynomial functions.    The Domain of a Rational Function  Since polynomial functions always have domain and codomain , the domain of the rational function is the set    The rational function   is defined whenever is nonzero. This is the set of all numbers except and , which we can express as the union of intervals          Simplifying Rational Functions     Recall that we always write rational numbers in lowest terms. For example, instead of writing , we cancel the common factor of in the numerator and denominator to write . The same is true for rational functions, although some extra care is required.   If we are working with the rational function defined by then it is tempting to factor the numerator as and write   It is important to remember that this simplification only holds for elements of the domain of the function . This says that is equal to the function defined by . However, the function defined by is not equal to the function because the functions and do not have the same domain.     Sums and Differences of Rational Functions  Recall that in order to add or subtract rational numbers, we must find a common denominator. For example, to add and , we use the common denominator    The same is true for rational functions, provided we are careful with the denominator.   Consider the rational functions defined by   The sum of and is the function To find an expression for on this set, we use the least common multiple of the denominators to find a common denominator:      Products and Ratios of Rational Functions  Recall that when we multiply two rational numbers we multiply the numerators and denominators. For example, When we divide one rational number by another, we multiply the one by the reciprocal of the other. For example The same is true for products and ratios of rational functions.   Consider the rational functions defined by   The product of and is the function defined by   The ratio of and is the function defined by     "
 },
 {
-  "id": "definition-55",
+  "id": "objectives-25",
   "level": "2",
-  "url": "sec-rational_functions.html#definition-55",
+  "url": "sec-rational_functions.html#objectives-25",
+  "type": "Objectives",
+  "number": "4.2",
+  "title": "",
+  "body": "  Find the domain of a rational functions   "
+},
+{
+  "id": "def-rational_function",
+  "level": "2",
+  "url": "sec-rational_functions.html#def-rational_function",
   "type": "Definition",
-  "number": "3.6.1",
+  "number": "4.2.1",
   "title": "",
   "body": " A rational function is a function of the form where and are polynomial functions.  "
+},
+{
+  "id": "example-63",
+  "level": "2",
+  "url": "sec-rational_functions.html#example-63",
+  "type": "Example",
+  "number": "4.2.2",
+  "title": "",
+  "body": " The rational function   is defined whenever is nonzero. This is the set of all numbers except and , which we can express as the union of intervals       "
+},
+{
+  "id": "example-64",
+  "level": "2",
+  "url": "sec-rational_functions.html#example-64",
+  "type": "Example",
+  "number": "4.2.3",
+  "title": "",
+  "body": " If we are working with the rational function defined by then it is tempting to factor the numerator as and write   It is important to remember that this simplification only holds for elements of the domain of the function . This says that is equal to the function defined by . However, the function defined by is not equal to the function because the functions and do not have the same domain.  "
+},
+{
+  "id": "example-65",
+  "level": "2",
+  "url": "sec-rational_functions.html#example-65",
+  "type": "Example",
+  "number": "4.2.4",
+  "title": "",
+  "body": " Consider the rational functions defined by   The sum of and is the function To find an expression for on this set, we use the least common multiple of the denominators to find a common denominator:   "
+},
+{
+  "id": "example-66",
+  "level": "2",
+  "url": "sec-rational_functions.html#example-66",
+  "type": "Example",
+  "number": "4.2.5",
+  "title": "",
+  "body": " Consider the rational functions defined by   The product of and is the function defined by   The ratio of and is the function defined by   "
+},
+{
+  "id": "section-18",
+  "level": "1",
+  "url": "section-18.html",
+  "type": "Section",
+  "number": "4.3",
+  "title": "Function Composition",
+  "body": " Function Composition  "
 },
 {
   "id": "appendix-1",
@@ -2161,9 +2377,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols   "
 },
 {
-  "id": "subsection-24",
+  "id": "subsection-31",
   "level": "1",
-  "url": "subsection-24.html",
+  "url": "subsection-31.html",
   "type": "Subsection",
   "number": "B.1",
   "title": "Polynomials",
@@ -2172,52 +2388,52 @@ var ptx_lunr_docs = [
 {
   "id": "fig-line",
   "level": "2",
-  "url": "subsection-24.html#fig-line",
+  "url": "subsection-31.html#fig-line",
   "type": "Figure",
-  "number": "B.1.2",
+  "number": "B.1.1",
   "title": "the graph of <span class=\"process-math\">\\(y = x\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-parabola",
   "level": "2",
-  "url": "subsection-24.html#fig-parabola",
+  "url": "subsection-31.html#fig-parabola",
   "type": "Figure",
-  "number": "B.1.3",
+  "number": "B.1.2",
   "title": "the graph of <span class=\"process-math\">\\(y = x^2\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-cubic",
   "level": "2",
-  "url": "subsection-24.html#fig-cubic",
+  "url": "subsection-31.html#fig-cubic",
   "type": "Figure",
-  "number": "B.1.4",
+  "number": "B.1.3",
   "title": "the graph of <span class=\"process-math\">\\(y = x^3\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-quartic",
   "level": "2",
-  "url": "subsection-24.html#fig-quartic",
+  "url": "subsection-31.html#fig-quartic",
   "type": "Figure",
-  "number": "B.1.5",
+  "number": "B.1.4",
   "title": "the graph of <span class=\"process-math\">\\(y = x^4\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-quintic",
   "level": "2",
-  "url": "subsection-24.html#fig-quintic",
+  "url": "subsection-31.html#fig-quintic",
   "type": "Figure",
-  "number": "B.1.6",
+  "number": "B.1.5",
   "title": "the graph of <span class=\"process-math\">\\(y = x^5\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
-  "id": "subsection-25",
+  "id": "subsection-32",
   "level": "1",
-  "url": "subsection-25.html",
+  "url": "subsection-32.html",
   "type": "Subsection",
   "number": "B.2",
   "title": "Roots",
@@ -2226,43 +2442,43 @@ var ptx_lunr_docs = [
 {
   "id": "fig-sq_root",
   "level": "2",
-  "url": "subsection-25.html#fig-sq_root",
+  "url": "subsection-32.html#fig-sq_root",
   "type": "Figure",
-  "number": "B.2.7",
+  "number": "B.2.6",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-cube_root",
   "level": "2",
-  "url": "subsection-25.html#fig-cube_root",
+  "url": "subsection-32.html#fig-cube_root",
   "type": "Figure",
-  "number": "B.2.8",
+  "number": "B.2.7",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt[3]{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-fourth_root",
   "level": "2",
-  "url": "subsection-25.html#fig-fourth_root",
+  "url": "subsection-32.html#fig-fourth_root",
   "type": "Figure",
-  "number": "B.2.9",
+  "number": "B.2.8",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt[4]{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-fifth_root",
   "level": "2",
-  "url": "subsection-25.html#fig-fifth_root",
+  "url": "subsection-32.html#fig-fifth_root",
   "type": "Figure",
-  "number": "B.2.10",
+  "number": "B.2.9",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt[5]{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
-  "id": "subsection-26",
+  "id": "subsection-33",
   "level": "1",
-  "url": "subsection-26.html",
+  "url": "subsection-33.html",
   "type": "Subsection",
   "number": "B.3",
   "title": "Rational Functions",
@@ -2271,52 +2487,52 @@ var ptx_lunr_docs = [
 {
   "id": "fig-1_x",
   "level": "2",
-  "url": "subsection-26.html#fig-1_x",
+  "url": "subsection-33.html#fig-1_x",
   "type": "Figure",
-  "number": "B.3.11",
+  "number": "B.3.10",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-1_x_2",
   "level": "2",
-  "url": "subsection-26.html#fig-1_x_2",
+  "url": "subsection-33.html#fig-1_x_2",
   "type": "Figure",
-  "number": "B.3.12",
+  "number": "B.3.11",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^2}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-1_x_3",
   "level": "2",
-  "url": "subsection-26.html#fig-1_x_3",
+  "url": "subsection-33.html#fig-1_x_3",
   "type": "Figure",
-  "number": "B.3.13",
+  "number": "B.3.12",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^3}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-1_x_4",
   "level": "2",
-  "url": "subsection-26.html#fig-1_x_4",
+  "url": "subsection-33.html#fig-1_x_4",
   "type": "Figure",
-  "number": "B.3.14",
+  "number": "B.3.13",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^4}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-1_x_5",
   "level": "2",
-  "url": "subsection-26.html#fig-1_x_5",
+  "url": "subsection-33.html#fig-1_x_5",
   "type": "Figure",
-  "number": "B.3.15",
+  "number": "B.3.14",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^5}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
-  "id": "subsection-27",
+  "id": "subsection-34",
   "level": "1",
-  "url": "subsection-27.html",
+  "url": "subsection-34.html",
   "type": "Subsection",
   "number": "B.4",
   "title": "Miscellaneous Functions",
@@ -2325,9 +2541,9 @@ var ptx_lunr_docs = [
 {
   "id": "fig-abs_val",
   "level": "2",
-  "url": "subsection-27.html#fig-abs_val",
+  "url": "subsection-34.html#fig-abs_val",
   "type": "Figure",
-  "number": "B.4.16",
+  "number": "B.4.15",
   "title": "the graph of <span class=\"process-math\">\\(y = \\abs{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
