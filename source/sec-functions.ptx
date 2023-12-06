@@ -65,7 +65,7 @@
       <me>\left\{f(x) \;\middle\vert\; x \in A\right\}.</me>
     </p>
   </definition>
-
+  
   <p>
     By convention, we will write <m>y = f(x)</m> to indicate that <m>y</m> is a function of <m>x</m>.
     We call <m>x</m> the <term>independent variable</term>
@@ -81,13 +81,14 @@
     because every choice of <m>x</m> from the domain of <m>f</m> determines a value <m>y</m> in the range that depends on that choice.
     In this case, we say <term><m>y</m> is a function of <m>x</m>.</term>
   </p>
-
+  
   <example>
     <statement>
       <p>
 	Find the domain and range of the function <m>f(x) = 3x + 7</m>.
       </p>
     </statement>
+
     <solution>
       <p>
 	The domain of <m>f</m> is <m>\R</m> because for any real number <m>x</m>, <m>3x + 7</m> is always well-defined.
@@ -138,6 +139,61 @@
 	This tells us the range of our function is the interval <m>[0, \infty)</m>.
       </p>
     </solution>
+  </example>
+
+  <p>
+    Whenever we define a new mathematical object, it is important to understand when two objects are <em>the same</em>.
+    For functions with the same domain and codomain, we measure equality based on the output.
+  </p>
+  
+  <definition>
+    <title>Equality of Functions</title>
+    <p>
+      Two functions <m>f \colon A \to B</m> and <m>g \colon A \to B</m> are <term>equal</term>
+      <idx>
+	<h>Function</h>
+	<h>Equality</h>
+      </idx>
+      if for every <m>x \in A</m>, <m>f(x) = g(x)</m>.
+    </p>
+    <p>
+      We write <m>f = g</m>
+      <notation>
+	<usage>
+	  <m>f=g</m>
+	</usage>
+	<description>Equality of functions</description>
+      </notation>
+      to indicate that <m>f</m> and <m>g</m> represent the same function.
+    </p>
+  </definition>
+
+  <example>
+    <p>
+      The functions <m>f,g \colon \R \to \R</m> defined by <m>f(x) = \sqrt{x^2}</m> and <m>g(x) = \abs{x}</m> are equal because
+    </p>
+    <ol>
+      <li>
+	<p>
+	  The functions <m>f</m> and <m>g</m> have the same domain and codomain, and
+	</p>
+      </li>
+      <li>
+	<p>
+	  For every real number <m>x \geq 0</m>
+	  <me>f(x) = \sqrt{x^2} = x = \abs{x} = g(x),</me>
+	  and
+	  <me>f(-x) = \sqrt{(-x)^2} = \sqrt{x^2} = x = \abs{-x} = g(-x).</me>
+	</p>
+      </li>
+    </ol>
+  </example>
+
+  <example>
+    <p>
+      The functions <m>f \colon \R \to \R</m> and <m>g \colon \R \to \R</m> defined by <m>f(x) = \sqrt{x^2}</m> and <m>g(x) = x</m> are <alert>not</alert> equal because
+      <me>f(-1) = \sqrt{(-1)^2} = \sqrt{1} = 1 \neq -1 = g(-1).</me>
+    </p>
   </example>
   
   <p>
