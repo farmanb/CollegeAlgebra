@@ -157,7 +157,7 @@
 	  <mrow>\amp= (x - (-1))(x - (-1))(x-1)</mrow>
 	</md>
 	has roots <m>r_1 = -1</m>, <m>r_2 = -1</m>, and <m>r_3 = 1</m>.
-	We say the root <m>x = 1</m> has multiplicity <m>1</m> and the root <m>x = -2</m> has multiplicity <m>2</m>.
+	We say the root <m>x = 1</m> has multiplicity <m>1</m> and the root <m>x = -1</m> has multiplicity <m>2</m>.
 	This allows us to say that the polynomial <m>f</m> has three roots counting multiplicity.
       </p>
     </example>
