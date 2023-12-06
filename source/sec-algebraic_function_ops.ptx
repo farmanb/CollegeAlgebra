@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Algebraic Combinations of Functions</title>
+  <introduction>
+    <p>
+      The simplest way to construct new functions from existing functions is to use the four arithmetic operations.
+    </p>
+  </introduction>
+
+  <subsection>
+    <title>Sums and Differences of Functions</title>
+    <definition>
+      <p>
+	Assume <m>f \colon A \to B</m> and <m>g \colon C \to D</m> are functions.
+	The <term>sum</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Sum</h>
+	</idx>
+	of <m>f</m> and <m>g</m> is the function <m>f + g \colon A \cap C \to B \cup D</m>
+	<notation>
+	  <usage>
+	    <m>f + g</m>
+	  </usage>
+	  <description>Sum of <m>f</m> and <m>g</m></description>
+	</notation>
+	defined by
+	<me>(f + g)(x) = f(x) + g(x).</me>
+      </p>
+    </definition>
+
+    <example>
+      <p>
+	Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x^2</m>.
+	The intersection of the domains is 
+	<me>[0,\infty) \cap \R = [0,\infty)</me>
+	and the union of the codomains is
+	<me>\R \cup \R = \R,</me>
+	so the sum of <m>f</m> and <m>g</m> is the function <m>f + g \colon [0,\infty) \to \R</m> defined by
+	<me>(f + g)(x) = f(x) + g(x) = \sqrt{x} + x^2.</me>
+      </p>
+      <p>
+	In particular, we can evaluate <m>f + g</m> at <m>x = 4</m> by
+	<me>(f+g)(4) = \sqrt{4} + 4^2 = 2 + 16 = 18.</me>
+      </p>
+    </example>
+
+    <remark>
+      <p>
+	Suppose <m>f \colon A \to \R</m> and <m>g \colon A \to \R</m> are functions that output real numbers.
+	Since addition of real numbers is commutative
+	<me>x + y = y + x,</me>
+	the order of addition of functions is also commutative because
+	<me>(f + g)(x) = f(x) + g(x) = g(x) + f(x) = (g + f)(x).</me>
+	That is to say <m>f + g = g + f</m> or, in words, the sum of <m>f</m> and <m>g</m> is the same as the sum of <m>g</m> and <m>f</m>.
+      </p>
+    </remark>
+    
+    <definition>
+      <p>
+	Assume <m>f \colon A \to B</m> and <m>g \colon C \to D</m> are functions.
+	The <term>difference</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Difference</h>
+	</idx>
+	of <m>f</m> and <m>g</m> is the function <m>f - g \colon A \cap C \to B \cup D</m>
+	<notation>
+	  <usage>
+	    <m>f - g</m>
+	  </usage>
+	  <description>Difference of <m>f</m> and <m>g</m></description>
+	</notation>
+	defined by
+	<me>(f - g)(x) = f(x) - g(x).</me>
+      </p>
+    </definition>
+
+    <example>
+      <p>
+	Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x^2</m>.
+	The intersection of the domains is
+	<me>[0,\infty) \cap \R = [0,\infty)</me>
+	and the union of the codomains is
+	<me>\R \cup \R = \R,</me>
+	so the difference of <m>f</m> and <m>g</m> is the function <m>f - g \colon [0,\infty) \to \R</m> defined by
+	<me>(f - g)(x) = \sqrt{x} - x^2.</me>
+      </p>
+      <p>
+	In particular, we can evaluate <m>f - g</m> at <m>x = 4</m> by
+	<me>(f-g)(4) = \sqrt{4} - 4^2 = 2 - 16 = -14.</me>	
+      </p>
+    </example>
+
+    <warning>
+      Unlike the sum of functions, the difference of functions is <alert>not commutative</alert>.
+    </warning>
+    
+    <example>
+      <p>
+	Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x^2</m>.
+	The intersection of the domains is
+	<me>[0,\infty) \cap \R = [0,\infty)</me>
+	and the union of the codomains is
+	<me>\R \cup \R = \R,</me>
+	so the difference of <m>g</m> and <m>f</m> is the function <m>g - f \colon [0,\infty) \to \R</m> defined by
+	<me>(g - f)(x) = x^2 - \sqrt{x}.</me>
+      </p>
+      <p>
+	We can see this is not the same as the function <m>f - g</m> because 
+	<me>(g-f)(4) = 4^2 - \sqrt{4} = 16 - 2 = 14 \neq -14 = (f - g)(4).</me>
+      </p>
+    </example>
+  
+  </subsection>
+
+  <subsection>
+    <title>Products of Functions</title>
+
+    <definition>
+      <p>
+	Assume <m>f \colon A \to B</m> and <m>g \colon C \to D</m> are functions.
+	The <term>product</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Product</h>
+	</idx>
+	of <m>f</m> and <m>g</m> is the function <m>fg \colon A \cap C \to B \cup D</m>
+	<notation>
+	  <usage>
+	    <m>fg</m>
+	  </usage>
+	  <description>Product of <m>f</m> and <m>g</m></description>
+	</notation>
+	defined by
+	<me>(fg)(x) = f(x)g(x).</me>
+      </p>
+    </definition>
+
+    <example>
+      <p>
+	Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x^2</m>.
+	The intersection of the domains is 
+	<me>[0,\infty) \cap \R = [0,\infty)</me>
+	and the union of the codomains is
+	<me>\R \cup \R = \R,</me>
+	so the product of <m>f</m> and <m>g</m> is the function <m>fg \colon [0,\infty) \to \R</m> defined by
+	<me>(fg)(x) = f(x)g(x) = \sqrt{x}x^2.</me>
+      </p>
+      <p>
+	In particular, we can evaluate <m>f  g</m> at <m>x = 4</m> by
+	<me>(fg)(4) = \sqrt{4}\left(4^2\right) = 2(16) = 32.</me>
+      </p>
+    </example>
+
+    <remark>
+      <p>
+	Suppose <m>f \colon A \to \R</m> and <m>g \colon A \to \R</m> are functions that output real numbers.
+	Since multiplication of real numbers is commutative
+	<me>xy = yx,</me>
+	the order of multiplication of functions is also commutative because
+	<me>(fg)(x) = f(x)g(x) = g(x)f(x) = (gf)(x).</me>
+	That is to say <m>fg = gf</m> or, in words, the product of <m>f</m> and <m>g</m> is the same as the product of <m>g</m> and <m>f</m>.
+      </p>
+    </remark>
+    
+  </subsection>
+
+  <subsection>
+    <title>Ratios of Functions</title>
+
+    <definition>
+      <p>
+	Assume <m>f \colon A \to B</m> and <m>g \colon C \to D</m> are functions, and for every <m>x \in C</m>, <m>g(x) \neq 0</m>.
+	The <term>ratio</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Ratio</h>
+	</idx>
+	of <m>f</m> and <m>g</m> is the function <m>f / g \colon A \cap C \to B \cup D</m>
+	<notation>
+	  <usage>
+	    <m>f / g</m>
+	  </usage>
+	  <description>Ratio of <m>f</m> and <m>g</m></description>
+	</notation>
+	defined by
+	<me>\left(\frac{f}{g}\right)(x) = \frac{f(x)}{g(x)}.</me>
+      </p>
+    </definition>
+
+    <example>
+      <p>
+	Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x</m>.
+	The function <m>g(x)</m> is non-zero on the set
+	<me>\left\{x \in \R \;\middle\vert\; x \neq 0\right\} = (-\infty,0) \cup (0, \infty).</me>
+	The intersection with the domain of <m>f</m> is the set of positive real numbers
+	<me>[0,\infty) \cap (-\infty,0) \cup (0,\infty) = (0,\infty) = \left\{x \in \R \;\middle\vert\; x > 0\right\}</me>
+	and the union of the codomains is
+	<me>\R \cup \R = \R,</me>
+	so the ratio of <m>f</m> and <m>g</m> is the function <m>f / g \colon (0,\infty) \to \R</m> defined by
+	<me>\left(\frac{f}{g}\right)(x) = \frac{\sqrt{x}}{x}.</me>
+      </p>
+      <p>
+	In particular, we can evaluate <m>f / g</m> at <m>x = 4</m> by
+	<me>\left(\frac{f}{g}\right)(4) = \frac{\sqrt{4}}{4} = \frac{2}{4} = \frac{1}{2}.</me>	
+      </p>
+    </example>
+
+    <warning>
+      Unlike the sum and product of functions, the ratio of functions is <alert>not commutative</alert>.
+    </warning>
+    
+    <example>
+      <p>
+	Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x</m>.
+	The function <m>f(x)</m> is non-zero on the set <m>(0, \infty)</m>.
+	The intersection with the domain of <m>g</m> is the set of positive real numbers
+	<me>(0,\infty) \cap \R = (0,\infty) = \left\{x \in \R \;\middle\vert\; x > 0\right\}</me>
+	and the union of the codomains is
+	<me>\R \cup \R = \R,</me>
+	so the ratio of <m>g</m> and <m>f</m> is the function <m>g / f \colon (0,\infty) \to \R</m> defined by
+	<me>\left(\frac{f}{g}\right)(x) = \frac{x}{\sqrt{x}}.</me>
+      </p>
+      <p>
+	In particular, we can evaluate <m>g / f</m> at <m>x = 4</m> to see
+	<me>\left(\frac{g}{f}\right)(4) = \frac{4}{\sqrt{4}} = \frac{4}{2} = 2 \neq \frac{1}{2} = \left(\frac{f}{g}\right)(4).</me>	
+      </p>
+    </example>
+  </subsection>
+
+</section>

@@ -10,14 +10,160 @@
       </li>
     </ul>
   </objectives>
-  
-  <definition>
+
+  <introduction>
+    <p>
+      A special case of ratios of functions that is of interest is when the numerator and denominator are both polynomials.
+    </p>
+  </introduction>
+
+  <definition xml:id="def-rational_function">
     <p>
       A <term>rational function</term> is a function of the form
-      <me>f(x) = \frac{p(x)}{q(x)}</me>
+      <me>f(x) = \left(\frac{p}{q}\right)(x) = \frac{p(x)}{q(x)},</me>
       where <m>p</m> and <m>q \neq 0</m> are polynomial functions.
     </p>
   </definition>
 
-  
+  <subsection>
+    <title>The Domain of a Rational Function</title>
+    <p>
+      Since polynomial functions always have domain <m>\R</m> and codomain <m>\R</m>, the domain of the rational function <m>f = p/q</m> is the set
+      <me>D = \left\{x \in \R \;\middle\vert\; q(x) \neq 0\right\}.</me>
+    </p>
+    
+    <example>
+      <p>
+	The rational function
+      </p>
+      <me>f(x) = \frac{x - 2}{x^2-9}</me>
+      <p>
+	is defined whenever <m>x^2 - 9 = (x - 3)(x + 3)</m> is nonzero.
+	This is the set of all numbers except <m>3</m> and <m>-3</m>, which we can express as the union of intervals
+      </p>
+      <me>(-\infty,-3) \cup (-3, 3) \cup (3, \infty).</me>
+      <!-- <md> -->
+      <!-- 	<mrow>D \amp= \left\{x \in \R \;\middle\vert\; x \neq 3,\, x \neq -3\right\}</mrow> -->
+      <!-- 	<mrow>\amp= (-\infty,-3) \cup (-3, 3) \cup (3, \infty).</mrow> -->
+      <!-- </md> -->
+    </example>
+  </subsection>
+
+  <subsection>
+    <title>Simplifying Rational Functions</title>
+    <!-- <p> -->
+    <!--   The operations that we perform with rational numbers have analogous operations with rational functions, although require some extra care. -->
+    <!-- </p> -->
+
+    <p>
+      Recall that we always write rational numbers in lowest terms.
+      For example, instead of writing <m>2/4</m>, we cancel the common factor of <m>2</m> in the numerator and denominator to write <m>1/2</m>.
+      The same is true for rational functions, although some extra care is required.
+    </p>
+    <example>
+      <p>
+	If we are working with the rational function <m>f \colon (-\infty,3) \cup (3, \infty) \to \R</m> defined by
+	<me>f(x) = \frac{x^2 - 9}{x - 3},</me>
+	then it is tempting to factor the numerator as
+	<me>x^2 - 9 = (x + 3)(x - 3)</me>
+	and write
+	<me>f(x) = \frac{x - 3}{x - 3}(x + 3) = x + 3.</me>
+      </p>
+      <p>
+	It is important to remember that this simplification only holds for elements of the <alert>domain</alert> of the function <m>f</m>.
+	This says that <m>f</m> is equal to the function <m>g \colon (-\infty, 3) \cup (3, \infty) \to \R</m> defined by <m>g(x) = x + 3</m>.
+	However, the function <m>h \colon \R \to \R</m> defined by <m>h(x) = x + 3</m> is <alert>not</alert> equal to the function <m>f</m> because the functions <m>f</m> and <m>h</m> do not have the same domain.
+      </p>
+    </example>
+  </subsection>
+
+  <subsection>
+    <title>Sums and Differences of Rational Functions</title>
+    <p>
+      Recall that in order to add or subtract rational numbers, we must find a common denominator.
+      For example, to add <m>2/3</m> and <m>3/2</m>, we use the common denominator <m>2 \times 3 = 6</m>
+    </p>
+    <md>
+      <mrow>\frac{2}{3} + \frac{3}{2} \amp= \frac{2}{2}\frac{2}{3} + \frac{3}{3}\frac{3}{2}</mrow>
+      <mrow>\amp= \frac{4}{6} + \frac{9}{6}</mrow>
+      <mrow>\amp= \frac{4 + 9}{6}</mrow>
+      <mrow>\amp= \frac{13}{6}.</mrow>
+    </md>
+    <p>
+      The same is true for rational functions, provided we are careful with the denominator.
+    </p>
+    <example>
+      <p>
+	Consider the rational functions
+	<me>f \colon \left\{x \in \R \;\middle\vert\; x \neq 0,\, 1\right\} \to \R
+	\quad\text{and}\quad
+	g \colon \left\{x \in \R \;\middle\vert\; x \neq 0,\, 2\right\} \to \R</me>
+	defined by
+	<me>f(x) = \frac{x + 1}{x(x-1)}
+	\quad\text{and}\quad
+	g(x) = \frac{x - 4}{x(x-2)}.</me>
+      </p>
+      <p>
+	The sum of <m>f</m> and <m>g</m> is the function
+	<me>f + g \colon \left\{x \in \R \;\middle\vert\; x \neq 0,\,1,\,2\right\}.</me>
+	To find an expression for <m>f + g</m> on this set, we use the least common multiple of the denominators
+	<me>x(x - 1)(x - 2)</me>
+	to find a common denominator:
+      </p>
+      <md>
+	<mrow>\frac{x + 1}{x(x-1)} + \frac{x - 4}{x(x-2)}
+	\amp = \frac{x-2}{x-2}\left(\frac{x + 1}{x(x-1)}\right) + \frac{x-1}{x-1}\left(\frac{x - 4}{x(x-2)}\right)</mrow>
+	<mrow>\amp=\frac{(x-2)(x+1)}{x(x-1)(x-2)} + \frac{(x-1)(x-4)}{x(x-1)(x-2)}</mrow>
+	<mrow>\amp=\frac{(x-2)(x+1) + (x-1)(x-4)}{x(x-1)(x-2)}</mrow>
+	<mrow>\amp=\frac{x^2 +x - 2x - 2 + x^2 - 4x -x + 4}{x(x-1)(x-2)}</mrow>
+	<mrow>\amp=\frac{2x^2 + 1x - 2x -4x -1x -2 + 4}{x(x-1)(x-2)}</mrow>
+	<mrow>\amp=\frac{2x^2 -6x + 2}{x(x-1)(x-2)}.</mrow>
+      </md> 
+    </example>
+  </subsection>
+
+  <subsection>
+    <title>Products and Ratios of Rational Functions</title>
+    <p>
+      Recall that when we multiply two rational numbers we multiply the numerators and denominators.
+      For example,
+      <me>\frac{1}{2}\left(\frac{3}{4}\right) = \frac{1(3)}{2(4)} = \frac{3}{8}.</me>
+      When we divide one rational number by another, we multiply the one by the reciprocal of the other.
+      For example
+      <me>\frac{\frac{1}{2}}{\frac{3}{4}} = \frac{1}{2}\left(\frac{4}{3}\right) = \frac{4}{6} = \frac{2}{3}.</me>
+      The same is true for products and ratios of rational functions.
+    </p>
+
+    <example>
+      <p>
+	Consider the rational functions
+	<me>f \colon \left\{x \in \R \;\middle\vert\; x \neq 0,\, 1\right\} \to \R
+	\quad\text{and}\quad
+	g \colon \left\{x \in \R \;\middle\vert\; x \neq 0,\, 2\right\} \to \R</me>
+	defined by
+	<me>f(x) = \frac{x + 1}{x(x-1)}
+	\quad\text{and}\quad
+	g(x) = \frac{x - 4}{x(x-2)}.</me>	
+      </p>
+      <p>
+	The product of <m>f</m> and <m>g</m> is the function
+	<me>fg \colon \left\{x \in \R \;\middle\vert\; x \neq 0, 1, 2\right\} \to \R</me>
+	defined by
+      </p>
+      <me> \frac{x + 1}{x(x-1)}\left(\frac{x - 4}{x(x-2)}\right)
+      = \frac{(x+1)(x-4)}{x^2(x-1)(x-2)}</me>
+      <p>
+	The ratio of <m>f</m> and <m>g</m> is the function
+	<me>fg \colon \left\{x \in \R \;\middle\vert\; x \neq 0, 1, 2\right\} \to \R</me>
+	defined by
+      </p>
+      <md>
+	<mrow>\frac{\frac{x + 1}{x(x-1)}}{\frac{x - 4}{x(x-2)}}
+	\amp= \frac{x + 1}{x(x-1)}\left(\frac{x(x-2)}{x - 4}\right)</mrow>
+	<mrow>\amp= \frac{x(x+1)(x-2)}{x(x-1)(x-4)}</mrow>
+	<mrow>\amp= \frac{(x+1)(x-2)}{(x-1)(x-4)}.</mrow>
+      </md>
+    </example>
+      
+  </subsection>
 </section>

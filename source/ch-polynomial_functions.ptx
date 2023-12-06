@@ -15,7 +15,6 @@
   <xi:include href="sec-lines.ptx"/>
   <xi:include href="sec-perp_parallel.ptx"/>
   <xi:include href="sec-quadratic_functions.ptx"/>
-  <xi:include href="sec-rational_functions.ptx"/>
 
   <!-- <xi:include href="sec-linear_ineq.ptx"/> -->
 </chapter>
