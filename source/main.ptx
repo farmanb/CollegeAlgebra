@@ -9,7 +9,7 @@
     <!-- <subtitle>An example to get you started</subtitle> -->
 
     <!-- Include frontmatter -->
-    <xi:include href="./frontmatter.ptx" />
+    <xi:include href="./meta_frontmatter.ptx" />
 
     <!-- Include chapters -->
     <xi:include href="./ch-cartesian_plane.ptx" />
