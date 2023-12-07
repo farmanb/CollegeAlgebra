@@ -40,8 +40,8 @@
       <p>
 	is defined whenever <m>x^2 - 9 = (x - 3)(x + 3)</m> is nonzero.
 	This is the set of all numbers except <m>3</m> and <m>-3</m>, which we can express as the union of intervals
+	<me>(-\infty,-3) \cup (-3, 3) \cup (3, \infty).</me>
       </p>
-      <me>(-\infty,-3) \cup (-3, 3) \cup (3, \infty).</me>
       <!-- <md> -->
       <!-- 	<mrow>D \amp= \left\{x \in \R \;\middle\vert\; x \neq 3,\, x \neq -3\right\}</mrow> -->
       <!-- 	<mrow>\amp= (-\infty,-3) \cup (-3, 3) \cup (3, \infty).</mrow> -->
@@ -82,14 +82,12 @@
     <p>
       Recall that in order to add or subtract rational numbers, we must find a common denominator.
       For example, to add <m>2/3</m> and <m>3/2</m>, we use the common denominator <m>2 \times 3 = 6</m>
-    </p>
-    <md>
-      <mrow>\frac{2}{3} + \frac{3}{2} \amp= \frac{2}{2}\frac{2}{3} + \frac{3}{3}\frac{3}{2}</mrow>
-      <mrow>\amp= \frac{4}{6} + \frac{9}{6}</mrow>
-      <mrow>\amp= \frac{4 + 9}{6}</mrow>
-      <mrow>\amp= \frac{13}{6}.</mrow>
-    </md>
-    <p>
+      <md>
+	<mrow>\frac{2}{3} + \frac{3}{2} \amp= \frac{2}{2}\frac{2}{3} + \frac{3}{3}\frac{3}{2}</mrow>
+	<mrow>\amp= \frac{4}{6} + \frac{9}{6}</mrow>
+	<mrow>\amp= \frac{4 + 9}{6}</mrow>
+	<mrow>\amp= \frac{13}{6}.</mrow>
+      </md>
       The same is true for rational functions, provided we are careful with the denominator.
     </p>
     <example>
@@ -109,16 +107,16 @@
 	To find an expression for <m>f + g</m> on this set, we use the least common multiple of the denominators
 	<me>x(x - 1)(x - 2)</me>
 	to find a common denominator:
+	<md>
+	  <mrow>\frac{x + 1}{x(x-1)} + \frac{x - 4}{x(x-2)}
+	  \amp = \frac{x-2}{x-2}\left(\frac{x + 1}{x(x-1)}\right) + \frac{x-1}{x-1}\left(\frac{x - 4}{x(x-2)}\right)</mrow>
+	  <mrow>\amp=\frac{(x-2)(x+1)}{x(x-1)(x-2)} + \frac{(x-1)(x-4)}{x(x-1)(x-2)}</mrow>
+	  <mrow>\amp=\frac{(x-2)(x+1) + (x-1)(x-4)}{x(x-1)(x-2)}</mrow>
+	  <mrow>\amp=\frac{x^2 +x - 2x - 2 + x^2 - 4x -x + 4}{x(x-1)(x-2)}</mrow>
+	  <mrow>\amp=\frac{2x^2 + 1x - 2x -4x -1x -2 + 4}{x(x-1)(x-2)}</mrow>
+	  <mrow>\amp=\frac{2x^2 -6x + 2}{x(x-1)(x-2)}.</mrow>
+	</md> 
       </p>
-      <md>
-	<mrow>\frac{x + 1}{x(x-1)} + \frac{x - 4}{x(x-2)}
-	\amp = \frac{x-2}{x-2}\left(\frac{x + 1}{x(x-1)}\right) + \frac{x-1}{x-1}\left(\frac{x - 4}{x(x-2)}\right)</mrow>
-	<mrow>\amp=\frac{(x-2)(x+1)}{x(x-1)(x-2)} + \frac{(x-1)(x-4)}{x(x-1)(x-2)}</mrow>
-	<mrow>\amp=\frac{(x-2)(x+1) + (x-1)(x-4)}{x(x-1)(x-2)}</mrow>
-	<mrow>\amp=\frac{x^2 +x - 2x - 2 + x^2 - 4x -x + 4}{x(x-1)(x-2)}</mrow>
-	<mrow>\amp=\frac{2x^2 + 1x - 2x -4x -1x -2 + 4}{x(x-1)(x-2)}</mrow>
-	<mrow>\amp=\frac{2x^2 -6x + 2}{x(x-1)(x-2)}.</mrow>
-      </md> 
     </example>
   </subsection>
 
@@ -149,21 +147,19 @@
 	The product of <m>f</m> and <m>g</m> is the function
 	<me>fg \colon \left\{x \in \R \;\middle\vert\; x \neq 0, 1, 2\right\} \to \R</me>
 	defined by
-      </p>
-      <me> \frac{x + 1}{x(x-1)}\left(\frac{x - 4}{x(x-2)}\right)
-      = \frac{(x+1)(x-4)}{x^2(x-1)(x-2)}</me>
-      <p>
+	<me> \frac{x + 1}{x(x-1)}\left(\frac{x - 4}{x(x-2)}\right)
+	= \frac{(x+1)(x-4)}{x^2(x-1)(x-2)}</me>
 	The ratio of <m>f</m> and <m>g</m> is the function
 	<me>fg \colon \left\{x \in \R \;\middle\vert\; x \neq 0, 1, 2\right\} \to \R</me>
 	defined by
+	<md>
+	  <mrow>\frac{\frac{x + 1}{x(x-1)}}{\frac{x - 4}{x(x-2)}}
+	  \amp= \frac{x + 1}{x(x-1)}\left(\frac{x(x-2)}{x - 4}\right)</mrow>
+	  <mrow>\amp= \frac{x(x+1)(x-2)}{x(x-1)(x-4)}</mrow>
+	  <mrow>\amp= \frac{(x+1)(x-2)}{(x-1)(x-4)}.</mrow>
+	</md>
       </p>
-      <md>
-	<mrow>\frac{\frac{x + 1}{x(x-1)}}{\frac{x - 4}{x(x-2)}}
-	\amp= \frac{x + 1}{x(x-1)}\left(\frac{x(x-2)}{x - 4}\right)</mrow>
-	<mrow>\amp= \frac{x(x+1)(x-2)}{x(x-1)(x-4)}</mrow>
-	<mrow>\amp= \frac{(x+1)(x-2)}{(x-1)(x-4)}.</mrow>
-      </md>
     </example>
-      
+    
   </subsection>
 </section>
