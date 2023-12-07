@@ -106,7 +106,7 @@ window.MathJax = {
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="section-16.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-properties_functions.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="section-18.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \newcommand{\C}{\mathbb C} \newcommand{\abs}[1]{\left|#1\right|}
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="section-16.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-properties_functions.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="section-18.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \newcommand{\C}{\mathbb C} \newcommand{\abs}[1]{\left|#1\right|} \newcommand{\id}{\operatorname{id}}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -263,7 +263,10 @@ window.MathJax = {
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rational_functions.html#subsection-30" class="internal"><span class="codenumber">4.2.4</span> <span class="title">Products and Ratios of Rational Functions</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-18.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Function Composition</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-18.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Composition and Inverses</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-18.html#subsection-31" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Composition Inverses</span></a></div></li></ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter">
@@ -273,10 +276,10 @@ window.MathJax = {
 <li class="toc-item toc-appendix">
 <div class="toc-title-box"><a href="appendix-2.html" class="internal"><span class="codenumber">B</span> <span class="title">Graphs of Basic Functions</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-31.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Polynomials</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-32.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Roots</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-33.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Rational Functions</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-34.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Miscellaneous Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-32.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Polynomials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-33.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Roots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-34.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Rational Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-35.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Miscellaneous Functions</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-index"><div class="toc-title-box"><a href="index-1.html" class="internal"><span class="title">Index</span></a></div></li>
@@ -319,12 +322,14 @@ D = \left\{x \in \R \;\middle\vert\; q(x) \neq 0\right\}.
 f(x) = \frac{x - 2}{x^2-9}
 \end{equation*}
 </div>
-<div class="para" id="p-427">is defined whenever <span class="process-math">\(x^2 - 9 = (x - 3)(x + 3)\)</span> is nonzero. This is the set of all numbers except <span class="process-math">\(3\)</span> and <span class="process-math">\(-3\text{,}\)</span> which we can express as the union of intervals</div>
+<div class="para logical" id="p-427">
+<div class="para">is defined whenever <span class="process-math">\(x^2 - 9 = (x - 3)(x + 3)\)</span> is nonzero. This is the set of all numbers except <span class="process-math">\(3\)</span> and <span class="process-math">\(-3\text{,}\)</span> which we can express as the union of intervals</div>
 <div class="displaymath process-math">
 \begin{equation*}
 (-\infty,-3) \cup (-3, 3) \cup (3, \infty).
 \end{equation*}
-</div>   </article></section><section class="subsection" id="subsection-28"><h3 class="heading hide-type">
+</div>
+</div>    </article></section><section class="subsection" id="subsection-28"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.2.2</span><span class="space"> </span><span class="title">Simplifying Rational Functions</span>
 </h3>
 <div class="para" id="p-428">Recall that we always write rational numbers in lowest terms. For example, instead of writing <span class="process-math">\(2/4\text{,}\)</span> we cancel the common factor of <span class="process-math">\(2\)</span> in the numerator and denominator to write <span class="process-math">\(1/2\text{.}\)</span> The same is true for rational functions, although some extra care is required.</div>
@@ -353,7 +358,8 @@ f(x) = \frac{x - 3}{x - 3}(x + 3) = x + 3.
 </div> <div class="para" id="p-430">It is important to remember that this simplification only holds for elements of the <em class="alert">domain</em> of the function <span class="process-math">\(f\text{.}\)</span> This says that <span class="process-math">\(f\)</span> is equal to the function <span class="process-math">\(g \colon (-\infty, 3) \cup (3, \infty) \to \R\)</span> defined by <span class="process-math">\(g(x) = x + 3\text{.}\)</span> However, the function <span class="process-math">\(h \colon \R \to \R\)</span> defined by <span class="process-math">\(h(x) = x + 3\)</span> is <em class="alert">not</em> equal to the function <span class="process-math">\(f\)</span> because the functions <span class="process-math">\(f\)</span> and <span class="process-math">\(h\)</span> do not have the same domain.</div></article></section><section class="subsection" id="subsection-29"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.2.3</span><span class="space"> </span><span class="title">Sums and Differences of Rational Functions</span>
 </h3>
-<div class="para" id="p-431">Recall that in order to add or subtract rational numbers, we must find a common denominator. For example, to add <span class="process-math">\(2/3\)</span> and <span class="process-math">\(3/2\text{,}\)</span> we use the common denominator <span class="process-math">\(2 \times 3 = 6\)</span>
+<div class="para logical" id="p-431">
+<div class="para">Recall that in order to add or subtract rational numbers, we must find a common denominator. For example, to add <span class="process-math">\(2/3\)</span> and <span class="process-math">\(3/2\text{,}\)</span> we use the common denominator <span class="process-math">\(2 \times 3 = 6\)</span>
 </div>
 <div class="displaymath process-math" id="md-45">
 \begin{align*}
@@ -363,11 +369,12 @@ f(x) = \frac{x - 3}{x - 3}(x + 3) = x + 3.
 \amp= \frac{13}{6}.
 \end{align*}
 </div>
-<div class="para" id="p-432">The same is true for rational functions, provided we are careful with the denominator.</div>
+<div class="para">The same is true for rational functions, provided we are careful with the denominator.</div>
+</div>
 <article class="example example-like" id="example-65"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.2.4</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-433">
+<div class="para logical" id="p-432">
 <div class="para">Consider the rational functions</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -384,7 +391,7 @@ f(x) = \frac{x + 1}{x(x-1)}
 g(x) = \frac{x - 4}{x(x-2)}.
 \end{equation*}
 </div>
-</div> <div class="para logical" id="p-434">
+</div> <div class="para logical" id="p-433">
 <div class="para">The sum of <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> is the function</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -398,7 +405,6 @@ x(x - 1)(x - 2)
 \end{equation*}
 </div>
 <div class="para">to find a common denominator:</div>
-</div>
 <div class="displaymath process-math" id="md-46">
 \begin{align*}
 \frac{x + 1}{x(x-1)} + \frac{x - 4}{x(x-2)}
@@ -409,10 +415,11 @@ x(x - 1)(x - 2)
 \amp=\frac{2x^2 + 1x - 2x -4x -1x -2 + 4}{x(x-1)(x-2)}\\
 \amp=\frac{2x^2 -6x + 2}{x(x-1)(x-2)}.
 \end{align*}
+</div>
 </div></article></section><section class="subsection" id="subsection-30"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.2.4</span><span class="space"> </span><span class="title">Products and Ratios of Rational Functions</span>
 </h3>
-<div class="para logical" id="p-435">
+<div class="para logical" id="p-434">
 <div class="para">Recall that when we multiply two rational numbers we multiply the numerators and denominators. For example,</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -430,7 +437,7 @@ x(x - 1)(x - 2)
 <article class="example example-like" id="example-66"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.2.5</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-436">
+<div class="para logical" id="p-435">
 <div class="para">Consider the rational functions</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -447,7 +454,7 @@ f(x) = \frac{x + 1}{x(x-1)}
 g(x) = \frac{x - 4}{x(x-2)}.
 \end{equation*}
 </div>
-</div> <div class="para logical" id="p-437">
+</div> <div class="para logical" id="p-436">
 <div class="para">The product of <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> is the function</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -455,14 +462,12 @@ fg \colon \left\{x \in \R \;\middle\vert\; x \neq 0, 1, 2\right\} \to \R
 \end{equation*}
 </div>
 <div class="para">defined by</div>
-</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \frac{x + 1}{x(x-1)}\left(\frac{x - 4}{x(x-2)}\right)
 = \frac{(x+1)(x-4)}{x^2(x-1)(x-2)}
 \end{equation*}
 </div>
-<div class="para logical" id="p-438">
 <div class="para">The ratio of <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> is the function</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -470,7 +475,6 @@ fg \colon \left\{x \in \R \;\middle\vert\; x \neq 0, 1, 2\right\} \to \R
 \end{equation*}
 </div>
 <div class="para">defined by</div>
-</div>
 <div class="displaymath process-math" id="md-47">
 \begin{align*}
 \frac{\frac{x + 1}{x(x-1)}}{\frac{x - 4}{x(x-2)}}
@@ -478,6 +482,7 @@ fg \colon \left\{x \in \R \;\middle\vert\; x \neq 0, 1, 2\right\} \to \R
 \amp= \frac{x(x+1)(x-2)}{x(x-1)(x-4)}\\
 \amp= \frac{(x+1)(x-2)}{(x-1)(x-4)}.
 \end{align*}
+</div>
 </div></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="section-16.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="section-18.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>

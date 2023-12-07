@@ -8,7 +8,7 @@
 <html lang="en-US" dir="ltr">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Function Composition</title>
+<title>Composition and Inverses</title>
 <meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
@@ -106,7 +106,7 @@ window.MathJax = {
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-rational_functions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-properties_functions.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="meta_backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \newcommand{\C}{\mathbb C} \newcommand{\abs}[1]{\left|#1\right|}
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-rational_functions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-properties_functions.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="meta_backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \newcommand{\C}{\mathbb C} \newcommand{\abs}[1]{\left|#1\right|} \newcommand{\id}{\operatorname{id}}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -263,7 +263,10 @@ window.MathJax = {
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rational_functions.html#subsection-30" class="internal"><span class="codenumber">4.2.4</span> <span class="title">Products and Ratios of Rational Functions</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="section-18.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Function Composition</span></a></div></li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="section-18.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Composition and Inverses</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-18.html#subsection-31" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Composition Inverses</span></a></div></li></ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter">
@@ -273,10 +276,10 @@ window.MathJax = {
 <li class="toc-item toc-appendix">
 <div class="toc-title-box"><a href="appendix-2.html" class="internal"><span class="codenumber">B</span> <span class="title">Graphs of Basic Functions</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-31.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Polynomials</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-32.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Roots</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-33.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Rational Functions</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-34.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Miscellaneous Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-32.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Polynomials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-33.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Roots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-34.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Rational Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-35.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Miscellaneous Functions</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-index"><div class="toc-title-box"><a href="index-1.html" class="internal"><span class="title">Index</span></a></div></li>
@@ -285,8 +288,149 @@ window.MathJax = {
 </li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="section-18"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space"> </span><span class="codenumber">4.3</span><span class="space"> </span><span class="title">Function Composition</span>
-</h2></section></div>
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">4.3</span><span class="space"> </span><span class="title">Composition and Inverses</span>
+</h2>
+<section class="introduction" id="introduction-44"><div class="para" id="p-437">Another way to create new functions from existing functions is through composition.</div></section><article class="definition definition-like" id="definition-61"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.3.1</span><span class="period">.</span><span class="space"> </span><span class="title">Composition of Functions.</span>
+</h3> <div class="para logical" id="p-438">
+<div class="para">Assume <span class="process-math">\(f \colon A \to B\)</span> and <span class="process-math">\(g \colon C \to D\)</span> be functions with <span class="process-math">\(B \subseteq C\text{.}\)</span> The <dfn class="terminology">composition</dfn>  of <span class="process-math">\(g\)</span> with <span class="process-math">\(f\)</span> is the function <span class="process-math">\(g \circ f \colon A \to D\)</span>  defined by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+(g \circ f)(x) = g\left(f\left(x\right)\right).
+\end{equation*}
+</div>
+</div></article><article class="example example-like" id="example-67"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.3.2</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-439">
+<div class="para">Consider the functions <span class="process-math">\(f \colon \R \to \R\)</span> defined by <span class="process-math">\(f(x) = x+2\)</span> and <span class="process-math">\(g \colon \R \to \R\)</span> defined by <span class="process-math">\(g(x) = x^2 + 3\text{.}\)</span> The composition of <span class="process-math">\(g\)</span> with <span class="process-math">\(f\)</span> is the function <span class="process-math">\(g \circ f \colon \R \to \R\)</span> defined by</div>
+<div class="displaymath process-math" id="md-48">
+\begin{align*}
+(g \circ f)(x) = g\left(f(x)\right)
+\amp= g\left(x + 2\right)\\
+\amp= \left(x + 2\right)^2 + 3\\
+\amp= (x + 2)(x + 2) + 3\\
+\amp= x^2 + 2x + 2x + 4 + 3\\
+\amp = x^2 + 4x + 7
+\end{align*}
+</div>
+</div></article><article class="warning remark-like" id="warning-3"><h3 class="heading">
+<span class="type">Warning</span><span class="space"> </span><span class="codenumber">4.3.3</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-440">It is important to make sure the range of the function <span class="process-math">\(f\)</span> is contained within the domain of the function <span class="process-math">\(g\text{.}\)</span> If not, the composition does not make sense.</div></article><article class="example example-like" id="example-68"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.3.4</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-441">
+<div class="para">The function <span class="process-math">\(g \colon [0,\infty) \to \R\)</span> defined by <span class="process-math">\(g(x) = \sqrt{x}\)</span> cannot be composed with the function <span class="process-math">\(f \colon [0, \infty) \to (-\infty,0]\)</span> defined by <span class="process-math">\(f(x) = -x\)</span> because</div>
+<div class="displaymath process-math">
+\begin{equation*}
+(g \circ f)(x) = g(-x) = \sqrt{-x}
+\end{equation*}
+</div>
+<div class="para">is <em class="alert">not</em> a real number when <span class="process-math">\(x &gt; 0\text{!}\)</span>
+</div>
+</div></article><article class="warning remark-like" id="warning-4"><h3 class="heading">
+<span class="type">Warning</span><span class="space"> </span><span class="codenumber">4.3.5</span><span class="period">.</span>
+</h3>
+<div class="para" id="p-442">The order of composition matters. Even if <span class="process-math">\(f \circ g\)</span> and <span class="process-math">\(g \circ f\)</span> are both well-defined and have the same domain, these two functions <em class="alert">are not the same</em> in general.</div></article><article class="example example-like" id="example-69"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.3.6</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="p-443">
+<div class="para">Consider the functions <span class="process-math">\(f \colon \R \to \R\)</span> defined by <span class="process-math">\(f(x) = x+2\)</span> and <span class="process-math">\(g \colon \R \to \R\)</span> defined by <span class="process-math">\(g(x) = x^2 + 3\text{.}\)</span> The composition of <span class="process-math">\(f\)</span> with <span class="process-math">\(g\)</span> is the function <span class="process-math">\(f \circ g \colon \R \to \R\)</span> defined by</div>
+<div class="displaymath process-math" id="md-49">
+\begin{align*}
+(f \circ g)(x) = f\left(f(x)\right)
+\amp= g\left(x^2 + 3\right)\\
+\amp= \left(x^2 + 3\right) + 2\\
+\amp= x^2 + 5\\
+\amp\neq x^2 + 4x + 7 = (g \circ f)(x).
+\end{align*}
+</div>
+</div></article><section class="subsection" id="subsection-31"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.3.1</span><span class="space"> </span><span class="title">Composition Inverses</span>
+</h3>
+<article class="definition definition-like" id="definition-62"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.3.7</span><span class="period">.</span><span class="space"> </span><span class="title">Identity Function.</span>
+</h4> Assume <span class="process-math">\(A\)</span> is a set. The <dfn class="terminology">identity function</dfn> on <span class="process-math">\(A\)</span> is the function <span class="process-math">\(\id \colon A \to A\)</span> defined by<div class="displaymath process-math">
+\begin{equation*}
+\id_A(x) = x.
+\end{equation*}
+</div></article><div class="para logical" id="p-444">
+<div class="para">We call this function the identity function because it behaves similar to the multiplicative identity, <span class="process-math">\(1\text{.}\)</span> The number <span class="process-math">\(1\)</span> satisfies the property that for all real numbers <span class="process-math">\(x\text{,}\)</span> <span class="process-math">\(1 \times x = x = x \times 1\text{.}\)</span> For every function <span class="process-math">\(f \colon A \to B\text{,}\)</span> the identity function on <span class="process-math">\(A\)</span> satisfies <span class="process-math">\(f \circ \id_A = f\)</span> because</div>
+<div class="displaymath process-math">
+\begin{equation*}
+(f \circ \id_A)(x) = f\left(\id_A(x)\right) = f(x)
+\end{equation*}
+</div>
+<div class="para">and the identity function on <span class="process-math">\(B\)</span> satisfies <span class="process-math">\(\id_B \circ f = f\)</span> because</div>
+<div class="displaymath process-math">
+\begin{equation*}
+(\id_B \circ f)(x) = \id_B\left(f(x)\right) = f(x)\text{.}
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="p-445">
+<div class="para">Every non-zero real number, <span class="process-math">\(x\text{,}\)</span> has an inverse with respect to the multiplication operation which we call <span class="process-math">\(1/x\text{.}\)</span> The inverse is defined by being the unique real number that satisfies</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x\left(\frac{1}{x}\right) = 1 \quad\text{and}\quad \left(\frac{1}{x}\right)x = 1.
+\end{equation*}
+</div>
+<div class="para">For a function, we define an inverse with respect to the composition operation similarly.</div>
+</div>
+<article class="definition definition-like" id="definition-63"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.3.8</span><span class="period">.</span><span class="space"> </span><span class="title">Composition Inverse.</span>
+</h4> <div class="para logical" id="p-446">
+<div class="para">Assume <span class="process-math">\(f \colon A \to B\)</span> is a function. The <dfn class="terminology">composition inverse</dfn>, if it exists, is a function <span class="process-math">\(f^{-1} \colon B \to A\)</span> that satisfies</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f^{-1} \circ f = \id_A
+\quad\text{and}\quad
+f \circ f^{-1} = \id_B
+\end{equation*}
+</div>
+<div class="para">or, equivalently, for every <span class="process-math">\(x \in A\)</span> <span class="process-math">\(f^{-1} \circ f(x) = x\)</span> and for every <span class="process-math">\(y \in B\text{,}\)</span> <span class="process-math">\(f \circ f^{-1}(y) = y\text{.}\)</span>
+</div>
+</div></article><article class="example example-like" id="example-70"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.3.9</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="p-447">
+<div class="para">The linear function <span class="process-math">\(f(x) = 3x + 5\)</span> is an invertible function. We can find its inverse by solving the equation <span class="process-math">\(y = 3x + 5\)</span> for <span class="process-math">\(x\)</span> in terms of <span class="process-math">\(y\)</span>
+</div>
+<div class="displaymath process-math" id="md-50">
+\begin{align*}
+y \amp= 3x + 5 \amp\amp \text{Subtract}\ 5\ \text{from both sides}\\
+3x \amp = y - 5 \amp\amp \text{Divide both sides by}\ 3\\
+x \amp = \frac{y - 5}{3} \amp\amp\text{Simplify}\\
+x \amp = \frac{1}{3}y - \frac{5}{3}.
+\end{align*}
+</div>
+<div class="para">This tells us the inverse function is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f^{-1}(y) = \frac{1}{3} y - \frac{5}{3}.
+\end{equation*}
+</div>
+</div> <div class="para logical" id="p-448">
+<div class="para">We can verify that these two functions are inverses to one another by computing</div>
+<div class="displaymath process-math" id="md-51">
+\begin{align*}
+\left(f^{-1} \circ f\right)(x) \amp= f^{-1}\left(3x + 5\right)\\
+\amp= \frac{1}{3}\left(3x + 5\right) - \frac{5}{3}\\
+\amp= x + \frac{5}{3} - \frac{5}{3}\\
+\amp= x
+\end{align*}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math" id="md-52">
+\begin{align*}
+\left(f \circ f^{-1}\right)(y) \amp= f\left(\frac{1}{3}y - \frac{5}{3}\right)\\
+\amp= 3\left(\frac{1}{3}y - \frac{5}{3}\right) + 5\\
+\amp= y - 5 + 5\\
+\amp= y.
+\end{align*}
+</div>
+</div></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-rational_functions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="meta_backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

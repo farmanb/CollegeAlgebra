@@ -2302,7 +2302,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "Rational Functions",
-  "body": " Rational Functions    Find the domain of a rational functions     A special case of ratios of functions that is of interest is when the numerator and denominator are both polynomials.    A rational function is a function of the form where and are polynomial functions.    The Domain of a Rational Function  Since polynomial functions always have domain and codomain , the domain of the rational function is the set    The rational function   is defined whenever is nonzero. This is the set of all numbers except and , which we can express as the union of intervals          Simplifying Rational Functions     Recall that we always write rational numbers in lowest terms. For example, instead of writing , we cancel the common factor of in the numerator and denominator to write . The same is true for rational functions, although some extra care is required.   If we are working with the rational function defined by then it is tempting to factor the numerator as and write   It is important to remember that this simplification only holds for elements of the domain of the function . This says that is equal to the function defined by . However, the function defined by is not equal to the function because the functions and do not have the same domain.     Sums and Differences of Rational Functions  Recall that in order to add or subtract rational numbers, we must find a common denominator. For example, to add and , we use the common denominator    The same is true for rational functions, provided we are careful with the denominator.   Consider the rational functions defined by   The sum of and is the function To find an expression for on this set, we use the least common multiple of the denominators to find a common denominator:      Products and Ratios of Rational Functions  Recall that when we multiply two rational numbers we multiply the numerators and denominators. For example, When we divide one rational number by another, we multiply the one by the reciprocal of the other. For example The same is true for products and ratios of rational functions.   Consider the rational functions defined by   The product of and is the function defined by   The ratio of and is the function defined by     "
+  "body": " Rational Functions    Find the domain of a rational functions     A special case of ratios of functions that is of interest is when the numerator and denominator are both polynomials.    A rational function is a function of the form where and are polynomial functions.    The Domain of a Rational Function  Since polynomial functions always have domain and codomain , the domain of the rational function is the set    The rational function   is defined whenever is nonzero. This is the set of all numbers except and , which we can express as the union of intervals          Simplifying Rational Functions     Recall that we always write rational numbers in lowest terms. For example, instead of writing , we cancel the common factor of in the numerator and denominator to write . The same is true for rational functions, although some extra care is required.   If we are working with the rational function defined by then it is tempting to factor the numerator as and write   It is important to remember that this simplification only holds for elements of the domain of the function . This says that is equal to the function defined by . However, the function defined by is not equal to the function because the functions and do not have the same domain.     Sums and Differences of Rational Functions  Recall that in order to add or subtract rational numbers, we must find a common denominator. For example, to add and , we use the common denominator  The same is true for rational functions, provided we are careful with the denominator.   Consider the rational functions defined by   The sum of and is the function To find an expression for on this set, we use the least common multiple of the denominators to find a common denominator:      Products and Ratios of Rational Functions  Recall that when we multiply two rational numbers we multiply the numerators and denominators. For example, When we divide one rational number by another, we multiply the one by the reciprocal of the other. For example The same is true for products and ratios of rational functions.   Consider the rational functions defined by   The product of and is the function defined by The ratio of and is the function defined by     "
 },
 {
   "id": "objectives-25",
@@ -2356,7 +2356,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "4.2.5",
   "title": "",
-  "body": " Consider the rational functions defined by   The product of and is the function defined by   The ratio of and is the function defined by   "
+  "body": " Consider the rational functions defined by   The product of and is the function defined by The ratio of and is the function defined by   "
 },
 {
   "id": "section-18",
@@ -2364,8 +2364,89 @@ var ptx_lunr_docs = [
   "url": "section-18.html",
   "type": "Section",
   "number": "4.3",
-  "title": "Function Composition",
-  "body": " Function Composition  "
+  "title": "Composition and Inverses",
+  "body": " Composition and Inverses   Another way to create new functions from existing functions is through composition.    Composition of Functions  Assume and be functions with . The composition   Function  Composition  of with is the function      Composition of with  defined by     Consider the functions defined by and defined by . The composition of with is the function defined by     It is important to make sure the range of the function is contained within the domain of the function . If not, the composition does not make sense.    The function defined by cannot be composed with the function defined by because is not a real number when !    The order of composition matters. Even if and are both well-defined and have the same domain, these two functions are not the same in general.    Consider the functions defined by and defined by . The composition of with is the function defined by     Composition Inverses   Identity Function Assume is a set. The identity function on is the function defined by   We call this function the identity function because it behaves similar to the multiplicative identity, . The number satisfies the property that for all real numbers , . For every function , the identity function on satisfies because and the identity function on satisfies because .  Every non-zero real number, , has an inverse with respect to the multiplication operation which we call . The inverse is defined by being the unique real number that satisfies For a function, we define an inverse with respect to the composition operation similarly.   Composition Inverse  Assume is a function. The composition inverse , if it exists, is a function that satisfies or, equivalently, for every  and for every , .    The linear function is an invertible function. We can find its inverse by solving the equation for in terms of  This tells us the inverse function is   We can verify that these two functions are inverses to one another by computing and     "
+},
+{
+  "id": "definition-61",
+  "level": "2",
+  "url": "section-18.html#definition-61",
+  "type": "Definition",
+  "number": "4.3.1",
+  "title": "Composition of Functions.",
+  "body": " Composition of Functions  Assume and be functions with . The composition   Function  Composition  of with is the function      Composition of with  defined by   "
+},
+{
+  "id": "example-67",
+  "level": "2",
+  "url": "section-18.html#example-67",
+  "type": "Example",
+  "number": "4.3.2",
+  "title": "",
+  "body": " Consider the functions defined by and defined by . The composition of with is the function defined by   "
+},
+{
+  "id": "warning-3",
+  "level": "2",
+  "url": "section-18.html#warning-3",
+  "type": "Warning",
+  "number": "4.3.3",
+  "title": "",
+  "body": " It is important to make sure the range of the function is contained within the domain of the function . If not, the composition does not make sense.  "
+},
+{
+  "id": "example-68",
+  "level": "2",
+  "url": "section-18.html#example-68",
+  "type": "Example",
+  "number": "4.3.4",
+  "title": "",
+  "body": " The function defined by cannot be composed with the function defined by because is not a real number when !  "
+},
+{
+  "id": "warning-4",
+  "level": "2",
+  "url": "section-18.html#warning-4",
+  "type": "Warning",
+  "number": "4.3.5",
+  "title": "",
+  "body": " The order of composition matters. Even if and are both well-defined and have the same domain, these two functions are not the same in general.  "
+},
+{
+  "id": "example-69",
+  "level": "2",
+  "url": "section-18.html#example-69",
+  "type": "Example",
+  "number": "4.3.6",
+  "title": "",
+  "body": " Consider the functions defined by and defined by . The composition of with is the function defined by   "
+},
+{
+  "id": "definition-62",
+  "level": "2",
+  "url": "section-18.html#definition-62",
+  "type": "Definition",
+  "number": "4.3.7",
+  "title": "Identity Function.",
+  "body": " Identity Function Assume is a set. The identity function on is the function defined by  "
+},
+{
+  "id": "definition-63",
+  "level": "2",
+  "url": "section-18.html#definition-63",
+  "type": "Definition",
+  "number": "4.3.8",
+  "title": "Composition Inverse.",
+  "body": " Composition Inverse  Assume is a function. The composition inverse , if it exists, is a function that satisfies or, equivalently, for every  and for every , .  "
+},
+{
+  "id": "example-70",
+  "level": "2",
+  "url": "section-18.html#example-70",
+  "type": "Example",
+  "number": "4.3.9",
+  "title": "",
+  "body": " The linear function is an invertible function. We can find its inverse by solving the equation for in terms of  This tells us the inverse function is   We can verify that these two functions are inverses to one another by computing and   "
 },
 {
   "id": "appendix-1",
@@ -2377,9 +2458,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols   "
 },
 {
-  "id": "subsection-31",
+  "id": "subsection-32",
   "level": "1",
-  "url": "subsection-31.html",
+  "url": "subsection-32.html",
   "type": "Subsection",
   "number": "B.1",
   "title": "Polynomials",
@@ -2388,52 +2469,52 @@ var ptx_lunr_docs = [
 {
   "id": "fig-line",
   "level": "2",
-  "url": "subsection-31.html#fig-line",
+  "url": "subsection-32.html#fig-line",
   "type": "Figure",
-  "number": "B.1.1",
+  "number": "B.1.10",
   "title": "the graph of <span class=\"process-math\">\\(y = x\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-parabola",
   "level": "2",
-  "url": "subsection-31.html#fig-parabola",
+  "url": "subsection-32.html#fig-parabola",
   "type": "Figure",
-  "number": "B.1.2",
+  "number": "B.1.11",
   "title": "the graph of <span class=\"process-math\">\\(y = x^2\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-cubic",
   "level": "2",
-  "url": "subsection-31.html#fig-cubic",
+  "url": "subsection-32.html#fig-cubic",
   "type": "Figure",
-  "number": "B.1.3",
+  "number": "B.1.12",
   "title": "the graph of <span class=\"process-math\">\\(y = x^3\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-quartic",
   "level": "2",
-  "url": "subsection-31.html#fig-quartic",
+  "url": "subsection-32.html#fig-quartic",
   "type": "Figure",
-  "number": "B.1.4",
+  "number": "B.1.13",
   "title": "the graph of <span class=\"process-math\">\\(y = x^4\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-quintic",
   "level": "2",
-  "url": "subsection-31.html#fig-quintic",
+  "url": "subsection-32.html#fig-quintic",
   "type": "Figure",
-  "number": "B.1.5",
+  "number": "B.1.14",
   "title": "the graph of <span class=\"process-math\">\\(y = x^5\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
-  "id": "subsection-32",
+  "id": "subsection-33",
   "level": "1",
-  "url": "subsection-32.html",
+  "url": "subsection-33.html",
   "type": "Subsection",
   "number": "B.2",
   "title": "Roots",
@@ -2442,43 +2523,43 @@ var ptx_lunr_docs = [
 {
   "id": "fig-sq_root",
   "level": "2",
-  "url": "subsection-32.html#fig-sq_root",
+  "url": "subsection-33.html#fig-sq_root",
   "type": "Figure",
-  "number": "B.2.6",
+  "number": "B.2.15",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-cube_root",
   "level": "2",
-  "url": "subsection-32.html#fig-cube_root",
+  "url": "subsection-33.html#fig-cube_root",
   "type": "Figure",
-  "number": "B.2.7",
+  "number": "B.2.16",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt[3]{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-fourth_root",
   "level": "2",
-  "url": "subsection-32.html#fig-fourth_root",
+  "url": "subsection-33.html#fig-fourth_root",
   "type": "Figure",
-  "number": "B.2.8",
+  "number": "B.2.17",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt[4]{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-fifth_root",
   "level": "2",
-  "url": "subsection-32.html#fig-fifth_root",
+  "url": "subsection-33.html#fig-fifth_root",
   "type": "Figure",
-  "number": "B.2.9",
+  "number": "B.2.18",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt[5]{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
-  "id": "subsection-33",
+  "id": "subsection-34",
   "level": "1",
-  "url": "subsection-33.html",
+  "url": "subsection-34.html",
   "type": "Subsection",
   "number": "B.3",
   "title": "Rational Functions",
@@ -2487,52 +2568,52 @@ var ptx_lunr_docs = [
 {
   "id": "fig-1_x",
   "level": "2",
-  "url": "subsection-33.html#fig-1_x",
+  "url": "subsection-34.html#fig-1_x",
   "type": "Figure",
-  "number": "B.3.10",
+  "number": "B.3.19",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-1_x_2",
   "level": "2",
-  "url": "subsection-33.html#fig-1_x_2",
+  "url": "subsection-34.html#fig-1_x_2",
   "type": "Figure",
-  "number": "B.3.11",
+  "number": "B.3.20",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^2}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-1_x_3",
   "level": "2",
-  "url": "subsection-33.html#fig-1_x_3",
+  "url": "subsection-34.html#fig-1_x_3",
   "type": "Figure",
-  "number": "B.3.12",
+  "number": "B.3.21",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^3}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-1_x_4",
   "level": "2",
-  "url": "subsection-33.html#fig-1_x_4",
+  "url": "subsection-34.html#fig-1_x_4",
   "type": "Figure",
-  "number": "B.3.13",
+  "number": "B.3.22",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^4}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-1_x_5",
   "level": "2",
-  "url": "subsection-33.html#fig-1_x_5",
+  "url": "subsection-34.html#fig-1_x_5",
   "type": "Figure",
-  "number": "B.3.14",
+  "number": "B.3.23",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^5}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
-  "id": "subsection-34",
+  "id": "subsection-35",
   "level": "1",
-  "url": "subsection-34.html",
+  "url": "subsection-35.html",
   "type": "Subsection",
   "number": "B.4",
   "title": "Miscellaneous Functions",
@@ -2541,9 +2622,9 @@ var ptx_lunr_docs = [
 {
   "id": "fig-abs_val",
   "level": "2",
-  "url": "subsection-34.html#fig-abs_val",
+  "url": "subsection-35.html#fig-abs_val",
   "type": "Figure",
-  "number": "B.4.15",
+  "number": "B.4.24",
   "title": "the graph of <span class=\"process-math\">\\(y = \\abs{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },

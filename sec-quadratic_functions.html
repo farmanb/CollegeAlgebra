@@ -106,7 +106,7 @@ window.MathJax = {
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-perp_parallel.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-linear_functions.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-properties_functions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \newcommand{\C}{\mathbb C} \newcommand{\abs}[1]{\left|#1\right|}
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-perp_parallel.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-linear_functions.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-properties_functions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \newcommand{\C}{\mathbb C} \newcommand{\abs}[1]{\left|#1\right|} \newcommand{\id}{\operatorname{id}}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -263,7 +263,10 @@ window.MathJax = {
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rational_functions.html#subsection-30" class="internal"><span class="codenumber">4.2.4</span> <span class="title">Products and Ratios of Rational Functions</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-18.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Function Composition</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-18.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Composition and Inverses</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-18.html#subsection-31" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Composition Inverses</span></a></div></li></ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter">
@@ -273,10 +276,10 @@ window.MathJax = {
 <li class="toc-item toc-appendix">
 <div class="toc-title-box"><a href="appendix-2.html" class="internal"><span class="codenumber">B</span> <span class="title">Graphs of Basic Functions</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-31.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Polynomials</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-32.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Roots</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-33.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Rational Functions</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-34.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Miscellaneous Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-32.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Polynomials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-33.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Roots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-34.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Rational Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-35.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Miscellaneous Functions</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-index"><div class="toc-title-box"><a href="index-1.html" class="internal"><span class="title">Index</span></a></div></li>
@@ -307,7 +310,7 @@ y = ax^2 + bx + c,
 </div></article><section class="subsection" id="subsection-20"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.5.1</span><span class="space"> </span><span class="title">Vertex Form</span>
 </h3>
-<section class="introduction" id="introduction-36"><div class="para" id="p-336">Just as with lines, quadratic functions are easier to understand through visualizations. The simplest quadratic function to understand is <span class="process-math">\(y = x^2\text{.}\)</span> We call the <a href="" class="xref" data-knowl="./knowl/xref/fig-parabola.html" title="Figure B.1.2: the graph of y = x^2">the graph of <span class="process-math">\(y = x^2\)</span></a> a <dfn class="terminology">parabola</dfn>.  The point <span class="process-math">\((0,0)\)</span> is called the <dfn class="terminology">vertex</dfn>. </div> <div class="para" id="p-337">As we have already seen in <a href="sec-symmetry.html" class="internal" title="Section 2.5: Symmetry">Section 2.5</a>, the graph of this function is symmetric about the <span class="process-math">\(y\)</span>-axis, which is the vertical line <span class="process-math">\(x = 0\)</span> through the vertex. While general quadratics are slightly more complicated, we can use the properties of <span class="process-math">\(y = x^2\)</span> to graph the class of quadratics in the following form.</div></section><article class="definition definition-like" id="def-vertex_form"><h4 class="heading">
+<section class="introduction" id="introduction-36"><div class="para" id="p-336">Just as with lines, quadratic functions are easier to understand through visualizations. The simplest quadratic function to understand is <span class="process-math">\(y = x^2\text{.}\)</span> We call the <a href="" class="xref" data-knowl="./knowl/xref/fig-parabola.html" title="Figure B.1.11: the graph of y = x^2">the graph of <span class="process-math">\(y = x^2\)</span></a> a <dfn class="terminology">parabola</dfn>.  The point <span class="process-math">\((0,0)\)</span> is called the <dfn class="terminology">vertex</dfn>. </div> <div class="para" id="p-337">As we have already seen in <a href="sec-symmetry.html" class="internal" title="Section 2.5: Symmetry">Section 2.5</a>, the graph of this function is symmetric about the <span class="process-math">\(y\)</span>-axis, which is the vertical line <span class="process-math">\(x = 0\)</span> through the vertex. While general quadratics are slightly more complicated, we can use the properties of <span class="process-math">\(y = x^2\)</span> to graph the class of quadratics in the following form.</div></section><article class="definition definition-like" id="def-vertex_form"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.5.2</span><span class="period">.</span><span class="space"> </span><span class="title">The Vertex Form of a Quadratic.</span>
 </h4> <div class="para logical" id="p-338">
 <div class="para">A quadratic function, <span class="process-math">\(f(x)\text{,}\)</span> is in <dfn class="terminology">vertex form</dfn>  if there are numbers <span class="process-math">\(h\)</span> and <span class="process-math">\(k\)</span> such that</div>
