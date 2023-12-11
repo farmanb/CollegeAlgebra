@@ -12,5 +12,6 @@
   <xi:include href="sec-algebraic_function_ops.ptx"/>
   <xi:include href="sec-rational_functions.ptx"/>
   <xi:include href="sec-composition.ptx"/>
+  <xi:include href="sec-graphing_inverses.ptx"/>
   <!-- <xi:include href="sec-rational_functions.ptx"/> -->
 </chapter>

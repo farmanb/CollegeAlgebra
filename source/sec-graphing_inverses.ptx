@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Graphing Inverse Functions</title>
+
+  <introduction>
+    <p>
+      Assume <m>A, B \subseteq \R</m> and <m>f \colon A \to B</m> is a function with inverse <m>f^{-1} \colon B \to A</m>.
+      In order to visualize the inverse of a function, it is helpful to recall from <xref ref="def-graph_function"/> that the graph of <m>f</m> is the set of points
+      <me>\left\{\left(x, f(x)\right) \;\middle\vert\; x \in A\right\}</me>
+      in the Cartesian plane.
+    </p>
+    <p>
+      Since we have been conditioned by training to think about the input to a function being named <m>x</m> and the output of a function being named <m>y</m>, we opt to write <m>f^{-1}(y)</m> instead of <m>f^{-1}(x)</m>.
+      This distinction is meaningless in practice, but prompts us to think about the input to <m>f^{-1}</m> as the output of <m>f</m>.
+    </p>
+    <p>
+      We made these observations more precise in <xref ref="thm-invertible_is_surjective"/>, which asserts that every <m>y \in B</m> can be written in the form <m>y = f(x)</m> for <em>some</em> <m>x \in A</m>.
+      This allows us to describe the graph of <m>f^{-1}</m> as the set of points
+      <md>
+	<mrow>\left\{\left(y, f^{-1}(y)\right) \;\middle\vert\; y \in B\right\}
+	\amp= \left\{\left(f(x), f^{-1}\left(f(x)\right)\right) \;\middle\vert\; x \in A\right\}</mrow>
+	<mrow>\amp= \left\{\left(f(x), x\right) \;\middle\vert\; x \in A\right\}.</mrow>
+      </md>
+    </p>
+  </introduction>
+  <theorem>
+    <statement>
+      <p>
+	The graph of <m>f^{-1}</m> is obtained by reflecting the graph of <m>f</m> across the line <m>y = x</m>.
+      </p>
+    </statement>
+  </theorem>
+</section>
