@@ -62,7 +62,11 @@
 	<h>Range</h>
       </idx>
       of <m>f</m> is the set of all output values
-      <me>\left\{f(x) \;\middle\vert\; x \in A\right\}.</me>
+      <me>f(A) = \left\{f(x) \;\middle\vert\; x \in A\right\}.</me>
+      <notation>
+	<usage><m>f(A)</m></usage>
+	<description>Range of <m>f</m></description>
+      </notation>
     </p>
   </definition>
   
