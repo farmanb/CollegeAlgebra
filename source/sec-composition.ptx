@@ -227,14 +227,63 @@
 	and for every <m>y \in B</m>,
 	<m>f \circ f^{-1}(y) = y</m>.
       </p>
+      <p>
+	If <m>f</m> has a composition inverse, then we say <m>f</m> is <term>invertible</term>.
+	<idx>
+	  <h>Function</h>
+	  <h>Invertible</h>
+	</idx>
+      </p>
     </definition>
 
-    <remark xml:id="remark-inverse_of_arithmetics">
+    <warning>
       <p>
-	The definition of a composition inverse is <em>symmetric</em> in the sense that the inverse of <m>f</m> is <m>f^{-1}</m> and the inverse of <m>f^{-1}</m> is <m>f</m>.
-	In symbols, this is
-	<me>\left(f^{-1}\right)^{-1} = f.</me>
+	Mathematicians commonly use the word "inverse" or "invertible" without explicitly stating the operation.
+	It is important to infer the meaning from the context.
+	If the object being discussed is a function, then "inverse" means <em>composition</em> inverse, <alert>not</alert> multiplicative inverse.
+	That is to say,
+	<me>f^{-1}(x) \neq \frac{1}{f(x)} = f(x)^{-1}.</me>
       </p>
+      <p>
+	In order to avoid confusion, we will avoid using the notation <m>f(x)^{-1}</m> and write either <m>1/f(x)</m> or
+	<me>\frac{1}{f(x)}</me>
+	whenever we refer to a fraction with the function <m>f(x)</m> in the denominator.
+      </p>
+    </warning>
+  </subsection>
+
+  <subsection>
+    <title>Properties of Invertible Functions</title>
+    <p>
+      For a function <m>f \colon A \to B</m> with a composition inverse, the codomain of <m>f</m> and the domain of <m>f^{-1}</m> agree.
+      For every <m>y \in B</m>, the element <m>x = f^{-1}(y) \in A</m> satisfies
+      <me>y = f \circ f^{-1}(y) = f(x)</me>
+      by definition.
+      This provides useful information about the range of an invertible function <m>f</m>.
+    </p>
+
+    <theorem xml:id="thm-invertible_is_surjective">
+      <statement>
+	<p>
+	  If <m>f \colon A \to B</m> is a function with a composition inverse, then the range of <m>f</m> is <m>f(A) = B.</m>
+	</p>
+      </statement>
+    </theorem>
+
+    <p>
+      The definition of a composition inverse is <em>symmetric</em> in the sense that the inverse of <m>f</m> is <m>f^{-1}</m> and the inverse of <m>f^{-1}</m> is <m>f</m>.
+    </p>
+
+    <theorem>
+      <statement>
+	<p>
+	  If <m>f \colon A \to B</m> is a function with inverse <m>f^{-1} \colon B \to A</m>, then <m>f^{-1}</m> has a composition inverse and
+	  <me>\left(f^{-1}\right)^{-1} = f.</me>
+	</p>
+      </statement>
+    </theorem>
+    
+    <example xml:id="example-inverse_of_arithmetics">
       <p>
 	In the language of <xref ref="def-composition_inverse"/>, the functions "add <m>c</m>" and "add <m>-c</m>" (or "subtract <m>c</m>") are a pair of inverse functions
 	<me>\left(\operatorname{add}_{c}\right)^{-1} = \operatorname{add}_{-c}
@@ -247,8 +296,8 @@
 	\quad\text{and}\quad
 	\left(\operatorname{mul}_{c^{-1}}\right)^{-1} = \operatorname{mul}_c.</me>
       </p>
-    </remark>
-    
+    </example>
+
     <example xml:id="example-inverse_of_composition">
       <p>
 	In general, a linear function <m>f(x) = mx + b</m> is invertible if <m>m \neq 0</m>.
@@ -263,7 +312,7 @@
 	</ol>
 	This allows us to decompose <m>f</m> as the function "add <m>b</m>" composed with the function "multiply by <m>m</m>"
 	<me>f(x) = \operatorname{add}_b \circ \operatorname{mul}_m(x).</me>
-      	Since both of these functions is invertible, we can invert <m>f</m> by performing the inverse operations in reverse order, like peeling back the layers of an onion.
+      	Since each function is invertible, we can invert <m>f</m> by performing the inverse operations in reverse order, like peeling back the layers of an onion.
       </p>
       <p>
 	Write <m>y = mx + b</m> for the result of applying <m>f</m> to <m>x</m>.
@@ -280,7 +329,10 @@
 	    </p>
 	  </li>
 	</ol>
-	In the language of <xref ref="remark-inverse_of_arithmetics"/>, the inverse of <m>f</m> is the composition
+	Note this is equivalent to solving the equation <m>y = mx + b</m> for <m>x</m> in terms of <m>y</m>
+      </p>
+      <p>
+	In the language of <xref ref="example-inverse_of_arithmetics"/>, the inverse of <m>f</m> is the composition
 	<md>
 	  <mrow>f^{-1}(y) \amp= \left(\operatorname{mul}_m\right)^{-1} \circ \left(\operatorname{add}_{b}\right)^{-1}(y)</mrow>
 	  <mrow>\amp=\operatorname{mul}_{m^{-1}} \circ \operatorname{add}_{-b}(y) </mrow>
