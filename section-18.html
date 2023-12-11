@@ -265,7 +265,10 @@ window.MathJax = {
 </li>
 <li class="toc-item toc-section active">
 <div class="toc-title-box"><a href="section-18.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Composition and Inverses</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-18.html#subsection-31" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Composition Inverses</span></a></div></li></ul>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-18.html#subsection-31" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Identities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-18.html#subsection-32" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Composition Inverses</span></a></div></li>
+</ul>
 </li>
 </ul>
 </li>
@@ -276,10 +279,10 @@ window.MathJax = {
 <li class="toc-item toc-appendix">
 <div class="toc-title-box"><a href="appendix-2.html" class="internal"><span class="codenumber">B</span> <span class="title">Graphs of Basic Functions</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-32.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Polynomials</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-33.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Roots</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-34.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Rational Functions</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-35.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Miscellaneous Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-33.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Polynomials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-34.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Roots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-35.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Rational Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-36.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Miscellaneous Functions</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-index"><div class="toc-title-box"><a href="index-1.html" class="internal"><span class="title">Index</span></a></div></li>
@@ -290,10 +293,10 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="section-18"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">4.3</span><span class="space"> </span><span class="title">Composition and Inverses</span>
 </h2>
-<section class="introduction" id="introduction-44"><div class="para" id="p-437">Another way to create new functions from existing functions is through composition.</div></section><article class="definition definition-like" id="definition-61"><h3 class="heading">
+<section class="introduction" id="introduction-44"><div class="para" id="p-437">When we study numbers in an elementary mathematics course, we focus primarily on operations that we can perform with numbers like addition and multiplication. While we have seen we can perform these same operations with functions, there is one operation that is particular to functions that we study here. It is important because it provides a way to create complicated functions from simpler functions.</div></section><article class="definition definition-like" id="definition-61"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.3.1</span><span class="period">.</span><span class="space"> </span><span class="title">Composition of Functions.</span>
 </h3> <div class="para logical" id="p-438">
-<div class="para">Assume <span class="process-math">\(f \colon A \to B\)</span> and <span class="process-math">\(g \colon C \to D\)</span> be functions with <span class="process-math">\(B \subseteq C\text{.}\)</span> The <dfn class="terminology">composition</dfn>  of <span class="process-math">\(g\)</span> with <span class="process-math">\(f\)</span> is the function <span class="process-math">\(g \circ f \colon A \to D\)</span>  defined by</div>
+<div class="para">Assume <span class="process-math">\(f \colon A \to B\)</span> and <span class="process-math">\(g \colon C \to D\)</span> are functions with <span class="process-math">\(f(A) \subseteq C\text{.}\)</span> The <dfn class="terminology">composition</dfn>  of <span class="process-math">\(g\)</span> with <span class="process-math">\(f\)</span> is the function <span class="process-math">\(g \circ f \colon A \to D\)</span>  defined by</div>
 <div class="displaymath process-math">
 \begin{equation*}
 (g \circ f)(x) = g\left(f\left(x\right)\right).
@@ -332,7 +335,7 @@ window.MathJax = {
 </div></article><article class="warning remark-like" id="warning-4"><h3 class="heading">
 <span class="type">Warning</span><span class="space"> </span><span class="codenumber">4.3.5</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-442">The order of composition matters. Even if <span class="process-math">\(f \circ g\)</span> and <span class="process-math">\(g \circ f\)</span> are both well-defined and have the same domain, these two functions <em class="alert">are not the same</em> in general.</div></article><article class="example example-like" id="example-69"><h3 class="heading">
+<div class="para" id="p-442">The order of composition matters. Even if <span class="process-math">\(f \circ g\)</span> and <span class="process-math">\(g \circ f\)</span> are both well-defined and have the same domain, these two functions <em class="alert">are not the same</em> in general.</div></article><article class="example example-like" id="example-composition_not_commutative"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.3.6</span><span class="period">.</span>
 </h3>
 <div class="para logical" id="p-443">
@@ -347,16 +350,43 @@ window.MathJax = {
 \end{align*}
 </div>
 </div></article><section class="subsection" id="subsection-31"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.3.1</span><span class="space"> </span><span class="title">Composition Inverses</span>
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.3.1</span><span class="space"> </span><span class="title">Identities</span>
 </h3>
+<div class="para logical" id="p-444">
+<div class="para">In keeping with the analogy with operations on numbers, recall the operations of addition and multiplication both have distinguished elements. The number <span class="process-math">\(0\)</span> is the <dfn class="terminology">additive identity</dfn>  because every real number <span class="process-math">\(x\)</span> remains unchanged when <span class="process-math">\(0\)</span> is added to it</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x + 0 = x \quad\text{and}\quad 0 + x = x.
+\end{equation*}
+</div>
+<div class="para">Similarly, the number <span class="process-math">\(1\)</span> is the <dfn class="terminology">multiplicative identity</dfn>  because every real number <span class="process-math">\(x\)</span> remains unchanged when it is multiplied by <span class="process-math">\(1\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x \times 1 = x \quad\text{and}\quad 1 \times x = x.
+\end{equation*}
+</div>
+<div class="para">For function composition, there is an analogous identity element.</div>
+</div>
 <article class="definition definition-like" id="definition-62"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.3.7</span><span class="period">.</span><span class="space"> </span><span class="title">Identity Function.</span>
 </h4> Assume <span class="process-math">\(A\)</span> is a set. The <dfn class="terminology">identity function</dfn> on <span class="process-math">\(A\)</span> is the function <span class="process-math">\(\id \colon A \to A\)</span> defined by<div class="displaymath process-math">
 \begin{equation*}
 \id_A(x) = x.
 \end{equation*}
-</div></article><div class="para logical" id="p-444">
-<div class="para">We call this function the identity function because it behaves similar to the multiplicative identity, <span class="process-math">\(1\text{.}\)</span> The number <span class="process-math">\(1\)</span> satisfies the property that for all real numbers <span class="process-math">\(x\text{,}\)</span> <span class="process-math">\(1 \times x = x = x \times 1\text{.}\)</span> For every function <span class="process-math">\(f \colon A \to B\text{,}\)</span> the identity function on <span class="process-math">\(A\)</span> satisfies <span class="process-math">\(f \circ \id_A = f\)</span> because</div>
+</div></article><div class="para logical" id="p-445">
+<div class="para">Unlike addition and multiplication, the order of function composition matters, as we have seen in <a href="" class="xref" data-knowl="./knowl/xref/example-composition_not_commutative.html" title="Example 4.3.6">Example 4.3.6</a>. Complicating matters more, not all functions can be composed. For a function <span class="process-math">\(f \colon A \to B\text{,}\)</span>
+</div>
+<ul class="disc">
+<li id="li-123"><div class="para" id="p-446">the composition <span class="process-math">\(g \circ f\)</span> only makes sense when the domain of <span class="process-math">\(g\)</span> contains the codomain of <span class="process-math">\(f\text{,}\)</span> and</div></li>
+<li id="li-124"><div class="para" id="p-447">the composition <span class="process-math">\(f \circ g\)</span> only makes sense when the codomain of <span class="process-math">\(g\)</span> is contained in the domain of <span class="process-math">\(f\text{.}\)</span>
+</div></li>
+</ul>
+<div class="para">For this reason, there is not one single identity function that satisfies the condition <span class="process-math">\(f \circ \id = f\)</span> and <span class="process-math">\(\id \circ f = f\text{.}\)</span>
+</div>
+</div>
+<div class="para logical" id="p-448">
+<div class="para">Instead, we need to consider the identity functions on the domain and codomain of <span class="process-math">\(f\text{.}\)</span> The identity function on <span class="process-math">\(A\)</span> satisfies <span class="process-math">\(f \circ \id_A = f\)</span> because</div>
 <div class="displaymath process-math">
 \begin{equation*}
 (f \circ \id_A)(x) = f\left(\id_A(x)\right) = f(x)
@@ -368,19 +398,90 @@ window.MathJax = {
 (\id_B \circ f)(x) = \id_B\left(f(x)\right) = f(x)\text{.}
 \end{equation*}
 </div>
-</div>
-<div class="para logical" id="p-445">
-<div class="para">Every non-zero real number, <span class="process-math">\(x\text{,}\)</span> has an inverse with respect to the multiplication operation which we call <span class="process-math">\(1/x\text{.}\)</span> The inverse is defined by being the unique real number that satisfies</div>
+</div></section><section class="subsection" id="subsection-32"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.3.2</span><span class="space"> </span><span class="title">Composition Inverses</span>
+</h3>
+<div class="para logical" id="p-449">
+<div class="para">The identity elements for these operations are important because they provide a method for "undoing" the operation. This is easiest to understand by considering addition and multiplication first. For any real number <span class="process-math">\(c\text{,}\)</span> the <dfn class="terminology">additive inverse</dfn>  is the real number <span class="process-math">\(-c\)</span> that satisfies</div>
 <div class="displaymath process-math">
 \begin{equation*}
-x\left(\frac{1}{x}\right) = 1 \quad\text{and}\quad \left(\frac{1}{x}\right)x = 1.
+c + (-c) = 0\quad\text{and}\quad -c + c = 0.
 \end{equation*}
 </div>
-<div class="para">For a function, we define an inverse with respect to the composition operation similarly.</div>
+<div class="para">If we add the number <span class="process-math">\(c\)</span> to another number <span class="process-math">\(x\text{,}\)</span> then we obtain the number <span class="process-math">\(x + c\text{.}\)</span> We can "undo" this operation by performing the operation "add the additive inverse of <span class="process-math">\(c\)</span>" -- which we normally just call "subtract <span class="process-math">\(c\)</span>" -- in the sense that</div>
+<div class="displaymath process-math" id="eq-g_of_f">
+\begin{equation}
+(x + c) + (-c) = x + (c - c) = x + 0 = x.\tag{4.3.1}
+\end{equation}
 </div>
-<article class="definition definition-like" id="definition-63"><h4 class="heading">
+<div class="para">Similarly, we note that the operation "add c" will "undo" the operation "subtract <span class="process-math">\(c\)</span>" in the sense that</div>
+<div class="displaymath process-math" id="eq-f_of_g">
+\begin{equation}
+(x - c) + c = x + (-c + c) = x + 0 = x.\tag{4.3.2}
+\end{equation}
+</div>
+</div>
+<div class="para logical" id="p-450">
+<div class="para">The operations "add <span class="process-math">\(c\)</span>" and "subtract <span class="process-math">\(c\)</span>" define functions <span class="process-math">\(\operatorname{add}_c \colon \R \to \R\)</span> and <span class="process-math">\(\operatorname{add}_{-c} \colon \R \to \R\)</span> by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eq-g_of_f.html">
+\begin{equation*}
+\operatorname{add}_c(x) = x + c \quad\text{and}\quad \operatorname{add}_{-c}(x) = x - c.
+\end{equation*}
+</div>
+<div class="para">We can view <a href="" class="xref" data-knowl="./knowl/xref/eq-g_of_f.html" title="Equation 4.3.1">(4.3.1)</a> and  in terms of composition:</div>
+</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="p-451"><div class="displaymath process-math" id="md-50">
+\begin{align*}
+\operatorname{add}_{-c} \circ \operatorname{add}_c(x) \amp= \operatorname{add}_{-c}(x + c)\\
+\amp= (x + c) - c \\
+\amp= x
+\end{align*}
+</div></div></div>
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="p-452"><div class="displaymath process-math" id="md-51">
+\begin{align*}
+\operatorname{add}_c \circ \operatorname{add}_{-c}(x) \amp= \operatorname{add}_c(x - c)\\
+\amp= (x - c) + c \\
+\amp= x.
+\end{align*}
+</div></div></div>
+</div></div>
+<div class="para logical" id="p-453">
+<div class="para">The story is similar for multiplication. For any non-zero real number <span class="process-math">\(c\text{,}\)</span> the <dfn class="terminology">multiplicative inverse</dfn>  of <span class="process-math">\(c\)</span> is the real number <span class="process-math">\(c^{-1} = 1/c\)</span> that satisfies</div>
+<div class="displaymath process-math">
+\begin{equation*}
+c \times \frac{1}{c} = 1\quad\text{and}\quad \frac{1}{c} \times c = 1.
+\end{equation*}
+</div>
+<div class="para">Multiplication by <span class="process-math">\(c\)</span> and multiplication by <span class="process-math">\(a^{-1}\)</span> define functions <span class="process-math">\(\operatorname{mul}_c, \operatorname{mul}_{c^{-1}} \colon \R \to \R\)</span> by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\operatorname{mul}_c(x) = cx \quad\text{and}\quad \operatorname{mul}_{c^{-1}}(x) = \frac{1}{c}x.
+\end{equation*}
+</div>
+<div class="para">Just as with addition, these two functions "undo" one another in the sense that</div>
+</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="p-454"><div class="displaymath process-math" id="md-52">
+\begin{align*}
+\operatorname{mul}_c \circ \operatorname{mul}_{c^{-1}}(x) \amp= \operatorname{mul}_c\left(c^{-1}x\right)\\
+\amp= c\left(\frac{1}{c}x\right) \\
+\amp= x
+\end{align*}
+</div></div></div>
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="p-455"><div class="displaymath process-math" id="md-53">
+\begin{align*}
+\operatorname{mul}_{c^{-1}} \circ \operatorname{mul}_c(x) \amp= \operatorname{mul}_{c^{-1}}(cx)\\
+\amp= \frac{1}{c}(cx)\\
+\amp= x.
+\end{align*}
+</div></div></div>
+</div></div>
+<div class="para" id="p-456">Less formally, one often says "division by <span class="process-math">\(c\)</span>" instead of "multiplication by <span class="process-math">\(c^{-1}\text{.}\)</span>"</div>
+<div class="para" id="p-457">These are two canonical examples of functions that are <em class="emphasis">invertible</em>, and the ideas captured in inverting addition and multiplication motivate the more general definition.</div>
+<article class="definition definition-like" id="def-composition_inverse"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.3.8</span><span class="period">.</span><span class="space"> </span><span class="title">Composition Inverse.</span>
-</h4> <div class="para logical" id="p-446">
+</h4> <div class="para logical" id="p-458">
 <div class="para">Assume <span class="process-math">\(f \colon A \to B\)</span> is a function. The <dfn class="terminology">composition inverse</dfn>, if it exists, is a function <span class="process-math">\(f^{-1} \colon B \to A\)</span> that satisfies</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -389,48 +490,168 @@ f^{-1} \circ f = \id_A
 f \circ f^{-1} = \id_B
 \end{equation*}
 </div>
-<div class="para">or, equivalently, for every <span class="process-math">\(x \in A\)</span> <span class="process-math">\(f^{-1} \circ f(x) = x\)</span> and for every <span class="process-math">\(y \in B\text{,}\)</span> <span class="process-math">\(f \circ f^{-1}(y) = y\text{.}\)</span>
+<div class="para">or, equivalently, for every <span class="process-math">\(x \in A\text{,}\)</span> <span class="process-math">\(f^{-1} \circ f(x) = x\)</span> and for every <span class="process-math">\(y \in B\text{,}\)</span> <span class="process-math">\(f \circ f^{-1}(y) = y\text{.}\)</span>
 </div>
-</div></article><article class="example example-like" id="example-70"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.3.9</span><span class="period">.</span>
+</div></article><article class="remark remark-like" id="remark-inverse_of_arithmetics"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">4.3.9</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-447">
-<div class="para">The linear function <span class="process-math">\(f(x) = 3x + 5\)</span> is an invertible function. We can find its inverse by solving the equation <span class="process-math">\(y = 3x + 5\)</span> for <span class="process-math">\(x\)</span> in terms of <span class="process-math">\(y\)</span>
-</div>
-<div class="displaymath process-math" id="md-50">
-\begin{align*}
-y \amp= 3x + 5 \amp\amp \text{Subtract}\ 5\ \text{from both sides}\\
-3x \amp = y - 5 \amp\amp \text{Divide both sides by}\ 3\\
-x \amp = \frac{y - 5}{3} \amp\amp\text{Simplify}\\
-x \amp = \frac{1}{3}y - \frac{5}{3}.
-\end{align*}
-</div>
-<div class="para">This tells us the inverse function is</div>
+<div class="para logical" id="p-459">
+<div class="para">The definition of a composition inverse is <em class="emphasis">symmetric</em> in the sense that the inverse of <span class="process-math">\(f\)</span> is <span class="process-math">\(f^{-1}\)</span> and the inverse of <span class="process-math">\(f^{-1}\)</span> is <span class="process-math">\(f\text{.}\)</span> In symbols, this is</div>
 <div class="displaymath process-math">
 \begin{equation*}
-f^{-1}(y) = \frac{1}{3} y - \frac{5}{3}.
+\left(f^{-1}\right)^{-1} = f.
 \end{equation*}
 </div>
-</div> <div class="para logical" id="p-448">
-<div class="para">We can verify that these two functions are inverses to one another by computing</div>
-<div class="displaymath process-math" id="md-51">
+</div> <div class="para logical" id="p-460">
+<div class="para">In the language of <a href="" class="xref" data-knowl="./knowl/xref/def-composition_inverse.html" title="Definition 4.3.8: Composition Inverse">Definition 4.3.8</a>, the functions "add <span class="process-math">\(c\)</span>" and "add <span class="process-math">\(-c\)</span>" (or "subtract <span class="process-math">\(c\)</span>") are a pair of inverse functions</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def-composition_inverse.html">
+\begin{equation*}
+\left(\operatorname{add}_{c}\right)^{-1} = \operatorname{add}_{-c}
+\quad\text{and}\quad
+\left(\operatorname{add}_{-c}\right)^{-1} = \operatorname{add}_c.
+\end{equation*}
+</div>
+</div> <div class="para logical" id="p-461">
+<div class="para">Similarly, the functions "multiply by <span class="process-math">\(c\)</span>" and "multiply by <span class="process-math">\(c^{-1}\)</span>" (or "divide by <span class="process-math">\(c\)</span>") are a pair of inverse functions</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\left(\operatorname{mul}_c\right)^{-1} = \operatorname{mul}_{c^{-1}}
+\quad\text{and}\quad
+\left(\operatorname{mul}_{c^{-1}}\right)^{-1} = \operatorname{mul}_c.
+\end{equation*}
+</div>
+</div></article><article class="example example-like" id="example-inverse_of_composition"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.3.10</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="p-462">
+<div class="para">In general, a linear function <span class="process-math">\(f(x) = mx + b\)</span> is invertible if <span class="process-math">\(m \neq 0\text{.}\)</span> To evaluate <span class="process-math">\(f\)</span> at the real number <span class="process-math">\(x\text{,}\)</span> we perform the following operations</div>
+<ol class="decimal">
+<li id="li-125"><div class="para" id="p-463">Multiply <span class="process-math">\(x\)</span> by <span class="process-math">\(m\text{,}\)</span>
+</div></li>
+<li id="li-126"><div class="para" id="p-464">Add <span class="process-math">\(b\)</span> to <span class="process-math">\(mx\text{.}\)</span>
+</div></li>
+</ol>
+<div class="para">This allows us to decompose <span class="process-math">\(f\)</span> as the function "add <span class="process-math">\(b\)</span>" composed with the function "multiply by <span class="process-math">\(m\)</span>"</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f(x) = \operatorname{add}_b \circ \operatorname{mul}_m(x).
+\end{equation*}
+</div>
+<div class="para">Since both of these functions is invertible, we can invert <span class="process-math">\(f\)</span> by performing the inverse operations in reverse order, like peeling back the layers of an onion.</div>
+</div> <div class="para logical" id="p-465">
+<div class="para">Write <span class="process-math">\(y = mx + b\)</span> for the result of applying <span class="process-math">\(f\)</span> to <span class="process-math">\(x\text{.}\)</span> We would invert (or "undo") the operation of applying <span class="process-math">\(f\)</span> to <span class="process-math">\(x\)</span> by performing the operations</div>
+<ol class="decimal">
+<li id="li-127"><div class="para" id="p-466">Subtract <span class="process-math">\(b\)</span> from <span class="process-math">\(y\)</span>
+</div></li>
+<li id="li-128"><div class="para" id="p-467">Divide <span class="process-math">\(y - b\)</span> by <span class="process-math">\(m\)</span> (<em class="alert">Important:</em> This is why we required <span class="process-math">\(m \neq 0\text{!}\)</span>)</div></li>
+</ol>
+<div class="para">In the language of <a href="" class="xref" data-knowl="./knowl/xref/remark-inverse_of_arithmetics.html" title="Remark 4.3.9">Remark 4.3.9</a>, the inverse of <span class="process-math">\(f\)</span> is the composition</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/remark-inverse_of_arithmetics.html" id="md-54">
 \begin{align*}
-\left(f^{-1} \circ f\right)(x) \amp= f^{-1}\left(3x + 5\right)\\
-\amp= \frac{1}{3}\left(3x + 5\right) - \frac{5}{3}\\
-\amp= x + \frac{5}{3} - \frac{5}{3}\\
-\amp= x
+f^{-1}(y) \amp= \left(\operatorname{mul}_m\right)^{-1} \circ \left(\operatorname{add}_{b}\right)^{-1}(y)\\
+\amp=\operatorname{mul}_{m^{-1}} \circ \operatorname{add}_{-b}(y) \\
+\amp= \operatorname{mul}_{m^{-1}}(y - b)\\
+\amp=\frac{y - b}{m}\\
+\amp=\frac{1}{m}y - \frac{b}{m}.
 \end{align*}
 </div>
-<div class="para">and</div>
-<div class="displaymath process-math" id="md-52">
+</div> <div class="para" id="p-468">Finally, we can check these are in fact inverses of one another by checking the two compositions explicitly:</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="p-469"><div class="displaymath process-math" id="md-55">
 \begin{align*}
-\left(f \circ f^{-1}\right)(y) \amp= f\left(\frac{1}{3}y - \frac{5}{3}\right)\\
-\amp= 3\left(\frac{1}{3}y - \frac{5}{3}\right) + 5\\
-\amp= y - 5 + 5\\
-\amp= y.
+f \circ f^{-1}(y) \amp= f\left(\frac{1}{m}y - \frac{b}{m}\right)\\
+\amp= m\left(\frac{1}{m}y - \frac{b}{m}\right) + b\\
+\amp= \frac{m}{m} y - \frac{mb}{m} + b\\
+\amp= y - b + b\\
+\amp=y
+\end{align*}
+</div></div></div>
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="p-470"><div class="displaymath process-math" id="md-56">
+\begin{align*}
+f^{-1} \circ f(x) \amp = f^{-1}(mx + b)\\
+\amp= \frac{1}{m}(mx + b) - \frac{b}{m}\\
+\amp= \frac{m}{m} x + \frac{b}{m} - \frac{b}{m}\\
+\amp= x.
+\end{align*}
+</div></div></div>
+</div></div></article><div class="para" id="p-471">Our observations about compositions of invertible functions in <a href="" class="xref" data-knowl="./knowl/xref/example-inverse_of_composition.html" title="Example 4.3.10">Example 4.3.10</a> are true in general.</div>
+<article class="claim theorem-like" id="formula-inverse_of_composition"><h4 class="heading">
+<span class="type">Formula</span><span class="space"> </span><span class="codenumber">4.3.11</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="p-472">
+<div class="para">Assume <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> are invertible functions. If the composition is well-defined, then <span class="process-math">\(g \circ f\)</span> is invertible and</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\left(g \circ f\right)^{-1} = f^{-1} \circ g^{-1}.
+\end{equation*}
+</div>
+</div></article><div class="para" id="p-473">As a final example, we illustrate why it is necessary to pay close attention to the domain of a function.</div>
+<article class="example example-like" id="example-71"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.3.12</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-474">Consider the quadratic function <span class="process-math">\(f \colon \R \to [0,\infty)\)</span> defined by <span class="process-math">\(f(x) = x^2\text{.}\)</span> This function is <em class="alert">not invertible</em> .</div> <div class="para logical" id="p-475">
+<div class="para">To see why, we must observe that if an inverse function exists, then by <a href="" class="xref" data-knowl="./knowl/xref/def-composition_inverse.html" title="Definition 4.3.8: Composition Inverse">Definition 4.3.8</a>, it must have the form <span class="process-math">\(f^{-1} \colon [0,\infty) \to \R\)</span> and for every positive number <span class="process-math">\(y\text{,}\)</span> we must assign a single number <span class="process-math">\(x = f^{-1}(y)\)</span> such that</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def-composition_inverse.html">
+\begin{equation*}
+x^2 = f(x) = f \circ f^{-1}(y) = y.
+\end{equation*}
+</div>
+</div> <div class="para" id="p-476">However, there are always <em class="alert">two</em> such values: a positive number <span class="process-math">\(x\)</span> and its negative <span class="process-math">\(-x\text{.}\)</span> This means we must <em class="emphasis">choose</em> one of these two values to be <span class="process-math">\(f^{-1}(y)\text{.}\)</span> Unfortunately, both decisions fail to produce an inverse for <span class="process-math">\(f\text{.}\)</span>
+</div> <div class="para logical" id="p-477">
+<div class="para">If we decide that <span class="process-math">\(x = f^{-1}(y)\)</span> is the positive number such that <span class="process-math">\(x^2 = y\text{,}\)</span> then</div>
+<div class="displaymath process-math" id="md-57">
+\begin{align*}
+f^{-1} \circ f(-x) \amp= f^{-1}\left(\left(-x\right)^2\right)\\
+\amp= f^{-1}(x^2)\\
+\amp= f^{-1}(y)\\
+\amp= x \neq -x.
 \end{align*}
 </div>
-</div></article></section></section></div>
+</div> <div class="para logical" id="p-478">
+<div class="para">On the other hand, if we decide that <span class="process-math">\(-x = f^{-1}(y)\)</span> is the negative number such that <span class="process-math">\((-x)^2 = x^2 = y\text{,}\)</span> then</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f^{-1} \circ f(x) = f^{-1}(x^2) = -x \neq x.
+\end{equation*}
+</div>
+<div class="para">Fortunately, these two problems suggest simple solutions.</div>
+</div> <div class="para" id="p-479">In the first case, we simply exclude the negative numbers from the domain of <span class="process-math">\(f\text{.}\)</span> This operation is called <dfn class="terminology">restriction</dfn>  and produces a new function <span class="process-math">\(g \colon [0,\infty) \to [0,\infty)\)</span> defined by <span class="process-math">\(g(x) = x^2\text{.}\)</span> This function becomes invertible and its inverse is the <dfn class="terminology">principle square root function</dfn>  <span class="process-math">\(g^{-1} \colon [0,\infty) \to [0,\infty)\)</span> defined by <span class="process-math">\(g^{-1}(y) = \sqrt{y}\text{.}\)</span> For every non-negative number <span class="process-math">\(x\text{,}\)</span>
+</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="p-480"><div class="displaymath process-math" id="md-58">
+\begin{align*}
+g^{-1} \circ g(x) \amp= g^{-1}(x^2)\\
+\amp= \sqrt{x^2}\\
+\amp= \abs{x}\\
+\amp= x,
+\end{align*}
+</div></div></div>
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="p-481"><div class="displaymath process-math" id="md-59">
+\begin{align*}
+g \circ g^{-1}(x) \amp= g(\sqrt{x})\\
+\amp= \sqrt{x}^2\\
+\amp= x.
+\end{align*}
+</div></div></div>
+</div></div> <div class="para" id="p-482">In the second case, we restrict the domain of <span class="process-math">\(f\)</span> to the negative numbers. This produces a new function <span class="process-math">\(h \colon (-\infty,0] \to [0,\infty)\)</span> defined by <span class="process-math">\(h(x) = x^2\text{.}\)</span> The function <span class="process-math">\(h\)</span> is invertible and its inverse is the function <span class="process-math">\(h^{-1} \colon [0,\infty) \to  (-\infty,0]\)</span> defined by <span class="process-math">\(h^{-1}(y) = -\sqrt{y}\text{.}\)</span> For every non-negative real number <span class="process-math">\(x\text{,}\)</span>
+</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="p-483"><div class="displaymath process-math" id="md-60">
+\begin{align*}
+h^{-1} \circ h(-x) \amp = h^{-1}\left(\left(-x\right)^2\right)\\
+\amp= h^{-1}(x^2)\\
+\amp= -\sqrt{x^2}\\
+\amp= -\abs{x}\\
+\amp= -x
+\end{align*}
+</div></div></div>
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="p-484"><div class="displaymath process-math" id="md-61">
+\begin{align*}
+h \circ h^{-1}(x) \amp= h\left(-\sqrt{x}\right)\\
+\amp=\left(-\sqrt{x}\right)^2\\
+\amp=(-1)^2\sqrt{x}^2\\
+\amp=\sqrt{x}^2\\
+\amp=x.
+\end{align*}
+</div></div></div>
+</div></div></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-rational_functions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="meta_backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

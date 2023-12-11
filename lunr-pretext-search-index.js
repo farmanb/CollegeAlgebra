@@ -2365,7 +2365,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.3",
   "title": "Composition and Inverses",
-  "body": " Composition and Inverses   Another way to create new functions from existing functions is through composition.    Composition of Functions  Assume and be functions with . The composition   Function  Composition  of with is the function      Composition of with  defined by     Consider the functions defined by and defined by . The composition of with is the function defined by     It is important to make sure the range of the function is contained within the domain of the function . If not, the composition does not make sense.    The function defined by cannot be composed with the function defined by because is not a real number when !    The order of composition matters. Even if and are both well-defined and have the same domain, these two functions are not the same in general.    Consider the functions defined by and defined by . The composition of with is the function defined by     Composition Inverses   Identity Function Assume is a set. The identity function on is the function defined by   We call this function the identity function because it behaves similar to the multiplicative identity, . The number satisfies the property that for all real numbers , . For every function , the identity function on satisfies because and the identity function on satisfies because .  Every non-zero real number, , has an inverse with respect to the multiplication operation which we call . The inverse is defined by being the unique real number that satisfies For a function, we define an inverse with respect to the composition operation similarly.   Composition Inverse  Assume is a function. The composition inverse , if it exists, is a function that satisfies or, equivalently, for every  and for every , .    The linear function is an invertible function. We can find its inverse by solving the equation for in terms of  This tells us the inverse function is   We can verify that these two functions are inverses to one another by computing and     "
+  "body": " Composition and Inverses   When we study numbers in an elementary mathematics course, we focus primarily on operations that we can perform with numbers like addition and multiplication. While we have seen we can perform these same operations with functions, there is one operation that is particular to functions that we study here. It is important because it provides a way to create complicated functions from simpler functions.    Composition of Functions  Assume and are functions with . The composition   Function  Composition  of with is the function      Composition of with  defined by     Consider the functions defined by and defined by . The composition of with is the function defined by     It is important to make sure the range of the function is contained within the domain of the function . If not, the composition does not make sense.    The function defined by cannot be composed with the function defined by because is not a real number when !    The order of composition matters. Even if and are both well-defined and have the same domain, these two functions are not the same in general.    Consider the functions defined by and defined by . The composition of with is the function defined by     Identities  In keeping with the analogy with operations on numbers, recall the operations of addition and multiplication both have distinguished elements. The number is the additive identity   Identity  Additive  because every real number remains unchanged when is added to it Similarly, the number is the multiplicative identity   Identity  Multiplicative  because every real number remains unchanged when it is multiplied by  For function composition, there is an analogous identity element.   Identity Function Assume is a set. The identity function on is the function defined by   Unlike addition and multiplication, the order of function composition matters, as we have seen in . Complicating matters more, not all functions can be composed. For a function ,   the composition only makes sense when the domain of contains the codomain of , and    the composition only makes sense when the codomain of is contained in the domain of .   For this reason, there is not one single identity function that satisfies the condition and .  Instead, we need to consider the identity functions on the domain and codomain of . The identity function on satisfies because and the identity function on satisfies because .    Composition Inverses  The identity elements for these operations are important because they provide a method for \"undoing\" the operation. This is easiest to understand by considering addition and multiplication first. For any real number , the additive inverse   Inverse  Additive  is the real number that satisfies If we add the number to another number , then we obtain the number . We can \"undo\" this operation by performing the operation \"add the additive inverse of \" -- which we normally just call \"subtract \" -- in the sense that Similarly, we note that the operation \"add c\" will \"undo\" the operation \"subtract \" in the sense that   The operations \"add \" and \"subtract \" define functions and by We can view and in terms of composition:          The story is similar for multiplication. For any non-zero real number , the multiplicative inverse   Inverse  Multiplicative  of is the real number that satisfies Multiplication by and multiplication by define functions by Just as with addition, these two functions \"undo\" one another in the sense that          Less formally, one often says \"division by \" instead of \"multiplication by .\"  These are two canonical examples of functions that are invertible , and the ideas captured in inverting addition and multiplication motivate the more general definition.   Composition Inverse  Assume is a function. The composition inverse , if it exists, is a function that satisfies or, equivalently, for every , and for every , .    The definition of a composition inverse is symmetric in the sense that the inverse of is and the inverse of is . In symbols, this is   In the language of , the functions \"add \" and \"add \" (or \"subtract \") are a pair of inverse functions   Similarly, the functions \"multiply by \" and \"multiply by \" (or \"divide by \") are a pair of inverse functions     In general, a linear function is invertible if . To evaluate at the real number , we perform the following operations   Multiply by ,    Add to .   This allows us to decompose as the function \"add \" composed with the function \"multiply by \" Since both of these functions is invertible, we can invert by performing the inverse operations in reverse order, like peeling back the layers of an onion.  Write for the result of applying to . We would invert (or \"undo\") the operation of applying to by performing the operations   Subtract from     Divide by ( Important: This is why we required !)   In the language of , the inverse of is the composition   Finally, we can check these are in fact inverses of one another by checking the two compositions explicitly:                                         Our observations about compositions of invertible functions in are true in general.    Assume and are invertible functions. If the composition is well-defined, then is invertible and     As a final example, we illustrate why it is necessary to pay close attention to the domain of a function.   Consider the quadratic function defined by . This function is not invertible .  To see why, we must observe that if an inverse function exists, then by , it must have the form and for every positive number , we must assign a single number such that   However, there are always two such values: a positive number and its negative . This means we must choose one of these two values to be . Unfortunately, both decisions fail to produce an inverse for .  If we decide that is the positive number such that , then   On the other hand, if we decide that is the negative number such that , then Fortunately, these two problems suggest simple solutions.  In the first case, we simply exclude the negative numbers from the domain of . This operation is called restriction   Function  Restriction  and produces a new function defined by . This function becomes invertible and its inverse is the principle square root function   Function  Square Root   defined by . For every non-negative number ,          In the second case, we restrict the domain of to the negative numbers. This produces a new function defined by . The function is invertible and its inverse is the function defined by . For every non-negative real number ,            "
 },
 {
   "id": "definition-61",
@@ -2374,7 +2374,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "4.3.1",
   "title": "Composition of Functions.",
-  "body": " Composition of Functions  Assume and be functions with . The composition   Function  Composition  of with is the function      Composition of with  defined by   "
+  "body": " Composition of Functions  Assume and are functions with . The composition   Function  Composition  of with is the function      Composition of with  defined by   "
 },
 {
   "id": "example-67",
@@ -2413,13 +2413,22 @@ var ptx_lunr_docs = [
   "body": " The order of composition matters. Even if and are both well-defined and have the same domain, these two functions are not the same in general.  "
 },
 {
-  "id": "example-69",
+  "id": "example-composition_not_commutative",
   "level": "2",
-  "url": "section-18.html#example-69",
+  "url": "section-18.html#example-composition_not_commutative",
   "type": "Example",
   "number": "4.3.6",
   "title": "",
   "body": " Consider the functions defined by and defined by . The composition of with is the function defined by   "
+},
+{
+  "id": "p-444",
+  "level": "2",
+  "url": "section-18.html#p-444",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "additive identity multiplicative identity "
 },
 {
   "id": "definition-62",
@@ -2431,22 +2440,67 @@ var ptx_lunr_docs = [
   "body": " Identity Function Assume is a set. The identity function on is the function defined by  "
 },
 {
-  "id": "definition-63",
+  "id": "p-449",
   "level": "2",
-  "url": "section-18.html#definition-63",
+  "url": "section-18.html#p-449",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "additive inverse "
+},
+{
+  "id": "p-453",
+  "level": "2",
+  "url": "section-18.html#p-453",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "multiplicative inverse "
+},
+{
+  "id": "def-composition_inverse",
+  "level": "2",
+  "url": "section-18.html#def-composition_inverse",
   "type": "Definition",
   "number": "4.3.8",
   "title": "Composition Inverse.",
-  "body": " Composition Inverse  Assume is a function. The composition inverse , if it exists, is a function that satisfies or, equivalently, for every  and for every , .  "
+  "body": " Composition Inverse  Assume is a function. The composition inverse , if it exists, is a function that satisfies or, equivalently, for every , and for every , .  "
 },
 {
-  "id": "example-70",
+  "id": "remark-inverse_of_arithmetics",
   "level": "2",
-  "url": "section-18.html#example-70",
-  "type": "Example",
+  "url": "section-18.html#remark-inverse_of_arithmetics",
+  "type": "Remark",
   "number": "4.3.9",
   "title": "",
-  "body": " The linear function is an invertible function. We can find its inverse by solving the equation for in terms of  This tells us the inverse function is   We can verify that these two functions are inverses to one another by computing and   "
+  "body": " The definition of a composition inverse is symmetric in the sense that the inverse of is and the inverse of is . In symbols, this is   In the language of , the functions \"add \" and \"add \" (or \"subtract \") are a pair of inverse functions   Similarly, the functions \"multiply by \" and \"multiply by \" (or \"divide by \") are a pair of inverse functions   "
+},
+{
+  "id": "example-inverse_of_composition",
+  "level": "2",
+  "url": "section-18.html#example-inverse_of_composition",
+  "type": "Example",
+  "number": "4.3.10",
+  "title": "",
+  "body": " In general, a linear function is invertible if . To evaluate at the real number , we perform the following operations   Multiply by ,    Add to .   This allows us to decompose as the function \"add \" composed with the function \"multiply by \" Since both of these functions is invertible, we can invert by performing the inverse operations in reverse order, like peeling back the layers of an onion.  Write for the result of applying to . We would invert (or \"undo\") the operation of applying to by performing the operations   Subtract from     Divide by ( Important: This is why we required !)   In the language of , the inverse of is the composition   Finally, we can check these are in fact inverses of one another by checking the two compositions explicitly:          "
+},
+{
+  "id": "formula-inverse_of_composition",
+  "level": "2",
+  "url": "section-18.html#formula-inverse_of_composition",
+  "type": "Formula",
+  "number": "4.3.11",
+  "title": "",
+  "body": "  Assume and are invertible functions. If the composition is well-defined, then is invertible and    "
+},
+{
+  "id": "example-71",
+  "level": "2",
+  "url": "section-18.html#example-71",
+  "type": "Example",
+  "number": "4.3.12",
+  "title": "",
+  "body": " Consider the quadratic function defined by . This function is not invertible .  To see why, we must observe that if an inverse function exists, then by , it must have the form and for every positive number , we must assign a single number such that   However, there are always two such values: a positive number and its negative . This means we must choose one of these two values to be . Unfortunately, both decisions fail to produce an inverse for .  If we decide that is the positive number such that , then   On the other hand, if we decide that is the negative number such that , then Fortunately, these two problems suggest simple solutions.  In the first case, we simply exclude the negative numbers from the domain of . This operation is called restriction   Function  Restriction  and produces a new function defined by . This function becomes invertible and its inverse is the principle square root function   Function  Square Root   defined by . For every non-negative number ,          In the second case, we restrict the domain of to the negative numbers. This produces a new function defined by . The function is invertible and its inverse is the function defined by . For every non-negative real number ,          "
 },
 {
   "id": "appendix-1",
@@ -2458,9 +2512,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols   "
 },
 {
-  "id": "subsection-32",
+  "id": "subsection-33",
   "level": "1",
-  "url": "subsection-32.html",
+  "url": "subsection-33.html",
   "type": "Subsection",
   "number": "B.1",
   "title": "Polynomials",
@@ -2469,52 +2523,52 @@ var ptx_lunr_docs = [
 {
   "id": "fig-line",
   "level": "2",
-  "url": "subsection-32.html#fig-line",
+  "url": "subsection-33.html#fig-line",
   "type": "Figure",
-  "number": "B.1.10",
+  "number": "B.1.13",
   "title": "the graph of <span class=\"process-math\">\\(y = x\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-parabola",
   "level": "2",
-  "url": "subsection-32.html#fig-parabola",
+  "url": "subsection-33.html#fig-parabola",
   "type": "Figure",
-  "number": "B.1.11",
+  "number": "B.1.14",
   "title": "the graph of <span class=\"process-math\">\\(y = x^2\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-cubic",
   "level": "2",
-  "url": "subsection-32.html#fig-cubic",
+  "url": "subsection-33.html#fig-cubic",
   "type": "Figure",
-  "number": "B.1.12",
+  "number": "B.1.15",
   "title": "the graph of <span class=\"process-math\">\\(y = x^3\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-quartic",
   "level": "2",
-  "url": "subsection-32.html#fig-quartic",
+  "url": "subsection-33.html#fig-quartic",
   "type": "Figure",
-  "number": "B.1.13",
+  "number": "B.1.16",
   "title": "the graph of <span class=\"process-math\">\\(y = x^4\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-quintic",
   "level": "2",
-  "url": "subsection-32.html#fig-quintic",
+  "url": "subsection-33.html#fig-quintic",
   "type": "Figure",
-  "number": "B.1.14",
+  "number": "B.1.17",
   "title": "the graph of <span class=\"process-math\">\\(y = x^5\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
-  "id": "subsection-33",
+  "id": "subsection-34",
   "level": "1",
-  "url": "subsection-33.html",
+  "url": "subsection-34.html",
   "type": "Subsection",
   "number": "B.2",
   "title": "Roots",
@@ -2523,43 +2577,43 @@ var ptx_lunr_docs = [
 {
   "id": "fig-sq_root",
   "level": "2",
-  "url": "subsection-33.html#fig-sq_root",
+  "url": "subsection-34.html#fig-sq_root",
   "type": "Figure",
-  "number": "B.2.15",
+  "number": "B.2.18",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-cube_root",
   "level": "2",
-  "url": "subsection-33.html#fig-cube_root",
+  "url": "subsection-34.html#fig-cube_root",
   "type": "Figure",
-  "number": "B.2.16",
+  "number": "B.2.19",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt[3]{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-fourth_root",
   "level": "2",
-  "url": "subsection-33.html#fig-fourth_root",
+  "url": "subsection-34.html#fig-fourth_root",
   "type": "Figure",
-  "number": "B.2.17",
+  "number": "B.2.20",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt[4]{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-fifth_root",
   "level": "2",
-  "url": "subsection-33.html#fig-fifth_root",
+  "url": "subsection-34.html#fig-fifth_root",
   "type": "Figure",
-  "number": "B.2.18",
+  "number": "B.2.21",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt[5]{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
-  "id": "subsection-34",
+  "id": "subsection-35",
   "level": "1",
-  "url": "subsection-34.html",
+  "url": "subsection-35.html",
   "type": "Subsection",
   "number": "B.3",
   "title": "Rational Functions",
@@ -2568,52 +2622,52 @@ var ptx_lunr_docs = [
 {
   "id": "fig-1_x",
   "level": "2",
-  "url": "subsection-34.html#fig-1_x",
+  "url": "subsection-35.html#fig-1_x",
   "type": "Figure",
-  "number": "B.3.19",
+  "number": "B.3.22",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-1_x_2",
   "level": "2",
-  "url": "subsection-34.html#fig-1_x_2",
+  "url": "subsection-35.html#fig-1_x_2",
   "type": "Figure",
-  "number": "B.3.20",
+  "number": "B.3.23",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^2}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-1_x_3",
   "level": "2",
-  "url": "subsection-34.html#fig-1_x_3",
+  "url": "subsection-35.html#fig-1_x_3",
   "type": "Figure",
-  "number": "B.3.21",
+  "number": "B.3.24",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^3}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-1_x_4",
   "level": "2",
-  "url": "subsection-34.html#fig-1_x_4",
+  "url": "subsection-35.html#fig-1_x_4",
   "type": "Figure",
-  "number": "B.3.22",
+  "number": "B.3.25",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^4}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-1_x_5",
   "level": "2",
-  "url": "subsection-34.html#fig-1_x_5",
+  "url": "subsection-35.html#fig-1_x_5",
   "type": "Figure",
-  "number": "B.3.23",
+  "number": "B.3.26",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^5}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
-  "id": "subsection-35",
+  "id": "subsection-36",
   "level": "1",
-  "url": "subsection-35.html",
+  "url": "subsection-36.html",
   "type": "Subsection",
   "number": "B.4",
   "title": "Miscellaneous Functions",
@@ -2622,9 +2676,9 @@ var ptx_lunr_docs = [
 {
   "id": "fig-abs_val",
   "level": "2",
-  "url": "subsection-35.html#fig-abs_val",
+  "url": "subsection-36.html#fig-abs_val",
   "type": "Figure",
-  "number": "B.4.24",
+  "number": "B.4.27",
   "title": "the graph of <span class=\"process-math\">\\(y = \\abs{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
