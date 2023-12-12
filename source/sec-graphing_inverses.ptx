@@ -3,7 +3,8 @@
 <section xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Graphing Inverse Functions</title>
 
-  <introduction>
+  <subsection>
+    <title>A Little Symmetry</title>
     <p>
       Assume <m>A, B \subseteq \R</m> and <m>f \colon A \to B</m> is a function with inverse <m>f^{-1} \colon B \to A</m>.
       In order to visualize the inverse of a function, it is helpful to recall from <xref ref="def-graph_function"/> that the graph of <m>f</m> is the set of points
@@ -20,15 +21,321 @@
       <md>
 	<mrow>\left\{\left(y, f^{-1}(y)\right) \;\middle\vert\; y \in B\right\}
 	\amp= \left\{\left(f(x), f^{-1}\left(f(x)\right)\right) \;\middle\vert\; x \in A\right\}</mrow>
+	<mrow>\amp=\left\{\left(f(x), f^{-1} \circ f(x)\right) \;\middle\vert\; x \in A\right\}</mrow>
 	<mrow>\amp= \left\{\left(f(x), x\right) \;\middle\vert\; x \in A\right\}.</mrow>
       </md>
+      Note that we started by describing the points on the graph of <m>f^{-1}</m> in terms of <m>B</m> and ended by describing the points on the graph of <m>f^{-1}</m> in terms of <m>A</m>.
+      This description tells us that we can obtain the graph of <m>f^{-1}</m> from the graph of <m>f</m> by interchanging the <m>x</m>- and <m>y</m>-coordinates.
     </p>
-  </introduction>
-  <theorem>
-    <statement>
+    <p>
+      Using the <xref ref="def-2_midpoint" text="title"/>, we can exploit this relationship to describe symmetry between the graph of <m>f</m> and the graph of <m>f^{-1}</m> as follows.
+      Each <m>a \in A</m> corresponds to a point <m>(a,f(a))</m> on the graph of <m>f</m> and a point <m>(f(a),a)</m> on the graph of <m>f^{-1}</m>.
+      The midpoint of the line that connects these two points has coordinates
+      <me>x = \frac{a + f(a)}{2} \quad\text{and}\quad y = \frac{f(a) + a}{2}.</me>
+      Since the <m>x</m>- and <m>y</m>-coordinates are the same, the midpoint lies on the line <m>y = x</m>.
+      This says that if we were to plot <m>f</m>and <m>f^{-1}</m> together, the image would have symmetry about the line <m>y = x</m>.
+      This allows us to conclude the following.
+    </p>
+    <theorem xml:id="thm-graph_of_inverse">
+      <statement>
+	<p>
+	  The graph of <m>f^{-1}</m> is obtained by reflecting the graph of <m>f</m> across the line <m>y = x</m>.
+	</p>
+      </statement>
+    </theorem>
+  </subsection>
+
+  <subsection>
+    <title>The Horizontal Line Test</title>
+    <p>
+      The importance of <xref ref="thm-graph_of_inverse"/> is that it provides a geometric condition for testing whether a function is invertible.
+    </p>
+
+    <theorem xml:id="thm-invertible_iff_function">
+      <statement>
+	<p>
+	  Assume <m>A, B \subseteq \R</m>.
+	  A function <m>f \colon A \to B</m> is invertible if and only if the graph
+	  <me>\left\{(f(x), x) \;\middle\vert\; x \in A\right\}</me>
+	  represents a function.
+	</p>
+      </statement>
+    </theorem>
+    <p>
+      We can improve <xref ref="thm-invertible_iff_function"/> significantly with a few key observations.
+      Recall that we can test whether a graph represents a function using <xref ref="thm-vertical_line_test" text="title"/>.
+      The graph of the vertical line <m>x = a</m>, where <m>a</m> is a constant, is the set of points
+      <me>\left\{(a,t) \;\middle\vert\; t \in \R\right\}.</me>
+      Reflecting this graph across the line <m>y = x</m> interchanges the two coordinates, so we can express the resulting graph as the set
+      <me>\left\{(t,a) \;\middle\vert\; t \in \R\right\}.</me>
+      As the <m>y</m>-coordinate is fixed and the <m>x</m>-coordinate is allowed to vary, we can recognize this as the horizontal line <m>y = a</m>.
+      This provides a geometric condition for invertibility that depends only on the graph of the original function <m>f</m>.
+    </p>
+    <!-- Let us return to the example of the function <m>f \colon \R \to \R</m> defined by <m>f(x) = x^2</m>. -->
+    <!--   We have seen algebraically that this function does not have an inverse in <xref ref="example-parabola_not_invertible"/>. -->
+    <!--   The work we have done above allows us to understand this geometrically. -->
+    <!--   We can see from <xref ref="thm-vertical_line_test" text="title"/> that the reflection of the parabola across the line <m>y = x</m> is <em>not</em> the graph a function. -->
+    <!-- </p> -->
+    <!-- <figure> -->
+    <!--   <image> -->
+    <!-- 	<latex-image> -->
+    <!-- 	  \begin{tikzpicture} -->
+    <!-- 	  \draw[very thin,color=gray] (0,-4) grid (4,4); -->
+
+    <!-- 	  \draw[very thick,->] (0,0) -\- (4.2,0) node[right] {$x$}; -->
+    <!-- 	  \draw[very thick,->] (0,-4.2) -\- (0,4.2) node[above] {$y$}; -->
+
+    <!-- 	  \begin{scope} -->
+    <!-- 	  \clip(0,-4) rectangle (4,4); -->
+    <!-- 	  \draw [color=blue,thick] plot[smooth,samples=500,domain=-4:4] ({(\x)^2},\x); -->
+    <!-- 	  \end{scope} -->
+    <!-- 	  \draw [thick,dashed] (1,4) -\- (1,-4); -->
+
+    <!-- 	  \node at (1,1) {$\bullet$}; -->
+    <!-- 	  \node at (1,-1) {$\bullet$}; -->
+
+    <!-- 	  \node at (0,0) {$\bullet$}; -->
+    <!-- 	  \node [below] at (0,0) {$(0,0)$}; -->
+    <!-- 	  \end{tikzpicture} -->
+    <!-- 	</latex-image> -->
+    <!--   </image> -->
+    <!--   <caption>The two points of intersection between the reflection of the parabola and a vertical line</caption> -->
+    <!-- </figure> -->
+    <!-- <p> -->
+    <!--   The graph of a vertical line <m>x = a</m>, where <m>a</m> is a constant, is the set of points -->
+    <!--   <me>\left\{(a,t) \;\middle\vert\; t \in \R\right\}.</me> -->
+    <!--   Reflecting this graph across the line <m>y = x</m> interchanges the two coordinates, so we can express the resulting graph as the set -->
+    <!--   <me>\left\{(t,a) \;\middle\vert\; t \in \R\right\}.</me> -->
+    <!--   As the <m>y</m>-coordinate is fixed and the <m>x</m>-coordinate is allowed to vary, we can recognize this as the horizontal line <m>y = a</m>. -->
+    <!-- </p> -->
+    <!-- <p> -->
+    <!--   This allows us to reduce algebraic questions about the existence of an inverse to geometric questions about the graph of <m>f</m>. -->
+    <!-- </p> -->
+
+    <theorem xml:id="thm-horizontal_line_test">
+      <title>The Horizontal Line Test</title>
+      <statement>
+	<p>
+	  Assume <m>A, B \subseteq \R</m>.
+	  The function <m>f \colon A \to B</m> is invertible if and only if every horizontal line intersects the graph of <m>f</m> in <em>at most</em> one point.
+	</p>
+      </statement>
+    </theorem>
+    
+
+    <example>
       <p>
-	The graph of <m>f^{-1}</m> is obtained by reflecting the graph of <m>f</m> across the line <m>y = x</m>.
+	Consider the graph of the function <m>f \colon \R \to \R</m> defined by <m>f(x) = x^2</m>.
+	When we observed that for every positive number <m>y</m>, there are two <m>x</m>-values that square to <m>y</m>, we were observing that every horizontal line intersects the parabola in two places.
       </p>
-    </statement>
-  </theorem>
+      <figure>
+	<image>
+	  <latex-image>
+	    \begin{tikzpicture}
+	    \draw[very thin,color=gray] (-4,0) grid (4,4);
+
+	    \draw[very thick,->] (-4.2,0) -- (4.2,0) node[right] {$x$};
+	    \draw[very thick,->] (0,0) -- (0,4.2) node[above] {$y$};
+
+	    \begin{scope}
+	    \clip(-4,0) rectangle (4,4);
+	    \draw [color=blue,thick] plot[smooth,samples=500,domain=-4:4] (\x,{(\x)^2});
+	    \end{scope}
+	    \draw [thick,dashed] (4,1) -- (-4,1);
+	    \draw [thick,dashed] (1,0) -- (1,1);
+	    \draw[thick,dashed] (-1,0) -- (-1,1);
+
+	    \node at (1,1) {$\bullet$};
+	    \node at (-1,1) {$\bullet$};
+
+	    \node at (1,0) [below] {$x$};
+	    \node at (1,0) {$\bullet$};
+	    
+	    \node at (-1,0) {$\bullet$};
+	    \node at (-1,0) [below] {$-x$};
+	    
+	    \node at (0,0) {$\bullet$};
+	    \node [below] at (0,0) {$(0,0)$};
+	    \end{tikzpicture}
+	  </latex-image>
+	</image>
+	<caption>The two points of intersection between the parabola and a horizontal line</caption>
+      </figure>
+      <p>
+	When we restrict the domain to the set <m>[0,\infty)</m>, we fix this problem by removing the left half of the parabola.
+	This makes the function invertible with inverse the principal square root function.
+      </p>
+      <figure>
+	<sidebyside>
+	  <image>
+	    <latex-image>
+	      \begin{tikzpicture}
+	      \draw[very thin,color=gray] (-4,0) grid (4,4);
+
+	      \draw[very thick,->] (-4.2,0) -- (4.2,0) node[right] {$x$};
+	      \draw[very thick,->] (0,0) -- (0,4.2) node[above] {$y$};
+
+	      \begin{scope}
+	      \clip(0,0) rectangle (4,4);
+	      \draw [color=blue,thick] plot[smooth,samples=500,domain=0:4] (\x,{(\x)^2});
+	      \end{scope}
+	      
+	      \draw [thick,dashed] (4,1) -- (-4,1);
+	      \draw [thick,dashed] (1,0) -- (1,1);
+	      
+
+	      \node at (1,1) {$\bullet$};
+	      \node at (1,0) {$\bullet$};
+
+	      \node at (0,0) {$\bullet$};
+	      \node [below] at (0,0) {$(0,0)$};
+	      \end{tikzpicture}
+	    </latex-image>
+	  </image>
+	  <image>
+	    <latex-image>
+	      \begin{tikzpicture}
+	      \draw[very thin,color=gray] (-4,0) grid (4,4);
+
+	      \draw[very thick,->] (-4.2,0) -- (4.2,0) node[right] {$x$};
+	      \draw[very thick,->] (0,0) -- (0,4.2) node[above] {$y$};
+
+	      \begin{scope}
+	      \clip(0,0) rectangle (4,4);
+	      \draw [color=blue,thick] plot[smooth,samples=500,domain=0:4] ({(\x)^2},\x);
+	      \draw [thick,dashed] (1,4) -- (1,-4);
+	      \draw [thick,dashed] (0,1) -- (1,1);
+	      \end{scope}
+
+	      \node at (1,1) {$\bullet$};
+	      
+	      \node at (1,0) {$\bullet$};
+
+	      \node at (0,0) {$\bullet$};
+	      \node [below] at (0,0) {$(0,0)$};
+	      \end{tikzpicture}
+	    </latex-image>
+	  </image>
+	</sidebyside>
+	<caption>The restriction of <m>f(x) = x^2</m> to <m>[0,\infty)</m> (left) and the principal square root function (right)</caption>
+      </figure>
+      <p>
+	On the other hand, we could also remove the left-hand side of the parabola.
+	This creates another invertible function.
+	The inverse of this function is the reflection of the principal square root across the <m>x</m>-axis.
+      </p>
+      <figure>
+	<sidebyside>
+	  <image>
+	    <latex-image>
+	      \begin{tikzpicture}
+	      \draw[very thin,color=gray] (-4,-1) grid (4,4);
+
+	      \draw[very thick,->] (-4.2,0) -- (4.2,0) node[right] {$x$};
+	      \draw[very thick,->] (0,-1.2) -- (0,4.2) node[above] {$y$};
+
+	      \begin{scope}
+	      \clip(-4,-4) rectangle (0,4);
+	      \draw [color=blue,thick] plot[smooth,samples=500,domain=-4:0] (\x,{(\x)^2});
+	      \end{scope}
+	      
+	      \draw [thick,dashed] (4,1) -- (-4,1);
+	      \draw[thick,dashed] (-1,0) -- (-1,1);
+	      
+	      \node at (-1,1) {$\bullet$};
+	      
+	      \node at (-1,0) {$\bullet$};
+
+	      \node at (0,0) {$\bullet$};
+	      \node [below] at (0,0) {$(0,0)$};
+	      \end{tikzpicture}
+	    </latex-image>
+	  </image>
+	  <image>
+	    <latex-image>
+	      \begin{tikzpicture}
+	      \draw[very thin,color=gray] (-4,-4) grid (4,1);
+
+	      \draw[very thick,->] (-4.2,0) -- (4.2,0) node[right] {$x$};
+	      \draw[very thick,->] (0,-4) -- (0,1.2) node[above] {$y$};
+
+	      \begin{scope}
+	      \clip(-4,-4) rectangle (4,1);
+	      \draw [color=blue,thick] plot[smooth,samples=500,domain=-4:0] ({(\x)^2},\x);
+	      \draw [thick,dashed] (1,4) -- (1,-4);
+	      \draw [thick,dashed] (0,1) -- (1,1);
+	      \end{scope}
+
+	      \node at (1,1) {$\bullet$};
+	      
+	      \node at (1,0) {$\bullet$};
+
+	      \node at (0,0) {$\bullet$};
+	      \node [below] at (0,0) {$(0,0)$};
+	      \end{tikzpicture}
+	    </latex-image>
+	  </image>
+	</sidebyside>
+	<caption>The restriction of <m>f(x) = x^2</m> to <m>(-\infty,0]</m> (left) and its inverse (right)</caption>
+      </figure>
+      
+    </example>
+  </subsection>
+
+  <subsection>
+    <title>Root Functions</title>
+    <p>
+      A useful consequence of <xref ref="thm-horizontal_line_test" text="title"/> is that we may define functions with rational exponents.
+    </p>
+
+    <definition xml:id="def-odd_root_functions">
+      <title>Odd Root Function</title>
+      <p>
+	Assume <m>n</m> is an odd, positive integer and <m>f \colon \R \to \R</m> is the function defined by <m>f(x) = x^n</m>.
+	The <term><m>n^\text{th}</m> root function</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Root</h>
+	  <h>Odd</h>
+	</idx>
+	<m>\sqrt[n]{\phantom{x}} \colon \R \to \R</m> given by <m>\sqrt[n]{x} = x^{1/n}</m> is defined to be the inverse of <m>f</m>.
+      </p>
+    </definition>
+
+    <definition xml:id="def-even_root_functions">
+      <title>Even Root Function</title>
+      <p>
+	Assume <m>n</m> is an even, positive integer and <m>f \colon [0,\infty) \to \R</m> is the function defined by <m>f(x) = x^n</m>.
+	The <term><m>n^\text{th}</m> root function</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Root</h>
+	  <h>Even</h>
+	</idx>
+	<m>\sqrt[n]{\phantom{x}} \colon \R \to [0,\infty)</m> given by <m>\sqrt[n]{x} = x^{1/n}</m> is defined to be the inverse of <m>f</m>.
+      </p>
+    </definition>
+  </subsection>
+  
 </section>
+<!-- <figure> -->
+<!--   <image> -->
+<!--     <latex-image> -->
+<!--       \begin{tikzpicture} -->
+<!--       \draw[very thin,color=gray] (-4,-4) grid (4,4); -->
+
+<!--       \draw[very thick,->] (-4.2,0) -\- (4.2,0) node[right] {$x$}; -->
+<!--       \draw[very thick,->] (0,-4.2) -\- (0,4.2) node[above] {$y$}; -->
+
+<!--       \begin{scope} -->
+<!--       \clip(-4,-4) rectangle (4,4); -->
+<!--       \draw [color=blue,thick] plot[smooth,samples=500,domain=-4:4] ({(\x)^2},\x); -->
+<!--       \end{scope} -->
+
+<!--       \node at (0,0) {$\bullet$}; -->
+<!--       \node [below] at (0,0) {$(0,0)$}; -->
+<!--       \end{tikzpicture} -->
+<!--     </latex-image> -->
+<!--   </image> -->
+<!--   <caption>The graph of <m>y=x^2</m> reflected across the line <m>y=x</m></caption> -->
+<!-- </figure> -->
