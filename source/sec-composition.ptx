@@ -412,7 +412,7 @@
       As a final example, we illustrate why it is necessary to pay close attention to the domain of a function.
     </p>
 
-    <example>
+    <example xml:id="example-parabola_not_invertible">
       <p>
 	Consider the quadratic function <m>f \colon \R \to [0,\infty)</m> defined by <m>f(x) = x^2</m>.
 	This function is <alert>not invertible</alert> .
