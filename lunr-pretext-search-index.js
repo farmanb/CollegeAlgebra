@@ -2922,8 +2922,8 @@ var ptx_lunr_docs = [
   "url": "appendix-3.html",
   "type": "Appendix",
   "number": "C",
-  "title": "",
-  "body": "  Centers for Disease Control  What is Radiation? Properties of Radioactive Isotopes  https:\/\/www.cdc.gov\/nceh\/radiation\/isotopes.html#halflife  August 10, 2015  2023-12-13   "
+  "title": "References",
+  "body": " References   Centers for Disease Control  What is Radiation? Properties of Radioactive Isotopes  https:\/\/www.cdc.gov\/nceh\/radiation\/isotopes.html#halflife  August 10, 2015  2023-12-13   "
 },
 {
   "id": "index-1",
