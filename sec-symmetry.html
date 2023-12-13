@@ -268,6 +268,15 @@ window.MathJax = {
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-18.html#subsection-31" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Identities</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-18.html#subsection-32" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Composition Inverses</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-18.html#subsection-33" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Properties of Invertible Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-19.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Graphing Inverse Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-19.html#subsection-34" class="internal"><span class="codenumber">4.4.1</span> <span class="title">A Little Symmetry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-19.html#subsection-35" class="internal"><span class="codenumber">4.4.2</span> <span class="title">The Horizontal Line Test</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-19.html#subsection-36" class="internal"><span class="codenumber">4.4.3</span> <span class="title">Root Functions</span></a></div></li>
 </ul>
 </li>
 </ul>
@@ -279,10 +288,10 @@ window.MathJax = {
 <li class="toc-item toc-appendix">
 <div class="toc-title-box"><a href="appendix-2.html" class="internal"><span class="codenumber">B</span> <span class="title">Graphs of Basic Functions</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-33.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Polynomials</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-34.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Roots</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-35.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Rational Functions</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-36.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Miscellaneous Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-37.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Polynomials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-38.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Roots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-39.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Rational Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-40.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Miscellaneous Functions</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-index"><div class="toc-title-box"><a href="index-1.html" class="internal"><span class="title">Index</span></a></div></li>
@@ -303,7 +312,7 @@ window.MathJax = {
 <section class="introduction" id="introduction-26"><div class="para" id="p-175">The first type of symmetry we are interested in is symmetry about the <span class="process-math">\(y\)</span>-axis in the plane. We begin with the intuitive understanding of this symmetry, and formalize a concrete method for detecting it algebraically.</div></section><article class="definition definition-like" id="def-y_axis_symmetry"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.5.1</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-176">We say a function <span class="process-math">\(f\)</span> has <dfn class="terminology"><span class="process-math">\(y\)</span>-axis symmetry</dfn>  if the <span class="process-math">\(y\)</span>-axis divides the graph into two pieces that are mirror images of one another.</div></article><div class="para" id="p-177">For example, consider <a href="" class="xref" data-knowl="./knowl/xref/fig-parabola.html" title="Figure B.1.14: the graph of y = x^2">the graph of <span class="process-math">\(y = x^2\)</span></a>. The graph intersects the <span class="process-math">\(y\)</span>-axis at the point <span class="process-math">\((0,0)\text{.}\)</span> If we cut the parabola in half at this point, then we get two pieces. We distinguish the two halves by coloring the left-hand side red and the right-hand side blue.</div>
+<div class="para" id="p-176">We say a function <span class="process-math">\(f\)</span> has <dfn class="terminology"><span class="process-math">\(y\)</span>-axis symmetry</dfn>  if the <span class="process-math">\(y\)</span>-axis divides the graph into two pieces that are mirror images of one another.</div></article><div class="para" id="p-177">For example, consider <a href="" class="xref" data-knowl="./knowl/xref/fig-parabola.html" title="Figure B.1.11: the graph of y = x^2">the graph of <span class="process-math">\(y = x^2\)</span></a>. The graph intersects the <span class="process-math">\(y\)</span>-axis at the point <span class="process-math">\((0,0)\text{.}\)</span> If we cut the parabola in half at this point, then we get two pieces. We distinguish the two halves by coloring the left-hand side red and the right-hand side blue.</div>
 <figure class="figure figure-like" id="figure-34"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-45.svg" role="img" class="contained"></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.5.2<span class="period">.</span></span><span class="space"> </span>The graph of <span class="process-math">\(y = x^2\)</span> cut in half at <span class="process-math">\((0,0)\text{.}\)</span></figcaption></figure><div class="para" id="p-178">To say these are mirror images of one another, means if we reflect the graph across the <span class="process-math">\(y\)</span>-axis, then we obtain the same graph just with the colors switched.</div>
 <figure class="figure figure-like" id="figure-35"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-46.svg" role="img" class="contained"></div>
@@ -348,7 +357,7 @@ f(-x) \amp= (-x)^4 - 5(-x)^2 + 4\\
 <section class="introduction" id="introduction-27"><div class="para" id="p-187">The second type of symmetry we consider is slightly more subtle than <span class="process-math">\(y\)</span>-axis symmetry.</div></section><article class="definition definition-like" id="definition-39"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.5.8</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-188">We say a function <span class="process-math">\(f\)</span> is <dfn class="terminology">symmetric about the origin</dfn>  if the graph of <span class="process-math">\(f\)</span> is invariant under rotation by 180 degrees.</div></article><div class="para" id="p-189">To understand this type of symmetry, consider <a href="" class="xref" data-knowl="./knowl/xref/fig-cubic.html" title="Figure B.1.15: the graph of y = x^3">the graph of <span class="process-math">\(y = x^3\)</span></a> with the origin and another marked point.</div>
+<div class="para" id="p-188">We say a function <span class="process-math">\(f\)</span> is <dfn class="terminology">symmetric about the origin</dfn>  if the graph of <span class="process-math">\(f\)</span> is invariant under rotation by 180 degrees.</div></article><div class="para" id="p-189">To understand this type of symmetry, consider <a href="" class="xref" data-knowl="./knowl/xref/fig-cubic.html" title="Figure B.1.12: the graph of y = x^3">the graph of <span class="process-math">\(y = x^3\)</span></a> with the origin and another marked point.</div>
 <figure class="figure figure-like" id="figure-37"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-48.svg" role="img" class="contained"></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.5.9<span class="period">.</span></span><span class="space"> </span></figcaption></figure><div class="para" id="p-190">We can see what happens as we rotate the graph around the origin in the animation below. Note the rotation does not change the shape of the graph, so the distance from the marked point to the origin stays the same.</div>
 <figure class="figure figure-like" id="figure-38"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;">

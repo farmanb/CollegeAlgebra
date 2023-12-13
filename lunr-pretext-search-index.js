@@ -790,7 +790,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Functions",
-  "body": " Functions    Find the domain and codomain of a function.  Find the range of a function.  Determine whether an equation defines as a function of .     In this section, we study the basics of functions.    Function  A function ,  Function   ,     Function with domain and codomain  is a rule that assigns to each element a unique element .     Output of function    The set is the domain   Function  Domain  of , the set is the codomain   Function  Codomain  of . The range   Function  Range  of is the set of all output values    By convention, we will write to indicate that is a function of . We call the independent variable   Function  Independent Variable  and the dependent variable   Function  Dependent Variable  because every choice of from the domain of determines a value in the range that depends on that choice. In this case, we say is a function of .     Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , will also be a real number. To find the range, we want to describe the set   We can show this is by showing that for every real number , we can find a number such that . We simply solve this equation for in terms of  For example, if , then this formula tells us this corresponds to the input       Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , is a real number. To find the range, we want to describe the set   Given a real number , we want to determine whether the equation can be solved for .  When , there is exactly one solution: .  When , there are two solutions: and .  When , there are no solutions because the square root of a negative number is not a real number.  This tells us the range of our function is the interval .    Whenever we define a new mathematical object, it is important to understand when two objects are the same . For functions with the same domain and codomain, we measure equality based on the output.   Equality of Functions  Two functions and are equal   Function  Equality  if for every , .  We write      Equality of functions  to indicate that and represent the same function.    The functions defined by and are equal because    The functions and have the same domain and codomain, and    For every real number  and       The functions and defined by and are not equal because    Just like an equation in the variables and , we will often want to visualize the functions we define.   Graph of a Function  Assume . The graph of a function is the set of points    When the function we are considering is defined by an equation, the will coincide with the . While most of the functions we consider will be defined by an equation in the variables and , it is not the case that all equations in and define as a function of .   The Vertical Line Test   An equation in the variables and is defines as a function of if and only if every vertical line intersects the graph of the relation in at most one point.     Consider the function defined by the rule . We can verify this is a function in one of two ways. One way is to interpret the algebraically.  From the , the graph of the vertical line is the set and the graph of is the set of To say these graphs intersect is to say there is a point in the intersection of these two sets. The condition for membership on the graph of determines the value of such a point and the definition of the graph of determines the -coordinate: . This tells us the line intersects the graph of at the single point .  We can more readily see this graphically in .      The graph and .     The equation does not define as a function of .  Recall that for every positive number , there are always two square roots: and . This tells us the ordered pairs and both satisfy the equation For example, the ordered pairs and satisfy Since the definition a requires that each element of the domain corresponds to exactly one element of the codomain, we see this cannot be a function. That is, equation fails the .     The graph of the equation and the line .      Functions    Find the domain and codomain of a function.  Find the range of a function.  Determine whether an equation defines as a function of .      For each of the following functions, find the domain, codomain, and range.            Evaluate the function at the given value.   ; .  ; .  ; .     For each of the graphs, find the domain and range. Use the to determine whether is a function of .         "
+  "body": " Functions    Find the domain and codomain of a function.  Find the range of a function.  Determine whether an equation defines as a function of .     In this section, we study the basics of functions.    Function  A function ,  Function   ,     Function with domain and codomain  is a rule that assigns to each element a unique element .     Output of function    The set is the domain   Function  Domain  of , the set is the codomain   Function  Codomain  of . The range   Function  Range  of is the set of all output values    Range of     By convention, we will write to indicate that is a function of . We call the independent variable   Function  Independent Variable  and the dependent variable   Function  Dependent Variable  because every choice of from the domain of determines a value in the range that depends on that choice. In this case, we say is a function of .     Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , will also be a real number. To find the range, we want to describe the set   We can show this is by showing that for every real number , we can find a number such that . We simply solve this equation for in terms of  For example, if , then this formula tells us this corresponds to the input       Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , is a real number. To find the range, we want to describe the set   Given a real number , we want to determine whether the equation can be solved for .  When , there is exactly one solution: .  When , there are two solutions: and .  When , there are no solutions because the square root of a negative number is not a real number.  This tells us the range of our function is the interval .    Whenever we define a new mathematical object, it is important to understand when two objects are the same . For functions with the same domain and codomain, we measure equality based on the output.   Equality of Functions  Two functions and are equal   Function  Equality  if for every , .  We write      Equality of functions  to indicate that and represent the same function.    The functions defined by and are equal because    The functions and have the same domain and codomain, and    For every real number  and       The functions and defined by and are not equal because    Just like an equation in the variables and , we will often want to visualize the functions we define.   Graph of a Function  Assume . The graph of a function is the set of points    When the function we are considering is defined by an equation, the will coincide with the . While most of the functions we consider will be defined by an equation in the variables and , it is not the case that all equations in and define as a function of .   The Vertical Line Test   An equation in the variables and is defines as a function of if and only if every vertical line intersects the graph of the relation in at most one point.     Consider the function defined by the rule . We can verify this is a function in one of two ways. One way is to interpret the algebraically.  From the , the graph of the vertical line is the set and the graph of is the set of To say these graphs intersect is to say there is a point in the intersection of these two sets. The condition for membership on the graph of determines the value of such a point and the definition of the graph of determines the -coordinate: . This tells us the line intersects the graph of at the single point .  We can more readily see this graphically in .      The graph and .     The equation does not define as a function of .  Recall that for every positive number , there are always two square roots: and . This tells us the ordered pairs and both satisfy the equation For example, the ordered pairs and satisfy Since the definition a requires that each element of the domain corresponds to exactly one element of the codomain, we see this cannot be a function. That is, equation fails the .     The graph of the equation and the line .      Functions    Find the domain and codomain of a function.  Find the range of a function.  Determine whether an equation defines as a function of .      For each of the following functions, find the domain, codomain, and range.            Evaluate the function at the given value.   ; .  ; .  ; .     For each of the graphs, find the domain and range. Use the to determine whether is a function of .         "
 },
 {
   "id": "objectives-11",
@@ -808,7 +808,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "2.2.1",
   "title": "Function.",
-  "body": " Function  A function ,  Function   ,     Function with domain and codomain  is a rule that assigns to each element a unique element .     Output of function    The set is the domain   Function  Domain  of , the set is the codomain   Function  Codomain  of . The range   Function  Range  of is the set of all output values   "
+  "body": " Function  A function ,  Function   ,     Function with domain and codomain  is a rule that assigns to each element a unique element .     Output of function    The set is the domain   Function  Domain  of , the set is the codomain   Function  Codomain  of . The range   Function  Range  of is the set of all output values    Range of    "
 },
 {
   "id": "p-99",
@@ -2365,7 +2365,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.3",
   "title": "Composition and Inverses",
-  "body": " Composition and Inverses   When we study numbers in an elementary mathematics course, we focus primarily on operations that we can perform with numbers like addition and multiplication. While we have seen we can perform these same operations with functions, there is one operation that is particular to functions that we study here. It is important because it provides a way to create complicated functions from simpler functions.    Composition of Functions  Assume and are functions with . The composition   Function  Composition  of with is the function      Composition of with  defined by     Consider the functions defined by and defined by . The composition of with is the function defined by     It is important to make sure the range of the function is contained within the domain of the function . If not, the composition does not make sense.    The function defined by cannot be composed with the function defined by because is not a real number when !    The order of composition matters. Even if and are both well-defined and have the same domain, these two functions are not the same in general.    Consider the functions defined by and defined by . The composition of with is the function defined by     Identities  In keeping with the analogy with operations on numbers, recall the operations of addition and multiplication both have distinguished elements. The number is the additive identity   Identity  Additive  because every real number remains unchanged when is added to it Similarly, the number is the multiplicative identity   Identity  Multiplicative  because every real number remains unchanged when it is multiplied by  For function composition, there is an analogous identity element.   Identity Function Assume is a set. The identity function on is the function defined by   Unlike addition and multiplication, the order of function composition matters, as we have seen in . Complicating matters more, not all functions can be composed. For a function ,   the composition only makes sense when the domain of contains the codomain of , and    the composition only makes sense when the codomain of is contained in the domain of .   For this reason, there is not one single identity function that satisfies the condition and .  Instead, we need to consider the identity functions on the domain and codomain of . The identity function on satisfies because and the identity function on satisfies because .    Composition Inverses  The identity elements for these operations are important because they provide a method for \"undoing\" the operation. This is easiest to understand by considering addition and multiplication first. For any real number , the additive inverse   Inverse  Additive  is the real number that satisfies If we add the number to another number , then we obtain the number . We can \"undo\" this operation by performing the operation \"add the additive inverse of \" -- which we normally just call \"subtract \" -- in the sense that Similarly, we note that the operation \"add c\" will \"undo\" the operation \"subtract \" in the sense that   The operations \"add \" and \"subtract \" define functions and by We can view and in terms of composition:          The story is similar for multiplication. For any non-zero real number , the multiplicative inverse   Inverse  Multiplicative  of is the real number that satisfies Multiplication by and multiplication by define functions by Just as with addition, these two functions \"undo\" one another in the sense that          Less formally, one often says \"division by \" instead of \"multiplication by .\"  These are two canonical examples of functions that are invertible , and the ideas captured in inverting addition and multiplication motivate the more general definition.   Composition Inverse  Assume is a function. The composition inverse , if it exists, is a function that satisfies or, equivalently, for every , and for every , .    The definition of a composition inverse is symmetric in the sense that the inverse of is and the inverse of is . In symbols, this is   In the language of , the functions \"add \" and \"add \" (or \"subtract \") are a pair of inverse functions   Similarly, the functions \"multiply by \" and \"multiply by \" (or \"divide by \") are a pair of inverse functions     In general, a linear function is invertible if . To evaluate at the real number , we perform the following operations   Multiply by ,    Add to .   This allows us to decompose as the function \"add \" composed with the function \"multiply by \" Since both of these functions is invertible, we can invert by performing the inverse operations in reverse order, like peeling back the layers of an onion.  Write for the result of applying to . We would invert (or \"undo\") the operation of applying to by performing the operations   Subtract from     Divide by ( Important: This is why we required !)   In the language of , the inverse of is the composition   Finally, we can check these are in fact inverses of one another by checking the two compositions explicitly:                                         Our observations about compositions of invertible functions in are true in general.    Assume and are invertible functions. If the composition is well-defined, then is invertible and     As a final example, we illustrate why it is necessary to pay close attention to the domain of a function.   Consider the quadratic function defined by . This function is not invertible .  To see why, we must observe that if an inverse function exists, then by , it must have the form and for every positive number , we must assign a single number such that   However, there are always two such values: a positive number and its negative . This means we must choose one of these two values to be . Unfortunately, both decisions fail to produce an inverse for .  If we decide that is the positive number such that , then   On the other hand, if we decide that is the negative number such that , then Fortunately, these two problems suggest simple solutions.  In the first case, we simply exclude the negative numbers from the domain of . This operation is called restriction   Function  Restriction  and produces a new function defined by . This function becomes invertible and its inverse is the principle square root function   Function  Square Root   defined by . For every non-negative number ,          In the second case, we restrict the domain of to the negative numbers. This produces a new function defined by . The function is invertible and its inverse is the function defined by . For every non-negative real number ,            "
+  "body": " Composition and Inverses   When we study numbers in an elementary mathematics course, we focus primarily on operations that we can perform with numbers like addition and multiplication. While we have seen we can perform these same operations with functions, there is one operation that is particular to functions that we study here. It is important because it provides a way to create complicated functions from simpler functions.    Composition of Functions  Assume and are functions with . The composition   Function  Composition  of with is the function      Composition of with  defined by     Consider the functions defined by and defined by . The composition of with is the function defined by     It is important to make sure the range of the function is contained within the domain of the function . If not, the composition does not make sense.    The function defined by cannot be composed with the function defined by because is not a real number when !    The order of composition matters. Even if and are both well-defined and have the same domain, these two functions are not the same in general.    Consider the functions defined by and defined by . The composition of with is the function defined by     Identities  In keeping with the analogy with operations on numbers, recall the operations of addition and multiplication both have distinguished elements. The number is the additive identity   Identity  Additive  because every real number remains unchanged when is added to it Similarly, the number is the multiplicative identity   Identity  Multiplicative  because every real number remains unchanged when it is multiplied by  For function composition, there is an analogous identity element.   Identity Function Assume is a set. The identity function on is the function defined by   Unlike addition and multiplication, the order of function composition matters, as we have seen in . Complicating matters more, not all functions can be composed. For a function ,   the composition only makes sense when the domain of contains the codomain of , and    the composition only makes sense when the codomain of is contained in the domain of .   For this reason, there is not one single identity function that satisfies the condition and .  Instead, we need to consider the identity functions on the domain and codomain of . The identity function on satisfies because and the identity function on satisfies because .    Composition Inverses  The identity elements for these operations are important because they provide a method for \"undoing\" the operation. This is easiest to understand by considering addition and multiplication first. For any real number , the additive inverse   Inverse  Additive  is the real number that satisfies If we add the number to another number , then we obtain the number . We can \"undo\" this operation by performing the operation \"add the additive inverse of \" -- which we normally just call \"subtract \" -- in the sense that Similarly, we note that the operation \"add c\" will \"undo\" the operation \"subtract \" in the sense that   The operations \"add \" and \"subtract \" define functions and by We can view and in terms of composition:          The story is similar for multiplication. For any non-zero real number , the multiplicative inverse   Inverse  Multiplicative  of is the real number that satisfies Multiplication by and multiplication by define functions by Just as with addition, these two functions \"undo\" one another in the sense that          Less formally, one often says \"division by \" instead of \"multiplication by .\"  These are two canonical examples of functions that are invertible , and the ideas captured in inverting addition and multiplication motivate the more general definition.   Composition Inverse  Assume is a function. The composition inverse , if it exists, is a function that satisfies or, equivalently, for every , and for every , .  If has a composition inverse, then we say is invertible .  Function  Invertible      Mathematicians commonly use the word \"inverse\" or \"invertible\" without explicitly stating the operation. It is important to infer the meaning from the context. If the object being discussed is a function, then \"inverse\" means composition inverse, not multiplicative inverse. That is to say,   In order to avoid confusion, we will avoid using the notation and write either or whenever we refer to a fraction with the function in the denominator.     Properties of Invertible Functions  For a function with a composition inverse, the codomain of and the domain of agree. For every , the element satisfies by definition. This provides useful information about the range of an invertible function .    If is a function with a composition inverse, then the range of is     The definition of a composition inverse is symmetric in the sense that the inverse of is and the inverse of is .    If is a function with inverse , then has a composition inverse and      In the language of , the functions \"add \" and \"add \" (or \"subtract \") are a pair of inverse functions   Similarly, the functions \"multiply by \" and \"multiply by \" (or \"divide by \") are a pair of inverse functions     In general, a linear function is invertible if . To evaluate at the real number , we perform the following operations   Multiply by ,    Add to .   This allows us to decompose as the function \"add \" composed with the function \"multiply by \" Since each function is invertible, we can invert by performing the inverse operations in reverse order, like peeling back the layers of an onion.  Write for the result of applying to . We would invert (or \"undo\") the operation of applying to by performing the operations   Subtract from     Divide by ( Important: This is why we required !)   Note this is equivalent to solving the equation for in terms of   In the language of , the inverse of is the composition   Finally, we can check these are in fact inverses of one another by checking the two compositions explicitly:                                         Our observations about compositions of invertible functions in are true in general.    Assume and are invertible functions. If the composition is well-defined, then is invertible and     As a final example, we illustrate why it is necessary to pay close attention to the domain of a function.   Consider the quadratic function defined by . This function is not invertible .  To see why, we must observe that if an inverse function exists, then by , it must have the form and for every positive number , we must assign a single number such that   However, there are always two such values: a positive number and its negative . This means we must choose one of these two values to be . Unfortunately, both decisions fail to produce an inverse for .  If we decide that is the positive number such that , then   On the other hand, if we decide that is the negative number such that , then Fortunately, these two problems suggest simple solutions.  In the first case, we simply exclude the negative numbers from the domain of . This operation is called restriction   Function  Restriction  and produces a new function defined by . This function becomes invertible and its inverse is the principle square root function   Function  Square Root   defined by . For every non-negative number ,          In the second case, we restrict the domain of to the negative numbers. This produces a new function defined by . The function is invertible and its inverse is the function defined by . For every non-negative real number ,            "
 },
 {
   "id": "definition-61",
@@ -2464,43 +2464,133 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "4.3.8",
   "title": "Composition Inverse.",
-  "body": " Composition Inverse  Assume is a function. The composition inverse , if it exists, is a function that satisfies or, equivalently, for every , and for every , .  "
+  "body": " Composition Inverse  Assume is a function. The composition inverse , if it exists, is a function that satisfies or, equivalently, for every , and for every , .  If has a composition inverse, then we say is invertible .  Function  Invertible    "
 },
 {
-  "id": "remark-inverse_of_arithmetics",
+  "id": "warning-5",
   "level": "2",
-  "url": "section-18.html#remark-inverse_of_arithmetics",
-  "type": "Remark",
+  "url": "section-18.html#warning-5",
+  "type": "Warning",
   "number": "4.3.9",
   "title": "",
-  "body": " The definition of a composition inverse is symmetric in the sense that the inverse of is and the inverse of is . In symbols, this is   In the language of , the functions \"add \" and \"add \" (or \"subtract \") are a pair of inverse functions   Similarly, the functions \"multiply by \" and \"multiply by \" (or \"divide by \") are a pair of inverse functions   "
+  "body": " Mathematicians commonly use the word \"inverse\" or \"invertible\" without explicitly stating the operation. It is important to infer the meaning from the context. If the object being discussed is a function, then \"inverse\" means composition inverse, not multiplicative inverse. That is to say,   In order to avoid confusion, we will avoid using the notation and write either or whenever we refer to a fraction with the function in the denominator.  "
+},
+{
+  "id": "thm-invertible_is_surjective",
+  "level": "2",
+  "url": "section-18.html#thm-invertible_is_surjective",
+  "type": "Theorem",
+  "number": "4.3.10",
+  "title": "",
+  "body": "  If is a function with a composition inverse, then the range of is    "
+},
+{
+  "id": "theorem-19",
+  "level": "2",
+  "url": "section-18.html#theorem-19",
+  "type": "Theorem",
+  "number": "4.3.11",
+  "title": "",
+  "body": "  If is a function with inverse , then has a composition inverse and    "
+},
+{
+  "id": "example-inverse_of_arithmetics",
+  "level": "2",
+  "url": "section-18.html#example-inverse_of_arithmetics",
+  "type": "Example",
+  "number": "4.3.12",
+  "title": "",
+  "body": " In the language of , the functions \"add \" and \"add \" (or \"subtract \") are a pair of inverse functions   Similarly, the functions \"multiply by \" and \"multiply by \" (or \"divide by \") are a pair of inverse functions   "
 },
 {
   "id": "example-inverse_of_composition",
   "level": "2",
   "url": "section-18.html#example-inverse_of_composition",
   "type": "Example",
-  "number": "4.3.10",
+  "number": "4.3.13",
   "title": "",
-  "body": " In general, a linear function is invertible if . To evaluate at the real number , we perform the following operations   Multiply by ,    Add to .   This allows us to decompose as the function \"add \" composed with the function \"multiply by \" Since both of these functions is invertible, we can invert by performing the inverse operations in reverse order, like peeling back the layers of an onion.  Write for the result of applying to . We would invert (or \"undo\") the operation of applying to by performing the operations   Subtract from     Divide by ( Important: This is why we required !)   In the language of , the inverse of is the composition   Finally, we can check these are in fact inverses of one another by checking the two compositions explicitly:          "
+  "body": " In general, a linear function is invertible if . To evaluate at the real number , we perform the following operations   Multiply by ,    Add to .   This allows us to decompose as the function \"add \" composed with the function \"multiply by \" Since each function is invertible, we can invert by performing the inverse operations in reverse order, like peeling back the layers of an onion.  Write for the result of applying to . We would invert (or \"undo\") the operation of applying to by performing the operations   Subtract from     Divide by ( Important: This is why we required !)   Note this is equivalent to solving the equation for in terms of   In the language of , the inverse of is the composition   Finally, we can check these are in fact inverses of one another by checking the two compositions explicitly:          "
 },
 {
   "id": "formula-inverse_of_composition",
   "level": "2",
   "url": "section-18.html#formula-inverse_of_composition",
   "type": "Formula",
-  "number": "4.3.11",
+  "number": "4.3.14",
   "title": "",
   "body": "  Assume and are invertible functions. If the composition is well-defined, then is invertible and    "
 },
 {
-  "id": "example-71",
+  "id": "example-parabola_not_invertible",
   "level": "2",
-  "url": "section-18.html#example-71",
+  "url": "section-18.html#example-parabola_not_invertible",
   "type": "Example",
-  "number": "4.3.12",
+  "number": "4.3.15",
   "title": "",
   "body": " Consider the quadratic function defined by . This function is not invertible .  To see why, we must observe that if an inverse function exists, then by , it must have the form and for every positive number , we must assign a single number such that   However, there are always two such values: a positive number and its negative . This means we must choose one of these two values to be . Unfortunately, both decisions fail to produce an inverse for .  If we decide that is the positive number such that , then   On the other hand, if we decide that is the negative number such that , then Fortunately, these two problems suggest simple solutions.  In the first case, we simply exclude the negative numbers from the domain of . This operation is called restriction   Function  Restriction  and produces a new function defined by . This function becomes invertible and its inverse is the principle square root function   Function  Square Root   defined by . For every non-negative number ,          In the second case, we restrict the domain of to the negative numbers. This produces a new function defined by . The function is invertible and its inverse is the function defined by . For every non-negative real number ,          "
+},
+{
+  "id": "section-19",
+  "level": "1",
+  "url": "section-19.html",
+  "type": "Section",
+  "number": "4.4",
+  "title": "Graphing Inverse Functions",
+  "body": " Graphing Inverse Functions   A Little Symmetry  Assume and is a function with inverse . In order to visualize the inverse of a function, it is helpful to recall from that the graph of is the set of points in the Cartesian plane.  Since we have been conditioned by training to think about the input to a function being named and the output of a function being named , we opt to write instead of . This distinction is meaningless in practice, but prompts us to think about the input to as the output of .  We made these observations more precise in , which asserts that every can be written in the form for some  . This allows us to describe the graph of as the set of points Note that we started by describing the points on the graph of in terms of and ended by describing the points on the graph of in terms of . This description tells us that we can obtain the graph of from the graph of by interchanging the - and -coordinates.  Using the , we can exploit this relationship to describe symmetry between the graph of and the graph of as follows. Each corresponds to a point on the graph of and a point on the graph of . The midpoint of the line that connects these two points has coordinates Since the - and -coordinates are the same, the midpoint lies on the line . This says that if we were to plot and together, the image would have symmetry about the line . This allows us to conclude the following.    The graph of is obtained by reflecting the graph of across the line .      The Horizontal Line Test  The importance of is that it provides a geometric condition for testing whether a function is invertible.    Assume . A function is invertible if and only if the graph represents a function.    We can improve significantly with a few key observations. Recall that we can test whether a graph represents a function using . The graph of the vertical line , where is a constant, is the set of points Reflecting this graph across the line interchanges the two coordinates, so we can express the resulting graph as the set As the -coordinate is fixed and the -coordinate is allowed to vary, we can recognize this as the horizontal line . This provides a geometric condition for invertibility that depends only on the graph of the original function .                                       The Horizontal Line Test   Assume . The function is invertible if and only if every horizontal line intersects the graph of in at most one point.     Consider the graph of the function defined by . When we observed that for every positive number , there are two -values that square to , we were observing that every horizontal line intersects the parabola in two places.      The two points of intersection between the parabola and a horizontal line   When we restrict the domain to the set , we fix this problem by removing the left half of the parabola. This makes the function invertible with inverse the principal square root function.           The restriction of to (left) and the principal square root function (right)   On the other hand, we could also remove the left-hand side of the parabola. This creates another invertible function. The inverse of this function is the reflection of the principal square root across the -axis.           The restriction of to (left) and its inverse (right)      Root Functions  A useful consequence of is that we may define functions with rational exponents.   Odd Root Function  Assume is an odd, positive integer and is the function defined by . The root function   Function  Root  Odd   given by is defined to be the inverse of .    Even Root Function  Assume is an even, positive integer and is the function defined by . The root function   Function  Root  Even   given by is defined to be the inverse of .    "
+},
+{
+  "id": "thm-graph_of_inverse",
+  "level": "2",
+  "url": "section-19.html#thm-graph_of_inverse",
+  "type": "Theorem",
+  "number": "4.4.1",
+  "title": "",
+  "body": "  The graph of is obtained by reflecting the graph of across the line .   "
+},
+{
+  "id": "thm-invertible_iff_function",
+  "level": "2",
+  "url": "section-19.html#thm-invertible_iff_function",
+  "type": "Theorem",
+  "number": "4.4.2",
+  "title": "",
+  "body": "  Assume . A function is invertible if and only if the graph represents a function.   "
+},
+{
+  "id": "thm-horizontal_line_test",
+  "level": "2",
+  "url": "section-19.html#thm-horizontal_line_test",
+  "type": "Theorem",
+  "number": "4.4.3",
+  "title": "The Horizontal Line Test.",
+  "body": " The Horizontal Line Test   Assume . The function is invertible if and only if every horizontal line intersects the graph of in at most one point.   "
+},
+{
+  "id": "example-73",
+  "level": "2",
+  "url": "section-19.html#example-73",
+  "type": "Example",
+  "number": "4.4.4",
+  "title": "",
+  "body": " Consider the graph of the function defined by . When we observed that for every positive number , there are two -values that square to , we were observing that every horizontal line intersects the parabola in two places.      The two points of intersection between the parabola and a horizontal line   When we restrict the domain to the set , we fix this problem by removing the left half of the parabola. This makes the function invertible with inverse the principal square root function.           The restriction of to (left) and the principal square root function (right)   On the other hand, we could also remove the left-hand side of the parabola. This creates another invertible function. The inverse of this function is the reflection of the principal square root across the -axis.           The restriction of to (left) and its inverse (right)   "
+},
+{
+  "id": "def-odd_root_functions",
+  "level": "2",
+  "url": "section-19.html#def-odd_root_functions",
+  "type": "Definition",
+  "number": "4.4.8",
+  "title": "Odd Root Function.",
+  "body": " Odd Root Function  Assume is an odd, positive integer and is the function defined by . The root function   Function  Root  Odd   given by is defined to be the inverse of .  "
+},
+{
+  "id": "def-even_root_functions",
+  "level": "2",
+  "url": "section-19.html#def-even_root_functions",
+  "type": "Definition",
+  "number": "4.4.9",
+  "title": "Even Root Function.",
+  "body": " Even Root Function  Assume is an even, positive integer and is the function defined by . The root function   Function  Root  Even   given by is defined to be the inverse of .  "
 },
 {
   "id": "appendix-1",
@@ -2512,9 +2602,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols   "
 },
 {
-  "id": "subsection-33",
+  "id": "subsection-37",
   "level": "1",
-  "url": "subsection-33.html",
+  "url": "subsection-37.html",
   "type": "Subsection",
   "number": "B.1",
   "title": "Polynomials",
@@ -2523,52 +2613,52 @@ var ptx_lunr_docs = [
 {
   "id": "fig-line",
   "level": "2",
-  "url": "subsection-33.html#fig-line",
+  "url": "subsection-37.html#fig-line",
   "type": "Figure",
-  "number": "B.1.13",
+  "number": "B.1.10",
   "title": "the graph of <span class=\"process-math\">\\(y = x\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-parabola",
   "level": "2",
-  "url": "subsection-33.html#fig-parabola",
+  "url": "subsection-37.html#fig-parabola",
   "type": "Figure",
-  "number": "B.1.14",
+  "number": "B.1.11",
   "title": "the graph of <span class=\"process-math\">\\(y = x^2\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-cubic",
   "level": "2",
-  "url": "subsection-33.html#fig-cubic",
+  "url": "subsection-37.html#fig-cubic",
   "type": "Figure",
-  "number": "B.1.15",
+  "number": "B.1.12",
   "title": "the graph of <span class=\"process-math\">\\(y = x^3\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-quartic",
   "level": "2",
-  "url": "subsection-33.html#fig-quartic",
+  "url": "subsection-37.html#fig-quartic",
   "type": "Figure",
-  "number": "B.1.16",
+  "number": "B.1.13",
   "title": "the graph of <span class=\"process-math\">\\(y = x^4\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-quintic",
   "level": "2",
-  "url": "subsection-33.html#fig-quintic",
+  "url": "subsection-37.html#fig-quintic",
   "type": "Figure",
-  "number": "B.1.17",
+  "number": "B.1.14",
   "title": "the graph of <span class=\"process-math\">\\(y = x^5\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
-  "id": "subsection-34",
+  "id": "subsection-38",
   "level": "1",
-  "url": "subsection-34.html",
+  "url": "subsection-38.html",
   "type": "Subsection",
   "number": "B.2",
   "title": "Roots",
@@ -2577,43 +2667,43 @@ var ptx_lunr_docs = [
 {
   "id": "fig-sq_root",
   "level": "2",
-  "url": "subsection-34.html#fig-sq_root",
+  "url": "subsection-38.html#fig-sq_root",
   "type": "Figure",
-  "number": "B.2.18",
+  "number": "B.2.15",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-cube_root",
   "level": "2",
-  "url": "subsection-34.html#fig-cube_root",
+  "url": "subsection-38.html#fig-cube_root",
   "type": "Figure",
-  "number": "B.2.19",
+  "number": "B.2.16",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt[3]{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-fourth_root",
   "level": "2",
-  "url": "subsection-34.html#fig-fourth_root",
+  "url": "subsection-38.html#fig-fourth_root",
   "type": "Figure",
-  "number": "B.2.20",
+  "number": "B.2.17",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt[4]{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-fifth_root",
   "level": "2",
-  "url": "subsection-34.html#fig-fifth_root",
+  "url": "subsection-38.html#fig-fifth_root",
   "type": "Figure",
-  "number": "B.2.21",
+  "number": "B.2.18",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt[5]{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
-  "id": "subsection-35",
+  "id": "subsection-39",
   "level": "1",
-  "url": "subsection-35.html",
+  "url": "subsection-39.html",
   "type": "Subsection",
   "number": "B.3",
   "title": "Rational Functions",
@@ -2622,52 +2712,52 @@ var ptx_lunr_docs = [
 {
   "id": "fig-1_x",
   "level": "2",
-  "url": "subsection-35.html#fig-1_x",
+  "url": "subsection-39.html#fig-1_x",
   "type": "Figure",
-  "number": "B.3.22",
+  "number": "B.3.19",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-1_x_2",
   "level": "2",
-  "url": "subsection-35.html#fig-1_x_2",
+  "url": "subsection-39.html#fig-1_x_2",
   "type": "Figure",
-  "number": "B.3.23",
+  "number": "B.3.20",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^2}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-1_x_3",
   "level": "2",
-  "url": "subsection-35.html#fig-1_x_3",
+  "url": "subsection-39.html#fig-1_x_3",
   "type": "Figure",
-  "number": "B.3.24",
+  "number": "B.3.21",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^3}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-1_x_4",
   "level": "2",
-  "url": "subsection-35.html#fig-1_x_4",
+  "url": "subsection-39.html#fig-1_x_4",
   "type": "Figure",
-  "number": "B.3.25",
+  "number": "B.3.22",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^4}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-1_x_5",
   "level": "2",
-  "url": "subsection-35.html#fig-1_x_5",
+  "url": "subsection-39.html#fig-1_x_5",
   "type": "Figure",
-  "number": "B.3.26",
+  "number": "B.3.23",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^5}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
-  "id": "subsection-36",
+  "id": "subsection-40",
   "level": "1",
-  "url": "subsection-36.html",
+  "url": "subsection-40.html",
   "type": "Subsection",
   "number": "B.4",
   "title": "Miscellaneous Functions",
@@ -2676,9 +2766,9 @@ var ptx_lunr_docs = [
 {
   "id": "fig-abs_val",
   "level": "2",
-  "url": "subsection-36.html#fig-abs_val",
+  "url": "subsection-40.html#fig-abs_val",
   "type": "Figure",
-  "number": "B.4.27",
+  "number": "B.4.24",
   "title": "the graph of <span class=\"process-math\">\\(y = \\abs{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
