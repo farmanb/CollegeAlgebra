@@ -189,10 +189,13 @@
 	<caption>The graph of <m>y = \abs{x}</m>.</caption>
       </figure>
 
-      
     </subsection>
   </appendix>
 
+  <appendix>
+    <xi:include href="./meta_references.ptx"/>
+  </appendix>
+  
   <index>
     <title>Index</title>
     <index-list/>
