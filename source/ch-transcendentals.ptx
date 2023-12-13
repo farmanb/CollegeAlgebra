@@ -2,6 +2,6 @@
 
 <chapter xml:id="ch-transcendentals" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Transcendental Functions</title>
-  
+
   <xi:include href="sec-exponentials.ptx" />
 </chapter>
