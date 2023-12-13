@@ -14,7 +14,12 @@
     <title>The Average Rate of Change</title>
     <p>
       Assume <m>f</m> is a function and the domain of <m>f</m> contains the interval <m>[a,b]</m>.
-      The <term>average rate of change</term> of <m>f</m> on the interval <m>[a,b]</m> is
+      The <term>average rate of change</term>
+      <idx>
+	<h>Function</h>
+	<h>Average Rate of Change</h>
+      </idx>
+      of <m>f</m> on the interval <m>[a,b]</m> is
       <me>\frac{f(b) - f(a)}{b-a}.</me>
     </p>
   </definition>
