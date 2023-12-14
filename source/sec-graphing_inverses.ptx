@@ -220,7 +220,7 @@
 	<caption>The restriction of <m>f(x) = x^2</m> to <m>[0,\infty)</m> (left) and the principal square root function (right)</caption>
       </figure>
       <p>
-	On the other hand, we could also remove the left-hand side of the parabola.
+	On the other hand, we could also remove the right-hand side of the parabola.
 	This creates another invertible function.
 	The inverse of this function is the reflection of the principal square root across the <m>x</m>-axis.
       </p>
