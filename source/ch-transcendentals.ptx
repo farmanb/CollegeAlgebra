@@ -4,4 +4,5 @@
   <title>Transcendental Functions</title>
 
   <xi:include href="sec-exponentials.ptx" />
+  <xi:include href="sec-logarithms.ptx" />
 </chapter>
