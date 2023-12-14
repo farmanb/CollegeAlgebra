@@ -342,7 +342,7 @@
 	  \draw[very thin,color=gray] (-5,0) grid (5,5);
 
 	  \draw[very thick,->] (-5.2,0) -- (5.2,0) node[right] {$x$};
-	  \draw[very thick,->] (0,-.2) -- (0,4.2) node[above] {$y$};
+	  \draw[very thick,->] (0,-.2) -- (0,5.2) node[above] {$y$};
 	  
 	  \begin{scope}[domain=-5:3]
 	  \clip (-5,0) rectangle (5,5);
@@ -381,7 +381,7 @@
       <me>g(-x) = \left(\frac{3}{2}\right)^{-x} = \left(\left(\frac{3}{2}\right)^{-1}\right)^x = \left(\frac{2}{3}\right)^x = f(x).</me>
     </p>
 
-        <figure>
+    <figure>
       <image>
 	<latex-image>
 	  \begin{tikzpicture}[pics/legend entry/.style={code={%   
@@ -390,7 +390,7 @@
 	  \draw[very thin,color=gray] (-5,0) grid (5,5);
 
 	  \draw[very thick,->] (-5.2,0) -- (5.2,0) node[right] {$x$};
-	  \draw[very thick,->] (0,-.2) -- (0,4.2) node[above] {$y$};
+	  \draw[very thick,->] (0,-.2) -- (0,5.2) node[above] {$y$};
 	  
 	  \begin{scope}[domain=-3:5]
 	  \clip (-5,0) rectangle (5,5);
