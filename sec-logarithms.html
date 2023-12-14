@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>The Logarithm</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="College Algebra">
+<meta property="book:author" content="Blake Farman">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.32/pretext_search.js"></script><link href="https://pretextbook.org/css/0.82/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.32</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.32/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.32/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.32/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="https://pretextbook.org/css/0.82/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.82/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">College Algebra</span></a></h1>
+<p class="byline">Blake Farman</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="index-1.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-exponentials.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-transcendentals.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="meta_backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \newcommand{\C}{\mathbb C} \newcommand{\abs}[1]{\left|#1\right|} \newcommand{\id}{\operatorname{id}} \newcommand{\Exp}[1]{\exp_{#1}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-cartesian_plane.html" class="internal"><span class="codenumber">1</span> <span class="title">The Cartesian Plane</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-cartesian_coordinates.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Cartesian Coordinates</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-cartesian_coordinates.html#sec-cartesian_coordinates-points_in_the_plane" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Points in the Plane</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-cartesian_coordinates.html#worksheet-1" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Plotting Points in the Plane</span></a></div></li></ul>
+</li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-cartesian_coordinates-graphing_equations.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Graphing Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-cartesian_coordinates-graphing_equations.html#subsection-2" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Solutions to an Equation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-cartesian_coordinates-graphing_equations.html#subsection-3" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Horizontal Lines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-cartesian_coordinates-graphing_equations.html#subsection-4" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Vertical Lines</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-cartesian_coordinates-graphing_equations.html#worksheet-2" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Plotting Points on a Graph</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-cartesian_coordinates-distance.html" class="internal"><span class="codenumber">1.3</span> <span class="title">The Distance Formula</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-cartesian_coordinates-distance.html#worksheet-3" class="internal"><span class="codenumber">1.3</span> <span class="title">Using the Distance Formula</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-cartesian_coordinates-midpoint.html" class="internal"><span class="codenumber">1.4</span> <span class="title">The Midpoint Formula</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-cartesian_coordinates-midpoint.html#worksheet-4" class="internal"><span class="codenumber">1.4</span> <span class="title">Using the Midpoint Formula</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-circles.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Circles</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circles.html#worksheet-5" class="internal"><span class="codenumber">1.5</span> <span class="title">Working with Circles</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-functions.html" class="internal"><span class="codenumber">2</span> <span class="title">Functions and Graphs</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-sets.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Sets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sets.html#subsec-special_sets" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Special Sets</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-sets.html#subsubsection-1" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Intervals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sets.html#subsection-6" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Subsets and Equality</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sets.html#subsection-7" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Basic Set Operations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-relations.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-relations.html#worksheet-6" class="internal"><span class="codenumber">2.2</span> <span class="title">Functions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-avg_roc.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Average Rate of Change</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-avg_roc.html#worksheet-7" class="internal"><span class="codenumber">2.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-transformations.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Graph Transformations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-transformations.html#subsection-8" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Translation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-transformations.html#subsubsection-2" class="internal"><span class="codenumber">2.4.1.1</span> <span class="title">Vertical Translation</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-transformations.html#subsubsection-3" class="internal"><span class="codenumber">2.4.1.2</span> <span class="title">Horizontal Translation</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-transformations.html#subsection-9" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Scaling</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-transformations.html#subsubsection-4" class="internal"><span class="codenumber">2.4.2.1</span> <span class="title">Vertical Scaling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-transformations.html#subsection-10" class="internal"><span class="codenumber">2.4.2.1</span> <span class="title">Reflection</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-transformations.html#subsubsection-5" class="internal"><span class="codenumber">2.4.2.2</span> <span class="title">Horizontal Scaling</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-transformations.html#subsubsection-6" class="internal"><span class="codenumber">2.4.2.3</span> <span class="title">Combining Graph Transformations</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-symmetry.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Symmetry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-symmetry.html#subsec-y_axis_symmetry" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Symmetry about the <span class="process-math">\(y\)</span>-axis</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-symmetry.html#subsection-12" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Origin Symmetry</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-linear_functions.html" class="internal"><span class="codenumber">3</span> <span class="title">Polynomial and Rational Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polynomial_functions.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Polynomial Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial_functions.html#subsection-13" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Roots of Polynomials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial_functions.html#subsection-14" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Polynomial Division</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-polynomial_functions.html#worksheet-8" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Worksheet</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-linear_functions.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Linear Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-linear_functions.html#subsection-15" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Linear Functions as Degree One Polynomials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-linear_functions.html#subsection-16" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Graphing Linear Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-linear_functions.html#worksheet-9" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Working with Linear Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-lines.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Representations of Lines</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-lines.html#subsection-17" class="internal"><span class="codenumber">3.3.1</span> <span class="title">The Slope of a Line through two Points</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-lines.html#subsection-18" class="internal"><span class="codenumber">3.3.2</span> <span class="title">The Point-Slope Form of a Line</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-lines.html#subsection-19" class="internal"><span class="codenumber">3.3.3</span> <span class="title">The Standard Equation of a Line</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-lines.html#worksheet-10" class="internal"><span class="codenumber">3.3.4</span> <span class="title">Representation of Lines</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-perp_parallel.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Parallel and Perpendicular Lines</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-perp_parallel.html#worksheet-11" class="internal"><span class="codenumber">3.4</span> <span class="title">Parallel and Perpendicular Lines</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-quadratic_functions.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Quadratic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-quadratic_functions.html#subsection-20" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Vertex Form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-quadratic_functions.html#subsec-completing_the_square" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Completing the Square</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-quadratic_functions.html#subsection-22" class="internal"><span class="codenumber">3.5.3</span> <span class="title">The Quadratic Formula</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-quadratic_functions.html#subsection-23" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Graphing Qudaratics</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-quadratic_functions.html#worksheet-12" class="internal"><span class="codenumber">3.5.5</span> <span class="title">Working with Quadratic Functions</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-properties_functions.html" class="internal"><span class="codenumber">4</span> <span class="title">Function Properties</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-16.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Algebraic Combinations of Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-16.html#subsection-24" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Sums and Differences of Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-16.html#subsection-25" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Products of Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-16.html#subsection-26" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Ratios of Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-rational_functions.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Rational Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rational_functions.html#subsection-27" class="internal"><span class="codenumber">4.2.1</span> <span class="title">The Domain of a Rational Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rational_functions.html#subsection-28" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Simplifying Rational Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rational_functions.html#subsection-29" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Sums and Differences of Rational Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rational_functions.html#subsection-30" class="internal"><span class="codenumber">4.2.4</span> <span class="title">Products and Ratios of Rational Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-18.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Composition and Inverses</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-18.html#subsection-31" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Identities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-18.html#subsection-32" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Composition Inverses</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-18.html#subsection-33" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Properties of Invertible Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="section-19.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Graphing Inverse Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-19.html#subsection-34" class="internal"><span class="codenumber">4.4.1</span> <span class="title">A Little Symmetry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-19.html#subsection-35" class="internal"><span class="codenumber">4.4.2</span> <span class="title">The Horizontal Line Test</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="section-19.html#subsection-36" class="internal"><span class="codenumber">4.4.3</span> <span class="title">Root Functions</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-transcendentals.html" class="internal"><span class="codenumber">5</span> <span class="title">Transcendental Functions</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-exponentials.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Exponential Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exponentials.html#subsection-37" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Modeling with Exponential Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exponentials.html#subsection-38" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Properties of Exponential Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exponentials.html#subsection-39" class="internal"><span class="codenumber">5.1.3</span> <span class="title">The Natural Exponential</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="sec-logarithms.html" class="internal"><span class="codenumber">5.2</span> <span class="title">The Logarithm</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logarithms.html#subsection-40" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Properties of the Logarithm</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logarithms.html#subsection-41" class="internal"><span class="codenumber">5.2.2</span> <span class="title">The Change of Base Formulas</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logarithms.html#subsection-42" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Graphs of Logarithms</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="meta_backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-1.html" class="internal"><span class="codenumber">A</span> <span class="title">List of Symbols</span></a></div></li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="appendix-2.html" class="internal"><span class="codenumber">B</span> <span class="title">Graphs of Basic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-43.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Polynomials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-44.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Roots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-45.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Rational Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="subsection-46.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Miscellaneous Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-3.html" class="internal"><span class="codenumber">C</span> <span class="title">References</span></a></div></li>
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="index-1.html" class="internal"><span class="title">Index</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="colophon-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-logarithms"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">5.2</span><span class="space"> </span><span class="title">The Logarithm</span>
+</h2>
+<section class="introduction" id="introduction-46"><div class="para" id="p-545">Assume <span class="process-math">\(a \neq 1\)</span> is a positive real number. The graph of <span class="process-math">\(\Exp{a} \colon \R \to (0,\infty)\)</span> satisfies <a href="" class="xref" data-knowl="./knowl/xref/thm-horizontal_line_test.html" title="Theorem 4.4.3: The Horizontal Line Test">The Horizontal Line Test</a>.</div> <figure class="figure figure-like" id="figure-51"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><img src="generated/latex-image/image-75.svg" role="img" class="contained"></div>
+<div class="sbspanel top" style="width:50%;"><img src="generated/latex-image/image-76.svg" role="img" class="contained"></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.2.1<span class="period">.</span></span><span class="space"> </span>The horizontal line test for <span class="process-math">\(\Exp{a} \colon \R \to (0,\infty)\)</span> with <span class="process-math">\(1 \lt a\)</span> (left) and <span class="process-math">\(a \lt 1\)</span> (right).</figcaption></figure> <div class="para logical" id="p-546">
+<div class="para">We can verify this algebraically as follows. Suppose the points <span class="process-math">\(\left(x_1, a^{x_1}\right)\)</span> and <span class="process-math">\(\left(x_2, a^{x_2}\right)\)</span> both lie on the same horizontal line. Since they lie on a horizontal line, they must have the same <span class="process-math">\(y\)</span>-coordinates and so</div>
+<div class="displaymath process-math" id="md-65">
+\begin{align*}
+a^{x_1} \amp = a^{x_2} \amp\amp \text{Divide both sides by}\ a^{x_2}\\
+\frac{a^{x_1}}{a^{x_2}} \amp = 1 \amp\amp\text{Combine exponents}\\
+a^{x_1 - x_2} \amp= 1
+\end{align*}
+</div>
+<div class="para">implies that <span class="process-math">\(x_1 - x_2 = 0\)</span> and so <span class="process-math">\(x_1 = x_2\text{.}\)</span> That is to say, the two points are the <em class="emphasis">same</em> point and so any horizontal line intersects the graph in at most one point. This tells us the exponential function is invertible.</div>
+</div></section><article class="definition definition-like" id="def-log_base_a"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.2.2</span><span class="period">.</span><span class="space"> </span><span class="title">The Logarithm with Base <span class="process-math">\(a\)</span>.</span>
+</h3> <div class="para" id="p-547">Assume <span class="process-math">\(a \neq 1\)</span> is a positive real number. The <dfn class="terminology">logarithm with base <span class="process-math">\(a\)</span></dfn>,  <span class="process-math">\(\log_a \colon (0,\infty) \to \R\text{,}\)</span>  is the <a href="" class="xref" data-knowl="./knowl/xref/def-composition_inverse.html" title="Definition 4.3.8: Composition Inverse">Composition Inverse</a> of <span class="process-math">\(\operatorname{Exp}{a} \colon \R \to (0, \infty)\text{.}\)</span>
+</div> <div class="para logical" id="p-548">
+<div class="para">In particular, for every real number <span class="process-math">\(x\)</span> and every positive real number <span class="process-math">\(y\text{,}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\log_a \circ \Exp{a}(x) = \log_a(a^x) = x
+\quad\text{and}\quad
+\Exp{a} \circ \log_a(y) = a^{\log_a(y)} = y.
+\end{equation*}
+</div>
+</div></article><article class="definition definition-like" id="definition-72"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.2.3</span><span class="period">.</span><span class="space"> </span><span class="title">The Natural Logarithm.</span>
+</h3> <div class="para" id="p-549">The <dfn class="terminology">natural logarithm</dfn>,  <span class="process-math">\(\ln \colon (0, \infty) \to \R\text{,}\)</span>  is the logarithm with base <span class="process-math">\(e\text{.}\)</span>
+</div></article><section class="subsection" id="subsection-40"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">5.2.1</span><span class="space"> </span><span class="title">Properties of the Logarithm</span>
+</h3>
+<div class="para" id="p-550">Assume <span class="process-math">\(a \neq 1\)</span> is a positive real number. The properties of the logarithm are all consequences of the <a href="" class="xref" data-knowl="./knowl/xref/thm-properties_exp.html" title="Theorem 5.1.7: Properties of Exponential Functions">Properties of Exponential Functions</a> and <a href="" class="xref" data-knowl="./knowl/xref/thm-invertible_is_surjective.html" title="Theorem 4.3.10">Theorem 4.3.10</a>.</div>
+<div class="para logical" id="p-551">
+<div class="para">The first property of the logarithm is that <span class="process-math">\(\log_a(1) = 0\text{.}\)</span> Since <span class="process-math">\(\Exp{a}(0) = a^0 = 1\text{,}\)</span> we can write</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\log_a(1) = \log_a(a^0) = 0.
+\end{equation*}
+</div>
+<div class="para">Just as the graph of every exponential function passes through the point <span class="process-math">\((0,1)\text{,}\)</span> the graph of every logarithm passes through the point <span class="process-math">\((1,0)\text{.}\)</span>
+</div>
+</div>
+<div class="para logical" id="p-552">
+<div class="para">For the remaining properties, recall that the exponential function turns addition into multiplication and subtraction into division:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\Exp{a}(x + x^\prime) = \Exp{a}(x)\Exp{a}(x^\prime)
+\quad\text{and}\quad
+\Exp{a}(x - x^\prime) = \frac{\Exp{a}(x)}{\Exp{a}\left(x^\prime\right)}.
+\end{equation*}
+</div>
+<div class="para">As the composition inverse of <span class="process-math">\(\Exp{a}\text{,}\)</span> <span class="process-math">\(\log_a\)</span> inverse this relationship by turning multiplication into addition and division into subtraction.</div>
+</div>
+<div class="para logical" id="p-553">
+<div class="para">To see this, assume <span class="process-math">\(y\)</span> and <span class="process-math">\(y^\prime\)</span> are positive real numbers. Let <span class="process-math">\(x = \log_a(y)\)</span> and <span class="process-math">\(x^\prime = \log_a\left(y^\prime\right)\text{.}\)</span> Observe that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\Exp{a}(x) = \Exp{a} \circ \log_a(y) = y
+\quad\text{and}\quad
+\Exp{a}\left(x^\prime\right) = \Exp{a} \circ \log_a\left(y^\prime\right) = y^\prime.
+\end{equation*}
+</div>
+<div class="para">because <span class="process-math">\(\Exp{a}\)</span> and <span class="process-math">\(\log_a\)</span> are composition inverses. This allows us to transform the logarithm of their product into the sum of their logarithms</div>
+<div class="displaymath process-math" id="md-66">
+\begin{align*}
+\log_a(yy^\prime) \amp= \log_a\left(\Exp{a}\left(x\right)\Exp{a}\left(x^\prime\right)\right)\\
+\amp= \log_a \circ \Exp{a}(x + x^\prime)\\
+\amp= x + x^\prime\\
+\amp= \log_a\left(y\right) + \log_a\left(y^\prime\right)
+\end{align*}
+</div>
+<div class="para">and the logarithm of their ratio into the difference of their logarithms</div>
+<div class="displaymath process-math" id="md-67">
+\begin{align*}
+\log_a\left(\frac{y}{y^\prime}\right) \amp= \log_a\left(\frac{\Exp{a}(x)}{\Exp{a}\left(x^\prime\right)}\right)\\
+\amp=\log_a \circ \Exp{a}\left(x - x^\prime\right)\\
+\amp= x - x^\prime\\
+\amp= \log_a(y) - \log_a\left(y^\prime\right).
+\end{align*}
+</div>
+</div>
+<div class="para logical" id="p-554">
+<div class="para">The final property is a consequence of these two. While it does not provide anything new, it is frequently useful. If <span class="process-math">\(y\)</span> is any positive real number and <span class="process-math">\(r\)</span> is any real number, then we think of <span class="process-math">\(y^r\)</span> as the product of <span class="process-math">\(r\)</span> copies of the number <span class="process-math">\(y\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y^r = \underbrace{y \cdot y \cdot y \cdots y}_r.
+\end{equation*}
+</div>
+<div class="para">If we transform the log of the product into the sum of the logs <span class="process-math">\(r\)</span> times, then we obtain the expression</div>
+<div class="displaymath process-math" id="md-68">
+\begin{align*}
+\log_a(y^r) \amp= \log_a(y) + \log_a(y^{r-1})\\
+\amp= \log_a(y) + \log_a(y) + \log_a(y^{r-2})\\
+\amp= \cdots\\
+\amp= \underbrace{\log_a(y) + \log_a(y) + \cdots + \log_a(y)}_r\\
+\amp= r\log_a(y).
+\end{align*}
+</div>
+</div>
+<article class="theorem theorem-like" id="thm-properties_log"><h4 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.2.4</span><span class="period">.</span><span class="space"> </span><span class="title">Properties of the Logarithm.</span>
+</h4>
+<span class="process-math">\(a \neq 1\)</span><ol class="decimal">
+<li id="li-134"><div class="para" id="p-555"><span class="process-math">\(\displaystyle \log_a(1) = 0.\)</span></div></li>
+<li id="li-135"><div class="para logical" id="p-556">
+<div class="para">For all positive real numbers <span class="process-math">\(y\)</span> and <span class="process-math">\(y^\prime\text{,}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\log_a(yy^\prime) = \log_a(y) + \log_a(y^\prime).
+\end{equation*}
+</div>
+</div></li>
+<li id="li-136"><div class="para logical" id="p-557">
+<div class="para">For all positive real numbers <span class="process-math">\(y\)</span> and <span class="process-math">\(y^\prime\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\log_a\left(\frac{y}{y^\prime}\right) = \log_a(y) - \log_a(y^\prime).
+\end{equation*}
+</div>
+</div></li>
+<li id="li-137"><div class="para logical" id="p-558">
+<div class="para">For all positive real numbers <span class="process-math">\(y\)</span> and all real numbers <span class="process-math">\(r\text{,}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\log_a(y^r) = r\log_a(y).
+\end{equation*}
+</div>
+</div></li>
+</ol></article></section><section class="subsection" id="subsection-41"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">5.2.2</span><span class="space"> </span><span class="title">The Change of Base Formulas</span>
+</h3>
+<div class="para logical" id="p-559">
+<div class="para">While inverse functions have many nice properties, it is often difficult to perform computations with them. For example, we can compute</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\log_2(64) = \log_2(2^6) \log_2 \circ \Exp{2}(6) = 6
+\end{equation*}
+</div>
+<div class="para">using the properties of inverse functions. Unfortunately, none of the properties we have discussed help us to compute <span class="process-math">\(\log_2(5)\text{.}\)</span> At best, we can observe that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2^2 = 4 \lt 5 \lt 9 = 2^3
+\end{equation*}
+</div>
+<div class="para">tells us <span class="process-math">\(2 \lt \log_2(5) \lt 3\text{.}\)</span> If we need a better approximation to the value of <span class="process-math">\(\log_2(5)\text{,}\)</span> then we will need the assistance of a computer.</div>
+</div>
+<div class="para logical" id="p-560">
+<div class="para">On a modern computational tool like <a class="external" href="https://desmos.com/" target="_blank">Desmos</a><a class="xref" id="fn-5" href="" data-knowl="./knowl/fn/fn-5.html" title="Footnote 5.2.1"><sup> 1 </sup></a>, the underscore symbol <code class="code-inline tex2jax_ignore">_</code> can be used to enter the command <code class="code-inline tex2jax_ignore">log_2(5)</code> and the result is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\log_2(5) \approx 2.32192809489.
+\end{equation*}
+</div>
+<div class="para">However, on most scientific and graphing calculators, there are only buttons labelled <code class="code-inline tex2jax_ignore">log</code> and <code class="code-inline tex2jax_ignore">ln</code> for the logarithms with base <span class="process-math">\(10\)</span> and base <span class="process-math">\(e\text{,}\)</span> respectively.</div>
+</div>
+<div class="para logical" id="p-561">
+<div class="para">Fortunately, we can use the properties of the logarithm to rewrite a logarithm with base <span class="process-math">\(a\)</span> as a logarithm with a different base, <span class="process-math">\(b\text{.}\)</span> Assume <span class="process-math">\(y\)</span> is a positive real number. Let <span class="process-math">\(x = \log_a(y)\)</span> so that <span class="process-math">\(y = a^x\text{.}\)</span> First, rewrite</div>
+<div class="displaymath process-math">
+\begin{equation*}
+a = \exp_b \circ \log_b(a) = b^{\log_b(a)}
+\end{equation*}
+</div>
+<div class="para">so we have</div>
+<div class="displaymath process-math" id="md-69">
+\begin{align*}
+\amp y = a^x = \left(b^{\log_b(a)}\right)^x = b^{x\log_b(a)} \amp\amp \text{Apply}\ \log_b\ \text{to both sides}\\
+\amp \log_b(y) = x\log_b(a) \amp\amp \text{Rewrite}\ x = \log_a(y)\\
+\amp \log_b(y) = \log_a(y)\log_b(a) \amp\amp\text{Divide both sides by}\ \log_b(a)\\
+\amp \log_a(y) = \frac{\log_b(y)}{\log_b(a)}.
+\end{align*}
+</div>
+<div class="para">This gives us a way to convert the logarithm with base <span class="process-math">\(a\)</span> to a logarithm with base <span class="process-math">\(b\text{.}\)</span>
+</div>
+</div>
+<article class="claim theorem-like" id="formula-base_change"><h4 class="heading">
+<span class="type">Formula</span><span class="space"> </span><span class="codenumber">5.2.5</span><span class="period">.</span><span class="space"> </span><span class="title">Base Change for Logarithms.</span>
+</h4>
+<div class="para logical" id="p-562">
+<div class="para">Assume <span class="process-math">\(a \neq 1\)</span> and <span class="process-math">\(b \neq 1\)</span> are positive real numbers. For all positive real numbers <span class="process-math">\(y\text{,}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\log_a(y) = \frac{\log_b(y)}{\log_b(a)}.
+\end{equation*}
+</div>
+</div></article><article class="example example-like" id="example-78"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">5.2.6</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="p-563">
+<div class="para">To compute <span class="process-math">\(\log_2(5)\)</span> on a calculator, compute</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\log_2(5) = \frac{\log(5)}{\log(2)} \approx 2.32192809489
+\end{equation*}
+</div>
+<div class="para">or</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\log_2(5) = \frac{\ln(5)}{\ln(2)} \approx 2.32192809489
+\end{equation*}
+</div>
+</div></article><div class="para logical" id="p-564">
+<div class="para">In some sense, this justifies calling <span class="process-math">\(\exp(x) = e^x\)</span> <em class="emphasis">the</em> exponential function. For any positive number <span class="process-math">\(a \neq 1\text{,}\)</span> we can write</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\Exp{a}(x) = a^x = \left(e^{\ln(a)}\right)^x = e^{\ln(a)x} = \exp(\ln(a)x)
+\end{equation*}
+</div>
+<div class="para">which allows us to regard the function <span class="process-math">\(\Exp{a}\)</span> as a horizontal scaling of the function <span class="process-math">\(\exp\)</span> by <span class="process-math">\(\ln(a)\text{.}\)</span> Similarly, we can write</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\log_a(y) = \frac{\ln(y)}{\ln(a)}
+\end{equation*}
+</div>
+<div class="para">so the function <span class="process-math">\(\log_a\)</span> is a vertical scaling of the function <span class="process-math">\(\ln\text{.}\)</span>
+</div>
+</div></section><section class="subsection" id="subsection-42"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">5.2.3</span><span class="space"> </span><span class="title">Graphs of Logarithms</span>
+</h3>
+<div class="para" id="p-565">Since <span class="process-math">\(\log_a \colon (0, \infty) \to \R\)</span> is the composition of <span class="process-math">\(\Exp{a} \colon \R \to (0, \infty)\text{,}\)</span> the graph of <span class="process-math">\(y = \log_a(x)\)</span> is the reflection of the graph of <span class="process-math">\(y = \Exp{a}(x)\)</span> across the line <span class="process-math">\(y = x\text{.}\)</span> Just as for exponentials, the logarithms have the same basic shape depending on whether <span class="process-math">\(1 \lt a\)</span> or <span class="process-math">\(a \lt 1\text{.}\)</span> We have plotted the reflections across the <span class="process-math">\(y\)</span>-axis of the exponential growth functions in <a href="" class="xref" data-knowl="./knowl/xref/fig-exponential_growth.html" title="Figure 5.1.10">Figure 5.1.10</a> below.</div>
+<figure class="figure figure-like" id="fig-refl_exponential_growth"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-77.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.2.7<span class="period">.</span></span><span class="space"> </span>The graphs of the logarithms with base <span class="process-math">\(2\text{,}\)</span> <span class="process-math">\(3\text{,}\)</span> <span class="process-math">\(4\text{,}\)</span> <span class="process-math">\(5\text{,}\)</span> <span class="process-math">\(6\text{,}\)</span> <span class="process-math">\(7\text{,}\)</span> and <span class="process-math">\(8\)</span></figcaption></figure><div class="para logical" id="p-566">
+<div class="para">For any positive real number <span class="process-math">\(a \neq 1\text{,}\)</span> we can relate the graph of <span class="process-math">\(y = \log_a(x)\)</span> to the graph of <span class="process-math">\(y = \log_{1/a}(x)\)</span> using the <a href="" class="xref" data-knowl="./knowl/xref/formula-base_change.html" title="Formula 5.2.5: Base Change for Logarithms">Base Change for Logarithms</a>. Write <span class="process-math">\(1/a = a^{-1}\)</span> so that for all positive numbers <span class="process-math">\(x\text{,}\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/formula-base_change.html">
+\begin{equation*}
+\log_{a^{-1}}(x) = \frac{\log_a(x)}{\log_a(a^{-1})} = \frac{\log_a(x)}{-1} = -\log_a(x).
+\end{equation*}
+</div>
+<div class="para">This tells us the graph of <span class="process-math">\(y = \log_a(x)\)</span> is the reflection of <span class="process-math">\(y = \log_{a^{-1}}(x)\)</span> across the <span class="process-math">\(x\)</span>-axis.</div>
+</div>
+<article class="example example-like" id="example-79"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">5.2.8</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="p-567">
+<div class="para">Consider the logarithm with base <span class="process-math">\(1/2\text{.}\)</span> For all positive real numbers <span class="process-math">\(y\text{,}\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/formula-base_change.html">
+\begin{equation*}
+\log_{\frac{1}{2}}(y) = \frac{\log_2(y)}{\log_2\left(\frac{1}{2}\right)} = \frac{\log_2(y)}{-1} = -\log_2(y)
+\end{equation*}
+</div>
+<div class="para">by the <a href="" class="xref" data-knowl="./knowl/xref/formula-base_change.html" title="Formula 5.2.5: Base Change for Logarithms">Base Change for Logarithms</a>. This tells us that we can graph <span class="process-math">\(\log_{\frac{1}{2}}(y)\)</span> by reflecting the graph of <span class="process-math">\(\log_2(y)\)</span> across the <span class="process-math">\(x\)</span>-axis.</div>
+</div></article><div class="para" id="p-568">We have plotted the reflections across the <span class="process-math">\(x\)</span>-axis of the logarithms in <a href="" class="xref" data-knowl="./knowl/xref/fig-refl_exponential_growth.html" title="Figure 5.2.7">Figure 5.2.7</a> below.</div>
+<figure class="figure figure-like" id="figure-53"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-78.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.2.9<span class="period">.</span></span><span class="space"> </span>The graphs of the logarithms with base <span class="process-math">\(1/2\text{,}\)</span> <span class="process-math">\(1/3\text{,}\)</span> <span class="process-math">\(1/4\text{,}\)</span> <span class="process-math">\(1/5\text{,}\)</span> <span class="process-math">\(1/6\text{,}\)</span> <span class="process-math">\(1/7\text{,}\)</span> and <span class="process-math">\(1/8\)</span></figcaption></figure></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec-exponentials.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="meta_backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
