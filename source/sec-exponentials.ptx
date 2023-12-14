@@ -242,14 +242,14 @@
 	    </li>
 	    <li>
 	      <p>
-		For all real numbers <m>x</m> and <m>y</m>,
-		<me>\Exp{a}(x + y) = a^{x+y} = a^xa^y = \Exp{a}(x)\Exp{a}(y).</me>
+		For all real numbers <m>x</m> and <m>x^\prime</m>,
+		<me>\Exp{a}(x + x^\prime) = a^{x+x^\prime} = a^xa^x^\prime = \Exp{a}(x)\Exp{a}(x^\prime).</me>
 	      </p>
 	    </li>
 	    <li>
 	      <p>
-		For all real numbers <m>x</m> and <m>y</m>,
-		<me>\Exp{a}(x - y) = \Exp{a}^{x-y} = \frac{a^x}{a^y} = \frac{\Exp{a}(x)}{\Exp{a}(y)}.</me>
+		For all real numbers <m>x</m> and <m>x^\prime</m>,
+		<me>\Exp{a}(x - x^\prime) = \Exp{a}^{x-x^\prime} = \frac{a^x}{a^x^\prime} = \frac{\Exp{a}(x)}{\Exp{a}(x^\prime)}.</me>
 	      </p>
 	    </li>
 	  </ol>
