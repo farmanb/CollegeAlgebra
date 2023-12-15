@@ -11,7 +11,7 @@
       <sidebyside>
 	<image>
 	  <latex-image>
-	    \begin{tikzpicture}[pics/legend entry/.style={code={%   
+	    \begin{tikzpicture}[pics/legend entry/.style={code={%
             \draw[pic actions]
 	    (-0.5,0.25) -- (0.5,0.25);}}]
 	    \draw[very thin,color=gray] (-5,0) grid (5,5);
@@ -32,7 +32,7 @@
 	</image>
 	<image>
 	  <latex-image>
-	    \begin{tikzpicture}[pics/legend entry/.style={code={%   
+	    \begin{tikzpicture}[pics/legend entry/.style={code={%
             \draw[pic actions]
 	    (-0.5,0.25) -- (0.5,0.25);}}]
 	    \draw[very thin,color=gray] (-5,0) grid (5,5);
@@ -95,68 +95,52 @@
   </definition>
 
   <definition>
-      <title>The Natural Logarithm</title>
-      <p>
-	The <term>natural logarithm</term>,
-	<idx>
-	  <h>Function</h>
-	  <h>Logarithm</h>
-	  <h>Base <m>a</m></h>
-	</idx>
-	<m>\ln \colon (0, \infty) \to \R</m>,
-	<notation>
-	  <usage><m>\ln</m></usage>
-	  <description>The natural logarithm</description>
-	</notation>
-	is the logarithm with base <m>e</m>.
-      </p>
-    </definition>
+    <title>The Natural Logarithm</title>
+    <p>
+      The <term>natural logarithm</term>,
+      <idx>
+	<h>Function</h>
+	<h>Logarithm</h>
+	<h>Base <m>a</m></h>
+      </idx>
+      <m>\ln \colon (0, \infty) \to \R</m>,
+      <notation>
+	<usage><m>\ln</m></usage>
+	<description>The natural logarithm</description>
+      </notation>
+      is the logarithm with base <m>e</m>.
+    </p>
+  </definition>
 
   <subsection>
     <title>Properties of the Logarithm</title>
     <p>
-      Assume <m>a \neq 1</m> is a positive real number.
-      The properties of the logarithm are all consequences of the <xref ref="thm-properties_exp" text="title"/> and <xref ref="thm-invertible_is_surjective"/>.
+      As the composition inverse of <m>\Exp{a} \colon \R \to (0, \infty)</m>, the logarithm inherits properties that are very similar to the <xref ref="thm-properties_exp" text="title"/>.
+      To describe these properties algebraically for a given base, <m>a</m>, it is helpful to phrase the relationship between the exponential and the logarithm as pairing each real number <m>x</m> with a positive real number <m>y</m> via
+      <men xml:id="eq-exp_log">y = \Exp{a}(x) \quad\text{and}\quad x = \log_a(y).</men>
     </p>
     <p>
-      The first property of the logarithm is that <m>\log_a(1) = 0</m>.
-      Since <m>\Exp{a}(0) = a^0 = 1</m>, we can write
-      <me>\log_a(1) = \log_a(a^0) = 0.</me>
-      Just as the graph of every exponential function passes through the point <m>(0,1)</m>, the graph of every logarithm passes through the point <m>(1,0)</m>.
+      Starting from the property <m>\Exp{a}(0) = 1</m>, taking <m>x = 0</m> and <m>y = 1</m> in <xref ref="eq-exp_log"/> allows us to write
+      <me>1 = \Exp{a}(0) \quad\text{and}\quad 0 = \log_a(1).</me>
+      We should note this algebraic fact fits with our geometric understanding.
+      The graph of <m>\Exp{a}</m> passes through the point <m>(0,1)</m>.
+      Since the graph of <m>\log_a</m> is the reflection of the graph of <m>\Exp{a}</m> across the line <m>y = x</m>, it should pass through the point <m>(1,0)</m>.
     </p>
     <p>
-      For the remaining properties, recall that the exponential function turns addition into multiplication and subtraction into division:
-      <me>\Exp{a}(x + x^\prime) = \Exp{a}(x)\Exp{a}(x^\prime)
-      \quad\text{and}\quad
-      \Exp{a}(x - x^\prime) = \frac{\Exp{a}(x)}{\Exp{a}\left(x^\prime\right)}.</me>
-      As the composition inverse of <m>\Exp{a}</m>, <m>\log_a</m> inverse this relationship by turning multiplication into addition and division into subtraction.
+      If we introduce another real number, <m>x^\prime</m>, then we obtain a second positive real number, <m>y^\prime = \Exp{a}\left(x^\prime\right)</m>.
+      The function <m>\Exp{a}</m> maps the sum of these numbers to the product of their pairs
+      <me>\Exp{a}(x + x^\prime) = \Exp{a}(x)\Exp{a}(x^\prime) = yy^\prime,</me>
+      so the right-hand side of <xref ref="eq-exp_log"/> tells us that the logarithm pairs the product of positive real numbers with the sum of their pairs
+      <me>x + x^\prime = \log\left(yy^\prime\right).</me>
     </p>
     <p>
-      To see this, assume <m>y</m> and <m>y^\prime</m> are positive real numbers.
-      Let <m>x = \log_a(y)</m> and <m>x^\prime = \log_a\left(y^\prime\right)</m>.
-      Observe that 
-      <me>\Exp{a}(x) = \Exp{a} \circ \log_a(y) = y
-      \quad\text{and}\quad
-      \Exp{a}\left(x^\prime\right) = \Exp{a} \circ \log_a\left(y^\prime\right) = y^\prime.</me>
-      because <m>\Exp{a}</m> and <m>\log_a</m> are composition inverses.
-      This allows us to transform the logarithm of their product into the sum of their logarithms
-      <md>
-	<mrow>\log_a(yy^\prime) \amp= \log_a\left(\Exp{a}\left(x\right)\Exp{a}\left(x^\prime\right)\right)</mrow>
-	<mrow>\amp= \log_a \circ \Exp{a}(x + x^\prime)</mrow>
-	<mrow>\amp= x + x^\prime</mrow>
-	<mrow>\amp= \log_a\left(y\right) + \log_a\left(y^\prime\right)</mrow>
-      </md>
-      and the logarithm of their ratio into the difference of their logarithms
-      <md>
-	<mrow>\log_a\left(\frac{y}{y^\prime}\right) \amp= \log_a\left(\frac{\Exp{a}(x)}{\Exp{a}\left(x^\prime\right)}\right)</mrow>
-	<mrow>\amp=\log_a \circ \Exp{a}\left(x - x^\prime\right)</mrow>
-	<mrow>\amp= x - x^\prime</mrow>
-	<mrow>\amp= \log_a(y) - \log_a\left(y^\prime\right).</mrow>
-      </md>
+      Similarly, the function <m>\Exp{a}</m> maps the difference of these numbers to the ratio of their pairs
+      <me>\Exp{a}(x - x^\prime) = \frac{\Exp{a}(x)}{\Exp{a}(x^\prime)} = yy^\prime,</me>
+      so the right-hand side of <xref ref="eq-exp_log"/> tells us that the logarithm pairs the ratio of positive real numbers with the difference of their pairs
+      <me>x - x^\prime = \log\left(\frac{y}{y^\prime}\right).</me>
     </p>
     <p>
-      The final property is a consequence of these two.
-      While it does not provide anything new, it is frequently useful.
+      Finally, we make the following observation as a convenience.
       If <m>y</m> is any positive real number and <m>r</m> is any real number, then we think of <m>y^r</m> as the product of <m>r</m> copies of the number <m>y</m>
       <me>y^r = \underbrace{y \cdot y \cdot y \cdots y}_r.</me>
       If we transform the log of the product into the sum of the logs <m>r</m> times, then we obtain the expression
@@ -168,10 +152,15 @@
 	<mrow>\amp= r\log_a(y).</mrow>
       </md>
     </p>
+    <p>
+      We summarize these properties below.
+    </p>
 
     <theorem xml:id="thm-properties_log">
       <title>Properties of the Logarithm</title>
-      Assume <m>a \neq 1</m> is a positive integer.
+      <p>
+	Assume <m>a \neq 1</m> is a positive real number.
+      </p>
       <ol>
 	<li>
 	  <p>
@@ -239,7 +228,7 @@
       <statement>
 	<p>
 	  Assume <m>a \neq 1</m> and <m>b \neq 1</m> are positive real numbers.
-	  For all positive real numbers <m>y</m>, 
+	  For all positive real numbers <m>y</m>,
 	  <me>\log_a(y) = \frac{\log_b(y)}{\log_b(a)}.</me>
 	</p>
       </statement>
@@ -276,7 +265,7 @@
     <figure xml:id="fig-refl_exponential_growth">
       <image>
 	<latex-image>
-	  \begin{tikzpicture}[pics/legend entry/.style={code={%   
+	  \begin{tikzpicture}[pics/legend entry/.style={code={%
           \draw[pic actions]
 	  (-0.5,0.25) -- (0.5,0.25);}}]
 	  \draw[very thin,color=gray] (-5,-5) grid (5,5);
@@ -325,7 +314,7 @@
     <example>
       <p>
 	Consider the logarithm with base <m>1/2</m>.
-	For all positive real numbers <m>y</m>, 
+	For all positive real numbers <m>y</m>,
 	<me>\log_{\frac{1}{2}}(y) = \frac{\log_2(y)}{\log_2\left(\frac{1}{2}\right)} = \frac{\log_2(y)}{-1} = -\log_2(y)</me>
 	by the <xref ref="formula-base_change" text="title"/>.
 	This tells us that we can graph <m>\log_{\frac{1}{2}}(y)</m> by reflecting the graph of <m>\log_2(y)</m> across the <m>x</m>-axis.
@@ -379,5 +368,4 @@
       <caption>The graphs of the logarithms with base <m>1/2</m>, <m>1/3</m>, <m>1/4</m>, <m>1/5</m>, <m>1/6</m>, <m>1/7</m>, and <m>1/8</m></caption>
     </figure>
   </subsection>
-
 </section>
