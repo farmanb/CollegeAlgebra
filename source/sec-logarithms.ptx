@@ -159,31 +159,20 @@
     <theorem xml:id="thm-properties_log">
       <title>Properties of the Logarithm</title>
       <p>
-	Assume <m>a \neq 1</m> is a positive real number.
+	Assume <m>a \neq 1</m> is a positive real number and <m>y, y^\prime</m> are positive real numbers.
       </p>
       <ol>
 	<li>
-	  <p>
-	    <m>\log_a(1) = 0.</m>
-	  </p>
+	  <m>\log_a(1) = 0.</m>
 	</li>
 	<li>
-	  <p>
-	    For all positive real numbers <m>y</m> and <m>y^\prime</m>,
-	    <me>\log_a(yy^\prime) = \log_a(y) + \log_a(y^\prime).</me>
-	  </p>
+	  <m>\log_a(yy^\prime) = \log_a(y) + \log_a(y^\prime).</m>
 	</li>
 	<li>
-	  <p>
-	    For all positive real numbers <m>y</m> and <m>y^\prime</m>
-	    <me>\log_a\left(\frac{y}{y^\prime}\right) = \log_a(y) - \log_a(y^\prime).</me>
-	  </p>
+	  <m>\log_a\left(\frac{y}{y^\prime}\right) = \log_a(y) - \log_a(y^\prime).</m>
 	</li>
 	<li>
-	  <p>
-	    For all positive real numbers <m>y</m> and all real numbers <m>r</m>,
-	    <me>\log_a(y^r) = r\log_a(y).</me>
-	  </p>
+	  <m>\log_a(y^r) = r\log_a(y).</m>
 	</li>
       </ol>
     </theorem>
