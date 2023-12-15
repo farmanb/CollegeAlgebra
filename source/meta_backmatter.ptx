@@ -192,10 +192,12 @@
     </subsection>
   </appendix>
 
-  <appendix>
-    <title>References</title>
+  <references>
     <xi:include href="./meta_references.ptx"/>
-  </appendix>
+  </references>
+  
+  <glossary>
+  </glossary>
   
   <index>
     <title>Index</title>
