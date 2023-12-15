@@ -357,4 +357,78 @@
       <caption>The graphs of the logarithms with base <m>1/2</m>, <m>1/3</m>, <m>1/4</m>, <m>1/5</m>, <m>1/6</m>, <m>1/7</m>, and <m>1/8</m></caption>
     </figure>
   </subsection>
+
+  <worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+    <objectives>
+      <ul>
+	<li>
+	  Solve equations involving exponential functions.
+	</li>
+	<li>
+	  Solve equations involving logarithms.
+	</li>
+      </ul>
+    </objectives>
+    <page>
+      <title>Solving Equations with Exponential Functions</title>
+      <exercise>
+	<statement>
+	  <p>
+	    Solve the equation
+	    <me>7^{2x + 1} = 49</me>
+	    for <m>x</m>.
+	  </p>
+	</statement>
+      </exercise>
+     
+      <exercise>
+	<statement>
+	  <p>
+	    Solve the equation 
+	    <me>2^{-4x} = 16 \left(2^{x^2}\right)</me>
+	    for <m>x</m>.
+	  </p>
+	</statement>
+      </exercise>
+
+      <exercise>
+	<statement>
+	  <p>
+	    Solve the equation
+	    <me>e^{x^2} = e^{−2x−1}</me>
+	    for <m>x</m>
+	  </p>
+	</statement>
+      </exercise>
+    </page>
+    <page>
+      <title>Solving Equations with Logarithms</title>
+      <exercise>
+	<statement>
+	  <p>
+	    Solve the equation
+	    <me>\log_4(x + 3) + \log_4(x − 3) = 2</me>
+	    for <m>x</m>.
+	  </p>
+	</statement>
+      </exercise>
+      <exercise>
+	<statement>
+	  <p>
+	    Solve the equation
+	    <me>\log_6(x - 5) - 2\log_6\left(\frac{1}{\sqrt{x}}\right) = 1.</me>
+	    for <m>x</m>.
+	  </p>
+	</statement>
+      </exercise>
+      <exercise>
+	<statement>
+	  <p>
+	    Solve the equation
+	    <me>2\log_2\left(\frac{1}{\sqrt{x - 2}}\right) - \log_2\left(\frac{1}{x-2}\right) = 5</me>for <m>x</m>.
+	  </p>
+	</statement>
+      </exercise>
+    </page>
+  </worksheet>
 </section>
