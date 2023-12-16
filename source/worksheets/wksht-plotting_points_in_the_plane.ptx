@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
-      <title>Plotting Points in the Plane</title>
-      <objectives>
-	<ul>
-	  <li>
-	    Plot points in the plane using Cartesian coordinates,
-	  </li>
-	  <li>
-	    Identify the quadrant in which a point lies.
-	  </li>
-	</ul>
-      </objectives>
-      <introduction>
-	<p>
-	  In this activity, we will practice plotting some points in the plane.
-	</p>
-      </introduction>
-      <exercise workspace=".5in">
-	<p>Plot the following points in the Cartesian plane.</p>
-	<figure>
-	  <image width="50%">
-	    <latex-image >
-	      <xi:include parse="text" href="../tex/10_10_grid.tex" />
-	    </latex-image>
-	  </image>
-	</figure>
-	<sidebyside widths="20% 40% 25%" margins="auto" valign="middle">
-	  <p><m>A = (-1,3)</m></p>
-	  <p><m>B = (-2,-1)</m></p>
-	  <p><m>C = (3,5.5)</m></p>
-	</sidebyside>
-	<sidebyside widths="20% 40% 25%" margins="auto" valign="middle">
-	  <p><m>D = (3,-4)</m></p>
-	  <p><m>E = (-8,-2)</m></p>
-	  <p><m>F = (5.5,3)</m></p>
-	</sidebyside>
-      </exercise>
-      <exercise workspace=".5in">
-	<p>
-	  For each of the points that you plotted above, indicate the quadrant that contains the point.
-	</p>
-      </exercise>
-    </worksheet>
+  <title>Plotting Points in the Plane</title>
+  <objectives>
+    <ul>
+      <li>
+	Plot points in the plane using Cartesian coordinates,
+      </li>
+      <li>
+	Identify the quadrant in which a point lies.
+      </li>
+    </ul>
+  </objectives>
+  <introduction>
+    <p>
+      In this activity, we will practice plotting some points in the plane.
+    </p>
+  </introduction>
+  <exercise workspace=".5in">
+    <p>Plot the following points in the Cartesian plane.</p>
+    <figure>
+      <image width="50%">
+	<latex-image >
+	  <xi:include parse="text" href="../tex/10_10_grid.tex" />
+	</latex-image>
+      </image>
+    </figure>
+    <sidebyside widths="20% 40% 25%" margins="auto" valign="middle">
+      <p><m>A = (-1,3)</m></p>
+      <p><m>B = (-2,-1)</m></p>
+      <p><m>C = (3,5.5)</m></p>
+    </sidebyside>
+    <sidebyside widths="20% 40% 25%" margins="auto" valign="middle">
+      <p><m>D = (3,-4)</m></p>
+      <p><m>E = (-8,-2)</m></p>
+      <p><m>F = (5.5,3)</m></p>
+    </sidebyside>
+  </exercise>
+  <exercise workspace=".5in">
+    <p>
+      For each of the points that you plotted above, indicate the quadrant that contains the point.
+    </p>
+  </exercise>
+</worksheet>

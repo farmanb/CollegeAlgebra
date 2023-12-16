@@ -120,8 +120,8 @@
   </page>
 
   <exercise workspace="2in">
-      <p>
-	Graph the linear absolute value inequality <m>\abs{6x - 8y} > 12</m>.
-      </p>
-    </exercise>
+    <p>
+      Graph the linear absolute value inequality <m>\abs{6x - 8y} > 12</m>.
+    </p>
+  </exercise>
 </worksheet>
