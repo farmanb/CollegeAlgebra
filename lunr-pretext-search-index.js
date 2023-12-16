@@ -979,7 +979,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.4",
   "title": "Graph Transformations",
-  "body": " Graph Transformations    Use graphs of basic functions and the following operations to graph general functions.    Vertical Translation  Horizontal Translation  Vertical Scaling,  Horizontal Scaling, and  Reflection.     Graphing arbitrary functions can be a difficult task and the general methods are beyond the scope of basic algebra. However, if we know the graph of a function, , and we can write another function, , in terms of in a specific way, then we can use the graph of to graph using transformations . In this seciton, we discuss three types of transformations: translation, scaling, and reflection.    Translation   Throughout this section, assume that the graph of the function is known.    Vertical Translation   Vertical Translation  Let be a positive number. We say the function is a vertical translation   Graph  Tranformation  Translation  Vertical  of the function if .    The graph of is obtained by shifting the graph of up the -axis by units.    The graph of is obtained by shifting the graph of down the -axis by -units.       Use to graph the functions and .    The graph of is obtained by shifting the graph of up the -axis by units, and the graph of is obtained by shifting the graph of down the -axis by 3 units.           Horizontal Translation   Horizontal Translation  Let be a positive number. We say the function is a horizontal translation   Graph  Tranformation  Translation  Horizontal  of the function if .    The graph of is obtained by shifting the graph of to the right along the -axis by units.    The graph of is obtained by shifting the graph of to the left along the -axis by -units.       Use to graph the functions and .    The graph of is obtained by shifting the graph of to the left along the -axis by units, and the graph of is obtained by shifting the graph of to the right along the -axis by 3 units.            Scaling   Vertical Scaling   Vertical Scaling  Let be a number. We say the function is a vertical scaling   Graph  Tranformation  Scaling  Vertical  of the function if or .    The graph of is obtained by stretching the graph of vertically by a factor of .    The graph of is obtained by compressing the graph of vertically by a factor of .       Use to graph the functions and .    The graph of is obtained by stretching the graph of vertically by a factor of , and the graph of is obtained by compressing the graph the graph of vertically by a factor of .           Reflection   Reflection of the -axis  We say the function is a reflection   Graph  Tranformation  Reflection  of if either or     The graph of is obtained by reflecting the graph of over the -axis.    The graph of is obtained by reflecting the graph of over the -axis.       Use to graph the functions and .    The graph of is obtained by reflecting the graph of over the -axis, and the graph of is obtained by reflecting the graph of over the -axis.           Horizontal Scaling   Horizontal Scaling  Let be a number. We say the function is a horizontal scaling   Graph  Tranformation  Scaling  Horizontal  of the function if or .    The graph of is obtained by compressing the graph of horizontally by a factor of .    The graph of is obtained by stretching the graph of horizontally by a factor of .       Use to graph the functions and .    The graph of is obtained by compressing the graph of horizontally by a factor of , and the graph of is obtained by stretching the graph of horizontally by a factor of .           Combining Graph Transformations  Most functions are obtained from a basic function using multiple transformations. When graphing a function, the order in which transformations are applied is important.   Graphing Functions using Transformations   Horizontal Translation  Scaling  Reflection  Vertical Translation      Use to graph the function .    We can graph by starting from the basic function and applying the following transformations:  Translate the graph of to the left by 3 to obtain the graph of .  Stretch the graph of vertically by a factor of 2 to obtain the graph of .  Translate the graph of down by 2 units to obtain the graph of .             "
+  "body": " Graph Transformations    Use graphs of basic functions and the following operations to graph general functions.    Vertical Translation  Horizontal Translation  Vertical Scaling,  Horizontal Scaling, and  Reflection.     Graphing arbitrary functions can be a difficult task and the general methods are beyond the scope of basic algebra. However, if we know the graph of a function, , and we can write another function, , in terms of in a specific way, then we can use the graph of to graph using transformations . In this seciton, we discuss three types of transformations: translation, scaling, and reflection.    Translation   Throughout this section, assume that the graph of the function is known.    Vertical Translation   Vertical Translation  Let be a positive number. We say the function is a vertical translation   Graph  Tranformation  Translation  Vertical  of the function if .    The graph of is obtained by shifting the graph of up the -axis by units.    The graph of is obtained by shifting the graph of down the -axis by -units.       Use to graph the functions and .    The graph of is obtained by shifting the graph of up the -axis by units, and the graph of is obtained by shifting the graph of down the -axis by 3 units.           Horizontal Translation   Horizontal Translation  Let be a positive number. We say the function is a horizontal translation   Graph  Tranformation  Translation  Horizontal  of the function if .    The graph of is obtained by shifting the graph of to the right along the -axis by units.    The graph of is obtained by shifting the graph of to the left along the -axis by -units.       Use to graph the functions and .    The graph of is obtained by shifting the graph of to the left along the -axis by units, and the graph of is obtained by shifting the graph of to the right along the -axis by 3 units.            Scaling   Vertical Scaling   Vertical Scaling  Let be a number. We say the function is a vertical scaling   Graph  Tranformation  Scaling  Vertical  of the function if or .    The graph of is obtained by stretching the graph of vertically by a factor of .    The graph of is obtained by compressing the graph of vertically by a factor of .       Use to graph the functions and .    The graph of is obtained by stretching the graph of vertically by a factor of , and the graph of is obtained by compressing the graph the graph of vertically by a factor of .           Reflection   Reflection  We say the function is a reflection   Graph  Tranformation  Reflection  of if either or     The graph of is obtained by reflecting the graph of over the -axis.    The graph of is obtained by reflecting the graph of over the -axis.       Use to graph the functions and .    The graph of is obtained by reflecting the graph of over the -axis, and the graph of is obtained by reflecting the graph of over the -axis.           Horizontal Scaling   Horizontal Scaling  Let be a number. We say the function is a horizontal scaling   Graph  Tranformation  Scaling  Horizontal  of the function if or .    The graph of is obtained by compressing the graph of horizontally by a factor of .    The graph of is obtained by stretching the graph of horizontally by a factor of .       Use to graph the functions and .    The graph of is obtained by compressing the graph of horizontally by a factor of , and the graph of is obtained by stretching the graph of horizontally by a factor of .           Combining Graph Transformations  Most functions are obtained from a basic function using multiple transformations. When graphing a function, the order in which transformations are applied is important.   Graphing Functions using Transformations   Horizontal Translation  Scaling  Reflection  Vertical Translation      Use to graph the function .    We can graph by starting from the basic function and applying the following transformations:  Translate the graph of to the left by 3 to obtain the graph of .  Stretch the graph of vertically by a factor of 2 to obtain the graph of .  Translate the graph of down by 2 units to obtain the graph of .             "
 },
 {
   "id": "objectives-14",
@@ -991,9 +991,9 @@ var ptx_lunr_docs = [
   "body": "  Use graphs of basic functions and the following operations to graph general functions.    Vertical Translation  Horizontal Translation  Vertical Scaling,  Horizontal Scaling, and  Reflection.   "
 },
 {
-  "id": "definition-33",
+  "id": "def-vertical_translation",
   "level": "2",
-  "url": "sec-transformations.html#definition-33",
+  "url": "sec-transformations.html#def-vertical_translation",
   "type": "Definition",
   "number": "2.4.1",
   "title": "Vertical Translation.",
@@ -1009,9 +1009,9 @@ var ptx_lunr_docs = [
   "body": "  Use to graph the functions and .    The graph of is obtained by shifting the graph of up the -axis by units, and the graph of is obtained by shifting the graph of down the -axis by 3 units.        "
 },
 {
-  "id": "definition-34",
+  "id": "def-horizontal_translation",
   "level": "2",
-  "url": "sec-transformations.html#definition-34",
+  "url": "sec-transformations.html#def-horizontal_translation",
   "type": "Definition",
   "number": "2.4.4",
   "title": "Horizontal Translation.",
@@ -1027,9 +1027,9 @@ var ptx_lunr_docs = [
   "body": "  Use to graph the functions and .    The graph of is obtained by shifting the graph of to the left along the -axis by units, and the graph of is obtained by shifting the graph of to the right along the -axis by 3 units.        "
 },
 {
-  "id": "definition-35",
+  "id": "def-vertical_scaling",
   "level": "2",
-  "url": "sec-transformations.html#definition-35",
+  "url": "sec-transformations.html#def-vertical_scaling",
   "type": "Definition",
   "number": "2.4.7",
   "title": "Vertical Scaling.",
@@ -1045,13 +1045,13 @@ var ptx_lunr_docs = [
   "body": "  Use to graph the functions and .    The graph of is obtained by stretching the graph of vertically by a factor of , and the graph of is obtained by compressing the graph the graph of vertically by a factor of .        "
 },
 {
-  "id": "definition-36",
+  "id": "def-reflection",
   "level": "2",
-  "url": "sec-transformations.html#definition-36",
+  "url": "sec-transformations.html#def-reflection",
   "type": "Definition",
   "number": "2.4.10",
-  "title": "Reflection of the <span class=\"process-math\">\\(x\\)<\/span>-axis.",
-  "body": " Reflection of the -axis  We say the function is a reflection   Graph  Tranformation  Reflection  of if either or     The graph of is obtained by reflecting the graph of over the -axis.    The graph of is obtained by reflecting the graph of over the -axis.    "
+  "title": "Reflection.",
+  "body": " Reflection  We say the function is a reflection   Graph  Tranformation  Reflection  of if either or     The graph of is obtained by reflecting the graph of over the -axis.    The graph of is obtained by reflecting the graph of over the -axis.    "
 },
 {
   "id": "example-27",
@@ -1063,9 +1063,9 @@ var ptx_lunr_docs = [
   "body": "  Use to graph the functions and .    The graph of is obtained by reflecting the graph of over the -axis, and the graph of is obtained by reflecting the graph of over the -axis.        "
 },
 {
-  "id": "definition-37",
+  "id": "def-horizontal_scaling",
   "level": "2",
-  "url": "sec-transformations.html#definition-37",
+  "url": "sec-transformations.html#def-horizontal_scaling",
   "type": "Definition",
   "number": "2.4.13",
   "title": "Horizontal Scaling.",
@@ -2359,9 +2359,9 @@ var ptx_lunr_docs = [
   "body": " Consider the rational functions defined by   The product of and is the function defined by The ratio of and is the function defined by   "
 },
 {
-  "id": "section-18",
+  "id": "sec-composition",
   "level": "1",
-  "url": "section-18.html",
+  "url": "sec-composition.html",
   "type": "Section",
   "number": "4.3",
   "title": "Composition and Inverses",
@@ -2370,7 +2370,7 @@ var ptx_lunr_docs = [
 {
   "id": "definition-61",
   "level": "2",
-  "url": "section-18.html#definition-61",
+  "url": "sec-composition.html#definition-61",
   "type": "Definition",
   "number": "4.3.1",
   "title": "Composition of Functions.",
@@ -2379,7 +2379,7 @@ var ptx_lunr_docs = [
 {
   "id": "example-67",
   "level": "2",
-  "url": "section-18.html#example-67",
+  "url": "sec-composition.html#example-67",
   "type": "Example",
   "number": "4.3.2",
   "title": "",
@@ -2388,7 +2388,7 @@ var ptx_lunr_docs = [
 {
   "id": "warning-3",
   "level": "2",
-  "url": "section-18.html#warning-3",
+  "url": "sec-composition.html#warning-3",
   "type": "Warning",
   "number": "4.3.3",
   "title": "",
@@ -2397,7 +2397,7 @@ var ptx_lunr_docs = [
 {
   "id": "example-68",
   "level": "2",
-  "url": "section-18.html#example-68",
+  "url": "sec-composition.html#example-68",
   "type": "Example",
   "number": "4.3.4",
   "title": "",
@@ -2406,7 +2406,7 @@ var ptx_lunr_docs = [
 {
   "id": "warning-4",
   "level": "2",
-  "url": "section-18.html#warning-4",
+  "url": "sec-composition.html#warning-4",
   "type": "Warning",
   "number": "4.3.5",
   "title": "",
@@ -2415,7 +2415,7 @@ var ptx_lunr_docs = [
 {
   "id": "example-composition_not_commutative",
   "level": "2",
-  "url": "section-18.html#example-composition_not_commutative",
+  "url": "sec-composition.html#example-composition_not_commutative",
   "type": "Example",
   "number": "4.3.6",
   "title": "",
@@ -2424,7 +2424,7 @@ var ptx_lunr_docs = [
 {
   "id": "p-444",
   "level": "2",
-  "url": "section-18.html#p-444",
+  "url": "sec-composition.html#p-444",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2433,7 +2433,7 @@ var ptx_lunr_docs = [
 {
   "id": "definition-62",
   "level": "2",
-  "url": "section-18.html#definition-62",
+  "url": "sec-composition.html#definition-62",
   "type": "Definition",
   "number": "4.3.7",
   "title": "Identity Function.",
@@ -2442,7 +2442,7 @@ var ptx_lunr_docs = [
 {
   "id": "p-449",
   "level": "2",
-  "url": "section-18.html#p-449",
+  "url": "sec-composition.html#p-449",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2451,7 +2451,7 @@ var ptx_lunr_docs = [
 {
   "id": "p-453",
   "level": "2",
-  "url": "section-18.html#p-453",
+  "url": "sec-composition.html#p-453",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2460,7 +2460,7 @@ var ptx_lunr_docs = [
 {
   "id": "def-composition_inverse",
   "level": "2",
-  "url": "section-18.html#def-composition_inverse",
+  "url": "sec-composition.html#def-composition_inverse",
   "type": "Definition",
   "number": "4.3.8",
   "title": "Composition Inverse.",
@@ -2469,7 +2469,7 @@ var ptx_lunr_docs = [
 {
   "id": "warning-5",
   "level": "2",
-  "url": "section-18.html#warning-5",
+  "url": "sec-composition.html#warning-5",
   "type": "Warning",
   "number": "4.3.9",
   "title": "",
@@ -2478,7 +2478,7 @@ var ptx_lunr_docs = [
 {
   "id": "thm-invertible_is_surjective",
   "level": "2",
-  "url": "section-18.html#thm-invertible_is_surjective",
+  "url": "sec-composition.html#thm-invertible_is_surjective",
   "type": "Theorem",
   "number": "4.3.10",
   "title": "",
@@ -2487,7 +2487,7 @@ var ptx_lunr_docs = [
 {
   "id": "theorem-19",
   "level": "2",
-  "url": "section-18.html#theorem-19",
+  "url": "sec-composition.html#theorem-19",
   "type": "Theorem",
   "number": "4.3.11",
   "title": "",
@@ -2496,7 +2496,7 @@ var ptx_lunr_docs = [
 {
   "id": "example-inverse_of_arithmetics",
   "level": "2",
-  "url": "section-18.html#example-inverse_of_arithmetics",
+  "url": "sec-composition.html#example-inverse_of_arithmetics",
   "type": "Example",
   "number": "4.3.12",
   "title": "",
@@ -2505,7 +2505,7 @@ var ptx_lunr_docs = [
 {
   "id": "example-inverse_of_composition",
   "level": "2",
-  "url": "section-18.html#example-inverse_of_composition",
+  "url": "sec-composition.html#example-inverse_of_composition",
   "type": "Example",
   "number": "4.3.13",
   "title": "",
@@ -2514,7 +2514,7 @@ var ptx_lunr_docs = [
 {
   "id": "formula-inverse_of_composition",
   "level": "2",
-  "url": "section-18.html#formula-inverse_of_composition",
+  "url": "sec-composition.html#formula-inverse_of_composition",
   "type": "Formula",
   "number": "4.3.14",
   "title": "",
@@ -2523,7 +2523,7 @@ var ptx_lunr_docs = [
 {
   "id": "example-parabola_not_invertible",
   "level": "2",
-  "url": "section-18.html#example-parabola_not_invertible",
+  "url": "sec-composition.html#example-parabola_not_invertible",
   "type": "Example",
   "number": "4.3.15",
   "title": "",
@@ -2598,8 +2598,8 @@ var ptx_lunr_docs = [
   "url": "sec-exponentials.html",
   "type": "Section",
   "number": "5.1",
-  "title": "Exponential Functions",
-  "body": " Exponential Functions   So far, all of the functions we have encountered are either polynomials or can be constructed from polynomial equations using algebraic operations. A transcendental function   Function  Transcendental  is any function that cannot be constructed in this manner. While it is certainly odd to discuss functions that cannot be constructed by algebraic means in a course on algebra, many calculus courses expect students to already be familiar with these functions. We focus only on the algebraic properties of exponential and logarithmic functions.    Assume is a fixed positive real number. The exponential function with base  Function  Exponential  is defined by .   Exponential function with base  The number is called the base   Function  Exponential  Base  of the exponential function.    Modeling with Exponential Functions  Exponential functions are of interest to scientists because they are useful in modeling natural phenomena.   A biologist observes a population over a six year period. The biologist measures the size of the observed population at the beginning and end of each of the years. In an effort to understand how the population is changing, the biologist records the year-to-year change as a numeric value and as a percentage of the initial population for the year.   Observed Population by Year    Year  Initial Population  Final Population  Change  Percent Change                                               Using the table, the biologist notices the following relations amongst the population sizes This leads the biologist to conclude that the size of the population can be measured with the exponential function where is the amount of time in years that has elapsed. This function agrees with the observations for , and predicts the size of the population at the end of the seventh year will be     The half-life of the radioactive isotope technetium-99m is hours . Assume we start with a sample of grams of technetium-99m. The table below lists the amount at the beginning and the end of each six hour period over the course of a day.   Amount of technetium-99m over 24 hours    Period  Initial Amount (grams)  Final Amount (grams)  Change (grams)  Percent Change                                 We can model the amount of the sample remaining as a function of the number of hour periods that have passed using the exponential function However, it would be more convenient to model the amount of the sample as a function of the number of hours that have passed. To do this, we first recognize that hour is of a period. We can stretch the time scale by a factor of to obtain the function that measures the amount of the technetium-99m sample remaining after hours have elapsed. Using this function, we have recorded the amount remaining after each hour for the first six hour period in the table below.   Amount of technetium-99m over 24 hours    Hour  Amount Remaining (grams)  Percent Change                                      Properties of Exponential Functions  The following properties of exponential functions are simply a restatement of the already familiar properties of exponents.   Properties of Exponential Functions   Assume is a positive integer.         For all real numbers and ,     For all real numbers and ,        The percentages measured in and are often of interest in applications.   Let be a function that is defined on the interval . The relative change   Function  Relative Change  of on the interval is    For an exponential function , consider the relative change on an interval of length one. Take the left endpoint to be a number and the right endpoint to be the number . Over this interval, the relative change is    Assume is a positive number. The number is called the growth rate   Function  Exponential  Growth Rate  of if or the decay rate   Function  Exponential  Decay Rate  of if .    When , we say the function models exponential growth   Function  Exponential  Growth  and we call the number the growth factor .  Function  Exponential  Growth Factor      When , we say the function models exponential decay   Function  Exponential  Decay  and we call the number the decay factor .  Function  Exponential  Decay Factor       Graphs of exponential functions depend on whether they model growth or decay. The general shape of exponential functions that model growth is roughly the same. The difference between the graphs is really only detectable when viewing multiple functions together at the same time: the larger the base (or growth factor), the steeper the graph. We have graphed several different exponential growht functions together to convey the difference between bases.      The graphs of the exponentials growth functions with base , , , , , , and   For any positive real number , we can relate the graph of and as follows. Observe that , so This tells us that the graph of is the reflection of the graph of across the -axis. In particular, the graph of an exponential decay function is the reflection of an exponential growth function across the -axis.   The exponential decay function is the reflection of the exponential growth function because    We have plotted the reflections of the exponential growth functions across the -axis in below.      The graphs of the exponentials decay functions with base , , , , , , and   Specifying either a growth\/decay rate and an initial quantity is sufficient to determine an exponential function.   Your local bank offers a savings account with a annual interest that is compounded monthly. This means the bank will add of your current balance to your account every month. In other words, your balance grows at a rate of  per month .  The growth factor for the exponential function that models the amount of money in the account after  months is Assuming you deposit into a savings account, the balance of the account after  months is given by the function   Customarily, one measures investments as a function of the number of years that have elapsed, rather than months. Since there are months in a year, we compress the time scale by a factor of to obtain the function that measures the amount of money in the account after  years .  The table below shows the amount of money in the account for a five year period, with all figures rounded to two decimal places.   Amount of Money in Savings Account    Year  Initial Amount ( )  Final Amount ( )  Change ( )  Growth Rate (Annual)                                        Note that the growth factor for this function is , so the growth rate is slightly higher than the interest rate ( ).   In general, we can model compound interest using the following formula.   Compound Interest Formula   Assume dollars are invested in an account at an annual interest rate of that is compounded times each year. The amount of money in the account after years is The growth rate for this function is which measures the increase in the balance over one year as a percentage of the previous balance.      The Natural Exponential  At the end of , we observed that the interest rate may be lower than the actual growth rate when the interest compounds more than once per year. Consider the case where the interest rate is . While it is absurd to expect to find an interest rate this high, it simplifies the growth factor in the to We get a list of numbers, one for each positive integer .   What happens to the value of as becomes large?   While the tools necessary to answer this question lie properly in the domain of calculus, the following table gives us some idea of what is happening.   Growth Factors for Different Values of      Change                                                           From the table, we can see that the values are increasing as increases and, the larger gets, the smaller the change. This suggests the larger gets, the closer it gets to some value. This value is the constant known as Euler's Number.   Euler's Number   Euler's number   Euler's Number  is the constant .   Euler's number     This is a surprisingly important number that defines what is commonly referred to as the exponential function. While the importance of this function is unlikely to become clear without a fair bit of calculus, we will see why it is plausible that this is called the exponential function in .   The Exponential Function The exponential function   Function  Exponential   is defined by .  Intriguingly, if we consider any value of , as gets larger, the values of the growth factor get closer and closer to the constant If we recall that is the number of times interest is compounded each year, we can think about letting become arbitrarily large as saying the interest is compounding continuously .   Compound Interest Formula   Assume dollars are invested in an account at an annual interest rate of that is compounded continuously . The amount of money in the account after years is The growth rate for this function is , which measures the increase in the balance over one year as a percentage of the previous balance.     "
+  "title": "The Exponential Function",
+  "body": " The Exponential Function   So far, all of the functions we have encountered are either polynomials or can be constructed from polynomial equations using algebraic operations. A transcendental function   Function  Transcendental  is any function that cannot be constructed in this manner. While it is certainly odd to discuss functions that cannot be constructed by algebraic means in a course on algebra, many calculus courses expect students to already be familiar with these functions. We focus solely on the algebraic properties of these functions.    Properties of the Exponential Function  We start with the definition of a constant. Much like the number , this number cannot be constructed using algebraic methods. Indeed, the proper definition requires calculus, so we provide only a numerical approximation.   Euler's Number   Euler's number   Euler's Number  is the constant .   Euler's number     This constant is essential to the definition of the exponential function.   The Exponential Function The exponential function   Function  Exponential   is defined by .  We can think about the value of the exponential function at a positive real number as the result of multiplying copies of the number : This definition extends to all real numbers by defining   An interesting consequence of these definitions is that the exponential function transforms addition of the input into multiplication of the output and subtraction of the input into division of the output. For addition of the input, we take advantage of the fact that multiplication is associative to write   For subtraction of the inverse, we note that , so   These two properties also provide a convenient observation about multiplication of the input. Recall that the product of two numbers is simply a notational convenience. Depending on your needs, the product can be regarded as either adding together copies of the number or copies of the number : If we take first interpretation of , then we can apply the formula for the sum of inputs times to get Similarly, if we take the second interpretation of , then we can apply the formula for the sum of inputs times to get    Properties of Exponential Functions   Assume and are real numbers.                            The Graph of the Exponential Function  The graph of the exponential function is provided below.         Working with the Exponential     Combine expressions involving the exponential    Identify graphs involving the exponential       Use the to rewrite each equation so there is only one exponential term.                     Match each function with its graph.                                     "
 },
 {
   "id": "p-507",
@@ -2611,128 +2611,11 @@ var ptx_lunr_docs = [
   "body": "transcendental function "
 },
 {
-  "id": "def-exponential_function",
-  "level": "2",
-  "url": "sec-exponentials.html#def-exponential_function",
-  "type": "Definition",
-  "number": "5.1.1",
-  "title": "",
-  "body": " Assume is a fixed positive real number. The exponential function with base  Function  Exponential  is defined by .   Exponential function with base  The number is called the base   Function  Exponential  Base  of the exponential function.  "
-},
-{
-  "id": "example-exp_growth",
-  "level": "2",
-  "url": "sec-exponentials.html#example-exp_growth",
-  "type": "Example",
-  "number": "5.1.2",
-  "title": "",
-  "body": " A biologist observes a population over a six year period. The biologist measures the size of the observed population at the beginning and end of each of the years. In an effort to understand how the population is changing, the biologist records the year-to-year change as a numeric value and as a percentage of the initial population for the year.   Observed Population by Year    Year  Initial Population  Final Population  Change  Percent Change                                               Using the table, the biologist notices the following relations amongst the population sizes This leads the biologist to conclude that the size of the population can be measured with the exponential function where is the amount of time in years that has elapsed. This function agrees with the observations for , and predicts the size of the population at the end of the seventh year will be   "
-},
-{
-  "id": "example-exp_decay",
-  "level": "2",
-  "url": "sec-exponentials.html#example-exp_decay",
-  "type": "Example",
-  "number": "5.1.4",
-  "title": "",
-  "body": " The half-life of the radioactive isotope technetium-99m is hours . Assume we start with a sample of grams of technetium-99m. The table below lists the amount at the beginning and the end of each six hour period over the course of a day.   Amount of technetium-99m over 24 hours    Period  Initial Amount (grams)  Final Amount (grams)  Change (grams)  Percent Change                                 We can model the amount of the sample remaining as a function of the number of hour periods that have passed using the exponential function However, it would be more convenient to model the amount of the sample as a function of the number of hours that have passed. To do this, we first recognize that hour is of a period. We can stretch the time scale by a factor of to obtain the function that measures the amount of the technetium-99m sample remaining after hours have elapsed. Using this function, we have recorded the amount remaining after each hour for the first six hour period in the table below.   Amount of technetium-99m over 24 hours    Hour  Amount Remaining (grams)  Percent Change                                   "
-},
-{
-  "id": "thm-properties_exp",
-  "level": "2",
-  "url": "sec-exponentials.html#thm-properties_exp",
-  "type": "Theorem",
-  "number": "5.1.7",
-  "title": "Properties of Exponential Functions.",
-  "body": " Properties of Exponential Functions   Assume is a positive integer.         For all real numbers and ,     For all real numbers and ,       "
-},
-{
-  "id": "definition-67",
-  "level": "2",
-  "url": "sec-exponentials.html#definition-67",
-  "type": "Definition",
-  "number": "5.1.8",
-  "title": "",
-  "body": " Let be a function that is defined on the interval . The relative change   Function  Relative Change  of on the interval is   "
-},
-{
-  "id": "def-exp_unit_relative_change",
-  "level": "2",
-  "url": "sec-exponentials.html#def-exp_unit_relative_change",
-  "type": "Definition",
-  "number": "5.1.9",
-  "title": "",
-  "body": " Assume is a positive number. The number is called the growth rate   Function  Exponential  Growth Rate  of if or the decay rate   Function  Exponential  Decay Rate  of if .    When , we say the function models exponential growth   Function  Exponential  Growth  and we call the number the growth factor .  Function  Exponential  Growth Factor      When , we say the function models exponential decay   Function  Exponential  Decay  and we call the number the decay factor .  Function  Exponential  Decay Factor      "
-},
-{
-  "id": "fig-exponential_growth",
-  "level": "2",
-  "url": "sec-exponentials.html#fig-exponential_growth",
-  "type": "Figure",
-  "number": "5.1.10",
-  "title": "",
-  "body": "    The graphs of the exponentials growth functions with base , , , , , , and  "
-},
-{
-  "id": "example-decay_is_refl_growth",
-  "level": "2",
-  "url": "sec-exponentials.html#example-decay_is_refl_growth",
-  "type": "Example",
-  "number": "5.1.11",
-  "title": "",
-  "body": " The exponential decay function is the reflection of the exponential growth function because   "
-},
-{
-  "id": "fig-exponential_decay",
-  "level": "2",
-  "url": "sec-exponentials.html#fig-exponential_decay",
-  "type": "Figure",
-  "number": "5.1.12",
-  "title": "",
-  "body": "    The graphs of the exponentials decay functions with base , , , , , , and  "
-},
-{
-  "id": "example-compound_interest",
-  "level": "2",
-  "url": "sec-exponentials.html#example-compound_interest",
-  "type": "Example",
-  "number": "5.1.13",
-  "title": "",
-  "body": " Your local bank offers a savings account with a annual interest that is compounded monthly. This means the bank will add of your current balance to your account every month. In other words, your balance grows at a rate of  per month .  The growth factor for the exponential function that models the amount of money in the account after  months is Assuming you deposit into a savings account, the balance of the account after  months is given by the function   Customarily, one measures investments as a function of the number of years that have elapsed, rather than months. Since there are months in a year, we compress the time scale by a factor of to obtain the function that measures the amount of money in the account after  years .  The table below shows the amount of money in the account for a five year period, with all figures rounded to two decimal places.   Amount of Money in Savings Account    Year  Initial Amount ( )  Final Amount ( )  Change ( )  Growth Rate (Annual)                                        Note that the growth factor for this function is , so the growth rate is slightly higher than the interest rate ( ).  "
-},
-{
-  "id": "formula-compound_interest",
-  "level": "2",
-  "url": "sec-exponentials.html#formula-compound_interest",
-  "type": "Formula",
-  "number": "5.1.15",
-  "title": "Compound Interest Formula.",
-  "body": " Compound Interest Formula   Assume dollars are invested in an account at an annual interest rate of that is compounded times each year. The amount of money in the account after years is The growth rate for this function is which measures the increase in the balance over one year as a percentage of the previous balance.   "
-},
-{
-  "id": "question-3",
-  "level": "2",
-  "url": "sec-exponentials.html#question-3",
-  "type": "Question",
-  "number": "5.1.16",
-  "title": "",
-  "body": " What happens to the value of as becomes large?  "
-},
-{
-  "id": "table-5",
-  "level": "2",
-  "url": "sec-exponentials.html#table-5",
-  "type": "Table",
-  "number": "5.1.17",
-  "title": "Growth Factors for Different Values of <span class=\"process-math\">\\(n\\)<\/span>",
-  "body": " Growth Factors for Different Values of      Change                                                          "
-},
-{
   "id": "def-euler_constant",
   "level": "2",
   "url": "sec-exponentials.html#def-euler_constant",
   "type": "Definition",
-  "number": "5.1.18",
+  "number": "5.1.1",
   "title": "Euler’s Number.",
   "body": " Euler's Number   Euler's number   Euler's Number  is the constant .   Euler's number    "
 },
@@ -2741,18 +2624,72 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponentials.html#def-natural_exponential",
   "type": "Definition",
-  "number": "5.1.19",
+  "number": "5.1.2",
   "title": "The Exponential Function.",
   "body": " The Exponential Function The exponential function   Function  Exponential   is defined by . "
 },
 {
-  "id": "formula-cont_compound_interest",
+  "id": "thm-properties_exp",
   "level": "2",
-  "url": "sec-exponentials.html#formula-cont_compound_interest",
-  "type": "Formula",
-  "number": "5.1.20",
-  "title": "Compound Interest Formula.",
-  "body": " Compound Interest Formula   Assume dollars are invested in an account at an annual interest rate of that is compounded continuously . The amount of money in the account after years is The growth rate for this function is , which measures the increase in the balance over one year as a percentage of the previous balance.   "
+  "url": "sec-exponentials.html#thm-properties_exp",
+  "type": "Theorem",
+  "number": "5.1.3",
+  "title": "Properties of Exponential Functions.",
+  "body": " Properties of Exponential Functions   Assume and are real numbers.                         "
+},
+{
+  "id": "figure-49",
+  "level": "2",
+  "url": "sec-exponentials.html#figure-49",
+  "type": "Figure",
+  "number": "5.1.4",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "objectives-26",
+  "level": "2",
+  "url": "sec-exponentials.html#objectives-26",
+  "type": "Objectives",
+  "number": "5.1.3",
+  "title": "",
+  "body": "   Combine expressions involving the exponential    Identify graphs involving the exponential    "
+},
+{
+  "id": "exercise-36",
+  "level": "2",
+  "url": "sec-exponentials.html#exercise-36",
+  "type": "Worksheet Exercise",
+  "number": "5.1.3.1",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "exercise-37",
+  "level": "2",
+  "url": "sec-exponentials.html#exercise-37",
+  "type": "Worksheet Exercise",
+  "number": "5.1.3.2",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "exercise-38",
+  "level": "2",
+  "url": "sec-exponentials.html#exercise-38",
+  "type": "Worksheet Exercise",
+  "number": "5.1.3.3",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "exercise-39",
+  "level": "2",
+  "url": "sec-exponentials.html#exercise-39",
+  "type": "Worksheet Exercise",
+  "number": "5.1.3.4",
+  "title": "",
+  "body": " Match each function with its graph.                                  "
 },
 {
   "id": "sec-logarithms",
@@ -2760,89 +2697,413 @@ var ptx_lunr_docs = [
   "url": "sec-logarithms.html",
   "type": "Section",
   "number": "5.2",
-  "title": "The Logarithm",
-  "body": " The Logarithm   Assume is a positive real number. The graph of satisfies .           The horizontal line test for with (left) and (right).   We can verify this algebraically as follows. Suppose the points and both lie on the same horizontal line. Since they lie on a horizontal line, they must have the same -coordinates and so implies that and so . That is to say, the two points are the same point and so any horizontal line intersects the graph in at most one point. This tells us the exponential function is invertible.    The Logarithm with Base  Assume is a positive real number. The logarithm with base ,  Function  Logarithm  Base   ,   The logarithm with base  is the of .  In particular, for every real number and every positive real number ,     The Natural Logarithm  The natural logarithm ,  Function  Logarithm  Base   ,   The natural logarithm  is the logarithm with base .    Properties of the Logarithm  Assume is a positive real number. The properties of the logarithm are all consequences of the and .  The first property of the logarithm is that . Since , we can write Just as the graph of every exponential function passes through the point , the graph of every logarithm passes through the point .  For the remaining properties, recall that the exponential function turns addition into multiplication and subtraction into division: As the composition inverse of , inverse this relationship by turning multiplication into addition and division into subtraction.  To see this, assume and are positive real numbers. Let and . Observe that because and are composition inverses. This allows us to transform the logarithm of their product into the sum of their logarithms and the logarithm of their ratio into the difference of their logarithms   The final property is a consequence of these two. While it does not provide anything new, it is frequently useful. If is any positive real number and is any real number, then we think of as the product of copies of the number  If we transform the log of the product into the sum of the logs times, then we obtain the expression    Properties of the Logarithm Assume is a positive integer.        For all positive real numbers and ,     For all positive real numbers and      For all positive real numbers and all real numbers ,        The Change of Base Formulas  While inverse functions have many nice properties, it is often difficult to perform computations with them. For example, we can compute using the properties of inverse functions. Unfortunately, none of the properties we have discussed help us to compute . At best, we can observe that tells us . If we need a better approximation to the value of , then we will need the assistance of a computer.  On a modern computational tool like Desmos , the underscore symbol _ can be used to enter the command log_2(5) and the result is However, on most scientific and graphing calculators, there are only buttons labelled log and ln for the logarithms with base and base , respectively.  Fortunately, we can use the properties of the logarithm to rewrite a logarithm with base as a logarithm with a different base, . Assume is a positive real number. Let so that . First, rewrite so we have This gives us a way to convert the logarithm with base to a logarithm with base .   Base Change for Logarithms   Assume and are positive real numbers. For all positive real numbers ,      To compute on a calculator, compute or    In some sense, this justifies calling  the exponential function. For any positive number , we can write which allows us to regard the function as a horizontal scaling of the function by . Similarly, we can write so the function is a vertical scaling of the function .    Graphs of Logarithms  Since is the composition of , the graph of is the reflection of the graph of across the line . Just as for exponentials, the logarithms have the same basic shape depending on whether or . We have plotted the reflections across the -axis of the exponential growth functions in below.      The graphs of the logarithms with base , , , , , , and   For any positive real number , we can relate the graph of to the graph of using the . Write so that for all positive numbers , This tells us the graph of is the reflection of across the -axis.   Consider the logarithm with base . For all positive real numbers , by the . This tells us that we can graph by reflecting the graph of across the -axis.   We have plotted the reflections across the -axis of the logarithms in below.      The graphs of the logarithms with base , , , , , , and    "
+  "title": "The Natural Logarithm",
+  "body": " The Natural Logarithm   Looking at the graph of , it appears to satisfy .      The horizontal line test for   We can verify this algebraically as follows. Suppose the points and lie on the same horizontal line. These points must have the same -coordinates, so implies that and so . That is to say, the two points are the same point and so any horizontal line intersects the graph in at most one point. This tells us the exponential function is invertible.    The Natural Logarithm  The natural logarithm ,  Function  Logarithm  Natural   ,   The natural logarithm  is the inverse of .    Properties of the Natural Logarithm  As the composition inverse of , the logarithm inherits properties that are very similar to the . To describe these properties algebraically it is helpful to phrase the relationship between the exponential and the logarithm as pairing each real number with a positive real number via   Starting from the property , taking and in allows us to write We should note this algebraic fact fits with our geometric understanding. The graph of passes through the point . Since the graph of is the reflection of the graph of the exponential function across the line , the graph of the natural logarithm passes through the point .  If we introduce another real number, , then we obtain a second positive real number, . The function maps the sum of these numbers to the product of their pairs so the right-hand side of tells us that the logarithm pairs the product of positive real numbers with the sum of their pairs   Similarly, the function maps the difference of these numbers to the ratio of their pairs so the right-hand side of tells us that the logarithm pairs the ratio of positive real numbers with the difference of their pairs   Finally, we make the following observation as a convenience. If is any positive real number and is any real number, then we think of as the product of copies of the number  If we transform the log of the product into the sum of the logs times, then we obtain the expression   We summarize these properties below.   Properties of the Logarithm  Assume and are positive real numbers.                           The Graph of the Natural Logarithm  As the composition inverse, the graph of is obtained by reflecting the graph of across the line .         Solving Equations with Transcendental Functions  Sometimes, equations arise that involve the exponential function or the natural logarithm. The general tactic for solving equations of this type is to combine the exponentials or logarithms using and , then use the relation as appropriate, to obtain an equation without exponentials or logarithms.   To solve the equation for , we use the to rewrite Therefore there are two solutions to this equation: and .  We can check is a solution by substituting for on the left-hand side to get then on the right-hand side to get and observe they are the same.  Similarly, we can check is a solution by substituting for on the left-hand side to get then on the right-hand side to get and observe they are the same.    To solve the equation for , we use the to rewrite The two possible solutions are and . The solution is extraneous because is undefined. Therefore the only solution is .  We can verify this is a solution by substituting for to see        Solve equations involving the exponential function.  Solve equations involving the natural logarithm.     Solving Equations with Exponential Functions   Solve the equation for .    Solve the equation for .    Solve the equation for      Solving Equations with Logarithms   Solve the equation for .    Solve the equation for .    Solve the equation for .     "
 },
 {
-  "id": "figure-51",
+  "id": "figure-50",
   "level": "2",
-  "url": "sec-logarithms.html#figure-51",
+  "url": "sec-logarithms.html#figure-50",
   "type": "Figure",
   "number": "5.2.1",
   "title": "",
-  "body": "         The horizontal line test for with (left) and (right).  "
+  "body": "    The horizontal line test for  "
 },
 {
-  "id": "def-log_base_a",
+  "id": "definition-68",
   "level": "2",
-  "url": "sec-logarithms.html#def-log_base_a",
+  "url": "sec-logarithms.html#definition-68",
   "type": "Definition",
   "number": "5.2.2",
-  "title": "The Logarithm with Base <span class=\"process-math\">\\(a\\)<\/span>.",
-  "body": " The Logarithm with Base  Assume is a positive real number. The logarithm with base ,  Function  Logarithm  Base   ,   The logarithm with base  is the of .  In particular, for every real number and every positive real number ,   "
-},
-{
-  "id": "definition-72",
-  "level": "2",
-  "url": "sec-logarithms.html#definition-72",
-  "type": "Definition",
-  "number": "5.2.3",
   "title": "The Natural Logarithm.",
-  "body": " The Natural Logarithm  The natural logarithm ,  Function  Logarithm  Base   ,   The natural logarithm  is the logarithm with base .  "
+  "body": " The Natural Logarithm  The natural logarithm ,  Function  Logarithm  Natural   ,   The natural logarithm  is the inverse of .  "
 },
 {
   "id": "thm-properties_log",
   "level": "2",
   "url": "sec-logarithms.html#thm-properties_log",
   "type": "Theorem",
-  "number": "5.2.4",
+  "number": "5.2.3",
   "title": "Properties of the Logarithm.",
-  "body": " Properties of the Logarithm Assume is a positive integer.        For all positive real numbers and ,     For all positive real numbers and      For all positive real numbers and all real numbers ,     "
+  "body": " Properties of the Logarithm  Assume and are positive real numbers.                        "
 },
 {
-  "id": "formula-base_change",
+  "id": "figure-51",
   "level": "2",
-  "url": "sec-logarithms.html#formula-base_change",
-  "type": "Formula",
+  "url": "sec-logarithms.html#figure-51",
+  "type": "Figure",
+  "number": "5.2.4",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "example-74",
+  "level": "2",
+  "url": "sec-logarithms.html#example-74",
+  "type": "Example",
   "number": "5.2.5",
-  "title": "Base Change for Logarithms.",
-  "body": " Base Change for Logarithms   Assume and are positive real numbers. For all positive real numbers ,    "
+  "title": "",
+  "body": " To solve the equation for , we use the to rewrite Therefore there are two solutions to this equation: and .  We can check is a solution by substituting for on the left-hand side to get then on the right-hand side to get and observe they are the same.  Similarly, we can check is a solution by substituting for on the left-hand side to get then on the right-hand side to get and observe they are the same.  "
 },
 {
-  "id": "example-78",
+  "id": "example-75",
   "level": "2",
-  "url": "sec-logarithms.html#example-78",
+  "url": "sec-logarithms.html#example-75",
   "type": "Example",
   "number": "5.2.6",
   "title": "",
-  "body": " To compute on a calculator, compute or   "
+  "body": " To solve the equation for , we use the to rewrite The two possible solutions are and . The solution is extraneous because is undefined. Therefore the only solution is .  We can verify this is a solution by substituting for to see   "
+},
+{
+  "id": "objectives-27",
+  "level": "2",
+  "url": "sec-logarithms.html#objectives-27",
+  "type": "Objectives",
+  "number": "5.2.4",
+  "title": "",
+  "body": "  Solve equations involving the exponential function.  Solve equations involving the natural logarithm.   "
+},
+{
+  "id": "exercise-40",
+  "level": "2",
+  "url": "sec-logarithms.html#exercise-40",
+  "type": "Worksheet Exercise",
+  "number": "5.2.4.1",
+  "title": "",
+  "body": " Solve the equation for .  "
+},
+{
+  "id": "exercise-41",
+  "level": "2",
+  "url": "sec-logarithms.html#exercise-41",
+  "type": "Worksheet Exercise",
+  "number": "5.2.4.2",
+  "title": "",
+  "body": " Solve the equation for .  "
+},
+{
+  "id": "exercise-42",
+  "level": "2",
+  "url": "sec-logarithms.html#exercise-42",
+  "type": "Worksheet Exercise",
+  "number": "5.2.4.3",
+  "title": "",
+  "body": " Solve the equation for   "
+},
+{
+  "id": "exercise-43",
+  "level": "2",
+  "url": "sec-logarithms.html#exercise-43",
+  "type": "Worksheet Exercise",
+  "number": "5.2.4.4",
+  "title": "",
+  "body": " Solve the equation for .  "
+},
+{
+  "id": "exercise-44",
+  "level": "2",
+  "url": "sec-logarithms.html#exercise-44",
+  "type": "Worksheet Exercise",
+  "number": "5.2.4.5",
+  "title": "",
+  "body": " Solve the equation for .  "
+},
+{
+  "id": "exercise-45",
+  "level": "2",
+  "url": "sec-logarithms.html#exercise-45",
+  "type": "Worksheet Exercise",
+  "number": "5.2.4.6",
+  "title": "",
+  "body": " Solve the equation for .  "
+},
+{
+  "id": "sec-other_exponentials",
+  "level": "1",
+  "url": "sec-other_exponentials.html",
+  "type": "Section",
+  "number": "5.3",
+  "title": "Other Exponential Functions",
+  "body": " Other Exponential Functions   The number is chosen for the exponential function specifically because it has nice analytic properties, which are the domain of calculus. Since these properties are beyond the scope of an algebra course, we focus only on the algebraic similarities between exponential functions with different bases.    Changing the Base of the Exponential  When we defined the exponential function , there was nothing algebraically interesting about using the number . We could just as well have chosen any other positive integer  we exclude simply because the constant function is rather boring. Had we chosen a different positive integer, we would have started from the following definition.   Assume is a fixed positive real number. The exponential function with base  Function  Exponential  is defined by .   Exponential function with base  The number is called the base   Function  Exponential  Base  of the exponential function.   At this point, you might be trying to reconcile in your mind how there could be more than one. The answer, thankfully, is there really is not a second exponential function. Since the natural logarithm is defined for all positive real numbers, we can rewrite so that with a little algebraic gymnastics,   To understand the function in general, we need to consider two cases. When , and so is simply a of , which we can see in       The graphs of the exponential functions with base , , , , , , and   When , and so is obtained from by a and a of .      The graphs of the exponential functions with base , , , , , , and     Properties of Exponential Functions  Unsurprisingly, all of the same properties enjoyed by are also enjoyed by .   We can use these properties to compare the effect of choosing a different base by measuring the relative change .   Let be a function that is defined on the interval . The relative change   Function  Relative Change  of on the interval is    Since the exponential functions are defined for all real numbers, we can consider any interval of unit length by taking a number as the left endpoint and as the right endpoint. Over this interval, the relative change is    Assume is a positive number. The number is called the growth rate   Function  Exponential  Growth Rate  of if or the decay rate   Function  Exponential  Decay Rate  of if .    When , we say the function models exponential growth   Function  Exponential  Growth  and we call the number the growth factor .  Function  Exponential  Growth Factor      When , we say the function models exponential decay   Function  Exponential  Decay  and we call the number the decay factor .  Function  Exponential  Decay Factor         Working with Exponentials     Combine expressions involving exponentials    Identify when an exponential function models growth    Identify when an exponential function models decay       Use the properties of exponential functions to rewrite each equation so there is only one exponential term.                     Match each function with its graph.                                     "
+},
+{
+  "id": "def-exponential_function",
+  "level": "2",
+  "url": "sec-other_exponentials.html#def-exponential_function",
+  "type": "Definition",
+  "number": "5.3.1",
+  "title": "",
+  "body": " Assume is a fixed positive real number. The exponential function with base  Function  Exponential  is defined by .   Exponential function with base  The number is called the base   Function  Exponential  Base  of the exponential function.  "
+},
+{
+  "id": "fig-exponential_growth",
+  "level": "2",
+  "url": "sec-other_exponentials.html#fig-exponential_growth",
+  "type": "Figure",
+  "number": "5.3.2",
+  "title": "",
+  "body": "    The graphs of the exponential functions with base , , , , , , and  "
+},
+{
+  "id": "fig-exponential_decay",
+  "level": "2",
+  "url": "sec-other_exponentials.html#fig-exponential_decay",
+  "type": "Figure",
+  "number": "5.3.3",
+  "title": "",
+  "body": "    The graphs of the exponential functions with base , , , , , , and  "
+},
+{
+  "id": "definition-70",
+  "level": "2",
+  "url": "sec-other_exponentials.html#definition-70",
+  "type": "Definition",
+  "number": "5.3.4",
+  "title": "",
+  "body": " Let be a function that is defined on the interval . The relative change   Function  Relative Change  of on the interval is   "
+},
+{
+  "id": "def-exp_unit_relative_change",
+  "level": "2",
+  "url": "sec-other_exponentials.html#def-exp_unit_relative_change",
+  "type": "Definition",
+  "number": "5.3.5",
+  "title": "",
+  "body": " Assume is a positive number. The number is called the growth rate   Function  Exponential  Growth Rate  of if or the decay rate   Function  Exponential  Decay Rate  of if .    When , we say the function models exponential growth   Function  Exponential  Growth  and we call the number the growth factor .  Function  Exponential  Growth Factor      When , we say the function models exponential decay   Function  Exponential  Decay  and we call the number the decay factor .  Function  Exponential  Decay Factor      "
+},
+{
+  "id": "objectives-28",
+  "level": "2",
+  "url": "sec-other_exponentials.html#objectives-28",
+  "type": "Objectives",
+  "number": "5.3.3",
+  "title": "",
+  "body": "   Combine expressions involving exponentials    Identify when an exponential function models growth    Identify when an exponential function models decay    "
+},
+{
+  "id": "exercise-46",
+  "level": "2",
+  "url": "sec-other_exponentials.html#exercise-46",
+  "type": "Worksheet Exercise",
+  "number": "5.3.3.1",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "exercise-47",
+  "level": "2",
+  "url": "sec-other_exponentials.html#exercise-47",
+  "type": "Worksheet Exercise",
+  "number": "5.3.3.2",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "exercise-48",
+  "level": "2",
+  "url": "sec-other_exponentials.html#exercise-48",
+  "type": "Worksheet Exercise",
+  "number": "5.3.3.3",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "exercise-49",
+  "level": "2",
+  "url": "sec-other_exponentials.html#exercise-49",
+  "type": "Worksheet Exercise",
+  "number": "5.3.3.4",
+  "title": "",
+  "body": " Match each function with its graph.                                  "
+},
+{
+  "id": "sec-other_logarithms",
+  "level": "1",
+  "url": "sec-other_logarithms.html",
+  "type": "Section",
+  "number": "5.4",
+  "title": "Other Logarithmic Functions",
+  "body": " Other Logarithmic Functions   Just as there is essentially only one exponential function, it should come as no surprise that there is essentially only one logarithm. We can regard the exponential function with base as the composition The condition guarantees that and thus we may invert using the division by function By , the inverse of the exponential with base is the function defined by     The Logarithm with Base  Assume is a positive real number. The logarithm with base ,  Function  Logarithm  Base  is the function ,   The logarithm with base  defined by   In particular, for every real number and every positive real number ,     Changing the Base of the Logarithm  Our understanding of the natural logarithm and graph transformations allows us to very quickly visualize the logarithm with base . Just as for exponentials, there are two cases: and . When , and so the graph of is obtained as a vertical scaling of by . We have plotted the logarithm for several bases in .      The graphs of the logarithms with base , , , , , , and   When , , and so the graph of is obtained by vertically scaling by and reflecting across the -axis. We have plotted the logarithm for several bases in .      The graphs of the logarithms with base , , , , , , and   Explicitly defining the logarithm with base in terms of the natural logarithm also allows us a simple way to convert between logarithms with different bases. Assume and are both positive numbers. Multiplying both sides of the equation by the number allows us to write We can substitute this for in the definition of the logarithm base to produce It is often convenient to involve only two bases in this expression, so we rewrite    Base Change for Logarithms   Assume and are positive real numbers. For all positive real numbers ,       The logarithm often written  means different things to different people, often depending on the context.   Most mathematicians (and mathematical texts) will write to mean the logarithm with base . This is because mathematicians are primarily interested in the functions and their behaviors, not numbers or numerical data.    Most computer scientists will write to mean the logarithm with base . This is because computer scientists most frequently work with numbers and numerical data expressed in base or binary  the number system used for computational devices. In base , numbers are represented as strings with digits that are either or . For example, in base the string stands for the number     Most scientists and engineers will write to mean the logarithm with base . This is because scientists and engineers most frequently work with numbers and numerical data expressed in the usual base 10 or decimal number system. In contrast to base , the base 10 number system consists of strings of digits that are allowed to be one of , , , , , , , , , or . For example, in base the string stands for           Solve equations involving exponential functions.  Solve equations involving logarithms.     Solving Equations with Exponential Functions   Solve the equation for .    Solve the equation for .    Solve the equation for      Solving Equations with Logarithms   Solve the equation for .    Solve the equation for .    Solve the equation for .     "
+},
+{
+  "id": "def-log_base_a",
+  "level": "2",
+  "url": "sec-other_logarithms.html#def-log_base_a",
+  "type": "Definition",
+  "number": "5.4.1",
+  "title": "The Logarithm with Base <span class=\"process-math\">\\(a\\)<\/span>.",
+  "body": " The Logarithm with Base  Assume is a positive real number. The logarithm with base ,  Function  Logarithm  Base  is the function ,   The logarithm with base  defined by   In particular, for every real number and every positive real number ,   "
 },
 {
   "id": "fig-refl_exponential_growth",
   "level": "2",
-  "url": "sec-logarithms.html#fig-refl_exponential_growth",
+  "url": "sec-other_logarithms.html#fig-refl_exponential_growth",
   "type": "Figure",
-  "number": "5.2.7",
+  "number": "5.4.2",
   "title": "",
   "body": "    The graphs of the logarithms with base , , , , , , and  "
 },
 {
-  "id": "example-79",
+  "id": "fig-refl_exponential_decay",
   "level": "2",
-  "url": "sec-logarithms.html#example-79",
+  "url": "sec-other_logarithms.html#fig-refl_exponential_decay",
+  "type": "Figure",
+  "number": "5.4.3",
+  "title": "",
+  "body": "    The graphs of the logarithms with base , , , , , , and  "
+},
+{
+  "id": "formula-base_change",
+  "level": "2",
+  "url": "sec-other_logarithms.html#formula-base_change",
+  "type": "Formula",
+  "number": "5.4.4",
+  "title": "Base Change for Logarithms.",
+  "body": " Base Change for Logarithms   Assume and are positive real numbers. For all positive real numbers ,    "
+},
+{
+  "id": "remark-12",
+  "level": "2",
+  "url": "sec-other_logarithms.html#remark-12",
+  "type": "Remark",
+  "number": "5.4.5",
+  "title": "",
+  "body": "  The logarithm often written  means different things to different people, often depending on the context.   Most mathematicians (and mathematical texts) will write to mean the logarithm with base . This is because mathematicians are primarily interested in the functions and their behaviors, not numbers or numerical data.    Most computer scientists will write to mean the logarithm with base . This is because computer scientists most frequently work with numbers and numerical data expressed in base or binary  the number system used for computational devices. In base , numbers are represented as strings with digits that are either or . For example, in base the string stands for the number     Most scientists and engineers will write to mean the logarithm with base . This is because scientists and engineers most frequently work with numbers and numerical data expressed in the usual base 10 or decimal number system. In contrast to base , the base 10 number system consists of strings of digits that are allowed to be one of , , , , , , , , , or . For example, in base the string stands for      "
+},
+{
+  "id": "objectives-29",
+  "level": "2",
+  "url": "sec-other_logarithms.html#objectives-29",
+  "type": "Objectives",
+  "number": "5.4.2",
+  "title": "",
+  "body": "  Solve equations involving exponential functions.  Solve equations involving logarithms.   "
+},
+{
+  "id": "exercise-50",
+  "level": "2",
+  "url": "sec-other_logarithms.html#exercise-50",
+  "type": "Worksheet Exercise",
+  "number": "5.4.2.1",
+  "title": "",
+  "body": " Solve the equation for .  "
+},
+{
+  "id": "exercise-51",
+  "level": "2",
+  "url": "sec-other_logarithms.html#exercise-51",
+  "type": "Worksheet Exercise",
+  "number": "5.4.2.2",
+  "title": "",
+  "body": " Solve the equation for .  "
+},
+{
+  "id": "exercise-52",
+  "level": "2",
+  "url": "sec-other_logarithms.html#exercise-52",
+  "type": "Worksheet Exercise",
+  "number": "5.4.2.3",
+  "title": "",
+  "body": " Solve the equation for   "
+},
+{
+  "id": "exercise-53",
+  "level": "2",
+  "url": "sec-other_logarithms.html#exercise-53",
+  "type": "Worksheet Exercise",
+  "number": "5.4.2.4",
+  "title": "",
+  "body": " Solve the equation for .  "
+},
+{
+  "id": "exercise-54",
+  "level": "2",
+  "url": "sec-other_logarithms.html#exercise-54",
+  "type": "Worksheet Exercise",
+  "number": "5.4.2.5",
+  "title": "",
+  "body": " Solve the equation for .  "
+},
+{
+  "id": "exercise-55",
+  "level": "2",
+  "url": "sec-other_logarithms.html#exercise-55",
+  "type": "Worksheet Exercise",
+  "number": "5.4.2.6",
+  "title": "",
+  "body": " Solve the equation for .  "
+},
+{
+  "id": "sec-modeling",
+  "level": "1",
+  "url": "sec-modeling.html",
+  "type": "Section",
+  "number": "5.5",
+  "title": "Modeling with Exponential Functions",
+  "body": " Modeling with Exponential Functions   Exponential functions are of interest to scientists because they are useful in modeling natural phenomena. In this section, we explore some examples that demonstrate how exponential functions can be used for modeling.    Exponential Growth   Population Growth  A biologist observes a population over a six year period. The biologist measures the size of the observed population at the beginning and end of each of the years. In an effort to understand how the population is changing, the biologist records the year-to-year change as a numeric value and as a percentage of the initial population for the year.   Observed Population by Year    Year  Initial Population  Final Population  Change  Percent Change                                               Using the table, the biologist notices the following relations amongst the population sizes This leads the biologist to conclude that the size of the population can be measured with the exponential function where is the amount of time in years that has elapsed. This function agrees with the observations for , and predicts the size of the population at the end of the seventh year will be     Compound Interest  Your local bank offers a savings account with a annual interest that is compounded monthly. This means the bank will add of your current balance to your account every month. In other words, your balance grows at a rate of  per month .  The growth factor for the exponential function that models the amount of money in the account after  months is Assuming you deposit into a savings account, the balance of the account after  months is given by the function   Customarily, one measures investments as a function of the number of years that have elapsed, rather than months. Since there are months in a year, we compress the time scale by a factor of to obtain the function that measures the amount of money in the account after  years .  The table below shows the amount of money in the account for a five year period, with all figures rounded to two decimal places.   Amount of Money in Savings Account    Year  Initial Amount ( )  Final Amount ( )  Change ( )  Growth Rate (Annual)                                        Note that the growth factor for this function is , so the growth rate is slightly higher than the interest rate ( ).   In general, we can model compound interest using the following formula.   Compound Interest Formula   Assume dollars are invested in an account at an annual interest rate of that is compounded times each year. The amount of money in the account after years is The growth rate for this function is which measures the increase in the balance over one year as a percentage of the previous balance.    For interest that compounds continuously , we have the following formula.   Continuously Compounding Interest Formula   Assume dollars are invested in an account at an annual interest rate of that is compounded continuously . The amount of money in the account after years is The growth rate for this function is , which measures the increase in the balance over one year as a percentage of the previous balance.     We can always express compounding interest as continuously compounding interest using the logarithm.    Converting to Continuously Compounding Interest As we saw in , we can model the balance of a savings account with principal investment of at an annual interest rate of compounded monthly with the function Since the growth factor of this function is , we have and thus we can rewrite with base as     Exponential Decay   Half-Life  The half-life of the radioactive isotope technetium-99m is hours . Assume we start with a sample of grams of technetium-99m. The table below lists the amount at the beginning and the end of each six hour period over the course of a day.   Amount of technetium-99m over 24 hours    Period  Initial Amount (grams)  Final Amount (grams)  Change (grams)  Percent Change                                 We can model the amount of the sample remaining as a function of the number of hour periods that have passed using the exponential function However, it would be more convenient to model the amount of the sample as a function of the number of hours that have passed. To do this, we first recognize that hour is of a period. We can stretch the time scale by a factor of to obtain the function that measures the amount of the technetium-99m sample remaining after hours have elapsed. Using this function, we have recorded the amount remaining after each hour for the first six hour period in the table below.   Amount of technetium-99m over 24 hours    Hour  Amount Remaining (grams)  Percent Change                                     "
+},
+{
+  "id": "example-exp_growth",
+  "level": "2",
+  "url": "sec-modeling.html#example-exp_growth",
   "type": "Example",
-  "number": "5.2.8",
-  "title": "",
-  "body": " Consider the logarithm with base . For all positive real numbers , by the . This tells us that we can graph by reflecting the graph of across the -axis.  "
+  "number": "5.5.1",
+  "title": "Population Growth.",
+  "body": " Population Growth  A biologist observes a population over a six year period. The biologist measures the size of the observed population at the beginning and end of each of the years. In an effort to understand how the population is changing, the biologist records the year-to-year change as a numeric value and as a percentage of the initial population for the year.   Observed Population by Year    Year  Initial Population  Final Population  Change  Percent Change                                               Using the table, the biologist notices the following relations amongst the population sizes This leads the biologist to conclude that the size of the population can be measured with the exponential function where is the amount of time in years that has elapsed. This function agrees with the observations for , and predicts the size of the population at the end of the seventh year will be   "
 },
 {
-  "id": "figure-53",
+  "id": "example-compound_interest",
   "level": "2",
-  "url": "sec-logarithms.html#figure-53",
-  "type": "Figure",
-  "number": "5.2.9",
+  "url": "sec-modeling.html#example-compound_interest",
+  "type": "Example",
+  "number": "5.5.3",
+  "title": "Compound Interest.",
+  "body": " Compound Interest  Your local bank offers a savings account with a annual interest that is compounded monthly. This means the bank will add of your current balance to your account every month. In other words, your balance grows at a rate of  per month .  The growth factor for the exponential function that models the amount of money in the account after  months is Assuming you deposit into a savings account, the balance of the account after  months is given by the function   Customarily, one measures investments as a function of the number of years that have elapsed, rather than months. Since there are months in a year, we compress the time scale by a factor of to obtain the function that measures the amount of money in the account after  years .  The table below shows the amount of money in the account for a five year period, with all figures rounded to two decimal places.   Amount of Money in Savings Account    Year  Initial Amount ( )  Final Amount ( )  Change ( )  Growth Rate (Annual)                                        Note that the growth factor for this function is , so the growth rate is slightly higher than the interest rate ( ).  "
+},
+{
+  "id": "formula-compound_interest",
+  "level": "2",
+  "url": "sec-modeling.html#formula-compound_interest",
+  "type": "Formula",
+  "number": "5.5.5",
+  "title": "Compound Interest Formula.",
+  "body": " Compound Interest Formula   Assume dollars are invested in an account at an annual interest rate of that is compounded times each year. The amount of money in the account after years is The growth rate for this function is which measures the increase in the balance over one year as a percentage of the previous balance.   "
+},
+{
+  "id": "formula-cont_compound_interest",
+  "level": "2",
+  "url": "sec-modeling.html#formula-cont_compound_interest",
+  "type": "Formula",
+  "number": "5.5.6",
+  "title": "Continuously Compounding Interest Formula.",
+  "body": " Continuously Compounding Interest Formula   Assume dollars are invested in an account at an annual interest rate of that is compounded continuously . The amount of money in the account after years is The growth rate for this function is , which measures the increase in the balance over one year as a percentage of the previous balance.   "
+},
+{
+  "id": "remark-13",
+  "level": "2",
+  "url": "sec-modeling.html#remark-13",
+  "type": "Remark",
+  "number": "5.5.7",
   "title": "",
-  "body": "    The graphs of the logarithms with base , , , , , , and  "
+  "body": " We can always express compounding interest as continuously compounding interest using the logarithm.  "
+},
+{
+  "id": "example-78",
+  "level": "2",
+  "url": "sec-modeling.html#example-78",
+  "type": "Example",
+  "number": "5.5.8",
+  "title": "Converting to Continuously Compounding Interest.",
+  "body": " Converting to Continuously Compounding Interest As we saw in , we can model the balance of a savings account with principal investment of at an annual interest rate of compounded monthly with the function Since the growth factor of this function is , we have and thus we can rewrite with base as  "
+},
+{
+  "id": "example-exp_decay",
+  "level": "2",
+  "url": "sec-modeling.html#example-exp_decay",
+  "type": "Example",
+  "number": "5.5.9",
+  "title": "Half-Life.",
+  "body": " Half-Life  The half-life of the radioactive isotope technetium-99m is hours . Assume we start with a sample of grams of technetium-99m. The table below lists the amount at the beginning and the end of each six hour period over the course of a day.   Amount of technetium-99m over 24 hours    Period  Initial Amount (grams)  Final Amount (grams)  Change (grams)  Percent Change                                 We can model the amount of the sample remaining as a function of the number of hour periods that have passed using the exponential function However, it would be more convenient to model the amount of the sample as a function of the number of hours that have passed. To do this, we first recognize that hour is of a period. We can stretch the time scale by a factor of to obtain the function that measures the amount of the technetium-99m sample remaining after hours have elapsed. Using this function, we have recorded the amount remaining after each hour for the first six hour period in the table below.   Amount of technetium-99m over 24 hours    Hour  Amount Remaining (grams)  Percent Change                                   "
 },
 {
   "id": "appendix-1",
@@ -2854,9 +3115,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols   "
 },
 {
-  "id": "subsection-43",
+  "id": "subsection-47",
   "level": "1",
-  "url": "subsection-43.html",
+  "url": "subsection-47.html",
   "type": "Subsection",
   "number": "B.1",
   "title": "Polynomials",
@@ -2865,52 +3126,52 @@ var ptx_lunr_docs = [
 {
   "id": "fig-line",
   "level": "2",
-  "url": "subsection-43.html#fig-line",
+  "url": "subsection-47.html#fig-line",
   "type": "Figure",
-  "number": "B.1.10",
+  "number": "B.1.12",
   "title": "the graph of <span class=\"process-math\">\\(y = x\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-parabola",
   "level": "2",
-  "url": "subsection-43.html#fig-parabola",
+  "url": "subsection-47.html#fig-parabola",
   "type": "Figure",
-  "number": "B.1.11",
+  "number": "B.1.13",
   "title": "the graph of <span class=\"process-math\">\\(y = x^2\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-cubic",
   "level": "2",
-  "url": "subsection-43.html#fig-cubic",
+  "url": "subsection-47.html#fig-cubic",
   "type": "Figure",
-  "number": "B.1.12",
+  "number": "B.1.14",
   "title": "the graph of <span class=\"process-math\">\\(y = x^3\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-quartic",
   "level": "2",
-  "url": "subsection-43.html#fig-quartic",
+  "url": "subsection-47.html#fig-quartic",
   "type": "Figure",
-  "number": "B.1.13",
+  "number": "B.1.15",
   "title": "the graph of <span class=\"process-math\">\\(y = x^4\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-quintic",
   "level": "2",
-  "url": "subsection-43.html#fig-quintic",
+  "url": "subsection-47.html#fig-quintic",
   "type": "Figure",
-  "number": "B.1.14",
+  "number": "B.1.16",
   "title": "the graph of <span class=\"process-math\">\\(y = x^5\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
-  "id": "subsection-44",
+  "id": "subsection-48",
   "level": "1",
-  "url": "subsection-44.html",
+  "url": "subsection-48.html",
   "type": "Subsection",
   "number": "B.2",
   "title": "Roots",
@@ -2919,43 +3180,43 @@ var ptx_lunr_docs = [
 {
   "id": "fig-sq_root",
   "level": "2",
-  "url": "subsection-44.html#fig-sq_root",
+  "url": "subsection-48.html#fig-sq_root",
   "type": "Figure",
-  "number": "B.2.15",
+  "number": "B.2.17",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-cube_root",
   "level": "2",
-  "url": "subsection-44.html#fig-cube_root",
+  "url": "subsection-48.html#fig-cube_root",
   "type": "Figure",
-  "number": "B.2.16",
+  "number": "B.2.18",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt[3]{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-fourth_root",
   "level": "2",
-  "url": "subsection-44.html#fig-fourth_root",
+  "url": "subsection-48.html#fig-fourth_root",
   "type": "Figure",
-  "number": "B.2.17",
+  "number": "B.2.19",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt[4]{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-fifth_root",
   "level": "2",
-  "url": "subsection-44.html#fig-fifth_root",
+  "url": "subsection-48.html#fig-fifth_root",
   "type": "Figure",
-  "number": "B.2.18",
+  "number": "B.2.20",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt[5]{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
-  "id": "subsection-45",
+  "id": "subsection-49",
   "level": "1",
-  "url": "subsection-45.html",
+  "url": "subsection-49.html",
   "type": "Subsection",
   "number": "B.3",
   "title": "Rational Functions",
@@ -2964,52 +3225,52 @@ var ptx_lunr_docs = [
 {
   "id": "fig-1_x",
   "level": "2",
-  "url": "subsection-45.html#fig-1_x",
+  "url": "subsection-49.html#fig-1_x",
   "type": "Figure",
-  "number": "B.3.19",
+  "number": "B.3.21",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-1_x_2",
   "level": "2",
-  "url": "subsection-45.html#fig-1_x_2",
+  "url": "subsection-49.html#fig-1_x_2",
   "type": "Figure",
-  "number": "B.3.20",
+  "number": "B.3.22",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^2}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-1_x_3",
   "level": "2",
-  "url": "subsection-45.html#fig-1_x_3",
+  "url": "subsection-49.html#fig-1_x_3",
   "type": "Figure",
-  "number": "B.3.21",
+  "number": "B.3.23",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^3}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-1_x_4",
   "level": "2",
-  "url": "subsection-45.html#fig-1_x_4",
+  "url": "subsection-49.html#fig-1_x_4",
   "type": "Figure",
-  "number": "B.3.22",
+  "number": "B.3.24",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^4}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
   "id": "fig-1_x_5",
   "level": "2",
-  "url": "subsection-45.html#fig-1_x_5",
+  "url": "subsection-49.html#fig-1_x_5",
   "type": "Figure",
-  "number": "B.3.23",
+  "number": "B.3.25",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^5}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
-  "id": "subsection-46",
+  "id": "subsection-50",
   "level": "1",
-  "url": "subsection-46.html",
+  "url": "subsection-50.html",
   "type": "Subsection",
   "number": "B.4",
   "title": "Miscellaneous Functions",
@@ -3018,20 +3279,29 @@ var ptx_lunr_docs = [
 {
   "id": "fig-abs_val",
   "level": "2",
-  "url": "subsection-46.html#fig-abs_val",
+  "url": "subsection-50.html#fig-abs_val",
   "type": "Figure",
-  "number": "B.4.24",
+  "number": "B.4.26",
   "title": "the graph of <span class=\"process-math\">\\(y = \\abs{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
-  "id": "appendix-3",
+  "id": "references-1",
   "level": "1",
-  "url": "appendix-3.html",
-  "type": "Appendix",
-  "number": "C",
+  "url": "references-1.html",
+  "type": "References",
+  "number": "",
   "title": "References",
-  "body": " References   Centers for Disease Control  What is Radiation? Properties of Radioactive Isotopes  https:\/\/www.cdc.gov\/nceh\/radiation\/isotopes.html#halflife  August 10, 2015  2023-12-13   "
+  "body": "  Centers for Disease Control  What is Radiation? Properties of Radioactive Isotopes  https:\/\/www.cdc.gov\/nceh\/radiation\/isotopes.html#halflife  August 10, 2015  2023-12-13   "
+},
+{
+  "id": "glossary-1",
+  "level": "1",
+  "url": "glossary-1.html",
+  "type": "Glossary",
+  "number": "",
+  "title": "Glossary",
+  "body": " "
 },
 {
   "id": "index-1",
