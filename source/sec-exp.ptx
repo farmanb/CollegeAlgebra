@@ -119,12 +119,12 @@
 	    </li>
 	    <li>
 	      <p>
-		<m>\exp(x + x^\prime) = a^{x+x^\prime} = a^x a^{x^\prime} = \exp(x)\exp(x^\prime).</m>
+		<m>\exp(x + x^\prime)  = \exp(x)\exp(x^\prime).</m>
 	      </p>
 	    </li>
 	    <li>
 	      <p>
-		<m>\exp(x - x^\prime) = \exp^{x-x^\prime} = \frac{a^x}{a^{x^\prime}} = \frac{\exp(x)}{\exp(x^\prime)}.</m>
+		<m>\exp(x - x^\prime) = \frac{\exp(x)}{\exp(x^\prime)}.</m>
 	      </p>
 	    </li>
 	    <li>
@@ -168,11 +168,17 @@
   </subsection>
   
   <worksheet>
+    <title>Working with the Exponential</title>
     <objectives>
       <ul>
 	<li>
 	  <p>
-	    Combine expressions involving exponentials.
+	    Combine expressions involving the exponential
+	  </p>
+	</li>
+	<li>
+	  <p>
+	    Identify graphs involving the exponential
 	  </p>
 	</li>
       </ul>
@@ -180,7 +186,7 @@
     <page>
       <introduction>
 	<p>
-	  Use <xref ref="thm-properties_exp" text="title"/> to rewrite each equation so there is only <alert>one</alert> exponential term.
+	  Use the <xref ref="thm-properties_exp" text="title"/> to rewrite each equation so there is only <alert>one</alert> exponential term.
 	</p>
       </introduction>
 

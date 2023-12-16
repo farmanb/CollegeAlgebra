@@ -238,10 +238,10 @@
     <objectives>
       <ul>
 	<li>
-	  Solve equations involving exponential functions.
+	  Solve equations involving the exponential function.
 	</li>
 	<li>
-	  Solve equations involving logarithms.
+	  Solve equations involving the natural logarithm.
 	</li>
       </ul>
     </objectives>
@@ -251,7 +251,7 @@
 	<statement>
 	  <p>
 	    Solve the equation
-	    <me>\exp^{2x + 1} = \exp(2)</me>
+	    <me>\exp(2x + 1) = \exp(2)</me>
 	    for <m>x</m>.
 	  </p>
 	</statement>
@@ -261,7 +261,7 @@
 	<statement>
 	  <p>
 	    Solve the equation 
-	    <me>\exp(-4x) = \exp(4)\exp(\left(x^2\right)</me>
+	    <me>\exp(-4x) = \exp(4)\exp\left(x^2\right)</me>
 	    for <m>x</m>.
 	  </p>
 	</statement>
