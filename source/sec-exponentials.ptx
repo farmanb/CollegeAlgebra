@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <section xml:id="sec-exponentials" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>The Exponential Function</title>
+  <title>Exponential Functions</title>
 
   <introduction>
     <p>
@@ -12,19 +13,620 @@
       </idx>
       is any function that cannot be constructed in this manner.
       While it is certainly odd to discuss functions that cannot be constructed by algebraic means in a course on algebra, many calculus courses expect students to already be familiar with these functions.
-      We focus solely on the algebraic properties of these functions.
+      We focus only on the algebraic properties of exponential and logarithmic functions.
     </p>
   </introduction>
+  
+  <definition xml:id="def-exponential_function">
+    <p>
+      Assume <m>a \neq 1</m> is a fixed positive real number.
+      The <term>exponential function with base <m>a</m></term><idx>
+	<h>Function</h>
+	<h>Exponential</h>
+      </idx>
+      is <m>\Exp{a} \colon \R \to (0,\infty)</m> defined by <m>\Exp{a}(x) = a^x</m>.
+      <notation>
+	<usage><m>\Exp{a}</m></usage>
+	<description>Exponential function with base <m>a</m></description>
+      </notation>
+      The number <m>a</m> is called the <term>base</term>
+      <idx>
+	<h>Function</h>
+	<h>Exponential</h>
+	<h>Base</h>
+      </idx>
+      of the exponential function.
+    </p>
+  </definition>
 
   <subsection>
-    <title>Properties of the Exponential Function</title>
+    <title>Modeling with Exponential Functions</title>
+    <p>
+      Exponential functions are of interest to scientists because they are useful in modeling natural phenomena.
+    </p>
+
+    <example xml:id="example-exp_growth">
+      <p>
+	A biologist observes a population over a six year period.
+	The biologist measures the size of the observed population at the beginning and end of each of the years.
+	In an effort to understand how the population is changing, the biologist records the year-to-year change as a numeric value and as a percentage of the initial population for the year.
+      </p>
+      <table>
+	<title>Observed Population by Year</title>
+	<tabular halign="center">
+	  <row header="yes">
+	    <cell>Year</cell>
+	    <cell>Initial Population</cell>
+	    <cell>Final Population</cell>
+	    <cell>Change</cell>
+	    <cell>Percent Change</cell>
+	  </row>
+	  <row>
+	    <cell><m>1</m></cell>
+	    <cell><m>64</m></cell>
+	    <cell><m>96</m></cell>
+	    <cell><m>+32</m></cell>
+	    <cell><m>+50\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>2</m></cell>
+	    <cell><m>96</m></cell>
+	    <cell><m>144</m></cell>
+	    <cell><m>+48</m></cell>
+	    <cell><m>+50\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>3</m></cell>
+	    <cell><m>144</m></cell>
+	    <cell><m>216</m></cell>
+	    <cell><m>+72</m></cell>
+	    <cell><m>+50\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>4</m></cell>
+	    <cell><m>216</m></cell>
+	    <cell><m>324</m></cell>
+	    <cell><m>+108</m></cell>
+	    <cell><m>+50\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>5</m></cell>
+	    <cell><m>324</m></cell>
+	    <cell><m>486</m></cell>
+	    <cell><m>+162</m></cell>
+	    <cell><m>+50\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>6</m></cell>
+	    <cell><m>486</m></cell>
+	    <cell><m>729</m></cell>
+	    <cell><m>+243</m></cell>
+	    <cell><m>+50\%</m></cell>
+	  </row>
+	</tabular>
+      </table>
+
+      <p>
+	Using the table, the biologist notices the following relations amongst the population sizes
+	<md>
+	  <mrow>96 \amp= 64 + \frac{64}{2} = 64\left(1 + \frac{1}{2}\right) = 64\left(\frac{3}{2}\right) = 64\Exp{\frac{3}{2}}(1)</mrow>
+	  <mrow>144 \amp= 96\left(\frac{3}{2}\right) = 64\left(\frac{3}{2}\right)\left(\frac{3}{2}\right) = 64\left(\frac{3}{2}\right)^2    = 64\Exp{\frac{3}{2}}(2)</mrow>
+	  <mrow>216 \amp= 144\left(\frac{3}{2}\right) = 64\left(\frac{3}{2}\right)^2\left(\frac{3}{2}\right) = 64\left(\frac{3}{2}\right)^3 = 64\Exp{\frac{3}{2}}(3)</mrow>
+	  <mrow>324 \amp= 216\left(\frac{3}{2}\right) = 64\left(\frac{3}{2}\right)^3\left(\frac{3}{2}\right) = 64\left(\frac{3}{2}\right)^4 = 64\Exp{\frac{3}{2}}(4)</mrow>
+	  <mrow>486 \amp= 324\left(\frac{3}{2}\right) = 64\left(\frac{3}{2}\right)^4\left(\frac{3}{2}\right) = 64\left(\frac{3}{2}\right)^5 = 64\Exp{\frac{3}{2}}(5)</mrow>
+	  <mrow>729 \amp= 486\left(\frac{3}{2}\right) = 64\left(\frac{3}{2}\right)^5\left(\frac{3}{2}\right) = 64\left(\frac{3}{2}\right)^6 = 64\Exp{\frac{3}{2}}(6).</mrow>
+	</md>
+	This leads the biologist to conclude that the size of the population can be measured with the exponential function
+	<me>P(t) = 64\Exp{\frac{3}{2}}(t) = 64\left(\frac{3}{2}\right)^t,</me>
+	where <m>t</m> is the amount of time in years that has elapsed.
+	This function agrees with the observations for <m>t \in \{1, 2, 3, 4, 5 ,6\}</m>, and predicts the size of the population at the end of the seventh year will be
+	<me>P(7) = 64\left(\frac{3}{2}\right)^7 = 1093.5 \approx 1094.</me>
+      </p>
+    </example>
+
+    <example xml:id="example-exp_decay">
+      <p>
+	The half-life of the radioactive isotope technetium-99m is <m>6</m> hours <xref ref="ref-CDC_half_life"/>.
+	Assume we start with a sample of <m>64</m> grams of technetium-99m.
+	The table below lists the amount at the beginning and the end of each six hour period over the course of a day.
+      </p>
+      <table>
+	<title>Amount of technetium-99m over 24 hours</title>
+	<tabular halign="center">
+	  <row header="yes">
+	    <cell>Period</cell>
+	    <cell>Initial Amount (grams)</cell>
+	    <cell>Final Amount (grams)</cell>
+	    <cell>Change (grams)</cell>
+	    <cell>Percent Change</cell>
+	  </row>
+	  <row>
+	    <cell><m>1</m></cell>
+	    <cell><m>64</m></cell>
+	    <cell><m>32</m></cell>
+	    <cell><m>-32</m></cell>
+	    <cell><m>-50\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>2</m></cell>
+	    <cell><m>32</m></cell>
+	    <cell><m>16</m></cell>
+	    <cell><m>-16</m></cell>
+	    <cell><m>-50\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>3</m></cell>
+	    <cell><m>16</m></cell>
+	    <cell><m>8</m></cell>
+	    <cell><m>-8</m></cell>
+	    <cell><m>-50\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>4</m></cell>
+	    <cell><m>8</m></cell>
+	    <cell><m>4</m></cell>
+	    <cell><m>-4</m></cell>
+	    <cell><m>-50\%</m></cell>
+	  </row>
+	</tabular>
+      </table>
+      <p>
+	We can model the amount of the sample remaining as a function of the number of <m>6</m> hour periods that have passed using the exponential function
+	<me>f(t) = 64\left(\frac{1}{2}\right)^t = 64\Exp{\frac{1}{2}}(t).</me>
+	However, it would be more convenient to model the amount of the sample as a function of the number of hours that have passed.
+	To do this, we first recognize that <m>1</m> hour is <m>1/6^\text{th}</m> of a period.
+	We can stretch the time scale by a factor of <m>6</m> to obtain the function
+	<me>A(t) = f\left(\frac{t}{6}\right) = 64\left(\frac{1}{2}\right)^{\frac{t}{6}} = 64\left(\frac{1}{\sqrt[6]{2}}\right)^t = 64\Exp{\frac{1}{\sqrt[6]{2}}}(t)</me>
+	that measures the amount of the technetium-99m sample remaining after <m>t</m> hours have elapsed.
+	Using this function, we have recorded the amount remaining after each hour for the first six hour period in the table below.
+      </p>
+      <table>
+	<title>Amount of technetium-99m over 24 hours</title>
+	<tabular halign="center">
+	  <row header="yes">
+	    <cell>Hour</cell>
+	    <cell>Amount Remaining (grams)</cell>
+	    <cell>Percent Change</cell>
+	  </row>
+	  <row>
+	    <cell><m>1</m></cell>
+	    <cell><m>A(1) \approx 57.02</m></cell>
+	    <cell><m>\frac{A(1) - A(0)}{A(0)} \approx0.11\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>2</m></cell>
+	    <cell><m>A(2) \approx 50.80</m></cell>
+	    <cell><m>\frac{A(2) - A(1)}{A(1)}\approx0.11\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>3</m></cell>
+	    <cell><m>A(3) \approx 45.25</m></cell>
+	    <cell><m>\frac{A(3) - A(2)}{A(2)} \approx0.11\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>4</m></cell>
+	    <cell><m>A(4) \approx 40.32</m></cell>
+	    <cell><m>\frac{A(4) - A(3)}{A(3)} \approx0.11\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>5</m></cell>
+	    <cell><m>A(5) \approx 35.92</m></cell>
+	    <cell><m>\frac{A(5) - A(4)}{A(4)}\approx0.11\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>6</m></cell>
+	    <cell><m>A(6) = 32</m></cell>
+	    <cell><m>\frac{A(6) - A(5)}{A(5)}\approx0.11\%</m></cell>
+	  </row>
+	</tabular>
+      </table>
+    </example>
+  </subsection>
+
+  <subsection>
+    <title>Properties of Exponential Functions</title>
+    <p>
+      The following properties of exponential functions are simply a restatement of the already familiar properties of exponents.
+    </p>
+
+    <theorem xml:id="thm-properties_exp">
+      <title>Properties of Exponential Functions</title>
+      <statement>
+	<p>
+	  Assume <m>a \neq 1</m> is a positive real number, and <m>x, x^\prime</m> are real numbers.
+	  <ol>
+	    <li>
+		<m>\Exp{a}(0) = a^0 = 1.</m>
+	    </li>
+	    <li>
+	      <m>\Exp{a}(x + x^\prime) = a^{x+x^\prime} = a^x a^{x^\prime} = \Exp{a}(x)\Exp{a}(x^\prime).</m>
+	    </li>
+	    <li>
+	      <m>\Exp{a}(x - x^\prime) = \Exp{a}^{x-x^\prime} = \frac{a^x}{a^{x^\prime}} = \frac{\Exp{a}(x)}{\Exp{a}(x^\prime)}.</m>
+	    </li>
+	  </ol>
+	</p>
+      </statement>
+    </theorem>
 
     <p>
-      We start with the definition of a constant.
-      Much like the number <m>\pi</m>, this number <em>cannot</em> be constructed using algebraic methods.
-      Indeed, the proper definition requires calculus, so we provide only a numerical approximation.
+      The percentages measured in <xref ref="example-exp_growth"/> and <xref ref="example-exp_decay"/> are often of interest in applications.
     </p>
-  
+    
+    <definition>
+      <p>
+	Let <m>f</m> be a function that is defined on the interval <m>[a,b]</m>.
+	The <term>relative change</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Relative Change</h>
+	</idx>
+	of <m>f</m> on the interval <m>[a,b]</m> is
+	<me>\frac{f(b) - f(a)}{f(a)}.</me>
+      </p>
+    </definition>
+
+    <p>
+      For an exponential function <m>\Exp{a} \colon \R \to (0,\infty)</m>, consider the relative change on an interval of length one.
+      Take the left endpoint to be a number <m>x</m> and the right endpoint to be the number <m>x + 1</m>.
+      Over this interval, the relative change is
+      <md>
+	<mrow>\frac{\Exp{a}(x + 1) - \Exp{a}(x)}{\Exp{a}(x)} \amp= \frac{a^{x + 1} - a^x}{a^x}</mrow>
+	<mrow>\amp= \frac{a^x a - a^x}{a^x}</mrow>
+	<mrow>\amp= \frac{a^x(a - 1)}{a^x}</mrow>
+	<mrow>\amp= a-1.</mrow>
+      </md>
+    </p>
+
+    <definition xml:id="def-exp_unit_relative_change">
+      <p>
+	Assume <m>a \neq 1</m> is a positive number.
+	<!-- the function <m>f \colon \R \to (0,\infty)</m> is defined by <m>f(x) = a^x</m>, where <m>0 \lt a</m> and <m> a \neq 1.</m> -->
+	The number <m>r = a - 1</m> is called the <term>growth rate</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Exponential</h>
+	  <h>Growth Rate</h>
+	</idx>
+	of <m>\Exp{a} \colon \R \to (0, \infty)</m> if <m>r > 1</m> or the
+	<term>decay rate</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Exponential</h>
+	  <h>Decay Rate</h>
+	</idx>
+	of <m>\Exp{a} \colon \R \to (0, \infty)</m> if <m>r \lt 1</m>.
+      </p>
+      <ul>
+	<li>
+	  <p>
+	    When <m>r > 0</m>, we say the function <m>\Exp{a} \colon \R \to (0, \infty)</m> models <term>exponential growth</term>
+	    <idx>
+	      <h>Function</h>
+	      <h>Exponential</h>
+	      <h>Growth</h>
+	    </idx>
+	    and we call the number <m>a = 1 + r</m> the <term>growth factor</term>.
+	    <idx>
+	      <h>Function</h>
+	      <h>Exponential</h>
+	      <h>Growth Factor</h>
+	    </idx>
+	  </p>
+	</li>
+	<li>
+	  <p>
+	    When <m>r \lt 0</m>, we say the function <m>\Exp{a} \colon \R \to (0, \infty)</m> models <term>exponential decay</term>
+	    <idx>
+	      <h>Function</h>
+	      <h>Exponential</h>
+	      <h>Decay</h>
+	    </idx>
+	    and we call the number <m>a = 1 + r</m> the <term>decay factor</term>.
+	    <idx>
+	      <h>Function</h>
+	      <h>Exponential</h>
+	      <h>Decay Factor</h>
+	    </idx>
+	  </p>
+	</li>
+      </ul>
+    </definition>
+    
+    <p>
+      Graphs of exponential functions depend on whether they model growth or decay.
+      The general shape of exponential functions that model growth is roughly the same.
+      The difference between the graphs is really only detectable when viewing multiple functions together at the same time: the larger the base (or growth factor), the steeper the graph.
+      We have graphed several different exponential growht functions together to convey the difference between bases.
+    </p>
+    <figure xml:id="fig-exponential_growth">
+      <image>
+	<latex-image>
+	  \begin{tikzpicture}[pics/legend entry/.style={code={%   
+          \draw[pic actions]
+	  (-0.5,0.25) -- (0.5,0.25);}}]
+	  \draw[very thin,color=gray] (-5,0) grid (5,5);
+
+	  \draw[very thick,->] (-5.2,0) -- (5.2,0) node[right] {$x$};
+	  \draw[very thick,->] (0,-.2) -- (0,5.2) node[above] {$y$};
+	  
+	  \begin{scope}[domain=-5:3]
+	  \clip (-5,0) rectangle (5,5);
+	  \draw [color=red,thick] plot[smooth,samples=500] (\x,{(2^(\x)});
+	  \draw [color=orange,thick] plot[smooth,samples=500] (\x,{3^(\x)});
+	  \draw [color=yellow,thick] plot[smooth,samples=500] (\x,{4^(\x)});
+	  \draw [color=green!70!black,thick] plot[smooth,samples=500] (\x,{5^(\x)});
+	  \draw [color=blue,thick] plot[smooth,samples=500] (\x,{6^(\x)});
+	  \draw [color=blue!50,thick] plot[smooth,samples=500] (\x,{7^(\x)});
+	  \draw [color=violet,thick] plot[smooth,samples=500] (\x,{8^(\x)});
+	  \end{scope}
+
+
+	  \node at (0,1) {$\bullet$};
+	  \node [above left] at (0,1) {$(0,1)$};
+
+	  \matrix [draw, above left] at (8,0) {
+	  \pic[red]{legend entry}; \amp  \node[red,font=\tiny] {$2^x$}; \\
+	  \pic[orange]{legend entry}; \amp  \node[orange,font=\tiny] {$3^x$}; \\
+	  \pic[yellow]{legend entry}; \amp  \node[yellow!75!black,font=\tiny] {$4^x$}; \\
+	  \pic[green!70!black]{legend entry}; \amp  \node[green!70!black,font=\tiny] {$5^x$}; \\
+	  \pic[blue]{legend entry}; \amp  \node[blue,font=\tiny] {$6^x$}; \\
+	  \pic[blue!50]{legend entry}; \amp  \node[blue!50,font=\tiny] {$7^x$}; \\
+	  \pic[violet]{legend entry}; \amp  \node[violet,font=\tiny] {$8^x$}; \\
+	  };
+	  
+	  \end{tikzpicture}
+	</latex-image>
+      </image>
+      <caption>The graphs of the exponentials growth functions with base <m>2</m>, <m>3</m>, <m>4</m>, <m>5</m>, <m>6</m>, <m>7</m>, and <m>8</m></caption>
+    </figure>
+
+    <p>
+      For any positive real number <m>a \neq 1</m>, we can relate the graph of <m>y = \Exp{a}(x)</m> and <m>y = \Exp{1/a}(x)</m> as follows.
+      Observe that <m>1/a = a^{-1}</m>, so
+      <me>\Exp{a^{-1}}(-x) = \left(a^{-1}\right)^{-x} = a^{-(-x)} = a^x = \Exp{a}(x).</me>
+      This tells us that the graph of <m>y = \Exp{a}(x)</m> is the reflection of the graph of <m>y = \Exp{a^{-1}}(x)</m> across the <m>y</m>-axis.
+      In particular, the graph of an exponential decay function is the reflection of an exponential growth function across the <m>y</m>-axis.
+    </p>
+
+    <example xml:id="example-decay_is_refl_growth">
+      <p>
+	The exponential decay function <m>\Exp{\frac{1}{2}}(x) = (1/2)^x</m> is the reflection of the exponential growth function <m>\Exp{2}(x) = 2^x</m> because
+      <me>\Exp{2}(-x) = \left(2\right)^{-x} = \left(\left(2\right)^{-1}\right)^x = \left(\frac{1}{2}\right)^x = \Exp{\frac{1}{2}}(x).</me>
+      </p>
+    </example>
+
+    <p>
+      We have plotted the reflections of the exponential growth functions across the <m>y</m>-axis in <xref ref="fig-exponential_growth"/> below.
+    </p>
+
+    <figure xml:id="fig-exponential_decay">
+      <image>
+	<latex-image>
+	  \begin{tikzpicture}[pics/legend entry/.style={code={%   
+          \draw[pic actions]
+	  (-0.5,0.25) -- (0.5,0.25);}}]
+	  \draw[very thin,color=gray] (-5,0) grid (5,5);
+
+	  \draw[very thick,->] (-5.2,0) -- (5.2,0) node[right] {$x$};
+	  \draw[very thick,->] (0,-.2) -- (0,5.2) node[above] {$y$};
+	  
+	  \begin{scope}[domain=-3:5]
+	  \clip (-5,0) rectangle (5,5);
+	  \draw [color=red,thick] plot[smooth,samples=500] (\x,{(1/2)^(\x)});
+	  \draw [color=orange,thick] plot[smooth,samples=500] (\x,{(1/3)^(\x)});
+	  \draw [color=yellow,thick] plot[smooth,samples=500] (\x,{(1/4)^(\x)});
+	  \draw [color=green!70!black,thick] plot[smooth,samples=500] (\x,{(1/5)^(\x)});
+	  \draw [color=blue,thick] plot[smooth,samples=500] (\x,{(1/6)^(\x)});
+	  \draw [color=blue!50,thick] plot[smooth,samples=500] (\x,{(1/7)^(\x)});
+	  \draw [color=violet,thick] plot[smooth,samples=500] (\x,{(1/8)^(\x)});
+	  \end{scope}
+
+
+	  \node at (0,1) {$\bullet$};
+	  \node [above left] at (0,1) {$(0,1)$};
+
+	  \matrix [draw, above left] at (8,0) {
+	  \pic[red]{legend entry}; \amp  \node[red,font=\tiny] {$\frac{1}{2}^x$}; \\
+	  \pic[orange]{legend entry}; \amp  \node[orange,font=\tiny] {$\frac{1}{3}^x$}; \\
+	  \pic[yellow]{legend entry}; \amp  \node[yellow!75!black,font=\tiny] {$\frac{1}{4}^x$}; \\
+	  \pic[green!70!black]{legend entry}; \amp  \node[green!70!black,font=\tiny] {$\frac{1}{5}^x$}; \\
+	  \pic[blue]{legend entry}; \amp  \node[blue,font=\tiny] {$\frac{1}{6}^x$}; \\
+	  \pic[blue!50]{legend entry}; \amp  \node[blue!50,font=\tiny] {$\frac{1}{7}^x$}; \\
+	  \pic[violet]{legend entry}; \amp  \node[violet,font=\tiny] {$\frac{1}{8}^x$}; \\
+	  };
+	  
+	  \end{tikzpicture}
+	</latex-image>
+      </image>
+      <caption>The graphs of the exponentials decay functions with base <m>1/2</m>, <m>1/3</m>, <m>1/4</m>, <m>1/5</m>, <m>1/6</m>, <m>1/7</m>, and <m>1/8</m></caption>
+    </figure>
+
+    
+    <p>
+      Specifying either a growth/decay rate and an initial quantity is sufficient to determine an exponential function.
+    </p>
+
+    <example xml:id="example-compound_interest">
+      <p>
+	Your local bank offers a savings account with a <m>6\%</m> annual interest that is compounded monthly.
+	This means the bank will add <m>6\%/12 = 0.5\%</m> of your current balance to your account every month.
+	In other words, your balance grows at a rate of <m>0.5\%</m> <alert>per month</alert>.
+      </p>
+      <p>
+	The growth factor for the exponential function that models the amount of money in the account after <m>t</m> <alert>months</alert> is
+	<me>a = 1 + 0.5\% = 1 + \frac{0.5}{100} = 1 + 0.005 = 1.005.</me>
+	Assuming you deposit <m>\$1,000</m> into a savings account, the balance of the account after <m>t</m> <alert>months</alert> is given by the function
+	<me>B(t) = 1000\Exp{1.005}(t) = 1000(1.005)^t.</me>
+      </p>
+      <p>
+	Customarily, one measures investments as a function of the number of <alert>years</alert> that have elapsed, rather than months.
+	Since there are <m>12</m> months in a year, we compress the time scale by a factor of <m>12</m> to obtain the function
+	<me>A(t) = B(12t) = 1000(1.005)^{12t} = 1000\left(1.005^{12}\right)^t = 1000\Exp{1.005^{12}}(t)</me>
+	that measures the amount of money in the account after <m>t</m> <term>years</term>.
+      </p>
+      <p>
+	The table below shows the amount of money in the account for a five year period, with all figures rounded to two decimal places.
+      </p>
+      <table>
+	<title>Amount of Money in Savings Account</title>
+	<tabular halign="center">
+	  <row header="yes">
+	    <cell>Year</cell>
+	    <cell>Initial Amount (<m>\$</m>)</cell>
+	    <cell>Final Amount (<m>\$</m>)</cell>
+	    <cell>Change (<m>\$</m>)</cell>
+	    <cell>Growth Rate (Annual)</cell>
+	  </row>
+	  <row>
+	    <cell><m>1</m></cell>
+	    <cell><m>1000</m></cell>
+	    <cell><m>1061.68</m></cell>
+	    <cell><m>+61.68</m></cell>
+	    <cell><m>+6.17\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>2</m></cell>
+	    <cell><m>1061.68</m></cell>
+	    <cell><m>1127.16</m></cell>
+	    <cell><m>+65.48</m></cell>
+	    <cell><m>+6.17\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>3</m></cell>
+	    <cell><m>1127.16</m></cell>
+	    <cell><m>1196.68</m></cell>
+	    <cell><m>+69.52</m></cell>
+	    <cell><m>+6.17\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>4</m></cell>
+	    <cell><m>1196.68</m></cell>
+	    <cell><m>1270.49</m></cell>
+	    <cell><m>+73.81</m></cell>
+	    <cell><m>+6.17\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>5</m></cell>
+	    <cell><m>1270.49</m></cell>
+	    <cell><m>1348.85</m></cell>
+	    <cell><m>+78.36</m></cell>
+	    <cell><m>+6.17\%</m></cell>
+	  </row>
+	</tabular>
+      </table>
+      <p>
+	Note that the growth factor for this function is <m>a  = \left(1.005\right)^{12}</m>, so the growth rate 
+	<me>a - 1 = \left(1.005\right)^{12} - 1 \approx 6.17\%</me>
+	is slightly higher than the interest rate (<m>6\%</m>).
+      </p>
+    </example>
+
+    <p>
+      In general, we can model compound interest using the following formula.
+    </p>
+    
+    <claim xml:id="formula-compound_interest">
+      <title>Compound Interest Formula</title>
+      <statement>
+	<p>
+	  Assume <m>P</m> dollars are invested in an account at an annual interest rate of <m>r\%</m> that is compounded <m>n</m> times each year.
+	  The amount of money in the account after <m>t</m> years is
+	  <me>A(t) = P\left(1 + \frac{r}{n}\right)^{nt}.</me>
+	  The growth rate for this function is
+	  <me>\left(1 + \frac{r}{n}\right) - 1,</me>
+	  which measures the increase in the balance over one year as a percentage of the previous balance.
+	</p>
+      </statement>
+    </claim>
+  </subsection>
+
+  <subsection>
+    <title>The Natural Exponential</title>
+    <p>
+      At the end of <xref ref="example-compound_interest"/>, we observed that the interest rate may be lower than the actual growth rate when the interest compounds more than once per year.
+      Consider the case where the interest rate is <m>r = 100\%</m>.
+      While it is absurd to expect to find an interest rate this high, it simplifies the growth factor in the <xref ref="formula-compound_interest" text="title"/> to
+      <me>\left(1 + \frac{1}{n}\right)^n.</me>
+      We get a list of numbers, one for each positive integer <m>n</m>.
+    </p>
+    <question>
+      <p>What happens to the value of <m>\left(1 + \frac{1}{n}\right)^n</m> as <m>n</m> becomes large?</p>
+    </question>
+    <p>
+      While the tools necessary to answer this question lie properly in the domain of calculus, the following table gives us some idea of what is happening.
+    </p>
+    <table>
+      <title>Growth Factors for Different Values of <m>n</m></title>
+      <tabular halign="center">
+	<row header="yes" bottom="major">
+	  <cell><m>n</m></cell>
+	  <cell><m>\left(1 + \frac{1}{n}\right)^n</m></cell>
+	  <cell>Change</cell>
+	</row>
+	<row>
+	  <cell><m>1</m></cell>
+	  <cell><m>2</m></cell>
+	</row>
+	<row>
+	  <cell><m>10</m></cell>
+	  <cell><m>2.5937424601</m></cell>
+	  <cell><m>+0.5937424601</m></cell>
+	</row>
+	<row>
+	  <cell><m>10^2</m></cell>
+	  <cell><m>2.7048138294</m></cell>
+	  <cell><m>+0.1110713693</m></cell>
+	</row>
+	<row>
+	  <cell><m>10^3</m></cell>
+	  <cell><m>2.7169239322</m></cell>
+	  <cell><m>+0.0121101028</m></cell>
+	</row>
+	<row>
+	  <cell><m>10^4</m></cell>
+	  <cell><m>2.7181459268</m></cell>
+	  <cell><m>+0.0012219946</m></cell>
+	</row>
+	<row>
+	  <cell><m>10^5</m></cell>
+	  <cell><m>2.7182682372</m></cell>
+	  <cell><m>+0.0001223104</m></cell>
+	</row>
+	<row>
+	  <cell><m>10^6</m></cell>
+	  <cell><m>2.7182804691</m></cell>
+	  <cell><m>+0.0000122319</m></cell>
+	</row>
+	<row>
+	  <cell><m>10^7</m></cell>
+	  <cell><m>2.7182816941</m></cell>
+	  <cell><m>+0.0000012250</m></cell>
+	</row>
+	<row>
+	  <cell><m>10^8</m></cell>
+	  <cell><m>2.7182817983</m></cell>
+	  <cell><m>+0.0000001042</m></cell>
+	</row>
+	<row>
+	  <cell><m>10^9</m></cell>
+	  <cell><m>2.7182820520</m></cell>
+	  <cell><m>+0.0000002537</m></cell>
+	</row>
+	<row>
+	  <cell><m>10^{10}</m></cell>
+	  <cell><m>2.7182820532</m></cell>
+	  <cell><m>+0.0000000012</m></cell>
+	</row>
+      </tabular>
+    </table>
+
+    <p>
+      From the table, we can see that the values are increasing as <m>n</m> increases and, the larger <m>n</m> gets, the smaller the change.
+      This suggests the larger <m>n</m> gets, the closer it gets to <em>some</em> value.
+      This value is the constant known as Euler's Number.
+    </p>
+    
     <definition xml:id="def-euler_constant">
       <title>Euler's Number</title>
       <p>
@@ -41,7 +643,8 @@
     </definition>
 
     <p>
-      This constant is essential to the definition of the exponential function.
+      This is a surprisingly important number that defines what is commonly referred to as <em>the</em> exponential function.
+      While the importance of this function is unlikely to become clear without a fair bit of calculus, we will see why it is plausible that this is called <em>the</em> exponential function in <xref ref="sec-logarithms"/>.
     </p>
     
     <definition xml:id="def-natural_exponential">
@@ -53,266 +656,24 @@
       </idx>
       <m>\exp \colon \R \to (0, \infty)</m> is defined by <m>\exp(x) = e^x</m>.
     </definition>
-
-    <p>
-      We can think about the value of the exponential function at a positive real number <m>r</m> as the result of multiplying <m>r</m> copies of the number <m>e</m>:
-      <me>\exp(r) = e^r = \underbrace{e e e \cdots e}_r.</me>
-      This definition extends to all real numbers by defining
-      <me>\exp(0) = e^r = 1 \quad\text{and}\quad \exp(-r) = e^{-r} = \frac{1}{e^r} = \frac{1}{\exp(r)}.</me>
-    </p>
-    <p>
-      An interesting consequence of these definitions is that the exponential function transforms addition of the input into multiplication of the output and subtraction of the input into division of the output.
-      For addition of the input, we take advantage of the fact that multiplication is associative to write
-      <md>
-	<mrow>\exp(r + s) \amp= e^{r + s}</mrow>
-	<mrow>\amp= \underbrace{e  e  e \cdots e}_{r + s}</mrow>
-	<mrow>\amp= \left(\underbrace{e  e  e \cdots e}_{r}\right)\left(\underbrace{e  e  e \cdots e}_{s}\right)</mrow>
-	<mrow>\amp= e^r e^s</mrow>
-	<mrow>\amp= \exp(r)  \exp(s).</mrow>
-      </md>
-    </p>
-    <p>
-      For subtraction of the inverse, we note that <m>r - s = r + (-s)</m>, so 
-      <md>
-	<mrow>\exp(r - s) \amp= \exp(r + (-s))</mrow>
-	<mrow>\amp= \exp(r)  \exp(-s)</mrow>
-	<mrow>\amp= \exp(r)  \frac{1}{\exp(s)}</mrow>
-	<mrow>\amp= \frac{\exp(r)}{\exp(s)}.</mrow>
-      </md>
-    </p>
-
-    <p>
-      These two properties also provide a convenient observation about multiplication of the input.
-      Recall that the product of two numbers is simply a notational convenience.
-      Depending on your needs, the product <m>rs</m> can be regarded as either adding together <m>r</m> copies of the number <m>s</m> or <m>s</m> copies of the number <m>r</m>:
-      <me>rs = \underbrace{s + s + s + \cdots + s}_{r} = \underbrace{r + r + r + \cdots + r}_{s}.</me>
-      If we take first interpretation of <m>rs</m>, then we can apply the formula for the sum of inputs <m>r</m> times to get
-      <md>
-	<mrow>\exp(rs) \amp= \exp\left(\underbrace{s + s + s + \cdots + s}_{r}\right)</mrow>
-	<mrow>\amp= \exp(s)  \exp\left(\underbrace{s + s + s + \cdots + s}_{r-1}\right)</mrow>
-	<mrow>\amp= \exp(s)  \exp(s)  \exp\left(\underbrace{s + s + s + \cdots + s}_{r-2}\right)</mrow>
-	<mrow>\amp= \cdots</mrow>
-	<mrow>\amp= \underbrace{\exp(s)  \exp(s) \exp(s) \cdots \exp(s)}_r</mrow>
-	<mrow>\amp= \exp(s)^r.</mrow>
-      </md>
-      Similarly, if we take the second interpretation of <m>rs</m>, then we can apply the formula for the sum of inputs <m>s</m> times to get
-      <md>
-	<mrow>\exp(rs) \amp= \exp\left(\underbrace{r + r + r + \cdots + r}_{s}\right)</mrow>
-	<mrow>\amp= \exp(r)  \exp\left(\underbrace{r + r + r + \cdots + r}_{s-1}\right)</mrow>
-	<mrow>\amp= \exp(r)  \exp(r)  \exp\left(\underbrace{r + r + r + \cdots + r}_{s-2}\right)</mrow>
-	<mrow>\amp= \cdots</mrow>
-	<mrow>\amp= \underbrace{\exp(r)  \exp(r) \exp(r) \cdots \exp(r)}_s</mrow>
-	<mrow>\amp= \exp(r)^s.</mrow>
-      </md>
-    </p>
     
-    <theorem xml:id="thm-properties_exp">
-      <title>Properties of Exponential Functions</title>
+    <p>
+      Intriguingly, if we consider <em>any</em> value of <m>r</m>, as <m>n</m> gets larger, the values of the growth factor
+      <me>\left(1 + \frac{r}{n}\right)^n</me>
+      get closer and closer to the constant <m>\exp(r) = e^r.</m>
+      If we recall that <m>n</m> is the number of times interest is compounded each year, we can think about letting <m>n</m> become arbitrarily large as saying the interest is compounding <em>continuously</em>.
+    </p>
+
+    <claim xml:id="formula-cont_compound_interest">
+      <title>Compound Interest Formula</title>
       <statement>
 	<p>
-	  Assume <m>x</m> and <m>x^\prime</m> are real numbers.
-	  <ol>
-	    <li>
-	      <p>
-		<m>\exp(0) = a^0 = 1.</m>
-	      </p>
-	    </li>
-	    <li>
-	      <p>
-		<m>\exp(x + x^\prime) = a^{x+x^\prime} = a^x a^{x^\prime} = \exp(x)\exp(x^\prime).</m>
-	      </p>
-	    </li>
-	    <li>
-	      <p>
-		<m>\exp(x - x^\prime) = \exp^{x-x^\prime} = \frac{a^x}{a^{x^\prime}} = \frac{\exp(x)}{\exp(x^\prime)}.</m>
-	      </p>
-	    </li>
-	    <li>
-	      <p>
-		<m>\exp(xx^\prime) = \exp(x)^{x^\prime} = \exp\left(x^\prime\right)^x.</m>
-	      </p>
-	    </li>
-	  </ol>
+	  Assume <m>P</m> dollars are invested in an account at an annual interest rate of <m>r\%</m> that is compounded <em>continuously</em>.
+	  The amount of money in the account after <m>t</m> years is
+	  <me>A(t) = P\exp(rt) = Pe^{rt} = P(e^r)^t = P\Exp{e^r}(t).</me>
+	  The growth rate for this function is <m>e^r - 1</m>, which measures the increase in the balance over one year as a percentage of the previous balance.
 	</p>
       </statement>
-    </theorem>
+    </claim>
   </subsection>
-
-  <subsection>
-    <title>The Graph of the Exponential Function</title>
-    <p>
-      The graph of the exponential function is provided below.
-    </p>
-
-    <figure>
-      <image>
-	<latex-image>
-	  \begin{tikzpicture}
-	  \draw[very thin,color=gray] (-5,0) grid (5,5);
-
-	  \draw[very thick,->] (-5.2,0) -- (5.2,0) node[right] {$x$};
-	  \draw[very thick,->] (0,-.2) -- (0,5.2) node[above] {$y$};
-	  
-	  \begin{scope}[domain=-5:5]
-	  \clip (-5,0)  rectangle (5,5);
-	  \draw [color=blue,thick] plot[smooth,samples=500] (\x,{e^(\x)});
-	  \end{scope}
-
-	  \node at (0,1) {$\bullet$};
-	  \node [above left] at (0,1) {$(0,1)$};
-	  
-	  \end{tikzpicture}
-	</latex-image>
-      </image>
-    </figure>
-  </subsection>
-  
-  <worksheet>
-    <objectives>
-      <ul>
-	<li>
-	  <p>
-	    Combine expressions involving exponentials.
-	  </p>
-	</li>
-      </ul>
-    </objectives>
-    <page>
-      <introduction>
-	<p>
-	  Use <xref ref="thm-properties_exp" text="title"/> to rewrite each equation so there is only <alert>one</alert> exponential term.
-	</p>
-      </introduction>
-
-      <exercise workspace="1in">
-	<statement>
-	  <p>
-	    <m>\exp(x^2) = \exp(−2x−1)</m>	    
-	  </p>
-	</statement>
-      </exercise>
-
-      <exercise workspace="1in">
-	<statement>
-	  <p>
-	    <m>\exp(2x + 1) = \exp(2)</m>
-	  </p>
-	</statement>
-      </exercise>
-
-      <exercise workspace="1in">
-	<statement>
-	  <p>
-	    <m>\exp(-4x) = \exp(4)\exp\left(x^2\right)</m>
-	  </p>
-	</statement>
-      </exercise>
-    </page>
-    <page>
-      <exercise>
-	<statement>
-	  <p>
-	    Match each function with its graph.
-	  </p>
-	  <ol cols="2">
-	    <li>
-	      <m>y = \exp(-x)</m>
-	    </li>
-	    <li>
-	      <m>y = 2\exp(x)</m>
-	    </li>
-	    <li>
-	      <m>y = \exp\left(\frac{x}{2}\right)</m>
-	    </li>
-	    <li>
-	      <m>y = \exp(x - 2)</m>
-	    </li>
-	  </ol>
-	  <sidebyside>
-	    <p>
-	      <image width="50%" xml:id="img-exp_x_minus_2">
-		<latex-image>
-		  \begin{tikzpicture}
-		  \draw[very thin,color=gray] (-5,0) grid (5,5);
-
-		  \draw[very thick,->] (-5.2,0) -- (5.2,0) node[right] {$x$};
-		  \draw[very thick,->] (0,-.2) -- (0,5.2) node[above] {$y$};
-		  
-		  \begin{scope}[domain=-5:5]
-		  \clip (-5,0)  rectangle (5,5);
-		  \draw [color=blue,thick] plot[smooth,samples=500] (\x,{e^(\x - 2)});
-		  \end{scope}
-
-		  \node at (0,1) {$\bullet$};
-		  \node [above left] at (0,1) {$(0,1)$};
-		  
-		  \end{tikzpicture}
-		</latex-image>
-	      </image>
-	      <image width="50%" xml:id="img-2_exp_x">
-		<latex-image>
-		  \begin{tikzpicture}
-		  \draw[very thin,color=gray] (-5,0) grid (5,5);
-
-		  \draw[very thick,->] (-5.2,0) -- (5.2,0) node[right] {$x$};
-		  \draw[very thick,->] (0,-.2) -- (0,5.2) node[above] {$y$};
-		  
-		  \begin{scope}[domain=-5:5]
-		  \clip (-5,0)  rectangle (5,5);
-		  \draw [color=blue,thick] plot[smooth,samples=500] (\x,{2*e^(\x)});
-		  \end{scope}
-
-		  \node at (0,1) {$\bullet$};
-		  \node [above left] at (0,1) {$(0,1)$};
-		  
-		  \end{tikzpicture}
-		</latex-image>
-	      </image>
-	    </p>
-	    <p>
-	      <image width="50%" xml:id="img-exp_neg_x">
-		<latex-image>
-		  \begin{tikzpicture}
-		  \draw[very thin,color=gray] (-5,0) grid (5,5);
-
-		  \draw[very thick,->] (-5.2,0) -- (5.2,0) node[right] {$x$};
-		  \draw[very thick,->] (0,-.2) -- (0,5.2) node[above] {$y$};
-		  
-		  \begin{scope}[domain=-5:5]
-		  \clip (-5,0)  rectangle (5,5);
-		  \draw [color=blue,thick] plot[smooth,samples=500] (\x,{e^(-\x)});
-		  \end{scope}
-
-		  \node at (0,1) {$\bullet$};
-		  \node [above left] at (0,1) {$(0,1)$};
-		  
-		  \end{tikzpicture}
-		</latex-image>
-	      </image>
-	      <image width="50%" xml:id="img-exp_half_x">
-		<latex-image>
-		  \begin{tikzpicture}
-		  \draw[very thin,color=gray] (-5,0) grid (5,5);
-
-		  \draw[very thick,->] (-5.2,0) -- (5.2,0) node[right] {$x$};
-		  \draw[very thick,->] (0,-.2) -- (0,5.2) node[above] {$y$};
-		  
-		  \begin{scope}[domain=-5:5]
-		  \clip (-5,0)  rectangle (5,5);
-		  \draw [color=blue,thick] plot[smooth,samples=500] (\x,{e^(\x/2)});
-		  \end{scope}
-
-		  \node at (0,1) {$\bullet$};
-		  \node [above left] at (0,1) {$(0,1)$};
-		  
-		  \end{tikzpicture}
-		</latex-image>
-	      </image>
-	    </p>
-	    
-	  </sidebyside>
-	</statement>
-      </exercise>
-    </page>
-  </worksheet>
 </section>
