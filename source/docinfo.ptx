@@ -19,7 +19,7 @@
   <!-- macros for defining latex math shortcuts. It is good practice -->
   <!-- to define these semantically, so that the macro relates to what-->
   <!-- it defines. -->
-  <macros> \newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \newcommand{\C}{\mathbb C} \newcommand{\abs}[1]{\left|#1\right|} \newcommand{\id}{\operatorname{id}} \newcommand{\Exp}[1]{\exp_{#1}} \newcommand{\mul}[1]{\operatorname{mul}_{#1}} \newcommand{\add}[1]{\operatorname{add}_{#1}} \newcommand{\div}[1]{\operatorname{div}_{#1}} \newcommand{\sub}[1]{\operatorname{sub}_{#1}}</macros>
+  <macros> \newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \newcommand{\C}{\mathbb C} \newcommand{\abs}[1]{\left|#1\right|} \newcommand{\id}{\operatorname{id}} \newcommand{\Exp}[1]{\exp_{#1}} \newcommand{\mul}[1]{\operatorname{mul}_{#1}} \newcommand{\add}[1]{\operatorname{add}_{#1}} \newcommand{\Div}[1]{\operatorname{div}_{#1}} \newcommand{\sub}[1]{\operatorname{sub}_{#1}}</macros>
 
   <!-- If you put any latex-image elements you can include preambles -->
   <!-- for those in the next element. -->
