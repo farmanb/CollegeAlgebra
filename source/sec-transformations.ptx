@@ -44,7 +44,7 @@
     <subsubsection>
       <title>Vertical Translation</title>
       
-      <definition>
+      <definition xml:id="def-vertical_translation">
 	<title>Vertical Translation</title>
 	<p>
 	  Let <m>c</m> be a positive number.
@@ -95,7 +95,7 @@
     <subsubsection>
       <title>Horizontal Translation</title>
 
-      <definition>
+      <definition xml:id="def-horizontal_translation">
 	<title>Horizontal Translation</title>
 	<p>
 	  Let <m>c</m> be a positive number.
@@ -153,7 +153,7 @@
     <subsubsection>
       <title>Vertical Scaling</title>
 
-      <definition>
+      <definition xml:id="def-vertical_scaling">
 	<title>Vertical Scaling</title>
 	<p>
 	  Let <m>c > 1</m> be a number.
@@ -205,8 +205,8 @@
     <subsection>
       <title>Reflection</title>
 
-      <definition>
-	<title>Reflection of the <m>x</m>-axis</title>
+      <definition xml:id="def-reflection">
+	<title>Reflection</title>
 	<p>
 	  We say the function <m>g(x)</m> is a <term>reflection</term>
 	  <idx>
@@ -254,7 +254,7 @@
     <subsubsection>
       <title>Horizontal Scaling</title>
 
-      <definition>
+      <definition xml:id="def-horizontal_scaling">
 	<title>Horizontal Scaling</title>
 	<p>
 	  Let <m>c > 1</m> be a number.
