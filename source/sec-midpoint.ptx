@@ -2,13 +2,13 @@
 <section xml:id="sec-cartesian_coordinates-midpoint" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>The Midpoint Formula</title>
 
-  <objectives>
-    <ul>
-      <li>
-	Find the midpoint between two points in the Cartesian plane.
-      </li>
-    </ul>
-  </objectives>
+  <!-- <objectives> -->
+  <!--   <ul> -->
+  <!--     <li> -->
+  <!-- 	Find the midpoint between two points in the Cartesian plane. -->
+  <!--     </li> -->
+  <!--   </ul> -->
+  <!-- </objectives> -->
   
   <introduction>
     <p>
@@ -83,7 +83,7 @@
     </statement>
   </definition>
 
-  <example>
+  <example component="web">
     <statement>
       <p>
 	Use <xref ref="def-2_midpoint" text="title"/> to find the midpoint between <m>(1,-3)</m> and <m>(-3, 5)</m>
@@ -99,6 +99,18 @@
       </p>
     </solution>
   </example>
+
+  <worksheet component="print">
+    <page>
+      <example>
+	<statement>
+	  <p>
+	    Use <xref ref="def-2_midpoint" text="title"/> to find the midpoint between <m>(1,-3)</m> and <m>(-3, 5)</m>
+	  </p>
+	</statement>
+      </example>
+    </page>
+  </worksheet>
   
   <remark>
     <p>

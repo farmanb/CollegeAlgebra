@@ -3,15 +3,14 @@
 <section xml:id="sec-cartesian_coordinates-distance" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>The Distance Formula</title>
 
-    <objectives>
-    <!-- <title>Test?</title> -->
-    <ul>
-      <li>
-	Find the distance between two points in the Cartesian plane.
-      </li>
-    </ul>
-    </objectives>
-    
+  <!-- <objectives> -->
+  <!-- <ul> -->
+  <!--   <li> -->
+  <!-- 	Find the distance between two points in the Cartesian plane. -->
+  <!--   </li> -->
+  <!-- </ul> -->
+  <!-- </objectives> -->
+  
   <introduction>
     <p>
       Within the Cartesian plane, we will often want to determine the distance between two points.
@@ -106,7 +105,7 @@
     </p>
   </definition>
 
-  <example>
+  <example component="web">
     <statement>
       <p>
 	Find the distance between the points <m>(3,-2)</m> and <m>(4,7)</m>.
@@ -123,6 +122,19 @@
       </p>
     </solution>
   </example>
+
+  <worksheet component="print">
+    <title>Examples</title>
+    <page>
+      <exercise>
+	<statement>
+	  <p>
+	    Find the distance between the points <m>(3,-2)</m> and <m>(4,7)</m>.
+	  </p>
+	</statement>
+      </exercise>
+    </page>
+  </worksheet>
   
   <xi:include href="worksheets/wksht-using_the_distance_formula.ptx"/>
 </section>

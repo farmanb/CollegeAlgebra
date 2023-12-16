@@ -3,13 +3,13 @@
 <section xml:id="sec-cartesian_coordinates-graphing_equations" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Graphing Equations</title>
 
-  <objectives>
-    <ul>
-      <li>
-	Identify points in the plane that are solutions to equations in two variables.
-      </li>
-    </ul>
-  </objectives>
+  <!-- <objectives> -->
+  <!--   <ul> -->
+  <!--     <li> -->
+  <!-- 	Identify points in the plane that are solutions to equations in two variables. -->
+  <!--     </li> -->
+  <!--   </ul> -->
+  <!-- </objectives> -->
   
   <introduction>
     <p>
@@ -148,7 +148,7 @@
       The graph of this equation is a horizontal line.
     </p>
 
-    <example>
+    <example component="web">
       <statement>
 	<p>
 	  Graph the equation <m>y = 0</m>.
@@ -169,15 +169,15 @@
       </solution>
     </example>
     
-    <example>
+    <example component="web">
       <statement>
 	<p>
-	  Graph the equation <m>0x + 3y = 7</m>.
+	  Graph the equation <m>3y = 7</m>.
 	</p>
       </statement>
       <solution>
 	<p>
-	  The equation <m>0x + 3y = 7</m> simplifies to <m>y = \frac{7}{3}</m>.
+	  The equation <m>3y = 7</m> simplifies to <m>y = \frac{7}{3}</m>.
 	  The graph of this equation is a horizontal line <m>\frac{7}{3}</m> units above the <m>x</m>-axis.
 	  <figure xml:id="fig-horiz_line">
 	    <caption>The graph of <m>y = \frac{7}{3}</m>.</caption>
@@ -205,6 +205,38 @@
 	</p>
       </solution>
     </example>
+
+    <worksheet component="print">
+      <title>Plotting Horizontal Lines</title>
+      <page>
+	<exercise>
+	  <statement>
+	    <p>
+	      Graph the equation <m>y = 0</m>.
+	    </p>
+	    <image>
+	      <latex-image>
+		<xi:include parse="text" href="tex/5_5_grid.tex"/>
+	      </latex-image>
+	    </image>
+	  </statement>
+	</exercise>
+      </page>
+      <page>
+	<exercise>
+	  <statement>
+	    <p>
+	      Graph the equation <m>3y = 7</m>.
+	    </p>
+	    <image>
+	      <latex-image>
+		<xi:include parse="text" href="tex/5_5_grid.tex"/>
+	      </latex-image>
+	    </image>
+	  </statement>
+	</exercise>
+      </page>
+    </worksheet>
   </subsection>
 
   <subsection>
@@ -216,7 +248,7 @@
       The graph of this equation is a vertical line.
     </p>
     
-    <example>
+    <example component="web">
       <statement>
 	<p>
 	  Graph the equation <m>x = 0</m>.
@@ -237,15 +269,15 @@
       </solution>
     </example>
     
-    <example>
+    <example component="web">
       <statemnt>
 	<p>
-	  Graph the equation <m>3x + 0y = 2</m>.
+	  Graph the equation <m>3x = 2</m>.
 	</p>
       </statemnt>
       <solution>
 	<p>
-	  The equation <m>3x + 0y = 2</m> reduces to <m>x = \frac{2}{3}</m>.
+	  The equation <m>3x = 2</m> reduces to <m>x = \frac{2}{3}</m>.
 	  The graph of this equation is a vertical line <m>\frac{2}{3}</m> units to the right of the <m>y</m>-axis.
 	  <figure xml:id="fig-vert_line">
 	    <caption>The graph of <m>x = \frac{2}{3}</m>.</caption>
@@ -273,6 +305,37 @@
 	</p>
       </solution>
     </example>
+    <worksheet component="print">
+      <title>Plotting Vertical Lines</title>
+      <page>
+	<exercise>
+	  <statement>
+	    <p>
+	      Graph the equation <m>x = 0</m>.
+	    </p>
+	    <image>
+	      <latex-image>
+		<xi:include parse="text" href="tex/5_5_grid.tex"/>
+	      </latex-image>
+	    </image>
+	  </statement>
+	</exercise>
+      </page>
+      <page>
+	<exercise>
+	  <statemnt>
+	    <p>
+	      Graph the equation <m>3x = 2</m>.
+	    </p>
+	    <image>
+	      <latex-image>
+		<xi:include parse="text" href="tex/5_5_grid.tex"/>
+	      </latex-image>
+	    </image>
+	  </statemnt>
+	</exercise>
+      </page>
+    </worksheet>
   </subsection>
   
   <xi:include href="worksheets/wksht-plotting_points_on_a_graph.ptx"/>
