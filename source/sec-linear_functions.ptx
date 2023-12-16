@@ -2,22 +2,22 @@
 
 <section xml:id="sec-linear_functions" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Linear Functions</title>
-  <objectives>
-    <ul>
-      <li>
-	Recognize linear functions.
-      </li>
-      <li>
-	Find <m>x</m>-intercepts of a linear function.
-      </li>
-      <li>
-	Find the <m>y</m>-intercept of a linear function.
-      </li>
-      <li>
-	Graph a linear function.
-      </li>
-    </ul>
-  </objectives>
+  <!-- <objectives> -->
+  <!--   <ul> -->
+  <!--     <li> -->
+  <!-- 	Recognize linear functions. -->
+  <!--     </li> -->
+  <!--     <li> -->
+  <!-- 	Find <m>x</m>-intercepts of a linear function. -->
+  <!--     </li> -->
+  <!--     <li> -->
+  <!-- 	Find the <m>y</m>-intercept of a linear function. -->
+  <!--     </li> -->
+  <!--     <li> -->
+  <!-- 	Graph a linear function. -->
+  <!--     </li> -->
+  <!--   </ul> -->
+  <!-- </objectives> -->
 
   <introduction>
     <p>

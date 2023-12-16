@@ -2,23 +2,23 @@
 
 <section xml:id="sec-lines" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Representations of Lines</title>
-  <objectives>
-    <ul>
-      <li>
-	Determine the slope of a line through two points.
-      </li>
-      <li>
-	<p>
-	  Represent a line using
-	  <ul>
-	    <li>Slope-Intercept Form,</li>
-	    <li>Point-Slope Form, and</li>
-	    <li>Standard Form.</li>
-	  </ul>
-	</p>
-      </li>
-    </ul>
-  </objectives>
+  <!-- <objectives> -->
+  <!--   <ul> -->
+  <!--     <li> -->
+  <!-- 	Determine the slope of a line through two points. -->
+  <!--     </li> -->
+  <!--     <li> -->
+  <!-- 	<p> -->
+  <!-- 	  Represent a line using -->
+  <!-- 	  <ul> -->
+  <!-- 	    <li>Slope-Intercept Form,</li> -->
+  <!-- 	    <li>Point-Slope Form, and</li> -->
+  <!-- 	    <li>Standard Form.</li> -->
+  <!-- 	  </ul> -->
+  <!-- 	</p> -->
+  <!--     </li> -->
+  <!--   </ul> -->
+  <!-- </objectives> -->
 
   <introduction>
     <p>
@@ -33,97 +33,97 @@
   <subsection>
     <title>The Slope of a Line through two Points</title> 
     <definition xml:id="def-slope">
-    <title>The Slope of a Line</title>
+      <title>The Slope of a Line</title>
+      <p>
+	The <term>slope</term>
+	<idx>
+	  <h>Line</h>
+	  <h>Slope</h>
+	</idx>
+	of the line through the points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m> is
+	<me>\frac{y_1 - y_2}{x_1 - x_2} = \frac{y_2 - y_1}{x_2 - x_1},</me>
+	provided that <m>x_1 \neq x_2</m>.
+	The slope measures the rate of change in <m>y</m> with respect to <m>x</m>, as depicted in <xref ref="fig-slope"/>.
+      </p>
+    </definition>
+
+    <figure xml:id="fig-slope">
+      <image xml:id="img-slope">
+	<latex-image>
+	  <xi:include parse="text" href="tex/slope.tex"/>
+	</latex-image>
+      </image>
+      <caption>The slope of the line through the points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m>.</caption>
+    </figure>
+    
+    <remark>
+      <p>
+	In the definition of <xref ref="def-slope" text="title"/>, we required that <m>x_1 \neq x_2</m>.
+	While there is a line that passes through two distinct points with the same <m>x</m>-coordinate, that line is a vertical line.
+	Since a vertical line is <em>not</em> a function, the slope of a vertical line undefined.
+      </p>
+    </remark>
+    
+    <example xml:id="example-find_slope">
+      <statement>
+	<p>Find the slope of the line through the points <m>(3,5)</m> and <m>(6,2)</m>.</p>
+      </statement>
+      <solution>
+	<p>
+	  The slope of the line through the points <m>(3,5)</m> and <m>(6,2)</m> is
+	  <me>\frac{2 - 5}{6 - 3} = \frac{-3}{3} = -1.</me>
+	  This says when the <m>x</m>-coordinate increases by 1, the <m>y</m>-coordinate decreases by 1.
+	</p>
+      </solution>
+    </example>
+
     <p>
-      The <term>slope</term>
-      <idx>
-	<h>Line</h>
-	<h>Slope</h>
-      </idx>
-      of the line through the points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m> is
-      <me>\frac{y_1 - y_2}{x_1 - x_2} = \frac{y_2 - y_1}{x_2 - x_1},</me>
-      provided that <m>x_1 \neq x_2</m>.
-      The slope measures the rate of change in <m>y</m> with respect to <m>x</m>, as depicted in <xref ref="fig-slope"/>.
+      Suppose we know the slope, <m>m</m>, and a point <m>(x_0, y_0)</m> that lines on the line.
+      We can use the fact that <m>(x_0, y_0)</m> is a <xref ref="def-solution" text="title"/> to determine the <m>y</m>-intercept.
+      We substitute <m>x_0</m> for <m>x</m> and <m>y_0</m> for <m>y</m> in the <xref ref="thm-slope_intercept" text="title"/> and solve for <m>b</m>:
+      <md>
+	<mrow>y_0 \amp= mx_0 + b \amp\amp \text{Subtract}\ mx_0\ \text{from both sides}</mrow>
+	<mrow>b \amp = y_0 - mx_0.</mrow>
+      </md>
     </p>
-  </definition>
 
-  <figure xml:id="fig-slope">
-    <image xml:id="img-slope">
-      <latex-image>
-	<xi:include parse="text" href="tex/slope.tex"/>
-      </latex-image>
-    </image>
-    <caption>The slope of the line through the points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m>.</caption>
-  </figure>
-  
-  <remark>
-    <p>
-      In the definition of <xref ref="def-slope" text="title"/>, we required that <m>x_1 \neq x_2</m>.
-      While there is a line that passes through two distinct points with the same <m>x</m>-coordinate, that line is a vertical line.
-      Since a vertical line is <em>not</em> a function, the slope of a vertical line undefined.
-    </p>
-  </remark>
-  
-  <example xml:id="example-find_slope">
-    <statement>
-      <p>Find the slope of the line through the points <m>(3,5)</m> and <m>(6,2)</m>.</p>
-    </statement>
-    <solution>
-      <p>
-	The slope of the line through the points <m>(3,5)</m> and <m>(6,2)</m> is
-	<me>\frac{2 - 5}{6 - 3} = \frac{-3}{3} = -1.</me>
-	This says when the <m>x</m>-coordinate increases by 1, the <m>y</m>-coordinate decreases by 1.
-      </p>
-    </solution>
-  </example>
+    <theorem xml:id="thm-point_slope_intercept">
+      <statement>
+	<p>
+	  The <m>y</m>-intercept of the line with slope <m>m</m> through the point <m>(x_0, y_0)</m> is
+	  <me>b = y_0 - mx_0.</me>
+	</p>
+      </statement>
+    </theorem>
 
-  <p>
-    Suppose we know the slope, <m>m</m>, and a point <m>(x_0, y_0)</m> that lines on the line.
-    We can use the fact that <m>(x_0, y_0)</m> is a <xref ref="def-solution" text="title"/> to determine the <m>y</m>-intercept.
-    We substitute <m>x_0</m> for <m>x</m> and <m>y_0</m> for <m>y</m> in the <xref ref="thm-slope_intercept" text="title"/> and solve for <m>b</m>:
-    <md>
-      <mrow>y_0 \amp= mx_0 + b \amp\amp \text{Subtract}\ mx_0\ \text{from both sides}</mrow>
-      <mrow>b \amp = y_0 - mx_0.</mrow>
-    </md>
-  </p>
-
-  <theorem xml:id="thm-point_slope_intercept">
-    <statement>
-      <p>
-	The <m>y</m>-intercept of the line with slope <m>m</m> through the point <m>(x_0, y_0)</m> is
-	<me>b = y_0 - mx_0.</me>
-      </p>
-    </statement>
-  </theorem>
-
-  <example xml:id="example-line_through_two_points">
-    <statement>
-      <p>
-	Find the equation of the line through the points <m>(3,5)</m> and <m>(6,2)</m>.
-      </p>
-    </statement>
-    <solution>
-      <p>
-	In <xref ref="example-find_slope"/>, we saw the slope of the line is <m>-1</m>.
-	If we use the point <m>(3,5)</m>, then we can find the <m>y</m>-intercept by solving
-	<md>
-	  <mrow>5 \amp= -3 + b \amp\amp \text{Add}\ 3\ \text{to both sides}</mrow>
-	  <mrow>b \amp= 5 + 3 = 8.</mrow>
-	</md>
-	This tells us the equation of the line through <m>(3,5)</m> and <m>(6,2)</m> is
-	<me>y = -x + 8</me>.
-      </p>
-      <p>
-	We could also have used the point <m>(6,2)</m> to find an equation of the line.
-	If we use the point <m>(6,2)</m>, then the <m>y</m>-intercept is given by solving
-	<md>
-	  <mrow>2 \amp= -6 + b \amp\amp \text{Add}\ 6\ \text{to both sides}</mrow>
-	  <mrow>b \amp= 2 + 6 = 8.</mrow>
-	</md>
-	We can see that no matter which point we use, we obtain the same <xref ref="thm-slope_intercept" text="title"/>.
-      </p>
-    </solution>
-  </example>
+    <example xml:id="example-line_through_two_points">
+      <statement>
+	<p>
+	  Find the equation of the line through the points <m>(3,5)</m> and <m>(6,2)</m>.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  In <xref ref="example-find_slope"/>, we saw the slope of the line is <m>-1</m>.
+	  If we use the point <m>(3,5)</m>, then we can find the <m>y</m>-intercept by solving
+	  <md>
+	    <mrow>5 \amp= -3 + b \amp\amp \text{Add}\ 3\ \text{to both sides}</mrow>
+	    <mrow>b \amp= 5 + 3 = 8.</mrow>
+	  </md>
+	  This tells us the equation of the line through <m>(3,5)</m> and <m>(6,2)</m> is
+	  <me>y = -x + 8</me>.
+	</p>
+	<p>
+	  We could also have used the point <m>(6,2)</m> to find an equation of the line.
+	  If we use the point <m>(6,2)</m>, then the <m>y</m>-intercept is given by solving
+	  <md>
+	    <mrow>2 \amp= -6 + b \amp\amp \text{Add}\ 6\ \text{to both sides}</mrow>
+	    <mrow>b \amp= 2 + 6 = 8.</mrow>
+	  </md>
+	  We can see that no matter which point we use, we obtain the same <xref ref="thm-slope_intercept" text="title"/>.
+	</p>
+      </solution>
+    </example>
   </subsection>
 
   <subsection>
@@ -216,9 +216,9 @@
       <p>
         The <term>standard equation of a line</term>
         <idx>
-	<h>Equation</h>
-	<h>Line</h>
-	<h>Standard</h>
+	  <h>Equation</h>
+	  <h>Line</h>
+	  <h>Standard</h>
         </idx>
         in the variables <m>x</m> and <m>y</m> is
         <me>ax + by = c,</me>

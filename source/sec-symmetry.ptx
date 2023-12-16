@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="sec-symmetry" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Symmetry</title>
-  <objectives>
-    <ul>
-      <li>
-	Identify if a function has <m>y</m>-axis symmetry.
-      </li>
-      <li>
-	Identify if a function has origin symmetry.
-      </li>
-    </ul>
-  </objectives>
 
   <introduction>
     <p>
@@ -351,5 +341,17 @@
   <!--     This tells us <xref ref="fig-parabola" text="title"/> is symmetric about the <m>y</m>-axis. -->
   <!--   </p> -->
   <!-- </example> -->
-  
+
+  <worksheet>
+    <objectives>
+      <ul>
+	<li>
+	  Identify if a function has <m>y</m>-axis symmetry.
+	</li>
+	<li>
+	  Identify if a function has origin symmetry.
+	</li>
+      </ul>
+    </objectives>
+  </worksheet>
 </section>

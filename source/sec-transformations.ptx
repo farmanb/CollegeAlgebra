@@ -2,28 +2,6 @@
 
 <section xml:id="sec-transformations" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Graph Transformations</title>
-  <objectives>
-    <introduction>
-      <p>Use graphs of basic functions and the following operations to graph general functions.</p>
-    </introduction>
-    <ul>
-      <li>
-	Vertical Translation
-      </li>
-      <li>
-	Horizontal Translation
-      </li>
-      <li>
-	Vertical Scaling,
-      </li>
-      <li>
-	Horizontal Scaling, and
-      </li>
-      <li>
-	Reflection.
-      </li>
-    </ul>
-  </objectives>
 
   <introduction>
     <p>
@@ -319,7 +297,7 @@
 	</ol>
       </algorithm>
 
-<example>
+      <example>
 	<statement>
 	  <p>
 	    Use <xref ref="fig-parabola" text="title"/> to graph the function <m>g(x) = 2(x + 3)^2 - 2</m>.
@@ -343,10 +321,34 @@
 	  </figure>
 	</solution>
       </example>
-	
+      
     </subsubsection>
   </subsection>
 
+  <worksheet>
+    <objectives>
+      <introduction>
+	<p>Use graphs of basic functions and the following operations to graph general functions.</p>
+      </introduction>
+      <ul>
+	<li>
+	  Vertical Translation
+	</li>
+	<li>
+	  Horizontal Translation
+	</li>
+	<li>
+	  Vertical Scaling,
+	</li>
+	<li>
+	  Horizontal Scaling, and
+	</li>
+	<li>
+	  Reflection.
+	</li>
+      </ul>
+    </objectives>
+  </worksheet>
 </section>
 
 

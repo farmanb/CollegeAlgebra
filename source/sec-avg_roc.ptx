@@ -2,13 +2,13 @@
 
 <section xml:id="sec-avg_roc" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Average Rate of Change</title>
-  <objectives>
-    <ul>
-      <li>
-	Find the average rate of change of a function on an interval.
-      </li>
-    </ul>
-  </objectives>
+  <!-- <objectives> -->
+  <!--   <ul> -->
+  <!--     <li> -->
+  <!-- 	Find the average rate of change of a function on an interval. -->
+  <!--     </li> -->
+  <!--   </ul> -->
+  <!-- </objectives> -->
 
   <definition xml:id="def-average_rate_of_change">
     <title>The Average Rate of Change</title>

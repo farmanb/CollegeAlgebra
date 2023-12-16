@@ -3,13 +3,13 @@
 <section xml:id="sec-rational_functions" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Rational Functions</title>
 
-  <objectives>
-    <ul>
-      <li>
-	Find the domain of a rational functions
-      </li>
-    </ul>
-  </objectives>
+  <!-- <objectives> -->
+  <!--   <ul> -->
+  <!--     <li> -->
+  <!-- 	Find the domain of a rational functions -->
+  <!--     </li> -->
+  <!--   </ul> -->
+  <!-- </objectives> -->
 
   <introduction>
     <p>
@@ -162,4 +162,14 @@
     </example>
     
   </subsection>
+
+  <worksheet>
+    <objectives>
+      <ul>
+	<li>
+	  Find the domain of a rational functions
+	</li>
+      </ul>
+    </objectives>
+  </worksheet>
 </section>

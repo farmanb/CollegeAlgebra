@@ -2,19 +2,19 @@
 
 <section xml:id="sec-relations" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Functions</title>
-  <objectives>
-    <ul>
-      <li>
-	Find the domain and codomain of a function.
-      </li>
-      <li>
-	Find the range of a function.
-      </li>
-      <li>
-	Determine whether an equation defines <m>y</m> as a function of <m>x</m>.
-      </li>
-    </ul>
-  </objectives>
+  <!-- <objectives> -->
+  <!--   <ul> -->
+  <!--     <li> -->
+  <!-- 	Find the domain and codomain of a function. -->
+  <!--     </li> -->
+  <!--     <li> -->
+  <!-- 	Find the range of a function. -->
+  <!--     </li> -->
+  <!--     <li> -->
+  <!-- 	Determine whether an equation defines <m>y</m> as a function of <m>x</m>. -->
+  <!--     </li> -->
+  <!--   </ul> -->
+  <!-- </objectives> -->
 
   <introduction>
     <p>

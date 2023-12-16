@@ -2,19 +2,19 @@
 
 <section xml:id="sec-perp_parallel" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Parallel and Perpendicular Lines</title>
-  <objectives>
-    <ul>
-      <li>
-	Determine whether two lines are parallel, perpendicular, or neither.
-      </li>
-      <li>
-	Find the equation of a line parallel to a given line.
-      </li>
-      <li>
-	Find the equation of a line perpendicular to a given line.
-      </li>
-    </ul>
-  </objectives>
+  <!-- <objectives> -->
+  <!--   <ul> -->
+  <!--     <li> -->
+  <!-- 	Determine whether two lines are parallel, perpendicular, or neither. -->
+  <!--     </li> -->
+  <!--     <li> -->
+  <!-- 	Find the equation of a line parallel to a given line. -->
+  <!--     </li> -->
+  <!--     <li> -->
+  <!-- 	Find the equation of a line perpendicular to a given line. -->
+  <!--     </li> -->
+  <!--   </ul> -->
+  <!-- </objectives> -->
 
   <definition xml:id="def-parallel">
     <title>Parallel</title>
