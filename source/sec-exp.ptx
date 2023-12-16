@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-exponentials" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Exponential Function</title>
+
+  <introduction>
+    <p>
+      So far, all of the functions we have encountered are either polynomials or can be constructed from polynomial equations using algebraic operations.
+      A <term>transcendental function</term>
+      <idx>
+	<h>Function</h>
+	<h>Transcendental</h>
+      </idx>
+      is any function that cannot be constructed in this manner.
+      While it is certainly odd to discuss functions that cannot be constructed by algebraic means in a course on algebra, many calculus courses expect students to already be familiar with these functions.
+      We focus solely on the algebraic properties of these functions.
+    </p>
+  </introduction>
+
+  <subsection>
+    <title>Properties of the Exponential Function</title>
+
+    <p>
+      We start with the definition of a constant.
+      Much like the number <m>\pi</m>, this number <em>cannot</em> be constructed using algebraic methods.
+      Indeed, the proper definition requires calculus, so we provide only a numerical approximation.
+    </p>
+  
+    <definition xml:id="def-euler_constant">
+      <title>Euler's Number</title>
+      <p>
+	<term>Euler's number</term>
+	<idx>
+	  <h>Euler's Number</h>
+	</idx>
+	is the constant <m>e \approx 2.71828182846</m>.
+	<notation>
+	  <usage><m>e</m></usage>
+	  <description>Euler's number</description>
+	</notation>
+      </p>
+    </definition>
+
+    <p>
+      This constant is essential to the definition of the exponential function.
+    </p>
+    
+    <definition xml:id="def-natural_exponential">
+      <title>The Exponential Function</title>
+      The <term>exponential function</term>
+      <idx>
+	<h>Function</h>
+	<h>Exponential</h>
+      </idx>
+      <m>\exp \colon \R \to (0, \infty)</m> is defined by <m>\exp(x) = e^x</m>.
+    </definition>
+
+    <p>
+      We can think about the value of the exponential function at a positive real number <m>r</m> as the result of multiplying <m>r</m> copies of the number <m>e</m>:
+      <me>\exp(r) = e^r = \underbrace{e e e \cdots e}_r.</me>
+      This definition extends to all real numbers by defining
+      <me>\exp(0) = e^r = 1 \quad\text{and}\quad \exp(-r) = e^{-r} = \frac{1}{e^r} = \frac{1}{\exp(r)}.</me>
+    </p>
+    <p>
+      An interesting consequence of these definitions is that the exponential function transforms addition of the input into multiplication of the output and subtraction of the input into division of the output.
+      For addition of the input, we take advantage of the fact that multiplication is associative to write
+      <md>
+	<mrow>\exp(r + s) \amp= e^{r + s}</mrow>
+	<mrow>\amp= \underbrace{e  e  e \cdots e}_{r + s}</mrow>
+	<mrow>\amp= \left(\underbrace{e  e  e \cdots e}_{r}\right)\left(\underbrace{e  e  e \cdots e}_{s}\right)</mrow>
+	<mrow>\amp= e^r e^s</mrow>
+	<mrow>\amp= \exp(r)  \exp(s).</mrow>
+      </md>
+    </p>
+    <p>
+      For subtraction of the inverse, we note that <m>r - s = r + (-s)</m>, so 
+      <md>
+	<mrow>\exp(r - s) \amp= \exp(r + (-s))</mrow>
+	<mrow>\amp= \exp(r)  \exp(-s)</mrow>
+	<mrow>\amp= \exp(r)  \frac{1}{\exp(s)}</mrow>
+	<mrow>\amp= \frac{\exp(r)}{\exp(s)}.</mrow>
+      </md>
+    </p>
+
+    <p>
+      These two properties also provide a convenient observation about multiplication of the input.
+      Recall that the product of two numbers is simply a notational convenience.
+      Depending on your needs, the product <m>rs</m> can be regarded as either adding together <m>r</m> copies of the number <m>s</m> or <m>s</m> copies of the number <m>r</m>:
+      <me>rs = \underbrace{s + s + s + \cdots + s}_{r} = \underbrace{r + r + r + \cdots + r}_{s}.</me>
+      If we take first interpretation of <m>rs</m>, then we can apply the formula for the sum of inputs <m>r</m> times to get
+      <md>
+	<mrow>\exp(rs) \amp= \exp\left(\underbrace{s + s + s + \cdots + s}_{r}\right)</mrow>
+	<mrow>\amp= \exp(s)  \exp\left(\underbrace{s + s + s + \cdots + s}_{r-1}\right)</mrow>
+	<mrow>\amp= \exp(s)  \exp(s)  \exp\left(\underbrace{s + s + s + \cdots + s}_{r-2}\right)</mrow>
+	<mrow>\amp= \cdots</mrow>
+	<mrow>\amp= \underbrace{\exp(s)  \exp(s) \exp(s) \cdots \exp(s)}_r</mrow>
+	<mrow>\amp= \exp(s)^r.</mrow>
+      </md>
+      Similarly, if we take the second interpretation of <m>rs</m>, then we can apply the formula for the sum of inputs <m>s</m> times to get
+      <md>
+	<mrow>\exp(rs) \amp= \exp\left(\underbrace{r + r + r + \cdots + r}_{s}\right)</mrow>
+	<mrow>\amp= \exp(r)  \exp\left(\underbrace{r + r + r + \cdots + r}_{s-1}\right)</mrow>
+	<mrow>\amp= \exp(r)  \exp(r)  \exp\left(\underbrace{r + r + r + \cdots + r}_{s-2}\right)</mrow>
+	<mrow>\amp= \cdots</mrow>
+	<mrow>\amp= \underbrace{\exp(r)  \exp(r) \exp(r) \cdots \exp(r)}_s</mrow>
+	<mrow>\amp= \exp(r)^s.</mrow>
+      </md>
+    </p>
+    
+    <theorem xml:id="thm-properties_exp">
+      <title>Properties of Exponential Functions</title>
+      <statement>
+	<p>
+	  Assume <m>x</m> and <m>x^\prime</m> are real numbers.
+	  <ol>
+	    <li>
+	      <p>
+		<m>\exp(0) = a^0 = 1.</m>
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		<m>\exp(x + x^\prime) = a^{x+x^\prime} = a^x a^{x^\prime} = \exp(x)\exp(x^\prime).</m>
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		<m>\exp(x - x^\prime) = \exp^{x-x^\prime} = \frac{a^x}{a^{x^\prime}} = \frac{\exp(x)}{\exp(x^\prime)}.</m>
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		<m>\exp(xx^\prime) = \exp(x)^{x^\prime} = \exp\left(x^\prime\right)^x.</m>
+	      </p>
+	    </li>
+	  </ol>
+	</p>
+      </statement>
+    </theorem>
+  </subsection>
+
+  <subsection>
+    <title>The Graph of the Exponential Function</title>
+    <p>
+      The graph of the exponential function is provided below.
+    </p>
+
+    <figure>
+      <image>
+	<latex-image>
+	  \begin{tikzpicture}
+	  \draw[very thin,color=gray] (-5,0) grid (5,5);
+
+	  \draw[very thick,->] (-5.2,0) -- (5.2,0) node[right] {$x$};
+	  \draw[very thick,->] (0,-.2) -- (0,5.2) node[above] {$y$};
+	  
+	  \begin{scope}[domain=-5:5]
+	  \clip (-5,0)  rectangle (5,5);
+	  \draw [color=blue,thick] plot[smooth,samples=500] (\x,{e^(\x)});
+	  \end{scope}
+
+	  \node at (0,1) {$\bullet$};
+	  \node [above left] at (0,1) {$(0,1)$};
+	  
+	  \end{tikzpicture}
+	</latex-image>
+      </image>
+    </figure>
+  </subsection>
+  
+  <worksheet>
+    <objectives>
+      <ul>
+	<li>
+	  <p>
+	    Combine expressions involving exponentials.
+	  </p>
+	</li>
+      </ul>
+    </objectives>
+    <page>
+      <introduction>
+	<p>
+	  Use <xref ref="thm-properties_exp" text="title"/> to rewrite each equation so there is only <alert>one</alert> exponential term.
+	</p>
+      </introduction>
+
+      <exercise workspace="1in">
+	<statement>
+	  <p>
+	    <m>\exp(x^2) = \exp(−2x−1)</m>	    
+	  </p>
+	</statement>
+      </exercise>
+
+      <exercise workspace="1in">
+	<statement>
+	  <p>
+	    <m>\exp(2x + 1) = \exp(2)</m>
+	  </p>
+	</statement>
+      </exercise>
+
+      <exercise workspace="1in">
+	<statement>
+	  <p>
+	    <m>\exp(-4x) = \exp(4)\exp\left(x^2\right)</m>
+	  </p>
+	</statement>
+      </exercise>
+    </page>
+    <page>
+      <exercise>
+	<statement>
+	  <p>
+	    Match each function with its graph.
+	  </p>
+	  <ol cols="2">
+	    <li>
+	      <m>y = \exp(-x)</m>
+	    </li>
+	    <li>
+	      <m>y = 2\exp(x)</m>
+	    </li>
+	    <li>
+	      <m>y = \exp\left(\frac{x}{2}\right)</m>
+	    </li>
+	    <li>
+	      <m>y = \exp(x - 2)</m>
+	    </li>
+	  </ol>
+	  <sidebyside>
+	    <p>
+	      <image width="50%" xml:id="img-exp_x_minus_2">
+		<latex-image>
+		  \begin{tikzpicture}
+		  \draw[very thin,color=gray] (-5,0) grid (5,5);
+
+		  \draw[very thick,->] (-5.2,0) -- (5.2,0) node[right] {$x$};
+		  \draw[very thick,->] (0,-.2) -- (0,5.2) node[above] {$y$};
+		  
+		  \begin{scope}[domain=-5:5]
+		  \clip (-5,0)  rectangle (5,5);
+		  \draw [color=blue,thick] plot[smooth,samples=500] (\x,{e^(\x - 2)});
+		  \end{scope}
+
+		  \node at (0,1) {$\bullet$};
+		  \node [above left] at (0,1) {$(0,1)$};
+		  
+		  \end{tikzpicture}
+		</latex-image>
+	      </image>
+	      <image width="50%" xml:id="img-2_exp_x">
+		<latex-image>
+		  \begin{tikzpicture}
+		  \draw[very thin,color=gray] (-5,0) grid (5,5);
+
+		  \draw[very thick,->] (-5.2,0) -- (5.2,0) node[right] {$x$};
+		  \draw[very thick,->] (0,-.2) -- (0,5.2) node[above] {$y$};
+		  
+		  \begin{scope}[domain=-5:5]
+		  \clip (-5,0)  rectangle (5,5);
+		  \draw [color=blue,thick] plot[smooth,samples=500] (\x,{2*e^(\x)});
+		  \end{scope}
+
+		  \node at (0,1) {$\bullet$};
+		  \node [above left] at (0,1) {$(0,1)$};
+		  
+		  \end{tikzpicture}
+		</latex-image>
+	      </image>
+	    </p>
+	    <p>
+	      <image width="50%" xml:id="img-exp_neg_x">
+		<latex-image>
+		  \begin{tikzpicture}
+		  \draw[very thin,color=gray] (-5,0) grid (5,5);
+
+		  \draw[very thick,->] (-5.2,0) -- (5.2,0) node[right] {$x$};
+		  \draw[very thick,->] (0,-.2) -- (0,5.2) node[above] {$y$};
+		  
+		  \begin{scope}[domain=-5:5]
+		  \clip (-5,0)  rectangle (5,5);
+		  \draw [color=blue,thick] plot[smooth,samples=500] (\x,{e^(-\x)});
+		  \end{scope}
+
+		  \node at (0,1) {$\bullet$};
+		  \node [above left] at (0,1) {$(0,1)$};
+		  
+		  \end{tikzpicture}
+		</latex-image>
+	      </image>
+	      <image width="50%" xml:id="img-exp_half_x">
+		<latex-image>
+		  \begin{tikzpicture}
+		  \draw[very thin,color=gray] (-5,0) grid (5,5);
+
+		  \draw[very thick,->] (-5.2,0) -- (5.2,0) node[right] {$x$};
+		  \draw[very thick,->] (0,-.2) -- (0,5.2) node[above] {$y$};
+		  
+		  \begin{scope}[domain=-5:5]
+		  \clip (-5,0)  rectangle (5,5);
+		  \draw [color=blue,thick] plot[smooth,samples=500] (\x,{e^(\x/2)});
+		  \end{scope}
+
+		  \node at (0,1) {$\bullet$};
+		  \node [above left] at (0,1) {$(0,1)$};
+		  
+		  \end{tikzpicture}
+		</latex-image>
+	      </image>
+	    </p>
+	    
+	  </sidebyside>
+	</statement>
+      </exercise>
+    </page>
+  </worksheet>
+</section>

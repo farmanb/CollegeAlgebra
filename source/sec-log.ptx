@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-logarithms" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Natural Logarithm</title>
+  <introduction>
+    <p>
+      Looking at the graph of <m>\exp \colon \R \to (0,\infty)</m>, it appears to satisfy <xref ref="thm-horizontal_line_test" text="title"/>.
+    </p>
+    <figure>
+      <image>
+	<latex-image>
+	  \begin{tikzpicture}
+
+	  \draw[very thin,color=gray] (-5,0) grid (5,5);
+
+	  \draw[very thick,->] (-5.2,0) -- (5.2,0) node[right] {$x$};
+	  \draw[very thick,->] (0,-.2) -- (0,5.2) node[above] {$y$};
+	  
+	  \begin{scope}[domain=-5:5]
+	  \clip (-5,0) rectangle (5,5);
+	  \draw [color=blue,thick] plot[smooth,samples=500] (\x,{(exp(\x)});
+	  \end{scope}
+
+	  \draw [dashed,thick] plot[domain=-5:5] (\x,3);
+	  
+	  \node at ({ln(3)},3) {$\bullet$};
+	  \end{tikzpicture}
+	</latex-image>
+      </image>
+      <caption>The horizontal line test for <m>\exp \colon \R \to (0,\infty)</m></caption>
+    </figure>
+    <p>
+      We can verify this algebraically as follows.
+      Suppose the points <m>\left(x_1, \exp(x_1)\right)</m> and <m>\left(x_2, \exp(x_2)\right)</m> lie on the same horizontal line.
+      These points must have the same <m>y</m>-coordinates, so
+      <md>
+	<mrow>\amp \exp(x_1) = \exp(x_2) \amp\amp \text{Divide both sides by}\ \exp(x_2)</mrow>
+	<mrow>\amp \frac{\exp(x_1)}{\exp(x_2)} = 1 \amp\amp\text{Combine}</mrow>
+	<mrow>\amp \exp(x_1 - x_2) = 1</mrow>
+      </md>
+      implies that <m>x_1 - x_2 = 0</m> and so <m>x_1 = x_2</m>.
+      That is to say, the two points are the <em>same</em> point and so any horizontal line intersects the graph in at most one point.
+      This tells us the exponential function is invertible.
+    </p>
+  </introduction>
+
+  <definition>
+    <title>The Natural Logarithm</title>
+    <p>
+      The <term>natural logarithm</term>,
+      <idx>
+	<h>Function</h>
+	<h>Logarithm</h>
+	<h>Natural</h>
+      </idx>
+      <m>\ln \colon (0, \infty) \to \R</m>,
+      <notation>
+	<usage><m>\ln</m></usage>
+	<description>The natural logarithm</description>
+      </notation>
+      is the inverse of <m>\exp \colon \R \to (0, \infty)</m>.
+    </p>
+  </definition>
+
+  <subsection>
+    <title>Properties of the Natural Logarithm</title>
+    <p>
+      As the composition inverse of <m>\exp \colon \R \to (0, \infty)</m>, the logarithm inherits properties that are very similar to the <xref ref="thm-properties_exp" text="title"/>.
+      To describe these properties algebraically it is helpful to phrase the relationship between the exponential and the logarithm as pairing each real number <m>x</m> with a positive real number <m>y</m> via
+      <men xml:id="eq-exp_log">y = \exp(x) \quad\text{and}\quad x = \ln(y).</men>
+    </p>
+    <p>
+      Starting from the property <m>\exp(0) = 1</m>, taking <m>x = 0</m> and <m>y = 1</m> in <xref ref="eq-exp_log"/> allows us to write
+      <me>1 = \exp(0) \quad\text{and}\quad 0 = \ln(1).</me>
+      We should note this algebraic fact fits with our geometric understanding.
+      The graph of <m>\exp \colon \R \to (0, \infty)</m> passes through the point <m>(0,1)</m>.
+      Since the graph of <m>\ln \colon (0, \infty) \to \R</m> is the reflection of the graph of the exponential function across the line <m>y = x</m>, the graph of the natural logarithm passes through the point <m>(1,0)</m>.
+    </p>
+    <p>
+      If we introduce another real number, <m>x^\prime</m>, then we obtain a second positive real number, <m>y^\prime = \exp\left(x^\prime\right)</m>.
+      The function <m>\exp</m> maps the sum of these numbers to the product of their pairs
+      <me>\exp(x + x^\prime) = \exp(x)\exp(x^\prime) = yy^\prime,</me>
+      so the right-hand side of <xref ref="eq-exp_log"/> tells us that the logarithm pairs the product of positive real numbers with the sum of their pairs
+      <me>x + x^\prime = \log\left(yy^\prime\right).</me>
+    </p>
+    <p>
+      Similarly, the function <m>\exp</m> maps the difference of these numbers to the ratio of their pairs
+      <me>\exp(x - x^\prime) = \frac{\exp(x)}{\exp(x^\prime)} = yy^\prime,</me>
+      so the right-hand side of <xref ref="eq-exp_log"/> tells us that the logarithm pairs the ratio of positive real numbers with the difference of their pairs
+      <me>x - x^\prime = \log\left(\frac{y}{y^\prime}\right).</me>
+    </p>
+    <p>
+      Finally, we make the following observation as a convenience.
+      If <m>y</m> is any positive real number and <m>r</m> is any real number, then we think of <m>y^r</m> as the product of <m>r</m> copies of the number <m>y</m>
+      <me>y^r = \underbrace{y y y \cdots y}_r.</me>
+      If we transform the log of the product into the sum of the logs <m>r</m> times, then we obtain the expression
+      <md>
+	<mrow>\ln(y^r) \amp= \ln\left(\underbrace{yyy\cdots y}_r\right)</mrow>
+	<mrow>\amp= \ln(y) + \ln\left(\underbrace{yyy\cdots y}_{r-1}\right)</mrow>
+	<mrow>\amp= \ln(y) + \ln(y) + \ln\left(\underbrace{yyy\cdots y}_{r-2}\right)</mrow>
+	<mrow>\amp= \cdots</mrow>
+	<mrow>\amp= \underbrace{\ln(y) + \ln(y) + \cdots + \ln(y)}_r</mrow>
+	<mrow>\amp= r\ln(y).</mrow>
+      </md>
+    </p>
+    <p>
+      We summarize these properties below.
+    </p>
+
+    <theorem xml:id="thm-properties_log">
+      <title>Properties of the Logarithm</title>
+      <p>
+	Assume <m>y</m> and <m>y^\prime</m> are positive real numbers.
+      </p>
+      <ol>
+	<li>
+	  <p>
+	    <m>\ln(1) = 0.</m>
+	  </p>
+	</li>
+	<li>
+	  <p>
+	    <m>\ln(yy^\prime) = \ln(y) + \ln(y^\prime).</m>
+	  </p>
+	</li>
+	<li>
+	  <p>
+	    <m>\ln\left(\frac{y}{y^\prime}\right) = \ln(y) - \ln(y^\prime).</m>
+	  </p>
+	</li>
+	<li>
+	  <p>
+	    <m>\ln(y^r) = r\ln(y).</m>
+	  </p>
+	</li>
+      </ol>
+    </theorem>
+  </subsection>
+
+  <subsection>
+    <title>The Graph of the Natural Logarithm</title>
+    <p>
+      As the composition inverse, the graph of <m>y = \ln(x)</m> is obtained by reflecting the graph of <m>y = \exp(x)</m> across the line <m>y = x</m>.
+    </p>
+    
+    <figure>
+      <image>
+	<latex-image>
+	  \begin{tikzpicture}
+	  \draw[very thin,color=gray] (-5,-5) grid (5,5);
+
+	  \draw[very thick,->] (-5.2,0) -- (5.2,0) node[right] {$x$};
+	  \draw[very thick,->] (0,-5.2) -- (0,5.2) node[above] {$y$};
+	  
+	  \begin{scope}[domain=-5:5]
+	  \clip (-5,-5)  rectangle (5,5);
+	  \draw [color=blue,thick] plot[smooth,samples=500] ({e^(\x)},\x);
+	  \end{scope}
+
+	  \node at (1,0) {$\bullet$};
+	  \node [above left] at (1,0) {$(1,0)$};
+	  
+	  \end{tikzpicture}
+	</latex-image>
+      </image>
+    </figure>
+  </subsection>
+
+  <subsection>
+    <title>Solving Equations with Transcendental Functions</title>
+    <p>
+      Sometimes, equations arise that involve the exponential function or the natural logarithm.
+      The general tactic for solving equations of this type is to combine the exponentials or logarithms using <xref ref="thm-properties_exp" text="title"/> and <xref ref="thm-properties_log" text="title"/>, then 
+      use the relation
+      <me>\exp \circ \ln(x) = x \quad\text{or}\quad \ln \circ \exp(x) = x,</me>
+      as appropriate, to obtain an equation without exponentials or logarithms.
+    </p>
+
+    <example>
+      <p>
+	To solve the equation
+	<me>\exp\left(x^2\right)\exp(5)=\exp(6x)</me>
+	for <m>x</m>, we use the <xref ref="thm-properties_exp" text="title"/> to rewrite
+	<md>
+	  <mrow>\amp \exp\left(x^{2}\right)\exp(5)=\exp(6x) \amp\amp \text{Simplify the LHS using}</mrow>
+	  <mrow>\amp\amp\amp\exp(x)\exp\left(x^\prime\right) = \exp\left(x + x^\prime\right)</mrow>
+	  <mrow>\amp \exp(x^2 + 5) = \exp(6x) \amp\amp \text{Apply}\ \ln\ \text{to both sides}</mrow>
+	  <mrow>\amp \ln \circ \exp(x^2+ 5) = \ln \circ \exp(6x) \amp\amp \text{Simplify}\ \ln \circ \exp(x) = x</mrow>
+	  <mrow>\amp x^2 + 5 = 6x \amp\amp \text{Subtract}\ 6x\ \text{from both sides}</mrow>
+	  <mrow>\amp x^2 - 6x + 5 = 0 \amp\amp \text{Factor (or use the Quadratic Formula)}</mrow>
+	  <mrow>\amp (x - 5)(x - 1) = 0.</mrow>
+	</md>
+	Therefore there are two solutions to this equation: <m>x = 5</m> and <m>x = 1</m>.
+      </p>
+      <p>
+	We can check <m>x = 5</m> is a solution by substituting <m>5</m> for <m>x</m> on the left-hand side to get
+	<me>\exp(5^2)\exp(5) = \exp(25)\exp(5) = \exp(25 + 5) = \exp(30)</me>
+	then on the right-hand side to get
+	<me>\exp(6(5)) = \exp(30)</me>
+	and observe they are the same.
+      </p>
+      <p>
+	Similarly, we can check <m>x = 1</m> is a solution by substituting <m>1</m> for <m>x</m> on the left-hand side to get
+	<me>\exp(1^2)\exp(1) = \exp(1)\exp(5) = \exp(1 + 5) = \exp(6)</me>
+	then on the right-hand side to get
+	<me>\exp(6(1)) = \exp(6)</me>
+	and observe they are the same.
+      </p>
+    </example>
+	
+    
+    <example>
+      <p>
+	To solve the equation
+	<me>2\ln\left(x-1\right) = \ln(1)</me>
+	for <m>x</m>, we use the <xref ref="thm-properties_log" text="title"/> to rewrite
+	<md>
+	  <mrow>\amp 2\ln\left(x-1\right)= \ln(1) \amp\amp \text{Use}\ r\ln(y) = \ln(y^r)\ \text{on the LHS}</mrow>
+	  <mrow>\amp \ln\left((x-1)^2\right) = \ln(1) \amp\amp \text{Apply}\ \exp\ \text{to both sides}</mrow>
+	  <mrow>\amp \exp \circ \ln\left((x-1)^2\right) = \exp \circ \ln(1) \amp\amp \text{Simplify}\ \exp \circ \ln(y) = y</mrow>
+	  <mrow>\amp (x-1)^2 = 1 \amp\amp \text{Expand the LHS}</mrow>
+	  <mrow>\amp x^2 - 2x + 1 = 1 \amp\amp \text{Subtract}\ 1\ \text{from both sides}</mrow>
+	  <mrow>\amp x^2 - 2x = 0\ \text{Factor}</mrow>
+	  <mrow>\amp x(x - 2) = 0.</mrow>
+	</md>
+	The two possible solutions are <m>x = 0</m> and <m>x = 2</m>.
+	The solution <m>x = 0</m> is <em>extraneous</em> because <m>\ln(0 - 1) = \ln(-1)</m> is <alert>undefined.</alert>
+	Therefore the only solution is <m>x = 2</m>.
+      </p>
+      <p>
+	We can verify this is a solution by substituting <m>2</m> for <m>x</m> to see
+	<me>2\ln(2 - 1) = 2\ln(1) = 2(0) = 0 = \ln(1).</me>
+      </p>
+    </example>
+  </subsection>
+
+  <worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+    <objectives>
+      <ul>
+	<li>
+	  Solve equations involving exponential functions.
+	</li>
+	<li>
+	  Solve equations involving logarithms.
+	</li>
+      </ul>
+    </objectives>
+    <page>
+      <title>Solving Equations with Exponential Functions</title>
+      <exercise>
+	<statement>
+	  <p>
+	    Solve the equation
+	    <me>\exp^{2x + 1} = \exp(2)</me>
+	    for <m>x</m>.
+	  </p>
+	</statement>
+      </exercise>
+      
+      <exercise>
+	<statement>
+	  <p>
+	    Solve the equation 
+	    <me>\exp(-4x) = \exp(4)\exp(\left(x^2\right)</me>
+	    for <m>x</m>.
+	  </p>
+	</statement>
+      </exercise>
+
+      <exercise>
+	<statement>
+	  <p>
+	    Solve the equation
+	    <me>\exp(x^2) = \exp(−2x−1)</me>
+	    for <m>x</m>
+	  </p>
+	</statement>
+      </exercise>
+    </page>
+    <page>
+      <title>Solving Equations with Logarithms</title>
+      <exercise>
+	<statement>
+	  <p>
+	    Solve the equation
+	    <me>\ln(x + 3) + \ln(x − 3) = \ln(16)</me>
+	    for <m>x</m>.
+	  </p>
+	</statement>
+      </exercise>
+      <exercise>
+	<statement>
+	  <p>
+	    Solve the equation
+	    <me>\ln(x - 5) - 2\ln\left(\frac{1}{\sqrt{x}}\right) = \ln(6).</me>
+	    for <m>x</m>.
+	  </p>
+	</statement>
+      </exercise>
+      <exercise>
+	<statement>
+	  <p>
+	    Solve the equation
+	    <me>-\ln\left(\frac{1}{5-x}\right)+2\ln\left(\sqrt{x+1}\right)=\ln\left(4\right)</me>
+	    for <m>x</m>.
+	  </p>
+	</statement>
+      </exercise>
+    </page>
+  </worksheet>
+</section>
