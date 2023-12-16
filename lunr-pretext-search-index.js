@@ -16,16 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Cartesian Coordinates",
-  "body": " Cartesian Coordinates     Identify points in the plane using Cartesian coordinates.     In mathematics, we are interested in studying how two quantities change together. We will often find it useful to visualize these relationships. The Cartesian plane is the natural setting for these visualizations.      Points in the Plane   The Cartesian plane   Cartesian Plane  is a grid system used to locate objects using two perpendicular directions. The horizontal direction is usually called the -axis   Cartesian Plane  -axis  and the vertical direction is usually called the -axis .  Cartesian Plane  -axis  The plane is partitioned into four pieces called quadrants , depicted in     The Cartesian Plane      The type of objects we are interested in locating will vary by application. In general, we will refer to these simply as points .  Cartesian Plane  Point  A point is located in the plane by its position relative to the -axis, called the -coordinate ,  Cartesian Plane  Point  -Coordinate  and relative to the -axis, called the -coordinate .  Cartesian Plane  Point  -Coordinate    By convention, we locate a point by first giving the -coordinate, then the -coordinate.   An ordered pair , , is the data of two real numbers.   We encode the position of a point using its -coordinate and -coordinate using an ordered pair with the -coordinate first and the -coordinate second.   The - and -Coordinates of several points in the plane.       Plotting Points in the Plane    Plot points in the plane using Cartesian coordinates,  Identify the quadrant in which a point lies.     In this activity, we will practice plotting some points in the plane.   Plot the following points in the Cartesian plane.              For each of the points that you plotted above, indicate the quadrant that contains the point.    "
-},
-{
-  "id": "objectives-1",
-  "level": "2",
-  "url": "sec-cartesian_coordinates.html#objectives-1",
-  "type": "Objectives",
-  "number": "1.1",
-  "title": "",
-  "body": "   Identify points in the plane using Cartesian coordinates.   "
+  "body": " Cartesian Coordinates           In mathematics, we are interested in studying how two quantities change together. We will often find it useful to visualize these relationships. The Cartesian plane is the natural setting for these visualizations.      Points in the Plane   The Cartesian plane   Cartesian Plane  is a grid system used to locate objects using two perpendicular directions. The horizontal direction is usually called the -axis   Cartesian Plane  -axis  and the vertical direction is usually called the -axis .  Cartesian Plane  -axis  The plane is partitioned into four pieces called quadrants , depicted in     The Cartesian Plane      The type of objects we are interested in locating will vary by application. In general, we will refer to these simply as points .  Cartesian Plane  Point  A point is located in the plane by its position relative to the -axis, called the -coordinate ,  Cartesian Plane  Point  -Coordinate  and relative to the -axis, called the -coordinate .  Cartesian Plane  Point  -Coordinate    By convention, we locate a point by first giving the -coordinate, then the -coordinate.   An ordered pair , , is the data of two real numbers.   We encode the position of a point using its -coordinate and -coordinate using an ordered pair with the -coordinate first and the -coordinate second.   The - and -Coordinates of several points in the plane.       Plotting Points in the Plane    Plot points in the plane using Cartesian coordinates,  Identify the quadrant in which a point lies.     In this activity, we will practice plotting some points in the plane.   Plot the following points in the Cartesian plane.              For each of the points that you plotted above, indicate the quadrant that contains the point.    "
 },
 {
   "id": "def-cartesian_plane",
@@ -73,9 +64,9 @@ var ptx_lunr_docs = [
   "body": " The - and -Coordinates of several points in the plane.     "
 },
 {
-  "id": "objectives-2",
+  "id": "objectives-1",
   "level": "2",
-  "url": "sec-cartesian_coordinates.html#objectives-2",
+  "url": "sec-cartesian_coordinates.html#objectives-1",
   "type": "Objectives",
   "number": "1.1.1",
   "title": "",
@@ -106,16 +97,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Graphing Equations",
-  "body": " Graphing Equations    Identify points in the plane that are solutions to equations in two variables.     When two quantities vary together, the relationship is modeled by an equation in two variables. By convention, mathematicians use the variables and . Often, it is convenient to visualize this relationship using a graph.    Solutions to an Equation   Solution to an Equation  A solution   Equation  Solution  to an equation in the variables and is an ordered pair that make the equation true when  the first coordinate, , is substituted into the equation for , and  the second coordinate, , is substituted into the equation for .      Consider the equation . The ordered pair is a solution to this equation because is a true statement. The ordered pair is not a solution to this equation because is a false statement.    Graph of an Equation  The graph   Equation  Graph  of an equation in the variables and consists of all the points in the plane that are solutions to the equation.   Most equations that we will encounter will have infinitely many solutions. Since we cannot find all of the solutions, we will mostly rely on studying the shape of certain graphs and some specific solutions.   -intercept A of the form is called a -intercept .  Equation  -intercept                        -intercept A of the form is called an -intercept .  Equation  -intercept     The graph of the equation is shown below. The -intercept occurs when and The -intercept occurs when and This tells us, as ordered pairs, the -intercept occurs at and the -intercept occurs at . In general, every point on this line has coordinates of the form , where can be any real number we choose.   The graph of the equation .         Horizontal Lines  The equation where is a constant has solutions of the form , where is allowed to be any real number. The graph of this equation is a horizontal line.    Graph the equation .    The solutions to the equation have the form , where is allowed to be any real number. The graph of this equation forms the -axis in the Cartesian plane.           Graph the equation .    The equation simplifies to . The graph of this equation is a horizontal line units above the -axis.  The graph of .           Vertical Lines  The equation where is a constant has solutions of the form , where is allowed to be any real number. The graph of this equation is a vertical line.    Graph the equation .    The solutions to the equation have the form , where is allowed to be any real number. The graph of this equation forms the -axis in the Cartesian plane.           Graph the equation .    The equation reduces to . The graph of this equation is a vertical line units to the right of the -axis.  The graph of .           Plotting Points on a Graph    Identify points in the plane that are solutions to equations in two variables.     Consider the equation . The graph of this equation is given below. Use the equation and the graph to answer the following questions.      Graph of .    Find the value of such that the point lies on the graph of the equation. Plot this point on the graph above and label it.  Find the value of such that the point lies on the graph of the equation. Plot this point on the graph above and label it.  Is the point on the graph of the equation? Justify your answer using the equation of the graph.  Is the point on the graph of the equation? Justify your answer using the equation of the graph.   "
-},
-{
-  "id": "objectives-3",
-  "level": "2",
-  "url": "sec-cartesian_coordinates-graphing_equations.html#objectives-3",
-  "type": "Objectives",
-  "number": "1.2",
-  "title": "",
-  "body": "  Identify points in the plane that are solutions to equations in two variables.   "
+  "body": " Graphing Equations          When two quantities vary together, the relationship is modeled by an equation in two variables. By convention, mathematicians use the variables and . Often, it is convenient to visualize this relationship using a graph.    Solutions to an Equation   Solution to an Equation  A solution   Equation  Solution  to an equation in the variables and is an ordered pair that make the equation true when  the first coordinate, , is substituted into the equation for , and  the second coordinate, , is substituted into the equation for .      Consider the equation . The ordered pair is a solution to this equation because is a true statement. The ordered pair is not a solution to this equation because is a false statement.    Graph of an Equation  The graph   Equation  Graph  of an equation in the variables and consists of all the points in the plane that are solutions to the equation.   Most equations that we will encounter will have infinitely many solutions. Since we cannot find all of the solutions, we will mostly rely on studying the shape of certain graphs and some specific solutions.   -intercept A of the form is called a -intercept .  Equation  -intercept                        -intercept A of the form is called an -intercept .  Equation  -intercept     The graph of the equation is shown below. The -intercept occurs when and The -intercept occurs when and This tells us, as ordered pairs, the -intercept occurs at and the -intercept occurs at . In general, every point on this line has coordinates of the form , where can be any real number we choose.   The graph of the equation .         Horizontal Lines  The equation where is a constant has solutions of the form , where is allowed to be any real number. The graph of this equation is a horizontal line.    Graph the equation .    The solutions to the equation have the form , where is allowed to be any real number. The graph of this equation forms the -axis in the Cartesian plane.           Graph the equation .    The equation simplifies to . The graph of this equation is a horizontal line units above the -axis.  The graph of .           Vertical Lines  The equation where is a constant has solutions of the form , where is allowed to be any real number. The graph of this equation is a vertical line.    Graph the equation .    The solutions to the equation have the form , where is allowed to be any real number. The graph of this equation forms the -axis in the Cartesian plane.           Graph the equation .    The equation reduces to . The graph of this equation is a vertical line units to the right of the -axis.  The graph of .           Plotting Points on a Graph    Identify points in the plane that are solutions to equations in two variables.     Consider the equation . The graph of this equation is given below. Use the equation and the graph to answer the following questions.      Graph of .    Find the value of such that the point lies on the graph of the equation. Plot this point on the graph above and label it.  Find the value of such that the point lies on the graph of the equation. Plot this point on the graph above and label it.  Is the point on the graph of the equation? Justify your answer using the equation of the graph.  Is the point on the graph of the equation? Justify your answer using the equation of the graph.   "
 },
 {
   "id": "def-solution",
@@ -208,9 +190,9 @@ var ptx_lunr_docs = [
   "body": "  Graph the equation .    The equation reduces to . The graph of this equation is a vertical line units to the right of the -axis.  The graph of .        "
 },
 {
-  "id": "objectives-4",
+  "id": "objectives-2",
   "level": "2",
-  "url": "sec-cartesian_coordinates-graphing_equations.html#objectives-4",
+  "url": "sec-cartesian_coordinates-graphing_equations.html#objectives-2",
   "type": "Objectives",
   "number": "1.2.4",
   "title": "",
@@ -268,16 +250,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "The Distance Formula",
-  "body": " The Distance Formula     Find the distance between two points in the Cartesian plane.     Within the Cartesian plane, we will often want to determine the distance between two points. In this section, we extend the notion of distance between two points on the number line to the Cartesian plane.    The distance   Distance  Number Line  between two numbers and on a number line is given by the formula This number measures the length of the segment of the number line between and , as depicted in .   The distance between points on the number line.       We can pair this with the Pythagorean Theorem to find the distance between points in the plane.   The Pythagorean Theorem   The right triangle in satisfies the equation    Right triangle with sides of length , , and .        Given two points and , we can introduce a third point to create a triangle, as in .   The triangle formed by adding in the point .      From , we can see the length of the horizontal side is the distance between the points and along the -axis. Similarly, the length of the vertical side is the distance between the points and along the -axis. Using , we have If we square these two side lengths, then By the Pythagorean Theorem, the length of the line segment that connects the points and is    The Distance Formula  The distance   Distance  Cartesian Plane  between the points and in the Cartesian plane is given by This number measures the length of the line segment connecting the two points.     Find the distance between the points and .    By the distance between the points and is      Using the Distance Formula    Find the distance between two points in the Cartesian plane.    Use to answer the following questions.   Find the distance between the points and .    Find the perimeter of the triangle in .        "
-},
-{
-  "id": "objectives-5",
-  "level": "2",
-  "url": "sec-cartesian_coordinates-distance.html#objectives-5",
-  "type": "Objectives",
-  "number": "1.3",
-  "title": "",
-  "body": "   Find the distance between two points in the Cartesian plane.   "
+  "body": " The Distance Formula          Within the Cartesian plane, we will often want to determine the distance between two points. In this section, we extend the notion of distance between two points on the number line to the Cartesian plane.    The distance   Distance  Number Line  between two numbers and on a number line is given by the formula This number measures the length of the segment of the number line between and , as depicted in .   The distance between points on the number line.       We can pair this with the Pythagorean Theorem to find the distance between points in the plane.   The Pythagorean Theorem   The right triangle in satisfies the equation    Right triangle with sides of length , , and .        Given two points and , we can introduce a third point to create a triangle, as in .   The triangle formed by adding in the point .      From , we can see the length of the horizontal side is the distance between the points and along the -axis. Similarly, the length of the vertical side is the distance between the points and along the -axis. Using , we have If we square these two side lengths, then By the Pythagorean Theorem, the length of the line segment that connects the points and is    The Distance Formula  The distance   Distance  Cartesian Plane  between the points and in the Cartesian plane is given by This number measures the length of the line segment connecting the two points.     Find the distance between the points and .    By the distance between the points and is      Using the Distance Formula    Find the distance between two points in the Cartesian plane.    Use to answer the following questions.   Find the distance between the points and .    Find the perimeter of the triangle in .        "
 },
 {
   "id": "def-1_distance",
@@ -325,9 +298,9 @@ var ptx_lunr_docs = [
   "body": "  Find the distance between the points and .    By the distance between the points and is    "
 },
 {
-  "id": "objectives-6",
+  "id": "objectives-3",
   "level": "2",
-  "url": "sec-cartesian_coordinates-distance.html#objectives-6",
+  "url": "sec-cartesian_coordinates-distance.html#objectives-3",
   "type": "Objectives",
   "number": "1.3",
   "title": "",
@@ -358,16 +331,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "The Midpoint Formula",
-  "body": " The Midpoint Formula    Find the midpoint between two points in the Cartesian plane.     Within the Cartesian plane, we will often want to determine the midpoint between two points. In this section, we extend the notion of midpoint between two points on the number line to the Cartesian plane.    The midpoint   Midpoint  Number Line  between two numbers and on the number line is given by the formula as depicted in .         The midpoint is so named because it is halfway between the numbers and . We can check this using : the distance from to the midpoint is and the distance from the midpoint to is    Similar to the distance formula, we can find the midpoint of a line segment between the points and in the Cartesian plane using a triangle. We use to find the midpoint of the vertical and horizontal sides of the triangle, and use those as the coordinates for the midpoint as depicted in .   The triangle formed by adding in the point .       The Midpoint Formula   The midpoint   Midpoint  Cartesian Plane  between and in the Cartesian plane is the point       Use to find the midpoint between and     The -coordinate of the midpoint is and the -coordinate of the midpoint is Therefore the midpoint is      Just as with the midpoint on the real line, the midpoint is halfway between the points and . The easiest way to see this is true is to make two smaller triangles inside the bigger triangle, as depicted in .   The triangle formed by adding in the point .      The two shaded triangles have the same side lengths. The horizontal side has length and the vertical side has length Using , the third side of each triangle has length which is exactly half the distance between the points and .    Using the Midpoint Formula    Find the midpoint between two points in the Cartesian plane.     Use the to find the midpoint for each pair of points in the Cartesian plane.   and .   and .    "
-},
-{
-  "id": "objectives-7",
-  "level": "2",
-  "url": "sec-cartesian_coordinates-midpoint.html#objectives-7",
-  "type": "Objectives",
-  "number": "1.4",
-  "title": "",
-  "body": "  Find the midpoint between two points in the Cartesian plane.   "
+  "body": " The Midpoint Formula          Within the Cartesian plane, we will often want to determine the midpoint between two points. In this section, we extend the notion of midpoint between two points on the number line to the Cartesian plane.    The midpoint   Midpoint  Number Line  between two numbers and on the number line is given by the formula as depicted in .         The midpoint is so named because it is halfway between the numbers and . We can check this using : the distance from to the midpoint is and the distance from the midpoint to is    Similar to the distance formula, we can find the midpoint of a line segment between the points and in the Cartesian plane using a triangle. We use to find the midpoint of the vertical and horizontal sides of the triangle, and use those as the coordinates for the midpoint as depicted in .   The triangle formed by adding in the point .       The Midpoint Formula   The midpoint   Midpoint  Cartesian Plane  between and in the Cartesian plane is the point       Use to find the midpoint between and     The -coordinate of the midpoint is and the -coordinate of the midpoint is Therefore the midpoint is      Just as with the midpoint on the real line, the midpoint is halfway between the points and . The easiest way to see this is true is to make two smaller triangles inside the bigger triangle, as depicted in .   The triangle formed by adding in the point .      The two shaded triangles have the same side lengths. The horizontal side has length and the vertical side has length Using , the third side of each triangle has length which is exactly half the distance between the points and .    Using the Midpoint Formula    Find the midpoint between two points in the Cartesian plane.     Use the to find the midpoint for each pair of points in the Cartesian plane.   and .   and .    "
 },
 {
   "id": "def-1_midpoint",
@@ -424,9 +388,9 @@ var ptx_lunr_docs = [
   "body": " Just as with the midpoint on the real line, the midpoint is halfway between the points and . The easiest way to see this is true is to make two smaller triangles inside the bigger triangle, as depicted in .   The triangle formed by adding in the point .      The two shaded triangles have the same side lengths. The horizontal side has length and the vertical side has length Using , the third side of each triangle has length which is exactly half the distance between the points and .  "
 },
 {
-  "id": "objectives-8",
+  "id": "objectives-4",
   "level": "2",
-  "url": "sec-cartesian_coordinates-midpoint.html#objectives-8",
+  "url": "sec-cartesian_coordinates-midpoint.html#objectives-4",
   "type": "Objectives",
   "number": "1.4",
   "title": "",
@@ -457,16 +421,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.5",
   "title": "Circles",
-  "body": " Circles       Use the standard form of a circle to identify the center and radius.  Use the standard form of a circle to produce a graph.     In this section, we study circles in the Cartesian plane.   The circle   Circle  with radius centered at consists of all points in the Cartesian plane units away from as depicted in .   The circle of radius centered at .       To find the equation of the circle with radius and center we use . A point is on this circle if the distance between and is exactly : To make this simpler, we square each side of the equation.   The Standard Form of a Circle  The standard form of a circle   Equation  Circle  Standard Form  with radius and center is     A diameter   Circle  Diameter  of a circle is a line that connects two points on the circle through the center. The length of a diameter of a circle of radius is , and the midpoint of the diameter is the center of the circle.   A diameter of the circle of radius centered at .                                                     Working with Circles       Use the standard form of a circle to identify the center and radius.  Use the standard form of a circle to produce a graph.     Write down the equation of the circle of radius centered at .  Find the center and radius of the circle Sketch a graph of the equation.  Find the radius of the circle with center that passes through the point . Write the equation of this circle in standard form. Sketch a graph of the circle.        The endpoints of a diameter of a circle are and as in . Write the equation for this circle in standard form.          "
-},
-{
-  "id": "objectives-9",
-  "level": "2",
-  "url": "sec-circles.html#objectives-9",
-  "type": "Objectives",
-  "number": "1.5",
-  "title": "",
-  "body": "     Use the standard form of a circle to identify the center and radius.  Use the standard form of a circle to produce a graph.   "
+  "body": " Circles                In this section, we study circles in the Cartesian plane.   The circle   Circle  with radius centered at consists of all points in the Cartesian plane units away from as depicted in .   The circle of radius centered at .       To find the equation of the circle with radius and center we use . A point is on this circle if the distance between and is exactly : To make this simpler, we square each side of the equation.   The Standard Form of a Circle  The standard form of a circle   Equation  Circle  Standard Form  with radius and center is     A diameter   Circle  Diameter  of a circle is a line that connects two points on the circle through the center. The length of a diameter of a circle of radius is , and the midpoint of the diameter is the center of the circle.   A diameter of the circle of radius centered at .                                                     Working with Circles       Use the standard form of a circle to identify the center and radius.  Use the standard form of a circle to produce a graph.     Write down the equation of the circle of radius centered at .  Find the center and radius of the circle Sketch a graph of the equation.  Find the radius of the circle with center that passes through the point . Write the equation of this circle in standard form. Sketch a graph of the circle.        The endpoints of a diameter of a circle are and as in . Write the equation for this circle in standard form.          "
 },
 {
   "id": "definition-11",
@@ -496,11 +451,11 @@ var ptx_lunr_docs = [
   "body": " A diameter   Circle  Diameter  of a circle is a line that connects two points on the circle through the center. The length of a diameter of a circle of radius is , and the midpoint of the diameter is the center of the circle.   A diameter of the circle of radius centered at .      "
 },
 {
-  "id": "objectives-10",
+  "id": "objectives-5",
   "level": "2",
-  "url": "sec-circles.html#objectives-10",
+  "url": "sec-circles.html#objectives-5",
   "type": "Objectives",
-  "number": "1.5",
+  "number": "1.5.1",
   "title": "",
   "body": "     Use the standard form of a circle to identify the center and radius.  Use the standard form of a circle to produce a graph.   "
 },
@@ -509,7 +464,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-circles.html#exercise-11",
   "type": "Worksheet Exercise",
-  "number": "1.5.1",
+  "number": "1.5.1.1",
   "title": "",
   "body": "Write down the equation of the circle of radius centered at . "
 },
@@ -518,7 +473,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-circles.html#exercise-12",
   "type": "Worksheet Exercise",
-  "number": "1.5.2",
+  "number": "1.5.1.2",
   "title": "",
   "body": "Find the center and radius of the circle Sketch a graph of the equation. "
 },
@@ -527,7 +482,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-circles.html#exercise-13",
   "type": "Worksheet Exercise",
-  "number": "1.5.3",
+  "number": "1.5.1.3",
   "title": "",
   "body": "Find the radius of the circle with center that passes through the point . Write the equation of this circle in standard form. Sketch a graph of the circle. "
 },
@@ -536,7 +491,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-circles.html#exercise-14",
   "type": "Worksheet Exercise",
-  "number": "1.5.4",
+  "number": "1.5.1.4",
   "title": "",
   "body": "    The endpoints of a diameter of a circle are and as in . Write the equation for this circle in standard form. "
 },
@@ -790,16 +745,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Functions",
-  "body": " Functions    Find the domain and codomain of a function.  Find the range of a function.  Determine whether an equation defines as a function of .     In this section, we study the basics of functions.    Function  A function ,  Function   ,     Function with domain and codomain  is a rule that assigns to each element a unique element .     Output of function    The set is the domain   Function  Domain  of , the set is the codomain   Function  Codomain  of . The range   Function  Range  of is the set of all output values    Range of     By convention, we will write to indicate that is a function of . We call the independent variable   Function  Independent Variable  and the dependent variable   Function  Dependent Variable  because every choice of from the domain of determines a value in the range that depends on that choice. In this case, we say is a function of .     Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , will also be a real number. To find the range, we want to describe the set   We can show this is by showing that for every real number , we can find a number such that . We simply solve this equation for in terms of  For example, if , then this formula tells us this corresponds to the input       Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , is a real number. To find the range, we want to describe the set   Given a real number , we want to determine whether the equation can be solved for .  When , there is exactly one solution: .  When , there are two solutions: and .  When , there are no solutions because the square root of a negative number is not a real number.  This tells us the range of our function is the interval .    Whenever we define a new mathematical object, it is important to understand when two objects are the same . For functions with the same domain and codomain, we measure equality based on the output.   Equality of Functions  Two functions and are equal   Function  Equality  if for every , .  We write      Equality of functions  to indicate that and represent the same function.    The functions defined by and are equal because    The functions and have the same domain and codomain, and    For every real number  and       The functions and defined by and are not equal because    Just like an equation in the variables and , we will often want to visualize the functions we define.   Graph of a Function  Assume . The graph of a function is the set of points    When the function we are considering is defined by an equation, the will coincide with the . While most of the functions we consider will be defined by an equation in the variables and , it is not the case that all equations in and define as a function of .   The Vertical Line Test   An equation in the variables and is defines as a function of if and only if every vertical line intersects the graph of the relation in at most one point.     Consider the function defined by the rule . We can verify this is a function in one of two ways. One way is to interpret the algebraically.  From the , the graph of the vertical line is the set and the graph of is the set of To say these graphs intersect is to say there is a point in the intersection of these two sets. The condition for membership on the graph of determines the value of such a point and the definition of the graph of determines the -coordinate: . This tells us the line intersects the graph of at the single point .  We can more readily see this graphically in .      The graph and .     The equation does not define as a function of .  Recall that for every positive number , there are always two square roots: and . This tells us the ordered pairs and both satisfy the equation For example, the ordered pairs and satisfy Since the definition a requires that each element of the domain corresponds to exactly one element of the codomain, we see this cannot be a function. That is, equation fails the .     The graph of the equation and the line .      Functions    Find the domain and codomain of a function.  Find the range of a function.  Determine whether an equation defines as a function of .      For each of the following functions, find the domain, codomain, and range.            Evaluate the function at the given value.   ; .  ; .  ; .     For each of the graphs, find the domain and range. Use the to determine whether is a function of .         "
-},
-{
-  "id": "objectives-11",
-  "level": "2",
-  "url": "sec-relations.html#objectives-11",
-  "type": "Objectives",
-  "number": "2.2",
-  "title": "",
-  "body": "  Find the domain and codomain of a function.  Find the range of a function.  Determine whether an equation defines as a function of .   "
+  "body": " Functions                In this section, we study the basics of functions.    Function  A function ,  Function   ,     Function with domain and codomain  is a rule that assigns to each element a unique element .     Output of function    The set is the domain   Function  Domain  of , the set is the codomain   Function  Codomain  of . The range   Function  Range  of is the set of all output values    Range of     By convention, we will write to indicate that is a function of . We call the independent variable   Function  Independent Variable  and the dependent variable   Function  Dependent Variable  because every choice of from the domain of determines a value in the range that depends on that choice. In this case, we say is a function of .     Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , will also be a real number. To find the range, we want to describe the set   We can show this is by showing that for every real number , we can find a number such that . We simply solve this equation for in terms of  For example, if , then this formula tells us this corresponds to the input       Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , is a real number. To find the range, we want to describe the set   Given a real number , we want to determine whether the equation can be solved for .  When , there is exactly one solution: .  When , there are two solutions: and .  When , there are no solutions because the square root of a negative number is not a real number.  This tells us the range of our function is the interval .    Whenever we define a new mathematical object, it is important to understand when two objects are the same . For functions with the same domain and codomain, we measure equality based on the output.   Equality of Functions  Two functions and are equal   Function  Equality  if for every , .  We write      Equality of functions  to indicate that and represent the same function.    The functions defined by and are equal because    The functions and have the same domain and codomain, and    For every real number  and       The functions and defined by and are not equal because    Just like an equation in the variables and , we will often want to visualize the functions we define.   Graph of a Function  Assume . The graph of a function is the set of points    When the function we are considering is defined by an equation, the will coincide with the . While most of the functions we consider will be defined by an equation in the variables and , it is not the case that all equations in and define as a function of .   The Vertical Line Test   An equation in the variables and is defines as a function of if and only if every vertical line intersects the graph of the relation in at most one point.     Consider the function defined by the rule . We can verify this is a function in one of two ways. One way is to interpret the algebraically.  From the , the graph of the vertical line is the set and the graph of is the set of To say these graphs intersect is to say there is a point in the intersection of these two sets. The condition for membership on the graph of determines the value of such a point and the definition of the graph of determines the -coordinate: . This tells us the line intersects the graph of at the single point .  We can more readily see this graphically in .      The graph and .     The equation does not define as a function of .  Recall that for every positive number , there are always two square roots: and . This tells us the ordered pairs and both satisfy the equation For example, the ordered pairs and satisfy Since the definition a requires that each element of the domain corresponds to exactly one element of the codomain, we see this cannot be a function. That is, equation fails the .     The graph of the equation and the line .      Functions    Find the domain and codomain of a function.  Find the range of a function.  Determine whether an equation defines as a function of .      For each of the following functions, find the domain, codomain, and range.            Evaluate the function at the given value.   ; .  ; .  ; .     For each of the graphs, find the domain and range. Use the to determine whether is a function of .         "
 },
 {
   "id": "def-function",
@@ -901,9 +847,9 @@ var ptx_lunr_docs = [
   "body": " The equation does not define as a function of .  Recall that for every positive number , there are always two square roots: and . This tells us the ordered pairs and both satisfy the equation For example, the ordered pairs and satisfy Since the definition a requires that each element of the domain corresponds to exactly one element of the codomain, we see this cannot be a function. That is, equation fails the .     The graph of the equation and the line .    "
 },
 {
-  "id": "objectives-12",
+  "id": "objectives-6",
   "level": "2",
-  "url": "sec-relations.html#objectives-12",
+  "url": "sec-relations.html#objectives-6",
   "type": "Objectives",
   "number": "2.2",
   "title": "",
@@ -943,16 +889,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "Average Rate of Change",
-  "body": " Average Rate of Change    Find the average rate of change of a function on an interval.     The Average Rate of Change  Assume is a function and the domain of contains the interval . The average rate of change   Function  Average Rate of Change  of on the interval is      An object is thrown straight up in the air. The object reaches a maximum height of 1 meter after 1 seconds, and returns to the thrower's hand after 2 seconds. The function models the height of the object in meters as a function of seconds.     The graph of      What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is moving up at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is falling back at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ?   Using , the average rate of change on the interval is We can interpret this as saying the object climbs and falls at the same speed.      Find the average rate of change for the given function over the given interval.     ;    ;    ;     "
-},
-{
-  "id": "objectives-13",
-  "level": "2",
-  "url": "sec-avg_roc.html#objectives-13",
-  "type": "Objectives",
-  "number": "2.3",
-  "title": "",
-  "body": "  Find the average rate of change of a function on an interval.   "
+  "body": " Average Rate of Change          The Average Rate of Change  Assume is a function and the domain of contains the interval . The average rate of change   Function  Average Rate of Change  of on the interval is      An object is thrown straight up in the air. The object reaches a maximum height of 1 meter after 1 seconds, and returns to the thrower's hand after 2 seconds. The function models the height of the object in meters as a function of seconds.     The graph of      What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is moving up at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is falling back at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ?   Using , the average rate of change on the interval is We can interpret this as saying the object climbs and falls at the same speed.       Find the average rate of change of a function on an interval.     Find the average rate of change for the given function over the given interval.     ;    ;    ;     "
 },
 {
   "id": "def-average_rate_of_change",
@@ -973,22 +910,22 @@ var ptx_lunr_docs = [
   "body": "  An object is thrown straight up in the air. The object reaches a maximum height of 1 meter after 1 seconds, and returns to the thrower's hand after 2 seconds. The function models the height of the object in meters as a function of seconds.     The graph of      What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is moving up at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is falling back at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ?   Using , the average rate of change on the interval is We can interpret this as saying the object climbs and falls at the same speed.   "
 },
 {
+  "id": "objectives-7",
+  "level": "2",
+  "url": "sec-avg_roc.html#objectives-7",
+  "type": "Objectives",
+  "number": "2.3",
+  "title": "",
+  "body": "  Find the average rate of change of a function on an interval.   "
+},
+{
   "id": "sec-transformations",
   "level": "1",
   "url": "sec-transformations.html",
   "type": "Section",
   "number": "2.4",
   "title": "Graph Transformations",
-  "body": " Graph Transformations    Use graphs of basic functions and the following operations to graph general functions.    Vertical Translation  Horizontal Translation  Vertical Scaling,  Horizontal Scaling, and  Reflection.     Graphing arbitrary functions can be a difficult task and the general methods are beyond the scope of basic algebra. However, if we know the graph of a function, , and we can write another function, , in terms of in a specific way, then we can use the graph of to graph using transformations . In this seciton, we discuss three types of transformations: translation, scaling, and reflection.    Translation   Throughout this section, assume that the graph of the function is known.    Vertical Translation   Vertical Translation  Let be a positive number. We say the function is a vertical translation   Graph  Tranformation  Translation  Vertical  of the function if .    The graph of is obtained by shifting the graph of up the -axis by units.    The graph of is obtained by shifting the graph of down the -axis by -units.       Use to graph the functions and .    The graph of is obtained by shifting the graph of up the -axis by units, and the graph of is obtained by shifting the graph of down the -axis by 3 units.           Horizontal Translation   Horizontal Translation  Let be a positive number. We say the function is a horizontal translation   Graph  Tranformation  Translation  Horizontal  of the function if .    The graph of is obtained by shifting the graph of to the right along the -axis by units.    The graph of is obtained by shifting the graph of to the left along the -axis by -units.       Use to graph the functions and .    The graph of is obtained by shifting the graph of to the left along the -axis by units, and the graph of is obtained by shifting the graph of to the right along the -axis by 3 units.            Scaling   Vertical Scaling   Vertical Scaling  Let be a number. We say the function is a vertical scaling   Graph  Tranformation  Scaling  Vertical  of the function if or .    The graph of is obtained by stretching the graph of vertically by a factor of .    The graph of is obtained by compressing the graph of vertically by a factor of .       Use to graph the functions and .    The graph of is obtained by stretching the graph of vertically by a factor of , and the graph of is obtained by compressing the graph the graph of vertically by a factor of .           Reflection   Reflection  We say the function is a reflection   Graph  Tranformation  Reflection  of if either or     The graph of is obtained by reflecting the graph of over the -axis.    The graph of is obtained by reflecting the graph of over the -axis.       Use to graph the functions and .    The graph of is obtained by reflecting the graph of over the -axis, and the graph of is obtained by reflecting the graph of over the -axis.           Horizontal Scaling   Horizontal Scaling  Let be a number. We say the function is a horizontal scaling   Graph  Tranformation  Scaling  Horizontal  of the function if or .    The graph of is obtained by compressing the graph of horizontally by a factor of .    The graph of is obtained by stretching the graph of horizontally by a factor of .       Use to graph the functions and .    The graph of is obtained by compressing the graph of horizontally by a factor of , and the graph of is obtained by stretching the graph of horizontally by a factor of .           Combining Graph Transformations  Most functions are obtained from a basic function using multiple transformations. When graphing a function, the order in which transformations are applied is important.   Graphing Functions using Transformations   Horizontal Translation  Scaling  Reflection  Vertical Translation      Use to graph the function .    We can graph by starting from the basic function and applying the following transformations:  Translate the graph of to the left by 3 to obtain the graph of .  Stretch the graph of vertically by a factor of 2 to obtain the graph of .  Translate the graph of down by 2 units to obtain the graph of .             "
-},
-{
-  "id": "objectives-14",
-  "level": "2",
-  "url": "sec-transformations.html#objectives-14",
-  "type": "Objectives",
-  "number": "2.4",
-  "title": "",
-  "body": "  Use graphs of basic functions and the following operations to graph general functions.    Vertical Translation  Horizontal Translation  Vertical Scaling,  Horizontal Scaling, and  Reflection.   "
+  "body": " Graph Transformations   Graphing arbitrary functions can be a difficult task and the general methods are beyond the scope of basic algebra. However, if we know the graph of a function, , and we can write another function, , in terms of in a specific way, then we can use the graph of to graph using transformations . In this seciton, we discuss three types of transformations: translation, scaling, and reflection.    Translation   Throughout this section, assume that the graph of the function is known.    Vertical Translation   Vertical Translation  Let be a positive number. We say the function is a vertical translation   Graph  Tranformation  Translation  Vertical  of the function if .    The graph of is obtained by shifting the graph of up the -axis by units.    The graph of is obtained by shifting the graph of down the -axis by -units.       Use to graph the functions and .    The graph of is obtained by shifting the graph of up the -axis by units, and the graph of is obtained by shifting the graph of down the -axis by 3 units.           Horizontal Translation   Horizontal Translation  Let be a positive number. We say the function is a horizontal translation   Graph  Tranformation  Translation  Horizontal  of the function if .    The graph of is obtained by shifting the graph of to the right along the -axis by units.    The graph of is obtained by shifting the graph of to the left along the -axis by -units.       Use to graph the functions and .    The graph of is obtained by shifting the graph of to the left along the -axis by units, and the graph of is obtained by shifting the graph of to the right along the -axis by 3 units.            Scaling   Vertical Scaling   Vertical Scaling  Let be a number. We say the function is a vertical scaling   Graph  Tranformation  Scaling  Vertical  of the function if or .    The graph of is obtained by stretching the graph of vertically by a factor of .    The graph of is obtained by compressing the graph of vertically by a factor of .       Use to graph the functions and .    The graph of is obtained by stretching the graph of vertically by a factor of , and the graph of is obtained by compressing the graph the graph of vertically by a factor of .           Reflection   Reflection  We say the function is a reflection   Graph  Tranformation  Reflection  of if either or     The graph of is obtained by reflecting the graph of over the -axis.    The graph of is obtained by reflecting the graph of over the -axis.       Use to graph the functions and .    The graph of is obtained by reflecting the graph of over the -axis, and the graph of is obtained by reflecting the graph of over the -axis.           Horizontal Scaling   Horizontal Scaling  Let be a number. We say the function is a horizontal scaling   Graph  Tranformation  Scaling  Horizontal  of the function if or .    The graph of is obtained by compressing the graph of horizontally by a factor of .    The graph of is obtained by stretching the graph of horizontally by a factor of .       Use to graph the functions and .    The graph of is obtained by compressing the graph of horizontally by a factor of , and the graph of is obtained by stretching the graph of horizontally by a factor of .           Combining Graph Transformations  Most functions are obtained from a basic function using multiple transformations. When graphing a function, the order in which transformations are applied is important.   Graphing Functions using Transformations   Horizontal Translation  Scaling  Reflection  Vertical Translation      Use to graph the function .    We can graph by starting from the basic function and applying the following transformations:  Translate the graph of to the left by 3 to obtain the graph of .  Stretch the graph of vertically by a factor of 2 to obtain the graph of .  Translate the graph of down by 2 units to obtain the graph of .                Use graphs of basic functions and the following operations to graph general functions.    Vertical Translation  Horizontal Translation  Vertical Scaling,  Horizontal Scaling, and  Reflection.     "
 },
 {
   "id": "def-vertical_translation",
@@ -1099,22 +1036,22 @@ var ptx_lunr_docs = [
   "body": "  Use to graph the function .    We can graph by starting from the basic function and applying the following transformations:  Translate the graph of to the left by 3 to obtain the graph of .  Stretch the graph of vertically by a factor of 2 to obtain the graph of .  Translate the graph of down by 2 units to obtain the graph of .          "
 },
 {
+  "id": "objectives-8",
+  "level": "2",
+  "url": "sec-transformations.html#objectives-8",
+  "type": "Objectives",
+  "number": "2.4.3",
+  "title": "",
+  "body": "  Use graphs of basic functions and the following operations to graph general functions.    Vertical Translation  Horizontal Translation  Vertical Scaling,  Horizontal Scaling, and  Reflection.   "
+},
+{
   "id": "sec-symmetry",
   "level": "1",
   "url": "sec-symmetry.html",
   "type": "Section",
   "number": "2.5",
   "title": "Symmetry",
-  "body": " Symmetry    Identify if a function has -axis symmetry.  Identify if a function has origin symmetry.     Intuitively, an object is symmetric if there is some line that divides the object into two (or more) pieces that are mirror images of one another. In this section, we utilize the methods in to detect two types of symmetry mathematically.    Symmetry about the -axis   The first type of symmetry we are interested in is symmetry about the -axis in the plane. We begin with the intuitive understanding of this symmetry, and formalize a concrete method for detecting it algebraically.    We say a function has -axis symmetry   Function  Symmetry  -axis  if the -axis divides the graph into two pieces that are mirror images of one another.   For example, consider . The graph intersects the -axis at the point . If we cut the parabola in half at this point, then we get two pieces. We distinguish the two halves by coloring the left-hand side red and the right-hand side blue.      The graph of cut in half at .   To say these are mirror images of one another, means if we reflect the graph across the -axis, then we obtain the same graph just with the colors switched.      The reflection of across the -axis.   Had we not colored the two pieces, we would be unable to tell which one is which. We say the graph is invariant   Invariant  under reflection across the -axis to mean the original graph and its reflection across the -axis are the same. This observation allows us to rephrase in terms of reflections.    The function has -axis symmetry if it is invariant under reflection across the -axis.    The characterization of -axis symmetry above is purely geometric. Just like the intuitive understanding of symmetry, it can be difficult to verify whether two pictures are actually the same. Fortunately, the language of graph transformations provides us a dictionary between algebraic statements and geometric statements.    The function has -axis symmetry if for every in the domain of ,     The algebraic condition allows us to easily verify our intuition about images concretely.    Verify the function has -axis symmetry.    If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the -axis.       To verify our intuition, we just need to check Therefore has -axis symmetry.      Origin Symmetry   The second type of symmetry we consider is slightly more subtle than -axis symmetry.    We say a function is symmetric about the origin   Function  Symmetry  Origin  if the graph of is invariant under rotation by 180 degrees.   To understand this type of symmetry, consider with the origin and another marked point.        We can see what happens as we rotate the graph around the origin in the animation below. Note the rotation does not change the shape of the graph, so the distance from the marked point to the origin stays the same.      Rotation of 180 degrees counter-clockwise   The path the marked point follows through the rotation traces out a piece of a circle. Plotting the entirety of this circle, we can see the starting and ending location of the marked point create a diameter.      The graph of with a marked point and the rotation of that point by   Assume the original point has coordinates and its rotation by has coordinates . Since the midpoint of the diameter is , we know that and . Solve the first equation for in terms of  The second coordinate is then Rewriting this in function notation, this tells us This provides us with an algebraic condition for testing origin symmetry.    The function has origin symmetry if for every in the domain of ,                        "
-},
-{
-  "id": "objectives-15",
-  "level": "2",
-  "url": "sec-symmetry.html#objectives-15",
-  "type": "Objectives",
-  "number": "2.5",
-  "title": "",
-  "body": "  Identify if a function has -axis symmetry.  Identify if a function has origin symmetry.   "
+  "body": " Symmetry   Intuitively, an object is symmetric if there is some line that divides the object into two (or more) pieces that are mirror images of one another. In this section, we utilize the methods in to detect two types of symmetry mathematically.    Symmetry about the -axis   The first type of symmetry we are interested in is symmetry about the -axis in the plane. We begin with the intuitive understanding of this symmetry, and formalize a concrete method for detecting it algebraically.    We say a function has -axis symmetry   Function  Symmetry  -axis  if the -axis divides the graph into two pieces that are mirror images of one another.   For example, consider . The graph intersects the -axis at the point . If we cut the parabola in half at this point, then we get two pieces. We distinguish the two halves by coloring the left-hand side red and the right-hand side blue.      The graph of cut in half at .   To say these are mirror images of one another, means if we reflect the graph across the -axis, then we obtain the same graph just with the colors switched.      The reflection of across the -axis.   Had we not colored the two pieces, we would be unable to tell which one is which. We say the graph is invariant   Invariant  under reflection across the -axis to mean the original graph and its reflection across the -axis are the same. This observation allows us to rephrase in terms of reflections.    The function has -axis symmetry if it is invariant under reflection across the -axis.    The characterization of -axis symmetry above is purely geometric. Just like the intuitive understanding of symmetry, it can be difficult to verify whether two pictures are actually the same. Fortunately, the language of graph transformations provides us a dictionary between algebraic statements and geometric statements.    The function has -axis symmetry if for every in the domain of ,     The algebraic condition allows us to easily verify our intuition about images concretely.    Verify the function has -axis symmetry.    If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the -axis.       To verify our intuition, we just need to check Therefore has -axis symmetry.      Origin Symmetry   The second type of symmetry we consider is slightly more subtle than -axis symmetry.    We say a function is symmetric about the origin   Function  Symmetry  Origin  if the graph of is invariant under rotation by 180 degrees.   To understand this type of symmetry, consider with the origin and another marked point.        We can see what happens as we rotate the graph around the origin in the animation below. Note the rotation does not change the shape of the graph, so the distance from the marked point to the origin stays the same.      Rotation of 180 degrees counter-clockwise   The path the marked point follows through the rotation traces out a piece of a circle. Plotting the entirety of this circle, we can see the starting and ending location of the marked point create a diameter.      The graph of with a marked point and the rotation of that point by   Assume the original point has coordinates and its rotation by has coordinates . Since the midpoint of the diameter is , we know that and . Solve the first equation for in terms of  The second coordinate is then Rewriting this in function notation, this tells us This provides us with an algebraic condition for testing origin symmetry.    The function has origin symmetry if for every in the domain of ,                           Identify if a function has -axis symmetry.  Identify if a function has origin symmetry.     "
 },
 {
   "id": "def-y_axis_symmetry",
@@ -1223,6 +1160,15 @@ var ptx_lunr_docs = [
   "number": "2.5.12",
   "title": "",
   "body": "  The function has origin symmetry if for every in the domain of ,    "
+},
+{
+  "id": "objectives-9",
+  "level": "2",
+  "url": "sec-symmetry.html#objectives-9",
+  "type": "Objectives",
+  "number": "2.5.3",
+  "title": "",
+  "body": "  Identify if a function has -axis symmetry.  Identify if a function has origin symmetry.   "
 },
 {
   "id": "sec-polynomial_functions",
@@ -1423,9 +1369,9 @@ var ptx_lunr_docs = [
   "body": " As we saw in , the polynomial has a root at and at . By , the polynomial divides    This allows us to write   Since and , we conclude that divides .   This provides the factorization   "
 },
 {
-  "id": "objectives-16",
+  "id": "objectives-10",
   "level": "2",
-  "url": "sec-polynomial_functions.html#objectives-16",
+  "url": "sec-polynomial_functions.html#objectives-10",
   "type": "Objectives",
   "number": "3.1.3",
   "title": "",
@@ -1456,16 +1402,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.2",
   "title": "Linear Functions",
-  "body": " Linear Functions    Recognize linear functions.  Find -intercepts of a linear function.  Find the -intercept of a linear function.  Graph a linear function.     In this section, we study a special kind of polynomial known as a linear function . As we will see, the name linear comes from the fact that the graph of such a function is always a line.    Linear Functions as Degree One Polynomials   Linear Function  A function is linear   Function  Linear  if the of is constant. That is, there exists a number such that for all numbers and  We call the number the slope   Function  Linear  Slope  of . The number is the -coordinate of the  .   In order to find the equation of a linear function, it is enough to know the slope, , and the value of the function for a single -value. The simplest point to find is the : the -coordinate is and the -coordinate is . If we write , then by  We obtain the equation for the function by solving the equation for in terms of     The Slope-Intercept Form of a Line  The slope-intercept form of a linear function   Function  Linear  Slope-Intercept Form  is where is the slope or average rate of change of .     Graphing Linear Functions   Consider a linear function with . Recall that the of an equation consists of all points that are a to the equation. The graph of a linear equation is always a line. We can graph the equation by finding any two points on the line and drawing a line through them. In general, the two points that are simplest to find are the two intercepts.   We find the by substituting for and solving the resulting equation for      The of the linear function with is the point       Find the -intercept of the linear equation .    To find the -intercept of the linear equation , we substitute for to get Therefore the -intercept of the linear equation is the point .    We find the by substituting for and solving the resulting equation for      Graph the equation .   In we found that is the -intercept for the function . The for the function is the point . To graph the equation , we simply need to plot these two points and draw a straight line through them.  The graph of .           Working with Linear Functions    Recognize linear functions.  Find -intercept of a linear function.  Find the -intercept of a linear function.  Graph a linear function.     Determine whether the equation represents a linear function of in terms of . If so, express the equation in the form . Otherwise, explain why the equation does not represent a linear function.  Determine whether the equation represents a linear function of in terms of . If so, express the equation in the form . Otherwise, explain why the equation does not represent a linear function.    Find the - and -intercepts of the linear equation and sketch the graph of the equation.      Match the following equations with their graphs.                                                       "
-},
-{
-  "id": "objectives-17",
-  "level": "2",
-  "url": "sec-linear_functions.html#objectives-17",
-  "type": "Objectives",
-  "number": "3.2",
-  "title": "",
-  "body": "  Recognize linear functions.  Find -intercepts of a linear function.  Find the -intercept of a linear function.  Graph a linear function.   "
+  "body": " Linear Functions                   In this section, we study a special kind of polynomial known as a linear function . As we will see, the name linear comes from the fact that the graph of such a function is always a line.    Linear Functions as Degree One Polynomials   Linear Function  A function is linear   Function  Linear  if the of is constant. That is, there exists a number such that for all numbers and  We call the number the slope   Function  Linear  Slope  of . The number is the -coordinate of the  .   In order to find the equation of a linear function, it is enough to know the slope, , and the value of the function for a single -value. The simplest point to find is the : the -coordinate is and the -coordinate is . If we write , then by  We obtain the equation for the function by solving the equation for in terms of     The Slope-Intercept Form of a Line  The slope-intercept form of a linear function   Function  Linear  Slope-Intercept Form  is where is the slope or average rate of change of .     Graphing Linear Functions   Consider a linear function with . Recall that the of an equation consists of all points that are a to the equation. The graph of a linear equation is always a line. We can graph the equation by finding any two points on the line and drawing a line through them. In general, the two points that are simplest to find are the two intercepts.   We find the by substituting for and solving the resulting equation for      The of the linear function with is the point       Find the -intercept of the linear equation .    To find the -intercept of the linear equation , we substitute for to get Therefore the -intercept of the linear equation is the point .    We find the by substituting for and solving the resulting equation for      Graph the equation .   In we found that is the -intercept for the function . The for the function is the point . To graph the equation , we simply need to plot these two points and draw a straight line through them.  The graph of .           Working with Linear Functions    Recognize linear functions.  Find -intercept of a linear function.  Find the -intercept of a linear function.  Graph a linear function.     Determine whether the equation represents a linear function of in terms of . If so, express the equation in the form . Otherwise, explain why the equation does not represent a linear function.  Determine whether the equation represents a linear function of in terms of . If so, express the equation in the form . Otherwise, explain why the equation does not represent a linear function.    Find the - and -intercepts of the linear equation and sketch the graph of the equation.      Match the following equations with their graphs.                                                       "
 },
 {
   "id": "def-linear_function",
@@ -1513,9 +1450,9 @@ var ptx_lunr_docs = [
   "body": "  Graph the equation .   In we found that is the -intercept for the function . The for the function is the point . To graph the equation , we simply need to plot these two points and draw a straight line through them.  The graph of .        "
 },
 {
-  "id": "objectives-18",
+  "id": "objectives-11",
   "level": "2",
-  "url": "sec-linear_functions.html#objectives-18",
+  "url": "sec-linear_functions.html#objectives-11",
   "type": "Objectives",
   "number": "3.2.3",
   "title": "",
@@ -1564,16 +1501,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.3",
   "title": "Representations of Lines",
-  "body": " Representations of Lines    Determine the slope of a line through two points.   Represent a line using  Slope-Intercept Form,  Point-Slope Form, and  Standard Form.        In the previous section, we encountered linear functions and saw that we can express these functions in the form . When we graphed a linear function, we used to points to determine the line that represents the graph. We can reverse this process to find a linear function. The first step is to determine the slope. In doing this, we will find two other representations for lines.    The Slope of a Line through two Points   The Slope of a Line  The slope   Line  Slope  of the line through the points and is provided that . The slope measures the rate of change in with respect to , as depicted in .       The slope of the line through the points and .    In the definition of , we required that . While there is a line that passes through two distinct points with the same -coordinate, that line is a vertical line. Since a vertical line is not a function, the slope of a vertical line undefined.     Find the slope of the line through the points and .    The slope of the line through the points and is This says when the -coordinate increases by 1, the -coordinate decreases by 1.    Suppose we know the slope, , and a point that lines on the line. We can use the fact that is a to determine the -intercept. We substitute for and for in the and solve for :     The -intercept of the line with slope through the point is       Find the equation of the line through the points and .    In , we saw the slope of the line is . If we use the point , then we can find the -intercept by solving This tells us the equation of the line through and is .  We could also have used the point to find an equation of the line. If we use the point , then the -intercept is given by solving We can see that no matter which point we use, we obtain the same .      The Point-Slope Form of a Line  Assume we know the slope, , of a line and a point, , on the line. Suppose is any other point on the line. Since the slope of the line is constant, we can write to find the next form of a line.   The Point-Slope Form of a Line   The point-slope form of the line   Line  Point-Slope Form  through the point with slope is     This form of a line is convenient to use when we know the slope of a line and a point on the line.    Find the using the point and the slope .    Using , the equation of the line through with slope is       Find an equation for the line that passes through the points and .    We can use the to find the line between the points and . First compute the slope of the line Use either of the two points to find the equation   While these equations may look different, we can compare them by placing them in . For the first equation, add to both sides to get and for the second, add to both sides to get In this form, we can see that these equations represent the same line.      The Standard Equation of a Line  So far, we have only been interested in working with lines with a well-defined slope. Sometimes, it is convenient to work with lines that may be vertical. The standard equation of a line allows us to do just that.   Standard Equation of a Line  The standard equation of a line   Equation  Line  Standard  in the variables and is where and are not both zero.    Caution!  The standard equation of a line may not always represent an equation where is a function of ! If , then the standard equation of a line reduces to which is a vertical line.     Place the linear equation into .    The equation can be placed in standard form as follows. First, move the variables to the left-hand side of the equation. Subtract from both sides and distribute the negative Collect like terms and simplify Finally, subtract 7 from both sides of the equation and simplify to arrive at the standard form      Not all equations are linear. For example, the equation is not linear because of the term .     Representation of Lines    Determine the slope of a line through two points.   Represent a line using  Slope-Intercept Form,  Point-Slope Form, and  Standard Form.        Find the slope of the line through the points and .  Write the equation of the line through the points and in Point-Slope Form.  Write the equation of the line through the points and in Slope-Intercept Form.  Write the equation of the line through the points and in Standard Form.  Find the slope of the line represented by the equation .     You and a friend used the same parking garage. You parked your car for 2 hours and it cost . Your friend parked her car for 4 hours and it cost .  Let represent the number of hours of parking and let represent the cost. Assuming the relationship is linear, how much does parking cost per hour? Find a linear function that models the cost of parking. The garage charges a flat fee to enter the parking garage. How much is this fee?    "
-},
-{
-  "id": "objectives-19",
-  "level": "2",
-  "url": "sec-lines.html#objectives-19",
-  "type": "Objectives",
-  "number": "3.3",
-  "title": "",
-  "body": "  Determine the slope of a line through two points.   Represent a line using  Slope-Intercept Form,  Point-Slope Form, and  Standard Form.      "
+  "body": " Representations of Lines                    In the previous section, we encountered linear functions and saw that we can express these functions in the form . When we graphed a linear function, we used to points to determine the line that represents the graph. We can reverse this process to find a linear function. The first step is to determine the slope. In doing this, we will find two other representations for lines.    The Slope of a Line through two Points   The Slope of a Line  The slope   Line  Slope  of the line through the points and is provided that . The slope measures the rate of change in with respect to , as depicted in .       The slope of the line through the points and .    In the definition of , we required that . While there is a line that passes through two distinct points with the same -coordinate, that line is a vertical line. Since a vertical line is not a function, the slope of a vertical line undefined.     Find the slope of the line through the points and .    The slope of the line through the points and is This says when the -coordinate increases by 1, the -coordinate decreases by 1.    Suppose we know the slope, , and a point that lines on the line. We can use the fact that is a to determine the -intercept. We substitute for and for in the and solve for :     The -intercept of the line with slope through the point is       Find the equation of the line through the points and .    In , we saw the slope of the line is . If we use the point , then we can find the -intercept by solving This tells us the equation of the line through and is .  We could also have used the point to find an equation of the line. If we use the point , then the -intercept is given by solving We can see that no matter which point we use, we obtain the same .      The Point-Slope Form of a Line  Assume we know the slope, , of a line and a point, , on the line. Suppose is any other point on the line. Since the slope of the line is constant, we can write to find the next form of a line.   The Point-Slope Form of a Line   The point-slope form of the line   Line  Point-Slope Form  through the point with slope is     This form of a line is convenient to use when we know the slope of a line and a point on the line.    Find the using the point and the slope .    Using , the equation of the line through with slope is       Find an equation for the line that passes through the points and .    We can use the to find the line between the points and . First compute the slope of the line Use either of the two points to find the equation   While these equations may look different, we can compare them by placing them in . For the first equation, add to both sides to get and for the second, add to both sides to get In this form, we can see that these equations represent the same line.      The Standard Equation of a Line  So far, we have only been interested in working with lines with a well-defined slope. Sometimes, it is convenient to work with lines that may be vertical. The standard equation of a line allows us to do just that.   Standard Equation of a Line  The standard equation of a line   Equation  Line  Standard  in the variables and is where and are not both zero.    Caution!  The standard equation of a line may not always represent an equation where is a function of ! If , then the standard equation of a line reduces to which is a vertical line.     Place the linear equation into .    The equation can be placed in standard form as follows. First, move the variables to the left-hand side of the equation. Subtract from both sides and distribute the negative Collect like terms and simplify Finally, subtract 7 from both sides of the equation and simplify to arrive at the standard form      Not all equations are linear. For example, the equation is not linear because of the term .     Representation of Lines    Determine the slope of a line through two points.   Represent a line using  Slope-Intercept Form,  Point-Slope Form, and  Standard Form.        Find the slope of the line through the points and .  Write the equation of the line through the points and in Point-Slope Form.  Write the equation of the line through the points and in Slope-Intercept Form.  Write the equation of the line through the points and in Standard Form.  Find the slope of the line represented by the equation .     You and a friend used the same parking garage. You parked your car for 2 hours and it cost . Your friend parked her car for 4 hours and it cost .  Let represent the number of hours of parking and let represent the cost. Assuming the relationship is linear, how much does parking cost per hour? Find a linear function that models the cost of parking. The garage charges a flat fee to enter the parking garage. How much is this fee?    "
 },
 {
   "id": "def-slope",
@@ -1693,9 +1621,9 @@ var ptx_lunr_docs = [
   "body": " Not all equations are linear. For example, the equation is not linear because of the term .  "
 },
 {
-  "id": "objectives-20",
+  "id": "objectives-12",
   "level": "2",
-  "url": "sec-lines.html#objectives-20",
+  "url": "sec-lines.html#objectives-12",
   "type": "Objectives",
   "number": "3.3.4",
   "title": "",
@@ -1762,16 +1690,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.4",
   "title": "Parallel and Perpendicular Lines",
-  "body": " Parallel and Perpendicular Lines    Determine whether two lines are parallel, perpendicular, or neither.  Find the equation of a line parallel to a given line.  Find the equation of a line perpendicular to a given line.     Parallel  Two lines in the Cartesian plane are said to be parallel   Line  Parallel  if they do not intersect.       Parallel lines.    Two lines are parallel if and only if they have the same slope.     Determine whether the lines are parallel.    In order to determine whether these lines are parallel, we need to find the slope of each line. We do this by placing each line into .  For the first line, add to both sides and divide both sides by  This tells us the slope of the line is .  For the second line, add to both sides divide both sides by  and reduce This tells the slope of the line is also . Therefore the lines and are parallel by .      Find the equation of the line parallel to that passes through the point . Write your answer in     First, find the slope of the line by placing the equation into . Subtract from both sides divide both sides by  and simplify to In this form, we see the slope of the line is   By , the slope of a line parallel to is . Now we use to write down a line with slope through the point  and simplify   Finally, to put this line into , distribute the  add 5 to both sides of the equation and simplify      Two lines are perpendicular   Line  Perpendicular  if they intersect at a right angle.       Perpendicular lines.     Two lines are perpendicular if and only if the product of their slopes is .      Determine whether the lines are perpendicular.    First we must place the lines in to find the slopes. The first equation becomes In this form, we can read off the slope of the line as   The second equation becomes In this form, we can read off the slop of the line as .  Finally, to check whether these lines are parallel, we compute the product of these slopes. Since we conclude that these lines are perpendicular by .      Find the equation of a line perpendicular to that passes through the point . Write your answer in form.    First, place the line in  We can read off the slope as from this equation.  To find the slope, , of a perpendicular line, tells us we must solve the equation for :   Using , the equation of the line perpendicular to that passes through the point is Finally, we convert to       Parallel and Perpendicular Lines    Determine whether two lines are parallel, perpendicular, or neither.  Find the equation of a line parallel to a given line.  Find the equation of a line perpendicular to a given line.      Determine whether the given lines are parallel, perpendicular, or neithe.   and .  and .  and .    Find the equation of the line parallel to that passes through the point .  Find the equation of the line perpendicular to that passes through the point .    "
-},
-{
-  "id": "objectives-21",
-  "level": "2",
-  "url": "sec-perp_parallel.html#objectives-21",
-  "type": "Objectives",
-  "number": "3.4",
-  "title": "",
-  "body": "  Determine whether two lines are parallel, perpendicular, or neither.  Find the equation of a line parallel to a given line.  Find the equation of a line perpendicular to a given line.   "
+  "body": " Parallel and Perpendicular Lines                Parallel  Two lines in the Cartesian plane are said to be parallel   Line  Parallel  if they do not intersect.       Parallel lines.    Two lines are parallel if and only if they have the same slope.     Determine whether the lines are parallel.    In order to determine whether these lines are parallel, we need to find the slope of each line. We do this by placing each line into .  For the first line, add to both sides and divide both sides by  This tells us the slope of the line is .  For the second line, add to both sides divide both sides by  and reduce This tells the slope of the line is also . Therefore the lines and are parallel by .      Find the equation of the line parallel to that passes through the point . Write your answer in     First, find the slope of the line by placing the equation into . Subtract from both sides divide both sides by  and simplify to In this form, we see the slope of the line is   By , the slope of a line parallel to is . Now we use to write down a line with slope through the point  and simplify   Finally, to put this line into , distribute the  add 5 to both sides of the equation and simplify      Two lines are perpendicular   Line  Perpendicular  if they intersect at a right angle.       Perpendicular lines.     Two lines are perpendicular if and only if the product of their slopes is .      Determine whether the lines are perpendicular.    First we must place the lines in to find the slopes. The first equation becomes In this form, we can read off the slope of the line as   The second equation becomes In this form, we can read off the slop of the line as .  Finally, to check whether these lines are parallel, we compute the product of these slopes. Since we conclude that these lines are perpendicular by .      Find the equation of a line perpendicular to that passes through the point . Write your answer in form.    First, place the line in  We can read off the slope as from this equation.  To find the slope, , of a perpendicular line, tells us we must solve the equation for :   Using , the equation of the line perpendicular to that passes through the point is Finally, we convert to       Parallel and Perpendicular Lines    Determine whether two lines are parallel, perpendicular, or neither.  Find the equation of a line parallel to a given line.  Find the equation of a line perpendicular to a given line.      Determine whether the given lines are parallel, perpendicular, or neithe.   and .  and .  and .    Find the equation of the line parallel to that passes through the point .  Find the equation of the line perpendicular to that passes through the point .    "
 },
 {
   "id": "def-parallel",
@@ -1864,9 +1783,9 @@ var ptx_lunr_docs = [
   "body": "  Find the equation of a line perpendicular to that passes through the point . Write your answer in form.    First, place the line in  We can read off the slope as from this equation.  To find the slope, , of a perpendicular line, tells us we must solve the equation for :   Using , the equation of the line perpendicular to that passes through the point is Finally, we convert to     "
 },
 {
-  "id": "objectives-22",
+  "id": "objectives-13",
   "level": "2",
-  "url": "sec-perp_parallel.html#objectives-22",
+  "url": "sec-perp_parallel.html#objectives-13",
   "type": "Objectives",
   "number": "3.4",
   "title": "",
@@ -1906,16 +1825,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.5",
   "title": "Quadratic Functions",
-  "body": " Quadratic Functions    Place a quadratic function in vertex form,  Find the vertex of a quadratic function,     In this section, we study polynomial functions of degree 2. These polynomial functions are often called quadratic functions .    Quadratic Function  A function is quadratic   Function  Quadratic  if it has the form where , , and are numbers, and .    Vertex Form   Just as with lines, quadratic functions are easier to understand through visualizations. The simplest quadratic function to understand is . We call the a parabola .  Graph  Parabola  The point is called the vertex .  Graph  Parabola  Vertex    As we have already seen in , the graph of this function is symmetric about the -axis, which is the vertical line through the vertex. While general quadratics are slightly more complicated, we can use the properties of to graph the class of quadratics in the following form.    The Vertex Form of a Quadratic  A quadratic function, , is in vertex form   Function  Quadratic  Vertex Form  if there are numbers and such that    Using the methods of , we can graph quadratics in this form by following the steps below.   Graphing Quadratic Functions in Vertex Form   To graph of the quadratic function      Translate the graph of horizontally by units.   If , then the translation is to the right.    If , then the translation is to the left.       Scale the graph of by .   If , then the graph is stretched.    If , then the graph is compressed.       If , reflect the graph of over the -axis.    Translate the graph of vertically by units.   If , then the translation is down.    If , then the translation is up.          Graph the function .    Following , we perform the following operations on the graph of the function .   Translate the graph of to the left by 1 to obtain the graph of .  Stretch the graph of by a factor of 2 to obtain the graph of .  Reflect the graph of across the -axis to obtain the graph of .  Translate the graph of up by 1 to obtain the graph of .   These operations are shown below.                   The transformations used to graph .     If we follow the vertex, we can see the first operation moves the point to . Since the point lies on the -axis, the second and third operation do not move the point . The fourth operation moves the point to the point . Since these operations preserve the general shape of the graph, a quadratic function in the form is a parabola with vertex at . Hence the reason for the name vertex form .  Similarly, if we follow the line of symmetry for , then we can see the first operation moves the vertical line to the vertical line . The following three operations do not change the vertical line, so the graph of is symmetric about the vertical line .  Finally, we observe the third operation may change the direction in which the parabola opens.   The graph of a parabola is    concave up   Function  Quadratic  Concave  Up  if the parabola opens upwards like .     concave down   Function  Quadratic  Concave  Down  if the parabola opens downwards like .      For quadratics in vertex form , we can see that is concave up whenever and concave down whenever .    Completing the Square   Surprisingly, every quadratic function can be placed into vertex form. Paired with the observations above, this tells us the graph of every quadratic function is a parabola. Placing a general quadratic function into vertex form will require the method of completing the square.   Remember that when we multiply two binomials, we must distribute. We can remember how to distribute using the mnemonic FOIL: F irst, O uter, I nner, L ast:   Multiplying binomials using the FOIL method.    If we use this method to multiply a binomial by itself, then we find the useful formula We call a quadratic function of the form a perfect square .  Perfect Square    Given a quadratic equation , we can use the formula to complete the square   Complete the Square  as follows.   Completing the Square  To complete the square with the quadratic function    Factor an from the first two terms to get   Add and subtract inside the parentheses to get   Factor the first three terms inside the parentheses as a perfect square   Distribute the through the sum          The number is the -coordinate of the vertex, and the number is the -coordinate of the vertex.   The Vertex Formula   Let be a quadratic function. The -coordinate of the vertex is and the -coordinate of the vertex is   As an ordered pair, the vertex of the graph of occurs at      Using , the vertex form of the quadratic function is      Find the vertex form of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function       Find the vertex of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is   Therefore the vertex form of the quadratic function is       The Quadratic Formula   In order to accurately graph a quadratic function , it is necessary to identify the -intercepts for the function. A point in the Cartesian plane is an for this function if This reduces the geometric problem of finding the -intercepts of a quadratic to the algebraic problem finding solutions to equations.    An equation of the form is called a quadratic equation   Equation  Quadratic     To find the solutions to the quadratic equation , we use to write and solve this equation for    It is important to note that are real numbers only when is a non-negative number. The number is an important invariant of a quadratic function.   The Discriminant  The discriminant   Function  Quadratic  Discriminant  of the quadratic function is the number    The discriminant provides both algebraic and geometric information about quadratic functions. On the algebraic side, the discriminant tells us how many solutions there are to the quadratic equation .   The Quadratic Formula   The quadratic equation has either two, one, or zero real solutions, depending on , .   If , then the two solutions are    If , then the only solution is   If , then there are no real solutions.      If we pair with , then we have an algorithmic way to factor any quadratic function.    The quadratic function factors as where is the discriminant.                                Factor the quadratic .    The discriminant is so the roots are By , the factorization is We can check our answer by using FOIL to see     On the geometric side, the discriminant tells us how many -intercepts the graph of has.   The -intercepts of a Quadratic Function  The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.       Find the -intercepts of the function .    Since the discriminant is this function does not have any -intercepts.      Find the -intercepts of the function .    The discriminant of this quadratic is The solutions to the equation are given by the formula This tells us that one intercept occurs when and the other occurs when Therefore the -intercepts are       Graphing Qudaratics  We can simplify the process of graphing a quadratic function by using the tools we have developed in this section.   Graphing a Quadratic Function    Use the to find the vertex, , of the parabola. Plot the vertex in the plane.    Factor or use the to find the -intercept(s). If there are -intercepts, plot them in the plane.    Plot the -intercept, , in the plane.    Draw a parabola through the points in Steps (1) through (3).  The parabola will open upwards if .  The parabola will open downwards if .         Working with Quadratic Functions    find the vertex of a quadratic function,  find the -intercept(s) of a quadratic function  find the -intercept of a quadratic function,  graph a quadratic function.     Sketch a graph of each of the quadratic functions below. Label the -intercept, the vertex, and any -intercepts.                "
-},
-{
-  "id": "objectives-23",
-  "level": "2",
-  "url": "sec-quadratic_functions.html#objectives-23",
-  "type": "Objectives",
-  "number": "3.5",
-  "title": "",
-  "body": "  Place a quadratic function in vertex form,  Find the vertex of a quadratic function,   "
+  "body": " Quadratic Functions             In this section, we study polynomial functions of degree 2. These polynomial functions are often called quadratic functions .    Quadratic Function  A function is quadratic   Function  Quadratic  if it has the form where , , and are numbers, and .    Vertex Form   Just as with lines, quadratic functions are easier to understand through visualizations. The simplest quadratic function to understand is . We call the a parabola .  Graph  Parabola  The point is called the vertex .  Graph  Parabola  Vertex    As we have already seen in , the graph of this function is symmetric about the -axis, which is the vertical line through the vertex. While general quadratics are slightly more complicated, we can use the properties of to graph the class of quadratics in the following form.    The Vertex Form of a Quadratic  A quadratic function, , is in vertex form   Function  Quadratic  Vertex Form  if there are numbers and such that    Using the methods of , we can graph quadratics in this form by following the steps below.   Graphing Quadratic Functions in Vertex Form   To graph of the quadratic function      Translate the graph of horizontally by units.   If , then the translation is to the right.    If , then the translation is to the left.       Scale the graph of by .   If , then the graph is stretched.    If , then the graph is compressed.       If , reflect the graph of over the -axis.    Translate the graph of vertically by units.   If , then the translation is down.    If , then the translation is up.          Graph the function .    Following , we perform the following operations on the graph of the function .   Translate the graph of to the left by 1 to obtain the graph of .  Stretch the graph of by a factor of 2 to obtain the graph of .  Reflect the graph of across the -axis to obtain the graph of .  Translate the graph of up by 1 to obtain the graph of .   These operations are shown below.                   The transformations used to graph .     If we follow the vertex, we can see the first operation moves the point to . Since the point lies on the -axis, the second and third operation do not move the point . The fourth operation moves the point to the point . Since these operations preserve the general shape of the graph, a quadratic function in the form is a parabola with vertex at . Hence the reason for the name vertex form .  Similarly, if we follow the line of symmetry for , then we can see the first operation moves the vertical line to the vertical line . The following three operations do not change the vertical line, so the graph of is symmetric about the vertical line .  Finally, we observe the third operation may change the direction in which the parabola opens.   The graph of a parabola is    concave up   Function  Quadratic  Concave  Up  if the parabola opens upwards like .     concave down   Function  Quadratic  Concave  Down  if the parabola opens downwards like .      For quadratics in vertex form , we can see that is concave up whenever and concave down whenever .    Completing the Square   Surprisingly, every quadratic function can be placed into vertex form. Paired with the observations above, this tells us the graph of every quadratic function is a parabola. Placing a general quadratic function into vertex form will require the method of completing the square.   Remember that when we multiply two binomials, we must distribute. We can remember how to distribute using the mnemonic FOIL: F irst, O uter, I nner, L ast:   Multiplying binomials using the FOIL method.    If we use this method to multiply a binomial by itself, then we find the useful formula We call a quadratic function of the form a perfect square .  Perfect Square    Given a quadratic equation , we can use the formula to complete the square   Complete the Square  as follows.   Completing the Square  To complete the square with the quadratic function    Factor an from the first two terms to get   Add and subtract inside the parentheses to get   Factor the first three terms inside the parentheses as a perfect square   Distribute the through the sum          The number is the -coordinate of the vertex, and the number is the -coordinate of the vertex.   The Vertex Formula   Let be a quadratic function. The -coordinate of the vertex is and the -coordinate of the vertex is   As an ordered pair, the vertex of the graph of occurs at      Using , the vertex form of the quadratic function is      Find the vertex form of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function       Find the vertex of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is   Therefore the vertex form of the quadratic function is       The Quadratic Formula   In order to accurately graph a quadratic function , it is necessary to identify the -intercepts for the function. A point in the Cartesian plane is an for this function if This reduces the geometric problem of finding the -intercepts of a quadratic to the algebraic problem finding solutions to equations.    An equation of the form is called a quadratic equation   Equation  Quadratic     To find the solutions to the quadratic equation , we use to write and solve this equation for    It is important to note that are real numbers only when is a non-negative number. The number is an important invariant of a quadratic function.   The Discriminant  The discriminant   Function  Quadratic  Discriminant  of the quadratic function is the number    The discriminant provides both algebraic and geometric information about quadratic functions. On the algebraic side, the discriminant tells us how many solutions there are to the quadratic equation .   The Quadratic Formula   The quadratic equation has either two, one, or zero real solutions, depending on , .   If , then the two solutions are    If , then the only solution is   If , then there are no real solutions.      If we pair with , then we have an algorithmic way to factor any quadratic function.    The quadratic function factors as where is the discriminant.                                Factor the quadratic .    The discriminant is so the roots are By , the factorization is We can check our answer by using FOIL to see     On the geometric side, the discriminant tells us how many -intercepts the graph of has.   The -intercepts of a Quadratic Function  The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.       Find the -intercepts of the function .    Since the discriminant is this function does not have any -intercepts.      Find the -intercepts of the function .    The discriminant of this quadratic is The solutions to the equation are given by the formula This tells us that one intercept occurs when and the other occurs when Therefore the -intercepts are       Graphing Qudaratics  We can simplify the process of graphing a quadratic function by using the tools we have developed in this section.   Graphing a Quadratic Function    Use the to find the vertex, , of the parabola. Plot the vertex in the plane.    Factor or use the to find the -intercept(s). If there are -intercepts, plot them in the plane.    Plot the -intercept, , in the plane.    Draw a parabola through the points in Steps (1) through (3).  The parabola will open upwards if .  The parabola will open downwards if .         Working with Quadratic Functions    find the vertex of a quadratic function,  find the -intercept(s) of a quadratic function  find the -intercept of a quadratic function,  graph a quadratic function.     Sketch a graph of each of the quadratic functions below. Label the -intercept, the vertex, and any -intercepts.                "
 },
 {
   "id": "def-quadratic_function",
@@ -1927,9 +1837,9 @@ var ptx_lunr_docs = [
   "body": " Quadratic Function  A function is quadratic   Function  Quadratic  if it has the form where , , and are numbers, and .  "
 },
 {
-  "id": "p-336",
+  "id": "p-335",
   "level": "2",
-  "url": "sec-quadratic_functions.html#p-336",
+  "url": "sec-quadratic_functions.html#p-335",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1981,18 +1891,18 @@ var ptx_lunr_docs = [
   "body": " Multiplying binomials using the FOIL method.   "
 },
 {
-  "id": "p-363",
+  "id": "p-362",
   "level": "2",
-  "url": "sec-quadratic_functions.html#p-363",
+  "url": "sec-quadratic_functions.html#p-362",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "perfect square "
 },
 {
-  "id": "p-364",
+  "id": "p-363",
   "level": "2",
-  "url": "sec-quadratic_functions.html#p-364",
+  "url": "sec-quadratic_functions.html#p-363",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2125,9 +2035,9 @@ var ptx_lunr_docs = [
   "body": " Graphing a Quadratic Function    Use the to find the vertex, , of the parabola. Plot the vertex in the plane.    Factor or use the to find the -intercept(s). If there are -intercepts, plot them in the plane.    Plot the -intercept, , in the plane.    Draw a parabola through the points in Steps (1) through (3).  The parabola will open upwards if .  The parabola will open downwards if .      "
 },
 {
-  "id": "objectives-24",
+  "id": "objectives-14",
   "level": "2",
-  "url": "sec-quadratic_functions.html#objectives-24",
+  "url": "sec-quadratic_functions.html#objectives-14",
   "type": "Objectives",
   "number": "3.5.5",
   "title": "",
@@ -2302,16 +2212,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "Rational Functions",
-  "body": " Rational Functions    Find the domain of a rational functions     A special case of ratios of functions that is of interest is when the numerator and denominator are both polynomials.    A rational function is a function of the form where and are polynomial functions.    The Domain of a Rational Function  Since polynomial functions always have domain and codomain , the domain of the rational function is the set    The rational function   is defined whenever is nonzero. This is the set of all numbers except and , which we can express as the union of intervals          Simplifying Rational Functions     Recall that we always write rational numbers in lowest terms. For example, instead of writing , we cancel the common factor of in the numerator and denominator to write . The same is true for rational functions, although some extra care is required.   If we are working with the rational function defined by then it is tempting to factor the numerator as and write   It is important to remember that this simplification only holds for elements of the domain of the function . This says that is equal to the function defined by . However, the function defined by is not equal to the function because the functions and do not have the same domain.     Sums and Differences of Rational Functions  Recall that in order to add or subtract rational numbers, we must find a common denominator. For example, to add and , we use the common denominator  The same is true for rational functions, provided we are careful with the denominator.   Consider the rational functions defined by   The sum of and is the function To find an expression for on this set, we use the least common multiple of the denominators to find a common denominator:      Products and Ratios of Rational Functions  Recall that when we multiply two rational numbers we multiply the numerators and denominators. For example, When we divide one rational number by another, we multiply the one by the reciprocal of the other. For example The same is true for products and ratios of rational functions.   Consider the rational functions defined by   The product of and is the function defined by The ratio of and is the function defined by     "
-},
-{
-  "id": "objectives-25",
-  "level": "2",
-  "url": "sec-rational_functions.html#objectives-25",
-  "type": "Objectives",
-  "number": "4.2",
-  "title": "",
-  "body": "  Find the domain of a rational functions   "
+  "body": " Rational Functions          A special case of ratios of functions that is of interest is when the numerator and denominator are both polynomials.    A rational function is a function of the form where and are polynomial functions.    The Domain of a Rational Function  Since polynomial functions always have domain and codomain , the domain of the rational function is the set    The rational function   is defined whenever is nonzero. This is the set of all numbers except and , which we can express as the union of intervals          Simplifying Rational Functions     Recall that we always write rational numbers in lowest terms. For example, instead of writing , we cancel the common factor of in the numerator and denominator to write . The same is true for rational functions, although some extra care is required.   If we are working with the rational function defined by then it is tempting to factor the numerator as and write   It is important to remember that this simplification only holds for elements of the domain of the function . This says that is equal to the function defined by . However, the function defined by is not equal to the function because the functions and do not have the same domain.     Sums and Differences of Rational Functions  Recall that in order to add or subtract rational numbers, we must find a common denominator. For example, to add and , we use the common denominator  The same is true for rational functions, provided we are careful with the denominator.   Consider the rational functions defined by   The sum of and is the function To find an expression for on this set, we use the least common multiple of the denominators to find a common denominator:      Products and Ratios of Rational Functions  Recall that when we multiply two rational numbers we multiply the numerators and denominators. For example, When we divide one rational number by another, we multiply the one by the reciprocal of the other. For example The same is true for products and ratios of rational functions.   Consider the rational functions defined by   The product of and is the function defined by The ratio of and is the function defined by        Find the domain of a rational functions     "
 },
 {
   "id": "def-rational_function",
@@ -2357,6 +2258,15 @@ var ptx_lunr_docs = [
   "number": "4.2.5",
   "title": "",
   "body": " Consider the rational functions defined by   The product of and is the function defined by The ratio of and is the function defined by   "
+},
+{
+  "id": "objectives-15",
+  "level": "2",
+  "url": "sec-rational_functions.html#objectives-15",
+  "type": "Objectives",
+  "number": "4.2.5",
+  "title": "",
+  "body": "  Find the domain of a rational functions   "
 },
 {
   "id": "sec-composition",
@@ -2422,9 +2332,9 @@ var ptx_lunr_docs = [
   "body": " Consider the functions defined by and defined by . The composition of with is the function defined by   "
 },
 {
-  "id": "p-444",
+  "id": "p-443",
   "level": "2",
-  "url": "sec-composition.html#p-444",
+  "url": "sec-composition.html#p-443",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2440,18 +2350,18 @@ var ptx_lunr_docs = [
   "body": " Identity Function Assume is a set. The identity function on is the function defined by  "
 },
 {
-  "id": "p-449",
+  "id": "p-448",
   "level": "2",
-  "url": "sec-composition.html#p-449",
+  "url": "sec-composition.html#p-448",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "additive inverse "
 },
 {
-  "id": "p-453",
+  "id": "p-452",
   "level": "2",
-  "url": "sec-composition.html#p-453",
+  "url": "sec-composition.html#p-452",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2602,9 +2512,9 @@ var ptx_lunr_docs = [
   "body": " The Exponential Function   So far, all of the functions we have encountered are either polynomials or can be constructed from polynomial equations using algebraic operations. A transcendental function   Function  Transcendental  is any function that cannot be constructed in this manner. While it is certainly odd to discuss functions that cannot be constructed by algebraic means in a course on algebra, many calculus courses expect students to already be familiar with these functions. We focus solely on the algebraic properties of these functions.    Properties of the Exponential Function  We start with the definition of a constant. Much like the number , this number cannot be constructed using algebraic methods. Indeed, the proper definition requires calculus, so we provide only a numerical approximation.   Euler's Number   Euler's number   Euler's Number  is the constant .   Euler's number     This constant is essential to the definition of the exponential function.   The Exponential Function The exponential function   Function  Exponential   is defined by .  We can think about the value of the exponential function at a positive real number as the result of multiplying copies of the number : This definition extends to all real numbers by defining   An interesting consequence of these definitions is that the exponential function transforms addition of the input into multiplication of the output and subtraction of the input into division of the output. For addition of the input, we take advantage of the fact that multiplication is associative to write   For subtraction of the inverse, we note that , so   These two properties also provide a convenient observation about multiplication of the input. Recall that the product of two numbers is simply a notational convenience. Depending on your needs, the product can be regarded as either adding together copies of the number or copies of the number : If we take first interpretation of , then we can apply the formula for the sum of inputs times to get Similarly, if we take the second interpretation of , then we can apply the formula for the sum of inputs times to get    Properties of Exponential Functions   Assume and are real numbers.                            The Graph of the Exponential Function  The graph of the exponential function is provided below.         Working with the Exponential     Combine expressions involving the exponential    Identify graphs involving the exponential       Use the to rewrite each equation so there is only one exponential term.                     Match each function with its graph.                                     "
 },
 {
-  "id": "p-507",
+  "id": "p-506",
   "level": "2",
-  "url": "sec-exponentials.html#p-507",
+  "url": "sec-exponentials.html#p-506",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2647,9 +2557,9 @@ var ptx_lunr_docs = [
   "body": "    "
 },
 {
-  "id": "objectives-26",
+  "id": "objectives-16",
   "level": "2",
-  "url": "sec-exponentials.html#objectives-26",
+  "url": "sec-exponentials.html#objectives-16",
   "type": "Objectives",
   "number": "5.1.3",
   "title": "",
@@ -2755,9 +2665,9 @@ var ptx_lunr_docs = [
   "body": " To solve the equation for , we use the to rewrite The two possible solutions are and . The solution is extraneous because is undefined. Therefore the only solution is .  We can verify this is a solution by substituting for to see   "
 },
 {
-  "id": "objectives-27",
+  "id": "objectives-17",
   "level": "2",
-  "url": "sec-logarithms.html#objectives-27",
+  "url": "sec-logarithms.html#objectives-17",
   "type": "Objectives",
   "number": "5.2.4",
   "title": "",
@@ -2872,9 +2782,9 @@ var ptx_lunr_docs = [
   "body": " Assume is a positive number. The number is called the growth rate   Function  Exponential  Growth Rate  of if or the decay rate   Function  Exponential  Decay Rate  of if .    When , we say the function models exponential growth   Function  Exponential  Growth  and we call the number the growth factor .  Function  Exponential  Growth Factor      When , we say the function models exponential decay   Function  Exponential  Decay  and we call the number the decay factor .  Function  Exponential  Decay Factor      "
 },
 {
-  "id": "objectives-28",
+  "id": "objectives-18",
   "level": "2",
-  "url": "sec-other_exponentials.html#objectives-28",
+  "url": "sec-other_exponentials.html#objectives-18",
   "type": "Objectives",
   "number": "5.3.3",
   "title": "",
@@ -2971,9 +2881,9 @@ var ptx_lunr_docs = [
   "body": "  The logarithm often written  means different things to different people, often depending on the context.   Most mathematicians (and mathematical texts) will write to mean the logarithm with base . This is because mathematicians are primarily interested in the functions and their behaviors, not numbers or numerical data.    Most computer scientists will write to mean the logarithm with base . This is because computer scientists most frequently work with numbers and numerical data expressed in base or binary  the number system used for computational devices. In base , numbers are represented as strings with digits that are either or . For example, in base the string stands for the number     Most scientists and engineers will write to mean the logarithm with base . This is because scientists and engineers most frequently work with numbers and numerical data expressed in the usual base 10 or decimal number system. In contrast to base , the base 10 number system consists of strings of digits that are allowed to be one of , , , , , , , , , or . For example, in base the string stands for      "
 },
 {
-  "id": "objectives-29",
+  "id": "objectives-19",
   "level": "2",
-  "url": "sec-other_logarithms.html#objectives-29",
+  "url": "sec-other_logarithms.html#objectives-19",
   "type": "Objectives",
   "number": "5.4.2",
   "title": "",
