@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-modeling" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Modeling with Exponential Functions</title>
+
+  <introduction>
+    <p>
+      Exponential functions are of interest to scientists because they are useful in modeling natural phenomena.
+      In this section, we explore some examples that demonstrate how exponential functions can be used for modeling.
+    </p>
+  </introduction>
+
+  <subsection>
+    <title>Exponential Growth</title>
+    <example xml:id="example-exp_growth">
+      <title>Population Growth</title>
+      <p>
+	A biologist observes a population over a six year period.
+	The biologist measures the size of the observed population at the beginning and end of each of the years.
+	In an effort to understand how the population is changing, the biologist records the year-to-year change as a numeric value and as a percentage of the initial population for the year.
+      </p>
+      <table>
+	<title>Observed Population by Year</title>
+	<tabular halign="center">
+	  <row header="yes">
+	    <cell>Year</cell>
+	    <cell>Initial Population</cell>
+	    <cell>Final Population</cell>
+	    <cell>Change</cell>
+	    <cell>Percent Change</cell>
+	  </row>
+	  <row>
+	    <cell><m>1</m></cell>
+	    <cell><m>64</m></cell>
+	    <cell><m>96</m></cell>
+	    <cell><m>+32</m></cell>
+	    <cell><m>+50\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>2</m></cell>
+	    <cell><m>96</m></cell>
+	    <cell><m>144</m></cell>
+	    <cell><m>+48</m></cell>
+	    <cell><m>+50\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>3</m></cell>
+	    <cell><m>144</m></cell>
+	    <cell><m>216</m></cell>
+	    <cell><m>+72</m></cell>
+	    <cell><m>+50\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>4</m></cell>
+	    <cell><m>216</m></cell>
+	    <cell><m>324</m></cell>
+	    <cell><m>+108</m></cell>
+	    <cell><m>+50\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>5</m></cell>
+	    <cell><m>324</m></cell>
+	    <cell><m>486</m></cell>
+	    <cell><m>+162</m></cell>
+	    <cell><m>+50\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>6</m></cell>
+	    <cell><m>486</m></cell>
+	    <cell><m>729</m></cell>
+	    <cell><m>+243</m></cell>
+	    <cell><m>+50\%</m></cell>
+	  </row>
+	</tabular>
+      </table>
+
+      <p>
+	Using the table, the biologist notices the following relations amongst the population sizes
+	<md>
+	  <mrow>96 \amp= 64 + \frac{64}{2} = 64\left(1 + \frac{1}{2}\right) = 64\left(\frac{3}{2}\right) = 64\Exp{\frac{3}{2}}(1)</mrow>
+	  <mrow>144 \amp= 96\left(\frac{3}{2}\right) = 64\left(\frac{3}{2}\right)\left(\frac{3}{2}\right) = 64\left(\frac{3}{2}\right)^2    = 64\Exp{\frac{3}{2}}(2)</mrow>
+	  <mrow>216 \amp= 144\left(\frac{3}{2}\right) = 64\left(\frac{3}{2}\right)^2\left(\frac{3}{2}\right) = 64\left(\frac{3}{2}\right)^3 = 64\Exp{\frac{3}{2}}(3)</mrow>
+	  <mrow>324 \amp= 216\left(\frac{3}{2}\right) = 64\left(\frac{3}{2}\right)^3\left(\frac{3}{2}\right) = 64\left(\frac{3}{2}\right)^4 = 64\Exp{\frac{3}{2}}(4)</mrow>
+	  <mrow>486 \amp= 324\left(\frac{3}{2}\right) = 64\left(\frac{3}{2}\right)^4\left(\frac{3}{2}\right) = 64\left(\frac{3}{2}\right)^5 = 64\Exp{\frac{3}{2}}(5)</mrow>
+	  <mrow>729 \amp= 486\left(\frac{3}{2}\right) = 64\left(\frac{3}{2}\right)^5\left(\frac{3}{2}\right) = 64\left(\frac{3}{2}\right)^6 = 64\Exp{\frac{3}{2}}(6).</mrow>
+	</md>
+	This leads the biologist to conclude that the size of the population can be measured with the exponential function
+	<me>P(t) = 64\Exp{\frac{3}{2}}(t) = 64\left(\frac{3}{2}\right)^t,</me>
+	where <m>t</m> is the amount of time in years that has elapsed.
+	This function agrees with the observations for <m>t \in \{1, 2, 3, 4, 5 ,6\}</m>, and predicts the size of the population at the end of the seventh year will be
+	<me>P(7) = 64\left(\frac{3}{2}\right)^7 = 1093.5 \approx 1094.</me>
+      </p>
+    </example>
+
+    <example xml:id="example-compound_interest">
+      <title>Compound Interest</title>
+      <p>
+	Your local bank offers a savings account with a <m>6\%</m> annual interest that is compounded monthly.
+	This means the bank will add <m>6\%/12 = 0.5\%</m> of your current balance to your account every month.
+	In other words, your balance grows at a rate of <m>0.5\%</m> <alert>per month</alert>.
+      </p>
+      <p>
+	The growth factor for the exponential function that models the amount of money in the account after <m>t</m> <alert>months</alert> is
+	<me>a = 1 + 0.5\% = 1 + \frac{0.5}{100} = 1 + 0.005 = 1.005.</me>
+	Assuming you deposit <m>\$1,000</m> into a savings account, the balance of the account after <m>t</m> <alert>months</alert> is given by the function
+	<me>B(t) = 1000\Exp{1.005}(t) = 1000(1.005)^t.</me>
+      </p>
+      <p>
+	Customarily, one measures investments as a function of the number of <alert>years</alert> that have elapsed, rather than months.
+	Since there are <m>12</m> months in a year, we compress the time scale by a factor of <m>12</m> to obtain the function
+	<me>A(t) = B(12t) = 1000(1.005)^{12t} = 1000\left(1.005^{12}\right)^t = 1000\Exp{1.005^{12}}(t)</me>
+	that measures the amount of money in the account after <m>t</m> <term>years</term>.
+      </p>
+      <p>
+	The table below shows the amount of money in the account for a five year period, with all figures rounded to two decimal places.
+      </p>
+      <table>
+	<title>Amount of Money in Savings Account</title>
+	<tabular halign="center">
+	  <row header="yes">
+	    <cell>Year</cell>
+	    <cell>Initial Amount (<m>\$</m>)</cell>
+	    <cell>Final Amount (<m>\$</m>)</cell>
+	    <cell>Change (<m>\$</m>)</cell>
+	    <cell>Growth Rate (Annual)</cell>
+	  </row>
+	  <row>
+	    <cell><m>1</m></cell>
+	    <cell><m>1000</m></cell>
+	    <cell><m>1061.68</m></cell>
+	    <cell><m>+61.68</m></cell>
+	    <cell><m>+6.17\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>2</m></cell>
+	    <cell><m>1061.68</m></cell>
+	    <cell><m>1127.16</m></cell>
+	    <cell><m>+65.48</m></cell>
+	    <cell><m>+6.17\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>3</m></cell>
+	    <cell><m>1127.16</m></cell>
+	    <cell><m>1196.68</m></cell>
+	    <cell><m>+69.52</m></cell>
+	    <cell><m>+6.17\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>4</m></cell>
+	    <cell><m>1196.68</m></cell>
+	    <cell><m>1270.49</m></cell>
+	    <cell><m>+73.81</m></cell>
+	    <cell><m>+6.17\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>5</m></cell>
+	    <cell><m>1270.49</m></cell>
+	    <cell><m>1348.85</m></cell>
+	    <cell><m>+78.36</m></cell>
+	    <cell><m>+6.17\%</m></cell>
+	  </row>
+	</tabular>
+      </table>
+      <p>
+	Note that the growth factor for this function is <m>a  = \left(1.005\right)^{12}</m>, so the growth rate 
+	<me>a - 1 = \left(1.005\right)^{12} - 1 \approx 6.17\%</me>
+	is slightly higher than the interest rate (<m>6\%</m>).
+      </p>
+    </example>
+    
+    <p>
+      In general, we can model compound interest using the following formula.
+    </p>
+    
+    <claim xml:id="formula-compound_interest">
+      <title>Compound Interest Formula</title>
+      <statement>
+	<p>
+	  Assume <m>P</m> dollars are invested in an account at an annual interest rate of <m>r\%</m> that is compounded <m>n</m> times each year.
+	  The amount of money in the account after <m>t</m> years is
+	  <me>A(t) = P\left(1 + \frac{r}{n}\right)^{nt}.</me>
+	  The growth rate for this function is
+	  <me>\left(1 + \frac{r}{n}\right) - 1,</me>
+	  which measures the increase in the balance over one year as a percentage of the previous balance.
+	</p>
+      </statement>
+    </claim>
+
+    <p>
+      For interest that compounds <em>continuously</em>, we have the following formula.
+    </p>
+
+    <claim xml:id="formula-cont_compound_interest">
+      <title>Compound Interest Formula</title>
+      <statement>
+	<p>
+	  Assume <m>P</m> dollars are invested in an account at an annual interest rate of <m>r\%</m> that is compounded <em>continuously</em>.
+	  The amount of money in the account after <m>t</m> years is
+	  <me>A(t) = P\exp(rt) = Pe^{rt} = P(e^r)^t = P\Exp{e^r}(t).</me>
+	  The growth rate for this function is <m>e^r - 1</m>, which measures the increase in the balance over one year as a percentage of the previous balance.
+	</p>
+      </statement>
+    </claim>
+  </subsection>
+
+  <subsection>
+    <title>Exponential Decay</title>
+
+    <example xml:id="example-exp_decay">
+      <p>
+	The half-life of the radioactive isotope technetium-99m is <m>6</m> hours <xref ref="ref-CDC_half_life"/>.
+	Assume we start with a sample of <m>64</m> grams of technetium-99m.
+	The table below lists the amount at the beginning and the end of each six hour period over the course of a day.
+      </p>
+      <table>
+	<title>Amount of technetium-99m over 24 hours</title>
+	<tabular halign="center">
+	  <row header="yes">
+	    <cell>Period</cell>
+	    <cell>Initial Amount (grams)</cell>
+	    <cell>Final Amount (grams)</cell>
+	    <cell>Change (grams)</cell>
+	    <cell>Percent Change</cell>
+	  </row>
+	  <row>
+	    <cell><m>1</m></cell>
+	    <cell><m>64</m></cell>
+	    <cell><m>32</m></cell>
+	    <cell><m>-32</m></cell>
+	    <cell><m>-50\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>2</m></cell>
+	    <cell><m>32</m></cell>
+	    <cell><m>16</m></cell>
+	    <cell><m>-16</m></cell>
+	    <cell><m>-50\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>3</m></cell>
+	    <cell><m>16</m></cell>
+	    <cell><m>8</m></cell>
+	    <cell><m>-8</m></cell>
+	    <cell><m>-50\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>4</m></cell>
+	    <cell><m>8</m></cell>
+	    <cell><m>4</m></cell>
+	    <cell><m>-4</m></cell>
+	    <cell><m>-50\%</m></cell>
+	  </row>
+	</tabular>
+      </table>
+      <p>
+	We can model the amount of the sample remaining as a function of the number of <m>6</m> hour periods that have passed using the exponential function
+	<me>f(t) = 64\left(\frac{1}{2}\right)^t = 64\Exp{\frac{1}{2}}(t).</me>
+	However, it would be more convenient to model the amount of the sample as a function of the number of hours that have passed.
+	To do this, we first recognize that <m>1</m> hour is <m>1/6^\text{th}</m> of a period.
+	We can stretch the time scale by a factor of <m>6</m> to obtain the function
+	<me>A(t) = f\left(\frac{t}{6}\right) = 64\left(\frac{1}{2}\right)^{\frac{t}{6}} = 64\left(\frac{1}{\sqrt[6]{2}}\right)^t = 64\Exp{\frac{1}{\sqrt[6]{2}}}(t)</me>
+	that measures the amount of the technetium-99m sample remaining after <m>t</m> hours have elapsed.
+	Using this function, we have recorded the amount remaining after each hour for the first six hour period in the table below.
+      </p>
+      <table>
+	<title>Amount of technetium-99m over 24 hours</title>
+	<tabular halign="center">
+	  <row header="yes">
+	    <cell>Hour</cell>
+	    <cell>Amount Remaining (grams)</cell>
+	    <cell>Percent Change</cell>
+	  </row>
+	  <row>
+	    <cell><m>1</m></cell>
+	    <cell><m>A(1) \approx 57.02</m></cell>
+	    <cell><m>\frac{A(1) - A(0)}{A(0)} \approx0.11\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>2</m></cell>
+	    <cell><m>A(2) \approx 50.80</m></cell>
+	    <cell><m>\frac{A(2) - A(1)}{A(1)}\approx0.11\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>3</m></cell>
+	    <cell><m>A(3) \approx 45.25</m></cell>
+	    <cell><m>\frac{A(3) - A(2)}{A(2)} \approx0.11\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>4</m></cell>
+	    <cell><m>A(4) \approx 40.32</m></cell>
+	    <cell><m>\frac{A(4) - A(3)}{A(3)} \approx0.11\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>5</m></cell>
+	    <cell><m>A(5) \approx 35.92</m></cell>
+	    <cell><m>\frac{A(5) - A(4)}{A(4)}\approx0.11\%</m></cell>
+	  </row>
+	  <row>
+	    <cell><m>6</m></cell>
+	    <cell><m>A(6) = 32</m></cell>
+	    <cell><m>\frac{A(6) - A(5)}{A(5)}\approx0.11\%</m></cell>
+	  </row>
+	</tabular>
+      </table>
+    </example>
+  </subsection>
+</section>

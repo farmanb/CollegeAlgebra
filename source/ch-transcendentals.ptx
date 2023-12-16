@@ -9,4 +9,5 @@
   <xi:include href="sec-log.ptx"/>
   <xi:include href="sec-other_exponentials.ptx" />
   <xi:include href="sec-other_logarithms.ptx" />
+  <xi:include href="sec-modeling.ptx" />
 </chapter>
