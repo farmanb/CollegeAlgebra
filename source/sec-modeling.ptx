@@ -191,7 +191,7 @@
     </p>
 
     <claim xml:id="formula-cont_compound_interest">
-      <title>Compound Interest Formula</title>
+      <title>Continuously Compounding Interest Formula</title>
       <statement>
 	<p>
 	  Assume <m>P</m> dollars are invested in an account at an annual interest rate of <m>r\%</m> that is compounded <em>continuously</em>.
@@ -201,12 +201,33 @@
 	</p>
       </statement>
     </claim>
+
+    <remark>
+      <p>
+	We can always express compounding interest as continuously compounding interest using the logarithm.
+      </p>
+    </remark>
+
+    <example>
+      <title>Converting to Continuously Compounding Interest</title>
+      As we saw in <xref ref="example-compound_interest"/>, we can model the balance of a savings account with principal investment of <m>P = \$1000</m> at an annual interest rate of <m>r = 6\%</m> compounded monthly with the function
+      <me>A(t) = 1000(1.005)^{12t}.</me>
+      Since the growth factor of this function is <m>a = 1.005^{12}</m>, we have
+      <me>\ln(a) = \ln\left(1.005^{12}\right) = 12\ln(1.005)</me>
+      and thus we can rewrite with base <m>e</m> as
+      <md>
+	<mrow>A(t) \amp= 1000\exp(\ln(a)t)</mrow>
+	<mrow>\amp= 1000\exp(12\ln(1.005)t)</mrow>
+	<mrow>\amp= 1000e^{12\ln(1.005)t}.</mrow>
+      </md>
+    </example>
   </subsection>
 
   <subsection>
     <title>Exponential Decay</title>
 
     <example xml:id="example-exp_decay">
+      <title>Half-Life</title>
       <p>
 	The half-life of the radioactive isotope technetium-99m is <m>6</m> hours <xref ref="ref-CDC_half_life"/>.
 	Assume we start with a sample of <m>64</m> grams of technetium-99m.
