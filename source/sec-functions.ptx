@@ -146,7 +146,7 @@
   </example>
 
   <worksheet component="print">
-    <title></title>
+    <title/>
     <example workspace="2in">
       <statement>
 	<p>
@@ -227,6 +227,7 @@
   </example>
 
   <worksheet component="print">
+    <title/>
     <example workspace="2in">
       <statement>
 	<p>
@@ -331,15 +332,13 @@
 	  Consider the function <m>f \colon \R \to \R</m> defined by the rule <m>f(x) = x + 2</m>.
 	</p>
       </introduction>
-      <example>
+      <example workspace="2in">
 	<statement>
 	  <p>
 	    Verify that <m>f</m> is a function algebraically.
 	  </p>
 	</statement>
       </example>
-    </page>
-    <page>
       <example>
 	<statement>
 	  <p>
@@ -410,7 +409,7 @@
 	  The equation <m>x = y^2</m> does <alert>not</alert> define <m>y</m> as a function of <m>x</m>.
 	</p>
 	<figure>
-	  <image>
+	  <image width="50%">
 	    <latex-image>
 	      \begin{tikzpicture}[domain=0:4]
 	      \draw[very thin,color=gray] (0,-2) grid (4,2);
