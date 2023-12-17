@@ -10,11 +10,254 @@ var ptx_lunr_docs = [
   "body": "  My Website   copyright  "
 },
 {
+  "id": "sec-sets",
+  "level": "1",
+  "url": "sec-sets.html",
+  "type": "Section",
+  "number": "1.1",
+  "title": "Sets",
+  "body": " Sets             In this section, we study the basic theory of sets.    A set   Set  is a collection of objects called elements   Set  Element  or members   Set  Member  of the set. We specify that an object is an element of the set by writing      Membership operator  and say \" is an element (or member) of \"    Roster Notation   Roster notation   Set  Roster Notation  specifies the elements of a set as a comma separated list surrounded by curly braces.    The set has as its elements the numbers , , , and .    Set-Builder Notation   Set-builder notation   Set  Set-Builder Notation  specifies the members of a set using a variable and condition for membership in the set.    The set, , of all positive, even integers can be written in set-builder notation as This is read as \" is the set of all such that is a positive, even integer.\"    Special Sets   We have special names for some commonly used sets.    The Empty Set  The empty set   Set  Empty  is the set with no elements, .     The empty set      The Natural Numbers The set of natural numbers   Set  Natural Numbers  is the set with elements all positive integers,      The set of natural numbers     The Integers The set of integers   Set  Integers  is the set with elements all integers,      The set of integers     The Rational Numbers The set of rational numbers   Set  Rational Numbers  is the set with elements all rational numbers,      The set of rational numbers     The Real Numbers The set of real numbers   Set  Real Numbers  is the set with elements all real numbers, .     The set of real numbers.      Intervals   We will mostly be concerned with subsets of the real numbers known as intervals .    Open Interval  Let and be real numbers and assume that . An open interval   Set  Interval  Open  is a set that takes one of the following forms.             The open intervals , , and .     Closed Interval  Let and be real numbers and assume that . A closed interval   Set  Interval  Closed  is a set that takes one of the following forms             The closed intervals , , and .     Half-Open Interval  Let and be real numbers and assume that . A half-open interval   Set  Interval  Half-Open  from to takes one of the following forms.          The half-open intervals and .      Subsets and Equality   Let and be sets. We say the sets and are equal   Set  Equal  and write      Equality of sets  if and have the exact same elements.    The sets and are equal.    The sets and are not equal.    Subset  Let and be sets. We say that is a subset   Set  Subset  of and write      Subset operator  if every element of is also an element of .    The set is a subset of the set .    The set is not a subset of .     Basic Set Operations   There are two common operations that we will frequently need to perform on sets.    Intersection  Let and be sets. The intersection   Set  Intersection  of and is the set     The intersection is the largest set that is a subset of and a subset of .    The intersection of the intervals and is the set             The intervals , , and .     Union  Let and be sets. The union   Set  Union  of and is the set     In mathematics, the word or is inclusive . This means the condition or allows for the possibility that  and  .    The union is the smallest set that contains both and as subsets.    The union of the two intervals and is the set             The intervals , , and .     "
+},
+{
+  "id": "def-set",
+  "level": "2",
+  "url": "sec-sets.html#def-set",
+  "type": "Definition",
+  "number": "1.1.1",
+  "title": "",
+  "body": " A set   Set  is a collection of objects called elements   Set  Element  or members   Set  Member  of the set. We specify that an object is an element of the set by writing      Membership operator  and say \" is an element (or member) of \"  "
+},
+{
+  "id": "def-roster_notation",
+  "level": "2",
+  "url": "sec-sets.html#def-roster_notation",
+  "type": "Definition",
+  "number": "1.1.2",
+  "title": "Roster Notation.",
+  "body": " Roster Notation   Roster notation   Set  Roster Notation  specifies the elements of a set as a comma separated list surrounded by curly braces.  "
+},
+{
+  "id": "example-1",
+  "level": "2",
+  "url": "sec-sets.html#example-1",
+  "type": "Example",
+  "number": "1.1.3",
+  "title": "",
+  "body": " The set has as its elements the numbers , , , and .  "
+},
+{
+  "id": "def-set_builder_notation",
+  "level": "2",
+  "url": "sec-sets.html#def-set_builder_notation",
+  "type": "Definition",
+  "number": "1.1.4",
+  "title": "Set-Builder Notation.",
+  "body": " Set-Builder Notation   Set-builder notation   Set  Set-Builder Notation  specifies the members of a set using a variable and condition for membership in the set.  "
+},
+{
+  "id": "example-2",
+  "level": "2",
+  "url": "sec-sets.html#example-2",
+  "type": "Example",
+  "number": "1.1.5",
+  "title": "",
+  "body": " The set, , of all positive, even integers can be written in set-builder notation as This is read as \" is the set of all such that is a positive, even integer.\"  "
+},
+{
+  "id": "def-empty_set",
+  "level": "2",
+  "url": "sec-sets.html#def-empty_set",
+  "type": "Definition",
+  "number": "1.1.6",
+  "title": "The Empty Set.",
+  "body": " The Empty Set  The empty set   Set  Empty  is the set with no elements, .     The empty set    "
+},
+{
+  "id": "def-naturals",
+  "level": "2",
+  "url": "sec-sets.html#def-naturals",
+  "type": "Definition",
+  "number": "1.1.7",
+  "title": "The Natural Numbers.",
+  "body": " The Natural Numbers The set of natural numbers   Set  Natural Numbers  is the set with elements all positive integers,      The set of natural numbers   "
+},
+{
+  "id": "def-integers",
+  "level": "2",
+  "url": "sec-sets.html#def-integers",
+  "type": "Definition",
+  "number": "1.1.8",
+  "title": "The Integers.",
+  "body": " The Integers The set of integers   Set  Integers  is the set with elements all integers,      The set of integers   "
+},
+{
+  "id": "def-rationals",
+  "level": "2",
+  "url": "sec-sets.html#def-rationals",
+  "type": "Definition",
+  "number": "1.1.9",
+  "title": "The Rational Numbers.",
+  "body": " The Rational Numbers The set of rational numbers   Set  Rational Numbers  is the set with elements all rational numbers,      The set of rational numbers   "
+},
+{
+  "id": "def-reals",
+  "level": "2",
+  "url": "sec-sets.html#def-reals",
+  "type": "Definition",
+  "number": "1.1.10",
+  "title": "The Real Numbers.",
+  "body": " The Real Numbers The set of real numbers   Set  Real Numbers  is the set with elements all real numbers, .     The set of real numbers.   "
+},
+{
+  "id": "def-interval-open",
+  "level": "2",
+  "url": "sec-sets.html#def-interval-open",
+  "type": "Definition",
+  "number": "1.1.11",
+  "title": "Open Interval.",
+  "body": " Open Interval  Let and be real numbers and assume that . An open interval   Set  Interval  Open  is a set that takes one of the following forms.             The open intervals , , and .   "
+},
+{
+  "id": "def-interval-closed",
+  "level": "2",
+  "url": "sec-sets.html#def-interval-closed",
+  "type": "Definition",
+  "number": "1.1.13",
+  "title": "Closed Interval.",
+  "body": " Closed Interval  Let and be real numbers and assume that . A closed interval   Set  Interval  Closed  is a set that takes one of the following forms             The closed intervals , , and .   "
+},
+{
+  "id": "def-interval-half-open",
+  "level": "2",
+  "url": "sec-sets.html#def-interval-half-open",
+  "type": "Definition",
+  "number": "1.1.15",
+  "title": "Half-Open Interval.",
+  "body": " Half-Open Interval  Let and be real numbers and assume that . A half-open interval   Set  Interval  Half-Open  from to takes one of the following forms.          The half-open intervals and .   "
+},
+{
+  "id": "def-set_equality",
+  "level": "2",
+  "url": "sec-sets.html#def-set_equality",
+  "type": "Definition",
+  "number": "1.1.17",
+  "title": "",
+  "body": " Let and be sets. We say the sets and are equal   Set  Equal  and write      Equality of sets  if and have the exact same elements.  "
+},
+{
+  "id": "example-3",
+  "level": "2",
+  "url": "sec-sets.html#example-3",
+  "type": "Example",
+  "number": "1.1.18",
+  "title": "",
+  "body": " The sets and are equal.  "
+},
+{
+  "id": "example-4",
+  "level": "2",
+  "url": "sec-sets.html#example-4",
+  "type": "Example",
+  "number": "1.1.19",
+  "title": "",
+  "body": " The sets and are not equal.  "
+},
+{
+  "id": "def-subset",
+  "level": "2",
+  "url": "sec-sets.html#def-subset",
+  "type": "Definition",
+  "number": "1.1.20",
+  "title": "Subset.",
+  "body": " Subset  Let and be sets. We say that is a subset   Set  Subset  of and write      Subset operator  if every element of is also an element of .  "
+},
+{
+  "id": "example-5",
+  "level": "2",
+  "url": "sec-sets.html#example-5",
+  "type": "Example",
+  "number": "1.1.21",
+  "title": "",
+  "body": " The set is a subset of the set .  "
+},
+{
+  "id": "example-6",
+  "level": "2",
+  "url": "sec-sets.html#example-6",
+  "type": "Example",
+  "number": "1.1.22",
+  "title": "",
+  "body": " The set is not a subset of .  "
+},
+{
+  "id": "def-intersection",
+  "level": "2",
+  "url": "sec-sets.html#def-intersection",
+  "type": "Definition",
+  "number": "1.1.23",
+  "title": "Intersection.",
+  "body": " Intersection  Let and be sets. The intersection   Set  Intersection  of and is the set   "
+},
+{
+  "id": "remark-1",
+  "level": "2",
+  "url": "sec-sets.html#remark-1",
+  "type": "Remark",
+  "number": "1.1.24",
+  "title": "",
+  "body": " The intersection is the largest set that is a subset of and a subset of .  "
+},
+{
+  "id": "example-7",
+  "level": "2",
+  "url": "sec-sets.html#example-7",
+  "type": "Example",
+  "number": "1.1.25",
+  "title": "",
+  "body": " The intersection of the intervals and is the set             The intervals , , and .   "
+},
+{
+  "id": "def-union",
+  "level": "2",
+  "url": "sec-sets.html#def-union",
+  "type": "Definition",
+  "number": "1.1.27",
+  "title": "Union.",
+  "body": " Union  Let and be sets. The union   Set  Union  of and is the set   "
+},
+{
+  "id": "remark-2",
+  "level": "2",
+  "url": "sec-sets.html#remark-2",
+  "type": "Remark",
+  "number": "1.1.28",
+  "title": "",
+  "body": " In mathematics, the word or is inclusive . This means the condition or allows for the possibility that  and  .  "
+},
+{
+  "id": "remark-3",
+  "level": "2",
+  "url": "sec-sets.html#remark-3",
+  "type": "Remark",
+  "number": "1.1.29",
+  "title": "",
+  "body": " The union is the smallest set that contains both and as subsets.  "
+},
+{
+  "id": "example-8",
+  "level": "2",
+  "url": "sec-sets.html#example-8",
+  "type": "Example",
+  "number": "1.1.30",
+  "title": "",
+  "body": " The union of the two intervals and is the set             The intervals , , and .   "
+},
+{
   "id": "sec-cartesian_coordinates",
   "level": "1",
   "url": "sec-cartesian_coordinates.html",
   "type": "Section",
-  "number": "1.1",
+  "number": "1.2",
   "title": "Cartesian Coordinates",
   "body": " Cartesian Coordinates           In mathematics, we are interested in studying how two quantities change together. We will often find it useful to visualize these relationships. The Cartesian plane is the natural setting for these visualizations.      Points in the Plane   The Cartesian plane   Cartesian Plane  is a grid system used to locate objects using two perpendicular directions. The horizontal direction is usually called the -axis   Cartesian Plane  -axis  and the vertical direction is usually called the -axis .  Cartesian Plane  -axis  The plane is partitioned into four pieces called quadrants , depicted in     The Cartesian Plane      The type of objects we are interested in locating will vary by application. In general, we will refer to these simply as points .  Cartesian Plane  Point  A point is located in the plane by its position relative to the -axis, called the -coordinate ,  Cartesian Plane  Point  -Coordinate  and relative to the -axis, called the -coordinate .  Cartesian Plane  Point  -Coordinate    By convention, we locate a point by first giving the -coordinate, then the -coordinate.   An ordered pair , , is the data of two real numbers.   We encode the position of a point using its -coordinate and -coordinate using an ordered pair with the -coordinate first and the -coordinate second.   The - and -Coordinates of several points in the plane.       Plotting Points in the Plane    Plot points in the plane using Cartesian coordinates,  Identify the quadrant in which a point lies.     In this activity, we will practice plotting some points in the plane.   Plot the following points in the Cartesian plane.              For each of the points that you plotted above, indicate the quadrant that contains the point.    "
 },
@@ -23,7 +266,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates.html#def-cartesian_plane",
   "type": "Definition",
-  "number": "1.1.1",
+  "number": "1.2.1",
   "title": "",
   "body": " The Cartesian plane   Cartesian Plane  is a grid system used to locate objects using two perpendicular directions. The horizontal direction is usually called the -axis   Cartesian Plane  -axis  and the vertical direction is usually called the -axis .  Cartesian Plane  -axis  The plane is partitioned into four pieces called quadrants , depicted in   "
 },
@@ -32,14 +275,14 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates.html#fig-cartesian_plane",
   "type": "Figure",
-  "number": "1.1.2",
+  "number": "1.2.2",
   "title": "",
   "body": " The Cartesian Plane     "
 },
 {
-  "id": "p-4",
+  "id": "p-30",
   "level": "2",
-  "url": "sec-cartesian_coordinates.html#p-4",
+  "url": "sec-cartesian_coordinates.html#p-30",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -50,7 +293,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates.html#def-ordered_pair",
   "type": "Definition",
-  "number": "1.1.3",
+  "number": "1.2.3",
   "title": "",
   "body": " An ordered pair , , is the data of two real numbers.  "
 },
@@ -59,7 +302,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates.html#fig-location_point",
   "type": "Figure",
-  "number": "1.1.4",
+  "number": "1.2.4",
   "title": "",
   "body": " The - and -Coordinates of several points in the plane.     "
 },
@@ -68,7 +311,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates.html#objectives-1",
   "type": "Objectives",
-  "number": "1.1.1",
+  "number": "1.2.1",
   "title": "",
   "body": "  Plot points in the plane using Cartesian coordinates,  Identify the quadrant in which a point lies.   "
 },
@@ -77,7 +320,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates.html#exercise-1",
   "type": "Worksheet Exercise",
-  "number": "1.1.1.1",
+  "number": "1.2.1.1",
   "title": "",
   "body": "Plot the following points in the Cartesian plane.             "
 },
@@ -86,7 +329,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates.html#exercise-2",
   "type": "Worksheet Exercise",
-  "number": "1.1.1.2",
+  "number": "1.2.1.2",
   "title": "",
   "body": "For each of the points that you plotted above, indicate the quadrant that contains the point. "
 },
@@ -95,7 +338,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-cartesian_coordinates-graphing_equations.html",
   "type": "Section",
-  "number": "1.2",
+  "number": "1.3",
   "title": "Graphing Equations",
   "body": " Graphing Equations          When two quantities vary together, the relationship is modeled by an equation in two variables. By convention, mathematicians use the variables and . Often, it is convenient to visualize this relationship using a graph.    Solutions to an Equation   Solution to an Equation  A solution   Equation  Solution  to an equation in the variables and is an ordered pair that make the equation true when  the first coordinate, , is substituted into the equation for , and  the second coordinate, , is substituted into the equation for .      Consider the equation . The ordered pair is a solution to this equation because is a true statement. The ordered pair is not a solution to this equation because is a false statement.    Graph of an Equation  The graph   Equation  Graph  of an equation in the variables and consists of all the points in the plane that are solutions to the equation.   Most equations that we will encounter will have infinitely many solutions. Since we cannot find all of the solutions, we will mostly rely on studying the shape of certain graphs and some specific solutions.   -intercept A of the form is called a -intercept .  Equation  -intercept                        -intercept A of the form is called an -intercept .  Equation  -intercept     The graph of the equation is shown below. The -intercept occurs when and The -intercept occurs when and This tells us, as ordered pairs, the -intercept occurs at and the -intercept occurs at . In general, every point on this line has coordinates of the form , where can be any real number we choose.   The graph of the equation .         Horizontal Lines  The equation where is a constant has solutions of the form , where is allowed to be any real number. The graph of this equation is a horizontal line.    Graph the equation .    The solutions to the equation have the form , where is allowed to be any real number. The graph of this equation forms the -axis in the Cartesian plane.           Graph the equation .    The equation simplifies to . The graph of this equation is a horizontal line units above the -axis.  The graph of .           Vertical Lines  The equation where is a constant has solutions of the form , where is allowed to be any real number. The graph of this equation is a vertical line.    Graph the equation .    The solutions to the equation have the form , where is allowed to be any real number. The graph of this equation forms the -axis in the Cartesian plane.           Graph the equation .    The equation reduces to . The graph of this equation is a vertical line units to the right of the -axis.  The graph of .           Plotting Points on a Graph    Identify points in the plane that are solutions to equations in two variables.     Consider the equation . The graph of this equation is given below. Use the equation and the graph to answer the following questions.      Graph of .    Find the value of such that the point lies on the graph of the equation. Plot this point on the graph above and label it.  Find the value of such that the point lies on the graph of the equation. Plot this point on the graph above and label it.  Is the point on the graph of the equation? Justify your answer using the equation of the graph.  Is the point on the graph of the equation? Justify your answer using the equation of the graph.   "
 },
@@ -104,16 +347,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates-graphing_equations.html#def-solution",
   "type": "Definition",
-  "number": "1.2.1",
+  "number": "1.3.1",
   "title": "Solution to an Equation.",
   "body": " Solution to an Equation  A solution   Equation  Solution  to an equation in the variables and is an ordered pair that make the equation true when  the first coordinate, , is substituted into the equation for , and  the second coordinate, , is substituted into the equation for .    "
 },
 {
-  "id": "example-1",
+  "id": "example-9",
   "level": "2",
-  "url": "sec-cartesian_coordinates-graphing_equations.html#example-1",
+  "url": "sec-cartesian_coordinates-graphing_equations.html#example-9",
   "type": "Example",
-  "number": "1.2.2",
+  "number": "1.3.2",
   "title": "",
   "body": " Consider the equation . The ordered pair is a solution to this equation because is a true statement. The ordered pair is not a solution to this equation because is a false statement.  "
 },
@@ -122,7 +365,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates-graphing_equations.html#def-graph",
   "type": "Definition",
-  "number": "1.2.3",
+  "number": "1.3.3",
   "title": "Graph of an Equation.",
   "body": " Graph of an Equation  The graph   Equation  Graph  of an equation in the variables and consists of all the points in the plane that are solutions to the equation.  "
 },
@@ -131,7 +374,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates-graphing_equations.html#def-y_intercept",
   "type": "Definition",
-  "number": "1.2.4",
+  "number": "1.3.4",
   "title": "<span class=\"process-math\">\\(y\\)<\/span>-intercept.",
   "body": " -intercept A of the form is called a -intercept .  Equation  -intercept   "
 },
@@ -140,52 +383,52 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates-graphing_equations.html#def-x_intercept",
   "type": "Definition",
-  "number": "1.2.5",
+  "number": "1.3.5",
   "title": "<span class=\"process-math\">\\(x\\)<\/span>-intercept.",
   "body": " -intercept A of the form is called an -intercept .  Equation  -intercept   "
 },
 {
-  "id": "example-2",
+  "id": "example-10",
   "level": "2",
-  "url": "sec-cartesian_coordinates-graphing_equations.html#example-2",
+  "url": "sec-cartesian_coordinates-graphing_equations.html#example-10",
   "type": "Example",
-  "number": "1.2.6",
+  "number": "1.3.6",
   "title": "",
   "body": " The graph of the equation is shown below. The -intercept occurs when and The -intercept occurs when and This tells us, as ordered pairs, the -intercept occurs at and the -intercept occurs at . In general, every point on this line has coordinates of the form , where can be any real number we choose.   The graph of the equation .      "
 },
 {
-  "id": "example-3",
+  "id": "example-11",
   "level": "2",
-  "url": "sec-cartesian_coordinates-graphing_equations.html#example-3",
+  "url": "sec-cartesian_coordinates-graphing_equations.html#example-11",
   "type": "Example",
-  "number": "1.2.8",
+  "number": "1.3.8",
   "title": "",
   "body": "  Graph the equation .    The solutions to the equation have the form , where is allowed to be any real number. The graph of this equation forms the -axis in the Cartesian plane.        "
 },
 {
-  "id": "example-4",
+  "id": "example-12",
   "level": "2",
-  "url": "sec-cartesian_coordinates-graphing_equations.html#example-4",
+  "url": "sec-cartesian_coordinates-graphing_equations.html#example-12",
   "type": "Example",
-  "number": "1.2.10",
+  "number": "1.3.10",
   "title": "",
   "body": "  Graph the equation .    The equation simplifies to . The graph of this equation is a horizontal line units above the -axis.  The graph of .        "
 },
 {
-  "id": "example-5",
+  "id": "example-13",
   "level": "2",
-  "url": "sec-cartesian_coordinates-graphing_equations.html#example-5",
+  "url": "sec-cartesian_coordinates-graphing_equations.html#example-13",
   "type": "Example",
-  "number": "1.2.12",
+  "number": "1.3.12",
   "title": "",
   "body": "  Graph the equation .    The solutions to the equation have the form , where is allowed to be any real number. The graph of this equation forms the -axis in the Cartesian plane.        "
 },
 {
-  "id": "example-6",
+  "id": "example-14",
   "level": "2",
-  "url": "sec-cartesian_coordinates-graphing_equations.html#example-6",
+  "url": "sec-cartesian_coordinates-graphing_equations.html#example-14",
   "type": "Example",
-  "number": "1.2.14",
+  "number": "1.3.14",
   "title": "",
   "body": "  Graph the equation .    The equation reduces to . The graph of this equation is a vertical line units to the right of the -axis.  The graph of .        "
 },
@@ -194,16 +437,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates-graphing_equations.html#objectives-2",
   "type": "Objectives",
-  "number": "1.2.4",
+  "number": "1.3.4",
   "title": "",
   "body": "  Identify points in the plane that are solutions to equations in two variables.   "
 },
 {
-  "id": "figure-9",
+  "id": "figure-14",
   "level": "2",
-  "url": "sec-cartesian_coordinates-graphing_equations.html#figure-9",
+  "url": "sec-cartesian_coordinates-graphing_equations.html#figure-14",
   "type": "Figure",
-  "number": "1.2.16",
+  "number": "1.3.16",
   "title": "",
   "body": "    Graph of .  "
 },
@@ -212,7 +455,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates-graphing_equations.html#exercise-3",
   "type": "Worksheet Exercise",
-  "number": "1.2.4.1",
+  "number": "1.3.4.1",
   "title": "",
   "body": "Find the value of such that the point lies on the graph of the equation. Plot this point on the graph above and label it. "
 },
@@ -221,7 +464,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates-graphing_equations.html#exercise-4",
   "type": "Worksheet Exercise",
-  "number": "1.2.4.2",
+  "number": "1.3.4.2",
   "title": "",
   "body": "Find the value of such that the point lies on the graph of the equation. Plot this point on the graph above and label it. "
 },
@@ -230,7 +473,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates-graphing_equations.html#exercise-5",
   "type": "Worksheet Exercise",
-  "number": "1.2.4.3",
+  "number": "1.3.4.3",
   "title": "",
   "body": "Is the point on the graph of the equation? Justify your answer using the equation of the graph. "
 },
@@ -239,7 +482,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates-graphing_equations.html#exercise-6",
   "type": "Worksheet Exercise",
-  "number": "1.2.4.4",
+  "number": "1.3.4.4",
   "title": "",
   "body": "Is the point on the graph of the equation? Justify your answer using the equation of the graph. "
 },
@@ -248,16 +491,16 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-cartesian_coordinates-distance.html",
   "type": "Section",
-  "number": "1.3",
+  "number": "1.4",
   "title": "The Distance Formula",
-  "body": " The Distance Formula          Within the Cartesian plane, we will often want to determine the distance between two points. In this section, we extend the notion of distance between two points on the number line to the Cartesian plane.    The distance   Distance  Number Line  between two numbers and on a number line is given by the formula This number measures the length of the segment of the number line between and , as depicted in .   The distance between points on the number line.       We can pair this with the Pythagorean Theorem to find the distance between points in the plane.   The Pythagorean Theorem   The right triangle in satisfies the equation    Right triangle with sides of length , , and .        Given two points and , we can introduce a third point to create a triangle, as in .   The triangle formed by adding in the point .      From , we can see the length of the horizontal side is the distance between the points and along the -axis. Similarly, the length of the vertical side is the distance between the points and along the -axis. Using , we have If we square these two side lengths, then By the Pythagorean Theorem, the length of the line segment that connects the points and is    The Distance Formula  The distance   Distance  Cartesian Plane  between the points and in the Cartesian plane is given by This number measures the length of the line segment connecting the two points.     Find the distance between the points and .    By the distance between the points and is      Using the Distance Formula    Find the distance between two points in the Cartesian plane.    Use to answer the following questions.   Find the distance between the points and .    Find the perimeter of the triangle in .        "
+  "body": " The Distance Formula          Within the Cartesian plane, we will often want to determine the distance between two points. In this section, we extend the notion of distance between two points on the number line to the Cartesian plane.    The distance   Distance  Number Line  between two numbers and on a number line is given by the formula This number measures the length of the segment of the number line between and , as depicted in .   The distance between points on the number line.       We can pair this with the Pythagorean Theorem to find the distance between points in the plane.   The Pythagorean Theorem   The right triangle in satisfies the equation    Right triangle with sides of length , , and .        Given two points and , we can introduce a third point to create a triangle, as in .   The triangle formed by adding in the point .      From , we can see the length of the horizontal side is the distance between the points and along the -axis. Similarly, the length of the vertical side is the distance between the points and along the -axis. Using , we have If we square these two side lengths, then By the Pythagorean Theorem, the length of the line segment that connects the points and is    The Distance Formula  The distance   Distance  Cartesian Plane  between the points and in the Cartesian plane is given by This number measures the length of the line segment connecting the two points.     Find the distance between the points and .    By the distance between the points and is      Using the Distance Formula    Find the distance between two points in the Cartesian plane.     Use to answer the following questions.    Find the distance between the points and .    Find the perimeter of the triangle in .        "
 },
 {
   "id": "def-1_distance",
   "level": "2",
   "url": "sec-cartesian_coordinates-distance.html#def-1_distance",
   "type": "Definition",
-  "number": "1.3.1",
+  "number": "1.4.1",
   "title": "",
   "body": " The distance   Distance  Number Line  between two numbers and on a number line is given by the formula This number measures the length of the segment of the number line between and , as depicted in .   The distance between points on the number line.      "
 },
@@ -266,7 +509,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates-distance.html#thm-pythagorean",
   "type": "Theorem",
-  "number": "1.3.3",
+  "number": "1.4.3",
   "title": "The Pythagorean Theorem.",
   "body": " The Pythagorean Theorem   The right triangle in satisfies the equation    Right triangle with sides of length , , and .       "
 },
@@ -275,7 +518,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates-distance.html#fig-2_distance",
   "type": "Figure",
-  "number": "1.3.5",
+  "number": "1.4.5",
   "title": "",
   "body": " The triangle formed by adding in the point .     "
 },
@@ -284,16 +527,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates-distance.html#def-2_distance",
   "type": "Definition",
-  "number": "1.3.6",
+  "number": "1.4.6",
   "title": "The Distance Formula.",
   "body": " The Distance Formula  The distance   Distance  Cartesian Plane  between the points and in the Cartesian plane is given by This number measures the length of the line segment connecting the two points.  "
 },
 {
-  "id": "example-7",
+  "id": "example-15",
   "level": "2",
-  "url": "sec-cartesian_coordinates-distance.html#example-7",
+  "url": "sec-cartesian_coordinates-distance.html#example-15",
   "type": "Example",
-  "number": "1.3.7",
+  "number": "1.4.7",
   "title": "",
   "body": "  Find the distance between the points and .    By the distance between the points and is    "
 },
@@ -302,7 +545,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates-distance.html#objectives-3",
   "type": "Objectives",
-  "number": "1.3",
+  "number": "1.4",
   "title": "",
   "body": "  Find the distance between two points in the Cartesian plane.   "
 },
@@ -311,7 +554,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates-distance.html#exercise-7",
   "type": "Worksheet Exercise",
-  "number": "1.3.1",
+  "number": "1.4.1",
   "title": "",
   "body": "Find the distance between the points and . "
 },
@@ -320,7 +563,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates-distance.html#exercise-8",
   "type": "Worksheet Exercise",
-  "number": "1.3.2",
+  "number": "1.4.2",
   "title": "",
   "body": "Find the perimeter of the triangle in .     "
 },
@@ -329,7 +572,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-cartesian_coordinates-midpoint.html",
   "type": "Section",
-  "number": "1.4",
+  "number": "1.5",
   "title": "The Midpoint Formula",
   "body": " The Midpoint Formula          Within the Cartesian plane, we will often want to determine the midpoint between two points. In this section, we extend the notion of midpoint between two points on the number line to the Cartesian plane.    The midpoint   Midpoint  Number Line  between two numbers and on the number line is given by the formula as depicted in .         The midpoint is so named because it is halfway between the numbers and . We can check this using : the distance from to the midpoint is and the distance from the midpoint to is    Similar to the distance formula, we can find the midpoint of a line segment between the points and in the Cartesian plane using a triangle. We use to find the midpoint of the vertical and horizontal sides of the triangle, and use those as the coordinates for the midpoint as depicted in .   The triangle formed by adding in the point .       The Midpoint Formula   The midpoint   Midpoint  Cartesian Plane  between and in the Cartesian plane is the point       Use to find the midpoint between and     The -coordinate of the midpoint is and the -coordinate of the midpoint is Therefore the midpoint is      Just as with the midpoint on the real line, the midpoint is halfway between the points and . The easiest way to see this is true is to make two smaller triangles inside the bigger triangle, as depicted in .   The triangle formed by adding in the point .      The two shaded triangles have the same side lengths. The horizontal side has length and the vertical side has length Using , the third side of each triangle has length which is exactly half the distance between the points and .    Using the Midpoint Formula    Find the midpoint between two points in the Cartesian plane.     Use the to find the midpoint for each pair of points in the Cartesian plane.   and .   and .    "
 },
@@ -338,16 +581,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates-midpoint.html#def-1_midpoint",
   "type": "Definition",
-  "number": "1.4.1",
+  "number": "1.5.1",
   "title": "",
   "body": " The midpoint   Midpoint  Number Line  between two numbers and on the number line is given by the formula as depicted in .       "
 },
 {
-  "id": "remark-1",
+  "id": "remark-4",
   "level": "2",
-  "url": "sec-cartesian_coordinates-midpoint.html#remark-1",
+  "url": "sec-cartesian_coordinates-midpoint.html#remark-4",
   "type": "Remark",
-  "number": "1.4.3",
+  "number": "1.5.3",
   "title": "",
   "body": " The midpoint is so named because it is halfway between the numbers and . We can check this using : the distance from to the midpoint is and the distance from the midpoint to is   "
 },
@@ -356,7 +599,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates-midpoint.html#fig-2_midpoint",
   "type": "Figure",
-  "number": "1.4.4",
+  "number": "1.5.4",
   "title": "",
   "body": " The triangle formed by adding in the point .     "
 },
@@ -365,25 +608,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates-midpoint.html#def-2_midpoint",
   "type": "Definition",
-  "number": "1.4.5",
+  "number": "1.5.5",
   "title": "The Midpoint Formula.",
   "body": " The Midpoint Formula   The midpoint   Midpoint  Cartesian Plane  between and in the Cartesian plane is the point    "
 },
 {
-  "id": "example-8",
+  "id": "example-16",
   "level": "2",
-  "url": "sec-cartesian_coordinates-midpoint.html#example-8",
+  "url": "sec-cartesian_coordinates-midpoint.html#example-16",
   "type": "Example",
-  "number": "1.4.6",
+  "number": "1.5.6",
   "title": "",
   "body": "  Use to find the midpoint between and     The -coordinate of the midpoint is and the -coordinate of the midpoint is Therefore the midpoint is    "
 },
 {
-  "id": "remark-2",
+  "id": "remark-5",
   "level": "2",
-  "url": "sec-cartesian_coordinates-midpoint.html#remark-2",
+  "url": "sec-cartesian_coordinates-midpoint.html#remark-5",
   "type": "Remark",
-  "number": "1.4.7",
+  "number": "1.5.7",
   "title": "",
   "body": " Just as with the midpoint on the real line, the midpoint is halfway between the points and . The easiest way to see this is true is to make two smaller triangles inside the bigger triangle, as depicted in .   The triangle formed by adding in the point .      The two shaded triangles have the same side lengths. The horizontal side has length and the vertical side has length Using , the third side of each triangle has length which is exactly half the distance between the points and .  "
 },
@@ -392,7 +635,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates-midpoint.html#objectives-4",
   "type": "Objectives",
-  "number": "1.4",
+  "number": "1.5",
   "title": "",
   "body": "  Find the midpoint between two points in the Cartesian plane.   "
 },
@@ -401,7 +644,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates-midpoint.html#exercise-9",
   "type": "Worksheet Exercise",
-  "number": "1.4.1",
+  "number": "1.5.1",
   "title": "",
   "body": " and . "
 },
@@ -410,7 +653,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cartesian_coordinates-midpoint.html#exercise-10",
   "type": "Worksheet Exercise",
-  "number": "1.4.2",
+  "number": "1.5.2",
   "title": "",
   "body": " and . "
 },
@@ -419,34 +662,34 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-circles.html",
   "type": "Section",
-  "number": "1.5",
+  "number": "1.6",
   "title": "Circles",
   "body": " Circles                In this section, we study circles in the Cartesian plane.   The circle   Circle  with radius centered at consists of all points in the Cartesian plane units away from as depicted in .   The circle of radius centered at .       To find the equation of the circle with radius and center we use . A point is on this circle if the distance between and is exactly : To make this simpler, we square each side of the equation.   The Standard Form of a Circle  The standard form of a circle   Equation  Circle  Standard Form  with radius and center is     A diameter   Circle  Diameter  of a circle is a line that connects two points on the circle through the center. The length of a diameter of a circle of radius is , and the midpoint of the diameter is the center of the circle.   A diameter of the circle of radius centered at .                                                     Working with Circles       Use the standard form of a circle to identify the center and radius.  Use the standard form of a circle to produce a graph.     Write down the equation of the circle of radius centered at .  Find the center and radius of the circle Sketch a graph of the equation.  Find the radius of the circle with center that passes through the point . Write the equation of this circle in standard form. Sketch a graph of the circle.        The endpoints of a diameter of a circle are and as in . Write the equation for this circle in standard form.          "
 },
 {
-  "id": "definition-11",
+  "id": "definition-26",
   "level": "2",
-  "url": "sec-circles.html#definition-11",
+  "url": "sec-circles.html#definition-26",
   "type": "Definition",
-  "number": "1.5.1",
+  "number": "1.6.1",
   "title": "",
   "body": " The circle   Circle  with radius centered at consists of all points in the Cartesian plane units away from as depicted in .   The circle of radius centered at .      "
 },
 {
-  "id": "definition-12",
+  "id": "definition-27",
   "level": "2",
-  "url": "sec-circles.html#definition-12",
+  "url": "sec-circles.html#definition-27",
   "type": "Definition",
-  "number": "1.5.3",
+  "number": "1.6.3",
   "title": "The Standard Form of a Circle.",
   "body": " The Standard Form of a Circle  The standard form of a circle   Equation  Circle  Standard Form  with radius and center is   "
 },
 {
-  "id": "definition-13",
+  "id": "definition-28",
   "level": "2",
-  "url": "sec-circles.html#definition-13",
+  "url": "sec-circles.html#definition-28",
   "type": "Definition",
-  "number": "1.5.4",
+  "number": "1.6.4",
   "title": "",
   "body": " A diameter   Circle  Diameter  of a circle is a line that connects two points on the circle through the center. The length of a diameter of a circle of radius is , and the midpoint of the diameter is the center of the circle.   A diameter of the circle of radius centered at .      "
 },
@@ -455,7 +698,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-circles.html#objectives-5",
   "type": "Objectives",
-  "number": "1.5.1",
+  "number": "1.6.1",
   "title": "",
   "body": "     Use the standard form of a circle to identify the center and radius.  Use the standard form of a circle to produce a graph.   "
 },
@@ -464,7 +707,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-circles.html#exercise-11",
   "type": "Worksheet Exercise",
-  "number": "1.5.1.1",
+  "number": "1.6.1.1",
   "title": "",
   "body": "Write down the equation of the circle of radius centered at . "
 },
@@ -473,7 +716,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-circles.html#exercise-12",
   "type": "Worksheet Exercise",
-  "number": "1.5.1.2",
+  "number": "1.6.1.2",
   "title": "",
   "body": "Find the center and radius of the circle Sketch a graph of the equation. "
 },
@@ -482,7 +725,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-circles.html#exercise-13",
   "type": "Worksheet Exercise",
-  "number": "1.5.1.3",
+  "number": "1.6.1.3",
   "title": "",
   "body": "Find the radius of the circle with center that passes through the point . Write the equation of this circle in standard form. Sketch a graph of the circle. "
 },
@@ -491,295 +734,79 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-circles.html#exercise-14",
   "type": "Worksheet Exercise",
-  "number": "1.5.1.4",
+  "number": "1.6.1.4",
   "title": "",
   "body": "    The endpoints of a diameter of a circle are and as in . Write the equation for this circle in standard form. "
-},
-{
-  "id": "sec-sets",
-  "level": "1",
-  "url": "sec-sets.html",
-  "type": "Section",
-  "number": "2.1",
-  "title": "Sets",
-  "body": " Sets             In this section, we study the basic theory of sets.    A set   Set  is a collection of objects called elements   Set  Element  or members   Set  Member  of the set. We specify that an object is an element of the set by writing      Membership operator  and say \" is an element (or member) of \"    Roster Notation   Roster notation   Set  Roster Notation  specifies the elements of a set as a comma separated list surrounded by curly braces.    The set has as its elements the numbers , , , and .    Set-Builder Notation   Set-builder notation   Set  Set-Builder Notation  specifies the members of a set using a variable and condition for membership in the set.    The set, , of all positive, even integers can be written in set-builder notation as This is read as \" is the set of all such that is a positive, even integer.\"    Special Sets   We have special names for some commonly used sets.    The Empty Set  The empty set   Set  Empty  is the set with no elements, .     The empty set      The Natural Numbers The set of natural numbers   Set  Natural Numbers  is the set with elements all positive integers,      The set of natural numbers     The Integers The set of integers   Set  Integers  is the set with elements all integers,      The set of integers     The Rational Numbers The set of rational numbers   Set  Rational Numbers  is the set with elements all rational numbers,      The set of rational numbers     The Real Numbers The set of real numbers   Set  Real Numbers  is the set with elements all real numbers, .     The set of real numbers.      Intervals   We will mostly be concerned with subsets of the real numbers known as intervals .    Open Interval  Let and be real numbers and assume that . An open interval   Set  Interval  Open  is a set that takes one of the following forms.             The open intervals , , and .     Closed Interval  Let and be real numbers and assume that . A closed interval   Set  Interval  Closed  is a set that takes one of the following forms             The closed intervals , , and .     Half-Open Interval  Let and be real numbers and assume that . A half-open interval   Set  Interval  Half-Open  from to takes one of the following forms.          The half-open intervals and .      Subsets and Equality   Let and be sets. We say the sets and are equal   Set  Equal  and write      Equality of sets  if and have the exact same elements.    The sets and are equal.    The sets and are not equal.    Subset  Let and be sets. We say that is a subset   Set  Subset  of and write      Subset operator  if every element of is also an element of .    The set is a subset of the set .    The set is not a subset of .     Basic Set Operations   There are two common operations that we will frequently need to perform on sets.    Intersection  Let and be sets. The intersection   Set  Intersection  of and is the set     The intersection is the largest set that is a subset of and a subset of .    The intersection of the intervals and is the set             The intervals , , and .     Union  Let and be sets. The union   Set  Union  of and is the set     In mathematics, the word or is inclusive . This means the condition or allows for the possibility that  and  .    The union is the smallest set that contains both and as subsets.    The union of the two intervals and is the set             The intervals , , and .     "
-},
-{
-  "id": "def-set",
-  "level": "2",
-  "url": "sec-sets.html#def-set",
-  "type": "Definition",
-  "number": "2.1.1",
-  "title": "",
-  "body": " A set   Set  is a collection of objects called elements   Set  Element  or members   Set  Member  of the set. We specify that an object is an element of the set by writing      Membership operator  and say \" is an element (or member) of \"  "
-},
-{
-  "id": "def-roster_notation",
-  "level": "2",
-  "url": "sec-sets.html#def-roster_notation",
-  "type": "Definition",
-  "number": "2.1.2",
-  "title": "Roster Notation.",
-  "body": " Roster Notation   Roster notation   Set  Roster Notation  specifies the elements of a set as a comma separated list surrounded by curly braces.  "
-},
-{
-  "id": "example-9",
-  "level": "2",
-  "url": "sec-sets.html#example-9",
-  "type": "Example",
-  "number": "2.1.3",
-  "title": "",
-  "body": " The set has as its elements the numbers , , , and .  "
-},
-{
-  "id": "def-set_builder_notation",
-  "level": "2",
-  "url": "sec-sets.html#def-set_builder_notation",
-  "type": "Definition",
-  "number": "2.1.4",
-  "title": "Set-Builder Notation.",
-  "body": " Set-Builder Notation   Set-builder notation   Set  Set-Builder Notation  specifies the members of a set using a variable and condition for membership in the set.  "
-},
-{
-  "id": "example-10",
-  "level": "2",
-  "url": "sec-sets.html#example-10",
-  "type": "Example",
-  "number": "2.1.5",
-  "title": "",
-  "body": " The set, , of all positive, even integers can be written in set-builder notation as This is read as \" is the set of all such that is a positive, even integer.\"  "
-},
-{
-  "id": "def-empty_set",
-  "level": "2",
-  "url": "sec-sets.html#def-empty_set",
-  "type": "Definition",
-  "number": "2.1.6",
-  "title": "The Empty Set.",
-  "body": " The Empty Set  The empty set   Set  Empty  is the set with no elements, .     The empty set    "
-},
-{
-  "id": "def-naturals",
-  "level": "2",
-  "url": "sec-sets.html#def-naturals",
-  "type": "Definition",
-  "number": "2.1.7",
-  "title": "The Natural Numbers.",
-  "body": " The Natural Numbers The set of natural numbers   Set  Natural Numbers  is the set with elements all positive integers,      The set of natural numbers   "
-},
-{
-  "id": "def-integers",
-  "level": "2",
-  "url": "sec-sets.html#def-integers",
-  "type": "Definition",
-  "number": "2.1.8",
-  "title": "The Integers.",
-  "body": " The Integers The set of integers   Set  Integers  is the set with elements all integers,      The set of integers   "
-},
-{
-  "id": "def-rationals",
-  "level": "2",
-  "url": "sec-sets.html#def-rationals",
-  "type": "Definition",
-  "number": "2.1.9",
-  "title": "The Rational Numbers.",
-  "body": " The Rational Numbers The set of rational numbers   Set  Rational Numbers  is the set with elements all rational numbers,      The set of rational numbers   "
-},
-{
-  "id": "def-reals",
-  "level": "2",
-  "url": "sec-sets.html#def-reals",
-  "type": "Definition",
-  "number": "2.1.10",
-  "title": "The Real Numbers.",
-  "body": " The Real Numbers The set of real numbers   Set  Real Numbers  is the set with elements all real numbers, .     The set of real numbers.   "
-},
-{
-  "id": "def-interval-open",
-  "level": "2",
-  "url": "sec-sets.html#def-interval-open",
-  "type": "Definition",
-  "number": "2.1.11",
-  "title": "Open Interval.",
-  "body": " Open Interval  Let and be real numbers and assume that . An open interval   Set  Interval  Open  is a set that takes one of the following forms.             The open intervals , , and .   "
-},
-{
-  "id": "def-interval-closed",
-  "level": "2",
-  "url": "sec-sets.html#def-interval-closed",
-  "type": "Definition",
-  "number": "2.1.13",
-  "title": "Closed Interval.",
-  "body": " Closed Interval  Let and be real numbers and assume that . A closed interval   Set  Interval  Closed  is a set that takes one of the following forms             The closed intervals , , and .   "
-},
-{
-  "id": "def-interval-half-open",
-  "level": "2",
-  "url": "sec-sets.html#def-interval-half-open",
-  "type": "Definition",
-  "number": "2.1.15",
-  "title": "Half-Open Interval.",
-  "body": " Half-Open Interval  Let and be real numbers and assume that . A half-open interval   Set  Interval  Half-Open  from to takes one of the following forms.          The half-open intervals and .   "
-},
-{
-  "id": "def-set_equality",
-  "level": "2",
-  "url": "sec-sets.html#def-set_equality",
-  "type": "Definition",
-  "number": "2.1.17",
-  "title": "",
-  "body": " Let and be sets. We say the sets and are equal   Set  Equal  and write      Equality of sets  if and have the exact same elements.  "
-},
-{
-  "id": "example-11",
-  "level": "2",
-  "url": "sec-sets.html#example-11",
-  "type": "Example",
-  "number": "2.1.18",
-  "title": "",
-  "body": " The sets and are equal.  "
-},
-{
-  "id": "example-12",
-  "level": "2",
-  "url": "sec-sets.html#example-12",
-  "type": "Example",
-  "number": "2.1.19",
-  "title": "",
-  "body": " The sets and are not equal.  "
-},
-{
-  "id": "def-subset",
-  "level": "2",
-  "url": "sec-sets.html#def-subset",
-  "type": "Definition",
-  "number": "2.1.20",
-  "title": "Subset.",
-  "body": " Subset  Let and be sets. We say that is a subset   Set  Subset  of and write      Subset operator  if every element of is also an element of .  "
-},
-{
-  "id": "example-13",
-  "level": "2",
-  "url": "sec-sets.html#example-13",
-  "type": "Example",
-  "number": "2.1.21",
-  "title": "",
-  "body": " The set is a subset of the set .  "
-},
-{
-  "id": "example-14",
-  "level": "2",
-  "url": "sec-sets.html#example-14",
-  "type": "Example",
-  "number": "2.1.22",
-  "title": "",
-  "body": " The set is not a subset of .  "
-},
-{
-  "id": "def-intersection",
-  "level": "2",
-  "url": "sec-sets.html#def-intersection",
-  "type": "Definition",
-  "number": "2.1.23",
-  "title": "Intersection.",
-  "body": " Intersection  Let and be sets. The intersection   Set  Intersection  of and is the set   "
-},
-{
-  "id": "remark-3",
-  "level": "2",
-  "url": "sec-sets.html#remark-3",
-  "type": "Remark",
-  "number": "2.1.24",
-  "title": "",
-  "body": " The intersection is the largest set that is a subset of and a subset of .  "
-},
-{
-  "id": "example-15",
-  "level": "2",
-  "url": "sec-sets.html#example-15",
-  "type": "Example",
-  "number": "2.1.25",
-  "title": "",
-  "body": " The intersection of the intervals and is the set             The intervals , , and .   "
-},
-{
-  "id": "def-union",
-  "level": "2",
-  "url": "sec-sets.html#def-union",
-  "type": "Definition",
-  "number": "2.1.27",
-  "title": "Union.",
-  "body": " Union  Let and be sets. The union   Set  Union  of and is the set   "
-},
-{
-  "id": "remark-4",
-  "level": "2",
-  "url": "sec-sets.html#remark-4",
-  "type": "Remark",
-  "number": "2.1.28",
-  "title": "",
-  "body": " In mathematics, the word or is inclusive . This means the condition or allows for the possibility that  and  .  "
-},
-{
-  "id": "remark-5",
-  "level": "2",
-  "url": "sec-sets.html#remark-5",
-  "type": "Remark",
-  "number": "2.1.29",
-  "title": "",
-  "body": " The union is the smallest set that contains both and as subsets.  "
-},
-{
-  "id": "example-16",
-  "level": "2",
-  "url": "sec-sets.html#example-16",
-  "type": "Example",
-  "number": "2.1.30",
-  "title": "",
-  "body": " The union of the two intervals and is the set             The intervals , , and .   "
 },
 {
   "id": "sec-relations",
   "level": "1",
   "url": "sec-relations.html",
   "type": "Section",
-  "number": "2.2",
+  "number": "2.1",
   "title": "Functions",
-  "body": " Functions                In this section, we study the basics of functions.    Function  A function ,  Function   ,     Function with domain and codomain  is a rule that assigns to each element a unique element .     Output of function    The set is the domain   Function  Domain  of , the set is the codomain   Function  Codomain  of . The range   Function  Range  of is the set of all output values    Range of     By convention, we will write to indicate that is a function of . We call the independent variable   Function  Independent Variable  and the dependent variable   Function  Dependent Variable  because every choice of from the domain of determines a value in the range that depends on that choice. In this case, we say is a function of .     Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , will also be a real number. To find the range, we want to describe the set   We can show this is by showing that for every real number , we can find a number such that . We simply solve this equation for in terms of  For example, if , then this formula tells us this corresponds to the input       Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , is a real number. To find the range, we want to describe the set   Given a real number , we want to determine whether the equation can be solved for .  When , there is exactly one solution: .  When , there are two solutions: and .  When , there are no solutions because the square root of a negative number is not a real number.  This tells us the range of our function is the interval .    Whenever we define a new mathematical object, it is important to understand when two objects are the same . For functions with the same domain and codomain, we measure equality based on the output.   Equality of Functions  Two functions and are equal   Function  Equality  if for every , .  We write      Equality of functions  to indicate that and represent the same function.    The functions defined by and are equal because    The functions and have the same domain and codomain, and    For every real number  and       The functions and defined by and are not equal because    Just like an equation in the variables and , we will often want to visualize the functions we define.   Graph of a Function  Assume . The graph of a function is the set of points    When the function we are considering is defined by an equation, the will coincide with the . While most of the functions we consider will be defined by an equation in the variables and , it is not the case that all equations in and define as a function of .   The Vertical Line Test   An equation in the variables and is defines as a function of if and only if every vertical line intersects the graph of the relation in at most one point.     Consider the function defined by the rule . We can verify this is a function in one of two ways. One way is to interpret the algebraically.  From the , the graph of the vertical line is the set and the graph of is the set of To say these graphs intersect is to say there is a point in the intersection of these two sets. The condition for membership on the graph of determines the value of such a point and the definition of the graph of determines the -coordinate: . This tells us the line intersects the graph of at the single point .  We can more readily see this graphically in .      The graph and .     The equation does not define as a function of .  Recall that for every positive number , there are always two square roots: and . This tells us the ordered pairs and both satisfy the equation For example, the ordered pairs and satisfy Since the definition a requires that each element of the domain corresponds to exactly one element of the codomain, we see this cannot be a function. That is, equation fails the .     The graph of the equation and the line .      Functions    Find the domain and codomain of a function.  Find the range of a function.  Determine whether an equation defines as a function of .      For each of the following functions, find the domain, codomain, and range.            Evaluate the function at the given value.   ; .  ; .  ; .     For each of the graphs, find the domain and range. Use the to determine whether is a function of .         "
+  "body": " Functions                In nearly every branch of mathematics, functions are the primary objects of study. Functions provide a robust language for describing relationships between sets, and serve as the basic building blocks for modern development of algebra, geometry, trigonometry, calculus, and beyond. We develop techniques for analyzing and visualizing functions that are foundational in subsequent mathematics courses and also applicable outside of mathematics in science, technology, and engineering to model the behavior of systems.    Function  Assume and are sets. A function from to ,  Function  written ,     Function from to  is a rule that assigns to each element a unique element .     Value of the function at      The set is the domain   Function  Domain  of . The domain of is the set of all allowable input values to the function .    The set is the codomain   Function  Codomain  of . The codomain of is the set that contains all possible output values of .    The range   Function  Range  of is the set of all possible output values    Range of        Algebraic Functions  While functions are defined for arbitrary sets, we will restrict our attention to functions of the form , where is some subset of . By convention, we will use the variable to stand for some input value from the domain of .  It is common to refer to  read \" of \" as the value of at or the image of under . We will normally use the variable to stand for some output value in the range of . This relationship is made explicit by writing or saying that is a function of . Generally, the value of is determined by a choice of a specific . We call the independent variable   Function  Independent Variable  and the dependent variable .  Function  Dependent Variable    When we start from two sets and and write down a rule that assigns to each an element , we are defining a function explicitly .  Function  Explicit  Most interesting subsets of the real numbers are simply too large to provide an explicit definition. To get around this problem, we often rely on algebraic expression involving a variable, , to define our functions. These expressions are built using the operations of addition, subtraction, multiplication, division, and roots, and are called algebraic functions .  Function  Algebraic    When we write down an equation like we are defining a function implicitly .  Function  Implicit  We have not explicitly stated the domain of the function, so this function has an implied domain ,  Function  Domain  Implied  that consists of all real numbers for which the expression makes sense.    Find the implied domain and the range of the implicit function .    Since the ratio makes sense for all numbers except , the implied domain is the set   The range of this function is the set of real numbers that can be written as for some non-zero real number . If is any non-zero real number, then we can write Therefore the range of the implicit function is the set of all non-zero real numbers       Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , will also be a real number. To find the range, we want to describe the set   We can show this is by showing that for every real number , we can find a number such that . We simply solve this equation for in terms of  For example, if , then this formula tells us this corresponds to the input       Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , is a real number. To find the range, we want to describe the set   Given a real number , we want to determine whether the equation can be solved for .  When , there is exactly one solution: .  When , there are two solutions: and .  When , there are no solutions because the square root of a negative number is not a real number.  This tells us the range of our function is the interval .      Comparing Functions  Whenever we define a new mathematical object, it is important to understand when two objects are the same . For functions with the same domain and codomain, we measure equality based on the output.   Equality of Functions  Two functions and are equal   Function  Equality  if for every , .  We write      Equality of functions  to indicate that and represent the same function.     The functions defined by and are equal.    The functions and have the same domain and codomain, so it makes sense to compare these functions. For every real number  and       The functions defined by and are not equal.    It suffices to find any element of the domain where the function values are not the same. The value of at is but the value of at is Since these are not the same, we conclude .      Graphing Functions  The ability to visualize a function often provides an immense amount of insight into how the function behaves. The graph of a function is defined in a manner similar to the graph of an equation.   Graph of a Function  Assume . The graph of a function is the set of points    When the function is implicitly defined by an equation in the variables and , the will coincide with the . While most of the functions we consider will be defined by an equation in the variables and , it is not the case that all equations in and define as a function of .   The Vertical Line Test   An equation in the variables and is defines as a function of if and only if every vertical line intersects the graph of the relation in at most one point.      Consider the function defined by the rule .    Verify that is a function algebraically.   We interpret the algebraically as follows. From the , the graph of the vertical line is the set and the graph of is the set   To say these graphs intersect is to say there is a point in the intersection of these two sets. The condition for membership on the graph of determines the value of such a point and the definition of the graph of determines the -coordinate: . This tells us the line intersects the graph of at the single point .    Verify that is a function visually.   It is simpler to see that if we draw any veritcal line to the right of the -axis, then there is exactly one point of intersection with the graph of .      The graph and .       The equation does not define as a function of .    Recall that for every positive number , there are always two square roots: and . This tells us the ordered pairs and both satisfy the equation For example, the ordered pairs and satisfy Since the definition a requires that each element of the domain corresponds to exactly one element of the codomain, we see this cannot be a function. That is, equation fails the .     The graph of the equation and the line .        Functions    Find the domain and codomain of a function.  Find the range of a function.  Determine whether an equation defines as a function of .      For each of the following functions, find the domain, codomain, and range.            Evaluate the function at the given value.   ; .  ; .  ; .     For each of the graphs, find the domain and range. Use the to determine whether is a function of .         "
 },
 {
   "id": "def-function",
   "level": "2",
   "url": "sec-relations.html#def-function",
   "type": "Definition",
-  "number": "2.2.1",
+  "number": "2.1.1",
   "title": "Function.",
-  "body": " Function  A function ,  Function   ,     Function with domain and codomain  is a rule that assigns to each element a unique element .     Output of function    The set is the domain   Function  Domain  of , the set is the codomain   Function  Codomain  of . The range   Function  Range  of is the set of all output values    Range of    "
+  "body": " Function  Assume and are sets. A function from to ,  Function  written ,     Function from to  is a rule that assigns to each element a unique element .     Value of the function at      The set is the domain   Function  Domain  of . The domain of is the set of all allowable input values to the function .    The set is the codomain   Function  Codomain  of . The codomain of is the set that contains all possible output values of .    The range   Function  Range  of is the set of all possible output values    Range of      "
 },
 {
-  "id": "p-99",
+  "id": "p-103",
   "level": "2",
-  "url": "sec-relations.html#p-99",
+  "url": "sec-relations.html#p-103",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "independent variable dependent variable is a function of . "
+  "body": "value of at image of under independent variable dependent variable "
+},
+{
+  "id": "p-104",
+  "level": "2",
+  "url": "sec-relations.html#p-104",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "explicitly algebraic functions "
+},
+{
+  "id": "p-105",
+  "level": "2",
+  "url": "sec-relations.html#p-105",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "implicitly implied domain "
 },
 {
   "id": "example-17",
   "level": "2",
   "url": "sec-relations.html#example-17",
   "type": "Example",
-  "number": "2.2.2",
+  "number": "2.1.2",
   "title": "",
-  "body": "  Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , will also be a real number. To find the range, we want to describe the set   We can show this is by showing that for every real number , we can find a number such that . We simply solve this equation for in terms of  For example, if , then this formula tells us this corresponds to the input    "
+  "body": "  Find the implied domain and the range of the implicit function .    Since the ratio makes sense for all numbers except , the implied domain is the set   The range of this function is the set of real numbers that can be written as for some non-zero real number . If is any non-zero real number, then we can write Therefore the range of the implicit function is the set of all non-zero real numbers    "
 },
 {
   "id": "example-18",
   "level": "2",
   "url": "sec-relations.html#example-18",
   "type": "Example",
-  "number": "2.2.3",
+  "number": "2.1.3",
+  "title": "",
+  "body": "  Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , will also be a real number. To find the range, we want to describe the set   We can show this is by showing that for every real number , we can find a number such that . We simply solve this equation for in terms of  For example, if , then this formula tells us this corresponds to the input    "
+},
+{
+  "id": "example-19",
+  "level": "2",
+  "url": "sec-relations.html#example-19",
+  "type": "Example",
+  "number": "2.1.4",
   "title": "",
   "body": "  Find the domain and range of the function .    The domain of is because for any real number , is always well-defined. The codomain of this function is also because for any real number , is a real number. To find the range, we want to describe the set   Given a real number , we want to determine whether the equation can be solved for .  When , there is exactly one solution: .  When , there are two solutions: and .  When , there are no solutions because the square root of a negative number is not a real number.  This tells us the range of our function is the interval .   "
 },
@@ -788,34 +815,34 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-relations.html#definition-30",
   "type": "Definition",
-  "number": "2.2.4",
+  "number": "2.1.5",
   "title": "Equality of Functions.",
   "body": " Equality of Functions  Two functions and are equal   Function  Equality  if for every , .  We write      Equality of functions  to indicate that and represent the same function.  "
-},
-{
-  "id": "example-19",
-  "level": "2",
-  "url": "sec-relations.html#example-19",
-  "type": "Example",
-  "number": "2.2.5",
-  "title": "",
-  "body": " The functions defined by and are equal because    The functions and have the same domain and codomain, and    For every real number  and     "
 },
 {
   "id": "example-20",
   "level": "2",
   "url": "sec-relations.html#example-20",
   "type": "Example",
-  "number": "2.2.6",
+  "number": "2.1.6",
   "title": "",
-  "body": " The functions and defined by and are not equal because   "
+  "body": "  The functions defined by and are equal.    The functions and have the same domain and codomain, so it makes sense to compare these functions. For every real number  and    "
+},
+{
+  "id": "example-21",
+  "level": "2",
+  "url": "sec-relations.html#example-21",
+  "type": "Example",
+  "number": "2.1.7",
+  "title": "",
+  "body": "  The functions defined by and are not equal.    It suffices to find any element of the domain where the function values are not the same. The value of at is but the value of at is Since these are not the same, we conclude .   "
 },
 {
   "id": "def-graph_function",
   "level": "2",
   "url": "sec-relations.html#def-graph_function",
   "type": "Definition",
-  "number": "2.2.7",
+  "number": "2.1.8",
   "title": "Graph of a Function.",
   "body": " Graph of a Function  Assume . The graph of a function is the set of points   "
 },
@@ -824,34 +851,34 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-relations.html#thm-vertical_line_test",
   "type": "Theorem",
-  "number": "2.2.8",
+  "number": "2.1.9",
   "title": "The Vertical Line Test.",
   "body": " The Vertical Line Test   An equation in the variables and is defines as a function of if and only if every vertical line intersects the graph of the relation in at most one point.   "
-},
-{
-  "id": "example-21",
-  "level": "2",
-  "url": "sec-relations.html#example-21",
-  "type": "Example",
-  "number": "2.2.9",
-  "title": "",
-  "body": " Consider the function defined by the rule . We can verify this is a function in one of two ways. One way is to interpret the algebraically.  From the , the graph of the vertical line is the set and the graph of is the set of To say these graphs intersect is to say there is a point in the intersection of these two sets. The condition for membership on the graph of determines the value of such a point and the definition of the graph of determines the -coordinate: . This tells us the line intersects the graph of at the single point .  We can more readily see this graphically in .      The graph and .   "
 },
 {
   "id": "example-22",
   "level": "2",
   "url": "sec-relations.html#example-22",
   "type": "Example",
-  "number": "2.2.11",
+  "number": "2.1.10",
   "title": "",
-  "body": " The equation does not define as a function of .  Recall that for every positive number , there are always two square roots: and . This tells us the ordered pairs and both satisfy the equation For example, the ordered pairs and satisfy Since the definition a requires that each element of the domain corresponds to exactly one element of the codomain, we see this cannot be a function. That is, equation fails the .     The graph of the equation and the line .    "
+  "body": "  Consider the function defined by the rule .    Verify that is a function algebraically.   We interpret the algebraically as follows. From the , the graph of the vertical line is the set and the graph of is the set   To say these graphs intersect is to say there is a point in the intersection of these two sets. The condition for membership on the graph of determines the value of such a point and the definition of the graph of determines the -coordinate: . This tells us the line intersects the graph of at the single point .    Verify that is a function visually.   It is simpler to see that if we draw any veritcal line to the right of the -axis, then there is exactly one point of intersection with the graph of .      The graph and .    "
+},
+{
+  "id": "example-23",
+  "level": "2",
+  "url": "sec-relations.html#example-23",
+  "type": "Example",
+  "number": "2.1.12",
+  "title": "",
+  "body": "  The equation does not define as a function of .    Recall that for every positive number , there are always two square roots: and . This tells us the ordered pairs and both satisfy the equation For example, the ordered pairs and satisfy Since the definition a requires that each element of the domain corresponds to exactly one element of the codomain, we see this cannot be a function. That is, equation fails the .     The graph of the equation and the line .     "
 },
 {
   "id": "objectives-6",
   "level": "2",
   "url": "sec-relations.html#objectives-6",
   "type": "Objectives",
-  "number": "2.2",
+  "number": "2.1.4",
   "title": "",
   "body": "  Find the domain and codomain of a function.  Find the range of a function.  Determine whether an equation defines as a function of .   "
 },
@@ -860,7 +887,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-relations.html#exercise-15",
   "type": "Worksheet Exercise",
-  "number": "2.2.1",
+  "number": "2.1.4.1",
   "title": "",
   "body": " For each of the following functions, find the domain, codomain, and range.        "
 },
@@ -869,7 +896,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-relations.html#exercise-16",
   "type": "Worksheet Exercise",
-  "number": "2.2.2",
+  "number": "2.1.4.2",
   "title": "",
   "body": " Evaluate the function at the given value.   ; .  ; .  ; . "
 },
@@ -878,7 +905,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-relations.html#exercise-17",
   "type": "Worksheet Exercise",
-  "number": "2.2.3",
+  "number": "2.1.4.3",
   "title": "",
   "body": " For each of the graphs, find the domain and range. Use the to determine whether is a function of .      "
 },
@@ -887,25 +914,25 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-avg_roc.html",
   "type": "Section",
-  "number": "2.3",
+  "number": "2.2",
   "title": "Average Rate of Change",
-  "body": " Average Rate of Change          The Average Rate of Change  Assume is a function and the domain of contains the interval . The average rate of change   Function  Average Rate of Change  of on the interval is      An object is thrown straight up in the air. The object reaches a maximum height of 1 meter after 1 seconds, and returns to the thrower's hand after 2 seconds. The function models the height of the object in meters as a function of seconds.     The graph of      What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is moving up at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is falling back at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ?   Using , the average rate of change on the interval is We can interpret this as saying the object climbs and falls at the same speed.       Find the average rate of change of a function on an interval.     Find the average rate of change for the given function over the given interval.     ;    ;    ;     "
+  "body": " Average Rate of Change          The Average Rate of Change  Assume is a function and the domain of contains the interval . The average rate of change   Function  Average Rate of Change  of on the interval is      An object is thrown straight up in the air. The object reaches a maximum height of 1 meter after 1 seconds, and returns to the thrower's hand after 2 seconds. The function models the height of the object in meters as a function of seconds.     The graph of      What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is moving up at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is falling back at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ?   Using , the average rate of change on the interval is We can interpret this as saying the object climbs and falls at the same speed.     Working with the Average Rate of Change    Find the average rate of change of a function on an interval.     Find the average rate of change for the given function over the given interval.     ;    ;    ;     "
 },
 {
   "id": "def-average_rate_of_change",
   "level": "2",
   "url": "sec-avg_roc.html#def-average_rate_of_change",
   "type": "Definition",
-  "number": "2.3.1",
+  "number": "2.2.1",
   "title": "The Average Rate of Change.",
   "body": " The Average Rate of Change  Assume is a function and the domain of contains the interval . The average rate of change   Function  Average Rate of Change  of on the interval is   "
 },
 {
-  "id": "example-23",
+  "id": "example-24",
   "level": "2",
-  "url": "sec-avg_roc.html#example-23",
+  "url": "sec-avg_roc.html#example-24",
   "type": "Example",
-  "number": "2.3.2",
+  "number": "2.2.2",
   "title": "",
   "body": "  An object is thrown straight up in the air. The object reaches a maximum height of 1 meter after 1 seconds, and returns to the thrower's hand after 2 seconds. The function models the height of the object in meters as a function of seconds.     The graph of      What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is moving up at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is falling back at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ?   Using , the average rate of change on the interval is We can interpret this as saying the object climbs and falls at the same speed.   "
 },
@@ -914,7 +941,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-avg_roc.html#objectives-7",
   "type": "Objectives",
-  "number": "2.3",
+  "number": "2.2",
   "title": "",
   "body": "  Find the average rate of change of a function on an interval.   "
 },
@@ -923,25 +950,25 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-transformations.html",
   "type": "Section",
-  "number": "2.4",
+  "number": "2.3",
   "title": "Graph Transformations",
-  "body": " Graph Transformations   Graphing arbitrary functions can be a difficult task and the general methods are beyond the scope of basic algebra. However, if we know the graph of a function, , and we can write another function, , in terms of in a specific way, then we can use the graph of to graph using transformations . In this seciton, we discuss three types of transformations: translation, scaling, and reflection.    Translation   Throughout this section, assume that the graph of the function is known.    Vertical Translation   Vertical Translation  Let be a positive number. We say the function is a vertical translation   Graph  Tranformation  Translation  Vertical  of the function if .    The graph of is obtained by shifting the graph of up the -axis by units.    The graph of is obtained by shifting the graph of down the -axis by -units.       Use to graph the functions and .    The graph of is obtained by shifting the graph of up the -axis by units, and the graph of is obtained by shifting the graph of down the -axis by 3 units.           Horizontal Translation   Horizontal Translation  Let be a positive number. We say the function is a horizontal translation   Graph  Tranformation  Translation  Horizontal  of the function if .    The graph of is obtained by shifting the graph of to the right along the -axis by units.    The graph of is obtained by shifting the graph of to the left along the -axis by -units.       Use to graph the functions and .    The graph of is obtained by shifting the graph of to the left along the -axis by units, and the graph of is obtained by shifting the graph of to the right along the -axis by 3 units.            Scaling   Vertical Scaling   Vertical Scaling  Let be a number. We say the function is a vertical scaling   Graph  Tranformation  Scaling  Vertical  of the function if or .    The graph of is obtained by stretching the graph of vertically by a factor of .    The graph of is obtained by compressing the graph of vertically by a factor of .       Use to graph the functions and .    The graph of is obtained by stretching the graph of vertically by a factor of , and the graph of is obtained by compressing the graph the graph of vertically by a factor of .           Reflection   Reflection  We say the function is a reflection   Graph  Tranformation  Reflection  of if either or     The graph of is obtained by reflecting the graph of over the -axis.    The graph of is obtained by reflecting the graph of over the -axis.       Use to graph the functions and .    The graph of is obtained by reflecting the graph of over the -axis, and the graph of is obtained by reflecting the graph of over the -axis.           Horizontal Scaling   Horizontal Scaling  Let be a number. We say the function is a horizontal scaling   Graph  Tranformation  Scaling  Horizontal  of the function if or .    The graph of is obtained by compressing the graph of horizontally by a factor of .    The graph of is obtained by stretching the graph of horizontally by a factor of .       Use to graph the functions and .    The graph of is obtained by compressing the graph of horizontally by a factor of , and the graph of is obtained by stretching the graph of horizontally by a factor of .           Combining Graph Transformations  Most functions are obtained from a basic function using multiple transformations. When graphing a function, the order in which transformations are applied is important.   Graphing Functions using Transformations   Horizontal Translation  Scaling  Reflection  Vertical Translation      Use to graph the function .    We can graph by starting from the basic function and applying the following transformations:  Translate the graph of to the left by 3 to obtain the graph of .  Stretch the graph of vertically by a factor of 2 to obtain the graph of .  Translate the graph of down by 2 units to obtain the graph of .                Use graphs of basic functions and the following operations to graph general functions.    Vertical Translation  Horizontal Translation  Vertical Scaling,  Horizontal Scaling, and  Reflection.     "
+  "body": " Graph Transformations   Graphing arbitrary functions can be a difficult task and the general methods are beyond the scope of basic algebra. However, if we know the graph of a function, , and we can write another function, , in terms of in a specific way, then we can use the graph of to graph using transformations . In this seciton, we discuss three types of transformations: translation, scaling, and reflection.    Translation   Throughout this section, assume that the graph of the function is known.    Vertical Translation   Vertical Translation  Let be a positive number. We say the function is a vertical translation   Graph  Tranformation  Translation  Vertical  of the function if .    The graph of is obtained by shifting the graph of up the -axis by units.    The graph of is obtained by shifting the graph of down the -axis by -units.       Use to graph the functions and .    The graph of is obtained by shifting the graph of up the -axis by units, and the graph of is obtained by shifting the graph of down the -axis by 3 units.           Horizontal Translation   Horizontal Translation  Let be a positive number. We say the function is a horizontal translation   Graph  Tranformation  Translation  Horizontal  of the function if .    The graph of is obtained by shifting the graph of to the right along the -axis by units.    The graph of is obtained by shifting the graph of to the left along the -axis by -units.       Use to graph the functions and .    The graph of is obtained by shifting the graph of to the left along the -axis by units, and the graph of is obtained by shifting the graph of to the right along the -axis by 3 units.            Scaling   Vertical Scaling   Vertical Scaling  Let be a number. We say the function is a vertical scaling   Graph  Tranformation  Scaling  Vertical  of the function if or .    The graph of is obtained by stretching the graph of vertically by a factor of .    The graph of is obtained by compressing the graph of vertically by a factor of .       Use to graph the functions and .    The graph of is obtained by stretching the graph of vertically by a factor of , and the graph of is obtained by compressing the graph the graph of vertically by a factor of .           Reflection   Reflection  We say the function is a reflection   Graph  Tranformation  Reflection  of if either or     The graph of is obtained by reflecting the graph of over the -axis.    The graph of is obtained by reflecting the graph of over the -axis.       Use to graph the functions and .    The graph of is obtained by reflecting the graph of over the -axis, and the graph of is obtained by reflecting the graph of over the -axis.              Use the graph of to graph the functions and .      The graph of         Horizontal Scaling   Horizontal Scaling  Let be a number. We say the function is a horizontal scaling   Graph  Tranformation  Scaling  Horizontal  of the function if or .    The graph of is obtained by compressing the graph of horizontally by a factor of .    The graph of is obtained by stretching the graph of horizontally by a factor of .       Use to graph the functions and .    The graph of is obtained by compressing the graph of horizontally by a factor of , and the graph of is obtained by stretching the graph of horizontally by a factor of .              Use the graph of to graph the functions and .             Combining Graph Transformations  Most functions are obtained from a basic function using multiple transformations. When graphing a function, the order in which transformations are applied is important.   Graphing Functions using Transformations   Horizontal Translation  Scaling  Reflection  Vertical Translation      Use to graph the function .    We can graph by starting from the basic function and applying the following transformations:  Translate the graph of to the left by 3 to obtain the graph of .  Stretch the graph of vertically by a factor of 2 to obtain the graph of .  Translate the graph of down by 2 units to obtain the graph of .                Use graphs of basic functions and the following operations to graph general functions.    Vertical Translation  Horizontal Translation  Vertical Scaling,  Horizontal Scaling, and  Reflection.     "
 },
 {
   "id": "def-vertical_translation",
   "level": "2",
   "url": "sec-transformations.html#def-vertical_translation",
   "type": "Definition",
-  "number": "2.4.1",
+  "number": "2.3.1",
   "title": "Vertical Translation.",
   "body": " Vertical Translation  Let be a positive number. We say the function is a vertical translation   Graph  Tranformation  Translation  Vertical  of the function if .    The graph of is obtained by shifting the graph of up the -axis by units.    The graph of is obtained by shifting the graph of down the -axis by -units.    "
 },
 {
-  "id": "example-24",
+  "id": "example-25",
   "level": "2",
-  "url": "sec-transformations.html#example-24",
+  "url": "sec-transformations.html#example-25",
   "type": "Example",
-  "number": "2.4.2",
+  "number": "2.3.2",
   "title": "",
   "body": "  Use to graph the functions and .    The graph of is obtained by shifting the graph of up the -axis by units, and the graph of is obtained by shifting the graph of down the -axis by 3 units.        "
 },
@@ -950,16 +977,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-transformations.html#def-horizontal_translation",
   "type": "Definition",
-  "number": "2.4.4",
+  "number": "2.3.4",
   "title": "Horizontal Translation.",
   "body": " Horizontal Translation  Let be a positive number. We say the function is a horizontal translation   Graph  Tranformation  Translation  Horizontal  of the function if .    The graph of is obtained by shifting the graph of to the right along the -axis by units.    The graph of is obtained by shifting the graph of to the left along the -axis by -units.    "
 },
 {
-  "id": "example-25",
+  "id": "example-26",
   "level": "2",
-  "url": "sec-transformations.html#example-25",
+  "url": "sec-transformations.html#example-26",
   "type": "Example",
-  "number": "2.4.5",
+  "number": "2.3.5",
   "title": "",
   "body": "  Use to graph the functions and .    The graph of is obtained by shifting the graph of to the left along the -axis by units, and the graph of is obtained by shifting the graph of to the right along the -axis by 3 units.        "
 },
@@ -968,16 +995,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-transformations.html#def-vertical_scaling",
   "type": "Definition",
-  "number": "2.4.7",
+  "number": "2.3.7",
   "title": "Vertical Scaling.",
   "body": " Vertical Scaling  Let be a number. We say the function is a vertical scaling   Graph  Tranformation  Scaling  Vertical  of the function if or .    The graph of is obtained by stretching the graph of vertically by a factor of .    The graph of is obtained by compressing the graph of vertically by a factor of .    "
 },
 {
-  "id": "example-26",
+  "id": "example-27",
   "level": "2",
-  "url": "sec-transformations.html#example-26",
+  "url": "sec-transformations.html#example-27",
   "type": "Example",
-  "number": "2.4.8",
+  "number": "2.3.8",
   "title": "",
   "body": "  Use to graph the functions and .    The graph of is obtained by stretching the graph of vertically by a factor of , and the graph of is obtained by compressing the graph the graph of vertically by a factor of .        "
 },
@@ -986,52 +1013,70 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-transformations.html#def-reflection",
   "type": "Definition",
-  "number": "2.4.10",
+  "number": "2.3.10",
   "title": "Reflection.",
   "body": " Reflection  We say the function is a reflection   Graph  Tranformation  Reflection  of if either or     The graph of is obtained by reflecting the graph of over the -axis.    The graph of is obtained by reflecting the graph of over the -axis.    "
-},
-{
-  "id": "example-27",
-  "level": "2",
-  "url": "sec-transformations.html#example-27",
-  "type": "Example",
-  "number": "2.4.11",
-  "title": "",
-  "body": "  Use to graph the functions and .    The graph of is obtained by reflecting the graph of over the -axis, and the graph of is obtained by reflecting the graph of over the -axis.        "
-},
-{
-  "id": "def-horizontal_scaling",
-  "level": "2",
-  "url": "sec-transformations.html#def-horizontal_scaling",
-  "type": "Definition",
-  "number": "2.4.13",
-  "title": "Horizontal Scaling.",
-  "body": " Horizontal Scaling  Let be a number. We say the function is a horizontal scaling   Graph  Tranformation  Scaling  Horizontal  of the function if or .    The graph of is obtained by compressing the graph of horizontally by a factor of .    The graph of is obtained by stretching the graph of horizontally by a factor of .    "
 },
 {
   "id": "example-28",
   "level": "2",
   "url": "sec-transformations.html#example-28",
   "type": "Example",
-  "number": "2.4.14",
+  "number": "2.3.11",
   "title": "",
-  "body": "  Use to graph the functions and .    The graph of is obtained by compressing the graph of horizontally by a factor of , and the graph of is obtained by stretching the graph of horizontally by a factor of .        "
-},
-{
-  "id": "algorithm-1",
-  "level": "2",
-  "url": "sec-transformations.html#algorithm-1",
-  "type": "Algorithm",
-  "number": "2.4.16",
-  "title": "Graphing Functions using Transformations.",
-  "body": " Graphing Functions using Transformations   Horizontal Translation  Scaling  Reflection  Vertical Translation   "
+  "body": "  Use to graph the functions and .    The graph of is obtained by reflecting the graph of over the -axis, and the graph of is obtained by reflecting the graph of over the -axis.        "
 },
 {
   "id": "example-29",
   "level": "2",
   "url": "sec-transformations.html#example-29",
   "type": "Example",
-  "number": "2.4.17",
+  "number": "2.3.13",
+  "title": "",
+  "body": "  Use the graph of to graph the functions and .      The graph of    "
+},
+{
+  "id": "def-horizontal_scaling",
+  "level": "2",
+  "url": "sec-transformations.html#def-horizontal_scaling",
+  "type": "Definition",
+  "number": "2.3.15",
+  "title": "Horizontal Scaling.",
+  "body": " Horizontal Scaling  Let be a number. We say the function is a horizontal scaling   Graph  Tranformation  Scaling  Horizontal  of the function if or .    The graph of is obtained by compressing the graph of horizontally by a factor of .    The graph of is obtained by stretching the graph of horizontally by a factor of .    "
+},
+{
+  "id": "example-30",
+  "level": "2",
+  "url": "sec-transformations.html#example-30",
+  "type": "Example",
+  "number": "2.3.16",
+  "title": "",
+  "body": "  Use to graph the functions and .    The graph of is obtained by compressing the graph of horizontally by a factor of , and the graph of is obtained by stretching the graph of horizontally by a factor of .        "
+},
+{
+  "id": "example-31",
+  "level": "2",
+  "url": "sec-transformations.html#example-31",
+  "type": "Example",
+  "number": "2.3.18",
+  "title": "",
+  "body": "  Use the graph of to graph the functions and .        "
+},
+{
+  "id": "algorithm-1",
+  "level": "2",
+  "url": "sec-transformations.html#algorithm-1",
+  "type": "Algorithm",
+  "number": "2.3.20",
+  "title": "Graphing Functions using Transformations.",
+  "body": " Graphing Functions using Transformations   Horizontal Translation  Scaling  Reflection  Vertical Translation   "
+},
+{
+  "id": "example-32",
+  "level": "2",
+  "url": "sec-transformations.html#example-32",
+  "type": "Example",
+  "number": "2.3.21",
   "title": "",
   "body": "  Use to graph the function .    We can graph by starting from the basic function and applying the following transformations:  Translate the graph of to the left by 3 to obtain the graph of .  Stretch the graph of vertically by a factor of 2 to obtain the graph of .  Translate the graph of down by 2 units to obtain the graph of .          "
 },
@@ -1040,7 +1085,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-transformations.html#objectives-8",
   "type": "Objectives",
-  "number": "2.4.3",
+  "number": "2.3.3",
   "title": "",
   "body": "  Use graphs of basic functions and the following operations to graph general functions.    Vertical Translation  Horizontal Translation  Vertical Scaling,  Horizontal Scaling, and  Reflection.   "
 },
@@ -1049,7 +1094,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-symmetry.html",
   "type": "Section",
-  "number": "2.5",
+  "number": "2.4",
   "title": "Symmetry",
   "body": " Symmetry   Intuitively, an object is symmetric if there is some line that divides the object into two (or more) pieces that are mirror images of one another. In this section, we utilize the methods in to detect two types of symmetry mathematically.    Symmetry about the -axis   The first type of symmetry we are interested in is symmetry about the -axis in the plane. We begin with the intuitive understanding of this symmetry, and formalize a concrete method for detecting it algebraically.    We say a function has -axis symmetry   Function  Symmetry  -axis  if the -axis divides the graph into two pieces that are mirror images of one another.   For example, consider . The graph intersects the -axis at the point . If we cut the parabola in half at this point, then we get two pieces. We distinguish the two halves by coloring the left-hand side red and the right-hand side blue.      The graph of cut in half at .   To say these are mirror images of one another, means if we reflect the graph across the -axis, then we obtain the same graph just with the colors switched.      The reflection of across the -axis.   Had we not colored the two pieces, we would be unable to tell which one is which. We say the graph is invariant   Invariant  under reflection across the -axis to mean the original graph and its reflection across the -axis are the same. This observation allows us to rephrase in terms of reflections.    The function has -axis symmetry if it is invariant under reflection across the -axis.    The characterization of -axis symmetry above is purely geometric. Just like the intuitive understanding of symmetry, it can be difficult to verify whether two pictures are actually the same. Fortunately, the language of graph transformations provides us a dictionary between algebraic statements and geometric statements.    The function has -axis symmetry if for every in the domain of ,     The algebraic condition allows us to easily verify our intuition about images concretely.    Verify the function has -axis symmetry.    If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the -axis.       To verify our intuition, we just need to check Therefore has -axis symmetry.      Origin Symmetry   The second type of symmetry we consider is slightly more subtle than -axis symmetry.    We say a function is symmetric about the origin   Function  Symmetry  Origin  if the graph of is invariant under rotation by 180 degrees.   To understand this type of symmetry, consider with the origin and another marked point.        We can see what happens as we rotate the graph around the origin in the animation below. Note the rotation does not change the shape of the graph, so the distance from the marked point to the origin stays the same.      Rotation of 180 degrees counter-clockwise   The path the marked point follows through the rotation traces out a piece of a circle. Plotting the entirety of this circle, we can see the starting and ending location of the marked point create a diameter.      The graph of with a marked point and the rotation of that point by   Assume the original point has coordinates and its rotation by has coordinates . Since the midpoint of the diameter is , we know that and . Solve the first equation for in terms of  The second coordinate is then Rewriting this in function notation, this tells us This provides us with an algebraic condition for testing origin symmetry.    The function has origin symmetry if for every in the domain of ,                           Identify if a function has -axis symmetry.  Identify if a function has origin symmetry.     "
 },
@@ -1058,32 +1103,32 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-symmetry.html#def-y_axis_symmetry",
   "type": "Definition",
-  "number": "2.5.1",
+  "number": "2.4.1",
   "title": "",
   "body": " We say a function has -axis symmetry   Function  Symmetry  -axis  if the -axis divides the graph into two pieces that are mirror images of one another.  "
 },
 {
-  "id": "figure-34",
+  "id": "figure-36",
   "level": "2",
-  "url": "sec-symmetry.html#figure-34",
+  "url": "sec-symmetry.html#figure-36",
   "type": "Figure",
-  "number": "2.5.2",
+  "number": "2.4.2",
   "title": "",
   "body": "    The graph of cut in half at .  "
 },
 {
-  "id": "figure-35",
+  "id": "figure-37",
   "level": "2",
-  "url": "sec-symmetry.html#figure-35",
+  "url": "sec-symmetry.html#figure-37",
   "type": "Figure",
-  "number": "2.5.3",
+  "number": "2.4.3",
   "title": "",
   "body": "    The reflection of across the -axis.  "
 },
 {
-  "id": "p-179",
+  "id": "p-193",
   "level": "2",
-  "url": "sec-symmetry.html#p-179",
+  "url": "sec-symmetry.html#p-193",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1094,7 +1139,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-symmetry.html#theorem-3",
   "type": "Theorem",
-  "number": "2.5.4",
+  "number": "2.4.4",
   "title": "",
   "body": "  The function has -axis symmetry if it is invariant under reflection across the -axis.   "
 },
@@ -1103,16 +1148,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-symmetry.html#theorem-4",
   "type": "Theorem",
-  "number": "2.5.5",
+  "number": "2.4.5",
   "title": "",
   "body": "  The function has -axis symmetry if for every in the domain of ,    "
 },
 {
-  "id": "example-30",
+  "id": "example-33",
   "level": "2",
-  "url": "sec-symmetry.html#example-30",
+  "url": "sec-symmetry.html#example-33",
   "type": "Example",
-  "number": "2.5.6",
+  "number": "2.4.6",
   "title": "",
   "body": "  Verify the function has -axis symmetry.    If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the -axis.       To verify our intuition, we just need to check Therefore has -axis symmetry.   "
 },
@@ -1121,34 +1166,34 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-symmetry.html#definition-39",
   "type": "Definition",
-  "number": "2.5.8",
+  "number": "2.4.8",
   "title": "",
   "body": " We say a function is symmetric about the origin   Function  Symmetry  Origin  if the graph of is invariant under rotation by 180 degrees.  "
-},
-{
-  "id": "figure-37",
-  "level": "2",
-  "url": "sec-symmetry.html#figure-37",
-  "type": "Figure",
-  "number": "2.5.9",
-  "title": "",
-  "body": "    "
-},
-{
-  "id": "figure-38",
-  "level": "2",
-  "url": "sec-symmetry.html#figure-38",
-  "type": "Figure",
-  "number": "2.5.10",
-  "title": "",
-  "body": "    Rotation of 180 degrees counter-clockwise  "
 },
 {
   "id": "figure-39",
   "level": "2",
   "url": "sec-symmetry.html#figure-39",
   "type": "Figure",
-  "number": "2.5.11",
+  "number": "2.4.9",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "figure-40",
+  "level": "2",
+  "url": "sec-symmetry.html#figure-40",
+  "type": "Figure",
+  "number": "2.4.10",
+  "title": "",
+  "body": "    Rotation of 180 degrees counter-clockwise  "
+},
+{
+  "id": "figure-41",
+  "level": "2",
+  "url": "sec-symmetry.html#figure-41",
+  "type": "Figure",
+  "number": "2.4.11",
   "title": "",
   "body": "    The graph of with a marked point and the rotation of that point by  "
 },
@@ -1157,7 +1202,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-symmetry.html#theorem-5",
   "type": "Theorem",
-  "number": "2.5.12",
+  "number": "2.4.12",
   "title": "",
   "body": "  The function has origin symmetry if for every in the domain of ,    "
 },
@@ -1166,7 +1211,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-symmetry.html#objectives-9",
   "type": "Objectives",
-  "number": "2.5.3",
+  "number": "2.4.3",
   "title": "",
   "body": "  Identify if a function has -axis symmetry.  Identify if a function has origin symmetry.   "
 },
@@ -1189,9 +1234,9 @@ var ptx_lunr_docs = [
   "body": " Polynomial Function  A polynomial function   Function  Polynomial  in the variable is a function of the form where is an integer, are numbers and .  We say is a polynomial of degree   Function  Polynomial  Degree   and write .     Degree of a polynomial  The numbers are called the coefficient   Function  Polynomial  Coefficient  of , respectively.  "
 },
 {
-  "id": "example-31",
+  "id": "example-34",
   "level": "2",
-  "url": "sec-polynomial_functions.html#example-31",
+  "url": "sec-polynomial_functions.html#example-34",
   "type": "Example",
   "number": "3.1.2",
   "title": "",
@@ -1225,9 +1270,9 @@ var ptx_lunr_docs = [
   "body": " The Fundamental Theorem of Algbera  Carl Friedrich Gauss   Given a polynomial of degree , there exist a constant and roots such that We call this expression the factorization   Function  Polynomial  Factorization  of the polynomial .     "
 },
 {
-  "id": "example-32",
+  "id": "example-35",
   "level": "2",
-  "url": "sec-polynomial_functions.html#example-32",
+  "url": "sec-polynomial_functions.html#example-35",
   "type": "Example",
   "number": "3.1.6",
   "title": "",
@@ -1243,9 +1288,9 @@ var ptx_lunr_docs = [
   "body": " Assume is a polynomial of degree and is a root of . The multiplicity of , is the number of times of times appears in the factorization of .  "
 },
 {
-  "id": "example-33",
+  "id": "example-36",
   "level": "2",
-  "url": "sec-polynomial_functions.html#example-33",
+  "url": "sec-polynomial_functions.html#example-36",
   "type": "Example",
   "number": "3.1.8",
   "title": "",
@@ -1270,9 +1315,9 @@ var ptx_lunr_docs = [
   "body": " Complex Number  A complex number has the form , where and are real numbers. The set of all complex numbers is      The set of complex numbers    "
 },
 {
-  "id": "example-34",
+  "id": "example-37",
   "level": "2",
-  "url": "sec-polynomial_functions.html#example-34",
+  "url": "sec-polynomial_functions.html#example-37",
   "type": "Example",
   "number": "3.1.11",
   "title": "",
@@ -1333,9 +1378,9 @@ var ptx_lunr_docs = [
   "body": " Assume and are polynomials. The polynomial  divides   Function  Polynomial  Divides  the polynomial if the remainder when is divided by is the zero polynomial, .  "
 },
 {
-  "id": "example-37",
+  "id": "example-40",
   "level": "2",
-  "url": "sec-polynomial_functions.html#example-37",
+  "url": "sec-polynomial_functions.html#example-40",
   "type": "Example",
   "number": "3.1.18",
   "title": "",
@@ -1360,9 +1405,9 @@ var ptx_lunr_docs = [
   "body": "  The number is a root of the polynomial if and only if divides .   "
 },
 {
-  "id": "example-38",
+  "id": "example-41",
   "level": "2",
-  "url": "sec-polynomial_functions.html#example-38",
+  "url": "sec-polynomial_functions.html#example-41",
   "type": "Example",
   "number": "3.1.21",
   "title": "",
@@ -1441,9 +1486,9 @@ var ptx_lunr_docs = [
   "body": "  Find the -intercept of the linear equation .    To find the -intercept of the linear equation , we substitute for to get Therefore the -intercept of the linear equation is the point .   "
 },
 {
-  "id": "example-40",
+  "id": "example-43",
   "level": "2",
-  "url": "sec-linear_functions.html#example-40",
+  "url": "sec-linear_functions.html#example-43",
   "type": "Example",
   "number": "3.2.5",
   "title": "",
@@ -1567,18 +1612,18 @@ var ptx_lunr_docs = [
   "body": " The Point-Slope Form of a Line   The point-slope form of the line   Line  Point-Slope Form  through the point with slope is    "
 },
 {
-  "id": "example-43",
+  "id": "example-46",
   "level": "2",
-  "url": "sec-lines.html#example-43",
+  "url": "sec-lines.html#example-46",
   "type": "Example",
   "number": "3.3.8",
   "title": "",
   "body": "  Find the using the point and the slope .    Using , the equation of the line through with slope is    "
 },
 {
-  "id": "example-44",
+  "id": "example-47",
   "level": "2",
-  "url": "sec-lines.html#example-44",
+  "url": "sec-lines.html#example-47",
   "type": "Example",
   "number": "3.3.9",
   "title": "",
@@ -1603,18 +1648,18 @@ var ptx_lunr_docs = [
   "body": " Caution!  The standard equation of a line may not always represent an equation where is a function of ! If , then the standard equation of a line reduces to which is a vertical line.  "
 },
 {
-  "id": "example-45",
+  "id": "example-48",
   "level": "2",
-  "url": "sec-lines.html#example-45",
+  "url": "sec-lines.html#example-48",
   "type": "Example",
   "number": "3.3.12",
   "title": "",
   "body": "  Place the linear equation into .    The equation can be placed in standard form as follows. First, move the variables to the left-hand side of the equation. Subtract from both sides and distribute the negative Collect like terms and simplify Finally, subtract 7 from both sides of the equation and simplify to arrive at the standard form    "
 },
 {
-  "id": "example-46",
+  "id": "example-49",
   "level": "2",
-  "url": "sec-lines.html#example-46",
+  "url": "sec-lines.html#example-49",
   "type": "Example",
   "number": "3.3.13",
   "title": "",
@@ -1720,18 +1765,18 @@ var ptx_lunr_docs = [
   "body": " Two lines are parallel if and only if they have the same slope.  "
 },
 {
-  "id": "example-47",
+  "id": "example-50",
   "level": "2",
-  "url": "sec-perp_parallel.html#example-47",
+  "url": "sec-perp_parallel.html#example-50",
   "type": "Example",
   "number": "3.4.4",
   "title": "",
   "body": "  Determine whether the lines are parallel.    In order to determine whether these lines are parallel, we need to find the slope of each line. We do this by placing each line into .  For the first line, add to both sides and divide both sides by  This tells us the slope of the line is .  For the second line, add to both sides divide both sides by  and reduce This tells the slope of the line is also . Therefore the lines and are parallel by .   "
 },
 {
-  "id": "example-48",
+  "id": "example-51",
   "level": "2",
-  "url": "sec-perp_parallel.html#example-48",
+  "url": "sec-perp_parallel.html#example-51",
   "type": "Example",
   "number": "3.4.5",
   "title": "",
@@ -1765,18 +1810,18 @@ var ptx_lunr_docs = [
   "body": "  Two lines are perpendicular if and only if the product of their slopes is .   "
 },
 {
-  "id": "example-49",
+  "id": "example-52",
   "level": "2",
-  "url": "sec-perp_parallel.html#example-49",
+  "url": "sec-perp_parallel.html#example-52",
   "type": "Example",
   "number": "3.4.9",
   "title": "",
   "body": "  Determine whether the lines are perpendicular.    First we must place the lines in to find the slopes. The first equation becomes In this form, we can read off the slope of the line as   The second equation becomes In this form, we can read off the slop of the line as .  Finally, to check whether these lines are parallel, we compute the product of these slopes. Since we conclude that these lines are perpendicular by .   "
 },
 {
-  "id": "example-50",
+  "id": "example-53",
   "level": "2",
-  "url": "sec-perp_parallel.html#example-50",
+  "url": "sec-perp_parallel.html#example-53",
   "type": "Example",
   "number": "3.4.10",
   "title": "",
@@ -1837,9 +1882,9 @@ var ptx_lunr_docs = [
   "body": " Quadratic Function  A function is quadratic   Function  Quadratic  if it has the form where , , and are numbers, and .  "
 },
 {
-  "id": "p-335",
+  "id": "p-349",
   "level": "2",
-  "url": "sec-quadratic_functions.html#p-335",
+  "url": "sec-quadratic_functions.html#p-349",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1864,9 +1909,9 @@ var ptx_lunr_docs = [
   "body": " Graphing Quadratic Functions in Vertex Form   To graph of the quadratic function      Translate the graph of horizontally by units.   If , then the translation is to the right.    If , then the translation is to the left.       Scale the graph of by .   If , then the graph is stretched.    If , then the graph is compressed.       If , reflect the graph of over the -axis.    Translate the graph of vertically by units.   If , then the translation is down.    If , then the translation is up.       "
 },
 {
-  "id": "example-51",
+  "id": "example-54",
   "level": "2",
-  "url": "sec-quadratic_functions.html#example-51",
+  "url": "sec-quadratic_functions.html#example-54",
   "type": "Example",
   "number": "3.5.4",
   "title": "",
@@ -1882,27 +1927,27 @@ var ptx_lunr_docs = [
   "body": " The graph of a parabola is    concave up   Function  Quadratic  Concave  Up  if the parabola opens upwards like .     concave down   Function  Quadratic  Concave  Down  if the parabola opens downwards like .     "
 },
 {
-  "id": "figure-45",
+  "id": "figure-47",
   "level": "2",
-  "url": "sec-quadratic_functions.html#figure-45",
+  "url": "sec-quadratic_functions.html#figure-47",
   "type": "Figure",
   "number": "3.5.7",
   "title": "",
   "body": " Multiplying binomials using the FOIL method.   "
 },
 {
-  "id": "p-362",
+  "id": "p-376",
   "level": "2",
-  "url": "sec-quadratic_functions.html#p-362",
+  "url": "sec-quadratic_functions.html#p-376",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "perfect square "
 },
 {
-  "id": "p-363",
+  "id": "p-377",
   "level": "2",
-  "url": "sec-quadratic_functions.html#p-363",
+  "url": "sec-quadratic_functions.html#p-377",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1936,18 +1981,18 @@ var ptx_lunr_docs = [
   "body": " Using , the vertex form of the quadratic function is   "
 },
 {
-  "id": "example-52",
+  "id": "example-55",
   "level": "2",
-  "url": "sec-quadratic_functions.html#example-52",
+  "url": "sec-quadratic_functions.html#example-55",
   "type": "Example",
   "number": "3.5.11",
   "title": "",
   "body": "  Find the vertex form of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function    "
 },
 {
-  "id": "example-53",
+  "id": "example-56",
   "level": "2",
-  "url": "sec-quadratic_functions.html#example-53",
+  "url": "sec-quadratic_functions.html#example-56",
   "type": "Example",
   "number": "3.5.12",
   "title": "",
@@ -1990,9 +2035,9 @@ var ptx_lunr_docs = [
   "body": "  The quadratic function factors as where is the discriminant.   "
 },
 {
-  "id": "example-54",
+  "id": "example-57",
   "level": "2",
-  "url": "sec-quadratic_functions.html#example-54",
+  "url": "sec-quadratic_functions.html#example-57",
   "type": "Example",
   "number": "3.5.17",
   "title": "",
@@ -2008,18 +2053,18 @@ var ptx_lunr_docs = [
   "body": " The -intercepts of a Quadratic Function  The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.    "
 },
 {
-  "id": "example-55",
+  "id": "example-58",
   "level": "2",
-  "url": "sec-quadratic_functions.html#example-55",
+  "url": "sec-quadratic_functions.html#example-58",
   "type": "Example",
   "number": "3.5.19",
   "title": "",
   "body": "  Find the -intercepts of the function .    Since the discriminant is this function does not have any -intercepts.   "
 },
 {
-  "id": "example-56",
+  "id": "example-59",
   "level": "2",
-  "url": "sec-quadratic_functions.html#example-56",
+  "url": "sec-quadratic_functions.html#example-59",
   "type": "Example",
   "number": "3.5.20",
   "title": "",
@@ -2089,9 +2134,9 @@ var ptx_lunr_docs = [
   "body": " Assume and are functions. The sum   Function  Sum  of and is the function      Sum of and  defined by   "
 },
 {
-  "id": "example-57",
+  "id": "example-60",
   "level": "2",
-  "url": "section-16.html#example-57",
+  "url": "section-16.html#example-60",
   "type": "Example",
   "number": "4.1.2",
   "title": "",
@@ -2116,9 +2161,9 @@ var ptx_lunr_docs = [
   "body": " Assume and are functions. The difference   Function  Difference  of and is the function      Difference of and  defined by   "
 },
 {
-  "id": "example-58",
+  "id": "example-61",
   "level": "2",
-  "url": "section-16.html#example-58",
+  "url": "section-16.html#example-61",
   "type": "Example",
   "number": "4.1.5",
   "title": "",
@@ -2134,9 +2179,9 @@ var ptx_lunr_docs = [
   "body": "Unlike the sum of functions, the difference of functions is not commutative . "
 },
 {
-  "id": "example-59",
+  "id": "example-62",
   "level": "2",
-  "url": "section-16.html#example-59",
+  "url": "section-16.html#example-62",
   "type": "Example",
   "number": "4.1.7",
   "title": "",
@@ -2152,9 +2197,9 @@ var ptx_lunr_docs = [
   "body": " Assume and are functions. The product   Function  Product  of and is the function      Product of and  defined by   "
 },
 {
-  "id": "example-60",
+  "id": "example-63",
   "level": "2",
-  "url": "section-16.html#example-60",
+  "url": "section-16.html#example-63",
   "type": "Example",
   "number": "4.1.9",
   "title": "",
@@ -2179,9 +2224,9 @@ var ptx_lunr_docs = [
   "body": " Assume and are functions, and for every , . The ratio   Function  Ratio  of and is the function      Ratio of and  defined by   "
 },
 {
-  "id": "example-61",
+  "id": "example-64",
   "level": "2",
-  "url": "section-16.html#example-61",
+  "url": "section-16.html#example-64",
   "type": "Example",
   "number": "4.1.12",
   "title": "",
@@ -2197,9 +2242,9 @@ var ptx_lunr_docs = [
   "body": "Unlike the sum and product of functions, the ratio of functions is not commutative . "
 },
 {
-  "id": "example-62",
+  "id": "example-65",
   "level": "2",
-  "url": "section-16.html#example-62",
+  "url": "section-16.html#example-65",
   "type": "Example",
   "number": "4.1.14",
   "title": "",
@@ -2224,36 +2269,36 @@ var ptx_lunr_docs = [
   "body": " A rational function is a function of the form where and are polynomial functions.  "
 },
 {
-  "id": "example-63",
+  "id": "example-66",
   "level": "2",
-  "url": "sec-rational_functions.html#example-63",
+  "url": "sec-rational_functions.html#example-66",
   "type": "Example",
   "number": "4.2.2",
   "title": "",
   "body": " The rational function   is defined whenever is nonzero. This is the set of all numbers except and , which we can express as the union of intervals       "
 },
 {
-  "id": "example-64",
+  "id": "example-67",
   "level": "2",
-  "url": "sec-rational_functions.html#example-64",
+  "url": "sec-rational_functions.html#example-67",
   "type": "Example",
   "number": "4.2.3",
   "title": "",
   "body": " If we are working with the rational function defined by then it is tempting to factor the numerator as and write   It is important to remember that this simplification only holds for elements of the domain of the function . This says that is equal to the function defined by . However, the function defined by is not equal to the function because the functions and do not have the same domain.  "
 },
 {
-  "id": "example-65",
+  "id": "example-68",
   "level": "2",
-  "url": "sec-rational_functions.html#example-65",
+  "url": "sec-rational_functions.html#example-68",
   "type": "Example",
   "number": "4.2.4",
   "title": "",
   "body": " Consider the rational functions defined by   The sum of and is the function To find an expression for on this set, we use the least common multiple of the denominators to find a common denominator:   "
 },
 {
-  "id": "example-66",
+  "id": "example-69",
   "level": "2",
-  "url": "sec-rational_functions.html#example-66",
+  "url": "sec-rational_functions.html#example-69",
   "type": "Example",
   "number": "4.2.5",
   "title": "",
@@ -2287,9 +2332,9 @@ var ptx_lunr_docs = [
   "body": " Composition of Functions  Assume and are functions with . The composition   Function  Composition  of with is the function      Composition of with  defined by   "
 },
 {
-  "id": "example-67",
+  "id": "example-70",
   "level": "2",
-  "url": "sec-composition.html#example-67",
+  "url": "sec-composition.html#example-70",
   "type": "Example",
   "number": "4.3.2",
   "title": "",
@@ -2305,9 +2350,9 @@ var ptx_lunr_docs = [
   "body": " It is important to make sure the range of the function is contained within the domain of the function . If not, the composition does not make sense.  "
 },
 {
-  "id": "example-68",
+  "id": "example-71",
   "level": "2",
-  "url": "sec-composition.html#example-68",
+  "url": "sec-composition.html#example-71",
   "type": "Example",
   "number": "4.3.4",
   "title": "",
@@ -2332,9 +2377,9 @@ var ptx_lunr_docs = [
   "body": " Consider the functions defined by and defined by . The composition of with is the function defined by   "
 },
 {
-  "id": "p-443",
+  "id": "p-457",
   "level": "2",
-  "url": "sec-composition.html#p-443",
+  "url": "sec-composition.html#p-457",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2350,18 +2395,18 @@ var ptx_lunr_docs = [
   "body": " Identity Function Assume is a set. The identity function on is the function defined by  "
 },
 {
-  "id": "p-448",
+  "id": "p-462",
   "level": "2",
-  "url": "sec-composition.html#p-448",
+  "url": "sec-composition.html#p-462",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "additive inverse "
 },
 {
-  "id": "p-452",
+  "id": "p-466",
   "level": "2",
-  "url": "sec-composition.html#p-452",
+  "url": "sec-composition.html#p-466",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2476,9 +2521,9 @@ var ptx_lunr_docs = [
   "body": " The Horizontal Line Test   Assume . The function is invertible if and only if every horizontal line intersects the graph of in at most one point.   "
 },
 {
-  "id": "example-73",
+  "id": "example-76",
   "level": "2",
-  "url": "section-19.html#example-73",
+  "url": "section-19.html#example-76",
   "type": "Example",
   "number": "4.4.4",
   "title": "",
@@ -2512,9 +2557,9 @@ var ptx_lunr_docs = [
   "body": " The Exponential Function   So far, all of the functions we have encountered are either polynomials or can be constructed from polynomial equations using algebraic operations. A transcendental function   Function  Transcendental  is any function that cannot be constructed in this manner. While it is certainly odd to discuss functions that cannot be constructed by algebraic means in a course on algebra, many calculus courses expect students to already be familiar with these functions. We focus solely on the algebraic properties of these functions.    Properties of the Exponential Function  We start with the definition of a constant. Much like the number , this number cannot be constructed using algebraic methods. Indeed, the proper definition requires calculus, so we provide only a numerical approximation.   Euler's Number   Euler's number   Euler's Number  is the constant .   Euler's number     This constant is essential to the definition of the exponential function.   The Exponential Function The exponential function   Function  Exponential   is defined by .  We can think about the value of the exponential function at a positive real number as the result of multiplying copies of the number : This definition extends to all real numbers by defining   An interesting consequence of these definitions is that the exponential function transforms addition of the input into multiplication of the output and subtraction of the input into division of the output. For addition of the input, we take advantage of the fact that multiplication is associative to write   For subtraction of the inverse, we note that , so   These two properties also provide a convenient observation about multiplication of the input. Recall that the product of two numbers is simply a notational convenience. Depending on your needs, the product can be regarded as either adding together copies of the number or copies of the number : If we take first interpretation of , then we can apply the formula for the sum of inputs times to get Similarly, if we take the second interpretation of , then we can apply the formula for the sum of inputs times to get    Properties of Exponential Functions   Assume and are real numbers.                            The Graph of the Exponential Function  The graph of the exponential function is provided below.         Working with the Exponential     Combine expressions involving the exponential    Identify graphs involving the exponential       Use the to rewrite each equation so there is only one exponential term.                     Match each function with its graph.                                     "
 },
 {
-  "id": "p-506",
+  "id": "p-520",
   "level": "2",
-  "url": "sec-exponentials.html#p-506",
+  "url": "sec-exponentials.html#p-520",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2548,9 +2593,9 @@ var ptx_lunr_docs = [
   "body": " Properties of Exponential Functions   Assume and are real numbers.                         "
 },
 {
-  "id": "figure-49",
+  "id": "figure-51",
   "level": "2",
-  "url": "sec-exponentials.html#figure-49",
+  "url": "sec-exponentials.html#figure-51",
   "type": "Figure",
   "number": "5.1.4",
   "title": "",
@@ -2611,9 +2656,9 @@ var ptx_lunr_docs = [
   "body": " The Natural Logarithm   Looking at the graph of , it appears to satisfy .      The horizontal line test for   We can verify this algebraically as follows. Suppose the points and lie on the same horizontal line. These points must have the same -coordinates, so implies that and so . That is to say, the two points are the same point and so any horizontal line intersects the graph in at most one point. This tells us the exponential function is invertible.    The Natural Logarithm  The natural logarithm ,  Function  Logarithm  Natural   ,   The natural logarithm  is the inverse of .    Properties of the Natural Logarithm  As the composition inverse of , the logarithm inherits properties that are very similar to the . To describe these properties algebraically it is helpful to phrase the relationship between the exponential and the logarithm as pairing each real number with a positive real number via   Starting from the property , taking and in allows us to write We should note this algebraic fact fits with our geometric understanding. The graph of passes through the point . Since the graph of is the reflection of the graph of the exponential function across the line , the graph of the natural logarithm passes through the point .  If we introduce another real number, , then we obtain a second positive real number, . The function maps the sum of these numbers to the product of their pairs so the right-hand side of tells us that the logarithm pairs the product of positive real numbers with the sum of their pairs   Similarly, the function maps the difference of these numbers to the ratio of their pairs so the right-hand side of tells us that the logarithm pairs the ratio of positive real numbers with the difference of their pairs   Finally, we make the following observation as a convenience. If is any positive real number and is any real number, then we think of as the product of copies of the number  If we transform the log of the product into the sum of the logs times, then we obtain the expression   We summarize these properties below.   Properties of the Logarithm  Assume and are positive real numbers.                           The Graph of the Natural Logarithm  As the composition inverse, the graph of is obtained by reflecting the graph of across the line .         Solving Equations with Transcendental Functions  Sometimes, equations arise that involve the exponential function or the natural logarithm. The general tactic for solving equations of this type is to combine the exponentials or logarithms using and , then use the relation as appropriate, to obtain an equation without exponentials or logarithms.   To solve the equation for , we use the to rewrite Therefore there are two solutions to this equation: and .  We can check is a solution by substituting for on the left-hand side to get then on the right-hand side to get and observe they are the same.  Similarly, we can check is a solution by substituting for on the left-hand side to get then on the right-hand side to get and observe they are the same.    To solve the equation for , we use the to rewrite The two possible solutions are and . The solution is extraneous because is undefined. Therefore the only solution is .  We can verify this is a solution by substituting for to see        Solve equations involving the exponential function.  Solve equations involving the natural logarithm.     Solving Equations with Exponential Functions   Solve the equation for .    Solve the equation for .    Solve the equation for      Solving Equations with Logarithms   Solve the equation for .    Solve the equation for .    Solve the equation for .     "
 },
 {
-  "id": "figure-50",
+  "id": "figure-52",
   "level": "2",
-  "url": "sec-logarithms.html#figure-50",
+  "url": "sec-logarithms.html#figure-52",
   "type": "Figure",
   "number": "5.2.1",
   "title": "",
@@ -2638,27 +2683,27 @@ var ptx_lunr_docs = [
   "body": " Properties of the Logarithm  Assume and are positive real numbers.                        "
 },
 {
-  "id": "figure-51",
+  "id": "figure-53",
   "level": "2",
-  "url": "sec-logarithms.html#figure-51",
+  "url": "sec-logarithms.html#figure-53",
   "type": "Figure",
   "number": "5.2.4",
   "title": "",
   "body": "    "
 },
 {
-  "id": "example-74",
+  "id": "example-77",
   "level": "2",
-  "url": "sec-logarithms.html#example-74",
+  "url": "sec-logarithms.html#example-77",
   "type": "Example",
   "number": "5.2.5",
   "title": "",
   "body": " To solve the equation for , we use the to rewrite Therefore there are two solutions to this equation: and .  We can check is a solution by substituting for on the left-hand side to get then on the right-hand side to get and observe they are the same.  Similarly, we can check is a solution by substituting for on the left-hand side to get then on the right-hand side to get and observe they are the same.  "
 },
 {
-  "id": "example-75",
+  "id": "example-78",
   "level": "2",
-  "url": "sec-logarithms.html#example-75",
+  "url": "sec-logarithms.html#example-78",
   "type": "Example",
   "number": "5.2.6",
   "title": "",
@@ -2998,9 +3043,9 @@ var ptx_lunr_docs = [
   "body": " We can always express compounding interest as continuously compounding interest using the logarithm.  "
 },
 {
-  "id": "example-78",
+  "id": "example-81",
   "level": "2",
-  "url": "sec-modeling.html#example-78",
+  "url": "sec-modeling.html#example-81",
   "type": "Example",
   "number": "5.5.8",
   "title": "Converting to Continuously Compounding Interest.",
@@ -3025,9 +3070,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols   "
 },
 {
-  "id": "subsection-47",
+  "id": "subsection-50",
   "level": "1",
-  "url": "subsection-47.html",
+  "url": "subsection-50.html",
   "type": "Subsection",
   "number": "B.1",
   "title": "Polynomials",
@@ -3036,7 +3081,7 @@ var ptx_lunr_docs = [
 {
   "id": "fig-line",
   "level": "2",
-  "url": "subsection-47.html#fig-line",
+  "url": "subsection-50.html#fig-line",
   "type": "Figure",
   "number": "B.1.12",
   "title": "the graph of <span class=\"process-math\">\\(y = x\\)<\/span>",
@@ -3045,7 +3090,7 @@ var ptx_lunr_docs = [
 {
   "id": "fig-parabola",
   "level": "2",
-  "url": "subsection-47.html#fig-parabola",
+  "url": "subsection-50.html#fig-parabola",
   "type": "Figure",
   "number": "B.1.13",
   "title": "the graph of <span class=\"process-math\">\\(y = x^2\\)<\/span>",
@@ -3054,7 +3099,7 @@ var ptx_lunr_docs = [
 {
   "id": "fig-cubic",
   "level": "2",
-  "url": "subsection-47.html#fig-cubic",
+  "url": "subsection-50.html#fig-cubic",
   "type": "Figure",
   "number": "B.1.14",
   "title": "the graph of <span class=\"process-math\">\\(y = x^3\\)<\/span>",
@@ -3063,7 +3108,7 @@ var ptx_lunr_docs = [
 {
   "id": "fig-quartic",
   "level": "2",
-  "url": "subsection-47.html#fig-quartic",
+  "url": "subsection-50.html#fig-quartic",
   "type": "Figure",
   "number": "B.1.15",
   "title": "the graph of <span class=\"process-math\">\\(y = x^4\\)<\/span>",
@@ -3072,16 +3117,16 @@ var ptx_lunr_docs = [
 {
   "id": "fig-quintic",
   "level": "2",
-  "url": "subsection-47.html#fig-quintic",
+  "url": "subsection-50.html#fig-quintic",
   "type": "Figure",
   "number": "B.1.16",
   "title": "the graph of <span class=\"process-math\">\\(y = x^5\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
-  "id": "subsection-48",
+  "id": "subsection-51",
   "level": "1",
-  "url": "subsection-48.html",
+  "url": "subsection-51.html",
   "type": "Subsection",
   "number": "B.2",
   "title": "Roots",
@@ -3090,7 +3135,7 @@ var ptx_lunr_docs = [
 {
   "id": "fig-sq_root",
   "level": "2",
-  "url": "subsection-48.html#fig-sq_root",
+  "url": "subsection-51.html#fig-sq_root",
   "type": "Figure",
   "number": "B.2.17",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt{x}\\)<\/span>",
@@ -3099,7 +3144,7 @@ var ptx_lunr_docs = [
 {
   "id": "fig-cube_root",
   "level": "2",
-  "url": "subsection-48.html#fig-cube_root",
+  "url": "subsection-51.html#fig-cube_root",
   "type": "Figure",
   "number": "B.2.18",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt[3]{x}\\)<\/span>",
@@ -3108,7 +3153,7 @@ var ptx_lunr_docs = [
 {
   "id": "fig-fourth_root",
   "level": "2",
-  "url": "subsection-48.html#fig-fourth_root",
+  "url": "subsection-51.html#fig-fourth_root",
   "type": "Figure",
   "number": "B.2.19",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt[4]{x}\\)<\/span>",
@@ -3117,16 +3162,16 @@ var ptx_lunr_docs = [
 {
   "id": "fig-fifth_root",
   "level": "2",
-  "url": "subsection-48.html#fig-fifth_root",
+  "url": "subsection-51.html#fig-fifth_root",
   "type": "Figure",
   "number": "B.2.20",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt[5]{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
-  "id": "subsection-49",
+  "id": "subsection-52",
   "level": "1",
-  "url": "subsection-49.html",
+  "url": "subsection-52.html",
   "type": "Subsection",
   "number": "B.3",
   "title": "Rational Functions",
@@ -3135,7 +3180,7 @@ var ptx_lunr_docs = [
 {
   "id": "fig-1_x",
   "level": "2",
-  "url": "subsection-49.html#fig-1_x",
+  "url": "subsection-52.html#fig-1_x",
   "type": "Figure",
   "number": "B.3.21",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x}\\)<\/span>",
@@ -3144,7 +3189,7 @@ var ptx_lunr_docs = [
 {
   "id": "fig-1_x_2",
   "level": "2",
-  "url": "subsection-49.html#fig-1_x_2",
+  "url": "subsection-52.html#fig-1_x_2",
   "type": "Figure",
   "number": "B.3.22",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^2}\\)<\/span>",
@@ -3153,7 +3198,7 @@ var ptx_lunr_docs = [
 {
   "id": "fig-1_x_3",
   "level": "2",
-  "url": "subsection-49.html#fig-1_x_3",
+  "url": "subsection-52.html#fig-1_x_3",
   "type": "Figure",
   "number": "B.3.23",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^3}\\)<\/span>",
@@ -3162,7 +3207,7 @@ var ptx_lunr_docs = [
 {
   "id": "fig-1_x_4",
   "level": "2",
-  "url": "subsection-49.html#fig-1_x_4",
+  "url": "subsection-52.html#fig-1_x_4",
   "type": "Figure",
   "number": "B.3.24",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^4}\\)<\/span>",
@@ -3171,16 +3216,16 @@ var ptx_lunr_docs = [
 {
   "id": "fig-1_x_5",
   "level": "2",
-  "url": "subsection-49.html#fig-1_x_5",
+  "url": "subsection-52.html#fig-1_x_5",
   "type": "Figure",
   "number": "B.3.25",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^5}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
-  "id": "subsection-50",
+  "id": "subsection-53",
   "level": "1",
-  "url": "subsection-50.html",
+  "url": "subsection-53.html",
   "type": "Subsection",
   "number": "B.4",
   "title": "Miscellaneous Functions",
@@ -3189,7 +3234,7 @@ var ptx_lunr_docs = [
 {
   "id": "fig-abs_val",
   "level": "2",
-  "url": "subsection-50.html#fig-abs_val",
+  "url": "subsection-53.html#fig-abs_val",
   "type": "Figure",
   "number": "B.4.26",
   "title": "the graph of <span class=\"process-math\">\\(y = \\abs{x}\\)<\/span>",
