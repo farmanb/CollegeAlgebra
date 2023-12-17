@@ -18,417 +18,512 @@
 
   <introduction>
     <p>
-      In this section, we study the basics of functions.
+      In nearly every branch of mathematics, functions are the primary objects of study.
+      Functions provide a robust language for describing relationships between sets, and serve as the basic building blocks for modern development of algebra, geometry, trigonometry, calculus, and beyond.
+      We develop techniques for analyzing and visualizing functions that are foundational in subsequent mathematics courses and also applicable outside of mathematics <mdash/> in science, technology, and engineering<mdash/> to model the behavior of systems.
     </p>
   </introduction>
   
   <definition xml:id="def-function">
     <title>Function</title>
     <p>
-      A <term>function</term>,
+      Assume <m>A</m> and <m>B</m> are sets.
+      A <term>function from <m>A</m> to <m>B</m></term>,
       <idx>
 	<h>Function</h>
       </idx>
-      <m>f \colon A \to B</m>,
+      written <m>f \colon A \to B</m>,
       <notation>
 	<usage>
 	  <m>f \colon A \to B</m>
 	</usage>
-	<description>Function with domain <m>A</m> and codomain <m>B</m></description>
+	<description>Function from <m>A</m> to <m>B</m></description>
       </notation>
       is a rule that assigns to each element <m>x \in A</m> a unique element <m>f(x) \in B</m>.
       <notation>
 	<usage>
 	  <m>f(x)</m>
 	</usage>
-	<description>Output of function</description>
+	<description>Value of the function <m>f</m> at <m>x</m></description>
       </notation>
     </p>
+    <ul>
+      <li>
+	<p>
+	  The set <m>A</m> is the <term>domain</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Domain</h>
+	  </idx>
+	  of <m>f</m>.
+	  The domain of <m>f</m> is the set of all allowable input values to the function <m>f</m>.
+	</p>
+      </li>
+      <li>
+	<p>
+	  The set <m>B</m> is the <term>codomain</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Codomain</h>
+	  </idx>
+	  of <m>f</m>.
+	  The codomain of <m>f</m> is the set that contains all possible output values of <m>f</m>.
+	</p>
+      </li>
+      <li>
+	<p>
+	  The <term>range</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Range</h>
+	  </idx>
+	  of <m>f</m> is the set of all possible output values
+	  <me>f(A) = \left\{f(x) \;\middle\vert\; x \in A\right\}.</me>
+	  <notation>
+	    <usage><m>f(A)</m></usage>
+	    <description>Range of <m>f</m></description>
+	  </notation>
+	</p>
+      </li>
+    </ul>
+  </definition>
+
+  <subsection>
+    <title>Algebraic Functions</title>
     <p>
-      The set <m>A</m> is the <term>domain</term>
+      While functions are defined for arbitrary sets, we will restrict our attention to functions of the form <m>f \colon A \to \R</m>, where <m>A</m> is some subset of <m>\R</m>.
+      By convention, we will use the variable <m>x</m> to stand for <em>some</em> input value from the domain of <m>f</m>.
+    </p>
+    <p>
+      It is common to refer to <m>f(x)</m> <mdash/>read "<m>f</m> of <m>x</m>" <mdash/> as the <term>value of <m>f</m> at <m>x</m></term> or the <term>image of <m>x</m> under <m>f</m></term>.
+      We will normally use the variable <m>y</m> to stand for <em>some</em> output value in the range of <m>f</m>.
+      This relationship is made explicit by writing <m>y = f(x)</m> or saying that <m>y</m> is a function of <m>x</m>.
+      Generally, the value of <m>y</m> is determined by a choice of a specific <m>x \in A</m>.
+      We call <m>x</m> the <term>independent variable</term>
+      <idx>
+	<h>Function</h>
+	<h>Independent Variable</h>
+      </idx>
+      and <m>y</m> the <term>dependent variable</term>.
+      <idx>
+	<h>Function</h>
+	<h>Dependent Variable</h>
+      </idx>
+    </p>
+
+    <p>
+      When we start from two sets <m>A</m> and <m>B</m> and write down a rule that assigns to each <m>x \in A</m> an element <m>f(x) \in B</m>, we are defining a function <term>explicitly</term>.
+      <idx>
+	<h>Function</h>
+	<h>Explicit</h>
+      </idx>
+      Most interesting subsets of the real numbers are simply too large to provide an explicit definition.
+      To get around this problem, we often rely on algebraic expression involving a variable, <m>x</m>, to define our functions.
+      These expressions are built using the operations of addition, subtraction, multiplication, division, and roots, and are called <term>algebraic functions</term>.
+      <idx>
+	<h>Function</h>
+	<h>Algebraic</h>
+      </idx>
+    </p>
+    <p>
+      When we write down an equation like 
+      <me>y = \frac{1}{x}</me>
+      we are defining a function <term>implicitly</term>.
+      <idx>
+	<h>Function</h>
+	<h>Implicit</h>
+      </idx>
+      We have not explicitly stated the domain of the function, so this function has an <term>implied domain</term>,
       <idx>
 	<h>Function</h>
 	<h>Domain</h>
+	<h>Implied</h>
       </idx>
-      of <m>f</m>, the set <m>B</m> is the <term>codomain</term>
-      <idx>
-	<h>Function</h>
-	<h>Codomain</h>
-      </idx>
-      of <m>f</m>.
-      The <term>range</term>
-      <idx>
-	<h>Function</h>
-	<h>Range</h>
-      </idx>
-      of <m>f</m> is the set of all output values
-      <me>f(A) = \left\{f(x) \;\middle\vert\; x \in A\right\}.</me>
-      <notation>
-	<usage><m>f(A)</m></usage>
-	<description>Range of <m>f</m></description>
-      </notation>
+      that consists of all real numbers for which the expression makes sense.
     </p>
-  </definition>
-  
-  <p>
-    By convention, we will write <m>y = f(x)</m> to indicate that <m>y</m> is a function of <m>x</m>.
-    We call <m>x</m> the <term>independent variable</term>
-    <idx>
-      <h>Function</h>
-      <h>Independent Variable</h>
-    </idx>
-    and <m>y</m> the <term>dependent variable</term>
-    <idx>
-      <h>Function</h>
-      <h>Dependent Variable</h>
-    </idx>
-    because every choice of <m>x</m> from the domain of <m>f</m> determines a value <m>y</m> in the range that depends on that choice.
-    In this case, we say <term><m>y</m> is a function of <m>x</m>.</term>
-  </p>
-  
-  <example component="web">
-    <statement>
-      <p>
-	Find the domain and range of the function <m>f(x) = 3x + 7</m>.
-      </p>
-    </statement>
+    
+    <example component="web">
+      <statement>
+	<p>
+	  Find the implied domain and the range of the implicit function <m>y = 1/x</m>.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  Since the ratio <m>1/x</m> makes sense for all numbers except <m>0</m>, the implied domain is the set
+	  <me>\left\{x \in \R \;\middle\vert\; x \neq 0\right\}.</me>
+	</p>
+	<p>
+	  The range of this function is the set of real numbers <m>y</m> that can be written as <m>1/x</m> for some non-zero real number <m>x</m>.
+	  If <m>y</m> is any non-zero real number, then we can write
+	  <me>y = \frac{1}{\frac{1}{y}}.</me>
+	  Therefore the range of the implicit function <m>y = 1/x</m> is the set of all non-zero real numbers
+	  <me>\left\{y \in \R \;\middle\vert\; y \neq 0\right\}.</me>
+	</p>
+      </solution>
+    </example>
 
-    <solution>
-      <p>
-	The domain of <m>f</m> is <m>\R</m> because for any real number <m>x</m>, <m>3x + 7</m> is always well-defined.
-	The codomain of this function is also <m>\R</m> because for any real number <m>x</m>, <m>3x + 7</m> will also be a real number.
-	To find the range, we want to describe the set
-	<me>\left\{3x + 7 \;\middle\vert\; x \in \R\right\}.</me>
-      </p>
-      <p>
-	We can show this is <m>\R</m> by showing that for every real number <m>y</m>, we can find a number <m>x</m> such that <m>3x + 7 = y</m>.
-	We simply solve this equation for <m>y</m> in terms of <m>x</m>
-	<md>
-	  <mrow>3x + 7 \amp = y \amp\amp \text{Subtract}\ 7\ \text{from both sides}</mrow>
-	  <mrow>3x \amp = y - 7 \amp\amp \text{Divide both sides by}\ 3</mrow>
-	  <mrow>x \amp = \frac{y - 7}{3}.</mrow>
-	</md>
-	For example, if <m>y = 10</m>, then this formula tells us this corresponds to the input
-	<me>x = \frac{10 - 7}{3} = \frac{3}{3} = 1.</me>
-      </p>
-    </solution>
-  </example>
-
-  <example component="web">
-    <statement>
-      <p>
-	Find the domain and range of the function <m>f(x) = x^2</m>.
-      </p>
-    </statement>
-    <solution>
-      <p>
-	The domain of <m>f</m> is <m>\R</m> because for any real number <m>x</m>, <m>x^2 = x \times x</m> is always well-defined.
-	The codomain of this function is also <m>\R</m> because for any real number <m>x</m>, <m>x^2</m> is a real number.
-	To find the range, we want to describe the set
-	<me>\left\{x^2 \;\middle\vert\; x \in \R\right\}.</me>
-      </p>
-      <p>
-	Given a real number <m>y</m>, we want to determine whether the equation <m>y = x^2</m> can be solved for <m>y</m>.
-	<ul>
-	  <li>
-	    When <m>y = 0</m>, there is exactly one solution: <m>x = 0</m>.
-	  </li>
-	  <li>
-	    When <m>y > 0</m>, there are two solutions: <m>x = \sqrt{y}</m> and <m>x = -\sqrt{y}</m>.
-	  </li>
-	  <li>
-	    When <m>y \lt 0</m>, there are no solutions because the square root of a negative number is not a real number.
-	  </li>
-	</ul>
-	This tells us the range of our function is the interval <m>[0, \infty)</m>.
-      </p>
-    </solution>
-  </example>
-
-  <worksheet component="print">
-    <title/>
-    <example workspace="2in">
+    <example component="web">
       <statement>
 	<p>
 	  Find the domain and range of the function <m>f(x) = 3x + 7</m>.
 	</p>
       </statement>
+
+      <solution>
+	<p>
+	  The domain of <m>f</m> is <m>\R</m> because for any real number <m>x</m>, <m>3x + 7</m> is always well-defined.
+	  The codomain of this function is also <m>\R</m> because for any real number <m>x</m>, <m>3x + 7</m> will also be a real number.
+	  To find the range, we want to describe the set
+	  <me>\left\{3x + 7 \;\middle\vert\; x \in \R\right\}.</me>
+	</p>
+	<p>
+	  We can show this is <m>\R</m> by showing that for every real number <m>y</m>, we can find a number <m>x</m> such that <m>3x + 7 = y</m>.
+	  We simply solve this equation for <m>y</m> in terms of <m>x</m>
+	  <md>
+	    <mrow>3x + 7 \amp = y \amp\amp \text{Subtract}\ 7\ \text{from both sides}</mrow>
+	    <mrow>3x \amp = y - 7 \amp\amp \text{Divide both sides by}\ 3</mrow>
+	    <mrow>x \amp = \frac{y - 7}{3}.</mrow>
+	  </md>
+	  For example, if <m>y = 10</m>, then this formula tells us this corresponds to the input
+	  <me>x = \frac{10 - 7}{3} = \frac{3}{3} = 1.</me>
+	</p>
+      </solution>
     </example>
 
-    <example workspace="2in">
+    <example component="web">
       <statement>
 	<p>
 	  Find the domain and range of the function <m>f(x) = x^2</m>.
 	</p>
       </statement>
+      <solution>
+	<p>
+	  The domain of <m>f</m> is <m>\R</m> because for any real number <m>x</m>, <m>x^2 = x \times x</m> is always well-defined.
+	  The codomain of this function is also <m>\R</m> because for any real number <m>x</m>, <m>x^2</m> is a real number.
+	  To find the range, we want to describe the set
+	  <me>\left\{x^2 \;\middle\vert\; x \in \R\right\}.</me>
+	</p>
+	<p>
+	  Given a real number <m>y</m>, we want to determine whether the equation <m>y = x^2</m> can be solved for <m>y</m>.
+	  <ul>
+	    <li>
+	      When <m>y = 0</m>, there is exactly one solution: <m>x = 0</m>.
+	    </li>
+	    <li>
+	      When <m>y > 0</m>, there are two solutions: <m>x = \sqrt{y}</m> and <m>x = -\sqrt{y}</m>.
+	    </li>
+	    <li>
+	      When <m>y \lt 0</m>, there are no solutions because the square root of a negative number is not a real number.
+	    </li>
+	  </ul>
+	  This tells us the range of our function is the interval <m>[0, \infty)</m>.
+	</p>
+      </solution>
     </example>
-  </worksheet>
-  
-  <p>
-    Whenever we define a new mathematical object, it is important to understand when two objects are <em>the same</em>.
-    For functions with the same domain and codomain, we measure equality based on the output.
-  </p>
-  
-  <definition>
-    <title>Equality of Functions</title>
+
+    <worksheet component="print">
+      <title/>
+      <page>
+	<example workspace="2in">
+	  <statement>
+	    <p>
+	      Find the implied domain and the range of the implicit function <m>y = 1/x</m>.
+	    </p>
+	  </statement>
+	</example>
+	
+	<example workspace="2in">
+	  <statement>
+	    <p>
+	      Find the domain and range of the function <m>f(x) = 3x + 7</m>.
+	    </p>
+	  </statement>
+	</example>
+
+	<example workspace="2in">
+	  <statement>
+	    <p>
+	      Find the domain and range of the function <m>f(x) = x^2</m>.
+	    </p>
+	  </statement>
+	</example>
+      </page>
+    </worksheet>
+  </subsection>
+
+  <subsection>
+    <title>Comparing Functions</title>
+    
     <p>
-      Two functions <m>f \colon A \to B</m> and <m>g \colon A \to B</m> are <term>equal</term>
-      <idx>
-	<h>Function</h>
-	<h>Equality</h>
-      </idx>
-      if for every <m>x \in A</m>, <m>f(x) = g(x)</m>.
+      Whenever we define a new mathematical object, it is important to understand when two objects are <em>the same</em>.
+      For functions with the same domain and codomain, we measure equality based on the output.
     </p>
-    <p>
-      We write <m>f = g</m>
-      <notation>
-	<usage>
-	  <m>f=g</m>
-	</usage>
-	<description>Equality of functions</description>
-      </notation>
-      to indicate that <m>f</m> and <m>g</m> represent the same function.
-    </p>
-  </definition>
+    
+    <definition>
+      <title>Equality of Functions</title>
+      <p>
+	Two functions <m>f \colon A \to B</m> and <m>g \colon A \to B</m> are <term>equal</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Equality</h>
+	</idx>
+	if for every <m>x \in A</m>, <m>f(x) = g(x)</m>.
+      </p>
+      <p>
+	We write <m>f = g</m>
+	<notation>
+	  <usage>
+	    <m>f=g</m>
+	  </usage>
+	  <description>Equality of functions</description>
+	</notation>
+	to indicate that <m>f</m> and <m>g</m> represent the same function.
+      </p>
+    </definition>
 
-  <example component="web">
-    <statement>
-      <p>
-	The functions <m>f,g \colon \R \to \R</m> defined by <m>f(x) = \sqrt{x^2}</m> and <m>g(x) = \abs{x}</m> are equal.
-      </p>
-    </statement>
-    <solution>
-      <p>
-	The functions <m>f</m> and <m>g</m> have the same domain and codomain, so it makes sense to compare these functions.
-        For every real number <m>x \geq 0</m>
-	<me>f(x) = \sqrt{x^2} = x = \abs{x} = g(x),</me>
-	and
-	<me>f(-x) = \sqrt{(-x)^2} = \sqrt{x^2} = x = \abs{-x} = g(-x).</me>
-      </p>
-    </solution>
-  </example>
-
-  <example component="web">
-    <statement>
-      <p>
-	The functions <m>f,g \colon \R \to \R</m> defined by <m>f(x) = \sqrt{x^2}</m>and <m>g(x) = x</m> are <alert>not</alert> equal.
-      </p>
-    </statement>
-    <solution>
-      <p>
-	It suffices to find <em>any</em> element of the domain where the function values are not the same.
-	The value of <m>f</m> at <m>x = -1</m> is
-	<me>f(-1) = \sqrt{(-1)^2} = \sqrt{1} = 1,</me>
-	but the value of <m>g</m> at <m>x = 1</m> is
-	<me>g(x) = -1.</me>
-	Since these are not the same, we conclude <m>f \neq g</m>.
-      </p>
-    </solution>
-  </example>
-
-  <worksheet component="print">
-    <title/>
-    <example workspace="2in">
+    <example component="web">
       <statement>
 	<p>
 	  The functions <m>f,g \colon \R \to \R</m> defined by <m>f(x) = \sqrt{x^2}</m> and <m>g(x) = \abs{x}</m> are equal.
 	</p>
       </statement>
+      <solution>
+	<p>
+	  The functions <m>f</m> and <m>g</m> have the same domain and codomain, so it makes sense to compare these functions.
+          For every real number <m>x \geq 0</m>
+	  <me>f(x) = \sqrt{x^2} = x = \abs{x} = g(x),</me>
+	  and
+	  <me>f(-x) = \sqrt{(-x)^2} = \sqrt{x^2} = x = \abs{-x} = g(-x).</me>
+	</p>
+      </solution>
     </example>
-    
-    <example workspace="2in">
+
+    <example component="web">
       <statement>
 	<p>
 	  The functions <m>f,g \colon \R \to \R</m> defined by <m>f(x) = \sqrt{x^2}</m>and <m>g(x) = x</m> are <alert>not</alert> equal.
 	</p>
       </statement>
+      <solution>
+	<p>
+	  It suffices to find <em>any</em> element of the domain where the function values are not the same.
+	  The value of <m>f</m> at <m>x = -1</m> is
+	  <me>f(-1) = \sqrt{(-1)^2} = \sqrt{1} = 1,</me>
+	  but the value of <m>g</m> at <m>x = 1</m> is
+	  <me>g(x) = -1.</me>
+	  Since these are not the same, we conclude <m>f \neq g</m>.
+	</p>
+      </solution>
     </example>
-  </worksheet>
-  
-  <p>
-    Just like an equation in the variables <m>x</m> and <m>y</m>, we will often want to visualize the functions we define.
-  </p>
 
-
-  <definition xml:id="def-graph_function">
-    <title>Graph of a Function</title>
-    <p>
-      Assume <m>A \subseteq \R</m>.
-      The <term>graph</term> of a function <m>f \colon A \to \R</m> is the set of points
-      <me>\left\{(x, f(x))\;\middle\vert\; x \in A\right\} \subseteq \R^2</me>
-    </p>
-  </definition>
-
-  <p>
-    When the function we are considering is defined by an equation, the <xref ref="def-graph" text="title"/> will coincide with the <xref ref="def-graph_function" text="title"/>.
-    While most of the functions we consider will be defined by an equation in the variables <m>x</m> and <m>y</m>, it is not the case that all equations in <m>x</m> and <m>y</m> define <m>y</m> as a function of <m>x</m>.
-  </p>
-  
-  <theorem xml:id="thm-vertical_line_test">
-    <title>The Vertical Line Test</title>
-    <statement>
-      <p>
-	An equation in the variables <m>x</m> and <m>y</m> is defines <m>y</m> as a function of <m>x</m> if and only if every vertical line intersects the graph of the relation in <alert>at most</alert> one point.
-      </p>
-    </statement>
-  </theorem>
-
-  <example component="web">
-    <introduction>
-      <p>
-	Consider the function <m>f \colon \R \to \R</m> defined by the rule <m>f(x) = x + 2</m>.
-      </p>
-    </introduction>
-    <task>
-      <statement>
-	<p>
-	  Verify that <m>f</m> is a function algebraically.
-	</p>
-      </statement>
-      <solution>
-	<p>
-	  We interpret the <xref ref="thm-vertical_line_test" text="title"/> algebraically as follows.
-	  From the <xref ref="def-graph" text="title"/>, the graph of the vertical line <m>x = a</m> is the set
-	  <me>\left\{(a,y) \;\middle\vert\; y \in \R\right\},</me>
-	  and the graph of <m>f</m> is the set
-	  <me>\left\{(x, x + 2) \;\middle\vert\; x \in R \right\}.</me>
-	</p>
-	<p>
-	  To say these graphs intersect is to say there is a point <m>(x,y)</m> in the intersection of these two sets.
-	  The condition for membership on the graph of <m>x = a</m> determines the <m>x</m> value of such a point and the definition of the graph of <m>f</m> determines the <m>y</m>-coordinate:
-	  <me>y = x + 2 = a + 2</me>.
-	  This tells us the line <m>x = a</m> intersects the graph of <m>f</m> at the single point <m>(a,a+2)</m>.
-	</p>
-      </solution>
-    </task>
-
-    <task>
-      <statement>
-	<p>
-	  Verify that <m>f</m> is a function visually.
-	</p>
-      </statement>
-      <solution>
-	<p>
-	  It is simpler to see that if we draw any veritcal line to the right of the <m>y</m>-axis, then there is exactly one point of intersection with the graph of <m>y = x+2</m>.
-	</p>
-	<figure>
-	  <image>
-	    <latex-image>
-	      <xi:include parse="text" href="tex/vertical_line_test.tex"/>
-	    </latex-image>
-	  </image>
-	  <caption>The graph <m>y = x + 2</m> and <m>y = a</m>.</caption>
-	</figure>
-      </solution>
-    </task>
-  </example>
-
-  <worksheet component="print">
-    <title/>
-    <page>
-      <example>
-	<introduction>
+    <worksheet component="print">
+      <title/>
+      <example workspace="2in">
+	<statement>
 	  <p>
-	    Consider the function <m>f \colon \R \to \R</m> defined by the rule <m>f(x) = x + 2</m>.
+	    The functions <m>f,g \colon \R \to \R</m> defined by <m>f(x) = \sqrt{x^2}</m> and <m>g(x) = \abs{x}</m> are equal.
 	  </p>
-	</introduction>
-	<task workspace="2in">
-	  <statement>
-	    <p>
-	      Verify that <m>f</m> is a function algebraically.
-	    </p>
-	  </statement>
-	</task>
-	<task>
-	  <statement>
-	    <p>
-	      Verify that <m>f</m> is a function visually.
-	    </p>
-	    <figure>
-	      <image width="50%">
-		<latex-image>
-		  \begin{tikzpicture}[scale=0.5]
-		  \def\size{5};
-
-		  \path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
-
-		  \foreach \i in {1,...,\size}
-		  \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
-		  (-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
-		  (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
-		  (2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
-		  
-		  \draw [very thick,->] (-\size,0) -- (\size+.2,0) node [anchor=south] {$x$};
-		  \draw [very thick,->] (0,-\size) -- (0,\size+.2) node [anchor=west] {$y$};
-
-		  \begin{scope}
-		  \clip (-5,-5) rectangle (5,5);
-		  \draw [thick,blue] plot (\x, \x + 2);
-		  \end{scope}
-		  \end{tikzpicture}
-		</latex-image>
-	      </image>
-	      <cpation>The graph of <m>y = x + 2</m></cpation>
-	    </figure>
-	  </statement>
-	</task>
+	</statement>
       </example>
-    </page>
-  </worksheet>
+      
+      <example workspace="2in">
+	<statement>
+	  <p>
+	    The functions <m>f,g \colon \R \to \R</m> defined by <m>f(x) = \sqrt{x^2}</m>and <m>g(x) = x</m> are <alert>not</alert> equal.
+	  </p>
+	</statement>
+      </example>
+    </worksheet>
+  </subsection>
 
-  <example component="web">
-    <statement>
-      <p>
-	The equation <m>x = y^2</m> does <alert>not</alert> define <m>y</m> as a function of <m>x</m>.
-      </p>
-    </statement>
-    <solution>
-      <p>
-	Recall that for every positive number <m>x</m>, there are always two square roots: <m>\sqrt{x}</m> and <m>-\sqrt{x}</m>.
-	This tells us the ordered pairs <m>(x, \sqrt{x})</m> and <m>(x, -\sqrt{x})</m> both satisfy the equation <m>x = y^2</m>
-	For example, the ordered pairs <m>(1,1)</m> and <m>(1,-1)</m> satisfy
-	<me>1 = 1^2 \quad\text{and}\quad 1 = (-1)^2.</me>
-	Since the definition a <xref ref="def-function" text="title"/> requires that each element of the domain corresponds to <alert>exactly</alert> one element of the codomain, we see this cannot be a function.
-	That is, equation <m>x = y^2</m> fails the <xref ref="thm-vertical_line_test" text="title"/>.
-	<figure>
-	  <image>
-	    <latex-image>
-	      <xi:include parse="text" href="tex/non_function.tex"/>
-	    </latex-image>
-	  </image>
-	  <caption>The graph of the equation <m>x = y^2</m> and the line <m>x = 1</m>.</caption>
-	</figure>
-      </p>
-    </solution>
-  </example>
+  <subsection>
+    <title>Graphing Functions</title>
+    <p>
+      The ability to visualize a function often provides an immense amount of insight into how the function behaves.
+      The graph of a function is defined in a manner similar to the graph of an equation.
+    </p>
 
-  <worksheet component="print">
-    <title/>
-    <example>
+    <definition xml:id="def-graph_function">
+      <title>Graph of a Function</title>
+      <p>
+	Assume <m>A \subseteq \R</m>.
+	The <term>graph</term> of a function <m>f \colon A \to \R</m> is the set of points
+	<me>\left\{(x, f(x))\;\middle\vert\; x \in A\right\} \subseteq \R^2</me>
+      </p>
+    </definition>
+
+    <p>
+      When the function is implicitly defined by an equation in the variables <m>x</m> and <m>y</m>, the <xref ref="def-graph" text="title"/> will coincide with the <xref ref="def-graph_function" text="title"/>.
+      While most of the functions we consider will be defined by an equation in the variables <m>x</m> and <m>y</m>, it is not the case that all equations in <m>x</m> and <m>y</m> define <m>y</m> as a function of <m>x</m>.
+    </p>
+    
+    <theorem xml:id="thm-vertical_line_test">
+      <title>The Vertical Line Test</title>
+      <statement>
+	<p>
+	  An equation in the variables <m>x</m> and <m>y</m> is defines <m>y</m> as a function of <m>x</m> if and only if every vertical line intersects the graph of the relation in <alert>at most</alert> one point.
+	</p>
+      </statement>
+    </theorem>
+
+    <example component="web">
+      <introduction>
+	<p>
+	  Consider the function <m>f \colon \R \to \R</m> defined by the rule <m>f(x) = x + 2</m>.
+	</p>
+      </introduction>
+      <task>
+	<statement>
+	  <p>
+	    Verify that <m>f</m> is a function algebraically.
+	  </p>
+	</statement>
+	<solution>
+	  <p>
+	    We interpret the <xref ref="thm-vertical_line_test" text="title"/> algebraically as follows.
+	    From the <xref ref="def-graph" text="title"/>, the graph of the vertical line <m>x = a</m> is the set
+	    <me>\left\{(a,y) \;\middle\vert\; y \in \R\right\},</me>
+	    and the graph of <m>f</m> is the set
+	    <me>\left\{(x, x + 2) \;\middle\vert\; x \in R \right\}.</me>
+	  </p>
+	  <p>
+	    To say these graphs intersect is to say there is a point <m>(x,y)</m> in the intersection of these two sets.
+	    The condition for membership on the graph of <m>x = a</m> determines the <m>x</m> value of such a point and the definition of the graph of <m>f</m> determines the <m>y</m>-coordinate:
+	    <me>y = x + 2 = a + 2</me>.
+	    This tells us the line <m>x = a</m> intersects the graph of <m>f</m> at the single point <m>(a,a+2)</m>.
+	  </p>
+	</solution>
+      </task>
+
+      <task>
+	<statement>
+	  <p>
+	    Verify that <m>f</m> is a function visually.
+	  </p>
+	</statement>
+	<solution>
+	  <p>
+	    It is simpler to see that if we draw any veritcal line to the right of the <m>y</m>-axis, then there is exactly one point of intersection with the graph of <m>y = x+2</m>.
+	  </p>
+	  <figure>
+	    <image>
+	      <latex-image>
+		<xi:include parse="text" href="tex/vertical_line_test.tex"/>
+	      </latex-image>
+	    </image>
+	    <caption>The graph <m>y = x + 2</m> and <m>y = a</m>.</caption>
+	  </figure>
+	</solution>
+      </task>
+    </example>
+
+    <worksheet component="print">
+      <title/>
+      <page>
+	<example>
+	  <introduction>
+	    <p>
+	      Consider the function <m>f \colon \R \to \R</m> defined by the rule <m>f(x) = x + 2</m>.
+	    </p>
+	  </introduction>
+	  <task workspace="2in">
+	    <statement>
+	      <p>
+		Verify that <m>f</m> is a function algebraically.
+	      </p>
+	    </statement>
+	  </task>
+	  <task>
+	    <statement>
+	      <p>
+		Verify that <m>f</m> is a function visually.
+	      </p>
+	      <figure>
+		<image width="50%">
+		  <latex-image>
+		    \begin{tikzpicture}[scale=0.5]
+		    \def\size{5};
+
+		    \path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
+
+		    \foreach \i in {1,...,\size}
+		    \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
+		    (-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
+		    (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
+		    (2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
+		    
+		    \draw [very thick,->] (-\size,0) -- (\size+.2,0) node [anchor=south] {$x$};
+		    \draw [very thick,->] (0,-\size) -- (0,\size+.2) node [anchor=west] {$y$};
+
+		    \begin{scope}
+		    \clip (-5,-5) rectangle (5,5);
+		    \draw [thick,blue] plot (\x, \x + 2);
+		    \end{scope}
+		    \end{tikzpicture}
+		  </latex-image>
+		</image>
+		<cpation>The graph of <m>y = x + 2</m></cpation>
+	      </figure>
+	    </statement>
+	  </task>
+	</example>
+      </page>
+    </worksheet>
+
+    <example component="web">
       <statement>
 	<p>
 	  The equation <m>x = y^2</m> does <alert>not</alert> define <m>y</m> as a function of <m>x</m>.
 	</p>
-	<figure>
-	  <image width="50%">
-	    <latex-image>
-	      \begin{tikzpicture}[domain=0:4]
-	      \draw[very thin,color=gray] (0,-2) grid (4,2);
-
-	      \draw[very thick,->] (0,0) -- (4.2,0) node[right] {$x$};
-	      \draw[very thick,->] (0,-2) -- (0,2.2) node[above] {$y$};
-	      
-	      \draw [color=blue,thick] plot[smooth,samples=500] (\x,{sqrt(\x)});
-	      \draw [color=blue,thick] plot[smooth,samples=500] (\x,{-sqrt(\x)});
-	      \end{tikzpicture}
-	    </latex-image>
-	  </image>
-	  <caption>The graph of the equation <m>x = y^2</m>.</caption>
-	</figure>
       </statement>
+      <solution>
+	<p>
+	  Recall that for every positive number <m>x</m>, there are always two square roots: <m>\sqrt{x}</m> and <m>-\sqrt{x}</m>.
+	  This tells us the ordered pairs <m>(x, \sqrt{x})</m> and <m>(x, -\sqrt{x})</m> both satisfy the equation <m>x = y^2</m>
+	  For example, the ordered pairs <m>(1,1)</m> and <m>(1,-1)</m> satisfy
+	  <me>1 = 1^2 \quad\text{and}\quad 1 = (-1)^2.</me>
+	  Since the definition a <xref ref="def-function" text="title"/> requires that each element of the domain corresponds to <alert>exactly</alert> one element of the codomain, we see this cannot be a function.
+	  That is, equation <m>x = y^2</m> fails the <xref ref="thm-vertical_line_test" text="title"/>.
+	  <figure>
+	    <image>
+	      <latex-image>
+		<xi:include parse="text" href="tex/non_function.tex"/>
+	      </latex-image>
+	    </image>
+	    <caption>The graph of the equation <m>x = y^2</m> and the line <m>x = 1</m>.</caption>
+	  </figure>
+	</p>
+      </solution>
     </example>
-  </worksheet>
+
+    <worksheet component="print">
+      <title/>
+      <example>
+	<statement>
+	  <p>
+	    The equation <m>x = y^2</m> does <alert>not</alert> define <m>y</m> as a function of <m>x</m>.
+	  </p>
+	  <figure>
+	    <image width="50%">
+	      <latex-image>
+		\begin{tikzpicture}[domain=0:4]
+		\draw[very thin,color=gray] (0,-2) grid (4,2);
+
+		\draw[very thick,->] (0,0) -- (4.2,0) node[right] {$x$};
+		\draw[very thick,->] (0,-2) -- (0,2.2) node[above] {$y$};
+		
+		\draw [color=blue,thick] plot[smooth,samples=500] (\x,{sqrt(\x)});
+		\draw [color=blue,thick] plot[smooth,samples=500] (\x,{-sqrt(\x)});
+		\end{tikzpicture}
+	      </latex-image>
+	    </image>
+	    <caption>The graph of the equation <m>x = y^2</m>.</caption>
+	  </figure>
+	</statement>
+      </example>
+    </worksheet>
+  </subsection>
 
   <xi:include href="worksheets/wksht-functions.ptx"/>
 </section>
