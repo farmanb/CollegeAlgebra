@@ -310,10 +310,10 @@
       </statement>
       <solution>
 	<p>
-	  We can more readily see this graphically in <xref ref="fig-vertical_line_test_example"/>.
+	  It is simpler to see that if we draw any veritcal line to the right of the <m>y</m>-axis, then there is exactly one point of intersection with the graph of <m>y = x+2</m>.
 	</p>
-	<figure xml:id="fig-vertical_line_test_example">
-	  <image xml:id="img-vertical_line_text_example">
+	<figure>
+	  <image>
 	    <latex-image>
 	      <xi:include parse="text" href="tex/vertical_line_test.tex"/>
 	    </latex-image>
@@ -327,50 +327,52 @@
   <worksheet component="print">
     <title/>
     <page>
-      <introduction>
-	<p>
-	  Consider the function <m>f \colon \R \to \R</m> defined by the rule <m>f(x) = x + 2</m>.
-	</p>
-      </introduction>
-      <example workspace="2in">
-	<statement>
-	  <p>
-	    Verify that <m>f</m> is a function algebraically.
-	  </p>
-	</statement>
-      </example>
       <example>
-	<statement>
+	<introduction>
 	  <p>
-	    Verify that <m>f</m> is a function visually.
+	    Consider the function <m>f \colon \R \to \R</m> defined by the rule <m>f(x) = x + 2</m>.
 	  </p>
-	  <figure>
-	    <image width="50%">
-	      <latex-image>
-		\begin{tikzpicture}[scale=0.5]
-		\def\size{5};
+	</introduction>
+	<task workspace="2in">
+	  <statement>
+	    <p>
+	      Verify that <m>f</m> is a function algebraically.
+	    </p>
+	  </statement>
+	</task>
+	<task>
+	  <statement>
+	    <p>
+	      Verify that <m>f</m> is a function visually.
+	    </p>
+	    <figure>
+	      <image width="50%">
+		<latex-image>
+		  \begin{tikzpicture}[scale=0.5]
+		  \def\size{5};
 
-		\path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
+		  \path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
 
-		\foreach \i in {1,...,\size}
-		\draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
-		(-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
-		(2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
-		(2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
-		
-		\draw [very thick,->] (-\size,0) -- (\size+.2,0) node [anchor=south] {$x$};
-		\draw [very thick,->] (0,-\size) -- (0,\size+.2) node [anchor=west] {$y$};
+		  \foreach \i in {1,...,\size}
+		  \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
+		  (-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
+		  (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
+		  (2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
+		  
+		  \draw [very thick,->] (-\size,0) -- (\size+.2,0) node [anchor=south] {$x$};
+		  \draw [very thick,->] (0,-\size) -- (0,\size+.2) node [anchor=west] {$y$};
 
-		\begin{scope}
-		\clip (-5,-5) rectangle (5,5);
-		\draw [thick,blue] plot (\x, \x + 2);
-		\end{scope}
-		\end{tikzpicture}
-	      </latex-image>
-	    </image>
-	    <cpation>The graph of <m>y = x + 2</m></cpation>
-	  </figure>
-	</statement>
+		  \begin{scope}
+		  \clip (-5,-5) rectangle (5,5);
+		  \draw [thick,blue] plot (\x, \x + 2);
+		  \end{scope}
+		  \end{tikzpicture}
+		</latex-image>
+	      </image>
+	      <cpation>The graph of <m>y = x + 2</m></cpation>
+	    </figure>
+	  </statement>
+	</task>
       </example>
     </page>
   </worksheet>
@@ -389,8 +391,8 @@
 	<me>1 = 1^2 \quad\text{and}\quad 1 = (-1)^2.</me>
 	Since the definition a <xref ref="def-function" text="title"/> requires that each element of the domain corresponds to <alert>exactly</alert> one element of the codomain, we see this cannot be a function.
 	That is, equation <m>x = y^2</m> fails the <xref ref="thm-vertical_line_test" text="title"/>.
-	<figure xml:id="fig-non_function">
-	  <image xml:id="img-non_function">
+	<figure>
+	  <image>
 	    <latex-image>
 	      <xi:include parse="text" href="tex/non_function.tex"/>
 	    </latex-image>

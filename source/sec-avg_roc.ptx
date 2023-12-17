@@ -24,7 +24,7 @@
     </p>
   </definition>
 
-  <example>
+  <example component="web">
     <introduction>
       <p>
 	An object is thrown straight up in the air.
@@ -91,8 +91,58 @@
 	  We can interpret this as saying the object climbs and falls at the same speed.
 	</p>
       </solution>
-      </task>
+    </task>
   </example>
+
+  <worksheet component="print">
+    <title/>
+    <page>
+      <example>
+	<introduction>
+	  <p>
+	    An object is thrown straight up in the air.
+	    The object reaches a maximum height of 1 meter after 1 seconds, and returns to the thrower's hand after 2 seconds.
+	    The function <m>h \colon [0,2] \to \R</m> models the height of the object in meters as a function of <m>x</m> seconds.
+	    <figure>
+	      <image>
+		<latex-image>
+		  <xi:include parse="text" href="tex/kinematic.tex"/>
+		</latex-image>
+	      </image>
+	      <caption>The graph of <m>h(x)</m></caption>
+	    </figure>
+	  </p>
+	</introduction>
+      </example>
+
+      <task workspace="1in">
+	<statement>
+	  <p>
+	    What is the average rate of change for the function on the interval <m>[0,1]</m>?
+	    Interpret the meaning of this number.
+	  </p>
+	</statement>
+      </task>
+    </page>
+    <page>
+      <task workspace="1in">
+	<statement>
+	  <p>
+	    What is the average rate of change for the function on the interval <m>[0,1]</m>?
+	    Interpret the meaning of this number.
+	  </p>
+	</statement>
+      </task>
+      
+      <task workspace="1in">
+	<statement>
+	  <p>
+	    What is the average rate of change for the function on the interval <m>[0,2]</m>?
+	  </p>
+	</statement>
+      </task>
+    </page>
+  </worksheet>
 
   <xi:include href="worksheets/wksht-avg_roc.ptx"/>
 </section>

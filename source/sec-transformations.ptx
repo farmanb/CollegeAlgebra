@@ -49,7 +49,7 @@
 	</ul>
       </definition>
       
-      <example>
+      <example component="web">
 	<statement>
 	  <p>
 	    Use <xref ref="fig-parabola" text="title"/> to graph the functions <m>g(x) = x^2 + 2</m> and <m>h(x) = x^2 - 3</m>.
@@ -68,6 +68,32 @@
 	  </figure>
 	</solution>
       </example>
+
+      <worksheet component="print">
+	<title/>
+	<page>
+	  <example>
+	    <statement>
+	      <p>
+		Use the graph of <m>y = x^2</m> to graph the functions <m>g(x) = x^2 + 2</m> and <m>h(x) = x^2 - 3</m>.
+	      </p>
+	      <figure>
+		<image width="50%">
+		  <latex-image>
+		    <xi:include parse="text" href="tex/basic_functions/parabola.tex"/>
+		  </latex-image>
+		</image>
+		<caption>The graph of <m>y = x^2</m></caption>
+	      </figure>
+	      <image width="50%">
+		<latex-image>
+		  <xi:include parse="text" href="tex/5_5_grid.tex"/>
+		</latex-image>
+	      </image>
+	    </statement>
+	  </example>
+	</page>
+      </worksheet>
     </subsubsection>
     
     <subsubsection>
@@ -100,7 +126,7 @@
 	</ul>
       </definition>
 
-      <example>
+      <example component="web">
 	<statement>
 	  <p>
 	    Use <xref ref="fig-parabola" text="title"/> to graph the functions <m>g(x) = (x+2)^2</m> and <m>h(x) = (x-3)^2</m>.
@@ -119,6 +145,32 @@
 	  </figure>
 	</solution>
       </example>
+
+      <worksheet component="print">
+	<title/>
+	<page>
+	  <example>
+	    <statement>
+	      <p>
+		Use <xref ref="fig-parabola" text="title"/> to graph the functions <m>g(x) = (x+2)^2</m> and <m>h(x) = (x-3)^2</m>.
+	      </p>
+	      <figure>
+		<image width="50%">
+		  <latex-image>
+		    <xi:include parse="text" href="tex/basic_functions/parabola.tex"/>
+		  </latex-image>
+		</image>
+		<caption>The graph of <m>y = x^2</m></caption>
+	      </figure>
+	      <image width="50%">
+		<latex-image>
+		  <xi:include parse="text" href="tex/5_5_grid.tex"/>
+		</latex-image>
+	      </image>
+	    </statement>
+	  </example>
+	</page>
+      </worksheet>
     </subsubsection>
 
   </subsection>
@@ -158,7 +210,7 @@
 	</ul>
       </definition>
 
-      <example>
+      <example component="web">
 	<statement>
 	  <p>
 	    Use <xref ref="fig-parabola" text="title"/> to graph the functions <m>g(x) = 2x^2</m> and <m>h(x) = \frac{2}{3}x^2</m>.
@@ -177,7 +229,32 @@
 	  </figure>
 	</solution>
       </example>
-      
+
+      <worksheet component="print">
+	<title/>
+	<page>
+	  <example>
+	    <statement>
+	      <p>
+		Use the graph of <m>y=x^2</m> to graph the functions <m>g(x) = 2x^2</m> and <m>h(x) = \frac{2}{3}x^2</m>.
+	      </p>
+	      <figure>
+		<image width="50%">
+		  <latex-image>
+		    <xi:include parse="text" href="tex/basic_functions/parabola.tex"/>
+		  </latex-image>
+		</image>
+		<caption>The graph of <m>y = x^2</m></caption>
+	      </figure>
+	      <image width="50%">
+		<latex-image>
+		  <xi:include parse="text" href="tex/5_5_grid.tex"/>
+		</latex-image>
+	      </image>
+	    </statement>
+	  </example>
+	</page>
+      </worksheet>
     </subsubsection>
 
     <subsection>
@@ -208,7 +285,7 @@
 	</ul>
       </definition>
 
-      <example>
+      <example component="web">
 	<statement>
 	  <p>
 	    Use <xref ref="fig-sq_root" text="title"/> to graph the functions <m>g(x) = -\sqrt{x}</m> and <m>h(x) = \sqrt{-x}</m>.
@@ -227,6 +304,27 @@
 	  </figure>
 	</solution>
       </example>
+
+      <worksheet>
+	<title/>
+	<page>
+	  <example>
+	    <statement>
+	      <p>
+		Use the graph of <m>y = x^2</m> to graph the functions <m>g(x) = -\sqrt{x}</m> and <m>h(x) = \sqrt{-x}</m>.
+	      </p>
+	      <figure>
+		<image width="50%">
+		  <latex-image>
+		    <xi:include parse="text" href="tex/basic_functions/parabola.tex"/>
+		  </latex-image>
+		</image>
+		<caption>The graph of <m>y = x^2</m></caption>
+	      </figure>
+	    </statement>
+	  </example>
+	</page>
+      </worksheet>
     </subsection>
     
     <subsubsection>
@@ -259,7 +357,7 @@
 	</ul>
       </definition>
 
-      <example>
+      <example component="web">
 	<statement>
 	  <p>
 	    Use <xref ref="fig-parabola" text="title"/> to graph the functions <m>g(x) = (2x)^2</m> and <m>h(x) = \left(\frac{2}{3}x\right)^2</m>.
@@ -278,6 +376,26 @@
 	  </figure>
 	</solution>
       </example>
+
+      <worksheet>
+	<title/>
+	<page>
+	  <example>
+	    <statement>
+	      <p>
+		Use the graph of <m>y = x^2</m> to graph the functions <m>g(x) = (2x)^2</m> and <m>h(x) = \left(\frac{2}{3}x\right)^2</m>.
+	      </p>
+	      <figure>
+		<image width="50%">
+		  <latex-image>
+		    <xi:include parse="text" href="tex/basic_functions/parabola.tex"/>
+		  </latex-image>
+		</image>
+	      </figure>
+	    </statement>
+	  </example>
+	</page>
+      </worksheet>
     </subsubsection>
 
     <subsubsection>
@@ -297,7 +415,7 @@
 	</ol>
       </algorithm>
 
-      <example>
+      <example component="web">
 	<statement>
 	  <p>
 	    Use <xref ref="fig-parabola" text="title"/> to graph the function <m>g(x) = 2(x + 3)^2 - 2</m>.
@@ -321,7 +439,32 @@
 	  </figure>
 	</solution>
       </example>
-      
+
+      <worksheet component="print">
+	<title/>
+	<page>
+	  <example>
+	    <statement>
+	      <p>
+		Use the graph of <m>y = x^2</m> to graph the function <m>g(x) = 2(x + 3)^2 - 2</m>.
+	      </p>
+	      <figure>
+		<image width="50%">
+		  <latex-image>
+		    <xi:include parse="text" href="tex/basic_functions/parabola.tex"/>
+		  </latex-image>
+		</image>
+		<caption>The graph of <m>y = x^2</m></caption>
+	      </figure>
+	      <image width="50%">
+		<latex-image>
+		  <xi:include parse="text" href="tex/5_5_grid.tex"/>
+		</latex-image>
+	      </image>
+	    </statement>
+	  </example>
+	</page>
+      </worksheet>
     </subsubsection>
   </subsection>
 
