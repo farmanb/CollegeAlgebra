@@ -110,7 +110,7 @@
       </idx>
     </definition>
     
-    <example>
+    <example component="web">
       <p>
 	The graph of the equation <m>y = 2x - 2</m> is shown below.
 	The <m>y</m>-intercept occurs when <m>x = 0</m> and
@@ -132,11 +132,39 @@
 	<caption>The graph of the equation <m>y = 2x - 2</m>.</caption>
 	<image>
 	  <latex-image>
-	    <xi:include parse="text" href="tex/y_2x_-2.tex"/>
+	    <xi:include parse="text" href="tex/y_2x-2-with_points.tex"/>
 	  </latex-image>
 	</image>
       </figure>
     </example>
+
+    <worksheet component="print">
+      <example>
+	<statement>
+	  <p>
+	    The graph of the equation <m>y = 2x - 2</m> is shown below.
+	  </p>
+	  <figure>
+	    <caption>The graph of the equation <m>y = 2x - 2</m>.</caption>
+	    <image>
+	      <latex-image>
+		<xi:include parse="text" href="tex/y_2x_-2.tex"/>
+	      </latex-image>
+	    </image>
+	  </figure>
+	  <task>
+	    <p>
+	      Find the coordinates of the <m>y</m>-intercept and plot it on the graph.
+	    </p>
+	  </task>
+	  <task>
+	    <p>
+	      Find the coordinates of the <m>x</m>-intercept and plot it on the graph.
+	    </p>
+	  </task>
+	</statement>
+      </example>
+    </worksheet>
   </subsection>
 
   <subsection>
@@ -207,9 +235,9 @@
     </example>
 
     <worksheet component="print">
-      <title>Plotting Horizontal Lines</title>
+      <title/>
       <page>
-	<exercise>
+	<example>
 	  <statement>
 	    <p>
 	      Graph the equation <m>y = 0</m>.
@@ -220,10 +248,10 @@
 	      </latex-image>
 	    </image>
 	  </statement>
-	</exercise>
+	</example>
       </page>
       <page>
-	<exercise>
+	<example>
 	  <statement>
 	    <p>
 	      Graph the equation <m>3y = 7</m>.
@@ -234,7 +262,7 @@
 	      </latex-image>
 	    </image>
 	  </statement>
-	</exercise>
+	</example>
       </page>
     </worksheet>
   </subsection>
@@ -306,9 +334,9 @@
       </solution>
     </example>
     <worksheet component="print">
-      <title>Plotting Vertical Lines</title>
+      <title/>
       <page>
-	<exercise>
+	<example>
 	  <statement>
 	    <p>
 	      Graph the equation <m>x = 0</m>.
@@ -319,10 +347,10 @@
 	      </latex-image>
 	    </image>
 	  </statement>
-	</exercise>
+	</example>
       </page>
       <page>
-	<exercise>
+	<example>
 	  <statemnt>
 	    <p>
 	      Graph the equation <m>3x = 2</m>.
@@ -333,7 +361,7 @@
 	      </latex-image>
 	    </image>
 	  </statemnt>
-	</exercise>
+	</example>
       </page>
     </worksheet>
   </subsection>

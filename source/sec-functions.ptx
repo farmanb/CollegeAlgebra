@@ -86,7 +86,7 @@
     In this case, we say <term><m>y</m> is a function of <m>x</m>.</term>
   </p>
   
-  <example>
+  <example component="web">
     <statement>
       <p>
 	Find the domain and range of the function <m>f(x) = 3x + 7</m>.
@@ -114,7 +114,7 @@
     </solution>
   </example>
 
-  <example>
+  <example component="web">
     <statement>
       <p>
 	Find the domain and range of the function <m>f(x) = x^2</m>.
@@ -145,6 +145,25 @@
     </solution>
   </example>
 
+  <worksheet component="print">
+    <title></title>
+    <example workspace="2in">
+      <statement>
+	<p>
+	  Find the domain and range of the function <m>f(x) = 3x + 7</m>.
+	</p>
+      </statement>
+    </example>
+
+    <example workspace="2in">
+      <statement>
+	<p>
+	  Find the domain and range of the function <m>f(x) = x^2</m>.
+	</p>
+      </statement>
+    </example>
+  </worksheet>
+  
   <p>
     Whenever we define a new mathematical object, it is important to understand when two objects are <em>the same</em>.
     For functions with the same domain and codomain, we measure equality based on the output.

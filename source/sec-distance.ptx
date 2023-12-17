@@ -124,15 +124,15 @@
   </example>
 
   <worksheet component="print">
-    <title>Examples</title>
+    <title/>
     <page>
-      <exercise>
+      <example>
 	<statement>
 	  <p>
 	    Find the distance between the points <m>(3,-2)</m> and <m>(4,7)</m>.
 	  </p>
 	</statement>
-      </exercise>
+      </example>
     </page>
   </worksheet>
   
