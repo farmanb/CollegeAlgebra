@@ -191,33 +191,58 @@
     </p>
   </definition>
 
-  <example>
-    <p>
-      The functions <m>f,g \colon \R \to \R</m> defined by <m>f(x) = \sqrt{x^2}</m> and <m>g(x) = \abs{x}</m> are equal because
-    </p>
-    <ol>
-      <li>
-	<p>
-	  The functions <m>f</m> and <m>g</m> have the same domain and codomain, and
-	</p>
-      </li>
-      <li>
-	<p>
-	  For every real number <m>x \geq 0</m>
-	  <me>f(x) = \sqrt{x^2} = x = \abs{x} = g(x),</me>
-	  and
-	  <me>f(-x) = \sqrt{(-x)^2} = \sqrt{x^2} = x = \abs{-x} = g(-x).</me>
-	</p>
-      </li>
-    </ol>
+  <example component="web">
+    <statement>
+      <p>
+	The functions <m>f,g \colon \R \to \R</m> defined by <m>f(x) = \sqrt{x^2}</m> and <m>g(x) = \abs{x}</m> are equal.
+      </p>
+    </statement>
+    <solution>
+      <p>
+	The functions <m>f</m> and <m>g</m> have the same domain and codomain, so it makes sense to compare these functions.
+        For every real number <m>x \geq 0</m>
+	<me>f(x) = \sqrt{x^2} = x = \abs{x} = g(x),</me>
+	and
+	<me>f(-x) = \sqrt{(-x)^2} = \sqrt{x^2} = x = \abs{-x} = g(-x).</me>
+      </p>
+    </solution>
   </example>
 
-  <example>
-    <p>
-      The functions <m>f \colon \R \to \R</m> and <m>g \colon \R \to \R</m> defined by <m>f(x) = \sqrt{x^2}</m> and <m>g(x) = x</m> are <alert>not</alert> equal because
-      <me>f(-1) = \sqrt{(-1)^2} = \sqrt{1} = 1 \neq -1 = g(-1).</me>
-    </p>
+  <example component="web">
+    <statement>
+      <p>
+	The functions <m>f,g \colon \R \to \R</m> defined by <m>f(x) = \sqrt{x^2}</m>and <m>g(x) = x</m> are <alert>not</alert> equal.
+      </p>
+    </statement>
+    <solution>
+      <p>
+	It suffices to find <em>any</em> element of the domain where the function values are not the same.
+	The value of <m>f</m> at <m>x = -1</m> is
+	<me>f(-1) = \sqrt{(-1)^2} = \sqrt{1} = 1,</me>
+	but the value of <m>g</m> at <m>x = 1</m> is
+	<me>g(x) = -1.</me>
+	Since these are not the same, we conclude <m>f \neq g</m>.
+      </p>
+    </solution>
   </example>
+
+  <worksheet component="print">
+    <example workspace="2in">
+      <statement>
+	<p>
+	  The functions <m>f,g \colon \R \to \R</m> defined by <m>f(x) = \sqrt{x^2}</m> and <m>g(x) = \abs{x}</m> are equal.
+	</p>
+      </statement>
+    </example>
+    
+    <example workspace="2in">
+      <statement>
+	<p>
+	  The functions <m>f,g \colon \R \to \R</m> defined by <m>f(x) = \sqrt{x^2}</m>and <m>g(x) = x</m> are <alert>not</alert> equal.
+	</p>
+      </statement>
+    </example>
+  </worksheet>
   
   <p>
     Just like an equation in the variables <m>x</m> and <m>y</m>, we will often want to visualize the functions we define.
@@ -247,56 +272,162 @@
     </statement>
   </theorem>
 
-  <example>
-    <p>
-      Consider the function <m>f \colon \R \to \R</m> defined by the rule <m>f(x) = x + 2</m>.
-      We can verify this is a function in one of two ways.
-      One way is to interpret the <xref ref="thm-vertical_line_test" text="title"/> algebraically.
-    </p>
-    <p>
-      From the <xref ref="def-graph" text="title"/>, the graph of the vertical line <m>x = a</m> is the set
-      <me>\left\{(a,y) \;\middle\vert\; y \in \R\right\},</me>
-      and the graph of <m>f</m> is the set of
-      <me>\left\{(x, x + 2) \;\middle\vert\; x \in R \right\}.</me>
-      To say these graphs intersect is to say there is a point <m>(x,y)</m> in the intersection of these two sets.
-      The condition for membership on the graph of <m>x = a</m> determines the <m>x</m> value of such a point and the definition of the graph of <m>f</m> determines the <m>y</m>-coordinate:
-      <me>y = x + 2 = a + 2</me>.
-      This tells us the line <m>x = a</m> intersects the graph of <m>f</m> at the single point <m>(a,a+2)</m>.
-    </p>
-    <p>
-      We can more readily see this graphically in <xref ref="fig-vertical_line_test_example"/>.
-    </p>
-    <figure xml:id="fig-vertical_line_test_example">
-      <image xml:id="img-vertical_line_text_example">
-	<latex-image>
-	  <xi:include parse="text" href="tex/vertical_line_test.tex"/>
-	</latex-image>
-      </image>
-      <caption>The graph <m>y = x + 2</m> and <m>y = a</m>.</caption>
-    </figure>
+  <example component="web">
+    <introduction>
+      <p>
+	Consider the function <m>f \colon \R \to \R</m> defined by the rule <m>f(x) = x + 2</m>.
+      </p>
+    </introduction>
+    <task>
+      <statement>
+	<p>
+	  Verify that <m>f</m> is a function algebraically.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  We interpret the <xref ref="thm-vertical_line_test" text="title"/> algebraically as follows.
+	  From the <xref ref="def-graph" text="title"/>, the graph of the vertical line <m>x = a</m> is the set
+	  <me>\left\{(a,y) \;\middle\vert\; y \in \R\right\},</me>
+	  and the graph of <m>f</m> is the set
+	  <me>\left\{(x, x + 2) \;\middle\vert\; x \in R \right\}.</me>
+	</p>
+	<p>
+	  To say these graphs intersect is to say there is a point <m>(x,y)</m> in the intersection of these two sets.
+	  The condition for membership on the graph of <m>x = a</m> determines the <m>x</m> value of such a point and the definition of the graph of <m>f</m> determines the <m>y</m>-coordinate:
+	  <me>y = x + 2 = a + 2</me>.
+	  This tells us the line <m>x = a</m> intersects the graph of <m>f</m> at the single point <m>(a,a+2)</m>.
+	</p>
+      </solution>
+    </task>
+
+    <task>
+      <statement>
+	<p>
+	  Verify that <m>f</m> is a function visually.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  We can more readily see this graphically in <xref ref="fig-vertical_line_test_example"/>.
+	</p>
+	<figure xml:id="fig-vertical_line_test_example">
+	  <image xml:id="img-vertical_line_text_example">
+	    <latex-image>
+	      <xi:include parse="text" href="tex/vertical_line_test.tex"/>
+	    </latex-image>
+	  </image>
+	  <caption>The graph <m>y = x + 2</m> and <m>y = a</m>.</caption>
+	</figure>
+      </solution>
+    </task>
   </example>
 
-  <example>
-    <p>
-      The equation <m>x = y^2</m> does <alert>not</alert> define <m>y</m> as a function of <m>x</m>.
-    </p>
-    <p>
-      Recall that for every positive number <m>x</m>, there are always two square roots: <m>\sqrt{x}</m> and <m>-\sqrt{x}</m>.
-      This tells us the ordered pairs <m>(x, \sqrt{x})</m> and <m>(x, -\sqrt{x})</m> both satisfy the equation <m>x = y^2</m>
-      For example, the ordered pairs <m>(1,1)</m> and <m>(1,-1)</m> satisfy
-      <me>1 = 1^2 \quad\text{and}\quad 1 = (-1)^2.</me>
-      Since the definition a <xref ref="def-function" text="title"/> requires that each element of the domain corresponds to <alert>exactly</alert> one element of the codomain, we see this cannot be a function.
-      That is, equation <m>x = y^2</m> fails the <xref ref="thm-vertical_line_test" text="title"/>.
-      <figure xml:id="fig-non_function">
-	<image xml:id="img-non_function">
-	  <latex-image>
-	    <xi:include parse="text" href="tex/non_function.tex"/>
-	  </latex-image>
-	</image>
-	<caption>The graph of the equation <m>x = y^2</m> and the line <m>x = 1</m>.</caption>
-      </figure>
-    </p>
+  <worksheet component="print">
+    <title/>
+    <page>
+      <introduction>
+	<p>
+	  Consider the function <m>f \colon \R \to \R</m> defined by the rule <m>f(x) = x + 2</m>.
+	</p>
+      </introduction>
+      <example>
+	<statement>
+	  <p>
+	    Verify that <m>f</m> is a function algebraically.
+	  </p>
+	</statement>
+      </example>
+    </page>
+    <page>
+      <example>
+	<statement>
+	  <p>
+	    Verify that <m>f</m> is a function visually.
+	  </p>
+	  <figure>
+	    <image width="50%">
+	      <latex-image>
+		\begin{tikzpicture}[scale=0.5]
+		\def\size{5};
+
+		\path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
+
+		\foreach \i in {1,...,\size}
+		\draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
+		(-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
+		(2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
+		(2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
+		
+		\draw [very thick,->] (-\size,0) -- (\size+.2,0) node [anchor=south] {$x$};
+		\draw [very thick,->] (0,-\size) -- (0,\size+.2) node [anchor=west] {$y$};
+
+		\begin{scope}
+		\clip (-5,-5) rectangle (5,5);
+		\draw [thick,blue] plot (\x, \x + 2);
+		\end{scope}
+		\end{tikzpicture}
+	      </latex-image>
+	    </image>
+	    <cpation>The graph of <m>y = x + 2</m></cpation>
+	  </figure>
+	</statement>
+      </example>
+    </page>
+  </worksheet>
+
+  <example component="web">
+    <statement>
+      <p>
+	The equation <m>x = y^2</m> does <alert>not</alert> define <m>y</m> as a function of <m>x</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+	Recall that for every positive number <m>x</m>, there are always two square roots: <m>\sqrt{x}</m> and <m>-\sqrt{x}</m>.
+	This tells us the ordered pairs <m>(x, \sqrt{x})</m> and <m>(x, -\sqrt{x})</m> both satisfy the equation <m>x = y^2</m>
+	For example, the ordered pairs <m>(1,1)</m> and <m>(1,-1)</m> satisfy
+	<me>1 = 1^2 \quad\text{and}\quad 1 = (-1)^2.</me>
+	Since the definition a <xref ref="def-function" text="title"/> requires that each element of the domain corresponds to <alert>exactly</alert> one element of the codomain, we see this cannot be a function.
+	That is, equation <m>x = y^2</m> fails the <xref ref="thm-vertical_line_test" text="title"/>.
+	<figure xml:id="fig-non_function">
+	  <image xml:id="img-non_function">
+	    <latex-image>
+	      <xi:include parse="text" href="tex/non_function.tex"/>
+	    </latex-image>
+	  </image>
+	  <caption>The graph of the equation <m>x = y^2</m> and the line <m>x = 1</m>.</caption>
+	</figure>
+      </p>
+    </solution>
   </example>
+
+  <worksheet component="print">
+    <title/>
+    <example>
+      <statement>
+	<p>
+	  The equation <m>x = y^2</m> does <alert>not</alert> define <m>y</m> as a function of <m>x</m>.
+	</p>
+	<figure>
+	  <image>
+	    <latex-image>
+	      \begin{tikzpicture}[domain=0:4]
+	      \draw[very thin,color=gray] (0,-2) grid (4,2);
+
+	      \draw[very thick,->] (0,0) -- (4.2,0) node[right] {$x$};
+	      \draw[very thick,->] (0,-2) -- (0,2.2) node[above] {$y$};
+	      
+	      \draw [color=blue,thick] plot[smooth,samples=500] (\x,{sqrt(\x)});
+	      \draw [color=blue,thick] plot[smooth,samples=500] (\x,{-sqrt(\x)});
+	      \end{tikzpicture}
+	    </latex-image>
+	  </image>
+	  <caption>The graph of the equation <m>x = y^2</m>.</caption>
+	</figure>
+      </statement>
+    </example>
+  </worksheet>
 
   <xi:include href="worksheets/wksht-functions.ptx"/>
 </section>
