@@ -10,7 +10,9 @@
     </ul>
   </objectives>
   <introduction>
-    Use <xref ref="def-2_distance" text="title"/> to answer the following questions.
+    <p>
+      Use <xref ref="def-2_distance" text="title"/> to answer the following questions.
+    </p>
   </introduction>
   <page>
     <exercise>
@@ -25,7 +27,7 @@
 	Find the perimeter of the triangle in <xref ref="fig-perimeter"/>.
       </p>
       <figure xml:id="fig-perimeter">
-	<image>
+	<image width="50%">
 	  <latex-image>
 	    <xi:include parse="text" href="../tex/perimeter.tex"/>
 	  </latex-image>
