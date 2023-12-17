@@ -10,7 +10,6 @@
   </introduction>
 
   <!-- include sections -->
-  <xi:include href="sec-sets.ptx" />
   <!-- <xi:include href="sec-relations.ptx" /> -->
   <xi:include href="sec-functions.ptx" />
   <xi:include href="sec-avg_roc.ptx" />

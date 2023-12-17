@@ -8,6 +8,7 @@
   </introduction>
 
   <!-- include sections -->
+  <xi:include href="sec-sets.ptx" />
   <xi:include href="sec-rectangular_coordinates.ptx" />
   <xi:include href="sec-graphing_eqs.ptx"/>
   <xi:include href="sec-distance.ptx"/>
