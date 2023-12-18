@@ -915,24 +915,96 @@ var ptx_lunr_docs = [
   "url": "sec-avg_roc.html",
   "type": "Section",
   "number": "2.2",
-  "title": "Average Rate of Change",
-  "body": " Average Rate of Change          The Average Rate of Change  Assume is a function and the domain of contains the interval . The average rate of change   Function  Average Rate of Change  of on the interval is      An object is thrown straight up in the air. The object reaches a maximum height of 1 meter after 1 seconds, and returns to the thrower's hand after 2 seconds. The function models the height of the object in meters as a function of seconds.     The graph of      What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is moving up at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is falling back at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ?   Using , the average rate of change on the interval is We can interpret this as saying the object climbs and falls at the same speed.     Working with the Average Rate of Change    Find the average rate of change of a function on an interval.     Find the average rate of change for the given function over the given interval.     ;    ;    ;     "
+  "title": "Measures of Change",
+  "body": " Measures of Change   Functions are important tools in the application of mathematics because they allow us to formalize the relationship between two quantities. We are often interested in answering questions precisely about how the dependent variable responds to changes in the independent variable. While it is useful to be able to precisely quantify this relationship, it is often easier to understand these relationships visually. Our goal is to build a dictionary between the algebraic measures of change and the features of the graph.    Intervals of Increase and Decrease  The terms increasing and decreasing are useful qualitative descriptions of a function's behavior. A function is increasing if its -values increase as its -values increase and decreases if its -values decrease as its -values increase. This is easy to detect visually because either the height of the graph increases or decreases as you trace the graph from left to right.           The graph of an increasing function (left) and a decreasing function (right)   Unfortunately, many interesting functions are not simply increasing or decreasing. Rather, most interesting functions have pieces that are increasing and pieces that are decreasing.      The graph of a function that is neither increasing nor decreasing   For this reason, we define increasing and decreasing on an interval to provide the flexibility to describe a range of interesting functions.  Assume and . We say the function is    increasing   Function  Increasing  on the interval if for every ,      decreasing   Function  Decreasing  on the interval if for every ,      Points where the graph changes between increasing and decreasing are often interesting features of the graph. These points are known collectively as local extrema .  Function  Local Extrema     Assume . The function has a local maximum   Function  Local Maximum  at if there exist values such that    is increasing on the interval , and     is decreasing on the interval .     We say is a local maximum value   Function  Local Maximum Value      Assume . The function has a local minimum   Function  Local Minimum  at if there exist values such that    is decreasing on the interval , and     is increasing on the interval .     We say is a local minimum value   Function  Local Minimum Value       Use the following graph to find the intervals of increase and decrease. Identify all local extrema.      The graph of     The graph of is increasing on the intervals    ,     , and        The graph of is decreasing on the intervals    , and          The points and are local maxima and the points and are local minima.      Average Rate of Change  The rate at which changes as changes is a quantitative measure of change. Suppose we have the following data about a five hour road trip.   Distance Driven as a Function of Time    Time  Miles Driven    12:00 PM     1:00 PM     2:00 PM     3:00 PM     4:00 PM     5:00 PM      While we cannot pinpoint exactly how fast the car was moving at any given time, we can use this data to give a rough estimate for the speed of the car over a period of time. If we wanted to estimate the speed of the car over the two hour period from 3:00 PM until 5:00 PM, we could take the distance traveled and divide it by the number of hours traveled to obtain This represents the average speed of the car during this period of time. This idea generalizes to arbitrary functions naturally.   The Average Rate of Change  Assume is a function and the domain of contains the interval . The average rate of change   Function  Average Rate of Change  of on the interval is      An object is thrown straight up in the air. The object reaches a maximum height of 1 meter after 1 seconds, and returns to the thrower's hand after 2 seconds. The function models the height of the object in meters as a function of seconds.     The graph of      What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is moving up at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is falling back at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ?   Using , the average rate of change on the interval is We can interpret this as saying the object climbs and falls at the same speed.      Working with Measures of Change     Identify intervals of increase and decrease of a function.    Identify local extrema of a function.    Find the average rate of change of a function on an interval.      Find the average rate of change for the given function over the given interval.     ;    ;    ;     "
 },
 {
-  "id": "def-average_rate_of_change",
+  "id": "fig-increasing",
   "level": "2",
-  "url": "sec-avg_roc.html#def-average_rate_of_change",
-  "type": "Definition",
+  "url": "sec-avg_roc.html#fig-increasing",
+  "type": "Figure",
   "number": "2.2.1",
-  "title": "The Average Rate of Change.",
-  "body": " The Average Rate of Change  Assume is a function and the domain of contains the interval . The average rate of change   Function  Average Rate of Change  of on the interval is   "
+  "title": "",
+  "body": "         The graph of an increasing function (left) and a decreasing function (right)  "
+},
+{
+  "id": "figure-28",
+  "level": "2",
+  "url": "sec-avg_roc.html#figure-28",
+  "type": "Figure",
+  "number": "2.2.2",
+  "title": "",
+  "body": "    The graph of a function that is neither increasing nor decreasing  "
+},
+{
+  "id": "definition-32",
+  "level": "2",
+  "url": "sec-avg_roc.html#definition-32",
+  "type": "Definition",
+  "number": "2.2.3",
+  "title": "",
+  "body": "Assume and . We say the function is    increasing   Function  Increasing  on the interval if for every ,      decreasing   Function  Decreasing  on the interval if for every ,     "
+},
+{
+  "id": "p-149",
+  "level": "2",
+  "url": "sec-avg_roc.html#p-149",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "local extrema "
+},
+{
+  "id": "definition-33",
+  "level": "2",
+  "url": "sec-avg_roc.html#definition-33",
+  "type": "Definition",
+  "number": "2.2.4",
+  "title": "",
+  "body": " Assume . The function has a local maximum   Function  Local Maximum  at if there exist values such that    is increasing on the interval , and     is decreasing on the interval .     We say is a local maximum value   Function  Local Maximum Value    "
+},
+{
+  "id": "definition-34",
+  "level": "2",
+  "url": "sec-avg_roc.html#definition-34",
+  "type": "Definition",
+  "number": "2.2.5",
+  "title": "",
+  "body": " Assume . The function has a local minimum   Function  Local Minimum  at if there exist values such that    is decreasing on the interval , and     is increasing on the interval .     We say is a local minimum value   Function  Local Minimum Value    "
 },
 {
   "id": "example-24",
   "level": "2",
   "url": "sec-avg_roc.html#example-24",
   "type": "Example",
-  "number": "2.2.2",
+  "number": "2.2.6",
+  "title": "",
+  "body": "  Use the following graph to find the intervals of increase and decrease. Identify all local extrema.      The graph of     The graph of is increasing on the intervals    ,     , and        The graph of is decreasing on the intervals    , and          The points and are local maxima and the points and are local minima.   "
+},
+{
+  "id": "table-1",
+  "level": "2",
+  "url": "sec-avg_roc.html#table-1",
+  "type": "Table",
+  "number": "2.2.8",
+  "title": "Distance Driven as a Function of Time",
+  "body": " Distance Driven as a Function of Time    Time  Miles Driven    12:00 PM     1:00 PM     2:00 PM     3:00 PM     4:00 PM     5:00 PM     "
+},
+{
+  "id": "def-average_rate_of_change",
+  "level": "2",
+  "url": "sec-avg_roc.html#def-average_rate_of_change",
+  "type": "Definition",
+  "number": "2.2.9",
+  "title": "The Average Rate of Change.",
+  "body": " The Average Rate of Change  Assume is a function and the domain of contains the interval . The average rate of change   Function  Average Rate of Change  of on the interval is   "
+},
+{
+  "id": "example-25",
+  "level": "2",
+  "url": "sec-avg_roc.html#example-25",
+  "type": "Example",
+  "number": "2.2.10",
   "title": "",
   "body": "  An object is thrown straight up in the air. The object reaches a maximum height of 1 meter after 1 seconds, and returns to the thrower's hand after 2 seconds. The function models the height of the object in meters as a function of seconds.     The graph of      What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is moving up at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is falling back at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ?   Using , the average rate of change on the interval is We can interpret this as saying the object climbs and falls at the same speed.   "
 },
@@ -941,9 +1013,9 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-avg_roc.html#objectives-7",
   "type": "Objectives",
-  "number": "2.2",
+  "number": "2.2.3",
   "title": "",
-  "body": "  Find the average rate of change of a function on an interval.   "
+  "body": "   Identify intervals of increase and decrease of a function.    Identify local extrema of a function.    Find the average rate of change of a function on an interval.    "
 },
 {
   "id": "sec-transformations",
@@ -964,9 +1036,9 @@ var ptx_lunr_docs = [
   "body": " Vertical Translation  Let be a positive number. We say the function is a vertical translation   Graph  Tranformation  Translation  Vertical  of the function if .    The graph of is obtained by shifting the graph of up the -axis by units.    The graph of is obtained by shifting the graph of down the -axis by -units.    "
 },
 {
-  "id": "example-25",
+  "id": "example-26",
   "level": "2",
-  "url": "sec-transformations.html#example-25",
+  "url": "sec-transformations.html#example-26",
   "type": "Example",
   "number": "2.3.2",
   "title": "",
@@ -982,9 +1054,9 @@ var ptx_lunr_docs = [
   "body": " Horizontal Translation  Let be a positive number. We say the function is a horizontal translation   Graph  Tranformation  Translation  Horizontal  of the function if .    The graph of is obtained by shifting the graph of to the right along the -axis by units.    The graph of is obtained by shifting the graph of to the left along the -axis by -units.    "
 },
 {
-  "id": "example-26",
+  "id": "example-27",
   "level": "2",
-  "url": "sec-transformations.html#example-26",
+  "url": "sec-transformations.html#example-27",
   "type": "Example",
   "number": "2.3.5",
   "title": "",
@@ -1000,9 +1072,9 @@ var ptx_lunr_docs = [
   "body": " Vertical Scaling  Let be a number. We say the function is a vertical scaling   Graph  Tranformation  Scaling  Vertical  of the function if or .    The graph of is obtained by stretching the graph of vertically by a factor of .    The graph of is obtained by compressing the graph of vertically by a factor of .    "
 },
 {
-  "id": "example-27",
+  "id": "example-28",
   "level": "2",
-  "url": "sec-transformations.html#example-27",
+  "url": "sec-transformations.html#example-28",
   "type": "Example",
   "number": "2.3.8",
   "title": "",
@@ -1018,18 +1090,18 @@ var ptx_lunr_docs = [
   "body": " Reflection  We say the function is a reflection   Graph  Tranformation  Reflection  of if either or     The graph of is obtained by reflecting the graph of over the -axis.    The graph of is obtained by reflecting the graph of over the -axis.    "
 },
 {
-  "id": "example-28",
+  "id": "example-29",
   "level": "2",
-  "url": "sec-transformations.html#example-28",
+  "url": "sec-transformations.html#example-29",
   "type": "Example",
   "number": "2.3.11",
   "title": "",
   "body": "  Use to graph the functions and .    The graph of is obtained by reflecting the graph of over the -axis, and the graph of is obtained by reflecting the graph of over the -axis.        "
 },
 {
-  "id": "example-29",
+  "id": "example-30",
   "level": "2",
-  "url": "sec-transformations.html#example-29",
+  "url": "sec-transformations.html#example-30",
   "type": "Example",
   "number": "2.3.13",
   "title": "",
@@ -1045,18 +1117,18 @@ var ptx_lunr_docs = [
   "body": " Horizontal Scaling  Let be a number. We say the function is a horizontal scaling   Graph  Tranformation  Scaling  Horizontal  of the function if or .    The graph of is obtained by compressing the graph of horizontally by a factor of .    The graph of is obtained by stretching the graph of horizontally by a factor of .    "
 },
 {
-  "id": "example-30",
+  "id": "example-31",
   "level": "2",
-  "url": "sec-transformations.html#example-30",
+  "url": "sec-transformations.html#example-31",
   "type": "Example",
   "number": "2.3.16",
   "title": "",
   "body": "  Use to graph the functions and .    The graph of is obtained by compressing the graph of horizontally by a factor of , and the graph of is obtained by stretching the graph of horizontally by a factor of .        "
 },
 {
-  "id": "example-31",
+  "id": "example-32",
   "level": "2",
-  "url": "sec-transformations.html#example-31",
+  "url": "sec-transformations.html#example-32",
   "type": "Example",
   "number": "2.3.18",
   "title": "",
@@ -1072,9 +1144,9 @@ var ptx_lunr_docs = [
   "body": " Graphing Functions using Transformations   Horizontal Translation  Scaling  Reflection  Vertical Translation   "
 },
 {
-  "id": "example-32",
+  "id": "example-33",
   "level": "2",
-  "url": "sec-transformations.html#example-32",
+  "url": "sec-transformations.html#example-33",
   "type": "Example",
   "number": "2.3.21",
   "title": "",
@@ -1096,7 +1168,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.4",
   "title": "Symmetry",
-  "body": " Symmetry   Intuitively, an object is symmetric if there is some line that divides the object into two (or more) pieces that are mirror images of one another. In this section, we utilize the methods in to detect two types of symmetry mathematically.    Symmetry about the -axis   The first type of symmetry we are interested in is symmetry about the -axis in the plane. We begin with the intuitive understanding of this symmetry, and formalize a concrete method for detecting it algebraically.    We say a function has -axis symmetry   Function  Symmetry  -axis  if the -axis divides the graph into two pieces that are mirror images of one another.   For example, consider . The graph intersects the -axis at the point . If we cut the parabola in half at this point, then we get two pieces. We distinguish the two halves by coloring the left-hand side red and the right-hand side blue.      The graph of cut in half at .   To say these are mirror images of one another, means if we reflect the graph across the -axis, then we obtain the same graph just with the colors switched.      The reflection of across the -axis.   Had we not colored the two pieces, we would be unable to tell which one is which. We say the graph is invariant   Invariant  under reflection across the -axis to mean the original graph and its reflection across the -axis are the same. This observation allows us to rephrase in terms of reflections.    The function has -axis symmetry if it is invariant under reflection across the -axis.    The characterization of -axis symmetry above is purely geometric. Just like the intuitive understanding of symmetry, it can be difficult to verify whether two pictures are actually the same. Fortunately, the language of graph transformations provides us a dictionary between algebraic statements and geometric statements.    The function has -axis symmetry if for every in the domain of ,     The algebraic condition allows us to easily verify our intuition about images concretely.    Verify the function has -axis symmetry.    If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the -axis.       To verify our intuition, we just need to check Therefore has -axis symmetry.      Origin Symmetry   The second type of symmetry we consider is slightly more subtle than -axis symmetry.    We say a function is symmetric about the origin   Function  Symmetry  Origin  if the graph of is invariant under rotation by 180 degrees.   To understand this type of symmetry, consider with the origin and another marked point.        We can see what happens as we rotate the graph around the origin in the animation below. Note the rotation does not change the shape of the graph, so the distance from the marked point to the origin stays the same.      Rotation of 180 degrees counter-clockwise   The path the marked point follows through the rotation traces out a piece of a circle. Plotting the entirety of this circle, we can see the starting and ending location of the marked point create a diameter.      The graph of with a marked point and the rotation of that point by   Assume the original point has coordinates and its rotation by has coordinates . Since the midpoint of the diameter is , we know that and . Solve the first equation for in terms of  The second coordinate is then Rewriting this in function notation, this tells us This provides us with an algebraic condition for testing origin symmetry.    The function has origin symmetry if for every in the domain of ,                           Identify if a function has -axis symmetry.  Identify if a function has origin symmetry.     "
+  "body": " Symmetry   Intuitively, an object is symmetric if there is some line that divides the object into two (or more) pieces that are mirror images of one another. In this section, we utilize the methods in to detect two types of symmetry mathematically.    Symmetry about the -axis   The first type of symmetry we are interested in is symmetry about the -axis in the plane. We begin with the intuitive understanding of this symmetry, and formalize a concrete method for detecting it algebraically.    We say a function has -axis symmetry   Function  Symmetry  -axis  if the -axis divides the graph into two pieces that are mirror images of one another.   For example, consider . The graph intersects the -axis at the point . If we cut the parabola in half at this point, then we get two pieces. We distinguish the two halves by coloring the left-hand side red and the right-hand side blue.      The graph of cut in half at .   To say these are mirror images of one another, means if we reflect the graph across the -axis, then we obtain the same graph just with the colors switched.      The reflection of across the -axis.   Had we not colored the two pieces, we would be unable to tell which one is which. We say the graph is invariant   Invariant  under reflection across the -axis to mean the original graph and its reflection across the -axis are the same. This observation allows us to rephrase in terms of reflections.    The function has -axis symmetry if it is invariant under reflection across the -axis.    The characterization of -axis symmetry above is purely geometric. Just like the intuitive understanding of symmetry, it can be difficult to verify whether two pictures are actually the same. Fortunately, the language of graph transformations provides us a dictionary between algebraic statements and geometric statements.    The function has -axis symmetry if for every in the domain of ,     The algebraic condition allows us to easily verify our intuition about images concretely.    Verify the function has -axis symmetry.    If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the -axis.       To verify our intuition, we just need to check Therefore has -axis symmetry.      Origin Symmetry   The second type of symmetry we consider is slightly more subtle than -axis symmetry.    We say a function is symmetric about the origin   Function  Symmetry  Origin  if the graph of is invariant under rotation by 180 degrees.   To understand this type of symmetry, consider with the origin and another marked point.        We can see what happens as we rotate the graph around the origin in the animation below. Note the rotation does not change the shape of the graph, so the distance from the marked point to the origin stays the same.      Rotation of 180 degrees counter-clockwise   The path the marked point follows through the rotation traces out a piece of a circle. Plotting the entirety of this circle, we can see the starting and ending location of the marked point create a diameter.      The graph of with a marked point and the rotation of that point by   Assume the original point has coordinates and its rotation by has coordinates . Since the midpoint of the diameter is , we know that and . Solve the first equation for in terms of  The second coordinate is then Rewriting this in function notation, this tells us This provides us with an algebraic condition for testing origin symmetry.    The function has origin symmetry if for every in the domain of ,       Verify the function has origin symmetry.    If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the origin.       To verify our intuition, we just need to check Therefore has origin symmetry.        Identify if a function has -axis symmetry.  Identify if a function has origin symmetry.     "
 },
 {
   "id": "def-y_axis_symmetry",
@@ -1108,27 +1180,27 @@ var ptx_lunr_docs = [
   "body": " We say a function has -axis symmetry   Function  Symmetry  -axis  if the -axis divides the graph into two pieces that are mirror images of one another.  "
 },
 {
-  "id": "figure-36",
+  "id": "figure-39",
   "level": "2",
-  "url": "sec-symmetry.html#figure-36",
+  "url": "sec-symmetry.html#figure-39",
   "type": "Figure",
   "number": "2.4.2",
   "title": "",
   "body": "    The graph of cut in half at .  "
 },
 {
-  "id": "figure-37",
+  "id": "figure-40",
   "level": "2",
-  "url": "sec-symmetry.html#figure-37",
+  "url": "sec-symmetry.html#figure-40",
   "type": "Figure",
   "number": "2.4.3",
   "title": "",
   "body": "    The reflection of across the -axis.  "
 },
 {
-  "id": "p-193",
+  "id": "p-221",
   "level": "2",
-  "url": "sec-symmetry.html#p-193",
+  "url": "sec-symmetry.html#p-221",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1153,45 +1225,45 @@ var ptx_lunr_docs = [
   "body": "  The function has -axis symmetry if for every in the domain of ,    "
 },
 {
-  "id": "example-33",
+  "id": "example-34",
   "level": "2",
-  "url": "sec-symmetry.html#example-33",
+  "url": "sec-symmetry.html#example-34",
   "type": "Example",
   "number": "2.4.6",
   "title": "",
   "body": "  Verify the function has -axis symmetry.    If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the -axis.       To verify our intuition, we just need to check Therefore has -axis symmetry.   "
 },
 {
-  "id": "definition-39",
+  "id": "definition-42",
   "level": "2",
-  "url": "sec-symmetry.html#definition-39",
+  "url": "sec-symmetry.html#definition-42",
   "type": "Definition",
   "number": "2.4.8",
   "title": "",
   "body": " We say a function is symmetric about the origin   Function  Symmetry  Origin  if the graph of is invariant under rotation by 180 degrees.  "
 },
 {
-  "id": "figure-39",
+  "id": "figure-42",
   "level": "2",
-  "url": "sec-symmetry.html#figure-39",
+  "url": "sec-symmetry.html#figure-42",
   "type": "Figure",
   "number": "2.4.9",
   "title": "",
   "body": "    "
 },
 {
-  "id": "figure-40",
+  "id": "figure-43",
   "level": "2",
-  "url": "sec-symmetry.html#figure-40",
+  "url": "sec-symmetry.html#figure-43",
   "type": "Figure",
   "number": "2.4.10",
   "title": "",
   "body": "    Rotation of 180 degrees counter-clockwise  "
 },
 {
-  "id": "figure-41",
+  "id": "figure-44",
   "level": "2",
-  "url": "sec-symmetry.html#figure-41",
+  "url": "sec-symmetry.html#figure-44",
   "type": "Figure",
   "number": "2.4.11",
   "title": "",
@@ -1205,6 +1277,15 @@ var ptx_lunr_docs = [
   "number": "2.4.12",
   "title": "",
   "body": "  The function has origin symmetry if for every in the domain of ,    "
+},
+{
+  "id": "example-35",
+  "level": "2",
+  "url": "sec-symmetry.html#example-35",
+  "type": "Example",
+  "number": "2.4.13",
+  "title": "",
+  "body": "  Verify the function has origin symmetry.    If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the origin.       To verify our intuition, we just need to check Therefore has origin symmetry.   "
 },
 {
   "id": "objectives-9",
@@ -1225,18 +1306,18 @@ var ptx_lunr_docs = [
   "body": " Polynomial Functions   The simplest algebraic functions are constructed using the operations of addition and multiplication with a variable. While simple to construct, it is often difficult or even impossible to answer basic questions about these functions in general. However, these functions are extraordinarily important in nearly every branch of mathematics. We discuss foundational results about general polynomials in this section, and specialize to some easy to classify cases in the later sections.    Polynomial Function  A polynomial function   Function  Polynomial  in the variable is a function of the form where is an integer, are numbers and .  We say is a polynomial of degree   Function  Polynomial  Degree   and write .     Degree of a polynomial  The numbers are called the coefficient   Function  Polynomial  Coefficient  of , respectively.    Roots of Polynomials  Polynomial functions are most interesting because they are relatively simple functions that allow us to model real world phenomena.   Assume an object is thrown straight up in the air. If we let denote the distance from the thrower's hand to the ground when the object is released, and let denote the velocity of the object in meters\/second as it leaves the thrower's hand, then the height of the object as a function of time can be expressed using the polynomial     How long will it take for the object to return to the hand of the thrower?   To answer this question, we want the solutions to the equation If we subtract from both sides of the equation, then it is equivalent to find solutions to the polynomial equation Questions of this type arise frequently when discussing polynomials.   Root A root   Function  Polynomial  Root  of the polynomial is a number, , such that   Questions about roots of polynomials have been posed and studied for millenia. The most important result about roots of polynomials is the following.   The Fundamental Theorem of Algbera  Carl Friedrich Gauss   Given a polynomial of degree , there exist a constant and roots such that We call this expression the factorization   Function  Polynomial  Factorization  of the polynomial .         Up to the constant , the factorization in is unique.   The roots of the polynomial are and . This provides the factorization   However, it is more convenient to distribute the to the term and write   Even though these factorizations are not strictly identical, we consider these factorizations to be equivalent since they both convey that the roots of the polynomial are and .   Another important observation is the roots in the list may not necessarily be distinct.   Assume is a polynomial of degree and is a root of . The multiplicity of , is the number of times of times appears in the factorization of .    The polynomial has roots , , and . We say the root has multiplicity and the root has multiplicity . This allows us to say that the polynomial has three roots counting multiplicity.   Finally, we note the roots of a polynomial may not always be real numbers. For example, the polynomial does not have any real roots because every real number, , satisfies and thus    The Imaginary Unit The imaginary unit , ,     The imaginary unit  is defined to be one of the roots of the polynomial . In particular, or, equivalently, . It is common to write .  Since   the roots and provide the factorization   Numbers that involve arise frequently in the study of roots of polynomials of degree 2.   Complex Number  A complex number has the form , where and are real numbers. The set of all complex numbers is      The set of complex numbers      The number is a complex number.   It is important to note tells us that every polynomial of degree has precisely roots (counting multiplicities), some of which may not be real numbers. However, it does not tell us how to find those roots.   Is there a formula to find all of the roots of the polynomial in terms of the coefficients?   In general, the answer to this question is deeply unsatisfying. We will find formulas for roots of polynomials of degree 1 in and of degree 2 in . While formulas exist for roots of polynomials of degree 3 and degree 4 , they are beyond the scope of this text. However, there are no such general formulas for polynomials of degree 5 and higher. This means we will need to develop other techniques for finding roots of polynomials. One very useful tool for finding roots of general poylnomials is the rational root theorem.   The Rational Root Theorem   Assume with integers and . If and are integers and is a root of , then is a factor of and is a factor of .     Find all rational roots of .   The factors of are and ; the factors of are and . tells us there are eight possible rational roots of : We can check each of these by evaluating the function at these rational numbers. Therefore the only rational roots of the polynomial are and .      Polynomial Division  Another method for finding roots that is often paired with is polynomial division. Besides finding roots, the method of polynomial division will be important in .  Recall that if we have an integer and a smaller integer, , then we can always find integers and with such that Long division provides a convenient method for finding and .   To divide by , we would perform the long division using the symbols to find .   For polynomials, the form is nearly identical, with numbers replaced by polynomials.   Polynomial Division   Assume and are polynomials with . There exist polynomials and with such that .  In analogy with the integers, we call the polynomials the dividend , the quotient , and the remainder , and we say that divided by is with remainder     Recall for integers and , we say that divides (or is a divisor of , or is a factor of ) if the remainder is zero is divided by . We use this same language for polynomials.   Assume and are polynomials. The polynomial  divides   Function  Polynomial  Divides  the polynomial if the remainder when is divided by is the zero polynomial, .   To understand how to perform division with polynomials, it is helpful to understand the division algorithm with numbers written in base . The four steps in the long division above are shorthand for the following equations.   We arrive at the final answer by repeated substitution for the remainders starting with .   This process terminates because at each stage we are reducing the number of digits in the remainder by at least one. When we do long division with polynomials, our goal will be similar, but we will reduce the degree of the remainder polynomial by at least one.   To divide the polynomial by the polynomial , we write then, starting from , we substitute for the remainders Therefore divided by is with remainder .  We can also perform polynomial division using the same shorthand as we would for numbers. When performing polynomial division in this way, it is important to carefully distribute signs when subtracting.     Note that if we evaluate each of the polynomials at , then we find divided by is with remainder . Indeed, polynomial long division is a generalization of long division in base .   When paired with , polynomial long division is useful for factoring polynomials. The main tool is the following theorem.    The number is a root of the polynomial if and only if divides .     As we saw in , the polynomial has a root at and at . By , the polynomial divides    This allows us to write   Since and , we conclude that divides .   This provides the factorization        Perform long division with polynomials  Find rational roots of polynomials      Consider the polynomial    Use the to list all possible rational roots of .    Use your list to find all the roots of .    Use the roots of to find its factorization.       Consider the polynomial    Use the to list all possible rational roots of .    Use your list to find all rational roots of .    Using the rational roots, use polynomial division to factor as the product of a degree polynomial and a degree polynomial.    What can you say about the other roots of ?      "
 },
 {
-  "id": "definition-40",
+  "id": "definition-43",
   "level": "2",
-  "url": "sec-polynomial_functions.html#definition-40",
+  "url": "sec-polynomial_functions.html#definition-43",
   "type": "Definition",
   "number": "3.1.1",
   "title": "Polynomial Function.",
   "body": " Polynomial Function  A polynomial function   Function  Polynomial  in the variable is a function of the form where is an integer, are numbers and .  We say is a polynomial of degree   Function  Polynomial  Degree   and write .     Degree of a polynomial  The numbers are called the coefficient   Function  Polynomial  Coefficient  of , respectively.  "
 },
 {
-  "id": "example-34",
+  "id": "example-36",
   "level": "2",
-  "url": "sec-polynomial_functions.html#example-34",
+  "url": "sec-polynomial_functions.html#example-36",
   "type": "Example",
   "number": "3.1.2",
   "title": "",
@@ -1252,9 +1333,9 @@ var ptx_lunr_docs = [
   "body": " How long will it take for the object to return to the hand of the thrower?  "
 },
 {
-  "id": "definition-41",
+  "id": "definition-44",
   "level": "2",
-  "url": "sec-polynomial_functions.html#definition-41",
+  "url": "sec-polynomial_functions.html#definition-44",
   "type": "Definition",
   "number": "3.1.4",
   "title": "Root.",
@@ -1270,36 +1351,36 @@ var ptx_lunr_docs = [
   "body": " The Fundamental Theorem of Algbera  Carl Friedrich Gauss   Given a polynomial of degree , there exist a constant and roots such that We call this expression the factorization   Function  Polynomial  Factorization  of the polynomial .     "
 },
 {
-  "id": "example-35",
+  "id": "example-37",
   "level": "2",
-  "url": "sec-polynomial_functions.html#example-35",
+  "url": "sec-polynomial_functions.html#example-37",
   "type": "Example",
   "number": "3.1.6",
   "title": "",
   "body": " The roots of the polynomial are and . This provides the factorization   However, it is more convenient to distribute the to the term and write   Even though these factorizations are not strictly identical, we consider these factorizations to be equivalent since they both convey that the roots of the polynomial are and .  "
 },
 {
-  "id": "definition-42",
+  "id": "definition-45",
   "level": "2",
-  "url": "sec-polynomial_functions.html#definition-42",
+  "url": "sec-polynomial_functions.html#definition-45",
   "type": "Definition",
   "number": "3.1.7",
   "title": "",
   "body": " Assume is a polynomial of degree and is a root of . The multiplicity of , is the number of times of times appears in the factorization of .  "
 },
 {
-  "id": "example-36",
+  "id": "example-38",
   "level": "2",
-  "url": "sec-polynomial_functions.html#example-36",
+  "url": "sec-polynomial_functions.html#example-38",
   "type": "Example",
   "number": "3.1.8",
   "title": "",
   "body": " The polynomial has roots , , and . We say the root has multiplicity and the root has multiplicity . This allows us to say that the polynomial has three roots counting multiplicity.  "
 },
 {
-  "id": "definition-43",
+  "id": "definition-46",
   "level": "2",
-  "url": "sec-polynomial_functions.html#definition-43",
+  "url": "sec-polynomial_functions.html#definition-46",
   "type": "Definition",
   "number": "3.1.9",
   "title": "",
@@ -1315,9 +1396,9 @@ var ptx_lunr_docs = [
   "body": " Complex Number  A complex number has the form , where and are real numbers. The set of all complex numbers is      The set of complex numbers    "
 },
 {
-  "id": "example-37",
+  "id": "example-39",
   "level": "2",
-  "url": "sec-polynomial_functions.html#example-37",
+  "url": "sec-polynomial_functions.html#example-39",
   "type": "Example",
   "number": "3.1.11",
   "title": "",
@@ -1369,18 +1450,18 @@ var ptx_lunr_docs = [
   "body": " Polynomial Division   Assume and are polynomials with . There exist polynomials and with such that .  In analogy with the integers, we call the polynomials the dividend , the quotient , and the remainder , and we say that divided by is with remainder    "
 },
 {
-  "id": "definition-45",
+  "id": "definition-48",
   "level": "2",
-  "url": "sec-polynomial_functions.html#definition-45",
+  "url": "sec-polynomial_functions.html#definition-48",
   "type": "Definition",
   "number": "3.1.17",
   "title": "",
   "body": " Assume and are polynomials. The polynomial  divides   Function  Polynomial  Divides  the polynomial if the remainder when is divided by is the zero polynomial, .  "
 },
 {
-  "id": "example-40",
+  "id": "example-42",
   "level": "2",
-  "url": "sec-polynomial_functions.html#example-40",
+  "url": "sec-polynomial_functions.html#example-42",
   "type": "Example",
   "number": "3.1.18",
   "title": "",
@@ -1405,9 +1486,9 @@ var ptx_lunr_docs = [
   "body": "  The number is a root of the polynomial if and only if divides .   "
 },
 {
-  "id": "example-41",
+  "id": "example-43",
   "level": "2",
-  "url": "sec-polynomial_functions.html#example-41",
+  "url": "sec-polynomial_functions.html#example-43",
   "type": "Example",
   "number": "3.1.21",
   "title": "",
@@ -1486,9 +1567,9 @@ var ptx_lunr_docs = [
   "body": "  Find the -intercept of the linear equation .    To find the -intercept of the linear equation , we substitute for to get Therefore the -intercept of the linear equation is the point .   "
 },
 {
-  "id": "example-43",
+  "id": "example-45",
   "level": "2",
-  "url": "sec-linear_functions.html#example-43",
+  "url": "sec-linear_functions.html#example-45",
   "type": "Example",
   "number": "3.2.5",
   "title": "",
@@ -1612,18 +1693,18 @@ var ptx_lunr_docs = [
   "body": " The Point-Slope Form of a Line   The point-slope form of the line   Line  Point-Slope Form  through the point with slope is    "
 },
 {
-  "id": "example-46",
+  "id": "example-48",
   "level": "2",
-  "url": "sec-lines.html#example-46",
+  "url": "sec-lines.html#example-48",
   "type": "Example",
   "number": "3.3.8",
   "title": "",
   "body": "  Find the using the point and the slope .    Using , the equation of the line through with slope is    "
 },
 {
-  "id": "example-47",
+  "id": "example-49",
   "level": "2",
-  "url": "sec-lines.html#example-47",
+  "url": "sec-lines.html#example-49",
   "type": "Example",
   "number": "3.3.9",
   "title": "",
@@ -1648,18 +1729,18 @@ var ptx_lunr_docs = [
   "body": " Caution!  The standard equation of a line may not always represent an equation where is a function of ! If , then the standard equation of a line reduces to which is a vertical line.  "
 },
 {
-  "id": "example-48",
+  "id": "example-50",
   "level": "2",
-  "url": "sec-lines.html#example-48",
+  "url": "sec-lines.html#example-50",
   "type": "Example",
   "number": "3.3.12",
   "title": "",
   "body": "  Place the linear equation into .    The equation can be placed in standard form as follows. First, move the variables to the left-hand side of the equation. Subtract from both sides and distribute the negative Collect like terms and simplify Finally, subtract 7 from both sides of the equation and simplify to arrive at the standard form    "
 },
 {
-  "id": "example-49",
+  "id": "example-51",
   "level": "2",
-  "url": "sec-lines.html#example-49",
+  "url": "sec-lines.html#example-51",
   "type": "Example",
   "number": "3.3.13",
   "title": "",
@@ -1765,18 +1846,18 @@ var ptx_lunr_docs = [
   "body": " Two lines are parallel if and only if they have the same slope.  "
 },
 {
-  "id": "example-50",
+  "id": "example-52",
   "level": "2",
-  "url": "sec-perp_parallel.html#example-50",
+  "url": "sec-perp_parallel.html#example-52",
   "type": "Example",
   "number": "3.4.4",
   "title": "",
   "body": "  Determine whether the lines are parallel.    In order to determine whether these lines are parallel, we need to find the slope of each line. We do this by placing each line into .  For the first line, add to both sides and divide both sides by  This tells us the slope of the line is .  For the second line, add to both sides divide both sides by  and reduce This tells the slope of the line is also . Therefore the lines and are parallel by .   "
 },
 {
-  "id": "example-51",
+  "id": "example-53",
   "level": "2",
-  "url": "sec-perp_parallel.html#example-51",
+  "url": "sec-perp_parallel.html#example-53",
   "type": "Example",
   "number": "3.4.5",
   "title": "",
@@ -1810,18 +1891,18 @@ var ptx_lunr_docs = [
   "body": "  Two lines are perpendicular if and only if the product of their slopes is .   "
 },
 {
-  "id": "example-52",
+  "id": "example-54",
   "level": "2",
-  "url": "sec-perp_parallel.html#example-52",
+  "url": "sec-perp_parallel.html#example-54",
   "type": "Example",
   "number": "3.4.9",
   "title": "",
   "body": "  Determine whether the lines are perpendicular.    First we must place the lines in to find the slopes. The first equation becomes In this form, we can read off the slope of the line as   The second equation becomes In this form, we can read off the slop of the line as .  Finally, to check whether these lines are parallel, we compute the product of these slopes. Since we conclude that these lines are perpendicular by .   "
 },
 {
-  "id": "example-53",
+  "id": "example-55",
   "level": "2",
-  "url": "sec-perp_parallel.html#example-53",
+  "url": "sec-perp_parallel.html#example-55",
   "type": "Example",
   "number": "3.4.10",
   "title": "",
@@ -1882,9 +1963,9 @@ var ptx_lunr_docs = [
   "body": " Quadratic Function  A function is quadratic   Function  Quadratic  if it has the form where , , and are numbers, and .  "
 },
 {
-  "id": "p-349",
+  "id": "p-380",
   "level": "2",
-  "url": "sec-quadratic_functions.html#p-349",
+  "url": "sec-quadratic_functions.html#p-380",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1909,45 +1990,45 @@ var ptx_lunr_docs = [
   "body": " Graphing Quadratic Functions in Vertex Form   To graph of the quadratic function      Translate the graph of horizontally by units.   If , then the translation is to the right.    If , then the translation is to the left.       Scale the graph of by .   If , then the graph is stretched.    If , then the graph is compressed.       If , reflect the graph of over the -axis.    Translate the graph of vertically by units.   If , then the translation is down.    If , then the translation is up.       "
 },
 {
-  "id": "example-54",
+  "id": "example-56",
   "level": "2",
-  "url": "sec-quadratic_functions.html#example-54",
+  "url": "sec-quadratic_functions.html#example-56",
   "type": "Example",
   "number": "3.5.4",
   "title": "",
   "body": "  Graph the function .    Following , we perform the following operations on the graph of the function .   Translate the graph of to the left by 1 to obtain the graph of .  Stretch the graph of by a factor of 2 to obtain the graph of .  Reflect the graph of across the -axis to obtain the graph of .  Translate the graph of up by 1 to obtain the graph of .   These operations are shown below.                   The transformations used to graph .    "
 },
 {
-  "id": "definition-53",
+  "id": "definition-56",
   "level": "2",
-  "url": "sec-quadratic_functions.html#definition-53",
+  "url": "sec-quadratic_functions.html#definition-56",
   "type": "Definition",
   "number": "3.5.6",
   "title": "",
   "body": " The graph of a parabola is    concave up   Function  Quadratic  Concave  Up  if the parabola opens upwards like .     concave down   Function  Quadratic  Concave  Down  if the parabola opens downwards like .     "
 },
 {
-  "id": "figure-47",
+  "id": "figure-51",
   "level": "2",
-  "url": "sec-quadratic_functions.html#figure-47",
+  "url": "sec-quadratic_functions.html#figure-51",
   "type": "Figure",
   "number": "3.5.7",
   "title": "",
   "body": " Multiplying binomials using the FOIL method.   "
 },
 {
-  "id": "p-376",
+  "id": "p-407",
   "level": "2",
-  "url": "sec-quadratic_functions.html#p-376",
+  "url": "sec-quadratic_functions.html#p-407",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "perfect square "
 },
 {
-  "id": "p-377",
+  "id": "p-408",
   "level": "2",
-  "url": "sec-quadratic_functions.html#p-377",
+  "url": "sec-quadratic_functions.html#p-408",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1981,27 +2062,27 @@ var ptx_lunr_docs = [
   "body": " Using , the vertex form of the quadratic function is   "
 },
 {
-  "id": "example-55",
+  "id": "example-57",
   "level": "2",
-  "url": "sec-quadratic_functions.html#example-55",
+  "url": "sec-quadratic_functions.html#example-57",
   "type": "Example",
   "number": "3.5.11",
   "title": "",
   "body": "  Find the vertex form of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function    "
 },
 {
-  "id": "example-56",
+  "id": "example-58",
   "level": "2",
-  "url": "sec-quadratic_functions.html#example-56",
+  "url": "sec-quadratic_functions.html#example-58",
   "type": "Example",
   "number": "3.5.12",
   "title": "",
   "body": "  Find the vertex of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is   Therefore the vertex form of the quadratic function is    "
 },
 {
-  "id": "definition-54",
+  "id": "definition-57",
   "level": "2",
-  "url": "sec-quadratic_functions.html#definition-54",
+  "url": "sec-quadratic_functions.html#definition-57",
   "type": "Definition",
   "number": "3.5.13",
   "title": "",
@@ -2035,9 +2116,9 @@ var ptx_lunr_docs = [
   "body": "  The quadratic function factors as where is the discriminant.   "
 },
 {
-  "id": "example-57",
+  "id": "example-59",
   "level": "2",
-  "url": "sec-quadratic_functions.html#example-57",
+  "url": "sec-quadratic_functions.html#example-59",
   "type": "Example",
   "number": "3.5.17",
   "title": "",
@@ -2053,18 +2134,18 @@ var ptx_lunr_docs = [
   "body": " The -intercepts of a Quadratic Function  The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.    "
 },
 {
-  "id": "example-58",
+  "id": "example-60",
   "level": "2",
-  "url": "sec-quadratic_functions.html#example-58",
+  "url": "sec-quadratic_functions.html#example-60",
   "type": "Example",
   "number": "3.5.19",
   "title": "",
   "body": "  Find the -intercepts of the function .    Since the discriminant is this function does not have any -intercepts.   "
 },
 {
-  "id": "example-59",
+  "id": "example-61",
   "level": "2",
-  "url": "sec-quadratic_functions.html#example-59",
+  "url": "sec-quadratic_functions.html#example-61",
   "type": "Example",
   "number": "3.5.20",
   "title": "",
@@ -2125,18 +2206,18 @@ var ptx_lunr_docs = [
   "body": " Algebraic Combinations of Functions   The simplest way to construct new functions from existing functions is to use the four arithmetic operations.    Sums and Differences of Functions   Assume and are functions. The sum   Function  Sum  of and is the function      Sum of and  defined by     Consider the functions defined by and defined by . The intersection of the domains is and the union of the codomains is so the sum of and is the function defined by   In particular, we can evaluate at by     Suppose and are functions that output real numbers. Since addition of real numbers is commutative the order of addition of functions is also commutative because That is to say or, in words, the sum of and is the same as the sum of and .    Assume and are functions. The difference   Function  Difference  of and is the function      Difference of and  defined by     Consider the functions defined by and defined by . The intersection of the domains is and the union of the codomains is so the difference of and is the function defined by   In particular, we can evaluate at by    Unlike the sum of functions, the difference of functions is not commutative .   Consider the functions defined by and defined by . The intersection of the domains is and the union of the codomains is so the difference of and is the function defined by   We can see this is not the same as the function because      Products of Functions   Assume and are functions. The product   Function  Product  of and is the function      Product of and  defined by     Consider the functions defined by and defined by . The intersection of the domains is and the union of the codomains is so the product of and is the function defined by   In particular, we can evaluate at by     Suppose and are functions that output real numbers. Since multiplication of real numbers is commutative the order of multiplication of functions is also commutative because That is to say or, in words, the product of and is the same as the product of and .     Ratios of Functions   Assume and are functions, and for every , . The ratio   Function  Ratio  of and is the function      Ratio of and  defined by     Consider the functions defined by and defined by . The function is non-zero on the set The intersection with the domain of is the set of positive real numbers and the union of the codomains is so the ratio of and is the function defined by   In particular, we can evaluate at by    Unlike the sum and product of functions, the ratio of functions is not commutative .   Consider the functions defined by and defined by . The function is non-zero on the set . The intersection with the domain of is the set of positive real numbers and the union of the codomains is so the ratio of and is the function defined by   In particular, we can evaluate at to see     "
 },
 {
-  "id": "definition-56",
+  "id": "definition-59",
   "level": "2",
-  "url": "section-16.html#definition-56",
+  "url": "section-16.html#definition-59",
   "type": "Definition",
   "number": "4.1.1",
   "title": "",
   "body": " Assume and are functions. The sum   Function  Sum  of and is the function      Sum of and  defined by   "
 },
 {
-  "id": "example-60",
+  "id": "example-62",
   "level": "2",
-  "url": "section-16.html#example-60",
+  "url": "section-16.html#example-62",
   "type": "Example",
   "number": "4.1.2",
   "title": "",
@@ -2152,18 +2233,18 @@ var ptx_lunr_docs = [
   "body": " Suppose and are functions that output real numbers. Since addition of real numbers is commutative the order of addition of functions is also commutative because That is to say or, in words, the sum of and is the same as the sum of and .  "
 },
 {
-  "id": "definition-57",
+  "id": "definition-60",
   "level": "2",
-  "url": "section-16.html#definition-57",
+  "url": "section-16.html#definition-60",
   "type": "Definition",
   "number": "4.1.4",
   "title": "",
   "body": " Assume and are functions. The difference   Function  Difference  of and is the function      Difference of and  defined by   "
 },
 {
-  "id": "example-61",
+  "id": "example-63",
   "level": "2",
-  "url": "section-16.html#example-61",
+  "url": "section-16.html#example-63",
   "type": "Example",
   "number": "4.1.5",
   "title": "",
@@ -2179,27 +2260,27 @@ var ptx_lunr_docs = [
   "body": "Unlike the sum of functions, the difference of functions is not commutative . "
 },
 {
-  "id": "example-62",
+  "id": "example-64",
   "level": "2",
-  "url": "section-16.html#example-62",
+  "url": "section-16.html#example-64",
   "type": "Example",
   "number": "4.1.7",
   "title": "",
   "body": " Consider the functions defined by and defined by . The intersection of the domains is and the union of the codomains is so the difference of and is the function defined by   We can see this is not the same as the function because   "
 },
 {
-  "id": "definition-58",
+  "id": "definition-61",
   "level": "2",
-  "url": "section-16.html#definition-58",
+  "url": "section-16.html#definition-61",
   "type": "Definition",
   "number": "4.1.8",
   "title": "",
   "body": " Assume and are functions. The product   Function  Product  of and is the function      Product of and  defined by   "
 },
 {
-  "id": "example-63",
+  "id": "example-65",
   "level": "2",
-  "url": "section-16.html#example-63",
+  "url": "section-16.html#example-65",
   "type": "Example",
   "number": "4.1.9",
   "title": "",
@@ -2215,18 +2296,18 @@ var ptx_lunr_docs = [
   "body": " Suppose and are functions that output real numbers. Since multiplication of real numbers is commutative the order of multiplication of functions is also commutative because That is to say or, in words, the product of and is the same as the product of and .  "
 },
 {
-  "id": "definition-59",
+  "id": "definition-62",
   "level": "2",
-  "url": "section-16.html#definition-59",
+  "url": "section-16.html#definition-62",
   "type": "Definition",
   "number": "4.1.11",
   "title": "",
   "body": " Assume and are functions, and for every , . The ratio   Function  Ratio  of and is the function      Ratio of and  defined by   "
 },
 {
-  "id": "example-64",
+  "id": "example-66",
   "level": "2",
-  "url": "section-16.html#example-64",
+  "url": "section-16.html#example-66",
   "type": "Example",
   "number": "4.1.12",
   "title": "",
@@ -2242,9 +2323,9 @@ var ptx_lunr_docs = [
   "body": "Unlike the sum and product of functions, the ratio of functions is not commutative . "
 },
 {
-  "id": "example-65",
+  "id": "example-67",
   "level": "2",
-  "url": "section-16.html#example-65",
+  "url": "section-16.html#example-67",
   "type": "Example",
   "number": "4.1.14",
   "title": "",
@@ -2269,36 +2350,36 @@ var ptx_lunr_docs = [
   "body": " A rational function is a function of the form where and are polynomial functions.  "
 },
 {
-  "id": "example-66",
+  "id": "example-68",
   "level": "2",
-  "url": "sec-rational_functions.html#example-66",
+  "url": "sec-rational_functions.html#example-68",
   "type": "Example",
   "number": "4.2.2",
   "title": "",
   "body": " The rational function   is defined whenever is nonzero. This is the set of all numbers except and , which we can express as the union of intervals       "
 },
 {
-  "id": "example-67",
+  "id": "example-69",
   "level": "2",
-  "url": "sec-rational_functions.html#example-67",
+  "url": "sec-rational_functions.html#example-69",
   "type": "Example",
   "number": "4.2.3",
   "title": "",
   "body": " If we are working with the rational function defined by then it is tempting to factor the numerator as and write   It is important to remember that this simplification only holds for elements of the domain of the function . This says that is equal to the function defined by . However, the function defined by is not equal to the function because the functions and do not have the same domain.  "
 },
 {
-  "id": "example-68",
+  "id": "example-70",
   "level": "2",
-  "url": "sec-rational_functions.html#example-68",
+  "url": "sec-rational_functions.html#example-70",
   "type": "Example",
   "number": "4.2.4",
   "title": "",
   "body": " Consider the rational functions defined by   The sum of and is the function To find an expression for on this set, we use the least common multiple of the denominators to find a common denominator:   "
 },
 {
-  "id": "example-69",
+  "id": "example-71",
   "level": "2",
-  "url": "sec-rational_functions.html#example-69",
+  "url": "sec-rational_functions.html#example-71",
   "type": "Example",
   "number": "4.2.5",
   "title": "",
@@ -2323,18 +2404,18 @@ var ptx_lunr_docs = [
   "body": " Composition and Inverses   When we study numbers in an elementary mathematics course, we focus primarily on operations that we can perform with numbers like addition and multiplication. While we have seen we can perform these same operations with functions, there is one operation that is particular to functions that we study here. It is important because it provides a way to create complicated functions from simpler functions.    Composition of Functions  Assume and are functions with . The composition   Function  Composition  of with is the function      Composition of with  defined by     Consider the functions defined by and defined by . The composition of with is the function defined by     It is important to make sure the range of the function is contained within the domain of the function . If not, the composition does not make sense.    The function defined by cannot be composed with the function defined by because is not a real number when !    The order of composition matters. Even if and are both well-defined and have the same domain, these two functions are not the same in general.    Consider the functions defined by and defined by . The composition of with is the function defined by     Identities  In keeping with the analogy with operations on numbers, recall the operations of addition and multiplication both have distinguished elements. The number is the additive identity   Identity  Additive  because every real number remains unchanged when is added to it Similarly, the number is the multiplicative identity   Identity  Multiplicative  because every real number remains unchanged when it is multiplied by  For function composition, there is an analogous identity element.   Identity Function Assume is a set. The identity function on is the function defined by   Unlike addition and multiplication, the order of function composition matters, as we have seen in . Complicating matters more, not all functions can be composed. For a function ,   the composition only makes sense when the domain of contains the codomain of , and    the composition only makes sense when the codomain of is contained in the domain of .   For this reason, there is not one single identity function that satisfies the condition and .  Instead, we need to consider the identity functions on the domain and codomain of . The identity function on satisfies because and the identity function on satisfies because .    Composition Inverses  The identity elements for these operations are important because they provide a method for \"undoing\" the operation. This is easiest to understand by considering addition and multiplication first. For any real number , the additive inverse   Inverse  Additive  is the real number that satisfies If we add the number to another number , then we obtain the number . We can \"undo\" this operation by performing the operation \"add the additive inverse of \" -- which we normally just call \"subtract \" -- in the sense that Similarly, we note that the operation \"add c\" will \"undo\" the operation \"subtract \" in the sense that   The operations \"add \" and \"subtract \" define functions and by We can view and in terms of composition:          The story is similar for multiplication. For any non-zero real number , the multiplicative inverse   Inverse  Multiplicative  of is the real number that satisfies Multiplication by and multiplication by define functions by Just as with addition, these two functions \"undo\" one another in the sense that          Less formally, one often says \"division by \" instead of \"multiplication by .\"  These are two canonical examples of functions that are invertible , and the ideas captured in inverting addition and multiplication motivate the more general definition.   Composition Inverse  Assume is a function. The composition inverse , if it exists, is a function that satisfies or, equivalently, for every , and for every , .  If has a composition inverse, then we say is invertible .  Function  Invertible      Mathematicians commonly use the word \"inverse\" or \"invertible\" without explicitly stating the operation. It is important to infer the meaning from the context. If the object being discussed is a function, then \"inverse\" means composition inverse, not multiplicative inverse. That is to say,   In order to avoid confusion, we will avoid using the notation and write either or whenever we refer to a fraction with the function in the denominator.     Properties of Invertible Functions  For a function with a composition inverse, the codomain of and the domain of agree. For every , the element satisfies by definition. This provides useful information about the range of an invertible function .    If is a function with a composition inverse, then the range of is     The definition of a composition inverse is symmetric in the sense that the inverse of is and the inverse of is .    If is a function with inverse , then has a composition inverse and      In the language of , the functions \"add \" and \"add \" (or \"subtract \") are a pair of inverse functions   Similarly, the functions \"multiply by \" and \"multiply by \" (or \"divide by \") are a pair of inverse functions     In general, a linear function is invertible if . To evaluate at the real number , we perform the following operations   Multiply by ,    Add to .   This allows us to decompose as the function \"add \" composed with the function \"multiply by \" Since each function is invertible, we can invert by performing the inverse operations in reverse order, like peeling back the layers of an onion.  Write for the result of applying to . We would invert (or \"undo\") the operation of applying to by performing the operations   Subtract from     Divide by ( Important: This is why we required !)   Note this is equivalent to solving the equation for in terms of   In the language of , the inverse of is the composition   Finally, we can check these are in fact inverses of one another by checking the two compositions explicitly:                                         Our observations about compositions of invertible functions in are true in general.    Assume and are invertible functions. If the composition is well-defined, then is invertible and     As a final example, we illustrate why it is necessary to pay close attention to the domain of a function.   Consider the quadratic function defined by . This function is not invertible .  To see why, we must observe that if an inverse function exists, then by , it must have the form and for every positive number , we must assign a single number such that   However, there are always two such values: a positive number and its negative . This means we must choose one of these two values to be . Unfortunately, both decisions fail to produce an inverse for .  If we decide that is the positive number such that , then   On the other hand, if we decide that is the negative number such that , then Fortunately, these two problems suggest simple solutions.  In the first case, we simply exclude the negative numbers from the domain of . This operation is called restriction   Function  Restriction  and produces a new function defined by . This function becomes invertible and its inverse is the principle square root function   Function  Square Root   defined by . For every non-negative number ,          In the second case, we restrict the domain of to the negative numbers. This produces a new function defined by . The function is invertible and its inverse is the function defined by . For every non-negative real number ,            "
 },
 {
-  "id": "definition-61",
+  "id": "definition-64",
   "level": "2",
-  "url": "sec-composition.html#definition-61",
+  "url": "sec-composition.html#definition-64",
   "type": "Definition",
   "number": "4.3.1",
   "title": "Composition of Functions.",
   "body": " Composition of Functions  Assume and are functions with . The composition   Function  Composition  of with is the function      Composition of with  defined by   "
 },
 {
-  "id": "example-70",
+  "id": "example-72",
   "level": "2",
-  "url": "sec-composition.html#example-70",
+  "url": "sec-composition.html#example-72",
   "type": "Example",
   "number": "4.3.2",
   "title": "",
@@ -2350,9 +2431,9 @@ var ptx_lunr_docs = [
   "body": " It is important to make sure the range of the function is contained within the domain of the function . If not, the composition does not make sense.  "
 },
 {
-  "id": "example-71",
+  "id": "example-73",
   "level": "2",
-  "url": "sec-composition.html#example-71",
+  "url": "sec-composition.html#example-73",
   "type": "Example",
   "number": "4.3.4",
   "title": "",
@@ -2377,36 +2458,36 @@ var ptx_lunr_docs = [
   "body": " Consider the functions defined by and defined by . The composition of with is the function defined by   "
 },
 {
-  "id": "p-457",
+  "id": "p-488",
   "level": "2",
-  "url": "sec-composition.html#p-457",
+  "url": "sec-composition.html#p-488",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "additive identity multiplicative identity "
 },
 {
-  "id": "definition-62",
+  "id": "definition-65",
   "level": "2",
-  "url": "sec-composition.html#definition-62",
+  "url": "sec-composition.html#definition-65",
   "type": "Definition",
   "number": "4.3.7",
   "title": "Identity Function.",
   "body": " Identity Function Assume is a set. The identity function on is the function defined by  "
 },
 {
-  "id": "p-462",
+  "id": "p-493",
   "level": "2",
-  "url": "sec-composition.html#p-462",
+  "url": "sec-composition.html#p-493",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "additive inverse "
 },
 {
-  "id": "p-466",
+  "id": "p-497",
   "level": "2",
-  "url": "sec-composition.html#p-466",
+  "url": "sec-composition.html#p-497",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2521,9 +2602,9 @@ var ptx_lunr_docs = [
   "body": " The Horizontal Line Test   Assume . The function is invertible if and only if every horizontal line intersects the graph of in at most one point.   "
 },
 {
-  "id": "example-76",
+  "id": "example-78",
   "level": "2",
-  "url": "section-19.html#example-76",
+  "url": "section-19.html#example-78",
   "type": "Example",
   "number": "4.4.4",
   "title": "",
@@ -2557,9 +2638,9 @@ var ptx_lunr_docs = [
   "body": " The Exponential Function   So far, all of the functions we have encountered are either polynomials or can be constructed from polynomial equations using algebraic operations. A transcendental function   Function  Transcendental  is any function that cannot be constructed in this manner. While it is certainly odd to discuss functions that cannot be constructed by algebraic means in a course on algebra, many calculus courses expect students to already be familiar with these functions. We focus solely on the algebraic properties of these functions.    Properties of the Exponential Function  We start with the definition of a constant. Much like the number , this number cannot be constructed using algebraic methods. Indeed, the proper definition requires calculus, so we provide only a numerical approximation.   Euler's Number   Euler's number   Euler's Number  is the constant .   Euler's number     This constant is essential to the definition of the exponential function.   The Exponential Function The exponential function   Function  Exponential   is defined by .  We can think about the value of the exponential function at a positive real number as the result of multiplying copies of the number : This definition extends to all real numbers by defining   An interesting consequence of these definitions is that the exponential function transforms addition of the input into multiplication of the output and subtraction of the input into division of the output. For addition of the input, we take advantage of the fact that multiplication is associative to write   For subtraction of the inverse, we note that , so   These two properties also provide a convenient observation about multiplication of the input. Recall that the product of two numbers is simply a notational convenience. Depending on your needs, the product can be regarded as either adding together copies of the number or copies of the number : If we take first interpretation of , then we can apply the formula for the sum of inputs times to get Similarly, if we take the second interpretation of , then we can apply the formula for the sum of inputs times to get    Properties of Exponential Functions   Assume and are real numbers.                            The Graph of the Exponential Function  The graph of the exponential function is provided below.         Working with the Exponential     Combine expressions involving the exponential    Identify graphs involving the exponential       Use the to rewrite each equation so there is only one exponential term.                     Match each function with its graph.                                     "
 },
 {
-  "id": "p-520",
+  "id": "p-551",
   "level": "2",
-  "url": "sec-exponentials.html#p-520",
+  "url": "sec-exponentials.html#p-551",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2593,9 +2674,9 @@ var ptx_lunr_docs = [
   "body": " Properties of Exponential Functions   Assume and are real numbers.                         "
 },
 {
-  "id": "figure-51",
+  "id": "figure-55",
   "level": "2",
-  "url": "sec-exponentials.html#figure-51",
+  "url": "sec-exponentials.html#figure-55",
   "type": "Figure",
   "number": "5.1.4",
   "title": "",
@@ -2656,18 +2737,18 @@ var ptx_lunr_docs = [
   "body": " The Natural Logarithm   Looking at the graph of , it appears to satisfy .      The horizontal line test for   We can verify this algebraically as follows. Suppose the points and lie on the same horizontal line. These points must have the same -coordinates, so implies that and so . That is to say, the two points are the same point and so any horizontal line intersects the graph in at most one point. This tells us the exponential function is invertible.    The Natural Logarithm  The natural logarithm ,  Function  Logarithm  Natural   ,   The natural logarithm  is the inverse of .    Properties of the Natural Logarithm  As the composition inverse of , the logarithm inherits properties that are very similar to the . To describe these properties algebraically it is helpful to phrase the relationship between the exponential and the logarithm as pairing each real number with a positive real number via   Starting from the property , taking and in allows us to write We should note this algebraic fact fits with our geometric understanding. The graph of passes through the point . Since the graph of is the reflection of the graph of the exponential function across the line , the graph of the natural logarithm passes through the point .  If we introduce another real number, , then we obtain a second positive real number, . The function maps the sum of these numbers to the product of their pairs so the right-hand side of tells us that the logarithm pairs the product of positive real numbers with the sum of their pairs   Similarly, the function maps the difference of these numbers to the ratio of their pairs so the right-hand side of tells us that the logarithm pairs the ratio of positive real numbers with the difference of their pairs   Finally, we make the following observation as a convenience. If is any positive real number and is any real number, then we think of as the product of copies of the number  If we transform the log of the product into the sum of the logs times, then we obtain the expression   We summarize these properties below.   Properties of the Logarithm  Assume and are positive real numbers.                           The Graph of the Natural Logarithm  As the composition inverse, the graph of is obtained by reflecting the graph of across the line .         Solving Equations with Transcendental Functions  Sometimes, equations arise that involve the exponential function or the natural logarithm. The general tactic for solving equations of this type is to combine the exponentials or logarithms using and , then use the relation as appropriate, to obtain an equation without exponentials or logarithms.   To solve the equation for , we use the to rewrite Therefore there are two solutions to this equation: and .  We can check is a solution by substituting for on the left-hand side to get then on the right-hand side to get and observe they are the same.  Similarly, we can check is a solution by substituting for on the left-hand side to get then on the right-hand side to get and observe they are the same.    To solve the equation for , we use the to rewrite The two possible solutions are and . The solution is extraneous because is undefined. Therefore the only solution is .  We can verify this is a solution by substituting for to see        Solve equations involving the exponential function.  Solve equations involving the natural logarithm.     Solving Equations with Exponential Functions   Solve the equation for .    Solve the equation for .    Solve the equation for      Solving Equations with Logarithms   Solve the equation for .    Solve the equation for .    Solve the equation for .     "
 },
 {
-  "id": "figure-52",
+  "id": "figure-56",
   "level": "2",
-  "url": "sec-logarithms.html#figure-52",
+  "url": "sec-logarithms.html#figure-56",
   "type": "Figure",
   "number": "5.2.1",
   "title": "",
   "body": "    The horizontal line test for  "
 },
 {
-  "id": "definition-68",
+  "id": "definition-71",
   "level": "2",
-  "url": "sec-logarithms.html#definition-68",
+  "url": "sec-logarithms.html#definition-71",
   "type": "Definition",
   "number": "5.2.2",
   "title": "The Natural Logarithm.",
@@ -2683,27 +2764,27 @@ var ptx_lunr_docs = [
   "body": " Properties of the Logarithm  Assume and are positive real numbers.                        "
 },
 {
-  "id": "figure-53",
+  "id": "figure-57",
   "level": "2",
-  "url": "sec-logarithms.html#figure-53",
+  "url": "sec-logarithms.html#figure-57",
   "type": "Figure",
   "number": "5.2.4",
   "title": "",
   "body": "    "
 },
 {
-  "id": "example-77",
+  "id": "example-79",
   "level": "2",
-  "url": "sec-logarithms.html#example-77",
+  "url": "sec-logarithms.html#example-79",
   "type": "Example",
   "number": "5.2.5",
   "title": "",
   "body": " To solve the equation for , we use the to rewrite Therefore there are two solutions to this equation: and .  We can check is a solution by substituting for on the left-hand side to get then on the right-hand side to get and observe they are the same.  Similarly, we can check is a solution by substituting for on the left-hand side to get then on the right-hand side to get and observe they are the same.  "
 },
 {
-  "id": "example-78",
+  "id": "example-80",
   "level": "2",
-  "url": "sec-logarithms.html#example-78",
+  "url": "sec-logarithms.html#example-80",
   "type": "Example",
   "number": "5.2.6",
   "title": "",
@@ -2809,9 +2890,9 @@ var ptx_lunr_docs = [
   "body": "    The graphs of the exponential functions with base , , , , , , and  "
 },
 {
-  "id": "definition-70",
+  "id": "definition-73",
   "level": "2",
-  "url": "sec-other_exponentials.html#definition-70",
+  "url": "sec-other_exponentials.html#definition-73",
   "type": "Definition",
   "number": "5.3.4",
   "title": "",
@@ -3043,9 +3124,9 @@ var ptx_lunr_docs = [
   "body": " We can always express compounding interest as continuously compounding interest using the logarithm.  "
 },
 {
-  "id": "example-81",
+  "id": "example-83",
   "level": "2",
-  "url": "sec-modeling.html#example-81",
+  "url": "sec-modeling.html#example-83",
   "type": "Example",
   "number": "5.5.8",
   "title": "Converting to Continuously Compounding Interest.",
@@ -3070,9 +3151,9 @@ var ptx_lunr_docs = [
   "body": " List of Symbols   "
 },
 {
-  "id": "subsection-50",
+  "id": "subsection-52",
   "level": "1",
-  "url": "subsection-50.html",
+  "url": "subsection-52.html",
   "type": "Subsection",
   "number": "B.1",
   "title": "Polynomials",
@@ -3081,7 +3162,7 @@ var ptx_lunr_docs = [
 {
   "id": "fig-line",
   "level": "2",
-  "url": "subsection-50.html#fig-line",
+  "url": "subsection-52.html#fig-line",
   "type": "Figure",
   "number": "B.1.12",
   "title": "the graph of <span class=\"process-math\">\\(y = x\\)<\/span>",
@@ -3090,7 +3171,7 @@ var ptx_lunr_docs = [
 {
   "id": "fig-parabola",
   "level": "2",
-  "url": "subsection-50.html#fig-parabola",
+  "url": "subsection-52.html#fig-parabola",
   "type": "Figure",
   "number": "B.1.13",
   "title": "the graph of <span class=\"process-math\">\\(y = x^2\\)<\/span>",
@@ -3099,7 +3180,7 @@ var ptx_lunr_docs = [
 {
   "id": "fig-cubic",
   "level": "2",
-  "url": "subsection-50.html#fig-cubic",
+  "url": "subsection-52.html#fig-cubic",
   "type": "Figure",
   "number": "B.1.14",
   "title": "the graph of <span class=\"process-math\">\\(y = x^3\\)<\/span>",
@@ -3108,7 +3189,7 @@ var ptx_lunr_docs = [
 {
   "id": "fig-quartic",
   "level": "2",
-  "url": "subsection-50.html#fig-quartic",
+  "url": "subsection-52.html#fig-quartic",
   "type": "Figure",
   "number": "B.1.15",
   "title": "the graph of <span class=\"process-math\">\\(y = x^4\\)<\/span>",
@@ -3117,16 +3198,16 @@ var ptx_lunr_docs = [
 {
   "id": "fig-quintic",
   "level": "2",
-  "url": "subsection-50.html#fig-quintic",
+  "url": "subsection-52.html#fig-quintic",
   "type": "Figure",
   "number": "B.1.16",
   "title": "the graph of <span class=\"process-math\">\\(y = x^5\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
-  "id": "subsection-51",
+  "id": "subsection-53",
   "level": "1",
-  "url": "subsection-51.html",
+  "url": "subsection-53.html",
   "type": "Subsection",
   "number": "B.2",
   "title": "Roots",
@@ -3135,7 +3216,7 @@ var ptx_lunr_docs = [
 {
   "id": "fig-sq_root",
   "level": "2",
-  "url": "subsection-51.html#fig-sq_root",
+  "url": "subsection-53.html#fig-sq_root",
   "type": "Figure",
   "number": "B.2.17",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt{x}\\)<\/span>",
@@ -3144,7 +3225,7 @@ var ptx_lunr_docs = [
 {
   "id": "fig-cube_root",
   "level": "2",
-  "url": "subsection-51.html#fig-cube_root",
+  "url": "subsection-53.html#fig-cube_root",
   "type": "Figure",
   "number": "B.2.18",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt[3]{x}\\)<\/span>",
@@ -3153,7 +3234,7 @@ var ptx_lunr_docs = [
 {
   "id": "fig-fourth_root",
   "level": "2",
-  "url": "subsection-51.html#fig-fourth_root",
+  "url": "subsection-53.html#fig-fourth_root",
   "type": "Figure",
   "number": "B.2.19",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt[4]{x}\\)<\/span>",
@@ -3162,16 +3243,16 @@ var ptx_lunr_docs = [
 {
   "id": "fig-fifth_root",
   "level": "2",
-  "url": "subsection-51.html#fig-fifth_root",
+  "url": "subsection-53.html#fig-fifth_root",
   "type": "Figure",
   "number": "B.2.20",
   "title": "the graph of <span class=\"process-math\">\\(y = \\sqrt[5]{x}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
-  "id": "subsection-52",
+  "id": "subsection-54",
   "level": "1",
-  "url": "subsection-52.html",
+  "url": "subsection-54.html",
   "type": "Subsection",
   "number": "B.3",
   "title": "Rational Functions",
@@ -3180,7 +3261,7 @@ var ptx_lunr_docs = [
 {
   "id": "fig-1_x",
   "level": "2",
-  "url": "subsection-52.html#fig-1_x",
+  "url": "subsection-54.html#fig-1_x",
   "type": "Figure",
   "number": "B.3.21",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x}\\)<\/span>",
@@ -3189,7 +3270,7 @@ var ptx_lunr_docs = [
 {
   "id": "fig-1_x_2",
   "level": "2",
-  "url": "subsection-52.html#fig-1_x_2",
+  "url": "subsection-54.html#fig-1_x_2",
   "type": "Figure",
   "number": "B.3.22",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^2}\\)<\/span>",
@@ -3198,7 +3279,7 @@ var ptx_lunr_docs = [
 {
   "id": "fig-1_x_3",
   "level": "2",
-  "url": "subsection-52.html#fig-1_x_3",
+  "url": "subsection-54.html#fig-1_x_3",
   "type": "Figure",
   "number": "B.3.23",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^3}\\)<\/span>",
@@ -3207,7 +3288,7 @@ var ptx_lunr_docs = [
 {
   "id": "fig-1_x_4",
   "level": "2",
-  "url": "subsection-52.html#fig-1_x_4",
+  "url": "subsection-54.html#fig-1_x_4",
   "type": "Figure",
   "number": "B.3.24",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^4}\\)<\/span>",
@@ -3216,16 +3297,16 @@ var ptx_lunr_docs = [
 {
   "id": "fig-1_x_5",
   "level": "2",
-  "url": "subsection-52.html#fig-1_x_5",
+  "url": "subsection-54.html#fig-1_x_5",
   "type": "Figure",
   "number": "B.3.25",
   "title": "the graph of <span class=\"process-math\">\\(y = \\frac{1}{x^5}\\)<\/span>",
   "body": " the graph of     The graph of .  "
 },
 {
-  "id": "subsection-53",
+  "id": "subsection-55",
   "level": "1",
-  "url": "subsection-53.html",
+  "url": "subsection-55.html",
   "type": "Subsection",
   "number": "B.4",
   "title": "Miscellaneous Functions",
@@ -3234,7 +3315,7 @@ var ptx_lunr_docs = [
 {
   "id": "fig-abs_val",
   "level": "2",
-  "url": "subsection-53.html#fig-abs_val",
+  "url": "subsection-55.html#fig-abs_val",
   "type": "Figure",
   "number": "B.4.26",
   "title": "the graph of <span class=\"process-math\">\\(y = \\abs{x}\\)<\/span>",
