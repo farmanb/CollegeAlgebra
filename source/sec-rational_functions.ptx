@@ -3,17 +3,10 @@
 <section xml:id="sec-rational_functions" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Rational Functions</title>
 
-  <!-- <objectives> -->
-  <!--   <ul> -->
-  <!--     <li> -->
-  <!-- 	Find the domain of a rational functions -->
-  <!--     </li> -->
-  <!--   </ul> -->
-  <!-- </objectives> -->
-
   <introduction>
     <p>
-      A special case of ratios of functions that is of interest is when the numerator and denominator are both polynomials.
+      A special case of ratios of functions arise when both the numerator and denominator are polynomials.
+      These functions are of significant importance in many areas of mathematics, as well as its applications.
     </p>
   </introduction>
 
@@ -32,49 +25,86 @@
       <me>D = \left\{x \in \R \;\middle\vert\; q(x) \neq 0\right\}.</me>
     </p>
     
-    <example>
-      <p>
-	The rational function
-      </p>
-      <me>f(x) = \frac{x - 2}{x^2-9}</me>
-      <p>
-	is defined whenever <m>x^2 - 9 = (x - 3)(x + 3)</m> is nonzero.
-	This is the set of all numbers except <m>3</m> and <m>-3</m>, which we can express as the union of intervals
-	<me>(-\infty,-3) \cup (-3, 3) \cup (3, \infty).</me>
-      </p>
-      <!-- <md> -->
-      <!-- 	<mrow>D \amp= \left\{x \in \R \;\middle\vert\; x \neq 3,\, x \neq -3\right\}</mrow> -->
-      <!-- 	<mrow>\amp= (-\infty,-3) \cup (-3, 3) \cup (3, \infty).</mrow> -->
-      <!-- </md> -->
+    <example component="web">
+      <statement>
+	<p>
+	  Find the domain of the rational function
+	  <me>f(x) = \frac{x - 2}{x^2-9}</me>
+	</p>
+      </statement>
+	<solution>
+	  <p>
+	    This expression is undefined whenever 
+	    <me>x^2 - 9 = (x - 3)(x + 3) = 0</me>
+	    Since the only solutions to this equation are <m>x = 3</m> and <m>x = -3</m>, the domain of <m>f</m> is
+	    <me>D = \left\{x \in \R \;\middle\vert\; x \neq \pm 3\right\}.</me>
+	    This is the set of all numbers except <m>3</m> and <m>-3</m>, which we can express as the union of intervals
+	    <me>(-\infty,-3) \cup (-3, 3) \cup (3, \infty).</me>
+	  </p>
+	</solution>
     </example>
   </subsection>
 
+  <worksheet component="print">
+    <title/>
+    <page>
+      <example>
+	<statement>
+	  <p>
+	    Find the domain of the rational function
+	    <me>f(x) = \frac{x - 2}{x^2-9}</me>
+	  </p>
+	</statement>
+      </example>
+    </page>
+  </worksheet>
+
   <subsection>
     <title>Simplifying Rational Functions</title>
-    <!-- <p> -->
-    <!--   The operations that we perform with rational numbers have analogous operations with rational functions, although require some extra care. -->
-    <!-- </p> -->
-
     <p>
       Recall that we always write rational numbers in lowest terms.
       For example, instead of writing <m>2/4</m>, we cancel the common factor of <m>2</m> in the numerator and denominator to write <m>1/2</m>.
       The same is true for rational functions, although some extra care is required.
     </p>
-    <example>
-      <p>
-	If we are working with the rational function <m>f \colon (-\infty,3) \cup (3, \infty) \to \R</m> defined by
-	<me>f(x) = \frac{x^2 - 9}{x - 3},</me>
-	then it is tempting to factor the numerator as
-	<me>x^2 - 9 = (x + 3)(x - 3)</me>
-	and write
-	<me>f(x) = \frac{x - 3}{x - 3}(x + 3) = x + 3.</me>
-      </p>
-      <p>
-	It is important to remember that this simplification only holds for elements of the <alert>domain</alert> of the function <m>f</m>.
-	This says that <m>f</m> is equal to the function <m>g \colon (-\infty, 3) \cup (3, \infty) \to \R</m> defined by <m>g(x) = x + 3</m>.
-	However, the function <m>h \colon \R \to \R</m> defined by <m>h(x) = x + 3</m> is <alert>not</alert> equal to the function <m>f</m> because the functions <m>f</m> and <m>h</m> do not have the same domain.
-      </p>
+
+    <example component="web">
+      <statement>
+	<p>
+	  Simplify the function <m>f \colon (-\infty, 3) \cup (3, \infty) \to \R</m> defined by
+	  <me>f(x) = \frac{x^2-9}{x - 3}</me>
+	  in lowest terms.
+	  What is the domain of this simplified function?
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  To simplify the expression, factor the numerator as <m>x^2 - 9 = (x - 3)(x + 3)</m> and cancel the common factors in the numerator and denominator
+	  <me>f(x) = \frac{x - 3}{x - 3}(x + 3) = x + 3.</me>
+	</p>
+	<p>
+	  It is important to remember that this simplification <alert>only holds for elements of the domain of the function <m>f</m>!</alert>
+	  This says that <m>f</m> is equal to the function <m>g \colon (-\infty, 3) \cup (3, \infty) \to \R</m> defined by <m>g(x) = x + 3</m>.
+	  However, the function <m>h \colon \R \to \R</m> defined by <m>h(x) = x + 3</m> is <alert>not</alert> equal to the function <m>f</m> because the functions <m>f</m> and <m>h</m> do not have the same domain.
+	</p>
+      </solution>
     </example>
+
+    <worksheet component="print">
+      <title/>
+      <page>
+	<example>
+	  <statement>
+	    <p>
+	      Simplify the function <m>f \colon (-\infty, 3) \cup (3, \infty) \to \R</m> defined by
+	      <me>f(x) = \frac{x^2-9}{x - 3}</me>
+	      in lowest terms.
+	      What is the domain of this simplified function?
+	    </p>
+	  </statement>
+	</example>
+      </page>
+    </worksheet>
+
   </subsection>
 
   <subsection>
@@ -90,34 +120,68 @@
       </md>
       The same is true for rational functions, provided we are careful with the denominator.
     </p>
-    <example>
-      <p>
-	Consider the rational functions
-	<me>f \colon \left\{x \in \R \;\middle\vert\; x \neq 0,\, 1\right\} \to \R
-	\quad\text{and}\quad
-	g \colon \left\{x \in \R \;\middle\vert\; x \neq 0,\, 2\right\} \to \R</me>
-	defined by
-	<me>f(x) = \frac{x + 1}{x(x-1)}
-	\quad\text{and}\quad
-	g(x) = \frac{x - 4}{x(x-2)}.</me>
+
+    <example component="web">
+      <statement>
+	<p>
+	  Find the sum of the rational functions
+	  <me>f \colon \left\{x \in \R \;\middle\vert\; x \neq 0,\, 1\right\} \to \R
+	  \quad\text{and}\quad
+	  g \colon \left\{x \in \R \;\middle\vert\; x \neq 0,\, 2\right\} \to \R</me>
+	  defined by
+	  <me>f(x) = \frac{x + 1}{x(x-1)}
+	  \quad\text{and}\quad
+	  g(x) = \frac{x - 4}{x(x-2)}.</me>
+	  What is the domain of this function?
       </p>
-      <p>
-	The sum of <m>f</m> and <m>g</m> is the function
-	<me>f + g \colon \left\{x \in \R \;\middle\vert\; x \neq 0,\,1,\,2\right\}.</me>
-	To find an expression for <m>f + g</m> on this set, we use the least common multiple of the denominators
-	<me>x(x - 1)(x - 2)</me>
-	to find a common denominator:
-	<md>
-	  <mrow>\frac{x + 1}{x(x-1)} + \frac{x - 4}{x(x-2)}
-	  \amp = \frac{x-2}{x-2}\left(\frac{x + 1}{x(x-1)}\right) + \frac{x-1}{x-1}\left(\frac{x - 4}{x(x-2)}\right)</mrow>
-	  <mrow>\amp=\frac{(x-2)(x+1)}{x(x-1)(x-2)} + \frac{(x-1)(x-4)}{x(x-1)(x-2)}</mrow>
-	  <mrow>\amp=\frac{(x-2)(x+1) + (x-1)(x-4)}{x(x-1)(x-2)}</mrow>
-	  <mrow>\amp=\frac{x^2 +x - 2x - 2 + x^2 - 4x -x + 4}{x(x-1)(x-2)}</mrow>
-	  <mrow>\amp=\frac{2x^2 + 1x - 2x -4x -1x -2 + 4}{x(x-1)(x-2)}</mrow>
-	  <mrow>\amp=\frac{2x^2 -6x + 2}{x(x-1)(x-2)}.</mrow>
-	</md> 
-      </p>
+      </statement>
+      <solution>
+	<p>
+	  To add these functions, we must first find a common denominator.
+	  We use the least common multiple of <m>x(x-1)</m> and <m>x(x-2)</m>, which is
+	  <me>x(x - 1)(x - 2).</me>
+	  Once we have the common denominator, the process of adding rational functions is nearly the same as for rational numbers:
+	  <md>
+	    <mrow>\frac{x + 1}{x(x-1)} + \frac{x - 4}{x(x-2)}
+	    \amp = \frac{x-2}{x-2}\left(\frac{x + 1}{x(x-1)}\right) + \frac{x-1}{x-1}\left(\frac{x - 4}{x(x-2)}\right)</mrow>
+	    <mrow>\amp=\frac{(x-2)(x+1)}{x(x-1)(x-2)} + \frac{(x-1)(x-4)}{x(x-1)(x-2)}</mrow>
+	    <mrow>\amp=\frac{(x-2)(x+1) + (x-1)(x-4)}{x(x-1)(x-2)}</mrow>
+	    <mrow>\amp=\frac{x^2 +x - 2x - 2 + x^2 - 4x -x + 4}{x(x-1)(x-2)}</mrow>
+	    <mrow>\amp=\frac{2x^2 + 1x - 2x -4x -1x -2 + 4}{x(x-1)(x-2)}</mrow>
+	    <mrow>\amp=\frac{2x^2 -6x + 2}{x(x-1)(x-2)}.</mrow>
+	  </md> 
+	</p>
+	<p>
+	  By <xref ref="def-sum_functions"/>, the function <m>f + g</m> is only defined where <alert>both</alert> of <m>f</m> and <m>g</m> are defined.
+	  Therefore the sum of <m>f</m> and <m>g</m> is the function
+	  <me>f + g \colon \left\{x \in \R \;\middle\vert\; x \neq 0,\,1,\,2\right\} \to \R</me>
+	  defined by
+	  <me>(f + g)(x) = \frac{2x^2 -6x + 2}{x(x-1)(x-2)}.</me>
+	</p>
+      </solution>
     </example>
+
+    <worksheet component="print">
+      <title/>
+      <page>
+	<example>
+	  <statement>
+	    <p>
+	      Find the sum of the rational functions
+	      <me>f \colon \left\{x \in \R \;\middle\vert\; x \neq 0,\, 1\right\} \to \R
+	      \quad\text{and}\quad
+	      g \colon \left\{x \in \R \;\middle\vert\; x \neq 0,\, 2\right\} \to \R</me>
+	      defined by
+	      <me>f(x) = \frac{x + 1}{x(x-1)}
+	      \quad\text{and}\quad
+	      g(x) = \frac{x - 4}{x(x-2)}.</me>
+	      What is the domain of this function?
+	    </p>
+	  </statement>
+	</example>
+      </page>
+    </worksheet>
+    
   </subsection>
 
   <subsection>
@@ -132,35 +196,101 @@
       The same is true for products and ratios of rational functions.
     </p>
 
-    <example>
-      <p>
-	Consider the rational functions
-	<me>f \colon \left\{x \in \R \;\middle\vert\; x \neq 0,\, 1\right\} \to \R
-	\quad\text{and}\quad
-	g \colon \left\{x \in \R \;\middle\vert\; x \neq 0,\, 2\right\} \to \R</me>
-	defined by
-	<me>f(x) = \frac{x + 1}{x(x-1)}
-	\quad\text{and}\quad
-	g(x) = \frac{x - 4}{x(x-2)}.</me>	
-      </p>
-      <p>
-	The product of <m>f</m> and <m>g</m> is the function
-	<me>fg \colon \left\{x \in \R \;\middle\vert\; x \neq 0, 1, 2\right\} \to \R</me>
-	defined by
-	<me> \frac{x + 1}{x(x-1)}\left(\frac{x - 4}{x(x-2)}\right)
-	= \frac{(x+1)(x-4)}{x^2(x-1)(x-2)}</me>
-	The ratio of <m>f</m> and <m>g</m> is the function
-	<me>fg \colon \left\{x \in \R \;\middle\vert\; x \neq 0, 1, 2\right\} \to \R</me>
-	defined by
-	<md>
-	  <mrow>\frac{\frac{x + 1}{x(x-1)}}{\frac{x - 4}{x(x-2)}}
-	  \amp= \frac{x + 1}{x(x-1)}\left(\frac{x(x-2)}{x - 4}\right)</mrow>
-	  <mrow>\amp= \frac{x(x+1)(x-2)}{x(x-1)(x-4)}</mrow>
-	  <mrow>\amp= \frac{(x+1)(x-2)}{(x-1)(x-4)}.</mrow>
-	</md>
-      </p>
+    <example component="web">
+      <statement>
+	<p>
+	  Find the product of the rational functions
+	  <me>f \colon \left\{x \in \R \;\middle\vert\; x \neq 0,\, 1\right\} \to \R
+	  \quad\text{and}\quad
+	  g \colon \left\{x \in \R \;\middle\vert\; x \neq 0,\, 2\right\} \to \R</me>
+	  defined by
+	  <me>f(x) = \frac{x + 1}{x(x-1)}
+	  \quad\text{and}\quad
+	  g(x) = \frac{x - 4}{x(x-2)}.</me>	
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  We multiply the rational functions by multiplying the numerators and the denominators
+	  <me> \frac{x + 1}{x(x-1)}\left(\frac{x - 4}{x(x-2)}\right)
+	  = \frac{(x+1)(x-4)}{x^2(x-1)(x-2)}</me>
+	</p>
+	<p>
+	  By <xref ref="def-product_functions"/>, the function <m>fg</m> is only defined where <alert>both</alert> <m>f</m> and <m>g</m> are defined.
+	  Therefore product of <m>f</m> and <m>g</m> is the function
+	  <me>fg \colon \left\{x \in \R \;\middle\vert\; x \neq 0, 1, 2\right\} \to \R</me>
+	  defined by
+	  <me>(fg)(x) = \frac{(x+1)(x-4)}{x^2(x-1)(x-2)}.</me>
+	</p>
+      </solution>
     </example>
-    
+
+    <example component="web">
+      <statement>
+	<p>
+	  Find the ratio of the rational functions
+	  <me>f \colon \left\{x \in \R \;\middle\vert\; x \neq 0,\, 1\right\} \to \R
+	  \quad\text{and}\quad
+	  g \colon \left\{x \in \R \;\middle\vert\; x \neq 0,\, 2\right\} \to \R</me>
+	  defined by
+	  <me>f(x) = \frac{x + 1}{x(x-1)}
+	  \quad\text{and}\quad
+	  g(x) = \frac{x - 4}{x(x-2)}.</me>	
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  We can divide these rational functions by multiplying <m>f</m> by the reciprocal of <m>g</m>:
+	  <md>
+	    <mrow>\frac{\frac{x + 1}{x(x-1)}}{\frac{x - 4}{x(x-2)}}
+	    \amp= \frac{x + 1}{x(x-1)}\left(\frac{x(x-2)}{x - 4}\right)</mrow>
+	    <mrow>\amp= \frac{x(x+1)(x-2)}{x(x-1)(x-4)}</mrow>
+	    <mrow>\amp= \frac{(x+1)(x-2)}{(x-1)(x-4)}.</mrow>
+	  </md>
+	</p>
+	<p>
+	  By <xref ref="def-ratio_functions"/>, the function <m>f/g</m> is only defined where <alert>both</alert> <m>f</m> and <m>g</m> are defined <alert>and</alert> <m>g</m> is non-zero.
+	  Therefore <m>f/g</m> is the function
+	  <me>fg \colon \left\{x \in \R \;\middle\vert\; x \neq 0, 1, 2,4\right\} \to \R</me>
+	  defined by
+	  <me>\left(\frac{f}{g}\right)(x) = \frac{(x+1)(x-2)}{(x-1)(x-4)}.</me>
+	</p>
+      </solution>
+    </example>
+
+    <worksheet component="print">
+      <title/>
+      <page>
+	<introduction>
+	  <p>
+	    Consider the rational functions
+	    <me>f \colon \left\{x \in \R \;\middle\vert\; x \neq 0,\, 1\right\} \to \R
+	    \quad\text{and}\quad
+	    g \colon \left\{x \in \R \;\middle\vert\; x \neq 0,\, 2\right\} \to \R</me>
+	    defined by
+	    <me>f(x) = \frac{x + 1}{x(x-1)}
+	    \quad\text{and}\quad
+	    g(x) = \frac{x - 4}{x(x-2)}.</me>	
+	  </p>
+	</introduction>
+	<example>
+	  <statement>
+	    <p>
+	      Find the product of <m>f</m> and <m>g</m>.
+	    </p>
+	  </statement>
+	</example>
+      </page>
+      <page>
+	<example>
+	  <statement>
+	    <p>
+	      Find the ratio <m>f</m> and <m>g</m>
+	    </p>
+	  </statement>
+	</example>
+      </page>
+    </worksheet>
   </subsection>
 
   <worksheet>
