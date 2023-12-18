@@ -2206,9 +2206,9 @@ var ptx_lunr_docs = [
   "body": " Algebraic Combinations of Functions   The simplest way to construct new functions from existing functions is to use the four arithmetic operations.    Sums and Differences of Functions   Assume and are functions. The sum   Function  Sum  of and is the function      Sum of and  defined by     Consider the functions defined by and defined by . The intersection of the domains is and the union of the codomains is so the sum of and is the function defined by   In particular, we can evaluate at by     Suppose and are functions that output real numbers. Since addition of real numbers is commutative the order of addition of functions is also commutative because That is to say or, in words, the sum of and is the same as the sum of and .    Assume and are functions. The difference   Function  Difference  of and is the function      Difference of and  defined by     Consider the functions defined by and defined by . The intersection of the domains is and the union of the codomains is so the difference of and is the function defined by   In particular, we can evaluate at by    Unlike the sum of functions, the difference of functions is not commutative .   Consider the functions defined by and defined by . The intersection of the domains is and the union of the codomains is so the difference of and is the function defined by   We can see this is not the same as the function because      Products of Functions   Assume and are functions. The product   Function  Product  of and is the function      Product of and  defined by     Consider the functions defined by and defined by . The intersection of the domains is and the union of the codomains is so the product of and is the function defined by   In particular, we can evaluate at by     Suppose and are functions that output real numbers. Since multiplication of real numbers is commutative the order of multiplication of functions is also commutative because That is to say or, in words, the product of and is the same as the product of and .     Ratios of Functions   Assume and are functions, and for every , . The ratio   Function  Ratio  of and is the function      Ratio of and  defined by     Consider the functions defined by and defined by . The function is non-zero on the set The intersection with the domain of is the set of positive real numbers and the union of the codomains is so the ratio of and is the function defined by   In particular, we can evaluate at by    Unlike the sum and product of functions, the ratio of functions is not commutative .   Consider the functions defined by and defined by . The function is non-zero on the set . The intersection with the domain of is the set of positive real numbers and the union of the codomains is so the ratio of and is the function defined by   In particular, we can evaluate at to see     "
 },
 {
-  "id": "definition-59",
+  "id": "def-sum_functions",
   "level": "2",
-  "url": "section-16.html#definition-59",
+  "url": "section-16.html#def-sum_functions",
   "type": "Definition",
   "number": "4.1.1",
   "title": "",
@@ -2233,9 +2233,9 @@ var ptx_lunr_docs = [
   "body": " Suppose and are functions that output real numbers. Since addition of real numbers is commutative the order of addition of functions is also commutative because That is to say or, in words, the sum of and is the same as the sum of and .  "
 },
 {
-  "id": "definition-60",
+  "id": "def-difference_functions",
   "level": "2",
-  "url": "section-16.html#definition-60",
+  "url": "section-16.html#def-difference_functions",
   "type": "Definition",
   "number": "4.1.4",
   "title": "",
@@ -2269,9 +2269,9 @@ var ptx_lunr_docs = [
   "body": " Consider the functions defined by and defined by . The intersection of the domains is and the union of the codomains is so the difference of and is the function defined by   We can see this is not the same as the function because   "
 },
 {
-  "id": "definition-61",
+  "id": "def-product_functions",
   "level": "2",
-  "url": "section-16.html#definition-61",
+  "url": "section-16.html#def-product_functions",
   "type": "Definition",
   "number": "4.1.8",
   "title": "",
@@ -2296,9 +2296,9 @@ var ptx_lunr_docs = [
   "body": " Suppose and are functions that output real numbers. Since multiplication of real numbers is commutative the order of multiplication of functions is also commutative because That is to say or, in words, the product of and is the same as the product of and .  "
 },
 {
-  "id": "definition-62",
+  "id": "def-ratio_functions",
   "level": "2",
-  "url": "section-16.html#definition-62",
+  "url": "section-16.html#def-ratio_functions",
   "type": "Definition",
   "number": "4.1.11",
   "title": "",
@@ -2338,7 +2338,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "Rational Functions",
-  "body": " Rational Functions          A special case of ratios of functions that is of interest is when the numerator and denominator are both polynomials.    A rational function is a function of the form where and are polynomial functions.    The Domain of a Rational Function  Since polynomial functions always have domain and codomain , the domain of the rational function is the set    The rational function   is defined whenever is nonzero. This is the set of all numbers except and , which we can express as the union of intervals          Simplifying Rational Functions     Recall that we always write rational numbers in lowest terms. For example, instead of writing , we cancel the common factor of in the numerator and denominator to write . The same is true for rational functions, although some extra care is required.   If we are working with the rational function defined by then it is tempting to factor the numerator as and write   It is important to remember that this simplification only holds for elements of the domain of the function . This says that is equal to the function defined by . However, the function defined by is not equal to the function because the functions and do not have the same domain.     Sums and Differences of Rational Functions  Recall that in order to add or subtract rational numbers, we must find a common denominator. For example, to add and , we use the common denominator  The same is true for rational functions, provided we are careful with the denominator.   Consider the rational functions defined by   The sum of and is the function To find an expression for on this set, we use the least common multiple of the denominators to find a common denominator:      Products and Ratios of Rational Functions  Recall that when we multiply two rational numbers we multiply the numerators and denominators. For example, When we divide one rational number by another, we multiply the one by the reciprocal of the other. For example The same is true for products and ratios of rational functions.   Consider the rational functions defined by   The product of and is the function defined by The ratio of and is the function defined by        Find the domain of a rational functions     "
+  "body": " Rational Functions   A special case of ratios of functions arise when both the numerator and denominator are polynomials. These functions are of significant importance in many areas of mathematics, as well as its applications.    A rational function is a function of the form where and are polynomial functions.    The Domain of a Rational Function  Since polynomial functions always have domain and codomain , the domain of the rational function is the set     Find the domain of the rational function     This expression is undefined whenever Since the only solutions to this equation are and , the domain of is This is the set of all numbers except and , which we can express as the union of intervals       Simplifying Rational Functions  Recall that we always write rational numbers in lowest terms. For example, instead of writing , we cancel the common factor of in the numerator and denominator to write . The same is true for rational functions, although some extra care is required.    Simplify the function defined by in lowest terms. What is the domain of this simplified function?    To simplify the expression, factor the numerator as and cancel the common factors in the numerator and denominator   It is important to remember that this simplification only holds for elements of the domain of the function ! This says that is equal to the function defined by . However, the function defined by is not equal to the function because the functions and do not have the same domain.      Sums and Differences of Rational Functions  Recall that in order to add or subtract rational numbers, we must find a common denominator. For example, to add and , we use the common denominator  The same is true for rational functions, provided we are careful with the denominator.    Find the sum of the rational functions defined by What is the domain of this function?    To add these functions, we must first find a common denominator. We use the least common multiple of and , which is Once we have the common denominator, the process of adding rational functions is nearly the same as for rational numbers:   By , the function is only defined where both of and are defined. Therefore the sum of and is the function defined by       Products and Ratios of Rational Functions  Recall that when we multiply two rational numbers we multiply the numerators and denominators. For example, When we divide one rational number by another, we multiply the one by the reciprocal of the other. For example The same is true for products and ratios of rational functions.    Find the product of the rational functions defined by     We multiply the rational functions by multiplying the numerators and the denominators   By , the function is only defined where both  and are defined. Therefore product of and is the function defined by       Find the ratio of the rational functions defined by     We can divide these rational functions by multiplying by the reciprocal of :   By , the function is only defined where both  and are defined and  is non-zero. Therefore is the function defined by         Find the domain of a rational functions     "
 },
 {
   "id": "def-rational_function",
@@ -2356,7 +2356,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "4.2.2",
   "title": "",
-  "body": " The rational function   is defined whenever is nonzero. This is the set of all numbers except and , which we can express as the union of intervals       "
+  "body": "  Find the domain of the rational function     This expression is undefined whenever Since the only solutions to this equation are and , the domain of is This is the set of all numbers except and , which we can express as the union of intervals    "
 },
 {
   "id": "example-69",
@@ -2365,7 +2365,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "4.2.3",
   "title": "",
-  "body": " If we are working with the rational function defined by then it is tempting to factor the numerator as and write   It is important to remember that this simplification only holds for elements of the domain of the function . This says that is equal to the function defined by . However, the function defined by is not equal to the function because the functions and do not have the same domain.  "
+  "body": "  Simplify the function defined by in lowest terms. What is the domain of this simplified function?    To simplify the expression, factor the numerator as and cancel the common factors in the numerator and denominator   It is important to remember that this simplification only holds for elements of the domain of the function ! This says that is equal to the function defined by . However, the function defined by is not equal to the function because the functions and do not have the same domain.   "
 },
 {
   "id": "example-70",
@@ -2374,7 +2374,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "4.2.4",
   "title": "",
-  "body": " Consider the rational functions defined by   The sum of and is the function To find an expression for on this set, we use the least common multiple of the denominators to find a common denominator:   "
+  "body": "  Find the sum of the rational functions defined by What is the domain of this function?    To add these functions, we must first find a common denominator. We use the least common multiple of and , which is Once we have the common denominator, the process of adding rational functions is nearly the same as for rational numbers:   By , the function is only defined where both of and are defined. Therefore the sum of and is the function defined by    "
 },
 {
   "id": "example-71",
@@ -2383,7 +2383,16 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "4.2.5",
   "title": "",
-  "body": " Consider the rational functions defined by   The product of and is the function defined by The ratio of and is the function defined by   "
+  "body": "  Find the product of the rational functions defined by     We multiply the rational functions by multiplying the numerators and the denominators   By , the function is only defined where both  and are defined. Therefore product of and is the function defined by    "
+},
+{
+  "id": "example-72",
+  "level": "2",
+  "url": "sec-rational_functions.html#example-72",
+  "type": "Example",
+  "number": "4.2.6",
+  "title": "",
+  "body": "  Find the ratio of the rational functions defined by     We can divide these rational functions by multiplying by the reciprocal of :   By , the function is only defined where both  and are defined and  is non-zero. Therefore is the function defined by    "
 },
 {
   "id": "objectives-15",
@@ -2413,9 +2422,9 @@ var ptx_lunr_docs = [
   "body": " Composition of Functions  Assume and are functions with . The composition   Function  Composition  of with is the function      Composition of with  defined by   "
 },
 {
-  "id": "example-72",
+  "id": "example-73",
   "level": "2",
-  "url": "sec-composition.html#example-72",
+  "url": "sec-composition.html#example-73",
   "type": "Example",
   "number": "4.3.2",
   "title": "",
@@ -2431,9 +2440,9 @@ var ptx_lunr_docs = [
   "body": " It is important to make sure the range of the function is contained within the domain of the function . If not, the composition does not make sense.  "
 },
 {
-  "id": "example-73",
+  "id": "example-74",
   "level": "2",
-  "url": "sec-composition.html#example-73",
+  "url": "sec-composition.html#example-74",
   "type": "Example",
   "number": "4.3.4",
   "title": "",
@@ -2458,9 +2467,9 @@ var ptx_lunr_docs = [
   "body": " Consider the functions defined by and defined by . The composition of with is the function defined by   "
 },
 {
-  "id": "p-488",
+  "id": "p-493",
   "level": "2",
-  "url": "sec-composition.html#p-488",
+  "url": "sec-composition.html#p-493",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2476,18 +2485,18 @@ var ptx_lunr_docs = [
   "body": " Identity Function Assume is a set. The identity function on is the function defined by  "
 },
 {
-  "id": "p-493",
+  "id": "p-498",
   "level": "2",
-  "url": "sec-composition.html#p-493",
+  "url": "sec-composition.html#p-498",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "additive inverse "
 },
 {
-  "id": "p-497",
+  "id": "p-502",
   "level": "2",
-  "url": "sec-composition.html#p-497",
+  "url": "sec-composition.html#p-502",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2602,9 +2611,9 @@ var ptx_lunr_docs = [
   "body": " The Horizontal Line Test   Assume . The function is invertible if and only if every horizontal line intersects the graph of in at most one point.   "
 },
 {
-  "id": "example-78",
+  "id": "example-79",
   "level": "2",
-  "url": "section-19.html#example-78",
+  "url": "section-19.html#example-79",
   "type": "Example",
   "number": "4.4.4",
   "title": "",
@@ -2638,9 +2647,9 @@ var ptx_lunr_docs = [
   "body": " The Exponential Function   So far, all of the functions we have encountered are either polynomials or can be constructed from polynomial equations using algebraic operations. A transcendental function   Function  Transcendental  is any function that cannot be constructed in this manner. While it is certainly odd to discuss functions that cannot be constructed by algebraic means in a course on algebra, many calculus courses expect students to already be familiar with these functions. We focus solely on the algebraic properties of these functions.    Properties of the Exponential Function  We start with the definition of a constant. Much like the number , this number cannot be constructed using algebraic methods. Indeed, the proper definition requires calculus, so we provide only a numerical approximation.   Euler's Number   Euler's number   Euler's Number  is the constant .   Euler's number     This constant is essential to the definition of the exponential function.   The Exponential Function The exponential function   Function  Exponential   is defined by .  We can think about the value of the exponential function at a positive real number as the result of multiplying copies of the number : This definition extends to all real numbers by defining   An interesting consequence of these definitions is that the exponential function transforms addition of the input into multiplication of the output and subtraction of the input into division of the output. For addition of the input, we take advantage of the fact that multiplication is associative to write   For subtraction of the inverse, we note that , so   These two properties also provide a convenient observation about multiplication of the input. Recall that the product of two numbers is simply a notational convenience. Depending on your needs, the product can be regarded as either adding together copies of the number or copies of the number : If we take first interpretation of , then we can apply the formula for the sum of inputs times to get Similarly, if we take the second interpretation of , then we can apply the formula for the sum of inputs times to get    Properties of Exponential Functions   Assume and are real numbers.                            The Graph of the Exponential Function  The graph of the exponential function is provided below.         Working with the Exponential     Combine expressions involving the exponential    Identify graphs involving the exponential       Use the to rewrite each equation so there is only one exponential term.                     Match each function with its graph.                                     "
 },
 {
-  "id": "p-551",
+  "id": "p-556",
   "level": "2",
-  "url": "sec-exponentials.html#p-551",
+  "url": "sec-exponentials.html#p-556",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2773,18 +2782,18 @@ var ptx_lunr_docs = [
   "body": "    "
 },
 {
-  "id": "example-79",
+  "id": "example-80",
   "level": "2",
-  "url": "sec-logarithms.html#example-79",
+  "url": "sec-logarithms.html#example-80",
   "type": "Example",
   "number": "5.2.5",
   "title": "",
   "body": " To solve the equation for , we use the to rewrite Therefore there are two solutions to this equation: and .  We can check is a solution by substituting for on the left-hand side to get then on the right-hand side to get and observe they are the same.  Similarly, we can check is a solution by substituting for on the left-hand side to get then on the right-hand side to get and observe they are the same.  "
 },
 {
-  "id": "example-80",
+  "id": "example-81",
   "level": "2",
-  "url": "sec-logarithms.html#example-80",
+  "url": "sec-logarithms.html#example-81",
   "type": "Example",
   "number": "5.2.6",
   "title": "",
@@ -3124,9 +3133,9 @@ var ptx_lunr_docs = [
   "body": " We can always express compounding interest as continuously compounding interest using the logarithm.  "
 },
 {
-  "id": "example-83",
+  "id": "example-84",
   "level": "2",
-  "url": "sec-modeling.html#example-83",
+  "url": "sec-modeling.html#example-84",
   "type": "Example",
   "number": "5.5.8",
   "title": "Converting to Continuously Compounding Interest.",

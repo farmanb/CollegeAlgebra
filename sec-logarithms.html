@@ -261,7 +261,7 @@ window.MathJax = {
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-properties_functions.html" class="internal"><span class="codenumber">4</span> <span class="title">Function Properties</span></a></div>
+<div class="toc-title-box"><a href="ch-properties_functions.html" class="internal"><span class="codenumber">4</span> <span class="title">Combining Functions</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="section-16.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Algebraic Combinations of Functions</span></a></div>
@@ -366,8 +366,8 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-logarithms"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">5.2</span><span class="space"> </span><span class="title">The Natural Logarithm</span>
 </h2>
-<section class="introduction" id="introduction-49"><div class="para" id="p-574">Looking at the graph of <span class="process-math">\(\exp \colon \R \to (0,\infty)\text{,}\)</span> it appears to satisfy <a href="" class="xref" data-knowl="./knowl/xref/thm-horizontal_line_test.html" title="Theorem 4.4.3: The Horizontal Line Test">The Horizontal Line Test</a>.</div> <figure class="figure figure-like" id="figure-56"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-85.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.2.1<span class="period">.</span></span><span class="space"> </span>The horizontal line test for <span class="process-math">\(\exp \colon \R \to (0,\infty)\)</span></figcaption></figure> <div class="para logical" id="p-575">
+<section class="introduction" id="introduction-48"><div class="para" id="p-579">Looking at the graph of <span class="process-math">\(\exp \colon \R \to (0,\infty)\text{,}\)</span> it appears to satisfy <a href="" class="xref" data-knowl="./knowl/xref/thm-horizontal_line_test.html" title="Theorem 4.4.3: The Horizontal Line Test">The Horizontal Line Test</a>.</div> <figure class="figure figure-like" id="figure-56"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-85.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.2.1<span class="period">.</span></span><span class="space"> </span>The horizontal line test for <span class="process-math">\(\exp \colon \R \to (0,\infty)\)</span></figcaption></figure> <div class="para logical" id="p-580">
 <div class="para">We can verify this algebraically as follows. Suppose the points <span class="process-math">\(\left(x_1, \exp(x_1)\right)\)</span> and <span class="process-math">\(\left(x_2, \exp(x_2)\right)\)</span> lie on the same horizontal line. These points must have the same <span class="process-math">\(y\)</span>-coordinates, so</div>
 <div class="displaymath process-math" id="md-68">
 \begin{align*}
@@ -379,11 +379,11 @@ window.MathJax = {
 <div class="para">implies that <span class="process-math">\(x_1 - x_2 = 0\)</span> and so <span class="process-math">\(x_1 = x_2\text{.}\)</span> That is to say, the two points are the <em class="emphasis">same</em> point and so any horizontal line intersects the graph in at most one point. This tells us the exponential function is invertible.</div>
 </div></section><article class="definition definition-like" id="definition-71"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.2.2</span><span class="period">.</span><span class="space"> </span><span class="title">The Natural Logarithm.</span>
-</h3> <div class="para" id="p-576">The <dfn class="terminology">natural logarithm</dfn>,  <span class="process-math">\(\ln \colon (0, \infty) \to \R\text{,}\)</span>  is the inverse of <span class="process-math">\(\exp \colon \R \to (0, \infty)\text{.}\)</span>
+</h3> <div class="para" id="p-581">The <dfn class="terminology">natural logarithm</dfn>,  <span class="process-math">\(\ln \colon (0, \infty) \to \R\text{,}\)</span>  is the inverse of <span class="process-math">\(\exp \colon \R \to (0, \infty)\text{.}\)</span>
 </div></article><section class="subsection" id="subsection-44"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">5.2.1</span><span class="space"> </span><span class="title">Properties of the Natural Logarithm</span>
 </h3>
-<div class="para logical" id="p-577">
+<div class="para logical" id="p-582">
 <div class="para">As the composition inverse of <span class="process-math">\(\exp \colon \R \to (0, \infty)\text{,}\)</span> the logarithm inherits properties that are very similar to the <a href="" class="xref" data-knowl="./knowl/xref/thm-properties_exp.html" title="Theorem 5.1.3: Properties of Exponential Functions">Properties of Exponential Functions</a>. To describe these properties algebraically it is helpful to phrase the relationship between the exponential and the logarithm as pairing each real number <span class="process-math">\(x\)</span> with a positive real number <span class="process-math">\(y\)</span> via</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-properties_exp.html" id="eq-exp_log">
 \begin{equation}
@@ -391,7 +391,7 @@ y = \exp(x) \quad\text{and}\quad x = \ln(y).\tag{5.2.1}
 \end{equation}
 </div>
 </div>
-<div class="para logical" id="p-578">
+<div class="para logical" id="p-583">
 <div class="para">Starting from the property <span class="process-math">\(\exp(0) = 1\text{,}\)</span> taking <span class="process-math">\(x = 0\)</span> and <span class="process-math">\(y = 1\)</span> in <a href="" class="xref" data-knowl="./knowl/xref/eq-exp_log.html" title="Equation 5.2.1">(5.2.1)</a> allows us to write</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eq-exp_log.html">
 \begin{equation*}
@@ -401,7 +401,7 @@ y = \exp(x) \quad\text{and}\quad x = \ln(y).\tag{5.2.1}
 <div class="para">We should note this algebraic fact fits with our geometric understanding. The graph of <span class="process-math">\(\exp \colon \R \to (0, \infty)\)</span> passes through the point <span class="process-math">\((0,1)\text{.}\)</span> Since the graph of <span class="process-math">\(\ln \colon (0, \infty) \to \R\)</span> is the reflection of the graph of the exponential function across the line <span class="process-math">\(y = x\text{,}\)</span> the graph of the natural logarithm passes through the point <span class="process-math">\((1,0)\text{.}\)</span>
 </div>
 </div>
-<div class="para logical" id="p-579">
+<div class="para logical" id="p-584">
 <div class="para">If we introduce another real number, <span class="process-math">\(x^\prime\text{,}\)</span> then we obtain a second positive real number, <span class="process-math">\(y^\prime = \exp\left(x^\prime\right)\text{.}\)</span> The function <span class="process-math">\(\exp\)</span> maps the sum of these numbers to the product of their pairs</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eq-exp_log.html">
 \begin{equation*}
@@ -415,7 +415,7 @@ x + x^\prime = \log\left(yy^\prime\right).
 \end{equation*}
 </div>
 </div>
-<div class="para logical" id="p-580">
+<div class="para logical" id="p-585">
 <div class="para">Similarly, the function <span class="process-math">\(\exp\)</span> maps the difference of these numbers to the ratio of their pairs</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eq-exp_log.html">
 \begin{equation*}
@@ -429,7 +429,7 @@ x - x^\prime = \log\left(\frac{y}{y^\prime}\right).
 \end{equation*}
 </div>
 </div>
-<div class="para logical" id="p-581">
+<div class="para logical" id="p-586">
 <div class="para">Finally, we make the following observation as a convenience. If <span class="process-math">\(y\)</span> is any positive real number and <span class="process-math">\(r\)</span> is any real number, then we think of <span class="process-math">\(y^r\)</span> as the product of <span class="process-math">\(r\)</span> copies of the number <span class="process-math">\(y\)</span>
 </div>
 <div class="displaymath process-math">
@@ -449,26 +449,26 @@ y^r = \underbrace{y y y \cdots y}_r.
 \end{align*}
 </div>
 </div>
-<div class="para" id="p-582">We summarize these properties below.</div>
+<div class="para" id="p-587">We summarize these properties below.</div>
 <article class="theorem theorem-like" id="thm-properties_log"><h4 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.2.3</span><span class="period">.</span><span class="space"> </span><span class="title">Properties of the Logarithm.</span>
 </h4>
-<div class="para" id="p-583">Assume <span class="process-math">\(y\)</span> and <span class="process-math">\(y^\prime\)</span> are positive real numbers.</div>
+<div class="para" id="p-588">Assume <span class="process-math">\(y\)</span> and <span class="process-math">\(y^\prime\)</span> are positive real numbers.</div>
 <ol class="decimal">
-<li id="li-130"><div class="para" id="p-584"><span class="process-math">\(\displaystyle \ln(1) = 0.\)</span></div></li>
-<li id="li-131"><div class="para" id="p-585"><span class="process-math">\(\displaystyle \ln(yy^\prime) = \ln(y) + \ln(y^\prime).\)</span></div></li>
-<li id="li-132"><div class="para" id="p-586"><span class="process-math">\(\displaystyle \ln\left(\frac{y}{y^\prime}\right) = \ln(y) - \ln(y^\prime).\)</span></div></li>
-<li id="li-133"><div class="para" id="p-587"><span class="process-math">\(\displaystyle \ln(y^r) = r\ln(y).\)</span></div></li>
+<li id="li-130"><div class="para" id="p-589"><span class="process-math">\(\displaystyle \ln(1) = 0.\)</span></div></li>
+<li id="li-131"><div class="para" id="p-590"><span class="process-math">\(\displaystyle \ln(yy^\prime) = \ln(y) + \ln(y^\prime).\)</span></div></li>
+<li id="li-132"><div class="para" id="p-591"><span class="process-math">\(\displaystyle \ln\left(\frac{y}{y^\prime}\right) = \ln(y) - \ln(y^\prime).\)</span></div></li>
+<li id="li-133"><div class="para" id="p-592"><span class="process-math">\(\displaystyle \ln(y^r) = r\ln(y).\)</span></div></li>
 </ol></article></section><section class="subsection" id="subsection-45"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">5.2.2</span><span class="space"> </span><span class="title">The Graph of the Natural Logarithm</span>
 </h3>
-<div class="para" id="p-588">As the composition inverse, the graph of <span class="process-math">\(y = \ln(x)\)</span> is obtained by reflecting the graph of <span class="process-math">\(y = \exp(x)\)</span> across the line <span class="process-math">\(y = x\text{.}\)</span>
+<div class="para" id="p-593">As the composition inverse, the graph of <span class="process-math">\(y = \ln(x)\)</span> is obtained by reflecting the graph of <span class="process-math">\(y = \exp(x)\)</span> across the line <span class="process-math">\(y = x\text{.}\)</span>
 </div>
 <figure class="figure figure-like" id="figure-57"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-86.svg" role="img" class="contained"></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.2.4<span class="period">.</span></span><span class="space"> </span></figcaption></figure></section><section class="subsection" id="subsection-46"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">5.2.3</span><span class="space"> </span><span class="title">Solving Equations with Transcendental Functions</span>
 </h3>
-<div class="para logical" id="p-589">
+<div class="para logical" id="p-594">
 <div class="para">Sometimes, equations arise that involve the exponential function or the natural logarithm. The general tactic for solving equations of this type is to combine the exponentials or logarithms using <a href="" class="xref" data-knowl="./knowl/xref/thm-properties_exp.html" title="Theorem 5.1.3: Properties of Exponential Functions">Properties of Exponential Functions</a> and <a href="" class="xref" data-knowl="./knowl/xref/thm-properties_log.html" title="Theorem 5.2.3: Properties of the Logarithm">Properties of the Logarithm</a>, then use the relation</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-properties_exp.html ./knowl/xref/thm-properties_log.html">
 \begin{equation*}
@@ -477,10 +477,10 @@ y^r = \underbrace{y y y \cdots y}_r.
 </div>
 <div class="para">as appropriate, to obtain an equation without exponentials or logarithms.</div>
 </div>
-<article class="example example-like" id="example-79"><h4 class="heading">
+<article class="example example-like" id="example-80"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">5.2.5</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-590">
+<div class="para logical" id="p-595">
 <div class="para">To solve the equation</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-properties_exp.html">
 \begin{equation*}
@@ -501,7 +501,7 @@ y^r = \underbrace{y y y \cdots y}_r.
 </div>
 <div class="para">Therefore there are two solutions to this equation: <span class="process-math">\(x = 5\)</span> and <span class="process-math">\(x = 1\text{.}\)</span>
 </div>
-</div> <div class="para logical" id="p-591">
+</div> <div class="para logical" id="p-596">
 <div class="para">We can check <span class="process-math">\(x = 5\)</span> is a solution by substituting <span class="process-math">\(5\)</span> for <span class="process-math">\(x\)</span> on the left-hand side to get</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -515,7 +515,7 @@ y^r = \underbrace{y y y \cdots y}_r.
 \end{equation*}
 </div>
 <div class="para">and observe they are the same.</div>
-</div> <div class="para logical" id="p-592">
+</div> <div class="para logical" id="p-597">
 <div class="para">Similarly, we can check <span class="process-math">\(x = 1\)</span> is a solution by substituting <span class="process-math">\(1\)</span> for <span class="process-math">\(x\)</span> on the left-hand side to get</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -529,10 +529,10 @@ y^r = \underbrace{y y y \cdots y}_r.
 \end{equation*}
 </div>
 <div class="para">and observe they are the same.</div>
-</div></article><article class="example example-like" id="example-80"><h4 class="heading">
+</div></article><article class="example example-like" id="example-81"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">5.2.6</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-593">
+<div class="para logical" id="p-598">
 <div class="para">To solve the equation</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-properties_log.html">
 \begin{equation*}
@@ -553,7 +553,7 @@ y^r = \underbrace{y y y \cdots y}_r.
 </div>
 <div class="para">The two possible solutions are <span class="process-math">\(x = 0\)</span> and <span class="process-math">\(x = 2\text{.}\)</span> The solution <span class="process-math">\(x = 0\)</span> is <em class="emphasis">extraneous</em> because <span class="process-math">\(\ln(0 - 1) = \ln(-1)\)</span> is <em class="alert">undefined.</em> Therefore the only solution is <span class="process-math">\(x = 2\text{.}\)</span>
 </div>
-</div> <div class="para logical" id="p-594">
+</div> <div class="para logical" id="p-599">
 <div class="para">We can verify this is a solution by substituting <span class="process-math">\(2\)</span> for <span class="process-math">\(x\)</span> to see</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -570,7 +570,7 @@ y^r = \underbrace{y y y \cdots y}_r.
 <li id="li-134"><div class="para" id="p-derived-li-134">Solve equations involving the exponential function.</div></li>
 <li id="li-135"><div class="para" id="p-derived-li-135">Solve equations involving the natural logarithm.</div></li>
 </ul></article><section class="onepage" id="page-25"> <article class="exercise exercise-like" id="exercise-40"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
-<div class="para logical" id="p-595">
+<div class="para logical" id="p-600">
 <div class="para">Solve the equation</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -580,7 +580,7 @@ y^r = \underbrace{y y y \cdots y}_r.
 <div class="para">for <span class="process-math">\(x\text{.}\)</span>
 </div>
 </div></article> <article class="exercise exercise-like" id="exercise-41"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
-<div class="para logical" id="p-596">
+<div class="para logical" id="p-601">
 <div class="para">Solve the equation</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -590,7 +590,7 @@ y^r = \underbrace{y y y \cdots y}_r.
 <div class="para">for <span class="process-math">\(x\text{.}\)</span>
 </div>
 </div></article> <article class="exercise exercise-like" id="exercise-42"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
-<div class="para logical" id="p-597">
+<div class="para logical" id="p-602">
 <div class="para">Solve the equation</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -600,7 +600,7 @@ y^r = \underbrace{y y y \cdots y}_r.
 <div class="para">for <span class="process-math">\(x\)</span>
 </div>
 </div></article></section><section class="onepage" id="page-26"> <article class="exercise exercise-like" id="exercise-43"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
-<div class="para logical" id="p-598">
+<div class="para logical" id="p-603">
 <div class="para">Solve the equation</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -610,7 +610,7 @@ y^r = \underbrace{y y y \cdots y}_r.
 <div class="para">for <span class="process-math">\(x\text{.}\)</span>
 </div>
 </div></article> <article class="exercise exercise-like" id="exercise-44"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
-<div class="para logical" id="p-599">
+<div class="para logical" id="p-604">
 <div class="para">Solve the equation</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -620,7 +620,7 @@ y^r = \underbrace{y y y \cdots y}_r.
 <div class="para">for <span class="process-math">\(x\text{.}\)</span>
 </div>
 </div></article> <article class="exercise exercise-like" id="exercise-45"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
-<div class="para logical" id="p-600">
+<div class="para logical" id="p-605">
 <div class="para">Solve the equation</div>
 <div class="displaymath process-math">
 \begin{equation*}

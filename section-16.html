@@ -261,7 +261,7 @@ window.MathJax = {
 </ul>
 </li>
 <li class="toc-item toc-chapter contains-active">
-<div class="toc-title-box"><a href="ch-properties_functions.html" class="internal"><span class="codenumber">4</span> <span class="title">Function Properties</span></a></div>
+<div class="toc-title-box"><a href="ch-properties_functions.html" class="internal"><span class="codenumber">4</span> <span class="title">Combining Functions</span></a></div>
 <ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-section active">
 <div class="toc-title-box"><a href="section-16.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Algebraic Combinations of Functions</span></a></div>
@@ -366,13 +366,13 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="section-16"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">4.1</span><span class="space"> </span><span class="title">Algebraic Combinations of Functions</span>
 </h2>
-<section class="introduction" id="introduction-44"><div class="para" id="p-448">The simplest way to construct new functions from existing functions is to use the four arithmetic operations.</div></section><section class="subsection" id="subsection-29"><h3 class="heading hide-type">
+<section class="introduction" id="introduction-43"><div class="para" id="p-447">The simplest way to construct new functions from existing functions is to use the four arithmetic operations.</div></section><section class="subsection" id="subsection-29"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.1.1</span><span class="space"> </span><span class="title">Sums and Differences of Functions</span>
 </h3>
-<article class="definition definition-like" id="definition-59"><h4 class="heading">
+<article class="definition definition-like" id="def-sum_functions"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.1.1</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-449">
+<div class="para logical" id="p-448">
 <div class="para">Assume <span class="process-math">\(f \colon A \to B\)</span> and <span class="process-math">\(g \colon C \to D\)</span> are functions. The <dfn class="terminology">sum</dfn>  of <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> is the function <span class="process-math">\(f + g \colon A \cap C \to B \cup D\)</span>  defined by</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -382,7 +382,7 @@ window.MathJax = {
 </div></article><article class="example example-like" id="example-62"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.2</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-450">
+<div class="para logical" id="p-449">
 <div class="para">Consider the functions <span class="process-math">\(f \colon [0,\infty) \to \R\)</span> defined by <span class="process-math">\(f(x) = \sqrt{x}\)</span> and <span class="process-math">\(g \colon \R \to \R\)</span> defined by <span class="process-math">\(g(x) = x^2\text{.}\)</span> The intersection of the domains is</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -401,7 +401,7 @@ window.MathJax = {
 (f + g)(x) = f(x) + g(x) = \sqrt{x} + x^2.
 \end{equation*}
 </div>
-</div> <div class="para logical" id="p-451">
+</div> <div class="para logical" id="p-450">
 <div class="para">In particular, we can evaluate <span class="process-math">\(f + g\)</span> at <span class="process-math">\(x = 4\)</span> by</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -411,7 +411,7 @@ window.MathJax = {
 </div></article><article class="remark remark-like" id="remark-10"><h4 class="heading">
 <span class="type">Remark</span><span class="space"> </span><span class="codenumber">4.1.3</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-452">
+<div class="para logical" id="p-451">
 <div class="para">Suppose <span class="process-math">\(f \colon A \to \R\)</span> and <span class="process-math">\(g \colon A \to \R\)</span> are functions that output real numbers. Since addition of real numbers is commutative</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -426,10 +426,10 @@ x + y = y + x,
 </div>
 <div class="para">That is to say <span class="process-math">\(f + g = g + f\)</span> or, in words, the sum of <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> is the same as the sum of <span class="process-math">\(g\)</span> and <span class="process-math">\(f\text{.}\)</span>
 </div>
-</div></article><article class="definition definition-like" id="definition-60"><h4 class="heading">
+</div></article><article class="definition definition-like" id="def-difference_functions"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.1.4</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-453">
+<div class="para logical" id="p-452">
 <div class="para">Assume <span class="process-math">\(f \colon A \to B\)</span> and <span class="process-math">\(g \colon C \to D\)</span> are functions. The <dfn class="terminology">difference</dfn>  of <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> is the function <span class="process-math">\(f - g \colon A \cap C \to B \cup D\)</span>  defined by</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -439,7 +439,7 @@ x + y = y + x,
 </div></article><article class="example example-like" id="example-63"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.5</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-454">
+<div class="para logical" id="p-453">
 <div class="para">Consider the functions <span class="process-math">\(f \colon [0,\infty) \to \R\)</span> defined by <span class="process-math">\(f(x) = \sqrt{x}\)</span> and <span class="process-math">\(g \colon \R \to \R\)</span> defined by <span class="process-math">\(g(x) = x^2\text{.}\)</span> The intersection of the domains is</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -458,7 +458,7 @@ x + y = y + x,
 (f - g)(x) = \sqrt{x} - x^2.
 \end{equation*}
 </div>
-</div> <div class="para logical" id="p-455">
+</div> <div class="para logical" id="p-454">
 <div class="para">In particular, we can evaluate <span class="process-math">\(f - g\)</span> at <span class="process-math">\(x = 4\)</span> by</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -470,7 +470,7 @@ x + y = y + x,
 </h4>Unlike the sum of functions, the difference of functions is <em class="alert">not commutative</em>.</article><article class="example example-like" id="example-64"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.7</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-456">
+<div class="para logical" id="p-455">
 <div class="para">Consider the functions <span class="process-math">\(f \colon [0,\infty) \to \R\)</span> defined by <span class="process-math">\(f(x) = \sqrt{x}\)</span> and <span class="process-math">\(g \colon \R \to \R\)</span> defined by <span class="process-math">\(g(x) = x^2\text{.}\)</span> The intersection of the domains is</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -489,7 +489,7 @@ x + y = y + x,
 (g - f)(x) = x^2 - \sqrt{x}.
 \end{equation*}
 </div>
-</div> <div class="para logical" id="p-457">
+</div> <div class="para logical" id="p-456">
 <div class="para">We can see this is not the same as the function <span class="process-math">\(f - g\)</span> because</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -499,10 +499,10 @@ x + y = y + x,
 </div></article></section><section class="subsection" id="subsection-30"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.1.2</span><span class="space"> </span><span class="title">Products of Functions</span>
 </h3>
-<article class="definition definition-like" id="definition-61"><h4 class="heading">
+<article class="definition definition-like" id="def-product_functions"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.1.8</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-458">
+<div class="para logical" id="p-457">
 <div class="para">Assume <span class="process-math">\(f \colon A \to B\)</span> and <span class="process-math">\(g \colon C \to D\)</span> are functions. The <dfn class="terminology">product</dfn>  of <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> is the function <span class="process-math">\(fg \colon A \cap C \to B \cup D\)</span>  defined by</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -512,7 +512,7 @@ x + y = y + x,
 </div></article><article class="example example-like" id="example-65"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.9</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-459">
+<div class="para logical" id="p-458">
 <div class="para">Consider the functions <span class="process-math">\(f \colon [0,\infty) \to \R\)</span> defined by <span class="process-math">\(f(x) = \sqrt{x}\)</span> and <span class="process-math">\(g \colon \R \to \R\)</span> defined by <span class="process-math">\(g(x) = x^2\text{.}\)</span> The intersection of the domains is</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -531,7 +531,7 @@ x + y = y + x,
 (fg)(x) = f(x)g(x) = \sqrt{x}x^2.
 \end{equation*}
 </div>
-</div> <div class="para logical" id="p-460">
+</div> <div class="para logical" id="p-459">
 <div class="para">In particular, we can evaluate <span class="process-math">\(f  g\)</span> at <span class="process-math">\(x = 4\)</span> by</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -541,7 +541,7 @@ x + y = y + x,
 </div></article><article class="remark remark-like" id="remark-11"><h4 class="heading">
 <span class="type">Remark</span><span class="space"> </span><span class="codenumber">4.1.10</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-461">
+<div class="para logical" id="p-460">
 <div class="para">Suppose <span class="process-math">\(f \colon A \to \R\)</span> and <span class="process-math">\(g \colon A \to \R\)</span> are functions that output real numbers. Since multiplication of real numbers is commutative</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -559,10 +559,10 @@ xy = yx,
 </div></article></section><section class="subsection" id="subsection-31"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.1.3</span><span class="space"> </span><span class="title">Ratios of Functions</span>
 </h3>
-<article class="definition definition-like" id="definition-62"><h4 class="heading">
+<article class="definition definition-like" id="def-ratio_functions"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.1.11</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-462">
+<div class="para logical" id="p-461">
 <div class="para">Assume <span class="process-math">\(f \colon A \to B\)</span> and <span class="process-math">\(g \colon C \to D\)</span> are functions, and for every <span class="process-math">\(x \in C\text{,}\)</span> <span class="process-math">\(g(x) \neq 0\text{.}\)</span> The <dfn class="terminology">ratio</dfn>  of <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> is the function <span class="process-math">\(f / g \colon A \cap C \to B \cup D\)</span>  defined by</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -572,7 +572,7 @@ xy = yx,
 </div></article><article class="example example-like" id="example-66"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.12</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-463">
+<div class="para logical" id="p-462">
 <div class="para">Consider the functions <span class="process-math">\(f \colon [0,\infty) \to \R\)</span> defined by <span class="process-math">\(f(x) = \sqrt{x}\)</span> and <span class="process-math">\(g \colon \R \to \R\)</span> defined by <span class="process-math">\(g(x) = x\text{.}\)</span> The function <span class="process-math">\(g(x)\)</span> is non-zero on the set</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -597,7 +597,7 @@ xy = yx,
 \left(\frac{f}{g}\right)(x) = \frac{\sqrt{x}}{x}.
 \end{equation*}
 </div>
-</div> <div class="para logical" id="p-464">
+</div> <div class="para logical" id="p-463">
 <div class="para">In particular, we can evaluate <span class="process-math">\(f / g\)</span> at <span class="process-math">\(x = 4\)</span> by</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -609,7 +609,7 @@ xy = yx,
 </h4>Unlike the sum and product of functions, the ratio of functions is <em class="alert">not commutative</em>.</article><article class="example example-like" id="example-67"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.14</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-465">
+<div class="para logical" id="p-464">
 <div class="para">Consider the functions <span class="process-math">\(f \colon [0,\infty) \to \R\)</span> defined by <span class="process-math">\(f(x) = \sqrt{x}\)</span> and <span class="process-math">\(g \colon \R \to \R\)</span> defined by <span class="process-math">\(g(x) = x\text{.}\)</span> The function <span class="process-math">\(f(x)\)</span> is non-zero on the set <span class="process-math">\((0, \infty)\text{.}\)</span> The intersection with the domain of <span class="process-math">\(g\)</span> is the set of positive real numbers</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -628,7 +628,7 @@ xy = yx,
 \left(\frac{f}{g}\right)(x) = \frac{x}{\sqrt{x}}.
 \end{equation*}
 </div>
-</div> <div class="para logical" id="p-466">
+</div> <div class="para logical" id="p-465">
 <div class="para">In particular, we can evaluate <span class="process-math">\(g / f\)</span> at <span class="process-math">\(x = 4\)</span> to see</div>
 <div class="displaymath process-math">
 \begin{equation*}
