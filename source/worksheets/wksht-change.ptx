@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Working with the Average Rate of Change</title>
+  <title>Working with Measures of Change</title>
   <objectives>
     <ul>
       <li>
-	Find the average rate of change of a function on an interval.
+	<p>
+	  Identify intervals of increase and decrease of a function.
+	</p>
+      </li>
+      <li>
+	<p>
+	  Identify local extrema of a function.
+	</p>
+      </li>
+      <li>
+	<p>
+	  Find the average rate of change of a function on an interval.
+	</p>
       </li>
     </ul>
   </objectives>

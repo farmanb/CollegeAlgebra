@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-avg_roc" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Measures of Change</title>
+  <introduction>
+    <p>
+      Functions are important tools in the application of mathematics because they allow us to formalize the relationship between two quantities.
+      We are often interested in answering questions precisely about <em>how</em> the dependent variable responds to changes in the independent variable.
+      While it is useful to be able to precisely quantify this relationship, it is often easier to understand these relationships visually.
+      Our goal is to build a dictionary between the algebraic measures of change and the features of the graph.
+    </p>
+  </introduction>
+
+  <subsection>
+    <title>Intervals of Increase and Decrease</title>
+
+    <p>
+      The terms <em>increasing</em> and <em>decreasing</em> are useful qualitative descriptions of a function's behavior.
+      A function is increasing if its <m>y</m>-values increase as its <m>x</m>-values increase and decreases if its <m>y</m>-values decrease as its <m>x</m>-values increase.
+      This is easy to detect visually because either the height of the graph increases or decreases as you trace the graph from left to right.
+    </p>
+    <figure xml:id="fig-increasing">
+      <sidebyside>
+	<image>
+	  <latex-image>
+	    \begin{tikzpicture}
+	    \def\size{5}
+	    
+	    \path [draw, help lines, opacity=.5]  (-\size,0) grid (\size,\size);
+	    
+	    \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
+	    \draw [very thick,->] (0,0) -- (0,\size+.1) node [anchor=west] {$y$};
+
+	    \begin{scope}
+	    \clip (-\size,0) rectangle (\size,\size);
+	    \draw[thick,blue] plot[smooth,samples=500,domain=0:\size] (\x,\x^2);
+	    \end{scope}
+	    \end{tikzpicture}
+	  </latex-image>
+	</image>
+	<image>
+	  <latex-image>
+	    \begin{tikzpicture}
+	    \def\size{5}
+	    
+	    \path [draw, help lines, opacity=.5]  (-\size,0) grid (\size,\size);
+	    
+	    \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
+	    \draw [very thick,->] (0,0) -- (0,\size+.1) node [anchor=west] {$y$};
+	    
+	    \begin{scope}
+	    \clip (-\size,-\size) rectangle (\size,\size);
+	    \draw[thick,blue] plot[smooth,samples=500,domain=-\size:0] (\x,{(\x)^2});
+	    \end{scope}
+	    \end{tikzpicture}
+	  </latex-image>
+	</image>
+      </sidebyside>
+      <caption>The graph of an increasing function (left) and a decreasing function (right)</caption>
+    </figure>
+    <p>
+      Unfortunately, many interesting functions are not simply increasing or decreasing.
+      Rather, most interesting functions have pieces that are increasing and pieces that are decreasing.
+    </p>
+    <figure>
+      <image>
+	<latex-image>
+	  \begin{tikzpicture}
+	  \def\size{5}
+	  
+	  \path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
+
+	  \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
+	  \draw [very thick,->] (0,-\size) -- (0,\size+.1) node [anchor=west] {$y$};
+
+	  \begin{scope}
+	  \clip (-\size,-\size) rectangle (\size,\size);
+	  \draw [thick,blue] plot[smooth,samples=500,domain=-3:3] (\x, \x^5 - 5*\x^3 + 4*\x);
+	  \end{scope}
+	  
+	  \end{tikzpicture}
+	</latex-image>
+      </image>
+      <caption>The graph of a function that is neither increasing nor decreasing</caption>
+    </figure>
+
+    <p>
+      For this reason, we define increasing and decreasing on an interval to provide the flexibility to describe a range of interesting functions.
+    </p>
+
+    <definition>
+      Assume <m>A \subseteq \R</m> and <m>[a,b] \subseteq A</m>.
+      We say the function <m>f \colon A \to \R</m> is 
+      <ul>
+	<li>
+	  <p>
+	    <term>increasing</term>
+	    <idx>
+	      <h>Function</h>
+	      <h>Increasing</h>
+	    </idx>
+	    on the interval <m>[a,b]</m> if for every <m>a \leq x_1 \lt x_2 \leq b</m>,
+	    <me>f(x_1) \lt f(x_2).</me>
+	  </p>
+	</li>
+	<li>
+	  <p>
+	    <term>decreasing</term>
+	    <idx>
+	      <h>Function</h>
+	      <h>Decreasing</h>
+	    </idx>
+	    on the interval <m>[a,b]</m> if for every <m>a \leq x_1 \lt x_2 \leq b</m>,
+	    <me>f(x_2) \lt f(x_1).</me>
+	  </p>
+	</li>
+      </ul>
+    </definition>
+
+    <p>
+      Points where the graph changes between increasing and decreasing are often interesting features of the graph.
+      These points are known collectively as <term>local extrema</term>.
+      <idx>
+	<h>Function</h>
+	<h>Local Extrema</h>
+      </idx>
+    </p>
+
+    <definition>
+      <p>
+	Assume <m>A \subseteq \R</m>.
+	The function <m>f \colon A \to \R</m> has a <term>local maximum</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Local Maximum</h>
+	</idx>
+	at <m>(c, f(c))</m> if there exist values <m>a,b \in A</m> such that 
+	<ol>
+	  <li>
+	    <p>
+	      <m>f</m> is increasing on the interval <m>[a,c]</m>, and
+	    </p>
+	  </li>
+	  <li>
+	    <p>
+	      <m>f</m> is decreasing on the interval <m>[c,b]</m>.
+	    </p>
+	  </li>
+	</ol>
+      </p>
+      <p>
+	We say <m>f(c)</m> is a <term>local maximum value</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Local Maximum Value</h>
+	</idx>
+      </p>
+    </definition>
+
+    <definition>
+      <p>
+	Assume <m>A \subseteq \R</m>.
+	The function <m>f \colon A \to \R</m> has a <term>local minimum</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Local Minimum</h>
+	</idx>
+	at <m>(c, f(c))</m> if there exist values <m>a,b \in A</m> such that 
+	<ol>
+	  <li>
+	    <p>
+	      <m>f</m> is decreasing on the interval <m>[a,c]</m>, and
+	    </p>
+	  </li>
+	  <li>
+	    <p>
+	      <m>f</m> is increasing on the interval <m>[c,b]</m>.
+	    </p>
+	  </li>
+	</ol>
+      </p>
+      <p>
+	We say <m>f(c)</m> is a <term>local minimum value</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Local Minimum Value</h>
+	</idx>
+      </p>
+    </definition>
+
+    <example component="web">
+      <statement>
+	<p>
+	  Use the following graph to find the intervals of increase and decrease.
+	  Identify all local extrema.
+	</p>
+	<figure>
+	  <image>
+	    <latex-image>
+	      \begin{tikzpicture}
+	      \def\size{5}
+	      
+	      \path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
+
+	      \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
+	      \draw [very thick,->] (0,-\size) -- (0,\size+.1) node [anchor=west] {$y$};
+
+	      \begin{scope}
+	      \clip (-\size,-\size) rectangle (\size,\size);
+	      \draw [thick,blue] plot[smooth,samples=500,domain=-3:3] (\x, \x^5 - 5*\x^3 + 4*\x);
+	      \end{scope}
+
+	      \node at (-1.644,3.631)  {$\bullet$};
+	      \node at (-1.644,3.631) [above] {$(a,f(a))$};
+
+	      \node at (-0.544,-1.419) {$\bullet$};
+	      \node at (-0.544,-1.419) [below] {$(b, f(b))$};
+	      
+	      \node at (0.544,1.419)   {$\bullet$};
+	      \node at (0.544,1.419)   [above] {$(c, f(c))$};
+	      
+	      \node at (1.644,-3.631)  {$\bullet$};
+	      \node at (1.644,-3.631)  [below] {$(d, f(d))$};
+	      
+	      \end{tikzpicture}
+	    </latex-image>
+	  </image>
+	  <caption>The graph of <m>y = f(x)</m></caption>
+	</figure>
+      </statement>
+      <solution>
+	<p>
+	  The graph of <m>f</m> is increasing on the intervals
+	  <ul>
+	    <li>
+	      <p>
+		<m>(-\infty,a]</m>,
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		<m>[b,c]</m>, and
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		<m>[d, \infty).</m>
+	      </p>
+	    </li>
+	  </ul>
+	  The graph of <m>f</m> is decreasing on the intervals
+	  <ul>
+	    <li>
+	      <p>
+		<m>[a,b]</m>, and
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		<m>[c,d]</m>
+	      </p>
+	    </li>
+	  </ul>
+	</p>
+	<p>
+	  The points <m>(a, f(a))</m> and <m>(c,f(c)</m> are local maxima and the points <m>(b, f(b))</m> and <m>(d, f(d))</m> are local minima.
+	</p>
+      </solution>
+    </example>
+
+    <worksheet component="print">
+      <title/>
+      <page>
+	<example>
+	  <statement>
+	    <p>
+	      Use the following graph to find the intervals of increase and decrease.
+	      Identify all local extrema.
+	    </p>
+	    <figure>
+	      <image>
+		<latex-image>
+		  \begin{tikzpicture}
+		  \def\size{5}
+		  
+		  \path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
+
+		  \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
+		  \draw [very thick,->] (0,-\size) -- (0,\size+.1) node [anchor=west] {$y$};
+
+		  \begin{scope}
+		  \clip (-\size,-\size) rectangle (\size,\size);
+		  \draw [thick,blue] plot[smooth,samples=500,domain=-3:3] (\x, \x^5 - 5*\x^3 + 4*\x);
+		  \end{scope}
+
+		  \node at (-1.644,3.631)  {$\bullet$};
+		  \node at (-1.644,3.631) [above] {$(a,f(a))$};
+
+		  \node at (-0.544,-1.419) {$\bullet$};
+		  \node at (-0.544,-1.419) [below] {$(b, f(b))$};
+		  
+		  \node at (0.544,1.419)   {$\bullet$};
+		  \node at (0.544,1.419)   [above] {$(c, f(c))$};
+		  
+		  \node at (1.644,-3.631)  {$\bullet$};
+		  \node at (1.644,-3.631)  [below] {$(d, f(d))$};
+		  
+		  \end{tikzpicture}
+		</latex-image>
+	      </image>
+	      <caption>The graph of <m>y = f(x)</m></caption>
+	    </figure>
+	  </statement>
+	</example>
+      </page>
+    </worksheet>
+  </subsection>
+  
+  <subsection>
+    <title>Average Rate of Change</title>
+
+    <p>
+      The <em>rate</em> at which <m>y = f(x)</m> changes as <m>x</m> changes is a quantitative measure of change.
+      Suppose we have the following data about a five hour road trip.
+    </p>
+    <table>
+      <title>Distance Driven as a Function of Time</title>
+      <tabular halign="center">
+	<row header="yes">
+	  <cell>Time</cell>
+	  <cell>Miles Driven</cell>
+	</row>
+	<row>
+	  <cell>12:00 PM</cell>
+	  <cell><m>0</m></cell>
+	</row>
+	<row>
+	  <cell>1:00 PM</cell>
+	  <cell><m>25</m></cell>
+	</row>
+	<row>
+	  <cell>2:00 PM</cell>
+	  <cell><m>95</m></cell>
+	</row>
+	<row>
+	  <cell>3:00 PM</cell>
+	  <cell><m>165</m></cell>
+	</row>
+	<row>
+	  <cell>4:00 PM</cell>
+	  <cell><m>235</m></cell>
+	</row>
+	<row>
+	  <cell>5:00 PM</cell>
+	  <cell><m>270</m></cell>
+	</row>
+      </tabular>
+    </table>
+    <p>
+      While we cannot pinpoint exactly how fast the car was moving at any given time, we can use this data to give a rough estimate for the speed of the car over a period of time.
+      If we wanted to estimate the speed of the car over the two hour period from 3:00 PM until 5:00 PM, we could take the distance traveled
+      <me>270 - 165 = 105\ \text{miles}</me>
+      and divide it by the number of hours traveled to obtain
+      <me>\frac{105\ \text{miles}}{2\ \text{hours}} = 52.5\ \frac{\text{miles}}{\text{hours}}.</me>
+      This represents the <em>average</em> speed of the car during this period of time.
+      This idea generalizes to arbitrary functions naturally.
+    </p>
+
+    <definition xml:id="def-average_rate_of_change">
+      <title>The Average Rate of Change</title>
+      <p>
+	Assume <m>f</m> is a function and the domain of <m>f</m> contains the interval <m>[a,b]</m>.
+	The <term>average rate of change</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Average Rate of Change</h>
+	</idx>
+	of <m>f</m> on the interval <m>[a,b]</m> is
+	<me>\frac{f(b) - f(a)}{b-a}.</me>
+      </p>
+    </definition>
+
+    <example component="web">
+      <introduction>
+	<p>
+	  An object is thrown straight up in the air.
+	  The object reaches a maximum height of 1 meter after 1 seconds, and returns to the thrower's hand after 2 seconds.
+	  The function <m>h \colon [0,2] \to \R</m> models the height of the object in meters as a function of <m>x</m> seconds.
+	  <figure xml:id="fig-kinematic">
+	    <image>
+	      <latex-image>
+		<xi:include parse="text" href="tex/kinematic.tex"/>
+	      </latex-image>
+	    </image>
+	    <caption>The graph of <m>h(x)</m></caption>
+	  </figure>
+	</p>
+      </introduction>
+      <task>
+	<statement>
+	  <p>
+	    What is the average rate of change for the function on the interval <m>[0,1]</m>?
+	    Interpret the meaning of this number.
+	  </p>
+	</statement>
+	<solution>
+	  <p>
+	    Using <xref ref="def-average_rate_of_change" text="title"/>, the average rate of change on the interval <m>[0,1]</m> is
+	    <me>
+	      \frac{h(1) - h(0)}{1 - 0} = \frac{1 - 0}{1 - 0} = 1.
+	    </me>
+	    This tells us the object is moving up at an average rate of 1 meter per second.
+	  </p>
+	</solution>
+      </task>
+
+      <task>
+	<statement>
+	  <p>
+	    What is the average rate of change for the function on the interval <m>[0,1]</m>?
+	    Interpret the meaning of this number.
+	  </p>
+	</statement>
+	<solution>
+	  <p>
+	    Using <xref ref="def-average_rate_of_change" text="title"/>, the average rate of change on the interval <m>[0,1]</m> is
+	    <me>
+	      \frac{h(2) - h(1)}{2 - 1} = \frac{0 - 1}{2 - 1} = \frac{-1}{1} = -1
+	    </me>
+	    This tells us the object is falling back at an average rate of 1 meter per second.
+	  </p>
+	</solution>
+      </task>
+      
+      <task>
+	<statement>
+	  <p>
+	    What is the average rate of change for the function on the interval <m>[0,2]</m>?
+	  </p>
+	</statement>
+	<solution>
+	  <p>
+	    Using <xref ref="def-average_rate_of_change" text="title"/>, the average rate of change on the interval <m>[0,1]</m> is
+	    <me>
+	      \frac{f(2) - f(0)}{2 - 0} = \frac{0 - 0}{2 - 0} = 0.
+	    </me>
+	    We can interpret this as saying the object climbs and falls at the same speed.
+	  </p>
+	</solution>
+      </task>
+    </example>
+
+    <worksheet component="print">
+      <title/>
+      <page>
+	<example>
+	  <introduction>
+	    <p>
+	      An object is thrown straight up in the air.
+	      The object reaches a maximum height of 1 meter after 1 seconds, and returns to the thrower's hand after 2 seconds.
+	      The function <m>h \colon [0,2] \to \R</m> models the height of the object in meters as a function of <m>x</m> seconds.
+	      <figure>
+		<image width="50%">
+		  <latex-image>
+		    <xi:include parse="text" href="tex/kinematic.tex"/>
+		  </latex-image>
+		</image>
+		<caption>The graph of <m>h(x)</m></caption>
+	      </figure>
+	    </p>
+	  </introduction>
+	</example>
+
+	<task workspace="1in">
+	  <statement>
+	    <p>
+	      What is the average rate of change for the function on the interval <m>[0,1]</m>?
+	      Interpret the meaning of this number.
+	    </p>
+	  </statement>
+	</task>
+      </page>
+      <page>
+	<task workspace="1in">
+	  <statement>
+	    <p>
+	      What is the average rate of change for the function on the interval <m>[0,1]</m>?
+	      Interpret the meaning of this number.
+	    </p>
+	  </statement>
+	</task>
+	
+	<task workspace="1in">
+	  <statement>
+	    <p>
+	      What is the average rate of change for the function on the interval <m>[0,2]</m>?
+	    </p>
+	  </statement>
+	</task>
+      </page>
+    </worksheet>
+  </subsection>
+  <xi:include href="worksheets/wksht-change.ptx"/>
+</section>
