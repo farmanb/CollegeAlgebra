@@ -112,10 +112,12 @@
 	</p>
       </statement>
     </theorem>
+
     <p>
       The algebraic condition allows us to easily verify our intuition about images concretely.
     </p>
-    <example>
+
+    <example component="web">
       <statement>
 	<p>
 	  Verify the function <m>f(x) = x^4 - 5x^2 + 4</m> has <m>y</m>-axis symmetry.
@@ -129,12 +131,15 @@
 	  <image>
 	    <latex-image>
 	      \begin{tikzpicture}
-	      \path [draw, help lines, opacity=.5]  (-3,-3) grid (4,4);
+	      \path [draw, help lines, opacity=.5]  (-4,-4) grid (4,4);
 
 	      \draw [very thick,->] (-4,0) -- (4+.2,0) node [anchor=south] {$x$};
-	      \draw [very thick,->] (0,-3) -- (0,4+.2) node [anchor=west] {$y$};
+	      \draw [very thick,->] (0,-4) -- (0,4+.2) node [anchor=west] {$y$};
 
-	      \draw [color=blue,thick] plot[smooth,samples=500,domain={-sqrt(5)}:{sqrt(5)}] (\x,{(\x)^4 - 5*(\x)^2 + 4});
+	      \begin{scope}
+	      \clip (-4,-4) rectangle (4,4);
+	      \draw [color=blue,thick] plot[smooth,samples=500,domain=-3:3] (\x,{(\x)^4 - 5*(\x)^2 + 4});
+	      \end{scope}
 	      
 	      \end{tikzpicture}
 	    </latex-image>
@@ -152,7 +157,21 @@
 	</p>
       </solution>
     </example>
+
+    <worksheet component="print">
+      <title/>
+      <page>
+	<example>
+	  <statement>
+	    <p>
+	      Verify the function <m>f(x) = x^4 - 5x^2 + 4</m> has <m>y</m>-axis symmetry.
+	    </p>
+	  </statement>
+	</example>
+      </page>
+    </worksheet>
   </subsection>
+
   <subsection>
     <title>Origin Symmetry</title>
     <introduction>
@@ -160,6 +179,7 @@
 	The second type of symmetry we consider is slightly more subtle than <m>y</m>-axis symmetry.
       </p>
     </introduction>
+    
     <definition>
       <p>
 	We say a function <m>f</m> is <term>symmetric about the origin</term>
@@ -171,9 +191,11 @@
 	if the graph of <m>f</m> is invariant under rotation by 180 degrees.
       </p>
     </definition>
+
     <p>
       To understand this type of symmetry, consider <xref ref="fig-cubic" text="title"/> with the origin and another marked point.
     </p>
+
     <figure>
       <image>
 	<latex-image>
@@ -184,8 +206,11 @@
 	  \draw [very thick,->] (-4,0) -- (4+.2,0) node [anchor=south] {$x$};
 	  \draw [very thick,->] (0,-4) -- (0,4+.2) node [anchor=west] {$y$};
 
+	  \begin{scope}
+	  \clip (-4,-4) rectangle (4,4);
+	  \draw [color=blue,thick] plot[smooth,samples=500,domain=-3:3] (\x,\x^3);
+	  \end{scope}
 	  
-	  \draw [color=blue,thick] plot[smooth,samples=500,domain={-4^(1/3)}:{4^(1/3)}] (\x,\x^3);
 	  \node at (1,1) {$\bullet$};
 
 	  \node at (0,0) {$\bullet$};
@@ -195,6 +220,7 @@
 	</latex-image>
       </image>
     </figure>
+
     <!-- Print does not support GIFs, so this is the alternate for the printed version. -->
     <p component="print">
       First, we rotate the graph by 90 degrees.
@@ -226,10 +252,12 @@
       </image>
       <caption>The graph of <m>y=x^3</m> rotated 90 degrees counter-clockwise.</caption>
     </figure>
+
     <p component="print">
       Rotating once more by 90 degrees, we still have not changed the distance of our marked point from the origin.
       The graph looks the same, except we have moved our marked point from the first quadrant into the third quadrant.
     </p>
+
     <figure component="print">
       <image>
 	<latex-image>
@@ -257,6 +285,7 @@
       </image>
       <caption>The graph of <m>y=x^3</m> rotated 180 degrees counter-clockwise.</caption>
     </figure>
+    
     <p component="web">
       We can see what happens as we rotate the graph around the origin in the animation below.
       Note the rotation does not change the shape of the graph, so the distance from the marked point to the origin stays the same.
@@ -271,6 +300,7 @@
       The path the marked point follows through the rotation traces out a piece of a circle.
       Plotting the entirety of this circle, we can see the starting and ending location of the marked point create a diameter.
     </p>
+
     <figure>
       <image>
 	<latex-image>
@@ -320,27 +350,63 @@
 	</p>
       </statement>
     </theorem>
+
+    <example component="web">
+      <statement>
+	<p>
+	  Verify the function <m>f(x) = x^3 - 4x</m> has origin symmetry.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the origin.
+	</p>
+	<figure>
+	  <image>
+	    <latex-image>
+	      \begin{tikzpicture}
+	      \path [draw, help lines, opacity=.5]  (-4,-4) grid (4,4);
+
+	      \draw [very thick,->] (-4,0) -- (4+.2,0) node [anchor=south] {$x$};
+	      \draw [very thick,->] (0,-4) -- (0,4+.2) node [anchor=west] {$y$};
+
+	      \begin{scope}
+	      \clip (-4,-4) rectangle (4,4);
+	      \draw [color=blue,thick] plot[smooth,samples=500,domain=-3:3] (\x,{\x^3 - 4*\x});
+	      \end{scope}
+	      
+	      \end{tikzpicture}
+	    </latex-image>
+	  </image>
+	</figure>
+	<p>
+	  To verify our intuition, we just need to check
+	  <md>
+	    <mrow>f(-x) \amp= (-x)^3 - 4(-x)</mrow>
+	    <mrow>\amp= (-1)^3x^3 - (-4x)</mrow>
+	    <mrow>\amp= -x^3 + 4x</mrow>
+	    <mrow>\amp= -(x^3 - 4x)</mrow>
+	    <mrow>\amp= -f(x).</mrow>
+	  </md>
+	  Therefore <m>f(x)</m> has origin symmetry.
+	</p>
+      </solution>
+    </example>
+
+    <worksheet component="print">
+      <title/>
+      <page>
+	<example>
+	  <statement>
+	    <p>
+	      Verify the function <m>f(x) = x^3 - 4x</m> has origin symmetry.
+	    </p>
+	  </statement>
+	</example>
+      </page>
+    </worksheet>
+
   </subsection>
-  <!-- <definition> -->
-  <!--   <p> -->
-  <!--     A function <m>f</m> has  -->
-  <!--     if for all <m>x</m> in the domain of <m>f</m>, -->
-  <!--     <me>f(-x) = f(x)</me>. -->
-  <!--   </p> -->
-  <!-- </definition> -->
-
-  <!-- <p> -->
-  <!--   As we have seen in <xref ref="sec-transformations"/>, the graph of <m>y = f(-x)</m> is obtained by reflecting the graph of <m>y = f(x)</m> across the <m>y</m>-axis. -->
-  <!--   Since a function with <m>y</m>-axis symmetry satisfies <m>f(-x) = f(x)</m>, this tells us that the portion of the graph on either side of the <m>y</m>-axis are mirror images of one another. -->
-  <!-- </p> -->
-
-  <!-- <example> -->
-  <!--   <p> -->
-  <!--     The function <m>f(x) = x^2</m> has <m>y</m>-axis syemmetry since -->
-  <!--     <me>f(-x) = (-x)^2 = (-1)^2 x^2 = x^2 = f(x).</me> -->
-  <!--     This tells us <xref ref="fig-parabola" text="title"/> is symmetric about the <m>y</m>-axis. -->
-  <!--   </p> -->
-  <!-- </example> -->
 
   <worksheet>
     <objectives>
