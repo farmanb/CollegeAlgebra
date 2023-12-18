@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-properties_functions" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Function Properties</title>
-  <introduction>
-    <p>
-      In this chapter, we study properties of functions.
-    </p>
-  </introduction>
+  <title>Combining Functions</title>
 
   <!-- include sections -->
   <xi:include href="sec-algebraic_function_ops.ptx"/>
