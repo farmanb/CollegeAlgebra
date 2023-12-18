@@ -10,7 +10,8 @@
 
   <subsection>
     <title>Sums and Differences of Functions</title>
-    <definition>
+
+    <definition xml:id="def-sum_functions">
       <p>
 	Assume <m>f \colon A \to B</m> and <m>g \colon C \to D</m> are functions.
 	The <term>sum</term>
@@ -57,7 +58,7 @@
       </p>
     </remark>
     
-    <definition>
+    <definition xml:id="def-difference_functions">
       <p>
 	Assume <m>f \colon A \to B</m> and <m>g \colon C \to D</m> are functions.
 	The <term>difference</term>
@@ -118,7 +119,7 @@
   <subsection>
     <title>Products of Functions</title>
 
-    <definition>
+    <definition xml:id="def-product_functions">
       <p>
 	Assume <m>f \colon A \to B</m> and <m>g \colon C \to D</m> are functions.
 	The <term>product</term>
@@ -170,7 +171,7 @@
   <subsection>
     <title>Ratios of Functions</title>
 
-    <definition>
+    <definition xml:id="def-ratio_functions">
       <p>
 	Assume <m>f \colon A \to B</m> and <m>g \colon C \to D</m> are functions, and for every <m>x \in C</m>, <m>g(x) \neq 0</m>.
 	The <term>ratio</term>
