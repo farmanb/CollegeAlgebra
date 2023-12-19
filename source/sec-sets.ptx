@@ -2,25 +2,19 @@
 
 <section xml:id="sec-sets" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Sets</title>
-  <!-- <objectives> -->
-  <!--   <ul> -->
-  <!--     <li> -->
-  
-  <!--     </li> -->
-  <!--     <li> -->
-  
-  <!--     </li> -->
-  <!--     <li> -->
-  
-  <!--     </li> -->
-  <!--   </ul> -->
-  <!-- </objectives> -->
 
   <introduction>
     <p>
-      In this section, we study the basic theory of sets.
+      Unlike the sciences, where knowledge is often derived from observation and experimentation <mdash/> a type of reasoning called <em>inductive</em> <mdash/> mathematical truth can <alert>only</alert> be derived from <em>deductive</em> reasoning.
+      All of mathematics is derived from a list of only nine statements that are assumed to be true called <term>axioms</term> <mdash/> the curious reader can find these statements in any resource on <url href="https://en.wikipedia.org/wiki/Zermelo–Fraenkel_set_theory">Zermelo-Fraenkel Set Theory</url>.
     </p>
-    
+
+    <p>
+      For this reason, sets and set operations are unavoidable in a careful treatment of mathematics.
+      However, this is <alert>not</alert> a course on the foundations of mathematics.
+      We present here only the rudiments of a set theory that includes only the pieces absolutely necessary for the development of the material relevant to basic algebra.
+      We begin with the intuitive definition of a set.
+    </p>
   </introduction>
 
   <definition xml:id="def-set">
@@ -50,50 +44,269 @@
       and say "<m>x</m> is an element (or member) of <m>S</m>"
     </p>
   </definition>
-  
-  <definition xml:id="def-roster_notation">
-    <title>Roster Notation</title>
+
+  <subsection>
+    <title>Representations of Sets</title>
+
     <p>
-      <term>Roster notation</term>
+      Sets are effectively mathematical containers for <em>things</em>.
+      While there is no restriction on what kinds of <em>things</em> we can place in a set, we will focus on sets that contain numbers.
+      For small collections of <em>things</em>, we can write down the elements explicitly.
+    </p>
+    
+    <definition xml:id="def-roster_notation">
+      <title>Roster Notation</title>
+      <p>
+	<term>Roster notation</term>
+	<idx>
+	  <h>Set</h>
+	  <h>Roster Notation</h>
+	</idx>
+	specifies the elements of a set as a comma separated list surrounded by curly braces.
+      </p>
+    </definition>
+
+    <p>
+      Most interesting sets either have more elements than we <em>want</em> to write down or more elements than we <em>can</em> write down.
+      For large sets, we use a sort of description of the elements.
+    </p>
+
+    <definition xml:id="def-set_builder_notation">
+      <title>Set-Builder Notation</title>
+      <p>
+	<term>Set-builder notation</term>
+	<idx>
+	  <h>Set</h>
+	  <h>Set-Builder Notation</h>
+	</idx>
+	specifies the members of a set using a variable and condition for membership in the set.
+      </p>
+    </definition>
+
+    <p>
+      The condition for membership must always be a statement that is either true or false.
+      It allows us to test whether a <em>thing</em> belongs in the set.
+    </p>
+
+    <example component="web">
+      <statement>
+	<p>
+	Express the set with elements <m>1</m>, <m>2</m>, <m>3</m>, and <m>4</m> in <xref ref="def-roster_notation" text="title"/>.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  <m>S = \{1, 2, 3, 4\}</m> 
+	</p>
+      </solution>
+    </example>
+
+    <example component="web">
+      <statement>
+	<p>
+	  Express the set that contains all positive, even integers in <xref ref="def-set_builder_notation" text="title"/>.
+	</p>
+      </statement>
+      
+      <solution>
+	<p>
+	  By definition, the even positive integers are all the multiples of <m>2</m>:
+	  <me>2 = 2 \times 1,\, 4 = 2 \times 2,\, 6 = 2 \times 3,\, 8 = 2 \times 4,\, \ldots</me>
+	  The ellipsis (<m>\ldots</m>) here means the list continues according to the pattern.
+	  Therefore we can express the set of even positive integers as
+	  <me>E = \left\{2n \;\middle\vert\; n\ \text{is a positive integer}\right\}.</me>
+	</p>
+	<p>
+	  Note that we can use the conditions in the set-builder notation of <m>E</m> to test whether any <em>thing</em> is an element of <m>E</m>.
+	  For example, we can conclude a Zebra is not an element of this set because a Zebra is not a number (let alone twice an integer).
+	</p>
+	<p>More practically, we can test whether <m>3 \in \E</m> by first writing
+	  <me>3 = 1 \times 3 = \frac{2}{2} \times 3 = 2\left(\frac{3}{2}\right).</me>
+	  Since <m>3/2 = 1.5</m> is <alert>not</alert> an integer, we conclude <m>3 \not \in E</m>.
+	</p>
+	<p>
+	  Similarly, we can test whether <m>1354618 \in E</m> by writing
+	  <me>1354618 = 2 \times 677309.</me>
+	  Since <m>677309</m> is a positive integer, we conclude <m>1354618 \in E</m>.
+	</p>
+      </solution>
+    </example>
+    
+    <worksheet component="print">
+      <title/>
+      <page>
+	<example workspace="2in">
+	  <statement>
+	    <p>
+	      Express the set with elements <m>1</m>, <m>2</m>, <m>3</m>, and <m>4</m> in <xref ref="def-roster_notation" text="title"/>.
+	    </p>
+	  </statement>
+	</example>
+
+	<example workspace="2in">
+	  <statement>
+	    <p>
+	      Express the set that contains all positive, even integers in set-builder notation.
+	    </p>
+	  </statement>
+	</example>
+      </page>
+    </worksheet>
+
+  </subsection>
+
+  <subsection>
+    <title>Subsets and Equality</title>
+
+    <p>
+      In order to do work with sets effectively, we need a way to compare sets analogous to how we compare numbers.
+      The simplest comparison we can make is <em>sameness</em>.
+      For numbers, this is important because the same number can have two different representations, such as
+      <me>4 = \frac{8}{2} \quad\text{or}\quad 7 = 3 \times 2 + 1.</me>
+      The idea for sets is the same <mdash/>a set might have more than one representation.
+    </p>
+    
+    <definition xml:id="def-set_equality">
+      <p>
+	Let <m>A</m> and <m>B</m> be sets.
+	We say the sets <m>A</m> and <m>B</m> are <term>equal</term>
+	<idx>
+	  <h>Set</h>
+	  <h>Equal</h>
+	</idx>
+	and write <m>A = B</m>
+	<notation>
+	  <usage>
+	    <m>A = B</m>
+	  </usage>
+	  <description>Equality of sets</description>
+	</notation>
+	if <m>A</m> and <m>B</m> have the exact same elements.
+      </p>
+    </definition>
+
+    <example>
+      <p>
+	The sets <m>\{1,2,3\}</m> and <m>\{3, 1, 2\}</m> are equal.
+      </p>
+    </example>
+
+    <example>
+      <p>
+	The sets <m>\{1,2,3\}</m> and <m>\{1,2,4\}</m> are <alert>not</alert> equal.
+      </p>
+    </example>
+
+    <p>
+      Sets have a particularly odd quirk: they do <alert>not</alert> keep track of repetition.
+    </p>
+    
+    <example>
+      <p>
+	The sets <m>\{1,1,1,\}</m> and <m>\{1\}</m> are equal.
+      </p>
+    </example>
+
+    <p>
+      The other comparison we can make is an <em>order</em> relationship.
+      For any two numbers, we indicate which one is the smaller of the two using the symbol <m>\leq</m>, such as
+      <me>2 \leq 2 \quad\text{or}\quad \pi \leq 4.</me>
+      For sets, we have a similar sort of ordering.
+    </p>
+    <definition xml:id="def-subset">
+      <title>Subset</title>
+      <p>
+	Let <m>A</m> and <m>B</m> be sets.
+	We say that <m>A</m> is a <term>subset</term>
+	<idx>
+	  <h>Set</h>
+	  <h>Subset</h>
+	</idx>
+	of <m>B</m> and write <m>A \subseteq B</m>
+	<notation>
+	  <usage>
+	    <m>A \subseteq B</m>
+	  </usage>
+	  <description>Subset operator</description>
+	</notation>
+	if every element of <m>A</m> is also an element of <m>B</m>.
+      </p>
+    </definition>
+
+    <remark>
+      <p>
+	Every set <m>A</m> is a subset of itself, <m>A \subseteq A</m>.
+      </p>
+    </remark>
+    
+    <example>
+      <p>
+	The set <m>\{1,2\}</m> is a subset of the set <m>\{1,2,3\}</m>.
+	The set <m>\{1,2,3\}</m> is <alert>not</alert> a subset of the set <m>\{1,2\}</m>.
+      </p>
+    </example>
+
+    <p>
+      A very nice property of numbers is that any two numbers <m>x</m> and <m>y</m>, one of <m>x \leq y</m> and <m>y \leq x</m> <alert>must</alert> be true.
+      Unfortunately, this is not the case for sets.
+      It may be the case that two sets <m>A</m> and <m>B</m> satisfy <m>A \not \subseteq B</m> and <m>B \not \subseteq A</m>.
+      We call such sets <term>incomparable</term>
       <idx>
 	<h>Set</h>
-	<h>Roster Notation</h>
+	<h>Incomparable</h>
       </idx>
-      specifies the elements of a set as a comma separated list surrounded by curly braces.
     </p>
-  </definition>
+    
+    <example>
+      <p>
+	The set <m>\{1,2,3\}</m> is <alert>not</alert> a subset of <m>\{4,5\}</m> and the set <m>\{4,5\}</m> is <alert>not</alert> a subset of the set <m>\{1,2,3\}</m>.
+      </p>
+    </example>
 
-  <example>
     <p>
-      The set <m>S = \{1, 2, 3, 4\}</m> has as its elements the numbers <m>1</m>, <m>2</m>, <m>3</m>, and <m>4</m>.
+      Finally, we note that in some instances we want to exclude the possibility that two objects are the same in an order relationship.
+      With numbers, we use the <m>\lt</m> symbol to indicate that one number is <em>strictly</em> smaller than the other, such as
+      <me>1 \lt 2 \quad\text{or}\quad 7 \lt 1125.</me>
+      There is a strongly analogous notational change if we want to emphasize that the two sets are not the same.
     </p>
-  </example>
-  
-  <definition xml:id="def-set_builder_notation">
-    <title>Set-Builder Notation</title>
-    <p>
-      <term>Set-builder notation</term>
-      <idx>
-	<h>Set</h>
-	<h>Set-Builder Notation</h>
-      </idx>
-      specifies the members of a set using a variable and condition for membership in the set.
-    </p>
-  </definition>
 
-  <example>
-    <p>
-      The set, <m>E</m>, of all positive, even integers can be written in set-builder notation as
-      <me>E = \left\{x \;\middle\vert\; x\ \text{is a positive, even integer}\right\}.</me>
-      This is read as "<m>E</m> is the set of all <m>x</m> such that <m>x</m> is a positive, even integer."
-    </p>
-  </example>
+    <definition xml:id="def-proper_subset">
+      <title>Proper Subset</title>
+      <p>
+	Let <m>A</m> and <m>B</m> be sets.
+	We say that <m>A</m> is a <term>proper subset</term>
+	<idx>
+	  <h>Set</h>
+	  <h>Subset</h>
+	  <h>Proper</h>
+	</idx>
+	of <m>B</m> and write <m>A \subset B</m>
+	<notation>
+	  <usage>
+	    <m>A \subset B</m>
+	  </usage>
+	  <description>Proper subset operator</description>
+	</notation>
+	if every element of <m>A</m> is also an element of <m>B</m> and <m>A \neq B</m>.
+      </p>
+    </definition>
+
+    <example>
+      <p>
+	The set <m>\{1,2\}</m> is a proper subset of the set <m>\{1,2,3\}</m>.
+	We could write either <m>\{1,2\} \subseteq \{1,2,3\}</m> or <m>\{1,2\} \subset \{1,2,3\}</m>.
+	We use the latter when it is important to emphasize that the two sets are not the same.
+      </p>
+    </example>
+      
+  </subsection>
   
   <subsection xml:id="subsec-special_sets">
     <title>Special Sets</title>
     <introduction>
       <p>
-	We have special names for some commonly used sets.
+	Certain sets appear so frequently that mathematicians use an agreed upon symbol to refer to the set.
+	We collect a list of these sets below.
       </p>
     </introduction>
 
@@ -114,6 +327,12 @@
 	</notation>
       </p>
     </definition>
+
+    <remark>
+      <p>
+	For convenience, the <xref ref="def-empty_set" text="title"/> is a subset of <em>every</em> set.
+      </p>
+    </remark>
     
     <definition xml:id="def-naturals">
       <title>The Natural Numbers</title>
@@ -181,13 +400,37 @@
 	<description>The set of real numbers.</description>
       </notation>
     </definition>
+
+    <p>
+      These sets of real numbers are related in the following way
+      <me>\N \subset \Z \subset \Q \subset \R.</me>
+      Each of the containments is proper because, for example,
+      <ul>
+	<li>
+	  <p>
+	    Every natural number is an integer, but <m>0 \in \Z</m> and <m>0 \not \in \N</m>.
+	  </p>
+	</li>
+	<li>
+	  <p>
+	    Every integer <m>n = n/1</m> is a rational number, but <m>1/2 \in \Q</m> and <m>1/2 \not \in \Z</m>.
+	  </p>
+	</li>
+	<li>
+	  <p>
+	    Every rational number is a real number, but <m>\sqrt{2} \in \R</m> and <m>\sqrt{2} \not \in \Q</m>.
+	  </p>
+	</li>
+      </ul>
+    </p>
   </subsection>
   
   <subsubsection>
     <title>Intervals</title>
     <introduction>
       <p>
-	We will mostly be concerned with subsets of the real numbers known as <em>intervals</em>.
+	A particularly special class of subsets of <m>\R</m> are the <em>intervals</em>.
+	These sets arise frequently, so it is important to specify the notation and a graphic representation for each one.
       </p>
     </introduction>
 
@@ -225,7 +468,7 @@
 	    <xi:include parse="text" href="tex/interval-right_open_ray.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The open intervals <m>(a,b)</m>, <m>(a,\infty)</m>, and <m>(-\infty, b)</m>.</caption>
+	<caption>The open intervals <m>(a,b)</m> (top), <m>(a,\infty)</m> (middle), and <m>(-\infty, b)</m> (bottom).</caption>
       </figure>
     </definition>
 
@@ -263,7 +506,7 @@
 	    <xi:include parse="text" href="tex/interval-right_closed_ray.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The closed intervals <m>[a,b]</m>, <m>[a,\infty)</m>, and <m>(-\infty,b]</m>.</caption>
+	<caption>The closed intervals <m>[a,b]</m> (top), <m>[a,\infty)</m> (middle), and <m>(-\infty,b]</m> (bottom).</caption>
       </figure>
     </definition>
 
@@ -294,77 +537,12 @@
 	    <xi:include parse="text" href="tex/interval-half_open-right.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The half-open intervals <m>(a,b]</m> and <m>[a,b)</m>.</caption>
+	<caption>The half-open intervals <m>(a,b]</m> (top) and <m>[a,b)</m> (bottom).</caption>
       </figure>
     </definition>
   </subsubsection>
 
-  <subsection>
-    <title>Subsets and Equality</title>
 
-    <definition xml:id="def-set_equality">
-      <p>
-	Let <m>A</m> and <m>B</m> be sets.
-	We say the sets <m>A</m> and <m>B</m> are <term>equal</term>
-	<idx>
-	  <h>Set</h>
-	  <h>Equal</h>
-	</idx>
-	and write <m>A = B</m>
-	<notation>
-	  <usage>
-	    <m>A = B</m>
-	  </usage>
-	  <description>Equality of sets</description>
-	</notation>
-	if <m>A</m> and <m>B</m> have the exact same elements.
-      </p>
-    </definition>
-
-    <example>
-      <p>
-	The sets <m>\{1,2,3\}</m> and <m>\{3, 1, 2\}</m> are equal.
-      </p>
-    </example>
-
-    <example>
-      <p>
-	The sets <m>\{1,2,3\}</m> and <m>\{1,2,4\}</m> are <alert>not</alert> equal.
-      </p>
-    </example>
-    
-    <definition xml:id="def-subset">
-      <title>Subset</title>
-      <p>
-	Let <m>A</m> and <m>B</m> be sets.
-	We say that <m>A</m> is a <term>subset</term>
-	<idx>
-	  <h>Set</h>
-	  <h>Subset</h>
-	</idx>
-	of <m>B</m> and write <m>A \subseteq B</m>
-	<notation>
-	  <usage>
-	    <m>A \subseteq B</m>
-	  </usage>
-	  <description>Subset operator</description>
-	</notation>
-	if every element of <m>A</m> is also an element of <m>B</m>.
-      </p>
-    </definition>
-
-    <example>
-      <p>
-	The set <m>\{1,2\}</m> is a subset of the set <m>\{1,2,3\}</m>.
-      </p>
-    </example>
-
-    <example>
-      <p>
-	The set <m>\{1,2,3\}</m> is <alert>not</alert> a subset of <m>\{1,3\}</m>.
-      </p>
-    </example>
-  </subsection>
   
   <subsection>
     <title>Basic Set Operations</title>
@@ -419,7 +597,7 @@
 	    <xi:include parse="text" href="tex/intersection_example.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The intervals <m>[0,2)</m>, <m>(1,3]</m>, and <m>[0,2) \cap (1,3])</m>.</caption>
+	<caption>The intervals <m>[0,2)</m> (top), <m>(1,3]</m> (middle), and <m>[0,2) \cap (1,3]) (bottom)</m>.</caption>
       </figure>
     </example>
     
@@ -475,7 +653,7 @@
 	    <xi:include parse="text" href="tex/union_example.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The intervals <m>[0,2)</m>, <m>(1,3]</m>, and <m>[0,2) \cup (1,3])</m>.</caption>
+	<caption>The intervals <m>[0,2)</m> (top), <m>(1,3]</m> (middle), and <m>[0,2) \cup (1,3])</m> (bottom).</caption>
       </figure>
     </example>
   </subsection>
