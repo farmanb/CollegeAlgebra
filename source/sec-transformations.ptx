@@ -305,7 +305,7 @@
 	</solution>
       </example>
 
-      <worksheet>
+      <worksheet component="print">
 	<title/>
 	<page>
 	  <example>
@@ -377,7 +377,7 @@
 	</solution>
       </example>
 
-      <worksheet>
+      <worksheet component="print">
 	<title/>
 	<page>
 	  <example>
