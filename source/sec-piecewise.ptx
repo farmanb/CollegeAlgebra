@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-piecewise" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Piecewise Defined Functions</title>
+
+  <introduction>
+    <p>
+      A powerful method for constructing new functions from existing functions is to "glue" two or more functions together.
+    </p>
+  </introduction>
+
+  <definition xml:id="def-piecewise">
+    <title>Piecewise Defined Function</title>
+    <p>
+      Let <m>n</m> be a positive integer.
+      Assume <m>A_1, A_2, \ldots, A_n</m> are pairwise disjoint sets, meaning whenever <m>i \neq j \in \{1, 2, \ldots, n\}</m>,
+      <me>A_i \cap A_j = \emptyset,</me>
+      and let <m>A = A_1 \cup A_2 \cup \cdots \cup A_n</m>.
+      Suppose
+      <me>f_1 \colon A_1 \to \R,\,f_2 \colon A_2 \to \R,\, \ldots,\, f_n \colon A_n \to \R</me>
+      are functions.
+      The function <m>f \colon A \to \R</m> defined by
+      <me> f(x) = \begin{cases}
+      f_1(x) \amp \text{if}\ x \in A_1,\\
+      f_2(x) \amp \text{if}\ x \in A_2,\\
+      \amp\vdots\\
+      f_n(x) \amp \text{if}\ x \in A_n
+      \end{cases}
+      </me>
+      is called a <term>piecewise defined function</term>.
+      <idx>
+	<h>Function</h>
+	<h>Piecewise Defined</h>
+      </idx>
+    </p>
+  </definition>
+
+  <example component="web">
+    <statement>
+      <p>
+	Write the absolute value funtion
+	<me>\abs{\cdot} \colon \R \to [0, \infty)</me>
+	as a piecewise defined function.
+      </p>
+    </statement>
+    <solution>
+      <p>
+	If <m>x \geq 0</m> is a real number, then
+	<me>\abs{x} = x.</me>
+	If <m>x \lt 0</m> is a real number, then
+	<me>\abs{x} = -x.</me>
+	Therefore
+	<me>\abs{x} = \begin{cases}
+	x \amp \text{if}\ x \in [0, \infty)\\
+	-x \amp \text{if}\ x \in (-\infty, 0).
+	\end{cases}</me>
+      </p>
+    </solution>
+  </example>
+
+  <worksheet component="print">
+    <title/>
+    <page>
+      <example>
+	<statement>
+	  <p>
+	    Write the absolute value funtion
+	    <me>\abs{\cdot} \colon \R \to [0, \infty)</me>
+	    as a piecewise defined function.
+	  </p>
+	</statement>
+      </example>
+    </page>
+  </worksheet>
+</section>
