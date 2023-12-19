@@ -20,7 +20,7 @@
 	<h>Function</h>
 	<h>Polynomial</h>
       </idx>
-      in the variable <m>x</m> is a function of the form
+      in the variable <m>x</m> is a function <m>f \colon \R \to \R</m> of the form
       <me>f(x) = a_nx^n + a_{n-1}x^{n-1} + \cdots + a_1x + a_0,</me>
       where <m>n</m> is an integer, <m>a_0, a_1, \ldots, a_n</m> are numbers and <m>a_n \neq 0</m>.
     </p>

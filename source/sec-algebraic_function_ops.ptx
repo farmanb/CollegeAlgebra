@@ -13,13 +13,13 @@
 
     <definition xml:id="def-sum_functions">
       <p>
-	Assume <m>f \colon A \to B</m> and <m>g \colon C \to D</m> are functions.
+	Assume <m>f \colon A \to \R</m> and <m>g \colon B \to \R</m> are functions.
 	The <term>sum</term>
 	<idx>
 	  <h>Function</h>
 	  <h>Sum</h>
 	</idx>
-	of <m>f</m> and <m>g</m> is the function <m>f + g \colon A \cap C \to B \cup D</m>
+	of <m>f</m> and <m>g</m> is the function <m>f + g \colon A \cap B \to \R</m>
 	<notation>
 	  <usage>
 	    <m>f + g</m>
@@ -36,8 +36,6 @@
 	Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x^2</m>.
 	The intersection of the domains is 
 	<me>[0,\infty) \cap \R = [0,\infty)</me>
-	and the union of the codomains is
-	<me>\R \cup \R = \R,</me>
 	so the sum of <m>f</m> and <m>g</m> is the function <m>f + g \colon [0,\infty) \to \R</m> defined by
 	<me>(f + g)(x) = f(x) + g(x) = \sqrt{x} + x^2.</me>
       </p>
@@ -49,7 +47,7 @@
 
     <remark>
       <p>
-	Suppose <m>f \colon A \to \R</m> and <m>g \colon A \to \R</m> are functions that output real numbers.
+	Suppose <m>f \colon A \to \R</m> and <m>g \colon B \to \R</m> are functions.
 	Since addition of real numbers is commutative
 	<me>x + y = y + x,</me>
 	the order of addition of functions is also commutative because
@@ -60,13 +58,13 @@
     
     <definition xml:id="def-difference_functions">
       <p>
-	Assume <m>f \colon A \to B</m> and <m>g \colon C \to D</m> are functions.
+	Assume <m>f \colon A \to \R</m> and <m>g \colon B \to \R</m> are functions.
 	The <term>difference</term>
 	<idx>
 	  <h>Function</h>
 	  <h>Difference</h>
 	</idx>
-	of <m>f</m> and <m>g</m> is the function <m>f - g \colon A \cap C \to B \cup D</m>
+	of <m>f</m> and <m>g</m> is the function <m>f - g \colon A \cap B \to \R</m>
 	<notation>
 	  <usage>
 	    <m>f - g</m>
@@ -83,8 +81,6 @@
 	Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x^2</m>.
 	The intersection of the domains is
 	<me>[0,\infty) \cap \R = [0,\infty)</me>
-	and the union of the codomains is
-	<me>\R \cup \R = \R,</me>
 	so the difference of <m>f</m> and <m>g</m> is the function <m>f - g \colon [0,\infty) \to \R</m> defined by
 	<me>(f - g)(x) = \sqrt{x} - x^2.</me>
       </p>
@@ -103,8 +99,6 @@
 	Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x^2</m>.
 	The intersection of the domains is
 	<me>[0,\infty) \cap \R = [0,\infty)</me>
-	and the union of the codomains is
-	<me>\R \cup \R = \R,</me>
 	so the difference of <m>g</m> and <m>f</m> is the function <m>g - f \colon [0,\infty) \to \R</m> defined by
 	<me>(g - f)(x) = x^2 - \sqrt{x}.</me>
       </p>
@@ -121,13 +115,13 @@
 
     <definition xml:id="def-product_functions">
       <p>
-	Assume <m>f \colon A \to B</m> and <m>g \colon C \to D</m> are functions.
+	Assume <m>f \colon A \to \R</m> and <m>g \colon B \to \R</m> are functions.
 	The <term>product</term>
 	<idx>
 	  <h>Function</h>
 	  <h>Product</h>
 	</idx>
-	of <m>f</m> and <m>g</m> is the function <m>fg \colon A \cap C \to B \cup D</m>
+	of <m>f</m> and <m>g</m> is the function <m>fg \colon A \cap B \to \R</m>
 	<notation>
 	  <usage>
 	    <m>fg</m>
@@ -144,8 +138,6 @@
 	Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x^2</m>.
 	The intersection of the domains is 
 	<me>[0,\infty) \cap \R = [0,\infty)</me>
-	and the union of the codomains is
-	<me>\R \cup \R = \R,</me>
 	so the product of <m>f</m> and <m>g</m> is the function <m>fg \colon [0,\infty) \to \R</m> defined by
 	<me>(fg)(x) = f(x)g(x) = \sqrt{x}x^2.</me>
       </p>
@@ -173,13 +165,13 @@
 
     <definition xml:id="def-ratio_functions">
       <p>
-	Assume <m>f \colon A \to B</m> and <m>g \colon C \to D</m> are functions, and for every <m>x \in C</m>, <m>g(x) \neq 0</m>.
+	Assume <m>f \colon A \to \R</m> and <m>g \colon B \to \R</m> are functions, and for every <m>x \in B</m>, <m>g(x) \neq 0</m>.
 	The <term>ratio</term>
 	<idx>
 	  <h>Function</h>
 	  <h>Ratio</h>
 	</idx>
-	of <m>f</m> and <m>g</m> is the function <m>f / g \colon A \cap C \to B \cup D</m>
+	of <m>f</m> and <m>g</m> is the function <m>f / g \colon A \cap B \to \R</m>
 	<notation>
 	  <usage>
 	    <m>f / g</m>
@@ -198,8 +190,6 @@
 	<me>\left\{x \in \R \;\middle\vert\; x \neq 0\right\} = (-\infty,0) \cup (0, \infty).</me>
 	The intersection with the domain of <m>f</m> is the set of positive real numbers
 	<me>[0,\infty) \cap (-\infty,0) \cup (0,\infty) = (0,\infty) = \left\{x \in \R \;\middle\vert\; x > 0\right\}</me>
-	and the union of the codomains is
-	<me>\R \cup \R = \R,</me>
 	so the ratio of <m>f</m> and <m>g</m> is the function <m>f / g \colon (0,\infty) \to \R</m> defined by
 	<me>\left(\frac{f}{g}\right)(x) = \frac{\sqrt{x}}{x}.</me>
       </p>
@@ -219,8 +209,6 @@
 	The function <m>f(x)</m> is non-zero on the set <m>(0, \infty)</m>.
 	The intersection with the domain of <m>g</m> is the set of positive real numbers
 	<me>(0,\infty) \cap \R = (0,\infty) = \left\{x \in \R \;\middle\vert\; x > 0\right\}</me>
-	and the union of the codomains is
-	<me>\R \cup \R = \R,</me>
 	so the ratio of <m>g</m> and <m>f</m> is the function <m>g / f \colon (0,\infty) \to \R</m> defined by
 	<me>\left(\frac{f}{g}\right)(x) = \frac{x}{\sqrt{x}}.</me>
       </p>

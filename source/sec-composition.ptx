@@ -13,13 +13,13 @@
   <definition>
     <title>Composition of Functions</title>
     <p>
-      Assume <m>f \colon A \to B</m> and <m>g \colon C \to D</m> are functions with <m>f(A) \subseteq C</m>.
+      Assume <m>f \colon A \to \R</m> and <m>g \colon B \to \R</m> are functions with <m>f(A) \subseteq B</m>.
       The <term>composition</term>
       <idx>
 	<h>Function</h>
 	<h>Composition</h>
       </idx>
-      of <m>g</m> with <m>f</m> is the function <m>g \circ f \colon A \to D</m>
+      of <m>g</m> with <m>f</m> is the function <m>g \circ f \colon A \to \R</m>
       <notation>
 	<usage>
 	  <m>g \circ f</m>
@@ -118,12 +118,12 @@
       <ul>
 	<li>
 	  <p>
-	    the composition <m>g \circ f</m> only makes sense when the domain of <m>g</m> contains the codomain of <m>f</m>, and
+	    the composition <m>g \circ f</m> only makes sense when the domain of <m>g</m> contains the range of <m>f</m>, and
 	  </p>
 	</li>
 	<li>
 	  <p>
-	    the composition <m>f \circ g</m> only makes sense when the codomain of <m>g</m> is contained in the domain of <m>f</m>.
+	    the composition <m>f \circ g</m> only makes sense when the range of <m>g</m> is contained in the domain of <m>f</m>.
 	  </p>
 	</li>
       </ul>
