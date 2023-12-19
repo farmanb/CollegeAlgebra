@@ -13,8 +13,8 @@
   
   <introduction>
     <p>
-      In mathematics, we are interested in studying how two quantities change together.
-      We will often find it useful to visualize these relationships.
+      In mathematics, we are interested in studying how quantities change together.
+      We will restrict our attention to two quantities at a time and will often find it useful to visualize these relationships.
       The Cartesian plane is the natural setting for these visualizations.
     </p>
   </introduction>
@@ -23,14 +23,14 @@
   <!-- <xi:include href="previews/city.ptx"/> -->
 
   <subsection xml:id="sec-cartesian_coordinates-points_in_the_plane">
-    <title>Points in the Plane</title>
+    <title>The Cartesian Plane</title>
     <definition xml:id="def-cartesian_plane">
       <p>
 	The <term>Cartesian plane</term>
 	<idx>
 	  <h>Cartesian Plane</h>
 	</idx>
-	is a grid system used to locate objects using two perpendicular directions.
+	is a grid system used to describe locations using two perpendicular directions.
 	The horizontal direction is usually called the <term><m>x</m>-axis</term>
 	<idx>
 	  <h>Cartesian Plane</h>
@@ -55,7 +55,7 @@
     </figure>
     
     <p>
-      The type of objects we are interested in locating will vary by application.
+      The type of <em>things</em> we are interested in locating will vary by application.
       In general, we will refer to these simply as <term>points</term>.
       <idx>
 	<h>Cartesian Plane</h>
