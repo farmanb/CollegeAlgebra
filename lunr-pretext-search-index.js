@@ -322,7 +322,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Cartesian Coordinates",
-  "body": " Cartesian Coordinates           In mathematics, we are interested in studying how quantities change together. We will restrict our attention to two quantities at a time and will often find it useful to visualize these relationships. The Cartesian plane is the natural setting for these visualizations.      The Cartesian Plane   The Cartesian plane   Cartesian Plane  is a grid system used to describe locations using two perpendicular directions. The horizontal direction is usually called the -axis   Cartesian Plane  -axis  and the vertical direction is usually called the -axis .  Cartesian Plane  -axis  The plane is partitioned into four pieces called quadrants , depicted in     The Cartesian Plane      The type of things we are interested in locating will vary by application. In general, we will refer to these simply as points .  Cartesian Plane  Point  A point is located in the plane by its position relative to the -axis, called the -coordinate ,  Cartesian Plane  Point  -Coordinate  and relative to the -axis, called the -coordinate .  Cartesian Plane  Point  -Coordinate    By convention, we locate a point by first giving the -coordinate, then the -coordinate.   An ordered pair , , is the data of two real numbers.   We encode the position of a point using its -coordinate and -coordinate using an ordered pair with the -coordinate first and the -coordinate second.   The - and -Coordinates of several points in the plane.       Plotting Points in the Plane    Plot points in the plane using Cartesian coordinates,  Identify the quadrant in which a point lies.     In this activity, we will practice plotting some points in the plane.   Plot the following points in the Cartesian plane.              For each of the points that you plotted above, indicate the quadrant that contains the point.    "
+  "body": " Cartesian Coordinates           In mathematics, we are interested in studying how quantities change together. We will restrict our attention to two quantities at a time and will often find it useful to visualize these relationships. The Cartesian plane is the natural setting for these visualizations.      The Cartesian Plane   The Cartesian plane   Cartesian Plane  is a grid system used to describe locations using two perpendicular directions. The horizontal direction is usually called the -axis   Cartesian Plane  -axis  and the vertical direction is usually called the -axis .  Cartesian Plane  -axis  The plane is partitioned into four pieces called quadrants , depicted in     The Cartesian Plane      The type of things we are interested in locating will vary by application. In general, we will refer to these simply as points .  Cartesian Plane  Point  A point is located in the plane by its position relative to the -axis, called the -coordinate ,  Cartesian Plane  Point  -Coordinate  and relative to the -axis, called the -coordinate .  Cartesian Plane  Point  -Coordinate  By convention, we locate a point by first giving the -coordinate, then the -coordinate.   An ordered pair , , is the data of two real numbers. The collection of all ordered pairs of real numbers is    We encode the position of a point using its -coordinate and -coordinate using an ordered pair with the -coordinate first and the -coordinate second.   The - and -Coordinates of several points in the plane.       Plotting Points in the Plane    Plot points in the plane using Cartesian coordinates,  Identify the quadrant in which a point lies.     In this activity, we will practice plotting some points in the plane.   Plot the following points in the Cartesian plane.              For each of the points that you plotted above, indicate the quadrant that contains the point.    "
 },
 {
   "id": "def-cartesian_plane",
@@ -358,7 +358,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "1.2.3",
   "title": "",
-  "body": " An ordered pair , , is the data of two real numbers.  "
+  "body": " An ordered pair , , is the data of two real numbers. The collection of all ordered pairs of real numbers is   "
 },
 {
   "id": "fig-location_point",
@@ -820,27 +820,27 @@ var ptx_lunr_docs = [
   "body": " Function  Assume and are sets. A function from to ,  Function  written ,     Function from to  is a rule that assigns to each element a unique element .     Value of the function at      The set is the domain   Function  Domain  of . The domain of is the set of all allowable input values to the function .    The set is the codomain   Function  Codomain  of . The codomain of is the set that contains all possible output values of .    The range   Function  Range  of is the set of all possible output values    Range of      "
 },
 {
-  "id": "p-126",
+  "id": "p-125",
   "level": "2",
-  "url": "sec-relations.html#p-126",
+  "url": "sec-relations.html#p-125",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "value of at image of under independent variable dependent variable "
 },
 {
-  "id": "p-127",
+  "id": "p-126",
   "level": "2",
-  "url": "sec-relations.html#p-127",
+  "url": "sec-relations.html#p-126",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "explicitly algebraic functions "
 },
 {
-  "id": "p-128",
+  "id": "p-127",
   "level": "2",
-  "url": "sec-relations.html#p-128",
+  "url": "sec-relations.html#p-127",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1009,9 +1009,9 @@ var ptx_lunr_docs = [
   "body": "Assume and . We say the function is    increasing   Function  Increasing  on the interval if for every ,      decreasing   Function  Decreasing  on the interval if for every ,     "
 },
 {
-  "id": "p-172",
+  "id": "p-171",
   "level": "2",
-  "url": "sec-avg_roc.html#p-172",
+  "url": "sec-avg_roc.html#p-171",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1243,9 +1243,9 @@ var ptx_lunr_docs = [
   "body": "    The reflection of across the -axis.  "
 },
 {
-  "id": "p-242",
+  "id": "p-241",
   "level": "2",
-  "url": "sec-symmetry.html#p-242",
+  "url": "sec-symmetry.html#p-241",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2008,9 +2008,9 @@ var ptx_lunr_docs = [
   "body": " Quadratic Function  A function is quadratic   Function  Quadratic  if it has the form where , , and are numbers, and .  "
 },
 {
-  "id": "p-401",
+  "id": "p-400",
   "level": "2",
-  "url": "sec-quadratic_functions.html#p-401",
+  "url": "sec-quadratic_functions.html#p-400",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2062,18 +2062,18 @@ var ptx_lunr_docs = [
   "body": " Multiplying binomials using the FOIL method.   "
 },
 {
-  "id": "p-428",
+  "id": "p-427",
   "level": "2",
-  "url": "sec-quadratic_functions.html#p-428",
+  "url": "sec-quadratic_functions.html#p-427",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "perfect square "
 },
 {
-  "id": "p-429",
+  "id": "p-428",
   "level": "2",
-  "url": "sec-quadratic_functions.html#p-429",
+  "url": "sec-quadratic_functions.html#p-428",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2512,9 +2512,9 @@ var ptx_lunr_docs = [
   "body": " Consider the functions defined by and defined by . The composition of with is the function defined by   "
 },
 {
-  "id": "p-514",
+  "id": "p-513",
   "level": "2",
-  "url": "sec-composition.html#p-514",
+  "url": "sec-composition.html#p-513",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2530,18 +2530,18 @@ var ptx_lunr_docs = [
   "body": " Identity Function Assume is a set. The identity function on is the function defined by  "
 },
 {
-  "id": "p-519",
+  "id": "p-518",
   "level": "2",
-  "url": "sec-composition.html#p-519",
+  "url": "sec-composition.html#p-518",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "additive inverse "
 },
 {
-  "id": "p-523",
+  "id": "p-522",
   "level": "2",
-  "url": "sec-composition.html#p-523",
+  "url": "sec-composition.html#p-522",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2719,9 +2719,9 @@ var ptx_lunr_docs = [
   "body": " The Exponential Function   So far, all of the functions we have encountered are either polynomials or can be constructed from polynomial equations using algebraic operations. A transcendental function   Function  Transcendental  is any function that cannot be constructed in this manner. While it is certainly odd to discuss functions that cannot be constructed by algebraic means in a course on algebra, many calculus courses expect students to already be familiar with these functions. We focus solely on the algebraic properties of these functions.    Properties of the Exponential Function  We start with the definition of a constant. Much like the number , this number cannot be constructed using algebraic methods. Indeed, the proper definition requires calculus, so we provide only a numerical approximation.   Euler's Number   Euler's number   Euler's Number  is the constant .   Euler's number     This constant is essential to the definition of the exponential function.   The Exponential Function The exponential function   Function  Exponential   is defined by .  We can think about the value of the exponential function at a positive real number as the result of multiplying copies of the number : This definition extends to all real numbers by defining   An interesting consequence of these definitions is that the exponential function transforms addition of the input into multiplication of the output and subtraction of the input into division of the output. For addition of the input, we take advantage of the fact that multiplication is associative to write   For subtraction of the inverse, we note that , so   These two properties also provide a convenient observation about multiplication of the input. Recall that the product of two numbers is simply a notational convenience. Depending on your needs, the product can be regarded as either adding together copies of the number or copies of the number : If we take first interpretation of , then we can apply the formula for the sum of inputs times to get Similarly, if we take the second interpretation of , then we can apply the formula for the sum of inputs times to get    Properties of Exponential Functions   Assume and are real numbers.                            The Graph of the Exponential Function  The graph of the exponential function is provided below.         Working with the Exponential     Combine expressions involving the exponential    Identify graphs involving the exponential       Use the to rewrite each equation so there is only one exponential term.                     Match each function with its graph.                                     "
 },
 {
-  "id": "p-581",
+  "id": "p-580",
   "level": "2",
-  "url": "sec-exponentials.html#p-581",
+  "url": "sec-exponentials.html#p-580",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",

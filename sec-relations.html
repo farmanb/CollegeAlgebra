@@ -362,14 +362,14 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-relations"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">2.1</span><span class="space"> </span><span class="title">Functions</span>
 </h2>
-<section class="introduction" id="introduction-16"><div class="para" id="p-120">In nearly every branch of mathematics, functions are the primary objects of study. Functions provide a robust language for describing relationships between sets, and serve as the basic building blocks for modern development of algebra, geometry, trigonometry, calculus, and beyond. We develop techniques for analyzing and visualizing functions that are foundational in subsequent mathematics courses and also applicable outside of mathematics — in science, technology, and engineering— to model the behavior of systems.</div></section><article class="definition definition-like" id="def-function"><h3 class="heading">
+<section class="introduction" id="introduction-16"><div class="para" id="p-119">In nearly every branch of mathematics, functions are the primary objects of study. Functions provide a robust language for describing relationships between sets, and serve as the basic building blocks for modern development of algebra, geometry, trigonometry, calculus, and beyond. We develop techniques for analyzing and visualizing functions that are foundational in subsequent mathematics courses and also applicable outside of mathematics — in science, technology, and engineering— to model the behavior of systems.</div></section><article class="definition definition-like" id="def-function"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Function.</span>
-</h3> <div class="para" id="p-121">Assume <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are sets. A <dfn class="terminology">function from <span class="process-math">\(A\)</span> to <span class="process-math">\(B\)</span></dfn>,  written <span class="process-math">\(f \colon A \to B\text{,}\)</span>  is a rule that assigns to each element <span class="process-math">\(x \in A\)</span> a unique element <span class="process-math">\(f(x) \in B\text{.}\)</span> </div> <ul class="disc">
-<li id="li-13"><div class="para" id="p-122">The set <span class="process-math">\(A\)</span> is the <dfn class="terminology">domain</dfn>  of <span class="process-math">\(f\text{.}\)</span> The domain of <span class="process-math">\(f\)</span> is the set of all allowable input values to the function <span class="process-math">\(f\text{.}\)</span>
+</h3> <div class="para" id="p-120">Assume <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are sets. A <dfn class="terminology">function from <span class="process-math">\(A\)</span> to <span class="process-math">\(B\)</span></dfn>,  written <span class="process-math">\(f \colon A \to B\text{,}\)</span>  is a rule that assigns to each element <span class="process-math">\(x \in A\)</span> a unique element <span class="process-math">\(f(x) \in B\text{.}\)</span> </div> <ul class="disc">
+<li id="li-13"><div class="para" id="p-121">The set <span class="process-math">\(A\)</span> is the <dfn class="terminology">domain</dfn>  of <span class="process-math">\(f\text{.}\)</span> The domain of <span class="process-math">\(f\)</span> is the set of all allowable input values to the function <span class="process-math">\(f\text{.}\)</span>
 </div></li>
-<li id="li-14"><div class="para" id="p-123">The set <span class="process-math">\(B\)</span> is the <dfn class="terminology">codomain</dfn>  of <span class="process-math">\(f\text{.}\)</span> The codomain of <span class="process-math">\(f\)</span> is the set that contains all possible output values of <span class="process-math">\(f\text{.}\)</span>
+<li id="li-14"><div class="para" id="p-122">The set <span class="process-math">\(B\)</span> is the <dfn class="terminology">codomain</dfn>  of <span class="process-math">\(f\text{.}\)</span> The codomain of <span class="process-math">\(f\)</span> is the set that contains all possible output values of <span class="process-math">\(f\text{.}\)</span>
 </div></li>
-<li id="li-15"><div class="para logical" id="p-124">
+<li id="li-15"><div class="para logical" id="p-123">
 <div class="para">The <dfn class="terminology">range</dfn>  of <span class="process-math">\(f\)</span> is the set of all possible output values</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -380,11 +380,11 @@ f(A) = \left\{f(x) \;\middle\vert\; x \in A\right\}.
 </ul></article><section class="subsection" id="subsection-9"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.1.1</span><span class="space"> </span><span class="title">Algebraic Functions</span>
 </h3>
-<div class="para" id="p-125">While functions are defined for arbitrary sets, we will restrict our attention to functions of the form <span class="process-math">\(f \colon A \to \R\text{,}\)</span> where <span class="process-math">\(A\)</span> is some subset of <span class="process-math">\(\R\text{.}\)</span> By convention, we will use the variable <span class="process-math">\(x\)</span> to stand for <em class="emphasis">some</em> input value from the domain of <span class="process-math">\(f\text{.}\)</span>
+<div class="para" id="p-124">While functions are defined for arbitrary sets, we will restrict our attention to functions of the form <span class="process-math">\(f \colon A \to \R\text{,}\)</span> where <span class="process-math">\(A\)</span> is some subset of <span class="process-math">\(\R\text{.}\)</span> By convention, we will use the variable <span class="process-math">\(x\)</span> to stand for <em class="emphasis">some</em> input value from the domain of <span class="process-math">\(f\text{.}\)</span>
 </div>
-<div class="para" id="p-126">It is common to refer to <span class="process-math">\(f(x)\)</span> —read "<span class="process-math">\(f\)</span> of <span class="process-math">\(x\)</span>" — as the <dfn class="terminology">value of <span class="process-math">\(f\)</span> at <span class="process-math">\(x\)</span></dfn> or the <dfn class="terminology">image of <span class="process-math">\(x\)</span> under <span class="process-math">\(f\)</span></dfn>. We will normally use the variable <span class="process-math">\(y\)</span> to stand for <em class="emphasis">some</em> output value in the range of <span class="process-math">\(f\text{.}\)</span> This relationship is made explicit by writing <span class="process-math">\(y = f(x)\)</span> or saying that <span class="process-math">\(y\)</span> is a function of <span class="process-math">\(x\text{.}\)</span> Generally, the value of <span class="process-math">\(y\)</span> is determined by a choice of a specific <span class="process-math">\(x \in A\text{.}\)</span> We call <span class="process-math">\(x\)</span> the <dfn class="terminology">independent variable</dfn>  and <span class="process-math">\(y\)</span> the <dfn class="terminology">dependent variable</dfn>. </div>
-<div class="para" id="p-127">When we start from two sets <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> and write down a rule that assigns to each <span class="process-math">\(x \in A\)</span> an element <span class="process-math">\(f(x) \in B\text{,}\)</span> we are defining a function <dfn class="terminology">explicitly</dfn>.  Most interesting subsets of the real numbers are simply too large to provide an explicit definition. To get around this problem, we often rely on algebraic expression involving a variable, <span class="process-math">\(x\text{,}\)</span> to define our functions. These expressions are built using the operations of addition, subtraction, multiplication, division, and roots, and are called <dfn class="terminology">algebraic functions</dfn>. </div>
-<div class="para logical" id="p-128">
+<div class="para" id="p-125">It is common to refer to <span class="process-math">\(f(x)\)</span> —read "<span class="process-math">\(f\)</span> of <span class="process-math">\(x\)</span>" — as the <dfn class="terminology">value of <span class="process-math">\(f\)</span> at <span class="process-math">\(x\)</span></dfn> or the <dfn class="terminology">image of <span class="process-math">\(x\)</span> under <span class="process-math">\(f\)</span></dfn>. We will normally use the variable <span class="process-math">\(y\)</span> to stand for <em class="emphasis">some</em> output value in the range of <span class="process-math">\(f\text{.}\)</span> This relationship is made explicit by writing <span class="process-math">\(y = f(x)\)</span> or saying that <span class="process-math">\(y\)</span> is a function of <span class="process-math">\(x\text{.}\)</span> Generally, the value of <span class="process-math">\(y\)</span> is determined by a choice of a specific <span class="process-math">\(x \in A\text{.}\)</span> We call <span class="process-math">\(x\)</span> the <dfn class="terminology">independent variable</dfn>  and <span class="process-math">\(y\)</span> the <dfn class="terminology">dependent variable</dfn>. </div>
+<div class="para" id="p-126">When we start from two sets <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> and write down a rule that assigns to each <span class="process-math">\(x \in A\)</span> an element <span class="process-math">\(f(x) \in B\text{,}\)</span> we are defining a function <dfn class="terminology">explicitly</dfn>.  Most interesting subsets of the real numbers are simply too large to provide an explicit definition. To get around this problem, we often rely on algebraic expression involving a variable, <span class="process-math">\(x\text{,}\)</span> to define our functions. These expressions are built using the operations of addition, subtraction, multiplication, division, and roots, and are called <dfn class="terminology">algebraic functions</dfn>. </div>
+<div class="para logical" id="p-127">
 <div class="para">When we write down an equation like</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -396,17 +396,17 @@ y = \frac{1}{x}
 <article class="example example-like" id="example-19"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">2.1.2</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-129">Find the implied domain and the range of the implicit function <span class="process-math">\(y = 1/x\text{.}\)</span>
+<div class="para" id="p-128">Find the implied domain and the range of the implicit function <span class="process-math">\(y = 1/x\text{.}\)</span>
 </div>
 <div class="solutions"><details id="solution-9" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like">
-<div class="para logical" id="p-130">
+<div class="para logical" id="p-129">
 <div class="para">Since the ratio <span class="process-math">\(1/x\)</span> makes sense for all numbers except <span class="process-math">\(0\text{,}\)</span> the implied domain is the set</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \left\{x \in \R \;\middle\vert\; x \neq 0\right\}.
 \end{equation*}
 </div>
-</div> <div class="para logical" id="p-131">
+</div> <div class="para logical" id="p-130">
 <div class="para">The range of this function is the set of real numbers <span class="process-math">\(y\)</span> that can be written as <span class="process-math">\(1/x\)</span> for some non-zero real number <span class="process-math">\(x\text{.}\)</span> If <span class="process-math">\(y\)</span> is any non-zero real number, then we can write</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -423,17 +423,17 @@ y = \frac{1}{\frac{1}{y}}.
 </div></details></div></article><article class="example example-like" id="example-20"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">2.1.3</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-132">Find the domain and range of the function <span class="process-math">\(f(x) = 3x + 7\text{.}\)</span>
+<div class="para" id="p-131">Find the domain and range of the function <span class="process-math">\(f(x) = 3x + 7\text{.}\)</span>
 </div>
 <div class="solutions"><details id="solution-10" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like">
-<div class="para logical" id="p-133">
+<div class="para logical" id="p-132">
 <div class="para">The domain of <span class="process-math">\(f\)</span> is <span class="process-math">\(\R\)</span> because for any real number <span class="process-math">\(x\text{,}\)</span> <span class="process-math">\(3x + 7\)</span> is always well-defined. The codomain of this function is also <span class="process-math">\(\R\)</span> because for any real number <span class="process-math">\(x\text{,}\)</span> <span class="process-math">\(3x + 7\)</span> will also be a real number. To find the range, we want to describe the set</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \left\{3x + 7 \;\middle\vert\; x \in \R\right\}.
 \end{equation*}
 </div>
-</div> <div class="para logical" id="p-134">
+</div> <div class="para logical" id="p-133">
 <div class="para">We can show this is <span class="process-math">\(\R\)</span> by showing that for every real number <span class="process-math">\(y\text{,}\)</span> we can find a number <span class="process-math">\(x\)</span> such that <span class="process-math">\(3x + 7 = y\text{.}\)</span> We simply solve this equation for <span class="process-math">\(y\)</span> in terms of <span class="process-math">\(x\)</span>
 </div>
 <div class="displaymath process-math" id="md-13">
@@ -453,17 +453,17 @@ x = \frac{10 - 7}{3} = \frac{3}{3} = 1.
 </div></details></div></article><article class="example example-like" id="example-21"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">2.1.4</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-135">Find the domain and range of the function <span class="process-math">\(f(x) = x^2\text{.}\)</span>
+<div class="para" id="p-134">Find the domain and range of the function <span class="process-math">\(f(x) = x^2\text{.}\)</span>
 </div>
 <div class="solutions"><details id="solution-11" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like">
-<div class="para logical" id="p-136">
+<div class="para logical" id="p-135">
 <div class="para">The domain of <span class="process-math">\(f\)</span> is <span class="process-math">\(\R\)</span> because for any real number <span class="process-math">\(x\text{,}\)</span> <span class="process-math">\(x^2 = x \times x\)</span> is always well-defined. The codomain of this function is also <span class="process-math">\(\R\)</span> because for any real number <span class="process-math">\(x\text{,}\)</span> <span class="process-math">\(x^2\)</span> is a real number. To find the range, we want to describe the set</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \left\{x^2 \;\middle\vert\; x \in \R\right\}.
 \end{equation*}
 </div>
-</div> <div class="para logical" id="p-137">
+</div> <div class="para logical" id="p-136">
 <div class="para">Given a real number <span class="process-math">\(y\text{,}\)</span> we want to determine whether the equation <span class="process-math">\(y = x^2\)</span> can be solved for <span class="process-math">\(y\text{.}\)</span>
 </div>
 <ul class="disc">
@@ -479,15 +479,15 @@ x = \frac{10 - 7}{3} = \frac{3}{3} = 1.
 </div></details></div></article></section><section class="subsection" id="subsection-10"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.1.2</span><span class="space"> </span><span class="title">Comparing Functions</span>
 </h3>
-<div class="para" id="p-138">Whenever we define a new mathematical object, it is important to understand when two objects are <em class="emphasis">the same</em>. For functions with the same domain and codomain, we measure equality based on the output.</div>
+<div class="para" id="p-137">Whenever we define a new mathematical object, it is important to understand when two objects are <em class="emphasis">the same</em>. For functions with the same domain and codomain, we measure equality based on the output.</div>
 <article class="definition definition-like" id="definition-31"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.1.5</span><span class="period">.</span><span class="space"> </span><span class="title">Equality of Functions.</span>
-</h4> <div class="para" id="p-139">Two functions <span class="process-math">\(f \colon A \to B\)</span> and <span class="process-math">\(g \colon A \to B\)</span> are <dfn class="terminology">equal</dfn>  if for every <span class="process-math">\(x \in A\text{,}\)</span> <span class="process-math">\(f(x) = g(x)\text{.}\)</span>
-</div> <div class="para" id="p-140">We write <span class="process-math">\(f = g\)</span>  to indicate that <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> represent the same function.</div></article><article class="example example-like" id="example-22"><h4 class="heading">
+</h4> <div class="para" id="p-138">Two functions <span class="process-math">\(f \colon A \to B\)</span> and <span class="process-math">\(g \colon A \to B\)</span> are <dfn class="terminology">equal</dfn>  if for every <span class="process-math">\(x \in A\text{,}\)</span> <span class="process-math">\(f(x) = g(x)\text{.}\)</span>
+</div> <div class="para" id="p-139">We write <span class="process-math">\(f = g\)</span>  to indicate that <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> represent the same function.</div></article><article class="example example-like" id="example-22"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">2.1.6</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-141">The functions <span class="process-math">\(f,g \colon \R \to \R\)</span> defined by <span class="process-math">\(f(x) = \sqrt{x^2}\)</span> and <span class="process-math">\(g(x) = \abs{x}\)</span> are equal.</div>
-<div class="solutions"><details id="solution-12" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like"><div class="para logical" id="p-142">
+<div class="para" id="p-140">The functions <span class="process-math">\(f,g \colon \R \to \R\)</span> defined by <span class="process-math">\(f(x) = \sqrt{x^2}\)</span> and <span class="process-math">\(g(x) = \abs{x}\)</span> are equal.</div>
+<div class="solutions"><details id="solution-12" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like"><div class="para logical" id="p-141">
 <div class="para">The functions <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> have the same domain and codomain, so it makes sense to compare these functions. For every real number <span class="process-math">\(x \geq 0\)</span>
 </div>
 <div class="displaymath process-math">
@@ -504,8 +504,8 @@ f(-x) = \sqrt{(-x)^2} = \sqrt{x^2} = x = \abs{-x} = g(-x).
 </div></div></details></div></article><article class="example example-like" id="example-23"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">2.1.7</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-143">The functions <span class="process-math">\(f,g \colon \R \to \R\)</span> defined by <span class="process-math">\(f(x) = \sqrt{x^2}\)</span>and <span class="process-math">\(g(x) = x\)</span> are <em class="alert">not</em> equal.</div>
-<div class="solutions"><details id="solution-13" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like"><div class="para logical" id="p-144">
+<div class="para" id="p-142">The functions <span class="process-math">\(f,g \colon \R \to \R\)</span> defined by <span class="process-math">\(f(x) = \sqrt{x^2}\)</span>and <span class="process-math">\(g(x) = x\)</span> are <em class="alert">not</em> equal.</div>
+<div class="solutions"><details id="solution-13" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like"><div class="para logical" id="p-143">
 <div class="para">It suffices to find <em class="emphasis">any</em> element of the domain where the function values are not the same. The value of <span class="process-math">\(f\)</span> at <span class="process-math">\(x = -1\)</span> is</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -523,30 +523,30 @@ g(x) = -1.
 </div></div></details></div></article></section><section class="subsection" id="subsection-11"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.1.3</span><span class="space"> </span><span class="title">Graphing Functions</span>
 </h3>
-<div class="para" id="p-145">The ability to visualize a function often provides an immense amount of insight into how the function behaves. The graph of a function is defined in a manner similar to the graph of an equation.</div>
+<div class="para" id="p-144">The ability to visualize a function often provides an immense amount of insight into how the function behaves. The graph of a function is defined in a manner similar to the graph of an equation.</div>
 <article class="definition definition-like" id="def-graph_function"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.1.8</span><span class="period">.</span><span class="space"> </span><span class="title">Graph of a Function.</span>
-</h4> <div class="para logical" id="p-146">
+</h4> <div class="para logical" id="p-145">
 <div class="para">Assume <span class="process-math">\(A \subseteq \R\text{.}\)</span> The <dfn class="terminology">graph</dfn> of a function <span class="process-math">\(f \colon A \to \R\)</span> is the set of points</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \left\{(x, f(x))\;\middle\vert\; x \in A\right\} \subseteq \R^2
 \end{equation*}
 </div>
-</div></article><div class="para" id="p-147">When the function is implicitly defined by an equation in the variables <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{,}\)</span> the <a href="" class="xref" data-knowl="./knowl/xref/def-graph.html" title="Definition 1.3.3: Graph of an Equation">Graph of an Equation</a> will coincide with the <a href="" class="xref" data-knowl="./knowl/xref/def-graph_function.html" title="Definition 2.1.8: Graph of a Function">Graph of a Function</a>. While most of the functions we consider will be defined by an equation in the variables <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{,}\)</span> it is not the case that all equations in <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> define <span class="process-math">\(y\)</span> as a function of <span class="process-math">\(x\text{.}\)</span>
+</div></article><div class="para" id="p-146">When the function is implicitly defined by an equation in the variables <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{,}\)</span> the <a href="" class="xref" data-knowl="./knowl/xref/def-graph.html" title="Definition 1.3.3: Graph of an Equation">Graph of an Equation</a> will coincide with the <a href="" class="xref" data-knowl="./knowl/xref/def-graph_function.html" title="Definition 2.1.8: Graph of a Function">Graph of a Function</a>. While most of the functions we consider will be defined by an equation in the variables <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{,}\)</span> it is not the case that all equations in <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> define <span class="process-math">\(y\)</span> as a function of <span class="process-math">\(x\text{.}\)</span>
 </div>
 <article class="theorem theorem-like" id="thm-vertical_line_test"><h4 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.1.9</span><span class="period">.</span><span class="space"> </span><span class="title">The Vertical Line Test.</span>
 </h4>
-<div class="para" id="p-148">An equation in the variables <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> is defines <span class="process-math">\(y\)</span> as a function of <span class="process-math">\(x\)</span> if and only if every vertical line intersects the graph of the relation in <em class="alert">at most</em> one point.</div></article><article class="example example-like" id="example-24"><h4 class="heading">
+<div class="para" id="p-147">An equation in the variables <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> is defines <span class="process-math">\(y\)</span> as a function of <span class="process-math">\(x\)</span> if and only if every vertical line intersects the graph of the relation in <em class="alert">at most</em> one point.</div></article><article class="example example-like" id="example-24"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">2.1.10</span><span class="period">.</span>
 </h4>
-<div class="introduction" id="introduction-17"><div class="para" id="p-149">Consider the function <span class="process-math">\(f \colon \R \to \R\)</span> defined by the rule <span class="process-math">\(f(x) = x + 2\text{.}\)</span>
+<div class="introduction" id="introduction-17"><div class="para" id="p-148">Consider the function <span class="process-math">\(f \colon \R \to \R\)</span> defined by the rule <span class="process-math">\(f(x) = x + 2\text{.}\)</span>
 </div></div>
 <article class="task exercise-like" id="task-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="p-150">Verify that <span class="process-math">\(f\)</span> is a function algebraically.</div>
+<div class="para" id="p-149">Verify that <span class="process-math">\(f\)</span> is a function algebraically.</div>
 <div class="solutions"><details id="solution-14" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like">
-<div class="para logical" id="p-151">
+<div class="para logical" id="p-150">
 <div class="para">We interpret the <a href="" class="xref" data-knowl="./knowl/xref/thm-vertical_line_test.html" title="Theorem 2.1.9: The Vertical Line Test">The Vertical Line Test</a> algebraically as follows. From the <a href="" class="xref" data-knowl="./knowl/xref/def-graph.html" title="Definition 1.3.3: Graph of an Equation">Graph of an Equation</a>, the graph of the vertical line <span class="process-math">\(x = a\)</span> is the set</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-vertical_line_test.html ./knowl/xref/def-graph.html">
 \begin{equation*}
@@ -559,7 +559,7 @@ g(x) = -1.
 \left\{(x, x + 2) \;\middle\vert\; x \in R \right\}.
 \end{equation*}
 </div>
-</div> <div class="para logical" id="p-152">
+</div> <div class="para logical" id="p-151">
 <div class="para">To say these graphs intersect is to say there is a point <span class="process-math">\((x,y)\)</span> in the intersection of these two sets. The condition for membership on the graph of <span class="process-math">\(x = a\)</span> determines the <span class="process-math">\(x\)</span> value of such a point and the definition of the graph of <span class="process-math">\(f\)</span> determines the <span class="process-math">\(y\)</span>-coordinate:</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -570,17 +570,17 @@ y = x + 2 = a + 2\text{.}
 </div>
 </div>
 </div></details></div></article><article class="task exercise-like" id="task-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="p-153">Verify that <span class="process-math">\(f\)</span> is a function visually.</div>
+<div class="para" id="p-152">Verify that <span class="process-math">\(f\)</span> is a function visually.</div>
 <div class="solutions"><details id="solution-15" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like">
-<div class="para" id="p-154">It is simpler to see that if we draw any veritcal line to the right of the <span class="process-math">\(y\)</span>-axis, then there is exactly one point of intersection with the graph of <span class="process-math">\(y = x+2\text{.}\)</span>
+<div class="para" id="p-153">It is simpler to see that if we draw any veritcal line to the right of the <span class="process-math">\(y\)</span>-axis, then there is exactly one point of intersection with the graph of <span class="process-math">\(y = x+2\text{.}\)</span>
 </div> <figure class="figure figure-like" id="figure-25"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-34.svg" role="img" class="contained"></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.1.11<span class="period">.</span></span><span class="space"> </span>The graph <span class="process-math">\(y = x + 2\)</span> and <span class="process-math">\(y = a\text{.}\)</span></figcaption></figure>
 </div></details></div></article></article><article class="example example-like" id="example-25"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">2.1.12</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-155">The equation <span class="process-math">\(x = y^2\)</span> does <em class="alert">not</em> define <span class="process-math">\(y\)</span> as a function of <span class="process-math">\(x\text{.}\)</span>
+<div class="para" id="p-154">The equation <span class="process-math">\(x = y^2\)</span> does <em class="alert">not</em> define <span class="process-math">\(y\)</span> as a function of <span class="process-math">\(x\text{.}\)</span>
 </div>
-<div class="solutions"><details id="solution-16" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like"><div class="para logical" id="p-156">
+<div class="solutions"><details id="solution-16" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like"><div class="para logical" id="p-155">
 <div class="para">Recall that for every positive number <span class="process-math">\(x\text{,}\)</span> there are always two square roots: <span class="process-math">\(\sqrt{x}\)</span> and <span class="process-math">\(-\sqrt{x}\text{.}\)</span> This tells us the ordered pairs <span class="process-math">\((x, \sqrt{x})\)</span> and <span class="process-math">\((x, -\sqrt{x})\)</span> both satisfy the equation <span class="process-math">\(x = y^2\)</span> For example, the ordered pairs <span class="process-math">\((1,1)\)</span> and <span class="process-math">\((1,-1)\)</span> satisfy</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def-function.html ./knowl/xref/thm-vertical_line_test.html">
 \begin{equation*}
@@ -602,29 +602,29 @@ y = x + 2 = a + 2\text{.}
 <li id="li-21"><div class="para" id="p-derived-li-21">Determine whether an equation defines <span class="process-math">\(y\)</span> as a function of <span class="process-math">\(x\text{.}\)</span>
 </div></li>
 </ul></article><section class="onepage" id="page-6"><article class="exercise exercise-like" id="exercise-15"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
-<div class="introduction" id="introduction-18"><div class="para" id="p-157">For each of the following functions, find the domain, codomain, and range.</div></div>
+<div class="introduction" id="introduction-18"><div class="para" id="p-156">For each of the following functions, find the domain, codomain, and range.</div></div>
 <article class="task exercise-like" id="task-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="p-158"><span class="process-math">\(f(x) = \sqrt{x}\)</span></div>
+<div class="para" id="p-157"><span class="process-math">\(f(x) = \sqrt{x}\)</span></div>
 <div class="workspace" data-space="2in"></div></article><article class="task exercise-like" id="task-4"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="p-159"><span class="process-math">\(g(x) = \frac{1}{x}\)</span></div>
+<div class="para" id="p-158"><span class="process-math">\(g(x) = \frac{1}{x}\)</span></div>
 <div class="workspace" data-space="2in"></div></article><article class="task exercise-like" id="task-5"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="p-160"><span class="process-math">\(h(x) = \abs{x}\)</span></div>
+<div class="para" id="p-159"><span class="process-math">\(h(x) = \abs{x}\)</span></div>
 <div class="workspace" data-space="2in"></div></article></article></section><section class="onepage" id="page-7"><article class="exercise exercise-like" id="exercise-16"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
-<div class="introduction" id="introduction-19"><div class="para" id="p-161">Evaluate the function at the given value.</div></div>
+<div class="introduction" id="introduction-19"><div class="para" id="p-160">Evaluate the function at the given value.</div></div>
 <article class="task exercise-like" id="task-6"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="p-162">
+<div class="para" id="p-161">
 <span class="process-math">\(f(x) = 3x^2 + 2x - 7\text{;}\)</span> <span class="process-math">\(x = 2\text{.}\)</span>
 </div>
 <div class="workspace" data-space="2in"></div></article><article class="task exercise-like" id="task-7"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para" id="p-163">
+<div class="para" id="p-162">
 <span class="process-math">\(g(x) = x - \sqrt{x} + \frac{7}{x}\text{;}\)</span> <span class="process-math">\(x = 49\text{.}\)</span>
 </div>
 <div class="workspace" data-space="2in"></div></article><article class="task exercise-like" id="task-8"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="p-164">
+<div class="para" id="p-163">
 <span class="process-math">\(h(x) = \abs{x} + 3x - 5\text{;}\)</span> <span class="process-math">\(x = -11\text{.}\)</span>
 </div>
 <div class="workspace" data-space="2in"></div></article></article></section><section class="onepage" id="page-8"><article class="exercise exercise-like" id="exercise-17"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
-<div class="introduction" id="introduction-20"><div class="para" id="p-165">For each of the graphs, find the domain and range. Use the <a href="" class="xref" data-knowl="./knowl/xref/thm-vertical_line_test.html" title="Theorem 2.1.9: The Vertical Line Test">The Vertical Line Test</a> to determine whether <span class="process-math">\(y\)</span> is a function of <span class="process-math">\(x\text{.}\)</span>
+<div class="introduction" id="introduction-20"><div class="para" id="p-164">For each of the graphs, find the domain and range. Use the <a href="" class="xref" data-knowl="./knowl/xref/thm-vertical_line_test.html" title="Theorem 2.1.9: The Vertical Line Test">The Vertical Line Test</a> to determine whether <span class="process-math">\(y\)</span> is a function of <span class="process-math">\(x\text{.}\)</span>
 </div></div>
 <article class="task exercise-like" id="task-9"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-36.svg" role="img" class="contained"></div></article><article class="task exercise-like" id="task-10"><h5 class="heading"><span class="codenumber">(b)</span></h5>
