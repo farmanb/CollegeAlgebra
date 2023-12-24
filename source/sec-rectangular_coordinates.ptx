@@ -73,15 +73,14 @@
 	<h>Point</h>
 	<h><m>y</m>-Coordinate</h>
       </idx>
-    </p>
-
-    <p>
       By convention, we locate a point by first giving the <m>x</m>-coordinate, then the <m>y</m>-coordinate.
     </p>
     
     <definition xml:id="def-ordered_pair">
       <p>
-	An <term>ordered pair</term>, <m>(a,b)</m>, is the data of two real numbers.
+	An <term>ordered pair</term>, <m>(x,y)</m>, is the data of two real numbers.
+	The collection of all ordered pairs of real numbers is 
+	<me>\R^2 = \left\{(x,y) \;\middle\vert\; x,y \in \R\right\}.</me>
       </p>
     </definition>
 
