@@ -4,10 +4,14 @@
   <objectives>
     <ul>
       <li>
-	Plot points in the plane using Cartesian coordinates,
+	<p>
+	  Plot points in the plane using Cartesian coordinates,
+	</p>
       </li>
       <li>
-	Identify the quadrant in which a point lies.
+	<p>
+	  Identify the quadrant in which a point lies.
+	</p>
       </li>
     </ul>
   </objectives>
@@ -16,29 +20,35 @@
       In this activity, we will practice plotting some points in the plane.
     </p>
   </introduction>
-  <exercise workspace=".5in">
-    <p>Plot the following points in the Cartesian plane.</p>
-    <figure>
-      <image width="50%">
-	<latex-image >
-	  <xi:include parse="text" href="../tex/10_10_grid.tex" />
-	</latex-image>
-      </image>
-    </figure>
-    <sidebyside widths="20% 40% 25%" margins="auto" valign="middle">
-      <p><m>A = (-1,3)</m></p>
-      <p><m>B = (-2,-1)</m></p>
-      <p><m>C = (3,5.5)</m></p>
-    </sidebyside>
-    <sidebyside widths="20% 40% 25%" margins="auto" valign="middle">
-      <p><m>D = (3,-4)</m></p>
-      <p><m>E = (-8,-2)</m></p>
-      <p><m>F = (5.5,3)</m></p>
-    </sidebyside>
-  </exercise>
-  <exercise workspace=".5in">
-    <p>
-      For each of the points that you plotted above, indicate the quadrant that contains the point.
-    </p>
-  </exercise>
+  <page>
+    <exercise workspace=".5in">
+      <statement>
+	<p>Plot the following points in the Cartesian plane.</p>
+	<figure>
+	  <image width="50%">
+	    <latex-image >
+	      <xi:include parse="text" href="../tex/10_10_grid.tex" />
+	    </latex-image>
+	  </image>
+	</figure>
+	<sidebyside widths="20% 40% 25%" margins="auto" valign="middle">
+	  <p><m>A = (-1,3)</m></p>
+	  <p><m>B = (-2,-1)</m></p>
+	  <p><m>C = (3,5.5)</m></p>
+	</sidebyside>
+	<sidebyside widths="20% 40% 25%" margins="auto" valign="middle">
+	  <p><m>D = (3,-4)</m></p>
+	  <p><m>E = (-8,-2)</m></p>
+	  <p><m>F = (5.5,3)</m></p>
+	</sidebyside>
+      </statement>
+    </exercise>
+    <exercise workspace=".5in">
+      <statement>
+	<p>
+	  For each of the points that you plotted above, indicate the quadrant that contains the point.
+	</p>
+      </statement>
+    </exercise>
+  </page>
 </worksheet>
