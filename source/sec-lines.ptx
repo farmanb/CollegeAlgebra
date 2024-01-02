@@ -34,17 +34,19 @@
     <title>The Slope of a Line through two Points</title> 
     <definition xml:id="def-slope">
       <title>The Slope of a Line</title>
-      <p>
-	The <term>slope</term>
-	<idx>
-	  <h>Line</h>
-	  <h>Slope</h>
-	</idx>
-	of the line through the points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m> is
-	<me>\frac{y_1 - y_2}{x_1 - x_2} = \frac{y_2 - y_1}{x_2 - x_1},</me>
-	provided that <m>x_1 \neq x_2</m>.
-	The slope measures the rate of change in <m>y</m> with respect to <m>x</m>, as depicted in <xref ref="fig-slope"/>.
-      </p>
+      <statement>
+	<p>
+	  The <term>slope</term>
+	  <idx>
+	    <h>Line</h>
+	    <h>Slope</h>
+	  </idx>
+	  of the line through the points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m> is
+	  <me>\frac{y_1 - y_2}{x_1 - x_2} = \frac{y_2 - y_1}{x_2 - x_1},</me>
+	  provided that <m>x_1 \neq x_2</m>.
+	  The slope measures the rate of change in <m>y</m> with respect to <m>x</m>, as depicted in <xref ref="fig-slope"/>.
+	</p>
+      </statement>
     </definition>
 
     <figure xml:id="fig-slope">
@@ -213,17 +215,19 @@
 
     <definition xml:id="def-linear_equation">
       <title>Standard Equation of a Line</title>
-      <p>
-        The <term>standard equation of a line</term>
-        <idx>
-	  <h>Equation</h>
-	  <h>Line</h>
-	  <h>Standard</h>
-        </idx>
-        in the variables <m>x</m> and <m>y</m> is
-        <me>ax + by = c,</me>
-	where <m>a</m> and <m>b</m> are not both zero.
-      </p>
+      <statement>
+	<p>
+          The <term>standard equation of a line</term>
+          <idx>
+	    <h>Equation</h>
+	    <h>Line</h>
+	    <h>Standard</h>
+          </idx>
+          in the variables <m>x</m> and <m>y</m> is
+          <me>ax + by = c,</me>
+	  where <m>a</m> and <m>b</m> are not both zero.
+	</p>
+      </statement>
     </definition>
 
     <remark>

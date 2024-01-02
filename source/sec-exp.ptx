@@ -24,20 +24,22 @@
       Much like the number <m>\pi</m>, this number <em>cannot</em> be constructed using algebraic methods.
       Indeed, the proper definition requires calculus, so we provide only a numerical approximation.
     </p>
-  
+    
     <definition xml:id="def-euler_constant">
       <title>Euler's Number</title>
-      <p>
-	<term>Euler's number</term>
-	<idx>
-	  <h>Euler's Number</h>
-	</idx>
-	is the constant <m>e \approx 2.71828182846</m>.
-	<notation>
-	  <usage><m>e</m></usage>
-	  <description>Euler's number</description>
-	</notation>
-      </p>
+      <statement>
+	<p>
+	  <term>Euler's number</term>
+	  <idx>
+	    <h>Euler's Number</h>
+	  </idx>
+	  is the constant <m>e \approx 2.71828182846</m>.
+	  <notation>
+	    <usage><m>e</m></usage>
+	    <description>Euler's number</description>
+	  </notation>
+	</p>
+      </statement>
     </definition>
 
     <p>
@@ -46,12 +48,16 @@
     
     <definition xml:id="def-natural_exponential">
       <title>The Exponential Function</title>
-      The <term>exponential function</term>
-      <idx>
-	<h>Function</h>
-	<h>Exponential</h>
-      </idx>
-      <m>\exp \colon \R \to (0, \infty)</m> is defined by <m>\exp(x) = e^x</m>.
+      <statement>
+	<p>
+	  The <term>exponential function</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Exponential</h>
+	  </idx>
+	  <m>\exp \colon \R \to (0, \infty)</m> is defined by <m>\exp(x) = e^x</m>.
+	</p>
+      </statement>
     </definition>
 
     <p>

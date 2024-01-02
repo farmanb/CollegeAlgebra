@@ -30,24 +30,26 @@
     <title>Linear Functions as Degree One Polynomials</title>
     <definition xml:id="def-linear_function">
       <title>Linear Function</title>
-      <p>
-	A function <m>f \colon \R \to \R</m> is <term>linear</term>
-	<idx>
-	  <h>Function</h>
-	  <h>Linear</h>
-	</idx>
-	if the <xref ref="def-average_rate_of_change" text="title"/> of <m>f</m> is constant.
-	That is, there exists a number <m>m</m> such that for all numbers <m>a</m> and <m>b</m>
-	<me>m = \frac{f(b) - f(a)}{b - a}.</me>
-	We call the number <m>m</m> the <term>slope</term>
-	<idx>
-	  <h>Function</h>
-	  <h>Linear</h>
-	  <h>Slope</h>
-	</idx>
-	of <m>f</m>.
-	The number <m>b</m> is the <m>y</m>-coordinate of the <xref ref="def-y_intercept" text="title"/> <m>\left(0, b\right)</m>.
-      </p>
+      <statement>
+	<p>
+	  A function <m>f \colon \R \to \R</m> is <term>linear</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Linear</h>
+	  </idx>
+	  if the <xref ref="def-average_rate_of_change" text="title"/> of <m>f</m> is constant.
+	  That is, there exists a number <m>m</m> such that for all numbers <m>a</m> and <m>b</m>
+	  <me>m = \frac{f(b) - f(a)}{b - a}.</me>
+	  We call the number <m>m</m> the <term>slope</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Linear</h>
+	    <h>Slope</h>
+	  </idx>
+	  of <m>f</m>.
+	  The number <m>b</m> is the <m>y</m>-coordinate of the <xref ref="def-y_intercept" text="title"/> <m>\left(0, b\right)</m>.
+	</p>
+      </statement>
     </definition>
 
     <p>

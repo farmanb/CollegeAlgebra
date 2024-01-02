@@ -11,11 +11,13 @@
   </introduction>
 
   <definition xml:id="def-rational_function">
-    <p>
-      A <term>rational function</term> is a function of the form
-      <me>f(x) = \left(\frac{p}{q}\right)(x) = \frac{p(x)}{q(x)},</me>
-      where <m>p</m> and <m>q \neq 0</m> are polynomial functions.
-    </p>
+    <statement>
+      <p>
+	A <term>rational function</term> is a function of the form
+	<me>f(x) = \left(\frac{p}{q}\right)(x) = \frac{p(x)}{q(x)},</me>
+	where <m>p</m> and <m>q \neq 0</m> are polynomial functions.
+      </p>
+    </statement>
   </definition>
 
   <subsection>
@@ -32,16 +34,16 @@
 	  <me>f(x) = \frac{x - 2}{x^2-9}</me>
 	</p>
       </statement>
-	<solution>
-	  <p>
-	    This expression is undefined whenever 
-	    <me>x^2 - 9 = (x - 3)(x + 3) = 0</me>
-	    Since the only solutions to this equation are <m>x = 3</m> and <m>x = -3</m>, the domain of <m>f</m> is
-	    <me>D = \left\{x \in \R \;\middle\vert\; x \neq \pm 3\right\}.</me>
-	    This is the set of all numbers except <m>3</m> and <m>-3</m>, which we can express as the union of intervals
-	    <me>(-\infty,-3) \cup (-3, 3) \cup (3, \infty).</me>
-	  </p>
-	</solution>
+      <solution>
+	<p>
+	  This expression is undefined whenever 
+	  <me>x^2 - 9 = (x - 3)(x + 3) = 0</me>
+	  Since the only solutions to this equation are <m>x = 3</m> and <m>x = -3</m>, the domain of <m>f</m> is
+	  <me>D = \left\{x \in \R \;\middle\vert\; x \neq \pm 3\right\}.</me>
+	  This is the set of all numbers except <m>3</m> and <m>-3</m>, which we can express as the union of intervals
+	  <me>(-\infty,-3) \cup (-3, 3) \cup (3, \infty).</me>
+	</p>
+      </solution>
     </example>
   </subsection>
 
@@ -133,7 +135,7 @@
 	  \quad\text{and}\quad
 	  g(x) = \frac{x - 4}{x(x-2)}.</me>
 	  What is the domain of this function?
-      </p>
+	</p>
       </statement>
       <solution>
 	<p>

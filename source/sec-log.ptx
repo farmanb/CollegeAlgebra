@@ -46,20 +46,23 @@
 
   <definition>
     <title>The Natural Logarithm</title>
-    <p>
-      The <term>natural logarithm</term>,
-      <idx>
-	<h>Function</h>
-	<h>Logarithm</h>
-	<h>Natural</h>
-      </idx>
-      <m>\ln \colon (0, \infty) \to \R</m>,
-      <notation>
-	<usage><m>\ln</m></usage>
-	<description>The natural logarithm</description>
-      </notation>
-      is the inverse of <m>\exp \colon \R \to (0, \infty)</m>.
-    </p>
+
+    <notation>
+      <usage><m>\ln</m></usage>
+      <description>The natural logarithm</description>
+    </notation>
+    
+    <statement>
+      <p>
+	The <term>natural logarithm</term>,
+	<idx>
+	  <h>Function</h>
+	  <h>Logarithm</h>
+	  <h>Natural</h>
+	</idx>
+	<m>\ln \colon (0, \infty) \to \R</m>, is the inverse of <m>\exp \colon \R \to (0, \infty)</m>.
+      </p>
+    </statement>
   </definition>
 
   <subsection>

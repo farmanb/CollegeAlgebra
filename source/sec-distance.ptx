@@ -17,26 +17,30 @@
       In this section, we extend the notion of distance between two points on the number line to the Cartesian plane.
     </p>
   </introduction>
+
   <definition xml:id="def-1_distance">
-    <p>
-      The <term>distance</term>
-      <idx>
-	<h>Distance</h>
-	<h>Number Line</h>
-      </idx>
-      between two numbers <m>x</m> and <m>y</m> on a number line is given by the formula
-      <me>\abs{x - y} = \sqrt{(x - y)^2}.</me>
-      This number measures the length of the segment of the number line between <m>x</m> and <m>y</m>, as depicted in <xref ref="fig-1_distance"/>.
-    </p>
-    <figure xml:id="fig-1_distance">
-      <caption>The distance between points on the number line.</caption>
-      <image xml:id="img-1_distance">
-	<latex-image>
-	  <xi:include parse="text" href="tex/1_distance.tex"/>
-	</latex-image>
-      </image>
-    </figure>
+    <statement>
+      <p>
+	The <term>distance</term>
+	<idx>
+	  <h>Distance</h>
+	  <h>Number Line</h>
+	</idx>
+	between two numbers <m>x</m> and <m>y</m> on a number line is given by the formula
+	<me>\abs{x - y} = \sqrt{(x - y)^2}.</me>
+	This number measures the length of the segment of the number line between <m>x</m> and <m>y</m>, as depicted in <xref ref="fig-1_distance"/>.
+      </p>
+    </statement>
   </definition>
+
+  <figure xml:id="fig-1_distance">
+    <caption>The distance between points on the number line.</caption>
+    <image xml:id="img-1_distance">
+      <latex-image>
+	<xi:include parse="text" href="tex/1_distance.tex"/>
+      </latex-image>
+    </image>
+  </figure>
 
   <p>
     We can pair this with the Pythagorean Theorem to find the distance between points in the plane.
@@ -93,16 +97,18 @@
 
   <definition xml:id="def-2_distance">
     <title>The Distance Formula</title>
-    <p>
-      The <term>distance</term>
-      <idx>
-	<h>Distance</h>
-	<h>Cartesian Plane</h>
-      </idx>
-      between the points <m>(x_1,y_1)</m> and <m>(x_2,y_2)</m> in the Cartesian plane is given by
-      <me>\sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}.</me>
-      This number measures the length of the line segment connecting the two points.
-    </p>
+    <statement>
+      <p>
+	The <term>distance</term>
+	<idx>
+	  <h>Distance</h>
+	  <h>Cartesian Plane</h>
+	</idx>
+	between the points <m>(x_1,y_1)</m> and <m>(x_2,y_2)</m> in the Cartesian plane is given by
+	<me>\sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}.</me>
+	This number measures the length of the line segment connecting the two points.
+      </p>
+    </statement>
   </definition>
 
   <example component="web">

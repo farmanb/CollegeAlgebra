@@ -25,24 +25,26 @@
   <subsection xml:id="sec-cartesian_coordinates-points_in_the_plane">
     <title>The Cartesian Plane</title>
     <definition xml:id="def-cartesian_plane">
-      <p>
-	The <term>Cartesian plane</term>
-	<idx>
-	  <h>Cartesian Plane</h>
-	</idx>
-	is a grid system used to describe locations using two perpendicular directions.
-	The horizontal direction is usually called the <term><m>x</m>-axis</term>
-	<idx>
-	  <h>Cartesian Plane</h>
-	  <h><m>x</m>-axis</h>
-	</idx>
-	and the vertical direction is usually called the <term><m>y</m>-axis</term>.
-	<idx>
-	  <h>Cartesian Plane</h>
-	  <h><m>y</m>-axis</h>
-	</idx>
-	The plane is partitioned into four pieces called <term>quadrants</term>, depicted in <xref ref="fig-cartesian_plane"/>
-      </p>
+      <statement>
+	<p>
+	  The <term>Cartesian plane</term>
+	  <idx>
+	    <h>Cartesian Plane</h>
+	  </idx>
+	  is a grid system used to describe locations using two perpendicular directions.
+	  The horizontal direction is usually called the <term><m>x</m>-axis</term>
+	  <idx>
+	    <h>Cartesian Plane</h>
+	    <h><m>x</m>-axis</h>
+	  </idx>
+	  and the vertical direction is usually called the <term><m>y</m>-axis</term>.
+	  <idx>
+	    <h>Cartesian Plane</h>
+	    <h><m>y</m>-axis</h>
+	  </idx>
+	  The plane is partitioned into four pieces called <term>quadrants</term>, depicted in <xref ref="fig-cartesian_plane"/>
+	</p>
+      </statement>
     </definition>
 
     <figure xml:id="fig-cartesian_plane">
@@ -77,11 +79,13 @@
     </p>
     
     <definition xml:id="def-ordered_pair">
-      <p>
-	An <term>ordered pair</term>, <m>(x,y)</m>, is the data of two real numbers.
-	The collection of all ordered pairs of real numbers is 
-	<me>\R^2 = \left\{(x,y) \;\middle\vert\; x,y \in \R\right\}.</me>
-      </p>
+      <statement>
+	<p>
+	  An <term>ordered pair</term>, <m>(x,y)</m>, is the data of two real numbers.
+	  The collection of all ordered pairs of real numbers is 
+	  <me>\R^2 = \left\{(x,y) \;\middle\vert\; x,y \in \R\right\}.</me>
+	</p>
+      </statement>
     </definition>
 
     <p>

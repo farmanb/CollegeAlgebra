@@ -12,23 +12,27 @@
     <title>Sums and Differences of Functions</title>
 
     <definition xml:id="def-sum_functions">
-      <p>
-	Assume <m>f \colon A \to \R</m> and <m>g \colon B \to \R</m> are functions.
-	The <term>sum</term>
-	<idx>
-	  <h>Function</h>
-	  <h>Sum</h>
-	</idx>
-	of <m>f</m> and <m>g</m> is the function <m>f + g \colon A \cap B \to \R</m>
-	<notation>
-	  <usage>
-	    <m>f + g</m>
-	  </usage>
-	  <description>Sum of <m>f</m> and <m>g</m></description>
-	</notation>
-	defined by
-	<me>(f + g)(x) = f(x) + g(x).</me>
-      </p>
+      <title>Sum of Functions</title>
+      
+      <notation>
+	<usage>
+	  <m>f + g</m>
+	</usage>
+	<description>Sum of <m>f</m> and <m>g</m></description>
+      </notation>
+      
+      <statement>
+	<p>
+	  Assume <m>f \colon A \to \R</m> and <m>g \colon B \to \R</m> are functions.
+	  The <term>sum</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Sum</h>
+	  </idx>
+	  of <m>f</m> and <m>g</m> is the function <m>f + g \colon A \cap B \to \R</m> defined by
+	  <me>(f + g)(x) = f(x) + g(x).</me>
+	</p>
+      </statement>
     </definition>
 
     <example>
@@ -57,23 +61,27 @@
     </remark>
     
     <definition xml:id="def-difference_functions">
-      <p>
-	Assume <m>f \colon A \to \R</m> and <m>g \colon B \to \R</m> are functions.
-	The <term>difference</term>
-	<idx>
-	  <h>Function</h>
-	  <h>Difference</h>
-	</idx>
-	of <m>f</m> and <m>g</m> is the function <m>f - g \colon A \cap B \to \R</m>
-	<notation>
-	  <usage>
-	    <m>f - g</m>
-	  </usage>
-	  <description>Difference of <m>f</m> and <m>g</m></description>
-	</notation>
-	defined by
-	<me>(f - g)(x) = f(x) - g(x).</me>
-      </p>
+      <title>Difference of Functions</title>
+
+      <notation>
+	<usage>
+	  <m>f - g</m>
+	</usage>
+	<description>Difference of <m>f</m> and <m>g</m></description>
+      </notation>
+      
+      <statement>
+	<p>
+	  Assume <m>f \colon A \to \R</m> and <m>g \colon B \to \R</m> are functions.
+	  The <term>difference</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Difference</h>
+	  </idx>
+	  of <m>f</m> and <m>g</m> is the function <m>f - g \colon A \cap B \to \R</m> defined by
+	  <me>(f - g)(x) = f(x) - g(x).</me>
+	</p>
+      </statement>
     </definition>
 
     <example>
@@ -91,7 +99,9 @@
     </example>
 
     <warning>
-      Unlike the sum of functions, the difference of functions is <alert>not commutative</alert>.
+      <p>
+	Unlike the sum of functions, the difference of functions is <alert>not commutative</alert>.
+      </p>
     </warning>
     
     <example>
@@ -107,30 +117,34 @@
 	<me>(g-f)(4) = 4^2 - \sqrt{4} = 16 - 2 = 14 \neq -14 = (f - g)(4).</me>
       </p>
     </example>
-  
+    
   </subsection>
 
   <subsection>
     <title>Products of Functions</title>
 
     <definition xml:id="def-product_functions">
-      <p>
-	Assume <m>f \colon A \to \R</m> and <m>g \colon B \to \R</m> are functions.
-	The <term>product</term>
-	<idx>
-	  <h>Function</h>
-	  <h>Product</h>
-	</idx>
-	of <m>f</m> and <m>g</m> is the function <m>fg \colon A \cap B \to \R</m>
-	<notation>
-	  <usage>
-	    <m>fg</m>
-	  </usage>
-	  <description>Product of <m>f</m> and <m>g</m></description>
-	</notation>
-	defined by
-	<me>(fg)(x) = f(x)g(x).</me>
-      </p>
+      <title>Product of Functions</title>
+
+      <notation>
+	<usage>
+	  <m>fg</m>
+	</usage>
+	<description>Product of <m>f</m> and <m>g</m></description>
+      </notation>
+      
+      <statement>
+	<p>
+	  Assume <m>f \colon A \to \R</m> and <m>g \colon B \to \R</m> are functions.
+	  The <term>product</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Product</h>
+	  </idx>
+	  of <m>f</m> and <m>g</m> is the function <m>fg \colon A \cap B \to \R</m> defined by
+	  <me>(fg)(x) = f(x)g(x).</me>
+	</p>
+      </statement>
     </definition>
 
     <example>
@@ -164,23 +178,27 @@
     <title>Ratios of Functions</title>
 
     <definition xml:id="def-ratio_functions">
-      <p>
-	Assume <m>f \colon A \to \R</m> and <m>g \colon B \to \R</m> are functions, and for every <m>x \in B</m>, <m>g(x) \neq 0</m>.
-	The <term>ratio</term>
-	<idx>
-	  <h>Function</h>
-	  <h>Ratio</h>
-	</idx>
-	of <m>f</m> and <m>g</m> is the function <m>f / g \colon A \cap B \to \R</m>
-	<notation>
-	  <usage>
-	    <m>f / g</m>
-	  </usage>
-	  <description>Ratio of <m>f</m> and <m>g</m></description>
-	</notation>
-	defined by
-	<me>\left(\frac{f}{g}\right)(x) = \frac{f(x)}{g(x)}.</me>
-      </p>
+      <title>Ratio of Functions</title>
+
+      <notation>
+	<usage>
+	  <m>f / g</m>
+	</usage>
+	<description>Ratio of <m>f</m> and <m>g</m></description>
+      </notation>
+      
+      <statement>
+	<p>
+	  Assume <m>f \colon A \to \R</m> and <m>g \colon B \to \R</m> are functions, and for every <m>x \in B</m>, <m>g(x) \neq 0</m>.
+	  The <term>ratio</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Ratio</h>
+	  </idx>
+	  of <m>f</m> and <m>g</m> is the function <m>f / g \colon A \cap B \to \R</m> defined by
+	  <me>\left(\frac{f}{g}\right)(x) = \frac{f(x)}{g(x)}.</me>
+	</p>
+      </statement>
     </definition>
 
     <example>
@@ -200,7 +218,9 @@
     </example>
 
     <warning>
-      Unlike the sum and product of functions, the ratio of functions is <alert>not commutative</alert>.
+      <p>
+	Unlike the sum and product of functions, the ratio of functions is <alert>not commutative</alert>.
+      </p>
     </warning>
     
     <example>

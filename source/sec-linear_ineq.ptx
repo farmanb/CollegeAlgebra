@@ -15,54 +15,60 @@
 
   <definition xml:id="def-linear_inequality">
     <title>Linear Inequality</title>
-    <p>
-      A <term>linear inequality</term>
-      <idx>
-	<h>Inequality</h>
-	<h>Linear</h>
-      </idx>
-      in the variables <m>x</m> and <m>y</m> is an expression that can be placed in one of the following forms
-      <ul>
-	<li><m>ax + by \lt c</m>,</li>
-	<li><m>ax + by \leq c</m>,</li>
-	<li><m>ax + by \gt c</m>, or</li>
-	<li><m>ax + by \geq c</m>.</li>
-      </ul>
-    </p>
+    <statement>
+      <p>
+	A <term>linear inequality</term>
+	<idx>
+	  <h>Inequality</h>
+	  <h>Linear</h>
+	</idx>
+	in the variables <m>x</m> and <m>y</m> is an expression that can be placed in one of the following forms
+	<ul>
+	  <li><m>ax + by \lt c</m>,</li>
+	  <li><m>ax + by \leq c</m>,</li>
+	  <li><m>ax + by \gt c</m>, or</li>
+	  <li><m>ax + by \geq c</m>.</li>
+	</ul>
+      </p>
+    </statement>
   </definition>
 
   <definition xml:id="def-solution_inequality">
     <title>Solution to an Inequality</title>
-    <p>
-      A <term>solution</term>
-      <idx>
-	<h>Inequality</h>
-	<h>Linear</h>
-	<h>Solution</h>
-      </idx>
-      to an inequality in the variables <m>x</m> and <m>y</m> is an ordered pair <m>(a,b)</m> that make the equation true when
-      <ol>
-	<li>
-	  the first coordinate, <m>a</m>, is substituted into the inequality for <m>x</m>, and
-	</li>
-	<li>
-	  the second coordinate, <m>b</m>, is substituted into the inequality for <m>y</m>.
-	</li>
-      </ol>
-    </p>
+    <statement>
+      <p>
+	A <term>solution</term>
+	<idx>
+	  <h>Inequality</h>
+	  <h>Linear</h>
+	  <h>Solution</h>
+	</idx>
+	to an inequality in the variables <m>x</m> and <m>y</m> is an ordered pair <m>(a,b)</m> that make the equation true when
+	<ol>
+	  <li>
+	    the first coordinate, <m>a</m>, is substituted into the inequality for <m>x</m>, and
+	  </li>
+	  <li>
+	    the second coordinate, <m>b</m>, is substituted into the inequality for <m>y</m>.
+	  </li>
+	</ol>
+      </p>
+    </statement>
   </definition>
 
   <definition xml:id="def-graph_inequality">
     <title>Graph of an Inequality</title>
-    <p>
-      The <term>graph</term>
-      <idx>
-	<h>Inequality</h>
-	<h>Linear</h>
-	<h>Graph</h>
-      </idx>
-      of an inequality in the variables <m>x</m> and <m>y</m> consists of all the points in the plane that are solutions to the inequality.
-    </p>
+    <statement>
+      <p>
+	The <term>graph</term>
+	<idx>
+	  <h>Inequality</h>
+	  <h>Linear</h>
+	  <h>Graph</h>
+	</idx>
+	of an inequality in the variables <m>x</m> and <m>y</m> consists of all the points in the plane that are solutions to the inequality.
+      </p>
+    </statement>
   </definition>
 
   <example>
@@ -167,29 +173,31 @@
 
     <definition xml:id="def-linear_absolute_value_inequality">
       <title>Linear Absolute Value Inequality</title>
-      <p>
-	A <term>linear absolute value inequality</term>
-	<idx>
-	  <h>Inequality</h>
-	  <h>Linear</h>
-	  <h>Absolute Value</h>
-	</idx>
-	in the variables <m>x</m> and <m>y</m> is an expression that can be placed in one of the following forms
-	<ul>
-	  <li>
-	    <m>\abs{ax + by + c} \lt d</m>,
-	  </li>
-	  <li>
-	    <m>\abs{ax + by + c} \leq d</m>,
-	  </li>
-	  <li>
-	    <m>\abs{ax + by + c} \gt d</m>, or
-	  </li>
-	  <li>
-	    <m>\abs{ax + by + c} \geq d</m>.
-	  </li>
-	</ul>
-      </p>
+      <statement>
+	<p>
+	  A <term>linear absolute value inequality</term>
+	  <idx>
+	    <h>Inequality</h>
+	    <h>Linear</h>
+	    <h>Absolute Value</h>
+	  </idx>
+	  in the variables <m>x</m> and <m>y</m> is an expression that can be placed in one of the following forms
+	  <ul>
+	    <li>
+	      <m>\abs{ax + by + c} \lt d</m>,
+	    </li>
+	    <li>
+	      <m>\abs{ax + by + c} \leq d</m>,
+	    </li>
+	    <li>
+	      <m>\abs{ax + by + c} \gt d</m>, or
+	    </li>
+	    <li>
+	      <m>\abs{ax + by + c} \geq d</m>.
+	    </li>
+	  </ul>
+	</p>
+      </statement>
     </definition>
 
     <p>

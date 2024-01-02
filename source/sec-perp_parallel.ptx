@@ -18,14 +18,16 @@
 
   <definition xml:id="def-parallel">
     <title>Parallel</title>
-    <p>
-      Two lines in the Cartesian plane are said to be <term>parallel</term>
-      <idx>
-	<h>Line</h>
-	<h>Parallel</h>
-      </idx>
-      if they do not intersect.
-    </p>
+    <statement>
+      <p>
+	Two lines in the Cartesian plane are said to be <term>parallel</term>
+	<idx>
+	  <h>Line</h>
+	  <h>Parallel</h>
+	</idx>
+	if they do not intersect.
+      </p>
+    </statement>
   </definition>
 
   <figure xml:id="fig-parallel_lines">
@@ -118,14 +120,16 @@
   </example>
 
   <definition xml:id="def-perpendicular">
-    <p>
-      Two lines are <term>perpendicular</term>
-      <idx>
-	<h>Line</h>
-	<h>Perpendicular</h>
-      </idx>
-      if they intersect at a right angle.
-    </p>
+    <statement>
+      <p>
+	Two lines are <term>perpendicular</term>
+	<idx>
+	  <h>Line</h>
+	  <h>Perpendicular</h>
+	</idx>
+	if they intersect at a right angle.
+      </p>
+    </statement>
   </definition>
   
   <figure xml:id="fig-perpendicular_lines">
@@ -148,12 +152,12 @@
   <example>
     <statement>
       <p>
-      Determine whether the lines
-      <me>3x + 5y = 7
-      \quad\text{and}\quad
-      -5x + 3y = 21
-      </me>
-      are perpendicular.
+	Determine whether the lines
+	<me>3x + 5y = 7
+	\quad\text{and}\quad
+	-5x + 3y = 21
+	</me>
+	are perpendicular.
       </p>
     </statement>
     <solution>

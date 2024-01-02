@@ -12,23 +12,25 @@
 
   <definition>
     <title>Composition of Functions</title>
-    <p>
-      Assume <m>f \colon A \to \R</m> and <m>g \colon B \to \R</m> are functions with <m>f(A) \subseteq B</m>.
-      The <term>composition</term>
-      <idx>
-	<h>Function</h>
-	<h>Composition</h>
-      </idx>
-      of <m>g</m> with <m>f</m> is the function <m>g \circ f \colon A \to \R</m>
-      <notation>
-	<usage>
-	  <m>g \circ f</m>
-	</usage>
-	<description>Composition of <m>g</m> with <m>f</m></description>
-      </notation>
-      defined by
-      <me>(g \circ f)(x) = g\left(f\left(x\right)\right).</me>
-    </p>
+    <statement>
+      <p>
+	Assume <m>f \colon A \to \R</m> and <m>g \colon B \to \R</m> are functions with <m>f(A) \subseteq B</m>.
+	The <term>composition</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Composition</h>
+	</idx>
+	of <m>g</m> with <m>f</m> is the function <m>g \circ f \colon A \to \R</m>
+	<notation>
+	  <usage>
+	    <m>g \circ f</m>
+	  </usage>
+	  <description>Composition of <m>g</m> with <m>f</m></description>
+	</notation>
+	defined by
+	<me>(g \circ f)(x) = g\left(f\left(x\right)\right).</me>
+      </p>
+    </statement>
   </definition>
 
   <example>
@@ -106,9 +108,13 @@
 
     <definition>
       <title>Identity Function</title>
-      Assume <m>A</m> is a set.
-      The <term>identity function</term> on <m>A</m> is the function <m>\id \colon A \to A</m> defined by
-      <me>\id_A(x) = x.</me>
+      <statement>
+	<p>
+	  Assume <m>A</m> is a set.
+	  The <term>identity function</term> on <m>A</m> is the function <m>\id \colon A \to A</m> defined by
+	  <me>\id_A(x) = x.</me>
+	</p>
+      </statement>
     </definition>
     
     <p>
@@ -167,7 +173,7 @@
 	  <mrow>\operatorname{add}_{-c} \circ \operatorname{add}_c(x) \amp= \operatorname{add}_{-c}(x + c)</mrow>
 	  <mrow>\amp= (x + c) - c </mrow>
 	  <mrow>\amp= x</mrow>
-      </md>
+	</md>
       </p>
       <p>
 	<md>
@@ -215,25 +221,27 @@
 
     <definition xml:id="def-composition_inverse">
       <title>Composition Inverse</title>
-      <p>
-	Assume <m>f \colon A \to B</m> is a function.
-	The <term>composition inverse</term>, if it exists, is a function <m>f^{-1} \colon B \to A</m> that satisfies
-	<me>f^{-1} \circ f = \id_A
-	\quad\text{and}\quad
-	f \circ f^{-1} = \id_B
-	</me>
-	or, equivalently, for every <m>x \in A</m>,
-	<m>f^{-1} \circ f(x) = x</m>
-	and for every <m>y \in B</m>,
-	<m>f \circ f^{-1}(y) = y</m>.
-      </p>
-      <p>
-	If <m>f</m> has a composition inverse, then we say <m>f</m> is <term>invertible</term>.
-	<idx>
-	  <h>Function</h>
-	  <h>Invertible</h>
-	</idx>
-      </p>
+      <statement>
+	<p>
+	  Assume <m>f \colon A \to B</m> is a function.
+	  The <term>composition inverse</term>, if it exists, is a function <m>f^{-1} \colon B \to A</m> that satisfies
+	  <me>f^{-1} \circ f = \id_A
+	  \quad\text{and}\quad
+	  f \circ f^{-1} = \id_B
+	  </me>
+	  or, equivalently, for every <m>x \in A</m>,
+	  <m>f^{-1} \circ f(x) = x</m>
+	  and for every <m>y \in B</m>,
+	  <m>f \circ f^{-1}(y) = y</m>.
+	</p>
+	<p>
+	  If <m>f</m> has a composition inverse, then we say <m>f</m> is <term>invertible</term>.
+	  <idx>
+	    <h>Function</h>
+	    <h>Invertible</h>
+	  </idx>
+	</p>
+      </statement>
     </definition>
 
     <warning>
@@ -456,23 +464,23 @@
 	<m>g^{-1} \colon [0,\infty) \to [0,\infty)</m> defined by <m>g^{-1}(y) = \sqrt{y}</m>.
 	For every non-negative number <m>x</m>,
       </p>
-	<sidebyside>
-	  <p>
-	    <md>
-	      <mrow>g^{-1} \circ g(x) \amp= g^{-1}(x^2)</mrow>
-	      <mrow>\amp= \sqrt{x^2}</mrow>
-	      <mrow>\amp= \abs{x}</mrow>
-	      <mrow>\amp= x,</mrow>
-	    </md>
-	  </p>
-	  <p>
-	    <md>
-	      <mrow>g \circ g^{-1}(x) \amp= g(\sqrt{x})</mrow>
-	      <mrow>\amp= \sqrt{x}^2</mrow>
-	      <mrow>\amp= x.</mrow>
-	    </md>
-	  </p>
-	</sidebyside>
+      <sidebyside>
+	<p>
+	  <md>
+	    <mrow>g^{-1} \circ g(x) \amp= g^{-1}(x^2)</mrow>
+	    <mrow>\amp= \sqrt{x^2}</mrow>
+	    <mrow>\amp= \abs{x}</mrow>
+	    <mrow>\amp= x,</mrow>
+	  </md>
+	</p>
+	<p>
+	  <md>
+	    <mrow>g \circ g^{-1}(x) \amp= g(\sqrt{x})</mrow>
+	    <mrow>\amp= \sqrt{x}^2</mrow>
+	    <mrow>\amp= x.</mrow>
+	  </md>
+	</p>
+      </sidebyside>
       <p>
 	In the second case, we restrict the domain of <m>f</m> to the negative numbers.
 	This produces a new function <m>h \colon (-\infty,0] \to [0,\infty)</m> defined by <m>h(x) = x^2</m>.
@@ -481,13 +489,13 @@
       </p>
       <sidebyside>
 	<p>
-	<md>
-	  <mrow>h^{-1} \circ h(-x) \amp = h^{-1}\left(\left(-x\right)^2\right)</mrow>
-	  <mrow>\amp= h^{-1}(x^2)</mrow>
-	  <mrow>\amp= -\sqrt{x^2}</mrow>
-	  <mrow>\amp= -\abs{x}</mrow>
-	  <mrow>\amp= -x</mrow>
-	</md>
+	  <md>
+	    <mrow>h^{-1} \circ h(-x) \amp = h^{-1}\left(\left(-x\right)^2\right)</mrow>
+	    <mrow>\amp= h^{-1}(x^2)</mrow>
+	    <mrow>\amp= -\sqrt{x^2}</mrow>
+	    <mrow>\amp= -\abs{x}</mrow>
+	    <mrow>\amp= -x</mrow>
+	  </md>
 	</p>
 	<p>
 	  <md>
@@ -501,7 +509,4 @@
       </sidebyside>
     </example>
   </subsection>
-
-
-    
-  </section>
+</section>

@@ -18,25 +18,27 @@
     </p>    
     
     <definition xml:id="def-exponential_function">
-      <p>
-	Assume <m>a \neq 1</m> is a fixed positive real number.
-	The <term>exponential function with base <m>a</m></term><idx>
-	<h>Function</h>
-	<h>Exponential</h>
-      </idx>
-      is <m>\Exp{a} \colon \R \to (0,\infty)</m> defined by <m>\Exp{a}(x) = a^x</m>.
-      <notation>
-	<usage><m>\Exp{a}</m></usage>
-	<description>Exponential function with base <m>a</m></description>
-      </notation>
-      The number <m>a</m> is called the <term>base</term>
-      <idx>
-	<h>Function</h>
-	<h>Exponential</h>
-	<h>Base</h>
-      </idx>
-      of the exponential function.
-      </p>
+      <statement>
+	<p>
+	  Assume <m>a \neq 1</m> is a fixed positive real number.
+	  The <term>exponential function with base <m>a</m></term><idx>
+	  <h>Function</h>
+	  <h>Exponential</h>
+	</idx>
+	is <m>\Exp{a} \colon \R \to (0,\infty)</m> defined by <m>\Exp{a}(x) = a^x</m>.
+	<notation>
+	  <usage><m>\Exp{a}</m></usage>
+	  <description>Exponential function with base <m>a</m></description>
+	</notation>
+	The number <m>a</m> is called the <term>base</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Exponential</h>
+	  <h>Base</h>
+	</idx>
+	of the exponential function.
+	</p>
+      </statement>
     </definition>
 
     <p>
@@ -153,16 +155,18 @@
     </p>
 
     <definition>
-      <p>
-	Let <m>f</m> be a function that is defined on the interval <m>[a,b]</m>.
-	The <term>relative change</term>
-	<idx>
-	  <h>Function</h>
-	  <h>Relative Change</h>
-	</idx>
-	of <m>f</m> on the interval <m>[a,b]</m> is
-	<me>\frac{f(b) - f(a)}{f(a)}.</me>
-      </p>
+      <statement>
+	<p>
+	  Let <m>f</m> be a function that is defined on the interval <m>[a,b]</m>.
+	  The <term>relative change</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Relative Change</h>
+	  </idx>
+	  of <m>f</m> on the interval <m>[a,b]</m> is
+	  <me>\frac{f(b) - f(a)}{f(a)}.</me>
+	</p>
+      </statement>
     </definition>
 
     <p>
@@ -178,57 +182,59 @@
     </p>
 
     <definition xml:id="def-exp_unit_relative_change">
-      <p>
-	Assume <m>a \neq 1</m> is a positive number.
-	The number <m>r = a - 1</m> is called the <term>growth rate</term>
-	<idx>
-	  <h>Function</h>
-	  <h>Exponential</h>
-	  <h>Growth Rate</h>
-	</idx>
-	of <m>\Exp{a} \colon \R \to (0, \infty)</m> if <m>r > 1</m> or the
-	<term>decay rate</term>
-	<idx>
-	  <h>Function</h>
-	  <h>Exponential</h>
-	  <h>Decay Rate</h>
-	</idx>
-	of <m>\Exp{a} \colon \R \to (0, \infty)</m> if <m>r \lt 1</m>.
-      </p>
-      <ul>
-	<li>
-	  <p>
-	    When <m>r > 0</m>, we say the function <m>\Exp{a} \colon \R \to (0, \infty)</m> models <term>exponential growth</term>
-	    <idx>
-	      <h>Function</h>
-	      <h>Exponential</h>
-	      <h>Growth</h>
-	    </idx>
-	    and we call the number <m>a = 1 + r</m> the <term>growth factor</term>.
-	    <idx>
-	      <h>Function</h>
-	      <h>Exponential</h>
-	      <h>Growth Factor</h>
-	    </idx>
-	  </p>
-	</li>
-	<li>
-	  <p>
-	    When <m>r \lt 0</m>, we say the function <m>\Exp{a} \colon \R \to (0, \infty)</m> models <term>exponential decay</term>
-	    <idx>
-	      <h>Function</h>
-	      <h>Exponential</h>
-	      <h>Decay</h>
-	    </idx>
-	    and we call the number <m>a = 1 + r</m> the <term>decay factor</term>.
-	    <idx>
-	      <h>Function</h>
-	      <h>Exponential</h>
-	      <h>Decay Factor</h>
-	    </idx>
-	  </p>
-	</li>
-      </ul>
+      <statement>
+	<p>
+	  Assume <m>a \neq 1</m> is a positive number.
+	  The number <m>r = a - 1</m> is called the <term>growth rate</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Exponential</h>
+	    <h>Growth Rate</h>
+	  </idx>
+	  of <m>\Exp{a} \colon \R \to (0, \infty)</m> if <m>r > 1</m> or the
+	  <term>decay rate</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Exponential</h>
+	    <h>Decay Rate</h>
+	  </idx>
+	  of <m>\Exp{a} \colon \R \to (0, \infty)</m> if <m>r \lt 1</m>.
+	</p>
+	<ul>
+	  <li>
+	    <p>
+	      When <m>r > 0</m>, we say the function <m>\Exp{a} \colon \R \to (0, \infty)</m> models <term>exponential growth</term>
+	      <idx>
+		<h>Function</h>
+		<h>Exponential</h>
+		<h>Growth</h>
+	      </idx>
+	      and we call the number <m>a = 1 + r</m> the <term>growth factor</term>.
+	      <idx>
+		<h>Function</h>
+		<h>Exponential</h>
+		<h>Growth Factor</h>
+	      </idx>
+	    </p>
+	  </li>
+	  <li>
+	    <p>
+	      When <m>r \lt 0</m>, we say the function <m>\Exp{a} \colon \R \to (0, \infty)</m> models <term>exponential decay</term>
+	      <idx>
+		<h>Function</h>
+		<h>Exponential</h>
+		<h>Decay</h>
+	      </idx>
+	      and we call the number <m>a = 1 + r</m> the <term>decay factor</term>.
+	      <idx>
+		<h>Function</h>
+		<h>Exponential</h>
+		<h>Decay Factor</h>
+	      </idx>
+	    </p>
+	  </li>
+	</ul>
+      </statement>
     </definition>
   </subsection>
   

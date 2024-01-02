@@ -22,18 +22,20 @@
 
   <definition xml:id="def-quadratic_function">
     <title>Quadratic Function</title>
-    <p>
-      A function <m>f \colon \R \to \R</m> is <term>quadratic</term>
-      <idx>
-	<h>Function</h>
-	<h>Quadratic</h>
-      </idx>
-      if it has the form
-      <me>f(x) = ax^2 + bx + c
-      \quad\text{or}\quad
-      y = ax^2 + bx + c,</me>
-      where <m>a</m>, <m>b</m>, and <m>c</m> are numbers, and <m>a \neq 0</m>.
-    </p>
+    <statement>
+      <p>
+	A function <m>f \colon \R \to \R</m> is <term>quadratic</term>
+	<idx>
+	  <h>Function</h>
+	  <h>Quadratic</h>
+	</idx>
+	if it has the form
+	<me>f(x) = ax^2 + bx + c
+	\quad\text{or}\quad
+	y = ax^2 + bx + c,</me>
+	where <m>a</m>, <m>b</m>, and <m>c</m> are numbers, and <m>a \neq 0</m>.
+      </p>
+    </statement>
   </definition>
   
   <subsection>
@@ -62,16 +64,18 @@
 
     <definition xml:id="def-vertex_form">
       <title>The Vertex Form of a Quadratic</title>
-      <p>
-	A quadratic function, <m>f(x)</m>, is in <term>vertex form</term>
-	<idx>
-	  <h>Function</h>
-	  <h>Quadratic</h>
-	  <h>Vertex Form</h>
-	</idx>
-	if there are numbers <m>h</m> and <m>k</m> such that
-	<me>f(x) = a(x - h)^2 + k.</me>
-      </p>
+      <statement>
+	<p>
+	  A quadratic function, <m>f(x)</m>, is in <term>vertex form</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Quadratic</h>
+	    <h>Vertex Form</h>
+	  </idx>
+	  if there are numbers <m>h</m> and <m>k</m> such that
+	  <me>f(x) = a(x - h)^2 + k.</me>
+	</p>
+      </statement>
     </definition>
 
     <p>
@@ -303,35 +307,35 @@
     </p>
 
     <definition>
-      <p>
-	The graph of a parabola is
-	<ul>
-	  <li>
-	    <p>
-	      <term>concave up</term>
-	      <idx>
-		<h>Function</h>
-		<h>Quadratic</h>
-		<h>Concave</h>
-		<h>Up</h>
-	      </idx>
-	      if the parabola opens upwards like <m>y=x^2</m>.
-	    </p>
-	  </li>
-	  <li>
-	    <p>
-	      <term>concave down</term>
-	      <idx>
-		<h>Function</h>
-		<h>Quadratic</h>
-		<h>Concave</h>
-		<h>Down</h>
-	      </idx>
-	      if the parabola opens downwards like <m>y = -x^2</m>.
-	    </p>
-	  </li>
-	</ul>
-      </p>
+      <statement>
+	<p>
+	  The graph of a parabola is
+	  <ul>
+	    <li>
+	      <p>
+		<term>concave up</term>
+		<idx>
+		  <h>Function</h>
+		  <h>Quadratic</h>
+		  <h>Concave Up</h>
+		</idx>
+		if the parabola opens upwards like <m>y=x^2</m>.
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		<term>concave down</term>
+		<idx>
+		  <h>Function</h>
+		  <h>Quadratic</h>
+		  <h>Concave Down</h>
+		</idx>
+		if the parabola opens downwards like <m>y = -x^2</m>.
+	      </p>
+	    </li>
+	  </ul>
+	</p>
+      </statement>
     </definition>
 
     <p>
@@ -527,13 +531,15 @@
     </introduction>
 
     <definition>
-      <p>
-	An equation of the form <m>ax^2 + bx + c = 0</m> is called a <term>quadratic equation</term>
-	<idx>
-	  <h>Equation</h>
-	  <h>Quadratic</h>
-	</idx>
-      </p>
+      <statement>
+	<p>
+	  An equation of the form <m>ax^2 + bx + c = 0</m> is called a <term>quadratic equation</term>
+	  <idx>
+	    <h>Equation</h>
+	    <h>Quadratic</h>
+	  </idx>
+	</p>
+      </statement>
     </definition>
 
     <p>
@@ -564,16 +570,18 @@
     
     <definition xml:id="def-discriminant">
       <title>The Discriminant</title>
-      <p>
-	The <term>discriminant</term>
-	<idx>
-	  <h>Function</h>
-	  <h>Quadratic</h>
-	  <h>Discriminant</h>
-	</idx>
-	of the quadratic function <m>f(x) = ax^2 + bx + c</m> is the number
-	<me>D = b^2 - 4ac</me>
-      </p>
+      <statement>
+	<p>
+	  The <term>discriminant</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Quadratic</h>
+	    <h>Discriminant</h>
+	  </idx>
+	  of the quadratic function <m>f(x) = ax^2 + bx + c</m> is the number
+	  <me>D = b^2 - 4ac</me>
+	</p>
+      </statement>
     </definition>
 
     <p>

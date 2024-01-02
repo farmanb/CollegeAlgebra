@@ -23,22 +23,24 @@
     <title>Solutions to an Equation</title>
     <definition xml:id="def-solution">
       <title>Solution to an Equation</title>
-      <p>
-	A <term>solution</term>
-	<idx>
-	  <h>Equation</h>
-	  <h>Solution</h>
-	</idx>
-	to an equation in the variables <m>x</m> and <m>y</m> is an ordered pair <m>(a,b)</m> that make the equation true when
-	<ol>
-	  <li>
-	    the first coordinate, <m>a</m>, is substituted into the equation for <m>x</m>, and
-	  </li>
-	  <li>
-	    the second coordinate, <m>b</m>, is substituted into the equation for <m>y</m>.
-	  </li>
-	</ol>
-      </p>
+      <statement>
+	<p>
+	  A <term>solution</term>
+	  <idx>
+	    <h>Equation</h>
+	    <h>Solution</h>
+	  </idx>
+	  to an equation in the variables <m>x</m> and <m>y</m> is an ordered pair <m>(a,b)</m> that make the equation true when
+	  <ol>
+	    <li>
+	      the first coordinate, <m>a</m>, is substituted into the equation for <m>x</m>, and
+	    </li>
+	    <li>
+	      the second coordinate, <m>b</m>, is substituted into the equation for <m>y</m>.
+	    </li>
+	  </ol>
+	</p>
+      </statement>
     </definition>
 
     <example>
@@ -55,14 +57,16 @@
 
     <definition xml:id="def-graph">
       <title>Graph of an Equation</title>
-      <p>
-	The <term>graph</term>
-	<idx>
-	  <h>Equation</h>
-	  <h>Graph</h>
-	</idx>
-	of an equation in the variables <m>x</m> and <m>y</m> consists of all the points in the plane that are solutions to the equation.
-      </p>
+      <statement>
+	<p>
+	  The <term>graph</term>
+	  <idx>
+	    <h>Equation</h>
+	    <h>Graph</h>
+	  </idx>
+	  of an equation in the variables <m>x</m> and <m>y</m> consists of all the points in the plane that are solutions to the equation.
+	</p>
+      </statement>
     </definition>
 
     <p>
@@ -72,11 +76,15 @@
 
     <definition xml:id="def-y_intercept">
       <title><m>y</m>-intercept</title>
-      A <xref ref="def-solution" text="title"/> of the form <m>(0,y)</m> is called a <term><m>y</m>-intercept</term>.
-      <idx>
-	<h>Equation</h>
-	<h><m>y</m>-intercept</h>
-      </idx>
+      <statement>
+	<p>
+	  A <xref ref="def-solution" text="title"/> of the form <m>(0,y)</m> is called a <term><m>y</m>-intercept</term>.
+	  <idx>
+	    <h>Equation</h>
+	    <h><m>y</m>-intercept</h>
+	  </idx>
+	</p>
+      </statement>
     </definition>
 
     <!-- <example> -->
@@ -103,11 +111,15 @@
 
     <definition xml:id="def-x_intercept">
       <title><m>x</m>-intercept</title>
-      A <xref ref="def-solution" text="title"/> of the form <m>(x,0)</m> is called an <term><m>x</m>-intercept</term>.
-      <idx>
-	<h>Equation</h>
-	<h><m>x</m>-intercept</h>
-      </idx>
+      <statement>
+	<p>
+	  A <xref ref="def-solution" text="title"/> of the form <m>(x,0)</m> is called an <term><m>x</m>-intercept</term>.
+	  <idx>
+	    <h>Equation</h>
+	    <h><m>x</m>-intercept</h>
+	  </idx>
+	</p>
+      </statement>
     </definition>
     
     <example component="web">

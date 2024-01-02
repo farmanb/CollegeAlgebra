@@ -71,45 +71,52 @@
 
   <definition xml:id="def-log_base_a">
     <title>The Logarithm with Base <m>a</m></title>
-    <p>
-      Assume <m>a \neq 1</m> is a positive real number.
-      The <term>logarithm with base <m>a</m></term>,
-      <idx>
-	<h>Function</h>
-	<h>Logarithm</h>
-	<h>Base <m>a</m></h>
-      </idx>
-      <m>\log_a \colon (0,\infty) \to \R</m>,
-      <notation>
-	<usage><m>\log_a</m></usage>
-	<description>The logarithm with base <m>a</m></description>
-      </notation>
-      is the <xref ref="def-composition_inverse" text="title"/> of <m>\operatorname{Exp}{a} \colon \R \to (0, \infty)</m>.
-    </p>
-    <p>
-      In particular, for every real number <m>x</m> and every positive real number <m>y</m>,
-      <me>\log_a \circ \Exp{a}(x) = \log_a(a^x) = x
-      \quad\text{and}\quad
-      \Exp{a} \circ \log_a(y) = a^{\log_a(y)} = y.</me>
-    </p>
+
+    <notation>
+      <usage><m>\log_a</m></usage>
+      <description>The logarithm with base <m>a</m></description>
+    </notation>
+    
+    <statement>
+      <p>
+	Assume <m>a \neq 1</m> is a positive real number.
+	The <term>logarithm with base <m>a</m></term>,
+	<idx>
+	  <h>Function</h>
+	  <h>Logarithm</h>
+	  <h>Base <m>a</m></h>
+	</idx>
+	<m>\log_a \colon (0,\infty) \to \R</m>,
+	
+	is the <xref ref="def-composition_inverse" text="title"/> of <m>\operatorname{Exp}{a} \colon \R \to (0, \infty)</m>.
+      </p>
+      <p>
+	In particular, for every real number <m>x</m> and every positive real number <m>y</m>,
+	<me>\log_a \circ \Exp{a}(x) = \log_a(a^x) = x
+	\quad\text{and}\quad
+	\Exp{a} \circ \log_a(y) = a^{\log_a(y)} = y.</me>
+      </p>
+    </statement>
   </definition>
 
   <definition>
     <title>The Natural Logarithm</title>
-    <p>
-      The <term>natural logarithm</term>,
-      <idx>
-	<h>Function</h>
-	<h>Logarithm</h>
-	<h>Base <m>a</m></h>
-      </idx>
-      <m>\ln \colon (0, \infty) \to \R</m>,
-      <notation>
-	<usage><m>\ln</m></usage>
-	<description>The natural logarithm</description>
-      </notation>
-      is the logarithm with base <m>e</m>.
-    </p>
+    <statement>
+      <p>
+	The <term>natural logarithm</term>,
+	<idx>
+	  <h>Function</h>
+	  <h>Logarithm</h>
+	  <h>Base <m>a</m></h>
+	</idx>
+	<m>\ln \colon (0, \infty) \to \R</m>,
+	<notation>
+	  <usage><m>\ln</m></usage>
+	  <description>The natural logarithm</description>
+	</notation>
+	is the logarithm with base <m>e</m>.
+      </p>
+    </statement>
   </definition>
 
   <subsection>

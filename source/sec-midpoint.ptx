@@ -18,24 +18,27 @@
   </introduction>
   
   <definition xml:id="def-1_midpoint">
-    <p>
-      The <term>midpoint</term>
-      <idx>
-	<h>Midpoint</h>
-	<h>Number Line</h>
-      </idx>
-      between two numbers <m>x</m> and <m>y</m> on the number line is given by the formula
-      <me>\frac{x + y}{2},</me>
-      as depicted in <xref ref="fig-1_midpoint"/>.
-    </p>
-    <figure xml:id="fig-1_midpoint">
-      <image xml:id="img-1_midpoint">
-	<latex-image>
-	  <xi:include parse="text" href="tex/1_midpoint.tex"/>
-	</latex-image>
-      </image>
-    </figure>
+    <statement>
+      <p>
+	The <term>midpoint</term>
+	<idx>
+	  <h>Midpoint</h>
+	  <h>Number Line</h>
+	</idx>
+	between two numbers <m>x</m> and <m>y</m> on the number line is given by the formula
+	<me>\frac{x + y}{2},</me>
+	as depicted in <xref ref="fig-1_midpoint"/>.
+      </p>
+    </statement>
   </definition>
+
+  <figure xml:id="fig-1_midpoint">
+    <image xml:id="img-1_midpoint">
+      <latex-image>
+	<xi:include parse="text" href="tex/1_midpoint.tex"/>
+      </latex-image>
+    </image>
+  </figure>
 
   <remark>
     <p>

@@ -19,15 +19,17 @@
     </introduction>
     
     <definition xml:id="def-y_axis_symmetry">
-      <p>
-	We say a function <m>f</m> has <term><m>y</m>-axis symmetry</term>
-	<idx>
-	  <h>Function</h>
-	  <h>Symmetry</h>
-	  <h><m>y</m>-axis</h>
-	</idx>
-	if the <m>y</m>-axis divides the graph into two pieces that are mirror images of one another.
-      </p>
+      <statement>
+	<p>
+	  We say a function <m>f</m> has <term><m>y</m>-axis symmetry</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Symmetry</h>
+	    <h><m>y</m>-axis</h>
+	  </idx>
+	  if the <m>y</m>-axis divides the graph into two pieces that are mirror images of one another.
+	</p>
+      </statement>
     </definition>
     
     <p>
@@ -181,15 +183,17 @@
     </introduction>
     
     <definition>
-      <p>
-	We say a function <m>f</m> is <term>symmetric about the origin</term>
-	<idx>
-	  <h>Function</h>
-	  <h>Symmetry</h>
-	  <h>Origin</h>
-	</idx>
-	if the graph of <m>f</m> is invariant under rotation by 180 degrees.
-      </p>
+      <statement>
+	<p>
+	  We say a function <m>f</m> is <term>symmetric about the origin</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Symmetry</h>
+	    <h>Origin</h>
+	  </idx>
+	  if the graph of <m>f</m> is invariant under rotation by 180 degrees.
+	</p>
+      </statement>
     </definition>
 
     <p>

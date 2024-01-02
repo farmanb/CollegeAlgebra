@@ -89,32 +89,36 @@
     </p>
 
     <definition>
-      Assume <m>A \subseteq \R</m> and <m>[a,b] \subseteq A</m>.
-      We say the function <m>f \colon A \to \R</m> is 
-      <ul>
-	<li>
-	  <p>
-	    <term>increasing</term>
-	    <idx>
-	      <h>Function</h>
-	      <h>Increasing</h>
-	    </idx>
-	    on the interval <m>[a,b]</m> if for every <m>a \leq x_1 \lt x_2 \leq b</m>,
-	    <me>f(x_1) \lt f(x_2).</me>
-	  </p>
-	</li>
-	<li>
-	  <p>
-	    <term>decreasing</term>
-	    <idx>
-	      <h>Function</h>
-	      <h>Decreasing</h>
-	    </idx>
-	    on the interval <m>[a,b]</m> if for every <m>a \leq x_1 \lt x_2 \leq b</m>,
-	    <me>f(x_2) \lt f(x_1).</me>
-	  </p>
-	</li>
-      </ul>
+      <statement>
+	<p>
+	  Assume <m>A \subseteq \R</m> and <m>[a,b] \subseteq A</m>.
+	  We say the function <m>f \colon A \to \R</m> is
+	</p>
+	<ul>
+	  <li>
+	    <p>
+	      <term>increasing</term>
+	      <idx>
+		<h>Function</h>
+		<h>Increasing</h>
+	      </idx>
+	      on the interval <m>[a,b]</m> if for every <m>a \leq x_1 \lt x_2 \leq b</m>,
+	      <me>f(x_1) \lt f(x_2).</me>
+	    </p>
+	  </li>
+	  <li>
+	    <p>
+	      <term>decreasing</term>
+	      <idx>
+		<h>Function</h>
+		<h>Decreasing</h>
+	      </idx>
+	      on the interval <m>[a,b]</m> if for every <m>a \leq x_1 \lt x_2 \leq b</m>,
+	      <me>f(x_2) \lt f(x_1).</me>
+	    </p>
+	  </li>
+	</ul>
+      </statement>
     </definition>
 
     <p>
@@ -127,65 +131,69 @@
     </p>
 
     <definition>
-      <p>
-	Assume <m>A \subseteq \R</m>.
-	The function <m>f \colon A \to \R</m> has a <term>local maximum</term>
-	<idx>
-	  <h>Function</h>
-	  <h>Local Maximum</h>
-	</idx>
-	at <m>(c, f(c))</m> if there exist values <m>a,b \in A</m> such that 
-	<ol>
-	  <li>
-	    <p>
-	      <m>f</m> is increasing on the interval <m>[a,c]</m>, and
-	    </p>
-	  </li>
-	  <li>
-	    <p>
-	      <m>f</m> is decreasing on the interval <m>[c,b]</m>.
-	    </p>
-	  </li>
-	</ol>
-      </p>
-      <p>
-	We say <m>f(c)</m> is a <term>local maximum value</term>
-	<idx>
-	  <h>Function</h>
-	  <h>Local Maximum Value</h>
-	</idx>
-      </p>
+      <statement>
+	<p>
+	  Assume <m>A \subseteq \R</m>.
+	  The function <m>f \colon A \to \R</m> has a <term>local maximum</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Local Maximum</h>
+	  </idx>
+	  at <m>(c, f(c))</m> if there exist values <m>a,b \in A</m> such that 
+	  <ol>
+	    <li>
+	      <p>
+		<m>f</m> is increasing on the interval <m>[a,c]</m>, and
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		<m>f</m> is decreasing on the interval <m>[c,b]</m>.
+	      </p>
+	    </li>
+	  </ol>
+	</p>
+	<p>
+	  We say <m>f(c)</m> is a <term>local maximum value</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Local Maximum Value</h>
+	  </idx>
+	</p>
+      </statement>
     </definition>
 
     <definition>
-      <p>
-	Assume <m>A \subseteq \R</m>.
-	The function <m>f \colon A \to \R</m> has a <term>local minimum</term>
-	<idx>
-	  <h>Function</h>
-	  <h>Local Minimum</h>
-	</idx>
-	at <m>(c, f(c))</m> if there exist values <m>a,b \in A</m> such that 
-	<ol>
-	  <li>
-	    <p>
-	      <m>f</m> is decreasing on the interval <m>[a,c]</m>, and
-	    </p>
-	  </li>
-	  <li>
-	    <p>
-	      <m>f</m> is increasing on the interval <m>[c,b]</m>.
-	    </p>
-	  </li>
-	</ol>
-      </p>
-      <p>
-	We say <m>f(c)</m> is a <term>local minimum value</term>
-	<idx>
-	  <h>Function</h>
-	  <h>Local Minimum Value</h>
-	</idx>
-      </p>
+      <statement>
+	<p>
+	  Assume <m>A \subseteq \R</m>.
+	  The function <m>f \colon A \to \R</m> has a <term>local minimum</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Local Minimum</h>
+	  </idx>
+	  at <m>(c, f(c))</m> if there exist values <m>a,b \in A</m> such that 
+	  <ol>
+	    <li>
+	      <p>
+		<m>f</m> is decreasing on the interval <m>[a,c]</m>, and
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		<m>f</m> is increasing on the interval <m>[c,b]</m>.
+	      </p>
+	    </li>
+	  </ol>
+	</p>
+	<p>
+	  We say <m>f(c)</m> is a <term>local minimum value</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Local Minimum Value</h>
+	  </idx>
+	</p>
+      </statement>
     </definition>
 
     <example component="web">
@@ -368,16 +376,18 @@
 
     <definition xml:id="def-average_rate_of_change">
       <title>The Average Rate of Change</title>
-      <p>
-	Assume <m>f</m> is a function and the domain of <m>f</m> contains the interval <m>[a,b]</m>.
-	The <term>average rate of change</term>
-	<idx>
-	  <h>Function</h>
-	  <h>Average Rate of Change</h>
-	</idx>
-	of <m>f</m> on the interval <m>[a,b]</m> is
-	<me>\frac{f(b) - f(a)}{b-a}.</me>
-      </p>
+      <statement>
+	<p>
+	  Assume <m>f</m> is a function and the domain of <m>f</m> contains the interval <m>[a,b]</m>.
+	  The <term>average rate of change</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Average Rate of Change</h>
+	  </idx>
+	  of <m>f</m> on the interval <m>[a,b]</m> is
+	  <me>\frac{f(b) - f(a)}{b-a}.</me>
+	</p>
+      </statement>
     </definition>
 
     <example component="web">

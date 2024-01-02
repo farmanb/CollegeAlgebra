@@ -11,46 +11,46 @@
       We discuss foundational results about general polynomials in this section, and specialize to some easy to classify cases in the later sections.
     </p>
   </introduction>
-
-  <definition>
-    <title>Polynomial Function</title>
-    <p>
-      A <term>polynomial function</term>
-      <idx>
-	<h>Function</h>
-	<h>Polynomial</h>
-      </idx>
-      in the variable <m>x</m> is a function <m>f \colon \R \to \R</m> of the form
-      <me>f(x) = a_nx^n + a_{n-1}x^{n-1} + \cdots + a_1x + a_0,</me>
-      where <m>n</m> is an integer, <m>a_0, a_1, \ldots, a_n</m> are numbers and <m>a_n \neq 0</m>.
-    </p>
-    <p>
-      We say <m>f</m> is a polynomial of <term>degree</term>
-      <idx>
-	<h>Function</h>
-	<h>Polynomial</h>
-	<h>Degree</h>
-      </idx>
-      <m>n</m> and write <m>\deg{f} = n</m>.
-      <notation>
-	<usage>
-	  <m>\deg{f}</m>
-	</usage>
-	<description>Degree of a polynomial</description>
-      </notation>
-      The numbers <m>a_0, a_1, \ldots, a_n</m> are called the <term>coefficient</term>
-      <idx>
-	<h>Function</h>
-	<h>Polynomial</h>
-	<h>Coefficient</h>
-      </idx>
-      of <m>1, x, \ldots, x^n</m>, respectively.
-    </p>
-  </definition>
   
   <subsection>
     <title>Roots of Polynomials</title>
-
+    <definition>
+      <title>Polynomial Function</title>
+      <statement>
+	<p>
+	  A <term>polynomial function</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Polynomial</h>
+	  </idx>
+	  in the variable <m>x</m> is a function <m>f \colon \R \to \R</m> of the form
+	  <me>f(x) = a_nx^n + a_{n-1}x^{n-1} + \cdots + a_1x + a_0,</me>
+	  where <m>n</m> is an integer, <m>a_0, a_1, \ldots, a_n</m> are numbers and <m>a_n \neq 0</m>.
+	</p>
+	<p>
+	  We say <m>f</m> is a polynomial of <term>degree</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Polynomial</h>
+	    <h>Degree</h>
+	  </idx>
+	  <m>n</m> and write <m>\deg{f} = n</m>.
+	  <notation>
+	    <usage>
+	      <m>\deg{f}</m>
+	    </usage>
+	    <description>Degree of a polynomial</description>
+	  </notation>
+	  The numbers <m>a_0, a_1, \ldots, a_n</m> are called the <term>coefficient</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Polynomial</h>
+	    <h>Coefficient</h>
+	  </idx>
+	  of <m>1, x, \ldots, x^n</m>, respectively.
+	</p>
+      </statement>
+    </definition>
     <p>
       Polynomial functions are most interesting because they are relatively simple functions that allow us to model real world phenomena.
     </p>
@@ -78,16 +78,20 @@
     
     <definition>
       <title>Root</title>
-      A <term>root</term>
-      <idx>
-	<h>Function</h>
-	<h>Polynomial</h>
-	<h>Root</h>
-      </idx>
-      of the polynomial
-      <me>f(x) = a_nx^n + a_{n-1}x^{n-1} + \cdots + a_1x + a_0</me>
-      is a number, <m>r</m>, such that
-      <me>0 = f(r) = a_nr^n + a_{n-1}r^{n-1} + \cdots + a_1 r + a_0.</me>
+      <statement>
+	<p>
+	  A <term>root</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Polynomial</h>
+	    <h>Root</h>
+	  </idx>
+	  of the polynomial
+	  <me>f(x) = a_nx^n + a_{n-1}x^{n-1} + \cdots + a_1x + a_0</me>
+	  is a number, <m>r</m>, such that
+	  <me>0 = f(r) = a_nr^n + a_{n-1}r^{n-1} + \cdots + a_1 r + a_0.</me>
+	</p>
+      </statement>
     </definition>
 
     <p>
@@ -142,10 +146,12 @@
     </p>
 
     <definition>
-      <p>
-	Assume <m>f</m> is a polynomial of degree <m>n</m> and <m>r</m> is a root of <m>f</m>.
-	The <term>multiplicity</term> of <m>r</m>, is the number of times of times <m>r</m> appears in the factorization of <m>f</m>.
-      </p>
+      <statement>
+	<p>
+	  Assume <m>f</m> is a polynomial of degree <m>n</m> and <m>r</m> is a root of <m>f</m>.
+	  The <term>multiplicity</term> of <m>r</m>, is the number of times of times <m>r</m> appears in the factorization of <m>f</m>.
+	</p>
+      </statement>
     </definition>
 
     <example>
@@ -169,8 +175,6 @@
     </p>
 
     <definition>
-      <term>The Imaginary Unit</term>
-      The <term>imaginary unit</term>, <m>i</m>,
       <notation>
 	<usage>
 	  <m>i</m>
@@ -179,40 +183,40 @@
 	  The imaginary unit
 	</description>
       </notation>
-      is defined to be one of the roots of the polynomial <m>f(x) = x^2 + 1</m>.
-      In particular, <m>i^2 + 1 = 0</m> or, equivalently, <m>i^2 = -1</m>.
-      It is common to write <m>i = \sqrt{-1}</m>.
+      
+      <statement>
+	<p>
+	  <term>The Imaginary Unit</term>
+	  The <term>imaginary unit</term>, <m>i</m>, is defined to be one of the roots of the polynomial <m>f(x) = x^2 + 1</m>.
+	  In particular, <m>i^2 + 1 = 0</m> or, equivalently, <m>i^2 = -1</m>.
+	  It is common to write <m>i = \sqrt{-1}</m>.
+	</p>
+      </statement>
     </definition>
 
     <p>
       Since
-    </p>
-    <me>(-i)^2 + 1= (-1)^2 i^2 + 1= i^2 + 1 = 0</me>
-    <p>
+      <me>(-i)^2 + 1= (-1)^2 i^2 + 1= i^2 + 1 = 0</me>
       the roots <m>i</m> and <m>-i</m> provide the factorization
-    </p>
-    <me>
-      x^2 + 1 = (x - i)(x + i).
-    </me>
-
-    <p>
+      <me>x^2 + 1 = (x - i)(x + i).</me>
       Numbers that involve <m>i</m> arise frequently in the study of roots of polynomials of degree 2.
     </p>
 
     <definition xml:id="def-complex_number">
       <title>Complex Number</title>
-
-      <p>
-	A <term>complex number</term> has the form <m>a + bi</m>, where <m>a</m> and <m>b</m> are real numbers.
-	The set of all complex numbers is 
-	<me>\C = \left\{a + ib \;\middle\vert\; a,b \in \R\right\}.</me>
-	<notation>
-	  <usage>
-	    <m>\C</m>
-	  </usage>
-	  <description>The set of complex numbers</description>
-	</notation>
-      </p>
+      <statement>
+	<p>
+	  A <term>complex number</term> has the form <m>a + bi</m>, where <m>a</m> and <m>b</m> are real numbers.
+	  The set of all complex numbers is 
+	  <me>\C = \left\{a + ib \;\middle\vert\; a,b \in \R\right\}.</me>
+	  <notation>
+	    <usage>
+	      <m>\C</m>
+	    </usage>
+	    <description>The set of complex numbers</description>
+	  </notation>
+	</p>
+      </statement>
     </definition>
 
     <example>
@@ -333,52 +337,49 @@
     </p>
     
     <definition>
-      <p>
-	Assume <m>f</m> and <m>d</m> are polynomials.
-	The polynomial <m>d</m> <term>divides</term>
-	<idx>
-	  <h>Function</h>
-	  <h>Polynomial</h>
-	  <h>Divides</h>
-	</idx>
-	the polynomial <m>f</m> if the remainder when <m>f</m> is divided by <m>d</m> is the zero polynomial, <m>r(x) = 0</m>.
-      </p>
+      <statement>
+	<p>
+	  Assume <m>f</m> and <m>d</m> are polynomials.
+	  The polynomial <m>d</m> <term>divides</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Polynomial</h>
+	    <h>Divides</h>
+	  </idx>
+	  the polynomial <m>f</m> if the remainder when <m>f</m> is divided by <m>d</m> is the zero polynomial, <m>r(x) = 0</m>.
+	</p>
+      </statement>
     </definition>
 
     <p>
       To understand how to perform division with polynomials, it is helpful to understand the division algorithm with numbers written in base <m>10</m>.
       The four steps in the long division above are shorthand for the following equations.
-    </p>
-    <mdn>
-      <mrow xml:id="eq-division_1">6935 \amp= 30 \times 200 + 935</mrow>
-      <mrow xml:id="eq-division_2">935 \amp= 30 \times 30 + 35</mrow>
-      <mrow xml:id="eq-division_3">35 \amp= 30 \times 1 + 5</mrow>
-    </mdn>
-    <p>
+      <mdn>
+	<mrow xml:id="eq-division_1">6935 \amp= 30 \times 200 + 935</mrow>
+	<mrow xml:id="eq-division_2">935 \amp= 30 \times 30 + 35</mrow>
+	<mrow xml:id="eq-division_3">35 \amp= 30 \times 1 + 5</mrow>
+      </mdn>
       We arrive at the final answer by repeated substitution for the remainders starting with <xref ref="eq-division_1"/>.
-    </p>
-    <md>
-      <mrow>
-	6935 \amp= 30 \times 200 + 935 \amp\amp \text{Substitute the RHS of}\ <xref ref="eq-division_2"/>\ \text{for}\ 935
-      </mrow>
-      <mrow>
-	\amp = 30 \times 200 + 30 \times 30 + 35 \amp\amp \text{Substitue the RHS of}\ <xref ref="eq-division_3"/>\ \text{for}\ 35
-      </mrow>
-      <!-- <mrow> -->
-      <!-- 	\amp = 30 \times 200 + 30 \times 30 + 30 \times 1 + 5 \amp\amp \text{Substitute the RHS of}\ <xref ref="eq-division_4"/>\ \text{for}\ 5 -->
-      <!-- </mrow> -->
-      <mrow>
-	\amp = 30 \times 200 + 30 \times 30 + 30 \times 1 + 5 \amp\amp \text{Factor}\ 3\ \text{from the first three terms}
-      </mrow>
-      <mrow>
-	\amp= (200 + 30 + 1) \times 3 + 2 \amp\amp \text{Simplify}
-      </mrow>
-      <mrow>
-	\amp = 231 \times 30 + 5.
-      </mrow>
-    </md>
-
-    <p>
+      <md>
+	<mrow>
+	  6935 \amp= 30 \times 200 + 935 \amp\amp \text{Substitute the RHS of}\ <xref ref="eq-division_2"/>\ \text{for}\ 935
+	</mrow>
+	<mrow>
+	  \amp = 30 \times 200 + 30 \times 30 + 35 \amp\amp \text{Substitue the RHS of}\ <xref ref="eq-division_3"/>\ \text{for}\ 35
+	</mrow>
+	<!-- <mrow> -->
+	<!-- 	\amp = 30 \times 200 + 30 \times 30 + 30 \times 1 + 5 \amp\amp \text{Substitute the RHS of}\ <xref ref="eq-division_4"/>\ \text{for}\ 5 -->
+	<!-- </mrow> -->
+	<mrow>
+	  \amp = 30 \times 200 + 30 \times 30 + 30 \times 1 + 5 \amp\amp \text{Factor}\ 3\ \text{from the first three terms}
+	</mrow>
+	<mrow>
+	  \amp= (200 + 30 + 1) \times 3 + 2 \amp\amp \text{Simplify}
+	</mrow>
+	<mrow>
+	  \amp = 231 \times 30 + 5.
+	</mrow>
+      </md>
       This process terminates because at each stage we are reducing the number of digits in the remainder by at least one.
       When we do long division with polynomials, our goal will be similar, but we will reduce the degree of the remainder polynomial by at least one.
     </p>
@@ -403,17 +404,17 @@
       <p>
 	We can also perform polynomial division using the same shorthand as we would for numbers.
 	When performing polynomial division in this way, it is important to carefully distribute signs when subtracting.
+        <md>
+	  <mrow>\amp\phantom{)}2x^2 + 3x + 1</mrow>
+	  <mrow>3x \amp\overline{\smash{)}{6x^3 + 9x^2 + 3x + 5}} </mrow>
+	  <mrow>\amp \underline{-6x^3}</mrow>
+	  <mrow>\amp \phantom{lllll}0 + 9x^2</mrow>
+	  <mrow>\amp \phantom{lllllllll}\underline{-9x^2}</mrow>
+	  <mrow>\amp \phantom{6x^3 + 9x^2}0 + 3x</mrow>
+	  <mrow>\amp \phantom{6x^3 + 9x^2 0l}\underline{- 3x}</mrow>
+	  <mrow>\amp \phantom{6x^3 + 9x^2 + 3}0 + 5</mrow>
+	</md>
       </p>
-      <md>
-	<mrow>\amp\phantom{)}2x^2 + 3x + 1</mrow>
-	<mrow>3x \amp\overline{\smash{)}{6x^3 + 9x^2 + 3x + 5}} </mrow>
-	<mrow>\amp \underline{-6x^3}</mrow>
-	<mrow>\amp \phantom{lllll}0 + 9x^2</mrow>
-	<mrow>\amp \phantom{lllllllll}\underline{-9x^2}</mrow>
-	<mrow>\amp \phantom{6x^3 + 9x^2}0 + 3x</mrow>
-	<mrow>\amp \phantom{6x^3 + 9x^2 0l}\underline{- 3x}</mrow>
-	<mrow>\amp \phantom{6x^3 + 9x^2 + 3}0 + 5</mrow>
-      </md>
     </example>
 
     <remark>
@@ -444,43 +445,39 @@
       <p>
 	As we saw in <xref ref="example-rational_root"/>, the polynomial <m>f(x) = 2x^4 - 7x^3 + 5x^2 - 7x + 3</m> has a root at <m>x = 1/2</m> and at <m>x = 3</m>.
 	By <xref ref="thm-root_div"/>, the polynomial <m>x - 1/2</m> divides <m>f(x)</m>
-      </p>
-      <md>
-	<mrow>\amp\phantom{)}2x^3 - 6x^2 + 2x - 6</mrow>
-	<mrow>x - \frac{1}{2} \amp\overline{\smash{)}{2x^4 - 7x^3 + 5x^2 - 7x + 3}} </mrow>
-	<mrow>\amp \underline{-2x^4 + x^3}</mrow>
-	<mrow>\amp \phantom{)2x^4}-6x^3 + 5x^2</mrow>
-	<mrow>\amp \phantom{)2x^4}\underline{+6x^3 - 3x^2}</mrow>
-	<mrow>\amp \phantom{)2x^4 - 7x^3 +}2x^2 - 7x</mrow>
-	<mrow>\amp \phantom{)2x^4 - 7x^3}\underline{-2x^2 + 2x}</mrow>
-	<mrow>\amp \phantom{)2x^4 - 7x^3 + 5x^2}-6x + 3</mrow>
-	<mrow>\amp \phantom{)2x^4 - 7x^3 + 5x^2}\underline{+6x - 3}</mrow>
-	<mrow>\amp \phantom{)2x^4 - 7x^3 + 5x^2 - 7x +}0</mrow>
-      </md>
-      <p>
+        <md>
+	  <mrow>\amp\phantom{)}2x^3 - 6x^2 + 2x - 6</mrow>
+	  <mrow>x - \frac{1}{2} \amp\overline{\smash{)}{2x^4 - 7x^3 + 5x^2 - 7x + 3}} </mrow>
+	  <mrow>\amp \underline{-2x^4 + x^3}</mrow>
+	  <mrow>\amp \phantom{)2x^4}-6x^3 + 5x^2</mrow>
+	  <mrow>\amp \phantom{)2x^4}\underline{+6x^3 - 3x^2}</mrow>
+	  <mrow>\amp \phantom{)2x^4 - 7x^3 +}2x^2 - 7x</mrow>
+	  <mrow>\amp \phantom{)2x^4 - 7x^3}\underline{-2x^2 + 2x}</mrow>
+	  <mrow>\amp \phantom{)2x^4 - 7x^3 + 5x^2}-6x + 3</mrow>
+	  <mrow>\amp \phantom{)2x^4 - 7x^3 + 5x^2}\underline{+6x - 3}</mrow>
+	  <mrow>\amp \phantom{)2x^4 - 7x^3 + 5x^2 - 7x +}0</mrow>
+	</md>
 	This allows us to write
 	<me>f(x) = \left(x - \frac{1}{2}\right)\left(2x^3 - 6x^2 + 2x - 6\right).</me>
       </p>
       <p>
 	Since <m>f(3) = 0</m> and <m>3 - 1/2 \neq 0</m>, we conclude that <m>x - 3</m> divides <m>2x^3 - 6x^2 + 2x - 6</m>.
-      </p>
-      <md>
-	<mrow>\amp\phantom{)}2x^2 + 2</mrow>
-	<mrow>x - 3 \amp\overline{\smash{)}{2x^3 - 6x^2 + 2x - 6}} </mrow>
-	<mrow>\amp \underline{-2x^3 + 6x^2}</mrow>
-	<mrow>\amp \phantom{)2x^3}0 + 2x - 6</mrow>
-	<mrow>\amp \phantom{)2x^3-}\underline{-2x + 6}</mrow>
-	<mrow>\amp \phantom{)2x^3 - 6x^2 + }0</mrow>
-      </md>
-      <p>
+	<md>
+	  <mrow>\amp\phantom{)}2x^2 + 2</mrow>
+	  <mrow>x - 3 \amp\overline{\smash{)}{2x^3 - 6x^2 + 2x - 6}} </mrow>
+	  <mrow>\amp \underline{-2x^3 + 6x^2}</mrow>
+	  <mrow>\amp \phantom{)2x^3}0 + 2x - 6</mrow>
+	  <mrow>\amp \phantom{)2x^3-}\underline{-2x + 6}</mrow>
+	  <mrow>\amp \phantom{)2x^3 - 6x^2 + }0</mrow>
+	</md>
 	This provides the factorization
+	<md>
+	  <mrow>f(x) \amp= \left(x - \frac{1}{2}\right)(x - 3)(2x^2 + 2)</mrow>
+	  <mrow>\amp = \left(x - \frac{1}{2}\right)(x - 3)(2)(x^2 + 1)</mrow>
+	  <mrow>\amp = 2\left(x - \frac{1}{2}\right)(x - 3)(x^2 + 1)</mrow>
+	  <mrow>\amp = (2x - 1)(x - 3)(x-i)(x+i).</mrow>
+	</md>
       </p>
-      <md>
-	<mrow>f(x) \amp= \left(x - \frac{1}{2}\right)(x - 3)(2x^2 + 2)</mrow>
-	<mrow>\amp = \left(x - \frac{1}{2}\right)(x - 3)(2)(x^2 + 1)</mrow>
-	<mrow>\amp = 2\left(x - \frac{1}{2}\right)(x - 3)(x^2 + 1)</mrow>
-	<mrow>\amp = (2x - 1)(x - 3)(x-i)(x+i).</mrow>
-      </md>
     </example>
   </subsection>
 

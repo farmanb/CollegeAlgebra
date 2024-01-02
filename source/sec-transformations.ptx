@@ -24,29 +24,31 @@
       
       <definition xml:id="def-vertical_translation">
 	<title>Vertical Translation</title>
-	<p>
-	  Let <m>c</m> be a positive number.
-	  We say the function <m>g(x)</m> is a <term>vertical translation</term>
-	  <idx>
-	    <h>Graph</h>
-	    <h>Tranformation</h>
-	    <h>Translation</h>
-	    <h>Vertical</h>
-	  </idx>
-	  of the function <m>f(x)</m> if <m>g(x) = f(x) \pm c</m>.
-	</p>
-	<ul>
-	  <li>
-	    <p>
-	      The graph of <m>g(x) = f(x) + c</m> is obtained by shifting the graph of <m>y = f(x)</m> up the <m>y</m>-axis by <m>c</m> units.
-	    </p>
-	  </li>
-	  <li>
-	    <p>
-	      The graph of <m>g(x) = f(x) - c</m> is obtained by shifting the graph of <m>y = f(x)</m> down the <m>y</m>-axis by <m>c</m>-units.
-	    </p>
-	  </li>
-	</ul>
+	<statement>
+	  <p>
+	    Let <m>c</m> be a positive number.
+	    We say the function <m>g(x)</m> is a <term>vertical translation</term>
+	    <idx>
+	      <h>Graph</h>
+	      <h>Tranformation</h>
+	      <h>Translation</h>
+	      <h>Vertical</h>
+	    </idx>
+	    of the function <m>f(x)</m> if <m>g(x) = f(x) \pm c</m>.
+	  </p>
+	  <ul>
+	    <li>
+	      <p>
+		The graph of <m>g(x) = f(x) + c</m> is obtained by shifting the graph of <m>y = f(x)</m> up the <m>y</m>-axis by <m>c</m> units.
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		The graph of <m>g(x) = f(x) - c</m> is obtained by shifting the graph of <m>y = f(x)</m> down the <m>y</m>-axis by <m>c</m>-units.
+	      </p>
+	    </li>
+	  </ul>
+	</statement>
       </definition>
       
       <example component="web">
@@ -101,29 +103,31 @@
 
       <definition xml:id="def-horizontal_translation">
 	<title>Horizontal Translation</title>
-	<p>
-	  Let <m>c</m> be a positive number.
-	  We say the function <m>g(x)</m> is a <term>horizontal translation</term>
-	  <idx>
-	    <h>Graph</h>
-	    <h>Tranformation</h>
-	    <h>Translation</h>
-	    <h>Horizontal</h>
-	  </idx>
-	  of the function <m>f(x)</m> if <m>g(x) = f(x \pm c)</m>.
-	</p>
-	<ul>
-	  <li>
-	    <p>
-	      The graph of <m>g(x) = f(x - c)</m> is obtained by shifting the graph of <m>y = f(x)</m> to the right along the <m>x</m>-axis by <m>c</m> units.
-	    </p>
-	  </li>
-	  <li>
-	    <p>
-	      The graph of <m>g(x) = f(x + c)</m> is obtained by shifting the graph of <m>y = f(x)</m> to the left along the <m>x</m>-axis by <m>c</m>-units.
-	    </p>
-	  </li>
-	</ul>
+	<statement>
+	  <p>
+	    Let <m>c</m> be a positive number.
+	    We say the function <m>g(x)</m> is a <term>horizontal translation</term>
+	    <idx>
+	      <h>Graph</h>
+	      <h>Tranformation</h>
+	      <h>Translation</h>
+	      <h>Horizontal</h>
+	    </idx>
+	    of the function <m>f(x)</m> if <m>g(x) = f(x \pm c)</m>.
+	  </p>
+	  <ul>
+	    <li>
+	      <p>
+		The graph of <m>g(x) = f(x - c)</m> is obtained by shifting the graph of <m>y = f(x)</m> to the right along the <m>x</m>-axis by <m>c</m> units.
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		The graph of <m>g(x) = f(x + c)</m> is obtained by shifting the graph of <m>y = f(x)</m> to the left along the <m>x</m>-axis by <m>c</m>-units.
+	      </p>
+	    </li>
+	  </ul>
+	</statement>
       </definition>
 
       <example component="web">
@@ -185,29 +189,31 @@
 
       <definition xml:id="def-vertical_scaling">
 	<title>Vertical Scaling</title>
-	<p>
-	  Let <m>c > 1</m> be a number.
-	  We say the function <m>g(x)</m> is a <term>vertical scaling</term>
-	  <idx>
-	    <h>Graph</h>
-	    <h>Tranformation</h>
-	    <h>Scaling</h>
-	    <h>Vertical</h>
-	  </idx>
-	  of the function <m>f(x)</m> if <m>g(x) = cf(x)</m> or <m>g = \frac{1}{c}f(x)</m>.
-	</p>
-	<ul>
-	  <li>
-	    <p>
-	      The graph of <m>g(x) = cf(x)</m> is obtained by stretching the graph of <m>y = f(x)</m> vertically by a factor of <m>c</m>.
-	    </p>
-	  </li>
-	  <li>
-	    <p>
-	      The graph of <m>g(x) = \frac{1}{c}f(x)</m> is obtained by compressing the graph of <m>y = f(x)</m> vertically by a factor of <m>c</m>.
-	    </p>
-	  </li>
-	</ul>
+	<statement>
+	  <p>
+	    Let <m>c > 1</m> be a number.
+	    We say the function <m>g(x)</m> is a <term>vertical scaling</term>
+	    <idx>
+	      <h>Graph</h>
+	      <h>Tranformation</h>
+	      <h>Scaling</h>
+	      <h>Vertical</h>
+	    </idx>
+	    of the function <m>f(x)</m> if <m>g(x) = cf(x)</m> or <m>g = \frac{1}{c}f(x)</m>.
+	  </p>
+	  <ul>
+	    <li>
+	      <p>
+		The graph of <m>g(x) = cf(x)</m> is obtained by stretching the graph of <m>y = f(x)</m> vertically by a factor of <m>c</m>.
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		The graph of <m>g(x) = \frac{1}{c}f(x)</m> is obtained by compressing the graph of <m>y = f(x)</m> vertically by a factor of <m>c</m>.
+	      </p>
+	    </li>
+	  </ul>
+	</statement>
       </definition>
 
       <example component="web">
@@ -262,27 +268,29 @@
 
       <definition xml:id="def-reflection">
 	<title>Reflection</title>
-	<p>
-	  We say the function <m>g(x)</m> is a <term>reflection</term>
-	  <idx>
-	    <h>Graph</h>
-	    <h>Tranformation</h>
-	    <h>Reflection</h>
-	  </idx>
-	  of <m>f(x)</m> if either <m>g(x) = -f(x)</m> or <m>g(x) = f(-x).</m>
-	</p>
-	<ul>
-	  <li>
-	    <p>
-	      The graph of <m>g(x) = -f(x)</m> is obtained by reflecting the graph of <m>y = f(x)</m> over the <m>x</m>-axis.
-	    </p>
-	  </li>
-	  <li>
-	    <p>
-	      The graph of <m>g(x) = f(-x)</m> is obtained by reflecting the graph of <m>y = f(x)</m> over the <m>y</m>-axis.
-	    </p>
-	  </li>
-	</ul>
+	<statement>
+	  <p>
+	    We say the function <m>g(x)</m> is a <term>reflection</term>
+	    <idx>
+	      <h>Graph</h>
+	      <h>Tranformation</h>
+	      <h>Reflection</h>
+	    </idx>
+	    of <m>f(x)</m> if either <m>g(x) = -f(x)</m> or <m>g(x) = f(-x).</m>
+	  </p>
+	  <ul>
+	    <li>
+	      <p>
+		The graph of <m>g(x) = -f(x)</m> is obtained by reflecting the graph of <m>y = f(x)</m> over the <m>x</m>-axis.
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		The graph of <m>g(x) = f(-x)</m> is obtained by reflecting the graph of <m>y = f(x)</m> over the <m>y</m>-axis.
+	      </p>
+	    </li>
+	  </ul>
+	</statement>
       </definition>
 
       <example component="web">
@@ -332,29 +340,31 @@
 
       <definition xml:id="def-horizontal_scaling">
 	<title>Horizontal Scaling</title>
-	<p>
-	  Let <m>c > 1</m> be a number.
-	  We say the function <m>g(x)</m> is a <term>horizontal scaling</term>
-	  <idx>
-	    <h>Graph</h>
-	    <h>Tranformation</h>
-	    <h>Scaling</h>
-	    <h>Horizontal</h>
-	  </idx>
-	  of the function <m>f(x)</m> if <m>g(x) = f(cx)</m> or <m>g(x) = f\left(\frac{1}{c}x\right)</m>.
-	</p>
-	<ul>
-	  <li>
-	    <p>
-	      The graph of <m>g(x) = f(cx)</m> is obtained by compressing the graph of <m>y = f(x)</m> horizontally by a factor of <m>c</m>.
-	    </p>
-	  </li>
-	  <li>
-	    <p>
-	      The graph of <m>g(x) = f\left(\frac{1}{c}x\right)</m> is obtained by stretching the graph of <m>y = f(x)</m> horizontally by a factor of <m>c</m>.
-	    </p>
-	  </li>
-	</ul>
+	<statement>
+	  <p>
+	    Let <m>c > 1</m> be a number.
+	    We say the function <m>g(x)</m> is a <term>horizontal scaling</term>
+	    <idx>
+	      <h>Graph</h>
+	      <h>Tranformation</h>
+	      <h>Scaling</h>
+	      <h>Horizontal</h>
+	    </idx>
+	    of the function <m>f(x)</m> if <m>g(x) = f(cx)</m> or <m>g(x) = f\left(\frac{1}{c}x\right)</m>.
+	  </p>
+	  <ul>
+	    <li>
+	      <p>
+		The graph of <m>g(x) = f(cx)</m> is obtained by compressing the graph of <m>y = f(x)</m> horizontally by a factor of <m>c</m>.
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		The graph of <m>g(x) = f\left(\frac{1}{c}x\right)</m> is obtained by stretching the graph of <m>y = f(x)</m> horizontally by a factor of <m>c</m>.
+	      </p>
+	    </li>
+	  </ul>
+	</statement>
       </definition>
 
       <example component="web">

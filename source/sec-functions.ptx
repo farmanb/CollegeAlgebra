@@ -26,66 +26,68 @@
   
   <definition xml:id="def-function">
     <title>Function</title>
-    <p>
-      Assume <m>A</m> and <m>B</m> are sets.
-      A <term>function from <m>A</m> to <m>B</m></term>,
-      <idx>
-	<h>Function</h>
-      </idx>
-      written <m>f \colon A \to B</m>,
-      <notation>
-	<usage>
-	  <m>f \colon A \to B</m>
-	</usage>
-	<description>Function from <m>A</m> to <m>B</m></description>
-      </notation>
-      is a rule that assigns to each element <m>x \in A</m> a unique element <m>f(x) \in B</m>.
-      <notation>
-	<usage>
-	  <m>f(x)</m>
-	</usage>
-	<description>Value of the function <m>f</m> at <m>x</m></description>
-      </notation>
-    </p>
-    <ul>
-      <li>
-	<p>
-	  The set <m>A</m> is the <term>domain</term>
-	  <idx>
-	    <h>Function</h>
-	    <h>Domain</h>
-	  </idx>
-	  of <m>f</m>.
-	  The domain of <m>f</m> is the set of all allowable input values to the function <m>f</m>.
-	</p>
-      </li>
-      <li>
-	<p>
-	  The set <m>B</m> is the <term>codomain</term>
-	  <idx>
-	    <h>Function</h>
-	    <h>Codomain</h>
-	  </idx>
-	  of <m>f</m>.
-	  The codomain of <m>f</m> is the set that contains all possible output values of <m>f</m>.
-	</p>
-      </li>
-      <li>
-	<p>
-	  The <term>range</term>
-	  <idx>
-	    <h>Function</h>
-	    <h>Range</h>
-	  </idx>
-	  of <m>f</m> is the set of all possible output values
-	  <me>f(A) = \left\{f(x) \;\middle\vert\; x \in A\right\}.</me>
-	  <notation>
-	    <usage><m>f(A)</m></usage>
-	    <description>Range of <m>f</m></description>
-	  </notation>
-	</p>
-      </li>
-    </ul>
+    <statement>
+      <p>
+	Assume <m>A</m> and <m>B</m> are sets.
+	A <term>function from <m>A</m> to <m>B</m></term>,
+	<idx>
+	  <h>Function</h>
+	</idx>
+	written <m>f \colon A \to B</m>,
+	<notation>
+	  <usage>
+	    <m>f \colon A \to B</m>
+	  </usage>
+	  <description>Function from <m>A</m> to <m>B</m></description>
+	</notation>
+	is a rule that assigns to each element <m>x \in A</m> a unique element <m>f(x) \in B</m>.
+	<notation>
+	  <usage>
+	    <m>f(x)</m>
+	  </usage>
+	  <description>Value of the function <m>f</m> at <m>x</m></description>
+	</notation>
+      </p>
+      <ul>
+	<li>
+	  <p>
+	    The set <m>A</m> is the <term>domain</term>
+	    <idx>
+	      <h>Function</h>
+	      <h>Domain</h>
+	    </idx>
+	    of <m>f</m>.
+	    The domain of <m>f</m> is the set of all allowable input values to the function <m>f</m>.
+	  </p>
+	</li>
+	<li>
+	  <p>
+	    The set <m>B</m> is the <term>codomain</term>
+	    <idx>
+	      <h>Function</h>
+	      <h>Codomain</h>
+	    </idx>
+	    of <m>f</m>.
+	    The codomain of <m>f</m> is the set that contains all possible output values of <m>f</m>.
+	  </p>
+	</li>
+	<li>
+	  <p>
+	    The <term>range</term>
+	    <idx>
+	      <h>Function</h>
+	      <h>Range</h>
+	    </idx>
+	    of <m>f</m> is the set of all possible output values
+	    <me>f(A) = \left\{f(x) \;\middle\vert\; x \in A\right\}.</me>
+	    <notation>
+	      <usage><m>f(A)</m></usage>
+	      <description>Range of <m>f</m></description>
+	    </notation>
+	  </p>
+	</li>
+      </ul>
+    </statement>
   </definition>
 
   <subsection>
@@ -262,24 +264,26 @@
     
     <definition>
       <title>Equality of Functions</title>
-      <p>
-	Two functions <m>f \colon A \to B</m> and <m>g \colon A \to B</m> are <term>equal</term>
-	<idx>
-	  <h>Function</h>
-	  <h>Equality</h>
-	</idx>
-	if for every <m>x \in A</m>, <m>f(x) = g(x)</m>.
-      </p>
-      <p>
-	We write <m>f = g</m>
-	<notation>
-	  <usage>
-	    <m>f=g</m>
-	  </usage>
-	  <description>Equality of functions</description>
-	</notation>
-	to indicate that <m>f</m> and <m>g</m> represent the same function.
-      </p>
+      <statement>
+	<p>
+	  Two functions <m>f \colon A \to B</m> and <m>g \colon A \to B</m> are <term>equal</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Equality</h>
+	  </idx>
+	  if for every <m>x \in A</m>, <m>f(x) = g(x)</m>.
+	</p>
+	<p>
+	  We write <m>f = g</m>
+	  <notation>
+	    <usage>
+	      <m>f=g</m>
+	    </usage>
+	    <description>Equality of functions</description>
+	  </notation>
+	  to indicate that <m>f</m> and <m>g</m> represent the same function.
+	</p>
+      </statement>
     </definition>
 
     <example component="web">
@@ -346,11 +350,13 @@
 
     <definition xml:id="def-graph_function">
       <title>Graph of a Function</title>
-      <p>
-	Assume <m>A \subseteq \R</m>.
-	The <term>graph</term> of a function <m>f \colon A \to \R</m> is the set of points
-	<me>\left\{(x, f(x))\;\middle\vert\; x \in A\right\} \subseteq \R^2</me>
-      </p>
+      <statement>
+	<p>
+	  Assume <m>A \subseteq \R</m>.
+	  The <term>graph</term> of a function <m>f \colon A \to \R</m> is the set of points
+	  <me>\left\{(x, f(x))\;\middle\vert\; x \in A\right\} \subseteq \R^2</me>
+	</p>
+      </statement>
     </definition>
 
     <p>

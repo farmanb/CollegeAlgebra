@@ -16,28 +16,30 @@
   
   <definition xml:id="def-log_base_a">
     <title>The Logarithm with Base <m>a</m></title>
-    <p>
-      Assume <m>a \neq 1</m> is a positive real number.
-      The <term>logarithm with base <m>a</m></term>,
-      <idx>
-	<h>Function</h>
-	<h>Logarithm</h>
-	<h>Base <m>a</m></h>
-      </idx>
-      is the function <m>\log_a \colon (0,\infty) \to \R</m>,
-      <notation>
-	<usage><m>\log_a</m></usage>
-	<description>The logarithm with base <m>a</m></description>
-      </notation>
-      defined by
-      <me>\log_a(x) = \frac{\ln(x)}{\ln(a)}.</me>
-    </p>
-    <p>
-      In particular, for every real number <m>x</m> and every positive real number <m>y</m>,
-      <me>\log_a \circ \Exp{a}(x) = \log_a(a^x) = x
-      \quad\text{and}\quad
-      \Exp{a} \circ \log_a(y) = a^{\log_a(y)} = y.</me>
-    </p>
+    <statement>
+      <p>
+	Assume <m>a \neq 1</m> is a positive real number.
+	The <term>logarithm with base <m>a</m></term>,
+	<idx>
+	  <h>Function</h>
+	  <h>Logarithm</h>
+	  <h>Base <m>a</m></h>
+	</idx>
+	is the function <m>\log_a \colon (0,\infty) \to \R</m>,
+	<notation>
+	  <usage><m>\log_a</m></usage>
+	  <description>The logarithm with base <m>a</m></description>
+	</notation>
+	defined by
+	<me>\log_a(x) = \frac{\ln(x)}{\ln(a)}.</me>
+      </p>
+      <p>
+	In particular, for every real number <m>x</m> and every positive real number <m>y</m>,
+	<me>\log_a \circ \Exp{a}(x) = \log_a(a^x) = x
+	\quad\text{and}\quad
+	\Exp{a} \circ \log_a(y) = a^{\log_a(y)} = y.</me>
+      </p>
+    </statement>
   </definition>
 
   <subsection>
