@@ -603,7 +603,7 @@
 	    <xi:include parse="text" href="tex/intersection_example.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The intervals <m>[0,2)</m> (top), <m>(1,3]</m> (middle), and <m>[0,2) \cap (1,3] (bottom)</m>.</caption>
+	<caption>The intervals <m>[0,2)</m> (top), <m>(1,3]</m> (middle), and <m>[0,2) \cap (1,3]</m> (bottom).</caption>
       </figure>
     </example>
     
@@ -659,7 +659,7 @@
 	    <xi:include parse="text" href="tex/union_example.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The intervals <m>[0,2)</m> (top), <m>(1,3]</m> (middle), and <m>[0,2) \cup (1,3])</m> (bottom).</caption>
+	<caption>The intervals <m>[0,2)</m> (top), <m>(1,3]</m> (middle), and <m>[0,2) \cup (1,3]</m> (bottom).</caption>
       </figure>
     </example>
   </subsection>
