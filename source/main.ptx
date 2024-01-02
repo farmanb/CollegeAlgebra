@@ -17,13 +17,8 @@
     <xi:include href="./ch-polynomial_functions.ptx"/>
     <xi:include href="./ch-combinations_functions.ptx"/>
     <xi:include href="./ch-transcendentals.ptx"/>
-    <!-- <xi:include href="./ch-linear.ptx" /> -->
-    <!-- <xi:include href="./ch-quadratic.ptx" /> -->
-    <!-- <xi:include href="./ch-equations.ptx" /> -->
 
     <!-- Include backmatter -->
-    <!-- <xi:include href="./backmatter.ptx" /> -->
     <xi:include href="./meta_backmatter.ptx" />
-
   </book>
 </pretext>
