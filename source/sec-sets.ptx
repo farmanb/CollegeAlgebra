@@ -5,14 +5,17 @@
 
   <introduction>
     <p>
-      Unlike the sciences, where knowledge is often derived from observation and experimentation <mdash/> a type of reasoning called <em>inductive</em> <mdash/> mathematical truth can <alert>only</alert> be derived from <em>deductive</em> reasoning.
-      All of mathematics is derived from a list of only nine statements that are assumed to be true called <term>axioms</term> <mdash/> the curious reader can find these statements in any resource on <url href="https://en.wikipedia.org/wiki/Zermelo–Fraenkel_set_theory">Zermelo-Fraenkel Set Theory</url>.
+      In the sciences, knowledge is often derived from experimentation in a process known as <em>inductive reasoning</em>.
+      While these methods may provide insight into a problem, inductive reasoning is <alert>not</alert> a valid method of producing mathematical truth.
+      Instead, mathematics produces new knowledge from known truths using logical inference in a process known as <em>deductive reasoning</em>.
+      In fact, all mathematical knowledge is derived from only <em>nine</em> statements that are assumed to be true <mdash/> called <term>axioms</term>.
+      These axioms and the truths derived from them are known as <url href="https://en.wikipedia.org/wiki/Zermelo–Fraenkel_set_theory">Zermelo-Fraenkel Set Theory</url>.
     </p>
 
     <p>
-      For this reason, sets and set operations are unavoidable in a careful treatment of mathematics.
-      However, this is <alert>not</alert> a course on the foundations of mathematics.
-      We present here only the rudiments of a set theory that includes only the pieces absolutely necessary for the development of the material relevant to basic algebra.
+      For this reason, sets and set operations are unavoidable in any careful treatment of mathematics.
+      While our treatment of algebra is careful, this is <alert>not</alert> meant a course on the foundations of mathematics.
+      We present here the rudiments of a set theory that includes only the pieces absolutely necessary for the development of the material relevant to basic algebra.
       We begin with the intuitive definition of a set.
     </p>
   </introduction>
