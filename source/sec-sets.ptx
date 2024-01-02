@@ -94,7 +94,7 @@
     <example component="web">
       <statement>
 	<p>
-	Express the set with elements <m>1</m>, <m>2</m>, <m>3</m>, and <m>4</m> in <xref ref="def-roster_notation" text="title"/>.
+	  Express the set with elements <m>1</m>, <m>2</m>, <m>3</m>, and <m>4</m> in <xref ref="def-roster_notation" text="title"/>.
 	</p>
       </statement>
       <solution>
@@ -124,8 +124,8 @@
 	  For example, we can conclude a Zebra is not an element of this set because a Zebra is not a number (let alone twice an integer).
 	</p>
 	<p>More practically, we can test whether <m>3 \in \E</m> by first writing
-	  <me>3 = 1 \times 3 = \frac{2}{2} \times 3 = 2\left(\frac{3}{2}\right).</me>
-	  Since <m>3/2 = 1.5</m> is <alert>not</alert> an integer, we conclude <m>3 \not \in E</m>.
+	<me>3 = 1 \times 3 = \frac{2}{2} \times 3 = 2\left(\frac{3}{2}\right).</me>
+	Since <m>3/2 = 1.5</m> is <alert>not</alert> an integer, we conclude <m>3 \not \in E</m>.
 	</p>
 	<p>
 	  Similarly, we can test whether <m>1354618 \in E</m> by writing
@@ -138,20 +138,18 @@
     <worksheet component="print">
       <title/>
       <page>
-	<example workspace="2in">
-	  <statement>
+	<example>
+	  <title>Roster and Set-Builder Notation</title>
+	  <task workspace="4in">
 	    <p>
 	      Express the set with elements <m>1</m>, <m>2</m>, <m>3</m>, and <m>4</m> in <xref ref="def-roster_notation" text="title"/>.
 	    </p>
-	  </statement>
-	</example>
-
-	<example workspace="2in">
-	  <statement>
+	  </task>
+	  <task workspace="4in">
 	    <p>
-	      Express the set that contains all positive, even integers in set-builder notation.
+	      Express the set that contains all positive, even integers in <xref ref="def-set_builder_notation" text="title"/>.
 	    </p>
-	  </statement>
+	  </task>
 	</example>
       </page>
     </worksheet>
@@ -304,7 +302,7 @@
 	We use the latter when it is important to emphasize that the two sets are not the same.
       </p>
     </example>
-      
+    
   </subsection>
   
   <subsection xml:id="subsec-special_sets">
@@ -578,35 +576,6 @@
       </p>
     </remark>
 
-    <example>
-      <p>
-	The intersection of the intervals <m>[0,2)</m> and <m>(1,3]</m> is the set
-	<md>
-	  <mrow>[1,2) \cap (1,3] \amp = \left\{x \in \R \;\middle\vert\; 1 \leq x \lt 2\ \text{and}\ 1 \lt x \leq 3\right\}</mrow>
-	  <mrow>\amp = \left\{x \in \R\;\middle\vert\; 1 \lt x \lt 2\right\}</mrow>
-	  <mrow>\amp = (1,2)</mrow>.
-	</md>
-      </p>
-      <figure>
-	<image>
-	  <latex-image>
-	    <xi:include parse="text" href="tex/left_open_0_2.tex"/>
-	  </latex-image>
-	</image>
-	<image>
-	  <latex-image>
-	    <xi:include parse="text" href="tex/right_open_1_3.tex"/>
-	  </latex-image>
-	</image>
-	<image>
-	  <latex-image>
-	    <xi:include parse="text" href="tex/intersection_example.tex"/>
-	  </latex-image>
-	</image>
-	<caption>The intervals <m>[0,2)</m> (top), <m>(1,3]</m> (middle), and <m>[0,2) \cap (1,3]</m> (bottom).</caption>
-      </figure>
-    </example>
-    
     <definition xml:id="def-union">
       <title>Union</title>
       <p>
@@ -634,33 +603,174 @@
       </p>
     </remark>
 
-    <example>
-      <p>
-	The union of the two intervals <m>[-1,2)</m> and <m>(1,3]</m> is the set
-	<md>
-	  <mrow>[0,2) \cup (1,3] \amp = \left\{x \in \R \;\middle\vert\; 0 \leq x \lt 2\ \text{or}\ 1 \lt x \leq 3\right\}</mrow>
-	  <mrow>\amp = 0 \leq x \leq 3</mrow>
-	  <mrow>\amp = [0,3]</mrow>.
-	</md>
-      </p>
-      <figure>
-	<image>
-	  <latex-image>
-	    <xi:include parse="text" href="tex/left_open_0_2.tex"/>
-	  </latex-image>
-	</image>
-	<image>
-	  <latex-image>
-	    <xi:include parse="text" href="tex/right_open_1_3.tex"/>
-	  </latex-image>
-	</image>
-	<image>
-	  <latex-image>
-	    <xi:include parse="text" href="tex/union_example.tex"/>
-	  </latex-image>
-	</image>
-	<caption>The intervals <m>[0,2)</m> (top), <m>(1,3]</m> (middle), and <m>[0,2) \cup (1,3]</m> (bottom).</caption>
-      </figure>
+    <worksheet component="print">
+      <title/>
+      <page>
+	<example>
+	  <title>Intersections and Unions of Intervals</title>
+	  <task workspace="4in">
+	    <p>
+	      Find the intersection of the intervals <m>[0,2)</m> and <m>(1,3]</m>.
+	      Sketch the intersection on a number line.
+	    </p>
+	  </task>
+	  <task workspace="4in">
+	    <p>
+	      Find the union of the two intervals <m>[-1,2)</m> and <m>(1,3]</m>.
+	      Sketch the union on a number line.
+	    </p>
+	  </task>
+	</example>
+      </page>
+    </worksheet>
+    
+    <example component="web">
+      <title>Intersection of Intervals</title>
+      <statement>
+	<p>
+	  Find the intersection of the intervals <m>[0,2)</m> and <m>(1,3]</m>.
+	  Sketch the intersection on a number line.
+	</p>
+      </statement>
+
+      <solution>
+	<p>
+	  The intersection of the intervals <m>[0,2)</m> and <m>(1,3]</m> is the set
+	  <md>
+	    <mrow>[1,2) \cap (1,3] \amp = \left\{x \in \R \;\middle\vert\; 1 \leq x \lt 2\ \text{and}\ 1 \lt x \leq 3\right\}</mrow>
+	    <mrow>\amp = \left\{x \in \R\;\middle\vert\; 1 \lt x \lt 2\right\}</mrow>
+	    <mrow>\amp = (1,2)</mrow>.
+	  </md>
+	</p>
+	<figure>
+	  <image>
+	    <latex-image>
+	      <xi:include parse="text" href="tex/left_open_0_2.tex"/>
+	    </latex-image>
+	  </image>
+	  <image>
+	    <latex-image>
+	      <xi:include parse="text" href="tex/right_open_1_3.tex"/>
+	    </latex-image>
+	  </image>
+	  <image>
+	    <latex-image>
+	      <xi:include parse="text" href="tex/intersection_example.tex"/>
+	    </latex-image>
+	  </image>
+	  <caption>The intervals <m>[0,2)</m> (top), <m>(1,3]</m> (middle), and <m>[0,2) \cap (1,3]</m> (bottom).</caption>
+	</figure>
+      </solution>
+    </example>
+    
+    <example component="web">
+      <title>Union of Intervals</title>
+
+      <statement>
+	<p>
+	  Find the union of the two intervals <m>[-1,2)</m> and <m>(1,3]</m>.
+	  Sketch the union on a number line.
+	</p>
+      </statement>
+
+      <solution>
+	<p>
+	  The union of the two intervals <m>[-1,2)</m> and <m>(1,3]</m> is the set
+	  <md>
+	    <mrow>[0,2) \cup (1,3] \amp = \left\{x \in \R \;\middle\vert\; 0 \leq x \lt 2\ \text{or}\ 1 \lt x \leq 3\right\}</mrow>
+	    <mrow>\amp = 0 \leq x \leq 3</mrow>
+	    <mrow>\amp = [0,3]</mrow>.
+	  </md>
+	</p>
+	<figure>
+	  <image>
+	    <latex-image>
+	      <xi:include parse="text" href="tex/left_open_0_2.tex"/>
+	    </latex-image>
+	  </image>
+	  <image>
+	    <latex-image>
+	      <xi:include parse="text" href="tex/right_open_1_3.tex"/>
+	    </latex-image>
+	  </image>
+	  <image>
+	    <latex-image>
+	      <xi:include parse="text" href="tex/union_example.tex"/>
+	    </latex-image>
+	  </image>
+	  <caption>The intervals <m>[0,2)</m> (top), <m>(1,3]</m> (middle), and <m>[0,2) \cup (1,3]</m> (bottom).</caption>
+	</figure>
+      </solution>
     </example>
   </subsection>
+
+  <worksheet>
+    <title>Working with Sets</title>
+    <objectives>
+      <ul>
+	<li>
+	  <p>
+	    Use roster and set-builder notation to express a set,
+	  </p>
+	</li>
+	<li>
+	  <p>
+	    Find the intersection and union of two sets.
+	  </p>
+	</li>
+      </ul>
+    </objectives>
+    <page>
+      <exercise workspace="0.5in">
+	<statement>
+	  <p>
+	    Write the real numbers that are at least as large as 2 and less than 5 in set notation.
+	  </p>
+	</statement>
+      </exercise>
+      <exercise workspace="0.5in">
+	<statement>
+	  <p>
+	    Write the integers that are at least as large as 2 and less than 5 in set notation.
+	  </p>
+	</statement>
+      </exercise>
+    </page>
+    <page>
+      <exercise workspace="0.5in">
+	<statement>
+	  <p>
+	    Write <m>[0,\infty) \cap (-\infty, 5)</m> in set notation.
+	    Graph the result on a number line.
+	  </p>
+	</statement>
+      </exercise>
+      <exercise workspace="0.5in">
+	<statement>
+	  <p>
+	    Write <m>[0,5) \cap (3, 5)</m> in set notation.
+	    Graph the result on a number line.
+	  </p>
+	</statement>
+      </exercise>
+    </page>
+    <page>
+      <exercise workspace="0.5in">
+	<statement>
+	  <p>
+	    Write <m>[0,5) \cup (3, 5)</m> in set notation.
+	    Graph the result on a number line.
+	  </p>
+	</statement>
+      </exercise>
+      <exercise workspace="0.5in">
+	<statement>
+	  <p>
+	    Write <m>[0,\infty) \cup (-\infty, 5)</m> in set notation.
+	    Graph the result on a number line.
+	  </p>
+	</statement>
+      </exercise>
+    </page>
+  </worksheet>
 </section>
