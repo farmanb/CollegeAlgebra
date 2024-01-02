@@ -123,7 +123,7 @@
 	  Note that we can use the conditions in the set-builder notation of <m>E</m> to test whether any <em>thing</em> is an element of <m>E</m>.
 	  For example, we can conclude a Zebra is not an element of this set because a Zebra is not a number (let alone twice an integer).
 	</p>
-	<p>More practically, we can test whether <m>3 \in \E</m> by first writing
+	<p>More practically, we can test whether <m>3 \in E</m> by first writing
 	<me>3 = 1 \times 3 = \frac{2}{2} \times 3 = 2\left(\frac{3}{2}\right).</me>
 	Since <m>3/2 = 1.5</m> is <alert>not</alert> an integer, we conclude <m>3 \not \in E</m>.
 	</p>
