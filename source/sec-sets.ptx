@@ -20,37 +20,40 @@
     </p>
   </introduction>
 
-  <definition xml:id="def-set">
-    <p>
-      A <term>set</term>
-      <idx>
-	<h>Set</h>
-      </idx>
-      is a collection of objects called <term>elements</term>
-      <idx>
-	<h>Set</h>
-	<h>Element</h>
-      </idx>
-      or <term>members</term>
-      <idx>
-	<h>Set</h>
-	<h>Member</h>
-      </idx>
-      of the set.
-      We specify that an object <m>x</m> is an element of the set <m>S</m> by writing <m>x \in S</m>
+  <subsection>
+    <title>Representations of Sets</title>
+
+    <definition xml:id="def-set">
       <notation>
 	<usage>
 	  <m>x \in S</m>
 	</usage>
 	<description>Membership operator</description>
       </notation>
-      and say "<m>x</m> is an element (or member) of <m>S</m>"
-    </p>
-  </definition>
-
-  <subsection>
-    <title>Representations of Sets</title>
-
+      
+      <statement>
+	<p>
+	  A <term>set</term>
+	  <idx>
+	    <h>Set</h>
+	  </idx>
+	  is a collection of objects called <term>elements</term>
+	  <idx>
+	    <h>Set</h>
+	    <h>Element</h>
+	  </idx>
+	  or <term>members</term>
+	  <idx>
+	    <h>Set</h>
+	    <h>Member</h>
+	  </idx>
+	  of the set.
+	  We specify that an object <m>x</m> is an element of the set <m>S</m> by writing <m>x \in S</m>
+	  and say "<m>x</m> is an element (or member) of <m>S</m>"
+	</p>
+      </statement>
+    </definition>
+    
     <p>
       Sets are effectively mathematical containers for <em>things</em>.
       While there is no restriction on what kinds of <em>things</em> we can place in a set, we will focus on sets that contain numbers.
@@ -59,14 +62,16 @@
     
     <definition xml:id="def-roster_notation">
       <title>Roster Notation</title>
-      <p>
-	<term>Roster notation</term>
-	<idx>
-	  <h>Set</h>
-	  <h>Roster Notation</h>
-	</idx>
-	specifies the elements of a set as a comma separated list surrounded by curly braces.
-      </p>
+      <statement>
+	<p>
+	  <term>Roster notation</term>
+	  <idx>
+	    <h>Set</h>
+	    <h>Roster Notation</h>
+	  </idx>
+	  specifies the elements of a set as a comma separated list surrounded by curly braces.
+	</p>
+      </statement>
     </definition>
 
     <p>
@@ -76,14 +81,16 @@
 
     <definition xml:id="def-set_builder_notation">
       <title>Set-Builder Notation</title>
-      <p>
-	<term>Set-builder notation</term>
-	<idx>
-	  <h>Set</h>
-	  <h>Set-Builder Notation</h>
-	</idx>
-	specifies the members of a set using a variable and condition for membership in the set.
-      </p>
+      <statement>
+	<p>
+	  <term>Set-builder notation</term>
+	  <idx>
+	    <h>Set</h>
+	    <h>Set-Builder Notation</h>
+	  </idx>
+	  specifies the members of a set using a variable and condition for membership in the set.
+	</p>
+      </statement>
     </definition>
 
     <p>
@@ -168,22 +175,24 @@
     </p>
     
     <definition xml:id="def-set_equality">
-      <p>
-	Let <m>A</m> and <m>B</m> be sets.
-	We say the sets <m>A</m> and <m>B</m> are <term>equal</term>
-	<idx>
-	  <h>Set</h>
-	  <h>Equal</h>
-	</idx>
-	and write <m>A = B</m>
-	<notation>
-	  <usage>
-	    <m>A = B</m>
-	  </usage>
-	  <description>Equality of sets</description>
-	</notation>
-	if <m>A</m> and <m>B</m> have the exact same elements.
-      </p>
+      <statement>
+	<p>
+	  Let <m>A</m> and <m>B</m> be sets.
+	  We say the sets <m>A</m> and <m>B</m> are <term>equal</term>
+	  <idx>
+	    <h>Set</h>
+	    <h>Equal</h>
+	  </idx>
+	  and write <m>A = B</m>
+	  <notation>
+	    <usage>
+	      <m>A = B</m>
+	    </usage>
+	    <description>Equality of sets</description>
+	  </notation>
+	  if <m>A</m> and <m>B</m> have the exact same elements.
+	</p>
+      </statement>
     </definition>
 
     <example>
@@ -216,22 +225,24 @@
     </p>
     <definition xml:id="def-subset">
       <title>Subset</title>
-      <p>
-	Let <m>A</m> and <m>B</m> be sets.
-	We say that <m>A</m> is a <term>subset</term>
-	<idx>
-	  <h>Set</h>
-	  <h>Subset</h>
-	</idx>
-	of <m>B</m> and write <m>A \subseteq B</m>
-	<notation>
-	  <usage>
-	    <m>A \subseteq B</m>
-	  </usage>
-	  <description>Subset operator</description>
-	</notation>
-	if every element of <m>A</m> is also an element of <m>B</m>.
-      </p>
+      <statement>
+	<p>
+	  Let <m>A</m> and <m>B</m> be sets.
+	  We say that <m>A</m> is a <term>subset</term>
+	  <idx>
+	    <h>Set</h>
+	    <h>Subset</h>
+	  </idx>
+	  of <m>B</m> and write <m>A \subseteq B</m>
+	  <notation>
+	    <usage>
+	      <m>A \subseteq B</m>
+	    </usage>
+	    <description>Subset operator</description>
+	  </notation>
+	  if every element of <m>A</m> is also an element of <m>B</m>.
+	</p>
+      </statement>
     </definition>
 
     <remark>
@@ -276,23 +287,25 @@
 
     <definition xml:id="def-proper_subset">
       <title>Proper Subset</title>
-      <p>
-	Let <m>A</m> and <m>B</m> be sets.
-	We say that <m>A</m> is a <term>proper subset</term>
-	<idx>
-	  <h>Set</h>
-	  <h>Subset</h>
-	  <h>Proper</h>
-	</idx>
-	of <m>B</m> and write <m>A \subset B</m>
-	<notation>
-	  <usage>
-	    <m>A \subset B</m>
-	  </usage>
-	  <description>Proper subset operator</description>
-	</notation>
-	if every element of <m>A</m> is also an element of <m>B</m> and <m>A \neq B</m>.
-      </p>
+      <statement>
+	<p>
+	  Let <m>A</m> and <m>B</m> be sets.
+	  We say that <m>A</m> is a <term>proper subset</term>
+	  <idx>
+	    <h>Set</h>
+	    <h>Subset</h>
+	    <h>Proper</h>
+	  </idx>
+	  of <m>B</m> and write <m>A \subset B</m>
+	  <notation>
+	    <usage>
+	      <m>A \subset B</m>
+	    </usage>
+	    <description>Proper subset operator</description>
+	  </notation>
+	  if every element of <m>A</m> is also an element of <m>B</m> and <m>A \neq B</m>.
+	</p>
+      </statement>
     </definition>
 
     <example>
@@ -307,29 +320,29 @@
   
   <subsection xml:id="subsec-special_sets">
     <title>Special Sets</title>
-    <introduction>
-      <p>
-	Certain sets appear so frequently that mathematicians use an agreed upon symbol to refer to the set.
-	We collect a list of these sets below.
-      </p>
-    </introduction>
+    <p>
+      Certain sets appear so frequently that mathematicians use an agreed upon symbol to refer to the set.
+      We collect a list of these sets below.
+    </p>
 
     <definition xml:id="def-empty_set">
       <title>The Empty Set</title>
-      <p>
-	The <term>empty set</term>
-	<idx>
-	  <h>Set</h>
-	  <h>Empty</h>
-	</idx>
-	is the set with no elements, <m>\emptyset</m>.
-	<notation>
-	  <usage>
-	    <m>\emptyset</m>
-	  </usage>
-	  <description>The empty set</description>
-	</notation>
-      </p>
+      <statement>
+	<p>
+	  The <term>empty set</term>
+	  <idx>
+	    <h>Set</h>
+	    <h>Empty</h>
+	  </idx>
+	  is the set with no elements, <m>\emptyset</m>.
+	  <notation>
+	    <usage>
+	      <m>\emptyset</m>
+	    </usage>
+	    <description>The empty set</description>
+	  </notation>
+	</p>
+      </statement>
     </definition>
 
     <remark>
@@ -340,69 +353,85 @@
     
     <definition xml:id="def-naturals">
       <title>The Natural Numbers</title>
-      The set of <term>natural numbers</term>
-      <idx>
-	<h>Set</h>
-	<h>Natural Numbers</h>
-      </idx>
-      is the set with elements all positive integers,
-      <me>\N = \left\{1, 2, 3, 4, \ldots\right\}.</me>
-      <notation>
-	<usage>
-	  <m>\N</m>
-	</usage>
-	<description>The set of natural numbers</description>
-      </notation>
+      <statement>
+	<p>
+	  The set of <term>natural numbers</term>
+	  <idx>
+	    <h>Set</h>
+	    <h>Natural Numbers</h>
+	  </idx>
+	  is the set with elements all positive integers,
+	  <me>\N = \left\{1, 2, 3, 4, \ldots\right\}.</me>
+	  <notation>
+	    <usage>
+	      <m>\N</m>
+	    </usage>
+	    <description>The set of natural numbers</description>
+	  </notation>
+	</p>
+      </statement>
     </definition>
 
     <definition xml:id="def-integers">
       <title>The Integers</title>
-      The set of <term>integers</term>
-      <idx>
-	<h>Set</h>
-	<h>Integers</h>
-      </idx>
-      is the set with elements all integers,
-      <me>\Z = \left\{\ldots, -4,-3,-2, -1, 0, 1, 2, 3, 4, \ldots\right\}.</me>
-      <notation>
-	<usage>
-	  <m>\Z</m>
-	</usage>
-	<description>The set of integers</description>
-      </notation>
+      <statement>
+	<p>
+	  The set of <term>integers</term>
+	  <idx>
+	    <h>Set</h>
+	    <h>Integers</h>
+	  </idx>
+	  is the set with elements all integers,
+	  <me>\Z = \left\{\ldots, -4,-3,-2, -1, 0, 1, 2, 3, 4, \ldots\right\}.</me>
+	  <notation>
+	    <usage>
+	      <m>\Z</m>
+	    </usage>
+	    <description>The set of integers</description>
+	  </notation>
+	</p>
+      </statement>
     </definition>
 
     <definition xml:id="def-rationals">
       <title>The Rational Numbers</title>
-      The set of <term>rational numbers</term>
-      <idx>
-	<h>Set</h>
-	<h>Rational Numbers</h>
-      </idx>
-      is the set with elements all rational numbers,
-      <me>\Q = \left\{\frac{a}{b} \;\middle\vert\; a \in \Z,\, b \in \Z,\, b \neq 0\right\}.</me>
-      <notation>
-	<usage>
-	  <m>\Q</m>
-	</usage>
-	<description>The set of rational numbers</description>
-      </notation>
+      <statement>
+	<p>
+	  The set of <term>rational numbers</term>
+	  <idx>
+	    <h>Set</h>
+	    <h>Rational Numbers</h>
+	  </idx>
+	  is the set with elements all rational numbers,
+	  <me>\Q = \left\{\frac{a}{b} \;\middle\vert\; a \in \Z,\, b \in \Z,\, b \neq 0\right\}.</me>
+	  <notation>
+	    <usage>
+	      <m>\Q</m>
+	    </usage>
+	    <description>The set of rational numbers</description>
+	  </notation>
+	</p>
+      </statement>
     </definition>
 
     <definition xml:id="def-reals">
       <title>The Real Numbers</title>
-      The set of <term>real numbers</term>
-      <idx>
-	<h>Set</h>
-	<h>Real Numbers</h>
-      </idx>
-      is the set with elements all real numbers, <m>\R</m>.
-      <notation>
-	<usage>
-	  <m>\R</m>
-	</usage>
-	<description>The set of real numbers.</description>
-      </notation>
+      <statement>
+	<p>
+	  The set of <term>real numbers</term>
+	  <idx>
+	    <h>Set</h>
+	    <h>Real Numbers</h>
+	  </idx>
+	  is the set with elements all real numbers, <m>\R</m>.
+	  <notation>
+	    <usage>
+	      <m>\R</m>
+	    </usage>
+	    <description>The set of real numbers.</description>
+	  </notation>
+	</p>
+      </statement>
     </definition>
 
     <p>
@@ -429,145 +458,150 @@
     </p>
   </subsection>
   
-  <subsubsection>
+  <subsection>
     <title>Intervals</title>
-    <introduction>
-      <p>
-	A particularly special class of subsets of <m>\R</m> are the <em>intervals</em>.
-	These sets arise frequently, so it is important to specify the notation and a graphical representation for each one.
-      </p>
-    </introduction>
+    <p>
+      A particularly special class of subsets of <m>\R</m> are the <em>intervals</em>.
+      These sets arise frequently, so it is important to specify the notation and a graphical representation for each one.
+    </p>
 
     <definition xml:id="def-interval-open">
       <title>Open Interval</title>
-      <p>
-	Let <m>a</m> and <m>b</m> be real numbers and assume that <m>a \lt b</m>.
-	An <term>open interval</term>
-	<idx>
-	  <h>Set</h>
-	  <h>Interval</h>
-	  <h>Open</h>
-	</idx>
-	is a set that takes one of the following forms.
-	<md>
-	  <mrow>(a,b) \amp= \left\{x \in \R \;\middle\vert\; a \lt x \lt b\right\},</mrow>
-	  <mrow>(a, \infty) \amp = \left\{x \in \R \;\middle\vert\; a \lt x \right\},</mrow>
-	  <mrow>(-\infty, b) \amp = \left\{x \in \R \;\middle\vert\; x \lt b\right\},\, \text{or}</mrow>
-	  <mrow>(-\infty, \infty) \amp= \R.</mrow>
-	</md>
-      </p>
-      <figure xml:id="fig-interval-open">
-	<image xml:id="img-interval-open">
-	  <latex-image>
-	    <xi:include parse="text" href="tex/interval-open.tex"/>
-	  </latex-image>
-	</image>
-	<image xml:id="img-interval-left_open_ray">
-	  <latex-image>
-	    <xi:include parse="text" href="tex/interval-left_open_ray.tex"/>
-	  </latex-image>
-	</image>
-	<image xml:id="img-interval-right_open_ray">
-	  <latex-image>
-	    <xi:include parse="text" href="tex/interval-right_open_ray.tex"/>
-	  </latex-image>
-	</image>
-	<caption>The open intervals <m>(a,b)</m> (top), <m>(a,\infty)</m> (middle), and <m>(-\infty, b)</m> (bottom).</caption>
-      </figure>
+      <statement>
+	<p>
+	  Let <m>a</m> and <m>b</m> be real numbers and assume that <m>a \lt b</m>.
+	  An <term>open interval</term>
+	  <idx>
+	    <h>Set</h>
+	    <h>Interval</h>
+	    <h>Open</h>
+	  </idx>
+	  is a set that takes one of the following forms.
+	  <md>
+	    <mrow>(a,b) \amp= \left\{x \in \R \;\middle\vert\; a \lt x \lt b\right\},</mrow>
+	    <mrow>(a, \infty) \amp = \left\{x \in \R \;\middle\vert\; a \lt x \right\},</mrow>
+	    <mrow>(-\infty, b) \amp = \left\{x \in \R \;\middle\vert\; x \lt b\right\},\, \text{or}</mrow>
+	    <mrow>(-\infty, \infty) \amp= \R.</mrow>
+	  </md>
+	</p>
+      </statement>
     </definition>
+
+    <figure xml:id="fig-interval-open">
+      <image xml:id="img-interval-open">
+	<latex-image>
+	  <xi:include parse="text" href="tex/interval-open.tex"/>
+	</latex-image>
+      </image>
+      <image xml:id="img-interval-left_open_ray">
+	<latex-image>
+	  <xi:include parse="text" href="tex/interval-left_open_ray.tex"/>
+	</latex-image>
+      </image>
+      <image xml:id="img-interval-right_open_ray">
+	<latex-image>
+	  <xi:include parse="text" href="tex/interval-right_open_ray.tex"/>
+	</latex-image>
+      </image>
+      <caption>The open intervals <m>(a,b)</m> (top), <m>(a,\infty)</m> (middle), and <m>(-\infty, b)</m> (bottom).</caption>
+    </figure>
 
     <definition xml:id="def-interval-closed">
       <title>Closed Interval</title>
-      <p>
-	Let <m>a</m> and <m>b</m> be real numbers and assume that <m>a \lt b</m>.
-	A <term>closed interval</term>
-	<idx>
-	  <h>Set</h>
-	  <h>Interval</h>
-	  <h>Closed</h>
-	</idx>
-	is a set that takes one of the following forms
-	<md>
-	  <mrow>[a,b] \amp= \left\{x \in \R \;\middle\vert\; a \leq x \leq b\right\},</mrow>
-	  <mrow>[a, \infty) \amp = \left\{x \in \R ;\middle\vert\; a \leq x\right\},\, \text{or}</mrow>
-	  <mrow>(-\infty, b] \amp = \left\{x \in \R \;\middle\vert\; x \leq b\right\}.</mrow>
-	  <mrow>(-\infty, \infty) \amp = \R.</mrow>
-	</md>
-      </p>
-      <figure xml:id="fig-interval-closed">
-	<image xml:id="img-interval-closed">
-	  <latex-image>
-	    <xi:include parse="text" href="tex/interval-closed.tex"/>
-	  </latex-image>
-	</image>
-	<image xml:id="img-interval-left_closed_ray">
-	  <latex-image>
-	    <xi:include parse="text" href="tex/interval-left_closed_ray.tex"/>
-	  </latex-image>
-	</image>
-	<image xml:id="img-interval-right_closed_ray">
-	  <latex-image>
-	    <xi:include parse="text" href="tex/interval-right_closed_ray.tex"/>
-	  </latex-image>
-	</image>
-	<caption>The closed intervals <m>[a,b]</m> (top), <m>[a,\infty)</m> (middle), and <m>(-\infty,b]</m> (bottom).</caption>
-      </figure>
+      <statement>
+	<p>
+	  Let <m>a</m> and <m>b</m> be real numbers and assume that <m>a \lt b</m>.
+	  A <term>closed interval</term>
+	  <idx>
+	    <h>Set</h>
+	    <h>Interval</h>
+	    <h>Closed</h>
+	  </idx>
+	  is a set that takes one of the following forms
+	  <md>
+	    <mrow>[a,b] \amp= \left\{x \in \R \;\middle\vert\; a \leq x \leq b\right\},</mrow>
+	    <mrow>[a, \infty) \amp = \left\{x \in \R ;\middle\vert\; a \leq x\right\},\, \text{or}</mrow>
+	    <mrow>(-\infty, b] \amp = \left\{x \in \R \;\middle\vert\; x \leq b\right\}.</mrow>
+	    <mrow>(-\infty, \infty) \amp = \R.</mrow>
+	  </md>
+	</p>
+      </statement>
     </definition>
+
+    <figure xml:id="fig-interval-closed">
+      <image xml:id="img-interval-closed">
+	<latex-image>
+	  <xi:include parse="text" href="tex/interval-closed.tex"/>
+	</latex-image>
+      </image>
+      <image xml:id="img-interval-left_closed_ray">
+	<latex-image>
+	  <xi:include parse="text" href="tex/interval-left_closed_ray.tex"/>
+	</latex-image>
+      </image>
+      <image xml:id="img-interval-right_closed_ray">
+	<latex-image>
+	  <xi:include parse="text" href="tex/interval-right_closed_ray.tex"/>
+	</latex-image>
+      </image>
+      <caption>The closed intervals <m>[a,b]</m> (top), <m>[a,\infty)</m> (middle), and <m>(-\infty,b]</m> (bottom).</caption>
+    </figure>
 
     <definition xml:id="def-interval-half-open">
       <title>Half-Open Interval</title>
-      <p>
-	Let <m>a</m> and <m>b</m> be real numbers and assume that <m>a \lt b</m>.
-	A <term>half-open interval</term>
-	<idx>
-	  <h>Set</h>
-	  <h>Interval</h>
-	  <h>Half-Open</h>
-	</idx>
-	from <m>a</m> to <m>b</m> takes one of the following forms.
-	<md>
-	  <mrow>(a,b] \amp= \left\{x \in \R \;\middle\vert\; a \lt x \leq b\right\},</mrow>
-	  <mrow>[a,b) \amp= \left\{x \in \R \;\middle\vert\; a \leq x \lt b\right\},</mrow>
-	</md>
-      </p>
-      <figure xml:id="fig-interval-half_open">
-	<image xml:id="img-interval-half_open-left">
-	  <latex-image>
-	    <xi:include parse="text" href="tex/interval-half_open-left.tex"/>
-	  </latex-image>
-	</image>
-	<image xml:id="img-interval-half_open-right">
-	  <latex-image>
-	    <xi:include parse="text" href="tex/interval-half_open-right.tex"/>
-	  </latex-image>
-	</image>
-	<caption>The half-open intervals <m>(a,b]</m> (top) and <m>[a,b)</m> (bottom).</caption>
-      </figure>
+      <statement>
+	<p>
+	  Let <m>a</m> and <m>b</m> be real numbers and assume that <m>a \lt b</m>.
+	  A <term>half-open interval</term>
+	  <idx>
+	    <h>Set</h>
+	    <h>Interval</h>
+	    <h>Half-Open</h>
+	  </idx>
+	  from <m>a</m> to <m>b</m> takes one of the following forms.
+	  <md>
+	    <mrow>(a,b] \amp= \left\{x \in \R \;\middle\vert\; a \lt x \leq b\right\},</mrow>
+	    <mrow>[a,b) \amp= \left\{x \in \R \;\middle\vert\; a \leq x \lt b\right\},</mrow>
+	  </md>
+	</p>
+      </statement>
     </definition>
-  </subsubsection>
 
-
+    <figure xml:id="fig-interval-half_open">
+      <image xml:id="img-interval-half_open-left">
+	<latex-image>
+	  <xi:include parse="text" href="tex/interval-half_open-left.tex"/>
+	</latex-image>
+      </image>
+      <image xml:id="img-interval-half_open-right">
+	<latex-image>
+	  <xi:include parse="text" href="tex/interval-half_open-right.tex"/>
+	</latex-image>
+      </image>
+      <caption>The half-open intervals <m>(a,b]</m> (top) and <m>[a,b)</m> (bottom).</caption>
+    </figure>
+  </subsection>
   
   <subsection>
     <title>Basic Set Operations</title>
-    <introduction>
-      <p>
-	There are two common operations that we will frequently need to perform on sets.
-      </p>
-    </introduction>
-
+    <p>
+      There are two common operations that we will frequently need to perform on sets.
+    </p>
+    
     <definition xml:id="def-intersection">
       <title>Intersection</title>
-      <p>
-	Let <m>A</m> and <m>B</m> be sets.
-	The <term>intersection</term>
-	<idx>
-	  <h>Set</h>
-	  <h>Intersection</h>
-	</idx>
-	of <m>A</m> and <m>B</m> is the set
-	<me>A \cap B = \left\{x \;\middle\vert\; x \in A\ \text{and}\ x \in B\right\}.</me>
-      </p>
+      <statement>
+	<p>
+	  Let <m>A</m> and <m>B</m> be sets.
+	  The <term>intersection</term>
+	  <idx>
+	    <h>Set</h>
+	    <h>Intersection</h>
+	  </idx>
+	  of <m>A</m> and <m>B</m> is the set
+	  <me>A \cap B = \left\{x \;\middle\vert\; x \in A\ \text{and}\ x \in B\right\}.</me>
+	</p>
+      </statement>
     </definition>
 
     <remark>
@@ -578,16 +612,18 @@
 
     <definition xml:id="def-union">
       <title>Union</title>
-      <p>
-	Let <m>A</m> and <m>B</m> be sets.
-	The <term>union</term>
-	<idx>
-	  <h>Set</h>
-	  <h>Union</h>
-	</idx>
-	of <m>A</m> and <m>B</m> is the set
-	<me>A \cup B = \left\{x \;\middle\vert\; x \in A\ \text{or}\ x \in B\right\}.</me>
-      </p>
+      <statement>
+	<p>
+	  Let <m>A</m> and <m>B</m> be sets.
+	  The <term>union</term>
+	  <idx>
+	    <h>Set</h>
+	    <h>Union</h>
+	  </idx>
+	  of <m>A</m> and <m>B</m> is the set
+	  <me>A \cup B = \left\{x \;\middle\vert\; x \in A\ \text{or}\ x \in B\right\}.</me>
+	</p>
+      </statement>
     </definition>
 
     <remark>
