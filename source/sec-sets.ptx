@@ -206,7 +206,7 @@
     
     <example>
       <p>
-	The sets <m>\{1,1,1,\}</m> and <m>\{1\}</m> are equal.
+	The sets <m>\{1,1,1,1\}</m> and <m>\{1\}</m> are equal.
       </p>
     </example>
 
@@ -250,7 +250,10 @@
     </example>
 
     <p>
-      A very nice property of numbers is that any two numbers <m>x</m> and <m>y</m>, one of <m>x \leq y</m> and <m>y \leq x</m> <alert>must</alert> be true.
+      A very nice property of numbers is that any two numbers, <m>x</m> and <m>y</m>, <alert>must</alert> satisfy
+      <me>x \leq y
+      \quad\text{or}\quad
+      y \leq x.</me>
       Unfortunately, this is not the case for sets.
       It may be the case that two sets <m>A</m> and <m>B</m> satisfy <m>A \not \subseteq B</m> and <m>B \not \subseteq A</m>.
       We call such sets <term>incomparable</term>
@@ -267,10 +270,10 @@
     </example>
 
     <p>
-      Finally, we note that in some instances we want to exclude the possibility that two objects are the same in an order relationship.
+      Finally, we note that in some instances we may wish to exclude the possibility that two objects are the same in an order relationship.
       With numbers, we use the <m>\lt</m> symbol to indicate that one number is <em>strictly</em> smaller than the other, such as
       <me>1 \lt 2 \quad\text{or}\quad 7 \lt 1125.</me>
-      There is a strongly analogous notational change if we want to emphasize that the two sets are not the same.
+      There is a strongly analogous notational change if we want to emphasize that one set is a subset of another, but the two sets are not the same.
     </p>
 
     <definition xml:id="def-proper_subset">
@@ -433,7 +436,7 @@
     <introduction>
       <p>
 	A particularly special class of subsets of <m>\R</m> are the <em>intervals</em>.
-	These sets arise frequently, so it is important to specify the notation and a graphic representation for each one.
+	These sets arise frequently, so it is important to specify the notation and a graphical representation for each one.
       </p>
     </introduction>
 
@@ -600,7 +603,7 @@
 	    <xi:include parse="text" href="tex/intersection_example.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The intervals <m>[0,2)</m> (top), <m>(1,3]</m> (middle), and <m>[0,2) \cap (1,3]) (bottom)</m>.</caption>
+	<caption>The intervals <m>[0,2)</m> (top), <m>(1,3]</m> (middle), and <m>[0,2) \cap (1,3] (bottom)</m>.</caption>
       </figure>
     </example>
     
