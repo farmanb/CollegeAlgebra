@@ -835,7 +835,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.6",
   "title": "Circles",
-  "body": " Circles               In this section, we study circles in the Cartesian plane.    The circle   Circle  with radius centered at consists of all points in the Cartesian plane units away from as depicted in .     The circle of radius centered at .      To find the equation of the circle with radius and center we use . A point is on this circle if the distance between and is exactly : To make this simpler, we square each side of the equation.   The Standard Form of a Circle   The standard form of a circle   Equation  Circle  Standard Form  with radius and center is       A diameter   Circle  Diameter  of a circle is a line that connects two points on the circle through the center. The length of a diameter of a circle of radius is , and the midpoint of the diameter is the center of the circle.     A diameter of the circle of radius centered at .                                                   Working with Circles       Use the standard form of a circle to identify the center and radius.  Use the standard form of a circle to produce a graph.     Write down the equation of the circle of radius centered at .  Find the center and radius of the circle Sketch a graph of the equation.  Find the radius of the circle with center that passes through the point . Write the equation of this circle in standard form. Sketch a graph of the circle.        The endpoints of a diameter of a circle are and as in . Write the equation for this circle in standard form.          "
+  "body": " Circles  In this section, we study circles in the Cartesian plane.    The circle   Circle  with radius centered at consists of all points in the Cartesian plane units away from as depicted in .     The circle of radius centered at .      To find the equation of the circle with radius and center we use . A point is on this circle if the distance between and is exactly : To make this simpler, we square each side of the equation.   The Standard Form of a Circle   The standard form of a circle   Equation  Circle  Standard Form  with radius and center is       A diameter   Circle  Diameter  of a circle is a line that connects two points on the circle through the center. The length of a diameter of a circle of radius is , and the midpoint of the diameter is the center of the circle.     A diameter of the circle of radius centered at .       Working with Circles       Use the standard form of a circle to identify the center and radius.  Use the standard form of a circle to produce a graph.     Write down the equation of the circle of radius centered at .  Find the center and radius of the circle Sketch a graph of the equation.  Find the radius of the circle with center that passes through the point . Write the equation of this circle in standard form. Sketch a graph of the circle.        The endpoints of a diameter of a circle are and as in . Write the equation for this circle in standard form.          "
 },
 {
   "id": "sec-circles-3",
@@ -2140,7 +2140,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.6",
   "title": "Quadratic Functions",
-  "body": " Quadratic Functions             In this section, we study polynomial functions of degree 2. These polynomial functions are often called quadratic functions .    Vertex Form   Quadratic Function   A function is quadratic   Function  Quadratic  if it has the form where , , and are numbers, and .    Just as with lines, quadratic functions are easier to understand through visualizations. The simplest quadratic function to understand is . We call the graph of a parabola .  Graph  Parabola  The point is called the vertex .  Graph  Parabola  Vertex    As we have already seen in , the graph of this function is symmetric about the -axis, which is the vertical line through the vertex. While general quadratics are slightly more complicated, we can use the properties of to graph the class of quadratics in the following form.   The Vertex Form of a Quadratic   A quadratic function, , is in vertex form   Function  Quadratic  Vertex Form  if there are numbers and such that     Using the methods of , we can graph quadratics in this form by following the steps below.   Graphing Quadratic Functions in Vertex Form   To graph of the quadratic function    Translate the graph of horizontally by units.   If , then the translation is to the right.    If , then the translation is to the left.       Scale the graph of by .   If , then the graph is stretched.    If , then the graph is compressed.       If , reflect the graph of over the -axis.    Translate the graph of vertically by units.   If , then the translation is down.    If , then the translation is up.            Graph the function .    Following , we perform the following operations on the graph of the function .  Translate the graph of to the left by 1 to obtain the graph of .  Stretch the graph of by a factor of 2 to obtain the graph of .  Reflect the graph of across the -axis to obtain the graph of .  Translate the graph of up by 1 to obtain the graph of .    These operations are shown below.   The transformations used to graph .     Translate the graph of to the left by       Stretch the graph of by a factor of         Reflect the graph of across the -axis       Translate the graph of up by           If we follow the vertex, we can see the first operation moves the point to . Since the point lies on the -axis, the second and third operation do not move the point . The fourth operation moves the point to the point . Since these operations preserve the general shape of the graph, a quadratic function in the form is a parabola with vertex at . Hence the reason for the name vertex form .  Similarly, if we follow the line of symmetry for , then we can see the first operation moves the vertical line to the vertical line . The following three operations do not change the vertical line, so the graph of is symmetric about the vertical line .  Finally, we observe the third operation may change the direction in which the parabola opens.    The graph of a parabola is    concave up   Function  Quadratic  Concave Up  if the parabola opens upwards like .     concave down   Function  Quadratic  Concave Down  if the parabola opens downwards like .       For quadratics in vertex form , we can see that is concave up whenever and concave down whenever .    Completing the Square  Surprisingly, every quadratic function can be placed into vertex form. Paired with the observations above, this tells us the graph of every quadratic function is a parabola. Placing a general quadratic function into vertex form will require the method of completing the square.  Remember that when we multiply two binomials, we must distribute. We can remember how to distribute using the mnemonic FOIL: F irst, O uter, I nner, L ast:   Multiplying binomials using the FOIL method.    If we use this method to multiply a binomial by itself, then we find the useful formula We call a quadratic function of the form a perfect square .  Perfect Square    Given a quadratic equation , we can use the formula to complete the square   Complete the Square  as follows.   Completing the Square   To complete the square with the quadratic function   Factor an from the first two terms to get   Add and subtract inside the parentheses to get   Factor the first three terms inside the parentheses as a perfect square   Distribute the through the sum            The number is the -coordinate of the vertex, and the number is the -coordinate of the vertex.   The Vertex Formula   Let be a quadratic function. The -coordinate of the vertex is and the -coordinate of the vertex is   As an ordered pair, the vertex of the graph of occurs at      Using , the vertex form of the quadratic function is      Find the vertex form of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function       Find the vertex of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function is       The Quadratic Formula  In order to accurately graph a quadratic function , it is necessary to identify the -intercepts for the function. A point in the Cartesian plane is an for this function if This reduces the geometric problem of finding the -intercepts of a quadratic to the algebraic problem finding solutions to equations.    An equation of the form is called a quadratic equation   Equation  Quadratic      To find the solutions to the quadratic equation , we use to write and solve this equation for    It is important to note that are real numbers only when is a non-negative number. The number is an important invariant of a quadratic function.   The Discriminant   The discriminant   Function  Quadratic  Discriminant  of the quadratic function is the number     The discriminant provides both algebraic and geometric information about quadratic functions. On the algebraic side, the discriminant tells us how many solutions there are to the quadratic equation .   The Quadratic Formula   The quadratic equation has either two, one, or zero real solutions, depending on , .   If , then the two solutions are    If , then the only solution is   If , then there are no real solutions.      If we pair with , then we have an algorithmic way to factor any quadratic function.    The quadratic function factors as where is the discriminant.                                Factor the quadratic .    The discriminant is so the roots are By , the factorization is We can check our answer by using FOIL to see     On the geometric side, the discriminant tells us how many -intercepts the graph of has.   The -intercepts of a Quadratic Function  The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.       Find the -intercepts of the function .    Since the discriminant is this function does not have any -intercepts.      Find the -intercepts of the function .    The discriminant of this quadratic is The solutions to the equation are given by the formula This tells us that one intercept occurs when and the other occurs when Therefore the -intercepts are       Graphing Qudaratics  We can simplify the process of graphing a quadratic function by using the tools we have developed in this section.   Graphing a Quadratic Function     Use the to find the vertex, , of the parabola. Plot the vertex in the plane.    Factor or use the to find the -intercept(s). If there are -intercepts, plot them in the plane.    Plot the -intercept, , in the plane.    Draw a parabola through the points in Steps (1) through (3).  The parabola will open upwards if .  The parabola will open downwards if .          Working with Quadratic Functions    find the vertex of a quadratic function,  find the -intercept(s) of a quadratic function  find the -intercept of a quadratic function,  graph a quadratic function.     Sketch a graph of each of the quadratic functions below. Label the -intercept, the vertex, and any -intercepts.                "
+  "body": " Quadratic Functions   In this section, we study polynomial functions of degree 2. These polynomial functions are often called quadratic functions .    Vertex Form   Quadratic Function   A function is quadratic   Function  Quadratic  if it has the form where , , and are numbers, and .    Just as with lines, quadratic functions are easier to understand through visualizations. The simplest quadratic function to understand is . We call the graph of a parabola .  Graph  Parabola  The point is called the vertex .  Graph  Parabola  Vertex    As we have already seen in , the graph of this function is symmetric about the -axis, which is the vertical line through the vertex. While general quadratics are slightly more complicated, we can use the properties of to graph the class of quadratics in the following form.   The Vertex Form of a Quadratic   A quadratic function, , is in vertex form   Function  Quadratic  Vertex Form  if there are numbers and such that     Using the methods of , we can graph quadratics in this form by following the steps below.   Graphing Quadratic Functions in Vertex Form   To graph of the quadratic function    Translate the graph of horizontally by units.   If , then the translation is to the right.    If , then the translation is to the left.       Scale the graph of by .   If , then the graph is stretched.    If , then the graph is compressed.       If , reflect the graph of over the -axis.    Translate the graph of vertically by units.   If , then the translation is down.    If , then the translation is up.            Graph the function .    Following , we perform the following operations on the graph of the function .  Translate the graph of to the left by 1 to obtain the graph of .  Stretch the graph of by a factor of 2 to obtain the graph of .  Reflect the graph of across the -axis to obtain the graph of .  Translate the graph of up by 1 to obtain the graph of .    These operations are shown below.   The transformations used to graph .     Translate the graph of to the left by       Stretch the graph of by a factor of         Reflect the graph of across the -axis       Translate the graph of up by           If we follow the vertex, we can see the first operation moves the point to . Since the point lies on the -axis, the second and third operation do not move the point . The fourth operation moves the point to the point . Since these operations preserve the general shape of the graph, a quadratic function in the form is a parabola with vertex at . Hence the reason for the name vertex form .  Similarly, if we follow the line of symmetry for , then we can see the first operation moves the vertical line to the vertical line . The following three operations do not change the vertical line, so the graph of is symmetric about the vertical line .  Finally, we observe the third operation may change the direction in which the parabola opens.    The graph of a parabola is    concave up   Function  Quadratic  Concave Up  if the parabola opens upwards like .     concave down   Function  Quadratic  Concave Down  if the parabola opens downwards like .       For quadratics in vertex form , we can see that is concave up whenever and concave down whenever .    Completing the Square  Surprisingly, every quadratic function can be placed into vertex form. Paired with the observations above, this tells us the graph of every quadratic function is a parabola. Placing a general quadratic function into vertex form will require the method of completing the square.  Remember that when we multiply two binomials, we must distribute. We can remember how to distribute using the mnemonic FOIL: F irst, O uter, I nner, L ast:   Multiplying binomials using the FOIL method.    If we use this method to multiply a binomial by itself, then we find the useful formula We call a quadratic function of the form a perfect square .  Perfect Square    Given a quadratic equation , we can use the formula to complete the square   Complete the Square  as follows.   Completing the Square   To complete the square with the quadratic function   Factor an from the first two terms to get   Add and subtract inside the parentheses to get   Factor the first three terms inside the parentheses as a perfect square   Distribute the through the sum            The number is the -coordinate of the vertex, and the number is the -coordinate of the vertex.   The Vertex Formula   Let be a quadratic function. The -coordinate of the vertex is and the -coordinate of the vertex is   As an ordered pair, the vertex of the graph of occurs at      Using , the vertex form of the quadratic function is      Find the vertex form of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function       Find the vertex of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function is       Applications to Circles  In we only encountered circles in standard form. However, circles will not always be presented this way. We study how the can help us to identify the equation of a circle, even if it is not presented in standard form.  Consider the equation We can view and as quadratic functions in the variables and , respectively. The first coordinate of the vertex of is and the second coordinate of the vertex as . This allows us to write   Similarly, the first coordinate for the vertex of is the second coordinate of the vertex of is and so   These two observations allow us to rewrite the original equation Therefore the equation represents the circle of radius centered at the point .    Working with Quadratic Functions    Place a quadratic function in vertex form  Place the equation of a circle in standard form     Place each of the quadratic functions below in vertex form. Use graph transformations to sketch a graph of the function. Label the vertex of the parabola.            Graph the equation     "
 },
 {
   "id": "def-quadratic_function",
@@ -2269,119 +2269,164 @@ var ptx_lunr_docs = [
   "body": "  Find the vertex of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function is    "
 },
 {
-  "id": "sec-quadratic_functions-5-3",
+  "id": "sec-quadratic_functions-6-2",
   "level": "2",
-  "url": "sec-quadratic_functions.html#sec-quadratic_functions-5-3",
+  "url": "sec-quadratic_functions.html#sec-quadratic_functions-6-2",
+  "type": "Objectives",
+  "number": "3.6.4",
+  "title": "",
+  "body": "  Place a quadratic function in vertex form  Place the equation of a circle in standard form   "
+},
+{
+  "id": "sec-quadratic_functions-6-4-1",
+  "level": "2",
+  "url": "sec-quadratic_functions.html#sec-quadratic_functions-6-4-1",
+  "type": "Worksheet Exercise",
+  "number": "3.6.4.1",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "sec-quadratic_functions-6-4-2",
+  "level": "2",
+  "url": "sec-quadratic_functions.html#sec-quadratic_functions-6-4-2",
+  "type": "Worksheet Exercise",
+  "number": "3.6.4.2",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "sec-quadratic_functions-6-5-1",
+  "level": "2",
+  "url": "sec-quadratic_functions.html#sec-quadratic_functions-6-5-1",
+  "type": "Worksheet Exercise",
+  "number": "3.6.4.3",
+  "title": "",
+  "body": "Graph the equation  "
+},
+{
+  "id": "sec-roots_quadratics",
+  "level": "1",
+  "url": "sec-roots_quadratics.html",
+  "type": "Section",
+  "number": "3.7",
+  "title": "Roots of Quadratic Functions",
+  "body": " Roots of Quadratic Functions   The Quadratic Formula  In order to accurately graph a quadratic function , it is necessary to identify the -intercepts for the function. A point in the Cartesian plane is an for this function if This reduces the geometric problem of finding the -intercepts of a quadratic to the algebraic problem finding solutions to equations.    An equation of the form is called a quadratic equation   Equation  Quadratic      To find the solutions to the quadratic equation , we use to write and solve this equation for    It is important to note that are real numbers only when is a non-negative number. The number is an important invariant of a quadratic function.   The Discriminant   The discriminant   Function  Quadratic  Discriminant  of the quadratic function is the number     The discriminant provides both algebraic and geometric information about quadratic functions. On the algebraic side, the discriminant tells us how many solutions there are to the quadratic equation .   The Quadratic Formula   The quadratic equation has either two, one, or zero real solutions, depending on , .   If , then the two solutions are    If , then the only solution is   If , then there are no real solutions.      If we pair with , then we have an algorithmic way to factor any quadratic function.    The quadratic function factors as where is the .                                Factor the quadratic .    The discriminant is so the roots are By , the factorization is We can check our answer by using FOIL to see     On the geometric side, the discriminant tells us how many -intercepts the graph of has.   The -intercepts of a Quadratic Function  The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.       Find the -intercepts of the function .    Since the discriminant is this function does not have any -intercepts.      Find the -intercepts of the function .    The discriminant of this quadratic is The solutions to the equation are given by the formula This tells us that one intercept occurs when and the other occurs when Therefore the -intercepts are       Graphing Qudaratics  We can simplify the process of graphing a quadratic function by using the tools we have developed in this section.   Graphing a Quadratic Function     Use the to find the vertex, , of the parabola. Plot the vertex in the plane.    Factor or use the to find the -intercept(s). If there are -intercepts, plot them in the plane.    Plot the -intercept, , in the plane.    Draw a parabola through the points in Steps (1) through (3).  The parabola will open upwards if .  The parabola will open downwards if .          Roots of Quadratic Functions    Find the roots of a quadratic function     Sketch a graph of each of the quadratic functions below. Label the -intercept, the vertex, and any -intercepts.                "
+},
+{
+  "id": "sec-roots_quadratics-2-3",
+  "level": "2",
+  "url": "sec-roots_quadratics.html#sec-roots_quadratics-2-3",
   "type": "Definition",
-  "number": "3.6.13",
+  "number": "3.7.1",
   "title": "",
   "body": "  An equation of the form is called a quadratic equation   Equation  Quadratic     "
 },
 {
   "id": "def-discriminant",
   "level": "2",
-  "url": "sec-quadratic_functions.html#def-discriminant",
+  "url": "sec-roots_quadratics.html#def-discriminant",
   "type": "Definition",
-  "number": "3.6.14",
+  "number": "3.7.2",
   "title": "The Discriminant.",
   "body": " The Discriminant   The discriminant   Function  Quadratic  Discriminant  of the quadratic function is the number    "
 },
 {
   "id": "quadratic_formula",
   "level": "2",
-  "url": "sec-quadratic_functions.html#quadratic_formula",
+  "url": "sec-roots_quadratics.html#quadratic_formula",
   "type": "Formula",
-  "number": "3.6.15",
+  "number": "3.7.3",
   "title": "The Quadratic Formula.",
   "body": " The Quadratic Formula   The quadratic equation has either two, one, or zero real solutions, depending on , .   If , then the two solutions are    If , then the only solution is   If , then there are no real solutions.     "
 },
 {
   "id": "thm-quadratic_factorization",
   "level": "2",
-  "url": "sec-quadratic_functions.html#thm-quadratic_factorization",
+  "url": "sec-roots_quadratics.html#thm-quadratic_factorization",
   "type": "Theorem",
-  "number": "3.6.16",
+  "number": "3.7.4",
   "title": "",
-  "body": "  The quadratic function factors as where is the discriminant.   "
+  "body": "  The quadratic function factors as where is the .   "
 },
 {
-  "id": "sec-quadratic_functions-5-11",
+  "id": "sec-roots_quadratics-2-11",
   "level": "2",
-  "url": "sec-quadratic_functions.html#sec-quadratic_functions-5-11",
+  "url": "sec-roots_quadratics.html#sec-roots_quadratics-2-11",
   "type": "Example",
-  "number": "3.6.17",
+  "number": "3.7.5",
   "title": "",
   "body": "  Factor the quadratic .    The discriminant is so the roots are By , the factorization is We can check our answer by using FOIL to see    "
 },
 {
-  "id": "sec-quadratic_functions-5-13",
+  "id": "sec-roots_quadratics-2-13",
   "level": "2",
-  "url": "sec-quadratic_functions.html#sec-quadratic_functions-5-13",
+  "url": "sec-roots_quadratics.html#sec-roots_quadratics-2-13",
   "type": "Theorem",
-  "number": "3.6.18",
+  "number": "3.7.6",
   "title": "The <span class=\"process-math\">\\(x\\)<\/span>-intercepts of a Quadratic Function.",
   "body": " The -intercepts of a Quadratic Function  The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.    "
 },
 {
-  "id": "sec-quadratic_functions-5-14",
+  "id": "sec-roots_quadratics-2-14",
   "level": "2",
-  "url": "sec-quadratic_functions.html#sec-quadratic_functions-5-14",
+  "url": "sec-roots_quadratics.html#sec-roots_quadratics-2-14",
   "type": "Example",
-  "number": "3.6.19",
+  "number": "3.7.7",
   "title": "",
   "body": "  Find the -intercepts of the function .    Since the discriminant is this function does not have any -intercepts.   "
 },
 {
-  "id": "sec-quadratic_functions-5-15",
+  "id": "sec-roots_quadratics-2-15",
   "level": "2",
-  "url": "sec-quadratic_functions.html#sec-quadratic_functions-5-15",
+  "url": "sec-roots_quadratics.html#sec-roots_quadratics-2-15",
   "type": "Example",
-  "number": "3.6.20",
+  "number": "3.7.8",
   "title": "",
   "body": "  Find the -intercepts of the function .    The discriminant of this quadratic is The solutions to the equation are given by the formula This tells us that one intercept occurs when and the other occurs when Therefore the -intercepts are    "
 },
 {
-  "id": "sec-quadratic_functions-6-3",
+  "id": "sec-roots_quadratics-3-3",
   "level": "2",
-  "url": "sec-quadratic_functions.html#sec-quadratic_functions-6-3",
+  "url": "sec-roots_quadratics.html#sec-roots_quadratics-3-3",
   "type": "Algorithm",
-  "number": "3.6.21",
+  "number": "3.7.9",
   "title": "Graphing a Quadratic Function.",
   "body": " Graphing a Quadratic Function     Use the to find the vertex, , of the parabola. Plot the vertex in the plane.    Factor or use the to find the -intercept(s). If there are -intercepts, plot them in the plane.    Plot the -intercept, , in the plane.    Draw a parabola through the points in Steps (1) through (3).  The parabola will open upwards if .  The parabola will open downwards if .       "
 },
 {
-  "id": "sec-quadratic_functions-7-2",
+  "id": "sec-roots_quadratics-4-2",
   "level": "2",
-  "url": "sec-quadratic_functions.html#sec-quadratic_functions-7-2",
+  "url": "sec-roots_quadratics.html#sec-roots_quadratics-4-2",
   "type": "Objectives",
-  "number": "3.6.5",
+  "number": "3.7.3",
   "title": "",
-  "body": "  find the vertex of a quadratic function,  find the -intercept(s) of a quadratic function  find the -intercept of a quadratic function,  graph a quadratic function.   "
+  "body": "  Find the roots of a quadratic function   "
 },
 {
-  "id": "sec-quadratic_functions-7-4-1",
+  "id": "sec-roots_quadratics-4-4-1",
   "level": "2",
-  "url": "sec-quadratic_functions.html#sec-quadratic_functions-7-4-1",
+  "url": "sec-roots_quadratics.html#sec-roots_quadratics-4-4-1",
   "type": "Worksheet Exercise",
-  "number": "3.6.5.1",
-  "title": "",
-  "body": "  "
-},
-{
-  "id": "sec-quadratic_functions-7-4-2",
-  "level": "2",
-  "url": "sec-quadratic_functions.html#sec-quadratic_functions-7-4-2",
-  "type": "Worksheet Exercise",
-  "number": "3.6.5.2",
+  "number": "3.7.3.1",
   "title": "",
   "body": "  "
 },
 {
-  "id": "sec-quadratic_functions-7-5-1",
+  "id": "sec-roots_quadratics-4-4-2",
   "level": "2",
-  "url": "sec-quadratic_functions.html#sec-quadratic_functions-7-5-1",
+  "url": "sec-roots_quadratics.html#sec-roots_quadratics-4-4-2",
   "type": "Worksheet Exercise",
-  "number": "3.6.5.3",
+  "number": "3.7.3.2",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "sec-roots_quadratics-4-5-1",
+  "level": "2",
+  "url": "sec-roots_quadratics.html#sec-roots_quadratics-4-5-1",
+  "type": "Worksheet Exercise",
+  "number": "3.7.3.3",
   "title": "",
   "body": " "
 },
