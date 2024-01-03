@@ -2188,9 +2188,9 @@ var ptx_lunr_docs = [
   "body": "  Graph the function .    Following , we perform the following operations on the graph of the function .  Translate the graph of to the left by 1 to obtain the graph of .  Stretch the graph of by a factor of 2 to obtain the graph of .  Reflect the graph of across the -axis to obtain the graph of .  Translate the graph of up by 1 to obtain the graph of .    These operations are shown below.   The transformations used to graph .     Translate the graph of to the left by       Stretch the graph of by a factor of         Reflect the graph of across the -axis       Translate the graph of up by          "
 },
 {
-  "id": "sec-quadratic_functions-3-12",
+  "id": "def-concavity",
   "level": "2",
-  "url": "sec-quadratic_functions.html#sec-quadratic_functions-3-12",
+  "url": "sec-quadratic_functions.html#def-concavity",
   "type": "Definition",
   "number": "3.6.6",
   "title": "",
@@ -2429,6 +2429,132 @@ var ptx_lunr_docs = [
   "number": "3.7.3.3",
   "title": "",
   "body": " "
+},
+{
+  "id": "sec-inequalities",
+  "level": "1",
+  "url": "sec-inequalities.html",
+  "type": "Section",
+  "number": "3.8",
+  "title": "Polynomial Inequalities",
+  "body": " Polynomial Inequalities   We have focused primarily on solving equations of the form where is a polynomial function in the variable . We now turn to polynomial inequalities   Inequality  Polynomial  which are relations of the form    ,     ,     , or            Solutions to Inequalities  First we start with what it means to be a solution to an inequality.   Solution to a Polynomial Inequality   A solution   Inequality  Solution  to an inequality in the variable is a number that makes the expression true when is substituted for .    We can interpret this definition graphically as saying   The solutions to are the -values where the graph of is below the -axis    The solutions to are the -values where the graph of is on or below the -axis    The solutions to are the -values where the graph of is above the -axis    The solutions to are the -values where the graph of is on or above the -axis   This tells us precisely how to solve a polynomial inequality using the roots.    Solving Polynomial Inequalities Algebraically  The first method is purely algebraic. It is useful when you are unable to sketch the graph of the polynomial.   Solving Polynomial Inequalities Algebraically   To find the solutions to a polynomial inequality involving the polynomial    Find the distinct real roots of and write them in order from smallest to largest     Find numbers such that     Evaluate at each .   If the inequality is satisfied for , then the inequality holds on the interval . Otherwise, the inequality does not hold on the interval .    If the inequality is satisfied for where , then the inequality holds on the interval . Otherwise, the inequality does not hold on the interval .    If the inequality is satisfied for , then the inequality holds on the interval . Otherwise, the inequality does not hold on the interval .       Write down each interval where the inequality holds. Include the endpoints if the inequality is not strict   or . Otherwise, exclude the endpoints.         Find all solutions to the inequality     The roots of the polynomial in order are We choose the test points , , , , , and .     When , This tells us the inequality is satisfied on .    When , This tells us the inequality is not satisfied on .    When , This tells us the inequality is satisfied on .    When , This tells us the inequality is not satisfied on .    When , This tells us the inequality is satisfied on .    When , This tells us the inequality is not satisfied on .   Therefore the inequality holds for all in the set       Solving Polynomial Inequalities Graphically  Solving polynomial inequalities graphically is significantly simpler. However, it has the disadvantage that it requires you to be able to sketch the graph of the polynomial function.    Find all the values of that satisfy the inequality     First, we place the inequality into the form  Since is a concave up parabola with roots and , we can see the inequality is satisfied for all from the graph of    The graph of .          Polynomial Inequalities     Solve polynomial inequalities.       Solving Polynomial Inequalities Algebraically   Use to find all values of that satisfy the following inequalities.                 Solving Polynomial Inequalities Graphically   Use to answer the following questions   The graph of        Find all values of that satisfy .    Find all values of that satisfy .    Find all values of that satisfy .    Find all values of that satisfy .      "
+},
+{
+  "id": "sec-inequalities-2-1",
+  "level": "2",
+  "url": "sec-inequalities.html#sec-inequalities-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "polynomial inequalities "
+},
+{
+  "id": "def-solution_poly_inequality",
+  "level": "2",
+  "url": "sec-inequalities.html#def-solution_poly_inequality",
+  "type": "Definition",
+  "number": "3.8.1",
+  "title": "Solution to a Polynomial Inequality.",
+  "body": " Solution to a Polynomial Inequality   A solution   Inequality  Solution  to an inequality in the variable is a number that makes the expression true when is substituted for .   "
+},
+{
+  "id": "alg-poly_ineq",
+  "level": "2",
+  "url": "sec-inequalities.html#alg-poly_ineq",
+  "type": "Algorithm",
+  "number": "3.8.2",
+  "title": "Solving Polynomial Inequalities Algebraically.",
+  "body": " Solving Polynomial Inequalities Algebraically   To find the solutions to a polynomial inequality involving the polynomial    Find the distinct real roots of and write them in order from smallest to largest     Find numbers such that     Evaluate at each .   If the inequality is satisfied for , then the inequality holds on the interval . Otherwise, the inequality does not hold on the interval .    If the inequality is satisfied for where , then the inequality holds on the interval . Otherwise, the inequality does not hold on the interval .    If the inequality is satisfied for , then the inequality holds on the interval . Otherwise, the inequality does not hold on the interval .       Write down each interval where the inequality holds. Include the endpoints if the inequality is not strict   or . Otherwise, exclude the endpoints.      "
+},
+{
+  "id": "sec-inequalities-4-4",
+  "level": "2",
+  "url": "sec-inequalities.html#sec-inequalities-4-4",
+  "type": "Example",
+  "number": "3.8.3",
+  "title": "",
+  "body": "  Find all solutions to the inequality     The roots of the polynomial in order are We choose the test points , , , , , and .     When , This tells us the inequality is satisfied on .    When , This tells us the inequality is not satisfied on .    When , This tells us the inequality is satisfied on .    When , This tells us the inequality is not satisfied on .    When , This tells us the inequality is satisfied on .    When , This tells us the inequality is not satisfied on .   Therefore the inequality holds for all in the set    "
+},
+{
+  "id": "sec-inequalities-5-3",
+  "level": "2",
+  "url": "sec-inequalities.html#sec-inequalities-5-3",
+  "type": "Example",
+  "number": "3.8.4",
+  "title": "",
+  "body": "  Find all the values of that satisfy the inequality     First, we place the inequality into the form  Since is a concave up parabola with roots and , we can see the inequality is satisfied for all from the graph of    The graph of .       "
+},
+{
+  "id": "sec-inequalities-6-2",
+  "level": "2",
+  "url": "sec-inequalities.html#sec-inequalities-6-2",
+  "type": "Objectives",
+  "number": "3.8.4",
+  "title": "",
+  "body": "   Solve polynomial inequalities.    "
+},
+{
+  "id": "sec-inequalities-6-3-1-3",
+  "level": "2",
+  "url": "sec-inequalities.html#sec-inequalities-6-3-1-3",
+  "type": "Worksheet Exercise",
+  "number": "3.8.4.1",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "sec-inequalities-6-3-1-4",
+  "level": "2",
+  "url": "sec-inequalities.html#sec-inequalities-6-3-1-4",
+  "type": "Worksheet Exercise",
+  "number": "3.8.4.2",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "fig-poly_ineq_graph",
+  "level": "2",
+  "url": "sec-inequalities.html#fig-poly_ineq_graph",
+  "type": "Figure",
+  "number": "3.8.6",
+  "title": "",
+  "body": " The graph of     "
+},
+{
+  "id": "sec-inequalities-6-4-1-3",
+  "level": "2",
+  "url": "sec-inequalities.html#sec-inequalities-6-4-1-3",
+  "type": "Worksheet Exercise",
+  "number": "3.8.4.3",
+  "title": "",
+  "body": " Find all values of that satisfy .  "
+},
+{
+  "id": "sec-inequalities-6-4-1-4",
+  "level": "2",
+  "url": "sec-inequalities.html#sec-inequalities-6-4-1-4",
+  "type": "Worksheet Exercise",
+  "number": "3.8.4.4",
+  "title": "",
+  "body": " Find all values of that satisfy .  "
+},
+{
+  "id": "sec-inequalities-6-4-1-5",
+  "level": "2",
+  "url": "sec-inequalities.html#sec-inequalities-6-4-1-5",
+  "type": "Worksheet Exercise",
+  "number": "3.8.4.5",
+  "title": "",
+  "body": " Find all values of that satisfy .  "
+},
+{
+  "id": "sec-inequalities-6-4-1-6",
+  "level": "2",
+  "url": "sec-inequalities.html#sec-inequalities-6-4-1-6",
+  "type": "Worksheet Exercise",
+  "number": "3.8.4.6",
+  "title": "",
+  "body": " Find all values of that satisfy .  "
 },
 {
   "id": "ch-properties_functions-2",
