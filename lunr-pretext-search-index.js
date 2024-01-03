@@ -1474,7 +1474,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Polynomial Functions",
-  "body": " Polynomial Functions   The simplest algebraic functions are constructed using the operations of addition and multiplication with a variable. While simple to construct, it is often difficult or even impossible to answer basic questions about these functions in general. However, these functions are extraordinarily important in nearly every branch of mathematics. We discuss foundational results about general polynomials in this section, and specialize to some easy to classify cases in the later sections.    Roots of Polynomials   Polynomial Function   A polynomial function   Function  Polynomial  in the variable is a function of the form where is an integer, are numbers and .  We say is a polynomial of degree   Function  Polynomial  Degree   and write .     Degree of a polynomial  The numbers are called the coefficient   Function  Polynomial  Coefficient  of , respectively.    Polynomial functions are most interesting because they are relatively simple functions that allow us to model real world phenomena.   Assume an object is thrown straight up in the air. If we let denote the distance from the thrower's hand to the ground when the object is released, and let denote the velocity of the object in meters\/second as it leaves the thrower's hand, then the height of the object as a function of time can be expressed using the polynomial     How long will it take for the object to return to the hand of the thrower?   To answer this question, we want the solutions to the equation If we subtract from both sides of the equation, then it is equivalent to find solutions to the polynomial equation Questions of this type arise frequently when discussing polynomials.   Root   A root   Function  Polynomial  Root  of the polynomial is a number, , such that     Questions about roots of polynomials have been posed and studied for millenia. The most important result about roots of polynomials is the following.   The Fundamental Theorem of Algbera  Carl Friedrich Gauss   Given a polynomial of degree , there exist a constant and roots such that We call this expression the factorization   Function  Polynomial  Factorization  of the polynomial .         Up to the constant , the factorization in is unique.    The roots of the polynomial are and . Use this information to factor .    Knowing the two roots of provides the factorization However, it is more convenient to distribute the to the term and write Even though these factorizations are not strictly identical, we consider these factorizations to be equivalent since they both convey that the roots of the polynomial are and .    Another important observation is the roots in the list may not necessarily be distinct.    Assume is a polynomial of degree and is a root of . The multiplicity of , is the number of times of times appears in the factorization of .     The polynomial has roots , , and . We say the root has multiplicity and the root has multiplicity . This allows us to say that the polynomial has three roots counting multiplicity.   Finally, we note the roots of a polynomial may not always be real numbers. For example, the polynomial does not have any real roots because every real number, , satisfies and thus        The imaginary unit     The Imaginary Unit The imaginary unit , , is defined to be one of the roots of the polynomial . In particular, or, equivalently, . It is common to write .    Since the roots and provide the factorization Numbers that involve arise frequently in the study of roots of polynomials of degree 2.   Complex Number   A complex number has the form , where and are real numbers. The set of all complex numbers is      The set of complex numbers       The number is a complex number.   It is important to note tells us that every polynomial of degree has precisely roots (counting multiplicities), some of which may not be real numbers. However, it does not tell us how to find those roots.   Is there a formula to find all of the roots of the polynomial in terms of the coefficients?   In general, the answer to this question is deeply unsatisfying. We will find formulas for roots of polynomials of degree 1 in and of degree 2 in . While formulas exist for roots of polynomials of degree and degree , they are beyond the scope of this text. However, there are no such general formulas for polynomials of degree 5 and higher. This means we will need to develop other techniques for finding roots of polynomials. One very useful tool for finding roots of general poylnomials is the rational root theorem.   The Rational Root Theorem   Assume with integers and . If and are integers and is a root of , then is a factor of and is a factor of .      Find all rational roots of .    The factors of are and ; the factors of are and . tells us there are eight possible rational roots of : We can check each of these by evaluating the function at these rational numbers. Therefore the only rational roots of the polynomial are and .      Polynomial Division  Another method for finding roots that is often paired with is polynomial division. Besides finding roots, the method of polynomial division will be important in .  Recall that if we have an integer and a smaller integer, , then we can always find integers and with such that Long division provides a convenient method for finding and .   To divide by , we would perform the long division using the symbols to find .   For polynomials, the form is nearly identical, with numbers replaced by polynomials.   Polynomial Division   Assume and are polynomials with . There exist polynomials and with such that .  In analogy with the integers, we call the polynomials the dividend , the quotient , and the remainder , and we say that divided by is with remainder     Recall for integers and , we say that divides (or is a divisor of , or is a factor of ) if the remainder is zero is divided by . We use this same language for polynomials.    Assume and are polynomials. The polynomial  divides   Function  Polynomial  Divides  the polynomial if the remainder when is divided by is the zero polynomial, .    To understand how to perform division with polynomials, it is helpful to understand the division algorithm with numbers written in base . The four steps in the long division above are shorthand for the following equations. We arrive at the final answer by repeated substitution for the remainders starting with . This process terminates because at each stage we are reducing the number of digits in the remainder by at least one. When we do long division with polynomials, our goal will be similar, but we will reduce the degree of the remainder polynomial by at least one.   To divide the polynomial by the polynomial , we write then, starting from , we substitute for the remainders Therefore divided by is with remainder .  We can also perform polynomial division using the same shorthand as we would for numbers. When performing polynomial division in this way, it is important to carefully distribute signs when subtracting.     Note that if we evaluate each of the polynomials at , then we find divided by is with remainder . Indeed, polynomial long division is a generalization of long division in base .   When paired with , polynomial long division is useful for factoring polynomials. The main tool is the following theorem.    The number is a root of the polynomial if and only if divides .     As we saw in , the polynomial has a root at and at . By , the polynomial divides  This allows us to write   Since and , we conclude that divides . This provides the factorization        Perform long division with polynomials  Find rational roots of polynomials      Consider the polynomial    Use the to list all possible rational roots of .    Use your list to find all the roots of .    Use the roots of to find its factorization.       Consider the polynomial    Use the to list all possible rational roots of .    Use your list to find all rational roots of .    Using the rational roots, use polynomial division to factor as the product of a degree polynomial and a degree polynomial.    What can you say about the other roots of ?      "
+  "body": " Polynomial Functions   The simplest algebraic functions are constructed using the operations of addition and multiplication with a variable. While simple to construct, it is often difficult or even impossible to answer basic questions about these functions in general. However, these functions are extraordinarily important in nearly every branch of mathematics. We discuss foundational results about general polynomials in this section, and specialize to some easy to classify cases in the later sections.    Roots of Polynomials   Polynomial Function   A polynomial function   Function  Polynomial  in the variable is a function of the form where is an integer, are numbers and .  We say is a polynomial of degree   Function  Polynomial  Degree   and write .     Degree of a polynomial  The numbers are called the coefficient   Function  Polynomial  Coefficient  of , respectively.    Polynomial functions are most interesting because they are relatively simple functions that allow us to model real world phenomena.   Assume an object is thrown straight up in the air. If we let denote the distance from the thrower's hand to the ground when the object is released, and let denote the velocity of the object in meters\/second as it leaves the thrower's hand, then the height of the object as a function of time can be expressed using the polynomial     How long will it take for the object to return to the hand of the thrower?   To answer this question, we want the solutions to the equation If we subtract from both sides of the equation, then it is equivalent to find solutions to the polynomial equation Questions of this type arise frequently when discussing polynomials.   Root   A root   Function  Polynomial  Root  of the polynomial is a number, , such that     Questions about roots of polynomials have been posed and studied for millenia. The most important result about roots of polynomials is the following.   The Fundamental Theorem of Algbera  Carl Friedrich Gauss   Given a polynomial of degree , there exist a constant and roots such that We call this expression the factorization   Function  Polynomial  Factorization  of the polynomial .         Up to the constant , the factorization in is unique.    The roots of the polynomial are and . Use this information to factor .    Knowing the two roots of provides the factorization However, it is more convenient to distribute the to the term and write Even though these factorizations are not strictly identical, we consider these factorizations to be equivalent since they both convey that the roots of the polynomial are and .    Another important observation is the roots in the list may not necessarily be distinct.    Assume is a polynomial of degree and is a root of . The multiplicity of , is the number of times of times appears in the factorization of .     The polynomial has roots , , and . We say the root has multiplicity and the root has multiplicity . This allows us to say that the polynomial has three roots counting multiplicity.   Finally, we note the roots of a polynomial may not always be real numbers. For example, the polynomial does not have any real roots because every real number, , satisfies and thus        The imaginary unit     The Imaginary Unit The imaginary unit , , is defined to be one of the roots of the polynomial . In particular, or, equivalently, . It is common to write .    Since the roots and provide the factorization Numbers that involve arise frequently in the study of roots of polynomials of degree 2.   Complex Number   A complex number has the form , where and are real numbers. The set of all complex numbers is      The set of complex numbers       The number is a complex number.   It is important to note tells us that every polynomial of degree has precisely roots (counting multiplicities), some of which may not be real numbers. However, it does not tell us how to find those roots.   Is there a formula to find all of the roots of the polynomial in terms of the coefficients?   In general, the answer to this question is deeply unsatisfying. We will find formulas for roots of polynomials of degree 1 in and of degree 2 in . While formulas exist for roots of polynomials of degree and degree , they are beyond the scope of this text. However, there are no such general formulas for polynomials of degree 5 and higher. This means we will need to develop other techniques for finding roots of polynomials. One very useful tool for finding roots of general poylnomials is the rational root theorem.   The Rational Root Theorem   Assume with integers and . If and are integers and is a root of , then is a factor of and is a factor of .      Find all rational roots of .    The factors of are and ; the factors of are and . tells us there are eight possible rational roots of : We can check each of these by evaluating the function at these rational numbers. Therefore the only rational roots of the polynomial are and .        Find rational roots of polynomials      Consider the polynomial    Use the to list all possible rational roots of .    Use your list to find all the roots of .    Use the roots of to find its factorization.      "
 },
 {
   "id": "sec-polynomial_functions-3-2",
@@ -1603,92 +1603,110 @@ var ptx_lunr_docs = [
   "body": "  Find all rational roots of .    The factors of are and ; the factors of are and . tells us there are eight possible rational roots of : We can check each of these by evaluating the function at these rational numbers. Therefore the only rational roots of the polynomial are and .   "
 },
 {
+  "id": "sec-polynomial_functions-4-1",
+  "level": "2",
+  "url": "sec-polynomial_functions.html#sec-polynomial_functions-4-1",
+  "type": "Objectives",
+  "number": "3.1.2",
+  "title": "",
+  "body": "  Find rational roots of polynomials   "
+},
+{
+  "id": "sec-polynomial_functions-4-2-1",
+  "level": "2",
+  "url": "sec-polynomial_functions.html#sec-polynomial_functions-4-2-1",
+  "type": "Worksheet Exercise",
+  "number": "3.1.2.1",
+  "title": "",
+  "body": " Consider the polynomial    Use the to list all possible rational roots of .    Use your list to find all the roots of .    Use the roots of to find its factorization.   "
+},
+{
+  "id": "sec-division",
+  "level": "1",
+  "url": "sec-division.html",
+  "type": "Section",
+  "number": "3.2",
+  "title": "Polynomial Division",
+  "body": " Polynomial Division  Another method for finding roots that is often paired with is polynomial division. Besides finding roots, the method of polynomial division will be important in .  Recall that if we have an integer and a smaller integer, , then we can always find integers and with such that Long division provides a convenient method for finding and .   To divide by , we would perform the long division using the symbols to find .   For polynomials, the form is nearly identical, with numbers replaced by polynomials.   Polynomial Division   Assume and are polynomials with . There exist polynomials and with such that .  In analogy with the integers, we call the polynomials the dividend , the quotient , and the remainder , and we say that divided by is with remainder     Recall for integers and , we say that divides (or is a divisor of , or is a factor of ) if the remainder is zero is divided by . We use this same language for polynomials.    Assume and are polynomials. The polynomial  divides   Function  Polynomial  Divides  the polynomial if the remainder when is divided by is the zero polynomial, .    To understand how to perform division with polynomials, it is helpful to understand the division algorithm with numbers written in base . The four steps in the long division above are shorthand for the following equations. We arrive at the final answer by repeated substitution for the remainders starting with . This process terminates because at each stage we are reducing the number of digits in the remainder by at least one. When we do long division with polynomials, our goal will be similar, but we will reduce the degree of the remainder polynomial by at least one.   To divide the polynomial by the polynomial , we write then, starting from , we substitute for the remainders Therefore divided by is with remainder .  We can also perform polynomial division using the same shorthand as we would for numbers. When performing polynomial division in this way, it is important to carefully distribute signs when subtracting.     Note that if we evaluate each of the polynomials at , then we find divided by is with remainder . Indeed, polynomial long division is a generalization of long division in base .   When paired with , polynomial long division is useful for factoring polynomials. The main tool is the following theorem.    The number is a root of the polynomial if and only if divides .     As we saw in , the polynomial has a root at and at . By , the polynomial divides  This allows us to write   Since and , we conclude that divides . This provides the factorization       Perform long division with polynomials      Consider the polynomial    Use the to list all possible rational roots of .    Use your list to find all rational roots of .    Using the rational roots, use polynomial division to factor as the product of a degree polynomial and a degree polynomial.    What can you say about the other roots of ?      "
+},
+{
   "id": "example-integer_division",
   "level": "2",
-  "url": "sec-polynomial_functions.html#example-integer_division",
+  "url": "sec-division.html#example-integer_division",
   "type": "Example",
-  "number": "3.1.15",
+  "number": "3.2.1",
   "title": "",
   "body": " To divide by , we would perform the long division using the symbols to find .  "
 },
 {
   "id": "thm-polynomial_division",
   "level": "2",
-  "url": "sec-polynomial_functions.html#thm-polynomial_division",
+  "url": "sec-division.html#thm-polynomial_division",
   "type": "Theorem",
-  "number": "3.1.16",
+  "number": "3.2.2",
   "title": "Polynomial Division.",
   "body": " Polynomial Division   Assume and are polynomials with . There exist polynomials and with such that .  In analogy with the integers, we call the polynomials the dividend , the quotient , and the remainder , and we say that divided by is with remainder    "
 },
 {
-  "id": "sec-polynomial_functions-4-8",
+  "id": "sec-division-8",
   "level": "2",
-  "url": "sec-polynomial_functions.html#sec-polynomial_functions-4-8",
+  "url": "sec-division.html#sec-division-8",
   "type": "Definition",
-  "number": "3.1.17",
+  "number": "3.2.3",
   "title": "",
   "body": "  Assume and are polynomials. The polynomial  divides   Function  Polynomial  Divides  the polynomial if the remainder when is divided by is the zero polynomial, .   "
 },
 {
-  "id": "sec-polynomial_functions-4-10",
+  "id": "sec-division-10",
   "level": "2",
-  "url": "sec-polynomial_functions.html#sec-polynomial_functions-4-10",
+  "url": "sec-division.html#sec-division-10",
   "type": "Example",
-  "number": "3.1.18",
+  "number": "3.2.4",
   "title": "",
   "body": " To divide the polynomial by the polynomial , we write then, starting from , we substitute for the remainders Therefore divided by is with remainder .  We can also perform polynomial division using the same shorthand as we would for numbers. When performing polynomial division in this way, it is important to carefully distribute signs when subtracting.   "
 },
 {
-  "id": "sec-polynomial_functions-4-11",
+  "id": "sec-division-11",
   "level": "2",
-  "url": "sec-polynomial_functions.html#sec-polynomial_functions-4-11",
+  "url": "sec-division.html#sec-division-11",
   "type": "Remark",
-  "number": "3.1.19",
+  "number": "3.2.5",
   "title": "",
   "body": " Note that if we evaluate each of the polynomials at , then we find divided by is with remainder . Indeed, polynomial long division is a generalization of long division in base .  "
 },
 {
   "id": "thm-root_div",
   "level": "2",
-  "url": "sec-polynomial_functions.html#thm-root_div",
+  "url": "sec-division.html#thm-root_div",
   "type": "Theorem",
-  "number": "3.1.20",
+  "number": "3.2.6",
   "title": "",
   "body": "  The number is a root of the polynomial if and only if divides .   "
 },
 {
-  "id": "sec-polynomial_functions-4-14",
+  "id": "sec-division-14",
   "level": "2",
-  "url": "sec-polynomial_functions.html#sec-polynomial_functions-4-14",
+  "url": "sec-division.html#sec-division-14",
   "type": "Example",
-  "number": "3.1.21",
+  "number": "3.2.7",
   "title": "",
   "body": " As we saw in , the polynomial has a root at and at . By , the polynomial divides  This allows us to write   Since and , we conclude that divides . This provides the factorization   "
 },
 {
-  "id": "sec-polynomial_functions-5-1",
+  "id": "sec-division-15-1",
   "level": "2",
-  "url": "sec-polynomial_functions.html#sec-polynomial_functions-5-1",
+  "url": "sec-division.html#sec-division-15-1",
   "type": "Objectives",
-  "number": "3.1.3",
+  "number": "3.2",
   "title": "",
-  "body": "  Perform long division with polynomials  Find rational roots of polynomials   "
+  "body": "  Perform long division with polynomials   "
 },
 {
-  "id": "sec-polynomial_functions-5-2-1",
+  "id": "sec-division-15-2-1",
   "level": "2",
-  "url": "sec-polynomial_functions.html#sec-polynomial_functions-5-2-1",
+  "url": "sec-division.html#sec-division-15-2-1",
   "type": "Worksheet Exercise",
-  "number": "3.1.3.1",
-  "title": "",
-  "body": " Consider the polynomial    Use the to list all possible rational roots of .    Use your list to find all the roots of .    Use the roots of to find its factorization.   "
-},
-{
-  "id": "sec-polynomial_functions-5-3-1",
-  "level": "2",
-  "url": "sec-polynomial_functions.html#sec-polynomial_functions-5-3-1",
-  "type": "Worksheet Exercise",
-  "number": "3.1.3.2",
+  "number": "3.2.1",
   "title": "",
   "body": " Consider the polynomial    Use the to list all possible rational roots of .    Use your list to find all rational roots of .    Using the rational roots, use polynomial division to factor as the product of a degree polynomial and a degree polynomial.    What can you say about the other roots of ?   "
 },
@@ -1697,7 +1715,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-linear_functions.html",
   "type": "Section",
-  "number": "3.2",
+  "number": "3.3",
   "title": "Linear Functions",
   "body": " Linear Functions                   In this section, we study a special kind of polynomial known as a linear function . As we will see, the name linear comes from the fact that the graph of such a function is always a line.    Linear Functions as Degree One Polynomials   Linear Function   A function is linear   Function  Linear  if the of is constant. That is, there exists a number such that for all numbers and  We call the number the slope   Function  Linear  Slope  of . The number is the -coordinate of the  .    In order to find the equation of a linear function, it is enough to know the slope, , and the value of the function for a single -value. The simplest point to find is the : the -coordinate is and the -coordinate is . If we write , then by  We obtain the equation for the function by solving the equation for in terms of     The Slope-Intercept Form of a Line  The slope-intercept form of a linear function   Function  Linear  Slope-Intercept Form  is where is the slope or average rate of change of .     Graphing Linear Functions  Consider a linear function with . Recall that the of an equation consists of all points that are a to the equation. The graph of a linear equation is always a line. We can graph the equation by finding any two points on the line and drawing a line through them. In general, the two points that are simplest to find are the two intercepts.  We find the by substituting for and solving the resulting equation for      The of the linear function with is the point       Find the -intercept of the linear equation .    To find the -intercept of the linear equation , we substitute for to get Therefore the -intercept of the linear equation is the point .    We find the by substituting for and solving the resulting equation for      Graph the equation .    In we found that is the -intercept for the function . The for the function is the point . To graph the equation , we simply need to plot these two points and draw a straight line through them.   The graph of .          Working with Linear Functions    Recognize linear functions.  Find -intercept of a linear function.  Find the -intercept of a linear function.  Graph a linear function.     Determine whether the equation represents a linear function of in terms of . If so, express the equation in the form . Otherwise, explain why the equation does not represent a linear function.  Determine whether the equation represents a linear function of in terms of . If so, express the equation in the form . Otherwise, explain why the equation does not represent a linear function.    Find the - and -intercepts of the linear equation and sketch the graph of the equation.      Match the following equations with their graphs.                                                       "
 },
@@ -1706,7 +1724,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-linear_functions.html#def-linear_function",
   "type": "Definition",
-  "number": "3.2.1",
+  "number": "3.3.1",
   "title": "Linear Function.",
   "body": " Linear Function   A function is linear   Function  Linear  if the of is constant. That is, there exists a number such that for all numbers and  We call the number the slope   Function  Linear  Slope  of . The number is the -coordinate of the  .   "
 },
@@ -1715,7 +1733,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-linear_functions.html#thm-slope_intercept",
   "type": "Theorem",
-  "number": "3.2.2",
+  "number": "3.3.2",
   "title": "The Slope-Intercept Form of a Line.",
   "body": " The Slope-Intercept Form of a Line  The slope-intercept form of a linear function   Function  Linear  Slope-Intercept Form  is where is the slope or average rate of change of .  "
 },
@@ -1724,7 +1742,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-linear_functions.html#thm-linear_x_intercept",
   "type": "Theorem",
-  "number": "3.2.3",
+  "number": "3.3.3",
   "title": "",
   "body": "  The of the linear function with is the point    "
 },
@@ -1733,7 +1751,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-linear_functions.html#example-x_intercept_2x_3y_6",
   "type": "Example",
-  "number": "3.2.4",
+  "number": "3.3.4",
   "title": "",
   "body": "  Find the -intercept of the linear equation .    To find the -intercept of the linear equation , we substitute for to get Therefore the -intercept of the linear equation is the point .   "
 },
@@ -1742,7 +1760,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-linear_functions.html#sec-linear_functions-4-7",
   "type": "Example",
-  "number": "3.2.5",
+  "number": "3.3.5",
   "title": "",
   "body": "  Graph the equation .    In we found that is the -intercept for the function . The for the function is the point . To graph the equation , we simply need to plot these two points and draw a straight line through them.   The graph of .       "
 },
@@ -1751,7 +1769,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-linear_functions.html#sec-linear_functions-5-2",
   "type": "Objectives",
-  "number": "3.2.3",
+  "number": "3.3.3",
   "title": "",
   "body": "  Recognize linear functions.  Find -intercept of a linear function.  Find the -intercept of a linear function.  Graph a linear function.   "
 },
@@ -1760,7 +1778,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-linear_functions.html#sec-linear_functions-5-3-1",
   "type": "Worksheet Exercise",
-  "number": "3.2.3.1",
+  "number": "3.3.3.1",
   "title": "",
   "body": "Determine whether the equation represents a linear function of in terms of . If so, express the equation in the form . Otherwise, explain why the equation does not represent a linear function. "
 },
@@ -1769,7 +1787,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-linear_functions.html#sec-linear_functions-5-3-2",
   "type": "Worksheet Exercise",
-  "number": "3.2.3.2",
+  "number": "3.3.3.2",
   "title": "",
   "body": "Determine whether the equation represents a linear function of in terms of . If so, express the equation in the form . Otherwise, explain why the equation does not represent a linear function. "
 },
@@ -1778,7 +1796,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-linear_functions.html#sec-linear_functions-5-4-1",
   "type": "Worksheet Exercise",
-  "number": "3.2.3.3",
+  "number": "3.3.3.3",
   "title": "",
   "body": "Find the - and -intercepts of the linear equation and sketch the graph of the equation.   "
 },
@@ -1787,7 +1805,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-linear_functions.html#sec-linear_functions-5-5-1",
   "type": "Worksheet Exercise",
-  "number": "3.2.3.4",
+  "number": "3.3.3.4",
   "title": "",
   "body": "Match the following equations with their graphs.                                                    "
 },
@@ -1796,7 +1814,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-lines.html",
   "type": "Section",
-  "number": "3.3",
+  "number": "3.4",
   "title": "Representations of Lines",
   "body": " Representations of Lines                    In the previous section, we encountered linear functions and saw that we can express these functions in the form . When we graphed a linear function, we used to points to determine the line that represents the graph. We can reverse this process to find a linear function. The first step is to determine the slope. In doing this, we will find two other representations for lines.    The Slope of a Line through two Points   The Slope of a Line   The slope   Line  Slope  of the line through the points and is provided that . The slope measures the rate of change in with respect to , as depicted in .     The slope of the line through the points and .       In the definition of , we required that . While there is a line that passes through two distinct points with the same -coordinate, that line is a vertical line. Since a vertical line is not a function, the slope of a vertical line undefined.     Find the slope of the line through the points and .    The slope of the line through the points and is This says when the -coordinate increases by 1, the -coordinate decreases by 1.    Suppose we know the slope, , and a point that lines on the line. We can use the fact that is a to determine the -intercept. We substitute for and for in the and solve for :     The -intercept of the line with slope through the point is       Find the equation of the line through the points and .    In , we saw the slope of the line is . If we use the point , then we can find the -intercept by solving This tells us the equation of the line through and is .  We could also have used the point to find an equation of the line. If we use the point , then the -intercept is given by solving We can see that no matter which point we use, we obtain the same .      The Point-Slope Form of a Line  Assume we know the slope, , of a line and a point, , on the line. Suppose is any other point on the line. Since the slope of the line is constant, we can write to find the next form of a line.   The Point-Slope Form of a Line   The point-slope form of the line   Line  Point-Slope Form  through the point with slope is     This form of a line is convenient to use when we know the slope of a line and a point on the line.    Find the using the point and the slope .    Using , the equation of the line through with slope is       Find an equation for the line that passes through the points and .    We can use the to find the line between the points and . First compute the slope of the line Use either of the two points to find the equation   While these equations may look different, we can compare them by placing them in . For the first equation, add to both sides to get and for the second, add to both sides to get In this form, we can see that these equations represent the same line.      The Standard Equation of a Line  So far, we have only been interested in working with lines with a well-defined slope. Sometimes, it is convenient to work with lines that may be vertical. The standard equation of a line allows us to do just that.   Standard Equation of a Line   The standard equation of a line   Equation  Line  Standard  in the variables and is where and are not both zero.     Caution!  The standard equation of a line may not always represent an equation where is a function of ! If , then the standard equation of a line reduces to which is a vertical line.     Place the linear equation into .    The equation can be placed in standard form as follows. First, move the variables to the left-hand side of the equation. Subtract from both sides and distribute the negative Collect like terms and simplify Finally, subtract 7 from both sides of the equation and simplify to arrive at the standard form      Not all equations are linear. For example, the equation is not linear because of the term .     Representation of Lines    Determine the slope of a line through two points.   Represent a line using  Slope-Intercept Form,  Point-Slope Form, and  Standard Form.        Find the slope of the line through the points and .  Write the equation of the line through the points and in Point-Slope Form.  Write the equation of the line through the points and in Slope-Intercept Form.  Write the equation of the line through the points and in Standard Form.  Find the slope of the line represented by the equation .     You and a friend used the same parking garage. You parked your car for 2 hours and it cost . Your friend parked her car for 4 hours and it cost .  Let represent the number of hours of parking and let represent the cost. Assuming the relationship is linear, how much does parking cost per hour? Find a linear function that models the cost of parking. The garage charges a flat fee to enter the parking garage. How much is this fee?    "
 },
@@ -1805,7 +1823,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lines.html#def-slope",
   "type": "Definition",
-  "number": "3.3.1",
+  "number": "3.4.1",
   "title": "The Slope of a Line.",
   "body": " The Slope of a Line   The slope   Line  Slope  of the line through the points and is provided that . The slope measures the rate of change in with respect to , as depicted in .   "
 },
@@ -1814,7 +1832,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lines.html#fig-slope",
   "type": "Figure",
-  "number": "3.3.2",
+  "number": "3.4.2",
   "title": "",
   "body": " The slope of the line through the points and .     "
 },
@@ -1823,7 +1841,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lines.html#sec-lines-3-4",
   "type": "Remark",
-  "number": "3.3.3",
+  "number": "3.4.3",
   "title": "",
   "body": " In the definition of , we required that . While there is a line that passes through two distinct points with the same -coordinate, that line is a vertical line. Since a vertical line is not a function, the slope of a vertical line undefined.  "
 },
@@ -1832,7 +1850,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lines.html#example-find_slope",
   "type": "Example",
-  "number": "3.3.4",
+  "number": "3.4.4",
   "title": "",
   "body": "  Find the slope of the line through the points and .    The slope of the line through the points and is This says when the -coordinate increases by 1, the -coordinate decreases by 1.   "
 },
@@ -1841,7 +1859,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lines.html#thm-point_slope_intercept",
   "type": "Theorem",
-  "number": "3.3.5",
+  "number": "3.4.5",
   "title": "",
   "body": "  The -intercept of the line with slope through the point is    "
 },
@@ -1850,7 +1868,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lines.html#example-line_through_two_points",
   "type": "Example",
-  "number": "3.3.6",
+  "number": "3.4.6",
   "title": "",
   "body": "  Find the equation of the line through the points and .    In , we saw the slope of the line is . If we use the point , then we can find the -intercept by solving This tells us the equation of the line through and is .  We could also have used the point to find an equation of the line. If we use the point , then the -intercept is given by solving We can see that no matter which point we use, we obtain the same .   "
 },
@@ -1859,7 +1877,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lines.html#thm-point_slope",
   "type": "Theorem",
-  "number": "3.3.7",
+  "number": "3.4.7",
   "title": "The Point-Slope Form of a Line.",
   "body": " The Point-Slope Form of a Line   The point-slope form of the line   Line  Point-Slope Form  through the point with slope is    "
 },
@@ -1868,7 +1886,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lines.html#sec-lines-4-5",
   "type": "Example",
-  "number": "3.3.8",
+  "number": "3.4.8",
   "title": "",
   "body": "  Find the using the point and the slope .    Using , the equation of the line through with slope is    "
 },
@@ -1877,7 +1895,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lines.html#sec-lines-4-6",
   "type": "Example",
-  "number": "3.3.9",
+  "number": "3.4.9",
   "title": "",
   "body": "  Find an equation for the line that passes through the points and .    We can use the to find the line between the points and . First compute the slope of the line Use either of the two points to find the equation   While these equations may look different, we can compare them by placing them in . For the first equation, add to both sides to get and for the second, add to both sides to get In this form, we can see that these equations represent the same line.   "
 },
@@ -1886,7 +1904,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lines.html#def-linear_equation",
   "type": "Definition",
-  "number": "3.3.10",
+  "number": "3.4.10",
   "title": "Standard Equation of a Line.",
   "body": " Standard Equation of a Line   The standard equation of a line   Equation  Line  Standard  in the variables and is where and are not both zero.   "
 },
@@ -1895,7 +1913,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lines.html#sec-lines-5-4",
   "type": "Remark",
-  "number": "3.3.11",
+  "number": "3.4.11",
   "title": "<em class=\"alert\">Caution!<\/em>",
   "body": " Caution!  The standard equation of a line may not always represent an equation where is a function of ! If , then the standard equation of a line reduces to which is a vertical line.  "
 },
@@ -1904,7 +1922,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lines.html#sec-lines-5-5",
   "type": "Example",
-  "number": "3.3.12",
+  "number": "3.4.12",
   "title": "",
   "body": "  Place the linear equation into .    The equation can be placed in standard form as follows. First, move the variables to the left-hand side of the equation. Subtract from both sides and distribute the negative Collect like terms and simplify Finally, subtract 7 from both sides of the equation and simplify to arrive at the standard form    "
 },
@@ -1913,7 +1931,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lines.html#sec-lines-5-6",
   "type": "Example",
-  "number": "3.3.13",
+  "number": "3.4.13",
   "title": "",
   "body": " Not all equations are linear. For example, the equation is not linear because of the term .  "
 },
@@ -1922,7 +1940,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lines.html#sec-lines-6-2",
   "type": "Objectives",
-  "number": "3.3.4",
+  "number": "3.4.4",
   "title": "",
   "body": "  Determine the slope of a line through two points.   Represent a line using  Slope-Intercept Form,  Point-Slope Form, and  Standard Form.      "
 },
@@ -1931,7 +1949,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lines.html#sec-lines-6-3-1",
   "type": "Worksheet Exercise",
-  "number": "3.3.4.1",
+  "number": "3.4.4.1",
   "title": "",
   "body": "Find the slope of the line through the points and . "
 },
@@ -1940,7 +1958,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lines.html#sec-lines-6-3-2",
   "type": "Worksheet Exercise",
-  "number": "3.3.4.2",
+  "number": "3.4.4.2",
   "title": "",
   "body": "Write the equation of the line through the points and in Point-Slope Form. "
 },
@@ -1949,7 +1967,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lines.html#sec-lines-6-3-3",
   "type": "Worksheet Exercise",
-  "number": "3.3.4.3",
+  "number": "3.4.4.3",
   "title": "",
   "body": "Write the equation of the line through the points and in Slope-Intercept Form. "
 },
@@ -1958,7 +1976,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lines.html#sec-lines-6-3-4",
   "type": "Worksheet Exercise",
-  "number": "3.3.4.4",
+  "number": "3.4.4.4",
   "title": "",
   "body": "Write the equation of the line through the points and in Standard Form. "
 },
@@ -1967,7 +1985,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lines.html#sec-lines-6-3-5",
   "type": "Worksheet Exercise",
-  "number": "3.3.4.5",
+  "number": "3.4.4.5",
   "title": "",
   "body": "Find the slope of the line represented by the equation . "
 },
@@ -1976,7 +1994,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lines.html#sec-lines-6-4-1",
   "type": "Worksheet Exercise",
-  "number": "3.3.4.6",
+  "number": "3.4.4.6",
   "title": "",
   "body": " You and a friend used the same parking garage. You parked your car for 2 hours and it cost . Your friend parked her car for 4 hours and it cost .  Let represent the number of hours of parking and let represent the cost. Assuming the relationship is linear, how much does parking cost per hour? Find a linear function that models the cost of parking. The garage charges a flat fee to enter the parking garage. How much is this fee? "
 },
@@ -1985,7 +2003,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-perp_parallel.html",
   "type": "Section",
-  "number": "3.4",
+  "number": "3.5",
   "title": "Parallel and Perpendicular Lines",
   "body": " Parallel and Perpendicular Lines                Parallel   Two lines in the Cartesian plane are said to be parallel   Line  Parallel  if they do not intersect.     Parallel lines.        Two lines are parallel if and only if they have the same slope.      Determine whether the lines are parallel.    In order to determine whether these lines are parallel, we need to find the slope of each line. We do this by placing each line into .  For the first line, add to both sides and divide both sides by  This tells us the slope of the line is .  For the second line, add to both sides divide both sides by  and reduce This tells the slope of the line is also . Therefore the lines and are parallel by .      Find the equation of the line parallel to that passes through the point . Write your answer in     First, find the slope of the line by placing the equation into . Subtract from both sides divide both sides by  and simplify to In this form, we see the slope of the line is   By , the slope of a line parallel to is . Now we use to write down a line with slope through the point  and simplify   Finally, to put this line into , distribute the  add 5 to both sides of the equation and simplify       Two lines are perpendicular   Line  Perpendicular  if they intersect at a right angle.     Perpendicular lines.        Two lines are perpendicular if and only if the product of their slopes is .      Determine whether the lines are perpendicular.    First we must place the lines in to find the slopes. The first equation becomes In this form, we can read off the slope of the line as   The second equation becomes In this form, we can read off the slop of the line as .  Finally, to check whether these lines are parallel, we compute the product of these slopes. Since we conclude that these lines are perpendicular by .      Find the equation of a line perpendicular to that passes through the point . Write your answer in form.    First, place the line in  We can read off the slope as from this equation.  To find the slope, , of a perpendicular line, tells us we must solve the equation for :   Using , the equation of the line perpendicular to that passes through the point is Finally, we convert to       Parallel and Perpendicular Lines    Determine whether two lines are parallel, perpendicular, or neither.  Find the equation of a line parallel to a given line.  Find the equation of a line perpendicular to a given line.      Determine whether the given lines are parallel, perpendicular, or neithe.   and .  and .  and .    Find the equation of the line parallel to that passes through the point .  Find the equation of the line perpendicular to that passes through the point .    "
 },
@@ -1994,7 +2012,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-perp_parallel.html#def-parallel",
   "type": "Definition",
-  "number": "3.4.1",
+  "number": "3.5.1",
   "title": "Parallel.",
   "body": " Parallel   Two lines in the Cartesian plane are said to be parallel   Line  Parallel  if they do not intersect.   "
 },
@@ -2003,7 +2021,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-perp_parallel.html#fig-parallel_lines",
   "type": "Figure",
-  "number": "3.4.2",
+  "number": "3.5.2",
   "title": "",
   "body": " Parallel lines.     "
 },
@@ -2012,7 +2030,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-perp_parallel.html#thm-parallel",
   "type": "Theorem",
-  "number": "3.4.3",
+  "number": "3.5.3",
   "title": "",
   "body": "  Two lines are parallel if and only if they have the same slope.   "
 },
@@ -2021,7 +2039,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-perp_parallel.html#sec-perp_parallel-5",
   "type": "Example",
-  "number": "3.4.4",
+  "number": "3.5.4",
   "title": "",
   "body": "  Determine whether the lines are parallel.    In order to determine whether these lines are parallel, we need to find the slope of each line. We do this by placing each line into .  For the first line, add to both sides and divide both sides by  This tells us the slope of the line is .  For the second line, add to both sides divide both sides by  and reduce This tells the slope of the line is also . Therefore the lines and are parallel by .   "
 },
@@ -2030,7 +2048,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-perp_parallel.html#sec-perp_parallel-6",
   "type": "Example",
-  "number": "3.4.5",
+  "number": "3.5.5",
   "title": "",
   "body": "  Find the equation of the line parallel to that passes through the point . Write your answer in     First, find the slope of the line by placing the equation into . Subtract from both sides divide both sides by  and simplify to In this form, we see the slope of the line is   By , the slope of a line parallel to is . Now we use to write down a line with slope through the point  and simplify   Finally, to put this line into , distribute the  add 5 to both sides of the equation and simplify    "
 },
@@ -2039,7 +2057,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-perp_parallel.html#def-perpendicular",
   "type": "Definition",
-  "number": "3.4.6",
+  "number": "3.5.6",
   "title": "",
   "body": "  Two lines are perpendicular   Line  Perpendicular  if they intersect at a right angle.   "
 },
@@ -2048,7 +2066,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-perp_parallel.html#fig-perpendicular_lines",
   "type": "Figure",
-  "number": "3.4.7",
+  "number": "3.5.7",
   "title": "",
   "body": " Perpendicular lines.     "
 },
@@ -2057,7 +2075,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-perp_parallel.html#thm-perpendicular",
   "type": "Theorem",
-  "number": "3.4.8",
+  "number": "3.5.8",
   "title": "",
   "body": "  Two lines are perpendicular if and only if the product of their slopes is .   "
 },
@@ -2066,7 +2084,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-perp_parallel.html#sec-perp_parallel-10",
   "type": "Example",
-  "number": "3.4.9",
+  "number": "3.5.9",
   "title": "",
   "body": "  Determine whether the lines are perpendicular.    First we must place the lines in to find the slopes. The first equation becomes In this form, we can read off the slope of the line as   The second equation becomes In this form, we can read off the slop of the line as .  Finally, to check whether these lines are parallel, we compute the product of these slopes. Since we conclude that these lines are perpendicular by .   "
 },
@@ -2075,7 +2093,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-perp_parallel.html#sec-perp_parallel-11",
   "type": "Example",
-  "number": "3.4.10",
+  "number": "3.5.10",
   "title": "",
   "body": "  Find the equation of a line perpendicular to that passes through the point . Write your answer in form.    First, place the line in  We can read off the slope as from this equation.  To find the slope, , of a perpendicular line, tells us we must solve the equation for :   Using , the equation of the line perpendicular to that passes through the point is Finally, we convert to     "
 },
@@ -2084,7 +2102,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-perp_parallel.html#sec-perp_parallel-12-2",
   "type": "Objectives",
-  "number": "3.4",
+  "number": "3.5",
   "title": "",
   "body": "  Determine whether two lines are parallel, perpendicular, or neither.  Find the equation of a line parallel to a given line.  Find the equation of a line perpendicular to a given line.   "
 },
@@ -2093,7 +2111,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-perp_parallel.html#sec-perp_parallel-12-3-1",
   "type": "Worksheet Exercise",
-  "number": "3.4.1",
+  "number": "3.5.1",
   "title": "",
   "body": " Determine whether the given lines are parallel, perpendicular, or neithe.   and .  and .  and . "
 },
@@ -2102,7 +2120,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-perp_parallel.html#sec-perp_parallel-12-4-1",
   "type": "Worksheet Exercise",
-  "number": "3.4.2",
+  "number": "3.5.2",
   "title": "",
   "body": "Find the equation of the line parallel to that passes through the point . "
 },
@@ -2111,7 +2129,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-perp_parallel.html#sec-perp_parallel-12-4-2",
   "type": "Worksheet Exercise",
-  "number": "3.4.3",
+  "number": "3.5.3",
   "title": "",
   "body": "Find the equation of the line perpendicular to that passes through the point . "
 },
@@ -2120,7 +2138,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-quadratic_functions.html",
   "type": "Section",
-  "number": "3.5",
+  "number": "3.6",
   "title": "Quadratic Functions",
   "body": " Quadratic Functions             In this section, we study polynomial functions of degree 2. These polynomial functions are often called quadratic functions .    Vertex Form   Quadratic Function   A function is quadratic   Function  Quadratic  if it has the form where , , and are numbers, and .    Just as with lines, quadratic functions are easier to understand through visualizations. The simplest quadratic function to understand is . We call the graph of a parabola .  Graph  Parabola  The point is called the vertex .  Graph  Parabola  Vertex    As we have already seen in , the graph of this function is symmetric about the -axis, which is the vertical line through the vertex. While general quadratics are slightly more complicated, we can use the properties of to graph the class of quadratics in the following form.   The Vertex Form of a Quadratic   A quadratic function, , is in vertex form   Function  Quadratic  Vertex Form  if there are numbers and such that     Using the methods of , we can graph quadratics in this form by following the steps below.   Graphing Quadratic Functions in Vertex Form   To graph of the quadratic function    Translate the graph of horizontally by units.   If , then the translation is to the right.    If , then the translation is to the left.       Scale the graph of by .   If , then the graph is stretched.    If , then the graph is compressed.       If , reflect the graph of over the -axis.    Translate the graph of vertically by units.   If , then the translation is down.    If , then the translation is up.            Graph the function .    Following , we perform the following operations on the graph of the function .  Translate the graph of to the left by 1 to obtain the graph of .  Stretch the graph of by a factor of 2 to obtain the graph of .  Reflect the graph of across the -axis to obtain the graph of .  Translate the graph of up by 1 to obtain the graph of .    These operations are shown below.   The transformations used to graph .     Translate the graph of to the left by       Stretch the graph of by a factor of         Reflect the graph of across the -axis       Translate the graph of up by           If we follow the vertex, we can see the first operation moves the point to . Since the point lies on the -axis, the second and third operation do not move the point . The fourth operation moves the point to the point . Since these operations preserve the general shape of the graph, a quadratic function in the form is a parabola with vertex at . Hence the reason for the name vertex form .  Similarly, if we follow the line of symmetry for , then we can see the first operation moves the vertical line to the vertical line . The following three operations do not change the vertical line, so the graph of is symmetric about the vertical line .  Finally, we observe the third operation may change the direction in which the parabola opens.    The graph of a parabola is    concave up   Function  Quadratic  Concave Up  if the parabola opens upwards like .     concave down   Function  Quadratic  Concave Down  if the parabola opens downwards like .       For quadratics in vertex form , we can see that is concave up whenever and concave down whenever .    Completing the Square  Surprisingly, every quadratic function can be placed into vertex form. Paired with the observations above, this tells us the graph of every quadratic function is a parabola. Placing a general quadratic function into vertex form will require the method of completing the square.  Remember that when we multiply two binomials, we must distribute. We can remember how to distribute using the mnemonic FOIL: F irst, O uter, I nner, L ast:   Multiplying binomials using the FOIL method.    If we use this method to multiply a binomial by itself, then we find the useful formula We call a quadratic function of the form a perfect square .  Perfect Square    Given a quadratic equation , we can use the formula to complete the square   Complete the Square  as follows.   Completing the Square   To complete the square with the quadratic function   Factor an from the first two terms to get   Add and subtract inside the parentheses to get   Factor the first three terms inside the parentheses as a perfect square   Distribute the through the sum            The number is the -coordinate of the vertex, and the number is the -coordinate of the vertex.   The Vertex Formula   Let be a quadratic function. The -coordinate of the vertex is and the -coordinate of the vertex is   As an ordered pair, the vertex of the graph of occurs at      Using , the vertex form of the quadratic function is      Find the vertex form of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function       Find the vertex of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function is       The Quadratic Formula  In order to accurately graph a quadratic function , it is necessary to identify the -intercepts for the function. A point in the Cartesian plane is an for this function if This reduces the geometric problem of finding the -intercepts of a quadratic to the algebraic problem finding solutions to equations.    An equation of the form is called a quadratic equation   Equation  Quadratic      To find the solutions to the quadratic equation , we use to write and solve this equation for    It is important to note that are real numbers only when is a non-negative number. The number is an important invariant of a quadratic function.   The Discriminant   The discriminant   Function  Quadratic  Discriminant  of the quadratic function is the number     The discriminant provides both algebraic and geometric information about quadratic functions. On the algebraic side, the discriminant tells us how many solutions there are to the quadratic equation .   The Quadratic Formula   The quadratic equation has either two, one, or zero real solutions, depending on , .   If , then the two solutions are    If , then the only solution is   If , then there are no real solutions.      If we pair with , then we have an algorithmic way to factor any quadratic function.    The quadratic function factors as where is the discriminant.                                Factor the quadratic .    The discriminant is so the roots are By , the factorization is We can check our answer by using FOIL to see     On the geometric side, the discriminant tells us how many -intercepts the graph of has.   The -intercepts of a Quadratic Function  The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.       Find the -intercepts of the function .    Since the discriminant is this function does not have any -intercepts.      Find the -intercepts of the function .    The discriminant of this quadratic is The solutions to the equation are given by the formula This tells us that one intercept occurs when and the other occurs when Therefore the -intercepts are       Graphing Qudaratics  We can simplify the process of graphing a quadratic function by using the tools we have developed in this section.   Graphing a Quadratic Function     Use the to find the vertex, , of the parabola. Plot the vertex in the plane.    Factor or use the to find the -intercept(s). If there are -intercepts, plot them in the plane.    Plot the -intercept, , in the plane.    Draw a parabola through the points in Steps (1) through (3).  The parabola will open upwards if .  The parabola will open downwards if .          Working with Quadratic Functions    find the vertex of a quadratic function,  find the -intercept(s) of a quadratic function  find the -intercept of a quadratic function,  graph a quadratic function.     Sketch a graph of each of the quadratic functions below. Label the -intercept, the vertex, and any -intercepts.                "
 },
@@ -2129,7 +2147,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#def-quadratic_function",
   "type": "Definition",
-  "number": "3.5.1",
+  "number": "3.6.1",
   "title": "Quadratic Function.",
   "body": " Quadratic Function   A function is quadratic   Function  Quadratic  if it has the form where , , and are numbers, and .   "
 },
@@ -2147,7 +2165,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#def-vertex_form",
   "type": "Definition",
-  "number": "3.5.2",
+  "number": "3.6.2",
   "title": "The Vertex Form of a Quadratic.",
   "body": " The Vertex Form of a Quadratic   A quadratic function, , is in vertex form   Function  Quadratic  Vertex Form  if there are numbers and such that    "
 },
@@ -2156,7 +2174,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#algo-graphing_quadratics",
   "type": "Algorithm",
-  "number": "3.5.3",
+  "number": "3.6.3",
   "title": "Graphing Quadratic Functions in Vertex Form.",
   "body": " Graphing Quadratic Functions in Vertex Form   To graph of the quadratic function    Translate the graph of horizontally by units.   If , then the translation is to the right.    If , then the translation is to the left.       Scale the graph of by .   If , then the graph is stretched.    If , then the graph is compressed.       If , reflect the graph of over the -axis.    Translate the graph of vertically by units.   If , then the translation is down.    If , then the translation is up.         "
 },
@@ -2165,7 +2183,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#sec-quadratic_functions-3-8",
   "type": "Example",
-  "number": "3.5.4",
+  "number": "3.6.4",
   "title": "",
   "body": "  Graph the function .    Following , we perform the following operations on the graph of the function .  Translate the graph of to the left by 1 to obtain the graph of .  Stretch the graph of by a factor of 2 to obtain the graph of .  Reflect the graph of across the -axis to obtain the graph of .  Translate the graph of up by 1 to obtain the graph of .    These operations are shown below.   The transformations used to graph .     Translate the graph of to the left by       Stretch the graph of by a factor of         Reflect the graph of across the -axis       Translate the graph of up by          "
 },
@@ -2174,7 +2192,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#sec-quadratic_functions-3-12",
   "type": "Definition",
-  "number": "3.5.6",
+  "number": "3.6.6",
   "title": "",
   "body": "  The graph of a parabola is    concave up   Function  Quadratic  Concave Up  if the parabola opens upwards like .     concave down   Function  Quadratic  Concave Down  if the parabola opens downwards like .      "
 },
@@ -2183,7 +2201,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#subsec-completing_the_square-4",
   "type": "Figure",
-  "number": "3.5.7",
+  "number": "3.6.7",
   "title": "",
   "body": " Multiplying binomials using the FOIL method.   "
 },
@@ -2210,7 +2228,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#alg-completing_the_square",
   "type": "Algorithm",
-  "number": "3.5.8",
+  "number": "3.6.8",
   "title": "Completing the Square.",
   "body": " Completing the Square   To complete the square with the quadratic function   Factor an from the first two terms to get   Add and subtract inside the parentheses to get   Factor the first three terms inside the parentheses as a perfect square   Distribute the through the sum      "
 },
@@ -2219,7 +2237,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#vertex_formula",
   "type": "Formula",
-  "number": "3.5.9",
+  "number": "3.6.9",
   "title": "The Vertex Formula.",
   "body": " The Vertex Formula   Let be a quadratic function. The -coordinate of the vertex is and the -coordinate of the vertex is   As an ordered pair, the vertex of the graph of occurs at    "
 },
@@ -2228,7 +2246,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#subsec-completing_the_square-10",
   "type": "Remark",
-  "number": "3.5.10",
+  "number": "3.6.10",
   "title": "",
   "body": " Using , the vertex form of the quadratic function is   "
 },
@@ -2237,7 +2255,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#subsec-completing_the_square-11",
   "type": "Example",
-  "number": "3.5.11",
+  "number": "3.6.11",
   "title": "",
   "body": "  Find the vertex form of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function    "
 },
@@ -2246,7 +2264,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#subsec-completing_the_square-12",
   "type": "Example",
-  "number": "3.5.12",
+  "number": "3.6.12",
   "title": "",
   "body": "  Find the vertex of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function is    "
 },
@@ -2255,7 +2273,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#sec-quadratic_functions-5-3",
   "type": "Definition",
-  "number": "3.5.13",
+  "number": "3.6.13",
   "title": "",
   "body": "  An equation of the form is called a quadratic equation   Equation  Quadratic     "
 },
@@ -2264,7 +2282,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#def-discriminant",
   "type": "Definition",
-  "number": "3.5.14",
+  "number": "3.6.14",
   "title": "The Discriminant.",
   "body": " The Discriminant   The discriminant   Function  Quadratic  Discriminant  of the quadratic function is the number    "
 },
@@ -2273,7 +2291,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#quadratic_formula",
   "type": "Formula",
-  "number": "3.5.15",
+  "number": "3.6.15",
   "title": "The Quadratic Formula.",
   "body": " The Quadratic Formula   The quadratic equation has either two, one, or zero real solutions, depending on , .   If , then the two solutions are    If , then the only solution is   If , then there are no real solutions.     "
 },
@@ -2282,7 +2300,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#thm-quadratic_factorization",
   "type": "Theorem",
-  "number": "3.5.16",
+  "number": "3.6.16",
   "title": "",
   "body": "  The quadratic function factors as where is the discriminant.   "
 },
@@ -2291,7 +2309,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#sec-quadratic_functions-5-11",
   "type": "Example",
-  "number": "3.5.17",
+  "number": "3.6.17",
   "title": "",
   "body": "  Factor the quadratic .    The discriminant is so the roots are By , the factorization is We can check our answer by using FOIL to see    "
 },
@@ -2300,7 +2318,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#sec-quadratic_functions-5-13",
   "type": "Theorem",
-  "number": "3.5.18",
+  "number": "3.6.18",
   "title": "The <span class=\"process-math\">\\(x\\)<\/span>-intercepts of a Quadratic Function.",
   "body": " The -intercepts of a Quadratic Function  The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.    "
 },
@@ -2309,7 +2327,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#sec-quadratic_functions-5-14",
   "type": "Example",
-  "number": "3.5.19",
+  "number": "3.6.19",
   "title": "",
   "body": "  Find the -intercepts of the function .    Since the discriminant is this function does not have any -intercepts.   "
 },
@@ -2318,7 +2336,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#sec-quadratic_functions-5-15",
   "type": "Example",
-  "number": "3.5.20",
+  "number": "3.6.20",
   "title": "",
   "body": "  Find the -intercepts of the function .    The discriminant of this quadratic is The solutions to the equation are given by the formula This tells us that one intercept occurs when and the other occurs when Therefore the -intercepts are    "
 },
@@ -2327,7 +2345,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#sec-quadratic_functions-6-3",
   "type": "Algorithm",
-  "number": "3.5.21",
+  "number": "3.6.21",
   "title": "Graphing a Quadratic Function.",
   "body": " Graphing a Quadratic Function     Use the to find the vertex, , of the parabola. Plot the vertex in the plane.    Factor or use the to find the -intercept(s). If there are -intercepts, plot them in the plane.    Plot the -intercept, , in the plane.    Draw a parabola through the points in Steps (1) through (3).  The parabola will open upwards if .  The parabola will open downwards if .       "
 },
@@ -2336,7 +2354,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#sec-quadratic_functions-7-2",
   "type": "Objectives",
-  "number": "3.5.5",
+  "number": "3.6.5",
   "title": "",
   "body": "  find the vertex of a quadratic function,  find the -intercept(s) of a quadratic function  find the -intercept of a quadratic function,  graph a quadratic function.   "
 },
@@ -2345,7 +2363,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#sec-quadratic_functions-7-4-1",
   "type": "Worksheet Exercise",
-  "number": "3.5.5.1",
+  "number": "3.6.5.1",
   "title": "",
   "body": "  "
 },
@@ -2354,7 +2372,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#sec-quadratic_functions-7-4-2",
   "type": "Worksheet Exercise",
-  "number": "3.5.5.2",
+  "number": "3.6.5.2",
   "title": "",
   "body": "  "
 },
@@ -2363,7 +2381,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#sec-quadratic_functions-7-5-1",
   "type": "Worksheet Exercise",
-  "number": "3.5.5.3",
+  "number": "3.6.5.3",
   "title": "",
   "body": " "
 },
