@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-sytems_of_lines" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Two Variables</title>
+
+  <introduction>
+    <p>
+      It is common to encounter situations involving multiple polynomials where we would like to find the points that are solutions to <em>all</em> of the polynomials at once.
+      In the most general situation, we do not place any restrictions on the polynomials involved.
+      This leads to a branch of mathematics called <url href="https://en.wikipedia.org/wiki/Algebraic_geometry">algebraic geometry</url>.
+      The simplest case occurs when each of the polynomials involved is linear, and is known as <url href="https://en.wikipedia.org/wiki/Linear_algebra">linear algebra</url>.
+      Both topics are well beyond the scope of this course, so we focus on finding solutions in two very special cases.
+    </p>
+  </introduction>
+
+  <subsection>
+    <title>Systems of Linear Equations in Two Variables</title>
+    <p>
+      First we begin with a rigorous definition of a linear system.
+    </p>
+    <definition xml:id="def-system_lines">
+      <statement>
+	<p>
+	  A <term>system of <m>m</m> linear equations in the variables <m>x</m> and <m>y</m></term>
+	  <idx>
+	    <h>Linear System</h>
+	    <h>Two Variables</h>
+	  </idx>
+	  is a collection of <m>m</m> equations
+	  <me>
+	    \begin{array}{ccccc}
+	    a_1x \amp + \amp b_1y \amp=\amp c_1\\
+	    a_2x \amp + \amp b_2y \amp=\amp c_2\\
+	    \vdots \amp \amp \vdots \amp \amp\vdots\\
+	    a_mx \amp + \amp b_my \amp=\amp c_m
+	    \end{array}
+	  </me>
+	</p>
+	<p>
+	  A <term>solution</term>
+	  <idx>
+	    <h>Linear System</h>
+	    <h>Two Variables</h>
+	    <h>Solution</h>
+	  </idx>
+	  to the system is a point <m>(a,b)</m> that is a <xref ref="def-solution" text="custom">solution</xref> for <em>every</em> equation in the system.
+	</p>
+      </statement>
+    </definition>
+
+    <example>
+      <statement>
+	<p>
+	  Verify that <m>(1,2)</m> is a solution to the system of two equations in <m>x</m> and <m>y</m>
+	  <md>
+	    <mrow>-3x + y \amp= -1</mrow>
+	    <mrow>-x +y \amp= 1</mrow>
+	  </md>
+        </p>
+      </statement>
+      <solution>
+	<p>
+	  We must verify that <m>(1,2)</m> is a solution for <em>both</em> equations.
+	  For the first equation,
+	  <me>-3(1) + 2 = -3 + 2 = -1</me>
+	  and for the second equation
+	  <me>-(1) + 2 = -1 + 2 = 1.</me>
+	</p>
+      </solution>
+    </example>
+
+    <p>
+      Solutions to system of equations have geometric meaning.
+      Given a system of <m>m</m> linear equations in the variables <m>x</m> and <m>y</m>, each equation <m>a_ix + b_iy = c_i</m> represents a <xref ref="def-linear_equation" text="custom">line in standard form</xref>.
+      A solution to the linear system is a point that lies on each line <mdash/> we call this a point of <term>intersection</term>
+      <idx>
+	<h>Intersection</h>
+	<h>Lines</h>
+      </idx>
+    </p>
+
+    <example>
+      <statement>
+	<p>
+	  Interpret the solution, <m>(1,2)</m>, to the system of two equations in <m>x</m> and <m>y</m>
+	  <md>
+	    <mrow>-3x + y \amp= -1</mrow>
+	    <mrow>-x + y \amp= 1</mrow>
+	  </md>
+	  geometrically.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  To graph the lines, we rewrite each line in <xref ref="thm-slope_intercept" text="custom">slope-intercept form</xref>
+	  <md>
+	    <mrow>y \amp= 3x - 1</mrow>
+	    <mrow>y \amp= x + 1</mrow>
+	  </md>
+	  This tells us the first line passes through the points <m>(1,2)</m> and <m>(0,-1)</m>, and the second line passes through the points <m>(1,2)</m> and <m>(0,1)</m>.
+	  Plotting these lines, we can see that <m>(1,2)</m> is the only point of intersection.
+	</p>
+	<figure>
+	  <caption>The geometric interpretation of the solution to the system.</caption>
+	  <image>
+	    <latex-image>
+	      \begin{tikzpicture}
+	      \def\size{5}
+	      
+	      \path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
+
+	      \foreach \i in {1,...,\size} 
+	      \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
+	      (-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
+	      (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
+	      (2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
+	      
+	      \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
+	      \draw [very thick,->] (0,-\size) -- (0,\size+.1) node [anchor=west] {$y$};
+
+	      \begin{scope}[domain=-\size:\size]
+	      \clip (-\size,-\size) rectangle (\size,\size);
+	      \draw [color=blue,thick] plot[smooth,samples=500] (\x,{3*\x - 1});
+	      \draw [color=red,thick] plot[smooth,samples=500] (\x,{\x + 1});
+	      \end{scope}
+
+	      \node at (1,2) {$\bullet$};
+	      \node at (0,1) {$\bullet$};
+	      \node at (0,-1) {$\bullet$};
+
+	      \end{tikzpicture}
+	    </latex-image>
+	  </image>
+	</figure>
+      </solution>
+    </example>
+
+    <p>
+      A slightly stranger way for a linear system in the variables <m>x</m> and <m>y</m> to have a solution is when the lines are the same.
+      In this case, there are infinitely many solutions.
+    </p>
+
+    <example>
+      <statement>
+	<p>
+	  Verify geometrically that the system
+	  <md>
+	    <mrow>x + 2y \amp= 4</mrow>
+	    <mrow>2x + 4y \amp= 8</mrow>
+	  </md>
+	  has infinitely many solutions.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  First, convert each of the lines to <xref ref="thm-slope_intercept" text="custom">slope-intercept form</xref>:
+	  <md>
+	    <mrow>\amp x + 2y = 4 \amp\amp \text{Subtract}\ x\ \text{from both sides}</mrow>
+	    <mrow>\amp 2y = -x + 4\amp\amp \text{Divide both sides by}\ 2</mrow>
+	    <mrow>\amp y = -\frac{1}{2}x + 2</mrow>
+	  </md>
+	  and
+	  <md>
+	    <mrow>\amp 2x + 4y = 8 \amp\amp \text{Subtract}\ 2x\ \text{from both sides}</mrow>
+	    <mrow>\amp 4y = -2x + 8\amp\amp \text{Divide both sides by}\ 4</mrow>
+	    <mrow>\amp y = -\frac{1}{2}x + 2</mrow>
+	  </md>
+	  We can see in this form that they are the same line, so they intersect infinitely many times.
+	  Moreover, the points of intersection all have the form <m>(x, -1/2x + x).</m>
+	</p>
+	<figure>
+	  <caption>The solutions to the system</caption>
+	  <image>
+	    <latex-image>
+	      \begin{tikzpicture}
+	      \def\size{5}
+	      
+	      \path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
+
+	      \foreach \i in {1,...,\size} 
+	      \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
+	      (-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
+	      (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
+	      (2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
+	      
+	      \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
+	      \draw [very thick,->] (0,-\size) -- (0,\size+.1) node [anchor=west] {$y$};
+
+	      \begin{scope}[domain=-\size:\size]
+	      \clip (-\size,-\size) rectangle (\size,\size);
+	      \draw [color=blue,thick] plot[smooth,samples=500] (\x,{-\x/2 + 2});
+	      \end{scope}
+
+	      \end{tikzpicture}
+	    </latex-image>
+	  </image>
+	</figure>
+      </solution>
+    </example>
+
+    <definition>
+      <statement>
+	<p>
+	  We say a system of linear equations is <term>dependent</term>
+	  <idx>
+	    <h>Linear System</h>
+	    <h>Dependent</h>
+	  </idx>
+	  if there are infinitely many solutions to the system.
+	</p>
+      </statement>
+    </definition>
+    
+    <p>
+      In general, a system is not guaranteed to have <em>any</em> solutions.
+      The simplest way this can happen is if two lines in the system are <xref ref="def-parallel" text="custom">parallel</xref>.
+      However, if there are more than two lines, then the system may fail to have any solutions even if no two lines are parallel.
+    </p>
+
+    <example>
+      <statement>
+	<p>
+	  Verify geometrically that the system
+	  <md>
+	    <mrow>-2x + 3y \amp= 6</mrow>
+	    <mrow>x + 2y \amp= 2</mrow>
+	    <mrow>4x + y \amp= 4</mrow>
+	  </md>
+	  does not have any solutions.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  A solution would correspond to a common point of intersection for all three lines.
+	  We graph each line by finding two points on each line
+	  <ul>
+	    <li>
+	      <p>
+		The line <m>-2x + 3y = 6</m> passes through the points <m>(0, 2)</m> and <m>(-3,0)</m>
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		The line <m>x + 2y = 2</m> passes through the points <m>(0,1)</m> and <m>(2,0)</m>
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		The line <m>4x + y = 4</m> passes through the points <m>(0, 4)</m> and <m>(1,0)</m>
+	      </p>
+	    </li>
+	  </ul>
+	  When we plot the lines, we can see that each pair intersects, but there is no one point through which all three pass.
+	</p>
+	<figure>
+	  <caption>The graph of three lines with no common point of intersection</caption>
+	  <image>
+	    <latex-image>
+	      \begin{tikzpicture}
+	      \def\size{5}
+	      
+	      \path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
+
+	      \foreach \i in {1,...,\size} 
+	      \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
+	      (-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
+	      (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
+	      (2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
+	      
+	      \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
+	      \draw [very thick,->] (0,-\size) -- (0,\size+.1) node [anchor=west] {$y$};
+
+	      \begin{scope}[domain=-\size:\size]
+	      \clip (-\size,-\size) rectangle (\size,\size);
+	      \draw [color=blue,thick] plot[smooth,samples=500] (\x,{2*\x/3 + 2});
+	      \draw [color=red,thick] plot[smooth,samples=500] (\x,{-\x/2 + 1});
+	      \draw [color=green!50!black,thick] plot[smooth,samples=500] (\x,{-4*\x + 4});
+	      \end{scope}
+
+	      \node [color=blue] at (-3,0) {$\bullet$};
+	      \node [color=blue] at (0,2) {$\bullet$};
+
+	      \node [color=red] at (0,1) {$\bullet$};
+	      \node [color=red] at (2,0) {$\bullet$};
+
+	      \node [color=green!50!black] at (0,4) {$\bullet$};
+	      \node [color=green!50!black] at (1,0) {$\bullet$};
+
+	      \end{tikzpicture}
+	    </latex-image>
+	  </image>
+	</figure>
+      </solution>
+    </example>
+
+    <definition xml:id="def-inconsistent">
+      <statement>
+	<p>
+	  We say a linear system is <term>consistent</term>
+	  <idx>
+	    <h>Linear Systesm</h>
+	    <h>Consistent</h>
+	  </idx>
+	  if there is at least one solution.
+	  Otherwise, we say the linear system is <term>inconsistent</term>.
+	  <idx>
+	    <h>Linear System</h>
+	    <h>Inconsistent</h>
+	  </idx>
+	</p>
+      </statement>
+    </definition>
+
+    <p>
+      It is a surprising fact of linear algebra that this essentially characterizes the behavior of <em>every</em> linear system <mdash/> regardless of the number of variables and equations.
+      That is to say, there are three possible behaviors for a linear system:
+      <ul>
+	<li>
+	  <p>
+	    The system is inconsistent (<ie/> no solutions),
+	  </p>
+	</li>
+	<li>
+	  <p>
+	    The system has exactly one solution, or
+	  </p>
+	</li>
+	<li>
+	  <p>
+	    The system has infinitely many solutions.
+	  </p>
+	</li>
+      </ul>
+    </p>
+  </subsection>
+
+  <subsection>
+    <title>Finding Solutions Algebraically</title>
+    <p>
+      The simplest way to find solutions to a linear system in two variables is to use a method called <term>substitution</term>
+      <idx>
+	<h>Linear System</h>
+	<h>Substitution</h>
+      </idx>
+      The method relies on solving one equation in the system for a single variable of your choice and then substituting that into the other equations.
+    </p>
+
+    <example>
+      <statement>
+	<p>
+	  Use substitution to solve the system
+	  <md>
+	    <mrow>x + y \amp= 2</mrow>
+	    <mrow>-x + y \amp= 0</mrow>
+	  </md>
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  The simplest equation to solve for one variable is the second.
+	  We simply add <m>x</m> to both sides of the equation to find <m>y = x</m>.
+	  When we substitute this into the other equation to obtain
+	  <me>y + y = 2y = 2.</me>
+	  Divide both side by <m>2</m> to see that <m>y = 1</m>.
+	  Therefore the system has exactly one solution, <m>(1,1)</m>.
+	</p>
+      </solution>
+    </example>
+  </subsection>
+</section>
