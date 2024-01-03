@@ -23,7 +23,7 @@
   <introduction>
     <p>
       In the previous section, we encountered linear functions and saw that we can express these functions in the form <m>y = mx + b</m>.
-      When we graphed a linear function, we used to points to determine the line that represents the graph.
+      When we graphed a linear function, we used two points to determine the line that represents the graph.
       We can reverse this process to find a linear function.
       The first step is to determine the slope.
       In doing this, we will find two other representations for lines.
