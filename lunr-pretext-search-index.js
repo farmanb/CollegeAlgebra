@@ -1717,7 +1717,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.3",
   "title": "Linear Functions",
-  "body": " Linear Functions                   In this section, we study a special kind of polynomial known as a linear function . As we will see, the name linear comes from the fact that the graph of such a function is always a line.    Linear Functions as Degree One Polynomials   Linear Function   A function is linear   Function  Linear  if the of is constant. That is, there exists a number such that for all numbers and  We call the number the slope   Function  Linear  Slope  of . The number is the -coordinate of the  .    In order to find the equation of a linear function, it is enough to know the slope, , and the value of the function for a single -value. The simplest point to find is the : the -coordinate is and the -coordinate is . If we write , then by  We obtain the equation for the function by solving the equation for in terms of     The Slope-Intercept Form of a Line  The slope-intercept form of a linear function   Function  Linear  Slope-Intercept Form  is where is the slope or average rate of change of .     Graphing Linear Functions  Consider a linear function with . Recall that the of an equation consists of all points that are a to the equation. The graph of a linear equation is always a line. We can graph the equation by finding any two points on the line and drawing a line through them. In general, the two points that are simplest to find are the two intercepts.  We find the by substituting for and solving the resulting equation for      The of the linear function with is the point       Find the -intercept of the linear equation .    To find the -intercept of the linear equation , we substitute for to get Therefore the -intercept of the linear equation is the point .    We find the by substituting for and solving the resulting equation for      Graph the equation .    In we found that is the -intercept for the function . The for the function is the point . To graph the equation , we simply need to plot these two points and draw a straight line through them.   The graph of .          Working with Linear Functions    Recognize linear functions.  Find -intercept of a linear function.  Find the -intercept of a linear function.  Graph a linear function.     Determine whether the equation represents a linear function of in terms of . If so, express the equation in the form . Otherwise, explain why the equation does not represent a linear function.  Determine whether the equation represents a linear function of in terms of . If so, express the equation in the form . Otherwise, explain why the equation does not represent a linear function.    Find the - and -intercepts of the linear equation and sketch the graph of the equation.      Match the following equations with their graphs.                                                       "
+  "body": " Linear Functions   In this section, we study a special kind of polynomial known as a linear function . As we will see, the name linear comes from the fact that the graph of such a function is always a line.    Linear Functions and Slope   Linear Function   A function is linear   Function  Linear  if the of is constant. That is, there exists a number such that for all numbers and  We call the number the slope   Function  Linear  Slope  of . The number is the -coordinate of the  .    In order to find the equation of a linear function, it is enough to know the slope, , and the value of the function for a single -value. The simplest point to find is the : the -coordinate is and the -coordinate is . If we write , then by  We obtain the equation for the function by solving the equation for in terms of     The Slope-Intercept Form of a Line  The slope-intercept form of a linear function   Function  Linear  Slope-Intercept Form  is where is the slope or average rate of change of .     Graphing Linear Functions  Consider a linear function with . Recall that the of an equation consists of all points that are a to the equation. The graph of a linear equation is always a line. We can graph the equation by finding any two points on the line and drawing a line through them. In general, the two points that are simplest to find are the two intercepts.  We find the by substituting for and solving the resulting equation for      The of the linear function with is the point       Find the -intercept of the linear equation .    To find the -intercept of the linear equation , we substitute for to get Therefore the -intercept of the linear equation is the point .    We find the by substituting for and solving the resulting equation for      Graph the equation .    In we found that is the -intercept for the function . The for the function is the point . To graph the equation , we simply need to plot these two points and draw a straight line through them.   The graph of .          Working with Linear Functions    Recognize linear functions.  Find -intercept of a linear function.  Find the -intercept of a linear function.  Graph a linear function.     Determine whether the equation represents a linear function of in terms of . If so, express the equation in the form . Otherwise, explain why the equation does not represent a linear function.  Determine whether the equation represents a linear function of in terms of . If so, express the equation in the form . Otherwise, explain why the equation does not represent a linear function.    Find the - and -intercepts of the linear equation and sketch the graph of the equation.      Match the following equations with their graphs.                                                       "
 },
 {
   "id": "def-linear_function",
@@ -1816,7 +1816,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.4",
   "title": "Representations of Lines",
-  "body": " Representations of Lines                    In the previous section, we encountered linear functions and saw that we can express these functions in the form . When we graphed a linear function, we used to points to determine the line that represents the graph. We can reverse this process to find a linear function. The first step is to determine the slope. In doing this, we will find two other representations for lines.    The Slope of a Line through two Points   The Slope of a Line   The slope   Line  Slope  of the line through the points and is provided that . The slope measures the rate of change in with respect to , as depicted in .     The slope of the line through the points and .       In the definition of , we required that . While there is a line that passes through two distinct points with the same -coordinate, that line is a vertical line. Since a vertical line is not a function, the slope of a vertical line undefined.     Find the slope of the line through the points and .    The slope of the line through the points and is This says when the -coordinate increases by 1, the -coordinate decreases by 1.    Suppose we know the slope, , and a point that lines on the line. We can use the fact that is a to determine the -intercept. We substitute for and for in the and solve for :     The -intercept of the line with slope through the point is       Find the equation of the line through the points and .    In , we saw the slope of the line is . If we use the point , then we can find the -intercept by solving This tells us the equation of the line through and is .  We could also have used the point to find an equation of the line. If we use the point , then the -intercept is given by solving We can see that no matter which point we use, we obtain the same .      The Point-Slope Form of a Line  Assume we know the slope, , of a line and a point, , on the line. Suppose is any other point on the line. Since the slope of the line is constant, we can write to find the next form of a line.   The Point-Slope Form of a Line   The point-slope form of the line   Line  Point-Slope Form  through the point with slope is     This form of a line is convenient to use when we know the slope of a line and a point on the line.    Find the using the point and the slope .    Using , the equation of the line through with slope is       Find an equation for the line that passes through the points and .    We can use the to find the line between the points and . First compute the slope of the line Use either of the two points to find the equation   While these equations may look different, we can compare them by placing them in . For the first equation, add to both sides to get and for the second, add to both sides to get In this form, we can see that these equations represent the same line.      The Standard Equation of a Line  So far, we have only been interested in working with lines with a well-defined slope. Sometimes, it is convenient to work with lines that may be vertical. The standard equation of a line allows us to do just that.   Standard Equation of a Line   The standard equation of a line   Equation  Line  Standard  in the variables and is where and are not both zero.     Caution!  The standard equation of a line may not always represent an equation where is a function of ! If , then the standard equation of a line reduces to which is a vertical line.     Place the linear equation into .    The equation can be placed in standard form as follows. First, move the variables to the left-hand side of the equation. Subtract from both sides and distribute the negative Collect like terms and simplify Finally, subtract 7 from both sides of the equation and simplify to arrive at the standard form      Not all equations are linear. For example, the equation is not linear because of the term .     Representation of Lines    Determine the slope of a line through two points.   Represent a line using  Slope-Intercept Form,  Point-Slope Form, and  Standard Form.        Find the slope of the line through the points and .  Write the equation of the line through the points and in Point-Slope Form.  Write the equation of the line through the points and in Slope-Intercept Form.  Write the equation of the line through the points and in Standard Form.  Find the slope of the line represented by the equation .     You and a friend used the same parking garage. You parked your car for 2 hours and it cost . Your friend parked her car for 4 hours and it cost .  Let represent the number of hours of parking and let represent the cost. Assuming the relationship is linear, how much does parking cost per hour? Find a linear function that models the cost of parking. The garage charges a flat fee to enter the parking garage. How much is this fee?    "
+  "body": " Representations of Lines                    In the previous section, we encountered linear functions and saw that we can express these functions in the form . When we graphed a linear function, we used two points to determine the line that represents the graph. We can reverse this process to find a linear function. The first step is to determine the slope. In doing this, we will find two other representations for lines.    The Slope of a Line through two Points   The Slope of a Line   The slope   Line  Slope  of the line through the points and is provided that . The slope measures the rate of change in with respect to , as depicted in .     The slope of the line through the points and .       In the definition of , we required that . While there is a line that passes through two distinct points with the same -coordinate, that line is a vertical line. Since a vertical line is not a function, the slope of a vertical line undefined.     Find the slope of the line through the points and .    The slope of the line through the points and is This says when the -coordinate increases by 1, the -coordinate decreases by 1.    Suppose we know the slope, , and a point that lines on the line. We can use the fact that is a to determine the -intercept. We substitute for and for in the and solve for :     The -intercept of the line with slope through the point is       Find the equation of the line through the points and .    In , we saw the slope of the line is . If we use the point , then we can find the -intercept by solving This tells us the equation of the line through and is .  We could also have used the point to find an equation of the line. If we use the point , then the -intercept is given by solving We can see that no matter which point we use, we obtain the same .      The Point-Slope Form of a Line  Assume we know the slope, , of a line and a point, , on the line. Suppose is any other point on the line. Since the slope of the line is constant, we can write to find the next form of a line.   The Point-Slope Form of a Line   The point-slope form of the line   Line  Point-Slope Form  through the point with slope is     This form of a line is convenient to use when we know the slope of a line and a point on the line.    Find the using the point and the slope .    Using , the equation of the line through with slope is       Find an equation for the line that passes through the points and .    We can use the to find the line between the points and . First compute the slope of the line Use either of the two points to find the equation   While these equations may look different, we can compare them by placing them in . For the first equation, add to both sides to get and for the second, add to both sides to get In this form, we can see that these equations represent the same line.      The Standard Equation of a Line  So far, we have only been interested in working with lines with a well-defined slope. Sometimes, it is convenient to work with lines that may be vertical. The standard equation of a line allows us to do just that.   Standard Equation of a Line   The standard equation of a line   Equation  Line  Standard  in the variables and is where and are not both zero.     Caution!  The standard equation of a line may not always represent an equation where is a function of ! If , then the standard equation of a line reduces to which is a vertical line.     Place the linear equation into .    The equation can be placed in standard form as follows. First, move the variables to the left-hand side of the equation. Subtract from both sides and distribute the negative Collect like terms and simplify Finally, subtract 7 from both sides of the equation and simplify to arrive at the standard form      Not all equations are linear. For example, the equation is not linear because of the term .     Representation of Lines    Determine the slope of a line through two points.   Represent a line using  Slope-Intercept Form,  Point-Slope Form, and  Standard Form.        Find the slope of the line through the points and .  Write the equation of the line through the points and in Point-Slope Form.  Write the equation of the line through the points and in Slope-Intercept Form.  Write the equation of the line through the points and in Standard Form.  Find the slope of the line represented by the equation .     You and a friend used the same parking garage. You parked your car for 2 hours and it cost . Your friend parked her car for 4 hours and it cost .  Let represent the number of hours of parking and let represent the cost. Assuming the relationship is linear, how much does parking cost per hour? Find a linear function that models the cost of parking. The garage charges a flat fee to enter the parking garage. How much is this fee?    "
 },
 {
   "id": "def-slope",
@@ -2134,11 +2134,191 @@ var ptx_lunr_docs = [
   "body": "Find the equation of the line perpendicular to that passes through the point . "
 },
 {
+  "id": "sec-linear_ineq",
+  "level": "1",
+  "url": "sec-linear_ineq.html",
+  "type": "Section",
+  "number": "3.6",
+  "title": "Linear Inequalities",
+  "body": " Linear Inequalities             Linear Inequality   A linear inequality   Inequality  Linear  in the variables and is an expression that can be placed in one of the following forms  ,  ,  , or  .       Solution to an Inequality   A solution   Inequality  Linear  Solution  to an inequality in the variables and is an ordered pair that make the equation true when  the first coordinate, , is substituted into the inequality for , and  the second coordinate, , is substituted into the inequality for .       Graph of an Inequality   The graph   Inequality  Linear  Graph  of an inequality in the variables and consists of all the points in the plane that are solutions to the inequality.      Graph the linear inequality     The graph of consists of all the points that are below the line .  We use a dashed line to indicate the points on the line are not a solution to the inequality and shade the portion of the plane beneath the line to indicate those points are solutions to the inequality.   The graph of the linear inequality .          Graph the linear inequality     The graph of consists of all the points that are on or below the line .  We use a solid line to indicate the points on the line are a solution to the linear inequality and shade the portion of the plane beneath the line to indicate that those points are also solutions.   The graph of the linear inequality .          Graph the linear inequality     The graph of consists of all the points that are above the line .  We use a dashed line to indicate the points on the line are not solutions to the inequality and shade the portion of the plane above the line to indicate that those points are solutions.   The graph of the linear inequality .          Graph the linear inequality     The graph of consists of all the points that are either on or above the line .  We use a solid line to indicate the points on the line are solutions to the linear inequality and shade the portion of the plane above the line to indicate that those points are also solutions.   The graph of the linear inequality .         Absolute Value and Inequality   Linear Absolute Value Inequality   A linear absolute value inequality   Inequality  Linear  Absolute Value  in the variables and is an expression that can be placed in one of the following forms   ,   ,   , or   .      Recall from , for any number , measures the distance between and the origin on the number line. We can see from that and are the same distance from the origin.   The distance between and the origin, and between and the origin.      This observation tells us for an linear absolute value inequality of the form , we are looking for the points in the plane such that the number is less than units away from 0 on the number line. From we can see these are the solutions to both  If we rewrite these as the linear inequalities then we can see the solutions to are the points that are above the line and below the line . Similarly, the solutions to are the points that are either on or between the lines and below the line .  For an linear absolute value inequality of the form , the observation above tells us we are looking for the points in the plane such that the number is more than units away from 0 on the number line. From we can see these are solutions to either  If we rewrite these as the liner inequalities then we can see the solutions to are the points that are below the line or above the line . Similarly, the solutions to the linear absolute value inequality are the points that are either on or below the line or on or above the line .    Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to both of the linear inequalities This means the graph is the overlap between and . That is, the points that are between the lines    The graph of the linear absolute value inequality .          Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to both of the linear inequalities This means the graph is the overlap between and . That is, the points that are either on or between the lines    The graph of the linear absolute value inequality .          Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to either  This means the graph is the combination of the graphs for the linear inequalities That is, the points that are either above the line or below the line .   The graph of the linear absolute value inequality .          Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to either the linear inequality or the linear inequality This means the graph is the combination of the graphs for the linear inequalities That is, the points that are either on or above the line , or on or below the line .   The graph of the linear absolute value inequality .          Working with Linear Inequalities    Graph linear inequalities.  Graph linear absolute value inequalities.     Sketch graph of the linear inequality .    Sketch graph of the linear inequality .      Match the following equations with their graphs.                                                       Graph the linear absolute value inequality    Graph the linear absolute value inequality .   "
+},
+{
+  "id": "def-linear_inequality",
+  "level": "2",
+  "url": "sec-linear_ineq.html#def-linear_inequality",
+  "type": "Definition",
+  "number": "3.6.1",
+  "title": "Linear Inequality.",
+  "body": " Linear Inequality   A linear inequality   Inequality  Linear  in the variables and is an expression that can be placed in one of the following forms  ,  ,  , or  .     "
+},
+{
+  "id": "def-solution_inequality",
+  "level": "2",
+  "url": "sec-linear_ineq.html#def-solution_inequality",
+  "type": "Definition",
+  "number": "3.6.2",
+  "title": "Solution to an Inequality.",
+  "body": " Solution to an Inequality   A solution   Inequality  Linear  Solution  to an inequality in the variables and is an ordered pair that make the equation true when  the first coordinate, , is substituted into the inequality for , and  the second coordinate, , is substituted into the inequality for .     "
+},
+{
+  "id": "def-graph_inequality",
+  "level": "2",
+  "url": "sec-linear_ineq.html#def-graph_inequality",
+  "type": "Definition",
+  "number": "3.6.3",
+  "title": "Graph of an Inequality.",
+  "body": " Graph of an Inequality   The graph   Inequality  Linear  Graph  of an inequality in the variables and consists of all the points in the plane that are solutions to the inequality.   "
+},
+{
+  "id": "sec-linear_ineq-5",
+  "level": "2",
+  "url": "sec-linear_ineq.html#sec-linear_ineq-5",
+  "type": "Example",
+  "number": "3.6.4",
+  "title": "",
+  "body": "  Graph the linear inequality     The graph of consists of all the points that are below the line .  We use a dashed line to indicate the points on the line are not a solution to the inequality and shade the portion of the plane beneath the line to indicate those points are solutions to the inequality.   The graph of the linear inequality .       "
+},
+{
+  "id": "sec-linear_ineq-6",
+  "level": "2",
+  "url": "sec-linear_ineq.html#sec-linear_ineq-6",
+  "type": "Example",
+  "number": "3.6.6",
+  "title": "",
+  "body": "  Graph the linear inequality     The graph of consists of all the points that are on or below the line .  We use a solid line to indicate the points on the line are a solution to the linear inequality and shade the portion of the plane beneath the line to indicate that those points are also solutions.   The graph of the linear inequality .       "
+},
+{
+  "id": "sec-linear_ineq-7",
+  "level": "2",
+  "url": "sec-linear_ineq.html#sec-linear_ineq-7",
+  "type": "Example",
+  "number": "3.6.8",
+  "title": "",
+  "body": "  Graph the linear inequality     The graph of consists of all the points that are above the line .  We use a dashed line to indicate the points on the line are not solutions to the inequality and shade the portion of the plane above the line to indicate that those points are solutions.   The graph of the linear inequality .       "
+},
+{
+  "id": "sec-linear_ineq-8",
+  "level": "2",
+  "url": "sec-linear_ineq.html#sec-linear_ineq-8",
+  "type": "Example",
+  "number": "3.6.10",
+  "title": "",
+  "body": "  Graph the linear inequality     The graph of consists of all the points that are either on or above the line .  We use a solid line to indicate the points on the line are solutions to the linear inequality and shade the portion of the plane above the line to indicate that those points are also solutions.   The graph of the linear inequality .       "
+},
+{
+  "id": "def-linear_absolute_value_inequality",
+  "level": "2",
+  "url": "sec-linear_ineq.html#def-linear_absolute_value_inequality",
+  "type": "Definition",
+  "number": "3.6.12",
+  "title": "Linear Absolute Value Inequality.",
+  "body": " Linear Absolute Value Inequality   A linear absolute value inequality   Inequality  Linear  Absolute Value  in the variables and is an expression that can be placed in one of the following forms   ,   ,   , or   .     "
+},
+{
+  "id": "fig-abs_val_two_sol",
+  "level": "2",
+  "url": "sec-linear_ineq.html#fig-abs_val_two_sol",
+  "type": "Figure",
+  "number": "3.6.13",
+  "title": "",
+  "body": " The distance between and the origin, and between and the origin.     "
+},
+{
+  "id": "sec-linear_ineq-9-7",
+  "level": "2",
+  "url": "sec-linear_ineq.html#sec-linear_ineq-9-7",
+  "type": "Example",
+  "number": "3.6.14",
+  "title": "",
+  "body": "  Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to both of the linear inequalities This means the graph is the overlap between and . That is, the points that are between the lines    The graph of the linear absolute value inequality .       "
+},
+{
+  "id": "sec-linear_ineq-9-8",
+  "level": "2",
+  "url": "sec-linear_ineq.html#sec-linear_ineq-9-8",
+  "type": "Example",
+  "number": "3.6.16",
+  "title": "",
+  "body": "  Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to both of the linear inequalities This means the graph is the overlap between and . That is, the points that are either on or between the lines    The graph of the linear absolute value inequality .       "
+},
+{
+  "id": "sec-linear_ineq-9-9",
+  "level": "2",
+  "url": "sec-linear_ineq.html#sec-linear_ineq-9-9",
+  "type": "Example",
+  "number": "3.6.18",
+  "title": "",
+  "body": "  Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to either  This means the graph is the combination of the graphs for the linear inequalities That is, the points that are either above the line or below the line .   The graph of the linear absolute value inequality .       "
+},
+{
+  "id": "sec-linear_ineq-9-10",
+  "level": "2",
+  "url": "sec-linear_ineq.html#sec-linear_ineq-9-10",
+  "type": "Example",
+  "number": "3.6.20",
+  "title": "",
+  "body": "  Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to either the linear inequality or the linear inequality This means the graph is the combination of the graphs for the linear inequalities That is, the points that are either on or above the line , or on or below the line .   The graph of the linear absolute value inequality .       "
+},
+{
+  "id": "sec-linear_ineq-10-2",
+  "level": "2",
+  "url": "sec-linear_ineq.html#sec-linear_ineq-10-2",
+  "type": "Objectives",
+  "number": "3.6.2",
+  "title": "",
+  "body": "  Graph linear inequalities.  Graph linear absolute value inequalities.   "
+},
+{
+  "id": "sec-linear_ineq-10-3-1",
+  "level": "2",
+  "url": "sec-linear_ineq.html#sec-linear_ineq-10-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3.6.2.1",
+  "title": "",
+  "body": "Sketch graph of the linear inequality .   "
+},
+{
+  "id": "sec-linear_ineq-10-3-2",
+  "level": "2",
+  "url": "sec-linear_ineq.html#sec-linear_ineq-10-3-2",
+  "type": "Worksheet Exercise",
+  "number": "3.6.2.2",
+  "title": "",
+  "body": "Sketch graph of the linear inequality .   "
+},
+{
+  "id": "sec-linear_ineq-10-4-1",
+  "level": "2",
+  "url": "sec-linear_ineq.html#sec-linear_ineq-10-4-1",
+  "type": "Worksheet Exercise",
+  "number": "3.6.2.3",
+  "title": "",
+  "body": "Match the following equations with their graphs.                                                    "
+},
+{
+  "id": "sec-linear_ineq-10-5-1",
+  "level": "2",
+  "url": "sec-linear_ineq.html#sec-linear_ineq-10-5-1",
+  "type": "Worksheet Exercise",
+  "number": "3.6.2.4",
+  "title": "",
+  "body": "Graph the linear absolute value inequality  "
+},
+{
+  "id": "sec-linear_ineq-10-6",
+  "level": "2",
+  "url": "sec-linear_ineq.html#sec-linear_ineq-10-6",
+  "type": "Worksheet Exercise",
+  "number": "3.6.2.5",
+  "title": "",
+  "body": "Graph the linear absolute value inequality . "
+},
+{
   "id": "sec-quadratic_functions",
   "level": "1",
   "url": "sec-quadratic_functions.html",
   "type": "Section",
-  "number": "3.6",
+  "number": "3.7",
   "title": "Quadratic Functions",
   "body": " Quadratic Functions   In this section, we study polynomial functions of degree 2. These polynomial functions are often called quadratic functions .    Vertex Form   Quadratic Function   A function is quadratic   Function  Quadratic  if it has the form where , , and are numbers, and .    Just as with lines, quadratic functions are easier to understand through visualizations. The simplest quadratic function to understand is . We call the graph of a parabola .  Graph  Parabola  The point is called the vertex .  Graph  Parabola  Vertex    As we have already seen in , the graph of this function is symmetric about the -axis, which is the vertical line through the vertex. While general quadratics are slightly more complicated, we can use the properties of to graph the class of quadratics in the following form.   The Vertex Form of a Quadratic   A quadratic function, , is in vertex form   Function  Quadratic  Vertex Form  if there are numbers and such that     Using the methods of , we can graph quadratics in this form by following the steps below.   Graphing Quadratic Functions in Vertex Form   To graph of the quadratic function    Translate the graph of horizontally by units.   If , then the translation is to the right.    If , then the translation is to the left.       Scale the graph of by .   If , then the graph is stretched.    If , then the graph is compressed.       If , reflect the graph of over the -axis.    Translate the graph of vertically by units.   If , then the translation is down.    If , then the translation is up.            Graph the function .    Following , we perform the following operations on the graph of the function .  Translate the graph of to the left by 1 to obtain the graph of .  Stretch the graph of by a factor of 2 to obtain the graph of .  Reflect the graph of across the -axis to obtain the graph of .  Translate the graph of up by 1 to obtain the graph of .    These operations are shown below.   The transformations used to graph .     Translate the graph of to the left by       Stretch the graph of by a factor of         Reflect the graph of across the -axis       Translate the graph of up by           If we follow the vertex, we can see the first operation moves the point to . Since the point lies on the -axis, the second and third operation do not move the point . The fourth operation moves the point to the point . Since these operations preserve the general shape of the graph, a quadratic function in the form is a parabola with vertex at . Hence the reason for the name vertex form .  Similarly, if we follow the line of symmetry for , then we can see the first operation moves the vertical line to the vertical line . The following three operations do not change the vertical line, so the graph of is symmetric about the vertical line .  Finally, we observe the third operation may change the direction in which the parabola opens.    The graph of a parabola is    concave up   Function  Quadratic  Concave Up  if the parabola opens upwards like .     concave down   Function  Quadratic  Concave Down  if the parabola opens downwards like .       For quadratics in vertex form , we can see that is concave up whenever and concave down whenever .    Completing the Square  Surprisingly, every quadratic function can be placed into vertex form. Paired with the observations above, this tells us the graph of every quadratic function is a parabola. Placing a general quadratic function into vertex form will require the method of completing the square.  Remember that when we multiply two binomials, we must distribute. We can remember how to distribute using the mnemonic FOIL: F irst, O uter, I nner, L ast:   Multiplying binomials using the FOIL method.    If we use this method to multiply a binomial by itself, then we find the useful formula We call a quadratic function of the form a perfect square .  Perfect Square    Given a quadratic equation , we can use the formula to complete the square   Complete the Square  as follows.   Completing the Square   To complete the square with the quadratic function   Factor an from the first two terms to get   Add and subtract inside the parentheses to get   Factor the first three terms inside the parentheses as a perfect square   Distribute the through the sum            The number is the -coordinate of the vertex, and the number is the -coordinate of the vertex.   The Vertex Formula   Let be a quadratic function. The -coordinate of the vertex is and the -coordinate of the vertex is   As an ordered pair, the vertex of the graph of occurs at      Using , the vertex form of the quadratic function is      Find the vertex form of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function       Find the vertex of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function is       Applications to Circles  In we only encountered circles in standard form. However, circles will not always be presented this way. We study how the can help us to identify the equation of a circle, even if it is not presented in standard form.  Consider the equation We can view and as quadratic functions in the variables and , respectively. The first coordinate of the vertex of is and the second coordinate of the vertex as . This allows us to write   Similarly, the first coordinate for the vertex of is the second coordinate of the vertex of is and so   These two observations allow us to rewrite the original equation Therefore the equation represents the circle of radius centered at the point .    Working with Quadratic Functions    Place a quadratic function in vertex form  Place the equation of a circle in standard form     Place each of the quadratic functions below in vertex form. Use graph transformations to sketch a graph of the function. Label the vertex of the parabola.            Graph the equation     "
 },
@@ -2147,7 +2327,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#def-quadratic_function",
   "type": "Definition",
-  "number": "3.6.1",
+  "number": "3.7.1",
   "title": "Quadratic Function.",
   "body": " Quadratic Function   A function is quadratic   Function  Quadratic  if it has the form where , , and are numbers, and .   "
 },
@@ -2165,7 +2345,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#def-vertex_form",
   "type": "Definition",
-  "number": "3.6.2",
+  "number": "3.7.2",
   "title": "The Vertex Form of a Quadratic.",
   "body": " The Vertex Form of a Quadratic   A quadratic function, , is in vertex form   Function  Quadratic  Vertex Form  if there are numbers and such that    "
 },
@@ -2174,7 +2354,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#algo-graphing_quadratics",
   "type": "Algorithm",
-  "number": "3.6.3",
+  "number": "3.7.3",
   "title": "Graphing Quadratic Functions in Vertex Form.",
   "body": " Graphing Quadratic Functions in Vertex Form   To graph of the quadratic function    Translate the graph of horizontally by units.   If , then the translation is to the right.    If , then the translation is to the left.       Scale the graph of by .   If , then the graph is stretched.    If , then the graph is compressed.       If , reflect the graph of over the -axis.    Translate the graph of vertically by units.   If , then the translation is down.    If , then the translation is up.         "
 },
@@ -2183,7 +2363,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#sec-quadratic_functions-3-8",
   "type": "Example",
-  "number": "3.6.4",
+  "number": "3.7.4",
   "title": "",
   "body": "  Graph the function .    Following , we perform the following operations on the graph of the function .  Translate the graph of to the left by 1 to obtain the graph of .  Stretch the graph of by a factor of 2 to obtain the graph of .  Reflect the graph of across the -axis to obtain the graph of .  Translate the graph of up by 1 to obtain the graph of .    These operations are shown below.   The transformations used to graph .     Translate the graph of to the left by       Stretch the graph of by a factor of         Reflect the graph of across the -axis       Translate the graph of up by          "
 },
@@ -2192,7 +2372,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#def-concavity",
   "type": "Definition",
-  "number": "3.6.6",
+  "number": "3.7.6",
   "title": "",
   "body": "  The graph of a parabola is    concave up   Function  Quadratic  Concave Up  if the parabola opens upwards like .     concave down   Function  Quadratic  Concave Down  if the parabola opens downwards like .      "
 },
@@ -2201,7 +2381,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#subsec-completing_the_square-4",
   "type": "Figure",
-  "number": "3.6.7",
+  "number": "3.7.7",
   "title": "",
   "body": " Multiplying binomials using the FOIL method.   "
 },
@@ -2228,7 +2408,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#alg-completing_the_square",
   "type": "Algorithm",
-  "number": "3.6.8",
+  "number": "3.7.8",
   "title": "Completing the Square.",
   "body": " Completing the Square   To complete the square with the quadratic function   Factor an from the first two terms to get   Add and subtract inside the parentheses to get   Factor the first three terms inside the parentheses as a perfect square   Distribute the through the sum      "
 },
@@ -2237,7 +2417,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#vertex_formula",
   "type": "Formula",
-  "number": "3.6.9",
+  "number": "3.7.9",
   "title": "The Vertex Formula.",
   "body": " The Vertex Formula   Let be a quadratic function. The -coordinate of the vertex is and the -coordinate of the vertex is   As an ordered pair, the vertex of the graph of occurs at    "
 },
@@ -2246,7 +2426,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#subsec-completing_the_square-10",
   "type": "Remark",
-  "number": "3.6.10",
+  "number": "3.7.10",
   "title": "",
   "body": " Using , the vertex form of the quadratic function is   "
 },
@@ -2255,7 +2435,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#subsec-completing_the_square-11",
   "type": "Example",
-  "number": "3.6.11",
+  "number": "3.7.11",
   "title": "",
   "body": "  Find the vertex form of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function    "
 },
@@ -2264,7 +2444,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#subsec-completing_the_square-12",
   "type": "Example",
-  "number": "3.6.12",
+  "number": "3.7.12",
   "title": "",
   "body": "  Find the vertex of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function is    "
 },
@@ -2273,7 +2453,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#sec-quadratic_functions-6-2",
   "type": "Objectives",
-  "number": "3.6.4",
+  "number": "3.7.4",
   "title": "",
   "body": "  Place a quadratic function in vertex form  Place the equation of a circle in standard form   "
 },
@@ -2282,7 +2462,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#sec-quadratic_functions-6-4-1",
   "type": "Worksheet Exercise",
-  "number": "3.6.4.1",
+  "number": "3.7.4.1",
   "title": "",
   "body": "  "
 },
@@ -2291,7 +2471,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#sec-quadratic_functions-6-4-2",
   "type": "Worksheet Exercise",
-  "number": "3.6.4.2",
+  "number": "3.7.4.2",
   "title": "",
   "body": "  "
 },
@@ -2300,7 +2480,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quadratic_functions.html#sec-quadratic_functions-6-5-1",
   "type": "Worksheet Exercise",
-  "number": "3.6.4.3",
+  "number": "3.7.4.3",
   "title": "",
   "body": "Graph the equation  "
 },
@@ -2309,7 +2489,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-roots_quadratics.html",
   "type": "Section",
-  "number": "3.7",
+  "number": "3.8",
   "title": "Roots of Quadratic Functions",
   "body": " Roots of Quadratic Functions   The Quadratic Formula  In order to accurately graph a quadratic function , it is necessary to identify the -intercepts for the function. A point in the Cartesian plane is an for this function if This reduces the geometric problem of finding the -intercepts of a quadratic to the algebraic problem finding solutions to equations.    An equation of the form is called a quadratic equation   Equation  Quadratic      To find the solutions to the quadratic equation , we use to write and solve this equation for    It is important to note that are real numbers only when is a non-negative number. The number is an important invariant of a quadratic function.   The Discriminant   The discriminant   Function  Quadratic  Discriminant  of the quadratic function is the number     The discriminant provides both algebraic and geometric information about quadratic functions. On the algebraic side, the discriminant tells us how many solutions there are to the quadratic equation .   The Quadratic Formula   The quadratic equation has either two, one, or zero real solutions, depending on , .   If , then the two solutions are    If , then the only solution is   If , then there are no real solutions.      If we pair with , then we have an algorithmic way to factor any quadratic function.    The quadratic function factors as where is the .                                Factor the quadratic .    The discriminant is so the roots are By , the factorization is We can check our answer by using FOIL to see     On the geometric side, the discriminant tells us how many -intercepts the graph of has.   The -intercepts of a Quadratic Function  The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.       Find the -intercepts of the function .    Since the discriminant is this function does not have any -intercepts.      Find the -intercepts of the function .    The discriminant of this quadratic is The solutions to the equation are given by the formula This tells us that one intercept occurs when and the other occurs when Therefore the -intercepts are       Graphing Qudaratics  We can simplify the process of graphing a quadratic function by using the tools we have developed in this section.   Graphing a Quadratic Function     Use the to find the vertex, , of the parabola. Plot the vertex in the plane.    Factor or use the to find the -intercept(s). If there are -intercepts, plot them in the plane.    Plot the -intercept, , in the plane.    Draw a parabola through the points in Steps (1) through (3).  The parabola will open upwards if .  The parabola will open downwards if .          Roots of Quadratic Functions    Find the roots of a quadratic function     Sketch a graph of each of the quadratic functions below. Label the -intercept, the vertex, and any -intercepts.                "
 },
@@ -2318,7 +2498,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-roots_quadratics.html#sec-roots_quadratics-2-3",
   "type": "Definition",
-  "number": "3.7.1",
+  "number": "3.8.1",
   "title": "",
   "body": "  An equation of the form is called a quadratic equation   Equation  Quadratic     "
 },
@@ -2327,7 +2507,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-roots_quadratics.html#def-discriminant",
   "type": "Definition",
-  "number": "3.7.2",
+  "number": "3.8.2",
   "title": "The Discriminant.",
   "body": " The Discriminant   The discriminant   Function  Quadratic  Discriminant  of the quadratic function is the number    "
 },
@@ -2336,7 +2516,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-roots_quadratics.html#quadratic_formula",
   "type": "Formula",
-  "number": "3.7.3",
+  "number": "3.8.3",
   "title": "The Quadratic Formula.",
   "body": " The Quadratic Formula   The quadratic equation has either two, one, or zero real solutions, depending on , .   If , then the two solutions are    If , then the only solution is   If , then there are no real solutions.     "
 },
@@ -2345,7 +2525,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-roots_quadratics.html#thm-quadratic_factorization",
   "type": "Theorem",
-  "number": "3.7.4",
+  "number": "3.8.4",
   "title": "",
   "body": "  The quadratic function factors as where is the .   "
 },
@@ -2354,7 +2534,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-roots_quadratics.html#sec-roots_quadratics-2-11",
   "type": "Example",
-  "number": "3.7.5",
+  "number": "3.8.5",
   "title": "",
   "body": "  Factor the quadratic .    The discriminant is so the roots are By , the factorization is We can check our answer by using FOIL to see    "
 },
@@ -2363,7 +2543,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-roots_quadratics.html#sec-roots_quadratics-2-13",
   "type": "Theorem",
-  "number": "3.7.6",
+  "number": "3.8.6",
   "title": "The <span class=\"process-math\">\\(x\\)<\/span>-intercepts of a Quadratic Function.",
   "body": " The -intercepts of a Quadratic Function  The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.    "
 },
@@ -2372,7 +2552,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-roots_quadratics.html#sec-roots_quadratics-2-14",
   "type": "Example",
-  "number": "3.7.7",
+  "number": "3.8.7",
   "title": "",
   "body": "  Find the -intercepts of the function .    Since the discriminant is this function does not have any -intercepts.   "
 },
@@ -2381,7 +2561,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-roots_quadratics.html#sec-roots_quadratics-2-15",
   "type": "Example",
-  "number": "3.7.8",
+  "number": "3.8.8",
   "title": "",
   "body": "  Find the -intercepts of the function .    The discriminant of this quadratic is The solutions to the equation are given by the formula This tells us that one intercept occurs when and the other occurs when Therefore the -intercepts are    "
 },
@@ -2390,7 +2570,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-roots_quadratics.html#sec-roots_quadratics-3-3",
   "type": "Algorithm",
-  "number": "3.7.9",
+  "number": "3.8.9",
   "title": "Graphing a Quadratic Function.",
   "body": " Graphing a Quadratic Function     Use the to find the vertex, , of the parabola. Plot the vertex in the plane.    Factor or use the to find the -intercept(s). If there are -intercepts, plot them in the plane.    Plot the -intercept, , in the plane.    Draw a parabola through the points in Steps (1) through (3).  The parabola will open upwards if .  The parabola will open downwards if .       "
 },
@@ -2399,7 +2579,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-roots_quadratics.html#sec-roots_quadratics-4-2",
   "type": "Objectives",
-  "number": "3.7.3",
+  "number": "3.8.3",
   "title": "",
   "body": "  Find the roots of a quadratic function   "
 },
@@ -2408,7 +2588,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-roots_quadratics.html#sec-roots_quadratics-4-4-1",
   "type": "Worksheet Exercise",
-  "number": "3.7.3.1",
+  "number": "3.8.3.1",
   "title": "",
   "body": "  "
 },
@@ -2417,7 +2597,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-roots_quadratics.html#sec-roots_quadratics-4-4-2",
   "type": "Worksheet Exercise",
-  "number": "3.7.3.2",
+  "number": "3.8.3.2",
   "title": "",
   "body": "  "
 },
@@ -2426,7 +2606,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-roots_quadratics.html#sec-roots_quadratics-4-5-1",
   "type": "Worksheet Exercise",
-  "number": "3.7.3.3",
+  "number": "3.8.3.3",
   "title": "",
   "body": " "
 },
@@ -2435,7 +2615,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-inequalities.html",
   "type": "Section",
-  "number": "3.8",
+  "number": "3.9",
   "title": "Polynomial Inequalities",
   "body": " Polynomial Inequalities   We have focused primarily on solving equations of the form where is a polynomial function in the variable . We now turn to polynomial inequalities   Inequality  Polynomial  which are relations of the form    ,     ,     , or            Solutions to Inequalities  First we start with what it means to be a solution to an inequality.   Solution to a Polynomial Inequality   A solution   Inequality  Solution  to an inequality in the variable is a number that makes the expression true when is substituted for .    We can interpret this definition graphically as saying   The solutions to are the -values where the graph of is below the -axis    The solutions to are the -values where the graph of is on or below the -axis    The solutions to are the -values where the graph of is above the -axis    The solutions to are the -values where the graph of is on or above the -axis   This tells us precisely how to solve a polynomial inequality using the roots.    Solving Polynomial Inequalities Algebraically  The first method is purely algebraic. It is useful when you are unable to sketch the graph of the polynomial.   Solving Polynomial Inequalities Algebraically   To find the solutions to a polynomial inequality involving the polynomial    Find the distinct real roots of and write them in order from smallest to largest     Find numbers such that     Evaluate at each .   If the inequality is satisfied for , then the inequality holds on the interval . Otherwise, the inequality does not hold on the interval .    If the inequality is satisfied for where , then the inequality holds on the interval . Otherwise, the inequality does not hold on the interval .    If the inequality is satisfied for , then the inequality holds on the interval . Otherwise, the inequality does not hold on the interval .       Write down each interval where the inequality holds. Include the endpoints if the inequality is not strict   or . Otherwise, exclude the endpoints.         Find all solutions to the inequality     The roots of the polynomial in order are We choose the test points , , , , , and .     When , This tells us the inequality is satisfied on .    When , This tells us the inequality is not satisfied on .    When , This tells us the inequality is satisfied on .    When , This tells us the inequality is not satisfied on .    When , This tells us the inequality is satisfied on .    When , This tells us the inequality is not satisfied on .   Therefore the inequality holds for all in the set       Solving Polynomial Inequalities Graphically  Solving polynomial inequalities graphically is significantly simpler. However, it has the disadvantage that it requires you to be able to sketch the graph of the polynomial function.    Find all the values of that satisfy the inequality     First, we place the inequality into the form  Since is a concave up parabola with roots and , we can see the inequality is satisfied for all from the graph of    The graph of .          Polynomial Inequalities     Solve polynomial inequalities.       Solving Polynomial Inequalities Algebraically   Use to find all values of that satisfy the following inequalities.                 Solving Polynomial Inequalities Graphically   Use to answer the following questions   The graph of        Find all values of that satisfy .    Find all values of that satisfy .    Find all values of that satisfy .    Find all values of that satisfy .      "
 },
@@ -2453,7 +2633,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inequalities.html#def-solution_poly_inequality",
   "type": "Definition",
-  "number": "3.8.1",
+  "number": "3.9.1",
   "title": "Solution to a Polynomial Inequality.",
   "body": " Solution to a Polynomial Inequality   A solution   Inequality  Solution  to an inequality in the variable is a number that makes the expression true when is substituted for .   "
 },
@@ -2462,7 +2642,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inequalities.html#alg-poly_ineq",
   "type": "Algorithm",
-  "number": "3.8.2",
+  "number": "3.9.2",
   "title": "Solving Polynomial Inequalities Algebraically.",
   "body": " Solving Polynomial Inequalities Algebraically   To find the solutions to a polynomial inequality involving the polynomial    Find the distinct real roots of and write them in order from smallest to largest     Find numbers such that     Evaluate at each .   If the inequality is satisfied for , then the inequality holds on the interval . Otherwise, the inequality does not hold on the interval .    If the inequality is satisfied for where , then the inequality holds on the interval . Otherwise, the inequality does not hold on the interval .    If the inequality is satisfied for , then the inequality holds on the interval . Otherwise, the inequality does not hold on the interval .       Write down each interval where the inequality holds. Include the endpoints if the inequality is not strict   or . Otherwise, exclude the endpoints.      "
 },
@@ -2471,7 +2651,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inequalities.html#sec-inequalities-4-4",
   "type": "Example",
-  "number": "3.8.3",
+  "number": "3.9.3",
   "title": "",
   "body": "  Find all solutions to the inequality     The roots of the polynomial in order are We choose the test points , , , , , and .     When , This tells us the inequality is satisfied on .    When , This tells us the inequality is not satisfied on .    When , This tells us the inequality is satisfied on .    When , This tells us the inequality is not satisfied on .    When , This tells us the inequality is satisfied on .    When , This tells us the inequality is not satisfied on .   Therefore the inequality holds for all in the set    "
 },
@@ -2480,7 +2660,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inequalities.html#sec-inequalities-5-3",
   "type": "Example",
-  "number": "3.8.4",
+  "number": "3.9.4",
   "title": "",
   "body": "  Find all the values of that satisfy the inequality     First, we place the inequality into the form  Since is a concave up parabola with roots and , we can see the inequality is satisfied for all from the graph of    The graph of .       "
 },
@@ -2489,7 +2669,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inequalities.html#sec-inequalities-6-2",
   "type": "Objectives",
-  "number": "3.8.4",
+  "number": "3.9.4",
   "title": "",
   "body": "   Solve polynomial inequalities.    "
 },
@@ -2498,7 +2678,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inequalities.html#sec-inequalities-6-3-1-3",
   "type": "Worksheet Exercise",
-  "number": "3.8.4.1",
+  "number": "3.9.4.1",
   "title": "",
   "body": "    "
 },
@@ -2507,7 +2687,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inequalities.html#sec-inequalities-6-3-1-4",
   "type": "Worksheet Exercise",
-  "number": "3.8.4.2",
+  "number": "3.9.4.2",
   "title": "",
   "body": "    "
 },
@@ -2516,7 +2696,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inequalities.html#fig-poly_ineq_graph",
   "type": "Figure",
-  "number": "3.8.6",
+  "number": "3.9.6",
   "title": "",
   "body": " The graph of     "
 },
@@ -2525,7 +2705,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inequalities.html#sec-inequalities-6-4-1-3",
   "type": "Worksheet Exercise",
-  "number": "3.8.4.3",
+  "number": "3.9.4.3",
   "title": "",
   "body": " Find all values of that satisfy .  "
 },
@@ -2534,7 +2714,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inequalities.html#sec-inequalities-6-4-1-4",
   "type": "Worksheet Exercise",
-  "number": "3.8.4.4",
+  "number": "3.9.4.4",
   "title": "",
   "body": " Find all values of that satisfy .  "
 },
@@ -2543,7 +2723,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inequalities.html#sec-inequalities-6-4-1-5",
   "type": "Worksheet Exercise",
-  "number": "3.8.4.5",
+  "number": "3.9.4.5",
   "title": "",
   "body": " Find all values of that satisfy .  "
 },
@@ -2552,7 +2732,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inequalities.html#sec-inequalities-6-4-1-6",
   "type": "Worksheet Exercise",
-  "number": "3.8.4.6",
+  "number": "3.9.4.6",
   "title": "",
   "body": " Find all values of that satisfy .  "
 },
