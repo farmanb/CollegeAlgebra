@@ -2,23 +2,7 @@
 
 <section xml:id="sec-linear_functions" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Linear Functions</title>
-  <!-- <objectives> -->
-  <!--   <ul> -->
-  <!--     <li> -->
-  <!-- 	Recognize linear functions. -->
-  <!--     </li> -->
-  <!--     <li> -->
-  <!-- 	Find <m>x</m>-intercepts of a linear function. -->
-  <!--     </li> -->
-  <!--     <li> -->
-  <!-- 	Find the <m>y</m>-intercept of a linear function. -->
-  <!--     </li> -->
-  <!--     <li> -->
-  <!-- 	Graph a linear function. -->
-  <!--     </li> -->
-  <!--   </ul> -->
-  <!-- </objectives> -->
-
+  
   <introduction>
     <p>
       In this section, we study a special kind of polynomial known as a <em>linear function</em>.
@@ -27,7 +11,7 @@
   </introduction>
 
   <subsection>
-    <title>Linear Functions as Degree One Polynomials</title>
+    <title>Linear Functions and Slope</title>
     <definition xml:id="def-linear_function">
       <title>Linear Function</title>
       <statement>
