@@ -11,5 +11,6 @@
   <xi:include href="sec-perp_parallel.ptx"/>
   <xi:include href="sec-quadratic_functions.ptx"/>
   <xi:include href="sec-roots_quadratics.ptx"/>
+  <xi:include href="sec-inequalities.ptx"/>
 </chapter>
 

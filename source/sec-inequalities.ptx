@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-inequalities" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Polynomial Inequalities</title>
+
+  <introduction>
+    <p>
+      We have focused primarily on solving equations of the form
+      <me>f(x) = 0</me>
+      where <m>f</m> is a polynomial function in the variable <m>x</m>.
+      We now turn to <term>polynomial inequalities</term>
+      <idx>
+	<h>Inequality</h>
+	<h>Polynomial</h>
+      </idx>
+      which are relations of the form
+      <ul>
+	<li>
+	  <p>
+	    <m>f(x) \lt 0</m>,
+	  </p>
+	</li>
+	<li>
+	  <p>
+	    <m>f(x) \leq 0</m>,
+	  </p>
+	</li>
+	<li>
+	  <p>
+	  <m>f(x) > 0</m>, or
+	  </p>
+	</li>
+	<li>
+	  <p>
+	    <m>f(x) \geq 0.</m>
+	  </p>
+	</li>
+      </ul>
+    </p>
+  </introduction>
+
+  <subsection>
+    <title>Solutions to Inequalities</title>
+    <p>
+      First we start with what it means to be a solution to an inequality.
+    </p>
+
+    <definition xml:id="def-solution_poly_inequality">
+      <title>Solution to a Polynomial Inequality</title>
+      <statement>
+	<p>
+	  A <term>solution</term>
+	  <idx>
+	    <h>Inequality</h>
+	    <h>Solution</h>
+	  </idx>
+	  to an inequality in the variable <m>x</m> is a number <m>a</m> that makes the expression true when <m>a</m> is substituted for <m>x</m>. 
+	</p>
+      </statement>
+    </definition>
+
+    <p>
+      We can interpret this definition graphically as saying
+      <ul>
+	<li>
+	  <p>
+	    The solutions to <m>f(x) \lt 0</m> are the <m>x</m>-values where the graph of <m>y = f(x)</m> is below the <m>x</m>-axis
+	  </p>
+	</li>
+	<li>
+	  <p>
+	    The solutions to <m>f(x) \leq 0</m> are the <m>x</m>-values where the graph of <m>y = f(x)</m> is on or below the <m>x</m>-axis
+	  </p>
+	</li>
+	<li>
+	  <p>
+	    The solutions to <m>f(x) > 0</m> are the <m>x</m>-values where the graph of <m>y = f(x)</m> is above the <m>x</m>-axis
+	  </p>
+	</li>
+	<li>
+	  <p>
+	    The solutions to <m>f(x) \geq </m> are the <m>x</m>-values where the graph of <m>y = f(x)</m> is on or above the <m>x</m>-axis
+	  </p>
+	</li>
+      </ul>
+      This tells us precisely how to solve a polynomial inequality using the roots.
+    </p>
+  </subsection>
+
+  <subsection>
+    <title>Solving Polynomial Inequalities Algebraically</title>
+    <p>
+      The first method is purely algebraic.
+      It is useful when you are unable to sketch the graph of the polynomial.
+    </p>
+    <algorithm xml:id="alg-poly_ineq">
+      <title>Solving Polynomial Inequalities Algebraically</title>
+      <statement>
+	<p>
+	  To find the solutions to a polynomial inequality involving the polynomial <m>f(x)</m>
+	  <ol>
+	    <li>
+	      <p>
+		Find the <alert>distinct</alert> real roots of <m>f</m> and write them in order from smallest to largest
+		<me>r_1 \lt r_2 \lt r_3 \lt \ldots \lt r_n.</me>
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		Find numbers <m>x_1, x_2, x_3, \cdots, x_n, x_{n+1}</m> such that
+		<me>x_1 \lt r_1 \lt x_2 \lt r_2 \lt x_3 \lt r_3 \lt \cdots \lt x_n \lt r_n \lt x_{n+1}</me>
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		Evaluate <m>f</m> at each <m>x_i</m>.
+		<ul>
+		  <li>
+		    <p>
+		      If the inequality is satisfied for <m>x_1</m>, then the inequality holds on the interval <m>(-\infty, r_1)</m>.
+		      Otherwise, the inequality does not hold on the interval <m>(-\infty, r_1)</m>.
+		    </p>
+		  </li>
+		  <li>
+		    <p>
+		      If the inequality is satisfied for <m>x_i</m> where <m>2 \leq i \leq n</m>, then the inequality holds on the interval <m>(r_{i-1}, r_i)</m>.
+		      Otherwise, the inequality does not hold on the interval <m>(r_{i-1}, r_i)</m>.
+		    </p>
+		  </li>
+		  <li>
+		    <p>
+		      If the inequality is satisfied for <m>x_{n+1}</m>, then the inequality holds on the interval <m>(r_n,\infty)</m>.
+		      Otherwise, the inequality does not hold on the interval <m>(r_n,\infty)</m>.
+		    </p>
+		  </li>
+		</ul>
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		Write down each interval where the inequality holds.
+		Include the endpoints if the inequality is not strict <mdash/> <ie/> <m>f(x) \geq 0</m> or <m>f(x) \leq 0</m>.
+		Otherwise, exclude the endpoints.
+	      </p>
+	    </li>
+	  </ol>
+	</p>
+      </statement>
+    </algorithm>
+
+    <example>
+      <statement>
+	<p>
+	  Find all solutions to the inequality
+	  <me>(x + 4)(x + 2)x(x-2)(x-5) \leq 0.</me>
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  The roots of the polynomial <m>f(x) = (x + 4)(x + 2)x(x-2)(x-5)</m> in order are
+	  <me>-4 \lt -2 \lt 0 \lt 2 \lt 5.</me>
+	  We choose the test points <m>-5</m>, <m>-3</m>, <m>-1</m>, <m>1</m>, <m>3</m>, and <m>6</m>.
+	</p>
+	<p>
+	  <ul>
+	    <li>
+	      <p>
+		When <m>x = -5</m>,
+		<md>
+		  <mrow>f(-5) \amp= (-5 + 4)(-5 + 2)(-5)(-5 - 2)(-5 - 5)</mrow>
+		  <mrow>\amp= (-1)(-3)(-5)(-7)(-10)</mrow>
+		  <mrow>\amp= -(3)(5)(7)(10)</mrow>
+		  <mrow>\amp\lt 0.</mrow>
+		</md>
+		This tells us the inequality is satisfied on <m>(-\infty, -4)</m>.
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		When <m>x = -3</m>, 
+		<md>
+		  <mrow>f(-3) \amp = (-3 + 4)(-3 + 2)(-3)(-3 - 2)(-3 - 5)</mrow>
+		  <mrow>\amp= (1)(-1)(-3)(-5)(-8)</mrow>
+		  <mrow>\amp= (3)(5)(8)</mrow>
+		  <mrow>\amp > 0.</mrow>
+		</md>
+		This tells us the inequality is <em>not</em> satisfied on <m>(-4,-2)</m>.
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		When <m>x = -1</m>,
+		<md>
+		  <mrow>f(-1) \amp= (-1 + 4)(-1 + 2)(-1)(-1 - 2)(-1 - 5)</mrow>
+		  <mrow>\amp= (3)(1)(-1)(-3)(-6)</mrow>
+		  <mrow>\amp= -(3)(3)(6)</mrow>
+		  <mrow>\amp\lt 0.</mrow>
+		</md>
+		This tells us the inequality is satisfied on <m>(-2,0)</m>.
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		When <m>x = 1</m>,
+		<md>
+		  <mrow>f(1) \amp= (1 + 4)(1 + 2)(1)(1 - 2)(1 - 5)</mrow>
+		  <mrow>\amp= (5)(3)(1)(-1)(-4)</mrow>
+		  <mrow>\amp= 5(3)(4)</mrow>
+		  <mrow>\amp > 0.</mrow>
+		</md>
+		This tells us the inequality is <em>not</em> satisfied on <m>(0, 2)</m>.
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		When <m>x = 3</m>,
+		<md>
+		  <mrow>f(3) \amp= (3 + 4)(3 + 2)(3)(3 - 2)(3 - 5)</mrow>
+		  <mrow>\amp= (7)(5)(3)(1)(-2)</mrow>
+		  <mrow>\amp= -(7)(5)(3)(1)</mrow>
+		  <mrow>\amp \lt 0.</mrow>
+		</md>
+		This tells us the inequality is satisfied on <m>(2,5)</m>.
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		When <m>x = 6</m>,
+		<md>
+		  <mrow>f(6) \amp= (6 + 4)(6 + 2)(6)(6 - 2)(6 - 5)</mrow>
+		  <mrow>\amp= (10)(8)(6)(4)1)</mrow>
+		  <mrow>\amp > 0.</mrow>
+		</md>
+		This tells us the inequality is <em>not</em> satisfied on <m>(5,\infty)</m>.
+	      </p>
+	    </li>
+	  </ul>
+	  Therefore the inequality holds for all <m>x</m> in the set
+	  <me>
+	    (-\infty, -4] \cup [-2,0] \cup [2,5]
+	  </me>
+	</p>
+      </solution>
+    </example>
+  </subsection>
+
+  <subsection>
+    <title>Solving Polynomial Inequalities Graphically</title>
+    <p>
+      Solving polynomial inequalities graphically is significantly simpler.
+      However, it has the disadvantage that it requires you to be able to sketch the graph of the polynomial function.
+    </p>
+
+    <example>
+      <statement>
+	<p>
+	  Find all the values of <m>x</m> that satisfy the inequality
+	  <me>x^2 \lt 6 - x.</me>
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  First, we place the inequality into the form <m>f(x) \lt 0</m> 
+	  <md>
+	    <mrow>\amp x^2 \lt 6 - x \amp\amp \text{Add}\ x - 6\ \text{to both sides}</mrow>
+	    <mrow>\amp x^2 + x - 6 \lt 0 \amp\amp\text{Factor the LHS}</mrow>
+	    <mrow>\amp (x + 3)(x - 2) \lt 0</mrow>
+	  </md>
+	  Since <m>f(x) = x^2 + x - 6</m> is a <xref ref="def-concavity" text="custom">concave up</xref> parabola with roots <m>x = -3</m> and <m>x = 2</m>, we can see the inequality is satisfied for all <m>x \in (-3, 2)</m> from the graph of <m>f(x)</m>
+	</p>
+	<figure>
+	  <caption>The graph of <m>y = x^2 + x - 6</m>.</caption>
+	  <image>
+	    <latex-image>
+	      \begin{tikzpicture}[scale=0.5]
+	      \def\size{7}
+	      
+	      \path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
+
+	      \foreach \i in {1,...,\size} 
+	      \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
+	      (-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
+	      (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
+	      (2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
+	      
+	      \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
+	      \draw [very thick,->] (0,-\size) -- (0,\size+.1) node [anchor=west] {$y$};
+
+	      \draw [color=red,thick] (-3,0) circle (.1);
+	      \draw [color=red,thick] (2,0) circle (.1);
+	      \draw [color=red,very thick] (-2.9,0) -- (1.9,0);
+	      
+	      \begin{scope}
+	      \clip (-\size,-\size) rectangle (\size,\size);
+	      \draw [color=blue,thick] plot[smooth,samples=500] (\x,{(\x)^2 + \x - 6});
+	      \end{scope}
+	      
+	      \end{tikzpicture}
+	    </latex-image>
+	  </image>
+	</figure>
+      </solution>
+    </example>
+  </subsection>
+
+  <worksheet>
+    <title>Polynomial Inequalities</title>
+    <objectives>
+      <ul>
+	<li>
+	  <p>
+	    Solve polynomial inequalities.
+	  </p>
+	</li>
+      </ul>
+    </objectives>
+    <page>
+      <exercisegroup>
+	<title>Solving Polynomial Inequalities Algebraically</title>
+	<introduction>
+	  <p>
+	    Use <xref ref="alg-poly_ineq"/> to find all values of <m>x</m> that satisfy the following inequalities.
+	  </p>
+	</introduction>
+	<exercise workspace="1in">
+	  <statement>
+	    <p>
+	      <m>2x + 3 \lt 7</m>
+	    </p>
+	  </statement>
+	</exercise>
+	
+	<exercise workspace="2in">
+	  <statement>
+	    <p>
+	      <m>x^3 - 6x^2 + 11x \geq 6</m>
+	    </p>
+	  </statement>
+	</exercise>
+	
+      </exercisegroup>
+    </page>
+	
+    <page>
+      <exercisegroup>
+	<title>Solving Polynomial Inequalities Graphically</title>
+	<introduction>
+	  <p>
+	  Use <xref ref="fig-poly_ineq_graph"/> to answer the following questions
+	  </p>
+	  <figure xml:id="fig-poly_ineq_graph">
+	    <caption>The graph of <m>y = f(x)</m></caption>
+	    <image>
+	      <latex-image>
+		\begin{tikzpicture}
+		\def\size{5}
+		
+		\path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
+
+		\foreach \i in {1,...,\size}
+		\draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
+		(-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$}
+		(2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
+		(2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
+		
+		\draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
+		\draw [very thick,->] (0,-\size) -- (0,\size+.1) node [anchor=west] {$y$};
+		
+		\begin{scope}[domain=-1.5:3]
+		\clip (-\size,-\size) rectangle (\size,\size);
+		\draw [color=blue,thick] plot[smooth,samples=500] (\x,{(\x)^5 - 5*(\x)^4 + 6*(\x)^3 + 4*(\x)^2 - 8*\x});
+		\end{scope}
+
+		\node at (-1,0) {$\bullet$};
+		\node at (-1,0) [above left] {$(-1,0)$};
+
+		\node at (0,0) {$\bullet$};
+		\node at (0,0) [below right] {$(0,0)$};
+
+		\node at (2,0) {$\bullet$};
+		\node at (2,0) [above left] {$(2,0)$};
+		\end{tikzpicture}
+	      </latex-image>
+	    </image>
+	  </figure>
+	</introduction>
+	<exercise workspace="1in">
+	  <statement>
+	    <p>
+	      Find all values of <m>x</m> that satisfy <m>f(x) \lt 0</m>.
+	    </p>
+	  </statement>
+	</exercise>
+	<exercise workspace="1in">
+	  <statement>
+	    <p>
+	      Find all values of <m>x</m> that satisfy <m>f(x) \leq 0</m>.
+	    </p>
+	  </statement>
+	</exercise>
+	<exercise workspace="1in">
+	  <statement>
+	    <p>
+	      Find all values of <m>x</m> that satisfy <m>f(x) > 0</m>.
+	    </p>
+	  </statement>
+	</exercise>
+	<exercise workspace="1in">
+	  <statement>
+	    <p>
+	      Find all values of <m>x</m> that satisfy <m>f(x) \geq 0</m>.
+	    </p>
+	  </statement>
+	</exercise>
+      </exercisegroup>
+    </page>
+
+  </worksheet>
+</section>

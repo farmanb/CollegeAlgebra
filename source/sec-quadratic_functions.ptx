@@ -310,7 +310,7 @@
       Finally, we observe the third operation may change the direction in which the parabola opens.
     </p>
 
-    <definition>
+    <definition xml:id="def-concavity">
       <statement>
 	<p>
 	  The graph of a parabola is
