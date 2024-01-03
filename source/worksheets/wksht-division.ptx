@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet>
+  <objectives>
+    <ul>
+      <li>
+	Perform long division with polynomials
+      </li>
+    </ul>
+  </objectives>
+
+  <page>
+    <exercise>
+      <statement>
+	<p>
+	  Consider the polynomial <m>f(x) = x^3 - x^2 - 2x + 2</m>
+	</p>
+	<task workspace="1in" xml:id="task-rational_root-2_a">
+	  <statement>
+	    <p>
+	      Use the <xref ref="thm-rational_root" text="title"/> to list all possible rational roots of <m>f</m>.
+	    </p>
+	  </statement>
+	</task>
+	<task workspace="1in" xml:id="task-rational_root-2_b">
+	  <statement>
+	    <p>
+	      Use your list to find all <em>rational</em> roots of <m>f</m>.
+	    </p>
+	  </statement>
+	</task>
+	<task workspace="1in" xml:id="task-rational_root-2_c">
+	  <statement>
+	    <p>
+	      Using the rational roots, use polynomial division to factor <m>f</m> as the product of a degree <m>1</m> polynomial and a degree <m>2</m> polynomial.
+	    </p>
+	  </statement>
+	</task>
+	<task workspace="1in" xml:id="task-rational_root-2_d">
+	  <statement>
+	    <p>
+	      What can you say about the other roots of <m>f</m>?
+	    </p>
+	  </statement>
+	</task>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>
