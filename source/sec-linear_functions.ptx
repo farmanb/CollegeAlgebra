@@ -87,15 +87,14 @@
   
   <subsection>
     <title>Graphing Linear Functions</title>
-    <introduction>
-      <p>
-	Consider a linear function <m>y = mx + b</m> with <m>m \neq 0</m>.
-	Recall that the <xref ref="def-graph" text="title"/> of an equation consists of all points <m>(x,y)</m> that are a <xref ref="def-solution" text="title"/> to the equation.
-	The graph of a linear equation is always a line.
-	We can graph the equation by finding any two points on the line and drawing a line through them.
-	In general, the two points that are simplest to find are the two intercepts.
-      </p>
-    </introduction>
+    <p>
+      Consider a linear function <m>y = mx + b</m> with <m>m \neq 0</m>.
+      Recall that the <xref ref="def-graph" text="title"/> of an equation consists of all points <m>(x,y)</m> that are a <xref ref="def-solution" text="title"/> to the equation.
+      The graph of a linear equation is always a line.
+      We can graph the equation by finding any two points on the line and drawing a line through them.
+      In general, the two points that are simplest to find are the two intercepts.
+    </p>
+    
 
     <p>
       We find the <xref ref="def-x_intercept" text="title"/> by substituting <m>0</m> for <m>y</m> and solving the resulting equation for <m>x</m>
@@ -145,22 +144,22 @@
     
     <example>
       <statement>
-	<p>Graph the equation <m>y = -\frac{2}{3}x + 2</m></p>.
+	<p>Graph the equation <m>y = -\frac{2}{3}x + 2</m>.</p>
       </statement>
       <solution>
 	<p>
 	  In <xref ref="example-x_intercept_2x_3y_6"/> we found that <m>(3,0)</m> is the <m>x</m>-intercept for the function <m>y = -\frac{2}{3}x + 2</m>.
 	  The <xref ref="def-y_intercept" text="title"/> for the function <m>y = -\frac{2}{3}x + 2</m> is the point <m>(0, 2)</m>.
 	  To graph the equation <m>y = -\frac{2}{3}x + 2</m>, we simply need to plot these two points and draw a straight line through them.
-	  <figure xml:id="fig-2x_3y_6">
-	    <caption>The graph of <m>y = -\frac{2}{3}x + 2</m>.</caption>
-	    <image xml:id="img-2x_3y_6">
-	      <latex-image >
-		<xi:include parse="text" href="tex/2x_3y_6.tex"/>
-	      </latex-image>
-	    </image>
-	  </figure>	
 	</p>
+	<figure xml:id="fig-2x_3y_6">
+	  <caption>The graph of <m>y = -\frac{2}{3}x + 2</m>.</caption>
+	  <image xml:id="img-2x_3y_6">
+	    <latex-image >
+	      <xi:include parse="text" href="tex/2x_3y_6.tex"/>
+	    </latex-image>
+	  </image>
+	</figure>	
       </solution>
     </example>
   </subsection>

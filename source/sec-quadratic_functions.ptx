@@ -19,48 +19,48 @@
       These polynomial functions are often called <em>quadratic functions</em>.
     </p>
   </introduction>
-
-  <definition xml:id="def-quadratic_function">
-    <title>Quadratic Function</title>
-    <statement>
-      <p>
-	A function <m>f \colon \R \to \R</m> is <term>quadratic</term>
-	<idx>
-	  <h>Function</h>
-	  <h>Quadratic</h>
-	</idx>
-	if it has the form
-	<me>f(x) = ax^2 + bx + c
-	\quad\text{or}\quad
-	y = ax^2 + bx + c,</me>
-	where <m>a</m>, <m>b</m>, and <m>c</m> are numbers, and <m>a \neq 0</m>.
-      </p>
-    </statement>
-  </definition>
   
   <subsection>
     <title>Vertex Form</title>
-    <introduction>
-      <p>
-	Just as with lines, quadratic functions are easier to understand through visualizations.
-	The simplest quadratic function to understand is <m>y = x^2</m>.
-	We call the <xref ref="fig-parabola" text="title"/> a <term>parabola</term>.
-	<idx>
-	  <h>Graph</h>
-	  <h>Parabola</h>
-	</idx>
-	The point <m>(0,0)</m> is called the <term>vertex</term>.
-	<idx>
-	  <h>Graph</h>
-	  <h>Parabola</h>
-	  <h>Vertex</h>
-	</idx>
-      </p>
-      <p>
-	As we have already seen in <xref ref="sec-symmetry"/>, the graph of this function is symmetric about the <m>y</m>-axis, which is the vertical line <m>x = 0</m> through the vertex.
-	While general quadratics are slightly more complicated, we can use the properties of <m>y = x^2</m> to graph the class of quadratics in the following form.
-      </p>
-    </introduction>
+
+    <definition xml:id="def-quadratic_function">
+      <title>Quadratic Function</title>
+      <statement>
+	<p>
+	  A function <m>f \colon \R \to \R</m> is <term>quadratic</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Quadratic</h>
+	  </idx>
+	  if it has the form
+	  <me>f(x) = ax^2 + bx + c
+	  \quad\text{or}\quad
+	  y = ax^2 + bx + c,</me>
+	  where <m>a</m>, <m>b</m>, and <m>c</m> are numbers, and <m>a \neq 0</m>.
+	</p>
+      </statement>
+    </definition>
+
+    <p>
+      Just as with lines, quadratic functions are easier to understand through visualizations.
+      The simplest quadratic function to understand is <m>y = x^2</m>.
+      We call the <xref ref="fig-parabola" text="custom">graph of <m>y = x^2</m></xref> a <term>parabola</term>.
+      <idx>
+	<h>Graph</h>
+	<h>Parabola</h>
+      </idx>
+      The point <m>(0,0)</m> is called the <term>vertex</term>.
+      <idx>
+	<h>Graph</h>
+	<h>Parabola</h>
+	<h>Vertex</h>
+      </idx>
+    </p>
+
+    <p>
+      As we have already seen in <xref ref="sec-symmetry"/>, the graph of this function is symmetric about the <m>y</m>-axis, which is the vertical line <m>x = 0</m> through the vertex.
+      While general quadratics are slightly more complicated, we can use the properties of <m>y = x^2</m> to graph the class of quadratics in the following form.
+    </p>
 
     <definition xml:id="def-vertex_form">
       <title>The Vertex Form of a Quadratic</title>
@@ -84,67 +84,67 @@
 
     <algorithm xml:id="algo-graphing_quadratics">
       <title>Graphing Quadratic Functions in Vertex Form</title>
-      <introduction>
+      <statement>
 	<p>
 	  To graph of the quadratic function <m>y = a(x - h)^2 + k</m>
+          <ol>
+	    <li>
+	      <p>
+		Translate the graph of <m>y = x^2</m> horizontally by <m>h</m> units.
+		<ul>
+		  <li>
+		    <p>
+		      If <m>0 \lt h</m>, then the translation is to the right.
+		    </p>
+		  </li>
+		  <li>
+		    <p>
+		      If <m>h \lt 0</m>, then the translation is to the left.
+		    </p>
+		  </li>
+		</ul>
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		Scale the graph of <m>(x - h)^2</m> by <m>\abs{a}</m>.
+		<ul>
+		  <li>
+		    <p>
+		      If <m>1 \lt a</m>, then the graph is stretched.
+		    </p>
+		  </li>
+		  <li>
+		    <p>If <m>a \lt 1</m>, then the graph is compressed.</p>
+		  </li>
+		</ul>
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		If <m>a \lt 1</m>, reflect the graph of <m>\abs{a}(x - h)^2</m> over the <m>x</m>-axis.
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		Translate the graph of <m>a(x - h)^2</m> vertically by <m>k</m> units.
+		<ul>
+		  <li>
+		    <p>
+		      If <m>k \lt 0</m>, then the translation is down.
+		    </p>
+		  </li>
+		  <li>
+		    <p>
+		      If <m>0 \lt k</m>, then the translation is up.
+		    </p>
+		  </li>
+		</ul>
+	      </p>
+	    </li>
+	  </ol>
 	</p>
-      </introduction>
-      <ol>
-	<li>
-	  <p>
-	    Translate the graph of <m>y = x^2</m> horizontally by <m>h</m> units.
-	    <ul>
-	      <li>
-		<p>
-		  If <m>0 \lt h</m>, then the translation is to the right.
-		</p>
-	      </li>
-	      <li>
-		<p>
-		  If <m>h \lt 0</m>, then the translation is to the left.
-		</p>
-	      </li>
-	    </ul>
-	  </p>
-	</li>
-	<li>
-	  <p>
-	    Scale the graph of <m>(x - h)^2</m> by <m>\abs{a}</m>.
-	    <ul>
-	      <li>
-		<p>
-		  If <m>1 \lt a</m>, then the graph is stretched.
-		</p>
-	      </li>
-	      <li>
-		<p>If <m>a \lt 1</m>, then the graph is compressed.</p>
-	      </li>
-	    </ul>
-	  </p>
-	</li>
-	<li>
-	  <p>
-	    If <m>a \lt 1</m>, reflect the graph of <m>\abs{a}(x - h)^2</m> over the <m>x</m>-axis.
-	  </p>
-	</li>
-	<li>
-	  <p>
-	    Translate the graph of <m>a(x - h)^2</m> vertically by <m>k</m> units.
-	    <ul>
-	      <li>
-		<p>
-		  If <m>k \lt 0</m>, then the translation is down.
-		</p>
-	      </li>
-	      <li>
-		<p>
-		  If <m>0 \lt k</m>, then the translation is up.
-		</p>
-	      </li>
-	    </ul>
-	  </p>
-	</li>
-      </ol>
+      </statement>
     </algorithm>
 
     <example>
@@ -156,133 +156,147 @@
       <solution>
 	<p>
 	  Following <xref ref="algo-graphing_quadratics"/>, we perform the following operations on the graph of the function <m>y = x^2</m>.
+	  <ol>
+	    <li>
+	      Translate the graph of <m>y = x^2</m> to the left by 1 to obtain the graph of <m>y = (x + 1)^2</m>.
+	    </li>
+	    <li>
+	      Stretch the graph of <m>y = (x + 1)^2</m> by a factor of 2 to obtain the graph of <m>y = 2(x + 1)^2</m>.
+	    </li>
+	    <li>
+	      Reflect the graph of <m>y = 2(x + 1)^2</m> across the <m>x</m>-axis to obtain the graph of <m>y = -2(x + 1)^2</m>.
+	    </li>
+	    <li>
+	      Translate the graph of <m>y = -2(x + 1)^2</m> up by 1 to obtain the graph of <m>y = -2(x+1)^2 + 1</m>.
+	    </li>
+	  </ol>
 	</p>
-	<ol>
-	  <li>
-	    Translate the graph of <m>y = x^2</m> to the left by 1 to obtain the graph of <m>y = (x + 1)^2</m>.
-	  </li>
-	  <li>
-	    Stretch the graph of <m>y = (x + 1)^2</m> by a factor of 2 to obtain the graph of <m>y = 2(x + 1)^2</m>.
-	  </li>
-	  <li>
-	    Reflect the graph of <m>y = 2(x + 1)^2</m> across the <m>x</m>-axis to obtain the graph of <m>y = -2(x + 1)^2</m>.
-	  </li>
-	  <li>
-	    Translate the graph of <m>y = -2(x + 1)^2</m> up by 1 to obtain the graph of <m>y = -2(x+1)^2 + 1</m>.
-	  </li>
-	</ol>
 	<p>
 	  These operations are shown below.
 	</p>
 	<figure>
-	  <sidebyside>
-	    <image>
-	      <latex-image>
-		\begin{tikzpicture}
-		\draw[very thin,color=gray] (-4,-4) grid (4,4);
-		\draw[very thick,->] (-4.2,0) -- (4.2,0) node[right] {$x$};
-		\draw[very thick,->] (0,-4.2) -- (0,4.2) node[above] {$y$};
-		
-		\begin{scope}
-		\clip (-4,-4) rectangle (4,4);
-		\draw [color=blue,thick,dashed] plot[smooth,samples=500,domain=-4:4] (\x,{(\x)^2});
-		\draw [color=blue,thick] plot[smooth,samples=500,domain=-4:4] (\x,{(\x+1)^2});
-		\end{scope}
-
-		\node at (0,0) {$\bullet$};
-		\node [below right] at (0,0) {$(0,0)$};
-
-		\node at (-1,0) {$\bullet$};
-		\node [below] at (-1,0) {$(-1,0)$};
-
-		\node at (0,1) {$\bullet$};
-		\node [right] at (0,1) {$(0,1)$};
-
-		<!-- \draw [->,thick,color=red] (1.5, {(1.5)^2}) -\- (.5,{(1.5)^2}); -->
-		\end{tikzpicture}
-	      </latex-image>
-	    </image>
-	    <image>
-	      <latex-image>
-		\begin{tikzpicture}
-		\draw[very thin,color=gray] (-4,-4) grid (4,4);
-		\draw[very thick,->] (-4.2,0) -- (4.2,0) node[right] {$x$};
-		\draw[very thick,->] (0,-4.2) -- (0,4.2) node[above] {$y$};
-
-		\begin{scope}
-		\clip (-4,-4) rectangle (4,4);
-		\draw [color=blue,thick,dashed] plot[smooth,samples=500,domain=-4:4] (\x,{(\x+1)^2});
-		\draw [color=blue,thick] plot[smooth,samples=500,domain=-4:4] (\x,{2*(\x+1)^2});
-		\end{scope}
-
-		\node at (-1,0) {$\bullet$};
-		\node [below] at (-1,0) {$(-1,0)$};
-
-		\node at (0,2) {$\bullet$};
-		\node [left] at (0,2) {$(0,2)$};
-
-		\node at (0,1) {$\bullet$};
-		\node [right] at (0,1) {$(0,1)$};
-
-		<!-- \draw [->,thick,color=red] (-2, 1) -\- (-2,1.9); -->
-		<!-- \draw [->,thick,color=red] (0, 1) -\- (0,1.9); -->
-		\end{tikzpicture}
-	      </latex-image>
-	    </image>
-	  </sidebyside>
-	  <sidebyside>
-	    <image>
-	      <latex-image>
-		\begin{tikzpicture}
-		\draw[very thin,color=gray] (-4,-4) grid (4,4);
-		\draw[very thick,->] (-4.2,0) -- (4.2,0) node[right] {$x$};
-		\draw[very thick,->] (0,-4.2) -- (0,4.2) node[above] {$y$};
-		
-		\begin{scope}
-		\clip (-4,-4) rectangle (4,4);
-		\draw [color=blue,thick,dashed] plot[smooth,samples=500,domain=-4:4] (\x,{2*(\x+1)^2});
-		\draw [color=blue,thick] plot[smooth,samples=500,domain=-4:4] (\x,{-2*(\x+1)^2});
-		\end{scope}
-
-		\node at (-1,0) {$\bullet$};
-		\node [below] at (-1,0) [yshift=-10pt] {$(-1,0)$};
-
-		\node at (0,-2) {$\bullet$};
-		\node [right] at (0,-2) {$(0,-2)$};
-		\end{tikzpicture}
-	      </latex-image>
-	    </image>
-	    <image>
-	      <latex-image>
-		\begin{tikzpicture}
-		\draw[very thin,color=gray] (-4,-4) grid (4,4);
-		\draw[very thick,->] (-4.2,0) -- (4.2,0) node[right] {$x$};
-		\draw[very thick,->] (0,-4.2) -- (0,4.2) node[above] {$y$};
-		
-		\begin{scope}
-		\clip (-4,-4) rectangle (4,4);
-		\draw [color=blue,thick,dashed] plot[smooth,samples=500,domain=-4:4] (\x,{-2*(\x+1)^2});
-		\draw [color=blue,thick] plot[smooth,samples=500,domain=-4:4] (\x,{-2*(\x+1)^2 + 1});
-		\end{scope}
-
-		\node at (-1,1) {$\bullet$};
-		\node [above] at (-1,1) {$(-1,1)$};
-
-		\node at (-1,0) {$\bullet$};
-		\node [below] at (-1,0) [yshift=-10pt] {$(-1,0)$};
-
-		\node at (0,-1) {$\bullet$};
-		\node [right] at (0,-1) {$(0,-1)$};
-
-		\node at (0,-2) {$\bullet$};
-		\node [right] at (0,-2) {$(0,-2)$};
-		\end{tikzpicture}
-	      </latex-image>
-	    </image>
-	  </sidebyside>
 	  <caption>
 	    The transformations used to graph <m>y = -2(x + 1)^2 + 1</m>.
 	  </caption>
+	  <sbsgroup>
+	    <sidebyside>
+	      <figure>
+		<caption>Translate the graph of <m>y = x^2</m> to the left by <m>1</m></caption>
+		<image>
+		  <latex-image>
+		    \begin{tikzpicture}
+		    \draw[very thin,color=gray] (-4,-4) grid (4,4);
+		    \draw[very thick,->] (-4.2,0) -- (4.2,0) node[right] {$x$};
+		    \draw[very thick,->] (0,-4.2) -- (0,4.2) node[above] {$y$};
+		    
+		    \begin{scope}
+		    \clip (-4,-4) rectangle (4,4);
+		    \draw [color=blue,thick,dashed] plot[smooth,samples=500,domain=-4:4] (\x,{(\x)^2});
+		    \draw [color=blue,thick] plot[smooth,samples=500,domain=-4:4] (\x,{(\x+1)^2});
+		    \end{scope}
+
+		    \node at (0,0) {$\bullet$};
+		    \node [below right] at (0,0) {$(0,0)$};
+
+		    \node at (-1,0) {$\bullet$};
+		    \node [below] at (-1,0) {$(-1,0)$};
+
+		    \node at (0,1) {$\bullet$};
+		    \node [right] at (0,1) {$(0,1)$};
+
+		    <!-- \draw [->,thick,color=red] (1.5, {(1.5)^2}) -\- (.5,{(1.5)^2}); -->
+		    \end{tikzpicture}
+		  </latex-image>
+		</image>
+	      </figure>
+	      <figure>
+		<caption>Stretch the graph of <m>y = (x + 1)^2</m> by a factor of <m>2</m></caption>
+		<image>
+		  <latex-image>
+		    \begin{tikzpicture}
+		    \draw[very thin,color=gray] (-4,-4) grid (4,4);
+		    \draw[very thick,->] (-4.2,0) -- (4.2,0) node[right] {$x$};
+		    \draw[very thick,->] (0,-4.2) -- (0,4.2) node[above] {$y$};
+
+		    \begin{scope}
+		    \clip (-4,-4) rectangle (4,4);
+		    \draw [color=blue,thick,dashed] plot[smooth,samples=500,domain=-4:4] (\x,{(\x+1)^2});
+		    \draw [color=blue,thick] plot[smooth,samples=500,domain=-4:4] (\x,{2*(\x+1)^2});
+		    \end{scope}
+
+		    \node at (-1,0) {$\bullet$};
+		    \node [below] at (-1,0) {$(-1,0)$};
+
+		    \node at (0,2) {$\bullet$};
+		    \node [left] at (0,2) {$(0,2)$};
+
+		    \node at (0,1) {$\bullet$};
+		    \node [right] at (0,1) {$(0,1)$};
+
+		    <!-- \draw [->,thick,color=red] (-2, 1) -\- (-2,1.9); -->
+		    <!-- \draw [->,thick,color=red] (0, 1) -\- (0,1.9); -->
+		    \end{tikzpicture}
+		  </latex-image>
+		</image>
+	      </figure>
+	    </sidebyside>
+	    <sidebyside>
+	      <figure>
+		<caption>Reflect the graph of <m>y = 2(x+1)^2</m> across the <m>x</m>-axis</caption>
+		<image>
+		  <latex-image>
+		    \begin{tikzpicture}
+		    \draw[very thin,color=gray] (-4,-4) grid (4,4);
+		    \draw[very thick,->] (-4.2,0) -- (4.2,0) node[right] {$x$};
+		    \draw[very thick,->] (0,-4.2) -- (0,4.2) node[above] {$y$};
+		    
+		    \begin{scope}
+		    \clip (-4,-4) rectangle (4,4);
+		    \draw [color=blue,thick,dashed] plot[smooth,samples=500,domain=-4:4] (\x,{2*(\x+1)^2});
+		    \draw [color=blue,thick] plot[smooth,samples=500,domain=-4:4] (\x,{-2*(\x+1)^2});
+		    \end{scope}
+
+		    \node at (-1,0) {$\bullet$};
+		    \node [below] at (-1,0) [yshift=-10pt] {$(-1,0)$};
+
+		    \node at (0,-2) {$\bullet$};
+		    \node [right] at (0,-2) {$(0,-2)$};
+		    \end{tikzpicture}
+		  </latex-image>
+		</image>
+	      </figure>
+	      <figure>
+		<caption>Translate the graph of <m>y = -2(x+1)^2</m> up by <m>1</m></caption>
+		<image>
+		  <latex-image>
+		    \begin{tikzpicture}
+		    \draw[very thin,color=gray] (-4,-4) grid (4,4);
+		    \draw[very thick,->] (-4.2,0) -- (4.2,0) node[right] {$x$};
+		    \draw[very thick,->] (0,-4.2) -- (0,4.2) node[above] {$y$};
+		    
+		    \begin{scope}
+		    \clip (-4,-4) rectangle (4,4);
+		    \draw [color=blue,thick,dashed] plot[smooth,samples=500,domain=-4:4] (\x,{-2*(\x+1)^2});
+		    \draw [color=blue,thick] plot[smooth,samples=500,domain=-4:4] (\x,{-2*(\x+1)^2 + 1});
+		    \end{scope}
+
+		    \node at (-1,1) {$\bullet$};
+		    \node [above] at (-1,1) {$(-1,1)$};
+
+		    \node at (-1,0) {$\bullet$};
+		    \node [below] at (-1,0) [yshift=-10pt] {$(-1,0)$};
+
+		    \node at (0,-1) {$\bullet$};
+		    \node [right] at (0,-1) {$(0,-1)$};
+
+		    \node at (0,-2) {$\bullet$};
+		    \node [right] at (0,-2) {$(0,-2)$};
+		    \end{tikzpicture}
+		  </latex-image>
+		</image>
+	      </figure>
+	    </sidebyside>
+	  </sbsgroup>
 	</figure>
       </solution>
     </example>
@@ -343,6 +357,7 @@
     </p>
     
     <figure component="print">
+      <caption>The graph of <m>y = x^2</m></caption>
       <image>
 	<latex-image>
 	  <xi:include parse="text" href="tex/basic_functions/parabola.tex"/>
@@ -353,13 +368,11 @@
 
   <subsection xml:id="subsec-completing_the_square">
     <title>Completing the Square</title>
-    <introduction>
-      <p>
-	Surprisingly, every quadratic function can be placed into vertex form.
-	Paired with the observations above, this tells us the graph of <em>every</em> quadratic function is a parabola.
-	Placing a general quadratic function into vertex form will require the method of completing the square.
-      </p>
-    </introduction>
+    <p>
+      Surprisingly, every quadratic function can be placed into vertex form.
+      Paired with the observations above, this tells us the graph of <em>every</em> quadratic function is a parabola.
+      Placing a general quadratic function into vertex form will require the method of completing the square.
+    </p>
     
     <p>
       Remember that when we multiply two binomials, we must distribute.
@@ -397,29 +410,31 @@
     
     <algorithm xml:id="alg-completing_the_square">
       <title>Completing the Square</title>
-      <p>
-	To complete the square with the quadratic function <m>f(x) = ax^2 + bx + c</m>
-      </p>
-      <ol>
-	<li>
-	  Factor an <m>a</m> from the first two terms to get
-	  <me>f(x) = a\left(x^2 + \frac{b}{a}x\right) + c.</me>
-	</li>
-	<li>
-	  Add and subtract <m>\left(\frac{b}{2a}\right)^2</m> inside the parentheses to get
-	  <me>
-	    f(x) = a\left(x^2 + \frac{b}{a}x + \left(\frac{b}{2a}\right)^2 - \left(\frac{b}{2a}\right)^2 \right) + c
-	  </me>
-	</li>
-	<li>
-	  Factor the first three terms inside the parentheses as a perfect square
-	  <me>f(x) = a\left(\left(x + \frac{b}{2a}\right)^2 - \left(\frac{b}{2a}\right)^2 \right) + c</me>
-	</li>
-	<li>
-	  Distribute the <m>a</m> through the sum
-	  <me>f(x) = a\left(x + \frac{b}{2a}\right)^2 - a\left(\frac{b}{2a}\right)^2 + c.</me>
-	</li>
-      </ol>
+      <statement>
+	<p>
+	  To complete the square with the quadratic function <m>f(x) = ax^2 + bx + c</m>
+	  <ol>
+	    <li>
+	      Factor an <m>a</m> from the first two terms to get
+	      <me>f(x) = a\left(x^2 + \frac{b}{a}x\right) + c.</me>
+	    </li>
+	    <li>
+	      Add and subtract <m>\left(\frac{b}{2a}\right)^2</m> inside the parentheses to get
+	      <me>
+		f(x) = a\left(x^2 + \frac{b}{a}x + \left(\frac{b}{2a}\right)^2 - \left(\frac{b}{2a}\right)^2 \right) + c
+	      </me>
+	    </li>
+	    <li>
+	      Factor the first three terms inside the parentheses as a perfect square
+	      <me>f(x) = a\left(\left(x + \frac{b}{2a}\right)^2 - \left(\frac{b}{2a}\right)^2 \right) + c</me>
+	    </li>
+	    <li>
+	      Distribute the <m>a</m> through the sum
+	      <me>f(x) = a\left(x + \frac{b}{2a}\right)^2 - a\left(\frac{b}{2a}\right)^2 + c.</me>
+	    </li>
+	  </ol>
+	</p>
+      </statement>
     </algorithm>
 
     <p>
@@ -502,15 +517,13 @@
 	  The <m>x</m>-coordinate of the vertex is
 	  <me>h = -\frac{(-4)}{2(3)} = \frac{4}{2(3)} = \frac{2}{3}</me>
 	  and the <m>y</m>-coordinate of the vertex is
-	</p>
-	<md>
-	  <mrow>k = f\left(\frac{2}{3}\right) \amp= 3\left(\frac{2}{3}\right)^2 - 4\left(\frac{2}{3}\right) + 5</mrow>
-	  <mrow>\amp = 3\left(\frac{4}{9}\right) - \frac{8}{3} + 5</mrow>
-	  <mrow>\amp = \frac{4}{3} - \frac{8}{3} + \frac{15}{3}</mrow>
-	  <mrow>\amp = \frac{4 - 8 + 15}{3}</mrow>
-	  <mrow>\amp = \frac{11}{3}.</mrow>
-	</md>
-	<p>
+	  <md>
+	    <mrow>k = f\left(\frac{2}{3}\right) \amp= 3\left(\frac{2}{3}\right)^2 - 4\left(\frac{2}{3}\right) + 5</mrow>
+	    <mrow>\amp = 3\left(\frac{4}{9}\right) - \frac{8}{3} + 5</mrow>
+	    <mrow>\amp = \frac{4}{3} - \frac{8}{3} + \frac{15}{3}</mrow>
+	    <mrow>\amp = \frac{4 - 8 + 15}{3}</mrow>
+	    <mrow>\amp = \frac{11}{3}.</mrow>
+	  </md>
 	  Therefore the vertex form of the quadratic function is
 	  <me>f(x) = 3\left(x - \frac{2}{3}\right)^2 + \frac{11}{3}.</me>
 	</p>
@@ -520,15 +533,12 @@
 
   <subsection>
     <title>The Quadratic Formula</title>
-    
-    <introduction>
-      <p>
-	In order to accurately graph a quadratic function <m>y = f(x) = ax^2 + bx + c</m>, it is necessary to identify the <m>x</m>-intercepts for the function.
-	A point <m>(x,0)</m> in the Cartesian plane is an <xref ref="def-x_intercept" text="title"/> for this function if
-	<me>0 = ax^2 + bx + c.</me>
-	This reduces the geometric problem of finding the <m>x</m>-intercepts of a quadratic to the algebraic problem finding solutions to equations.
-      </p>
-    </introduction>
+    <p>
+      In order to accurately graph a quadratic function <m>y = f(x) = ax^2 + bx + c</m>, it is necessary to identify the <m>x</m>-intercepts for the function.
+      A point <m>(x,0)</m> in the Cartesian plane is an <xref ref="def-x_intercept" text="title"/> for this function if
+      <me>0 = ax^2 + bx + c.</me>
+      This reduces the geometric problem of finding the <m>x</m>-intercepts of a quadratic to the algebraic problem finding solutions to equations.
+    </p>
 
     <definition>
       <statement>
@@ -763,38 +773,40 @@
     
     <algorithm>
       <title>Graphing a Quadratic Function</title>
-      <ol>
-	<li>
-	  <p>
-	    Use the <xref ref="vertex_formula" text="title"/> to find the vertex, <m>(h,k)</m>, of the parabola.
-	    Plot the vertex in the plane.
-	  </p>
-	</li>
-	<li>
-	  <p>
-	    Factor or use the <xref ref="quadratic_formula" text="title"/> to find the <m>x</m>-intercept(s).
-	    If there are <m>x</m>-intercepts, plot them in the plane.
-	  </p>
-	</li>
-	<li>
-	  <p>
-	    Plot the <m>y</m>-intercept, <m>(0, f(0))</m>, in the plane.
-	  </p>
-	</li>
-	<li>
-	  <p>
-	    Draw a parabola through the points in Steps (1) through (3).
-	    <ul>
-	      <li>
-		The parabola will open upwards if <m>0 \lt a</m>.
-	      </li>
-	      <li>
-		The parabola will open downwards if <m>a \lt 0</m>.
-	      </li>
-	    </ul>
-	  </p>
-	</li>
-      </ol>
+      <statement>
+	<ol>
+	  <li>
+	    <p>
+	      Use the <xref ref="vertex_formula" text="title"/> to find the vertex, <m>(h,k)</m>, of the parabola.
+	      Plot the vertex in the plane.
+	    </p>
+	  </li>
+	  <li>
+	    <p>
+	      Factor or use the <xref ref="quadratic_formula" text="title"/> to find the <m>x</m>-intercept(s).
+	      If there are <m>x</m>-intercepts, plot them in the plane.
+	    </p>
+	  </li>
+	  <li>
+	    <p>
+	      Plot the <m>y</m>-intercept, <m>(0, f(0))</m>, in the plane.
+	    </p>
+	  </li>
+	  <li>
+	    <p>
+	      Draw a parabola through the points in Steps (1) through (3).
+	      <ul>
+		<li>
+		  The parabola will open upwards if <m>0 \lt a</m>.
+		</li>
+		<li>
+		  The parabola will open downwards if <m>a \lt 0</m>.
+		</li>
+	      </ul>
+	    </p>
+	  </li>
+	</ol>
+      </statement>
     </algorithm>
   </subsection>
 

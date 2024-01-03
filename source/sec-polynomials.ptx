@@ -126,19 +126,22 @@
       Up to the constant <m>c</m>, the factorization in <xref ref="thm-fundamental_theorem" text="title"/> is unique.
     </p>
 
-    <example>
-      <p>
-	The roots of the polynomial <m>f(x) = 2x^2 - 3x + 1</m> are <m>r_1 = 1</m> and <m>r_2 = 1/2</m>.
-	This provides the factorization
-      </p>
-      <me>f(x) = 2x^2 - 3x + 1 = 2(x-1)\left(x - \frac{1}{2}\right).</me>
-      <p>
-	However, it is more convenient to distribute the <m>2</m> to the term <m>(x - 1/2)</m> and write
-      </p>
-      <me>f(x) = (x - 1)(2x - 1).</me>
-      <p>
-	Even though these factorizations are not strictly identical, we consider these factorizations to be equivalent since they both convey that the roots of the polynomial <m>f</m> are <m>1</m> and <m>1/2</m>.
-      </p>
+    <example component="web">
+      <statement>
+	<p>
+	  The roots of the polynomial <m>f(x) = 2x^2 - 3x + 1</m> are <m>r_1 = 1</m> and <m>r_2 = 1/2</m>.
+	  Use this information to factor <m>f</m>.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  Knowing the two roots of <m>f</m> provides the factorization
+          <me>f(x) = 2x^2 - 3x + 1 = 2(x-1)\left(x - \frac{1}{2}\right).</me>
+	  However, it is more convenient to distribute the <m>2</m> to the term <m>(x - 1/2)</m> and write
+	  <me>f(x) = (x - 1)(2x - 1).</me>
+      	  Even though these factorizations are not strictly identical, we consider these factorizations to be equivalent since they both convey that the roots of the polynomial <m>f</m> are <m>1</m> and <m>1/2</m>.
+	</p>
+      </solution>
     </example>
 
     <p>
@@ -239,7 +242,7 @@
     <p>
       In general, the answer to this question is deeply unsatisfying.
       We will find formulas for roots of polynomials of degree 1 in <xref ref="sec-linear_functions"/> and of degree 2 in <xref ref="sec-quadratic_functions"/>.
-      While formulas exist for roots of polynomials of <url href="https://en.wikipedia.org/wiki/Cubic_equation#General_cubic_formula">degree 3</url> and <url href="https://en.wikipedia.org/wiki/Quartic_equation#The_general_case">degree 4</url>, they are beyond the scope of this text.
+      While formulas exist for roots of polynomials of <url href="https://en.wikipedia.org/wiki/Cubic_equation#General_cubic_formula">degree <m>3</m></url> and <url href="https://en.wikipedia.org/wiki/Quartic_equation#The_general_case">degree <m>4</m></url>, they are beyond the scope of this text.
       However, there are no such general formulas for polynomials of degree 5 and higher.
       This means we will need to develop other techniques for finding roots of polynomials.
       One very useful tool for finding roots of general poylnomials is the rational root theorem.
@@ -258,9 +261,11 @@
     </theorem>
 
     <example xml:id="example-rational_root">
-      <p>
-	Find all rational roots of <m>f(x) = 2x^4 - 7x^3 + 5x^2 - 7x + 3</m>.
-      </p>
+      <statement>
+	<p>
+	  Find all rational roots of <m>f(x) = 2x^4 - 7x^3 + 5x^2 - 7x + 3</m>.
+	</p>
+      </statement>
       <solution>
 	<p>
 	  The factors of <m>2</m> are <m>1</m> and <m>2</m>; the factors of <m>3</m> are <m>1</m> and <m>3</m>.

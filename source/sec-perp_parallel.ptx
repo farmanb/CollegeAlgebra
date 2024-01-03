@@ -31,17 +31,20 @@
   </definition>
 
   <figure xml:id="fig-parallel_lines">
+    <caption>Parallel lines.</caption>
+    
     <image xml:id="img-parallel_lines">
       <latex-image>
 	<xi:include parse="text" href="tex/parallel.tex"/>
       </latex-image>
     </image>
-    <caption>Parallel lines.</caption>
   </figure>
 
   <theorem xml:id="thm-parallel">
     <statement>
-      Two lines are parallel if and only if they have the same slope.
+      <p>
+	Two lines are parallel if and only if they have the same slope.
+      </p>
     </statement>
   </theorem>
 
@@ -133,12 +136,13 @@
   </definition>
   
   <figure xml:id="fig-perpendicular_lines">
+    <caption>Perpendicular lines.</caption>
+    
     <image xml:id="img-perpendicular_lines">
       <latex-image>
 	<xi:include parse="text" href="tex/perpendicular.tex"/>
       </latex-image>
     </image>
-    <caption>Perpendicular lines.</caption>
   </figure>
 
   <theorem xml:id="thm-perpendicular">
@@ -233,6 +237,6 @@
       </p>
     </solution>
   </example>
+
   <xi:include href="worksheets/wksht-parallel_perpendicular.ptx"/>
-  
 </section>

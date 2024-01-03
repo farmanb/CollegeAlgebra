@@ -28,53 +28,56 @@
       <title>Polynomials</title>
 
       <figure xml:id="fig-line">
-	<title>the graph of <m>y = x</m></title>
+	<caption>The graph of <m>y = x</m>.</caption>
+	
 	<image xml:id="img-line">
 	  <latex-image>
 	    <xi:include parse="text" href="tex/basic_functions/line.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The graph of <m>y = x</m>.</caption>
       </figure>
       
       <figure xml:id="fig-parabola">
-	<title>the graph of <m>y = x^2</m></title>
+	<caption>The graph of <m>y = x^2</m>.</caption>
+
 	<image xml:id="img-parabola">
 	  <latex-image>
 	    <xi:include parse="text" href="tex/basic_functions/parabola.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The graph of <m>y = x^2</m>.</caption>
+	
       </figure>
 
       <figure xml:id="fig-cubic">
 	<title>the graph of <m>y = x^3</m></title>
+	<caption>The graph of <m>y = x^3</m>.</caption>
 	<image xml:id="img-cubic">
 	  <latex-image>
 	    <xi:include parse="text" href="tex/basic_functions/cubic.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The graph of <m>y = x^3</m>.</caption>
+	
       </figure>
 
       <figure xml:id="fig-quartic">
-	<title>the graph of <m>y = x^4</m></title>
+	<caption>The graph of <m>y = x^4</m>.</caption>
+	
 	<image xml:id="img-quartic">
 	  <latex-image>
 	    <xi:include parse="text" href="tex/basic_functions/quartic.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The graph of <m>y = x^4</m>.</caption>
+	
       </figure>
 
       <figure xml:id="fig-quintic">
-	<title>the graph of <m>y = x^5</m></title>
+	<caption>The graph of <m>y = x^5</m>.</caption>
 	<image xml:id="img-quintic">
 	  <latex-image>
 	    <xi:include parse="text" href="tex/basic_functions/quintic.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The graph of <m>y = x^5</m>.</caption>
+	
       </figure>
     </subsection>
 
@@ -82,43 +85,42 @@
       <title>Roots</title>
 
       <figure xml:id="fig-sq_root">
-	<title>the graph of <m>y = \sqrt{x}</m></title>
+	<caption>The graph of <m>y = \sqrt{x}</m>.</caption>
 	<image xml:id="img-sq_root">
 	  <latex-image>
 	    <xi:include parse="text" href="tex/basic_functions/sq_root.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The graph of <m>y = \sqrt{x}</m>.</caption>
+	
       </figure>
 
       <figure xml:id="fig-cube_root">
-	<title>the graph of <m>y = \sqrt[3]{x}</m></title>
+	<caption>The graph of <m>y = \sqrt[3]{x}</m>.</caption>
+	
 	<image xml:id="img-cube_root">
 	  <latex-image>
 	    <xi:include parse="text" href="tex/basic_functions/cube_root.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The graph of <m>y = \sqrt[3]{x}</m>.</caption>
       </figure>
 
       <figure xml:id="fig-fourth_root">
-	<title>the graph of <m>y = \sqrt[4]{x}</m></title>
+	<caption>The graph of <m>y = \sqrt[4]{x}</m>.</caption>
+
 	<image xml:id="img-fourth_root">
 	  <latex-image>
 	    <xi:include parse="text" href="tex/basic_functions/fourth_root.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The graph of <m>y = \sqrt[4]{x}</m>.</caption>
       </figure>
 
       <figure xml:id="fig-fifth_root">
-	<title>the graph of <m>y = \sqrt[5]{x}</m></title>
+	<caption>The graph of <m>y = \sqrt[5]{x}</m>.</caption>
 	<image xml:id="img-fifth_root">
 	  <latex-image>
 	    <xi:include parse="text" href="tex/basic_functions/fifth_root.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The graph of <m>y = \sqrt[5]{x}</m>.</caption>
       </figure>
     </subsection>
 
@@ -126,53 +128,53 @@
       <title>Rational Functions</title>
 
       <figure xml:id="fig-1_x">
-	<title>the graph of <m>y = \frac{1}{x}</m></title>
+	<caption>The graph of <m>y = \frac{1}{x}</m>.</caption>
+	
 	<image xml:id="img-1_x">
 	  <latex-image>
 	    <xi:include parse="text" href="tex/basic_functions/1_x.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The graph of <m>y = \frac{1}{x}</m>.</caption>
       </figure>
 
       <figure xml:id="fig-1_x_2">
-	<title>the graph of <m>y = \frac{1}{x^2}</m></title>
+	<caption>The graph of <m>y = \frac{1}{x^2}</m>.</caption>
+	
 	<image xml:id="img-1_x_2">
 	  <latex-image>
 	    <xi:include parse="text" href="tex/basic_functions/1_x_2.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The graph of <m>y = \frac{1}{x^2}</m>.</caption>
       </figure>
 
       <figure xml:id="fig-1_x_3">
-	<title>the graph of <m>y = \frac{1}{x^3}</m></title>
+	<caption>The graph of <m>y = \frac{1}{x^3}</m>.</caption>
+	
 	<image xml:id="img-1_x_3">
 	  <latex-image>
 	    <xi:include parse="text" href="tex/basic_functions/1_x_3.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The graph of <m>y = \frac{1}{x^3}</m>.</caption>
       </figure>
 
       <figure xml:id="fig-1_x_4">
-	<title>the graph of <m>y = \frac{1}{x^4}</m></title>
+	<caption>The graph of <m>y = \frac{1}{x^4}</m>.</caption>
+	
 	<image xml:id="img-1_x_4">
 	  <latex-image>
 	    <xi:include parse="text" href="tex/basic_functions/1_x_4.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The graph of <m>y = \frac{1}{x^4}</m>.</caption>
       </figure>
 
       <figure xml:id="fig-1_x_5">
-	<title>the graph of <m>y = \frac{1}{x^5}</m></title>
+	<caption>The graph of <m>y = \frac{1}{x^5}</m>.</caption>
+	
 	<image xml:id="img-1_x_5">
 	  <latex-image>
 	    <xi:include parse="text" href="tex/basic_functions/1_x_5.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The graph of <m>y = \frac{1}{x^5}</m>.</caption>
       </figure>
     </subsection>
     
@@ -180,15 +182,14 @@
       <title>Miscellaneous Functions</title>
 
       <figure xml:id="fig-abs_val">
-	<title>the graph of <m>y = \abs{x}</m></title>
+	<caption>The graph of <m>y = \abs{x}</m>.</caption>
+	
 	<image xml:id="img-abs_val">
 	  <latex-image>
 	    <xi:include parse="text" href="tex/basic_functions/abs_val.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The graph of <m>y = \abs{x}</m>.</caption>
       </figure>
-
     </subsection>
   </appendix>
 

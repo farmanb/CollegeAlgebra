@@ -151,6 +151,7 @@
     </p>
 
     <figure>
+      <caption>The graph of <m>y = \exp(x)</m></caption>
       <image>
 	<latex-image>
 	  \begin{tikzpicture}

@@ -210,16 +210,20 @@
 
     <example>
       <title>Converting to Continuously Compounding Interest</title>
-      As we saw in <xref ref="example-compound_interest"/>, we can model the balance of a savings account with principal investment of <m>P = \$1000</m> at an annual interest rate of <m>r = 6\%</m> compounded monthly with the function
-      <me>A(t) = 1000(1.005)^{12t}.</me>
-      Since the growth factor of this function is <m>a = 1.005^{12}</m>, we have
-      <me>\ln(a) = \ln\left(1.005^{12}\right) = 12\ln(1.005)</me>
-      and thus we can rewrite with base <m>e</m> as
-      <md>
-	<mrow>A(t) \amp= 1000\exp(\ln(a)t)</mrow>
-	<mrow>\amp= 1000\exp(12\ln(1.005)t)</mrow>
-	<mrow>\amp= 1000e^{12\ln(1.005)t}.</mrow>
-      </md>
+      <statement>
+	<p>
+	  As we saw in <xref ref="example-compound_interest"/>, we can model the balance of a savings account with principal investment of <m>P = \$1000</m> at an annual interest rate of <m>r = 6\%</m> compounded monthly with the function
+	  <me>A(t) = 1000(1.005)^{12t}.</me>
+	  Since the growth factor of this function is <m>a = 1.005^{12}</m>, we have
+	  <me>\ln(a) = \ln\left(1.005^{12}\right) = 12\ln(1.005)</me>
+	  and thus we can rewrite with base <m>e</m> as
+	  <md>
+	    <mrow>A(t) \amp= 1000\exp(\ln(a)t)</mrow>
+	    <mrow>\amp= 1000\exp(12\ln(1.005)t)</mrow>
+	    <mrow>\amp= 1000e^{12\ln(1.005)t}.</mrow>
+	  </md>
+	</p>
+      </statement>
     </example>
   </subsection>
 

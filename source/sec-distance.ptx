@@ -18,129 +18,138 @@
     </p>
   </introduction>
 
-  <definition xml:id="def-1_distance">
-    <statement>
-      <p>
-	The <term>distance</term>
-	<idx>
-	  <h>Distance</h>
-	  <h>Number Line</h>
-	</idx>
-	between two numbers <m>x</m> and <m>y</m> on a number line is given by the formula
-	<me>\abs{x - y} = \sqrt{(x - y)^2}.</me>
-	This number measures the length of the segment of the number line between <m>x</m> and <m>y</m>, as depicted in <xref ref="fig-1_distance"/>.
-      </p>
-    </statement>
-  </definition>
+  <subsection>
+    <title>Distance in One Dimension</title>
 
-  <figure xml:id="fig-1_distance">
-    <caption>The distance between points on the number line.</caption>
-    <image xml:id="img-1_distance">
-      <latex-image>
-	<xi:include parse="text" href="tex/1_distance.tex"/>
-      </latex-image>
-    </image>
-  </figure>
+    <definition xml:id="def-1_distance">
+      <statement>
+	<p>
+	  The <term>distance</term>
+	  <idx>
+	    <h>Distance</h>
+	    <h>Number Line</h>
+	  </idx>
+	  between two numbers <m>x</m> and <m>y</m> on a number line is given by the formula
+	  <me>\abs{x - y} = \sqrt{(x - y)^2}.</me>
+	  This number measures the length of the segment of the number line between <m>x</m> and <m>y</m>, as depicted in <xref ref="fig-1_distance"/>.
+	</p>
+      </statement>
+    </definition>
 
-  <p>
-    We can pair this with the Pythagorean Theorem to find the distance between points in the plane.
-  </p>
-  
-  <theorem xml:id="thm-pythagorean">
-    <title>The Pythagorean Theorem</title>
-    <statement>
-      <p>
-	The right triangle in <xref ref="fig-pythagorean"/> satisfies the equation <m>a^2 + b^2 = c^2</m>
-      </p>
-      <figure xml:id="fig-pythagorean">
-	<caption>Right triangle with sides of length <m>a</m>, <m>b</m>, and <m>c</m>.</caption>
-	<image width="50%">
-	  <latex-image>
-	    <xi:include parse="text" href="tex/pythagorean.tex"/>
-	  </latex-image>
-	</image>
-      </figure>
-    </statement>
-  </theorem>
+    <figure xml:id="fig-1_distance">
+      <caption>The distance between points on the number line.</caption>
+      <image xml:id="img-1_distance">
+	<latex-image>
+	  <xi:include parse="text" href="tex/1_distance.tex"/>
+	</latex-image>
+      </image>
+    </figure>
+  </subsection>
 
-  <p>
-    Given two points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m>, we can introduce a third point to create a triangle, as in <xref ref="fig-2_distance"/>.
-  </p>
-  <figure xml:id="fig-2_distance">
-    <caption>The triangle formed by adding in the point <m>(x_1, y_2)</m>.</caption>
-    <image>
-      <latex-image>
-	<xi:include parse="text" href="tex/2_distance.tex"/>
-      </latex-image>
-    </image>
-  </figure>
+  <subsection>
+    <title>Distance in Two Dimensions</title>
+    
+    <p>
+      Using the Pythagorean Theorem and the distance between two numbers, we can determine the distance between points in the plane.
+    </p>
+    
+    <theorem xml:id="thm-pythagorean">
+      <title>The Pythagorean Theorem</title>
+      <statement>
+	<p>
+	  The right triangle in <xref ref="fig-pythagorean"/> satisfies the equation <m>a^2 + b^2 = c^2</m>
+	</p>
+	<figure xml:id="fig-pythagorean">
+	  <caption>Right triangle with sides of length <m>a</m>, <m>b</m>, and <m>c</m>.</caption>
+	  <image width="50%">
+	    <latex-image>
+	      <xi:include parse="text" href="tex/pythagorean.tex"/>
+	    </latex-image>
+	  </image>
+	</figure>
+      </statement>
+    </theorem>
 
-  <p>
-    From <xref ref="fig-2_distance"/>, we can see the length of the horizontal side is the distance between the points <m>x_1</m> and <m>x_2</m> along the <m>x</m>-axis.
-    Similarly, the length of the vertical side is the distance between the points <m>y_1</m> and <m>y_2</m> along the <m>y</m>-axis.
-    Using <xref ref="def-1_distance"/>, we have
-    <me>a = \abs{x_1 - x_2} = \sqrt{(x_1 - x_2)^2}
-    \quad\text{and}\quad
-    b = \abs{y_1 - y_2} = \sqrt{(y_1 - y_2)^2}.</me>
-    If we square these two side lengths, then
-    <me>
-      a^2 = \sqrt{(x_1 - x_2)^2}^2 = (x_1 - x_2)^2
+    <p>
+      Given two points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m>, we can introduce a third point to create a triangle, as in <xref ref="fig-2_distance"/>.
+    </p>
+    
+    <figure xml:id="fig-2_distance">
+      <caption>The triangle formed by adding in the point <m>(x_1, y_2)</m>.</caption>
+      <image>
+	<latex-image>
+	  <xi:include parse="text" href="tex/2_distance.tex"/>
+	</latex-image>
+      </image>
+    </figure>
+
+    <p>
+      From <xref ref="fig-2_distance"/>, we can see the length of the horizontal side is the distance between the points <m>x_1</m> and <m>x_2</m> along the <m>x</m>-axis.
+      Similarly, the length of the vertical side is the distance between the points <m>y_1</m> and <m>y_2</m> along the <m>y</m>-axis.
+      Using <xref ref="def-1_distance"/>, we have
+      <me>a = \abs{x_1 - x_2} = \sqrt{(x_1 - x_2)^2}
       \quad\text{and}\quad
-      b^2 = \sqrt{(y_1 - y_2)^2} = (y_1 - y_2)^2.
-    </me>
-    By the Pythagorean Theorem, the length of the line segment that connects the points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m> is
-    <md>
-      <mrow>c \amp= \sqrt{a^2 + b^2}\\</mrow>
-      <mrow>\amp= \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}.</mrow>
-    </md>
-  </p>
+      b = \abs{y_1 - y_2} = \sqrt{(y_1 - y_2)^2}.</me>
+      If we square these two side lengths, then
+      <me>
+	a^2 = \sqrt{(x_1 - x_2)^2}^2 = (x_1 - x_2)^2
+	\quad\text{and}\quad
+	b^2 = \sqrt{(y_1 - y_2)^2} = (y_1 - y_2)^2.
+      </me>
+      By the Pythagorean Theorem, the length of the line segment that connects the points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m> is
+      <md>
+	<mrow>c \amp= \sqrt{a^2 + b^2}\\</mrow>
+	<mrow>\amp= \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}.</mrow>
+      </md>
+    </p>
 
-  <definition xml:id="def-2_distance">
-    <title>The Distance Formula</title>
-    <statement>
-      <p>
-	The <term>distance</term>
-	<idx>
-	  <h>Distance</h>
-	  <h>Cartesian Plane</h>
-	</idx>
-	between the points <m>(x_1,y_1)</m> and <m>(x_2,y_2)</m> in the Cartesian plane is given by
-	<me>\sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}.</me>
-	This number measures the length of the line segment connecting the two points.
-      </p>
-    </statement>
-  </definition>
+    <definition xml:id="def-2_distance">
+      <title>The Distance Formula</title>
+      <statement>
+	<p>
+	  The <term>distance</term>
+	  <idx>
+	    <h>Distance</h>
+	    <h>Cartesian Plane</h>
+	  </idx>
+	  between the points <m>(x_1,y_1)</m> and <m>(x_2,y_2)</m> in the Cartesian plane is given by
+	  <me>\sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}.</me>
+	  This number measures the length of the line segment connecting the two points.
+	</p>
+      </statement>
+    </definition>
 
-  <example component="web">
-    <statement>
-      <p>
-	Find the distance between the points <m>(3,-2)</m> and <m>(4,7)</m>.
-      </p>
-    </statement>
-    <solution>
-      <p>
-	By <xref ref="def-2_distance" text="title"/> the distance between the points <m>(3,-2)</m> and <m>(4,7)</m> is
-	<md>
-	  <mrow>\sqrt{(3 - 4)^2 + (-2 - 7)^2} \amp= \sqrt{(-1)^2 + (-9)^2}</mrow>
-	  <mrow>\amp = \sqrt{1 + 81}</mrow>
-	  <mrow>\amp = \sqrt{82}.</mrow>
-	</md>
-      </p>
-    </solution>
-  </example>
+    <example component="web">
+      <statement>
+	<p>
+	  Find the distance between the points <m>(3,-2)</m> and <m>(4,7)</m>.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  By <xref ref="def-2_distance" text="title"/> the distance between the points <m>(3,-2)</m> and <m>(4,7)</m> is
+	  <md>
+	    <mrow>\sqrt{(3 - 4)^2 + (-2 - 7)^2} \amp= \sqrt{(-1)^2 + (-9)^2}</mrow>
+	    <mrow>\amp = \sqrt{1 + 81}</mrow>
+	    <mrow>\amp = \sqrt{82}.</mrow>
+	  </md>
+	</p>
+      </solution>
+    </example>
 
-  <worksheet component="print">
-    <title/>
-    <page>
-      <example>
-	<statement>
-	  <p>
-	    Find the distance between the points <m>(3,-2)</m> and <m>(4,7)</m>.
-	  </p>
-	</statement>
-      </example>
-    </page>
-  </worksheet>
+    <worksheet component="print">
+      <title/>
+      <page>
+	<example>
+	  <statement>
+	    <p>
+	      Find the distance between the points <m>(3,-2)</m> and <m>(4,7)</m>.
+	    </p>
+	  </statement>
+	</example>
+      </page>
+    </worksheet>
+  </subsection>
   
   <xi:include href="worksheets/wksht-using_the_distance_formula.ptx"/>
 </section>

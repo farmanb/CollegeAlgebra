@@ -23,75 +23,74 @@
       We develop techniques for analyzing and visualizing functions that are foundational in subsequent mathematics courses and also applicable outside of mathematics <mdash/> in science, technology, and engineering<mdash/> to model the behavior of systems.
     </p>
   </introduction>
-  
-  <definition xml:id="def-function">
-    <title>Function</title>
-    <statement>
-      <p>
-	Assume <m>A</m> and <m>B</m> are sets.
-	A <term>function from <m>A</m> to <m>B</m></term>,
-	<idx>
-	  <h>Function</h>
-	</idx>
-	written <m>f \colon A \to B</m>,
-	<notation>
-	  <usage>
-	    <m>f \colon A \to B</m>
-	  </usage>
-	  <description>Function from <m>A</m> to <m>B</m></description>
-	</notation>
-	is a rule that assigns to each element <m>x \in A</m> a unique element <m>f(x) \in B</m>.
-	<notation>
-	  <usage>
-	    <m>f(x)</m>
-	  </usage>
-	  <description>Value of the function <m>f</m> at <m>x</m></description>
-	</notation>
-      </p>
-      <ul>
-	<li>
-	  <p>
-	    The set <m>A</m> is the <term>domain</term>
-	    <idx>
-	      <h>Function</h>
-	      <h>Domain</h>
-	    </idx>
-	    of <m>f</m>.
-	    The domain of <m>f</m> is the set of all allowable input values to the function <m>f</m>.
-	  </p>
-	</li>
-	<li>
-	  <p>
-	    The set <m>B</m> is the <term>codomain</term>
-	    <idx>
-	      <h>Function</h>
-	      <h>Codomain</h>
-	    </idx>
-	    of <m>f</m>.
-	    The codomain of <m>f</m> is the set that contains all possible output values of <m>f</m>.
-	  </p>
-	</li>
-	<li>
-	  <p>
-	    The <term>range</term>
-	    <idx>
-	      <h>Function</h>
-	      <h>Range</h>
-	    </idx>
-	    of <m>f</m> is the set of all possible output values
-	    <me>f(A) = \left\{f(x) \;\middle\vert\; x \in A\right\}.</me>
-	    <notation>
-	      <usage><m>f(A)</m></usage>
-	      <description>Range of <m>f</m></description>
-	    </notation>
-	  </p>
-	</li>
-      </ul>
-    </statement>
-  </definition>
 
   <subsection>
     <title>Algebraic Functions</title>
+    <definition xml:id="def-function">
+      <title>Function</title>
+      <statement>
+	<p>
+	  Assume <m>A</m> and <m>B</m> are sets.
+	  A <term>function from <m>A</m> to <m>B</m></term>,
+	  <idx>
+	    <h>Function</h>
+	  </idx>
+	  written <m>f \colon A \to B</m>,
+	  <notation>
+	    <usage>
+	      <m>f \colon A \to B</m>
+	    </usage>
+	    <description>Function from <m>A</m> to <m>B</m></description>
+	  </notation>
+	  is a rule that assigns to each element <m>x \in A</m> a unique element <m>f(x) \in B</m>.
+	  <notation>
+	    <usage>
+	      <m>f(x)</m>
+	    </usage>
+	    <description>Value of the function <m>f</m> at <m>x</m></description>
+	  </notation>
+	  <ul>
+	    <li>
+	      <p>
+		The set <m>A</m> is the <term>domain</term>
+		<idx>
+		  <h>Function</h>
+		  <h>Domain</h>
+		</idx>
+		of <m>f</m>.
+		The domain of <m>f</m> is the set of all allowable input values to the function <m>f</m>.
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		The set <m>B</m> is the <term>codomain</term>
+		<idx>
+		  <h>Function</h>
+		  <h>Codomain</h>
+		</idx>
+		of <m>f</m>.
+		The codomain of <m>f</m> is the set that contains all possible output values of <m>f</m>.
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		The <term>range</term>
+		<idx>
+		  <h>Function</h>
+		  <h>Range</h>
+		</idx>
+		of <m>f</m> is the set of all possible output values
+		<me>f(A) = \left\{f(x) \;\middle\vert\; x \in A\right\}.</me>
+		<notation>
+		  <usage><m>f(A)</m></usage>
+		  <description>Range of <m>f</m></description>
+		</notation>
+	      </p>
+	    </li>
+	  </ul>
+	</p>
+      </statement>
+    </definition>
     <p>
       While functions are defined for arbitrary sets, we will restrict our attention to functions of the form <m>f \colon A \to \R</m>, where <m>A</m> is some subset of <m>\R</m>.
       By convention, we will use the variable <m>x</m> to stand for <em>some</em> input value from the domain of <m>f</m>.
@@ -413,12 +412,13 @@
 	    It is simpler to see that if we draw any veritcal line to the right of the <m>y</m>-axis, then there is exactly one point of intersection with the graph of <m>y = x+2</m>.
 	  </p>
 	  <figure>
+	    <caption>The graph <m>y = x + 2</m> and <m>y = a</m>.</caption>
+	    
 	    <image>
 	      <latex-image>
 		<xi:include parse="text" href="tex/vertical_line_test.tex"/>
 	      </latex-image>
 	    </image>
-	    <caption>The graph <m>y = x + 2</m> and <m>y = a</m>.</caption>
 	  </figure>
 	</solution>
       </task>
@@ -492,12 +492,13 @@
 	  Since the definition a <xref ref="def-function" text="title"/> requires that each element of the domain corresponds to <alert>exactly</alert> one element of the codomain, we see this cannot be a function.
 	  That is, equation <m>x = y^2</m> fails the <xref ref="thm-vertical_line_test" text="title"/>.
 	  <figure>
+	    <caption>The graph of the equation <m>x = y^2</m> and the line <m>x = 1</m>.</caption>
+	    
 	    <image>
 	      <latex-image>
 		<xi:include parse="text" href="tex/non_function.tex"/>
 	      </latex-image>
 	    </image>
-	    <caption>The graph of the equation <m>x = y^2</m> and the line <m>x = 1</m>.</caption>
 	  </figure>
 	</p>
       </solution>

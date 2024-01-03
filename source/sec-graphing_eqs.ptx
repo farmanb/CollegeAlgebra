@@ -198,14 +198,17 @@
 	<p>
 	  The solutions to the equation <m>y = 0</m> have the form <m>(x, 0)</m>, where <m>x</m> is allowed to be any real number.
 	  The graph of this equation forms the <m>x</m>-axis in the Cartesian plane.
-	  <figure xml:id="fig-x_axis">
-	    <image xml:id="img-x_axis">
-	      <latex-image>
-		<xi:include parse="text" href="tex/x_axis.tex"/>
-	      </latex-image>
-	    </image>
-	  </figure>
 	</p>
+	<figure xml:id="fig-x_axis">
+	  <caption>
+	    The graph of <m>y = 0</m>
+	  </caption>
+	  <image xml:id="img-x_axis">
+	    <latex-image>
+	      <xi:include parse="text" href="tex/x_axis.tex"/>
+	    </latex-image>
+	  </image>
+	</figure>
       </solution>
     </example>
     
@@ -219,30 +222,30 @@
 	<p>
 	  The equation <m>3y = 7</m> simplifies to <m>y = \frac{7}{3}</m>.
 	  The graph of this equation is a horizontal line <m>\frac{7}{3}</m> units above the <m>x</m>-axis.
-	  <figure xml:id="fig-horiz_line">
-	    <caption>The graph of <m>y = \frac{7}{3}</m>.</caption>
-	    <image xml:id="img-horiz_line">
-	      <latex-image >
-		\begin{tikzpicture}
-		\def\size{5}
-
-		\path [draw, help lines, opacity=.5]  (-\size,0) grid (\size,\size);
-
-		\foreach \i in {1,...,\size} 
-		\draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
-		(-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
-		(2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$};
-		<!-- (2.5pt,-\i) -\- +(-5pt,0) node [anchor=east, font=\small] {$-\i$}; -->
-
-		\draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
-		\draw [very thick,->] (0,0) -- (0,\size+.1) node [anchor=west] {$y$};
-
-		\draw [thick,blue] (-5, 7/3) -- (5,7/3);
-		\end{tikzpicture}
-	      </latex-image>
-	    </image>
-	  </figure>
 	</p>
+	<figure xml:id="fig-horiz_line">
+	  <caption>The graph of <m>y = \frac{7}{3}</m>.</caption>
+	  <image xml:id="img-horiz_line">
+	    <latex-image >
+	      \begin{tikzpicture}
+	      \def\size{5}
+
+	      \path [draw, help lines, opacity=.5]  (-\size,0) grid (\size,\size);
+
+	      \foreach \i in {1,...,\size} 
+	      \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
+	      (-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
+	      (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$};
+	      <!-- (2.5pt,-\i) -\- +(-5pt,0) node [anchor=east, font=\small] {$-\i$}; -->
+
+	      \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
+	      \draw [very thick,->] (0,0) -- (0,\size+.1) node [anchor=west] {$y$};
+
+	      \draw [thick,blue] (-5, 7/3) -- (5,7/3);
+	      \end{tikzpicture}
+	    </latex-image>
+	  </image>
+	</figure>
       </solution>
     </example>
 
@@ -300,6 +303,7 @@
 	  The graph of this equation forms the <m>y</m>-axis in the Cartesian plane.
 	</p>
 	<figure xml:id="fig-y_axis">
+	  <caption>The graph of <m>x = 0</m></caption>
 	  <image xml:id="img-y_axis">
 	    <latex-image>
 	      <xi:include parse="text" href="tex/y_axis.tex"/>
@@ -310,41 +314,43 @@
     </example>
     
     <example component="web">
-      <statemnt>
+      <statement>
 	<p>
 	  Graph the equation <m>3x = 2</m>.
 	</p>
-      </statemnt>
+      </statement>
       <solution>
 	<p>
 	  The equation <m>3x = 2</m> reduces to <m>x = \frac{2}{3}</m>.
 	  The graph of this equation is a vertical line <m>\frac{2}{3}</m> units to the right of the <m>y</m>-axis.
-	  <figure xml:id="fig-vert_line">
-	    <caption>The graph of <m>x = \frac{2}{3}</m>.</caption>
-	    <image xml:id="img-vert_line">
-	      <latex-image >
-		\begin{tikzpicture}
-		\def\size{5}
-
-		\path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
-
-		\foreach \i in {1,...,\size} 
-		\draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
-		(-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
-		(2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
-		(2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
-
-		\draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
-		\draw [very thick,->] (0,-\size) -- (0,\size+.1) node [anchor=west] {$y$};
-
-		\draw [thick,blue] (2/3, -5) -- (2/3,5);
-		\end{tikzpicture}
-	      </latex-image>
-	    </image>
-	  </figure>
 	</p>
+	
+	<figure xml:id="fig-vert_line">
+	  <caption>The graph of <m>x = \frac{2}{3}</m>.</caption>
+	  <image xml:id="img-vert_line">
+	    <latex-image >
+	      \begin{tikzpicture}
+	      \def\size{5}
+
+	      \path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
+
+	      \foreach \i in {1,...,\size} 
+	      \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
+	      (-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
+	      (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
+	      (2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
+
+	      \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
+	      \draw [very thick,->] (0,-\size) -- (0,\size+.1) node [anchor=west] {$y$};
+
+	      \draw [thick,blue] (2/3, -5) -- (2/3,5);
+	      \end{tikzpicture}
+	    </latex-image>
+	  </image>
+	</figure>
       </solution>
     </example>
+
     <worksheet component="print">
       <title/>
       <page>
@@ -377,6 +383,6 @@
       </page>
     </worksheet>
   </subsection>
-  
+
   <xi:include href="worksheets/wksht-plotting_points_on_a_graph.ptx"/>
 </section>

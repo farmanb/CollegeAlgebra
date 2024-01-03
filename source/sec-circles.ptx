@@ -16,13 +16,11 @@
   <!--   </ul> -->
   <!-- </objectives> -->
 
-  <introduction>
-    <p>
-      In this section, we study circles in the Cartesian plane.
-    </p>
-  </introduction>
+  <p>
+    In this section, we study circles in the Cartesian plane.
+  </p>
 
-    <definition>
+  <definition>
       <statement>
 	<p>
 	  The <term>circle</term>

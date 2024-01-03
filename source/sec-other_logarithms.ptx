@@ -14,7 +14,9 @@
     </p>
   </introduction>
   
-  <definition xml:id="def-log_base_a">
+  <subsection>
+    <title>Changing the Base of the Logarithm</title>
+    <definition xml:id="def-log_base_a">
     <title>The Logarithm with Base <m>a</m></title>
     <statement>
       <p>
@@ -40,10 +42,8 @@
 	\Exp{a} \circ \log_a(y) = a^{\log_a(y)} = y.</me>
       </p>
     </statement>
-  </definition>
-
-  <subsection>
-    <title>Changing the Base of the Logarithm</title>
+    </definition>
+    
     <p>
       Our understanding of the natural logarithm and graph transformations allows us to very quickly visualize the logarithm with base <m>a</m>.
       Just as for exponentials, there are two cases: <m>a \lt 1</m> and <m>1 \lt a</m>.
@@ -54,6 +54,7 @@
     </p>
 
     <figure xml:id="fig-refl_exponential_growth">
+      <caption>The graphs of the logarithms with base <m>2</m>, <m>e</m>, <m>3</m>, <m>4</m>, <m>5</m>, <m>6</m>, and <m>7</m></caption>
       <image>
 	<latex-image>
 	  \begin{tikzpicture}[pics/legend entry/.style={code={%
@@ -92,7 +93,6 @@
 	  \end{tikzpicture}
 	</latex-image>
       </image>
-      <caption>The graphs of the logarithms with base <m>2</m>, <m>e</m>, <m>3</m>, <m>4</m>, <m>5</m>, <m>6</m>, and <m>7</m></caption>
     </figure>
     <p>
       When <m>a \lt 1</m>, <m>\ln(a) \lt 0</m>, and so the graph of 
@@ -101,6 +101,7 @@
       We have plotted the logarithm for several bases in <xref ref="fig-refl_exponential_decay"/>.
     </p>
     <figure xml:id="fig-refl_exponential_decay">
+      <caption>The graphs of the logarithms with base <m>1/2</m>, <m>1/e</m>, <m>1/3</m>, <m>1/4</m>, <m>1/5</m>, <m>1/6</m>, and <m>1/7</m></caption>
       <image>
 	<latex-image>
 	  \begin{tikzpicture}[pics/legend entry/.style={code={%
@@ -139,7 +140,6 @@
 	  \end{tikzpicture}
 	</latex-image>
       </image>
-      <caption>The graphs of the logarithms with base <m>1/2</m>, <m>1/e</m>, <m>1/3</m>, <m>1/4</m>, <m>1/5</m>, <m>1/6</m>, and <m>1/7</m></caption>
     </figure>
 
     <p>

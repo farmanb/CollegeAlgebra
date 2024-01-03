@@ -20,49 +20,58 @@
       This is easy to detect visually because either the height of the graph increases or decreases as you trace the graph from left to right.
     </p>
     <figure xml:id="fig-increasing">
+      <caption>Graphs of increasing and decreasing functions</caption>
       <sidebyside>
-	<image>
-	  <latex-image>
-	    \begin{tikzpicture}
-	    \def\size{5}
-	    
-	    \path [draw, help lines, opacity=.5]  (-\size,0) grid (\size,\size);
-	    
-	    \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
-	    \draw [very thick,->] (0,0) -- (0,\size+.1) node [anchor=west] {$y$};
+	<figure>
+	  <caption>The graph of an increasing function</caption>
+	  <image>
+	    <latex-image>
+	      \begin{tikzpicture}
+	      \def\size{5}
+	      
+	      \path [draw, help lines, opacity=.5]  (-\size,0) grid (\size,\size);
+	      
+	      \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
+	      \draw [very thick,->] (0,0) -- (0,\size+.1) node [anchor=west] {$y$};
 
-	    \begin{scope}
-	    \clip (-\size,0) rectangle (\size,\size);
-	    \draw[thick,blue] plot[smooth,samples=500,domain=0:\size] (\x,\x^2);
-	    \end{scope}
-	    \end{tikzpicture}
-	  </latex-image>
-	</image>
-	<image>
-	  <latex-image>
-	    \begin{tikzpicture}
-	    \def\size{5}
-	    
-	    \path [draw, help lines, opacity=.5]  (-\size,0) grid (\size,\size);
-	    
-	    \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
-	    \draw [very thick,->] (0,0) -- (0,\size+.1) node [anchor=west] {$y$};
-	    
-	    \begin{scope}
-	    \clip (-\size,-\size) rectangle (\size,\size);
-	    \draw[thick,blue] plot[smooth,samples=500,domain=-\size:0] (\x,{(\x)^2});
-	    \end{scope}
-	    \end{tikzpicture}
-	  </latex-image>
-	</image>
+	      \begin{scope}
+	      \clip (-\size,0) rectangle (\size,\size);
+	      \draw[thick,blue] plot[smooth,samples=500,domain=0:\size] (\x,\x^2);
+	      \end{scope}
+	      \end{tikzpicture}
+	    </latex-image>
+	  </image>
+	</figure>
+	<figure>
+	  <caption>The graph of a decreasing function</caption>
+	  <image>
+	    <latex-image>
+	      \begin{tikzpicture}
+	      \def\size{5}
+	      
+	      \path [draw, help lines, opacity=.5]  (-\size,0) grid (\size,\size);
+	      
+	      \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
+	      \draw [very thick,->] (0,0) -- (0,\size+.1) node [anchor=west] {$y$};
+	      
+	      \begin{scope}
+	      \clip (-\size,-\size) rectangle (\size,\size);
+	      \draw[thick,blue] plot[smooth,samples=500,domain=-\size:0] (\x,{(\x)^2});
+	      \end{scope}
+	      \end{tikzpicture}
+	    </latex-image>
+	  </image>
+	</figure>
       </sidebyside>
-      <caption>The graph of an increasing function (left) and a decreasing function (right)</caption>
     </figure>
+
     <p>
       Unfortunately, many interesting functions are not simply increasing or decreasing.
       Rather, most interesting functions have pieces that are increasing and pieces that are decreasing.
     </p>
+    
     <figure>
+      <caption>The graph of a function that is neither increasing nor decreasing</caption>
       <image>
 	<latex-image>
 	  \begin{tikzpicture}
@@ -81,7 +90,6 @@
 	  \end{tikzpicture}
 	</latex-image>
       </image>
-      <caption>The graph of a function that is neither increasing nor decreasing</caption>
     </figure>
 
     <p>
@@ -93,31 +101,31 @@
 	<p>
 	  Assume <m>A \subseteq \R</m> and <m>[a,b] \subseteq A</m>.
 	  We say the function <m>f \colon A \to \R</m> is
+	  <ul>
+	    <li>
+	      <p>
+		<term>increasing</term>
+		<idx>
+		  <h>Function</h>
+		  <h>Increasing</h>
+		</idx>
+		on the interval <m>[a,b]</m> if for every <m>a \leq x_1 \lt x_2 \leq b</m>,
+		<me>f(x_1) \lt f(x_2).</me>
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		<term>decreasing</term>
+		<idx>
+		  <h>Function</h>
+		  <h>Decreasing</h>
+		</idx>
+		on the interval <m>[a,b]</m> if for every <m>a \leq x_1 \lt x_2 \leq b</m>,
+		<me>f(x_2) \lt f(x_1).</me>
+	      </p>
+	    </li>
+	  </ul>
 	</p>
-	<ul>
-	  <li>
-	    <p>
-	      <term>increasing</term>
-	      <idx>
-		<h>Function</h>
-		<h>Increasing</h>
-	      </idx>
-	      on the interval <m>[a,b]</m> if for every <m>a \leq x_1 \lt x_2 \leq b</m>,
-	      <me>f(x_1) \lt f(x_2).</me>
-	    </p>
-	  </li>
-	  <li>
-	    <p>
-	      <term>decreasing</term>
-	      <idx>
-		<h>Function</h>
-		<h>Decreasing</h>
-	      </idx>
-	      on the interval <m>[a,b]</m> if for every <m>a \leq x_1 \lt x_2 \leq b</m>,
-	      <me>f(x_2) \lt f(x_1).</me>
-	    </p>
-	  </li>
-	</ul>
       </statement>
     </definition>
 
@@ -203,6 +211,7 @@
 	  Identify all local extrema.
 	</p>
 	<figure>
+	  <caption>The graph of <m>y = f(x)</m></caption>
 	  <image>
 	    <latex-image>
 	      \begin{tikzpicture}
@@ -233,7 +242,6 @@
 	      \end{tikzpicture}
 	    </latex-image>
 	  </image>
-	  <caption>The graph of <m>y = f(x)</m></caption>
 	</figure>
       </statement>
       <solution>
@@ -396,15 +404,18 @@
 	  An object is thrown straight up in the air.
 	  The object reaches a maximum height of 1 meter after 1 seconds, and returns to the thrower's hand after 2 seconds.
 	  The function <m>h \colon [0,2] \to \R</m> models the height of the object in meters as a function of <m>x</m> seconds.
-	  <figure xml:id="fig-kinematic">
-	    <image>
-	      <latex-image>
-		<xi:include parse="text" href="tex/kinematic.tex"/>
-	      </latex-image>
-	    </image>
-	    <caption>The graph of <m>h(x)</m></caption>
-	  </figure>
 	</p>
+
+	<figure xml:id="fig-kinematic">
+	  <caption>The graph of <m>y = h(x)</m></caption>
+
+	  <image>
+	    <latex-image>
+	      <xi:include parse="text" href="tex/kinematic.tex"/>
+	    </latex-image>
+	  </image>
+	</figure>
+
       </introduction>
       <task>
 	<statement>

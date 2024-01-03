@@ -488,325 +488,412 @@
     </definition>
 
     <figure xml:id="fig-interval-open">
-      <image xml:id="img-interval-open">
-	<latex-image>
-	  <xi:include parse="text" href="tex/interval-open.tex"/>
-	</latex-image>
-      </image>
-      <image xml:id="img-interval-left_open_ray">
-	<latex-image>
-	  <xi:include parse="text" href="tex/interval-left_open_ray.tex"/>
-	</latex-image>
-      </image>
-      <image xml:id="img-interval-right_open_ray">
-	<latex-image>
-	  <xi:include parse="text" href="tex/interval-right_open_ray.tex"/>
-	</latex-image>
-      </image>
-      <caption>The open intervals <m>(a,b)</m> (top), <m>(a,\infty)</m> (middle), and <m>(-\infty, b)</m> (bottom).</caption>
-    </figure>
+      <caption>The open intervals</caption>
+      <sbsgroup>
+      <sidebyside>
+	<figure>
+	  <caption><m>(a,b)</m></caption>
+	  <image xml:id="img-interval-open">
+	    <latex-image>
+	      <xi:include parse="text" href="tex/interval-open.tex"/>
+	    </latex-image>
+	  </image>
+	</figure>
+      </sidebyside>
+      <sidebyside>
+	<figure>
+	  <caption><m>(a, \infty)</m></caption>
+	  <image xml:id="img-interval-left_open_ray">
+	    <latex-image>
+	      <xi:include parse="text" href="tex/interval-left_open_ray.tex"/>
+	    </latex-image>
+	  </image>
+	</figure>
+      </sidebyside>
+      <sidebyside>
+	<figure>
+	  <caption><m>(-\infty,b)</m></caption>
+	  <image xml:id="img-interval-right_open_ray">
+	    <latex-image>
+	      <xi:include parse="text" href="tex/interval-right_open_ray.tex"/>
+	    </latex-image>
+	  </image>
+	</figure>
+      </sidebyside>
+      </sbsgroup>
+  </figure>
 
-    <definition xml:id="def-interval-closed">
-      <title>Closed Interval</title>
-      <statement>
-	<p>
-	  Let <m>a</m> and <m>b</m> be real numbers and assume that <m>a \lt b</m>.
-	  A <term>closed interval</term>
-	  <idx>
-	    <h>Set</h>
-	    <h>Interval</h>
-	    <h>Closed</h>
-	  </idx>
-	  is a set that takes one of the following forms
-	  <md>
-	    <mrow>[a,b] \amp= \left\{x \in \R \;\middle\vert\; a \leq x \leq b\right\},</mrow>
-	    <mrow>[a, \infty) \amp = \left\{x \in \R ;\middle\vert\; a \leq x\right\},\, \text{or}</mrow>
-	    <mrow>(-\infty, b] \amp = \left\{x \in \R \;\middle\vert\; x \leq b\right\}.</mrow>
-	    <mrow>(-\infty, \infty) \amp = \R.</mrow>
-	  </md>
-	</p>
-      </statement>
-    </definition>
+  <definition xml:id="def-interval-closed">
+    <title>Closed Interval</title>
+    <statement>
+      <p>
+	Let <m>a</m> and <m>b</m> be real numbers and assume that <m>a \lt b</m>.
+	A <term>closed interval</term>
+	<idx>
+	  <h>Set</h>
+	  <h>Interval</h>
+	  <h>Closed</h>
+	</idx>
+	is a set that takes one of the following forms
+	<md>
+	  <mrow>[a,b] \amp= \left\{x \in \R \;\middle\vert\; a \leq x \leq b\right\},</mrow>
+	  <mrow>[a, \infty) \amp = \left\{x \in \R ;\middle\vert\; a \leq x\right\},\, \text{or}</mrow>
+	  <mrow>(-\infty, b] \amp = \left\{x \in \R \;\middle\vert\; x \leq b\right\}.</mrow>
+	  <mrow>(-\infty, \infty) \amp = \R.</mrow>
+	</md>
+      </p>
+    </statement>
+  </definition>
 
-    <figure xml:id="fig-interval-closed">
-      <image xml:id="img-interval-closed">
-	<latex-image>
-	  <xi:include parse="text" href="tex/interval-closed.tex"/>
-	</latex-image>
-      </image>
-      <image xml:id="img-interval-left_closed_ray">
-	<latex-image>
-	  <xi:include parse="text" href="tex/interval-left_closed_ray.tex"/>
-	</latex-image>
-      </image>
-      <image xml:id="img-interval-right_closed_ray">
-	<latex-image>
-	  <xi:include parse="text" href="tex/interval-right_closed_ray.tex"/>
-	</latex-image>
-      </image>
-      <caption>The closed intervals <m>[a,b]</m> (top), <m>[a,\infty)</m> (middle), and <m>(-\infty,b]</m> (bottom).</caption>
-    </figure>
+  <figure xml:id="fig-interval-closed">
+    <caption>The closed intervals</caption>
+    <sbsgroup>
+      <sidebyside>
+	<figure>
+	  <caption><m>[a,b]</m></caption>
+	  <image xml:id="img-interval-closed">
+	    <latex-image>
+	      <xi:include parse="text" href="tex/interval-closed.tex"/>
+	    </latex-image>
+	  </image>
+	</figure>
+      </sidebyside>
 
-    <definition xml:id="def-interval-half-open">
-      <title>Half-Open Interval</title>
-      <statement>
-	<p>
-	  Let <m>a</m> and <m>b</m> be real numbers and assume that <m>a \lt b</m>.
-	  A <term>half-open interval</term>
-	  <idx>
-	    <h>Set</h>
-	    <h>Interval</h>
-	    <h>Half-Open</h>
-	  </idx>
-	  from <m>a</m> to <m>b</m> takes one of the following forms.
-	  <md>
-	    <mrow>(a,b] \amp= \left\{x \in \R \;\middle\vert\; a \lt x \leq b\right\},</mrow>
-	    <mrow>[a,b) \amp= \left\{x \in \R \;\middle\vert\; a \leq x \lt b\right\},</mrow>
-	  </md>
-	</p>
-      </statement>
-    </definition>
+      <sidebyside>
+	<figure>
+	  <caption><m>[a,\infty)</m></caption>
+	  <image xml:id="img-interval-left_closed_ray">
+	    <latex-image>
+	      <xi:include parse="text" href="tex/interval-left_closed_ray.tex"/>
+	    </latex-image>
+	  </image>
+	</figure>
+      </sidebyside>
 
-    <figure xml:id="fig-interval-half_open">
-      <image xml:id="img-interval-half_open-left">
-	<latex-image>
-	  <xi:include parse="text" href="tex/interval-half_open-left.tex"/>
-	</latex-image>
-      </image>
-      <image xml:id="img-interval-half_open-right">
-	<latex-image>
-	  <xi:include parse="text" href="tex/interval-half_open-right.tex"/>
-	</latex-image>
-      </image>
-      <caption>The half-open intervals <m>(a,b]</m> (top) and <m>[a,b)</m> (bottom).</caption>
-    </figure>
-  </subsection>
+      <sidebyside>
+	<figure>
+	  <caption><m>(-\infty,b]</m></caption>
+	  <image xml:id="img-interval-right_closed_ray">
+	    <latex-image>
+	      <xi:include parse="text" href="tex/interval-right_closed_ray.tex"/>
+	    </latex-image>
+	  </image>
+	</figure>
+      </sidebyside>
+    </sbsgroup>
+  </figure>
+
+  <definition xml:id="def-interval-half-open">
+    <title>Half-Open Interval</title>
+    <statement>
+      <p>
+	Let <m>a</m> and <m>b</m> be real numbers and assume that <m>a \lt b</m>.
+	A <term>half-open interval</term>
+	<idx>
+	  <h>Set</h>
+	  <h>Interval</h>
+	  <h>Half-Open</h>
+	</idx>
+	from <m>a</m> to <m>b</m> takes one of the following forms.
+	<md>
+	  <mrow>(a,b] \amp= \left\{x \in \R \;\middle\vert\; a \lt x \leq b\right\},</mrow>
+	  <mrow>[a,b) \amp= \left\{x \in \R \;\middle\vert\; a \leq x \lt b\right\},</mrow>
+	</md>
+      </p>
+    </statement>
+  </definition>
+
+  <figure xml:id="fig-interval-half_open">
+    <caption>The half-open intervals</caption>
+    <sbsgroup>
+      <sidebyside>
+	<figure>
+	  <caption><m>(a,b]</m></caption>
+	  <image xml:id="img-interval-half_open-left">
+	    <latex-image>
+	      <xi:include parse="text" href="tex/interval-half_open-left.tex"/>
+	    </latex-image>
+	  </image>
+	</figure>
+      </sidebyside>
+      <sidebyside>
+	<figure>
+	  <caption><m>[a,b)</m></caption>
+	  <image xml:id="img-interval-half_open-right">
+	    <latex-image>
+	      <xi:include parse="text" href="tex/interval-half_open-right.tex"/>
+	    </latex-image>
+	  </image>
+	</figure>
+      </sidebyside>
+    </sbsgroup>
+  </figure>
+</subsection>
+
+<subsection>
+  <title>Basic Set Operations</title>
+  <p>
+    There are two common operations that we will frequently need to perform on sets.
+  </p>
   
-  <subsection>
-    <title>Basic Set Operations</title>
+  <definition xml:id="def-intersection">
+    <title>Intersection</title>
+    <statement>
+      <p>
+	Let <m>A</m> and <m>B</m> be sets.
+	The <term>intersection</term>
+	<idx>
+	  <h>Set</h>
+	  <h>Intersection</h>
+	</idx>
+	of <m>A</m> and <m>B</m> is the set
+	<me>A \cap B = \left\{x \;\middle\vert\; x \in A\ \text{and}\ x \in B\right\}.</me>
+      </p>
+    </statement>
+  </definition>
+
+  <remark>
     <p>
-      There are two common operations that we will frequently need to perform on sets.
+      The intersection is the largest set that is a subset of <m>A</m> and a subset of <m>B</m>.
     </p>
-    
-    <definition xml:id="def-intersection">
-      <title>Intersection</title>
-      <statement>
-	<p>
-	  Let <m>A</m> and <m>B</m> be sets.
-	  The <term>intersection</term>
-	  <idx>
-	    <h>Set</h>
-	    <h>Intersection</h>
-	  </idx>
-	  of <m>A</m> and <m>B</m> is the set
-	  <me>A \cap B = \left\{x \;\middle\vert\; x \in A\ \text{and}\ x \in B\right\}.</me>
-	</p>
-      </statement>
-    </definition>
+  </remark>
 
-    <remark>
+  <definition xml:id="def-union">
+    <title>Union</title>
+    <statement>
       <p>
-	The intersection is the largest set that is a subset of <m>A</m> and a subset of <m>B</m>.
+	Let <m>A</m> and <m>B</m> be sets.
+	The <term>union</term>
+	<idx>
+	  <h>Set</h>
+	  <h>Union</h>
+	</idx>
+	of <m>A</m> and <m>B</m> is the set
+	<me>A \cup B = \left\{x \;\middle\vert\; x \in A\ \text{or}\ x \in B\right\}.</me>
       </p>
-    </remark>
+    </statement>
+  </definition>
 
-    <definition xml:id="def-union">
-      <title>Union</title>
-      <statement>
-	<p>
-	  Let <m>A</m> and <m>B</m> be sets.
-	  The <term>union</term>
-	  <idx>
-	    <h>Set</h>
-	    <h>Union</h>
-	  </idx>
-	  of <m>A</m> and <m>B</m> is the set
-	  <me>A \cup B = \left\{x \;\middle\vert\; x \in A\ \text{or}\ x \in B\right\}.</me>
-	</p>
-      </statement>
-    </definition>
+  <remark>
+    <p>
+      In mathematics, the word <em>or</em> is <term>inclusive</term>.
+      This means the condition <m>x \in A</m> or <m>x \in B</m> allows for the possibility that <m>x \in A</m> <em>and</em> <m>x \in B</m>.
+    </p>
+  </remark>
 
-    <remark>
-      <p>
-	In mathematics, the word <em>or</em> is <term>inclusive</term>.
-	This means the condition <m>x \in A</m> or <m>x \in B</m> allows for the possibility that <m>x \in A</m> <em>and</em> <m>x \in B</m>.
-      </p>
-    </remark>
+  <remark>
+    <p>
+      The union is the smallest set that contains both <m>A</m> and <m>B</m> as subsets.
+    </p>
+  </remark>
 
-    <remark>
-      <p>
-	The union is the smallest set that contains both <m>A</m> and <m>B</m> as subsets.
-      </p>
-    </remark>
-
-    <worksheet component="print">
-      <title/>
-      <page>
-	<example>
-	  <title>Intersections and Unions of Intervals</title>
-	  <task workspace="4in">
-	    <p>
-	      Find the intersection of the intervals <m>[0,2)</m> and <m>(1,3]</m>.
-	      Sketch the intersection on a number line.
-	    </p>
-	  </task>
-	  <task workspace="4in">
-	    <p>
-	      Find the union of the two intervals <m>[-1,2)</m> and <m>(1,3]</m>.
-	      Sketch the union on a number line.
-	    </p>
-	  </task>
-	</example>
-      </page>
-    </worksheet>
-    
-    <example component="web">
-      <title>Intersection of Intervals</title>
-      <statement>
-	<p>
-	  Find the intersection of the intervals <m>[0,2)</m> and <m>(1,3]</m>.
-	  Sketch the intersection on a number line.
-	</p>
-      </statement>
-
-      <solution>
-	<p>
-	  The intersection of the intervals <m>[0,2)</m> and <m>(1,3]</m> is the set
-	  <md>
-	    <mrow>[1,2) \cap (1,3] \amp = \left\{x \in \R \;\middle\vert\; 1 \leq x \lt 2\ \text{and}\ 1 \lt x \leq 3\right\}</mrow>
-	    <mrow>\amp = \left\{x \in \R\;\middle\vert\; 1 \lt x \lt 2\right\}</mrow>
-	    <mrow>\amp = (1,2)</mrow>.
-	  </md>
-	</p>
-	<figure>
-	  <image>
-	    <latex-image>
-	      <xi:include parse="text" href="tex/left_open_0_2.tex"/>
-	    </latex-image>
-	  </image>
-	  <image>
-	    <latex-image>
-	      <xi:include parse="text" href="tex/right_open_1_3.tex"/>
-	    </latex-image>
-	  </image>
-	  <image>
-	    <latex-image>
-	      <xi:include parse="text" href="tex/intersection_example.tex"/>
-	    </latex-image>
-	  </image>
-	  <caption>The intervals <m>[0,2)</m> (top), <m>(1,3]</m> (middle), and <m>[0,2) \cap (1,3]</m> (bottom).</caption>
-	</figure>
-      </solution>
-    </example>
-    
-    <example component="web">
-      <title>Union of Intervals</title>
-
-      <statement>
-	<p>
-	  Find the union of the two intervals <m>[-1,2)</m> and <m>(1,3]</m>.
-	  Sketch the union on a number line.
-	</p>
-      </statement>
-
-      <solution>
-	<p>
-	  The union of the two intervals <m>[-1,2)</m> and <m>(1,3]</m> is the set
-	  <md>
-	    <mrow>[0,2) \cup (1,3] \amp = \left\{x \in \R \;\middle\vert\; 0 \leq x \lt 2\ \text{or}\ 1 \lt x \leq 3\right\}</mrow>
-	    <mrow>\amp = 0 \leq x \leq 3</mrow>
-	    <mrow>\amp = [0,3]</mrow>.
-	  </md>
-	</p>
-	<figure>
-	  <image>
-	    <latex-image>
-	      <xi:include parse="text" href="tex/left_open_0_2.tex"/>
-	    </latex-image>
-	  </image>
-	  <image>
-	    <latex-image>
-	      <xi:include parse="text" href="tex/right_open_1_3.tex"/>
-	    </latex-image>
-	  </image>
-	  <image>
-	    <latex-image>
-	      <xi:include parse="text" href="tex/union_example.tex"/>
-	    </latex-image>
-	  </image>
-	  <caption>The intervals <m>[0,2)</m> (top), <m>(1,3]</m> (middle), and <m>[0,2) \cup (1,3]</m> (bottom).</caption>
-	</figure>
-      </solution>
-    </example>
-  </subsection>
-
-  <worksheet>
-    <title>Working with Sets</title>
-    <objectives>
-      <ul>
-	<li>
-	  <p>
-	    Use roster and set-builder notation to express a set,
-	  </p>
-	</li>
-	<li>
-	  <p>
-	    Find the intersection and union of two sets.
-	  </p>
-	</li>
-      </ul>
-    </objectives>
+  <worksheet component="print">
+    <title/>
     <page>
-      <exercise workspace="0.5in">
-	<statement>
+      <example>
+	<title>Intersections and Unions of Intervals</title>
+	<task workspace="4in">
 	  <p>
-	    Write the real numbers that are at least as large as 2 and less than 5 in set notation.
+	    Find the intersection of the intervals <m>[0,2)</m> and <m>(1,3]</m>.
+	    Sketch the intersection on a number line.
 	  </p>
-	</statement>
-      </exercise>
-      <exercise workspace="0.5in">
-	<statement>
+	</task>
+	<task workspace="4in">
 	  <p>
-	    Write the integers that are at least as large as 2 and less than 5 in set notation.
+	    Find the union of the two intervals <m>[-1,2)</m> and <m>(1,3]</m>.
+	    Sketch the union on a number line.
 	  </p>
-	</statement>
-      </exercise>
-    </page>
-    <page>
-      <exercise workspace="0.5in">
-	<statement>
-	  <p>
-	    Write <m>[0,\infty) \cap (-\infty, 5)</m> in set notation.
-	    Graph the result on a number line.
-	  </p>
-	</statement>
-      </exercise>
-      <exercise workspace="0.5in">
-	<statement>
-	  <p>
-	    Write <m>[0,5) \cap (3, 5)</m> in set notation.
-	    Graph the result on a number line.
-	  </p>
-	</statement>
-      </exercise>
-    </page>
-    <page>
-      <exercise workspace="0.5in">
-	<statement>
-	  <p>
-	    Write <m>[0,5) \cup (3, 5)</m> in set notation.
-	    Graph the result on a number line.
-	  </p>
-	</statement>
-      </exercise>
-      <exercise workspace="0.5in">
-	<statement>
-	  <p>
-	    Write <m>[0,\infty) \cup (-\infty, 5)</m> in set notation.
-	    Graph the result on a number line.
-	  </p>
-	</statement>
-      </exercise>
+	</task>
+      </example>
     </page>
   </worksheet>
+  
+  <example component="web">
+    <title>Intersection of Intervals</title>
+    <statement>
+      <p>
+	Find the intersection of the intervals <m>[0,2)</m> and <m>(1,3]</m>.
+	Sketch the intersection on a number line.
+      </p>
+    </statement>
+
+    <solution>
+      <p>
+	The intersection of the intervals <m>[0,2)</m> and <m>(1,3]</m> is the set
+	<md>
+	  <mrow>[1,2) \cap (1,3] \amp = \left\{x \in \R \;\middle\vert\; 1 \leq x \lt 2\ \text{and}\ 1 \lt x \leq 3\right\}</mrow>
+	  <mrow>\amp = \left\{x \in \R\;\middle\vert\; 1 \lt x \lt 2\right\}</mrow>
+	  <mrow>\amp = (1,2).</mrow>
+	</md>
+      </p>
+      <figure>
+	<caption>The intervals <m>[0,2)</m>, <m>(1,3]</m>, and their intersection</caption>
+	<sbsgroup>
+	  <sidebyside>
+	    <figure>
+	      <caption><m>[0,2)</m></caption>
+	      <image>
+		<latex-image>
+		  <xi:include parse="text" href="tex/left_open_0_2.tex"/>
+		</latex-image>
+	      </image>
+	    </figure>
+	  </sidebyside>
+
+	  <sidebyside>
+	    <figure>
+	      <caption><m>(1,3]</m></caption>
+	      <image>
+		<latex-image>
+		  <xi:include parse="text" href="tex/right_open_1_3.tex"/>
+		</latex-image>
+	      </image>
+	    </figure>
+	  </sidebyside>
+
+	  <sidebyside>
+	    <figure>
+	      <caption><m>(1,2)</m></caption>
+	      <image>
+		<latex-image>
+		  <xi:include parse="text" href="tex/intersection_example.tex"/>
+		</latex-image>
+	      </image>
+	    </figure>
+	  </sidebyside>
+	</sbsgroup>
+      </figure>
+    </solution>
+  </example>
+  
+  <example component="web">
+    <title>Union of Intervals</title>
+
+    <statement>
+      <p>
+	Find the union of the two intervals <m>[-1,2)</m> and <m>(1,3]</m>.
+	Sketch the union on a number line.
+      </p>
+    </statement>
+
+    <solution>
+      <p>
+	The union of the two intervals <m>[-1,2)</m> and <m>(1,3]</m> is the set
+	<md>
+	  <mrow>[0,2) \cup (1,3] \amp = \left\{x \in \R \;\middle\vert\; 0 \leq x \lt 2\ \text{or}\ 1 \lt x \leq 3\right\}</mrow>
+	  <mrow>\amp = 0 \leq x \leq 3</mrow>
+	  <mrow>\amp = [0,3].</mrow>
+	</md>
+      </p>
+      <figure>
+	<caption>The intervals <m>[0,2)</m>, <m>(1,3]</m>, and their union</caption>
+	
+	<sbsgroup>
+	  <sidebyside>
+	    <figure>
+	      <caption><m>[0,2)</m></caption>
+	      <image>
+		<latex-image>
+		  <xi:include parse="text" href="tex/left_open_0_2.tex"/>
+		</latex-image>
+	      </image>
+	    </figure>
+	  </sidebyside>
+
+	  <sidebyside>
+	    <figure>
+	      <caption><m>(1,3]</m></caption>
+	      <image>
+		<latex-image>
+		  <xi:include parse="text" href="tex/right_open_1_3.tex"/>
+		</latex-image>
+	      </image>
+	    </figure>
+	  </sidebyside>
+
+	  <sidebyside>
+	    <figure>
+	      <caption><m>[0,3]</m></caption>
+	      <image>
+		<latex-image>
+		  <xi:include parse="text" href="tex/union_example.tex"/>
+		</latex-image>
+	      </image>
+	    </figure>
+	  </sidebyside>
+	</sbsgroup>
+      </figure>
+    </solution>
+  </example>
+</subsection>
+
+<worksheet>
+  <title>Working with Sets</title>
+  <objectives>
+    <ul>
+      <li>
+	<p>
+	  Use roster and set-builder notation to express a set,
+	</p>
+      </li>
+      <li>
+	<p>
+	  Find the intersection and union of two sets.
+	</p>
+      </li>
+    </ul>
+  </objectives>
+  <page>
+    <exercise workspace="0.5in">
+      <statement>
+	<p>
+	  Write the real numbers that are at least as large as 2 and less than 5 in set notation.
+	</p>
+      </statement>
+    </exercise>
+    <exercise workspace="0.5in">
+      <statement>
+	<p>
+	  Write the integers that are at least as large as 2 and less than 5 in set notation.
+	</p>
+      </statement>
+    </exercise>
+  </page>
+  <page>
+    <exercise workspace="0.5in">
+      <statement>
+	<p>
+	  Write <m>[0,\infty) \cap (-\infty, 5)</m> in set notation.
+	  Graph the result on a number line.
+	</p>
+      </statement>
+    </exercise>
+    <exercise workspace="0.5in">
+      <statement>
+	<p>
+	  Write <m>[0,5) \cap (3, 5)</m> in set notation.
+	  Graph the result on a number line.
+	</p>
+      </statement>
+    </exercise>
+  </page>
+  <page>
+    <exercise workspace="0.5in">
+      <statement>
+	<p>
+	  Write <m>[0,5) \cup (3, 5)</m> in set notation.
+	  Graph the result on a number line.
+	</p>
+      </statement>
+    </exercise>
+    <exercise workspace="0.5in">
+      <statement>
+	<p>
+	  Write <m>[0,\infty) \cup (-\infty, 5)</m> in set notation.
+	  Graph the result on a number line.
+	</p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>
 </section>

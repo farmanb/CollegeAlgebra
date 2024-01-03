@@ -2,12 +2,10 @@
 
 <section xml:id="sec-piecewise" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Piecewise Defined Functions</title>
-
-  <introduction>
-    <p>
-      A powerful method for constructing new functions from existing functions is to "glue" two or more functions together.
-    </p>
-  </introduction>
+  
+  <p>
+    A powerful method for constructing new functions from existing functions is to "glue" two or more functions together.
+  </p>
 
   <definition xml:id="def-piecewise">
     <title>Piecewise Defined Function</title>

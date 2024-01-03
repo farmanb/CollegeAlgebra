@@ -10,18 +10,17 @@
     </p>
   </introduction>
 
-  <definition xml:id="def-rational_function">
-    <statement>
-      <p>
-	A <term>rational function</term> is a function of the form
-	<me>f(x) = \left(\frac{p}{q}\right)(x) = \frac{p(x)}{q(x)},</me>
-	where <m>p</m> and <m>q \neq 0</m> are polynomial functions.
-      </p>
-    </statement>
-  </definition>
-
   <subsection>
     <title>The Domain of a Rational Function</title>
+    <definition xml:id="def-rational_function">
+      <statement>
+	<p>
+	  A <term>rational function</term> is a function of the form
+	  <me>f(x) = \left(\frac{p}{q}\right)(x) = \frac{p(x)}{q(x)},</me>
+	  where <m>p</m> and <m>q \neq 0</m> are polynomial functions.
+	</p>
+      </statement>
+    </definition>
     <p>
       Since polynomial functions always have domain <m>\R</m> and codomain <m>\R</m>, the domain of the rational function <m>f = p/q</m> is the set
       <me>D = \left\{x \in \R \;\middle\vert\; q(x) \neq 0\right\}.</me>

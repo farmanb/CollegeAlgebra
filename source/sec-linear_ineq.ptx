@@ -2,16 +2,16 @@
 
 <section xml:id="sec-linear_ineq" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Linear Inequalities</title>
-  <objectives>
-    <ul>
-      <li>
-	Graph linear inequalities.
-      </li>
-      <li>
-	Graph linear absolute value inequalities.
-      </li>
-    </ul>
-  </objectives>
+  <!-- <objectives> -->
+  <!--   <ul> -->
+  <!--     <li> -->
+  <!-- 	Graph linear inequalities. -->
+  <!--     </li> -->
+  <!--     <li> -->
+  <!-- 	Graph linear absolute value inequalities. -->
+  <!--     </li> -->
+  <!--   </ul> -->
+  <!-- </objectives> -->
 
   <definition xml:id="def-linear_inequality">
     <title>Linear Inequality</title>
@@ -85,12 +85,12 @@
 	We use a dashed line to indicate the points on the line <m>2x + 3y = 5</m> are <alert>not</alert> a solution to the inequality and shade the portion of the plane beneath the line to indicate those points are solutions to the inequality.
       </p>
       <figure xml:id="fig-2x_3y_lt_5">
+	<caption>The graph of the linear inequality <m>2x + 3y \lt 5</m>.</caption>
 	<image xml:id="img-2x_3y_lt_5">
 	  <latex-image>
 	    <xi:include parse="text" href="tex/2x_3y_lt_5.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The graph of the linear inequality <m>2x + 3y \lt 5</m>.</caption>
       </figure>
     </solution>
   </example>
@@ -110,12 +110,13 @@
 	We use a solid line to indicate the points on the line <m>2x + 3y = 5</m> are a solution to the linear inequality and shade the portion of the plane beneath the line to indicate that those points are also solutions.
       </p>
       <figure xml:id="fig-2x_3y_leq_5">
+	<caption>The graph of the linear inequality <m>2x + 3y \leq 5</m>.</caption>
 	<image xml:id="img-2x_3y_leq_5">
 	  <latex-image>
 	    <xi:include parse="text" href="tex/2x_3y_leq_5.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The graph of the linear inequality <m>2x + 3y \leq 5</m>.</caption>
+	
       </figure>
     </solution>
   </example>
@@ -134,12 +135,13 @@
 	We use a dashed line to indicate the points on the line <m>2x + 3y = -5</m> are <alert>not</alert> solutions to the inequality and shade the portion of the plane above the line to indicate that those points are solutions.
       </p>
       <figure xml:id="fig-2x_3y_gt_-5">
+	<caption>The graph of the linear inequality <m>2x + 3y \gt -5</m>.</caption>
+	
 	<image xml:id="img-2x_3y_gt_-5">
 	  <latex-image>
 	    <xi:include parse="text" href="tex/2x_3y_gt_-5.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The graph of the linear inequality <m>2x + 3y \gt -5</m>.</caption>
       </figure>
     </solution>
   </example>
@@ -158,16 +160,17 @@
 	We use a solid line to indicate the points on the line <m>2x + 3y = -5</m> are solutions to the linear inequality and shade the portion of the plane above the line to indicate that those points are also solutions.
       </p>
       <figure xml:id="fig-2x_3y_geq_-5">
+	<caption>The graph of the linear inequality <m>2x + 3y \geq -5</m>.</caption>
+
 	<image xml:id="img-2x_3y_geq_-5">
 	  <latex-image>
 	    <xi:include parse="text" href="tex/2x_3y_geq_-5.tex"/>
 	  </latex-image>
 	</image>
-	<caption>The graph of the linear inequality <m>2x + 3y \geq -5</m>.</caption>
       </figure>
     </solution>
   </example>
-
+  
   <subsection>
     <title>Absolute Value and Inequality</title>
 
@@ -209,12 +212,12 @@
       that <m>d</m> and <m>-d</m> are the same distance from the origin.
     </p>
     <figure xml:id="fig-abs_val_two_sol">
+      <caption>The distance between <m>d</m> and the origin, and between <m>-d</m> and the origin.</caption>
       <image xml:id="img-abs_val_two_sol">
 	<latex-image>
 	  <xi:include parse="text" href="tex/abs_val_two_sol.tex"/>
 	</latex-image>
       </image>
-      <caption>The distance between <m>d</m> and the origin, and between <m>-d</m> and the origin.</caption>
     </figure>
     <p>
       This observation tells us for an linear absolute value inequality of the form <m>\abs{ax + by + c} \lt d</m>, we are looking for the points <m>(x,y)</m> in the plane such that the number <m>ax + by + c</m> is less than <m>d</m> units away from 0 on the number line.
@@ -262,12 +265,13 @@
 	  <me>2x + 3y = -5 \quad\text{and}\quad 2x + 3y = 5.</me>
 	</p>
 	<figure>
+	  <caption>The graph of the linear absolute value inequality <m>\abs{2x + 3y} \lt 5</m>.</caption>
+
 	  <image>
 	    <latex-image>
 	      <xi:include parse="text" href="tex/abs_2x_3y_lt_5.tex"/>
 	    </latex-image>
 	  </image>
-	  <caption>The graph of the linear absolute value inequality <m>\abs{2x + 3y} \lt 5</m>.</caption>
 	</figure>
       </solution>
     </example>
@@ -287,12 +291,13 @@
 	  <me>2x + 3y = -5 \quad\text{and}\quad 2x + 3y = 5.</me>
 	</p>
 	<figure>
+	  <caption>The graph of the linear absolute value inequality <m>\abs{2x + 3y} \leq 5</m>.</caption>
+
 	  <image>
 	    <latex-image>
 	      <xi:include parse="text" href="tex/abs_2x_3y_leq_5.tex"/>
 	    </latex-image>
 	  </image>
-	  <caption>The graph of the linear absolute value inequality <m>\abs{2x + 3y} \leq 5</m>.</caption>
 	</figure>
       </solution>
     </example>
@@ -318,12 +323,13 @@
 	  That is, the points that are either above the line <m>2x + 3y = 5</m> or below the line <m>2x + 3y = -5</m>.
 	</p>
 	<figure>
+	  <caption>The graph of the linear absolute value inequality <m>\abs{2x + 3y} \gt 5</m>.</caption>
+
 	  <image>
 	    <latex-image>
 	      <xi:include parse="text" href="tex/abs_2x_3y_gt_5.tex"/>
 	    </latex-image>
 	  </image>
-	  <caption>The graph of the linear absolute value inequality <m>\abs{2x + 3y} \gt 5</m>.</caption>
 	</figure>
       </solution>
     </example>
@@ -347,12 +353,12 @@
 	  That is, the points that are either on or above the line <m>2x + 3y = 5</m>, or on or below the line <m>2x + 3y = -5</m>.
 	</p>
 	<figure>
+	  <caption>The graph of the linear absolute value inequality <m>\abs{2x + 3y} \leq 5</m>.</caption>
 	  <image>
 	    <latex-image>
 	      <xi:include parse="text" href="tex/abs_2x_3y_geq_5.tex"/>
 	    </latex-image>
 	  </image>
-	  <caption>The graph of the linear absolute value inequality <m>\abs{2x + 3y} \leq 5</m>.</caption>
 	</figure>
       </solution>
     </example>

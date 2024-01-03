@@ -50,12 +50,13 @@
     </definition>
 
     <figure xml:id="fig-slope">
+      <caption>The slope of the line through the points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m>.</caption>
+
       <image xml:id="img-slope">
 	<latex-image>
 	  <xi:include parse="text" href="tex/slope.tex"/>
 	</latex-image>
       </image>
-      <caption>The slope of the line through the points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m>.</caption>
     </figure>
     
     <remark>

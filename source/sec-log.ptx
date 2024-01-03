@@ -7,6 +7,7 @@
       Looking at the graph of <m>\exp \colon \R \to (0,\infty)</m>, it appears to satisfy <xref ref="thm-horizontal_line_test" text="title"/>.
     </p>
     <figure>
+      <caption>The horizontal line test for <m>\exp \colon \R \to (0,\infty)</m></caption>
       <image>
 	<latex-image>
 	  \begin{tikzpicture}
@@ -27,7 +28,6 @@
 	  \end{tikzpicture}
 	</latex-image>
       </image>
-      <caption>The horizontal line test for <m>\exp \colon \R \to (0,\infty)</m></caption>
     </figure>
     <p>
       We can verify this algebraically as follows.
@@ -44,29 +44,29 @@
     </p>
   </introduction>
 
-  <definition>
-    <title>The Natural Logarithm</title>
-
-    <notation>
-      <usage><m>\ln</m></usage>
-      <description>The natural logarithm</description>
-    </notation>
-    
-    <statement>
-      <p>
-	The <term>natural logarithm</term>,
-	<idx>
-	  <h>Function</h>
-	  <h>Logarithm</h>
-	  <h>Natural</h>
-	</idx>
-	<m>\ln \colon (0, \infty) \to \R</m>, is the inverse of <m>\exp \colon \R \to (0, \infty)</m>.
-      </p>
-    </statement>
-  </definition>
-
   <subsection>
     <title>Properties of the Natural Logarithm</title>
+    <definition>
+      <title>The Natural Logarithm</title>
+
+      <notation>
+	<usage><m>\ln</m></usage>
+	<description>The natural logarithm</description>
+      </notation>
+      
+      <statement>
+	<p>
+	  The <term>natural logarithm</term>,
+	  <idx>
+	    <h>Function</h>
+	    <h>Logarithm</h>
+	    <h>Natural</h>
+	  </idx>
+	  <m>\ln \colon (0, \infty) \to \R</m>, is the inverse of <m>\exp \colon \R \to (0, \infty)</m>.
+	</p>
+      </statement>
+    </definition>
+    
     <p>
       As the composition inverse of <m>\exp \colon \R \to (0, \infty)</m>, the logarithm inherits properties that are very similar to the <xref ref="thm-properties_exp" text="title"/>.
       To describe these properties algebraically it is helpful to phrase the relationship between the exponential and the logarithm as pairing each real number <m>x</m> with a positive real number <m>y</m> via
@@ -112,31 +112,33 @@
 
     <theorem xml:id="thm-properties_log">
       <title>Properties of the Logarithm</title>
-      <p>
+      <statement>
+	<p>
 	Assume <m>y</m> and <m>y^\prime</m> are positive real numbers.
-      </p>
-      <ol>
-	<li>
-	  <p>
-	    <m>\ln(1) = 0.</m>
-	  </p>
-	</li>
-	<li>
-	  <p>
-	    <m>\ln(yy^\prime) = \ln(y) + \ln(y^\prime).</m>
-	  </p>
-	</li>
-	<li>
-	  <p>
-	    <m>\ln\left(\frac{y}{y^\prime}\right) = \ln(y) - \ln(y^\prime).</m>
-	  </p>
-	</li>
-	<li>
-	  <p>
-	    <m>\ln(y^r) = r\ln(y).</m>
-	  </p>
-	</li>
-      </ol>
+	<ol>
+	  <li>
+	    <p>
+	      <m>\ln(1) = 0.</m>
+	    </p>
+	  </li>
+	  <li>
+	    <p>
+	      <m>\ln(yy^\prime) = \ln(y) + \ln(y^\prime).</m>
+	    </p>
+	  </li>
+	  <li>
+	    <p>
+	      <m>\ln\left(\frac{y}{y^\prime}\right) = \ln(y) - \ln(y^\prime).</m>
+	    </p>
+	  </li>
+	  <li>
+	    <p>
+	      <m>\ln(y^r) = r\ln(y).</m>
+	    </p>
+	  </li>
+	</ol>
+	</p>
+      </statement>
     </theorem>
   </subsection>
 
@@ -147,6 +149,9 @@
     </p>
     
     <figure>
+      <caption>
+	The graph of <m>y = \ln(x)</m>
+      </caption>
       <image>
 	<latex-image>
 	  \begin{tikzpicture}

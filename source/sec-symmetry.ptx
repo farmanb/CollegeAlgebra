@@ -11,12 +11,10 @@
 
   <subsection xml:id="subsec-y_axis_symmetry">
     <title>Symmetry about the <m>y</m>-axis</title>
-    <introduction>
-      <p>
+    <p>
 	The first type of symmetry we are interested in is symmetry about the <m>y</m>-axis in the plane.
 	We begin with the intuitive understanding of this symmetry, and formalize a concrete method for detecting it algebraically.
-      </p>
-    </introduction>
+    </p>
     
     <definition xml:id="def-y_axis_symmetry">
       <statement>
@@ -33,12 +31,14 @@
     </definition>
     
     <p>
-      For example, consider <xref ref="fig-parabola" text="title"/>.
+      For example, consider <xref ref="fig-parabola" text="custom">the graph of <m>y=x^2</m></xref>.
       The graph intersects the <m>y</m>-axis at the point <m>(0,0)</m>.
       If we cut the parabola in half at this point, then we get two pieces.
       We distinguish the two halves by coloring the left-hand side red and the right-hand side blue.
     </p>
     <figure>
+      <caption>The graph of <m>y = x^2</m> cut in half at <m>(0,0)</m>.</caption>
+      
       <image>
 	<latex-image>
 	  \begin{tikzpicture}
@@ -58,12 +58,14 @@
 	  \end{tikzpicture}
 	</latex-image>
       </image>
-      <caption>The graph of <m>y = x^2</m> cut in half at <m>(0,0)</m>.</caption>
     </figure>
     <p>
       To say these are mirror images of one another, means if we reflect the graph across the <m>y</m>-axis, then we obtain the same graph just with the colors switched.
     </p>
+
     <figure>
+      <caption>The reflection of <m>y = x^2</m> across the <m>y</m>-axis.</caption>  
+
       <image>
 	<latex-image>
 	  \begin{tikzpicture}
@@ -83,8 +85,8 @@
 	  \end{tikzpicture}
 	</latex-image>
       </image>
-      <caption>The reflection of <m>y = x^2</m> across the <m>y</m>-axis.</caption>
     </figure>
+    
     <p>
       Had we not colored the two pieces, we would be unable to tell which one is which.
       We say the graph is <term>invariant</term>
@@ -130,6 +132,8 @@
 	  If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the <m>y</m>-axis.
 	</p>
 	<figure>
+	  <caption>The graph of <m>y = x^4 - 5x^2 + 4</m></caption>
+	  
 	  <image>
 	    <latex-image>
 	      \begin{tikzpicture}
@@ -176,12 +180,10 @@
 
   <subsection>
     <title>Origin Symmetry</title>
-    <introduction>
-      <p>
-	The second type of symmetry we consider is slightly more subtle than <m>y</m>-axis symmetry.
-      </p>
-    </introduction>
-    
+    <p>
+      The second type of symmetry we consider is slightly more subtle than <m>y</m>-axis symmetry.
+    </p>
+
     <definition>
       <statement>
 	<p>
@@ -197,10 +199,12 @@
     </definition>
 
     <p>
-      To understand this type of symmetry, consider <xref ref="fig-cubic" text="title"/> with the origin and another marked point.
+      To understand this type of symmetry, consider <xref ref="fig-cubic" text="custom">the graph of <m>y = x^3</m></xref> with the origin and another marked point.
     </p>
 
     <figure>
+      <caption>The graph of <m>y = x^3</m></caption>
+
       <image>
 	<latex-image>
 	  \begin{tikzpicture}
@@ -230,7 +234,10 @@
       First, we rotate the graph by 90 degrees.
       We note that this rotation does not change the shape of the graph, so the distance of our marked point from the origin should not change.
     </p>
+
     <figure component="print">
+      <caption>The graph of <m>y=x^3</m> rotated 90 degrees counter-clockwise.</caption>
+      
       <image>
 	<latex-image>
 	  \begin{tikzpicture}
@@ -254,7 +261,6 @@
 	  \end{tikzpicture}
 	</latex-image>
       </image>
-      <caption>The graph of <m>y=x^3</m> rotated 90 degrees counter-clockwise.</caption>
     </figure>
 
     <p component="print">
@@ -263,6 +269,8 @@
     </p>
 
     <figure component="print">
+      <caption>The graph of <m>y=x^3</m> rotated 180 degrees counter-clockwise.</caption>
+      
       <image>
 	<latex-image>
 	  \begin{tikzpicture}
@@ -287,25 +295,26 @@
 	  \end{tikzpicture}
 	</latex-image>
       </image>
-      <caption>The graph of <m>y=x^3</m> rotated 180 degrees counter-clockwise.</caption>
     </figure>
     
     <p component="web">
       We can see what happens as we rotate the graph around the origin in the animation below.
       Note the rotation does not change the shape of the graph, so the distance from the marked point to the origin stays the same.
     </p>
+
     <figure component="web">
-      <image>
-	<image source="images/origin_symmetry.gif"/>
-      </image>
       <caption>Rotation of <m>y = x^3</m> 180 degrees counter-clockwise</caption>
+      <image source="images/origin_symmetry.gif"/>
     </figure>
+    
     <p>
       The path the marked point follows through the rotation traces out a piece of a circle.
       Plotting the entirety of this circle, we can see the starting and ending location of the marked point create a diameter.
     </p>
 
     <figure>
+      <caption>The graph of <m>y=x^3</m> with a marked point and the rotation of that point by <m>180^\circ</m></caption>
+
       <image>
 	<latex-image>
 	  \begin{tikzpicture}
@@ -329,8 +338,8 @@
 	  \end{tikzpicture}	    
 	</latex-image>
       </image>
-      <caption>The graph of <m>y=x^3</m> with a marked point and the rotation of that point by <m>180^\circ</m></caption>
     </figure>
+
     <p>
       Assume the original point has coordinates <m>(a,a^3)</m> and its rotation by <m>180^\circ</m> has coordinates <m>(b,b^3)</m>.
       Since the midpoint of the diameter is <m>(0,0)</m>, we know that <m>0 = (a+b)/2</m> and <m>0 = (a^3 + b^3)/2</m>.
@@ -346,6 +355,7 @@
       <me>f(-a) = (-a)^3 = -a^3 = -f(a).</me>
       This provides us with an algebraic condition for testing origin symmetry.
     </p>
+
     <theorem>
       <statement>
 	<p>
@@ -366,6 +376,8 @@
 	  If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the origin.
 	</p>
 	<figure>
+	  <caption>The graph of <m>y = x^3 - 4x</m></caption>
+
 	  <image>
 	    <latex-image>
 	      \begin{tikzpicture}
