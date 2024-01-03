@@ -2,16 +2,6 @@
 
 <section xml:id="sec-quadratic_functions" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Quadratic Functions</title>
-  <!-- <objectives> -->
-  <!--   <ul> -->
-  <!--     <li> -->
-  <!-- 	Place a quadratic function in vertex form, -->
-  <!--     </li> -->
-  <!--     <li> -->
-  <!-- 	Find the vertex of a quadratic function, -->
-  <!--     </li> -->
-  <!--   </ul> -->
-  <!-- </objectives> -->
 
   <introduction>
     <p>
@@ -532,282 +522,42 @@
   </subsection>
 
   <subsection>
-    <title>The Quadratic Formula</title>
+    <title>Applications to Circles</title>
     <p>
-      In order to accurately graph a quadratic function <m>y = f(x) = ax^2 + bx + c</m>, it is necessary to identify the <m>x</m>-intercepts for the function.
-      A point <m>(x,0)</m> in the Cartesian plane is an <xref ref="def-x_intercept" text="title"/> for this function if
-      <me>0 = ax^2 + bx + c.</me>
-      This reduces the geometric problem of finding the <m>x</m>-intercepts of a quadratic to the algebraic problem finding solutions to equations.
+      In <xref ref="sec-circles"/> we only encountered circles in standard form.
+      However, circles will not always be presented this way.
+      We study how the <xref ref="vertex_formula" text="title"/> can help us to identify the equation of a circle, even if it is not presented in standard form.
     </p>
-
-    <definition>
-      <statement>
-	<p>
-	  An equation of the form <m>ax^2 + bx + c = 0</m> is called a <term>quadratic equation</term>
-	  <idx>
-	    <h>Equation</h>
-	    <h>Quadratic</h>
-	  </idx>
-	</p>
-      </statement>
-    </definition>
-
     <p>
-      To find the solutions to the quadratic equation <m>ax^2 + bx + c</m>, we use <xref ref="def-vertex_form" text="title"/> to write 
-      <me>0 = ax^2 + bx + c = a\left(x + \frac{b}{2a}\right)^2 - \frac{b^2 - 4ac}{4a}</me>
-      and solve this equation for <m>x</m>
+      Consider the equation
+      <m>x^2 - 4x + y^2 + 6x = -9.</m>
+      We can view <m>f(x) = x^2 - 4x</m> and <m>g(y) = y^2 + 6x</m> as quadratic functions in the variables <m>x</m> and <m>y</m>, respectively.
+      The first coordinate of the vertex of <m>f</m> is 
+      <me>h = -\frac{-4}{2} = \frac{4}{2} = 2</me>
+      and the second coordinate of the vertex as
+      <me>k = f(2) = 2^2 - 4(2) = 4 - 8 = -4</me>.
+      This allows us to write
+      <me>f(x) = x^2 - 4x = (x - 2)^2 - 4.</me>
+    </p>
+    <p>
+      Similarly, the first coordinate for the vertex of <m>g</m> is
+      <me>h = -\frac{6}{2(1)} = -3,</me>
+      the second coordinate of the vertex of <m>y^2 + 6x</m> is
+      <me>k = g(-3) = (-3)^2 + 6(-3) = 9 - 18 = -9,</me>
+      and so
+      <me>g(y) = (x - (-3))^2 - 9 = (x + 3)^2 - 9.</me>
+    </p>
+    <p>
+      These two observations allow us to rewrite the original equation
       <md>
-	<mrow>\amp a\left(x + \frac{b}{2a}\right)^2 - \frac{b^2 - 4ac}{4a} = 0 \amp\amp \text{Add}\ \frac{b^2 - 4ac}{4a}\ \text{to both sides}</mrow>
-	<mrow>\amp a\left(x + \frac{b}{2a}\right)^2 = \frac{b^2 - 4ac}{4a} \amp\amp \text{Divide both sides by}\ a</mrow>
-	<mrow>\amp \left(x + \frac{b}{2a}\right)^2 = \frac{b^2 - 4ac}{4a^2} \amp\amp \text{Take the square root of both sides}</mrow>
-	<mrow>\amp x + \frac{b}{2a} = \pm\sqrt{\frac{b^2 - 4ac}{4a^2}} \amp\amp \text{Simplify}</mrow>
-	<mrow>\amp x + \frac{b}{2a} = \pm\frac{\sqrt{b^2 - 4ac}}{\sqrt{4a^2}} \amp\amp \text{Simplify}</mrow>
-	<mrow>\amp x + \frac{b}{2a} = \frac{\sqrt{b^2 - 4ac}}{2a} \amp\amp \text{Subtract}\ \frac{b}{2a}\ \text{from both sides}</mrow>
-	<mrow>\amp x = - \frac{b}{2a} + \frac{\sqrt{b^2 - 4ac}}{2a} \amp\amp \text{Simplify}</mrow>
-	<mrow>\amp x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \amp\amp \text{Simplify}</mrow>
+	<mrow>x^2 - 4x + y^2 + 6x = -9 \amp\amp \text{Replace with vertex forms}</mrow>
+	<mrow>(x - 2)^2 - 4 + (y + 3)^2 - 9 = -9 \amp\amp \text{Add}\ 9\ \text{to both sides}</mrow>
+	<mrow>(x - 2)^2 - 4 + (y + 3)^2 = -9 + 9 \amp\amp \text{Simplify}</mrow>
+	<mrow>(x - 2)^2 - 4 + (y + 3)^2 = 0 \amp\amp \text{Add 4 to both sides}</mrow>
+	<mrow>(x - 2)^2 + (y + 3)^2 =4</mrow>
       </md>
+      Therefore the equation <m>x^2 - 4x + y^2 + 6x = -9</m> represents the circle of radius <m>2</m> centered at the point <m>(2,-3)</m>.
     </p>
-
-    <p>
-      It is important to note that
-      <me>x = \frac{-b + \sqrt{b^2 - 4ac}}{2a}
-      \quad\text{and}\quad
-      x = \frac{-b - \sqrt{b^2 - 4ac}}{2a} 
-      </me>
-      are real numbers only when <m>b^2 - 4ac</m> is a non-negative number.
-      The number <m>b^2 - 4ac</m> is an important invariant of a quadratic function.
-    </p>
-    
-    <definition xml:id="def-discriminant">
-      <title>The Discriminant</title>
-      <statement>
-	<p>
-	  The <term>discriminant</term>
-	  <idx>
-	    <h>Function</h>
-	    <h>Quadratic</h>
-	    <h>Discriminant</h>
-	  </idx>
-	  of the quadratic function <m>f(x) = ax^2 + bx + c</m> is the number
-	  <me>D = b^2 - 4ac</me>
-	</p>
-      </statement>
-    </definition>
-
-    <p>
-      The discriminant provides both algebraic and geometric information about quadratic functions.
-      On the algebraic side, the discriminant tells us how many solutions there are to the quadratic equation
-      <m>ax^2 + bx  +c = 0</m>.
-    </p>
-
-    <claim xml:id="quadratic_formula">
-      <title>The Quadratic Formula</title>
-      <statement>
-	<p>
-	  The quadratic equation
-	  <me>ax + bx + c = 0</me>
-	  has either two, one, or zero real solutions, depending on <xref ref="def-discriminant" text="title"/>, <m>D = b^2 - 4ac</m>.
-	  <ol>
-	    <li>
-	      <p>
-		If <m>D > 0</m>, then the two solutions are
-		<me>x = \frac{-b + \sqrt{D}}{2a}
-		\quad\text{and}\quad
-		x = \frac{-b - \sqrt{D}}{2a}.</me>
-	      </p>
-	    </li>
-	    <li>
-	      If <m>D = 0</m>, then the only solution is
-	      <me>x = \frac{-b + \sqrt{D}}{2a} = \frac{-b}{2a}.</me>
-	    </li>
-	    <li>
-	      If <m>D \lt 0</m>, then there are no real solutions.
-	    </li>
-	  </ol>
-	</p>
-      </statement>
-    </claim>
-
-    <p>
-      If we pair <xref ref="quadratic_formula" text="title"/> with <xref ref="thm-root_div"/>, then we have an algorithmic way to factor any quadratic function.
-    </p>
-
-    <theorem xml:id="thm-quadratic_factorization">
-      <statement>
-	<p>
-	  The quadratic function <m>f(x) = ax^2 + bx + c</m> factors as
-	  <me>f(x) = a\left(x - \frac{-b + \sqrt{D}}{2a}\right)\left(x - \frac{-b - \sqrt{D}}{2a}\right),</me>
-	  where <m>D = b^2 - 4ac</m> is the discriminant.
-	</p>
-      </statement>
-    </theorem>
-
-    <!-- <example> -->
-    <!--   <statement> -->
-    <!-- 	<p> -->
-    <!-- 	  Factor the quadratic <m>f(x) = -x^2 + 4x + 3</m>. -->
-    <!-- 	</p> -->
-    <!--   </statement> -->
-    <!--   <solution> -->
-    <!-- 	<p> -->
-    <!-- 	  The discriminant is -->
-    <!-- 	  <me>D = 4^2 - 4(-1)(3) = 16 + 12 = 28</me> -->
-    <!-- 	  so the roots of <m>f(x)</m> occur at -->
-    <!-- 	  <md> -->
-    <!-- 	    <mrow>\frac{-4 + \sqrt{28}}{2(-1)} \amp= -\frac{-4 + 2\sqrt{7}}{2} = -(-2 + \sqrt{7}) = 2 - \sqrt{7} ,\,\text{and}</mrow> -->
-    <!-- 	    <mrow>\frac{-4 - \sqrt{28}}{2(-1)} \amp= -\frac{-4 - 2\sqrt{7}}{2} = -(-2 - \sqrt{7}) = 2 + \sqrt{7}.</mrow> -->
-    <!-- 	  </md> -->
-    <!-- 	  We can check this yields the factorization -->
-    <!-- 	  <md> -->
-    <!-- 	    <mrow>-\left(x - (2 - \sqrt{7})\right)\left(x - (2 + \sqrt{7})\right) -->
-    <!-- 	    \amp = -\left(x^2 - (2 + \sqrt{7})x - (2 - \sqrt{7})x + (2 - \sqrt{7})(2 + \sqrt{7})\right) -->
-    <!-- 	    </mrow> -->
-    <!-- 	    <mrow>\amp = -x^2 + (2 + \sqrt{7} + 2 - \sqrt{7})x - (4 - 7)</mrow> -->
-    <!-- 	    <mrow>\amp = -x^2 + 4x + 3 = f(x).</mrow> -->
-    <!-- 	  </md> -->
-    <!-- 	</p> -->
-    <!--   </solution> -->
-    <!-- </example> -->
-
-    <example>
-      <statement>
-	<p>
-	  Factor the quadratic <m>f(x) = 10x^2 - 11x + 3</m>.
-	</p>
-      </statement>
-      <solution>
-	<p>
-	  The discriminant is
-	  <me>D = (-11)^2 - 4(10)(3) = 121 - 120 = 1</me>
-	  so the roots are
-	  <md>
-	    <mrow>x \amp= \frac{-(-11) + \sqrt{1}}{2(10)} = \frac{11 + 1}{20} = \frac{12}{20} = \frac{3}{5},\,\text{and}</mrow>
-	    <mrow>x \amp = \frac{-(-11) - \sqrt{1}}{2(10)} = \frac{11 - 1}{20} = \frac{10}{20} = \frac{1}{2}.</mrow>
-	  </md>
-	  By <xref ref="thm-quadratic_factorization"/>, the factorization is
-	  <me>10\left(x - \frac{1}{2}\right)\left(x - \frac{3}{5}\right)
-	  = 2\left(x - \frac{1}{2}\right)5\left(x - \frac{3}{5}\right)
-	  = (2x - 1)(5x - 3).</me>
-	  We can check our answer by using FOIL to see
-	  <me>(2x - 1)(5x - 3) = 10x^2 - 6x - 5x + 3 = 10x^2 -11x + 3 = f(x).</me>
-	</p>
-      </solution>
-    </example>
-    
-    <p>
-      On the geometric side, the discriminant tells us how many <m>x</m>-intercepts the graph of <m>y = ax^2 + bx + c</m> has.
-    </p>
-    
-    <theorem>
-      <title>The <m>x</m>-intercepts of a Quadratic Function</title>
-      <p>
-	The quadratic function <m>y = ax^2 + bx + c</m> has either two, one, or zero <m>x</m>-intercepts, depending on the <xref ref="def-discriminant" text="title"/>, <m>D = b^2 - 4ac</m>.
-	<ol>
-	  <li>
-	    <p>
-	      If <m>D > 0</m>, then there are two <m>x</m>-intercepts,
-	      <me>\left(\frac{-b + \sqrt{D}}{2a},0\right)
-	      \quad\text{and}\quad
-	      \left(\frac{-b - \sqrt{D}}{2a},\right).</me>
-	    </p>
-	  </li>
-	  <li>
-	    If <m>D = 0</m>, then there is one <m>x</m>-intercept
-	    <me>\left(\frac{-b}{2a},0\right).</me>
-	    Note this is the vertex.
-	  </li>
-	  <li>
-	    If <m>D \lt 0</m>, then there are no <m>x</m>-intercepts.
-	  </li>
-	</ol>
-      </p>
-    </theorem>
-
-    <example>
-      <statement>
-	<p>
-	  Find the <m>x</m>-intercepts of the function <m>f(x) = 3x^2 + 2x + 4</m>.
-	</p>
-      </statement>
-      <solution>
-	<p>
-	  Since the discriminant is
-	  <me>D = 2^2 - 4(3)(4) = 4 - 48 = -44 \lt 0,</me>
-	  this function does not have any <m>x</m>-intercepts.
-	</p>
-      </solution>
-    </example>
-
-    <example>
-      <statement>
-	<p>
-	  Find the <m>x</m>-intercepts of the function <m>f(x) = -3x^2 - 5x + 2</m>.
-	</p>
-      </statement>
-      <solution>
-	<p>
-	  The discriminant of this quadratic is
-	  <me>D = (-5)^2 - 4(-3)(2) = 25 + 24 = 49 = 7^2.</me>
-	  The solutions to the equation <m>-3x^2 - 5x + 2 = 0</m> are given by the formula
-	  <me>x = \frac{-b \pm \sqrt{D}}{2a}
-	  = \frac{-(-5) \pm \sqrt{7^2}}{2(-3)}
-	  = \frac{5 \pm 7}{-6}</me>
-	  This tells us that one intercept occurs when
-	  <me>x = \frac{5 + 7}{-6} = - \frac{12}{6} = -2</me>
-	  and the other occurs when
-	  <me>x = \frac{5 - 7}{-6} = \frac{-2}{-6} = \frac{1}{3}.</me>
-	  Therefore the <m>x</m>-intercepts are
-	  <me>\left(-2,0\right) \quad\text{and}\quad \left(\frac{1}{3},0\right).</me>
-	</p>
-      </solution>
-    </example>
-  </subsection>
-
-  
-  <subsection>
-    <title>Graphing Qudaratics</title>
-
-    <p>
-      We can simplify the process of graphing a quadratic function by using the tools we have developed in this section.
-    </p>
-    
-    <algorithm>
-      <title>Graphing a Quadratic Function</title>
-      <statement>
-	<ol>
-	  <li>
-	    <p>
-	      Use the <xref ref="vertex_formula" text="title"/> to find the vertex, <m>(h,k)</m>, of the parabola.
-	      Plot the vertex in the plane.
-	    </p>
-	  </li>
-	  <li>
-	    <p>
-	      Factor or use the <xref ref="quadratic_formula" text="title"/> to find the <m>x</m>-intercept(s).
-	      If there are <m>x</m>-intercepts, plot them in the plane.
-	    </p>
-	  </li>
-	  <li>
-	    <p>
-	      Plot the <m>y</m>-intercept, <m>(0, f(0))</m>, in the plane.
-	    </p>
-	  </li>
-	  <li>
-	    <p>
-	      Draw a parabola through the points in Steps (1) through (3).
-	      <ul>
-		<li>
-		  The parabola will open upwards if <m>0 \lt a</m>.
-		</li>
-		<li>
-		  The parabola will open downwards if <m>a \lt 0</m>.
-		</li>
-	      </ul>
-	    </p>
-	  </li>
-	</ol>
-      </statement>
-    </algorithm>
   </subsection>
 
   <xi:include href="worksheets/wksht-quadratic_functions.ptx"/>

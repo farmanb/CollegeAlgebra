@@ -4,23 +4,18 @@
   <objectives>
     <ul>
       <li>
-	find the vertex of a quadratic function,
+	Place a quadratic function in vertex form
       </li>
       <li>
-	find the <m>x</m>-intercept(s) of a quadratic function
-      </li>
-      <li>
-	find the <m>y</m>-intercept of a quadratic function,
-      </li>
-      <li>
-	graph a quadratic function.
+	Place the equation of a circle in standard form
       </li>
     </ul>
   </objectives>
   <introduction>
     <p>
-      Sketch a graph of each of the quadratic functions below.
-      Label the <m>y</m>-intercept, the vertex, and any <m>x</m>-intercepts.
+      Place each of the quadratic functions below in vertex form.
+      Use graph transformations to sketch a graph of the function.
+      Label the vertex of the parabola.
     </p>
   </introduction>
   <page>
@@ -28,11 +23,6 @@
       <p>
 	<m>f(x) = -8x^2 + 10x + 5</m>
       </p>
-      <!-- <image width="50%"> -->
-      <!--   <latex-image > -->
-      <!--     <xi:include parse="text" href="../tex/10_10_grid.tex" /> -->
-      <!--   </latex-image> -->
-      <!-- </image> -->
     </exercise>
 
     <exercise workspace="2in">
@@ -44,13 +34,9 @@
   <page>
     <exercise workspace="2in">
       <p>
-	
+        Graph the equation
+        <me>4x^2 - 4x + 4y^2 + 16y = 19.</me>
       </p>
-      <!-- <image width="50%"> -->
-      <!--   <latex-image > -->
-      <!--     <xi:include parse="text" href="../tex/10_10_grid.tex" /> -->
-      <!--     </latex-image> -->
-      <!--   </image> -->
     </exercise>
   </page>
   
