@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Roots of Quadratic Functions</title>
+  <objectives>
+    <ul>
+      <li>
+	Find the roots of a quadratic function
+      </li>
+    </ul>
+  </objectives>
+  <introduction>
+    <p>
+      Sketch a graph of each of the quadratic functions below.
+      Label the <m>y</m>-intercept, the vertex, and any <m>x</m>-intercepts.
+    </p>
+  </introduction>
+  <page>
+    <exercise workspace="2in">
+      <p>
+	<m>f(x) = -8x^2 + 10x + 5</m>
+      </p>
+    </exercise>
+
+    <exercise workspace="2in">
+      <p>
+	<m>g(x) = 3x^2 - 5x - 4</m>
+      </p>
+    </exercise>
+  </page>
+  <page>
+    <exercise workspace="2in">
+      <p>
+	
+      </p>
+    </exercise>
+  </page>
+  
+</worksheet>
