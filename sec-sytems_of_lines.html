@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Two Variables</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="College Algebra">
+<meta property="book:author" content="Blake Farman">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.33/pretext_search.js"></script><link href="https://pretextbook.org/css/0.83/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.33</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.33/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.33/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.33/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="https://pretextbook.org/css/0.83/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="college-algebra.html"><span class="title">College Algebra</span></a></h1>
+<p class="byline">Blake Farman</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="meta_backmatter-6.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="ch-systems.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-systems.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-sytems_of_planes.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \newcommand{\C}{\mathbb C} \newcommand{\abs}[1]{\left|#1\right|} \newcommand{\id}{\operatorname{id}} \newcommand{\Exp}[1]{\exp_{#1}} \newcommand{\mul}[1]{\operatorname{mul}_{#1}} \newcommand{\add}[1]{\operatorname{add}_{#1}} \newcommand{\Div}[1]{\operatorname{div}_{#1}} \newcommand{\sub}[1]{\operatorname{sub}_{#1}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-cartesian_plane.html" class="internal"><span class="codenumber">1</span> <span class="title">A Little Plane Geometry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-sets.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Sets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sets.html#sec-sets-3" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Representations of Sets</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sets.html#sec-sets-4" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Subsets and Equality</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sets.html#subsec-special_sets" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Special Sets</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sets.html#sec-sets-6" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Intervals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sets.html#sec-sets-7" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Basic Set Operations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-sets.html#sec-sets-8" class="internal"><span class="codenumber">1.1.6</span> <span class="title">Working with Sets</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-cartesian_coordinates.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Cartesian Coordinates</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-cartesian_coordinates.html#sec-cartesian_coordinates-points_in_the_plane" class="internal"><span class="codenumber">1.2.1</span> <span class="title">The Cartesian Plane</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-cartesian_coordinates.html#sec-cartesian_coordinates-points_in_the_plane-8" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Plotting Points in the Plane</span></a></div></li></ul>
+</li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-cartesian_coordinates-graphing_equations.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Graphing Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-cartesian_coordinates-graphing_equations.html#sec-cartesian_coordinates-graphing_equations-3" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Solutions to an Equation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-cartesian_coordinates-graphing_equations.html#sec-cartesian_coordinates-graphing_equations-4" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Horizontal Lines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-cartesian_coordinates-graphing_equations.html#sec-cartesian_coordinates-graphing_equations-5" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Vertical Lines</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-cartesian_coordinates-graphing_equations.html#sec-cartesian_coordinates-graphing_equations-6" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Plotting Points on a Graph</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-cartesian_coordinates-distance.html" class="internal"><span class="codenumber">1.4</span> <span class="title">The Distance Formula</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-cartesian_coordinates-distance.html#sec-cartesian_coordinates-distance-3" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Distance in One Dimension</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-cartesian_coordinates-distance.html#sec-cartesian_coordinates-distance-4" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Distance in Two Dimensions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-cartesian_coordinates-distance.html#sec-cartesian_coordinates-distance-5" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Using the Distance Formula</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-cartesian_coordinates-midpoint.html" class="internal"><span class="codenumber">1.5</span> <span class="title">The Midpoint Formula</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-cartesian_coordinates-midpoint.html#sec-cartesian_coordinates-midpoint-3" class="internal"><span class="codenumber">1.5.1</span> <span class="title">Midpoint in One Dimension</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-cartesian_coordinates-midpoint.html#sec-cartesian_coordinates-midpoint-4" class="internal"><span class="codenumber">1.5.2</span> <span class="title">Midpoitn in Two Dimensions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-cartesian_coordinates-midpoint.html#sec-cartesian_coordinates-midpoint-5" class="internal"><span class="codenumber">1.5.3</span> <span class="title">Using the Midpoint Formula</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-circles.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Circles</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circles.html#sec-circles-9" class="internal"><span class="codenumber">1.6</span> <span class="title">Working with Circles</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-functions.html" class="internal"><span class="codenumber">2</span> <span class="title">Functions and Graphs</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-relations.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-relations.html#sec-relations-3" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Algebraic Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-relations.html#sec-relations-4" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Comparing Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-relations.html#sec-relations-5" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Graphing Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-relations.html#sec-relations-6" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-avg_roc.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Measures of Change</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-avg_roc.html#sec-avg_roc-3" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Intervals of Increase and Decrease</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-avg_roc.html#sec-avg_roc-4" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Average Rate of Change</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-avg_roc.html#sec-avg_roc-5" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Working with Measures of Change</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-transformations.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Graph Transformations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-transformations.html#sec-transformations-3" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Vertical Translation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-transformations.html#sec-transformations-4" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Horizontal Translation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-transformations.html#sec-transformations-5" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Vertical Scaling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-transformations.html#sec-transformations-6" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Reflection</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-transformations.html#sec-transformations-7" class="internal"><span class="codenumber">2.3.5</span> <span class="title">Horizontal Scaling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-transformations.html#sec-transformations-8" class="internal"><span class="codenumber">2.3.6</span> <span class="title">Combining Graph Transformations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-transformations.html#sec-transformations-9" class="internal"><span class="codenumber">2.3.7</span> <span class="title">Worksheet</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-symmetry.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Symmetry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-symmetry.html#subsec-y_axis_symmetry" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Symmetry about the <span class="process-math">\(y\)</span>-axis</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-symmetry.html#sec-symmetry-4" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Origin Symmetry</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-symmetry.html#sec-symmetry-5" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Worksheet</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-linear_functions.html" class="internal"><span class="codenumber">3</span> <span class="title">Polynomial Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polynomial_functions.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Polynomial Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polynomial_functions.html#sec-polynomial_functions-3" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Roots of Polynomials</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-polynomial_functions.html#sec-polynomial_functions-4" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Worksheet</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-division.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Polynomial Division</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-division.html#sec-division-15" class="internal"><span class="codenumber">3.2</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-linear_functions.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Linear Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-linear_functions.html#sec-linear_functions-3" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Linear Functions and Slope</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-linear_functions.html#sec-linear_functions-4" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Graphing Linear Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-linear_functions.html#sec-linear_functions-5" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Working with Linear Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-lines.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Representations of Lines</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-lines.html#sec-lines-3" class="internal"><span class="codenumber">3.4.1</span> <span class="title">The Slope of a Line through two Points</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-lines.html#sec-lines-4" class="internal"><span class="codenumber">3.4.2</span> <span class="title">The Point-Slope Form of a Line</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-lines.html#sec-lines-5" class="internal"><span class="codenumber">3.4.3</span> <span class="title">The Standard Equation of a Line</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-lines.html#sec-lines-6" class="internal"><span class="codenumber">3.4.4</span> <span class="title">Representation of Lines</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-perp_parallel.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Parallel and Perpendicular Lines</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-perp_parallel.html#sec-perp_parallel-12" class="internal"><span class="codenumber">3.5</span> <span class="title">Parallel and Perpendicular Lines</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-linear_ineq.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Linear Inequalities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-linear_ineq.html#sec-linear_ineq-9" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Absolute Value and Inequality</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-linear_ineq.html#sec-linear_ineq-10" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Working with Linear Inequalities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-quadratic_functions.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Quadratic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-quadratic_functions.html#sec-quadratic_functions-3" class="internal"><span class="codenumber">3.7.1</span> <span class="title">Vertex Form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-quadratic_functions.html#subsec-completing_the_square" class="internal"><span class="codenumber">3.7.2</span> <span class="title">Completing the Square</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-quadratic_functions.html#sec-quadratic_functions-5" class="internal"><span class="codenumber">3.7.3</span> <span class="title">Applications to Circles</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-quadratic_functions.html#sec-quadratic_functions-6" class="internal"><span class="codenumber">3.7.4</span> <span class="title">Working with Quadratic Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-roots_quadratics.html" class="internal"><span class="codenumber">3.8</span> <span class="title">Roots of Quadratic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-roots_quadratics.html#sec-roots_quadratics-2" class="internal"><span class="codenumber">3.8.1</span> <span class="title">The Quadratic Formula</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-roots_quadratics.html#sec-roots_quadratics-3" class="internal"><span class="codenumber">3.8.2</span> <span class="title">Graphing Qudaratics</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-roots_quadratics.html#sec-roots_quadratics-4" class="internal"><span class="codenumber">3.8.3</span> <span class="title">Roots of Quadratic Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-inequalities.html" class="internal"><span class="codenumber">3.9</span> <span class="title">Polynomial Inequalities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-inequalities.html#sec-inequalities-3" class="internal"><span class="codenumber">3.9.1</span> <span class="title">Solutions to Inequalities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-inequalities.html#sec-inequalities-4" class="internal"><span class="codenumber">3.9.2</span> <span class="title">Solving Polynomial Inequalities Algebraically</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-inequalities.html#sec-inequalities-5" class="internal"><span class="codenumber">3.9.3</span> <span class="title">Solving Polynomial Inequalities Graphically</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-inequalities.html#sec-inequalities-6" class="internal"><span class="codenumber">3.9.4</span> <span class="title">Polynomial Inequalities</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-systems.html" class="internal"><span class="codenumber">4</span> <span class="title">Linear Systems</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="sec-sytems_of_lines.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Two Variables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sytems_of_lines.html#sec-sytems_of_lines-3" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Systems of Linear Equations in Two Variables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sytems_of_lines.html#sec-sytems_of_lines-4" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Finding Solutions Algebraically</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-sytems_of_planes.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Three Variables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sytems_of_planes.html#sec-sytems_of_planes-3" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Systems of Linear Equations in Three Variables</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sytems_of_planes.html#sec-sytems_of_planes-4" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Solving Linear Systems with Three Equations</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-properties_functions.html" class="internal"><span class="codenumber">5</span> <span class="title">Combining Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="ch-properties_functions-2.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Algebraic Combinations of Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-properties_functions-2.html#ch-properties_functions-2-3" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Sums and Differences of Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-properties_functions-2.html#ch-properties_functions-2-4" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Products of Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-properties_functions-2.html#ch-properties_functions-2-5" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Ratios of Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-rational_functions.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Rational Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rational_functions.html#sec-rational_functions-3" class="internal"><span class="codenumber">5.2.1</span> <span class="title">The Domain of a Rational Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rational_functions.html#sec-rational_functions-4" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Simplifying Rational Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rational_functions.html#sec-rational_functions-5" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Sums and Differences of Rational Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rational_functions.html#sec-rational_functions-6" class="internal"><span class="codenumber">5.2.4</span> <span class="title">Products and Ratios of Rational Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-rational_functions.html#sec-rational_functions-7" class="internal"><span class="codenumber">5.2.5</span> <span class="title">Worksheet</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-composition.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Composition and Inverses</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-composition.html#sec-composition-3" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Composition of Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-composition.html#sec-composition-4" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Identities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-composition.html#sec-composition-5" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Composition Inverses</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-composition.html#sec-composition-6" class="internal"><span class="codenumber">5.3.4</span> <span class="title">Properties of Invertible Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="ch-properties_functions-5.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Graphing Inverse Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-properties_functions-5.html#ch-properties_functions-5-2" class="internal"><span class="codenumber">5.4.1</span> <span class="title">A Little Symmetry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-properties_functions-5.html#ch-properties_functions-5-3" class="internal"><span class="codenumber">5.4.2</span> <span class="title">The Horizontal Line Test</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-properties_functions-5.html#ch-properties_functions-5-4" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Root Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-piecewise.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Piecewise Defined Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-transcendentals.html" class="internal"><span class="codenumber">6</span> <span class="title">Transcendental Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-exponentials.html" class="internal"><span class="codenumber">6.1</span> <span class="title">The Exponential Function</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exponentials.html#sec-exponentials-3" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Properties of the Exponential Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exponentials.html#sec-exponentials-4" class="internal"><span class="codenumber">6.1.2</span> <span class="title">The Graph of the Exponential Function</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exponentials.html#sec-exponentials-5" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Working with the Exponential</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-logarithms.html" class="internal"><span class="codenumber">6.2</span> <span class="title">The Natural Logarithm</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logarithms.html#sec-logarithms-3" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Properties of the Natural Logarithm</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logarithms.html#sec-logarithms-4" class="internal"><span class="codenumber">6.2.2</span> <span class="title">The Graph of the Natural Logarithm</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-logarithms.html#sec-logarithms-5" class="internal"><span class="codenumber">6.2.3</span> <span class="title">Solving Equations with Transcendental Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-logarithms.html#sec-logarithms-6" class="internal"><span class="codenumber">6.2.4</span> <span class="title">Worksheet</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-other_exponentials.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Other Exponential Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-other_exponentials.html#sec-other_exponentials-3" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Changing the Base of the Exponential</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-other_exponentials.html#sec-other_exponentials-4" class="internal"><span class="codenumber">6.3.2</span> <span class="title">Properties of Exponential Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-other_exponentials.html#sec-other_exponentials-5" class="internal"><span class="codenumber">6.3.3</span> <span class="title">Working with Exponentials</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-other_logarithms.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Other Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-other_logarithms.html#sec-other_logarithms-3" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Changing the Base of the Logarithm</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-other_logarithms.html#sec-other_logarithms-4" class="internal"><span class="codenumber">6.4.2</span> <span class="title">Worksheet</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-modeling.html" class="internal"><span class="codenumber">6.5</span> <span class="title">Modeling with Exponential Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-modeling.html#sec-modeling-3" class="internal"><span class="codenumber">6.5.1</span> <span class="title">Exponential Growth</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-modeling.html#sec-modeling-4" class="internal"><span class="codenumber">6.5.2</span> <span class="title">Exponential Decay</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="meta_backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="meta_backmatter-2.html" class="internal"><span class="codenumber">A</span> <span class="title">List of Symbols</span></a></div></li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="meta_backmatter-3.html" class="internal"><span class="codenumber">B</span> <span class="title">Graphs of Basic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="meta_backmatter-3-2.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Polynomials</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="meta_backmatter-3-3.html" class="internal"><span class="codenumber">B.2</span> <span class="title">Roots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="meta_backmatter-3-4.html" class="internal"><span class="codenumber">B.3</span> <span class="title">Rational Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="meta_backmatter-3-5.html" class="internal"><span class="codenumber">B.4</span> <span class="title">Miscellaneous Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-references"><div class="toc-title-box"><a href="meta_backmatter-4.html" class="internal"><span class="title">References</span></a></div></li>
+<li class="toc-item toc-glossary"><div class="toc-title-box"><a href="meta_backmatter-5.html" class="internal"><span class="title">Glossary</span></a></div></li>
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="meta_backmatter-6.html" class="internal"><span class="title">Index</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="meta_backmatter-7.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-sytems_of_lines"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">4.1</span><span class="space"> </span><span class="title">Two Variables</span>
+</h2>
+<section class="introduction" id="sec-sytems_of_lines-2"><div class="para" id="sec-sytems_of_lines-2-1">It is common to encounter situations involving multiple polynomials where we would like to find the points that are solutions to <em class="emphasis">all</em> of the polynomials at once. In the most general situation, we do not place any restrictions on the polynomials involved. This leads to a branch of mathematics called <a class="external" href="https://en.wikipedia.org/wiki/Algebraic_geometry" target="_blank">algebraic geometry</a><a class="xref" id="sec-sytems_of_lines-2-1-3" href="" data-knowl="./knowl/fn/sec-sytems_of_lines-2-1-3.html" title="Footnote 4.1.1"><sup> 1 </sup></a>. The simplest case occurs when each of the polynomials involved is linear, and is known as <a class="external" href="https://en.wikipedia.org/wiki/Linear_algebra" target="_blank">linear algebra</a><a class="xref" id="sec-sytems_of_lines-2-1-5" href="" data-knowl="./knowl/fn/sec-sytems_of_lines-2-1-5.html" title="Footnote 4.1.2"><sup> 2 </sup></a>. Both topics are well beyond the scope of this course, so we focus on finding solutions in two very special cases.</div></section><section class="subsection" id="sec-sytems_of_lines-3"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.1.1</span><span class="space"> </span><span class="title">Systems of Linear Equations in Two Variables</span>
+</h3>
+<div class="para" id="sec-sytems_of_lines-3-2">First we begin with a rigorous definition of a linear system.</div>
+<article class="definition definition-like" id="def-system_lines"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.1.1</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="def-system_lines-1-1">
+<div class="para">A <dfn class="terminology">system of <span class="process-math">\(m\)</span> linear equations in the variables <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span></dfn>  is a collection of <span class="process-math">\(m\)</span> equations</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{array}{ccccc}
+a_1x \amp + \amp b_1y \amp=\amp c_1\\
+a_2x \amp + \amp b_2y \amp=\amp c_2\\
+\vdots \amp \amp \vdots \amp \amp\vdots\\
+a_mx \amp + \amp b_my \amp=\amp c_m
+\end{array}
+\end{equation*}
+</div>
+</div> <div class="para" id="def-system_lines-1-2">A <dfn class="terminology">solution</dfn>  to the system is a point <span class="process-math">\((a,b)\)</span> that is a <a href="" class="xref" data-knowl="./knowl/xref/def-solution.html" title="Definition 1.3.1: Solution to an Equation">solution</a> for <em class="emphasis">every</em> equation in the system.</div></article><article class="example example-like" id="sec-sytems_of_lines-3-4"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.2</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="sec-sytems_of_lines-3-4-1-1">
+<div class="para">Verify that <span class="process-math">\((1,2)\)</span> is a solution to the system of two equations in <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span>
+</div>
+<div class="displaymath process-math" id="sec-sytems_of_lines-3-4-1-1-4">
+\begin{align*}
+-3x + y \amp= -1\\
+-x +y \amp= 1
+\end{align*}
+</div>
+</div>
+<div class="solutions"><details id="sec-sytems_of_lines-3-4-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like"><div class="para logical" id="sec-sytems_of_lines-3-4-2-1">
+<div class="para">We must verify that <span class="process-math">\((1,2)\)</span> is a solution for <em class="emphasis">both</em> equations. For the first equation,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+-3(1) + 2 = -3 + 2 = -1
+\end{equation*}
+</div>
+<div class="para">and for the second equation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+-(1) + 2 = -1 + 2 = 1.
+\end{equation*}
+</div>
+</div></div></details></div></article><div class="para" id="sec-sytems_of_lines-3-5">Solutions to system of equations have geometric meaning. Given a system of <span class="process-math">\(m\)</span> linear equations in the variables <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{,}\)</span> each equation <span class="process-math">\(a_ix + b_iy = c_i\)</span> represents a <a href="" class="xref" data-knowl="./knowl/xref/def-linear_equation.html" title="Definition 3.4.10: Standard Equation of a Line">line in standard form</a>. A solution to the linear system is a point that lies on each line — we call this a point of <dfn class="terminology">intersection</dfn> </div>
+<article class="example example-like" id="sec-sytems_of_lines-3-6"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.3</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="sec-sytems_of_lines-3-6-1-1">
+<div class="para">Interpret the solution, <span class="process-math">\((1,2)\text{,}\)</span> to the system of two equations in <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span>
+</div>
+<div class="displaymath process-math" id="sec-sytems_of_lines-3-6-1-1-4">
+\begin{align*}
+-3x + y \amp= -1\\
+-x + y \amp= 1
+\end{align*}
+</div>
+<div class="para">geometrically.</div>
+</div>
+<div class="solutions"><details id="sec-sytems_of_lines-3-6-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like">
+<div class="para logical" id="sec-sytems_of_lines-3-6-2-1">
+<div class="para">To graph the lines, we rewrite each line in <a href="" class="xref" data-knowl="./knowl/xref/thm-slope_intercept.html" title="Theorem 3.3.2: The Slope-Intercept Form of a Line">slope-intercept form</a>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-slope_intercept.html" id="sec-sytems_of_lines-3-6-2-1-2">
+\begin{align*}
+y \amp= 3x - 1\\
+y \amp= x + 1
+\end{align*}
+</div>
+<div class="para">This tells us the first line passes through the points <span class="process-math">\((1,2)\)</span> and <span class="process-math">\((0,-1)\text{,}\)</span> and the second line passes through the points <span class="process-math">\((1,2)\)</span> and <span class="process-math">\((0,1)\text{.}\)</span> Plotting these lines, we can see that <span class="process-math">\((1,2)\)</span> is the only point of intersection.</div>
+</div> <figure class="figure figure-like" id="sec-sytems_of_lines-3-6-2-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/sec-sytems_of_lines-3-6-2-2-2.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.4<span class="period">.</span></span><span class="space"> </span>The geometric interpretation of the solution to the system.</figcaption></figure>
+</div></details></div></article><div class="para" id="sec-sytems_of_lines-3-7">A slightly stranger way for a linear system in the variables <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> to have a solution is when the lines are the same. In this case, there are infinitely many solutions.</div>
+<article class="example example-like" id="sec-sytems_of_lines-3-8"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.5</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="sec-sytems_of_lines-3-8-1-1">
+<div class="para">Verify geometrically that the system</div>
+<div class="displaymath process-math" id="sec-sytems_of_lines-3-8-1-1-1">
+\begin{align*}
+x + 2y \amp= 4\\
+2x + 4y \amp= 8
+\end{align*}
+</div>
+<div class="para">has infinitely many solutions.</div>
+</div>
+<div class="solutions"><details id="sec-sytems_of_lines-3-8-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like">
+<div class="para logical" id="sec-sytems_of_lines-3-8-2-1">
+<div class="para">First, convert each of the lines to <a href="" class="xref" data-knowl="./knowl/xref/thm-slope_intercept.html" title="Theorem 3.3.2: The Slope-Intercept Form of a Line">slope-intercept form</a>:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-slope_intercept.html" id="sec-sytems_of_lines-3-8-2-1-2">
+\begin{align*}
+\amp x + 2y = 4 \amp\amp \text{Subtract}\ x\ \text{from both sides}\\
+\amp 2y = -x + 4\amp\amp \text{Divide both sides by}\ 2\\
+\amp y = -\frac{1}{2}x + 2
+\end{align*}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-slope_intercept.html" id="sec-sytems_of_lines-3-8-2-1-3">
+\begin{align*}
+\amp 2x + 4y = 8 \amp\amp \text{Subtract}\ 2x\ \text{from both sides}\\
+\amp 4y = -2x + 8\amp\amp \text{Divide both sides by}\ 4\\
+\amp y = -\frac{1}{2}x + 2
+\end{align*}
+</div>
+<div class="para">We can see in this form that they are the same line, so they intersect infinitely many times. Moreover, the points of intersection all have the form <span class="process-math">\((x, -1/2x + x).\)</span>
+</div>
+</div> <figure class="figure figure-like" id="sec-sytems_of_lines-3-8-2-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/sec-sytems_of_lines-3-8-2-2-2.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.6<span class="period">.</span></span><span class="space"> </span>The solutions to the system</figcaption></figure>
+</div></details></div></article><article class="definition definition-like" id="sec-sytems_of_lines-3-9"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.1.7</span><span class="period">.</span>
+</h4>
+<div class="para" id="sec-sytems_of_lines-3-9-1-1">We say a system of linear equations is <dfn class="terminology">dependent</dfn>  if there are infinitely many solutions to the system.</div></article><div class="para" id="sec-sytems_of_lines-3-10">In general, a system is not guaranteed to have <em class="emphasis">any</em> solutions. The simplest way this can happen is if two lines in the system are <a href="" class="xref" data-knowl="./knowl/xref/def-parallel.html" title="Definition 3.5.1: Parallel">parallel</a>. However, if there are more than two lines, then the system may fail to have any solutions even if no two lines are parallel.</div>
+<article class="example example-like" id="sec-sytems_of_lines-3-11"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.8</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="sec-sytems_of_lines-3-11-1-1">
+<div class="para">Verify geometrically that the system</div>
+<div class="displaymath process-math" id="sec-sytems_of_lines-3-11-1-1-1">
+\begin{align*}
+-2x + 3y \amp= 6\\
+x + 2y \amp= 2\\
+4x + y \amp= 4
+\end{align*}
+</div>
+<div class="para">does not have any solutions.</div>
+</div>
+<div class="solutions"><details id="sec-sytems_of_lines-3-11-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like">
+<div class="para logical" id="sec-sytems_of_lines-3-11-2-1">
+<div class="para">A solution would correspond to a common point of intersection for all three lines. We graph each line by finding two points on each line</div>
+<ul class="disc">
+<li id="sec-sytems_of_lines-3-11-2-1-1-1"><div class="para" id="sec-sytems_of_lines-3-11-2-1-1-1-1">The line <span class="process-math">\(-2x + 3y = 6\)</span> passes through the points <span class="process-math">\((0, 2)\)</span> and <span class="process-math">\((-3,0)\)</span>
+</div></li>
+<li id="sec-sytems_of_lines-3-11-2-1-1-2"><div class="para" id="sec-sytems_of_lines-3-11-2-1-1-2-1">The line <span class="process-math">\(x + 2y = 2\)</span> passes through the points <span class="process-math">\((0,1)\)</span> and <span class="process-math">\((2,0)\)</span>
+</div></li>
+<li id="sec-sytems_of_lines-3-11-2-1-1-3"><div class="para" id="sec-sytems_of_lines-3-11-2-1-1-3-1">The line <span class="process-math">\(4x + y = 4\)</span> passes through the points <span class="process-math">\((0, 4)\)</span> and <span class="process-math">\((1,0)\)</span>
+</div></li>
+</ul>
+<div class="para">When we plot the lines, we can see that each pair intersects, but there is no one point through which all three pass.</div>
+</div> <figure class="figure figure-like" id="sec-sytems_of_lines-3-11-2-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/sec-sytems_of_lines-3-11-2-2-2.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.1.9<span class="period">.</span></span><span class="space"> </span>The graph of three lines with no common point of intersection</figcaption></figure>
+</div></details></div></article><article class="definition definition-like" id="def-inconsistent"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.1.10</span><span class="period">.</span>
+</h4>
+<div class="para" id="def-inconsistent-1-1">We say a linear system is <dfn class="terminology">consistent</dfn>  if there is at least one solution. Otherwise, we say the linear system is <dfn class="terminology">inconsistent</dfn>. </div></article><div class="para logical" id="sec-sytems_of_lines-3-13">
+<div class="para">It is a surprising fact of linear algebra that this essentially characterizes the behavior of <em class="emphasis">every</em> linear system — regardless of the number of variables and equations. That is to say, there are three possible behaviors for a linear system:</div>
+<ul class="disc">
+<li id="sec-sytems_of_lines-3-13-3-1"><div class="para" id="sec-sytems_of_lines-3-13-3-1-1">The system is inconsistent (i.e. no solutions),</div></li>
+<li id="sec-sytems_of_lines-3-13-3-2"><div class="para" id="sec-sytems_of_lines-3-13-3-2-1">The system has exactly one solution, or</div></li>
+<li id="sec-sytems_of_lines-3-13-3-3"><div class="para" id="sec-sytems_of_lines-3-13-3-3-1">The system has infinitely many solutions.</div></li>
+</ul>
+</div></section><section class="subsection" id="sec-sytems_of_lines-4"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.1.2</span><span class="space"> </span><span class="title">Finding Solutions Algebraically</span>
+</h3>
+<div class="para" id="sec-sytems_of_lines-4-2">The simplest way to find solutions to a linear system in two variables is to use a method called <dfn class="terminology">substitution</dfn>  The method relies on solving one equation in the system for a single variable of your choice and then substituting that into the other equations.</div>
+<article class="example example-like" id="sec-sytems_of_lines-4-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.11</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="sec-sytems_of_lines-4-3-1-1">
+<div class="para">Use substitution to solve the system</div>
+<div class="displaymath process-math" id="sec-sytems_of_lines-4-3-1-1-1">
+\begin{align*}
+x + y \amp= 2\\
+-x + y \amp= 0
+\end{align*}
+</div>
+</div>
+<div class="solutions"><details id="sec-sytems_of_lines-4-3-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like"><div class="para logical" id="sec-sytems_of_lines-4-3-2-1">
+<div class="para">The simplest equation to solve for one variable is the second. We simply add <span class="process-math">\(x\)</span> to both sides of the equation to find <span class="process-math">\(y = x\text{.}\)</span> When we substitute this into the other equation to obtain</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y + y = 2y = 2.
+\end{equation*}
+</div>
+<div class="para">Divide both side by <span class="process-math">\(2\)</span> to see that <span class="process-math">\(y = 1\text{.}\)</span> Therefore the system has exactly one solution, <span class="process-math">\((1,1)\text{.}\)</span>
+</div>
+</div></div></details></div></article></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="ch-systems.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-sytems_of_planes.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
