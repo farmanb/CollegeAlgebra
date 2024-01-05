@@ -49,7 +49,7 @@
 	  </idx>
 	  of the set.
 	  We specify that an object <m>x</m> is an element of the set <m>S</m> by writing <m>x \in S</m>
-	  and say "<m>x</m> is an element (or member) of <m>S</m>"
+	  and say <q><m>x</m> is an element (or member) of <m>S</m></q>
 	</p>
       </statement>
     </definition>
