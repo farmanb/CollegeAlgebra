@@ -3,12 +3,6 @@
 <chapter xml:id="ch-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Functions and Graphs</title>
 
-  <introduction>
-    <p>
-      In this chapter, we study functions.
-    </p>
-  </introduction>
-
   <!-- include sections -->
   <!-- <xi:include href="sec-relations.ptx" /> -->
   <xi:include href="sec-functions.ptx" />
