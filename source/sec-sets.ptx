@@ -497,7 +497,7 @@
 	  <figure xml:id="fig-finite_open_interval">
 	    <caption><m>(a,b)</m></caption>
 	    <image xml:id="img-finite-open_interval">
-	      <latex-image>
+	      <latex-image xml:id="tikz-finite-open_interval">
 		<xi:include parse="text" href="tex/interval-open.tex"/>
 	      </latex-image>
 	    </image>
@@ -507,7 +507,7 @@
 	  <figure xml:id="fig-left_open_ray">
 	    <caption><m>(a, \infty)</m></caption>
 	    <image xml:id="img-left_open_ray">
-	      <latex-image>
+	      <latex-image xml:id="tikz-left_open_ray">
 		<xi:include parse="text" href="tex/interval-left_open_ray.tex"/>
 	      </latex-image>
 	    </image>
@@ -517,7 +517,7 @@
 	  <figure xml:id="fig-right_open_ray">
 	    <caption><m>(-\infty,b)</m></caption>
 	    <image xml:id="img-right_open_ray">
-	      <latex-image>
+	      <latex-image xml:id="tikz-right_open_ray">
 		<xi:include parse="text" href="tex/interval-right_open_ray.tex"/>
 	      </latex-image>
 	    </image>
@@ -555,7 +555,7 @@
 	  <figure xml:id="fig-finite_closed_interval">
 	    <caption><m>[a,b]</m></caption>
 	    <image xml:id="img-finite_closed_interval">
-	      <latex-image>
+	      <latex-image xml:id="tikz-finite_closed_interval">
 		<xi:include parse="text" href="tex/interval-closed.tex"/>
 	      </latex-image>
 	    </image>
@@ -566,7 +566,7 @@
 	  <figure xml:id="fig-left_closed_ray">
 	    <caption><m>[a,\infty)</m></caption>
 	    <image xml:id="img-left_closed_ray">
-	      <latex-image>
+	      <latex-image xml:id="tikz-left_closed_ray">
 		<xi:include parse="text" href="tex/interval-left_closed_ray.tex"/>
 	      </latex-image>
 	    </image>
@@ -577,7 +577,7 @@
 	  <figure xml:id="fig-right_closed_ray">
 	    <caption><m>(-\infty,b]</m></caption>
 	    <image xml:id="img-right_closed_ray">
-	      <latex-image>
+	      <latex-image xml:id="tikz-right_closed_ray">
 		<xi:include parse="text" href="tex/interval-right_closed_ray.tex"/>
 	      </latex-image>
 	    </image>
@@ -613,7 +613,7 @@
 	  <figure xml:id="fig-half_open_left">
 	    <caption><m>(a,b]</m></caption>
 	    <image xml:id="img-half_open_left">
-	      <latex-image>
+	      <latex-image xml:id="tikz-half_open_left">
 		<xi:include parse="text" href="tex/interval-half_open-left.tex"/>
 	      </latex-image>
 	    </image>
@@ -623,7 +623,7 @@
 	  <figure xml:id="fig-half_open_right">
 	    <caption><m>[a,b)</m></caption>
 	    <image xml:id="img-half_open-right">
-	      <latex-image>
+	      <latex-image xml:id="tikz-half_open_right">
 		<xi:include parse="text" href="tex/interval-half_open-right.tex"/>
 	      </latex-image>
 	    </image>
@@ -733,33 +733,33 @@
 	  <caption>The intervals <m>[0,2)</m>, <m>(1,3]</m>, and their intersection</caption>
 	  <sbsgroup>
 	    <sidebyside>
-	      <figure>
+	      <figure xml:id="fig-right_open_0_2">
 		<caption><m>[0,2)</m></caption>
-		<image>
-		  <latex-image>
-		    <xi:include parse="text" href="tex/left_open_0_2.tex"/>
+		<image xml:id="img-right_open_0_2">
+		  <latex-image xml:id="tikz-right_open_0_2">
+		    <xi:include parse="text" href="tex/right_open_0_2.tex"/>
 		  </latex-image>
 		</image>
 	      </figure>
 	    </sidebyside>
 
 	    <sidebyside>
-	      <figure>
+	      <figure xml:id="fig-left_open_1_3">
 		<caption><m>(1,3]</m></caption>
-		<image>
-		  <latex-image>
-		    <xi:include parse="text" href="tex/right_open_1_3.tex"/>
+		<image xml:id="img-left_open_1_3">
+		  <latex-image xml:id="tikz-left_open_1_3">
+		    <xi:include parse="text" href="tex/left_open_1_3.tex"/>
 		  </latex-image>
 		</image>
 	      </figure>
 	    </sidebyside>
 
 	    <sidebyside>
-	      <figure>
+	      <figure xml:id="fig-open_1_2">
 		<caption><m>(1,2)</m></caption>
-		<image>
-		  <latex-image>
-		    <xi:include parse="text" href="tex/intersection_example.tex"/>
+		<image xml:id="img-open_1_2">
+		  <latex-image xml:id="tikz-open_1_2">
+		    <xi:include parse="text" href="tex/open_1_2.tex"/>
 		  </latex-image>
 		</image>
 	      </figure>
@@ -774,52 +774,52 @@
 
       <statement>
 	<p>
-	  Find the union of the two intervals <m>[-1,2)</m> and <m>(1,3]</m>.
+	  Find the union of the two intervals <m>[-1,2)</m> and <m>(1,4]</m>.
 	  Sketch the union on a number line.
 	</p>
       </statement>
 
       <solution>
 	<p>
-	  The union of the two intervals <m>[-1,2)</m> and <m>(1,3]</m> is the set
+	  The union of the two intervals <m>[-1,2)</m> and <m>(1,4]</m> is the set
 	  <md>
-	    <mrow>[0,2) \cup (1,3] \amp = \left\{x \in \R \;\middle\vert\; 0 \leq x \lt 2\ \text{or}\ 1 \lt x \leq 3\right\}</mrow>
-	    <mrow>\amp = 0 \leq x \leq 3</mrow>
-	    <mrow>\amp = [0,3].</mrow>
+	    <mrow>[-1,2) \cup (1,4] \amp = \left\{x \in \R \;\middle\vert\; -1 \leq x \lt 2\ \text{or}\ 1 \lt x \leq 4\right\}</mrow>
+	    <mrow>\amp = -1 \leq x \leq 4</mrow>
+	    <mrow>\amp = [-1,4].</mrow>
 	  </md>
 	</p>
 	<figure>
-	  <caption>The intervals <m>[0,2)</m>, <m>(1,3]</m>, and their union</caption>
+	  <caption>The intervals <m>[-1,2)</m>, <m>(1,4]</m>, and their union</caption>
 	  
 	  <sbsgroup>
 	    <sidebyside>
-	      <figure>
-		<caption><m>[0,2)</m></caption>
-		<image>
-		  <latex-image>
-		    <xi:include parse="text" href="tex/left_open_0_2.tex"/>
+	      <figure xml:id="fig-right_open_neg_1_2">
+		<caption><m>[-1,2)</m></caption>
+		<image xml:id="img-right_open_neg_1_2">
+		  <latex-image xml:id="tikz-right_open_neg_1_2">
+		    <xi:include parse="text" href="tex/right_open_neg_1_2.tex"/>
 		  </latex-image>
 		</image>
 	      </figure>
 	    </sidebyside>
 
 	    <sidebyside>
-	      <figure>
-		<caption><m>(1,3]</m></caption>
-		<image>
-		  <latex-image>
-		    <xi:include parse="text" href="tex/right_open_1_3.tex"/>
+	      <figure xml:id="fig-left_open_1_4">
+		<caption><m>(1,4]</m></caption>
+		<image xml:id="img-left_open_1_4">
+		  <latex-image xml:id="tikz-left_open_1_4">
+		    <xi:include parse="text" href="tex/left_open_1_4.tex"/>
 		  </latex-image>
 		</image>
 	      </figure>
 	    </sidebyside>
 
 	    <sidebyside>
-	      <figure>
-		<caption><m>[0,3]</m></caption>
-		<image>
-		  <latex-image>
-		    <xi:include parse="text" href="tex/union_example.tex"/>
+	      <figure xml:id="fig-closed_neg_1_4">
+		<caption><m>[-1,4]</m></caption>
+		<image xml:id="img-closed_neg_1_4">
+		  <latex-image xml:id="tikz-closed_neg_1_4">
+		    <xi:include parse="text" href="tex/closed_neg_1_4.tex"/>
 		  </latex-image>
 		</image>
 	      </figure>
