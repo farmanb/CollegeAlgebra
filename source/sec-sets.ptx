@@ -3,7 +3,7 @@
 <section xml:id="sec-sets" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Sets</title>
 
-  <introduction>
+  <introduction xml:id="sets-intro">
     <p>
       In the sciences, knowledge is often derived from experimentation in a process known as <em>inductive reasoning</em>.
       While these methods may provide insight into a problem, inductive reasoning is <alert>not</alert> a valid method of producing mathematical truth.
@@ -20,7 +20,7 @@
     </p>
   </introduction>
 
-  <subsection>
+  <subsection xml:id="subsec-representation_of_sets">
     <title>Representations of Sets</title>
 
     <definition xml:id="def-set">
@@ -98,7 +98,8 @@
       It allows us to test whether a <em>thing</em> belongs in the set.
     </p>
 
-    <example component="web">
+    <example xml:id="eg-roster_notation" component="web">
+      <title>Roster Notation</title>
       <statement>
 	<p>
 	  Express the set with elements <m>1</m>, <m>2</m>, <m>3</m>, and <m>4</m> in <xref ref="def-roster_notation" text="title"/>.
@@ -111,7 +112,8 @@
       </solution>
     </example>
 
-    <example component="web">
+    <example xml:id="eg-set_builder_notation" component="web">
+      <title>Set-Builder Notation</title>
       <statement>
 	<p>
 	  Express the set that contains all positive, even integers in <xref ref="def-set_builder_notation" text="title"/>.
@@ -142,12 +144,12 @@
       </solution>
     </example>
     
-    <worksheet component="print">
-      <title/>
+    <worksheet xml:id="wksht-set_examples" component="print">
+      <title>Examples</title>
       <page>
 	<example>
 	  <title>Roster and Set-Builder Notation</title>
-	  <task workspace="4in">
+	  <task workspace="1in">
 	    <p>
 	      Express the set with elements <m>1</m>, <m>2</m>, <m>3</m>, and <m>4</m> in <xref ref="def-roster_notation" text="title"/>.
 	    </p>
@@ -163,7 +165,7 @@
 
   </subsection>
 
-  <subsection>
+  <subsection xml:id="subsec-subsets_and_equality">
     <title>Subsets and Equality</title>
 
     <p>
@@ -195,13 +197,13 @@
       </statement>
     </definition>
 
-    <example>
+    <example xml:id="eg-equality_of_sets">
       <p>
 	The sets <m>\{1,2,3\}</m> and <m>\{3, 1, 2\}</m> are equal.
       </p>
     </example>
 
-    <example>
+    <example xml:id="eg-unequal_sets">
       <p>
 	The sets <m>\{1,2,3\}</m> and <m>\{1,2,4\}</m> are <alert>not</alert> equal.
       </p>
@@ -211,7 +213,7 @@
       Sets have a particularly odd quirk: they do <alert>not</alert> keep track of repetition.
     </p>
     
-    <example>
+    <example xml:id="eg-sets_do_not_count_repitition">
       <p>
 	The sets <m>\{1,1,1,1\}</m> and <m>\{1\}</m> are equal.
       </p>
@@ -223,6 +225,7 @@
       <me>2 \leq 2 \quad\text{or}\quad \pi \leq 4.</me>
       For sets, we have a similar sort of ordering.
     </p>
+
     <definition xml:id="def-subset">
       <title>Subset</title>
       <statement>
@@ -245,13 +248,13 @@
       </statement>
     </definition>
 
-    <remark>
+    <remark xml:id="rmk-set_subset_self">
       <p>
 	Every set <m>A</m> is a subset of itself, <m>A \subseteq A</m>.
       </p>
     </remark>
     
-    <example>
+    <example xml:id="eg-subset">
       <p>
 	The set <m>\{1,2\}</m> is a subset of the set <m>\{1,2,3\}</m>.
 	The set <m>\{1,2,3\}</m> is <alert>not</alert> a subset of the set <m>\{1,2\}</m>.
@@ -272,7 +275,7 @@
       </idx>
     </p>
     
-    <example>
+    <example xml:id="eg-incomparable_sets">
       <p>
 	The set <m>\{1,2,3\}</m> is <alert>not</alert> a subset of <m>\{4,5\}</m> and the set <m>\{4,5\}</m> is <alert>not</alert> a subset of the set <m>\{1,2,3\}</m>.
       </p>
@@ -308,7 +311,7 @@
       </statement>
     </definition>
 
-    <example>
+    <example xml:id="eg-proper_subset">
       <p>
 	The set <m>\{1,2\}</m> is a proper subset of the set <m>\{1,2,3\}</m>.
 	We could write either <m>\{1,2\} \subseteq \{1,2,3\}</m> or <m>\{1,2\} \subset \{1,2,3\}</m>.
@@ -345,7 +348,7 @@
       </statement>
     </definition>
 
-    <remark>
+    <remark xml:id="rmk-empty_set_subset_all_sets">
       <p>
 	For convenience, the <xref ref="def-empty_set" text="title"/> is a subset of <em>every</em> set.
       </p>
@@ -458,14 +461,14 @@
     </p>
   </subsection>
   
-  <subsection>
+  <subsection xml:id="subsec-intervals">
     <title>Intervals</title>
     <p>
       A particularly special class of subsets of <m>\R</m> are the <em>intervals</em>.
       These sets arise frequently, so it is important to specify the notation and a graphical representation for each one.
     </p>
 
-    <definition xml:id="def-interval-open">
+    <definition xml:id="def-open_interval">
       <title>Open Interval</title>
       <statement>
 	<p>
@@ -487,13 +490,13 @@
       </statement>
     </definition>
 
-    <figure xml:id="fig-interval-open">
+    <figure xml:id="fig-open_intervals">
       <caption>The open intervals</caption>
       <sbsgroup>
 	<sidebyside>
-	  <figure>
+	  <figure xml:id="fig-finite_open_interval">
 	    <caption><m>(a,b)</m></caption>
-	    <image xml:id="img-interval-open">
+	    <image xml:id="img-finite-open_interval">
 	      <latex-image>
 		<xi:include parse="text" href="tex/interval-open.tex"/>
 	      </latex-image>
@@ -501,9 +504,9 @@
 	  </figure>
 	</sidebyside>
 	<sidebyside>
-	  <figure>
+	  <figure xml:id="fig-left_open_ray">
 	    <caption><m>(a, \infty)</m></caption>
-	    <image xml:id="img-interval-left_open_ray">
+	    <image xml:id="img-left_open_ray">
 	      <latex-image>
 		<xi:include parse="text" href="tex/interval-left_open_ray.tex"/>
 	      </latex-image>
@@ -511,9 +514,9 @@
 	  </figure>
 	</sidebyside>
 	<sidebyside>
-	  <figure>
+	  <figure xml:id="fig-right_open_ray">
 	    <caption><m>(-\infty,b)</m></caption>
-	    <image xml:id="img-interval-right_open_ray">
+	    <image xml:id="img-right_open_ray">
 	      <latex-image>
 		<xi:include parse="text" href="tex/interval-right_open_ray.tex"/>
 	      </latex-image>
@@ -523,7 +526,7 @@
       </sbsgroup>
     </figure>
 
-    <definition xml:id="def-interval-closed">
+    <definition xml:id="def-closed_interval">
       <title>Closed Interval</title>
       <statement>
 	<p>
@@ -545,13 +548,13 @@
       </statement>
     </definition>
 
-    <figure xml:id="fig-interval-closed">
+    <figure xml:id="fig-closed_intervals">
       <caption>The closed intervals</caption>
       <sbsgroup>
 	<sidebyside>
-	  <figure>
+	  <figure xml:id="fig-finite_closed_interval">
 	    <caption><m>[a,b]</m></caption>
-	    <image xml:id="img-interval-closed">
+	    <image xml:id="img-finite_closed_interval">
 	      <latex-image>
 		<xi:include parse="text" href="tex/interval-closed.tex"/>
 	      </latex-image>
@@ -560,9 +563,9 @@
 	</sidebyside>
 
 	<sidebyside>
-	  <figure>
+	  <figure xml:id="fig-left_closed_ray">
 	    <caption><m>[a,\infty)</m></caption>
-	    <image xml:id="img-interval-left_closed_ray">
+	    <image xml:id="img-left_closed_ray">
 	      <latex-image>
 		<xi:include parse="text" href="tex/interval-left_closed_ray.tex"/>
 	      </latex-image>
@@ -571,9 +574,9 @@
 	</sidebyside>
 
 	<sidebyside>
-	  <figure>
+	  <figure xml:id="fig-right_closed_ray">
 	    <caption><m>(-\infty,b]</m></caption>
-	    <image xml:id="img-interval-right_closed_ray">
+	    <image xml:id="img-right_closed_ray">
 	      <latex-image>
 		<xi:include parse="text" href="tex/interval-right_closed_ray.tex"/>
 	      </latex-image>
@@ -583,7 +586,7 @@
       </sbsgroup>
     </figure>
 
-    <definition xml:id="def-interval-half-open">
+    <definition xml:id="def-half_open_interval">
       <title>Half-Open Interval</title>
       <statement>
 	<p>
@@ -603,13 +606,13 @@
       </statement>
     </definition>
 
-    <figure xml:id="fig-interval-half_open">
+    <figure xml:id="fig-half_open_intervals">
       <caption>The half-open intervals</caption>
       <sbsgroup>
 	<sidebyside>
-	  <figure>
+	  <figure xml:id="fig-half_open_left">
 	    <caption><m>(a,b]</m></caption>
-	    <image xml:id="img-interval-half_open-left">
+	    <image xml:id="img-half_open_left">
 	      <latex-image>
 		<xi:include parse="text" href="tex/interval-half_open-left.tex"/>
 	      </latex-image>
@@ -617,9 +620,9 @@
 	  </figure>
 	</sidebyside>
 	<sidebyside>
-	  <figure>
+	  <figure xml:id="fig-half_open_right">
 	    <caption><m>[a,b)</m></caption>
-	    <image xml:id="img-interval-half_open-right">
+	    <image xml:id="img-half_open-right">
 	      <latex-image>
 		<xi:include parse="text" href="tex/interval-half_open-right.tex"/>
 	      </latex-image>
@@ -630,7 +633,7 @@
     </figure>
   </subsection>
 
-  <subsection>
+  <subsection xml:id="subsec-basic_set_operations">
     <title>Basic Set Operations</title>
     <p>
       There are two common operations that we will frequently need to perform on sets.
@@ -652,7 +655,7 @@
       </statement>
     </definition>
 
-    <remark>
+    <remark xml:id="rmk-intersection_maximal">
       <p>
 	The intersection is the largest set that is a subset of <m>A</m> and a subset of <m>B</m>.
       </p>
@@ -674,21 +677,21 @@
       </statement>
     </definition>
 
-    <remark>
+    <remark xml:id="rmk-inclusive_or">
       <p>
 	In mathematics, the word <em>or</em> is <term>inclusive</term>.
 	This means the condition <m>x \in A</m> or <m>x \in B</m> allows for the possibility that <m>x \in A</m> <em>and</em> <m>x \in B</m>.
       </p>
     </remark>
 
-    <remark>
+    <remark xml:id="rmk-union_minimal">
       <p>
 	The union is the smallest set that contains both <m>A</m> and <m>B</m> as subsets.
       </p>
     </remark>
 
-    <worksheet component="print">
-      <title/>
+    <worksheet xml:id="wksht-examples_union_int" component="print">
+      <title>Examples</title>
       <page>
 	<example>
 	  <title>Intersections and Unions of Intervals</title>
@@ -708,7 +711,7 @@
       </page>
     </worksheet>
     
-    <example component="web">
+    <example xml:id="eg-intersection_of_intervals" component="web">
       <title>Intersection of Intervals</title>
       <statement>
 	<p>
@@ -766,7 +769,7 @@
       </solution>
     </example>
     
-    <example component="web">
+    <example xml:id="eg-union_of_intervals" component="web">
       <title>Union of Intervals</title>
 
       <statement>
@@ -827,7 +830,7 @@
     </example>
   </subsection>
 
-  <worksheet>
+  <worksheet xml:id="wksht-working_with_sets">
     <title>Working with Sets</title>
     <objectives>
       <ul>
