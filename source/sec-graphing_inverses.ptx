@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-graphing_inverse_functions" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Graphing Inverse Functions</title>
-
-  <subsection>
+  
+  <subsection xml:id="subsec-a_little_symmetry">
     <title>A Little Symmetry</title>
     <p>
       Assume <m>A, B \subseteq \R</m> and <m>f \colon A \to B</m> is a function with inverse <m>f^{-1} \colon B \to A</m>.
@@ -45,7 +45,7 @@
     </theorem>
   </subsection>
 
-  <subsection>
+  <subsection xml:id="subsec-horizontal_line_test">
     <title>The Horizontal Line Test</title>
     <p>
       The importance of <xref ref="thm-graph_of_inverse"/> is that it provides a geometric condition for testing whether a function is invertible.
@@ -128,9 +128,9 @@
 	Consider the graph of the function <m>f \colon \R \to \R</m> defined by <m>f(x) = x^2</m>.
 	When we observed that for every positive number <m>y</m>, there are two <m>x</m>-values that square to <m>y</m>, we were observing that every horizontal line intersects the parabola in two places.
       </p>
-      <figure>
+      <figure xml:id="fig-two_square_roots">
 	<caption>The two points of intersection between the parabola and a horizontal line</caption>
-	<image>
+	<image xml:id="img-two_square_roots">
 	  <latex-image>
 	    \begin{tikzpicture}
 	    \draw[very thin,color=gray] (-4,0) grid (4,4);
@@ -165,14 +165,14 @@
 	When we restrict the domain to the set <m>[0,\infty)</m>, we fix this problem by removing the left half of the parabola.
 	This makes the function invertible with inverse the principal square root function.
       </p>
-      <figure>
+      <figure xml:id="fig-restricted_parabola">
 	<caption>Removing the left-hand side of the parabola</caption>
 	<sidebyside>
-	  <figure>
+	  <figure xml:id="fig-restricted_parabola_right">
 	    <caption>
 	      The restriction of <m>f(x) = x^2</m> to <m>[0,\infty)</m>
 	    </caption>
-	    <image>
+	    <image xml:id="img-restricted_parabola_right">
 	    <latex-image>
 	      \begin{tikzpicture}
 	      \draw[very thin,color=gray] (-4,0) grid (4,4);
@@ -198,9 +198,9 @@
 	    </latex-image>
 	  </image>
 	  </figure>
-	  <figure>
+	  <figure xml:id="fig-restricted_parabola_left">
 	    <caption>The principal square root function</caption>
-	    <image>
+	    <image xml:id="img-restricted_parabola_left">
 	      <latex-image>
 		\begin{tikzpicture}
 		\draw[very thin,color=gray] (-4,0) grid (4,4);
@@ -295,7 +295,7 @@
     </example>
   </subsection>
 
-  <subsection>
+  <subsection xml:id="subsec-root_functions">
     <title>Root Functions</title>
     <p>
       A useful consequence of <xref ref="thm-horizontal_line_test" text="title"/> is that we may define functions with rational exponents.
