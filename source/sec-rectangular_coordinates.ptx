@@ -2,16 +2,8 @@
 
 <section xml:id="sec-cartesian_coordinates" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Cartesian Coordinates</title>
-  <!-- <objectives> -->
-  <!--   <title>Test?</title> -->
-  <!--   <ul> -->
-  <!--     <li> -->
-  <!-- 	Identify points in the plane using Cartesian coordinates. -->
-  <!--     </li> -->
-  <!--   </ul> -->
-  <!-- </objectives> -->
-  
-  <introduction>
+
+  <introduction xml:id="intro-cartesian_coordinates">
     <p>
       In mathematics, we are interested in studying how quantities change together.
       We will restrict our attention to two quantities at a time and will often find it useful to visualize these relationships.
@@ -22,7 +14,7 @@
   <!-- Preview Activity -->
   <!-- <xi:include href="previews/city.ptx"/> -->
 
-  <subsection xml:id="sec-cartesian_coordinates-points_in_the_plane">
+  <subsection xml:id="subsec-the_cartesian_plane">
     <title>The Cartesian Plane</title>
     <definition xml:id="def-cartesian_plane">
       <statement>
@@ -50,7 +42,7 @@
     <figure xml:id="fig-cartesian_plane">
       <caption>The Cartesian Plane</caption>
       <image xml:id="img-cartesian_plane">
-	<latex-image >
+	<latex-image xml:id="tikz-cartesian_plane">
 	  <xi:include parse="text" href="tex/quadrants.tex"/>
 	</latex-image>
       </image>
@@ -95,7 +87,7 @@
     <figure xml:id="fig-location_point">
       <caption>The <m>x</m>- and <m>y</m>-Coordinates of several points in the plane.</caption>
       <image xml:id="img-location_point">
-	<latex-image>
+	<latex-image xml:id="tikz-location_point">
 	  <xi:include parse="text" href="tex/location_point.tex"/>
 	</latex-image>
       </image>
