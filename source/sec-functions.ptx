@@ -2,19 +2,6 @@
 
 <section xml:id="sec-relations" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Functions</title>
-  <!-- <objectives> -->
-  <!--   <ul> -->
-  <!--     <li> -->
-  <!-- 	Find the domain and codomain of a function. -->
-  <!--     </li> -->
-  <!--     <li> -->
-  <!-- 	Find the range of a function. -->
-  <!--     </li> -->
-  <!--     <li> -->
-  <!-- 	Determine whether an equation defines <m>y</m> as a function of <m>x</m>. -->
-  <!--     </li> -->
-  <!--   </ul> -->
-  <!-- </objectives> -->
 
   <introduction>
     <p>
@@ -411,11 +398,11 @@
 	  <p>
 	    It is simpler to see that if we draw any veritcal line to the right of the <m>y</m>-axis, then there is exactly one point of intersection with the graph of <m>y = x+2</m>.
 	  </p>
-	  <figure>
+	  <figure xml:id="fig-verify_function">
 	    <caption>The graph <m>y = x + 2</m> and <m>y = a</m>.</caption>
 	    
-	    <image>
-	      <latex-image>
+	    <image xml:id="img-verify_function">
+	      <latex-image xml:id="tikz-verify_function">
 		<xi:include parse="text" href="tex/vertical_line_test.tex"/>
 	      </latex-image>
 	    </image>
@@ -491,11 +478,10 @@
 	  <me>1 = 1^2 \quad\text{and}\quad 1 = (-1)^2.</me>
 	  Since the definition a <xref ref="def-function" text="title"/> requires that each element of the domain corresponds to <alert>exactly</alert> one element of the codomain, we see this cannot be a function.
 	  That is, equation <m>x = y^2</m> fails the <xref ref="thm-vertical_line_test" text="title"/>.
-	  <figure>
+	  <figure xml:id="fig-non_function">
 	    <caption>The graph of the equation <m>x = y^2</m> and the line <m>x = 1</m>.</caption>
-	    
-	    <image>
-	      <latex-image>
+	    <image xml:id="img-non_function">
+	      <latex-image xml:id="tikz-non_function">
 		<xi:include parse="text" href="tex/non_function.tex"/>
 	      </latex-image>
 	    </image>

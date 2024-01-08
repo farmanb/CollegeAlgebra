@@ -6,10 +6,10 @@
     <p>
       Looking at the graph of <m>\exp \colon \R \to (0,\infty)</m>, it appears to satisfy <xref ref="thm-horizontal_line_test" text="title"/>.
     </p>
-    <figure>
+    <figure xml:id="fig-horizontal_line_test_exp">
       <caption>The horizontal line test for <m>\exp \colon \R \to (0,\infty)</m></caption>
-      <image>
-	<latex-image>
+      <image xml:id="img-horizontal_line_test_exp">
+	<latex-image xml:id="tikz-horizontal_line_test_exp">
 	  \begin{tikzpicture}
 
 	  \draw[very thin,color=gray] (-5,0) grid (5,5);
@@ -148,12 +148,12 @@
       As the composition inverse, the graph of <m>y = \ln(x)</m> is obtained by reflecting the graph of <m>y = \exp(x)</m> across the line <m>y = x</m>.
     </p>
     
-    <figure>
+    <figure xml:id="fig-graph_log">
       <caption>
 	The graph of <m>y = \ln(x)</m>
       </caption>
-      <image>
-	<latex-image>
+      <image xml:id="img-graph_log">
+	<latex-image xml:id="tikz-graph_log">
 	  \begin{tikzpicture}
 	  \draw[very thin,color=gray] (-5,-5) grid (5,5);
 

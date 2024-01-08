@@ -100,10 +100,10 @@
 	  This tells us the first line passes through the points <m>(1,2)</m> and <m>(0,-1)</m>, and the second line passes through the points <m>(1,2)</m> and <m>(0,1)</m>.
 	  Plotting these lines, we can see that <m>(1,2)</m> is the only point of intersection.
 	</p>
-	<figure>
+	<figure xml:id="fig-system-geometry">
 	  <caption>The geometric interpretation of the solution to the system.</caption>
-	  <image>
-	    <latex-image>
+	  <image xml:id="img-system-geometry">
+	    <latex-image xml:id="tikz-system-geometry">
 	      \begin{tikzpicture}
 	      \def\size{5}
 	      
@@ -168,10 +168,10 @@
 	  We can see in this form that they are the same line, so they intersect infinitely many times.
 	  Moreover, the points of intersection all have the form <m>(x, -1/2x + x).</m>
 	</p>
-	<figure>
+	<figure xml:id="fig-intersection_of_lines">
 	  <caption>The solutions to the system</caption>
-	  <image>
-	    <latex-image>
+	  <image xml:id="img-intersection_of_lines">
+	    <latex-image xml:id="tikz-intersection_of_lines">
 	      \begin{tikzpicture}
 	      \def\size{5}
 	      
@@ -252,10 +252,10 @@
 	  </ul>
 	  When we plot the lines, we can see that each pair intersects, but there is no one point through which all three pass.
 	</p>
-	<figure>
+	<figure xml:id="fig-inconsistent_system">
 	  <caption>The graph of three lines with no common point of intersection</caption>
-	  <image>
-	    <latex-image>
+	  <image xml:id="img-inconsistent_system">
+	    <latex-image xml:id="tikz-inconsistent_system">
 	      \begin{tikzpicture}
 	      \def\size{5}
 	      

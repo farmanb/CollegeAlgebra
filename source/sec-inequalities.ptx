@@ -268,10 +268,10 @@
 	  </md>
 	  Since <m>f(x) = x^2 + x - 6</m> is a <xref ref="def-concavity" text="custom">concave up</xref> parabola with roots <m>x = -3</m> and <m>x = 2</m>, we can see the inequality is satisfied for all <m>x \in (-3, 2)</m> from the graph of <m>f(x)</m>
 	</p>
-	<figure>
+	<figure xml:id="fig-example_polynomial_inequality">
 	  <caption>The graph of <m>y = x^2 + x - 6</m>.</caption>
-	  <image>
-	    <latex-image>
+	  <image xml:id="img-example_polynomial_inequality">
+	    <latex-image xml:id="tikz-example_polynomial_inequality">
 	      \begin{tikzpicture}[scale=0.5]
 	      \def\size{7}
 	      
@@ -303,7 +303,7 @@
     </example>
   </subsection>
 
-  <worksheet>
+  <worksheet xml:id="wkst-polynomial_inequalities" component="print">
     <title>Polynomial Inequalities</title>
     <objectives>
       <ul>
@@ -350,8 +350,8 @@
 	  </p>
 	  <figure xml:id="fig-poly_ineq_graph">
 	    <caption>The graph of <m>y = f(x)</m></caption>
-	    <image>
-	      <latex-image>
+	    <image xml:id="img-poly_ineq_graph">
+	      <latex-image xml:id="tikz-poly_ineq_graph">
 		\begin{tikzpicture}
 		\def\size{5}
 		

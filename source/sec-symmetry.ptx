@@ -36,11 +36,10 @@
       If we cut the parabola in half at this point, then we get two pieces.
       We distinguish the two halves by coloring the left-hand side red and the right-hand side blue.
     </p>
-    <figure>
+    <figure xml:id="fig-halved_parabola">
       <caption>The graph of <m>y = x^2</m> cut in half at <m>(0,0)</m>.</caption>
-      
-      <image>
-	<latex-image>
+      <image xml:id="img-halved_parabola">
+	<latex-image xml:id="tikz-halved_parabola">
 	  \begin{tikzpicture}
 	  \path [draw, help lines, opacity=.5]  (-4,0) grid (4,4);
 
@@ -63,11 +62,10 @@
       To say these are mirror images of one another, means if we reflect the graph across the <m>y</m>-axis, then we obtain the same graph just with the colors switched.
     </p>
 
-    <figure>
+    <figure xml:id="fig-reflected_parabola">
       <caption>The reflection of <m>y = x^2</m> across the <m>y</m>-axis.</caption>  
-
-      <image>
-	<latex-image>
+      <image xml:id="img-reflected_parabola">
+	<latex-image xml:id="tikz-reflected_parabola">
 	  \begin{tikzpicture}
 	  \path [draw, help lines, opacity=.5]  (-4,0) grid (4,4);
 
@@ -131,11 +129,10 @@
 	<p>
 	  If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the <m>y</m>-axis.
 	</p>
-	<figure>
+	<figure xml:id="fig-example_even">
 	  <caption>The graph of <m>y = x^4 - 5x^2 + 4</m></caption>
-	  
-	  <image>
-	    <latex-image>
+	  <image xml:id="img-example_even">
+	    <latex-image xml:id="tikz-example_even">
 	      \begin{tikzpicture}
 	      \path [draw, help lines, opacity=.5]  (-4,-4) grid (4,4);
 
@@ -202,11 +199,10 @@
       To understand this type of symmetry, consider <xref ref="fig-cubic" text="custom">the graph of <m>y = x^3</m></xref> with the origin and another marked point.
     </p>
 
-    <figure>
+    <figure xml:id="fig-example_odd">
       <caption>The graph of <m>y = x^3</m></caption>
-
-      <image>
-	<latex-image>
+      <image xml:id="img-example_odd">
+	<latex-image xml:id="tikz-example_odd">
 	  \begin{tikzpicture}
 
 	  \path [draw, help lines, opacity=.5]  (-4,-4) grid (4,4);
@@ -302,9 +298,9 @@
       Note the rotation does not change the shape of the graph, so the distance from the marked point to the origin stays the same.
     </p>
 
-    <figure component="web">
+    <figure component="web" xml:id="fig-rotation_cubic_animation">
       <caption>Rotation of <m>y = x^3</m> 180 degrees counter-clockwise</caption>
-      <image source="images/origin_symmetry.gif"/>
+      <image xml:id="img-rotation_cubic_animation" source="images/origin_symmetry.gif"/>
     </figure>
     
     <p>
@@ -312,11 +308,10 @@
       Plotting the entirety of this circle, we can see the starting and ending location of the marked point create a diameter.
     </p>
 
-    <figure>
+    <figure xml:id="fig-rotation_cubic">
       <caption>The graph of <m>y=x^3</m> with a marked point and the rotation of that point by <m>180^\circ</m></caption>
-
-      <image>
-	<latex-image>
+      <image xml:id="img-rotation_cubic">
+	<latex-image xml:id="tikz-rotation_cubic">
 	  \begin{tikzpicture}
 
 	  \path [draw, help lines, opacity=.5]  (-4,-4) grid (4,4);
@@ -375,11 +370,10 @@
 	<p>
 	  If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the origin.
 	</p>
-	<figure>
+	<figure xml:id="fig-example_origin_symmetry">
 	  <caption>The graph of <m>y = x^3 - 4x</m></caption>
-
-	  <image>
-	    <latex-image>
+	  <image xml:id="img-example_origin_symmetry">
+	    <latex-image xml:id="tikz-example_origin_symmetry">
 	      \begin{tikzpicture}
 	      \path [draw, help lines, opacity=.5]  (-4,-4) grid (4,4);
 

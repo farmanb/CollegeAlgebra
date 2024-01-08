@@ -164,16 +164,16 @@
 	<p>
 	  These operations are shown below.
 	</p>
-	<figure>
+	<figure xml:id="fig-example_quadratic_transformation">
 	  <caption>
 	    The transformations used to graph <m>y = -2(x + 1)^2 + 1</m>.
 	  </caption>
 	  <sbsgroup>
 	    <sidebyside>
-	      <figure>
+	      <figure xml:id="fig-quadratic-parabola_shifted_left">
 		<caption>Translate the graph of <m>y = x^2</m> to the left by <m>1</m></caption>
-		<image>
-		  <latex-image>
+		<image xml:id="img-quadratic-parabola_shifted_left">
+		  <latex-image xml:id="tikz-quadratic-parabola_shifted_left">
 		    \begin{tikzpicture}
 		    \draw[very thin,color=gray] (-4,-4) grid (4,4);
 		    \draw[very thick,->] (-4.2,0) -- (4.2,0) node[right] {$x$};
@@ -199,10 +199,10 @@
 		  </latex-image>
 		</image>
 	      </figure>
-	      <figure>
+	      <figure xml:id="fig-quadratic-stretch">
 		<caption>Stretch the graph of <m>y = (x + 1)^2</m> by a factor of <m>2</m></caption>
-		<image>
-		  <latex-image>
+		<image xml:id="img-quadratic-stretch">
+		  <latex-image xml:id="tikz-quadratic-stretch">
 		    \begin{tikzpicture}
 		    \draw[very thin,color=gray] (-4,-4) grid (4,4);
 		    \draw[very thick,->] (-4.2,0) -- (4.2,0) node[right] {$x$};
@@ -231,10 +231,10 @@
 	      </figure>
 	    </sidebyside>
 	    <sidebyside>
-	      <figure>
+	      <figure xml:id="fig-quadratic-reflection">
 		<caption>Reflect the graph of <m>y = 2(x+1)^2</m> across the <m>x</m>-axis</caption>
-		<image>
-		  <latex-image>
+		<image xml:id="img-quadratic-reflection">
+		  <latex-image xml:id="tikz-quadratic-reflection">
 		    \begin{tikzpicture}
 		    \draw[very thin,color=gray] (-4,-4) grid (4,4);
 		    \draw[very thick,->] (-4.2,0) -- (4.2,0) node[right] {$x$};
@@ -255,10 +255,10 @@
 		  </latex-image>
 		</image>
 	      </figure>
-	      <figure>
+	      <figure xml:id="fig-quadratic-vert_translate">
 		<caption>Translate the graph of <m>y = -2(x+1)^2</m> up by <m>1</m></caption>
-		<image>
-		  <latex-image>
+		<image xml:id="img-quadratic-vert_translate">
+		  <latex-image xml:id="tikz-quadratic-vert_translate">
 		    \begin{tikzpicture}
 		    \draw[very thin,color=gray] (-4,-4) grid (4,4);
 		    \draw[very thick,->] (-4.2,0) -- (4.2,0) node[right] {$x$};
@@ -368,9 +368,9 @@
       Remember that when we multiply two binomials, we must distribute.
       We can remember how to distribute using the mnemonic FOIL: <alert>F</alert>irst, <alert>O</alert>uter, <alert>I</alert>nner, <alert>L</alert>ast:
     </p>
-    <figure>
+    <figure xml:id="fig-FOIL">
       <caption> Multiplying binomials using the FOIL method.</caption>
-      <image source="images/FOIL.png"/>
+      <image xml:id="img-FOIL" source="images/FOIL.png"/>
     </figure>
     <p>
       If we use this method to multiply a binomial by itself, then we find the useful formula

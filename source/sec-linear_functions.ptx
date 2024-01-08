@@ -139,7 +139,7 @@
 	<figure xml:id="fig-2x_3y_6">
 	  <caption>The graph of <m>y = -\frac{2}{3}x + 2</m>.</caption>
 	  <image xml:id="img-2x_3y_6">
-	    <latex-image >
+	    <latex-image xml:id="tikz--2x_3y_6">
 	      <xi:include parse="text" href="tex/2x_3y_6.tex"/>
 	    </latex-image>
 	  </image>

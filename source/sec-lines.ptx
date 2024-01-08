@@ -2,23 +2,6 @@
 
 <section xml:id="sec-lines" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Representations of Lines</title>
-  <!-- <objectives> -->
-  <!--   <ul> -->
-  <!--     <li> -->
-  <!-- 	Determine the slope of a line through two points. -->
-  <!--     </li> -->
-  <!--     <li> -->
-  <!-- 	<p> -->
-  <!-- 	  Represent a line using -->
-  <!-- 	  <ul> -->
-  <!-- 	    <li>Slope-Intercept Form,</li> -->
-  <!-- 	    <li>Point-Slope Form, and</li> -->
-  <!-- 	    <li>Standard Form.</li> -->
-  <!-- 	  </ul> -->
-  <!-- 	</p> -->
-  <!--     </li> -->
-  <!--   </ul> -->
-  <!-- </objectives> -->
 
   <introduction>
     <p>
@@ -51,9 +34,8 @@
 
     <figure xml:id="fig-slope">
       <caption>The slope of the line through the points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m>.</caption>
-
       <image xml:id="img-slope">
-	<latex-image>
+	<latex-image xml:id="tikz-slope">
 	  <xi:include parse="text" href="tex/slope.tex"/>
 	</latex-image>
       </image>

@@ -52,10 +52,10 @@
 	<p>
 	  The graph of <m>g(x)</m> is obtained by shifting the graph of <m>f(x)</m> up the <m>y</m>-axis by <m>2</m> units, and the graph of <m>h(x)</m> is obtained by shifting the graph of <m>f(x)</m> down the <m>y</m>-axis by 3 units.
 	</p>
-	<figure>
+	<figure xml:id="fig-example_vert_translate">
 	  <caption>Vertical translations of <m>y = f(x)</m> up by <m>2</m> and down by <m>3</m>.</caption>
-	  <image>
-	    <latex-image>
+	  <image xml:id="img-example_vert_translate">
+	    <latex-image xml:id="tikz-example_vert_translate">
 	      <xi:include parse="text" href="tex/transformations/vertical_translation.tex"/>
 	    </latex-image>
 	  </image>
@@ -129,13 +129,12 @@
       </statement>
       <solution>
 	<p>
-	  The graph of <m>g(x)</m> is obtained by shifting the graph of <m>f(x)</m> to the left along the <m>x</m>-axis by <m>2</m> units, and the graph of <m>h(x)</m> is obtained by shifting the graph of <m>f(x)</m> to the right along the <m>x</m>-axis by 3 units.
+	  The graph of <m>g(x)</m> is obtained by translating the graph of <m>f(x)</m> to the left along the <m>x</m>-axis by <m>2</m> units, and the graph of <m>h(x)</m> is obtained by translating the graph of <m>f(x)</m> to the right along the <m>x</m>-axis by 3 units.
 	</p>
-	<figure>
+	<figure xml:id="fig-example_horiz_translate">
 	  <caption>Horizontal translation of <m>y = f(x)</m> to the left by <m>2</m> and to the right by <m>3</m></caption>
-
-	  <image>
-	    <latex-image>
+	  <image xml:id="img-example_horiz_translate">
+	    <latex-image xml:id="tikz-example_horiz_translate">
 	      <xi:include parse="text" href="tex/transformations/horizontal_translation.tex"/>
 	    </latex-image>
 	  </image>
@@ -211,10 +210,10 @@
 	<p>
 	  The graph of <m>g(x)</m> is obtained by stretching the graph of <m>f(x)</m> vertically by a factor of <m>2</m>, and the graph of <m>h(x)</m> is obtained by compressing the graph the graph of <m>f(x)</m> vertically by a factor of <m>\frac{3}{2}</m>.
 	</p>
-	<figure>
+	<figure xml:id="fig-example_vertical_stretch">
 	  <caption>Vertical scaling of <m>y = f(x)</m> by <m>2</m> and <m>2/3</m></caption>
-	  <image>
-	    <latex-image>
+	  <image xml:id="img-example_vertical_stretch">
+	    <latex-image xml:id="tikz-example_vertical_stretch">
 	      <xi:include parse="text" href="tex/transformations/vertical_scaling.tex"/>
 	    </latex-image>
 	  </image>
@@ -289,11 +288,10 @@
 	<p>
 	  The graph of <m>g(x)</m> is obtained by reflecting the graph of <m>f(x)</m> over the <m>x</m>-axis, and the graph of <m>h(x)</m> is obtained by reflecting the graph of <m>f(x)</m> over the <m>y</m>-axis.
 	</p>
-	<figure>
+	<figure xml:id="fig-example_reflection">
 	  <caption>Reflection of <m>y = f(x)</m> across the <m>x</m>-axis and <m>y</m>-axis.</caption>
-
-	  <image>
-	    <latex-image>
+	  <image xml:id="img-example_reflection">
+		 <latex-image xml:id="tikz-example_reflection">
 	      <xi:include parse="text" href="tex/transformations/reflections.tex"/>
 	    </latex-image>
 	  </image>
@@ -364,11 +362,10 @@
 	<p>
 	  The graph of <m>g(x)</m> is obtained by compressing the graph of <m>f(x)</m> horizontally by a factor of <m>2</m>, and the graph of <m>h(x)</m> is obtained by stretching the graph of <m>f(x)</m> horizontally by a factor of <m>\frac{3}{2}</m>.
 	</p>
-	<figure>
+	<figure xml:id="fig-example_horizontal_scaling">
 	  <caption>Horizontal scaling of <m>y = f(x)</m> by <m>2</m> and <m>2/3</m></caption>
-	  
-	  <image>
-	    <latex-image>
+	  <image xml:id="img-example_horizontal_scaling">
+	    <latex-image xml:id="tikz-example_horizontal_scaling">
 	      <xi:include parse="text" href="tex/transformations/horizontal_scaling.tex"/>
 	    </latex-image>
 	  </image>
@@ -434,11 +431,10 @@
 	    <li>Translate the graph of <m>2(x + 3)^2</m> down by 2 units to obtain the graph of <m>g(x) = 2(x + 3)^2 - 2</m>.</li>
 	  </ol>
 	</p>
-	<figure>
+	<figure xml:id="fig-example_graph_from_transformations">
 	  <caption>The sequence of transformations to obtain the graph of <m>y = g(x)</m> from <m>y=x^2</m></caption>
-	  
-	  <image>
-	    <latex-image>
+	  <image xml:id="img-example_graph_from_transformations">
+	    <latex-image xml:id="tikz-example_graph_from_transformations">
 	      <xi:include parse="text" href="tex/transformations/combined.tex"/>
 	    </latex-image>
 	  </image>

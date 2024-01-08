@@ -150,10 +150,10 @@
       The graph of the exponential function is provided below.
     </p>
 
-    <figure>
+    <figure xml:id="fig-graph_of_exp">
       <caption>The graph of <m>y = \exp(x)</m></caption>
-      <image>
-	<latex-image>
+      <image xml:id="img-graph_of_exp">
+	<latex-image xml:id="tikz-graph_of_exp">
 	  \begin{tikzpicture}
 	  \draw[very thin,color=gray] (-5,0) grid (5,5);
 
@@ -244,7 +244,7 @@
 	  <sidebyside>
 	    <p>
 	      <image width="50%" xml:id="img-exp_x_minus_2">
-		<latex-image>
+		<latex-image xml:id="tikz-exp_x_minus_2">
 		  \begin{tikzpicture}
 		  \draw[very thin,color=gray] (-5,0) grid (5,5);
 
@@ -263,7 +263,7 @@
 		</latex-image>
 	      </image>
 	      <image width="50%" xml:id="img-2_exp_x">
-		<latex-image>
+		<latex-image xml:id="tikz-2_exp_x">
 		  \begin{tikzpicture}
 		  \draw[very thin,color=gray] (-5,0) grid (5,5);
 
@@ -284,7 +284,7 @@
 	    </p>
 	    <p>
 	      <image width="50%" xml:id="img-exp_neg_x">
-		<latex-image>
+		<latex-image xml:id="tikz-exp_neg_x">
 		  \begin{tikzpicture}
 		  \draw[very thin,color=gray] (-5,0) grid (5,5);
 
@@ -303,7 +303,7 @@
 		</latex-image>
 	      </image>
 	      <image width="50%" xml:id="img-exp_half_x">
-		<latex-image>
+		<latex-image xml:id="tikz-exp_half_x">
 		  \begin{tikzpicture}
 		  \draw[very thin,color=gray] (-5,0) grid (5,5);
 

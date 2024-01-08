@@ -19,13 +19,13 @@
       A function is increasing if its <m>y</m>-values increase as its <m>x</m>-values increase and decreases if its <m>y</m>-values decrease as its <m>x</m>-values increase.
       This is easy to detect visually because either the height of the graph increases or decreases as you trace the graph from left to right.
     </p>
-    <figure xml:id="fig-increasing">
+    <figure xml:id="fig-monotone">
       <caption>Graphs of increasing and decreasing functions</caption>
       <sidebyside>
-	<figure>
+	<figure xml:id="fig-increasing">
 	  <caption>The graph of an increasing function</caption>
-	  <image>
-	    <latex-image>
+	  <image xml:id="img-increasing">
+	    <latex-image xml:id="tikz-increasing">
 	      \begin{tikzpicture}
 	      \def\size{5}
 	      
@@ -42,10 +42,10 @@
 	    </latex-image>
 	  </image>
 	</figure>
-	<figure>
+	<figure xml:id="fig-decreasing">
 	  <caption>The graph of a decreasing function</caption>
-	  <image>
-	    <latex-image>
+	  <image xml:id="img-decreasing">
+	    <latex-image xml:id="tikz-decreasing">
 	      \begin{tikzpicture}
 	      \def\size{5}
 	      
@@ -70,10 +70,10 @@
       Rather, most interesting functions have pieces that are increasing and pieces that are decreasing.
     </p>
     
-    <figure>
+    <figure xml:id="fig-non_monotone">
       <caption>The graph of a function that is neither increasing nor decreasing</caption>
-      <image>
-	<latex-image>
+      <image xml:id="img-non_monotone">
+	<latex-image xml:id="tikz-non_monotone">
 	  \begin{tikzpicture}
 	  \def\size{5}
 	  
@@ -210,10 +210,10 @@
 	  Use the following graph to find the intervals of increase and decrease.
 	  Identify all local extrema.
 	</p>
-	<figure>
+	<figure xml:id="fig-example_monotone_intervals">
 	  <caption>The graph of <m>y = f(x)</m></caption>
-	  <image>
-	    <latex-image>
+	  <image xml:id="img-example_monotone_intervals">
+	    <latex-image xml:id="tikz-example_monotone_intervals">
 	      \begin{tikzpicture}
 	      \def\size{5}
 	      
@@ -408,9 +408,8 @@
 
 	<figure xml:id="fig-kinematic">
 	  <caption>The graph of <m>y = h(x)</m></caption>
-
-	  <image>
-	    <latex-image>
+	  <image xml:id="img-kinematic">
+	    <latex-image xml:id="tikz-kinematic">
 	      <xi:include parse="text" href="tex/kinematic.tex"/>
 	    </latex-image>
 	  </image>

@@ -22,8 +22,7 @@
     <figure xml:id="fig-circle_def">
       <caption>The circle of radius <m>r</m> centered at <m>(h,k)</m>.</caption>
       <image xml:id="img-circle_def" width="50%">
-	
-	<latex-image>
+	<latex-image xml:id="tikz-circle_def">
 	  <xi:include parse="text" href="tex/circle_def.tex"/>
 	</latex-image>
       </image>
@@ -74,7 +73,7 @@
     <figure xml:id="fig-diameter">
       <caption>A diameter of the circle of radius <m>r</m> centered at <m>(h,k)</m>.</caption>
       <image xml:id="img-diameter" width="50%">
-	<latex-image>
+	<latex-image xml:id="tikz-diameter">
 	  <xi:include parse="text" href="tex/diameter.tex"/>
 	</latex-image>
       </image>

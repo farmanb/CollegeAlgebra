@@ -2,16 +2,6 @@
 
 <section xml:id="sec-linear_ineq" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Linear Inequalities</title>
-  <!-- <objectives> -->
-  <!--   <ul> -->
-  <!--     <li> -->
-  <!-- 	Graph linear inequalities. -->
-  <!--     </li> -->
-  <!--     <li> -->
-  <!-- 	Graph linear absolute value inequalities. -->
-  <!--     </li> -->
-  <!--   </ul> -->
-  <!-- </objectives> -->
 
   <definition xml:id="def-linear_inequality">
     <title>Linear Inequality</title>
@@ -87,7 +77,7 @@
       <figure xml:id="fig-2x_3y_lt_5">
 	<caption>The graph of the linear inequality <m>2x + 3y \lt 5</m>.</caption>
 	<image xml:id="img-2x_3y_lt_5">
-	  <latex-image>
+	  <latex-image xml:id="tikz-2x_3y_lt_5">
 	    <xi:include parse="text" href="tex/2x_3y_lt_5.tex"/>
 	  </latex-image>
 	</image>
@@ -112,7 +102,7 @@
       <figure xml:id="fig-2x_3y_leq_5">
 	<caption>The graph of the linear inequality <m>2x + 3y \leq 5</m>.</caption>
 	<image xml:id="img-2x_3y_leq_5">
-	  <latex-image>
+	  <latex-image xml:id="tikz-2x_3y_leq_5">
 	    <xi:include parse="text" href="tex/2x_3y_leq_5.tex"/>
 	  </latex-image>
 	</image>
@@ -136,9 +126,8 @@
       </p>
       <figure xml:id="fig-2x_3y_gt_-5">
 	<caption>The graph of the linear inequality <m>2x + 3y \gt -5</m>.</caption>
-	
 	<image xml:id="img-2x_3y_gt_-5">
-	  <latex-image>
+	  <latex-image xml:id="tikz-2x_3y_gt_-5">
 	    <xi:include parse="text" href="tex/2x_3y_gt_-5.tex"/>
 	  </latex-image>
 	</image>
@@ -214,7 +203,7 @@
     <figure xml:id="fig-abs_val_two_sol">
       <caption>The distance between <m>d</m> and the origin, and between <m>-d</m> and the origin.</caption>
       <image xml:id="img-abs_val_two_sol">
-	<latex-image>
+	<latex-image xml:id="tikz-abs_val_two_sol">
 	  <xi:include parse="text" href="tex/abs_val_two_sol.tex"/>
 	</latex-image>
       </image>
@@ -264,11 +253,10 @@
 	  That is, the points that are between the lines
 	  <me>2x + 3y = -5 \quad\text{and}\quad 2x + 3y = 5.</me>
 	</p>
-	<figure>
+	<figure xml:id="fig-abs_2x_3y_lt_5">
 	  <caption>The graph of the linear absolute value inequality <m>\abs{2x + 3y} \lt 5</m>.</caption>
-
-	  <image>
-	    <latex-image>
+	  <image xml:id="img-abs_2x_3y_lt_5">
+	    <latex-image xml:id="tikz-abs_2x_3y_lt_5">
 	      <xi:include parse="text" href="tex/abs_2x_3y_lt_5.tex"/>
 	    </latex-image>
 	  </image>
@@ -322,11 +310,10 @@
 	  2x + 3y \gt 5.</me>
 	  That is, the points that are either above the line <m>2x + 3y = 5</m> or below the line <m>2x + 3y = -5</m>.
 	</p>
-	<figure>
+	<figure xml:id="fig-abs_2x_3y_gt_5">
 	  <caption>The graph of the linear absolute value inequality <m>\abs{2x + 3y} \gt 5</m>.</caption>
-
-	  <image>
-	    <latex-image>
+	  <image xml:id="img-abs_2x_3y_gt_5">
+	    <latex-image xml:id="tikz-abs_2x_3y_gt_5">
 	      <xi:include parse="text" href="tex/abs_2x_3y_gt_5.tex"/>
 	    </latex-image>
 	  </image>
@@ -352,10 +339,10 @@
 	  2x + 3y \geq 5.</me>
 	  That is, the points that are either on or above the line <m>2x + 3y = 5</m>, or on or below the line <m>2x + 3y = -5</m>.
 	</p>
-	<figure>
+	<figure xml:id="fig-abs_2x_3y_geq_5">
 	  <caption>The graph of the linear absolute value inequality <m>\abs{2x + 3y} \leq 5</m>.</caption>
-	  <image>
-	    <latex-image>
+	  <image xml:id="img-abs_2x_3y_geq_5">
+	    <latex-image xml:id="tikz-abs_2x_3y_geq_5">
 	      <xi:include parse="text" href="tex/abs_2x_3y_geq_5.tex"/>
 	    </latex-image>
 	  </image>

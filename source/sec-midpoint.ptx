@@ -37,7 +37,7 @@
   <figure xml:id="fig-1_midpoint">
     <caption>Midpoint between two numbers</caption>
     <image xml:id="img-1_midpoint">
-      <latex-image>
+      <latex-image xml:id="tikz-1_midpoint">
 	<xi:include parse="text" href="tex/1_midpoint.tex"/>
       </latex-image>
     </image>
@@ -70,8 +70,8 @@
     </p>
     <figure xml:id="fig-2_midpoint">
       <caption>The triangle formed by adding in the point <m>(x_1, y_2)</m>.</caption>
-      <image>
-	<latex-image>
+      <image xml:id="img-2_midpoint">
+	<latex-image xml:id="tikz-2_midpoint">
 	  <xi:include parse="text" href="tex/2_midpoint.tex"/>
 	</latex-image>
       </image>
@@ -129,7 +129,7 @@
       <figure xml:id="fig-2_midpoint_is_midpoint">
 	<caption>The triangle formed by adding in the point <m>(x_1, y_2)</m>.</caption>
 	<image xml:id="img-2_midpoint_is_midpoint">
-	  <latex-image>
+	  <latex-image xml:id="tikz--2_midpoint_is_midpoint">
 	    <xi:include parse="text" href="tex/2_midpoint_is_midpoint.tex"/>
 	  </latex-image>
 	</image>

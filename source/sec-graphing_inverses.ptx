@@ -131,7 +131,7 @@
       <figure xml:id="fig-two_square_roots">
 	<caption>The two points of intersection between the parabola and a horizontal line</caption>
 	<image xml:id="img-two_square_roots">
-	  <latex-image>
+	  <latex-image xml:id="tikz-two_square_roots">>
 	    \begin{tikzpicture}
 	    \draw[very thin,color=gray] (-4,0) grid (4,4);
 
@@ -173,7 +173,7 @@
 	      The restriction of <m>f(x) = x^2</m> to <m>[0,\infty)</m>
 	    </caption>
 	    <image xml:id="img-restricted_parabola_right">
-	    <latex-image>
+	    <latex-image xml:id="tikz-restricted_parabola_right">
 	      \begin{tikzpicture}
 	      \draw[very thin,color=gray] (-4,0) grid (4,4);
 
@@ -201,7 +201,7 @@
 	  <figure xml:id="fig-restricted_parabola_left">
 	    <caption>The principal square root function</caption>
 	    <image xml:id="img-restricted_parabola_left">
-	      <latex-image>
+	      <latex-image xml:id="tikz-restricted_parabola_left">
 		\begin{tikzpicture}
 		\draw[very thin,color=gray] (-4,0) grid (4,4);
 
@@ -232,13 +232,13 @@
 	This creates another invertible function.
 	The inverse of this function is the reflection of the principal square root across the <m>x</m>-axis.
       </p>
-      <figure>
+      <figure xml:id="fig-removing_rhs_parabola">
 	<caption>Removing the right-hand side of the parabola</caption>
 	<sidebyside>
-	  <figure>
+	  <figure xml:id="fig-restriction_parabola_neg">
 	    <caption>The restriction of <m>f(x) = x^2</m> to <m>(-\infty,0]</m>.</caption>
-	    <image>
-	      <latex-image>
+	    <image xml:id="img-restriction_parabola_neg">
+	      <latex-image xml:id="tikz-restriction_parabola_neg">
 		\begin{tikzpicture}
 		\draw[very thin,color=gray] (-4,-1) grid (4,4);
 
@@ -263,10 +263,10 @@
 	      </latex-image>
 	    </image>
 	  </figure>
-	  <figure>
+	  <figure xml:id="fig-restriction_parabola_neg_inverse">
 	    <caption>The inverse of the restriction.</caption>
-	    <image>
-	      <latex-image>
+	    <image xml:id="img-restriction_parabola_neg_inverse">
+	      <latex-image xml:id="tikz-restriction_parabola_neg_inverse">
 		\begin{tikzpicture}
 		\draw[very thin,color=gray] (-4,-4) grid (4,1);
 

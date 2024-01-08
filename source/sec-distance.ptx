@@ -53,8 +53,8 @@
 	</p>
 	<figure xml:id="fig-pythagorean">
 	  <caption>Right triangle with sides of length <m>a</m>, <m>b</m>, and <m>c</m>.</caption>
-	  <image width="50%">
-	    <latex-image>
+	  <image xml:id="img-pythagorean" width="50%">
+	    <latex-image xml:id="tikz-pythagorean">
 	      <xi:include parse="text" href="tex/pythagorean.tex"/>
 	    </latex-image>
 	  </image>

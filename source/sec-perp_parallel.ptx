@@ -2,19 +2,6 @@
 
 <section xml:id="sec-perp_parallel" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Parallel and Perpendicular Lines</title>
-  <!-- <objectives> -->
-  <!--   <ul> -->
-  <!--     <li> -->
-  <!-- 	Determine whether two lines are parallel, perpendicular, or neither. -->
-  <!--     </li> -->
-  <!--     <li> -->
-  <!-- 	Find the equation of a line parallel to a given line. -->
-  <!--     </li> -->
-  <!--     <li> -->
-  <!-- 	Find the equation of a line perpendicular to a given line. -->
-  <!--     </li> -->
-  <!--   </ul> -->
-  <!-- </objectives> -->
 
   <definition xml:id="def-parallel">
     <title>Parallel</title>
@@ -32,9 +19,8 @@
 
   <figure xml:id="fig-parallel_lines">
     <caption>Parallel lines.</caption>
-    
     <image xml:id="img-parallel_lines">
-      <latex-image>
+      <latex-image xml:id="tikz-parallel_lines">
 	<xi:include parse="text" href="tex/parallel.tex"/>
       </latex-image>
     </image>
@@ -137,9 +123,8 @@
   
   <figure xml:id="fig-perpendicular_lines">
     <caption>Perpendicular lines.</caption>
-    
     <image xml:id="img-perpendicular_lines">
-      <latex-image>
+      <latex-image xml:id="tikz-perpendicular_lines">
 	<xi:include parse="text" href="tex/perpendicular.tex"/>
       </latex-image>
     </image>
