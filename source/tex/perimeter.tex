@@ -14,21 +14,17 @@
   
   \path [draw, help lines, opacity=.5]  (\xmin,\ymin) grid (\xmax,\ymax);
 
-  \foreach \i in {-2,...,5}
-  \draw [very thick] (\i,2.5pt) -- +(0,-5pt)
-	[very thick] (2.5pt,\i) -- +(-5pt,0);
-	
-	\coordinate (P) at (\a,\b);
-	\coordinate (Q) at (\c,\d);
-	\coordinate (R) at (\a,\d);
-	
-	\draw [thick,blue] (P) -- (Q) -- (R) -- (P);
+  \coordinate (P) at (\a,\b);
+  \coordinate (Q) at (\c,\d);
+  \coordinate (R) at (\a,\d);
+  
+  \draw [thick,blue] (P) -- (Q) -- (R) -- (P);
 
 
-	\node at (P) {$\bullet$};
-	\node at (Q) {$\bullet$};
-	\node at (R) {$\bullet$};
-	\node [above] at (P) {$(\a,\b)$};
-	\node [right] at (Q) {$(\c,\d)$};
-	\node [below] at (R) {$(\a,\d)$};
+  \node at (P) {$\bullet$};
+  \node at (Q) {$\bullet$};
+  \node at (R) {$\bullet$};
+  \node [above] at (P) {$(\a,\b)$};
+  \node [right] at (Q) {$(\c,\d)$};
+  \node [below] at (R) {$(\a,\d)$};
 \end{tikzpicture}
