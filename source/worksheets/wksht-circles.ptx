@@ -24,6 +24,8 @@
 	Sketch a graph of the equation.
       </p>
     </exercise>
+  </page>
+  <page>
     <exercise workspace="1in">
       <p>
 	Find the radius of the circle with center <m>(2,3)</m> that passes through the point <m>(-1,7)</m>.
@@ -31,16 +33,15 @@
 	Sketch a graph of the circle.
       </p>
     </exercise>
-  </page>
-  <page>
+    <figure xml:id="fig-diameter_exercise">
+      <caption>A circle with <m>(2,2)</m> and <m>(4,4)</m> the endpoints of a diameter.</caption>
+      <image xml:id="img-diameter_exercise" width="50%">
+	<latex-image>
+	  <xi:include parse="text" href="../tex/diameter_exercise.tex"/>
+	</latex-image>
+      </image>
+    </figure>
     <exercise workspace="1in">
-      <figure xml:id="fig-diameter_exercise">
-	<image xml:id="img-diameter_exercise" width="50%">
-	  <latex-image>
-	    <xi:include parse="text" href="../tex/diameter_exercise.tex"/>
-	  </latex-image>
-	</image>
-      </figure>
       <p>
 	The endpoints of a diameter of a circle are <m>(2,2)</m> and <m>(4,4)</m> as in <xref ref="fig-diameter_exercise"/>.
 	Write the equation for this circle in standard form.
