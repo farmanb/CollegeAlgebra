@@ -7,57 +7,57 @@
     In this section, we study circles in the Cartesian plane.
   </p>
 
+  <definition xml:id="def-circle">
+    <statement>
+      <p>
+	The <term>circle</term>
+	<idx>
+	  <h>Circle</h>
+	</idx>
+	with radius <m>r</m> centered at <m>(h,k)</m> consists of all points in the Cartesian plane <m>r</m> units away from <m>(h,k)</m> as depicted in <xref ref="fig-circle_def"/>.
+      </p>
+    </statement>
+  </definition>
+
+  <figure xml:id="fig-circle_def">
+    <caption>The circle of radius <m>r</m> centered at <m>(h,k)</m>.</caption>
+    <image xml:id="img-circle_def" width="50%">
+      <latex-image xml:id="tikz-circle_def">
+	<xi:include parse="text" href="tex/circle_def.tex"/>
+      </latex-image>
+    </image>
+  </figure>
+  
+  
+  <p>
+    To find the equation of the circle with radius <m>r</m> and center <m>(h,k)</m> we use <xref ref="def-2_distance" text="title"/>.
+    A point <m>(x,y)</m> is on this circle if the distance between <m>(x,y)</m> and <m>(h,k)</m> is exactly <m>r</m>:
+    <me>
+      r = \sqrt{(x - h)^2 + (y - k)^2}.
+    </me>
+    To make this simpler, we square each side of the equation.
+  </p>
+
   <definition>
-      <statement>
-	<p>
-	  The <term>circle</term>
-	  <idx>
-	    <h>Circle</h>
-	  </idx>
-	  with radius <m>r</m> centered at <m>(h,k)</m> consists of all points in the Cartesian plane <m>r</m> units away from <m>(h,k)</m> as depicted in <xref ref="fig-circle_def"/>.
-	</p>
-      </statement>
-    </definition>
+    <title>The Standard Form of a Circle</title>
+    <statement>
+      <p>
+	The <term>standard form of a circle</term>
+	<idx>
+	  <h>Equation</h>
+	  <h>Circle</h>
+	  <h>Standard Form</h>
+	</idx>
+	with radius <m>r</m> and center <m>(h,k)</m> is
+	<me>
+	  (x - h)^2 + (y - k)^2 = r^2.
+	</me>
+      </p>
+    </statement>
+  </definition>
 
-    <figure xml:id="fig-circle_def">
-      <caption>The circle of radius <m>r</m> centered at <m>(h,k)</m>.</caption>
-      <image xml:id="img-circle_def" width="50%">
-	<latex-image xml:id="tikz-circle_def">
-	  <xi:include parse="text" href="tex/circle_def.tex"/>
-	</latex-image>
-      </image>
-    </figure>
-    
-    
-    <p>
-      To find the equation of the circle with radius <m>r</m> and center <m>(h,k)</m> we use <xref ref="def-2_distance" text="title"/>.
-      A point <m>(x,y)</m> is on this circle if the distance between <m>(x,y)</m> and <m>(h,k)</m> is exactly <m>r</m>:
-      <me>
-	r = \sqrt{(x - h)^2 + (y - k)^2}.
-      </me>
-      To make this simpler, we square each side of the equation.
-    </p>
-
-    <definition>
-      <title>The Standard Form of a Circle</title>
-      <statement>
-	<p>
-	  The <term>standard form of a circle</term>
-	  <idx>
-	    <h>Equation</h>
-	    <h>Circle</h>
-	    <h>Standard Form</h>
-	  </idx>
-	  with radius <m>r</m> and center <m>(h,k)</m> is
-	  <me>
-	    (x - h)^2 + (y - k)^2 = r^2.
-	  </me>
-	</p>
-      </statement>
-    </definition>
-
-    <definition>
-      <statement>
+  <definition>
+    <statement>
       <p>
 	A <term>diameter</term>
 	<idx>
@@ -67,17 +67,17 @@
 	of a circle is a line that connects two points on the circle through the center.
 	The length of a diameter of a circle of radius <m>r</m> is <m>2r</m>, and the midpoint of the diameter is the center of the circle.
       </p>
-      </statement>
-    </definition>
+    </statement>
+  </definition>
 
-    <figure xml:id="fig-diameter">
-      <caption>A diameter of the circle of radius <m>r</m> centered at <m>(h,k)</m>.</caption>
-      <image xml:id="img-diameter" width="50%">
-	<latex-image xml:id="tikz-diameter">
-	  <xi:include parse="text" href="tex/diameter.tex"/>
-	</latex-image>
-      </image>
-    </figure>
+  <figure xml:id="fig-diameter">
+    <caption>A diameter of the circle of radius <m>r</m> centered at <m>(h,k)</m>.</caption>
+    <image xml:id="img-diameter" width="50%">
+      <latex-image xml:id="tikz-diameter">
+	<xi:include parse="text" href="tex/diameter.tex"/>
+      </latex-image>
+    </image>
+  </figure>
 
   <xi:include href="worksheets/wksht-circles.ptx"/>
 </section>
