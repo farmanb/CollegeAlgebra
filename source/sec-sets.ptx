@@ -830,7 +830,7 @@
     </example>
   </subsection>
 
-  <worksheet xml:id="wksht-working_with_sets">
+  <worksheet xml:id="wksht-working_with_sets" component="print">
     <title>Working with Sets</title>
     <objectives>
       <ul>

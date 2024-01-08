@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-cartesian_coordinates-distance" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-the_distance_formula" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>The Distance Formula</title>
-
-  <!-- <objectives> -->
-  <!-- <ul> -->
-  <!--   <li> -->
-  <!-- 	Find the distance between two points in the Cartesian plane. -->
-  <!--   </li> -->
-  <!-- </ul> -->
-  <!-- </objectives> -->
   
-  <introduction>
+  <introduction xml:id="intro-the_distance_formula">
     <p>
       Within the Cartesian plane, we will often want to determine the distance between two points.
       In this section, we extend the notion of distance between two points on the number line to the Cartesian plane.
     </p>
   </introduction>
 
-  <subsection>
+  <subsection xml:id="subsec-distance_in_one_dimension">
     <title>Distance in One Dimension</title>
 
     <definition xml:id="def-1_distance">
@@ -39,14 +31,14 @@
     <figure xml:id="fig-1_distance">
       <caption>The distance between points on the number line.</caption>
       <image xml:id="img-1_distance">
-	<latex-image>
+	<latex-image xml:id="tikz-1_distance">
 	  <xi:include parse="text" href="tex/1_distance.tex"/>
 	</latex-image>
       </image>
     </figure>
   </subsection>
 
-  <subsection>
+  <subsection xml:id="subsec-distance_in_two_dimensions">
     <title>Distance in Two Dimensions</title>
     
     <p>
@@ -76,8 +68,8 @@
     
     <figure xml:id="fig-2_distance">
       <caption>The triangle formed by adding in the point <m>(x_1, y_2)</m>.</caption>
-      <image>
-	<latex-image>
+      <image xml:id="img-2_distance">
+	<latex-image xml:id="tikz-2_distance">
 	  <xi:include parse="text" href="tex/2_distance.tex"/>
 	</latex-image>
       </image>
@@ -119,7 +111,7 @@
       </statement>
     </definition>
 
-    <example component="web">
+    <example xml:id="eg-distance_between_points" component="web">
       <statement>
 	<p>
 	  Find the distance between the points <m>(3,-2)</m> and <m>(4,7)</m>.
@@ -137,8 +129,8 @@
       </solution>
     </example>
 
-    <worksheet component="print">
-      <title/>
+    <worksheet xml:id="wksht-distance_between_points" component="print">
+      <title>Examples</title>
       <page>
 	<example>
 	  <statement>

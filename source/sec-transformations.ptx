@@ -473,7 +473,7 @@
     </worksheet>
   </subsection>
 
-  <worksheet>
+  <worksheet xml:id="wksht-transformations" component="print">
     <objectives>
       <introduction>
 	<p>Use graphs of basic functions and the following operations to graph general functions.</p>

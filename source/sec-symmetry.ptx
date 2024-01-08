@@ -424,7 +424,7 @@
 
   </subsection>
 
-  <worksheet>
+  <worksheet xml:id="wksht-symmetry" component="print">
     <objectives>
       <ul>
 	<li>

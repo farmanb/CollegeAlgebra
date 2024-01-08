@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<worksheet xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xml:id="wksht-circles" xmlns:xi="http://www.w3.org/2001/XInclude" component="print">
   <title>Working with Circles</title>
   <objectives>
     <ul>
-      <!-- <li> -->
-      <!--   Place the equation of a circle into standard form. -->
-      <!-- </li> -->
       <li>
 	Use the standard form of a circle to identify the center and radius.
       </li>

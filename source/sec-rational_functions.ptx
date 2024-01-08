@@ -294,7 +294,7 @@
     </worksheet>
   </subsection>
 
-  <worksheet>
+  <worksheet xml:id="wksht-rational_functions" component="print">
     <objectives>
       <ul>
 	<li>
