@@ -14,7 +14,7 @@
 
     <p>
       For this reason, sets and set operations are unavoidable in any careful treatment of mathematics.
-      While our treatment of algebra is careful, this is <alert>not</alert> meant a course on the foundations of mathematics.
+      While our treatment of algebra is careful, this is <alert>not</alert> meant to be a course on the foundations of mathematics.
       We present here the rudiments of a set theory that includes only the pieces absolutely necessary for the development of the material relevant to basic algebra.
       We begin with the intuitive definition of a set.
     </p>
