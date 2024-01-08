@@ -3,7 +3,7 @@
 <section xml:id="sec-graphing_equations" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Graphing Equations</title>
 
-  <introduction xml:id="intro-graphing_equations">
+  <introduction xml:id="graphing_equations-intro">
     <p>
       When two quantities vary together, the relationship is modeled by an equation in two variables.
       By convention, mathematicians use the variables <m>x</m> and <m>y</m>.

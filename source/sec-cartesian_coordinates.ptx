@@ -3,7 +3,7 @@
 <section xml:id="sec-cartesian_coordinates" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Cartesian Coordinates</title>
 
-  <introduction xml:id="intro-cartesian_coordinates">
+  <introduction xml:id="cartesian_coordinates-intro">
     <p>
       In mathematics, we are interested in studying how quantities change together.
       We will restrict our attention to two quantities at a time and will often find it useful to visualize these relationships.
