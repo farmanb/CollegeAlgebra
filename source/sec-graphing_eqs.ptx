@@ -132,10 +132,10 @@
 	This tells us, as ordered pairs, the <m>x</m>-intercept occurs at <m>(1,0)</m> and the <m>y</m>-intercept occurs at <m>(0,-2)</m>.
 	In general, every point on this line has coordinates of the form <m>(x,2x - 2)</m>, where <m>x</m> can be any real number we choose.
       </p>
-      <figure xml:id="fig-graph_2x_minus_2-web">
+      <figure xml:id="fig-graph_2x_minus_2">
 	<caption>The graph of the equation <m>y = 2x - 2</m>.</caption>
-	<image xml:id="img-graph_2x_minus_2-web">
-	  <latex-image xml:id="tikz-graph_2x_minus_2-web">
+	<image xml:id="img-graph_2x_minus_2">
+	  <latex-image xml:id="tikz-graph_2x_minus_2">
 	    <xi:include parse="text" href="tex/y_2x-2-with_points.tex"/>
 	  </latex-image>
 	</image>
@@ -144,31 +144,37 @@
 
     <worksheet xml:id="wksht-solution_examples" component="print">
       <title>Examples</title>
-      <example>
-	<statement>
-	  <p>
-	    The graph of the equation <m>y = 2x - 2</m> is shown below.
-	  </p>
-	  <figure xml:id="fig-graph_2x_minus_2-print">
-	    <caption>The graph of the equation <m>y = 2x - 2</m>.</caption>
-	    <image xml:id="img-graph_2x_minus_2-print">
-	      <latex-image xml:id="tikz-graph_2x_minus_2-print">
-		<xi:include parse="text" href="tex/y_2x_-2.tex"/>
-	      </latex-image>
-	    </image>
-	  </figure>
-	  <task>
+      <introduction>
+	<p>
+	  Use the graph of the equation <m>y = 2x - 2</m> to answer the questions below.
+	</p>
+
+	<figure>
+	  <caption>The graph of the equation <m>y = 2x - 2</m>.</caption>
+	  <image width="50%">
+	    <latex-image>
+	      <xi:include parse="text" href="tex/y_2x_-2.tex"/>
+	    </latex-image>
+	  </image>
+	</figure>
+      </introduction>
+
+      <page>
+	<example>
+	  <task workspace="1in">	    
 	    <p>
 	      Find the coordinates of the <m>y</m>-intercept and plot it on the graph.
 	    </p>
 	  </task>
-	  <task>
+	  
+	  <task workspace="1in">
 	    <p>
 	      Find the coordinates of the <m>x</m>-intercept and plot it on the graph.
 	    </p>
 	  </task>
-	</statement>
-      </example>
+	</example>
+      </page>
+      
     </worksheet>
   </subsection>
 
