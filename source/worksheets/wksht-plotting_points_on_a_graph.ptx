@@ -26,8 +26,12 @@
 	  (-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
 	  (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
 	  (2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
-	  
+
+	  \begin{scope}
+	  \clip (-5,-5) rectangle (5,5);
 	  \draw[smooth,color=blue,very thick] plot (\x, 2/3*\x - 2);
+	  \end{scope}
+	  
 	  \end{tikzpicture}
 	</latex-image>
       </image>

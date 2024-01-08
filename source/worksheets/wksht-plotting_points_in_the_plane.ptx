@@ -47,6 +47,14 @@
       <statement>
 	<p>
 	  For each of the points that you plotted above, indicate the quadrant that contains the point.
+	  <ol marker="A" cols="3">
+	    <li>lies in quadrant <fillin/></li>
+	    <li>lies in quadrant <fillin/></li>
+	    <li>lies in quadrant <fillin/></li>
+	    <li>lies in quadrant <fillin/></li>
+	    <li>lies in quadrant <fillin/></li>
+	    <li>lies in quadrant <fillin/></li>
+	  </ol>
 	</p>
       </statement>
     </exercise>
