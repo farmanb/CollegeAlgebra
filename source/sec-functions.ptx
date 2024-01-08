@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-relations" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Functions</title>
 
-  <introduction>
+  <introduction xml:id="functions-intro">
     <p>
       In nearly every branch of mathematics, functions are the primary objects of study.
       Functions provide a robust language for describing relationships between sets, and serve as the basic building blocks for modern development of algebra, geometry, trigonometry, calculus, and beyond.
@@ -11,7 +11,7 @@
     </p>
   </introduction>
 
-  <subsection>
+  <subsection xml:id="subsec-algebraic_functions">
     <title>Algebraic Functions</title>
     <definition xml:id="def-function">
       <title>Function</title>
@@ -213,28 +213,24 @@
     <worksheet component="print">
       <title/>
       <page>
-	<example workspace="2in">
-	  <statement>
+	<example>
+	  <task workspace="2in">
 	    <p>
-	      Find the implied domain and the range of the implicit function <m>y = 1/x</m>.
+		Find the implied domain and the range of the implicit function <m>y = 1/x</m>.
 	    </p>
-	  </statement>
-	</example>
-	
-	<example workspace="2in">
-	  <statement>
+	  </task>
+
+	  <task workspace="2in">
 	    <p>
 	      Find the domain and range of the function <m>f(x) = 3x + 7</m>.
 	    </p>
-	  </statement>
-	</example>
+	  </task>
 
-	<example workspace="2in">
-	  <statement>
+	  <task workspace="2in">
 	    <p>
 	      Find the domain and range of the function <m>f(x) = x^2</m>.
 	    </p>
-	  </statement>
+	  </task>
 	</example>
       </page>
     </worksheet>
@@ -309,20 +305,18 @@
 
     <worksheet component="print">
       <title/>
-      <example workspace="2in">
-	<statement>
+      <example>
+	<task workspace="4in">
 	  <p>
 	    The functions <m>f,g \colon \R \to \R</m> defined by <m>f(x) = \sqrt{x^2}</m> and <m>g(x) = \abs{x}</m> are equal.
 	  </p>
-	</statement>
-      </example>
-      
-      <example workspace="2in">
-	<statement>
+	</task>
+
+	<task workspace="4in">
 	  <p>
-	    The functions <m>f,g \colon \R \to \R</m> defined by <m>f(x) = \sqrt{x^2}</m>and <m>g(x) = x</m> are <alert>not</alert> equal.
+	    The functions <m>f,g \colon \R \to \R</m> defined by <m>f(x) = \sqrt{x^2}</m> and <m>g(x) = x</m> are <alert>not</alert> equal.
 	  </p>
-	</statement>
+	</task>
       </example>
     </worksheet>
   </subsection>
@@ -396,7 +390,7 @@
 	</statement>
 	<solution>
 	  <p>
-	    It is simpler to see that if we draw any veritcal line to the right of the <m>y</m>-axis, then there is exactly one point of intersection with the graph of <m>y = x+2</m>.
+	    It is simpler to see that if we draw any vertical line to the right of the <m>y</m>-axis, then there is exactly one point of intersection with the graph of <m>y = x+2</m>.
 	  </p>
 	  <figure xml:id="fig-verify_function">
 	    <caption>The graph <m>y = x + 2</m> and <m>y = a</m>.</caption>
@@ -413,13 +407,13 @@
 
     <worksheet component="print">
       <title/>
+      <introduction>
+	<p>
+	  Consider the function <m>f \colon \R \to \R</m> defined by the rule <m>f(x) = x + 2</m>.
+	</p>
+      </introduction>
       <page>
 	<example>
-	  <introduction>
-	    <p>
-	      Consider the function <m>f \colon \R \to \R</m> defined by the rule <m>f(x) = x + 2</m>.
-	    </p>
-	  </introduction>
 	  <task workspace="2in">
 	    <statement>
 	      <p>
@@ -427,12 +421,14 @@
 	      </p>
 	    </statement>
 	  </task>
+
 	  <task>
 	    <statement>
 	      <p>
 		Verify that <m>f</m> is a function visually.
 	      </p>
 	      <figure>
+		<caption>The graph of <m>y = x + 2</m></caption>
 		<image width="50%">
 		  <latex-image>
 		    \begin{tikzpicture}[scale=0.5]
@@ -456,7 +452,6 @@
 		    \end{tikzpicture}
 		  </latex-image>
 		</image>
-		<cpation>The graph of <m>y = x + 2</m></cpation>
 	      </figure>
 	    </statement>
 	  </task>
@@ -492,29 +487,31 @@
 
     <worksheet component="print">
       <title/>
-      <example>
-	<statement>
-	  <p>
-	    The equation <m>x = y^2</m> does <alert>not</alert> define <m>y</m> as a function of <m>x</m>.
-	  </p>
-	  <figure>
-	    <image width="50%">
-	      <latex-image>
-		\begin{tikzpicture}[domain=0:4]
-		\draw[very thin,color=gray] (0,-2) grid (4,2);
+      <page>
+	<figure>
+	<image width="50%">
+	  <latex-image>
+	    \begin{tikzpicture}[domain=0:4]
+	    \draw[very thin,color=gray] (0,-2) grid (4,2);
 
-		\draw[very thick,->] (0,0) -- (4.2,0) node[right] {$x$};
-		\draw[very thick,->] (0,-2) -- (0,2.2) node[above] {$y$};
-		
-		\draw [color=blue,thick] plot[smooth,samples=500] (\x,{sqrt(\x)});
-		\draw [color=blue,thick] plot[smooth,samples=500] (\x,{-sqrt(\x)});
-		\end{tikzpicture}
-	      </latex-image>
-	    </image>
-	    <caption>The graph of the equation <m>x = y^2</m>.</caption>
-	  </figure>
-	</statement>
-      </example>
+	    \draw[very thick,->] (0,0) -- (4.2,0) node[right] {$x$};
+	    \draw[very thick,->] (0,-2) -- (0,2.2) node[above] {$y$};
+	    
+	    \draw [color=blue,thick] plot[smooth,samples=500] (\x,{sqrt(\x)});
+	    \draw [color=blue,thick] plot[smooth,samples=500] (\x,{-sqrt(\x)});
+	    \end{tikzpicture}
+	  </latex-image>
+	</image>
+	<caption>The graph of the equation <m>x = y^2</m>.</caption>
+	</figure>
+	<example>
+	  <statement>
+	    <p>
+	      Explain why the equation <m>x = y^2</m> does <alert>not</alert> define <m>y</m> as a function of <m>x</m>.
+	    </p>
+	  </statement>
+	</example>
+      </page>
     </worksheet>
   </subsection>
 

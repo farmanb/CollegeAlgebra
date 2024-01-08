@@ -5,7 +5,7 @@
   <objectives>
     <ul>
       <li>
-	Find the domain and codomain of a function.
+	Find the implied domain and codomain of an algebraic function.
       </li>
       <li>
 	Find the range of a function.
@@ -20,7 +20,7 @@
     <exercise>
       <introduction>
 	<p>
-	  For each of the following functions, find the domain, codomain, and range.
+	  For each of the following functions, find the implied domain, codomain, and range.
 	</p>
       </introduction>
       <task workspace="2in">
