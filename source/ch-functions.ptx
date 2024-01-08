@@ -4,7 +4,6 @@
   <title>Functions and Graphs</title>
 
   <!-- include sections -->
-  <!-- <xi:include href="sec-relations.ptx" /> -->
   <xi:include href="sec-functions.ptx" />
   <xi:include href="sec-change.ptx" />
   <xi:include href="sec-transformations.ptx" />
