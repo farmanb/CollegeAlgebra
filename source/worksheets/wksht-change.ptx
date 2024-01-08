@@ -28,22 +28,22 @@
   </introduction>
 
   <page>
-    <task workspace="2in">
+    <exercise workspace="2in">
       <p>
 	<m>f(x) = 3x + 2</m>; <m>[3,5]</m>
       </p>
-    </task>
+    </exercise>
 
-    <task workspace="2in">
+    <exercise workspace="2in">
       <p>
 	<m>g(x) = \frac{1}{x}</m>; <m>\left[\frac{1}{4},\frac{1}{2}\right]</m>
       </p>
-    </task>
+    </exercise>
 
-    <task workspace="2in">
+    <exercise workspace="2in">
       <p>
 	<m>h(x) = \sqrt{x}</m>; <m>[4,9]</m>
       </p>
-    </task>
+    </exercise>
   </page>
 </worksheet>

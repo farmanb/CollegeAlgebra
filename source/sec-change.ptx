@@ -23,7 +23,7 @@
       <caption>Graphs of increasing and decreasing functions</caption>
       <sidebyside>
 	<figure xml:id="fig-increasing">
-	  <caption>The graph of an increasing function</caption>
+	  <caption>An increasing function</caption>
 	  <image xml:id="img-increasing">
 	    <latex-image xml:id="tikz-increasing">
 	      \begin{tikzpicture}
@@ -43,7 +43,7 @@
 	  </image>
 	</figure>
 	<figure xml:id="fig-decreasing">
-	  <caption>The graph of a decreasing function</caption>
+	  <caption>A decreasing function</caption>
 	  <image xml:id="img-decreasing">
 	    <latex-image xml:id="tikz-decreasing">
 	      \begin{tikzpicture}
@@ -55,7 +55,7 @@
 	      \draw [very thick,->] (0,0) -- (0,\size+.1) node [anchor=west] {$y$};
 	      
 	      \begin{scope}
-	      \clip (-\size,-\size) rectangle (\size,\size);
+	      \clip (-\size,0) rectangle (\size,\size);
 	      \draw[thick,blue] plot[smooth,samples=500,domain=-\size:0] (\x,{(\x)^2});
 	      \end{scope}
 	      \end{tikzpicture}
@@ -402,7 +402,7 @@
       <introduction>
 	<p>
 	  An object is thrown straight up in the air.
-	  The object reaches a maximum height of 1 meter after 1 seconds, and returns to the thrower's hand after 2 seconds.
+	  The object reaches a maximum height of 1 meter after 1 second, and returns to the thrower's hand after 2 seconds.
 	  The function <m>h \colon [0,2] \to \R</m> models the height of the object in meters as a function of <m>x</m> seconds.
 	</p>
 
@@ -472,51 +472,43 @@
 
     <worksheet component="print">
       <title/>
+      <introduction>
+	<p>
+	  An object is thrown straight up in the air.
+	  The object reaches a maximum height of 1 meter after 1 second, and returns to the thrower's hand after 2 seconds.
+	  The function <m>h \colon [0,2] \to \R</m> models the height of the object in meters as a function of <m>x</m> seconds.
+	  <figure>
+	    <image width="50%">
+	      <latex-image>
+		<xi:include parse="text" href="tex/kinematic.tex"/>
+	      </latex-image>
+	    </image>
+	    <caption>The graph of <m>h(x)</m></caption>
+	  </figure>
+	</p>
+      </introduction>
       <page>
 	<example>
-	  <introduction>
+	  <task workspace="1.25in">
 	    <p>
-	      An object is thrown straight up in the air.
-	      The object reaches a maximum height of 1 meter after 1 seconds, and returns to the thrower's hand after 2 seconds.
-	      The function <m>h \colon [0,2] \to \R</m> models the height of the object in meters as a function of <m>x</m> seconds.
-	      <figure>
-		<image width="50%">
-		  <latex-image>
-		    <xi:include parse="text" href="tex/kinematic.tex"/>
-		  </latex-image>
-		</image>
-		<caption>The graph of <m>h(x)</m></caption>
-	      </figure>
+	      What is the average rate of change for the function on the interval <m>[0,1]</m>?
+	      Interpret the meaning of this number.
 	    </p>
-	  </introduction>
-	</example>
+	  </task>
 
-	<task workspace="1in">
-	  <statement>
+	  <task workspace="1.25in">
 	    <p>
 	      What is the average rate of change for the function on the interval <m>[0,1]</m>?
 	      Interpret the meaning of this number.
 	    </p>
-	  </statement>
-	</task>
-      </page>
-      <page>
-	<task workspace="1in">
-	  <statement>
-	    <p>
-	      What is the average rate of change for the function on the interval <m>[0,1]</m>?
-	      Interpret the meaning of this number.
-	    </p>
-	  </statement>
-	</task>
-	
-	<task workspace="1in">
-	  <statement>
+	  </task>
+	  
+	  <task workspace="1.25in">
 	    <p>
 	      What is the average rate of change for the function on the interval <m>[0,2]</m>?
 	    </p>
-	  </statement>
-	</task>
+	  </task>
+	</example>
       </page>
     </worksheet>
   </subsection>
