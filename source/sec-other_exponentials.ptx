@@ -238,7 +238,7 @@
     </definition>
   </subsection>
   
-  <worksheet xml:id="wksht-other_exponentials" xmlns:xi="http://www.w3.org/2001/XInclude" component="print">
+  <worksheet xml:id="wksht-other_exponentials" xmlns:xi="http://www.w3.org/2001/XInclude" component="notes">
     <title>Working with Exponentials</title>
 
     <objectives>

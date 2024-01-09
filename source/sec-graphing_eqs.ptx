@@ -142,7 +142,7 @@
       </figure>
     </example>
 
-    <worksheet xml:id="wksht-solution_examples" component="print">
+    <worksheet xml:id="wksht-solution_examples" component="notes">
       <title>Examples</title>
       <introduction>
 	<p>
@@ -247,7 +247,7 @@
       </solution>
     </example>
 
-    <worksheet xml:id="wksht-horizontal_lines_examples" component="print">
+    <worksheet xml:id="wksht-horizontal_lines_examples" component="notes">
       <title>Examples</title>
       <page>
 	<example>
@@ -349,7 +349,7 @@
       </solution>
     </example>
 
-    <worksheet xml:id="wksht-vertical_line_examples" component="print">
+    <worksheet xml:id="wksht-vertical_line_examples" component="notes">
       <title/>
       <page>
 	<example>

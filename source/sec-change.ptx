@@ -284,7 +284,7 @@
       </solution>
     </example>
 
-    <worksheet component="print">
+    <worksheet component="notes">
       <title/>
       <page>
 	<example>
@@ -470,7 +470,7 @@
       </task>
     </example>
 
-    <worksheet component="print">
+    <worksheet component="notes">
       <title/>
       <introduction>
 	<p>

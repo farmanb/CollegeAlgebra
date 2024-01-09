@@ -63,7 +63,7 @@
       </solution>
     </example>
 
-    <worksheet component="print">
+    <worksheet component="notes">
       <title/>
       <page>
 	<figure>
@@ -142,7 +142,7 @@
       </solution>
     </example>
 
-    <worksheet component="print">
+    <worksheet component="notes">
       <title/>
       <page>
 	<figure>
@@ -221,7 +221,7 @@
       </solution>
     </example>
 
-    <worksheet component="print">
+    <worksheet component="notes">
       <title/>
       <page>
 	<figure>
@@ -299,7 +299,7 @@
       </solution>
     </example>
 
-    <worksheet component="print">
+    <worksheet component="notes">
       <title/>
       <page>
 	<figure>
@@ -378,7 +378,7 @@
       </solution>
     </example>
 
-    <worksheet component="print">
+    <worksheet component="notes">
       <title/>
       <page>
 	<figure>
@@ -447,7 +447,7 @@
       </solution>
     </example>
 
-    <worksheet component="print">
+    <worksheet component="notes">
       <title/>
       <page>
 	<figure>
@@ -474,7 +474,7 @@
     </worksheet>
   </subsection>
 
-  <worksheet xml:id="wksht-transformations" component="print">
+  <worksheet xml:id="wksht-transformations" component="notes">
     <objectives>
       <introduction>
 	<p>

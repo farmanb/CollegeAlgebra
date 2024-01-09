@@ -203,7 +203,7 @@
     </remark>
   </subsection>
 
-  <worksheet xml:id="wksht-other_logs" xmlns:xi="http://www.w3.org/2001/XInclude" component="print">
+  <worksheet xml:id="wksht-other_logs" xmlns:xi="http://www.w3.org/2001/XInclude" component="notes">
     <objectives>
       <ul>
 	<li>

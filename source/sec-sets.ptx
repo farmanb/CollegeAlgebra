@@ -144,7 +144,7 @@
       </solution>
     </example>
     
-    <worksheet xml:id="wksht-set_examples" component="print">
+    <worksheet xml:id="wksht-set_examples" component="notes">
       <title>Examples</title>
       <page>
 	<example>
@@ -690,7 +690,7 @@
       </p>
     </remark>
 
-    <worksheet xml:id="wksht-examples_union_int" component="print">
+    <worksheet xml:id="wksht-examples_union_int" component="notes">
       <title>Examples</title>
       <page>
 	<example>
@@ -830,7 +830,7 @@
     </example>
   </subsection>
 
-  <worksheet xml:id="wksht-working_with_sets" component="print">
+  <worksheet xml:id="wksht-working_with_sets" component="notes">
     <title>Working with Sets</title>
     <objectives>
       <ul>

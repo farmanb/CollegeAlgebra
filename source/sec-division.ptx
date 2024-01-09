@@ -142,7 +142,7 @@
       </solution>
     </example>
 
-    <worksheet component="print">
+    <worksheet component="notes">
       <title/>
       <introduction>
 	<p>
@@ -274,7 +274,7 @@
       </solution>
     </example>
 
-    <worksheet component="print">
+    <worksheet component="notes">
       <title/>
       <example>
 	<statement>

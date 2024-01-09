@@ -346,7 +346,7 @@
       For quadratics in vertex form <m>f(x) = a(x - h)^2 + k</m>, we can see that <m>f</m> is concave up whenever <m>0 \lt a</m> and concave down whenever <m>a \lt 0</m>.
     </p>
     
-    <figure component="print">
+    <figure component="notes">
       <caption>The graph of <m>y = x^2</m></caption>
       <image>
 	<latex-image>

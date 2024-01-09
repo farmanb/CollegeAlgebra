@@ -161,7 +161,7 @@
       </solution>
     </example>
 
-    <worksheet component="print">
+    <worksheet component="notes">
       <title/>
       <page>
 	<figure>
@@ -248,12 +248,12 @@
     </figure>
 
     <!-- Print does not support GIFs, so this is the alternate for the printed version. -->
-    <p component="print">
+    <p component="notes">
       First, we rotate the graph by 90 degrees.
       We note that this rotation does not change the shape of the graph, so the distance of our marked point from the origin should not change.
     </p>
 
-    <figure component="print">
+    <figure component="notes">
       <caption>The graph of <m>y=x^3</m> rotated 90 degrees counter-clockwise.</caption>
       
       <image>
@@ -281,12 +281,12 @@
       </image>
     </figure>
 
-    <p component="print">
+    <p component="notes">
       Rotating once more by 90 degrees, we still have not changed the distance of our marked point from the origin.
       The graph looks the same, except we have moved our marked point from the first quadrant into the third quadrant.
     </p>
 
-    <figure component="print">
+    <figure component="notes">
       <caption>The graph of <m>y=x^3</m> rotated 180 degrees counter-clockwise.</caption>
       
       <image>
@@ -425,7 +425,7 @@
       </solution>
     </example>
 
-    <worksheet component="print">
+    <worksheet component="notes">
       <title/>
       <page>
 	<figure>
@@ -462,7 +462,7 @@
 
   </subsection>
 
-  <worksheet xml:id="wksht-symmetry" component="print">
+  <worksheet xml:id="wksht-symmetry" component="notes">
     <objectives>
       <ul>
 	<li>

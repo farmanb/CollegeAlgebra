@@ -46,7 +46,7 @@
     </example>
   </subsection>
 
-  <worksheet component="print">
+  <worksheet component="notes">
     <title/>
     <page>
       <example>
@@ -90,7 +90,7 @@
       </solution>
     </example>
 
-    <worksheet component="print">
+    <worksheet component="notes">
       <title/>
       <page>
 	<example>
@@ -162,7 +162,7 @@
       </solution>
     </example>
 
-    <worksheet component="print">
+    <worksheet component="notes">
       <title/>
       <page>
 	<example>
@@ -259,7 +259,7 @@
       </solution>
     </example>
 
-    <worksheet component="print">
+    <worksheet component="notes">
       <title/>
       <page>
 	<introduction>
@@ -294,7 +294,7 @@
     </worksheet>
   </subsection>
 
-  <worksheet xml:id="wksht-rational_functions" component="print">
+  <worksheet xml:id="wksht-rational_functions" component="notes">
     <objectives>
       <ul>
 	<li>

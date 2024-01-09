@@ -174,7 +174,7 @@
     </figure>
   </subsection>
   
-  <worksheet xml:id="wksht-exp" component="print">
+  <worksheet xml:id="wksht-exp" component="notes">
     <title>Working with the Exponential</title>
     <objectives>
       <ul>
