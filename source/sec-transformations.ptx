@@ -66,19 +66,19 @@
     <worksheet component="print">
       <title/>
       <page>
+	<figure>
+	  <caption>The graph of <m>y = x^2</m></caption>
+	  <image width="50%">
+	    <latex-image>
+	      <xi:include parse="text" href="tex/basic_functions/parabola.tex"/>
+	    </latex-image>
+	  </image>
+	</figure>
 	<example>
 	  <statement>
 	    <p>
 	      Use the graph of <m>y = x^2</m> to graph the functions <m>g(x) = x^2 + 2</m> and <m>h(x) = x^2 - 3</m>.
 	    </p>
-	    <figure>
-	      <image width="50%">
-		<latex-image>
-		  <xi:include parse="text" href="tex/basic_functions/parabola.tex"/>
-		</latex-image>
-	      </image>
-	      <caption>The graph of <m>y = x^2</m></caption>
-	    </figure>
 	    <image width="50%">
 	      <latex-image>
 		<xi:include parse="text" href="tex/5_5_grid.tex"/>
@@ -145,19 +145,19 @@
     <worksheet component="print">
       <title/>
       <page>
+	<figure>
+	  <caption>The graph of <m>y = x^2</m></caption>
+	  <image width="50%">
+	    <latex-image>
+	      <xi:include parse="text" href="tex/basic_functions/parabola.tex"/>
+	    </latex-image>
+	  </image>
+	</figure>
 	<example>
 	  <statement>
 	    <p>
-	      Use <xref ref="fig-parabola" text="custom">the graph of <m>y = x^2</m></xref> to graph the functions <m>g(x) = (x+2)^2</m> and <m>h(x) = (x-3)^2</m>.
+	      Use the graph of <m>y = x^2</m> to graph the functions <m>g(x) = (x+2)^2</m> and <m>h(x) = (x-3)^2</m>.
 	    </p>
-	    <figure>
-	      <image width="50%">
-		<latex-image>
-		  <xi:include parse="text" href="tex/basic_functions/parabola.tex"/>
-		</latex-image>
-	      </image>
-	      <caption>The graph of <m>y = x^2</m></caption>
-	    </figure>
 	    <image width="50%">
 	      <latex-image>
 		<xi:include parse="text" href="tex/5_5_grid.tex"/>
@@ -224,19 +224,19 @@
     <worksheet component="print">
       <title/>
       <page>
+	<figure>
+	  <caption>The graph of <m>y = x^2</m></caption>
+	  <image width="50%">
+	    <latex-image>
+	      <xi:include parse="text" href="tex/basic_functions/parabola.tex"/>
+	    </latex-image>
+	  </image>
+	</figure>
 	<example>
 	  <statement>
 	    <p>
 	      Use the graph of <m>y=x^2</m> to graph the functions <m>g(x) = 2x^2</m> and <m>h(x) = \frac{2}{3}x^2</m>.
 	    </p>
-	    <figure>
-	      <image width="50%">
-		<latex-image>
-		  <xi:include parse="text" href="tex/basic_functions/parabola.tex"/>
-		</latex-image>
-	      </image>
-	      <caption>The graph of <m>y = x^2</m></caption>
-	    </figure>
 	    <image width="50%">
 	      <latex-image>
 		<xi:include parse="text" href="tex/5_5_grid.tex"/>
@@ -302,19 +302,24 @@
     <worksheet component="print">
       <title/>
       <page>
+	<figure>
+	  <caption>The graph of <m>y = \sqrt{x}</m></caption>
+	  <image width="50%">
+	    <latex-image>
+	      <xi:include parse="text" href="tex/basic_functions/sq_root.tex"/>
+	    </latex-image>
+	  </image>
+	</figure>
 	<example>
 	  <statement>
 	    <p>
-	      Use the graph of <m>y = x^2</m> to graph the functions <m>g(x) = -\sqrt{x}</m> and <m>h(x) = \sqrt{-x}</m>.
+	      Use the graph of <m>y = \sqrt{x}</m> to graph the functions <m>g(x) = -\sqrt{x}</m> and <m>h(x) = \sqrt{-x}</m>.
 	    </p>
-	    <figure>
-	      <image width="50%">
-		<latex-image>
-		  <xi:include parse="text" href="tex/basic_functions/parabola.tex"/>
-		</latex-image>
-	      </image>
-	      <caption>The graph of <m>y = x^2</m></caption>
-	    </figure>
+	    <image width="50%">
+	      <latex-image>
+		<xi:include parse="text" href="tex/5_5_grid.tex"/>
+	      </latex-image>
+	    </image>
 	  </statement>
 	</example>
       </page>
@@ -376,19 +381,19 @@
     <worksheet component="print">
       <title/>
       <page>
+	<figure>
+	  <caption>The graph of <m>y = x^2</m></caption>
+	  <image width="50%">
+	    <latex-image>
+	      <xi:include parse="text" href="tex/basic_functions/parabola.tex"/>
+	    </latex-image>
+	  </image>
+	</figure>
 	<example>
 	  <statement>
 	    <p>
 	      Use the graph of <m>y = x^2</m> to graph the functions <m>g(x) = (2x)^2</m> and <m>h(x) = \left(\frac{2}{3}x\right)^2</m>.
 	    </p>
-	    <figure>
-	      <image width="50%">
-		<latex-image>
-		  <xi:include parse="text" href="tex/basic_functions/parabola.tex"/>
-		</latex-image>
-	      </image>
-	      <caption>The graph of <m>y = x^2</m></caption>
-	    </figure>
 	  </statement>
 	</example>
       </page>
@@ -445,19 +450,19 @@
     <worksheet component="print">
       <title/>
       <page>
+	<figure>
+	  <caption>The graph of <m>y = x^2</m></caption>
+	  <image width="50%">
+	    <latex-image>
+	      <xi:include parse="text" href="tex/basic_functions/parabola.tex"/>
+	    </latex-image>
+	  </image>
+	</figure>
 	<example>
 	  <statement>
 	    <p>
 	      Use the graph of <m>y = x^2</m> to graph the function <m>g(x) = 2(x + 3)^2 - 2</m>.
 	    </p>
-	    <figure>
-	      <image width="50%">
-		<latex-image>
-		  <xi:include parse="text" href="tex/basic_functions/parabola.tex"/>
-		</latex-image>
-	      </image>
-	      <caption>The graph of <m>y = x^2</m></caption>
-	    </figure>
 	    <image width="50%">
 	      <latex-image>
 		<xi:include parse="text" href="tex/5_5_grid.tex"/>
@@ -472,25 +477,140 @@
   <worksheet xml:id="wksht-transformations" component="print">
     <objectives>
       <introduction>
-	<p>Use graphs of basic functions and the following operations to graph general functions.</p>
+	<p>
+	  Use graphs of basic functions and graph transformations to graph general functions:
+	  <ul cols="3">
+	    <li>
+	      Vertical Translation
+	    </li>
+	    <li>
+	      Horizontal Translation
+	    </li>
+	    <li>
+	      Vertical Scaling,
+	    </li>
+	    <li>
+	      Horizontal Scaling, and
+	    </li>
+	    <li>
+	      Reflection.
+	    </li>
+	  </ul>
+	</p>
       </introduction>
-      <ul>
-	<li>
-	  Vertical Translation
-	</li>
-	<li>
-	  Horizontal Translation
-	</li>
-	<li>
-	  Vertical Scaling,
-	</li>
-	<li>
-	  Horizontal Scaling, and
-	</li>
-	<li>
-	  Reflection.
-	</li>
-      </ul>
     </objectives>
+    <page>
+      <exercise xml:id="ex-transformations_cubic">
+	<statement>
+	  <task>
+	    <p>
+	      Write down the graph transformations, in order, needed to graph the function <m>y = -3(x + 2)^3 - 1</m> using the graph of <m>y = x^3</m>.
+	      For each transformation, indicate the intermediate function.
+	    </p>
+	  </task>
+	</statement>
+      </exercise>
+      <figure>
+	<caption>The graph of <m>y = x^3</m></caption>
+	<image width="50%">
+	  <latex-image>
+	    <xi:include parse="text" href="tex/basic_functions/cubic.tex"/>
+	  </latex-image>
+	</image>
+      </figure>
+    </page>
+    <page>
+      <exercise>
+	<statement>
+	  <p>
+	    Use the graph of <m>y = x^3</m> and your list above to graph <m>y = -3(x + 2)^3 - 1</m>
+	  </p>
+	  <sbsgroup>
+	    <sidebyside>
+	      <image width="50%">
+	      <latex-image>
+		<xi:include parse="text" href="tex/10_10_grid.tex"/>
+	      </latex-image>
+	    </image>
+
+	    <image width="50%">
+	      <latex-image>
+		<xi:include parse="text" href="tex/10_10_grid.tex"/>
+	      </latex-image>
+	    </image>
+	    </sidebyside>
+	    <sidebyside>
+	      <image width="50%">
+		<latex-image>
+		  <xi:include parse="text" href="tex/10_10_grid.tex"/>
+		</latex-image>
+	      </image>
+	      <image width="50%">
+		<latex-image>
+		  <xi:include parse="text" href="tex/10_10_grid.tex"/>
+		</latex-image>
+	      </image>
+	    </sidebyside>
+	  </sbsgroup>
+	</statement>
+      </exercise>
+    </page>
+    <page>
+      <figure>
+	<caption>The graph of <m>y = 1/x</m></caption>
+	<image width="50%">
+	  <latex-image>
+	    <xi:include parse="text" href="tex/basic_functions/1_x.tex"/>
+	  </latex-image>
+	</image>
+      </figure>
+      <exercise>
+	<statement>
+	  <p>
+	    Write down the graph transformations, in order, needed to graph the function
+	    <me>y = \frac{-2}{x - 3} + 1</me>
+	    using the graph of <m>y = 1/x</m>.
+	    For each transformation, indicate the intermediate function.
+	  </p>
+	</statement>
+      </exercise>
+    </page>
+    <page>
+      <exercise>
+	<statement>
+	  <p>
+	    Use the graph of <m>y = 1/x</m> and your list above to graph the function
+	    <me>y = \frac{-2}{x - 3} + 1.</me>
+	  </p>
+	  <sbsgroup>
+	    <sidebyside>
+	      <image width="50%">
+	      <latex-image>
+		<xi:include parse="text" href="tex/10_10_grid.tex"/>
+	      </latex-image>
+	    </image>
+
+	    <image width="50%">
+	      <latex-image>
+		<xi:include parse="text" href="tex/10_10_grid.tex"/>
+	      </latex-image>
+	    </image>
+	    </sidebyside>
+	    <sidebyside>
+	      <image width="50%">
+		<latex-image>
+		  <xi:include parse="text" href="tex/10_10_grid.tex"/>
+		</latex-image>
+	      </image>
+	      <image width="50%">
+		<latex-image>
+		  <xi:include parse="text" href="tex/10_10_grid.tex"/>
+		</latex-image>
+	      </image>
+	    </sidebyside>
+	  </sbsgroup>
+	</statement>
+      </exercise>
+    </page>
   </worksheet>
 </section>
