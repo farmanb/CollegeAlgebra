@@ -137,7 +137,7 @@
       </statement>
     </algorithm>
 
-    <example>
+    <example component="web">
       <statement>
 	<p>
 	  Graph the function <m>f(x) = -2(x+1)^2 + 1</m>.
@@ -290,6 +290,43 @@
 	</figure>
       </solution>
     </example>
+
+    <worksheet component="notes">
+      <title/>
+      <example>
+	<statement>
+	  <p>
+	    Graph the function <m>f(x) = -2(x+1)^2 + 1</m>.
+	  </p>
+	  <sbsgroup>
+	    <sidebyside>
+	      <image width="50%">
+		<latex-image>
+		  <xi:include parse="text" href="tex/5_5_grid.tex"/>
+		</latex-image>
+	      </image>
+	      <image width="50%">
+		<latex-image>
+		  <xi:include parse="text" href="tex/5_5_grid.tex"/>
+		</latex-image>
+	      </image>
+	    </sidebyside>
+	    <sidebyside>
+	      <image width="50%">
+	      <latex-image>
+		<xi:include parse="text" href="tex/5_5_grid.tex"/>
+	      </latex-image>
+	      </image>
+	      <image width="50%">
+		<latex-image>
+		  <xi:include parse="text" href="tex/5_5_grid.tex"/>
+		</latex-image>
+	      </image>
+	    </sidebyside>
+	  </sbsgroup>
+	</statement>
+      </example>
+    </worksheet>
     
     <p>
       If we follow the vertex, we can see the first operation moves the point <m>(0,0)</m> to <m>(h,0)</m>.
@@ -477,7 +514,7 @@
       </p>
     </remark>
     
-    <example>
+    <example component="web">
       <statement>
 	<p>
 	  Find the vertex form of the quadratic function <m>f(x) = x^2 + 4x + 5</m>.
@@ -496,7 +533,8 @@
 	</p>
       </solution>
     </example>
-    <example>
+    
+    <example component="web">
       <statement>
 	<p>
 	  Find the vertex of the quadratic function <m>f(x) = 3x^2 - 4x + 5</m>.
@@ -519,6 +557,29 @@
 	</p>
       </solution>
     </example>
+
+    <worksheet component="notes">
+      <title/>
+      <page>
+	<example>
+	  <task workspace="4in">
+	    <statement>
+	      <p>
+		Find the vertex form of the quadratic function <m>f(x) = x^2 + 4x + 5</m>.
+	      </p>
+	    </statement>
+	  </task>
+
+	  <task workspace="4in">
+	    <statement>
+	      <p>
+		Find the vertex of the quadratic function <m>f(x) = 3x^2 - 4x + 5</m>.
+	      </p>
+	    </statement>
+	  </task>
+	</example>
+	</page>
+    </worksheet>
   </subsection>
 
   <subsection>
