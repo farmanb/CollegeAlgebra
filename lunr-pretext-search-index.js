@@ -1375,7 +1375,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.3",
   "title": "Linear Functions",
-  "body": " Linear Functions   In this section, we study a special kind of polynomial known as a linear function . As we will see, the name linear comes from the fact that the graph of such a function is always a line.    Linear Functions and Slope   Linear Function   A function is linear   Function  Linear  if the of is constant. That is, there exists a number such that for all numbers and  We call the number the slope   Function  Linear  Slope  of . The number is the -coordinate of the  .    In order to find the equation of a linear function, it is enough to know the slope, , and the value of the function for a single -value. The simplest point to find is the : the -coordinate is and the -coordinate is . If we write , then by  We obtain the equation for the function by solving the equation for in terms of     The Slope-Intercept Form of a Line  The slope-intercept form of a linear function   Function  Linear  Slope-Intercept Form  is where is the slope or average rate of change of .     Graphing Linear Functions  Consider a linear function with . Recall that the of an equation consists of all points that are a to the equation. The graph of a linear equation is always a line. We can graph the equation by finding any two points on the line and drawing a line through them. In general, the two points that are simplest to find are the two intercepts.  We find the by substituting for and solving the resulting equation for      The of the linear function with is the point       Find the -intercept of the linear equation .    To find the -intercept of the linear equation , we substitute for to get Therefore the -intercept of the linear equation is the point .    We find the by substituting for and solving the resulting equation for      Graph the equation .    In we found that is the -intercept for the function . The for the function is the point . To graph the equation , we simply need to plot these two points and draw a straight line through them.   The graph of .         "
+  "body": " Linear Functions   In this section, we study a special kind of polynomial known as a linear function . As we will see, the name linear comes from the fact that the graph of such a function is always a line.    Linear Functions and Slope   Linear Function   A function is linear   Function  Linear  if the of is constant. That is, there exists a number such that for all numbers and  We call the number the slope   Function  Linear  Slope  of . The number is the -coordinate of the  .    In order to find the equation of a linear function, it is enough to know the slope, , and the value of the function for a single -value. The simplest point to find is the : the -coordinate is and the -coordinate is . If we write , then by  We obtain the equation for the function by solving the equation for in terms of     The Slope-Intercept Form of a Line   The slope-intercept form of a linear function   Function  Linear  Slope-Intercept Form  is where is the slope or average rate of change of .      Graphing Linear Functions  Consider a linear function with . Recall that the of an equation consists of all points that are a to the equation. The graph of a linear equation is always a line. We can graph the equation by finding any two points on the line and drawing a line through them. In general, the two points that are simplest to find are the two intercepts.  We find the by substituting for and solving the resulting equation for      The of the linear function with is the point       Find the -intercept of the linear equation .   To find the -intercept of the linear equation , we substitute for to get Therefore the -intercept of the linear equation is the point .    Graph the equation .   In we found that is the -intercept for the function . The for the function is the point . To graph the equation , we simply need to plot these two points and draw a straight line through them.   The graph of .         "
 },
 {
   "id": "def-linear_function",
@@ -1393,7 +1393,7 @@ var ptx_lunr_docs = [
   "type": "Theorem",
   "number": "3.3.2",
   "title": "The Slope-Intercept Form of a Line.",
-  "body": " The Slope-Intercept Form of a Line  The slope-intercept form of a linear function   Function  Linear  Slope-Intercept Form  is where is the slope or average rate of change of .  "
+  "body": " The Slope-Intercept Form of a Line   The slope-intercept form of a linear function   Function  Linear  Slope-Intercept Form  is where is the slope or average rate of change of .   "
 },
 {
   "id": "thm-linear_x_intercept",
@@ -1411,16 +1411,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.3.4",
   "title": "",
-  "body": "  Find the -intercept of the linear equation .    To find the -intercept of the linear equation , we substitute for to get Therefore the -intercept of the linear equation is the point .   "
-},
-{
-  "id": "sec-linear_functions-4-7",
-  "level": "2",
-  "url": "sec-linear_functions.html#sec-linear_functions-4-7",
-  "type": "Example",
-  "number": "3.3.5",
-  "title": "",
-  "body": "  Graph the equation .    In we found that is the -intercept for the function . The for the function is the point . To graph the equation , we simply need to plot these two points and draw a straight line through them.   The graph of .       "
+  "body": "  Find the -intercept of the linear equation .   To find the -intercept of the linear equation , we substitute for to get Therefore the -intercept of the linear equation is the point .    Graph the equation .   In we found that is the -intercept for the function . The for the function is the point . To graph the equation , we simply need to plot these two points and draw a straight line through them.   The graph of .       "
 },
 {
   "id": "sec-lines",
@@ -1429,7 +1420,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.4",
   "title": "Representations of Lines",
-  "body": " Representations of Lines   In the previous section, we encountered linear functions and saw that we can express these functions in the form . When we graphed a linear function, we used two points to determine the line that represents the graph. We can reverse this process to find a linear function. The first step is to determine the slope. In doing this, we will find two other representations for lines.    The Slope of a Line through two Points   The Slope of a Line   The slope   Line  Slope  of the line through the points and is provided that . The slope measures the rate of change in with respect to , as depicted in .     The slope of the line through the points and .       In the definition of , we required that . While there is a line that passes through two distinct points with the same -coordinate, that line is a vertical line. Since a vertical line is not a function, the slope of a vertical line undefined.     Find the slope of the line through the points and .    The slope of the line through the points and is This says when the -coordinate increases by 1, the -coordinate decreases by 1.    Suppose we know the slope, , and a point that lines on the line. We can use the fact that is a to determine the -intercept. We substitute for and for in the and solve for :     The -intercept of the line with slope through the point is       Find the equation of the line through the points and .    In , we saw the slope of the line is . If we use the point , then we can find the -intercept by solving This tells us the equation of the line through and is .  We could also have used the point to find an equation of the line. If we use the point , then the -intercept is given by solving We can see that no matter which point we use, we obtain the same .      The Point-Slope Form of a Line  Assume we know the slope, , of a line and a point, , on the line. Suppose is any other point on the line. Since the slope of the line is constant, we can write to find the next form of a line.   The Point-Slope Form of a Line   The point-slope form of the line   Line  Point-Slope Form  through the point with slope is     This form of a line is convenient to use when we know the slope of a line and a point on the line.    Find the using the point and the slope .    Using , the equation of the line through with slope is       Find an equation for the line that passes through the points and .    We can use the to find the line between the points and . First compute the slope of the line Use either of the two points to find the equation   While these equations may look different, we can compare them by placing them in . For the first equation, add to both sides to get and for the second, add to both sides to get In this form, we can see that these equations represent the same line.      The Standard Equation of a Line  So far, we have only been interested in working with lines with a well-defined slope. Sometimes, it is convenient to work with lines that may be vertical. The standard equation of a line allows us to do just that.   Standard Equation of a Line   The standard equation of a line   Equation  Line  Standard  in the variables and is where and are not both zero.     Caution!  The standard equation of a line may not always represent an equation where is a function of ! If , then the standard equation of a line reduces to which is a vertical line.     Place the linear equation into .    The equation can be placed in standard form as follows. First, move the variables to the left-hand side of the equation. Subtract from both sides and distribute the negative Collect like terms and simplify Finally, subtract 7 from both sides of the equation and simplify to arrive at the standard form      Not all equations are linear. For example, the equation is not linear because of the term .    "
+  "body": " Representations of Lines   In the previous section, we encountered linear functions and saw that we can express these functions in the form . When we graphed a linear function, we used two points to determine the line that represents the graph. We can reverse this process to find a linear function. The first step is to determine the slope. In doing this, we will find two other representations for lines.    The Slope of a Line through two Points   The Slope of a Line   The slope   Line  Slope  of the line through the points and is provided that . The slope measures the rate of change in with respect to , as depicted in .     The slope of the line through the points and .       In the definition of , we required that . While there is a line that passes through two distinct points with the same -coordinate, that line is a vertical line. Since a vertical line is not a function, the slope of a vertical line undefined.   Suppose we know the slope, , and a point that lines on the line. We can use the fact that is a to determine the -intercept. We substitute for and for in the and solve for :     The -intercept of the line with slope through the point is       Find the slope of the line through the points and .   The slope of the line through the points and is This says when the -coordinate increases by 1, the -coordinate decreases by 1.    Find the equation of the line through the points and .   In Part , we saw the slope of the line is . If we use the point , then we can find the -intercept by solving This tells us the equation of the line through and is .  We could also have used the point to find an equation of the line. If we use the point , then the -intercept is given by solving We can see that no matter which point we use, we obtain the same .      The Point-Slope Form of a Line  Assume we know the slope, , of a line and a point, , on the line. Suppose is any other point on the line. Since the slope of the line is constant, we can write to find the next form of a line.   The Point-Slope Form of a Line   The point-slope form of the line   Line  Point-Slope Form  through the point with slope is     This form of a line is convenient to use when we know the slope of a line and a point on the line.    Find the using the point and the slope .    Using , the equation of the line through with slope is       Find an equation for the line that passes through the points and .    We can use the to find the line between the points and . First compute the slope of the line Use either of the two points to find the equation   While these equations may look different, we can compare them by placing them in . For the first equation, add to both sides to get and for the second, add to both sides to get In this form, we can see that these equations represent the same line.      The Standard Equation of a Line  So far, we have only been interested in working with lines with a well-defined slope. Sometimes, it is convenient to work with lines that may be vertical. The standard equation of a line allows us to do just that.   Standard Equation of a Line   The standard equation of a line   Equation  Line  Standard  in the variables and is where and are not both zero.     The standard equation of a line may not always represent as a function of ! If , then the standard equation of a line reduces to which is a vertical line.     Place the linear equation into standard form .    The equation can be placed in standard form as follows      "
 },
 {
   "id": "def-slope",
@@ -1450,29 +1441,20 @@ var ptx_lunr_docs = [
   "body": " The slope of the line through the points and .     "
 },
 {
-  "id": "sec-lines-3-4",
+  "id": "subsec-slope_of_line_through_two_pts-4",
   "level": "2",
-  "url": "sec-lines.html#sec-lines-3-4",
+  "url": "sec-lines.html#subsec-slope_of_line_through_two_pts-4",
   "type": "Remark",
   "number": "3.4.3",
   "title": "",
   "body": " In the definition of , we required that . While there is a line that passes through two distinct points with the same -coordinate, that line is a vertical line. Since a vertical line is not a function, the slope of a vertical line undefined.  "
 },
 {
-  "id": "example-find_slope",
-  "level": "2",
-  "url": "sec-lines.html#example-find_slope",
-  "type": "Example",
-  "number": "3.4.4",
-  "title": "",
-  "body": "  Find the slope of the line through the points and .    The slope of the line through the points and is This says when the -coordinate increases by 1, the -coordinate decreases by 1.   "
-},
-{
   "id": "thm-point_slope_intercept",
   "level": "2",
   "url": "sec-lines.html#thm-point_slope_intercept",
   "type": "Theorem",
-  "number": "3.4.5",
+  "number": "3.4.4",
   "title": "",
   "body": "  The -intercept of the line with slope through the point is    "
 },
@@ -1481,34 +1463,34 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lines.html#example-line_through_two_points",
   "type": "Example",
-  "number": "3.4.6",
+  "number": "3.4.5",
   "title": "",
-  "body": "  Find the equation of the line through the points and .    In , we saw the slope of the line is . If we use the point , then we can find the -intercept by solving This tells us the equation of the line through and is .  We could also have used the point to find an equation of the line. If we use the point , then the -intercept is given by solving We can see that no matter which point we use, we obtain the same .   "
+  "body": "  Find the slope of the line through the points and .   The slope of the line through the points and is This says when the -coordinate increases by 1, the -coordinate decreases by 1.    Find the equation of the line through the points and .   In Part , we saw the slope of the line is . If we use the point , then we can find the -intercept by solving This tells us the equation of the line through and is .  We could also have used the point to find an equation of the line. If we use the point , then the -intercept is given by solving We can see that no matter which point we use, we obtain the same .   "
 },
 {
   "id": "thm-point_slope",
   "level": "2",
   "url": "sec-lines.html#thm-point_slope",
   "type": "Theorem",
-  "number": "3.4.7",
+  "number": "3.4.6",
   "title": "The Point-Slope Form of a Line.",
   "body": " The Point-Slope Form of a Line   The point-slope form of the line   Line  Point-Slope Form  through the point with slope is    "
 },
 {
-  "id": "sec-lines-4-5",
+  "id": "subsec-point_slope-5",
   "level": "2",
-  "url": "sec-lines.html#sec-lines-4-5",
+  "url": "sec-lines.html#subsec-point_slope-5",
   "type": "Example",
-  "number": "3.4.8",
+  "number": "3.4.7",
   "title": "",
   "body": "  Find the using the point and the slope .    Using , the equation of the line through with slope is    "
 },
 {
-  "id": "sec-lines-4-6",
+  "id": "subsec-point_slope-6",
   "level": "2",
-  "url": "sec-lines.html#sec-lines-4-6",
+  "url": "sec-lines.html#subsec-point_slope-6",
   "type": "Example",
-  "number": "3.4.9",
+  "number": "3.4.8",
   "title": "",
   "body": "  Find an equation for the line that passes through the points and .    We can use the to find the line between the points and . First compute the slope of the line Use either of the two points to find the equation   While these equations may look different, we can compare them by placing them in . For the first equation, add to both sides to get and for the second, add to both sides to get In this form, we can see that these equations represent the same line.   "
 },
@@ -1517,36 +1499,27 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lines.html#def-linear_equation",
   "type": "Definition",
-  "number": "3.4.10",
+  "number": "3.4.9",
   "title": "Standard Equation of a Line.",
   "body": " Standard Equation of a Line   The standard equation of a line   Equation  Line  Standard  in the variables and is where and are not both zero.   "
 },
 {
-  "id": "sec-lines-5-4",
+  "id": "subsec-standard_eq_line-4",
   "level": "2",
-  "url": "sec-lines.html#sec-lines-5-4",
-  "type": "Remark",
+  "url": "sec-lines.html#subsec-standard_eq_line-4",
+  "type": "Warning",
+  "number": "3.4.10",
+  "title": "",
+  "body": " The standard equation of a line may not always represent as a function of ! If , then the standard equation of a line reduces to which is a vertical line.  "
+},
+{
+  "id": "subsec-standard_eq_line-5",
+  "level": "2",
+  "url": "sec-lines.html#subsec-standard_eq_line-5",
+  "type": "Example",
   "number": "3.4.11",
-  "title": "<em class=\"alert\">Caution!<\/em>",
-  "body": " Caution!  The standard equation of a line may not always represent an equation where is a function of ! If , then the standard equation of a line reduces to which is a vertical line.  "
-},
-{
-  "id": "sec-lines-5-5",
-  "level": "2",
-  "url": "sec-lines.html#sec-lines-5-5",
-  "type": "Example",
-  "number": "3.4.12",
   "title": "",
-  "body": "  Place the linear equation into .    The equation can be placed in standard form as follows. First, move the variables to the left-hand side of the equation. Subtract from both sides and distribute the negative Collect like terms and simplify Finally, subtract 7 from both sides of the equation and simplify to arrive at the standard form    "
-},
-{
-  "id": "sec-lines-5-6",
-  "level": "2",
-  "url": "sec-lines.html#sec-lines-5-6",
-  "type": "Example",
-  "number": "3.4.13",
-  "title": "",
-  "body": " Not all equations are linear. For example, the equation is not linear because of the term .  "
+  "body": "  Place the linear equation into standard form .    The equation can be placed in standard form as follows    "
 },
 {
   "id": "sec-perp_parallel",
