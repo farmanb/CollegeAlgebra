@@ -3,225 +3,295 @@
 <section xml:id="sec-perp_parallel" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Parallel and Perpendicular Lines</title>
 
-  <definition xml:id="def-parallel">
-    <title>Parallel</title>
-    <statement>
-      <p>
-	Two lines in the Cartesian plane are said to be <term>parallel</term>
-	<idx>
-	  <h>Line</h>
-	  <h>Parallel</h>
-	</idx>
-	if they do not intersect.
-      </p>
-    </statement>
-  </definition>
+  <subsection xml:id="subsec-parallel">
+    <title>Parallel Lines</title>
+    <definition xml:id="def-parallel">
+      <title>Parallel Lines</title>
+      <statement>
+	<p>
+	  Two lines in the Cartesian plane are said to be <term>parallel</term>
+	  <idx>
+	    <h>Line</h>
+	    <h>Parallel</h>
+	  </idx>
+	  if they do not intersect.
+	</p>
+      </statement>
+    </definition>
 
-  <figure xml:id="fig-parallel_lines">
-    <caption>Parallel lines.</caption>
-    <image xml:id="img-parallel_lines">
-      <latex-image xml:id="tikz-parallel_lines">
-	<xi:include parse="text" href="tex/parallel.tex"/>
-      </latex-image>
-    </image>
-  </figure>
+    <figure xml:id="fig-parallel_lines">
+      <caption>Parallel lines.</caption>
+      <image xml:id="img-parallel_lines">
+	<latex-image xml:id="tikz-parallel_lines">
+	  <xi:include parse="text" href="tex/parallel.tex"/>
+	</latex-image>
+      </image>
+    </figure>
 
-  <theorem xml:id="thm-parallel">
-    <statement>
-      <p>
-	Two lines are parallel if and only if they have the same slope.
-      </p>
-    </statement>
-  </theorem>
+    <theorem xml:id="thm-parallel">
+      <statement>
+	<p>
+	  Two lines are parallel if and only if they have the same slope.
+	</p>
+      </statement>
+    </theorem>
 
-  <example>
-    <statement>
-      <p>
-	Determine whether the lines
-	<me>
-	  -x + 3y=-4
+    <example component="web">
+      <statement>
+	<p>
+	  Determine whether the lines
+	  <me>
+	    -x + 3y=-4
+	    \quad\text{and}\quad
+	    -4x + 12y = 9
+	  </me>
+	  are parallel.
+	</p>
+      </statement>
+
+      <solution>
+	<p>
+	  In order to determine whether these lines are parallel, we need to find the slope of each line.
+	  We do this by placing each line into <xref ref="thm-slope_intercept" text="custom">slope-intercept form</xref>.
+	</p>
+	<p>
+	  For the first line,
+	  <md>
+	    <mrow>\amp -x + 3y = -4 \amp\amp \text{Add}\ x\ \text{to both sides}</mrow>
+	    <mrow>\amp 3y = x - 4 \amp\amp \text{Divide both sides by}\ 3</mrow>
+	    <mrow>\amp y = \frac{1}{3} - \frac{4}{3}</mrow>
+	  </md>
+	  This tells us the slope of the line <m>-x + 3y = -4</m> is <m>1/3</m>.
+	</p>
+	<p>
+	  For the second line,
+	  <md>
+	    <mrow>\amp -4x + 12y = 9 \amp\amp \text{Add}\ 4x\ \text{to both sides}</mrow>
+	    <mrow>\amp 12y = 4x + 9 \amp\amp \text{Divide both sides by}\ 12</mrow>
+	    <mrow>\amp y = \frac{4}{12}x + \frac{9}{12} \amp\amp\text{Simplify}</mrow>
+	    <mrow>\amp y = \frac{1}{3}x + \frac{3}{4}</mrow>
+	  </md>
+	  This tells us the slope of the line <m>-4x + 12y = 9</m> is also <m>1/3</m>.
+	  Therefore the lines <m>-x + 3y = -4</m> and <m>-4x + 12y = 9</m> are parallel by <xref ref="thm-parallel"/>.
+	</p>
+      </solution>
+    </example>
+
+    <example component="web">
+      <statement>
+	<p>
+	  Find the equation of the line parallel to <m>4x + 2y = 9</m> that passes through the point <m>(-1,5)</m>.
+	  Write your answer in <xref ref="thm-slope_intercept" text="custom">slope-intercept form</xref>.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  First, find the slope of the line <m>4x + 2y = 9</m> by placing the equation into <xref ref="thm-slope_intercept" text="title"/>.
+	  <md>
+	    <mrow>\amp 4x + 2y = 9 \amp\amp \text{Subtract}\ 4x\ \text{from both sides}</mrow>
+	    <mrow>\amp 2y = -4x + 9 \amp\amp \text{Divide both sides by}\ 2</mrow>
+	    <mrow>\amp y = -\frac{4}{2}x + \frac{9}{2} \amp\amp \text{Simplify}</mrow>
+	    <mrow>\amp y = -2x + \frac{9}{2}</mrow>
+	  </md>
+	  In this form, we see the slope of the line is <m>-2</m>.
+	</p>
+	<p>
+	  By <xref ref="thm-parallel"/>, the slope of a line parallel to <m>4x + 2y = 9</m> is <m>-2</m>.
+	  Now we use <xref ref="thm-point_slope" text="custom">point-slope form</xref> to write down a line with slope <m>-2</m> through the point <m>(-1,5)</m>:
+	  <md>
+	    <mrow>\amp y - 5 = -2(x - (-1)) \amp\amp\text{Simplify}</mrow>
+	    <mrow>y - 5 = -2(x + 1)</mrow>
+	  </md>
+	  Finally, convert to <xref ref="thm-slope_intercept" text="custom">slope-intercept form</xref>
+	  <md>
+	    <mrow>\amp y - 5 = -2(x + 1) \amp\amp \text{Distribute the}\ -2</mrow>
+	    <mrow>\amp y - 5 = -2x - 2 \amp\amp\text{Add}\ 5\ \text{to both sides}</mrow>
+	    <mrow>\amp y = -2x -2 + 5 \amp\amp\text{Simplify}</mrow>
+	    <mrow>y = -2x + 3</mrow>
+	  </md>
+	</p>
+      </solution>
+    </example>
+
+    <worksheet component="notes">
+      <title/>
+      <page>
+	<example>
+	  <task workspace="4in">
+	    <statement>
+	      <p>
+		Determine whether the lines
+		<me>
+		  -x + 3y=-4
+		  \quad\text{and}\quad
+		  -4x + 12y = 9
+		</me>
+		are parallel.
+	      </p>
+	    </statement>
+	  </task>
+
+	  <task workspace="4in">
+	    <statement>
+	      <p>
+		Find the equation of the line parallel to <m>4x + 2y = 9</m> that passes through the point <m>(-1,5)</m>.
+		Write your answer in <xref ref="thm-slope_intercept" text="custom">slope-intercept form</xref>.
+	      </p>
+	    </statement>
+	  </task>
+	</example>
+      </page>
+    </worksheet>
+  </subsection>
+
+  <subsection xml:id="subsec-perpendicular">
+    <title>Perpendicular Lines</title>
+
+    <definition xml:id="def-perpendicular">
+      <title>Perpendicular Lines</title>
+      <statement>
+	<p>
+	  Two lines are <term>perpendicular</term>
+	  <idx>
+	    <h>Line</h>
+	    <h>Perpendicular</h>
+	  </idx>
+	  if they intersect at a right angle.
+	</p>
+      </statement>
+    </definition>
+    
+    <figure xml:id="fig-perpendicular_lines">
+      <caption>Perpendicular lines.</caption>
+      <image xml:id="img-perpendicular_lines">
+	<latex-image xml:id="tikz-perpendicular_lines">
+	  <xi:include parse="text" href="tex/perpendicular.tex"/>
+	</latex-image>
+      </image>
+    </figure>
+
+    <theorem xml:id="thm-perpendicular">
+      <statement>
+	<p>
+	  Two lines are perpendicular if and only if the product of their slopes is <m>-1</m>.
+	</p>
+      </statement>
+    </theorem>
+
+    <example component="web">
+      <statement>
+	<p>
+	  Determine whether the lines
+	  <me>3x + 5y = 7
 	  \quad\text{and}\quad
-	  -4x + 12y = 9
-	</me>
-	are parallel.
-      </p>
-    </statement>
+	  -5x + 3y = 21
+	  </me>
+	  are perpendicular.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  First we place the lines in <xref ref="thm-slope_intercept" text="custom">slope-intercept form</xref> to find the slopes.
+	  The first equation becomes
+	  <md>
+	    <mrow>\amp 3x + 5y = 7 \amp \amp \text{Subtract}\ 3x\ \text{from both sides}</mrow>
+	    <mrow>\amp 5y = -3x + 7 \amp\amp \text{Divide both sides by}\ 5</mrow>
+	    <mrow>\amp y = \frac{-3x + 7}{5} \amp\amp \text{Simplify}</mrow>
+	    <mrow>\amp y = -\frac{3}{5}x + \frac{7}{5}</mrow>
+	  </md>
+	  In this form, we can read off the slope of the line as <m>-3/5.</m>
+	</p>
+	<p>
+	  The second equation becomes
+	  <md>
+	    <mrow>\amp -5x + 3y = 21 \amp\amp \text{Add}\ 5x\ \text{to both sides}</mrow>
+	    <mrow>\amp 3y = 5x + 21 \amp\amp \text{Divide both sides by}\ 3</mrow>
+	    <mrow>\amp y = \frac{5x + 21}{3} \amp\amp \text{Simplify}</mrow>
+	    <mrow>\amp y = \frac{5}{3}x + 7</mrow>
+	  </md>
+	  In this form, we can read off the slope of the line as <m>5/3</m>.
+	</p>
+	<p>
+	  Finally, to check whether these lines are parallel, we compute the product of these slopes.
+	  Since
+	  <me>-\frac{3}{5} \times \frac{5}{3} = -\frac{15}{15} = -1</me>
+	  we conclude that these lines are perpendicular by <xref ref="thm-perpendicular"/>.
+	</p>
+      </solution>
+    </example>
 
-    <solution>
-      <p>
-	In order to determine whether these lines are parallel, we need to find the slope of each line.
-	We do this by placing each line into <xref ref="thm-slope_intercept" text="title"/>.
-      </p>
-      <p>
-	For the first line, add <m>x</m> to both sides
-	<me>3y = x - 4</me>
-	and divide both sides by <m>3</m>
-	<me>y = \frac{1}{3} - \frac{4}{3}.</me>
-	This tells us the slope of the line <m>-x + 3y = -4</m> is <m>1/3</m>.
-      </p>
-      <p>
-	For the second line, add <m>4x</m> to both sides
-	<me>12y = 4x + 9,</me>
-	divide both sides by <m>12</m>
-	<me>y = \frac{4}{12}x + \frac{9}{12}</me>
-	and reduce
-	<me>y = \frac{1}{3}x + \frac{3}{4}.</me>
-	This tells the slope of the line <m>-4x + 12y = 9</m> is also <m>1/3</m>.
-	Therefore the lines <m>-x + 3y = -4</m> and <m>-4x + 12y = 9</m> are parallel by <xref ref="thm-parallel"/>.
-      </p>
-    </solution>
-  </example>
+    <example component="web">
+      <statement>
+	<p>
+	  Find the equation of a line perpendicular to <m>2x + 3y = 5</m> that passes through the point <m>(3,5)</m>.
+	  Write your answer in <xref ref="thm-slope_intercept" text="custom"> slope-intercept form</xref>.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  First, place the line in <xref ref="thm-slope_intercept" text="custom">slope-intercept form</xref>
+	  <md>
+	    <mrow>\amp 2x + 3y = 5 \amp\amp \text{Subtract}\ 2x\ \text{from both sides}</mrow>
+	    <mrow>\amp 3y = -2x + 5 \amp\amp \text{Divide both sides by}\ 3</mrow>
+	    <mrow>\amp y = \frac{-2x + 5}{3} \amp\amp \text{Simplify}</mrow>
+	    <mrow>\amp y = -\frac{2}{3}x + \frac{5}{3}.</mrow>
+	  </md>
+	  We can read off the slope as <m>-2/3</m> from this equation.
+	</p>
+	<p>
+	  To find the slope, <m>m</m>, of a perpendicular line, <xref ref="thm-perpendicular"/> tells us we must solve the equation
+	  <me>-\frac{2}{3} m = -1</me>
+	  for <m>m</m>:
+	  <md>
+	    <mrow>\amp -\frac{2}{3} m = -1 \amp\amp \text{Multiply both sides by}\ -\frac{3}{2}</mrow>
+	    <mrow>\amp -\frac{3}{2}\left(-\frac{2}{3}m\right) = -\frac{3}{2}\left(-1\right) \amp\amp \text{Simplify}</mrow>
+	    <mrow>\amp m = \frac{3}{2}.</mrow>
+	  </md>
+	</p>
+	<p>
+	  Using <xref ref="thm-point_slope" text="custom">point-slope form</xref>, the equation of the line perpendicular to <m>2x + 3y = 5</m> that passes through the point <m>(3,5)</m> is
+	  <me>y - 5 = \frac{3}{2}(x - 3).</me>
+	  Finally, we convert to <xref ref="thm-slope_intercept" text="custom">slope-intercept form</xref>
+	  <md>
+	    <mrow>\amp y - 5 = \frac{3}{2}(x - 3) \amp \amp \text{Distribute}</mrow>
+	    <mrow>\amp y - 5 = \frac{3}{2}x - \frac{9}{2} \amp\amp \text{Add}\ 5\ \text{to both sides}</mrow>
+	    <mrow>\amp y = \frac{3}{2}x - \frac{9}{2} + 5 \amp\amp \text{Find a common denominator}</mrow>
+	    <mrow>\amp y = \frac{3}{2} x - \frac{9}{2} + \frac{10}{2} \amp \amp \text{Simplify}</mrow>
+	    <mrow>\amp y = \frac{3}{2}x + \frac{1}{2}.</mrow>
+	  </md>
+	</p>
+      </solution>
+    </example>
 
-  <example>
-    <statement>
-      <p>
-	Find the equation of the line parallel to <m>4x + 2y = 9</m> that passes through the point <m>(-1,5)</m>.
-	Write your answer in <xref ref="thm-slope_intercept" text="title"/>
-      </p>
-    </statement>
-    <solution>
-      <p>
-	First, find the slope of the line <m>4x + 2y = 9</m> by placing the equation into <xref ref="thm-slope_intercept" text="title"/>.
-	Subtract <m>4x</m> from both sides
-	<me>2y = -4x + 9,</me>
-	divide both sides by <m>2</m>
-	<me>y = -\frac{4}{2}x + \frac{9}{2}</me>
-	and simplify to
-	<me>y = -2x + \frac{9}{2}.</me>
-	In this form, we see the slope of the line is <m>-2.</m>
-      </p>
-      <p>
-	By <xref ref="thm-parallel"/>, the slope of a line parallel to <m>4x + 2y = 9</m> is <m>-2</m>.
-	Now we use <xref ref="thm-point_slope"/> to write down a line with slope <m>-2</m> through the point <m>(-1,5)</m>
-	<me>y - 5 = -2(x - (-1))</me>
-	and simplify
-	<me>y - 5 = -2(x + 1).</me>
-      </p>
-      <p>
-	Finally, to put this line into <xref ref="thm-slope_intercept" text="title"/>, distribute the <m>-2</m>
-	<me>y - 5 = -2x - 2,</me>
-	add 5 to both sides of the equation
-	<me>y = -2x -2 + 5,</me>
-	and simplify
-	<me>y = -2x + 3.</me>
-      </p>
-    </solution>
-  </example>
-
-  <definition xml:id="def-perpendicular">
-    <statement>
-      <p>
-	Two lines are <term>perpendicular</term>
-	<idx>
-	  <h>Line</h>
-	  <h>Perpendicular</h>
-	</idx>
-	if they intersect at a right angle.
-      </p>
-    </statement>
-  </definition>
+    <worksheet component="notes">
+      <title/>
+      <page>
+	<example>
+	  <task workspace="4in">
+	    <statement>
+	      <p>
+		Determine whether the lines
+		<me>3x + 5y = 7
+		\quad\text{and}\quad
+		-5x + 3y = 21
+		</me>
+		are perpendicular.
+	      </p>
+	    </statement>
+	  </task>
+	  
+	  <task workspace="4in">
+	    <statement>
+	      <p>
+		Find the equation of a line perpendicular to <m>2x + 3y = 5</m> that passes through the point <m>(3,5)</m>.
+		Write your answer in <xref ref="thm-slope_intercept" text="custom"> slope-intercept form</xref>.
+	      </p>
+	    </statement>
+	  </task>
+	</example>
+      </page>
+    </worksheet>
+  </subsection>
   
-  <figure xml:id="fig-perpendicular_lines">
-    <caption>Perpendicular lines.</caption>
-    <image xml:id="img-perpendicular_lines">
-      <latex-image xml:id="tikz-perpendicular_lines">
-	<xi:include parse="text" href="tex/perpendicular.tex"/>
-      </latex-image>
-    </image>
-  </figure>
-
-  <theorem xml:id="thm-perpendicular">
-    <statement>
-      <p>
-	Two lines are perpendicular if and only if the product of their slopes is <m>-1</m>.
-      </p>
-    </statement>
-  </theorem>
-
-  <example>
-    <statement>
-      <p>
-	Determine whether the lines
-	<me>3x + 5y = 7
-	\quad\text{and}\quad
-	-5x + 3y = 21
-	</me>
-	are perpendicular.
-      </p>
-    </statement>
-    <solution>
-      <p>
-	First we must place the lines in <xref ref="thm-slope_intercept" text="title"/> to find the slopes.
-	The first equation becomes
-	<md>
-	  <mrow>3x + 5y \amp= 7 \amp \amp \text{Subtract}\ 3x\ \text{from both sides}</mrow>
-	  <mrow>5y \amp= -3x + 7 \amp\amp \text{Divide both sides by}\ 5</mrow>
-	  <mrow>y \amp= \frac{-3x + 7}{5} \amp\amp \text{Simplify}</mrow>
-	  <mrow>y \amp = -\frac{3}{5}x + \frac{7}{5}.</mrow>
-	</md>
-	In this form, we can read off the slope of the line as <m>-3/5.</m>
-      </p>
-      <p>
-	The second equation becomes
-	<md>
-	  <mrow> -5x + 3y \amp = 21 \amp\amp \text{Add}\ 5x\ \text{to both sides}</mrow>
-	  <mrow>3y \amp= 5x + 21 \amp\amp \text{Divide both sides by}\ 3</mrow>
-	  <mrow>y \amp = \frac{5x + 21}{3} \amp\amp \text{Simplify}</mrow>
-	  <mrow>y \amp = \frac{5}{3}x + 7.</mrow>
-	</md>
-	In this form, we can read off the slop of the line as <m>5/3</m>.
-      </p>
-      <p>
-	Finally, to check whether these lines are parallel, we compute the product of these slopes.
-	Since
-	<me>-\frac{3}{5} \times \frac{5}{3} = -\frac{15}{15} = -1</me>
-	we conclude that these lines are perpendicular by <xref ref="thm-perpendicular"/>.
-      </p>
-    </solution>
-  </example>
-
-  <example>
-    <statement>
-      <p>
-	Find the equation of a line perpendicular to <m>2x + 3y = 5</m> that passes through the point <m>(3,5)</m>.
-	Write your answer in <xref ref="thm-slope_intercept" text="title"/> form.
-      </p>
-    </statement>
-    <solution>
-      <p>
-	First, place the line in <xref ref="thm-slope_intercept" text="title"/>
-	<md>
-	  <mrow>2x + 3y \amp= 5 \amp\amp \text{Subtract}\ 2x\ \text{from both sides}</mrow>
-	  <mrow>3y \amp = -2x + 5 \amp\amp \text{Divide both sides by}\ 3</mrow>
-	  <mrow>y \amp = \frac{-2x + 5}{3} \amp\amp \text{Simplify}</mrow>
-	  <mrow>y \amp = -\frac{2}{3}x + \frac{5}{3}.</mrow>
-	</md>
-	We can read off the slope as <m>-2/3</m> from this equation.
-      </p>
-      <p>
-	To find the slope, <m>m</m>, of a perpendicular line, <xref ref="thm-perpendicular"/> tells us we must solve the equation
-	<me>-\frac{2}{3} m = -1</me>
-	for <m>m</m>:
-	<md>
-	  <mrow>-\frac{2}{3} m \amp= -1 \amp\amp \text{Multiply both sides by}\ -\frac{3}{2}</mrow>
-	  <mrow>-\frac{3}{2}\left(-\frac{2}{3}m\right) \amp = -\frac{3}{2}\left(-1\right) \amp\amp \text{Simplify}</mrow>
-	  <mrow>m \amp = \frac{3}{2}.</mrow>
-	</md>
-      </p>
-      <p>
-	Using <xref ref="thm-point_slope" text="title"/>, the equation of the line perpendicular to <m>2x + 3y = 5</m> that passes through the point <m>(3,5)</m> is
-	<me>y - 5 = \frac{3}{2}(x - 3).</me>
-	Finally, we convert to <xref ref="thm-slope_intercept" text="title"/>
-	<md>
-	  <mrow>y - 5 \amp= \frac{3}{2}(x - 3) \amp \amp \text{Distribute}</mrow>
-	  <mrow>y - 5 \amp = \frac{3}{2}x - \frac{9}{2} \amp\amp \text{Add}\ 5\ \text{to both sides}</mrow>
-	  <mrow>y \amp = \frac{3}{2}x - \frac{9}{2} + 5 \amp\amp \text{Find a common denominator}</mrow>
-	  <mrow>y \amp = \frac{3}{2} x - \frac{9}{2} + \frac{10}{2} \amp \amp \text{Simplify}</mrow>
-	  <mrow>y \amp = \frac{3}{2}x + \frac{1}{2}.</mrow>
-	</md>
-      </p>
-    </solution>
-  </example>
-
   <xi:include href="worksheets/wksht-parallel_perpendicular.ptx"/>
 </section>
