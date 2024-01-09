@@ -3,7 +3,7 @@
 <section xml:id="sec-inequalities" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Polynomial Inequalities</title>
 
-  <introduction>
+  <introduction xml:id="inequalities-intro">
     <p>
       We have focused primarily on solving equations of the form
       <me>f(x) = 0</me>
@@ -39,7 +39,7 @@
     </p>
   </introduction>
 
-  <subsection>
+  <subsection xml:id="subsec-solutions_to_inequalities">
     <title>Solutions to Inequalities</title>
     <p>
       First we start with what it means to be a solution to an inequality.
@@ -87,7 +87,7 @@
     </p>
   </subsection>
 
-  <subsection>
+  <subsection xml:id="subsec-alg_solutions_polynomial_ineq">
     <title>Solving Polynomial Inequalities Algebraically</title>
     <p>
       The first method is purely algebraic.
@@ -148,7 +148,7 @@
       </statement>
     </algorithm>
 
-    <example>
+    <example component="web">
       <statement>
 	<p>
 	  Find all solutions to the inequality
@@ -242,16 +242,29 @@
 	</p>
       </solution>
     </example>
+
+    <worksheet component="notes">
+      <title/>
+      <example>
+	<statement>
+	  <p>
+	    Find all solutions to the inequality
+	    <me>(x + 4)(x + 2)x(x-2)(x-5) \leq 0.</me>
+	  </p>
+	</statement>
+      </example>
+    </worksheet>
+    
   </subsection>
 
-  <subsection>
+  <subsection xml:id="subsec-solving_polynomial_ineq_graphically">
     <title>Solving Polynomial Inequalities Graphically</title>
     <p>
       Solving polynomial inequalities graphically is significantly simpler.
       However, it has the disadvantage that it requires you to be able to sketch the graph of the polynomial function.
     </p>
 
-    <example>
+    <example component="web">
       <statement>
 	<p>
 	  Find all the values of <m>x</m> that satisfy the inequality
@@ -301,6 +314,19 @@
 	</figure>
       </solution>
     </example>
+
+    <worksheet component="notes">
+      <title/>
+      <example>
+	<statement>
+	  <p>
+	    Find all the values of <m>x</m> that satisfy the inequality
+	    <me>x^2 \lt 6 - x.</me>
+	  </p>
+	</statement>
+      </example>
+    </worksheet>
+    
   </subsection>
 
   <worksheet xml:id="wkst-polynomial_inequalities" component="notes">
@@ -350,7 +376,7 @@
 	  </p>
 	  <figure xml:id="fig-poly_ineq_graph">
 	    <caption>The graph of <m>y = f(x)</m></caption>
-	    <image xml:id="img-poly_ineq_graph">
+	    <image xml:id="img-poly_ineq_graph" width="50%">
 	      <latex-image xml:id="tikz-poly_ineq_graph">
 		\begin{tikzpicture}
 		\def\size{5}
