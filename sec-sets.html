@@ -149,10 +149,10 @@ window.MathJax = {
 </ul>
 </li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-cartesian_coordinates-midpoint.html" class="internal"><span class="codenumber">1.5</span> <span class="title">The Midpoint Formula</span></a></div>
+<div class="toc-title-box"><a href="sec-midpoint.html" class="internal"><span class="codenumber">1.5</span> <span class="title">The Midpoint Formula</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-cartesian_coordinates-midpoint.html#sec-cartesian_coordinates-midpoint-3" class="internal"><span class="codenumber">1.5.1</span> <span class="title">Midpoint in One Dimension</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-cartesian_coordinates-midpoint.html#sec-cartesian_coordinates-midpoint-4" class="internal"><span class="codenumber">1.5.2</span> <span class="title">Midpoitn in Two Dimensions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-midpoint.html#subsec-midpoint_one_dimension" class="internal"><span class="codenumber">1.5.1</span> <span class="title">Midpoint in One Dimension</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-midpoint.html#sec-midpoint-4" class="internal"><span class="codenumber">1.5.2</span> <span class="title">Midpoitn in Two Dimensions</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-circles.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Circles</span></a></div></li>
@@ -162,11 +162,11 @@ window.MathJax = {
 <div class="toc-title-box"><a href="ch-functions.html" class="internal"><span class="codenumber">2</span> <span class="title">Functions and Graphs</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-relations.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Functions</span></a></div>
+<div class="toc-title-box"><a href="sec-functions.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Functions</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-relations.html#sec-relations-3" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Algebraic Functions</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-relations.html#sec-relations-4" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Comparing Functions</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-relations.html#sec-relations-5" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Graphing Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-functions.html#subsec-algebraic_functions" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Algebraic Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-functions.html#sec-functions-4" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Comparing Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-functions.html#sec-functions-5" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Graphing Functions</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
@@ -372,7 +372,7 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-sets"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">1.1</span><span class="space"> </span><span class="title">Sets</span>
 </h2>
-<section class="introduction" id="sets-intro"><div class="para" id="sets-intro-1">In the sciences, knowledge is often derived from experimentation in a process known as <em class="emphasis">inductive reasoning</em>. While these methods may provide insight into a problem, inductive reasoning is <em class="alert">not</em> a valid method of producing mathematical truth. Instead, mathematics produces new knowledge from known truths using logical inference in a process known as <em class="emphasis">deductive reasoning</em>. In fact, all mathematical knowledge is derived from only <em class="emphasis">nine</em> statements that are assumed to be true — called <dfn class="terminology">axioms</dfn>. These axioms and the truths derived from them are known as <a class="external" href="https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory" target="_blank">Zermelo-Fraenkel Set Theory</a><a class="xref" id="sets-intro-1-8" href="" data-knowl="./knowl/fn/sets-intro-1-8.html" title="Footnote 1.1.1"><sup> 1 </sup></a>.</div> <div class="para" id="sets-intro-2">For this reason, sets and set operations are unavoidable in any careful treatment of mathematics. While our treatment of algebra is careful, this is <em class="alert">not</em> meant a course on the foundations of mathematics. We present here the rudiments of a set theory that includes only the pieces absolutely necessary for the development of the material relevant to basic algebra. We begin with the intuitive definition of a set.</div></section><section class="subsection" id="subsec-representation_of_sets"><h3 class="heading hide-type">
+<section class="introduction" id="sets-intro"><div class="para" id="sets-intro-1">In the sciences, knowledge is often derived from experimentation in a process known as <em class="emphasis">inductive reasoning</em>. While these methods may provide insight into a problem, inductive reasoning is <em class="alert">not</em> a valid method of producing mathematical truth. Instead, mathematics produces new knowledge from known truths using logical inference in a process known as <em class="emphasis">deductive reasoning</em>. In fact, all mathematical knowledge is derived from only <em class="emphasis">nine</em> statements that are assumed to be true — called <dfn class="terminology">axioms</dfn>. These axioms and the truths derived from them are known as <a class="external" href="https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory" target="_blank">Zermelo-Fraenkel Set Theory</a><a class="xref" id="sets-intro-1-8" href="" data-knowl="./knowl/fn/sets-intro-1-8.html" title="Footnote 1.1.1"><sup> 1 </sup></a>.</div> <div class="para" id="sets-intro-2">For this reason, sets and set operations are unavoidable in any careful treatment of mathematics. While our treatment of algebra is careful, this is <em class="alert">not</em> meant to be a course on the foundations of mathematics. We present here the rudiments of a set theory that includes only the pieces absolutely necessary for the development of the material relevant to basic algebra. We begin with the intuitive definition of a set.</div></section><section class="subsection" id="subsec-representation_of_sets"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.1</span><span class="space"> </span><span class="title">Representations of Sets</span>
 </h3>
 <article class="definition definition-like" id="def-set"><h4 class="heading">
