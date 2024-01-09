@@ -14,5 +14,6 @@
       <stringparams author.tools="no"/>
     </target>
     <target name="print-latex" format="latex"/>
+    <target name="notes" format="pdf" output-dir="notes" publication="notes.ptx"/>
   </targets>
 </project>
