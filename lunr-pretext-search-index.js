@@ -1626,8 +1626,8 @@ var ptx_lunr_docs = [
   "url": "sec-linear_ineq.html",
   "type": "Section",
   "number": "3.6",
-  "title": "Linear Inequalities",
-  "body": " Linear Inequalities   Linear Inequality   A linear inequality   Inequality  Linear  in the variables and is an expression that can be placed in one of the following forms  ,  ,  , or  .       Solution to an Inequality   A solution   Inequality  Linear  Solution  to an inequality in the variables and is an ordered pair that make the equation true when  the first coordinate, , is substituted into the inequality for , and  the second coordinate, , is substituted into the inequality for .       Graph of an Inequality   The graph   Inequality  Linear  Graph  of an inequality in the variables and consists of all the points in the plane that are solutions to the inequality.      Graph the linear inequality     The graph of consists of all the points that are below the line .  We use a dashed line to indicate the points on the line are not a solution to the inequality and shade the portion of the plane beneath the line to indicate those points are solutions to the inequality.   The graph of the linear inequality .          Graph the linear inequality     The graph of consists of all the points that are on or below the line .  We use a solid line to indicate the points on the line are a solution to the linear inequality and shade the portion of the plane beneath the line to indicate that those points are also solutions.   The graph of the linear inequality .          Graph the linear inequality     The graph of consists of all the points that are above the line .  We use a dashed line to indicate the points on the line are not solutions to the inequality and shade the portion of the plane above the line to indicate that those points are solutions.   The graph of the linear inequality .          Graph the linear inequality     The graph of consists of all the points that are either on or above the line .  We use a solid line to indicate the points on the line are solutions to the linear inequality and shade the portion of the plane above the line to indicate that those points are also solutions.   The graph of the linear inequality .         Absolute Value and Inequality   Linear Absolute Value Inequality   A linear absolute value inequality   Inequality  Linear  Absolute Value  in the variables and is an expression that can be placed in one of the following forms   ,   ,   , or   .      Recall from , for any number , measures the distance between and the origin on the number line. We can see from that and are the same distance from the origin.   The distance between and the origin, and between and the origin.      This observation tells us for an linear absolute value inequality of the form , we are looking for the points in the plane such that the number is less than units away from 0 on the number line. From we can see these are the solutions to both  If we rewrite these as the linear inequalities then we can see the solutions to are the points that are above the line and below the line . Similarly, the solutions to are the points that are either on or between the lines and below the line .  For an linear absolute value inequality of the form , the observation above tells us we are looking for the points in the plane such that the number is more than units away from 0 on the number line. From we can see these are solutions to either  If we rewrite these as the liner inequalities then we can see the solutions to are the points that are below the line or above the line . Similarly, the solutions to the linear absolute value inequality are the points that are either on or below the line or on or above the line .    Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to both of the linear inequalities This means the graph is the overlap between and . That is, the points that are between the lines    The graph of the linear absolute value inequality .          Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to both of the linear inequalities This means the graph is the overlap between and . That is, the points that are either on or between the lines    The graph of the linear absolute value inequality .          Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to either  This means the graph is the combination of the graphs for the linear inequalities That is, the points that are either above the line or below the line .   The graph of the linear absolute value inequality .          Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to either the linear inequality or the linear inequality This means the graph is the combination of the graphs for the linear inequalities That is, the points that are either on or above the line , or on or below the line .   The graph of the linear absolute value inequality .         "
+  "title": "Linear and Absolute Value Inequalities",
+  "body": " Linear and Absolute Value Inequalities   Linear Inequalities   Linear Inequality   A linear inequality   Inequality  Linear  in the variables and is an expression that can be placed in one of the following forms  ,  ,  , or  .       Solution to an Inequality   A solution   Inequality  Linear  Solution  to an inequality in the variables and is an ordered pair that make the equation true when  the first coordinate, , is substituted into the inequality for , and  the second coordinate, , is substituted into the inequality for .       Graph of an Inequality   The graph   Inequality  Linear  Graph  of an inequality in the variables and consists of all the points in the plane that are solutions to the inequality.      Graph the linear inequality     The graph of consists of all the points that are below the line .  We use a dashed line to indicate the points on the line are not a solution to the inequality and shade the portion of the plane beneath the line to indicate those points are solutions to the inequality.   The graph of the linear inequality .          Graph the linear inequality     The graph of consists of all the points that are on or below the line .  We use a solid line to indicate the points on the line are a solution to the linear inequality and shade the portion of the plane beneath the line to indicate that those points are also solutions.   The graph of the linear inequality .          Graph the linear inequality     The graph of consists of all the points that are above the line .  We use a dashed line to indicate the points on the line are not solutions to the inequality and shade the portion of the plane above the line to indicate that those points are solutions.   The graph of the linear inequality .          Graph the linear inequality     The graph of consists of all the points that are either on or above the line .  We use a solid line to indicate the points on the line are solutions to the linear inequality and shade the portion of the plane above the line to indicate that those points are also solutions.   The graph of the linear inequality .          Absolute Value and Inequality   Linear Absolute Value Inequality   A linear absolute value inequality   Inequality  Linear  Absolute Value  in the variables and is an expression that can be placed in one of the following forms   ,   ,   , or   .      Recall from , for any number , measures the distance between and the origin on the number line. We can see from that and are the same distance from the origin.   The distance between and the origin, and between and the origin.      This observation tells us for an linear absolute value inequality of the form , we are looking for the points in the plane such that the number is less than units away from 0 on the number line. From we can see these are the solutions to both  If we rewrite these as the linear inequalities then we can see the solutions to are the points that are above the line and below the line . Similarly, the solutions to are the points that are either on or between the lines and below the line .  For an linear absolute value inequality of the form , the observation above tells us we are looking for the points in the plane such that the number is more than units away from 0 on the number line. From we can see these are solutions to either  If we rewrite these as the liner inequalities then we can see the solutions to are the points that are below the line or above the line . Similarly, the solutions to the linear absolute value inequality are the points that are either on or below the line or on or above the line .    Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to both of the linear inequalities This means the graph is the overlap between and . That is, the points that are between the lines    The graph of the linear absolute value inequality .          Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to both of the linear inequalities This means the graph is the overlap between and . That is, the points that are either on or between the lines    The graph of the linear absolute value inequality .          Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to either  This means the graph is the combination of the graphs for the linear inequalities That is, the points that are either above the line or below the line .   The graph of the linear absolute value inequality .          Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to either the linear inequality or the linear inequality This means the graph is the combination of the graphs for the linear inequalities That is, the points that are either on or above the line , or on or below the line .   The graph of the linear absolute value inequality .         "
 },
 {
   "id": "def-linear_inequality",
@@ -1657,36 +1657,36 @@ var ptx_lunr_docs = [
   "body": " Graph of an Inequality   The graph   Inequality  Linear  Graph  of an inequality in the variables and consists of all the points in the plane that are solutions to the inequality.   "
 },
 {
-  "id": "sec-linear_ineq-5",
+  "id": "subsec-linear_inequalities-5",
   "level": "2",
-  "url": "sec-linear_ineq.html#sec-linear_ineq-5",
+  "url": "sec-linear_ineq.html#subsec-linear_inequalities-5",
   "type": "Example",
   "number": "3.6.4",
   "title": "",
   "body": "  Graph the linear inequality     The graph of consists of all the points that are below the line .  We use a dashed line to indicate the points on the line are not a solution to the inequality and shade the portion of the plane beneath the line to indicate those points are solutions to the inequality.   The graph of the linear inequality .       "
 },
 {
-  "id": "sec-linear_ineq-6",
+  "id": "subsec-linear_inequalities-6",
   "level": "2",
-  "url": "sec-linear_ineq.html#sec-linear_ineq-6",
+  "url": "sec-linear_ineq.html#subsec-linear_inequalities-6",
   "type": "Example",
   "number": "3.6.6",
   "title": "",
   "body": "  Graph the linear inequality     The graph of consists of all the points that are on or below the line .  We use a solid line to indicate the points on the line are a solution to the linear inequality and shade the portion of the plane beneath the line to indicate that those points are also solutions.   The graph of the linear inequality .       "
 },
 {
-  "id": "sec-linear_ineq-7",
+  "id": "subsec-linear_inequalities-7",
   "level": "2",
-  "url": "sec-linear_ineq.html#sec-linear_ineq-7",
+  "url": "sec-linear_ineq.html#subsec-linear_inequalities-7",
   "type": "Example",
   "number": "3.6.8",
   "title": "",
   "body": "  Graph the linear inequality     The graph of consists of all the points that are above the line .  We use a dashed line to indicate the points on the line are not solutions to the inequality and shade the portion of the plane above the line to indicate that those points are solutions.   The graph of the linear inequality .       "
 },
 {
-  "id": "sec-linear_ineq-8",
+  "id": "subsec-linear_inequalities-8",
   "level": "2",
-  "url": "sec-linear_ineq.html#sec-linear_ineq-8",
+  "url": "sec-linear_ineq.html#subsec-linear_inequalities-8",
   "type": "Example",
   "number": "3.6.10",
   "title": "",
@@ -1711,36 +1711,36 @@ var ptx_lunr_docs = [
   "body": " The distance between and the origin, and between and the origin.     "
 },
 {
-  "id": "sec-linear_ineq-9-7",
+  "id": "sec-linear_ineq-3-7",
   "level": "2",
-  "url": "sec-linear_ineq.html#sec-linear_ineq-9-7",
+  "url": "sec-linear_ineq.html#sec-linear_ineq-3-7",
   "type": "Example",
   "number": "3.6.14",
   "title": "",
   "body": "  Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to both of the linear inequalities This means the graph is the overlap between and . That is, the points that are between the lines    The graph of the linear absolute value inequality .       "
 },
 {
-  "id": "sec-linear_ineq-9-8",
+  "id": "sec-linear_ineq-3-8",
   "level": "2",
-  "url": "sec-linear_ineq.html#sec-linear_ineq-9-8",
+  "url": "sec-linear_ineq.html#sec-linear_ineq-3-8",
   "type": "Example",
   "number": "3.6.16",
   "title": "",
   "body": "  Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to both of the linear inequalities This means the graph is the overlap between and . That is, the points that are either on or between the lines    The graph of the linear absolute value inequality .       "
 },
 {
-  "id": "sec-linear_ineq-9-9",
+  "id": "sec-linear_ineq-3-9",
   "level": "2",
-  "url": "sec-linear_ineq.html#sec-linear_ineq-9-9",
+  "url": "sec-linear_ineq.html#sec-linear_ineq-3-9",
   "type": "Example",
   "number": "3.6.18",
   "title": "",
   "body": "  Graph the linear absolute value inequality .    The solutions to the inequality are the points that are solutions to either  This means the graph is the combination of the graphs for the linear inequalities That is, the points that are either above the line or below the line .   The graph of the linear absolute value inequality .       "
 },
 {
-  "id": "sec-linear_ineq-9-10",
+  "id": "sec-linear_ineq-3-10",
   "level": "2",
-  "url": "sec-linear_ineq.html#sec-linear_ineq-9-10",
+  "url": "sec-linear_ineq.html#sec-linear_ineq-3-10",
   "type": "Example",
   "number": "3.6.20",
   "title": "",
