@@ -10,32 +10,35 @@
 
   <page>
     <exercise>
-      <statement>
+      <introduction>
 	<p>
 	  Consider the polynomial <m>f(x) = x^3 - 3x^2 + 2x</m>
 	</p>
-	<task workspace="1in" xml:id="task-rational_root-1_a">
-	  <statement>
-	    <p>
-	      Use the <xref ref="thm-rational_root" text="title"/> to list all possible rational roots of <m>f</m>.
-	    </p>
-	  </statement>
-	</task>
-	<task workspace="1in" xml:id="task-rational_root-1_b">
-	  <statement>
-	    <p>
-	      Use your list to find all the roots of <m>f</m>.
-	    </p>
-	  </statement>
-	</task>
-	<task workspace="1in" xml:id="task-rational_root-1_c">
-	  <statement>
-	    <p>
-	      Use the roots of <m>f</m> to find its factorization.
-	    </p>
-	  </statement>
-	</task>
-      </statement>
+      </introduction>
+
+      <task workspace="1in" xml:id="task-rational_root-1_a">
+	<statement>
+	  <p>
+	    Use the <xref ref="thm-rational_root" text="title"/> to list all possible rational roots of <m>f</m>.
+	  </p>
+	</statement>
+      </task>
+
+      <task workspace="1in" xml:id="task-rational_root-1_b">
+	<statement>
+	  <p>
+	    Use your list to find all the roots of <m>f</m>.
+	  </p>
+	</statement>
+      </task>
+      
+      <task workspace="1in" xml:id="task-rational_root-1_c">
+	<statement>
+	  <p>
+	    Use the roots of <m>f</m> to find its factorization.
+	  </p>
+	</statement>
+      </task>
     </exercise>
   </page>
 </worksheet>
