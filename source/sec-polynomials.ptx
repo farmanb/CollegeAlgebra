@@ -146,14 +146,16 @@
 
     <worksheet component="print">
       <title/>
-      <example>
-	<statement>
-	  <p>
-	    The roots of the polynomial <m>f(x) = 2x^2 - 3x + 1</m> are <m>r_1 = 1</m> and <m>r_2 = 1/2</m>.
-	    Use this information to factor <m>f</m>.
-	  </p>
-	</statement>
-      </example>
+      <page>
+	<example>
+	  <statement>
+	    <p>
+	      The roots of the polynomial <m>f(x) = 2x^2 - 3x + 1</m> are <m>r_1 = 1</m> and <m>r_2 = 1/2</m>.
+	      Use this information to factor <m>f</m>.
+	    </p>
+	  </statement>
+	</example>
+      </page>
     </worksheet>
     
     <p>
@@ -171,11 +173,11 @@
 
     <example component="web">
       <statement>
-	  <p>
-	    Write down the roots of the polynomial
-	    <m>f(x) = (x+1)^2(x - 1)</m>.
-	    For each root, determine its multiplicity.
-	  </p>
+	<p>
+	  Write down the roots of the polynomial
+	  <m>f(x) = (x+1)^2(x - 1)</m>.
+	  For each root, determine its multiplicity.
+	</p>
       </statement>
       <solution>
 	<p>
@@ -194,8 +196,9 @@
 
     <worksheet component="print">
       <title/>
-      <example>
-	<task workspace="4in">
+      <page>
+	<example>
+	  <task workspace="4in">
 	    <p>
 	      Write down the roots of the polynomial
 	      <m>f(x) = (x+1)^2(x - 1)</m>.
@@ -206,7 +209,8 @@
 	      For each root, determine its multiplicity.
 	    </p>
 	  </task>
-      </example>
+	</example>
+      </page>
     </worksheet>
     
     <p>
