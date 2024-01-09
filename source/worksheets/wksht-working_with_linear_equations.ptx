@@ -39,7 +39,7 @@
       <p>
 	Find the <m>x</m>- and <m>y</m>-intercepts of the linear equation <m>5x - 2y = 10</m> and sketch the graph of the equation.
       </p>
-      <image width="50%" xml:id="img-5x_2y_10_blank">
+      <image>
 	<latex-image >
 	  <xi:include parse="text" href="../tex/10_10_grid.tex" />
 	</latex-image>
