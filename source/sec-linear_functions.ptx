@@ -53,19 +53,21 @@
 
     <theorem xml:id="thm-slope_intercept">
       <title>The Slope-Intercept Form of a Line</title>
-      <p>
-	The <term>slope-intercept form of a linear function</term>
-	<idx>
-	  <h>Function</h>
-	  <h>Linear</h>
-	  <h>Slope-Intercept Form</h>
-	</idx>
-	is
-	<me>f(x) = mx + b
-	\quad\text{or}\quad
-	y = mx + b,</me>
-	where <m>m</m> is the slope or average rate of change of <m>f</m>.
-      </p>
+      <statement>
+	<p>
+	  The <term>slope-intercept form of a linear function</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Linear</h>
+	    <h>Slope-Intercept Form</h>
+	  </idx>
+	  is
+	  <me>f(x) = mx + b
+	  \quad\text{or}\quad
+	  y = mx + b,</me>
+	  where <m>m</m> is the slope or average rate of change of <m>f</m>.
+	</p>
+      </statement>
     </theorem>
   </subsection>
   
@@ -78,7 +80,6 @@
       We can graph the equation by finding any two points on the line and drawing a line through them.
       In general, the two points that are simplest to find are the two intercepts.
     </p>
-    
 
     <p>
       We find the <xref ref="def-x_intercept" text="title"/> by substituting <m>0</m> for <m>y</m> and solving the resulting equation for <m>x</m>
@@ -98,54 +99,79 @@
       </statement>
     </theorem>
 
-    <example xml:id="example-x_intercept_2x_3y_6">
-      <statement>
-	<p>
+    <example xml:id="example-x_intercept_2x_3y_6" component="web">
+      <task>
+	<statement>
+	  <p>
 	  Find the <m>x</m>-intercept of the linear equation <m>y = -\frac{2}{3}x + 2</m>.
-	</p>
-      </statement>
-      <solution>
-	<p>
-	  To find the <m>x</m>-intercept of the linear equation <m>y = -\frac{2}{3}x + 2</m>, we substitute <m>0</m> for <m>y</m> to get
-	  <md>
-	    <mrow>0 \amp= -\frac{2}{3}x + 2 \amp\amp \text{Add}\ -\frac{2}{3}x\ \text{to both sides}</mrow>
-	    <mrow>\frac{2}{3}x \amp = 2 \amp\amp \text{Multiply both sides by}\ \frac{3}{2}</mrow>
-	    <mrow>x \amp = \left(\frac{3}{2}\right) \amp\amp \text{Simplify}</mrow>
-	    <mrow>x \amp = 3.</mrow>
-	  </md>
-	  Therefore the <m>x</m>-intercept of the linear equation <m>y = -\frac{2}{3}x + 2</m> is the point <m>(3,0)</m>.
-	</p>
-      </solution>
+	  </p>
+	</statement>
+	<solution>
+	  <p>
+	    To find the <m>x</m>-intercept of the linear equation <m>y = -\frac{2}{3}x + 2</m>, we substitute <m>0</m> for <m>y</m> to get
+	    <md>
+	      <mrow>0 \amp= -\frac{2}{3}x + 2 \amp\amp \text{Add}\ -\frac{2}{3}x\ \text{to both sides}</mrow>
+	      <mrow>\frac{2}{3}x \amp = 2 \amp\amp \text{Multiply both sides by}\ \frac{3}{2}</mrow>
+	      <mrow>x \amp = \left(\frac{3}{2}\right) \amp\amp \text{Simplify}</mrow>
+	      <mrow>x \amp = 3.</mrow>
+	    </md>
+	    Therefore the <m>x</m>-intercept of the linear equation <m>y = -\frac{2}{3}x + 2</m> is the point <m>(3,0)</m>.
+	  </p>
+	</solution>
+      </task>
+      <task>
+	<statement>
+	  <p>Graph the equation <m>y = -\frac{2}{3}x + 2</m>.</p>
+	</statement>
+	<solution>
+	  <p>
+	    In <xref ref="example-x_intercept_2x_3y_6"/> we found that <m>(3,0)</m> is the <m>x</m>-intercept for the function <m>y = -\frac{2}{3}x + 2</m>.
+	    The <xref ref="def-y_intercept" text="title"/> for the function <m>y = -\frac{2}{3}x + 2</m> is the point <m>(0, 2)</m>.
+	    To graph the equation <m>y = -\frac{2}{3}x + 2</m>, we simply need to plot these two points and draw a straight line through them.
+	  </p>
+	  <figure xml:id="fig-2x_3y_6">
+	    <caption>The graph of <m>y = -\frac{2}{3}x + 2</m>.</caption>
+	    <image xml:id="img-2x_3y_6">
+	      <latex-image xml:id="tikz--2x_3y_6">
+		<xi:include parse="text" href="tex/2x_3y_6.tex"/>
+	      </latex-image>
+	    </image>
+	  </figure>	
+	</solution>
+      </task>
     </example>
-    
-    <p>
-      We find the <xref ref="def-y_intercept" text="title"/> by substituting <m>0</m> for <m>x</m> and solving the resulting equation for <m>y</m>
-      <md>
-	<mrow>y \amp = m(0) + b \amp\amp \text{Simplify}</mrow>
-	<mrow>y \amp = b.</mrow>
-      </md>
-    </p>
-    
-    <example>
-      <statement>
-	<p>Graph the equation <m>y = -\frac{2}{3}x + 2</m>.</p>
-      </statement>
-      <solution>
+
+    <worksheet component="notes">
+      <title/>
+      <introduction>
 	<p>
-	  In <xref ref="example-x_intercept_2x_3y_6"/> we found that <m>(3,0)</m> is the <m>x</m>-intercept for the function <m>y = -\frac{2}{3}x + 2</m>.
-	  The <xref ref="def-y_intercept" text="title"/> for the function <m>y = -\frac{2}{3}x + 2</m> is the point <m>(0, 2)</m>.
-	  To graph the equation <m>y = -\frac{2}{3}x + 2</m>, we simply need to plot these two points and draw a straight line through them.
+	  Consider the linear function
+	  <me>f(x) = -\frac{2}{3}x + 2</me>
 	</p>
-	<figure xml:id="fig-2x_3y_6">
-	  <caption>The graph of <m>y = -\frac{2}{3}x + 2</m>.</caption>
-	  <image xml:id="img-2x_3y_6">
-	    <latex-image xml:id="tikz--2x_3y_6">
-	      <xi:include parse="text" href="tex/2x_3y_6.tex"/>
+      </introduction>
+      <example>
+	<task workspace="2in">
+	  <p>
+	    Find the <m>x</m>-intercept of <m>f</m>.
+	  </p>
+	</task>
+	<task workspace="2in">
+	  <p>
+	    Find the <m>y</m>-intercept of <m>f</m>.
+	  </p>
+	</task>
+	<task>
+	  <p>
+	    Graph the equation <m>y = f(x).</m>
+	  </p>
+	  <image width="50%">
+	    <latex-image>
+	      <xi:include parse="text" href="tex/10_10_grid.tex"/>
 	    </latex-image>
 	  </image>
-	</figure>	
-      </solution>
-    </example>
+	</task>
+      </example>
+    </worksheet>
   </subsection>
 
   <xi:include href="worksheets/wksht-working_with_linear_equations.ptx"/>
