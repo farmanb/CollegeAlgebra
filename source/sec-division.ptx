@@ -84,9 +84,6 @@
 	<mrow>
 	  \amp = 30 \times 200 + 30 \times 30 + 35 \amp\amp \text{Substitue the RHS of}\ <xref ref="eq-division_3"/>\ \text{for}\ 35
 	</mrow>
-	<!-- <mrow> -->
-	<!-- 	\amp = 30 \times 200 + 30 \times 30 + 30 \times 1 + 5 \amp\amp \text{Substitute the RHS of}\ <xref ref="eq-division_4"/>\ \text{for}\ 5 -->
-	<!-- </mrow> -->
 	<mrow>
 	  \amp = 30 \times 200 + 30 \times 30 + 30 \times 1 + 5 \amp\amp \text{Factor}\ 3\ \text{from the first three terms}
 	</mrow>
@@ -97,43 +94,116 @@
 	  \amp = 231 \times 30 + 5.
 	</mrow>
       </md>
-      This process terminates because at each stage we are reducing the number of digits in the remainder by at least one.
-      When we do long division with polynomials, our goal will be similar, but we will reduce the degree of the remainder polynomial by at least one.
     </p>
     
-    <example>
-      <p>
-	To divide the polynomial <m>f(x) = 6x^3 + 9x^2 + 3x + 5</m> by the polynomial <m>d(x) = 3x</m>, we write
-	<mdn>
-	  <mrow xml:id="eq-poly_div_1">6x^3 + 9x^2 + 3x + 5 \amp= 2x^2 \times 3x + 9x^2 + 3x + 5</mrow>
-	  <mrow xml:id="eq-poly_div_2">9x^2 + 3x + 5 \amp= 3x \times 3x + 3x + 5</mrow>
-	  <mrow xml:id="eq-poly_div_3">3x + 5 \amp= 1 \times 3x + 5</mrow>
-	</mdn>
-	then, starting from <xref ref="eq-poly_div_1"/>, we substitute for the remainders
-	<md>
-	  <mrow>6x^3 + 9x^2 + 3x + 5 \amp = 2x^2 \times 3x + 9x^2 + 3x + 5 \amp\amp \text{Substitute}\ <xref ref="eq-poly_div_2"/></mrow>
-	  <mrow>\amp= 2x^2 \times 3x + 3x \times 3x + 3x + 5 \amp\amp \text{Substitute}<xref ref="eq-poly_div_3"/></mrow>
-	  <mrow>\amp= 2x^2 \times 3x + 3x \times 3x + 1 \times 3x + 5 \amp\amp \text{Factor}</mrow>
-	  <mrow>\amp= (2x^2 + 3x + 1) \times 3x + 5.</mrow>
-	</md>
-	Therefore <m>f(x) = 6x^3 + 9x^2 + 3x + 5</m> divided by <m>d(x) = 3x</m> is <m>q(x) = 2x^2 + 3x + 1</m> with remainder <m>r(x) = 5</m>.
-      </p>
-      <p>
-	We can also perform polynomial division using the same shorthand as we would for numbers.
-	When performing polynomial division in this way, it is important to carefully distribute signs when subtracting.
-        <md>
-	  <mrow>\amp\phantom{)}2x^2 + 3x + 1</mrow>
-	  <mrow>3x \amp\overline{\smash{)}{6x^3 + 9x^2 + 3x + 5}} </mrow>
-	  <mrow>\amp \underline{-6x^3}</mrow>
-	  <mrow>\amp \phantom{lllll}0 + 9x^2</mrow>
-	  <mrow>\amp \phantom{lllllllll}\underline{-9x^2}</mrow>
-	  <mrow>\amp \phantom{6x^3 + 9x^2}0 + 3x</mrow>
-	  <mrow>\amp \phantom{6x^3 + 9x^2 0l}\underline{- 3x}</mrow>
-	  <mrow>\amp \phantom{6x^3 + 9x^2 + 3}0 + 5</mrow>
-	</md>
-      </p>
+    <example component="web">
+      <statement>
+	<p>
+	  Long division with integers terminates because we reduce the <em>number of digits</em> in the remainder by at least one at each stage.
+	  Our goal will be similar for long division with polynomials, but we will reduce the <em>degree</em> of the remainder polynomial by at least one at every stage.
+	  The process terminates when the degree of the remainder is smaller than the degree of the divisor.
+	</p>
+	<p>
+	  Divide the polynomial <m>f(x) = 6x^3 + 9x^2 + 3x + 5</m> by the polynomial <m>d(x) = 3x</m>.
+	</p>
+      </statement>
+      
+      <solution>
+	<p>
+	  Write
+	  <mdn>
+	    <mrow xml:id="eq-poly_div_1">6x^3 + 9x^2 + 3x + 5 \amp= 2x^2 \times 3x + 9x^2 + 3x + 5</mrow>
+	    <mrow xml:id="eq-poly_div_2">9x^2 + 3x + 5 \amp= 3x \times 3x + 3x + 5</mrow>
+	    <mrow xml:id="eq-poly_div_3">3x + 5 \amp= 1 \times 3x + 5.</mrow>
+	  </mdn>
+	  Starting from <xref ref="eq-poly_div_1"/>, substitute for the remainders
+	  <md>
+	    <mrow>6x^3 + 9x^2 + 3x + 5 \amp = 2x^2 \times 3x + 9x^2 + 3x + 5 \amp\amp \text{Substitute}\ <xref ref="eq-poly_div_2"/></mrow>
+	    <mrow>\amp= 2x^2 \times 3x + 3x \times 3x + 3x + 5 \amp\amp \text{Substitute}<xref ref="eq-poly_div_3"/></mrow>
+	    <mrow>\amp= 2x^2 \times 3x + 3x \times 3x + 1 \times 3x + 5 \amp\amp \text{Factor}</mrow>
+	    <mrow>\amp= (2x^2 + 3x + 1) \times 3x + 5.</mrow>
+	  </md>
+	  Therefore <m>f(x) = 6x^3 + 9x^2 + 3x + 5</m> divided by <m>d(x) = 3x</m> is <m>q(x) = 2x^2 + 3x + 1</m> with remainder <m>r(x) = 5</m>.
+	</p>
+	<p>
+	  We can also perform polynomial division using the same shorthand as we would for numbers.
+	  When performing polynomial division in this way, it is important to carefully distribute signs when subtracting.
+          <md>
+	    <mrow>\amp\phantom{)}2x^2 + 3x + 1</mrow>
+	    <mrow>3x \amp\overline{\smash{)}{6x^3 + 9x^2 + 3x + 5}} </mrow>
+	    <mrow>\amp \underline{-6x^3}</mrow>
+	    <mrow>\amp \phantom{lllll}0 + 9x^2</mrow>
+	    <mrow>\amp \phantom{lllllllll}\underline{-9x^2}</mrow>
+	    <mrow>\amp \phantom{6x^3 + 9x^2}0 + 3x</mrow>
+	    <mrow>\amp \phantom{6x^3 + 9x^2 0l}\underline{- 3x}</mrow>
+	    <mrow>\amp \phantom{6x^3 + 9x^2 + 3}0 + 5</mrow>
+	  </md>
+	</p>
+      </solution>
     </example>
 
+    <worksheet component="print">
+      <title/>
+      <introduction>
+	<p>
+	  Long division with integers terminates because we reduce the <em>number of digits</em> in the remainder by at least one at each stage.
+	  Our goal will be similar for long division with polynomials, but we will reduce the <em>degree</em> of the remainder polynomial by at least one at every stage.
+	  The process terminates when the degree of the remainder is smaller than the degree of the divisor.
+	</p>
+	<p>
+	  We will mimic the steps for division with integers to divide the polynomial <m>f(x) = 6x^3 + 9x^2 + 3x + 5</m> by the polynomial <m>d(x) = 3x</m>.
+	  Since the degree of the divisor, <m>d(x) = 3x</m>, is <m>1</m>, the process terminates when the degree of the remainder is zero <mdash/> <ie/> the remainder is simply a real number.
+	</p>
+      </introduction>
+      
+      <example>
+	<task workspace="2in" xml:id="task-poly_div_1">
+	  <p>
+	    Use a multiple of <m>3x</m> to eliminate the leading term, <m>6x^3</m>.
+	    Rewrite <m>f(x)</m> in the form 
+	    <me>6x^3 + 9x^2 + 3x + 5 = q_1(x) \times 3x + r_1(x).</me>
+	  </p>
+	</task>
+	<task workspace="2in" xml:id="task-poly_div_2">
+	  <p>
+	    Repeat the same process with <m>r_1(x)</m> and <m>3x</m> to obtain an expression of the form
+	    <me>r_1(x) = q_2(x) \times 3x + r_2(x).</me>
+	  </p>
+	</task>
+	<task workspace="2in" xml:id="task-poly_div_3">
+	  <p>
+	    Repeat the process one last time with <m>r_2(x)</m> and <m>3x</m> to obtain an expression of the form
+	    <me>r_2(x) = q_3(x) \times 3x + r_3(x).</me>
+	  </p>
+	</task>
+	<task workspace="2in" xml:id="task-poly_div_4">
+	  <p>
+	    Substitute the expression for <m>r_1(x)</m> from <xref ref="task-poly_div_2" text="local"/> into the expression
+	    <me>6x^3 + 9x^2 + 3x + 5 = q_1(x) \times 3x + r_1(x).</me>
+	  </p>
+	</task>
+	<task workspace="2in" xml:id="task-poly_div_5">
+	  <p>
+	    Substitute the expression for <m>r_2(x)</m> from <xref ref="task-poly_div_3" text="local"/> into the expression from <xref ref="task-poly_div_4" text="local"/>.
+	  </p>
+	</task>
+	<task workspace="2in" xml:id="task-poly_div_6">
+	  <p>
+	    Factor <m>3x</m> from as many terms in <xref ref="task-poly_div_5" text="local"/> as possible to obtain an expression of the form
+	    <me>
+	      6x^3 + 9x^2 + 3x + 5 = q(x) \times 3x + r(x),
+	    </me>
+	    where <m>r(x)</m> is a number.
+	  </p>
+	</task>
+	<task>
+	  <p>
+	    Rewrite this process using the same shorthand for long division with integers.
+	  </p>
+	</task>
+      </example>
+    </worksheet>
+	      
     <remark>
       <p>
 	Note that if we evaluate each of the polynomials at <m>x = 10</m>, then we find
@@ -158,44 +228,83 @@
       </statement>
     </theorem>
     
-    <example>
-      <p>
-	As we saw in <xref ref="example-rational_root"/>, the polynomial <m>f(x) = 2x^4 - 7x^3 + 5x^2 - 7x + 3</m> has a root at <m>x = 1/2</m> and at <m>x = 3</m>.
-	By <xref ref="thm-root_div"/>, the polynomial <m>x - 1/2</m> divides <m>f(x)</m>
-        <md>
-	  <mrow>\amp\phantom{)}2x^3 - 6x^2 + 2x - 6</mrow>
-	  <mrow>x - \frac{1}{2} \amp\overline{\smash{)}{2x^4 - 7x^3 + 5x^2 - 7x + 3}} </mrow>
-	  <mrow>\amp \underline{-2x^4 + x^3}</mrow>
-	  <mrow>\amp \phantom{)2x^4}-6x^3 + 5x^2</mrow>
-	  <mrow>\amp \phantom{)2x^4}\underline{+6x^3 - 3x^2}</mrow>
-	  <mrow>\amp \phantom{)2x^4 - 7x^3 +}2x^2 - 7x</mrow>
-	  <mrow>\amp \phantom{)2x^4 - 7x^3}\underline{-2x^2 + 2x}</mrow>
-	  <mrow>\amp \phantom{)2x^4 - 7x^3 + 5x^2}-6x + 3</mrow>
-	  <mrow>\amp \phantom{)2x^4 - 7x^3 + 5x^2}\underline{+6x - 3}</mrow>
-	  <mrow>\amp \phantom{)2x^4 - 7x^3 + 5x^2 - 7x +}0</mrow>
-	</md>
-	This allows us to write
-	<me>f(x) = \left(x - \frac{1}{2}\right)\left(2x^3 - 6x^2 + 2x - 6\right).</me>
-      </p>
-      <p>
-	Since <m>f(3) = 0</m> and <m>3 - 1/2 \neq 0</m>, we conclude that <m>x - 3</m> divides <m>2x^3 - 6x^2 + 2x - 6</m>.
-	<md>
-	  <mrow>\amp\phantom{)}2x^2 + 2</mrow>
-	  <mrow>x - 3 \amp\overline{\smash{)}{2x^3 - 6x^2 + 2x - 6}} </mrow>
-	  <mrow>\amp \underline{-2x^3 + 6x^2}</mrow>
-	  <mrow>\amp \phantom{)2x^3}0 + 2x - 6</mrow>
-	  <mrow>\amp \phantom{)2x^3-}\underline{-2x + 6}</mrow>
-	  <mrow>\amp \phantom{)2x^3 - 6x^2 + }0</mrow>
-	</md>
-	This provides the factorization
-	<md>
-	  <mrow>f(x) \amp= \left(x - \frac{1}{2}\right)(x - 3)(2x^2 + 2)</mrow>
-	  <mrow>\amp = \left(x - \frac{1}{2}\right)(x - 3)(2)(x^2 + 1)</mrow>
-	  <mrow>\amp = 2\left(x - \frac{1}{2}\right)(x - 3)(x^2 + 1)</mrow>
-	  <mrow>\amp = (2x - 1)(x - 3)(x-i)(x+i).</mrow>
-	</md>
-      </p>
+    <example component="web">
+      <statement>
+	<p>
+	  As we saw in <xref ref="example-rational_root"/>, the polynomial <m>f(x) = 2x^4 - 7x^3 + 5x^2 - 7x + 3</m> has a root at <m>x = 1/2</m> and at <m>x = 3</m>.
+	  Use polynomial division to factor <m>f</m> completely.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  By <xref ref="thm-root_div"/>, the polynomial <m>x - 1/2</m> divides <m>f(x)</m>
+          <md>
+	    <mrow>\amp\phantom{)}2x^3 - 6x^2 + 2x - 6</mrow>
+	    <mrow>x - \frac{1}{2} \amp\overline{\smash{)}{2x^4 - 7x^3 + 5x^2 - 7x + 3}} </mrow>
+	    <mrow>\amp \underline{-2x^4 + x^3}</mrow>
+	    <mrow>\amp \phantom{)2x^4}-6x^3 + 5x^2</mrow>
+	    <mrow>\amp \phantom{)2x^4}\underline{+6x^3 - 3x^2}</mrow>
+	    <mrow>\amp \phantom{)2x^4 - 7x^3 +}2x^2 - 7x</mrow>
+	    <mrow>\amp \phantom{)2x^4 - 7x^3}\underline{-2x^2 + 2x}</mrow>
+	    <mrow>\amp \phantom{)2x^4 - 7x^3 + 5x^2}-6x + 3</mrow>
+	    <mrow>\amp \phantom{)2x^4 - 7x^3 + 5x^2}\underline{+6x - 3}</mrow>
+	    <mrow>\amp \phantom{)2x^4 - 7x^3 + 5x^2 - 7x +}0</mrow>
+	  </md>
+	  This allows us to write
+	  <me>f(x) = \left(x - \frac{1}{2}\right)\left(2x^3 - 6x^2 + 2x - 6\right).</me>
+	</p>
+	<p>
+	  Since <m>f(3) = 0</m> and <m>3 - 1/2 \neq 0</m>, we conclude that <m>x - 3</m> divides <m>2x^3 - 6x^2 + 2x - 6</m>.
+	  <md>
+	    <mrow>\amp\phantom{)}2x^2 + 2</mrow>
+	    <mrow>x - 3 \amp\overline{\smash{)}{2x^3 - 6x^2 + 2x - 6}} </mrow>
+	    <mrow>\amp \underline{-2x^3 + 6x^2}</mrow>
+	    <mrow>\amp \phantom{)2x^3}0 + 2x - 6</mrow>
+	    <mrow>\amp \phantom{)2x^3-}\underline{-2x + 6}</mrow>
+	    <mrow>\amp \phantom{)2x^3 - 6x^2 + }0</mrow>
+	  </md>
+	  This provides the factorization
+	  <md>
+	    <mrow>f(x) \amp= \left(x - \frac{1}{2}\right)(x - 3)(2x^2 + 2)</mrow>
+	    <mrow>\amp = \left(x - \frac{1}{2}\right)(x - 3)(2)(x^2 + 1)</mrow>
+	    <mrow>\amp = 2\left(x - \frac{1}{2}\right)(x - 3)(x^2 + 1)</mrow>
+	    <mrow>\amp = (2x - 1)(x - 3)(x-i)(x+i).</mrow>
+	  </md>
+	</p>
+      </solution>
     </example>
+
+    <worksheet component="print">
+      <title/>
+      <example>
+	<statement>
+	  <p>
+	    As we saw in <xref ref="example-rational_root"/>, the polynomial <m>f(x) = 2x^4 - 7x^3 + 5x^2 - 7x + 3</m> has a root at <m>x = 1/2</m> and at <m>x = 3</m>.
+	    Use polynomial division to factor <m>f</m> completely.
+	  </p>
+	</statement>
+	<task workspace="2in">
+	  <p>
+	    Divide <m>f(x)</m> by the polynomial <m>x - 1/2</m>.
+	    Write <m>f</m> in the form
+	    <me>f(x) = \left(x - \frac{1}{2}\right)q_1(x).</me>
+	  </p>
+	</task>
+	<task workspace="2in">
+	  <p>
+	    Divide <m>q_1(x)</m> by the polynomial <m>x - 3</m>.
+	    Write <m>f</m> in the form
+	    <me>f(x) = \left(x - \frac{1}{2}\right)(x - 3)q_2(x)</me>.
+	  </p>
+	</task>
+	<task workspace="2in">
+	  <p>
+	    Factor the polynomial <m>q_2(x)</m>.
+	    Write <m>f</m> as the product of four degree one polynomials.
+	  </p>
+	</task>
+      </example>
+    </worksheet>
 
   <xi:include href="worksheets/wksht-division.ptx"/>
 </section>

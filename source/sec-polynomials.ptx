@@ -332,7 +332,8 @@
     <worksheet component="print">
       <title/>
       <page>
-	<example xml:id="example-rational_root">
+	<example>
+	  <title>Finding Roots of Polynomials</title>
 	  <task workspace="1in">
 	    <p>
 	      List all possible rational roots of the function <m>f(x) = 2x^4 - 7x^3 + 5x^2 - 7x + 3</m>.
