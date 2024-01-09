@@ -2,7 +2,7 @@
 <section xml:id="sec-symmetry" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Symmetry</title>
 
-  <introduction>
+  <introduction xml:id="symmetry-intro">
     <p>
       Intuitively, an object is <em>symmetric</em> if there is some line that divides the object into two (or more) pieces that are mirror images of one another.
       In this section, we utilize the methods in <xref ref="sec-transformations"/> to detect two types of symmetry mathematically.
@@ -164,10 +164,32 @@
     <worksheet component="print">
       <title/>
       <page>
+	<figure>
+	  <caption>The graph of <m>y = x^4 - 5x^2 + 4</m></caption>
+	  <image width="50%">
+	    <latex-image>
+	      \begin{tikzpicture}
+	      \def\size{5}
+	      
+	      \path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
+	      
+	      \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
+	      \draw [very thick,->] (0,-\size) -- (0,\size+.1) node [anchor=west] {$y$};
+
+	      \begin{scope}[domain=-3:3]
+	      \clip (-\size,-\size) rectangle (\size, \size);
+	      \draw [color=blue,thick] plot[smooth,samples=500] (\x,{(\x)^4 - 5*(\x)^2 + 4});
+	      \end{scope}
+	      
+	      \end{tikzpicture}
+
+	    </latex-image>
+	  </image>
+	</figure>
 	<example>
 	  <statement>
 	    <p>
-	      Verify the function <m>f(x) = x^4 - 5x^2 + 4</m> has <m>y</m>-axis symmetry.
+	      Verify the function <m>f(x) = x^4 - 5x^2 + 4</m> has <m>y</m>-axis symmetry algebraically.
 	    </p>
 	  </statement>
 	</example>
@@ -406,10 +428,32 @@
     <worksheet component="print">
       <title/>
       <page>
+	<figure>
+	  <caption>The graph of <m>y = x^3 - 4x</m></caption>
+	  <image width="50%">
+	    <latex-image>
+	      \begin{tikzpicture}
+	      \def\size{5}
+	      
+	      \path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
+	      
+	      \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
+	      \draw [very thick,->] (0,-\size) -- (0,\size+.1) node [anchor=west] {$y$};
+
+	      \begin{scope}[domain=-3:3]
+	      \clip (-\size,-\size) rectangle (\size, \size);
+	      \draw [color=blue,thick] plot[smooth,samples=500] (\x,{\x^3 - 4*\x});
+	      \end{scope}
+	      
+	      \end{tikzpicture}
+
+	    </latex-image>
+	  </image>
+	</figure>
 	<example>
 	  <statement>
 	    <p>
-	      Verify the function <m>f(x) = x^3 - 4x</m> has origin symmetry.
+	      Verify the function <m>f(x) = x^3 - 4x</m> has origin symmetry algebraically.
 	    </p>
 	  </statement>
 	</example>
@@ -429,5 +473,43 @@
 	</li>
       </ul>
     </objectives>
+    <introduction>
+      <p>
+	Determine whether the following funtions have <m>y</m>-axis symmetry, origin symmetry, or neither.
+      </p>
+    </introduction>
+    <page>
+      <exercise workspace="1in">
+	<statement>
+	  <p>
+	    <m>f(x) = \abs{x} + 3</m>
+	  </p>
+	</statement>
+      </exercise>
+      
+      <exercise workspace="1in">
+	<statement>
+	  <p>
+	    <m>g(x) = x^5 + x^2</m>
+	  </p>
+	</statement>
+      </exercise>
+
+      <exercise workspace="1in">
+	<statement>
+	  <p>
+	    <m>h(x) = x^4 + x^2 + 1</m>
+	  </p>
+	</statement>
+      </exercise>
+
+      <exercise workspace="1in">
+	<statement>
+	  <p>
+	    <m>k(x) = x^5 + x^3 + x</m>
+	  </p>
+	</statement>
+      </exercise>
+    </page>
   </worksheet>
 </section>
