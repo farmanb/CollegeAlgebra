@@ -16,24 +16,27 @@
       <p>
 	Sketch graph of the linear inequality <m>5x - 2y \lt 10</m>.
       </p>
-      <image width="50%" xml:id="img-5x_2y_lt_10_blank">
-	<latex-image >
-	  <xi:include parse="text" href="../tex/10_10_grid.tex" />
-	</latex-image>
-      </image>
-    </exercise>
-
-    <exercise>
-      <p>
-	Sketch graph of the linear inequality <m>5x - 2y \geq 10</m>.
-      </p>
-      <image width="50%" xml:id="img-5x_2y_geq_10_blank">
+      <image xml:id="img-5x_2y_lt_10_blank">
 	<latex-image >
 	  <xi:include parse="text" href="../tex/10_10_grid.tex" />
 	</latex-image>
       </image>
     </exercise>
   </page>
+
+  <page>
+    <exercise>
+      <p>
+	Sketch graph of the linear inequality <m>5x - 2y \geq 10</m>.
+      </p>
+      <image xml:id="img-5x_2y_geq_10_blank">
+	<latex-image >
+	  <xi:include parse="text" href="../tex/10_10_grid.tex" />
+	</latex-image>
+      </image>
+    </exercise>
+  </page>
+  
   <page>
     <exercise>
       <p>Match the following equations with their graphs.</p>
@@ -113,15 +116,31 @@
 
   <page>
     <exercise workspace="2in">
-      <p>
-	Graph the linear absolute value inequality <m>\abs{5x - 2y} \leq 10</m>
-      </p>
+      <statement>
+	<p>
+	  Graph the linear absolute value inequality <m>\abs{5x - 2y} \leq 10</m>
+	</p>
+	<image>
+	  <latex-image>
+	    <xi:include parse="text" href="../tex/10_10_grid.tex" />
+	  </latex-image>
+	</image>
+      </statement>
     </exercise>
   </page>
 
-  <exercise workspace="2in">
-    <p>
-      Graph the linear absolute value inequality <m>\abs{6x - 8y} > 12</m>.
-    </p>
-  </exercise>
+  <page>
+    <exercise workspace="2in">
+      <statement>
+	<p>
+	  Graph the linear absolute value inequality <m>\abs{6x - 8y} > 12</m>.
+	</p>
+	<image>
+	  <latex-image>
+	    <xi:include parse="text" href="../tex/10_10_grid.tex" />
+	  </latex-image>
+	</image>
+      </statement>
+    </exercise>
+  </page>
 </worksheet>
