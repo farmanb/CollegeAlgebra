@@ -3,7 +3,7 @@
 <section xml:id="sec-lines" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Representations of Lines</title>
 
-  <introduction>
+  <introduction xml:id="lines-intro">
     <p>
       In the previous section, we encountered linear functions and saw that we can express these functions in the form <m>y = mx + b</m>.
       When we graphed a linear function, we used two points to determine the line that represents the graph.
@@ -13,7 +13,7 @@
     </p>
   </introduction>
 
-  <subsection>
+  <subsection xml:id="subsec-slope_of_line_through_two_pts">
     <title>The Slope of a Line through two Points</title> 
     <definition xml:id="def-slope">
       <title>The Slope of a Line</title>
@@ -49,19 +49,6 @@
       </p>
     </remark>
     
-    <example xml:id="example-find_slope">
-      <statement>
-	<p>Find the slope of the line through the points <m>(3,5)</m> and <m>(6,2)</m>.</p>
-      </statement>
-      <solution>
-	<p>
-	  The slope of the line through the points <m>(3,5)</m> and <m>(6,2)</m> is
-	  <me>\frac{2 - 5}{6 - 3} = \frac{-3}{3} = -1.</me>
-	  This says when the <m>x</m>-coordinate increases by 1, the <m>y</m>-coordinate decreases by 1.
-	</p>
-      </solution>
-    </example>
-
     <p>
       Suppose we know the slope, <m>m</m>, and a point <m>(x_0, y_0)</m> that lines on the line.
       We can use the fact that <m>(x_0, y_0)</m> is a <xref ref="def-solution" text="title"/> to determine the <m>y</m>-intercept.
@@ -81,37 +68,67 @@
       </statement>
     </theorem>
 
-    <example xml:id="example-line_through_two_points">
-      <statement>
-	<p>
-	  Find the equation of the line through the points <m>(3,5)</m> and <m>(6,2)</m>.
-	</p>
-      </statement>
-      <solution>
-	<p>
-	  In <xref ref="example-find_slope"/>, we saw the slope of the line is <m>-1</m>.
-	  If we use the point <m>(3,5)</m>, then we can find the <m>y</m>-intercept by solving
-	  <md>
-	    <mrow>5 \amp= -3 + b \amp\amp \text{Add}\ 3\ \text{to both sides}</mrow>
-	    <mrow>b \amp= 5 + 3 = 8.</mrow>
-	  </md>
-	  This tells us the equation of the line through <m>(3,5)</m> and <m>(6,2)</m> is
-	  <me>y = -x + 8</me>.
-	</p>
-	<p>
-	  We could also have used the point <m>(6,2)</m> to find an equation of the line.
-	  If we use the point <m>(6,2)</m>, then the <m>y</m>-intercept is given by solving
-	  <md>
-	    <mrow>2 \amp= -6 + b \amp\amp \text{Add}\ 6\ \text{to both sides}</mrow>
-	    <mrow>b \amp= 2 + 6 = 8.</mrow>
-	  </md>
-	  We can see that no matter which point we use, we obtain the same <xref ref="thm-slope_intercept" text="title"/>.
-	</p>
-      </solution>
+    <example xml:id="example-line_through_two_points" component="web">
+      <task xml:id="task-line_through_two_points-slope">
+	<statement>
+	  <p>
+	    Find the slope of the line through the points <m>(3,5)</m> and <m>(6,2)</m>.
+	  </p>
+	</statement>
+	<solution>
+	  <p>
+	    The slope of the line through the points <m>(3,5)</m> and <m>(6,2)</m> is
+	    <me>\frac{2 - 5}{6 - 3} = \frac{-3}{3} = -1.</me>
+	    This says when the <m>x</m>-coordinate increases by 1, the <m>y</m>-coordinate decreases by 1.
+	  </p>
+	</solution>
+      </task>
+      <task>
+	<statement>
+	  <p>
+	    Find the equation of the line through the points <m>(3,5)</m> and <m>(6,2)</m>.
+	  </p>
+	</statement>
+	<solution>
+	  <p>
+	    In <xref ref="task-line_through_two_points-slope" text="local">Part</xref>, we saw the slope of the line is <m>-1</m>.
+	    If we use the point <m>(3,5)</m>, then we can find the <m>y</m>-intercept by solving
+	    <md>
+	      <mrow>5 \amp= -3 + b \amp\amp \text{Add}\ 3\ \text{to both sides}</mrow>
+	      <mrow>b \amp= 5 + 3 = 8.</mrow>
+	    </md>
+	    This tells us the equation of the line through <m>(3,5)</m> and <m>(6,2)</m> is
+	    <me>y = -x + 8</me>.
+	  </p>
+	  <p>
+	    We could also have used the point <m>(6,2)</m> to find an equation of the line.
+	    If we use the point <m>(6,2)</m>, then the <m>y</m>-intercept is given by solving
+	    <md>
+	      <mrow>2 \amp= -6 + b \amp\amp \text{Add}\ 6\ \text{to both sides}</mrow>
+	      <mrow>b \amp= 2 + 6 = 8.</mrow>
+	    </md>
+	    We can see that no matter which point we use, we obtain the same <xref ref="thm-slope_intercept" text="title"/>.
+	  </p>
+	</solution>
+      </task>
     </example>
+
+    <worksheet component="notes">
+      <title/>
+      <example>
+	<task workspace="4in">
+	  <p>Find the slope of the line through the points <m>(3,5)</m> and <m>(6,2)</m>.</p>
+	</task>
+	<task workspace="4in">
+	  <p>
+	    Find the equation of the line through the points <m>(3,5)</m> and <m>(6,2)</m>.
+	  </p>
+	</task>
+      </example>
+    </worksheet>
   </subsection>
 
-  <subsection>
+  <subsection xml:id="subsec-point_slope">
     <title>The Point-Slope Form of a Line</title>
     
     <p>
@@ -146,7 +163,7 @@
       This form of a line is convenient to use when we know the slope of a line and a point on the line.
     </p>
 
-    <example>
+    <example component="web">
       <statement>
 	<p>
 	  Find the <xref ref="thm-point_slope" text="title"/> using the point <m>(1,2)</m> and the slope <m>3</m>.
@@ -160,7 +177,7 @@
       </solution>
     </example>
 
-    <example>
+    <example component="web">
       <statement>
 	<p>
 	  Find an equation for the line that passes through the points <m>(3,2)</m> and <m>(4,3)</m>.
@@ -186,9 +203,28 @@
 	</p>
       </solution>
     </example>
+
+    <worksheet component="notes">
+      <example>
+	<task workspace="4in">
+	  <statement>
+	    <p>
+	      Find the <xref ref="thm-point_slope" text="title"/> using the point <m>(1,2)</m> and the slope <m>3</m>.
+	    </p>
+	  </statement>
+	</task>
+	<task workspace="4in">
+	    <statement>
+	      <p>
+		Find an equation for the line that passes through the points <m>(3,2)</m> and <m>(4,3)</m>.
+	      </p>
+	    </statement>
+	</task>
+      </example>
+    </worksheet>
   </subsection>
 
-  <subsection>
+  <subsection xml:id="subsec-standard_eq_line">
     <title>The Standard Equation of a Line</title>
     <p>
       So far, we have only been interested in working with lines with a well-defined slope.
@@ -213,10 +249,9 @@
       </statement>
     </definition>
 
-    <remark>
-      <title><alert>Caution!</alert></title>
+    <warning>
       <p>
-	The standard equation of a line may not always represent an equation where <m>y</m> is a function of <m>x</m>!
+	The standard equation of a line may not always represent <m>y</m> as a function of <m>x</m>!
 	If <m>b = 0</m>, then the standard equation of a line reduces to
 	<md>
 	  <mrow>ax \amp= c \amp\amp \text{Divide both sides by}\ a</mrow>
@@ -224,44 +259,47 @@
 	</md>
 	which is a vertical line.
       </p>
-    </remark>
+    </warning>
 
-    <example>
+    <example component="web">
       <statement>
         <p>
 	  Place the linear equation
 	  <me>x + 3y - 2x + 7 = 5 + y - 4x</me>
-	  into <xref ref="def-linear_equation" text="title" />.
+	  into <xref ref="def-linear_equation" text="custom">standard form</xref>.
         </p>
       </statement>
       <solution>
         <p>
 	  The equation
 	  <me>x + 3y - 2x + 7 = 5 + y - 4x</me>
-	  can be placed in standard form as follows.
-	  First, move the variables to the left-hand side of the equation.
-	  Subtract <m>y - 4x</m> from both sides
-	  <me>x - 2x + 3y + 7 - (y - 4x) = 5</me>
-	  and distribute the negative
-	  <me>x - 2x + 3y + 7 - y + 4x = 5.</me>
-	  Collect like terms
-	  <me>x - 2x + 4x + 3y - y + 7 = 5</me>
-	  and simplify
-	  <me>3x + 2y + 7 = 5.</me>
-	  Finally, subtract 7 from both sides of the equation
-	  <me>3x + 4y = 5 - 7</me>
-	  and simplify to arrive at the standard form
-	  <me>3x + 4y = -2.</me>
+	  can be placed in standard form as follows
+	  <md>
+	    <mrow>\amp x + 3y - 2x + 7 = 5 + y - 4x\amp\amp \text{Subtract}\ y - 4x\ \text{from both sides}</mrow>
+	    <mrow>\amp x - 2x + 3y + 7 - (y - 4x) = 5 \amp\amp \text{Distribute the negative}</mrow>
+	    <mrow>\amp x - 2x + 3y + 7 - y + 4x = 5 \amp\amp \text{Collect like terms}</mrow>
+	    <mrow>\amp x - 2x + 4x + 3y - y + 7 = 5 \amp\amp \text{Simplify}</mrow>
+	    <mrow>\amp 3x + 2y + 7 = 5 \amp\amp \text{Subtract}\ 7\ \text{from both sides}</mrow>
+	    <mrow>\amp 3x + 4y = -2.</mrow>
+	  </md>
         </p>
       </solution>
     </example>
 
-    <example>
-      <p>
-        Not all equations are linear.
-        For example, the equation <m>xy + y - 7 = 2</m> is not linear because of the term <m>xy</m>.
-      </p>
-    </example>
+    <worksheet component="notes">
+      <title/>
+      <page>
+	<example>
+	  <statement>
+            <p>
+	      Place the linear equation
+	      <me>x + 3y - 2x + 7 = 5 + y - 4x</me>
+	      into <xref ref="def-linear_equation" text="custom">standard form</xref>.
+            </p>
+	  </statement>
+	</example>
+      </page>
+    </worksheet>
   </subsection>
 
   <xi:include href="worksheets/wksht-rep_of_lines.ptx"/>
