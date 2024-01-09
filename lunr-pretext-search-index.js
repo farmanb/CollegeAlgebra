@@ -1528,7 +1528,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.5",
   "title": "Parallel and Perpendicular Lines",
-  "body": " Parallel and Perpendicular Lines   Parallel   Two lines in the Cartesian plane are said to be parallel   Line  Parallel  if they do not intersect.     Parallel lines.        Two lines are parallel if and only if they have the same slope.      Determine whether the lines are parallel.    In order to determine whether these lines are parallel, we need to find the slope of each line. We do this by placing each line into .  For the first line, add to both sides and divide both sides by  This tells us the slope of the line is .  For the second line, add to both sides divide both sides by  and reduce This tells the slope of the line is also . Therefore the lines and are parallel by .      Find the equation of the line parallel to that passes through the point . Write your answer in     First, find the slope of the line by placing the equation into . Subtract from both sides divide both sides by  and simplify to In this form, we see the slope of the line is   By , the slope of a line parallel to is . Now we use to write down a line with slope through the point  and simplify   Finally, to put this line into , distribute the  add 5 to both sides of the equation and simplify       Two lines are perpendicular   Line  Perpendicular  if they intersect at a right angle.     Perpendicular lines.        Two lines are perpendicular if and only if the product of their slopes is .      Determine whether the lines are perpendicular.    First we must place the lines in to find the slopes. The first equation becomes In this form, we can read off the slope of the line as   The second equation becomes In this form, we can read off the slop of the line as .  Finally, to check whether these lines are parallel, we compute the product of these slopes. Since we conclude that these lines are perpendicular by .      Find the equation of a line perpendicular to that passes through the point . Write your answer in form.    First, place the line in  We can read off the slope as from this equation.  To find the slope, , of a perpendicular line, tells us we must solve the equation for :   Using , the equation of the line perpendicular to that passes through the point is Finally, we convert to      "
+  "body": " Parallel and Perpendicular Lines   Parallel Lines   Parallel Lines   Two lines in the Cartesian plane are said to be parallel   Line  Parallel  if they do not intersect.     Parallel lines.        Two lines are parallel if and only if they have the same slope.      Determine whether the lines are parallel.    In order to determine whether these lines are parallel, we need to find the slope of each line. We do this by placing each line into slope-intercept form .  For the first line, This tells us the slope of the line is .  For the second line, This tells us the slope of the line is also . Therefore the lines and are parallel by .      Find the equation of the line parallel to that passes through the point . Write your answer in slope-intercept form .    First, find the slope of the line by placing the equation into . In this form, we see the slope of the line is .  By , the slope of a line parallel to is . Now we use point-slope form to write down a line with slope through the point : Finally, convert to slope-intercept form        Perpendicular Lines   Perpendicular Lines   Two lines are perpendicular   Line  Perpendicular  if they intersect at a right angle.     Perpendicular lines.        Two lines are perpendicular if and only if the product of their slopes is .      Determine whether the lines are perpendicular.    First we place the lines in slope-intercept form to find the slopes. The first equation becomes In this form, we can read off the slope of the line as   The second equation becomes In this form, we can read off the slope of the line as .  Finally, to check whether these lines are parallel, we compute the product of these slopes. Since we conclude that these lines are perpendicular by .      Find the equation of a line perpendicular to that passes through the point . Write your answer in slope-intercept form .    First, place the line in slope-intercept form  We can read off the slope as from this equation.  To find the slope, , of a perpendicular line, tells us we must solve the equation for :   Using point-slope form , the equation of the line perpendicular to that passes through the point is Finally, we convert to slope-intercept form       "
 },
 {
   "id": "def-parallel",
@@ -1536,8 +1536,8 @@ var ptx_lunr_docs = [
   "url": "sec-perp_parallel.html#def-parallel",
   "type": "Definition",
   "number": "3.5.1",
-  "title": "Parallel.",
-  "body": " Parallel   Two lines in the Cartesian plane are said to be parallel   Line  Parallel  if they do not intersect.   "
+  "title": "Parallel Lines.",
+  "body": " Parallel Lines   Two lines in the Cartesian plane are said to be parallel   Line  Parallel  if they do not intersect.   "
 },
 {
   "id": "fig-parallel_lines",
@@ -1558,22 +1558,22 @@ var ptx_lunr_docs = [
   "body": "  Two lines are parallel if and only if they have the same slope.   "
 },
 {
-  "id": "sec-perp_parallel-5",
+  "id": "subsec-parallel-5",
   "level": "2",
-  "url": "sec-perp_parallel.html#sec-perp_parallel-5",
+  "url": "sec-perp_parallel.html#subsec-parallel-5",
   "type": "Example",
   "number": "3.5.4",
   "title": "",
-  "body": "  Determine whether the lines are parallel.    In order to determine whether these lines are parallel, we need to find the slope of each line. We do this by placing each line into .  For the first line, add to both sides and divide both sides by  This tells us the slope of the line is .  For the second line, add to both sides divide both sides by  and reduce This tells the slope of the line is also . Therefore the lines and are parallel by .   "
+  "body": "  Determine whether the lines are parallel.    In order to determine whether these lines are parallel, we need to find the slope of each line. We do this by placing each line into slope-intercept form .  For the first line, This tells us the slope of the line is .  For the second line, This tells us the slope of the line is also . Therefore the lines and are parallel by .   "
 },
 {
-  "id": "sec-perp_parallel-6",
+  "id": "subsec-parallel-6",
   "level": "2",
-  "url": "sec-perp_parallel.html#sec-perp_parallel-6",
+  "url": "sec-perp_parallel.html#subsec-parallel-6",
   "type": "Example",
   "number": "3.5.5",
   "title": "",
-  "body": "  Find the equation of the line parallel to that passes through the point . Write your answer in     First, find the slope of the line by placing the equation into . Subtract from both sides divide both sides by  and simplify to In this form, we see the slope of the line is   By , the slope of a line parallel to is . Now we use to write down a line with slope through the point  and simplify   Finally, to put this line into , distribute the  add 5 to both sides of the equation and simplify    "
+  "body": "  Find the equation of the line parallel to that passes through the point . Write your answer in slope-intercept form .    First, find the slope of the line by placing the equation into . In this form, we see the slope of the line is .  By , the slope of a line parallel to is . Now we use point-slope form to write down a line with slope through the point : Finally, convert to slope-intercept form     "
 },
 {
   "id": "def-perpendicular",
@@ -1581,8 +1581,8 @@ var ptx_lunr_docs = [
   "url": "sec-perp_parallel.html#def-perpendicular",
   "type": "Definition",
   "number": "3.5.6",
-  "title": "",
-  "body": "  Two lines are perpendicular   Line  Perpendicular  if they intersect at a right angle.   "
+  "title": "Perpendicular Lines.",
+  "body": " Perpendicular Lines   Two lines are perpendicular   Line  Perpendicular  if they intersect at a right angle.   "
 },
 {
   "id": "fig-perpendicular_lines",
@@ -1603,22 +1603,22 @@ var ptx_lunr_docs = [
   "body": "  Two lines are perpendicular if and only if the product of their slopes is .   "
 },
 {
-  "id": "sec-perp_parallel-10",
+  "id": "subsec-perpendicular-5",
   "level": "2",
-  "url": "sec-perp_parallel.html#sec-perp_parallel-10",
+  "url": "sec-perp_parallel.html#subsec-perpendicular-5",
   "type": "Example",
   "number": "3.5.9",
   "title": "",
-  "body": "  Determine whether the lines are perpendicular.    First we must place the lines in to find the slopes. The first equation becomes In this form, we can read off the slope of the line as   The second equation becomes In this form, we can read off the slop of the line as .  Finally, to check whether these lines are parallel, we compute the product of these slopes. Since we conclude that these lines are perpendicular by .   "
+  "body": "  Determine whether the lines are perpendicular.    First we place the lines in slope-intercept form to find the slopes. The first equation becomes In this form, we can read off the slope of the line as   The second equation becomes In this form, we can read off the slope of the line as .  Finally, to check whether these lines are parallel, we compute the product of these slopes. Since we conclude that these lines are perpendicular by .   "
 },
 {
-  "id": "sec-perp_parallel-11",
+  "id": "subsec-perpendicular-6",
   "level": "2",
-  "url": "sec-perp_parallel.html#sec-perp_parallel-11",
+  "url": "sec-perp_parallel.html#subsec-perpendicular-6",
   "type": "Example",
   "number": "3.5.10",
   "title": "",
-  "body": "  Find the equation of a line perpendicular to that passes through the point . Write your answer in form.    First, place the line in  We can read off the slope as from this equation.  To find the slope, , of a perpendicular line, tells us we must solve the equation for :   Using , the equation of the line perpendicular to that passes through the point is Finally, we convert to     "
+  "body": "  Find the equation of a line perpendicular to that passes through the point . Write your answer in slope-intercept form .    First, place the line in slope-intercept form  We can read off the slope as from this equation.  To find the slope, , of a perpendicular line, tells us we must solve the equation for :   Using point-slope form , the equation of the line perpendicular to that passes through the point is Finally, we convert to slope-intercept form     "
 },
 {
   "id": "sec-linear_ineq",
