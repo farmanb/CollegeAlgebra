@@ -300,10 +300,7 @@ window.MathJax = {
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-rational_functions.html#sec-rational_functions-7" class="internal"><span class="codenumber">5.2.5</span> <span class="title">Rational Equations and Inequalities</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section active">
-<div class="toc-title-box"><a href="sec-composition.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Composition</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-composition.html#sec-composition-3" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Composition of Functions</span></a></div></li></ul>
-</li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-composition.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Composition</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-inverses.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Composition Inverses</span></a></div>
 <ul class="structural toc-item-list">
@@ -384,26 +381,38 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-composition"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">5.3</span><span class="space"> </span><span class="title">Composition</span>
 </h2>
-<section class="introduction" id="sec-composition-2"><div class="para" id="sec-composition-2-1">When we study numbers in an elementary mathematics course, we focus primarily on operations that we can perform with numbers like addition and multiplication. While we have seen we can perform these same operations with functions, there is one operation that is particular to functions that we study here. It is important because it provides a way to create complicated functions from simpler functions.</div></section><section class="subsection" id="sec-composition-3"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">5.3.1</span><span class="space"> </span><span class="title">Composition of Functions</span>
-</h3>
-<article class="definition definition-like" id="sec-composition-3-2"><h4 class="heading">
+<section class="introduction" id="sec-composition-2"><div class="para" id="sec-composition-2-1">When we study numbers in an elementary mathematics course, we focus primarily on operations that we can perform with numbers like addition and multiplication. While we have seen we can perform these same operations with functions, there is one operation that is particular to functions that we study here. It is important because it provides a way to create complicated functions from simpler functions.</div></section><article class="definition definition-like" id="def-function_comp"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.3.1</span><span class="period">.</span><span class="space"> </span><span class="title">Composition of Functions.</span>
-</h4> <div class="para logical" id="sec-composition-3-2-2-1">
+</h3> <div class="para logical" id="def-function_comp-2-1">
 <div class="para">Assume <span class="process-math">\(f \colon A \to \R\)</span> and <span class="process-math">\(g \colon B \to \R\)</span> are functions with <span class="process-math">\(f(A) \subseteq B\text{.}\)</span> The <dfn class="terminology">composition</dfn>  of <span class="process-math">\(g\)</span> with <span class="process-math">\(f\)</span> is the function <span class="process-math">\(g \circ f \colon A \to \R\)</span>  defined by</div>
 <div class="displaymath process-math">
 \begin{equation*}
 (g \circ f)(x) = g\left(f\left(x\right)\right).
 \end{equation*}
 </div>
-</div></article><article class="example example-like" id="sec-composition-3-3"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">5.3.2</span><span class="period">.</span>
-</h4>
-<div class="para" id="sec-composition-3-3-1-1">Consider the functions <span class="process-math">\(f \colon \R \to \R\)</span> defined by <span class="process-math">\(f(x) = x + 2\)</span> and <span class="process-math">\(g \colon \R \to \R\)</span> defined by <span class="process-math">\(g(x) = x^2 + 3\text{.}\)</span> Find the composition of <span class="process-math">\(g\)</span> with <span class="process-math">\(f\text{.}\)</span>
+</div></article><article class="warning remark-like" id="sec-composition-4"><h3 class="heading">
+<span class="type">Warning</span><span class="space"> </span><span class="codenumber">5.3.2</span><span class="period">.</span>
+</h3>
+<div class="para" id="sec-composition-4-1">It is important to ensure the range of the function <span class="process-math">\(f\)</span> is contained within the domain of the function <span class="process-math">\(g\text{.}\)</span> If not, the composition does not make sense.</div></article><article class="example example-like" id="sec-composition-5"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">5.3.3</span><span class="period">.</span>
+</h3>
+<div class="para logical" id="sec-composition-5-1-1">
+<div class="para">The function <span class="process-math">\(g \colon [0,\infty) \to \R\)</span> defined by <span class="process-math">\(g(x) = \sqrt{x}\)</span> <em class="alert">cannot</em> be composed with the function <span class="process-math">\(f \colon [0, \infty) \to (-\infty,0]\)</span> defined by <span class="process-math">\(f(x) = -x\)</span> because</div>
+<div class="displaymath process-math">
+\begin{equation*}
+(g \circ f)(x) = g(-x) = \sqrt{-x}
+\end{equation*}
 </div>
-<div class="solutions"><details id="sec-composition-3-3-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like"><div class="para logical" id="sec-composition-3-3-2-1">
+<div class="para">is <em class="alert">not</em> a real number when <span class="process-math">\(x &gt; 0\text{!}\)</span>
+</div>
+</div></article><article class="example example-like" id="sec-composition-6"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">5.3.4</span><span class="period">.</span>
+</h3>
+<div class="para" id="sec-composition-6-1-1">Consider the functions <span class="process-math">\(f \colon \R \to \R\)</span> defined by <span class="process-math">\(f(x) = x + 2\)</span> and <span class="process-math">\(g \colon \R \to \R\)</span> defined by <span class="process-math">\(g(x) = x^2 + 3\text{.}\)</span> Find the composition of <span class="process-math">\(g\)</span> with <span class="process-math">\(f\text{.}\)</span>
+</div>
+<div class="solutions"><details id="sec-composition-6-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like"><div class="para logical" id="sec-composition-6-2-1">
 <div class="para">The composition of <span class="process-math">\(g\)</span> with <span class="process-math">\(f\)</span> is the function <span class="process-math">\(g \circ f \colon \R \to \R\)</span> defined by</div>
-<div class="displaymath process-math" id="sec-composition-3-3-2-1-4">
+<div class="displaymath process-math" id="sec-composition-6-2-1-4">
 \begin{align*}
 (g \circ f)(x) = g\left(f(x)\right)
 \amp= g\left(x + 2\right)\\
@@ -413,27 +422,12 @@ window.MathJax = {
 \amp = x^2 + 4x + 7
 \end{align*}
 </div>
-</div></div></details></div></article><article class="warning remark-like" id="sec-composition-3-4"><h4 class="heading">
-<span class="type">Warning</span><span class="space"> </span><span class="codenumber">5.3.3</span><span class="period">.</span>
-</h4>
-<div class="para" id="sec-composition-3-4-1">It is important to make sure the range of the function <span class="process-math">\(f\)</span> is contained within the domain of the function <span class="process-math">\(g\text{.}\)</span> If not, the composition does not make sense.</div></article><article class="example example-like" id="sec-composition-3-5"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">5.3.4</span><span class="period">.</span>
-</h4>
-<div class="para logical" id="sec-composition-3-5-1-1">
-<div class="para">The function <span class="process-math">\(g \colon [0,\infty) \to \R\)</span> defined by <span class="process-math">\(g(x) = \sqrt{x}\)</span> cannot be composed with the function <span class="process-math">\(f \colon [0, \infty) \to (-\infty,0]\)</span> defined by <span class="process-math">\(f(x) = -x\)</span> because</div>
-<div class="displaymath process-math">
-\begin{equation*}
-(g \circ f)(x) = g(-x) = \sqrt{-x}
-\end{equation*}
-</div>
-<div class="para">is <em class="alert">not</em> a real number when <span class="process-math">\(x &gt; 0\text{!}\)</span>
-</div>
-</div></article><article class="warning remark-like" id="sec-composition-3-6"><h4 class="heading">
+</div></div></details></div></article><article class="warning remark-like" id="sec-composition-7"><h3 class="heading">
 <span class="type">Warning</span><span class="space"> </span><span class="codenumber">5.3.5</span><span class="period">.</span>
-</h4>
-<div class="para" id="sec-composition-3-6-1">The order of composition matters. Even if <span class="process-math">\(f \circ g\)</span> and <span class="process-math">\(g \circ f\)</span> are both well-defined and have the same domain, these two functions <em class="alert">are not the same</em> in general.</div></article><article class="example example-like" id="example-composition_not_commutative"><h4 class="heading">
+</h3>
+<div class="para" id="sec-composition-7-1">The order of composition matters. Even if <span class="process-math">\(f \circ g\)</span> and <span class="process-math">\(g \circ f\)</span> are both well-defined and have the same domain, these two functions <em class="alert">are not the same</em> in general.</div></article><article class="example example-like" id="example-composition_not_commutative"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">5.3.6</span><span class="period">.</span>
-</h4>
+</h3>
 <div class="para" id="example-composition_not_commutative-1-1">Consider the functions <span class="process-math">\(f \colon \R \to \R\)</span> defined by <span class="process-math">\(f(x) = x + 2\)</span> and <span class="process-math">\(g \colon \R \to \R\)</span> defined by <span class="process-math">\(g(x) = x^2 + 3\text{.}\)</span> Find the composition of <span class="process-math">\(f\)</span> with <span class="process-math">\(g\text{.}\)</span> Verify that it is <em class="alert">not</em> the same as the composition of <span class="process-math">\(g\)</span> with <span class="process-math">\(f\text{.}\)</span>
 </div>
 <div class="solutions"><details id="example-composition_not_commutative-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like"><div class="para logical" id="example-composition_not_commutative-2-1">
@@ -447,7 +441,7 @@ window.MathJax = {
 \amp\neq x^2 + 4x + 7 = (g \circ f)(x).
 \end{align*}
 </div>
-</div></div></details></div></article></section></section></div>
+</div></div></details></div></article></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-rational_functions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-inverses.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

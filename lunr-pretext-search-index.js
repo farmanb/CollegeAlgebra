@@ -2428,48 +2428,48 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.3",
   "title": "Composition",
-  "body": " Composition   When we study numbers in an elementary mathematics course, we focus primarily on operations that we can perform with numbers like addition and multiplication. While we have seen we can perform these same operations with functions, there is one operation that is particular to functions that we study here. It is important because it provides a way to create complicated functions from simpler functions.    Composition of Functions   Composition of Functions   Assume and are functions with . The composition   Function  Composition  of with is the function      Composition of with  defined by       Consider the functions defined by and defined by . Find the composition of with .    The composition of with is the function defined by      It is important to make sure the range of the function is contained within the domain of the function . If not, the composition does not make sense.     The function defined by cannot be composed with the function defined by because is not a real number when !     The order of composition matters. Even if and are both well-defined and have the same domain, these two functions are not the same in general.     Consider the functions defined by and defined by . Find the composition of with . Verify that it is not the same as the composition of with .    The composition of with is the function defined by      "
+  "body": " Composition   When we study numbers in an elementary mathematics course, we focus primarily on operations that we can perform with numbers like addition and multiplication. While we have seen we can perform these same operations with functions, there is one operation that is particular to functions that we study here. It is important because it provides a way to create complicated functions from simpler functions.    Composition of Functions   Assume and are functions with . The composition   Function  Composition  of with is the function      Composition of with  defined by      It is important to ensure the range of the function is contained within the domain of the function . If not, the composition does not make sense.     The function defined by  cannot be composed with the function defined by because is not a real number when !      Consider the functions defined by and defined by . Find the composition of with .    The composition of with is the function defined by      The order of composition matters. Even if and are both well-defined and have the same domain, these two functions are not the same in general.     Consider the functions defined by and defined by . Find the composition of with . Verify that it is not the same as the composition of with .    The composition of with is the function defined by     "
 },
 {
-  "id": "sec-composition-3-2",
+  "id": "def-function_comp",
   "level": "2",
-  "url": "sec-composition.html#sec-composition-3-2",
+  "url": "sec-composition.html#def-function_comp",
   "type": "Definition",
   "number": "5.3.1",
   "title": "Composition of Functions.",
   "body": " Composition of Functions   Assume and are functions with . The composition   Function  Composition  of with is the function      Composition of with  defined by    "
 },
 {
-  "id": "sec-composition-3-3",
+  "id": "sec-composition-4",
   "level": "2",
-  "url": "sec-composition.html#sec-composition-3-3",
-  "type": "Example",
+  "url": "sec-composition.html#sec-composition-4",
+  "type": "Warning",
   "number": "5.3.2",
+  "title": "",
+  "body": " It is important to ensure the range of the function is contained within the domain of the function . If not, the composition does not make sense.  "
+},
+{
+  "id": "sec-composition-5",
+  "level": "2",
+  "url": "sec-composition.html#sec-composition-5",
+  "type": "Example",
+  "number": "5.3.3",
+  "title": "",
+  "body": "  The function defined by  cannot be composed with the function defined by because is not a real number when !   "
+},
+{
+  "id": "sec-composition-6",
+  "level": "2",
+  "url": "sec-composition.html#sec-composition-6",
+  "type": "Example",
+  "number": "5.3.4",
   "title": "",
   "body": "  Consider the functions defined by and defined by . Find the composition of with .    The composition of with is the function defined by    "
 },
 {
-  "id": "sec-composition-3-4",
+  "id": "sec-composition-7",
   "level": "2",
-  "url": "sec-composition.html#sec-composition-3-4",
-  "type": "Warning",
-  "number": "5.3.3",
-  "title": "",
-  "body": " It is important to make sure the range of the function is contained within the domain of the function . If not, the composition does not make sense.  "
-},
-{
-  "id": "sec-composition-3-5",
-  "level": "2",
-  "url": "sec-composition.html#sec-composition-3-5",
-  "type": "Example",
-  "number": "5.3.4",
-  "title": "",
-  "body": "  The function defined by cannot be composed with the function defined by because is not a real number when !   "
-},
-{
-  "id": "sec-composition-3-6",
-  "level": "2",
-  "url": "sec-composition.html#sec-composition-3-6",
+  "url": "sec-composition.html#sec-composition-7",
   "type": "Warning",
   "number": "5.3.5",
   "title": "",
