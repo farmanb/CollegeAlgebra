@@ -184,62 +184,100 @@
       as appropriate, to obtain an equation without exponentials or logarithms.
     </p>
 
-    <example>
-      <p>
-	To solve the equation
-	<me>\exp\left(x^2\right)\exp(5)=\exp(6x)</me>
-	for <m>x</m>, we use the <xref ref="thm-properties_exp" text="title"/> to rewrite
-	<md>
-	  <mrow>\amp \exp\left(x^{2}\right)\exp(5)=\exp(6x) \amp\amp \text{Simplify the LHS using}</mrow>
-	  <mrow>\amp\amp\amp\exp(x)\exp\left(x^\prime\right) = \exp\left(x + x^\prime\right)</mrow>
-	  <mrow>\amp \exp(x^2 + 5) = \exp(6x) \amp\amp \text{Apply}\ \ln\ \text{to both sides}</mrow>
-	  <mrow>\amp \ln \circ \exp(x^2+ 5) = \ln \circ \exp(6x) \amp\amp \text{Simplify}\ \ln \circ \exp(x) = x</mrow>
-	  <mrow>\amp x^2 + 5 = 6x \amp\amp \text{Subtract}\ 6x\ \text{from both sides}</mrow>
-	  <mrow>\amp x^2 - 6x + 5 = 0 \amp\amp \text{Factor (or use the Quadratic Formula)}</mrow>
-	  <mrow>\amp (x - 5)(x - 1) = 0.</mrow>
-	</md>
-	Therefore there are two solutions to this equation: <m>x = 5</m> and <m>x = 1</m>.
-      </p>
-      <p>
-	We can check <m>x = 5</m> is a solution by substituting <m>5</m> for <m>x</m> on the left-hand side to get
-	<me>\exp(5^2)\exp(5) = \exp(25)\exp(5) = \exp(25 + 5) = \exp(30)</me>
-	then on the right-hand side to get
-	<me>\exp(6(5)) = \exp(30)</me>
-	and observe they are the same.
-      </p>
-      <p>
-	Similarly, we can check <m>x = 1</m> is a solution by substituting <m>1</m> for <m>x</m> on the left-hand side to get
-	<me>\exp(1^2)\exp(1) = \exp(1)\exp(5) = \exp(1 + 5) = \exp(6)</me>
-	then on the right-hand side to get
-	<me>\exp(6(1)) = \exp(6)</me>
-	and observe they are the same.
-      </p>
+    <example component="web">
+      <statement>
+	<p>
+	  Solve the equation
+	  <me>\exp\left(x^2\right)\exp(5)=\exp(6x)</me>
+	  for <m>x</m>.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  Use the <xref ref="thm-properties_exp" text="title"/> to rewrite
+	  <md>
+	    <mrow>\amp \exp\left(x^{2}\right)\exp(5)=\exp(6x) \amp\amp \text{Simplify the LHS using}</mrow>
+	    <mrow>\amp\amp\amp\exp(x)\exp\left(x^\prime\right) = \exp\left(x + x^\prime\right)</mrow>
+	    <mrow>\amp \exp(x^2 + 5) = \exp(6x) \amp\amp \text{Apply}\ \ln\ \text{to both sides}</mrow>
+	    <mrow>\amp \ln \circ \exp(x^2+ 5) = \ln \circ \exp(6x) \amp\amp \text{Simplify}\ \ln \circ \exp(x) = x</mrow>
+	    <mrow>\amp x^2 + 5 = 6x \amp\amp \text{Subtract}\ 6x\ \text{from both sides}</mrow>
+	    <mrow>\amp x^2 - 6x + 5 = 0 \amp\amp \text{Factor (or use the Quadratic Formula)}</mrow>
+	    <mrow>\amp (x - 5)(x - 1) = 0.</mrow>
+	  </md>
+	  Therefore there are two solutions to this equation: <m>x = 5</m> and <m>x = 1</m>.
+	</p>
+	<p>
+	  We can check <m>x = 5</m> is a solution by substituting <m>5</m> for <m>x</m> on the left-hand side to get
+	  <me>\exp(5^2)\exp(5) = \exp(25)\exp(5) = \exp(25 + 5) = \exp(30)</me>
+	  then on the right-hand side to get
+	  <me>\exp(6(5)) = \exp(30)</me>
+	  and observe they are the same.
+	</p>
+	<p>
+	  Similarly, we can check <m>x = 1</m> is a solution by substituting <m>1</m> for <m>x</m> on the left-hand side to get
+	  <me>\exp(1^2)\exp(1) = \exp(1)\exp(5) = \exp(1 + 5) = \exp(6)</me>
+	  then on the right-hand side to get
+	  <me>\exp(6(1)) = \exp(6)</me>
+	  and observe they are the same.
+	</p>
+      </solution>
     </example>
 	
     
-    <example>
-      <p>
-	To solve the equation
-	<me>2\ln\left(x-1\right) = \ln(1)</me>
-	for <m>x</m>, we use the <xref ref="thm-properties_log" text="title"/> to rewrite
-	<md>
-	  <mrow>\amp 2\ln\left(x-1\right)= \ln(1) \amp\amp \text{Use}\ r\ln(y) = \ln(y^r)\ \text{on the LHS}</mrow>
-	  <mrow>\amp \ln\left((x-1)^2\right) = \ln(1) \amp\amp \text{Apply}\ \exp\ \text{to both sides}</mrow>
-	  <mrow>\amp \exp \circ \ln\left((x-1)^2\right) = \exp \circ \ln(1) \amp\amp \text{Simplify}\ \exp \circ \ln(y) = y</mrow>
-	  <mrow>\amp (x-1)^2 = 1 \amp\amp \text{Expand the LHS}</mrow>
-	  <mrow>\amp x^2 - 2x + 1 = 1 \amp\amp \text{Subtract}\ 1\ \text{from both sides}</mrow>
-	  <mrow>\amp x^2 - 2x = 0\ \text{Factor}</mrow>
-	  <mrow>\amp x(x - 2) = 0.</mrow>
-	</md>
-	The two possible solutions are <m>x = 0</m> and <m>x = 2</m>.
-	The solution <m>x = 0</m> is <em>extraneous</em> because <m>\ln(0 - 1) = \ln(-1)</m> is <alert>undefined.</alert>
-	Therefore the only solution is <m>x = 2</m>.
-      </p>
-      <p>
-	We can verify this is a solution by substituting <m>2</m> for <m>x</m> to see
-	<me>2\ln(2 - 1) = 2\ln(1) = 2(0) = 0 = \ln(1).</me>
-      </p>
+    <example component="web">
+      <statement>
+	<p>
+	  Solve the equation
+	  <me>2\ln\left(x-1\right) = \ln(1)</me>
+	  for <m>x</m>
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  Use the <xref ref="thm-properties_log" text="title"/> to rewrite
+	  <md>
+	    <mrow>\amp 2\ln\left(x-1\right)= \ln(1) \amp\amp \text{Use}\ r\ln(y) = \ln(y^r)\ \text{on the LHS}</mrow>
+	    <mrow>\amp \ln\left((x-1)^2\right) = \ln(1) \amp\amp \text{Apply}\ \exp\ \text{to both sides}</mrow>
+	    <mrow>\amp \exp \circ \ln\left((x-1)^2\right) = \exp \circ \ln(1) \amp\amp \text{Simplify}\ \exp \circ \ln(y) = y</mrow>
+	    <mrow>\amp (x-1)^2 = 1 \amp\amp \text{Expand the LHS}</mrow>
+	    <mrow>\amp x^2 - 2x + 1 = 1 \amp\amp \text{Subtract}\ 1\ \text{from both sides}</mrow>
+	    <mrow>\amp x^2 - 2x = 0\ \text{Factor}</mrow>
+	    <mrow>\amp x(x - 2) = 0.</mrow>
+	  </md>
+	  The two possible solutions are <m>x = 0</m> and <m>x = 2</m>.
+	  The solution <m>x = 0</m> is <em>extraneous</em> because <m>\ln(0 - 1) = \ln(-1)</m> is <alert>undefined.</alert>
+	  Therefore the only solution is <m>x = 2</m>.
+	</p>
+	<p>
+	  We can verify this is a solution by substituting <m>2</m> for <m>x</m> to see
+	  <me>2\ln(2 - 1) = 2\ln(1) = 2(0) = 0 = \ln(1).</me>
+	</p>
+      </solution>
     </example>
+    <worksheet component="notes">
+      <title/>
+      <example>
+	<task workspace="4in">
+	  <statement>
+	    <p>
+	      Solve the equation
+	      <me>\exp\left(x^2\right)\exp(5)=\exp(6x)</me>
+	      for <m>x</m>.
+	    </p>
+	  </statement>
+	</task>
+
+	<task workspace="4in">
+	  <statement>
+	    <p>
+	      Solve the equation
+	      <me>2\ln\left(x-1\right) = \ln(1)</me>
+	      for <m>x</m>
+	    </p>
+	  </statement>
+	</task>
+      </example>
+    </worksheet>
   </subsection>
 
   <worksheet xml:id="wksht-log" xmlns:xi="http://www.w3.org/2001/XInclude" component="notes">
