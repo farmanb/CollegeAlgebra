@@ -22,54 +22,59 @@
       <table>
 	<title>Observed Population by Year</title>
 	<tabular halign="center">
+	  <col width="20%"/>
+	  <col width="20%"/>
+	  <col width="20%"/>
+	  <col width="20%"/>
+	  <col width="20%"/>
 	  <row header="yes">
-	    <cell>Year</cell>
-	    <cell>Initial Population</cell>
-	    <cell>Final Population</cell>
-	    <cell>Change</cell>
-	    <cell>Percent Change</cell>
+	    <cell><p>Year</p></cell>
+	    <cell><p>Initial Population</p></cell>
+	    <cell><p>Final Population</p></cell>
+	    <cell><p>Change</p></cell>
+	    <cell><p>Percent Change</p></cell>
 	  </row>
 	  <row>
-	    <cell><m>1</m></cell>
-	    <cell><m>64</m></cell>
-	    <cell><m>96</m></cell>
-	    <cell><m>+32</m></cell>
-	    <cell><m>+50\%</m></cell>
+	    <cell><p><m>1</m></p></cell>
+	    <cell><p><m>64</m></p></cell>
+	    <cell><p><m>96</m></p></cell>
+	    <cell><p><m>+32</m></p></cell>
+	    <cell><p><m>+50\%</m></p></cell>
 	  </row>
 	  <row>
-	    <cell><m>2</m></cell>
-	    <cell><m>96</m></cell>
-	    <cell><m>144</m></cell>
-	    <cell><m>+48</m></cell>
-	    <cell><m>+50\%</m></cell>
+	    <cell><p><m>2</m></p></cell>
+	    <cell><p><m>96</m></p></cell>
+	    <cell><p><m>144</m></p></cell>
+	    <cell><p><m>+48</m></p></cell>
+	    <cell><p><m>+50\%</m></p></cell>
 	  </row>
 	  <row>
-	    <cell><m>3</m></cell>
-	    <cell><m>144</m></cell>
-	    <cell><m>216</m></cell>
-	    <cell><m>+72</m></cell>
-	    <cell><m>+50\%</m></cell>
+	    <cell><p><m>3</m></p></cell>
+	    <cell><p><m>144</m></p></cell>
+	    <cell><p><m>216</m></p></cell>
+	    <cell><p><m>+72</m></p></cell>
+	    <cell><p><m>+50\%</m></p></cell>
 	  </row>
 	  <row>
-	    <cell><m>4</m></cell>
-	    <cell><m>216</m></cell>
-	    <cell><m>324</m></cell>
-	    <cell><m>+108</m></cell>
-	    <cell><m>+50\%</m></cell>
+	    <cell><p><m>4</m></p></cell>
+	    <cell><p><m>216</m></p></cell>
+	    <cell><p><m>324</m></p></cell>
+	    <cell><p><m>+108</m></p></cell>
+	    <cell><p><m>+50\%</m></p></cell>
 	  </row>
 	  <row>
-	    <cell><m>5</m></cell>
-	    <cell><m>324</m></cell>
-	    <cell><m>486</m></cell>
-	    <cell><m>+162</m></cell>
-	    <cell><m>+50\%</m></cell>
+	    <cell><p><m>5</m></p></cell>
+	    <cell><p><m>324</m></p></cell>
+	    <cell><p><m>486</m></p></cell>
+	    <cell><p><m>+162</m></p></cell>
+	    <cell><p><m>+50\%</m></p></cell>
 	  </row>
 	  <row>
-	    <cell><m>6</m></cell>
-	    <cell><m>486</m></cell>
-	    <cell><m>729</m></cell>
-	    <cell><m>+243</m></cell>
-	    <cell><m>+50\%</m></cell>
+	    <cell><p><m>6</m></p></cell>
+	    <cell><p><m>486</m></p></cell>
+	    <cell><p><m>729</m></p></cell>
+	    <cell><p><m>+243</m></p></cell>
+	    <cell><p><m>+50\%</m></p></cell>
 	  </row>
 	</tabular>
       </table>
@@ -117,47 +122,52 @@
       <table>
 	<title>Amount of Money in Savings Account</title>
 	<tabular halign="center">
+	  <col width="20%"/>
+	  <col width="20%"/>
+	  <col width="20%"/>
+	  <col width="20%"/>
+	  <col width="20%"/>
 	  <row header="yes">
-	    <cell>Year</cell>
-	    <cell>Initial Amount (<m>\$</m>)</cell>
-	    <cell>Final Amount (<m>\$</m>)</cell>
-	    <cell>Change (<m>\$</m>)</cell>
-	    <cell>Growth Rate (Annual)</cell>
+	    <cell><p>Year</p></cell>
+	    <cell><p>Initial Amount (<m>\$</m>)</p></cell>
+	    <cell><p>Final Amount (<m>\$</m>)</p></cell>
+	    <cell><p>Change (<m>\$</m>)</p></cell>
+	    <cell><p>Growth Rate (Annual)</p></cell>
 	  </row>
 	  <row>
-	    <cell><m>1</m></cell>
-	    <cell><m>1000</m></cell>
-	    <cell><m>1061.68</m></cell>
-	    <cell><m>+61.68</m></cell>
-	    <cell><m>+6.17\%</m></cell>
+	    <cell><p><m>1</m></p></cell>
+	    <cell><p><m>1000</m></p></cell>
+	    <cell><p><m>1061.68</m></p></cell>
+	    <cell><p><m>+61.68</m></p></cell>
+	    <cell><p><m>+6.17\%</m></p></cell>
 	  </row>
 	  <row>
-	    <cell><m>2</m></cell>
-	    <cell><m>1061.68</m></cell>
-	    <cell><m>1127.16</m></cell>
-	    <cell><m>+65.48</m></cell>
-	    <cell><m>+6.17\%</m></cell>
+	    <cell><p><m>2</m></p></cell>
+	    <cell><p><m>1061.68</m></p></cell>
+	    <cell><p><m>1127.16</m></p></cell>
+	    <cell><p><m>+65.48</m></p></cell>
+	    <cell><p><m>+6.17\%</m></p></cell>
 	  </row>
 	  <row>
-	    <cell><m>3</m></cell>
-	    <cell><m>1127.16</m></cell>
-	    <cell><m>1196.68</m></cell>
-	    <cell><m>+69.52</m></cell>
-	    <cell><m>+6.17\%</m></cell>
+	    <cell><p><m>3</m></p></cell>
+	    <cell><p><m>1127.16</m></p></cell>
+	    <cell><p><m>1196.68</m></p></cell>
+	    <cell><p><m>+69.52</m></p></cell>
+	    <cell><p><m>+6.17\%</m></p></cell>
 	  </row>
 	  <row>
-	    <cell><m>4</m></cell>
-	    <cell><m>1196.68</m></cell>
-	    <cell><m>1270.49</m></cell>
-	    <cell><m>+73.81</m></cell>
-	    <cell><m>+6.17\%</m></cell>
+	    <cell><p><m>4</m></p></cell>
+	    <cell><p><m>1196.68</m></p></cell>
+	    <cell><p><m>1270.49</m></p></cell>
+	    <cell><p><m>+73.81</m></p></cell>
+	    <cell><p><m>+6.17\%</m></p></cell>
 	  </row>
 	  <row>
-	    <cell><m>5</m></cell>
-	    <cell><m>1270.49</m></cell>
-	    <cell><m>1348.85</m></cell>
-	    <cell><m>+78.36</m></cell>
-	    <cell><m>+6.17\%</m></cell>
+	    <cell><p><m>5</m></p></cell>
+	    <cell><p><m>1270.49</m></p></cell>
+	    <cell><p><m>1348.85</m></p></cell>
+	    <cell><p><m>+78.36</m></p></cell>
+	    <cell><p><m>+6.17\%</m></p></cell>
 	  </row>
 	</tabular>
       </table>
@@ -240,40 +250,45 @@
       <table>
 	<title>Amount of technetium-99m over 24 hours</title>
 	<tabular halign="center">
+	  <col width="20%"/>
+	  <col width="20%"/>
+	  <col width="20%"/>
+	  <col width="20%"/>
+	  <col width="20%"/>
 	  <row header="yes">
-	    <cell>Period</cell>
-	    <cell>Initial Amount (grams)</cell>
-	    <cell>Final Amount (grams)</cell>
-	    <cell>Change (grams)</cell>
-	    <cell>Percent Change</cell>
+	    <cell><p>Period</p></cell>
+	    <cell><p>Initial Amount (grams)</p></cell>
+	    <cell><p>Final Amount (grams)</p></cell>
+	    <cell><p>Change (grams)</p></cell>
+	    <cell><p>Percent Change</p></cell>
 	  </row>
 	  <row>
-	    <cell><m>1</m></cell>
-	    <cell><m>64</m></cell>
-	    <cell><m>32</m></cell>
-	    <cell><m>-32</m></cell>
-	    <cell><m>-50\%</m></cell>
+	    <cell><p><m>1</m></p></cell>
+	    <cell><p><m>64</m></p></cell>
+	    <cell><p><m>32</m></p></cell>
+	    <cell><p><m>-32</m></p></cell>
+	    <cell><p><m>-50\%</m></p></cell>
 	  </row>
 	  <row>
-	    <cell><m>2</m></cell>
-	    <cell><m>32</m></cell>
-	    <cell><m>16</m></cell>
-	    <cell><m>-16</m></cell>
-	    <cell><m>-50\%</m></cell>
+	    <cell><p><m>2</m></p></cell>
+	    <cell><p><m>32</m></p></cell>
+	    <cell><p><m>16</m></p></cell>
+	    <cell><p><m>-16</m></p></cell>
+	    <cell><p><m>-50\%</m></p></cell>
 	  </row>
 	  <row>
-	    <cell><m>3</m></cell>
-	    <cell><m>16</m></cell>
-	    <cell><m>8</m></cell>
-	    <cell><m>-8</m></cell>
-	    <cell><m>-50\%</m></cell>
+	    <cell><p><m>3</m></p></cell>
+	    <cell><p><m>16</m></p></cell>
+	    <cell><p><m>8</m></p></cell>
+	    <cell><p><m>-8</m></p></cell>
+	    <cell><p><m>-50\%</m></p></cell>
 	  </row>
 	  <row>
-	    <cell><m>4</m></cell>
-	    <cell><m>8</m></cell>
-	    <cell><m>4</m></cell>
-	    <cell><m>-4</m></cell>
-	    <cell><m>-50\%</m></cell>
+	    <cell><p><m>4</m></p></cell>
+	    <cell><p><m>8</m></p></cell>
+	    <cell><p><m>4</m></p></cell>
+	    <cell><p><m>-4</m></p></cell>
+	    <cell><p><m>-50\%</m></p></cell>
 	  </row>
 	</tabular>
       </table>
@@ -290,40 +305,43 @@
       <table>
 	<title>Amount of technetium-99m over 24 hours</title>
 	<tabular halign="center">
+	  <col width="33%"/>
+	  <col width="33%"/>
+	  <col width="33%"/>
 	  <row header="yes">
-	    <cell>Hour</cell>
-	    <cell>Amount Remaining (grams)</cell>
-	    <cell>Percent Change</cell>
+	    <cell><p>Hour</p></cell>
+	    <cell><p>Amount Remaining (grams)</p></cell>
+	    <cell><p>Percent Change</p></cell>
 	  </row>
 	  <row>
-	    <cell><m>1</m></cell>
-	    <cell><m>A(1) \approx 57.02</m></cell>
-	    <cell><m>\frac{A(1) - A(0)}{A(0)} \approx0.11\%</m></cell>
+	    <cell><p><m>1</m></p></cell>
+	    <cell><p><m>A(1) \approx 57.02</m></p></cell>
+	    <cell><p><m>\frac{A(1) - A(0)}{A(0)} \approx0.11\%</m></p></cell>
 	  </row>
 	  <row>
-	    <cell><m>2</m></cell>
-	    <cell><m>A(2) \approx 50.80</m></cell>
-	    <cell><m>\frac{A(2) - A(1)}{A(1)}\approx0.11\%</m></cell>
+	    <cell><p><m>2</m></p></cell>
+	    <cell><p><m>A(2) \approx 50.80</m></p></cell>
+	    <cell><p><m>\frac{A(2) - A(1)}{A(1)}\approx0.11\%</m></p></cell>
 	  </row>
 	  <row>
-	    <cell><m>3</m></cell>
-	    <cell><m>A(3) \approx 45.25</m></cell>
-	    <cell><m>\frac{A(3) - A(2)}{A(2)} \approx0.11\%</m></cell>
+	    <cell><p><m>3</m></p></cell>
+	    <cell><p><m>A(3) \approx 45.25</m></p></cell>
+	    <cell><p><m>\frac{A(3) - A(2)}{A(2)} \approx0.11\%</m></p></cell>
 	  </row>
 	  <row>
-	    <cell><m>4</m></cell>
-	    <cell><m>A(4) \approx 40.32</m></cell>
-	    <cell><m>\frac{A(4) - A(3)}{A(3)} \approx0.11\%</m></cell>
+	    <cell><p><m>4</m></p></cell>
+	    <cell><p><m>A(4) \approx 40.32</m></p></cell>
+	    <cell><p><m>\frac{A(4) - A(3)}{A(3)} \approx0.11\%</m></p></cell>
 	  </row>
 	  <row>
-	    <cell><m>5</m></cell>
-	    <cell><m>A(5) \approx 35.92</m></cell>
-	    <cell><m>\frac{A(5) - A(4)}{A(4)}\approx0.11\%</m></cell>
+	    <cell><p><m>5</m></p></cell>
+	    <cell><p><m>A(5) \approx 35.92</m></p></cell>
+	    <cell><p><m>\frac{A(5) - A(4)}{A(4)}\approx0.11\%</m></p></cell>
 	  </row>
 	  <row>
-	    <cell><m>6</m></cell>
-	    <cell><m>A(6) = 32</m></cell>
-	    <cell><m>\frac{A(6) - A(5)}{A(5)}\approx0.11\%</m></cell>
+	    <cell><p><m>6</m></p></cell>
+	    <cell><p><m>A(6) = 32</m></p></cell>
+	    <cell><p><m>\frac{A(6) - A(5)}{A(5)}\approx0.11\%</m></p></cell>
 	  </row>
 	</tabular>
       </table>

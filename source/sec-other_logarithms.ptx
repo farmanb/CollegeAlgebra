@@ -216,7 +216,7 @@
     </objectives>
     <page>
       <title>Solving Equations with Exponential Functions</title>
-      <exercise>
+      <exercise workspace="2in">
 	<statement>
 	  <p>
 	    Solve the equation
@@ -226,7 +226,7 @@
 	</statement>
       </exercise>
       
-      <exercise>
+      <exercise workspace="2in">
 	<statement>
 	  <p>
 	    Solve the equation 
@@ -236,7 +236,7 @@
 	</statement>
       </exercise>
 
-      <exercise>
+      <exercise workspace="2in">
 	<statement>
 	  <p>
 	    Solve the equation
@@ -248,7 +248,7 @@
     </page>
     <page>
       <title>Solving Equations with Logarithms</title>
-      <exercise>
+      <exercise workspace="2in">
 	<statement>
 	  <p>
 	    Solve the equation
@@ -257,7 +257,7 @@
 	  </p>
 	</statement>
       </exercise>
-      <exercise>
+      <exercise workspace="2in">
 	<statement>
 	  <p>
 	    Solve the equation
@@ -266,7 +266,7 @@
 	  </p>
 	</statement>
       </exercise>
-      <exercise>
+      <exercise workspace="2in">
 	<statement>
 	  <p>
 	    Solve the equation
