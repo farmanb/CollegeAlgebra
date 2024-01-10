@@ -365,25 +365,23 @@
   <worksheet component="notes">
     <title>Working with Algebraic Combinations of Functions</title>
     <objectives>
-      <p>
-	<ul>
-	  <li>
-	    <p>
-	      Combine functions algebraically,
-	    </p>
-	  </li>
-	  <li>
-	    <p>
-	      For a combination, find the implied
-	      <ul>
-		<li><p>domain,</p></li>
-		<li><p>codomain, range</p></li>
-		<li><p>range</p></li>
-	      </ul>
-	    </p>
-	  </li>
-	</ul>
-      </p>
+      <ul>
+	<li>
+	  <p>
+	    Combine functions algebraically,
+	  </p>
+	</li>
+	<li>
+	  <p>
+	    For a combination, find the implied
+	    <ul>
+	      <li><p>domain,</p></li>
+	      <li><p>codomain, range</p></li>
+	      <li><p>range</p></li>
+	    </ul>
+	  </p>
+	</li>
+      </ul>
     </objectives>
   </worksheet>
 
