@@ -1888,7 +1888,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.8",
   "title": "Roots of Quadratic Functions",
-  "body": " Roots of Quadratic Functions   The Quadratic Formula  In order to accurately graph a quadratic function , it is necessary to identify the -intercepts for the function. A point in the Cartesian plane is an for this function if This reduces the geometric problem of finding the -intercepts of a quadratic to the algebraic problem finding solutions to equations.    An equation of the form is called a quadratic equation   Equation  Quadratic      To find the solutions to the quadratic equation , we use to write and solve this equation for    It is important to note that are real numbers only when is a non-negative number. The number is an important invariant of a quadratic function.   The Discriminant   The discriminant   Function  Quadratic  Discriminant  of the quadratic function is the number     The discriminant provides both algebraic and geometric information about quadratic functions. On the algebraic side, the discriminant tells us how many solutions there are to the quadratic equation .   The Quadratic Formula   The quadratic equation has either two, one, or zero real solutions, depending on , .   If , then the two solutions are    If , then the only solution is   If , then there are no real solutions.      If we pair with , then we have an algorithmic way to factor any quadratic function.    The quadratic function factors as where is the .                                Factor the quadratic .    The discriminant is so the roots are By , the factorization is We can check our answer by using FOIL to see     On the geometric side, the discriminant tells us how many -intercepts the graph of has.   The -intercepts of a Quadratic Function  The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.       Find the -intercepts of the function .    Since the discriminant is this function does not have any -intercepts.      Find the -intercepts of the function .    The discriminant of this quadratic is The solutions to the equation are given by the formula This tells us that one intercept occurs when and the other occurs when Therefore the -intercepts are       Graphing Qudaratics  We can simplify the process of graphing a quadratic function by using the tools we have developed in this section.   Graphing a Quadratic Function     Use the to find the vertex, , of the parabola. Plot the vertex in the plane.    Factor or use the to find the -intercept(s). If there are -intercepts, plot them in the plane.    Plot the -intercept, , in the plane.    Draw a parabola through the points in Steps (1) through (3).  The parabola will open upwards if .  The parabola will open downwards if .         "
+  "body": " Roots of Quadratic Functions   The Quadratic Formula  In order to accurately graph a quadratic function , it is necessary to identify the -intercepts for the function. A point in the Cartesian plane is an for this function if This reduces the geometric problem of finding the -intercepts of a quadratic to the algebraic problem finding solutions to equations.    An equation of the form is called a quadratic equation   Equation  Quadratic      To find the solutions to the quadratic equation , we use to write and solve this equation for    It is important to note that are real numbers only when is a non-negative number. The number is an important invariant of a quadratic function.   The Discriminant   The discriminant   Function  Quadratic  Discriminant  of the quadratic function is the number     The discriminant provides both algebraic and geometric information about quadratic functions. On the algebraic side, the discriminant tells us how many solutions there are to the quadratic equation .   The Quadratic Formula   The quadratic equation has either two, one, or zero real solutions, depending on , .   If , then the two solutions are    If , then the only solution is   If , then there are no real solutions.      If we pair with , then we have an algorithmic way to factor any quadratic function.    The quadratic function factors as where is the .                                Factor the quadratic .    The discriminant is so the roots are By , the factorization is We can check our answer by using FOIL to see     On the geometric side, the discriminant tells us how many -intercepts the graph of has.   The -intercepts of a Quadratic Function   The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.        Find the -intercepts of the function .    Since the discriminant is this function does not have any -intercepts.      Find the -intercepts of the function .    The discriminant of this quadratic is The solutions to the equation are given by the formula This tells us that one intercept occurs when and the other occurs when Therefore the -intercepts are       Graphing Qudaratics  We can simplify the process of graphing a quadratic function by using the tools we have developed in this section.   Graphing a Quadratic Function      Use the to find the vertex, , of the parabola. Plot the vertex in the plane.    Factor or use the to find the -intercept(s). If there are -intercepts, plot them in the plane.    Plot the -intercept, , in the plane.    Draw a parabola through the points in Steps (1) through (3).  The parabola will open upwards if .  The parabola will open downwards if .          "
 },
 {
   "id": "sec-roots_quadratics-2-3",
@@ -1942,7 +1942,7 @@ var ptx_lunr_docs = [
   "type": "Theorem",
   "number": "3.8.6",
   "title": "The <span class=\"process-math\">\\(x\\)<\/span>-intercepts of a Quadratic Function.",
-  "body": " The -intercepts of a Quadratic Function  The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.    "
+  "body": " The -intercepts of a Quadratic Function   The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.     "
 },
 {
   "id": "sec-roots_quadratics-2-14",
@@ -1969,7 +1969,7 @@ var ptx_lunr_docs = [
   "type": "Algorithm",
   "number": "3.8.9",
   "title": "Graphing a Quadratic Function.",
-  "body": " Graphing a Quadratic Function     Use the to find the vertex, , of the parabola. Plot the vertex in the plane.    Factor or use the to find the -intercept(s). If there are -intercepts, plot them in the plane.    Plot the -intercept, , in the plane.    Draw a parabola through the points in Steps (1) through (3).  The parabola will open upwards if .  The parabola will open downwards if .       "
+  "body": " Graphing a Quadratic Function      Use the to find the vertex, , of the parabola. Plot the vertex in the plane.    Factor or use the to find the -intercept(s). If there are -intercepts, plot them in the plane.    Plot the -intercept, , in the plane.    Draw a parabola through the points in Steps (1) through (3).  The parabola will open upwards if .  The parabola will open downwards if .        "
 },
 {
   "id": "sec-inequalities",
@@ -1981,9 +1981,9 @@ var ptx_lunr_docs = [
   "body": " Polynomial Inequalities   We have focused primarily on solving equations of the form where is a polynomial function in the variable . We now turn to polynomial inequalities   Inequality  Polynomial  which are relations of the form    ,     ,     , or            Solutions to Inequalities  First we start with what it means to be a solution to an inequality.   Solution to a Polynomial Inequality   A solution   Inequality  Solution  to an inequality in the variable is a number that makes the expression true when is substituted for .    We can interpret this definition graphically as saying   The solutions to are the -values where the graph of is below the -axis    The solutions to are the -values where the graph of is on or below the -axis    The solutions to are the -values where the graph of is above the -axis    The solutions to are the -values where the graph of is on or above the -axis   This tells us precisely how to solve a polynomial inequality using the roots.    Solving Polynomial Inequalities Algebraically  The first method is purely algebraic. It is useful when you are unable to sketch the graph of the polynomial.   Solving Polynomial Inequalities Algebraically   To find the solutions to a polynomial inequality involving the polynomial    Find the distinct real roots of and write them in order from smallest to largest     Find numbers such that     Evaluate at each .   If the inequality is satisfied for , then the inequality holds on the interval . Otherwise, the inequality does not hold on the interval .    If the inequality is satisfied for where , then the inequality holds on the interval . Otherwise, the inequality does not hold on the interval .    If the inequality is satisfied for , then the inequality holds on the interval . Otherwise, the inequality does not hold on the interval .       Write down each interval where the inequality holds. Include the endpoints if the inequality is not strict   or . Otherwise, exclude the endpoints.         Find all solutions to the inequality     The roots of the polynomial in order are We choose the test points , , , , , and .     When , This tells us the inequality is satisfied on .    When , This tells us the inequality is not satisfied on .    When , This tells us the inequality is satisfied on .    When , This tells us the inequality is not satisfied on .    When , This tells us the inequality is satisfied on .    When , This tells us the inequality is not satisfied on .   Therefore the inequality holds for all in the set       Solving Polynomial Inequalities Graphically  Solving polynomial inequalities graphically is significantly simpler. However, it has the disadvantage that it requires you to be able to sketch the graph of the polynomial function.    Find all the values of that satisfy the inequality     First, we place the inequality into the form  Since is a concave up parabola with roots and , we can see the inequality is satisfied for all from the graph of    The graph of .         "
 },
 {
-  "id": "sec-inequalities-2-1",
+  "id": "inequalities-intro-1",
   "level": "2",
-  "url": "sec-inequalities.html#sec-inequalities-2-1",
+  "url": "sec-inequalities.html#inequalities-intro-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2008,18 +2008,18 @@ var ptx_lunr_docs = [
   "body": " Solving Polynomial Inequalities Algebraically   To find the solutions to a polynomial inequality involving the polynomial    Find the distinct real roots of and write them in order from smallest to largest     Find numbers such that     Evaluate at each .   If the inequality is satisfied for , then the inequality holds on the interval . Otherwise, the inequality does not hold on the interval .    If the inequality is satisfied for where , then the inequality holds on the interval . Otherwise, the inequality does not hold on the interval .    If the inequality is satisfied for , then the inequality holds on the interval . Otherwise, the inequality does not hold on the interval .       Write down each interval where the inequality holds. Include the endpoints if the inequality is not strict   or . Otherwise, exclude the endpoints.      "
 },
 {
-  "id": "sec-inequalities-4-4",
+  "id": "subsec-alg_solutions_polynomial_ineq-4",
   "level": "2",
-  "url": "sec-inequalities.html#sec-inequalities-4-4",
+  "url": "sec-inequalities.html#subsec-alg_solutions_polynomial_ineq-4",
   "type": "Example",
   "number": "3.9.3",
   "title": "",
   "body": "  Find all solutions to the inequality     The roots of the polynomial in order are We choose the test points , , , , , and .     When , This tells us the inequality is satisfied on .    When , This tells us the inequality is not satisfied on .    When , This tells us the inequality is satisfied on .    When , This tells us the inequality is not satisfied on .    When , This tells us the inequality is satisfied on .    When , This tells us the inequality is not satisfied on .   Therefore the inequality holds for all in the set    "
 },
 {
-  "id": "sec-inequalities-5-3",
+  "id": "subsec-solving_polynomial_ineq_graphically-3",
   "level": "2",
-  "url": "sec-inequalities.html#sec-inequalities-5-3",
+  "url": "sec-inequalities.html#subsec-solving_polynomial_ineq_graphically-3",
   "type": "Example",
   "number": "3.9.4",
   "title": "",
@@ -2031,8 +2031,8 @@ var ptx_lunr_docs = [
   "url": "sec-sytems_of_lines.html",
   "type": "Section",
   "number": "4.1",
-  "title": "Two Variables",
-  "body": " Two Variables   It is common to encounter situations involving multiple polynomials where we would like to find the points that are solutions to all of the polynomials at once. In the most general situation, we do not place any restrictions on the polynomials involved. This leads to a branch of mathematics called algebraic geometry . The simplest case occurs when each of the polynomials involved is linear, and is known as linear algebra . Both topics are well beyond the scope of this course, so we focus on finding solutions in two very special cases.    Systems of Linear Equations in Two Variables  First we begin with a rigorous definition of a linear system.    A system of linear equations in the variables and   Linear System  Two Variables  is a collection of equations   A solution   Linear System  Two Variables  Solution  to the system is a point that is a solution for every equation in the system.      Verify that is a solution to the system of two equations in and      We must verify that is a solution for both equations. For the first equation, and for the second equation     Solutions to system of equations have geometric meaning. Given a system of linear equations in the variables and , each equation represents a line in standard form . A solution to the linear system is a point that lies on each line we call this a point of intersection   Intersection  Lines      Interpret the solution, , to the system of two equations in and  geometrically.    To graph the lines, we rewrite each line in slope-intercept form  This tells us the first line passes through the points and , and the second line passes through the points and . Plotting these lines, we can see that is the only point of intersection.   The geometric interpretation of the solution to the system.        A slightly stranger way for a linear system in the variables and to have a solution is when the lines are the same. In this case, there are infinitely many solutions.    Verify geometrically that the system has infinitely many solutions.    First, convert each of the lines to slope-intercept form : and We can see in this form that they are the same line, so they intersect infinitely many times. Moreover, the points of intersection all have the form    The solutions to the system          We say a system of linear equations is dependent   Linear System  Dependent  if there are infinitely many solutions to the system.    In general, a system is not guaranteed to have any solutions. The simplest way this can happen is if two lines in the system are parallel . However, if there are more than two lines, then the system may fail to have any solutions even if no two lines are parallel.    Verify geometrically that the system does not have any solutions.    A solution would correspond to a common point of intersection for all three lines. We graph each line by finding two points on each line   The line passes through the points and     The line passes through the points and     The line passes through the points and    When we plot the lines, we can see that each pair intersects, but there is no one point through which all three pass.   The graph of three lines with no common point of intersection          We say a linear system is consistent   Linear Systesm  Consistent  if there is at least one solution. Otherwise, we say the linear system is inconsistent .  Linear System  Inconsistent      It is a surprising fact of linear algebra that this essentially characterizes the behavior of every linear system regardless of the number of variables and equations. That is to say, there are three possible behaviors for a linear system:   The system is inconsistent ( no solutions),    The system has exactly one solution, or    The system has infinitely many solutions.       Finding Solutions Algebraically  The simplest way to find solutions to a linear system in two variables is to use a method called substitution   Linear System  Substitution  The method relies on solving one equation in the system for a single variable of your choice and then substituting that into the other equations.    Use substitution to solve the system     The simplest equation to solve for one variable is the second. We simply add to both sides of the equation to find . When we substitute this into the other equation to obtain Divide both side by to see that . Therefore the system has exactly one solution, .     "
+  "title": "Two Dimensions",
+  "body": " Two Dimensions   It is common to encounter situations involving multiple polynomials where we would like to find the points that are solutions to all of the polynomials at once. In the most general situation, we do not place any restrictions on the polynomials involved. This leads to a branch of mathematics called algebraic geometry . The simplest case occurs when each of the polynomials involved is linear, and is known as linear algebra . Both topics are well beyond the scope of this course, so we focus on finding solutions in two very special cases.    Systems of Linear Equations in Two Variables  First we begin with a rigorous definition of a linear system.    A system of linear equations in the variables and   Linear System  Two Variables  is a collection of equations   A solution   Linear System  Two Variables  Solution  to the system is a point that is a solution for every equation in the system.    Solutions to system of equations have geometric meaning. Given a system of linear equations in the variables and , each equation represents a line in standard form . A solution to the linear system is a point that lies on each line we call this a point of intersection   Intersection  Lines      Verify that is a solution to the system of two equations in and      We must verify that is a solution for both equations. For the first equation, and for the second equation       Interpret the solution, , to the system of two equations in and  geometrically.    To graph the lines, we rewrite each line in slope-intercept form  This tells us the first line passes through the points and , and the second line passes through the points and . Plotting these lines, we can see that is the only point of intersection.   The geometric interpretation of the solution to the system.          Dependent Systems  A slightly stranger way for a linear system in the variables and to have a solution is when the lines are the same. In this case, there are infinitely many solutions.    We say a system of linear equations is dependent   Linear System  Dependent  if there are infinitely many solutions to the system.      Verify geometrically that the system has infinitely many solutions.    First, convert each of the lines to slope-intercept form : and We can see in this form that they are the same line, so they intersect infinitely many times. Moreover, the points of intersection all have the form    The solutions to the system          Consistency  In general, a system is not guaranteed to have any solutions. The simplest way this can happen is if two lines in the system are parallel . However, if there are more than two lines, then the system may fail to have any solutions even if no two lines are parallel.    We say a linear system is consistent   Linear Systesm  Consistent  if there is at least one solution. Otherwise, we say the linear system is inconsistent .  Linear System  Inconsistent        Verify geometrically that the system does not have any solutions.    A solution would correspond to a common point of intersection for all three lines. We graph each line by finding two points on each line   The line passes through the points and     The line passes through the points and     The line passes through the points and    When we plot the lines, we can see that each pair intersects, but there is no one point through which all three pass.   The graph of three lines with no common point of intersection          Characterizing Solutions  It is a surprising fact of linear algebra that this essentially characterizes the behavior of every linear system regardless of the number of variables and equations. That is to say, there are three possible behaviors for a linear system:   The system is inconsistent ( no solutions),    The system has exactly one solution, or    The system has infinitely many solutions.       Finding Solutions Algebraically  The simplest way to find solutions to a linear system in two variables is to use a method called substitution   Linear System  Substitution  The method relies on solving one equation in the system for a single variable of your choice and then substituting that into the other equations.    Use substitution to solve the system     The simplest equation to solve for one variable is the second. We simply add to both sides of the equation to find . When we substitute this into the other equation to obtain Divide both side by to see that . Therefore the system has exactly one solution, .     "
 },
 {
   "id": "def-system_lines",
@@ -2047,19 +2047,19 @@ var ptx_lunr_docs = [
   "id": "sec-sytems_of_lines-3-4",
   "level": "2",
   "url": "sec-sytems_of_lines.html#sec-sytems_of_lines-3-4",
-  "type": "Example",
-  "number": "4.1.2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
   "title": "",
-  "body": "  Verify that is a solution to the system of two equations in and      We must verify that is a solution for both equations. For the first equation, and for the second equation    "
+  "body": "intersection "
 },
 {
   "id": "sec-sytems_of_lines-3-5",
   "level": "2",
   "url": "sec-sytems_of_lines.html#sec-sytems_of_lines-3-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
+  "type": "Example",
+  "number": "4.1.2",
   "title": "",
-  "body": "intersection "
+  "body": "  Verify that is a solution to the system of two equations in and      We must verify that is a solution for both equations. For the first equation, and for the second equation    "
 },
 {
   "id": "sec-sytems_of_lines-3-6",
@@ -2071,54 +2071,54 @@ var ptx_lunr_docs = [
   "body": "  Interpret the solution, , to the system of two equations in and  geometrically.    To graph the lines, we rewrite each line in slope-intercept form  This tells us the first line passes through the points and , and the second line passes through the points and . Plotting these lines, we can see that is the only point of intersection.   The geometric interpretation of the solution to the system.       "
 },
 {
-  "id": "sec-sytems_of_lines-3-8",
+  "id": "sec-sytems_of_lines-4-3",
   "level": "2",
-  "url": "sec-sytems_of_lines.html#sec-sytems_of_lines-3-8",
-  "type": "Example",
-  "number": "4.1.5",
-  "title": "",
-  "body": "  Verify geometrically that the system has infinitely many solutions.    First, convert each of the lines to slope-intercept form : and We can see in this form that they are the same line, so they intersect infinitely many times. Moreover, the points of intersection all have the form    The solutions to the system       "
-},
-{
-  "id": "sec-sytems_of_lines-3-9",
-  "level": "2",
-  "url": "sec-sytems_of_lines.html#sec-sytems_of_lines-3-9",
+  "url": "sec-sytems_of_lines.html#sec-sytems_of_lines-4-3",
   "type": "Definition",
-  "number": "4.1.7",
+  "number": "4.1.5",
   "title": "",
   "body": "  We say a system of linear equations is dependent   Linear System  Dependent  if there are infinitely many solutions to the system.   "
 },
 {
-  "id": "sec-sytems_of_lines-3-11",
+  "id": "sec-sytems_of_lines-4-4",
   "level": "2",
-  "url": "sec-sytems_of_lines.html#sec-sytems_of_lines-3-11",
+  "url": "sec-sytems_of_lines.html#sec-sytems_of_lines-4-4",
   "type": "Example",
-  "number": "4.1.8",
+  "number": "4.1.6",
   "title": "",
-  "body": "  Verify geometrically that the system does not have any solutions.    A solution would correspond to a common point of intersection for all three lines. We graph each line by finding two points on each line   The line passes through the points and     The line passes through the points and     The line passes through the points and    When we plot the lines, we can see that each pair intersects, but there is no one point through which all three pass.   The graph of three lines with no common point of intersection       "
+  "body": "  Verify geometrically that the system has infinitely many solutions.    First, convert each of the lines to slope-intercept form : and We can see in this form that they are the same line, so they intersect infinitely many times. Moreover, the points of intersection all have the form    The solutions to the system       "
 },
 {
   "id": "def-inconsistent",
   "level": "2",
   "url": "sec-sytems_of_lines.html#def-inconsistent",
   "type": "Definition",
-  "number": "4.1.10",
+  "number": "4.1.8",
   "title": "",
   "body": "  We say a linear system is consistent   Linear Systesm  Consistent  if there is at least one solution. Otherwise, we say the linear system is inconsistent .  Linear System  Inconsistent     "
 },
 {
-  "id": "sec-sytems_of_lines-4-2",
+  "id": "sec-sytems_of_lines-5-4",
   "level": "2",
-  "url": "sec-sytems_of_lines.html#sec-sytems_of_lines-4-2",
+  "url": "sec-sytems_of_lines.html#sec-sytems_of_lines-5-4",
+  "type": "Example",
+  "number": "4.1.9",
+  "title": "",
+  "body": "  Verify geometrically that the system does not have any solutions.    A solution would correspond to a common point of intersection for all three lines. We graph each line by finding two points on each line   The line passes through the points and     The line passes through the points and     The line passes through the points and    When we plot the lines, we can see that each pair intersects, but there is no one point through which all three pass.   The graph of three lines with no common point of intersection       "
+},
+{
+  "id": "finding_solutions_algebraically-2",
+  "level": "2",
+  "url": "sec-sytems_of_lines.html#finding_solutions_algebraically-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "substitution "
 },
 {
-  "id": "sec-sytems_of_lines-4-3",
+  "id": "finding_solutions_algebraically-3",
   "level": "2",
-  "url": "sec-sytems_of_lines.html#sec-sytems_of_lines-4-3",
+  "url": "sec-sytems_of_lines.html#finding_solutions_algebraically-3",
   "type": "Example",
   "number": "4.1.11",
   "title": "",
@@ -2130,8 +2130,8 @@ var ptx_lunr_docs = [
   "url": "sec-sytems_of_planes.html",
   "type": "Section",
   "number": "4.2",
-  "title": "Three Variables",
-  "body": " Three Variables   When we increase the number of variables in a linear system, we increase the dimension of the ambient space. For linear equations with two variables, and , we work in the Cartesian plane. Linear equations with three variables, , , and , require us to work in three dimensional space This adds additional complexity to the geometric interpretation of solutions to linear equations and systems. In particular, a linear equation in three variables no longer represents a line, but rather a plane  a figure in space that looks like the Cartesian plane. Since this is not a course on linear algebra or multivariable calculus two courses dedicated to the study of higher dimensional spaces we will leave our discussion of the geometry at that, and focus on solving systems algebraically.    Systems of Linear Equations in Three Variables  The same terminology and intuition from linear systems in two variables apply to systems of linear equations in three variables. First, we start with an adaptation of solutions to equations in two varibles to three variables.   Solution to an Equation in Three Variables   A solution   Equation  Solution  Three Variables  to an equation in the variables , , and is an ordered pair that make the equation true when   the first coordinate, , is substituted into the equation for ,    the second coordinate, , is substituted into the equation for , and    the third coordinate, , is substituted into the equation for .       Next, we generalize the notion of a linear equation from two variables to three.   Standard Form a Linear Equation in Three Variables   The standard form a linear equation   Equation  Line  Standard (Three Variables)  in the variables , , and is where , , and are not all zero.    Now, the notion of a linear system in three variables generalizes naturally.    A system of linear equations in the variables , , and   Linear System  Three Variables  is a collection of equations   A solution   Linear System  Three Variables  Solution  to the system is a point that is a solution for every equation in the system.      Solving Linear Systems with Three Equations  Fortunately, the method of substitution also generalizes naturally. To solve a system of equations in three variables, solve one equation of your choosing for one of the variables and substitute into the other equations. This reduces to a linear system in two equations, which we already know how to solve.    Solve the system     We choose to solve the last equation for in terms of : Substitute for in the other two equations to reduce to a system of two linear equations in the variables and , Subtract from both sides of the equation : Substitute into the equation to solve for : Finally, substitute into the equation for to find Therefore there is exactly one solution to the system, .    Unlike linear systems with two equations, it is possible for to obtain a dependent system even when the equations are not the same.    Solve the system     Solve the first equation for in terms of and : Substitute for in the second equation to obtain and solve for in terms of  Finally, substitute into the equation to obtain Therefore the solutions to this system form the line in       "
+  "title": "Three Dimensions",
+  "body": " Three Dimensions   When we increase the number of variables in a linear system, we increase the dimension of the ambient space. For linear equations with two variables, and , we work in the Cartesian plane. Linear equations with three variables, , , and , require us to work in three dimensional space This adds additional complexity to the geometric interpretation of solutions to linear equations and systems. In particular, a linear equation in three variables no longer represents a line, but rather a plane  a figure in space that looks like the Cartesian plane. Since this is not a course on linear algebra or multivariable calculus two courses dedicated to the study of higher dimensional spaces we will leave our discussion of the geometry at that, and focus on solving systems algebraically.    Systems of Linear Equations in Three Variables  The same terminology and intuition from linear systems in two variables apply to systems of linear equations in three variables. First, we start with an adaptation of solutions to equations in two varibles to three variables.   Solution to an Equation in Three Variables   A solution   Equation  Solution  Three Variables  to an equation in the variables , , and is an ordered pair that make the equation true when   the first coordinate, , is substituted into the equation for ,    the second coordinate, , is substituted into the equation for , and    the third coordinate, , is substituted into the equation for .       Next, we generalize the notion of a linear equation from two variables to three.   Standard Form a Linear Equation in Three Variables   The standard form a linear equation   Equation  Line  Standard (Three Variables)  in the variables , , and is where , , and are not all zero.    Now, the notion of a linear system in three variables generalizes naturally.    A system of linear equations in the variables , , and   Linear System  Three Variables  is a collection of equations   A solution   Linear System  Three Variables  Solution  to the system is a point that is a solution for every equation in the system.      Solving Linear Systems with Three Equations  Fortunately, the method of substitution also generalizes naturally. To solve a system of equations in three variables, solve one equation of your choosing for one of the variables and substitute into the other equations. This reduces to a linear system in two equations, which we already know how to solve.    Solve the system     We choose to solve the last equation for in terms of : Substitute for in the other two equations to reduce to a system of two linear equations in the variables and , Subtract from both sides of the equation : Substitute into the equation to solve for : Finally, substitute into the equation for to find Therefore there is exactly one solution to the system, .    Unlike linear systems with two equations, it is possible for to obtain a dependent system even when the equations are not the same.    Solve the system     Solve the first equation for in terms of and : Substitute for in the second equation to obtain and solve for in terms of  Finally, substitute into the equation to obtain Therefore the solutions to this system form the line in       "
 },
 {
   "id": "sec-sytems_of_planes-2-1",
@@ -2188,139 +2188,139 @@ var ptx_lunr_docs = [
   "body": "  Solve the system     Solve the first equation for in terms of and : Substitute for in the second equation to obtain and solve for in terms of  Finally, substitute into the equation to obtain Therefore the solutions to this system form the line in     "
 },
 {
-  "id": "ch-properties_functions-2",
+  "id": "sec-alg_comb_functions",
   "level": "1",
-  "url": "ch-properties_functions-2.html",
+  "url": "sec-alg_comb_functions.html",
   "type": "Section",
   "number": "5.1",
   "title": "Algebraic Combinations of Functions",
-  "body": " Algebraic Combinations of Functions   The simplest way to construct new functions from existing functions is to use the four arithmetic operations.    Sums and Differences of Functions   Sum of Functions      Sum of and    Assume and are functions. The sum   Function  Sum  of and is the function defined by      Consider the functions defined by and defined by . The intersection of the domains is so the sum of and is the function defined by   In particular, we can evaluate at by     Suppose and are functions. Since addition of real numbers is commutative the order of addition of functions is also commutative because That is to say or, in words, the sum of and is the same as the sum of and .    Difference of Functions      Difference of and    Assume and are functions. The difference   Function  Difference  of and is the function defined by      Consider the functions defined by and defined by . The intersection of the domains is so the difference of and is the function defined by   In particular, we can evaluate at by     Unlike the sum of functions, the difference of functions is not commutative .    Consider the functions defined by and defined by . The intersection of the domains is so the difference of and is the function defined by   We can see this is not the same as the function because      Products of Functions   Product of Functions      Product of and    Assume and are functions. The product   Function  Product  of and is the function defined by      Consider the functions defined by and defined by . The intersection of the domains is so the product of and is the function defined by   In particular, we can evaluate at by     Suppose and are functions that output real numbers. Since multiplication of real numbers is commutative the order of multiplication of functions is also commutative because That is to say or, in words, the product of and is the same as the product of and .     Ratios of Functions   Ratio of Functions      Ratio of and    Assume and are functions, and for every , . The ratio   Function  Ratio  of and is the function defined by      Consider the functions defined by and defined by . The function is non-zero on the set The intersection with the domain of is the set of positive real numbers so the ratio of and is the function defined by   In particular, we can evaluate at by     Unlike the sum and product of functions, the ratio of functions is not commutative .    Consider the functions defined by and defined by . The function is non-zero on the set . The intersection with the domain of is the set of positive real numbers so the ratio of and is the function defined by   In particular, we can evaluate at to see     "
+  "body": " Algebraic Combinations of Functions   The simplest way to construct new functions from existing functions is to use the four arithmetic operations.    Sums and Differences of Functions   Sum of Functions      Sum of and    Assume and are functions. The sum   Function  Sum  of and is the function defined by      Suppose and are functions. Since addition of real numbers is commutative the order of addition of functions is also commutative because That is to say or, in words, the sum of and is the same as the sum of and .    Difference of Functions      Difference of and    Assume and are functions. The difference   Function  Difference  of and is the function defined by       Consider the functions defined by and defined by . Find the domain of the sum of and , and an expression for .    The intersection of the domains is so the sum of and is the function defined by   In particular, we can evaluate at by       Consider the functions defined by and defined by . Find the domain of the difference of and , and an expression for .    The intersection of the domains is so the difference of and is the function defined by   In particular, we can evaluate at by      Unlike the sum of functions, the difference of functions is not commutative .     Consider the functions defined by and defined by . Find the domain of the difference of and , and an expression for . Conclude that as functions.    The intersection of the domains is so the difference of and is the function defined by   We can see this is not the same as the function because       Products and Ratios of Functions   Product of Functions      Product of and    Assume and are functions. The product   Function  Product  of and is the function defined by      Suppose and are functions that output real numbers. Since multiplication of real numbers is commutative the order of multiplication of functions is also commutative because That is to say or, in words, the product of and is the same as the product of and .    Ratio of Functions      Ratio of and    Assume and are functions, and for every , . The ratio   Function  Ratio  of and is the function defined by       Consider the functions defined by and defined by . Find the domain of the product of and , and an expression for .    The intersection of the domains is so the product of and is the function defined by   In particular, we can evaluate at by       Consider the functions defined by and defined by . Find the domain of the ratio of and , and an expression for .    The function is non-zero on the set The intersection with the domain of is the set of positive real numbers so the ratio of and is the function defined by   In particular, we can evaluate at by      Unlike the sum and product of functions, the ratio of functions is not commutative .     Consider the functions defined by and defined by . Find the domain of the ratio of and , and an expression for . Conclude that as functions.    The function is non-zero on the set . The intersection with the domain of is the set of positive real numbers so the ratio of and is the function defined by   In particular, we can evaluate at to see      "
 },
 {
   "id": "def-sum_functions",
   "level": "2",
-  "url": "ch-properties_functions-2.html#def-sum_functions",
+  "url": "sec-alg_comb_functions.html#def-sum_functions",
   "type": "Definition",
   "number": "5.1.1",
   "title": "Sum of Functions.",
   "body": " Sum of Functions      Sum of and    Assume and are functions. The sum   Function  Sum  of and is the function defined by    "
 },
 {
-  "id": "ch-properties_functions-2-3-3",
+  "id": "subsec-sum_diff_functions-3",
   "level": "2",
-  "url": "ch-properties_functions-2.html#ch-properties_functions-2-3-3",
-  "type": "Example",
-  "number": "5.1.2",
-  "title": "",
-  "body": " Consider the functions defined by and defined by . The intersection of the domains is so the sum of and is the function defined by   In particular, we can evaluate at by   "
-},
-{
-  "id": "ch-properties_functions-2-3-4",
-  "level": "2",
-  "url": "ch-properties_functions-2.html#ch-properties_functions-2-3-4",
+  "url": "sec-alg_comb_functions.html#subsec-sum_diff_functions-3",
   "type": "Remark",
-  "number": "5.1.3",
+  "number": "5.1.2",
   "title": "",
   "body": " Suppose and are functions. Since addition of real numbers is commutative the order of addition of functions is also commutative because That is to say or, in words, the sum of and is the same as the sum of and .  "
 },
 {
   "id": "def-difference_functions",
   "level": "2",
-  "url": "ch-properties_functions-2.html#def-difference_functions",
+  "url": "sec-alg_comb_functions.html#def-difference_functions",
   "type": "Definition",
-  "number": "5.1.4",
+  "number": "5.1.3",
   "title": "Difference of Functions.",
   "body": " Difference of Functions      Difference of and    Assume and are functions. The difference   Function  Difference  of and is the function defined by    "
 },
 {
-  "id": "ch-properties_functions-2-3-6",
+  "id": "subsec-sum_diff_functions-5",
   "level": "2",
-  "url": "ch-properties_functions-2.html#ch-properties_functions-2-3-6",
+  "url": "sec-alg_comb_functions.html#subsec-sum_diff_functions-5",
+  "type": "Example",
+  "number": "5.1.4",
+  "title": "",
+  "body": "  Consider the functions defined by and defined by . Find the domain of the sum of and , and an expression for .    The intersection of the domains is so the sum of and is the function defined by   In particular, we can evaluate at by    "
+},
+{
+  "id": "subsec-sum_diff_functions-6",
+  "level": "2",
+  "url": "sec-alg_comb_functions.html#subsec-sum_diff_functions-6",
   "type": "Example",
   "number": "5.1.5",
   "title": "",
-  "body": " Consider the functions defined by and defined by . The intersection of the domains is so the difference of and is the function defined by   In particular, we can evaluate at by   "
+  "body": "  Consider the functions defined by and defined by . Find the domain of the difference of and , and an expression for .    The intersection of the domains is so the difference of and is the function defined by   In particular, we can evaluate at by    "
 },
 {
-  "id": "ch-properties_functions-2-3-7",
+  "id": "subsec-sum_diff_functions-7",
   "level": "2",
-  "url": "ch-properties_functions-2.html#ch-properties_functions-2-3-7",
+  "url": "sec-alg_comb_functions.html#subsec-sum_diff_functions-7",
   "type": "Warning",
   "number": "5.1.6",
   "title": "",
   "body": " Unlike the sum of functions, the difference of functions is not commutative .  "
 },
 {
-  "id": "ch-properties_functions-2-3-8",
+  "id": "subsec-sum_diff_functions-8",
   "level": "2",
-  "url": "ch-properties_functions-2.html#ch-properties_functions-2-3-8",
+  "url": "sec-alg_comb_functions.html#subsec-sum_diff_functions-8",
   "type": "Example",
   "number": "5.1.7",
   "title": "",
-  "body": " Consider the functions defined by and defined by . The intersection of the domains is so the difference of and is the function defined by   We can see this is not the same as the function because   "
+  "body": "  Consider the functions defined by and defined by . Find the domain of the difference of and , and an expression for . Conclude that as functions.    The intersection of the domains is so the difference of and is the function defined by   We can see this is not the same as the function because    "
 },
 {
   "id": "def-product_functions",
   "level": "2",
-  "url": "ch-properties_functions-2.html#def-product_functions",
+  "url": "sec-alg_comb_functions.html#def-product_functions",
   "type": "Definition",
   "number": "5.1.8",
   "title": "Product of Functions.",
   "body": " Product of Functions      Product of and    Assume and are functions. The product   Function  Product  of and is the function defined by    "
 },
 {
-  "id": "ch-properties_functions-2-4-3",
+  "id": "sec-alg_comb_functions-4-3",
   "level": "2",
-  "url": "ch-properties_functions-2.html#ch-properties_functions-2-4-3",
-  "type": "Example",
-  "number": "5.1.9",
-  "title": "",
-  "body": " Consider the functions defined by and defined by . The intersection of the domains is so the product of and is the function defined by   In particular, we can evaluate at by   "
-},
-{
-  "id": "ch-properties_functions-2-4-4",
-  "level": "2",
-  "url": "ch-properties_functions-2.html#ch-properties_functions-2-4-4",
+  "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-4-3",
   "type": "Remark",
-  "number": "5.1.10",
+  "number": "5.1.9",
   "title": "",
   "body": " Suppose and are functions that output real numbers. Since multiplication of real numbers is commutative the order of multiplication of functions is also commutative because That is to say or, in words, the product of and is the same as the product of and .  "
 },
 {
   "id": "def-ratio_functions",
   "level": "2",
-  "url": "ch-properties_functions-2.html#def-ratio_functions",
+  "url": "sec-alg_comb_functions.html#def-ratio_functions",
   "type": "Definition",
-  "number": "5.1.11",
+  "number": "5.1.10",
   "title": "Ratio of Functions.",
   "body": " Ratio of Functions      Ratio of and    Assume and are functions, and for every , . The ratio   Function  Ratio  of and is the function defined by    "
 },
 {
-  "id": "ch-properties_functions-2-5-3",
+  "id": "sec-alg_comb_functions-4-5",
   "level": "2",
-  "url": "ch-properties_functions-2.html#ch-properties_functions-2-5-3",
+  "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-4-5",
+  "type": "Example",
+  "number": "5.1.11",
+  "title": "",
+  "body": "  Consider the functions defined by and defined by . Find the domain of the product of and , and an expression for .    The intersection of the domains is so the product of and is the function defined by   In particular, we can evaluate at by    "
+},
+{
+  "id": "sec-alg_comb_functions-4-6",
+  "level": "2",
+  "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-4-6",
   "type": "Example",
   "number": "5.1.12",
   "title": "",
-  "body": " Consider the functions defined by and defined by . The function is non-zero on the set The intersection with the domain of is the set of positive real numbers so the ratio of and is the function defined by   In particular, we can evaluate at by   "
+  "body": "  Consider the functions defined by and defined by . Find the domain of the ratio of and , and an expression for .    The function is non-zero on the set The intersection with the domain of is the set of positive real numbers so the ratio of and is the function defined by   In particular, we can evaluate at by    "
 },
 {
-  "id": "ch-properties_functions-2-5-4",
+  "id": "sec-alg_comb_functions-4-7",
   "level": "2",
-  "url": "ch-properties_functions-2.html#ch-properties_functions-2-5-4",
+  "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-4-7",
   "type": "Warning",
   "number": "5.1.13",
   "title": "",
   "body": " Unlike the sum and product of functions, the ratio of functions is not commutative .  "
 },
 {
-  "id": "ch-properties_functions-2-5-5",
+  "id": "sec-alg_comb_functions-4-8",
   "level": "2",
-  "url": "ch-properties_functions-2.html#ch-properties_functions-2-5-5",
+  "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-4-8",
   "type": "Example",
   "number": "5.1.14",
   "title": "",
-  "body": " Consider the functions defined by and defined by . The function is non-zero on the set . The intersection with the domain of is the set of positive real numbers so the ratio of and is the function defined by   In particular, we can evaluate at to see   "
+  "body": "  Consider the functions defined by and defined by . Find the domain of the ratio of and , and an expression for . Conclude that as functions.    The function is non-zero on the set . The intersection with the domain of is the set of positive real numbers so the ratio of and is the function defined by   In particular, we can evaluate at to see    "
 },
 {
   "id": "sec-rational_functions",
@@ -2329,7 +2329,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.2",
   "title": "Rational Functions",
-  "body": " Rational Functions   A special case of ratios of functions arise when both the numerator and denominator are polynomials. These functions are of significant importance in many areas of mathematics, as well as its applications.    The Domain of a Rational Function    A rational function is a function of the form where and are polynomial functions.    Since polynomial functions always have domain and codomain , the domain of the rational function is the set     Find the domain of the rational function     This expression is undefined whenever Since the only solutions to this equation are and , the domain of is This is the set of all numbers except and , which we can express as the union of intervals       Simplifying Rational Functions  Recall that we always write rational numbers in lowest terms. For example, instead of writing , we cancel the common factor of in the numerator and denominator to write . The same is true for rational functions, although some extra care is required.    Simplify the function defined by in lowest terms. What is the domain of this simplified function?    To simplify the expression, factor the numerator as and cancel the common factors in the numerator and denominator   It is important to remember that this simplification only holds for elements of the domain of the function ! This says that is equal to the function defined by . However, the function defined by is not equal to the function because the functions and do not have the same domain.      Sums and Differences of Rational Functions  Recall that in order to add or subtract rational numbers, we must find a common denominator. For example, to add and , we use the common denominator  The same is true for rational functions, provided we are careful with the denominator.    Find the sum of the rational functions defined by What is the domain of this function?    To add these functions, we must first find a common denominator. We use the least common multiple of and , which is Once we have the common denominator, the process of adding rational functions is nearly the same as for rational numbers:   By , the function is only defined where both of and are defined. Therefore the sum of and is the function defined by       Products and Ratios of Rational Functions  Recall that when we multiply two rational numbers we multiply the numerators and denominators. For example, When we divide one rational number by another, we multiply the one by the reciprocal of the other. For example The same is true for products and ratios of rational functions.    Find the product of the rational functions defined by     We multiply the rational functions by multiplying the numerators and the denominators   By , the function is only defined where both  and are defined. Therefore product of and is the function defined by       Find the ratio of the rational functions defined by     We can divide these rational functions by multiplying by the reciprocal of :   By , the function is only defined where both  and are defined and  is non-zero. Therefore is the function defined by      "
+  "body": " Rational Functions   A special case of ratios of functions arise when both the numerator and denominator are polynomials. These functions are of significant importance in many areas of mathematics, as well as its applications.    The Domain of a Rational Function    A rational function is a function of the form where and are polynomial functions.    Since polynomial functions always have domain and codomain , the domain of the rational function is the set     Find the domain of the rational function     This expression is undefined whenever Since the only solutions to this equation are and , the domain of is This is the set of all numbers except and , which we can express as the union of intervals       Simplifying Rational Functions  Recall that we always write rational numbers in lowest terms. For example, instead of writing , we cancel the common factor of in the numerator and denominator to write . The same is true for rational functions, although some extra care is required.    Simplify the function defined by in lowest terms. What is the domain of this simplified function?    To simplify the expression, factor the numerator as and cancel the common factors in the numerator and denominator   It is important to remember that this simplification only holds for elements of the domain of the function ! This says that is equal to the function defined by . However, the function defined by is not equal to the function because the functions and do not have the same domain.      Sums and Differences of Rational Functions  Recall that in order to add or subtract rational numbers, we must find a common denominator. For example, to add and , we use the common denominator  The same is true for rational functions, provided we are careful with the denominator.    Find the sum of the rational functions defined by What is the domain of this function?    To add these functions, we must first find a common denominator. We use the least common multiple of and , which is Once we have the common denominator, the process of adding rational functions is nearly the same as for rational numbers:   By , the function is only defined where both of and are defined. Therefore the sum of and is the function defined by       Products and Ratios of Rational Functions  Recall that when we multiply two rational numbers we multiply the numerators and denominators. For example, When we divide one rational number by another, we multiply the one by the reciprocal of the other. For example The same is true for products and ratios of rational functions.    Find the product of the rational functions defined by     We multiply the rational functions by multiplying the numerators and the denominators   By , the function is only defined where both  and are defined. Therefore product of and is the function defined by       Find the ratio of the rational functions defined by     We can divide these rational functions by multiplying by the reciprocal of :   By , the function is only defined where both  and are defined and  is non-zero. Therefore is the function defined by       Rational Equations and Inequalities  Just as with polynomials, we may wish to solve equations or inequalities involving rational functions. Fortunately, with some care, rational equations and inequalities quickly reduce to polynomial equations or inequalities by simply multiplying both sides by the denominator.  Rational inequalities are defined nearly identically to polynomial inequalities.   Rational Inequality   Assume and are polynomial functions. A rational inequality   Inequality  Rational  is a relation of the form    ,     ,     , or     .       The solutions are also similarly defined.   Solution to a Rational Inequality   A solution   Inequality  Solution  to an inequality in the variable is a number that makes the expression true when is substituted for .      Solve the equation     First we note the domain of the rational function is the set As long as , we may multiply both sides of the equation by the non-zero quantity to obtain the polynomial equation Therefore the two solutions are and       Solve the rational inequality     First, we must place the inequality in the form We do this using the operations above   Once the inequality is in the proper form, our goal is to reduce from a rational inequality to one or more polynomial inequalities. The tricky part is dealing with the sign of the denominator. We observe that the denominator is positive on the set and negative on . Since multiplying both sides of an inequality reverses the inequality we must handle these two regions separately.  When , we obtain the polynomial inequality The quadratic is a downward facing parabola with roots at . Since it follows that the inequality holds on all of .   Solutions to the inequality      When , we obtain the polynomial inequality Again, as the quadratic is a downward facing parabola with roots at , the solutions to this inequality are on the left- and right-hand sides of the roots    Solutions to the inequality      Combining the solutions to each part, we obtain the solution to the rational inequality      "
 },
 {
   "id": "def-rational_function",
@@ -2384,6 +2384,42 @@ var ptx_lunr_docs = [
   "number": "5.2.6",
   "title": "",
   "body": "  Find the ratio of the rational functions defined by     We can divide these rational functions by multiplying by the reciprocal of :   By , the function is only defined where both  and are defined and  is non-zero. Therefore is the function defined by    "
+},
+{
+  "id": "def-rational_ineq",
+  "level": "2",
+  "url": "sec-rational_functions.html#def-rational_ineq",
+  "type": "Definition",
+  "number": "5.2.7",
+  "title": "Rational Inequality.",
+  "body": " Rational Inequality   Assume and are polynomial functions. A rational inequality   Inequality  Rational  is a relation of the form    ,     ,     , or     .      "
+},
+{
+  "id": "def-solution_rational_inequality",
+  "level": "2",
+  "url": "sec-rational_functions.html#def-solution_rational_inequality",
+  "type": "Definition",
+  "number": "5.2.8",
+  "title": "Solution to a Rational Inequality.",
+  "body": " Solution to a Rational Inequality   A solution   Inequality  Solution  to an inequality in the variable is a number that makes the expression true when is substituted for .   "
+},
+{
+  "id": "sec-rational_functions-7-7",
+  "level": "2",
+  "url": "sec-rational_functions.html#sec-rational_functions-7-7",
+  "type": "Example",
+  "number": "5.2.9",
+  "title": "",
+  "body": "  Solve the equation     First we note the domain of the rational function is the set As long as , we may multiply both sides of the equation by the non-zero quantity to obtain the polynomial equation Therefore the two solutions are and    "
+},
+{
+  "id": "sec-rational_functions-7-8",
+  "level": "2",
+  "url": "sec-rational_functions.html#sec-rational_functions-7-8",
+  "type": "Example",
+  "number": "5.2.10",
+  "title": "",
+  "body": "  Solve the rational inequality     First, we must place the inequality in the form We do this using the operations above   Once the inequality is in the proper form, our goal is to reduce from a rational inequality to one or more polynomial inequalities. The tricky part is dealing with the sign of the denominator. We observe that the denominator is positive on the set and negative on . Since multiplying both sides of an inequality reverses the inequality we must handle these two regions separately.  When , we obtain the polynomial inequality The quadratic is a downward facing parabola with roots at . Since it follows that the inequality holds on all of .   Solutions to the inequality      When , we obtain the polynomial inequality Again, as the quadratic is a downward facing parabola with roots at , the solutions to this inequality are on the left- and right-hand sides of the roots    Solutions to the inequality      Combining the solutions to each part, we obtain the solution to the rational inequality    "
 },
 {
   "id": "sec-composition",
