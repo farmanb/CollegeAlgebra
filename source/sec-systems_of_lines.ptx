@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-sytems_of_lines" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Two Variables</title>
+  <title>Two Dimensions</title>
 
   <introduction>
     <p>
@@ -48,7 +48,18 @@
       </statement>
     </definition>
 
-    <example>
+    <p>
+      Solutions to system of equations have geometric meaning.
+      Given a system of <m>m</m> linear equations in the variables <m>x</m> and <m>y</m>, each equation <m>a_ix + b_iy = c_i</m> represents a <xref ref="def-linear_equation" text="custom">line in standard form</xref>.
+      A solution to the linear system is a point that lies on each line <mdash/> we call this a point of <term>intersection</term>
+      <idx>
+	<h>Intersection</h>
+	<h>Lines</h>
+      </idx>
+    </p>
+
+
+        <example component="web">
       <statement>
 	<p>
 	  Verify that <m>(1,2)</m> is a solution to the system of two equations in <m>x</m> and <m>y</m>
@@ -68,18 +79,8 @@
 	</p>
       </solution>
     </example>
-
-    <p>
-      Solutions to system of equations have geometric meaning.
-      Given a system of <m>m</m> linear equations in the variables <m>x</m> and <m>y</m>, each equation <m>a_ix + b_iy = c_i</m> represents a <xref ref="def-linear_equation" text="custom">line in standard form</xref>.
-      A solution to the linear system is a point that lies on each line <mdash/> we call this a point of <term>intersection</term>
-      <idx>
-	<h>Intersection</h>
-	<h>Lines</h>
-      </idx>
-    </p>
-
-    <example>
+    
+    <example component="web">
       <statement>
 	<p>
 	  Interpret the solution, <m>(1,2)</m>, to the system of two equations in <m>x</m> and <m>y</m>
@@ -135,15 +136,121 @@
       </solution>
     </example>
 
-    <p>
-      A slightly stranger way for a linear system in the variables <m>x</m> and <m>y</m> to have a solution is when the lines are the same.
-      In this case, there are infinitely many solutions.
-    </p>
+    <worksheet component="notes">
+      <title/>
+      <example>
+	<task workspace="4in">
+	  <statement>
+	    <p>
+	      Verify that <m>(1,2)</m> is a solution to the system of two equations in <m>x</m> and <m>y</m>
+	      <md>
+		<mrow>-3x + y \amp= -1</mrow>
+		<mrow>-x +y \amp= 1</mrow>
+	      </md>
+            </p>
+	  </statement>
+	</task>
 
+	<task>
+	  <statement>
+	    <p>
+	      Interpret the solution, <m>(1,2)</m>, to the system of two equations in <m>x</m> and <m>y</m>
+	      <md>
+		<mrow>-3x + y \amp= -1</mrow>
+		<mrow>-x + y \amp= 1</mrow>
+	      </md>
+	      geometrically.
+	    </p>
+	  </statement>
+	</task>
+      </example>
+    </worksheet>
+  </subsection>
+
+  <subsection>
+    <title>Dependent Systems</title>
+    <p>
+    A slightly stranger way for a linear system in the variables <m>x</m> and <m>y</m> to have a solution is when the lines are the same.
+    In this case, there are infinitely many solutions.
+  </p>
+
+  <definition>
+    <statement>
+      <p>
+	We say a system of linear equations is <term>dependent</term>
+	<idx>
+	  <h>Linear System</h>
+	  <h>Dependent</h>
+	</idx>
+	if there are infinitely many solutions to the system.
+      </p>
+    </statement>
+  </definition>
+  
+  <example component="web">
+    <statement>
+      <p>
+	Verify geometrically that the system
+	<md>
+	  <mrow>x + 2y \amp= 4</mrow>
+	  <mrow>2x + 4y \amp= 8</mrow>
+	</md>
+	has infinitely many solutions.
+      </p>
+    </statement>
+    <solution>
+      <p>
+	First, convert each of the lines to <xref ref="thm-slope_intercept" text="custom">slope-intercept form</xref>:
+	<md>
+	  <mrow>\amp x + 2y = 4 \amp\amp \text{Subtract}\ x\ \text{from both sides}</mrow>
+	  <mrow>\amp 2y = -x + 4\amp\amp \text{Divide both sides by}\ 2</mrow>
+	  <mrow>\amp y = -\frac{1}{2}x + 2</mrow>
+	</md>
+	and
+	<md>
+	  <mrow>\amp 2x + 4y = 8 \amp\amp \text{Subtract}\ 2x\ \text{from both sides}</mrow>
+	  <mrow>\amp 4y = -2x + 8\amp\amp \text{Divide both sides by}\ 4</mrow>
+	  <mrow>\amp y = -\frac{1}{2}x + 2</mrow>
+	</md>
+	We can see in this form that they are the same line, so they intersect infinitely many times.
+	Moreover, the points of intersection all have the form <m>(x, -1/2x + x).</m>
+      </p>
+      <figure xml:id="fig-intersection_of_lines">
+	<caption>The solutions to the system</caption>
+	<image xml:id="img-intersection_of_lines">
+	  <latex-image xml:id="tikz-intersection_of_lines">
+	    \begin{tikzpicture}
+	    \def\size{5}
+	    
+	    \path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
+
+	    \foreach \i in {1,...,\size} 
+	    \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
+	    (-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
+	    (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
+	    (2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
+	    
+	    \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
+	    \draw [very thick,->] (0,-\size) -- (0,\size+.1) node [anchor=west] {$y$};
+
+	    \begin{scope}[domain=-\size:\size]
+	    \clip (-\size,-\size) rectangle (\size,\size);
+	    \draw [color=blue,thick] plot[smooth,samples=500] (\x,{-\x/2 + 2});
+	    \end{scope}
+
+	    \end{tikzpicture}
+	  </latex-image>
+	</image>
+      </figure>
+    </solution>
+  </example>
+
+  <worksheet component="notes">
+    <title/>
     <example>
       <statement>
 	<p>
-	  Verify geometrically that the system
+	  Verify the system
 	  <md>
 	    <mrow>x + 2y \amp= 4</mrow>
 	    <mrow>2x + 4y \amp= 8</mrow>
@@ -151,73 +258,38 @@
 	  has infinitely many solutions.
 	</p>
       </statement>
-      <solution>
-	<p>
-	  First, convert each of the lines to <xref ref="thm-slope_intercept" text="custom">slope-intercept form</xref>:
-	  <md>
-	    <mrow>\amp x + 2y = 4 \amp\amp \text{Subtract}\ x\ \text{from both sides}</mrow>
-	    <mrow>\amp 2y = -x + 4\amp\amp \text{Divide both sides by}\ 2</mrow>
-	    <mrow>\amp y = -\frac{1}{2}x + 2</mrow>
-	  </md>
-	  and
-	  <md>
-	    <mrow>\amp 2x + 4y = 8 \amp\amp \text{Subtract}\ 2x\ \text{from both sides}</mrow>
-	    <mrow>\amp 4y = -2x + 8\amp\amp \text{Divide both sides by}\ 4</mrow>
-	    <mrow>\amp y = -\frac{1}{2}x + 2</mrow>
-	  </md>
-	  We can see in this form that they are the same line, so they intersect infinitely many times.
-	  Moreover, the points of intersection all have the form <m>(x, -1/2x + x).</m>
-	</p>
-	<figure xml:id="fig-intersection_of_lines">
-	  <caption>The solutions to the system</caption>
-	  <image xml:id="img-intersection_of_lines">
-	    <latex-image xml:id="tikz-intersection_of_lines">
-	      \begin{tikzpicture}
-	      \def\size{5}
-	      
-	      \path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
-
-	      \foreach \i in {1,...,\size} 
-	      \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
-	      (-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
-	      (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
-	      (2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
-	      
-	      \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
-	      \draw [very thick,->] (0,-\size) -- (0,\size+.1) node [anchor=west] {$y$};
-
-	      \begin{scope}[domain=-\size:\size]
-	      \clip (-\size,-\size) rectangle (\size,\size);
-	      \draw [color=blue,thick] plot[smooth,samples=500] (\x,{-\x/2 + 2});
-	      \end{scope}
-
-	      \end{tikzpicture}
-	    </latex-image>
-	  </image>
-	</figure>
-      </solution>
     </example>
+  </worksheet>
 
-    <definition>
-      <statement>
-	<p>
-	  We say a system of linear equations is <term>dependent</term>
-	  <idx>
-	    <h>Linear System</h>
-	    <h>Dependent</h>
-	  </idx>
-	  if there are infinitely many solutions to the system.
-	</p>
-      </statement>
-    </definition>
-    
+  </subsection>
+
+  <subsection>
+    <title>Consistency</title>
     <p>
       In general, a system is not guaranteed to have <em>any</em> solutions.
       The simplest way this can happen is if two lines in the system are <xref ref="def-parallel" text="custom">parallel</xref>.
       However, if there are more than two lines, then the system may fail to have any solutions even if no two lines are parallel.
     </p>
 
-    <example>
+    <definition xml:id="def-inconsistent">
+      <statement>
+	<p>
+	  We say a linear system is <term>consistent</term>
+	  <idx>
+	    <h>Linear Systesm</h>
+	    <h>Consistent</h>
+	  </idx>
+	  if there is at least one solution.
+	  Otherwise, we say the linear system is <term>inconsistent</term>.
+	  <idx>
+	    <h>Linear System</h>
+	    <h>Inconsistent</h>
+	  </idx>
+	</p>
+      </statement>
+    </definition>
+
+    <example component="web">
       <statement>
 	<p>
 	  Verify geometrically that the system
@@ -292,25 +364,10 @@
 	</figure>
       </solution>
     </example>
+  </subsection>
 
-    <definition xml:id="def-inconsistent">
-      <statement>
-	<p>
-	  We say a linear system is <term>consistent</term>
-	  <idx>
-	    <h>Linear Systesm</h>
-	    <h>Consistent</h>
-	  </idx>
-	  if there is at least one solution.
-	  Otherwise, we say the linear system is <term>inconsistent</term>.
-	  <idx>
-	    <h>Linear System</h>
-	    <h>Inconsistent</h>
-	  </idx>
-	</p>
-      </statement>
-    </definition>
-
+  <subsection>
+    <title>Characterizing Solutions</title>
     <p>
       It is a surprising fact of linear algebra that this essentially characterizes the behavior of <em>every</em> linear system <mdash/> regardless of the number of variables and equations.
       That is to say, there are three possible behaviors for a linear system:
@@ -332,9 +389,26 @@
 	</li>
       </ul>
     </p>
+
+    <worksheet component="notes">
+      <title/>
+      <example>
+	<statement>
+	  <p>
+	    Verify geometrically that the system
+	    <md>
+	      <mrow>-2x + 3y \amp= 6</mrow>
+	      <mrow>x + 2y \amp= 2</mrow>
+	      <mrow>4x + y \amp= 4</mrow>
+	    </md>
+	    does not have any solutions.
+	  </p>
+	</statement>
+      </example>
+    </worksheet>
   </subsection>
 
-  <subsection>
+  <subsection xml:id="finding_solutions_algebraically">
     <title>Finding Solutions Algebraically</title>
     <p>
       The simplest way to find solutions to a linear system in two variables is to use a method called <term>substitution</term>
@@ -345,7 +419,7 @@
       The method relies on solving one equation in the system for a single variable of your choice and then substituting that into the other equations.
     </p>
 
-    <example>
+    <example component="web">
       <statement>
 	<p>
 	  Use substitution to solve the system
@@ -366,5 +440,25 @@
 	</p>
       </solution>
     </example>
+
+    <worksheet component="notes">
+      <title/>
+      <example>
+	<statement>
+	  <p>
+	    Use substitution to solve the system
+	    <md>
+	      <mrow>x + y \amp= 2</mrow>
+	      <mrow>-x + y \amp= 0</mrow>
+	    </md>
+	  </p>
+	</statement>
+      </example>
+    </worksheet>
   </subsection>
+
+  <worksheet component="notes">
+    <title>Systems of Linear Equations in Two Variables</title>
+    
+  </worksheet>
 </section>

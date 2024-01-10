@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-sytems_of_planes" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Three Variables</title>
+  <title>Three Dimensions</title>
 
   <introduction>
     <p>
@@ -109,7 +109,7 @@
       </statement>
     </definition>
   </subsection>
-
+  
   <subsection>
     <title>Solving Linear Systems with Three Equations</title>
     <p>
@@ -118,7 +118,7 @@
       This reduces to a linear system in two equations, which we already know how to solve.
     </p>
 
-    <example>
+    <example component="web">
       <statement>
 	<p>
 	  Solve the system
@@ -153,11 +153,11 @@
       </solution>
     </example>
 
-    <p>
+    <p component="web">
       Unlike linear systems with two equations, it is possible for to obtain a dependent system even when the equations are not the same.
     </p>
 
-    <example>
+    <example component="web">
       <statement>
 	<p>
 	  Solve the system
@@ -186,5 +186,40 @@
 	</p>
       </solution>
     </example>
+
+    <worksheet component="notes">
+      <title/>
+      <page>
+	<example>
+	  <statement>
+	    <p>
+	      Solve the system
+	      <md>
+		<mrow>2x + z \amp = 5</mrow>
+		<mrow>2x + y + z \amp = 7</mrow>
+		<mrow>x + z \amp = 4</mrow>
+	      </md>
+	    </p>
+	  </statement>
+	</example>
+      </page>
+
+      <page>
+	<p>
+	  Unlike linear systems with two equations, it is possible for to obtain a dependent system even when the equations are not the same.
+	  <example>
+	    <statement>
+	      <p>
+		Solve the system
+		<md>
+		  <mrow>x + y + z \amp= 1</mrow>
+		  <mrow>x + y + 2z \amp= 2</mrow>
+		</md>
+	      </p>
+	    </statement>
+	  </example>
+	</p>
+      </page>
+    </worksheet>
   </subsection>
 </section>
