@@ -44,21 +44,21 @@
 	</p>
       </solution>
     </example>
-  </subsection>
 
-  <worksheet component="notes">
-    <title/>
-    <page>
-      <example>
-	<statement>
-	  <p>
-	    Find the domain of the rational function
-	    <me>f(x) = \frac{x - 2}{x^2-9}</me>
-	  </p>
-	</statement>
-      </example>
-    </page>
-  </worksheet>
+    <worksheet component="notes">
+      <title/>
+      <page>
+	<example>
+	  <statement>
+	    <p>
+	      Find the domain of the rational function
+	      <me>f(x) = \frac{x - 2}{x^2-9}</me>
+	    </p>
+	  </statement>
+	</example>
+      </page>
+    </worksheet>
+  </subsection>
 
   <subsection>
     <title>Simplifying Rational Functions</title>
@@ -105,7 +105,6 @@
 	</example>
       </page>
     </worksheet>
-
   </subsection>
 
   <subsection>
@@ -164,18 +163,23 @@
 
     <worksheet component="notes">
       <title/>
+      <introduction>
+	<p>
+	  Consider the rational functions
+	  <me>f \colon \left\{x \in \R \;\middle\vert\; x \neq 0,\, 1\right\} \to \R
+	  \quad\text{and}\quad
+	  g \colon \left\{x \in \R \;\middle\vert\; x \neq 0,\, 2\right\} \to \R</me>
+	  defined by
+	  <me>f(x) = \frac{x + 1}{x(x-1)}
+	  \quad\text{and}\quad
+	  g(x) = \frac{x - 4}{x(x-2)}.</me>
+	</p>
+      </introduction>
       <page>
 	<example>
 	  <statement>
 	    <p>
-	      Find the sum of the rational functions
-	      <me>f \colon \left\{x \in \R \;\middle\vert\; x \neq 0,\, 1\right\} \to \R
-	      \quad\text{and}\quad
-	      g \colon \left\{x \in \R \;\middle\vert\; x \neq 0,\, 2\right\} \to \R</me>
-	      defined by
-	      <me>f(x) = \frac{x + 1}{x(x-1)}
-	      \quad\text{and}\quad
-	      g(x) = \frac{x - 4}{x(x-2)}.</me>
+	      Find the sum of <m>f</m> and <m>g</m>.
 	      What is the domain of this function?
 	    </p>
 	  </statement>
@@ -275,9 +279,244 @@
 	  </p>
 	</introduction>
 	<example>
-	  <statement>
+	  <task workspace="4in">
+	    <statement>
 	    <p>
 	      Find the product of <m>f</m> and <m>g</m>.
+	    </p>
+	  </statement>
+	  </task>
+	  <task workspace="4in">
+	    <statement>
+	      <p>
+		Find the ratio <m>f</m> and <m>g</m>
+	      </p>
+	    </statement>
+	  </task>
+	</example>
+      </page>
+    </worksheet>
+  </subsection>
+
+  <subsection>
+    <title>Rational Equations and Inequalities</title>
+
+    <p>
+      Just as with polynomials, we may wish to solve equations or inequalities involving rational functions.
+      Fortunately, with some care, rational equations and inequalities quickly reduce to polynomial equations or inequalities by simply multiplying both sides by the denominator.
+    </p>
+
+    <p>
+      Rational inequalities are defined nearly identically to polynomial inequalities.
+    </p>
+    
+    <definition xml:id="def-rational_ineq">
+      <title>Rational Inequality</title>
+      <statement>
+	<p>
+	  Assume <m>p \colon \R \to \R</m> and <m>q \colon \R \to \R</m> are polynomial functions.
+	  A <term>rational inequality</term>
+	  <idx>
+	    <h>Inequality</h>
+	    <h>Rational</h>
+	  </idx>
+	  is a relation of the form
+	  <ul>
+	    <li>
+	      <p>
+		<m>\frac{p(x)}{q(x)} \lt 0</m>,
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		<m>\frac{p(x)}{q(x)} \leq 0</m>,
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		<m>\frac{p(x)}{q(x)} > 0</m>, or
+	      </p>
+	    </li>
+	    <li>
+	      <p>
+		<m>\frac{p(x)}{q(x)} \geq 0</m>.
+	      </p>
+	    </li>
+	  </ul>
+	</p>
+      </statement>
+    </definition>
+
+    <p>
+      The solutions are also similarly defined.
+    </p>
+
+    <definition xml:id="def-solution_rational_inequality">
+      <title>Solution to a Rational Inequality</title>
+      <statement>
+	<p>
+	  A <term>solution</term>
+	  <idx>
+	    <h>Inequality</h>
+	    <h>Solution</h>
+	  </idx>
+	  to an inequality in the variable <m>x</m> is a number <m>a</m> that makes the expression true when <m>a</m> is substituted for <m>x</m>. 
+	</p>
+      </statement>
+    </definition>
+
+    <example component="web">
+      <statement>
+	<p>
+	  Solve the equation
+	  <me>\frac{x^2 - 1}{x^2 - 4} = 3</me>
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  First we note the domain of the rational function <m>(x^2 - 1)/(x^2 -4)</m> is the set
+	  <me>D = \left\{x \in \R \;\middle\vert\; x \neq \pm 2\right\}</me>
+	  As long as <m>x \in D</m>, we may multiply both sides of the equation by the non-zero quantity <m>x^2 - 4</m> to obtain the polynomial equation
+	  <md>
+	    <mrow>\amp x^2 - 1 = 3(x^2 - 4) \amp\amp \text{Distribute}</mrow>
+	    <mrow>\amp x^2 - 1 = 3x^2 - 12 \amp\amp \text{Add}\ 12 - x^2\ \text{to both sides}</mrow>
+	    <mrow>\amp 11 = 2x^2 \amp\amp \text{Rewrite}</mrow>
+	    <mrow>\amp 2x^2 = 11 \amp\amp \text{Divide both sides by}\ 2</mrow>
+	    <mrow>\amp x^2 = \frac{11}{2} \amp\amp \text{Take the square root of each side.}</mrow>
+	    <mrow>\amp x = \pm \sqrt{\frac{11}{2}}</mrow>
+	  </md>
+	  Therefore the two solutions are <m>x = \sqrt{11/2}</m> and <m>x = -\sqrt{11/2}.</m>
+	</p>
+      </solution>
+    </example>
+    
+    <example component="web">
+      <statement>
+	<p>
+	  Solve the rational inequality
+	  <me>\frac{x^2 - 1}{x^2 - 4} \leq 3</me>
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  First, we must place the inequality in the form
+	  <me>\frac{p(x)}{q(x)} \leq 3</me>
+	  We do this using the operations above
+	  <md>
+	    <mrow>\amp \frac{x^2 - 1}{x^2 - 4} \leq 3 \amp\amp \text{Subtract}\ 3\ \text{from both sides}</mrow>
+	    <mrow>\amp \frac{x^2 - 1}{x^2 - 4} - 3 \leq 0 \amp\amp \text{Find a common denominator}</mrow>
+	    <mrow>\amp \frac{x^2 - 1}{x^2 - 4} - \frac{3(x^2 - 4)}{x^2 - 4} \leq 0\amp\amp \text{Combine}</mrow>
+	    <mrow>\amp \frac{x^2 - 1 - 3(x^2 - 4)}{x^2 - 4} \leq 0\amp\amp \text{Distribute}</mrow>
+	    <mrow>\amp \frac{x^2 - 1 - 3x^2 + 12}{x^2 - 4} \leq 0\amp\amp \text{Simplify}</mrow>
+	    <mrow>\amp \frac{-2x^2 + 11}{x^2 - 4} \leq 0</mrow>
+	  </md>
+	</p>
+	<p>
+	  Once the inequality is in the proper form, our goal is to reduce from a rational inequality to one or more polynomial inequalities.
+	  The tricky part is dealing with the sign of the denominator.
+	  We observe that the denominator is positive on the set
+	  <me>(-\infty, -2) \cup (2, \infty)</me>
+	  and negative on <m>(-2, 2)</m>.
+	  Since multiplying both sides of an inequality <alert>reverses the inequality</alert> we must handle these two regions separately.
+	</p>
+	<p>
+	  When <m>x \in (-2, 2)</m>, we obtain the polynomial inequality
+	  <md>
+	    <mrow>\amp \frac{-2x^2 + 11}{x^2 - 4} \leq 0 \amp\amp \text{Multiply both sides by}\ x^2 - 4</mrow>
+	    <mrow>\amp -2x^2 + 11 \geq 0</mrow>
+	  </md>
+	  The quadratic <m>y = -2x^2 + 11</m> is a downward facing parabola with roots at <m>x = \pm \sqrt{11/2} \approx \pm 2.35</m>.
+	  Since
+	  <me>-\sqrt{\frac{11}{2}} \lt -2 \lt 2 \lt \sqrt{\frac{11}{2}}</me>
+	  it follows that the inequality holds on all of <m>(-2, 2)</m>.
+ 	</p>
+	<figure xml:id="fig-rational_example_case_1">
+	  <caption>Solutions to the inequality <m>-2x^2 + 11 \geq 0</m></caption>
+	  <image xml:id="img-rational_example_case_1">
+	    <latex-image xml:id="tikz-rational_example_case_1">
+	      \begin{tikzpicture}[scale=0.5]
+	      \def\size{12}
+	      
+	      \path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
+	      
+	      \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
+	      \draw [very thick,->] (0,-\size) -- (0,\size+.1) node [anchor=west] {$y$};
+	      
+	      \begin{scope}[domain=-5:5]
+	      \clip (-\size,-\size) rectangle (\size,\size);
+	      \draw [color=blue,thick] plot[smooth,samples=500] (\x,{-2*(\x)^2 + 11});
+	      \draw [dashed] (-2,-\size) -- (-2, \size);
+	      \draw [dashed] (2,-\size) -- (2, \size);
+	      \draw [color=red,very thick] (-2,0) -- (2,0);
+	      \end{scope}
+
+	      \node at ({sqrt(11/2)},0) {$\bullet$};
+	      \node at ({sqrt(11/2)},0) [above right] {$(\sqrt{\frac{11}{2}},0)$};
+
+	      \node at (-{sqrt(11/2)},0) {$\bullet$};
+	      \node at (-{sqrt(11/2)},0) [above left] {$(-\sqrt{\frac{11}{2}},0)$};;
+
+	      \node at (0,11) {$\bullet$};
+	      \node at (0,11) [above right] {$(0,11)$};
+	      \end{tikzpicture}
+	    </latex-image>
+	  </image>
+	</figure>
+	<p>
+	  When <m>x \in (-\infty, -2) \cup (2, \infty)</m>, we obtain the polynomial inequality
+	  <md>
+	    <mrow>\frac{-2x^2 + 11}{x^2 - 4} \leq 0 \amp\amp \text{Multiply both sides by}\ x^2 - 4</mrow>
+	    <mrow>-2x^2 + 11 \leq 0</mrow>
+	  </md>
+	  Again, as the quadratic <m>y = -2x^2 + 11</m> is a downward facing parabola with roots at <m>\pm \sqrt{11/2}</m>, the solutions to this inequality are on the left- and right-hand sides of the roots
+	  <me>\left(-\infty, \cup -\sqrt{\frac{11}{2}}\right] \cup \left[\sqrt{\frac{11}{2}}, \infty\right)</me>
+	</p>
+	<figure xml:id="fig-rational_example_case_2">
+	  <caption>Solutions to the inequality <m>-2x^2 + 11 \leq 0</m></caption>
+	  <image xml:id="img-rational_example_case_2">
+	    <latex-image xml:id="tikz-rational_example_case_2">
+	      \begin{tikzpicture}[scale=0.5]
+	      \def\size{12}
+	      
+	      \path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
+	      
+	      \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
+	      \draw [very thick,->] (0,-\size) -- (0,\size+.1) node [anchor=west] {$y$};
+	      
+	      \begin{scope}[domain=-5:5]
+	      \clip (-\size,-\size) rectangle (\size,\size);
+	      \draw [color=blue,thick] plot[smooth,samples=500] (\x,{-2*(\x)^2 + 11});
+	      \draw [color=red,very thick] (-\size,0) -- (-{sqrt(11/2)},0);
+	      \draw [color=red,very thick] ({sqrt(11/2)},0) -- (\size,0);
+	      \end{scope}
+
+	      \node at ({sqrt(11/2)},0) {$\bullet$};
+	      \node at ({sqrt(11/2)},0) [above right] {$(\sqrt{\frac{11}{2}},0)$};
+
+	      \node at (-{sqrt(11/2)},0) {$\bullet$};
+	      \node at (-{sqrt(11/2)},0) [above left] {$(-\sqrt{\frac{11}{2}},0)$};;
+
+	      \node at (0,11) {$\bullet$};
+	      \node at (0,11) [above right] {$(0,11)$};
+	      \end{tikzpicture}
+	    </latex-image>
+	  </image>
+	</figure>
+	<p>
+	  Combining the solutions to each part, we obtain the solution to the rational inequality
+	  <me>\left(-\infty, -\sqrt{\frac{11}{2}}\right] \cup (-2, 2) \cup \left[\sqrt{\frac{11}{2}},\infty\right)</me>
+	</p>
+      </solution>
+    </example>
+
+    <worksheet component="notes">
+      <title/>
+      <page>
+	<example>
+	  <statement>
+	    <p>
+	      Solve the equation
+	      <me>\frac{x^2 - 1}{x^2 - 4} = 3</me>
 	    </p>
 	  </statement>
 	</example>
@@ -286,7 +525,8 @@
 	<example>
 	  <statement>
 	    <p>
-	      Find the ratio <m>f</m> and <m>g</m>
+	      Solve the rational inequality
+	      <me>\frac{x^2 - 1}{x^2 - 4} \leq 3</me>
 	    </p>
 	  </statement>
 	</example>
