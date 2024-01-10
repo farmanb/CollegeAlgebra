@@ -44,7 +44,7 @@
     </definition>
     
     <p>
-      Unlike addition and multiplication, the order of function composition matters, as we have seen in <xref ref="example-composition_not_commutative"/>.
+      As we have already seen, the order of function composition matters.
       Complicating matters more, not all functions can be composed.
       For a function <m>f \colon A \to B</m>,
       <ul>
