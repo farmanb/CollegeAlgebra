@@ -131,7 +131,7 @@
       <figure xml:id="fig-two_square_roots">
 	<caption>The two points of intersection between the parabola and a horizontal line</caption>
 	<image xml:id="img-two_square_roots">
-	  <latex-image xml:id="tikz-two_square_roots">>
+	  <latex-image xml:id="tikz-two_square_roots">
 	    \begin{tikzpicture}
 	    \draw[very thin,color=gray] (-4,0) grid (4,4);
 
@@ -333,26 +333,15 @@
       </statement>
     </definition>
   </subsection>
-  
+
+  <worksheet component="notes">
+    <title>Graphing Inverse Functions</title>
+    <objectives>
+      <ul>
+	<li>
+	  <p>Use the graph of a function to graph its inverse.</p>
+	</li>
+      </ul>
+    </objectives>
+  </worksheet>
 </section>
-<!-- <figure> -->
-<!--   <image> -->
-<!--     <latex-image> -->
-<!--       \begin{tikzpicture} -->
-<!--       \draw[very thin,color=gray] (-4,-4) grid (4,4); -->
-
-<!--       \draw[very thick,->] (-4.2,0) -\- (4.2,0) node[right] {$x$}; -->
-<!--       \draw[very thick,->] (0,-4.2) -\- (0,4.2) node[above] {$y$}; -->
-
-<!--       \begin{scope} -->
-<!--       \clip(-4,-4) rectangle (4,4); -->
-<!--       \draw [color=blue,thick] plot[smooth,samples=500,domain=-4:4] ({(\x)^2},\x); -->
-<!--       \end{scope} -->
-
-<!--       \node at (0,0) {$\bullet$}; -->
-<!--       \node [below] at (0,0) {$(0,0)$}; -->
-<!--       \end{tikzpicture} -->
-<!--     </latex-image> -->
-<!--   </image> -->
-<!--   <caption>The graph of <m>y=x^2</m> reflected across the line <m>y=x</m></caption> -->
-<!-- </figure> -->
