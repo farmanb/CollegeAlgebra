@@ -2,7 +2,7 @@
 
 <section xml:id="sec-inverses" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Composition Inverses</title>
-  <introduction>
+  <introduction xml:id="inverses-intro">
     <p>
       In keeping with the analogy with operations on numbers, recall the operations of addition and multiplication both have distinguished elements.
       The number <m>0</m> is called the <term>additive identity</term>
@@ -23,7 +23,8 @@
       <me>x \times 1 = x \quad\text{and}\quad 1 \times x = x.</me>
     </p>
   </introduction>
-    <subsection>
+
+  <subsection xml:id="subsec-identities">
     <title>Identities</title>
     <p>
       We introduced the idea of an <em>identity</em> using two familiar operations to highlight that the <alert>identity element depends on the operation.</alert>
@@ -69,7 +70,7 @@
     </p>
   </subsection>
 
-  <subsection>
+  <subsection xml:id="subsec-comp_inverses">
     <title>Composition Inverses</title>
     <p>
       The identity elements for these operations are important because they provide a method for "undoing" the operation.
@@ -185,7 +186,7 @@
     </warning>
   </subsection>
 
-  <subsection>
+  <subsection xml:id="subsec-props_invertible">
     <title>Properties of Invertible Functions</title>
     <p>
       For a function <m>f \colon A \to B</m> with a composition inverse, the codomain of <m>f</m> and the domain of <m>f^{-1}</m> agree.
@@ -434,4 +435,14 @@
       </sidebyside>
     </example>
   </subsection>
+
+  <worksheet component="notes">
+    <title>Composition Inverses</title>
+    <objectives>
+      <ul>
+	<li><p>Determine whether an algebraic function has an inverse</p></li>
+	<li><p>Find the inverse of an invertible function</p></li>
+      </ul>
+    </objectives>
+  </worksheet>
 </section>
