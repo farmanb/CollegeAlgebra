@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-alg_comb_functions"  xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Algebraic Combinations of Functions</title>
-  <introduction>
+  <introduction xml:id="alg_comb_functions-intro">
     <p>
       The simplest way to construct new functions from existing functions is to use the four arithmetic operations.
     </p>
   </introduction>
 
-  <subsection>
+  <subsection xml:id="subsec-sum_diff_functions">
     <title>Sums and Differences of Functions</title>
 
     <definition xml:id="def-sum_functions">
@@ -34,20 +34,6 @@
 	</p>
       </statement>
     </definition>
-
-    <example>
-      <p>
-	Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x^2</m>.
-	The intersection of the domains is 
-	<me>[0,\infty) \cap \R = [0,\infty)</me>
-	so the sum of <m>f</m> and <m>g</m> is the function <m>f + g \colon [0,\infty) \to \R</m> defined by
-	<me>(f + g)(x) = f(x) + g(x) = \sqrt{x} + x^2.</me>
-      </p>
-      <p>
-	In particular, we can evaluate <m>f + g</m> at <m>x = 4</m> by
-	<me>(f+g)(4) = \sqrt{4} + 4^2 = 2 + 16 = 18.</me>
-      </p>
-    </example>
 
     <remark>
       <p>
@@ -84,44 +70,121 @@
       </statement>
     </definition>
 
-    <example>
-      <p>
-	Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x^2</m>.
-	The intersection of the domains is
-	<me>[0,\infty) \cap \R = [0,\infty)</me>
-	so the difference of <m>f</m> and <m>g</m> is the function <m>f - g \colon [0,\infty) \to \R</m> defined by
-	<me>(f - g)(x) = \sqrt{x} - x^2.</me>
-      </p>
-      <p>
-	In particular, we can evaluate <m>f - g</m> at <m>x = 4</m> by
-	<me>(f-g)(4) = \sqrt{4} - 4^2 = 2 - 16 = -14.</me>	
-      </p>
+
+    <example component="web">
+      <statement>
+	<p>
+	  Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x^2</m>.
+	  Find the domain of the sum of <m>f</m> and <m>g</m>, and an expression for <m>(f + g)(x)</m>.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  The intersection of the domains is 
+	  <me>[0,\infty) \cap \R = [0,\infty)</me>
+	  so the sum of <m>f</m> and <m>g</m> is the function <m>f + g \colon [0,\infty) \to \R</m> defined by
+	  <me>(f + g)(x) = f(x) + g(x) = \sqrt{x} + x^2.</me>
+	</p>
+	<p>
+	  In particular, we can evaluate <m>f + g</m> at <m>x = 4</m> by
+	  <me>(f+g)(4) = \sqrt{4} + 4^2 = 2 + 16 = 18.</me>
+	</p>
+      </solution>
+    </example>
+    
+    <example component="web">
+      <statement>
+	<p>
+	  Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x^2</m>.
+	  Find the domain of the difference of <m>f</m> and <m>g</m>, and an expression for <m>(f - g)(x)</m>.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  The intersection of the domains is
+	  <me>[0,\infty) \cap \R = [0,\infty)</me>
+	  so the difference of <m>f</m> and <m>g</m> is the function <m>f - g \colon [0,\infty) \to \R</m> defined by
+	  <me>(f - g)(x) = \sqrt{x} - x^2.</me>
+	</p>
+	<p>
+	  In particular, we can evaluate <m>f - g</m> at <m>x = 4</m> by
+	  <me>(f-g)(4) = \sqrt{4} - 4^2 = 2 - 16 = -14.</me>	
+	</p>
+      </solution>
     </example>
 
-    <warning>
+    <warning component="web">
       <p>
 	Unlike the sum of functions, the difference of functions is <alert>not commutative</alert>.
       </p>
     </warning>
     
-    <example>
-      <p>
-	Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x^2</m>.
-	The intersection of the domains is
-	<me>[0,\infty) \cap \R = [0,\infty)</me>
-	so the difference of <m>g</m> and <m>f</m> is the function <m>g - f \colon [0,\infty) \to \R</m> defined by
-	<me>(g - f)(x) = x^2 - \sqrt{x}.</me>
-      </p>
-      <p>
-	We can see this is not the same as the function <m>f - g</m> because 
-	<me>(g-f)(4) = 4^2 - \sqrt{4} = 16 - 2 = 14 \neq -14 = (f - g)(4).</me>
-      </p>
+    <example component="web">
+      <statement>
+	<p>
+	  Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x^2</m>.
+	  Find the domain of the difference of <m>g</m> and <m>f</m>, and an expression for <m>(g - f)(x)</m>.
+	  Conclude that <m>f - g \neq g - f</m> as functions.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  The intersection of the domains is
+	  <me>[0,\infty) \cap \R = [0,\infty)</me>
+	  so the difference of <m>g</m> and <m>f</m> is the function <m>g - f \colon [0,\infty) \to \R</m> defined by
+	  <me>(g - f)(x) = x^2 - \sqrt{x}.</me>
+	</p>
+	<p>
+	  We can see this is not the same as the function <m>f - g</m> because 
+	  <me>(g-f)(4) = 4^2 - \sqrt{4} = 16 - 2 = 14 \neq -14 = (f - g)(4).</me>
+	</p>
+      </solution>
     </example>
-    
+
+    <worksheet component="notes">
+      <title/>
+      <page>
+	<example>
+	  <task workspace="4in">
+	    <statement>
+	      <p>
+		Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x^2</m>.
+		Find the domain of the sum of <m>f</m> and <m>g</m>, and an expression for <m>(f + g)(x)</m>.
+	      </p>
+	    </statement>
+	  </task>
+
+	  <task workspace="4in">
+	    <statement>
+	      <p>
+		Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x^2</m>.
+		Find the domain of the difference of <m>f</m> and <m>g</m>, and an expression for <m>(f - g)(x)</m>.
+	      </p>
+	    </statement>
+	  </task>
+	</example>
+      </page>
+      <page>
+	<warning>
+	  <p>
+	    Unlike the sum of functions, the difference of functions is <alert>not commutative</alert>.
+	  </p>
+	</warning>
+	<example>
+	  <statement>
+	    <p>
+	      Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x^2</m>.
+	      Find the domain of the difference of <m>g</m> and <m>f</m>, and an expression for <m>(g - f)(x)</m>.
+	      Conclude that <m>f - g \neq g - f</m> as functions.
+	    </p>
+	  </statement>
+	</example>
+      </page>
+    </worksheet>
   </subsection>
 
   <subsection>
-    <title>Products of Functions</title>
+    <title>Products and Ratios of Functions</title>
 
     <definition xml:id="def-product_functions">
       <title>Product of Functions</title>
@@ -147,20 +210,6 @@
       </statement>
     </definition>
 
-    <example>
-      <p>
-	Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x^2</m>.
-	The intersection of the domains is 
-	<me>[0,\infty) \cap \R = [0,\infty)</me>
-	so the product of <m>f</m> and <m>g</m> is the function <m>fg \colon [0,\infty) \to \R</m> defined by
-	<me>(fg)(x) = f(x)g(x) = \sqrt{x}x^2.</me>
-      </p>
-      <p>
-	In particular, we can evaluate <m>f  g</m> at <m>x = 4</m> by
-	<me>(fg)(4) = \sqrt{4}\left(4^2\right) = 2(16) = 32.</me>
-      </p>
-    </example>
-
     <remark>
       <p>
 	Suppose <m>f \colon A \to \R</m> and <m>g \colon A \to \R</m> are functions that output real numbers.
@@ -172,11 +221,6 @@
       </p>
     </remark>
     
-  </subsection>
-
-  <subsection>
-    <title>Ratios of Functions</title>
-
     <definition xml:id="def-ratio_functions">
       <title>Ratio of Functions</title>
 
@@ -201,42 +245,146 @@
       </statement>
     </definition>
 
-    <example>
-      <p>
-	Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x</m>.
-	The function <m>g(x)</m> is non-zero on the set
-	<me>\left\{x \in \R \;\middle\vert\; x \neq 0\right\} = (-\infty,0) \cup (0, \infty).</me>
-	The intersection with the domain of <m>f</m> is the set of positive real numbers
-	<me>[0,\infty) \cap (-\infty,0) \cup (0,\infty) = (0,\infty) = \left\{x \in \R \;\middle\vert\; x > 0\right\}</me>
-	so the ratio of <m>f</m> and <m>g</m> is the function <m>f / g \colon (0,\infty) \to \R</m> defined by
-	<me>\left(\frac{f}{g}\right)(x) = \frac{\sqrt{x}}{x}.</me>
-      </p>
-      <p>
-	In particular, we can evaluate <m>f / g</m> at <m>x = 4</m> by
-	<me>\left(\frac{f}{g}\right)(4) = \frac{\sqrt{4}}{4} = \frac{2}{4} = \frac{1}{2}.</me>	
-      </p>
+    <example component="web">
+      <statement>
+	<p>
+	  Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x^2</m>.
+	  Find the domain of the product of <m>f</m> and <m>g</m>, and an expression for <m>(fg)(x)</m>.
+	</p>
+      </statement>
+
+      <solution>
+	<p>
+	  The intersection of the domains is 
+	  <me>[0,\infty) \cap \R = [0,\infty)</me>
+	  so the product of <m>f</m> and <m>g</m> is the function <m>fg \colon [0,\infty) \to \R</m> defined by
+	  <me>(fg)(x) = f(x)g(x) = \sqrt{x}x^2.</me>
+	</p>
+	<p>
+	  In particular, we can evaluate <m>f  g</m> at <m>x = 4</m> by
+	  <me>(fg)(4) = \sqrt{4}\left(4^2\right) = 2(16) = 32.</me>
+	</p>
+      </solution>
+    </example>
+    
+    <example component="web">
+      <statement>
+	<p>
+	  Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x</m>.
+	  Find the domain of the ratio of <m>f</m> and <m>g</m>, and an expression for <m>(f/g)(x)</m>.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  The function <m>g(x)</m> is non-zero on the set
+	  <me>\left\{x \in \R \;\middle\vert\; x \neq 0\right\} = (-\infty,0) \cup (0, \infty).</me>
+	  The intersection with the domain of <m>f</m> is the set of positive real numbers
+	  <me>[0,\infty) \cap (-\infty,0) \cup (0,\infty) = (0,\infty) = \left\{x \in \R \;\middle\vert\; x > 0\right\}</me>
+	  so the ratio of <m>f</m> and <m>g</m> is the function <m>f / g \colon (0,\infty) \to \R</m> defined by
+	  <me>\left(\frac{f}{g}\right)(x) = \frac{\sqrt{x}}{x}.</me>
+	</p>
+	<p>
+	  In particular, we can evaluate <m>f / g</m> at <m>x = 4</m> by
+	  <me>\left(\frac{f}{g}\right)(4) = \frac{\sqrt{4}}{4} = \frac{2}{4} = \frac{1}{2}.</me>	
+	</p>
+      </solution>
     </example>
 
-    <warning>
+    <warning component="web">
       <p>
 	Unlike the sum and product of functions, the ratio of functions is <alert>not commutative</alert>.
       </p>
     </warning>
     
-    <example>
-      <p>
-	Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x</m>.
-	The function <m>f(x)</m> is non-zero on the set <m>(0, \infty)</m>.
-	The intersection with the domain of <m>g</m> is the set of positive real numbers
-	<me>(0,\infty) \cap \R = (0,\infty) = \left\{x \in \R \;\middle\vert\; x > 0\right\}</me>
-	so the ratio of <m>g</m> and <m>f</m> is the function <m>g / f \colon (0,\infty) \to \R</m> defined by
-	<me>\left(\frac{f}{g}\right)(x) = \frac{x}{\sqrt{x}}.</me>
-      </p>
-      <p>
-	In particular, we can evaluate <m>g / f</m> at <m>x = 4</m> to see
-	<me>\left(\frac{g}{f}\right)(4) = \frac{4}{\sqrt{4}} = \frac{4}{2} = 2 \neq \frac{1}{2} = \left(\frac{f}{g}\right)(4).</me>	
-      </p>
+    <example component="web">
+      <statement>
+	<p>
+	  Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x</m>.
+	  Find the domain of the ratio of <m>f</m> and <m>g</m>, and an expression for <m>(f/g)(x)</m>.
+	  Conclude that <m>f/g \neq g/f</m> as functions.
+	</p>
+      </statement>
+      <solution>
+	<p>
+	  The function <m>f(x)</m> is non-zero on the set <m>(0, \infty)</m>.
+	  The intersection with the domain of <m>g</m> is the set of positive real numbers
+	  <me>(0,\infty) \cap \R = (0,\infty) = \left\{x \in \R \;\middle\vert\; x > 0\right\}</me>
+	  so the ratio of <m>g</m> and <m>f</m> is the function <m>g / f \colon (0,\infty) \to \R</m> defined by
+	  <me>\left(\frac{f}{g}\right)(x) = \frac{x}{\sqrt{x}}.</me>
+	</p>
+	<p>
+	  In particular, we can evaluate <m>g / f</m> at <m>x = 4</m> to see
+	  <me>\left(\frac{g}{f}\right)(4) = \frac{4}{\sqrt{4}} = \frac{4}{2} = 2 \neq \frac{1}{2} = \left(\frac{f}{g}\right)(4).</me>	
+	</p>
+      </solution>
     </example>
+
+    <worksheet component="notes">
+      <title/>
+      <page>
+	<example>
+	  <task workspace="4in">
+	    <statement>
+	      <p>
+		Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x^2</m>.
+		Find the domain of the product of <m>f</m> and <m>g</m>, and an expression for <m>(fg)(x)</m>.
+	      </p>
+	    </statement>
+	  </task>
+
+	  <task workspace="4in">
+	    <statement>
+	      <p>
+		Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x</m>.
+		Find the domain of the ratio of <m>f</m> and <m>g</m>, and an expression for <m>(f/g)(x)</m>.
+	      </p>
+	    </statement>
+	  </task>
+	</example>
+      </page>
+      <page>
+	<warning>
+	  <p>
+	    Unlike the sum and product of functions, the ratio of functions is <alert>not commutative</alert>.
+	  </p>
+	</warning>
+
+	<example>
+	  <statement>
+	    <p>
+	      Consider the functions <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x</m>.
+	      Find the domain of the ratio of <m>f</m> and <m>g</m>, and an expression for <m>(f/g)(x)</m>.
+	      Conclude that <m>f/g \neq g/f</m> as functions.
+	    </p>
+	  </statement>
+	</example>
+      </page>
+    </worksheet>
   </subsection>
+
+  <worksheet component="notes">
+    <title>Working with Algebraic Combinations of Functions</title>
+    <objectives>
+      <p>
+	<ul>
+	  <li>
+	    <p>
+	      Combine functions algebraically,
+	    </p>
+	  </li>
+	  <li>
+	    <p>
+	      For a combination, find the implied
+	      <ul>
+		<li><p>domain,</p></li>
+		<li><p>codomain, range</p></li>
+		<li><p>range</p></li>
+	      </ul>
+	    </p>
+	  </li>
+	</ul>
+      </p>
+    </objectives>
+  </worksheet>
 
 </section>
