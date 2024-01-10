@@ -2494,45 +2494,45 @@ var ptx_lunr_docs = [
   "body": " Composition Inverses   In keeping with the analogy with operations on numbers, recall the operations of addition and multiplication both have distinguished elements. The number is called the additive identity   Identity  Additive  because every real number remains unchanged when is added to it   Similarly, the number is called the multiplicative identity   Identity  Multiplicative  because every real number remains unchanged when it is multiplied by      Identities  We introduced the idea of an identity using two familiar operations to highlight that the identity element depends on the operation. However, the essential behavior of the identity element is the same: when we perform the operation using the identity, nothing changes. This tells us exactly how the identity element for the function composition operation should behave.   Identity Function   Assume is a set. The identity function on is the function defined by     Unlike addition and multiplication, the order of function composition matters, as we have seen in . Complicating matters more, not all functions can be composed. For a function ,   the composition only makes sense when the domain of contains the range of , and    the composition only makes sense when the range of is contained in the domain of .   For this reason, there is not one single identity function that satisfies the condition and .  Instead, we need to consider the identity functions on the domain and codomain of . The identity function on satisfies because and the identity function on satisfies because .    Composition Inverses  The identity elements for these operations are important because they provide a method for \"undoing\" the operation. This is easiest to understand by considering addition and multiplication first. For any real number , the additive inverse   Inverse  Additive  is the real number that satisfies If we add the number to another number , then we obtain the number . We can \"undo\" this operation by performing the operation \"add the additive inverse of \" -- which we normally just call \"subtract \" -- in the sense that Similarly, we note that the operation \"add c\" will \"undo\" the operation \"subtract \" in the sense that   The operations \"add \" and \"subtract \" define functions and by We can view and in terms of composition:          The story is similar for multiplication. For any non-zero real number , the multiplicative inverse   Inverse  Multiplicative  of is the real number that satisfies Multiplication by and multiplication by define functions by Just as with addition, these two functions \"undo\" one another in the sense that          Less formally, one often says \"division by \" instead of \"multiplication by .\"  These are two canonical examples of functions that are invertible , and the ideas captured in inverting addition and multiplication motivate the more general definition.   Composition Inverse   Assume is a function. The composition inverse , if it exists, is a function that satisfies or, equivalently, for every , and for every , .  If has a composition inverse, then we say is invertible .  Function  Invertible       Mathematicians commonly use the word \"inverse\" or \"invertible\" without explicitly stating the operation. It is important to infer the meaning from the context. If the object being discussed is a function, then \"inverse\" means composition inverse, not multiplicative inverse. That is to say,   In order to avoid confusion, we will avoid using the notation and write either or whenever we refer to a fraction with the function in the denominator.     Properties of Invertible Functions  For a function with a composition inverse, the codomain of and the domain of agree. For every , the element satisfies by definition. This provides useful information about the range of an invertible function .    If is a function with a composition inverse, then the range of is     The definition of a composition inverse is symmetric in the sense that the inverse of is and the inverse of is .    If is a function with inverse , then has a composition inverse and      In the language of , the functions \"add \" and \"add \" (or \"subtract \") are a pair of inverse functions   Similarly, the functions \"multiply by \" and \"multiply by \" (or \"divide by \") are a pair of inverse functions     In general, a linear function is invertible if . To evaluate at the real number , we perform the following operations   Multiply by ,    Add to .   This allows us to decompose as the function \"add \" composed with the function \"multiply by \" Since each function is invertible, we can invert by performing the inverse operations in reverse order, like peeling back the layers of an onion.  Write for the result of applying to . We would invert (or \"undo\") the operation of applying to by performing the operations   Subtract from     Divide by ( Important: This is why we required !)   Note this is equivalent to solving the equation for in terms of   In the language of , the inverse of is the composition   Finally, we can check these are in fact inverses of one another by checking the two compositions explicitly:                                         Our observations about compositions of invertible functions in are true in general.    Assume and are invertible functions. If the composition is well-defined, then is invertible and     As a final example, we illustrate why it is necessary to pay close attention to the domain of a function.   Consider the quadratic function defined by . This function is not invertible .  To see why, we must observe that if an inverse function exists, then by , it must have the form and for every positive number , we must assign a single number such that   However, there are always two such values: a positive number and its negative . This means we must choose one of these two values to be . Unfortunately, both decisions fail to produce an inverse for .  If we decide that is the positive number such that , then   On the other hand, if we decide that is the negative number such that , then Fortunately, these two problems suggest simple solutions.  In the first case, we simply exclude the negative numbers from the domain of . This operation is called restriction   Function  Restriction  and produces a new function defined by . This function becomes invertible and its inverse is the principle square root function   Function  Square Root   defined by . For every non-negative number ,          In the second case, we restrict the domain of to the negative numbers. This produces a new function defined by . The function is invertible and its inverse is the function defined by . For every non-negative real number ,            "
 },
 {
-  "id": "sec-inverses-2-1",
+  "id": "inverses-intro-1",
   "level": "2",
-  "url": "sec-inverses.html#sec-inverses-2-1",
+  "url": "sec-inverses.html#inverses-intro-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "additive identity "
 },
 {
-  "id": "sec-inverses-2-2",
+  "id": "inverses-intro-2",
   "level": "2",
-  "url": "sec-inverses.html#sec-inverses-2-2",
+  "url": "sec-inverses.html#inverses-intro-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "multiplicative identity "
 },
 {
-  "id": "sec-inverses-3-3",
+  "id": "subsec-identities-3",
   "level": "2",
-  "url": "sec-inverses.html#sec-inverses-3-3",
+  "url": "sec-inverses.html#subsec-identities-3",
   "type": "Definition",
   "number": "5.4.1",
   "title": "Identity Function.",
   "body": " Identity Function   Assume is a set. The identity function on is the function defined by    "
 },
 {
-  "id": "sec-inverses-4-2",
+  "id": "subsec-comp_inverses-2",
   "level": "2",
-  "url": "sec-inverses.html#sec-inverses-4-2",
+  "url": "sec-inverses.html#subsec-comp_inverses-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "additive inverse "
 },
 {
-  "id": "sec-inverses-4-5",
+  "id": "subsec-comp_inverses-5",
   "level": "2",
-  "url": "sec-inverses.html#sec-inverses-4-5",
+  "url": "sec-inverses.html#subsec-comp_inverses-5",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -2548,9 +2548,9 @@ var ptx_lunr_docs = [
   "body": " Composition Inverse   Assume is a function. The composition inverse , if it exists, is a function that satisfies or, equivalently, for every , and for every , .  If has a composition inverse, then we say is invertible .  Function  Invertible     "
 },
 {
-  "id": "sec-inverses-4-10",
+  "id": "subsec-comp_inverses-10",
   "level": "2",
-  "url": "sec-inverses.html#sec-inverses-4-10",
+  "url": "sec-inverses.html#subsec-comp_inverses-10",
   "type": "Warning",
   "number": "5.4.3",
   "title": "",
@@ -2566,9 +2566,9 @@ var ptx_lunr_docs = [
   "body": "  If is a function with a composition inverse, then the range of is    "
 },
 {
-  "id": "sec-inverses-5-5",
+  "id": "subsec-props_invertible-5",
   "level": "2",
-  "url": "sec-inverses.html#sec-inverses-5-5",
+  "url": "sec-inverses.html#subsec-props_invertible-5",
   "type": "Theorem",
   "number": "5.4.5",
   "title": "",

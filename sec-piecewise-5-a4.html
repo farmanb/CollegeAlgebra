@@ -8,7 +8,7 @@
 <html lang="en-US" dir="ltr">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>The Midpoint Formula</title>
+<title>Piecewise Functions</title>
 <meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
@@ -89,7 +89,7 @@ window.MathJax = {
 <link href="https://pretextbook.org/css/0.83/colors_blue_red.css" rel="stylesheet" type="text/css">
 <link href="https://pretextbook.org/css/0.83/setcolors.css" rel="stylesheet" type="text/css">
 </head>
-<body id="changeme" class="pretext book ignore-math">
+<body id="changeme" class="pretext book ignore-math standalone worksheet a4">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
 <a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
 <h1 class="heading"><a href="college-algebra.html"><span class="title">College Algebra</span></a></h1>
@@ -106,7 +106,7 @@ window.MathJax = {
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-the_distance_formula.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-cartesian_plane.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-circles.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \newcommand{\C}{\mathbb C} \newcommand{\abs}[1]{\left|#1\right|} \newcommand{\id}{\operatorname{id}} \newcommand{\Exp}[1]{\exp_{#1}} \newcommand{\mul}[1]{\operatorname{mul}_{#1}} \newcommand{\add}[1]{\operatorname{add}_{#1}} \newcommand{\Div}[1]{\operatorname{div}_{#1}} \newcommand{\sub}[1]{\operatorname{sub}_{#1}}
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-piecewise.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="sec-piecewise.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-transcendentals.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \newcommand{\C}{\mathbb C} \newcommand{\abs}[1]{\left|#1\right|} \newcommand{\id}{\operatorname{id}} \newcommand{\Exp}[1]{\exp_{#1}} \newcommand{\mul}[1]{\operatorname{mul}_{#1}} \newcommand{\add}[1]{\operatorname{add}_{#1}} \newcommand{\Div}[1]{\operatorname{div}_{#1}} \newcommand{\sub}[1]{\operatorname{sub}_{#1}}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -116,9 +116,9 @@ window.MathJax = {
 <div class="ptx-page">
 <div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
-<li class="toc-item toc-chapter contains-active">
+<li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-cartesian_plane.html" class="internal"><span class="codenumber">1</span> <span class="title">The Cartesian Plane</span></a></div>
-<ul class="structural toc-item-list contains-active">
+<ul class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-sets.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Sets</span></a></div>
 <ul class="structural toc-item-list">
@@ -148,7 +148,7 @@ window.MathJax = {
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the_distance_formula.html#subsec-distance_in_two_dimensions" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Distance in Two Dimensions</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section active">
+<li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-midpoint.html" class="internal"><span class="codenumber">1.5</span> <span class="title">The Midpoint Formula</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-midpoint.html#subsec-midpoint_one_dimension" class="internal"><span class="codenumber">1.5.1</span> <span class="title">Midpoint in One Dimension</span></a></div></li>
@@ -280,9 +280,9 @@ window.MathJax = {
 </li>
 </ul>
 </li>
-<li class="toc-item toc-chapter">
+<li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-properties_functions.html" class="internal"><span class="codenumber">5</span> <span class="title">Combining Functions</span></a></div>
-<ul class="structural toc-item-list">
+<ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-alg_comb_functions.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Algebraic Combinations of Functions</span></a></div>
 <ul class="structural toc-item-list">
@@ -317,7 +317,10 @@ window.MathJax = {
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-graphing_inverse_functions.html#subsec-root_functions" class="internal"><span class="codenumber">5.5.3</span> <span class="title">Root Functions</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-piecewise.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Piecewise Defined Functions</span></a></div></li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-piecewise.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Piecewise Defined Functions</span></a></div>
+<ul class="structural toc-item-list contains-active"><li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="sec-piecewise.html#sec-piecewise-5" class="internal"><span class="codenumber">5.6</span> <span class="title">Piecewise Functions</span></a></div></li></ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -378,110 +381,49 @@ window.MathJax = {
 </ul>
 </li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-midpoint"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.5</span><span class="space"> </span><span class="title">The Midpoint Formula</span>
-</h2>
-<section class="introduction" id="midpoint-intro"><div class="para" id="midpoint-intro-1">Within the Cartesian plane, we will often want to determine the midpoint between two points. In this section, we extend the notion of midpoint between two points on the number line to the Cartesian plane.</div></section><section class="subsection" id="subsec-midpoint_one_dimension"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.5.1</span><span class="space"> </span><span class="title">Midpoint in One Dimension</span>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<button class="print-button" title="Print" onClick="window.print()"><span class="name">Print</span></button><section class="worksheet" id="sec-piecewise-5"><h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Piecewise Functions</span><div class="print-links">
+<a href="sec-piecewise-5-a4.html" class="a4">A4</a><a href="sec-piecewise-5-letter.html" class="us">US</a>
+</div>
 </h3>
-<article class="definition definition-like" id="def-1_midpoint"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.5.1</span><span class="period">.</span>
-</h4>
-<div class="para logical" id="def-1_midpoint-1-1">
-<div class="para">The <dfn class="terminology">midpoint</dfn>  between two numbers <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> on the number line is given by the formula</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/fig-1_midpoint.html">
-\begin{equation*}
-\frac{x + y}{2},
-\end{equation*}
-</div>
-<div class="para">as depicted in <a href="" class="xref" data-knowl="./knowl/xref/fig-1_midpoint.html" title="Figure 1.5.2">Figure 1.5.2</a>.</div>
-</div></article><figure class="figure figure-like" id="fig-1_midpoint"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/tikz-1_midpoint.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.2<span class="period">.</span></span><span class="space"> </span>Midpoint between two numbers</figcaption></figure><article class="remark remark-like" id="subsec-midpoint_one_dimension-4"><h4 class="heading">
-<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.5.3</span><span class="period">.</span>
-</h4>
-<div class="para logical" id="subsec-midpoint_one_dimension-4-1">
-<div class="para">The midpoint is so named because it is halfway between the numbers <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{.}\)</span> We can check this using <a href="" class="xref" data-knowl="./knowl/xref/def-1_distance.html" title="Definition 1.4.1">Definition 1.4.1</a>: the distance from <span class="process-math">\(x\)</span> to the midpoint is</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def-1_distance.html" id="subsec-midpoint_one_dimension-4-1-5">
-\begin{align*}
-\abs{x - \frac{x + y}{2}} \amp = \abs{\frac{2x}{2} - \frac{x + y}{2}}\\
-\amp = \abs{\frac{2x - x - y}{2}}\\
-\amp = \frac{\abs{x - y}}{2}
-\end{align*}
-</div>
-<div class="para">and the distance from the midpoint to <span class="process-math">\(y\)</span> is</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def-1_distance.html" id="subsec-midpoint_one_dimension-4-1-7">
-\begin{align*}
-\abs{\frac{x + y}{2} - y} \amp = \abs{\frac{x + y}{2} - \frac{2y}{2}}\\
-\amp = \abs{\frac{x + y - 2y}{2}}\\
-\amp = \frac{\abs{x - y}}{2}.
-\end{align*}
-</div>
-</div></article></section><section class="subsection" id="sec-midpoint-4"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.5.2</span><span class="space"> </span><span class="title">Midpoitn in Two Dimensions</span>
-</h3>
-<div class="para" id="sec-midpoint-4-2">Similar to the distance formula, we can find the midpoint of a line segment between the points <span class="process-math">\((x_1, y_1)\)</span> and <span class="process-math">\((x_2, y_2)\)</span> in the Cartesian plane using a triangle. We use <a href="" class="xref" data-knowl="./knowl/xref/def-1_midpoint.html" title="Definition 1.5.1">Definition 1.5.1</a> to find the midpoint of the vertical and horizontal sides of the triangle, and use those as the coordinates for the midpoint as depicted in <a href="" class="xref" data-knowl="./knowl/xref/fig-2_midpoint.html" title="Figure 1.5.4">Figure 1.5.4</a>.</div>
-<figure class="figure figure-like" id="fig-2_midpoint"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/tikz-2_midpoint.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.4<span class="period">.</span></span><span class="space"> </span>The triangle formed by adding in the point <span class="process-math">\((x_1, y_2)\text{.}\)</span></figcaption></figure><article class="definition definition-like" id="def-2_midpoint"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.5.5</span><span class="period">.</span><span class="space"> </span><span class="title">The Midpoint Formula.</span>
-</h4> <div class="para logical" id="def-2_midpoint-2-1">
-<div class="para">The <dfn class="terminology">midpoint</dfn>  between <span class="process-math">\((x_1, y_1)\)</span> and <span class="process-math">\((x_2, y_2)\)</span> in the Cartesian plane is the point</div>
+<ul class="disc">
+<li id="sec-piecewise-5-2-1-1"><div class="para" id="sec-piecewise-5-2-1-1-1">Evaluate piecewise functions,</div></li>
+<li id="sec-piecewise-5-2-1-2"><div class="para" id="sec-piecewise-5-2-1-2-1">Graph piecewise functions</div></li>
+</ul>
+<section class="onepage" id="sec-piecewise-5-3"><article class="exercise exercise-like" id="sec-piecewise-5-3-1"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="sec-piecewise-5-3-1-1"><div class="para logical" id="sec-piecewise-5-3-1-1-1">
+<div class="para">Use the piecewise function</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right).
+f(x) = \begin{cases}
+-2x - 4 \amp \text{if}\ x \in [-5,-3)\\
+x^2 + 3t - 1 \amp \text{if}\ x \in [-3,2]\\
+7 \amp \text{if}\ x \in (2,5]
+\end{cases}
 \end{equation*}
 </div>
-</div></article><article class="example example-like" id="sec-midpoint-4-5"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.5.6</span><span class="period">.</span>
-</h4>
-<div class="para" id="sec-midpoint-4-5-1-1">Use <a href="" class="xref" data-knowl="./knowl/xref/def-2_midpoint.html" title="Definition 1.5.5: The Midpoint Formula">The Midpoint Formula</a> to find the midpoint between <span class="process-math">\((1,-3)\)</span> and <span class="process-math">\((-3, 5)\)</span>
+<div class="para">to answer the following questions.</div>
+</div></div>
+<article class="task exercise-like" id="sec-piecewise-5-3-1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="sec-piecewise-5-3-1-2-1-1">What is the domain of <span class="process-math">\(f?\)</span>
 </div>
-<div class="solutions"><details id="sec-midpoint-4-5-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like"><div class="para logical" id="sec-midpoint-4-5-2-1">
-<div class="para">The <span class="process-math">\(x\)</span>-coordinate of the midpoint is</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\frac{1 + (-3)}{2} = \frac{-2}{2} = -1
-\end{equation*}
+<div class="workspace" data-space="1in"></div></article><article class="task exercise-like" id="sec-piecewise-5-3-1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="sec-piecewise-5-3-1-3-1-1">What is the range of <span class="process-math">\(f?\)</span>
 </div>
-<div class="para">and the <span class="process-math">\(y\)</span>-coordinate of the midpoint is</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\frac{-3 + 5}{2} = \frac{2}{2} = 1.
-\end{equation*}
+<div class="workspace" data-space="1in"></div></article><article class="task exercise-like" id="sec-piecewise-5-3-1-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para logical" id="sec-piecewise-5-3-1-4-1-1">
+<div class="para">Evaluate the following</div>
+<ul class="disc cols2">
+<li id="sec-piecewise-5-3-1-4-1-1-1-1"><div class="para" id="p-derived-sec-piecewise-5-3-1-4-1-1-1-1"><span class="process-math">\(\displaystyle f(-5) = \fillinmath{XXX}\)</span></div></li>
+<li id="sec-piecewise-5-3-1-4-1-1-1-2"><div class="para" id="p-derived-sec-piecewise-5-3-1-4-1-1-1-2"><span class="process-math">\(\displaystyle f(-3) = \fillinmath{XXX}\)</span></div></li>
+<li id="sec-piecewise-5-3-1-4-1-1-1-3"><div class="para" id="p-derived-sec-piecewise-5-3-1-4-1-1-1-3"><span class="process-math">\(\displaystyle f(2) = \fillinmath{XXX}\)</span></div></li>
+<li id="sec-piecewise-5-3-1-4-1-1-1-4"><div class="para" id="p-derived-sec-piecewise-5-3-1-4-1-1-1-4"><span class="process-math">\(\displaystyle f(5) = \fillinmath{XXX}\)</span></div></li>
+</ul>
+</div></article></article></section></section>
 </div>
-<div class="para">Therefore the midpoint is <span class="process-math">\((-1,1).\)</span>
-</div>
-</div></div></details></div></article><article class="remark remark-like" id="rmk-2_midpoint_is_midpoint"><h4 class="heading">
-<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.5.7</span><span class="period">.</span>
-</h4>
-<div class="para" id="rmk-2_midpoint_is_midpoint-1">Just as with the midpoint on the real line, the midpoint is halfway between the points <span class="process-math">\((x_1, y_1)\)</span> and <span class="process-math">\((x_2, y_2)\text{.}\)</span> The easiest way to see this is true is to make two smaller triangles inside the bigger triangle, as depicted in <a href="" class="xref" data-knowl="./knowl/xref/fig-2_midpoint_is_midpoint.html" title="Figure 1.5.8">Figure 1.5.8</a>.</div> <figure class="figure figure-like" id="fig-2_midpoint_is_midpoint"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/tikz--2_midpoint_is_midpoint.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.5.8<span class="period">.</span></span><span class="space"> </span>The triangle formed by adding in the point <span class="process-math">\((x_1, y_2)\text{.}\)</span></figcaption></figure> <div class="para logical" id="rmk-2_midpoint_is_midpoint-3">
-<div class="para">The two shaded triangles have the same side lengths. The horizontal side has length</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-pythagorean.html">
-\begin{equation*}
-\frac{a}{2} = \frac{\abs{x_1 - x_2}}{2}
-\end{equation*}
-</div>
-<div class="para">and the vertical side has length</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-pythagorean.html">
-\begin{equation*}
-\frac{b}{2} = \frac{\abs{y_1 - y_2}}{2}.
-\end{equation*}
-</div>
-<div class="para">Using <a href="" class="xref" data-knowl="./knowl/xref/thm-pythagorean.html" title="Theorem 1.4.3: The Pythagorean Theorem">The Pythagorean Theorem</a>, the third side of each triangle has length</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-pythagorean.html" id="rmk-2_midpoint_is_midpoint-3-4">
-\begin{align*}
-\sqrt{\left(\frac{a}{2}\right)^2 + \left(\frac{b}{2}\right)^2} \amp = \sqrt{\frac{a^2}{4} + \frac{b^2}{4}}\\
-\amp = \sqrt{\frac{a^2 + b^2}{4}}\\
-\amp = \frac{\sqrt{a^2 + b^2}}{\sqrt{4}}\\
-\amp = \frac{\sqrt{c^2}}{2}\\
-\amp = \frac{c}{2},
-\end{align*}
-</div>
-<div class="para">which is exactly half the distance between the points <span class="process-math">\((x_1, y_1)\)</span> and <span class="process-math">\((x_2, y_2)\text{.}\)</span>
-</div>
-</div></article></section></section></div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="sec-the_distance_formula.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-circles.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="sec-piecewise.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-transcendentals.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
