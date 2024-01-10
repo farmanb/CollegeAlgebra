@@ -241,8 +241,8 @@
 	      <m>y = \exp(x - 2)</m>
 	    </li>
 	  </ol>
-	  <sidebyside>
-	    <p>
+	  <sbsgroup>
+	    <sidebyside>
 	      <image width="50%" xml:id="img-exp_x_minus_2">
 		<latex-image xml:id="tikz-exp_x_minus_2">
 		  \begin{tikzpicture}
@@ -281,8 +281,8 @@
 		  \end{tikzpicture}
 		</latex-image>
 	      </image>
-	    </p>
-	    <p>
+	    </sidebyside>
+	    <sidebyside>
 	      <image width="50%" xml:id="img-exp_neg_x">
 		<latex-image xml:id="tikz-exp_neg_x">
 		  \begin{tikzpicture}
@@ -321,9 +321,8 @@
 		  \end{tikzpicture}
 		</latex-image>
 	      </image>
-	    </p>
-	    
-	  </sidebyside>
+	    </sidebyside>
+	  </sbsgroup>
 	</statement>
       </exercise>
     </page>
