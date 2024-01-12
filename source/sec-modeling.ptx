@@ -347,4 +347,6 @@
       </table>
     </example>
   </subsection>
+
+  <xml:include href="./worksheets/wksht-modeling.ptx"/>
 </section>

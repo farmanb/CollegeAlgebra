@@ -238,13 +238,5 @@
     </page>
   </worksheet>
 
-  <worksheet component="notes">
-    <title>Composition of Functions</title>
-    <objectives>
-      <ul>
-	<li><p>Compose functions</p></li>
-	<li><p>Find the implied domain, codomain, and range of a composition.</p></li>
-      </ul>
-    </objectives>
-  </worksheet>
+  <xi:include href="worksheets/wksht-composition.ptx"/>
 </section>

@@ -534,13 +534,5 @@
     </worksheet>
   </subsection>
 
-  <worksheet xml:id="wksht-rational_functions" component="notes">
-    <objectives>
-      <ul>
-	<li>
-	  Find the domain of a rational functions
-	</li>
-      </ul>
-    </objectives>
-  </worksheet>
+  <xi:include href="./worksheets/wksht-rational_functions.ptx"/>
 </section>

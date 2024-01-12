@@ -334,14 +334,5 @@
     </definition>
   </subsection>
 
-  <worksheet component="notes">
-    <title>Graphing Inverse Functions</title>
-    <objectives>
-      <ul>
-	<li>
-	  <p>Use the graph of a function to graph its inverse.</p>
-	</li>
-      </ul>
-    </objectives>
-  </worksheet>
+  <xi:include href="./worksheets/wksht-graphing_inverses.ptx"/>
 </section>

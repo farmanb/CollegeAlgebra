@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet component="notes">
+  <title>Worksheet: Composition</title>
+  <objectives>
+    <ul>
+      <li><p>Compose functions</p></li>
+      <li><p>Find the implied domain, codomain, and range of a composition.</p></li>
+    </ul>
+  </objectives>
+</worksheet>
