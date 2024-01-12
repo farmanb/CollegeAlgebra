@@ -222,4 +222,6 @@
       </page>
     </worksheet>
   </subsection>
+
+  <xi:include href="worksheets/wksht-systems_of_planes.ptx"/>
 </section>

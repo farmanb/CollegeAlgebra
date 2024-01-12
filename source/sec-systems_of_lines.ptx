@@ -457,8 +457,5 @@
     </worksheet>
   </subsection>
 
-  <worksheet component="notes">
-    <title>Systems of Linear Equations in Two Variables</title>
-    
-  </worksheet>
+  <xi:include href="worksheets/wksht-systems_of_lines.ptx"/>
 </section>
