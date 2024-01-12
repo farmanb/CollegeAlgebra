@@ -293,5 +293,5 @@
     </worksheet>
   </subsection>
   
-  <xi:include href="worksheets/wksht-parallel_perpendicular.ptx"/>
+  <xi:include href="worksheets/wksht-perp_parallel.ptx"/>
 </section>

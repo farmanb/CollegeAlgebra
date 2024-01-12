@@ -302,5 +302,5 @@
     </worksheet>
   </subsection>
 
-  <xi:include href="worksheets/wksht-rep_of_lines.ptx"/>
+  <xi:include href="worksheets/wksht-lines.ptx"/>
 </section>

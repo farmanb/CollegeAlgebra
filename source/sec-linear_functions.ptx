@@ -174,5 +174,5 @@
     </worksheet>
   </subsection>
 
-  <xi:include href="worksheets/wksht-working_with_linear_equations.ptx"/>
+  <xi:include href="worksheets/wksht-linear_functions.ptx"/>
 </section>
