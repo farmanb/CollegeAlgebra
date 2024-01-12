@@ -101,33 +101,139 @@
     </solution>
   </example>
 
+  <example component="web">
+    <statement>
+      <p>
+	Let <m>h</m> be any non-zero real number and consider the function <m>f \colon \R \to \R</m> defined by <m>f(x) = x^2</m>.
+	Find a simplified expression for the function
+	<me>d(x) = \frac{f(x + h) - f(x)}{h}</me>
+      </p>
+    </statement>
+
+    <solution>
+      <p>
+	Write
+	<md>
+	  <mrow>d(x) \amp= \frac{(x + h)^2 - x^2}{h} \amp\amp \text{Expand}</mrow>
+	  <mrow>\amp= \frac{x^2 + 2xh + h^2 - x^2}{h} \amp\amp \text {Collect like terms}</mrow>
+	  <mrow>\amp= \frac{2xh + h^2}{h} \amp\amp \text{Factor}\ h\ \text{from numerator}</mrow>
+	  <mrow>\amp= \frac{h(2x + h}{h} \amp\amp \text{Cancel}</mrow>
+	  <mrow>\amp= 2x + h.</mrow>
+	</md>
+      </p>
+      <p>
+	For each value of <m>x \in \R</m>, this function measures the slope of the line connecting the two points <m>(x, f(x))</m> and <m>(x + h, f(x+h))</m>.
+	This line is often called the <term>secant line</term> and <m>d</m> is often called the <term>difference quotient</term>.
+	It is an extraordinarily important tool in Calculus.
+      </p>
+      <figure xml:id="fig-secant_line_parabola">
+	<caption>The secant line through <m>\left(x, x^2\right)</m> and <m>\left(x + h, (x+h)^2\right)</m></caption>
+	<image xml:id="img-secant_line_parabola">
+	  <latex-image xml:id="tikz-secant_line_parabola">
+	    \begin{tikzpicture}
+	    \draw[very thin,color=gray] (-5,0) grid (5,5);
+
+	    \draw[very thick,->] (-5.2,0) -- (5.2,0) node[right] {$x$};
+	    \draw[very thick,->] (0,-0.2) -- (0,5.2) node[above] {$y$};
+
+	    \begin{scope}
+	    \clip (-5,0) rectangle (5,5);
+	    \draw [color=blue,thick] plot[smooth,samples=500] (\x,{(\x)^2});
+	    \draw [color=red,thick,dashed] plot[smooth,samples=500] (\x,{\x + 2});
+	    \end{scope}
+	    
+	    \node at (-1,1) {$\bullet$};
+	    \node at (-1,1) [left] {$(x, x^2)$};
+	    
+	    \node at (2,4) {$\bullet$};
+	    \node at (2,4) [right] {$\left(x + h, (x + h)^2\right)$};
+	    \end{tikzpicture}
+	  </latex-image>
+	</image>
+      </figure>
+    </solution>
+  </example>
+
+  <example component="web">
+    <statement>
+      <p>
+	Let <m>h</m> be any non-zero real number and consider the function <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m>.
+	Find a simplified expression for the function
+	<me>d(x) = \frac{f(x + h) - f(x)}{h}</me>
+      </p>
+    </statement>
+
+    <solution>
+      <p>
+	Write
+	<md>
+	  <mrow>d(x) \amp= \frac{\sqrt{x + h} - \sqrt{x}}{h} \amp\amp\text{Multiply RHS by}\ \frac{\sqrt{x + h} + \sqrt{x}}{\sqrt{x + h} + \sqrt{x}}</mrow>
+	  <mrow>\amp= \frac{\left(\sqrt{x + h} - \sqrt{x}\right)\left(\sqrt{x + h} + \sqrt{x}\right)}{h\left(\sqrt{x + h} - \sqrt{x}\right)} \amp\amp \text{Simplify}</mrow>
+	  <mrow>\amp= \frac{x + h - x}{{h\left(\sqrt{x + h} - \sqrt{x}\right)}} \amp\amp \text{Simplify}</mrow>
+	  <mrow>\amp= \frac{h}{h\left(\sqrt{x + h} - \sqrt{x}\right)} \amp\amp\text{Cancel}</mrow>
+	  <mrow>\amp= \frac{1}{\sqrt{x + h} - \sqrt{x}}.</mrow>
+	</md>
+      </p>
+      <p>
+	The trick in the first step is often called <term>rationalizing the numerator</term>.
+	<idx>
+	  <h>Rationalizing the Numerator</h>
+	</idx>
+	For positive real numbers <m>a</m> and <m>b</m>, the quantity <m>\sqrt{a} + \sqrt{b}</m> is called the <term>conjugate</term>
+	<idx>
+	  <h>Conjugate</h>
+	</idx>
+	of <m>\sqrt{a} - \sqrt{b}</m>, and vise versa.
+	Rationalizing is a trick that often comes in handy in calculus.
+      </p>
+    </solution>
+  </example>
+  
   <worksheet component="notes">
     <title/>
     <page>
       <example>
+	<task workspace="4in">
 	<statement>
 	  <p>
 	    Consider the functions <m>f \colon \R \to \R</m> defined by <m>f(x) = x + 2</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x^2 + 3</m>.
 	    Find the composition of <m>g</m> with <m>f</m>.
 	  </p>
 	</statement>
+	</task>
+
+	<task>
+	  <statement>
+	    <p>
+	      Consider the functions <m>f \colon \R \to \R</m> defined by <m>f(x) = x + 2</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x^2 + 3</m>.
+	      Find the composition of <m>f</m> with <m>g</m>.
+	      Verify that it is <alert>not</alert> the same as the composition of <m>g</m> with <m>f</m>.
+	    </p>
+	  </statement>
+	</task>
       </example>
     </page>
     <page>
-      <warning>
-	<p>
-	  The order of composition matters.
-	  Even if <m>f \circ g</m> and <m>g \circ f</m> are both well-defined and have the same domain, these two functions <alert>are not the same</alert> in general.
-	</p>
-      </warning>
       <example>
-	<statement>
-	  <p>
-	    Consider the functions <m>f \colon \R \to \R</m> defined by <m>f(x) = x + 2</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x^2 + 3</m>.
-	    Find the composition of <m>f</m> with <m>g</m>.
-	    Verify that it is <alert>not</alert> the same as the composition of <m>g</m> with <m>f</m>.
-	  </p>
-	</statement>
+	<task workspace="4in">
+	  <statement>
+	    <p>
+	      Let <m>h</m> be any non-zero real number and consider the function <m>f \colon \R \to \R</m> defined by <m>f(x) = x^2</m>.
+	      Find a simplified expression for the function
+	      <me>d(x) = \frac{f(x + h) - f(x)}{h}</me>
+	    </p>
+	  </statement>
+	</task>
+
+	<task>
+	  <statement>
+	    <p>
+	      Let <m>h</m> be any non-zero real number and consider the function <m>f \colon [0,\infty) \to \R</m> defined by <m>f(x) = \sqrt{x}</m>.
+	      Find a simplified expression for the function
+	      <me>d(x) = \frac{f(x + h) - f(x)}{h}</me>
+	    </p>
+	  </statement>
+	</task>
       </example>
     </page>
   </worksheet>
