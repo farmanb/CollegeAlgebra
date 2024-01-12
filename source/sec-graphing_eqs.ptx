@@ -143,7 +143,7 @@
     </example>
 
     <worksheet xml:id="wksht-solution_examples" component="notes">
-      <title>Examples</title>
+      <title/>
       <introduction>
 	<p>
 	  Use the graph of the equation <m>y = 2x - 2</m> to answer the questions below.
