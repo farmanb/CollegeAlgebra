@@ -93,6 +93,6 @@
       </image>
     </figure>
 
-    <xi:include href="worksheets/wksht-plotting_points_in_the_plane.ptx"/>
+    <xi:include href="worksheets/wksht-cartesian_coordinates.ptx"/>
   </subsection>
 </section>

@@ -149,5 +149,5 @@
     </worksheet>
   </subsection>
   
-  <xi:include href="worksheets/wksht-using_the_distance_formula.ptx"/>
+  <xi:include href="worksheets/wksht-distance.ptx"/>
 </section>
