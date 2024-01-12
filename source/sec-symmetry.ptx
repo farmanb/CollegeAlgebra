@@ -106,11 +106,26 @@
       Just like the intuitive understanding of symmetry, it can be difficult to verify whether two pictures are actually the same.
       Fortunately, the language of graph transformations provides us a dictionary between algebraic statements and geometric statements.
     </p>
+
+    <definition xml:id="def-even_function">
+      <title>Even Function</title>
+      <statement>
+	<p>
+	  A function <m>f \colon A \to \R</m> is <term>even</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>Even</h>
+	  </idx>
+	  if for every <m>x \in A</m>,
+	  <me>f(-x) = f(x)</me>
+	</p>
+      </statement>
+    </definition>
+    
     <theorem>
       <statement>
 	<p>
-	  The function <m>f</m> has <m>y</m>-axis symmetry if for every <m>x</m> in the domain of <m>f</m>,
-	  <me>f(-x) = f(x).</me>
+	  The function <m>f \colon A \to \R</m> has <m>y</m>-axis symmetry if and only if <m>f</m> is even.
 	</p>
       </statement>
     </theorem>
@@ -373,11 +388,25 @@
       This provides us with an algebraic condition for testing origin symmetry.
     </p>
 
+    <definition xml:id="def-odd_function">
+      <title>Odd Function</title>
+      <statement>
+	<p>
+	  A function <m>f \colon A \to \R</m> is <term>odd</term>
+	  <idx>
+	    <h>Function</h>
+	    <h>odd</h>
+	  </idx>
+	  if for every <m>x \in A</m>,
+	  <me>f(-x) = f(x)</me>
+	</p>
+      </statement>
+    </definition>
+
     <theorem>
       <statement>
 	<p>
-	  The function <m>f</m> has origin symmetry if for every <m>x</m> in the domain of <m>f</m>,
-	  <me>f(-x) = -f(x).</me>
+	  The function <m>f \colon A \to \R</m> has origin symmetry if and only if <m>f</m> is odd.
 	</p>
       </statement>
     </theorem>
