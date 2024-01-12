@@ -491,54 +491,5 @@
 
   </subsection>
 
-  <worksheet xml:id="wksht-symmetry" component="notes">
-    <objectives>
-      <ul>
-	<li>
-	  Identify if a function has <m>y</m>-axis symmetry.
-	</li>
-	<li>
-	  Identify if a function has origin symmetry.
-	</li>
-      </ul>
-    </objectives>
-    <introduction>
-      <p>
-	Determine whether the following funtions have <m>y</m>-axis symmetry, origin symmetry, or neither.
-      </p>
-    </introduction>
-    <page>
-      <exercise workspace="1in">
-	<statement>
-	  <p>
-	    <m>f(x) = \abs{x} + 3</m>
-	  </p>
-	</statement>
-      </exercise>
-      
-      <exercise workspace="1in">
-	<statement>
-	  <p>
-	    <m>g(x) = x^5 + x^2</m>
-	  </p>
-	</statement>
-      </exercise>
-
-      <exercise workspace="1in">
-	<statement>
-	  <p>
-	    <m>h(x) = x^4 + x^2 + 1</m>
-	  </p>
-	</statement>
-      </exercise>
-
-      <exercise workspace="1in">
-	<statement>
-	  <p>
-	    <m>k(x) = x^5 + x^3 + x</m>
-	  </p>
-	</statement>
-      </exercise>
-    </page>
-  </worksheet>
+  <xi:include href="worksheets/wksht-symmetry.ptx"/>
 </section>
