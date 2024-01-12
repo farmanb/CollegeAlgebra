@@ -820,110 +820,11 @@ var ptx_lunr_docs = [
   "body": "  The equation does not define as a function of .    Recall that for every positive number , there are always two square roots: and . This tells us the ordered pairs and both satisfy the equation For example, the ordered pairs and satisfy Since the definition a requires that each element of the domain corresponds to exactly one element of the codomain, we see this cannot be a function. That is, equation fails the .  The graph of the equation and the line .        "
 },
 {
-  "id": "sec-avg_roc",
-  "level": "1",
-  "url": "sec-avg_roc.html",
-  "type": "Section",
-  "number": "2.2",
-  "title": "Measures of Change",
-  "body": " Measures of Change   Functions are important tools in the application of mathematics because they allow us to formalize the relationship between two quantities. We are often interested in answering questions precisely about how the dependent variable responds to changes in the independent variable. While it is useful to be able to precisely quantify this relationship, it is often easier to understand these relationships visually. Our goal is to build a dictionary between the algebraic measures of change and the features of the graph.    Intervals of Increase and Decrease  The terms increasing and decreasing are useful qualitative descriptions of a function's behavior. A function is increasing if its -values increase as its -values increase and decreases if its -values decrease as its -values increase. This is easy to detect visually because either the height of the graph increases or decreases as you trace the graph from left to right.   Graphs of increasing and decreasing functions    An increasing function       A decreasing function        Unfortunately, many interesting functions are not simply increasing or decreasing. Rather, most interesting functions have pieces that are increasing and pieces that are decreasing.   The graph of a function that is neither increasing nor decreasing      For this reason, we define increasing and decreasing on an interval to provide the flexibility to describe a range of interesting functions.    Assume and . We say the function is    increasing   Function  Increasing  on the interval if for every ,      decreasing   Function  Decreasing  on the interval if for every ,        Points where the graph changes between increasing and decreasing are often interesting features of the graph. These points are known collectively as local extrema .  Function  Local Extrema      Assume . The function has a local maximum   Function  Local Maximum  at if there exist values such that    is increasing on the interval , and     is decreasing on the interval .     We say is a local maximum value   Function  Local Maximum Value        Assume . The function has a local minimum   Function  Local Minimum  at if there exist values such that    is decreasing on the interval , and     is increasing on the interval .     We say is a local minimum value   Function  Local Minimum Value        Use the following graph to find the intervals of increase and decrease. Identify all local extrema.   The graph of        The graph of is increasing on the intervals    ,     , and        The graph of is decreasing on the intervals    , and          The points and are local maxima and the points and are local minima.      Average Rate of Change  The rate at which changes as changes is a quantitative measure of change. Suppose we have the following data about a five hour road trip.   Distance Driven as a Function of Time    Time  Miles Driven    12:00 PM     1:00 PM     2:00 PM     3:00 PM     4:00 PM     5:00 PM      While we cannot pinpoint exactly how fast the car was moving at any given time, we can use this data to give a rough estimate for the speed of the car over a period of time. If we wanted to estimate the speed of the car over the two hour period from 3:00 PM until 5:00 PM, we could take the distance traveled and divide it by the number of hours traveled to obtain This represents the average speed of the car during this period of time. This idea generalizes to arbitrary functions naturally.   The Average Rate of Change   Assume is a function and the domain of contains the interval . The average rate of change   Function  Average Rate of Change  of on the interval is       An object is thrown straight up in the air. The object reaches a maximum height of 1 meter after 1 second, and returns to the thrower's hand after 2 seconds. The function models the height of the object in meters as a function of seconds.   The graph of        What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is moving up at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is falling back at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ?   Using , the average rate of change on the interval is We can interpret this as saying the object climbs and falls at the same speed.     "
-},
-{
-  "id": "fig-monotone",
-  "level": "2",
-  "url": "sec-avg_roc.html#fig-monotone",
-  "type": "Figure",
-  "number": "2.2.1",
-  "title": "",
-  "body": " Graphs of increasing and decreasing functions    An increasing function       A decreasing function       "
-},
-{
-  "id": "fig-non_monotone",
-  "level": "2",
-  "url": "sec-avg_roc.html#fig-non_monotone",
-  "type": "Figure",
-  "number": "2.2.2",
-  "title": "",
-  "body": " The graph of a function that is neither increasing nor decreasing     "
-},
-{
-  "id": "sec-avg_roc-3-7",
-  "level": "2",
-  "url": "sec-avg_roc.html#sec-avg_roc-3-7",
-  "type": "Definition",
-  "number": "2.2.3",
-  "title": "",
-  "body": "  Assume and . We say the function is    increasing   Function  Increasing  on the interval if for every ,      decreasing   Function  Decreasing  on the interval if for every ,       "
-},
-{
-  "id": "sec-avg_roc-3-8",
-  "level": "2",
-  "url": "sec-avg_roc.html#sec-avg_roc-3-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "local extrema "
-},
-{
-  "id": "sec-avg_roc-3-9",
-  "level": "2",
-  "url": "sec-avg_roc.html#sec-avg_roc-3-9",
-  "type": "Definition",
-  "number": "2.2.4",
-  "title": "",
-  "body": "  Assume . The function has a local maximum   Function  Local Maximum  at if there exist values such that    is increasing on the interval , and     is decreasing on the interval .     We say is a local maximum value   Function  Local Maximum Value     "
-},
-{
-  "id": "sec-avg_roc-3-10",
-  "level": "2",
-  "url": "sec-avg_roc.html#sec-avg_roc-3-10",
-  "type": "Definition",
-  "number": "2.2.5",
-  "title": "",
-  "body": "  Assume . The function has a local minimum   Function  Local Minimum  at if there exist values such that    is decreasing on the interval , and     is increasing on the interval .     We say is a local minimum value   Function  Local Minimum Value     "
-},
-{
-  "id": "sec-avg_roc-3-11",
-  "level": "2",
-  "url": "sec-avg_roc.html#sec-avg_roc-3-11",
-  "type": "Example",
-  "number": "2.2.6",
-  "title": "",
-  "body": "  Use the following graph to find the intervals of increase and decrease. Identify all local extrema.   The graph of        The graph of is increasing on the intervals    ,     , and        The graph of is decreasing on the intervals    , and          The points and are local maxima and the points and are local minima.   "
-},
-{
-  "id": "sec-avg_roc-4-3",
-  "level": "2",
-  "url": "sec-avg_roc.html#sec-avg_roc-4-3",
-  "type": "Table",
-  "number": "2.2.8",
-  "title": "Distance Driven as a Function of Time",
-  "body": " Distance Driven as a Function of Time    Time  Miles Driven    12:00 PM     1:00 PM     2:00 PM     3:00 PM     4:00 PM     5:00 PM     "
-},
-{
-  "id": "def-average_rate_of_change",
-  "level": "2",
-  "url": "sec-avg_roc.html#def-average_rate_of_change",
-  "type": "Definition",
-  "number": "2.2.9",
-  "title": "The Average Rate of Change.",
-  "body": " The Average Rate of Change   Assume is a function and the domain of contains the interval . The average rate of change   Function  Average Rate of Change  of on the interval is    "
-},
-{
-  "id": "sec-avg_roc-4-6",
-  "level": "2",
-  "url": "sec-avg_roc.html#sec-avg_roc-4-6",
-  "type": "Example",
-  "number": "2.2.10",
-  "title": "",
-  "body": "  An object is thrown straight up in the air. The object reaches a maximum height of 1 meter after 1 second, and returns to the thrower's hand after 2 seconds. The function models the height of the object in meters as a function of seconds.   The graph of        What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is moving up at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is falling back at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ?   Using , the average rate of change on the interval is We can interpret this as saying the object climbs and falls at the same speed.   "
-},
-{
   "id": "sec-transformations",
   "level": "1",
   "url": "sec-transformations.html",
   "type": "Section",
-  "number": "2.3",
+  "number": "2.2",
   "title": "Graph Transformations",
   "body": " Graph Transformations   Graphing arbitrary functions can be a difficult task and the general methods are beyond the scope of basic algebra. However, if we know the graph of a function, , and we can write another function, , in terms of in a specific way, then we can use the graph of to graph using transformations . In this seciton, we discuss three types of transformations: translation, scaling, and reflection.    Vertical Translation   Vertical Translation   Let be a positive number. We say the function is a vertical translation   Graph  Tranformation  Vertical Translation  of the function if .   The graph of is obtained by shifting the graph of up the -axis by units.    The graph of is obtained by shifting the graph of down the -axis by -units.         Use the graph of to graph the functions and .    The graph of is obtained by shifting the graph of up the -axis by units, and the graph of is obtained by shifting the graph of down the -axis by 3 units.   Vertical translations of up by and down by .          Horizontal Translation   Horizontal Translation   Let be a positive number. We say the function is a horizontal translation   Graph  Tranformation  Translation Horizontal  of the function if .   The graph of is obtained by shifting the graph of to the right along the -axis by units.    The graph of is obtained by shifting the graph of to the left along the -axis by -units.         Use the graph of to graph the functions and .    The graph of is obtained by translating the graph of to the left along the -axis by units, and the graph of is obtained by translating the graph of to the right along the -axis by 3 units.   Horizontal translation of to the left by and to the right by          Vertical Scaling   Vertical Scaling   Let be a number. We say the function is a vertical scaling   Graph  Tranformation  Vertical Scaling  of the function if or .   The graph of is obtained by stretching the graph of vertically by a factor of .    The graph of is obtained by compressing the graph of vertically by a factor of .         Use the graph of to graph the functions and .    The graph of is obtained by stretching the graph of vertically by a factor of , and the graph of is obtained by compressing the graph the graph of vertically by a factor of .   Vertical scaling of by and          Reflection   Reflection   We say the function is a reflection   Graph  Tranformation  Reflection  of if either or    The graph of is obtained by reflecting the graph of over the -axis.    The graph of is obtained by reflecting the graph of over the -axis.         Use the graph of to graph the functions and .    The graph of is obtained by reflecting the graph of over the -axis, and the graph of is obtained by reflecting the graph of over the -axis.   Reflection of across the -axis and -axis.          Horizontal Scaling   Horizontal Scaling   Let be a number. We say the function is a horizontal scaling   Graph  Tranformation  Horizontal Scaling  of the function if or .   The graph of is obtained by compressing the graph of horizontally by a factor of .    The graph of is obtained by stretching the graph of horizontally by a factor of .         Use the graph of to graph the functions and .    The graph of is obtained by compressing the graph of horizontally by a factor of , and the graph of is obtained by stretching the graph of horizontally by a factor of .   Horizontal scaling of by and          Combining Graph Transformations  Most functions are obtained from a basic function using multiple transformations. When graphing a function, the order in which transformations are applied is important.   Graphing Functions using Transformations     Horizontal Translation  Scaling  Reflection  Vertical Translation        Use the graph of to graph the function .    We can graph by starting from the basic function and applying the following transformations:  Translate the graph of to the left by 3 to obtain the graph of .  Stretch the graph of vertically by a factor of 2 to obtain the graph of .  Translate the graph of down by 2 units to obtain the graph of .     The sequence of transformations to obtain the graph of from         "
 },
@@ -932,7 +833,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-transformations.html#def-vertical_translation",
   "type": "Definition",
-  "number": "2.3.1",
+  "number": "2.2.1",
   "title": "Vertical Translation.",
   "body": " Vertical Translation   Let be a positive number. We say the function is a vertical translation   Graph  Tranformation  Vertical Translation  of the function if .   The graph of is obtained by shifting the graph of up the -axis by units.    The graph of is obtained by shifting the graph of down the -axis by -units.      "
 },
@@ -941,7 +842,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-transformations.html#sec-transformations-3-3",
   "type": "Example",
-  "number": "2.3.2",
+  "number": "2.2.2",
   "title": "",
   "body": "  Use the graph of to graph the functions and .    The graph of is obtained by shifting the graph of up the -axis by units, and the graph of is obtained by shifting the graph of down the -axis by 3 units.   Vertical translations of up by and down by .       "
 },
@@ -950,7 +851,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-transformations.html#def-horizontal_translation",
   "type": "Definition",
-  "number": "2.3.4",
+  "number": "2.2.4",
   "title": "Horizontal Translation.",
   "body": " Horizontal Translation   Let be a positive number. We say the function is a horizontal translation   Graph  Tranformation  Translation Horizontal  of the function if .   The graph of is obtained by shifting the graph of to the right along the -axis by units.    The graph of is obtained by shifting the graph of to the left along the -axis by -units.      "
 },
@@ -959,7 +860,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-transformations.html#sec-transformations-4-3",
   "type": "Example",
-  "number": "2.3.5",
+  "number": "2.2.5",
   "title": "",
   "body": "  Use the graph of to graph the functions and .    The graph of is obtained by translating the graph of to the left along the -axis by units, and the graph of is obtained by translating the graph of to the right along the -axis by 3 units.   Horizontal translation of to the left by and to the right by       "
 },
@@ -968,7 +869,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-transformations.html#def-vertical_scaling",
   "type": "Definition",
-  "number": "2.3.7",
+  "number": "2.2.7",
   "title": "Vertical Scaling.",
   "body": " Vertical Scaling   Let be a number. We say the function is a vertical scaling   Graph  Tranformation  Vertical Scaling  of the function if or .   The graph of is obtained by stretching the graph of vertically by a factor of .    The graph of is obtained by compressing the graph of vertically by a factor of .      "
 },
@@ -977,7 +878,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-transformations.html#sec-transformations-5-3",
   "type": "Example",
-  "number": "2.3.8",
+  "number": "2.2.8",
   "title": "",
   "body": "  Use the graph of to graph the functions and .    The graph of is obtained by stretching the graph of vertically by a factor of , and the graph of is obtained by compressing the graph the graph of vertically by a factor of .   Vertical scaling of by and       "
 },
@@ -986,7 +887,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-transformations.html#def-reflection",
   "type": "Definition",
-  "number": "2.3.10",
+  "number": "2.2.10",
   "title": "Reflection.",
   "body": " Reflection   We say the function is a reflection   Graph  Tranformation  Reflection  of if either or    The graph of is obtained by reflecting the graph of over the -axis.    The graph of is obtained by reflecting the graph of over the -axis.      "
 },
@@ -995,7 +896,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-transformations.html#sec-transformations-6-3",
   "type": "Example",
-  "number": "2.3.11",
+  "number": "2.2.11",
   "title": "",
   "body": "  Use the graph of to graph the functions and .    The graph of is obtained by reflecting the graph of over the -axis, and the graph of is obtained by reflecting the graph of over the -axis.   Reflection of across the -axis and -axis.       "
 },
@@ -1004,7 +905,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-transformations.html#def-horizontal_scaling",
   "type": "Definition",
-  "number": "2.3.13",
+  "number": "2.2.13",
   "title": "Horizontal Scaling.",
   "body": " Horizontal Scaling   Let be a number. We say the function is a horizontal scaling   Graph  Tranformation  Horizontal Scaling  of the function if or .   The graph of is obtained by compressing the graph of horizontally by a factor of .    The graph of is obtained by stretching the graph of horizontally by a factor of .      "
 },
@@ -1013,7 +914,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-transformations.html#sec-transformations-7-3",
   "type": "Example",
-  "number": "2.3.14",
+  "number": "2.2.14",
   "title": "",
   "body": "  Use the graph of to graph the functions and .    The graph of is obtained by compressing the graph of horizontally by a factor of , and the graph of is obtained by stretching the graph of horizontally by a factor of .   Horizontal scaling of by and       "
 },
@@ -1022,7 +923,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-transformations.html#sec-transformations-8-3",
   "type": "Algorithm",
-  "number": "2.3.16",
+  "number": "2.2.16",
   "title": "Graphing Functions using Transformations.",
   "body": " Graphing Functions using Transformations     Horizontal Translation  Scaling  Reflection  Vertical Translation     "
 },
@@ -1031,7 +932,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-transformations.html#sec-transformations-8-4",
   "type": "Example",
-  "number": "2.3.17",
+  "number": "2.2.17",
   "title": "",
   "body": "  Use the graph of to graph the function .    We can graph by starting from the basic function and applying the following transformations:  Translate the graph of to the left by 3 to obtain the graph of .  Stretch the graph of vertically by a factor of 2 to obtain the graph of .  Translate the graph of down by 2 units to obtain the graph of .     The sequence of transformations to obtain the graph of from       "
 },
@@ -1040,7 +941,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-symmetry.html",
   "type": "Section",
-  "number": "2.4",
+  "number": "2.3",
   "title": "Symmetry",
   "body": " Symmetry   Intuitively, an object is symmetric if there is some line that divides the object into two (or more) pieces that are mirror images of one another. In this section, we utilize the methods in to detect two types of symmetry mathematically.    Symmetry about the -axis  The first type of symmetry we are interested in is symmetry about the -axis in the plane. We begin with the intuitive understanding of this symmetry, and formalize a concrete method for detecting it algebraically.    We say a function has -axis symmetry   Function  Symmetry  -axis  if the -axis divides the graph into two pieces that are mirror images of one another.    For example, consider the graph of . The graph intersects the -axis at the point . If we cut the parabola in half at this point, then we get two pieces. We distinguish the two halves by coloring the left-hand side red and the right-hand side blue.   The graph of cut in half at .      To say these are mirror images of one another, means if we reflect the graph across the -axis, then we obtain the same graph just with the colors switched.   The reflection of across the -axis.      Had we not colored the two pieces, we would be unable to tell which one is which. We say the graph is invariant   Invariant  under reflection across the -axis to mean the original graph and its reflection across the -axis are the same. This observation allows us to rephrase in terms of reflections.    The function has -axis symmetry if it is invariant under reflection across the -axis.    The characterization of -axis symmetry above is purely geometric. Just like the intuitive understanding of symmetry, it can be difficult to verify whether two pictures are actually the same. Fortunately, the language of graph transformations provides us a dictionary between algebraic statements and geometric statements.    The function has -axis symmetry if for every in the domain of ,     The algebraic condition allows us to easily verify our intuition about images concretely.    Verify the function has -axis symmetry.    If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the -axis.   The graph of      To verify our intuition, we just need to check Therefore has -axis symmetry.      Origin Symmetry  The second type of symmetry we consider is slightly more subtle than -axis symmetry.    We say a function is symmetric about the origin   Function  Symmetry  Origin  if the graph of is invariant under rotation by 180 degrees.    To understand this type of symmetry, consider the graph of with the origin and another marked point.   The graph of       We can see what happens as we rotate the graph around the origin in the animation below. Note the rotation does not change the shape of the graph, so the distance from the marked point to the origin stays the same.   Rotation of 180 degrees counter-clockwise    The path the marked point follows through the rotation traces out a piece of a circle. Plotting the entirety of this circle, we can see the starting and ending location of the marked point create a diameter.   The graph of with a marked point and the rotation of that point by      Assume the original point has coordinates and its rotation by has coordinates . Since the midpoint of the diameter is , we know that and . Solve the first equation for in terms of  The second coordinate is then Rewriting this in function notation, this tells us This provides us with an algebraic condition for testing origin symmetry.    The function has origin symmetry if for every in the domain of ,       Verify the function has origin symmetry.    If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the origin.   The graph of      To verify our intuition, we just need to check Therefore has origin symmetry.     "
 },
@@ -1049,7 +950,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-symmetry.html#def-y_axis_symmetry",
   "type": "Definition",
-  "number": "2.4.1",
+  "number": "2.3.1",
   "title": "",
   "body": "  We say a function has -axis symmetry   Function  Symmetry  -axis  if the -axis divides the graph into two pieces that are mirror images of one another.   "
 },
@@ -1058,7 +959,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-symmetry.html#fig-halved_parabola",
   "type": "Figure",
-  "number": "2.4.2",
+  "number": "2.3.2",
   "title": "",
   "body": " The graph of cut in half at .     "
 },
@@ -1067,7 +968,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-symmetry.html#fig-reflected_parabola",
   "type": "Figure",
-  "number": "2.4.3",
+  "number": "2.3.3",
   "title": "",
   "body": " The reflection of across the -axis.     "
 },
@@ -1085,7 +986,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-symmetry.html#subsec-y_axis_symmetry-9",
   "type": "Theorem",
-  "number": "2.4.4",
+  "number": "2.3.4",
   "title": "",
   "body": "  The function has -axis symmetry if it is invariant under reflection across the -axis.   "
 },
@@ -1094,7 +995,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-symmetry.html#subsec-y_axis_symmetry-11",
   "type": "Theorem",
-  "number": "2.4.5",
+  "number": "2.3.5",
   "title": "",
   "body": "  The function has -axis symmetry if for every in the domain of ,    "
 },
@@ -1103,7 +1004,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-symmetry.html#subsec-y_axis_symmetry-13",
   "type": "Example",
-  "number": "2.4.6",
+  "number": "2.3.6",
   "title": "",
   "body": "  Verify the function has -axis symmetry.    If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the -axis.   The graph of      To verify our intuition, we just need to check Therefore has -axis symmetry.   "
 },
@@ -1112,7 +1013,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-symmetry.html#sec-symmetry-4-3",
   "type": "Definition",
-  "number": "2.4.8",
+  "number": "2.3.8",
   "title": "",
   "body": "  We say a function is symmetric about the origin   Function  Symmetry  Origin  if the graph of is invariant under rotation by 180 degrees.   "
 },
@@ -1121,7 +1022,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-symmetry.html#fig-example_odd",
   "type": "Figure",
-  "number": "2.4.9",
+  "number": "2.3.9",
   "title": "",
   "body": " The graph of     "
 },
@@ -1130,7 +1031,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-symmetry.html#fig-rotation_cubic_animation",
   "type": "Figure",
-  "number": "2.4.10",
+  "number": "2.3.10",
   "title": "",
   "body": " Rotation of 180 degrees counter-clockwise   "
 },
@@ -1139,7 +1040,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-symmetry.html#fig-rotation_cubic",
   "type": "Figure",
-  "number": "2.4.11",
+  "number": "2.3.11",
   "title": "",
   "body": " The graph of with a marked point and the rotation of that point by     "
 },
@@ -1148,7 +1049,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-symmetry.html#sec-symmetry-4-11",
   "type": "Theorem",
-  "number": "2.4.12",
+  "number": "2.3.12",
   "title": "",
   "body": "  The function has origin symmetry if for every in the domain of ,    "
 },
@@ -1157,9 +1058,108 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-symmetry.html#sec-symmetry-4-12",
   "type": "Example",
-  "number": "2.4.13",
+  "number": "2.3.13",
   "title": "",
   "body": "  Verify the function has origin symmetry.    If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the origin.   The graph of      To verify our intuition, we just need to check Therefore has origin symmetry.   "
+},
+{
+  "id": "sec-avg_roc",
+  "level": "1",
+  "url": "sec-avg_roc.html",
+  "type": "Section",
+  "number": "2.4",
+  "title": "Measures of Change",
+  "body": " Measures of Change   Functions are important tools in the application of mathematics because they allow us to formalize the relationship between two quantities. We are often interested in answering questions precisely about how the dependent variable responds to changes in the independent variable. While it is useful to be able to precisely quantify this relationship, it is often easier to understand these relationships visually. Our goal is to build a dictionary between the algebraic measures of change and the features of the graph.    Intervals of Increase and Decrease  The terms increasing and decreasing are useful qualitative descriptions of a function's behavior. A function is increasing if its -values increase as its -values increase and decreases if its -values decrease as its -values increase. This is easy to detect visually because either the height of the graph increases or decreases as you trace the graph from left to right.   Graphs of increasing and decreasing functions    An increasing function       A decreasing function        Unfortunately, many interesting functions are not simply increasing or decreasing. Rather, most interesting functions have pieces that are increasing and pieces that are decreasing.   The graph of a function that is neither increasing nor decreasing      For this reason, we define increasing and decreasing on an interval to provide the flexibility to describe a range of interesting functions.    Assume and . We say the function is    increasing   Function  Increasing  on the interval if for every ,      decreasing   Function  Decreasing  on the interval if for every ,        Points where the graph changes between increasing and decreasing are often interesting features of the graph. These points are known collectively as local extrema .  Function  Local Extrema      Assume . The function has a local maximum   Function  Local Maximum  at if there exist values such that    is increasing on the interval , and     is decreasing on the interval .     We say is a local maximum value   Function  Local Maximum Value        Assume . The function has a local minimum   Function  Local Minimum  at if there exist values such that    is decreasing on the interval , and     is increasing on the interval .     We say is a local minimum value   Function  Local Minimum Value        Use the following graph to find the intervals of increase and decrease. Identify all local extrema.   The graph of        The graph of is increasing on the intervals    ,     , and        The graph of is decreasing on the intervals    , and          The points and are local maxima and the points and are local minima.      Average Rate of Change  The rate at which changes as changes is a quantitative measure of change. Suppose we have the following data about a five hour road trip.   Distance Driven as a Function of Time    Time  Miles Driven    12:00 PM     1:00 PM     2:00 PM     3:00 PM     4:00 PM     5:00 PM      While we cannot pinpoint exactly how fast the car was moving at any given time, we can use this data to give a rough estimate for the speed of the car over a period of time. If we wanted to estimate the speed of the car over the two hour period from 3:00 PM until 5:00 PM, we could take the distance traveled and divide it by the number of hours traveled to obtain This represents the average speed of the car during this period of time. This idea generalizes to arbitrary functions naturally.   The Average Rate of Change   Assume is a function and the domain of contains the interval . The average rate of change   Function  Average Rate of Change  of on the interval is       An object is thrown straight up in the air. The object reaches a maximum height of 1 meter after 1 second, and returns to the thrower's hand after 2 seconds. The function models the height of the object in meters as a function of seconds.   The graph of        What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is moving up at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is falling back at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ?   Using , the average rate of change on the interval is We can interpret this as saying the object climbs and falls at the same speed.     "
+},
+{
+  "id": "fig-monotone",
+  "level": "2",
+  "url": "sec-avg_roc.html#fig-monotone",
+  "type": "Figure",
+  "number": "2.4.1",
+  "title": "",
+  "body": " Graphs of increasing and decreasing functions    An increasing function       A decreasing function       "
+},
+{
+  "id": "fig-non_monotone",
+  "level": "2",
+  "url": "sec-avg_roc.html#fig-non_monotone",
+  "type": "Figure",
+  "number": "2.4.2",
+  "title": "",
+  "body": " The graph of a function that is neither increasing nor decreasing     "
+},
+{
+  "id": "sec-avg_roc-3-7",
+  "level": "2",
+  "url": "sec-avg_roc.html#sec-avg_roc-3-7",
+  "type": "Definition",
+  "number": "2.4.3",
+  "title": "",
+  "body": "  Assume and . We say the function is    increasing   Function  Increasing  on the interval if for every ,      decreasing   Function  Decreasing  on the interval if for every ,       "
+},
+{
+  "id": "sec-avg_roc-3-8",
+  "level": "2",
+  "url": "sec-avg_roc.html#sec-avg_roc-3-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "local extrema "
+},
+{
+  "id": "sec-avg_roc-3-9",
+  "level": "2",
+  "url": "sec-avg_roc.html#sec-avg_roc-3-9",
+  "type": "Definition",
+  "number": "2.4.4",
+  "title": "",
+  "body": "  Assume . The function has a local maximum   Function  Local Maximum  at if there exist values such that    is increasing on the interval , and     is decreasing on the interval .     We say is a local maximum value   Function  Local Maximum Value     "
+},
+{
+  "id": "sec-avg_roc-3-10",
+  "level": "2",
+  "url": "sec-avg_roc.html#sec-avg_roc-3-10",
+  "type": "Definition",
+  "number": "2.4.5",
+  "title": "",
+  "body": "  Assume . The function has a local minimum   Function  Local Minimum  at if there exist values such that    is decreasing on the interval , and     is increasing on the interval .     We say is a local minimum value   Function  Local Minimum Value     "
+},
+{
+  "id": "sec-avg_roc-3-11",
+  "level": "2",
+  "url": "sec-avg_roc.html#sec-avg_roc-3-11",
+  "type": "Example",
+  "number": "2.4.6",
+  "title": "",
+  "body": "  Use the following graph to find the intervals of increase and decrease. Identify all local extrema.   The graph of        The graph of is increasing on the intervals    ,     , and        The graph of is decreasing on the intervals    , and          The points and are local maxima and the points and are local minima.   "
+},
+{
+  "id": "sec-avg_roc-4-3",
+  "level": "2",
+  "url": "sec-avg_roc.html#sec-avg_roc-4-3",
+  "type": "Table",
+  "number": "2.4.8",
+  "title": "Distance Driven as a Function of Time",
+  "body": " Distance Driven as a Function of Time    Time  Miles Driven    12:00 PM     1:00 PM     2:00 PM     3:00 PM     4:00 PM     5:00 PM     "
+},
+{
+  "id": "def-average_rate_of_change",
+  "level": "2",
+  "url": "sec-avg_roc.html#def-average_rate_of_change",
+  "type": "Definition",
+  "number": "2.4.9",
+  "title": "The Average Rate of Change.",
+  "body": " The Average Rate of Change   Assume is a function and the domain of contains the interval . The average rate of change   Function  Average Rate of Change  of on the interval is    "
+},
+{
+  "id": "sec-avg_roc-4-6",
+  "level": "2",
+  "url": "sec-avg_roc.html#sec-avg_roc-4-6",
+  "type": "Example",
+  "number": "2.4.10",
+  "title": "",
+  "body": "  An object is thrown straight up in the air. The object reaches a maximum height of 1 meter after 1 second, and returns to the thrower's hand after 2 seconds. The function models the height of the object in meters as a function of seconds.   The graph of        What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is moving up at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ? Interpret the meaning of this number.   Using , the average rate of change on the interval is This tells us the object is falling back at an average rate of 1 meter per second.    What is the average rate of change for the function on the interval ?   Using , the average rate of change on the interval is We can interpret this as saying the object climbs and falls at the same speed.   "
 },
 {
   "id": "sec-polynomial_functions",
