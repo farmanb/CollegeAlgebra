@@ -2428,7 +2428,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.3",
   "title": "Composition",
-  "body": " Composition   When we study numbers in an elementary mathematics course, we focus primarily on operations that we can perform with numbers like addition and multiplication. While we have seen we can perform these same operations with functions, there is one operation that is particular to functions that we study here. It is important because it provides a way to create complicated functions from simpler functions.    Composition of Functions   Assume and are functions with . The composition   Function  Composition  of with is the function      Composition of with  defined by      It is important to ensure the range of the function is contained within the domain of the function . If not, the composition does not make sense.     The function defined by  cannot be composed with the function defined by because is not a real number when !      Consider the functions defined by and defined by . Find the composition of with .    The composition of with is the function defined by      The order of composition matters. Even if and are both well-defined and have the same domain, these two functions are not the same in general.     Consider the functions defined by and defined by . Find the composition of with . Verify that it is not the same as the composition of with .    The composition of with is the function defined by     "
+  "body": " Composition   When we study numbers in an elementary mathematics course, we focus primarily on operations that we can perform with numbers like addition and multiplication. While we have seen we can perform these same operations with functions, there is one operation that is particular to functions that we study here. It is important because it provides a way to create complicated functions from simpler functions.    Composition of Functions   Assume and are functions with . The composition   Function  Composition  of with is the function      Composition of with  defined by      It is important to ensure the range of the function is contained within the domain of the function . If not, the composition does not make sense.     The function defined by  cannot be composed with the function defined by because is not a real number when !      Consider the functions defined by and defined by . Find the composition of with .    The composition of with is the function defined by      The order of composition matters. Even if and are both well-defined and have the same domain, these two functions are not the same in general.     Consider the functions defined by and defined by . Find the composition of with . Verify that it is not the same as the composition of with .    The composition of with is the function defined by       Let be any non-zero real number and consider the function defined by . Find a simplified expression for the function     Write   For each value of , this function measures the slope of the line connecting the two points and . This line is often called the secant line and is often called the difference quotient . It is an extraordinarily important tool in Calculus.   The secant line through and          Let be any non-zero real number and consider the function defined by . Find a simplified expression for the function     Write   The trick in the first step is often called rationalizing the numerator .  Rationalizing the Numerator  For positive real numbers and , the quantity is called the conjugate   Conjugate  of , and vise versa. Rationalizing is a trick that often comes in handy in calculus.    "
 },
 {
   "id": "def-function_comp",
@@ -2483,6 +2483,24 @@ var ptx_lunr_docs = [
   "number": "5.3.6",
   "title": "",
   "body": "  Consider the functions defined by and defined by . Find the composition of with . Verify that it is not the same as the composition of with .    The composition of with is the function defined by    "
+},
+{
+  "id": "sec-composition-9",
+  "level": "2",
+  "url": "sec-composition.html#sec-composition-9",
+  "type": "Example",
+  "number": "5.3.7",
+  "title": "",
+  "body": "  Let be any non-zero real number and consider the function defined by . Find a simplified expression for the function     Write   For each value of , this function measures the slope of the line connecting the two points and . This line is often called the secant line and is often called the difference quotient . It is an extraordinarily important tool in Calculus.   The secant line through and       "
+},
+{
+  "id": "sec-composition-10",
+  "level": "2",
+  "url": "sec-composition.html#sec-composition-10",
+  "type": "Example",
+  "number": "5.3.9",
+  "title": "",
+  "body": "  Let be any non-zero real number and consider the function defined by . Find a simplified expression for the function     Write   The trick in the first step is often called rationalizing the numerator .  Rationalizing the Numerator  For positive real numbers and , the quantity is called the conjugate   Conjugate  of , and vise versa. Rationalizing is a trick that often comes in handy in calculus.   "
 },
 {
   "id": "sec-inverses",
