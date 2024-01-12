@@ -943,7 +943,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "Symmetry",
-  "body": " Symmetry   Intuitively, an object is symmetric if there is some line that divides the object into two (or more) pieces that are mirror images of one another. In this section, we utilize the methods in to detect two types of symmetry mathematically.    Symmetry about the -axis  The first type of symmetry we are interested in is symmetry about the -axis in the plane. We begin with the intuitive understanding of this symmetry, and formalize a concrete method for detecting it algebraically.    We say a function has -axis symmetry   Function  Symmetry  -axis  if the -axis divides the graph into two pieces that are mirror images of one another.    For example, consider the graph of . The graph intersects the -axis at the point . If we cut the parabola in half at this point, then we get two pieces. We distinguish the two halves by coloring the left-hand side red and the right-hand side blue.   The graph of cut in half at .      To say these are mirror images of one another, means if we reflect the graph across the -axis, then we obtain the same graph just with the colors switched.   The reflection of across the -axis.      Had we not colored the two pieces, we would be unable to tell which one is which. We say the graph is invariant   Invariant  under reflection across the -axis to mean the original graph and its reflection across the -axis are the same. This observation allows us to rephrase in terms of reflections.    The function has -axis symmetry if it is invariant under reflection across the -axis.    The characterization of -axis symmetry above is purely geometric. Just like the intuitive understanding of symmetry, it can be difficult to verify whether two pictures are actually the same. Fortunately, the language of graph transformations provides us a dictionary between algebraic statements and geometric statements.    The function has -axis symmetry if for every in the domain of ,     The algebraic condition allows us to easily verify our intuition about images concretely.    Verify the function has -axis symmetry.    If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the -axis.   The graph of      To verify our intuition, we just need to check Therefore has -axis symmetry.      Origin Symmetry  The second type of symmetry we consider is slightly more subtle than -axis symmetry.    We say a function is symmetric about the origin   Function  Symmetry  Origin  if the graph of is invariant under rotation by 180 degrees.    To understand this type of symmetry, consider the graph of with the origin and another marked point.   The graph of       We can see what happens as we rotate the graph around the origin in the animation below. Note the rotation does not change the shape of the graph, so the distance from the marked point to the origin stays the same.   Rotation of 180 degrees counter-clockwise    The path the marked point follows through the rotation traces out a piece of a circle. Plotting the entirety of this circle, we can see the starting and ending location of the marked point create a diameter.   The graph of with a marked point and the rotation of that point by      Assume the original point has coordinates and its rotation by has coordinates . Since the midpoint of the diameter is , we know that and . Solve the first equation for in terms of  The second coordinate is then Rewriting this in function notation, this tells us This provides us with an algebraic condition for testing origin symmetry.    The function has origin symmetry if for every in the domain of ,       Verify the function has origin symmetry.    If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the origin.   The graph of      To verify our intuition, we just need to check Therefore has origin symmetry.     "
+  "body": " Symmetry   Intuitively, an object is symmetric if there is some line that divides the object into two (or more) pieces that are mirror images of one another. In this section, we utilize the methods in to detect two types of symmetry mathematically.    Symmetry about the -axis  The first type of symmetry we are interested in is symmetry about the -axis in the plane. We begin with the intuitive understanding of this symmetry, and formalize a concrete method for detecting it algebraically.    We say a function has -axis symmetry   Function  Symmetry  -axis  if the -axis divides the graph into two pieces that are mirror images of one another.    For example, consider the graph of . The graph intersects the -axis at the point . If we cut the parabola in half at this point, then we get two pieces. We distinguish the two halves by coloring the left-hand side red and the right-hand side blue.   The graph of cut in half at .      To say these are mirror images of one another, means if we reflect the graph across the -axis, then we obtain the same graph just with the colors switched.   The reflection of across the -axis.      Had we not colored the two pieces, we would be unable to tell which one is which. We say the graph is invariant   Invariant  under reflection across the -axis to mean the original graph and its reflection across the -axis are the same. This observation allows us to rephrase in terms of reflections.    The function has -axis symmetry if it is invariant under reflection across the -axis.    The characterization of -axis symmetry above is purely geometric. Just like the intuitive understanding of symmetry, it can be difficult to verify whether two pictures are actually the same. Fortunately, the language of graph transformations provides us a dictionary between algebraic statements and geometric statements.   Even Function   A function is even   Function  Even  if for every ,       The function has -axis symmetry if and only if is even.    The algebraic condition allows us to easily verify our intuition about images concretely.    Verify the function has -axis symmetry.    If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the -axis.   The graph of      To verify our intuition, we just need to check Therefore has -axis symmetry.      Origin Symmetry  The second type of symmetry we consider is slightly more subtle than -axis symmetry.    We say a function is symmetric about the origin   Function  Symmetry  Origin  if the graph of is invariant under rotation by 180 degrees.    To understand this type of symmetry, consider the graph of with the origin and another marked point.   The graph of       We can see what happens as we rotate the graph around the origin in the animation below. Note the rotation does not change the shape of the graph, so the distance from the marked point to the origin stays the same.   Rotation of 180 degrees counter-clockwise    The path the marked point follows through the rotation traces out a piece of a circle. Plotting the entirety of this circle, we can see the starting and ending location of the marked point create a diameter.   The graph of with a marked point and the rotation of that point by      Assume the original point has coordinates and its rotation by has coordinates . Since the midpoint of the diameter is , we know that and . Solve the first equation for in terms of  The second coordinate is then Rewriting this in function notation, this tells us This provides us with an algebraic condition for testing origin symmetry.   Odd Function   A function is odd   Function  odd  if for every ,       The function has origin symmetry if and only if is odd.      Verify the function has origin symmetry.    If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the origin.   The graph of      To verify our intuition, we just need to check Therefore has origin symmetry.     "
 },
 {
   "id": "def-y_axis_symmetry",
@@ -991,20 +991,29 @@ var ptx_lunr_docs = [
   "body": "  The function has -axis symmetry if it is invariant under reflection across the -axis.   "
 },
 {
-  "id": "subsec-y_axis_symmetry-11",
+  "id": "def-even_function",
   "level": "2",
-  "url": "sec-symmetry.html#subsec-y_axis_symmetry-11",
-  "type": "Theorem",
+  "url": "sec-symmetry.html#def-even_function",
+  "type": "Definition",
   "number": "2.3.5",
-  "title": "",
-  "body": "  The function has -axis symmetry if for every in the domain of ,    "
+  "title": "Even Function.",
+  "body": " Even Function   A function is even   Function  Even  if for every ,    "
 },
 {
-  "id": "subsec-y_axis_symmetry-13",
+  "id": "subsec-y_axis_symmetry-12",
   "level": "2",
-  "url": "sec-symmetry.html#subsec-y_axis_symmetry-13",
-  "type": "Example",
+  "url": "sec-symmetry.html#subsec-y_axis_symmetry-12",
+  "type": "Theorem",
   "number": "2.3.6",
+  "title": "",
+  "body": "  The function has -axis symmetry if and only if is even.   "
+},
+{
+  "id": "subsec-y_axis_symmetry-14",
+  "level": "2",
+  "url": "sec-symmetry.html#subsec-y_axis_symmetry-14",
+  "type": "Example",
+  "number": "2.3.7",
   "title": "",
   "body": "  Verify the function has -axis symmetry.    If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the -axis.   The graph of      To verify our intuition, we just need to check Therefore has -axis symmetry.   "
 },
@@ -1013,7 +1022,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-symmetry.html#sec-symmetry-4-3",
   "type": "Definition",
-  "number": "2.3.8",
+  "number": "2.3.9",
   "title": "",
   "body": "  We say a function is symmetric about the origin   Function  Symmetry  Origin  if the graph of is invariant under rotation by 180 degrees.   "
 },
@@ -1022,7 +1031,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-symmetry.html#fig-example_odd",
   "type": "Figure",
-  "number": "2.3.9",
+  "number": "2.3.10",
   "title": "",
   "body": " The graph of     "
 },
@@ -1031,7 +1040,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-symmetry.html#fig-rotation_cubic_animation",
   "type": "Figure",
-  "number": "2.3.10",
+  "number": "2.3.11",
   "title": "",
   "body": " Rotation of 180 degrees counter-clockwise   "
 },
@@ -1040,25 +1049,34 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-symmetry.html#fig-rotation_cubic",
   "type": "Figure",
-  "number": "2.3.11",
+  "number": "2.3.12",
   "title": "",
   "body": " The graph of with a marked point and the rotation of that point by     "
 },
 {
-  "id": "sec-symmetry-4-11",
+  "id": "def-odd_function",
   "level": "2",
-  "url": "sec-symmetry.html#sec-symmetry-4-11",
-  "type": "Theorem",
-  "number": "2.3.12",
-  "title": "",
-  "body": "  The function has origin symmetry if for every in the domain of ,    "
+  "url": "sec-symmetry.html#def-odd_function",
+  "type": "Definition",
+  "number": "2.3.13",
+  "title": "Odd Function.",
+  "body": " Odd Function   A function is odd   Function  odd  if for every ,    "
 },
 {
   "id": "sec-symmetry-4-12",
   "level": "2",
   "url": "sec-symmetry.html#sec-symmetry-4-12",
+  "type": "Theorem",
+  "number": "2.3.14",
+  "title": "",
+  "body": "  The function has origin symmetry if and only if is odd.   "
+},
+{
+  "id": "sec-symmetry-4-13",
+  "level": "2",
+  "url": "sec-symmetry.html#sec-symmetry-4-13",
   "type": "Example",
-  "number": "2.3.13",
+  "number": "2.3.15",
   "title": "",
   "body": "  Verify the function has origin symmetry.    If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the origin.   The graph of      To verify our intuition, we just need to check Therefore has origin symmetry.   "
 },

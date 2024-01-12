@@ -397,27 +397,29 @@ window.MathJax = {
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.3.4</span><span class="period">.</span>
 </h4>
 <div class="para" id="subsec-y_axis_symmetry-9-1-1">The function <span class="process-math">\(f\)</span> has <span class="process-math">\(y\)</span>-axis symmetry if it is invariant under reflection across the <span class="process-math">\(y\)</span>-axis.</div></article><div class="para" id="subsec-y_axis_symmetry-10">The characterization of <span class="process-math">\(y\)</span>-axis symmetry above is purely geometric. Just like the intuitive understanding of symmetry, it can be difficult to verify whether two pictures are actually the same. Fortunately, the language of graph transformations provides us a dictionary between algebraic statements and geometric statements.</div>
-<article class="theorem theorem-like" id="subsec-y_axis_symmetry-11"><h4 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.3.5</span><span class="period">.</span>
-</h4>
-<div class="para logical" id="subsec-y_axis_symmetry-11-1-1">
-<div class="para">The function <span class="process-math">\(f\)</span> has <span class="process-math">\(y\)</span>-axis symmetry if for every <span class="process-math">\(x\)</span> in the domain of <span class="process-math">\(f\text{,}\)</span>
+<article class="definition definition-like" id="def-even_function"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.3.5</span><span class="period">.</span><span class="space"> </span><span class="title">Even Function.</span>
+</h4> <div class="para logical" id="def-even_function-2-1">
+<div class="para">A function <span class="process-math">\(f \colon A \to \R\)</span> is <dfn class="terminology">even</dfn>  if for every <span class="process-math">\(x \in A\text{,}\)</span>
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-f(-x) = f(x).
+f(-x) = f(x)
 \end{equation*}
 </div>
-</div></article><div class="para" id="subsec-y_axis_symmetry-12">The algebraic condition allows us to easily verify our intuition about images concretely.</div>
-<article class="example example-like" id="subsec-y_axis_symmetry-13"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.3.6</span><span class="period">.</span>
+</div></article><article class="theorem theorem-like" id="subsec-y_axis_symmetry-12"><h4 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.3.6</span><span class="period">.</span>
 </h4>
-<div class="para" id="subsec-y_axis_symmetry-13-1-1">Verify the function <span class="process-math">\(f(x) = x^4 - 5x^2 + 4\)</span> has <span class="process-math">\(y\)</span>-axis symmetry.</div>
-<div class="solutions"><details id="subsec-y_axis_symmetry-13-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like">
-<div class="para" id="subsec-y_axis_symmetry-13-2-1">If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the <span class="process-math">\(y\)</span>-axis.</div> <figure class="figure figure-like" id="fig-example_even"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/tikz-example_even.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.3.7<span class="period">.</span></span><span class="space"> </span>The graph of <span class="process-math">\(y = x^4 - 5x^2 + 4\)</span></figcaption></figure> <div class="para logical" id="subsec-y_axis_symmetry-13-2-3">
+<div class="para" id="subsec-y_axis_symmetry-12-1-1">The function <span class="process-math">\(f \colon A \to \R\)</span> has <span class="process-math">\(y\)</span>-axis symmetry if and only if <span class="process-math">\(f\)</span> is even.</div></article><div class="para" id="subsec-y_axis_symmetry-13">The algebraic condition allows us to easily verify our intuition about images concretely.</div>
+<article class="example example-like" id="subsec-y_axis_symmetry-14"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.3.7</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-y_axis_symmetry-14-1-1">Verify the function <span class="process-math">\(f(x) = x^4 - 5x^2 + 4\)</span> has <span class="process-math">\(y\)</span>-axis symmetry.</div>
+<div class="solutions"><details id="subsec-y_axis_symmetry-14-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like">
+<div class="para" id="subsec-y_axis_symmetry-14-2-1">If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the <span class="process-math">\(y\)</span>-axis.</div> <figure class="figure figure-like" id="fig-example_even"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/tikz-example_even.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.3.8<span class="period">.</span></span><span class="space"> </span>The graph of <span class="process-math">\(y = x^4 - 5x^2 + 4\)</span></figcaption></figure> <div class="para logical" id="subsec-y_axis_symmetry-14-2-3">
 <div class="para">To verify our intuition, we just need to check</div>
-<div class="displaymath process-math" id="subsec-y_axis_symmetry-13-2-3-1">
+<div class="displaymath process-math" id="subsec-y_axis_symmetry-14-2-3-1">
 \begin{align*}
 f(-x) \amp= (-x)^4 - 5(-x)^2 + 4\\
 \amp = (-1)^4x^4 - 5(-1)^2x^2 + 4\\
@@ -432,15 +434,15 @@ f(-x) \amp= (-x)^4 - 5(-x)^2 + 4\\
 </h3>
 <div class="para" id="sec-symmetry-4-2">The second type of symmetry we consider is slightly more subtle than <span class="process-math">\(y\)</span>-axis symmetry.</div>
 <article class="definition definition-like" id="sec-symmetry-4-3"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.3.8</span><span class="period">.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.3.9</span><span class="period">.</span>
 </h4>
 <div class="para" id="sec-symmetry-4-3-1-1">We say a function <span class="process-math">\(f\)</span> is <dfn class="terminology">symmetric about the origin</dfn>  if the graph of <span class="process-math">\(f\)</span> is invariant under rotation by 180 degrees.</div></article><div class="para" id="sec-symmetry-4-4">To understand this type of symmetry, consider <a href="" class="xref" data-knowl="./knowl/xref/fig-cubic.html" title="Figure B.1.14: the graph of y = x^3">the graph of <span class="process-math">\(y = x^3\)</span></a> with the origin and another marked point.</div>
 <figure class="figure figure-like" id="fig-example_odd"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/tikz-example_odd.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.3.9<span class="period">.</span></span><span class="space"> </span>The graph of <span class="process-math">\(y = x^3\)</span></figcaption></figure><div class="para" id="sec-symmetry-4-6">We can see what happens as we rotate the graph around the origin in the animation below. Note the rotation does not change the shape of the graph, so the distance from the marked point to the origin stays the same.</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.3.10<span class="period">.</span></span><span class="space"> </span>The graph of <span class="process-math">\(y = x^3\)</span></figcaption></figure><div class="para" id="sec-symmetry-4-6">We can see what happens as we rotate the graph around the origin in the animation below. Note the rotation does not change the shape of the graph, so the distance from the marked point to the origin stays the same.</div>
 <figure class="figure figure-like" id="fig-rotation_cubic_animation"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/images/origin_symmetry.gif" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.3.10<span class="period">.</span></span><span class="space"> </span>Rotation of <span class="process-math">\(y = x^3\)</span> 180 degrees counter-clockwise</figcaption></figure><div class="para" id="sec-symmetry-4-8">The path the marked point follows through the rotation traces out a piece of a circle. Plotting the entirety of this circle, we can see the starting and ending location of the marked point create a diameter.</div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.3.11<span class="period">.</span></span><span class="space"> </span>Rotation of <span class="process-math">\(y = x^3\)</span> 180 degrees counter-clockwise</figcaption></figure><div class="para" id="sec-symmetry-4-8">The path the marked point follows through the rotation traces out a piece of a circle. Plotting the entirety of this circle, we can see the starting and ending location of the marked point create a diameter.</div>
 <figure class="figure figure-like" id="fig-rotation_cubic"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/tikz-rotation_cubic.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.3.11<span class="period">.</span></span><span class="space"> </span>The graph of <span class="process-math">\(y=x^3\)</span> with a marked point and the rotation of that point by <span class="process-math">\(180^\circ\)</span></figcaption></figure><div class="para logical" id="sec-symmetry-4-10">
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.3.12<span class="period">.</span></span><span class="space"> </span>The graph of <span class="process-math">\(y=x^3\)</span> with a marked point and the rotation of that point by <span class="process-math">\(180^\circ\)</span></figcaption></figure><div class="para logical" id="sec-symmetry-4-10">
 <div class="para">Assume the original point has coordinates <span class="process-math">\((a,a^3)\)</span> and its rotation by <span class="process-math">\(180^\circ\)</span> has coordinates <span class="process-math">\((b,b^3)\text{.}\)</span> Since the midpoint of the diameter is <span class="process-math">\((0,0)\text{,}\)</span> we know that <span class="process-math">\(0 = (a+b)/2\)</span> and <span class="process-math">\(0 = (a^3 + b^3)/2\text{.}\)</span> Solve the first equation for <span class="process-math">\(b\)</span> in terms of <span class="process-math">\(a\)</span>
 </div>
 <div class="displaymath process-math" id="sec-symmetry-4-10-9">
@@ -464,26 +466,28 @@ f(-a) = (-a)^3 = -a^3 = -f(a).
 </div>
 <div class="para">This provides us with an algebraic condition for testing origin symmetry.</div>
 </div>
-<article class="theorem theorem-like" id="sec-symmetry-4-11"><h4 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.3.12</span><span class="period">.</span>
-</h4>
-<div class="para logical" id="sec-symmetry-4-11-1-1">
-<div class="para">The function <span class="process-math">\(f\)</span> has origin symmetry if for every <span class="process-math">\(x\)</span> in the domain of <span class="process-math">\(f\text{,}\)</span>
+<article class="definition definition-like" id="def-odd_function"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.3.13</span><span class="period">.</span><span class="space"> </span><span class="title">Odd Function.</span>
+</h4> <div class="para logical" id="def-odd_function-2-1">
+<div class="para">A function <span class="process-math">\(f \colon A \to \R\)</span> is <dfn class="terminology">odd</dfn>  if for every <span class="process-math">\(x \in A\text{,}\)</span>
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-f(-x) = -f(x).
+f(-x) = f(x)
 \end{equation*}
 </div>
-</div></article><article class="example example-like" id="sec-symmetry-4-12"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.3.13</span><span class="period">.</span>
+</div></article><article class="theorem theorem-like" id="sec-symmetry-4-12"><h4 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.3.14</span><span class="period">.</span>
 </h4>
-<div class="para" id="sec-symmetry-4-12-1-1">Verify the function <span class="process-math">\(f(x) = x^3 - 4x\)</span> has origin symmetry.</div>
-<div class="solutions"><details id="sec-symmetry-4-12-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like">
-<div class="para" id="sec-symmetry-4-12-2-1">If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the origin.</div> <figure class="figure figure-like" id="fig-example_origin_symmetry"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/tikz-example_origin_symmetry.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.3.14<span class="period">.</span></span><span class="space"> </span>The graph of <span class="process-math">\(y = x^3 - 4x\)</span></figcaption></figure> <div class="para logical" id="sec-symmetry-4-12-2-3">
+<div class="para" id="sec-symmetry-4-12-1-1">The function <span class="process-math">\(f \colon A \to \R\)</span> has origin symmetry if and only if <span class="process-math">\(f\)</span> is odd.</div></article><article class="example example-like" id="sec-symmetry-4-13"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.3.15</span><span class="period">.</span>
+</h4>
+<div class="para" id="sec-symmetry-4-13-1-1">Verify the function <span class="process-math">\(f(x) = x^3 - 4x\)</span> has origin symmetry.</div>
+<div class="solutions"><details id="sec-symmetry-4-13-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like">
+<div class="para" id="sec-symmetry-4-13-2-1">If we ask a utility like a graphing calculator to graph this function for us, we would see this function appears to be symmetric about the origin.</div> <figure class="figure figure-like" id="fig-example_origin_symmetry"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/tikz-example_origin_symmetry.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.3.16<span class="period">.</span></span><span class="space"> </span>The graph of <span class="process-math">\(y = x^3 - 4x\)</span></figcaption></figure> <div class="para logical" id="sec-symmetry-4-13-2-3">
 <div class="para">To verify our intuition, we just need to check</div>
-<div class="displaymath process-math" id="sec-symmetry-4-12-2-3-1">
+<div class="displaymath process-math" id="sec-symmetry-4-13-2-3-1">
 \begin{align*}
 f(-x) \amp= (-x)^3 - 4(-x)\\
 \amp= (-1)^3x^3 - (-4x)\\
