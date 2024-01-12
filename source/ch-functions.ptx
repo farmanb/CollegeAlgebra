@@ -5,8 +5,8 @@
 
   <!-- include sections -->
   <xi:include href="sec-functions.ptx" />
-  <xi:include href="sec-change.ptx" />
   <xi:include href="sec-transformations.ptx" />
   <xi:include href="sec-symmetry.ptx" />
+  <xi:include href="sec-change.ptx" />
 </chapter>
 
