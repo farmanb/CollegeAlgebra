@@ -437,4 +437,46 @@
   </subsection>
 
   <xi:include href="./worksheets/wksht-inverses.ptx"/>
+
+  <exercises component="web">
+    <introduction>
+      <p>
+	For each function below, determine a subset of the domain where the function is invertible.
+	Find the range of the function on that interval, then find the inverse.
+	Indicate the domain and range of the inverse.
+      </p>
+    </introduction>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>f(x) = 2x - 3</m>.
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>g(x) = x^2 + 4</m>.
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>h(x) = x^3 - 1</m>.
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>p(x) = \dfrac{2x + 1}{3}</m>.
+	</p>
+      </statement>
+    </exercise>
+  </exercises>
 </section>
