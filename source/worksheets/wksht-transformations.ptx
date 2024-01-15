@@ -28,14 +28,13 @@
     <page>
       <exercise xml:id="ex-transformations_cubic">
 	<statement>
-	  <task>
-	    <p>
+	  <p>
 	      Write down the graph transformations, in order, needed to graph the function <m>y = -3(x + 2)^3 - 1</m> using the graph of <m>y = x^3</m>.
 	      For each transformation, indicate the intermediate function.
 	    </p>
-	  </task>
 	</statement>
       </exercise>
+      
       <figure>
 	<caption>The graph of <m>y = x^3</m></caption>
 	<image width="50%">
@@ -45,6 +44,7 @@
 	</image>
       </figure>
     </page>
+    
     <page>
       <exercise>
 	<statement>
