@@ -81,7 +81,7 @@
 
   <xi:include href="worksheets/wksht-circles.ptx"/>
 
-  <exercises>
+  <exercises component="web">
     <exercise>
       <p>
 	Write down the equation of the circle of radius <m>\sqrt{2}</m> centered at <m>(-3, 1)</m>.
