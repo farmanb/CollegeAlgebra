@@ -154,5 +154,25 @@
   </subsection>
 
   <xi:include href="worksheets/wksht-midpoint.ptx"/>
+
+  <exercises component="web">
+    <exercise>
+      <statement>
+	<p>
+	  Plot the points <m>(1,3)</m> and <m>(3,-1)</m> in the plane.
+	  Find the midpoint of the line segment that connects these two points, then plot it.
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  Plot the points <m>(3,2)</m> and <m>(-5,-10)</m> in the plane.
+	  Find the midpoint of the line segment that connects these two points, then plot it.
+	</p>
+      </statement>
+    </exercise>
+  </exercises>
 </section>
 

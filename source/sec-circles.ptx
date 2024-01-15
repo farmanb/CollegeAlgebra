@@ -80,4 +80,43 @@
   </figure>
 
   <xi:include href="worksheets/wksht-circles.ptx"/>
+
+  <exercises>
+    <exercise>
+      <p>
+	Write down the equation of the circle of radius <m>\sqrt{2}</m> centered at <m>(-3, 1)</m>.
+      </p>
+    </exercise>
+    
+    <exercise>
+      <p>
+	Find the center and radius of the circle
+	<me>(x - 3)^2 + (y - 17)^2  = 1225.</me>
+	Sketch a graph of the equation.
+      </p>
+    </exercise>
+
+    <exercise>
+      <p>
+	Find the radius of the circle with center <m>(2,3)</m> that passes through the point <m>(-1,7)</m>.
+	Write the equation of this circle in standard form.
+	Sketch a graph of the circle.
+      </p>
+    </exercise>
+
+    <exercise>
+      <p>
+	The endpoints of a diameter of a circle are <m>(2,2)</m> and <m>(4,4)</m> as in <xref ref="fig-diameter_exercise"/>.
+	Write the equation for this circle in standard form.
+      </p>
+      <figure xml:id="fig-diameter_exercise">
+	<caption>A circle with <m>(2,2)</m> and <m>(4,4)</m> the endpoints of a diameter.</caption>
+	<image xml:id="img-diameter_exercise" width="50%">
+	  <latex-image>
+	    <xi:include parse="text" href="./tex/diameter_exercise.tex"/>
+	  </latex-image>
+	</image>
+      </figure>
+    </exercise>
+  </exercises>
 </section>

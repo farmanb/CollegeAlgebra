@@ -17,6 +17,7 @@
 	Write down the equation of the circle of radius <m>\sqrt{2}</m> centered at <m>(-3, 1)</m>.
       </p>
     </exercise>
+    
     <exercise workspace="1in">
       <p>
 	Find the center and radius of the circle
@@ -33,17 +34,19 @@
 	Sketch a graph of the circle.
       </p>
     </exercise>
-    <figure xml:id="fig-diameter_exercise">
+
+    <figure>
       <caption>A circle with <m>(2,2)</m> and <m>(4,4)</m> the endpoints of a diameter.</caption>
-      <image xml:id="img-diameter_exercise" width="50%">
+      <image>
 	<latex-image>
 	  <xi:include parse="text" href="../tex/diameter_exercise.tex"/>
 	</latex-image>
       </image>
     </figure>
+
     <exercise workspace="1in">
       <p>
-	The endpoints of a diameter of a circle are <m>(2,2)</m> and <m>(4,4)</m> as in <xref ref="fig-diameter_exercise"/>.
+	The endpoints of a diameter of a circle are <m>(2,2)</m> and <m>(4,4)</m> as pictured above.
 	Write the equation for this circle in standard form.
       </p>
     </exercise>

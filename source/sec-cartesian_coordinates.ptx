@@ -95,4 +95,30 @@
 
     <xi:include href="worksheets/wksht-cartesian_coordinates.ptx"/>
   </subsection>
+
+  <exercises component="web">
+    <exercise>
+      <statement>
+	<p>Plot the following points in the Cartesian plane.</p>
+	<sidebyside widths="20% 40% 25%" margins="auto" valign="middle">
+	  <p><m>A = (-1,3)</m></p>
+	  <p><m>B = (-2,-1)</m></p>
+	  <p><m>C = (3,5.5)</m></p>
+	</sidebyside>
+	<sidebyside widths="20% 40% 25%" margins="auto" valign="middle">
+	  <p><m>D = (3,-4)</m></p>
+	  <p><m>E = (-8,-2)</m></p>
+	  <p><m>F = (5.5,3)</m></p>
+	</sidebyside>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  For each of the points that you plotted above, indicate the quadrant that contains the point.
+	</p>
+      </statement>
+    </exercise>
+  </exercises>
 </section>

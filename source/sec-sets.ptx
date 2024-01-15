@@ -831,4 +831,57 @@
   </subsection>
 
   <xi:include href="./worksheets/wksht-sets.ptx"/>
+
+  <exercises component="web">
+    <exercise >
+      <statement>
+	<p>
+	  Write the real numbers that are at least as large as 2 and less than 5 in set notation.
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise >
+      <statement>
+	<p>
+	  Write the integers that are at least as large as 2 and less than 5 in set notation.
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise >
+      <statement>
+	<p>
+	  Write <m>[0,\infty) \cap (-\infty, 5)</m> in set notation.
+	  Graph the result on a number line.
+	</p>
+      </statement>
+    </exercise>
+    <exercise >
+      <statement>
+	<p>
+	  Write <m>[0,5) \cap (3, 5)</m> in set notation.
+	  Graph the result on a number line.
+	</p>
+      </statement>
+    </exercise>
+  
+    <exercise >
+      <statement>
+	<p>
+	  Write <m>[0,5) \cup (3, 5)</m> in set notation.
+	  Graph the result on a number line.
+	</p>
+      </statement>
+    </exercise>
+    
+    <exercise >
+      <statement>
+	<p>
+	  Write <m>[0,\infty) \cup (-\infty, 5)</m> in set notation.
+	  Graph the result on a number line.
+	</p>
+      </statement>
+    </exercise>
+  </exercises>
 </section>

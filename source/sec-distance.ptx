@@ -150,4 +150,29 @@
   </subsection>
   
   <xi:include href="worksheets/wksht-distance.ptx"/>
+
+  <exercises component="web">
+    <exercise>
+      <statement>
+	<p>
+	  Plot the points <m>(3,2)</m> and <m>(-2,-10)</m> in the plane.
+	  Find the length of the line segment that connects these two points.
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <p>
+	Find the perimeter of the triangle below.
+      </p>
+      <figure xml:id="fig-perimeter">
+	<caption>The triangle with vertices <m>(1,-1)</m>, <m>(4,-1)</m>, and <m>(1,4)</m></caption>
+	<image width="50%" xml:id="img-perimeter">
+	  <latex-image xml:id="tikz-perimeter">
+	    <xi:include parse="text" href="./tex/perimeter.tex"/>
+	  </latex-image>
+	</image>
+      </figure>
+    </exercise>
+  </exercises>
 </section>
