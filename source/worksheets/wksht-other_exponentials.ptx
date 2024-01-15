@@ -75,8 +75,8 @@
 	</ol>
 	<sbsgroup>
 	  <sidebyside>
-	    <image width="50%" xml:id="img-exp_2_x_minus_2">
-	      <latex-image xml:id="tikz-exp_2_x_minus_2">
+	    <image width="50%">
+	      <latex-image>
 		\begin{tikzpicture}
 		\draw[very thin,color=gray] (-5,0) grid (5,5);
 
@@ -94,8 +94,8 @@
 		\end{tikzpicture}
 	      </latex-image>
 	    </image>
-	    <image width="50%" xml:id="img-3_exp_5_x">
-	      <latex-image xml:id="tikz-3_exp_5_x">
+	    <image width="50%">
+	      <latex-image>
 		\begin{tikzpicture}
 		\draw[very thin,color=gray] (-5,0) grid (5,5);
 
@@ -115,8 +115,8 @@
 	    </image>
 	  </sidebyside>
 	  <sidebyside>
-	    <image width="50%" xml:id="img-exp_2_neg_x">
-	      <latex-image xml:id="tikz-exp_2_neg_x">
+	    <image width="50%">
+	      <latex-image>
 		\begin{tikzpicture}
 		\draw[very thin,color=gray] (-5,0) grid (5,5);
 
@@ -134,8 +134,8 @@
 		\end{tikzpicture}
 	      </latex-image>
 	    </image>
-	    <image width="50%" xml:id="img-exp_4_half_x">
-	      <latex-image xml:id="tikz-exp_4_half_x">
+	    <image width="50%">
+	      <latex-image>
 		\begin{tikzpicture}
 		\draw[very thin,color=gray] (-5,0) grid (5,5);
 
