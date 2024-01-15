@@ -284,4 +284,66 @@
   </subsection>
 
   <xi:include href="worksheets/wksht-log.ptx"/>
+
+  <exercises component="web">
+    <exercise>
+      <statement>
+	<p>
+	  Solve the equation
+	  <me>\exp(2x + 1) = \exp(2)</me>
+	  for <m>x</m>.
+	</p>
+      </statement>
+    </exercise>
+    
+    <exercise>
+      <statement>
+	<p>
+	  Solve the equation 
+	  <me>\exp(-4x) = \exp(4)\exp\left(x^2\right)</me>
+	  for <m>x</m>.
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  Solve the equation
+	  <me>\exp(x^2) = \exp(−2x−1)</me>
+	  for <m>x</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  Solve the equation
+	  <me>\ln(x + 3) + \ln(x − 3) = \ln(16)</me>
+	  for <m>x</m>.
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  Solve the equation
+	  <me>\ln(x - 5) - 2\ln\left(\frac{1}{\sqrt{x}}\right) = \ln(6).</me>
+	  for <m>x</m>.
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  Solve the equation
+	  <me>-\ln\left(\frac{1}{5-x}\right)+2\ln\left(\sqrt{x+1}\right)=\ln\left(4\right)</me>
+	  for <m>x</m>.
+	</p>
+      </statement>
+    </exercise>
+  </exercises>
 </section>
