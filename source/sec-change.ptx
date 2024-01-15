@@ -514,4 +514,68 @@
   </subsection>
 
   <xi:include href="worksheets/wksht-change.ptx"/>
+
+  <exercises>
+    <introduction>
+      <p>
+	Find the average rate of change for the given function over the given interval.
+      </p>
+    </introduction>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>f(x) = 3x + 2</m>; <m>[3,5]</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>g(x) = \frac{1}{x}</m>; <m>\left[\frac{1}{4},\frac{1}{2}\right]</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>h(x) = \sqrt{x}</m>; <m>[4,9]</m>
+	</p>
+      </statement>
+    </exercise>
+    
+    <exercise>
+      <statement>
+	<p>
+	  Use the graph of the function <m>f</m> below to find the intervals of increase, decrease, and local extrema.
+	</p>
+	<figure xml:id="fig-local_extrema">
+	  <caption>The graph of <m>f</m></caption>
+	  <image xml:id="img-local_extrema" width="50%">
+	    <latex-image xml:id="tikz-local_extrama">
+	      \begin{tikzpicture}[scale=0.5]
+	      \draw[very thin,color=gray] (-15,-15) grid (15,15);
+	      
+	      \draw[very thick,->] (-15.2,0) -- (15.2,0) node[right] {$x$};
+	      \draw[very thick,->] (0,-15.2) -- (0,15.2) node[above] {$y$};
+
+	      \begin{scope}
+	      \clip (-15,-15) rectangle (15,15);
+	      \draw [color=blue,thick] plot[smooth,samples=500,domain=-4:4] (\x,{2*(\x)^3 - 3*(\x)^2 - 12*\x + 5});
+	      \end{scope}
+
+	      \node at (-1,12) {$\bullet$};
+	      \node [above left] at (-1,12) {$(-1,12)$};
+
+	      \node at (2,-15) {$\bullet$};
+	      \node [below right] at (2,-15) {$(2,-15)$};
+	      \end{tikzpicture}
+	    </latex-image>
+	  </image>
+	</figure>
+      </statement>
+    </exercise>
+  </exercises>
 </section>

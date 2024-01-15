@@ -216,7 +216,7 @@
 	<example>
 	  <task workspace="2in">
 	    <p>
-		Find the implied domain and the range of the implicit function <m>y = 1/x</m>.
+	      Find the implied domain and the range of the implicit function <m>y = 1/x</m>.
 	    </p>
 	  </task>
 
@@ -489,20 +489,20 @@
       <title/>
       <page>
 	<figure>
-	<image width="50%">
-	  <latex-image>
-	    \begin{tikzpicture}[domain=0:4]
-	    \draw[very thin,color=gray] (0,-2) grid (4,2);
+	  <image width="50%">
+	    <latex-image>
+	      \begin{tikzpicture}[domain=0:4]
+	      \draw[very thin,color=gray] (0,-2) grid (4,2);
 
-	    \draw[very thick,->] (0,0) -- (4.2,0) node[right] {$x$};
-	    \draw[very thick,->] (0,-2) -- (0,2.2) node[above] {$y$};
-	    
-	    \draw [color=blue,thick] plot[smooth,samples=500] (\x,{sqrt(\x)});
-	    \draw [color=blue,thick] plot[smooth,samples=500] (\x,{-sqrt(\x)});
-	    \end{tikzpicture}
-	  </latex-image>
-	</image>
-	<caption>The graph of the equation <m>x = y^2</m>.</caption>
+	      \draw[very thick,->] (0,0) -- (4.2,0) node[right] {$x$};
+	      \draw[very thick,->] (0,-2) -- (0,2.2) node[above] {$y$};
+	      
+	      \draw [color=blue,thick] plot[smooth,samples=500] (\x,{sqrt(\x)});
+	      \draw [color=blue,thick] plot[smooth,samples=500] (\x,{-sqrt(\x)});
+	      \end{tikzpicture}
+	    </latex-image>
+	  </image>
+	  <caption>The graph of the equation <m>x = y^2</m>.</caption>
 	</figure>
 	<example>
 	  <statement>
@@ -516,4 +516,77 @@
   </subsection>
 
   <xi:include href="worksheets/wksht-functions.ptx"/>
+
+  <exercises component="web">
+    <exercise>
+      <introduction>
+	<p>
+	  For each of the following functions, find the implied domain, codomain, and range.
+	</p>
+      </introduction>
+      <task>
+	<p>
+	  <m>f(x) = \sqrt{x}</m>
+	</p>
+      </task>
+      <task>
+	<p>
+	  <m>g(x) = \frac{1}{x}</m>
+	</p>
+      </task>
+      <task>
+	<p>
+	  <m>h(x) = \abs{x}</m>
+	</p>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+	<p>
+	  Evaluate the function at the given value.
+	</p>
+      </introduction>
+      <task>
+	<p>
+	  <m>f(x) = 3x^2 + 2x - 7</m>; <m>x = 2</m>.
+	</p>
+      </task>
+
+      <task>
+	<p>
+	  <m>g(x) = x - \sqrt{x} + \frac{7}{x}</m>; <m>x = 49</m>.
+	</p>
+      </task>
+
+      <task>
+	<p>
+	  <m>h(x) = \abs{x} + 3x - 5</m>; <m>x = -11</m>.
+	</p>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+	<p>
+	  For each of the graphs, find the domain and range.
+	  Use the <xref ref="thm-vertical_line_test" text="title"/> to determine whether <m>y</m> is a function of <m>x</m>.
+	</p>
+      </introduction>
+      <task>
+	<image xml:id="img-vlt_wave">
+	  <latex-image xml:id="tikz-vlt_wave">
+	    <xi:include parse="text" href="./tex/wksht-functions_a.tex"/>
+	  </latex-image>
+	</image>
+      </task>
+      <task>
+	<image xml:id="img-vlt_circle">
+	  <latex-image xml:id="tikz-vlt_circle">
+	    <xi:include parse="text" href="./tex/wksht-functions_b.tex"/>
+	  </latex-image>
+	</image>
+      </task>
+    </exercise>
+  </exercises>
 </section>

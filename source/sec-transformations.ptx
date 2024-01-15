@@ -475,4 +475,44 @@
   </subsection>
 
   <xi:include href="worksheets/wksht-transformations.ptx"/>
+
+  <exercises component="web">
+    
+    <exercise xml:id="ex-transformations_cubic">
+      <statement>
+	<p>
+	  Write down the graph transformations, in order, needed to graph the function <m>y = -3(x + 2)^3 - 1</m> using the graph of <m>y = x^3</m>.
+	  For each transformation, indicate the intermediate function.
+	</p>
+      </statement>
+    </exercise>
+    
+    <exercise>
+      <statement>
+	<p>
+	  Use the graph of <m>y = x^3</m> and your list above to graph <m>y = -3(x + 2)^3 - 1</m>
+	</p>
+      </statement>
+    </exercise>
+    
+    <exercise>
+      <statement>
+	<p>
+	  Write down the graph transformations, in order, needed to graph the function
+	  <me>y = \frac{-2}{x - 3} + 1</me>
+	  using the graph of <m>y = 1/x</m>.
+	  For each transformation, indicate the intermediate function.
+	</p>
+      </statement>
+    </exercise>
+    
+    <exercise>
+      <statement>
+	<p>
+	  Use the graph of <m>y = 1/x</m> and your list above to graph the function
+	  <me>y = \frac{-2}{x - 3} + 1.</me>
+	</p>
+      </statement>
+    </exercise>
+  </exercises>
 </section>

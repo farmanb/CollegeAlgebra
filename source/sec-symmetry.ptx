@@ -492,4 +492,44 @@
   </subsection>
 
   <xi:include href="worksheets/wksht-symmetry.ptx"/>
+
+  <exercises component="web">
+    <introduction>
+      <p>
+	Determine whether the following funtions have <m>y</m>-axis symmetry, origin symmetry, or neither.
+      </p>
+    </introduction>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>f(x) = \abs{x} + 3</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>g(x) = x^5 + x^2</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>h(x) = x^4 + x^2 + 1</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>k(x) = x^5 + x^3 + x</m>
+	</p>
+      </statement>
+    </exercise>
+  </exercises>
 </section>
