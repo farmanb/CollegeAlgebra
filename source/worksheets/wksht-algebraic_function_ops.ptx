@@ -20,4 +20,66 @@
       </li>
     </ul>
   </objectives>
+
+  <introduction>
+    <p>
+      For each of the functions below, find the algebraic combination.
+      Specify the domain, codomain, and range of the combination.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise workspace="3in">
+      <statement>
+	<p>
+	  Find the sum of <m>f(x) = 2x + 5</m> and <m>g(x) = -3x + 2</m>.
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise workspace="3in">
+      <statement>
+	<p>
+	  Find the difference of <m>p(x) = x^2 + 3</m> and <m>q(x) = 2x - 1</m>.
+	</p>
+      </statement>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise workspace="4in">
+      <statement>
+	<p>
+	  Find the product of <m>a(x) = 4x</m> and <m>b(x) = x + 1</m>.
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise workspace="4in">
+      <statement>
+	<p>
+	  Find the ratio of <m>u(x) = 2x^2 + 1</m> and <m>v(x) = x - 3</m>.
+	</p>
+      </statement>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise workspace="4in">
+      <statement>
+	<p>
+	  Find an expression for the function <m>(m - 2n)(x)</m>, where <m>m(x) = 3x^2 + 2</m> and <m>n(x) = 2x + 4</m>.
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise workspace="4in">
+      <statement>
+	<p>
+	  Find an expression for the function <m>st(x) + 4</m>, where <m>s(x) = x^2 - 1</m> and <m>t(x) = 2x + 3</m>.
+	</p>
+      </statement>
+    </exercise>
+  </page>
+  
 </worksheet>
