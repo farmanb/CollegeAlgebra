@@ -58,6 +58,104 @@
     </solution>
   </example>
 
+  <example xml:id="eg-piecewise_invertible" component="web">
+    <statement>
+      <p>
+	Graph the piecewise defined function
+	<me>
+	  f(x) = \begin{cases} 
+	  x + 2 \amp \text{if } x \leq 0 \\
+	  x^2 + 3 \amp \text{if } x > 0
+	  \end{cases}
+	</me>
+      </p>
+    </statement>
+    <solution>
+      <figure xml:id="fig-piecewise_invertible">
+	<caption>The graph of <m>f</m></caption>
+	<image xml:id="img-piecewise_invertible">
+	  <latex-image xml:id="tikz-piecewise_invertible">
+	    \begin{tikzpicture}
+	    \draw[very thin,color=gray] (-5,-5) grid (5,5);
+
+	    \draw[very thick,->] (-5.2,0) -- (5.2,0) node[right] {$x$};
+	    \draw[very thick,->] (0,-5.2) -- (0,5.2) node[above] {$y$};
+
+	    
+	    \begin{scope}[domain=0:5]
+	    \clip (0,-5) rectangle (5,5);
+	    \draw [color=blue,thick] plot[smooth,samples=500] (\x,{\x^2 + 3});
+	    \end{scope}
+
+	    \begin{scope}[domain=-5:0]
+	    \clip((-5,5) rectangle (0,-5);
+	    \draw [color=blue,thick] plot[smooth,samples=500] (\x,{\x+2});
+	    \end{scope}
+
+	    \node [color=blue] at (0,2) {$\bullet$};
+	    \draw [color=blue,thick] (0,3) circle (0.05);
+	    \end{tikzpicture}
+	  </latex-image>
+	</image>
+      </figure>
+    </solution>
+  </example>
+
+  <example component="web">
+    <statement>
+      <p>
+	Find the inverse of the function <m>f</m> in <xref ref="eg-piecewise_invertible"/> and graph it.
+      </p>
+    </statement>
+
+    <solution>
+      <p>
+	Since the functions <m>f_1(x) = x + 2</m> and <m>f_2(x) = 2x - 1</m> are invertible, we simply need to find their inverses and glue them together.
+	<ul>
+	  <li>
+	    <p>The inverse of <m>f_1 \colon (-\infty,0] \to (-\infty,2]</m> is <m>f_1^{-1} \colon (-\infty,2] \to (-\infty,0]</m> defined by <m>f_1^{-1}(x) = x - 2</m>.</p>
+	  </li>
+	  <li>
+	    <p>The inverse of <m>f_2 \colon [0,\infty) \to (3,\infty)</m> is <m>f_2^{-1} \colon (3, \infty) \to [0,\infty)</m> defined by <m>f_2^{-1}(x) = \sqrt{x - 3}</m>.</p>
+	  </li>
+	</ul>
+	Therefore <m>f^{-1} \colon (-\infty,2] \cup (3, \infty) \to \R</m> is defined by the formula
+	<me>f^{-1}(x) = \begin{cases} 
+	x - 2 \amp \text{if } x \leq 2 \\
+	\sqrt{x - 3} \amp \text{if } x > 3
+	\end{cases}
+	</me>
+      </p>
+      <figure xml:id="fig-piecewise_inverse">
+	<caption>The graph of <m>f</m></caption>
+	<image xml:id="img-piecewise_inverse">
+	  <latex-image xml:id="tikz-piecewise_inverse">
+	    \begin{tikzpicture}
+	    \draw[very thin,color=gray] (-5,-5) grid (5,5);
+
+	    \draw[very thick,->] (-5.2,0) -- (5.2,0) node[right] {$x$};
+	    \draw[very thick,->] (0,-5.2) -- (0,5.2) node[above] {$y$};
+
+	    \begin{scope}[domain=-5:2]
+	    \clip (-5,-5) rectangle (2,5);
+	    \draw [color=blue,thick] plot[smooth,samples=500] (\x,{\x-2});
+	    \end{scope}
+
+	    \begin{scope}[domain=3:5]
+	    \clip((3,-5) rectangle (5,5);
+	    \draw [color=blue,thick] plot[smooth,samples=500] (\x,{sqrt(\x - 3)});
+	    \end{scope}
+
+	    \node [color=blue] at (2,0) {$\bullet$};
+	    \draw [color=blue,thick] (3,0) circle (0.05);
+	    \end{tikzpicture}
+	  </latex-image>
+	</image>
+      </figure>
+    </solution>
+  </example>
+
+
   <worksheet component="notes">
     <title/>
     <page>
@@ -71,7 +169,90 @@
 	</statement>
       </example>
     </page>
+
+    <page>
+      <example>
+	<task workspace="4in">
+	  <statement>
+	    <p>
+	      Graph the piecewise defined function
+	      <me>
+		f(x) = \begin{cases} 
+		x + 2 \amp \text{if } x \leq 0 \\
+		x^2 + 3 \amp \text{if } x > 0
+		\end{cases}
+	      </me>
+	    </p>
+	  </statement>
+	</task>
+
+	<task>
+	  <statement>
+	    <p>
+	      Find the inverse of the function <m>f</m> and graph it.
+	    </p>
+	  </statement>
+	</task>
+      </example>
+    </page>
   </worksheet>
 
   <xi:include href="./worksheets/wksht-piecewise.ptx"/>
+
+  <exercises component="web">
+    <exercise>
+      <introduction>
+	<p>
+	  Use the piecewise function
+	  <me>
+	    f(x) = \begin{cases}
+	    -2x - 4 \amp \text{if}\ x \in [-5,-3)\\
+	    x^2 + 3t - 1 \amp \text{if}\ x \in [-3,2]\\
+	    7 \amp \text{if}\ x \in (2,5]
+	    \end{cases}
+	  </me>
+	  to answer the following questions.
+	</p>
+      </introduction>
+      <task workspace="1in">
+	<statement>
+	  <p>
+	    What is the domain of <m>f?</m>
+	  </p>
+	</statement>
+      </task>
+      <task workspace="1in">
+	<statement>
+	  <p>What is the range of <m>f?</m></p>
+	</statement>
+      </task>
+      <task>
+	<statement>
+	  <p>Evaluate the following
+	  <ul cols="2">
+	    <li><m>f(-5) = <fillin/></m></li>
+	    <li><m>f(-3) = <fillin/></m></li>
+	    <li><m>f(2) = <fillin/></m></li>
+	    <li><m>f(5) = <fillin/></m></li>
+	  </ul>
+	  </p>
+	</statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  Graph the function
+	  <me>
+	    f(x) = \begin{cases}
+	    -2x - 4 \amp \text{if}\ x \in [-5,-3)\\
+	    x^2 + 3t - 1 \amp \text{if}\ x \in [-3,2]\\
+	    7 \amp \text{if}\ x \in (2,5]
+	    \end{cases}
+	  </me>
+	</p>
+      </statement>
+    </exercise>
+  </exercises>
 </section>
