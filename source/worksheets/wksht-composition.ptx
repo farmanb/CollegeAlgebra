@@ -7,4 +7,65 @@
       <li><p>Find the implied domain, codomain, and range of a composition.</p></li>
     </ul>
   </objectives>
+
+  <introduction>
+    <p>
+      Compose each pair of functions.
+      Find the implied domain, codomain, and range.
+    </p>
+  </introduction>
+  
+  <page>
+    <exercise workspace="3in">
+      <statement>
+	<p>
+	  <m>f(x) = 2x + 3</m> with <m>g(x) = 3x - 1</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise workspace="3in">
+      <statement>
+	<p>
+	  <m>p(x) = x^2 + 1</m> with <m>q(x) = 2x + 5</m>
+	</p>
+      </statement>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise workspace="4in">
+      <statement>
+	<p>
+	  <m>a(x) = x^3 - 2</m> with <m>b(x) = 3x + 4</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise workspace="4in">
+      <statement>
+	<p>
+	  <m>u(x) = 1/(x + 2)</m> with <m>v(x) = 2x - 3</m>
+	</p>
+      </statement>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise workspace="4in">
+      <statement>
+	<p>
+	  <m>m(x) = \abs{x - 2}</m> with <m>n(x) = 3x - 1</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise workspace="4in">
+      <statement>
+	<p>
+	  <m>s(x) = x^2 - 2</m> with <m>t(x) = 4</m>
+	</p>
+      </statement>
+    </exercise>
+  </page>
 </worksheet>

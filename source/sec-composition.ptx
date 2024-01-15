@@ -194,12 +194,12 @@
     <page>
       <example>
 	<task workspace="4in">
-	<statement>
-	  <p>
-	    Consider the functions <m>f \colon \R \to \R</m> defined by <m>f(x) = x + 2</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x^2 + 3</m>.
-	    Find the composition of <m>g</m> with <m>f</m>.
-	  </p>
-	</statement>
+	  <statement>
+	    <p>
+	      Consider the functions <m>f \colon \R \to \R</m> defined by <m>f(x) = x + 2</m> and <m>g \colon \R \to \R</m> defined by <m>g(x) = x^2 + 3</m>.
+	      Find the composition of <m>g</m> with <m>f</m>.
+	    </p>
+	  </statement>
 	</task>
 
 	<task>
@@ -239,4 +239,61 @@
   </worksheet>
 
   <xi:include href="worksheets/wksht-composition.ptx"/>
+
+  <exercises component="web">
+    <introduction>
+      <p>
+	Compose each pair of functions.
+	Find the implied domain, codomain, and range.
+      </p>
+    </introduction>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>f(x) = 2x + 3</m> with <m>g(x) = 3x - 1</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>p(x) = x^2 + 1</m> with <m>q(x) = 2x + 5</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>a(x) = x^3 - 2</m> with <m>b(x) = 3x + 4</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>u(x) = 1/(x + 2)</m> with <m>v(x) = 2x - 3</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>m(x) = \abs{x - 2}</m> with <m>n(x) = 3x - 1</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>s(x) = x^2 - 2</m> with <m>t(x) = 4</m>
+	</p>
+      </statement>
+    </exercise>
+  </exercises>
 </section>
