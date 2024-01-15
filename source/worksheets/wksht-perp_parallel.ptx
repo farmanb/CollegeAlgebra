@@ -18,36 +18,46 @@
     <exercise>
       <introduction>
 	<p>
-	  Determine whether the given lines are parallel, perpendicular, or neithe.
+	  Determine whether the given lines are parallel, perpendicular, or neither.
 	</p>
       </introduction>
       <task workspace="2in">
-	<p>
-	  <m>2x+3y = 5</m> and <m>2y-3x - 1 = 0</m>.
-	</p>
+	<statement>
+	  <p>
+	    <m>2x+3y = 5</m> and <m>2y-3x - 1 = 0</m>.
+	  </p>
+	</statement>
       </task>
       <task workspace="2in">
-	<p>
-	  <m>5x + 7y = 11</m> and <m>2x + 13y = 23</m>.
-	</p>
+	<statement>
+	  <p>
+	    <m>5x + 7y = 11</m> and <m>2x + 13y = 23</m>.
+	  </p>
+	</statement>
       </task>
       <task workspace="2in">
-	<p>
-	  <m>11x+2y - 3= 0</m> and <m>11x + 2y - 23 = 0</m>.
-	</p>
+	<statement>
+	  <p>
+	    <m>11x+2y - 3= 0</m> and <m>11x + 2y - 23 = 0</m>.
+	  </p>
+	</statement>
       </task>
     </exercise>
   </page>
   <page>
     <exercise workspace="4in">
-      <p>
-	Find the equation of the line parallel to <m>5x + 7y = 11</m> that passes through the point <m>(2,2)</m>.
-      </p>
+      <statement>
+	<p>
+	  Find the equation of the line parallel to <m>5x + 7y = 11</m> that passes through the point <m>(2,2)</m>.
+	</p>
+      </statement>
     </exercise>
     <exercise workspace="4in">
-      <p>
-	Find the equation of the line perpendicular to <m>5x + 7y = 11</m> that passes through the point <m>(2,2)</m>.
-      </p>
+      <statement>
+	<p>
+	  Find the equation of the line perpendicular to <m>5x + 7y = 11</m> that passes through the point <m>(2,2)</m>.
+	</p>
+      </statement>
     </exercise>
   </page>
 </worksheet>
