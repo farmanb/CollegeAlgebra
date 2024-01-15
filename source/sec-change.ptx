@@ -515,7 +515,7 @@
 
   <xi:include href="worksheets/wksht-change.ptx"/>
 
-  <exercises>
+  <exercises component="web">
     <introduction>
       <p>
 	Find the average rate of change for the given function over the given interval.

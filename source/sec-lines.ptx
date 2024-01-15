@@ -206,19 +206,19 @@
 
     <worksheet component="notes">
       <example>
-	<task workspace="4in">
+	<task>
 	  <statement>
 	    <p>
 	      Find the <xref ref="thm-point_slope" text="title"/> using the point <m>(1,2)</m> and the slope <m>3</m>.
 	    </p>
 	  </statement>
 	</task>
-	<task workspace="4in">
-	    <statement>
-	      <p>
-		Find an equation for the line that passes through the points <m>(3,2)</m> and <m>(4,3)</m>.
-	      </p>
-	    </statement>
+	<task>
+	  <statement>
+	    <p>
+	      Find an equation for the line that passes through the points <m>(3,2)</m> and <m>(4,3)</m>.
+	    </p>
+	  </statement>
 	</task>
       </example>
     </worksheet>
@@ -303,4 +303,79 @@
   </subsection>
 
   <xi:include href="worksheets/wksht-lines.ptx"/>
+
+  <exercises component="web">
+    <exercise>
+      <statement>
+	<p>
+	  Find the slope of the line through the points <m>(2,11)</m> and <m>(7,1)</m>.
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  Write the equation of the line through the points <m>(2,11)</m> and <m>(7,1)</m> in Point-Slope Form.
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  Write the equation of the line through the points <m>(2,11)</m> and <m>(7,1)</m> in Slope-Intercept Form.
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  Write the equation of the line through the points <m>(2,11)</m> and <m>(7,1)</m> in Standard Form.
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  Find the slope of the line represented by the equation <m>\frac{1}{2}x - \frac{2}{3}y = 1</m>.
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+	<p>
+	  You and a friend used the same parking garage.
+	  You parked your car for 2 hours and it cost <m>\$12</m>.
+	  Your friend parked her car for 4 hours and it cost <m>\$22</m>.
+	</p>
+      </introduction>
+      <task>
+	<statement>
+	  <p>
+	    Let <m>x</m> represent the number of hours of parking and let <m>y</m> represent the cost.
+	    Assuming the relationship is linear, how much does parking cost per hour?
+	  </p>
+	</statement>
+      </task>
+      <task>
+	<statement>
+	  <p>
+	    Find a linear function that models the cost of parking.
+	  </p>
+	</statement>
+      </task>
+      <task>
+	<statement>
+	  <p>
+	    The garage charges a flat fee to enter the parking garage.
+	    How much is this fee?
+	  </p>
+	</statement>
+      </task>
+    </exercise>
+  </exercises>
 </section>

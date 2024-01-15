@@ -622,4 +622,39 @@
   </subsection>
 
   <xi:include href="worksheets/wksht-quadratic_functions.ptx"/>
+
+  <exercises component="web">
+    <introduction>
+      <p>
+	Place each of the quadratic functions below in vertex form.
+	Use graph transformations to sketch a graph of the function.
+	Label the vertex of the parabola.
+      </p>
+    </introduction>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>f(x) = -8x^2 + 10x + 5</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>g(x) = 3x^2 - 5x - 4</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+          Graph the equation
+          <me>4x^2 - 4x + 4y^2 + 16y = 19.</me>
+	</p>
+      </statement>
+    </exercise>
+  </exercises>
 </section>

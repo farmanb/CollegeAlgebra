@@ -330,4 +330,29 @@
 </subsection>
 
 <xi:include href="worksheets/wksht-roots_quadratics.ptx"/>
+
+<exercises component="web">
+  <introduction>
+    <p>
+      Sketch a graph of each of the quadratic functions below.
+      Label the <m>y</m>-intercept, the vertex, and any <m>x</m>-intercepts.
+    </p>
+  </introduction>
+
+  <exercise>
+    <statement>
+      <p>
+	<m>f(x) = -8x^2 + 10x + 5</m>
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+	<m>g(x) = 3x^2 - 5x - 4</m>
+      </p>
+    </statement>
+  </exercise>
+</exercises>
 </section>
