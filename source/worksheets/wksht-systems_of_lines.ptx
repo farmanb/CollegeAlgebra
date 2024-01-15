@@ -1,5 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<worksheet component="notes">
+<worksheet component="notes" xml:id="wksht-systems_of_lines">
   <title>Worksheet: Systems of Linear Equations in Two Variables</title>
-  
+  <objectives>
+    <li>
+      <p>Solve systems of two linear equations in two variables</p>
+    </li>
+  </objectives>
+
+  <introduction>
+    <p>
+      For each system below, sketch a graph of the lines and determine whether the system is consistent or inconsistent.
+      If the system is consistent, find all solutions.
+      Express the solutions as a set and plot them.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise workspace="3in">
+    <statement>
+      <p>
+	<md>
+	  <mrow>2x + 3y \amp= 8</mrow>
+	  <mrow>4x - y \amp = -5</mrow>
+	</md>
+      </p>
+    </statement>
+    </exercise>
+
+    <exercise workspace="3in">
+      <statement>
+	<p>
+	  <md>
+	    <mrow>3x - 2y \amp = 7</mrow>
+	    <mrow>2x + y \amp = 4</mrow>
+	  </md>
+	</p>
+      </statement>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise workspace="4in">
+      <statement>
+	<p>
+	  <md>
+	    <mrow>2x + y \amp= 5</mrow>
+	    <mrow>4x + 2y \amp= 10</mrow>
+	  </md>
+	</p>
+      </statement>
+    </exercise>
+    
+    <exercise workspace="4in">
+      <statement>
+	<p>
+	  <md>
+	    <mrow>3x − 2y \amp= 7</mrow>
+	    <mrow>6x - 4y \amp = 5</mrow>
+	  </md>
+	</p>
+      </statement>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise workspace="4in">
+      <statement>
+	<p>
+	  <md>
+	    <mrow>-x + 2y \amp= 3</mrow>
+	    <mrow>3x + y \amp= 10</mrow>
+	  </md>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise workspace="4in">
+      <statement>
+	<p>
+	  <md>
+	    <mrow>-3x + 5y \amp= 2</mrow>
+	    <mrow>6x - 10y \amp= 4</mrow>
+	  </md>
+	</p>
+      </statement>
+    </exercise>
+  </page>
 </worksheet>

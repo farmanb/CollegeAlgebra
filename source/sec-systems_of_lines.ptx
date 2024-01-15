@@ -59,7 +59,7 @@
     </p>
 
 
-        <example component="web">
+    <example component="web">
       <statement>
 	<p>
 	  Verify that <m>(1,2)</m> is a solution to the system of two equations in <m>x</m> and <m>y</m>
@@ -170,87 +170,27 @@
   <subsection>
     <title>Dependent Systems</title>
     <p>
-    A slightly stranger way for a linear system in the variables <m>x</m> and <m>y</m> to have a solution is when the lines are the same.
-    In this case, there are infinitely many solutions.
-  </p>
+      A slightly stranger way for a linear system in the variables <m>x</m> and <m>y</m> to have a solution is when the lines are the same.
+      In this case, there are infinitely many solutions.
+    </p>
 
-  <definition>
-    <statement>
-      <p>
-	We say a system of linear equations is <term>dependent</term>
-	<idx>
-	  <h>Linear System</h>
-	  <h>Dependent</h>
-	</idx>
-	if there are infinitely many solutions to the system.
-      </p>
-    </statement>
-  </definition>
-  
-  <example component="web">
-    <statement>
-      <p>
-	Verify geometrically that the system
-	<md>
-	  <mrow>x + 2y \amp= 4</mrow>
-	  <mrow>2x + 4y \amp= 8</mrow>
-	</md>
-	has infinitely many solutions.
-      </p>
-    </statement>
-    <solution>
-      <p>
-	First, convert each of the lines to <xref ref="thm-slope_intercept" text="custom">slope-intercept form</xref>:
-	<md>
-	  <mrow>\amp x + 2y = 4 \amp\amp \text{Subtract}\ x\ \text{from both sides}</mrow>
-	  <mrow>\amp 2y = -x + 4\amp\amp \text{Divide both sides by}\ 2</mrow>
-	  <mrow>\amp y = -\frac{1}{2}x + 2</mrow>
-	</md>
-	and
-	<md>
-	  <mrow>\amp 2x + 4y = 8 \amp\amp \text{Subtract}\ 2x\ \text{from both sides}</mrow>
-	  <mrow>\amp 4y = -2x + 8\amp\amp \text{Divide both sides by}\ 4</mrow>
-	  <mrow>\amp y = -\frac{1}{2}x + 2</mrow>
-	</md>
-	We can see in this form that they are the same line, so they intersect infinitely many times.
-	Moreover, the points of intersection all have the form <m>(x, -1/2x + x).</m>
-      </p>
-      <figure xml:id="fig-intersection_of_lines">
-	<caption>The solutions to the system</caption>
-	<image xml:id="img-intersection_of_lines">
-	  <latex-image xml:id="tikz-intersection_of_lines">
-	    \begin{tikzpicture}
-	    \def\size{5}
-	    
-	    \path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
-
-	    \foreach \i in {1,...,\size} 
-	    \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
-	    (-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
-	    (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
-	    (2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
-	    
-	    \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
-	    \draw [very thick,->] (0,-\size) -- (0,\size+.1) node [anchor=west] {$y$};
-
-	    \begin{scope}[domain=-\size:\size]
-	    \clip (-\size,-\size) rectangle (\size,\size);
-	    \draw [color=blue,thick] plot[smooth,samples=500] (\x,{-\x/2 + 2});
-	    \end{scope}
-
-	    \end{tikzpicture}
-	  </latex-image>
-	</image>
-      </figure>
-    </solution>
-  </example>
-
-  <worksheet component="notes">
-    <title/>
-    <example>
+    <definition>
       <statement>
 	<p>
-	  Verify the system
+	  We say a system of linear equations is <term>dependent</term>
+	  <idx>
+	    <h>Linear System</h>
+	    <h>Dependent</h>
+	  </idx>
+	  if there are infinitely many solutions to the system.
+	</p>
+      </statement>
+    </definition>
+    
+    <example component="web">
+      <statement>
+	<p>
+	  Verify geometrically that the system
 	  <md>
 	    <mrow>x + 2y \amp= 4</mrow>
 	    <mrow>2x + 4y \amp= 8</mrow>
@@ -258,8 +198,68 @@
 	  has infinitely many solutions.
 	</p>
       </statement>
+      <solution>
+	<p>
+	  First, convert each of the lines to <xref ref="thm-slope_intercept" text="custom">slope-intercept form</xref>:
+	  <md>
+	    <mrow>\amp x + 2y = 4 \amp\amp \text{Subtract}\ x\ \text{from both sides}</mrow>
+	    <mrow>\amp 2y = -x + 4\amp\amp \text{Divide both sides by}\ 2</mrow>
+	    <mrow>\amp y = -\frac{1}{2}x + 2</mrow>
+	  </md>
+	  and
+	  <md>
+	    <mrow>\amp 2x + 4y = 8 \amp\amp \text{Subtract}\ 2x\ \text{from both sides}</mrow>
+	    <mrow>\amp 4y = -2x + 8\amp\amp \text{Divide both sides by}\ 4</mrow>
+	    <mrow>\amp y = -\frac{1}{2}x + 2</mrow>
+	  </md>
+	  We can see in this form that they are the same line, so they intersect infinitely many times.
+	  Moreover, the points of intersection all have the form <m>(x, -1/2x + x).</m>
+	</p>
+	<figure xml:id="fig-intersection_of_lines">
+	  <caption>The solutions to the system</caption>
+	  <image xml:id="img-intersection_of_lines">
+	    <latex-image xml:id="tikz-intersection_of_lines">
+	      \begin{tikzpicture}
+	      \def\size{5}
+	      
+	      \path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
+
+	      \foreach \i in {1,...,\size} 
+	      \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
+	      (-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
+	      (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
+	      (2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
+	      
+	      \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
+	      \draw [very thick,->] (0,-\size) -- (0,\size+.1) node [anchor=west] {$y$};
+
+	      \begin{scope}[domain=-\size:\size]
+	      \clip (-\size,-\size) rectangle (\size,\size);
+	      \draw [color=blue,thick] plot[smooth,samples=500] (\x,{-\x/2 + 2});
+	      \end{scope}
+
+	      \end{tikzpicture}
+	    </latex-image>
+	  </image>
+	</figure>
+      </solution>
     </example>
-  </worksheet>
+
+    <worksheet component="notes">
+      <title/>
+      <example>
+	<statement>
+	  <p>
+	    Verify the system
+	    <md>
+	      <mrow>x + 2y \amp= 4</mrow>
+	      <mrow>2x + 4y \amp= 8</mrow>
+	    </md>
+	    has infinitely many solutions.
+	  </p>
+	</statement>
+      </example>
+    </worksheet>
 
   </subsection>
 
@@ -458,4 +458,80 @@
   </subsection>
 
   <xi:include href="worksheets/wksht-systems_of_lines.ptx"/>
+
+  <exercises component="web">
+    <introduction>
+      <p>
+	For each system below, sketch a graph of the lines and determine whether the system is consistent or inconsistent.
+	If the system is consistent, find all solutions.
+	Express the solutions as a set and plot them.
+      </p>
+    </introduction>
+
+    <exercise>
+      <statement>
+	<p>
+	  <md>
+	    <mrow>2x + 3y \amp= 8</mrow>
+	    <mrow>4x - y \amp = -5</mrow>
+	  </md>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <md>
+	    <mrow>3x - 2y \amp = 7</mrow>
+	    <mrow>2x + y \amp = 4</mrow>
+	  </md>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <md>
+	    <mrow>2x + y \amp= 5</mrow>
+	    <mrow>4x + 2y \amp= 10</mrow>
+	  </md>
+	</p>
+      </statement>
+    </exercise>
+    
+    <exercise>
+      <statement>
+	<p>
+	  <md>
+	    <mrow>3x − 2y \amp= 7</mrow>
+	    <mrow>6x - 4y \amp = 5</mrow>
+	  </md>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <md>
+	    <mrow>-x + 2y \amp= 3</mrow>
+	    <mrow>3x + y \amp= 10</mrow>
+	  </md>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <md>
+	    <mrow>-3x + 5y \amp= 2</mrow>
+	    <mrow>6x - 10y \amp= 4</mrow>
+	  </md>
+	</p>
+      </statement>
+    </exercise>
+  </exercises>
 </section>
