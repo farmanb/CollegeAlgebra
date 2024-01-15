@@ -73,19 +73,19 @@
       </p>
       <sbsgroup>
 	<sidebyside>
-	  <image xml:id="img-lin_eq-match_grid_e">
+	  <image>
 	    <latex-image>
 	      <xi:include parse="text" href="../tex/wksht-lin_eq-match_grid_e.tex"/>
 	    </latex-image>
 	  </image> 
 	  
-	  <image xml:id="img-lin_eq-match_grid_a">
+	  <image>
 	    <latex-image>
 	      <xi:include parse="text" href="../tex/wksht-lin_eq-match_grid_a.tex"/>
 	    </latex-image>
 	  </image>
 
-	  <image xml:id="img-lin_eq-match_grid_d">
+	  <image>
 	    <latex-image>
 	      <xi:include parse="text" href="../tex/wksht-lin_eq-match_grid_d.tex"/>
 	    </latex-image>
@@ -93,19 +93,19 @@
 	</sidebyside>
 
 	<sidebyside>
-	  <image xml:id="img-lin_eq-match_grid_f">
+	  <image>
 	    <latex-image>
 	      <xi:include parse="text" href="../tex/wksht-lin_eq-match_grid_f.tex"/>
 	    </latex-image>
 	  </image>
 
-	  <image xml:id="img-lin_eq-match_grid_b">
+	  <image>
 	    <latex-image>
 	      <xi:include parse="text" href="../tex/wksht-lin_eq-match_grid_b.tex"/>
 	    </latex-image>
 	  </image>
 
-	  <image xml:id="img-lin_eq-match_grid_c">
+	  <image>
 	    <latex-image>
 	      <xi:include parse="text" href="../tex/wksht-lin_eq-match_grid_c.tex"/>
 	    </latex-image>

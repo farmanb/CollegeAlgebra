@@ -21,33 +21,43 @@
 
   <page>
     <exercise workspace="1in">
-      <p>
-	Find the slope of the line through the points <m>(2,11)</m> and <m>(7,1)</m>.
-      </p>
+      <statement>
+	<p>
+	  Find the slope of the line through the points <m>(2,11)</m> and <m>(7,1)</m>.
+	</p>
+      </statement>
     </exercise>
     
     <exercise workspace="1in">
-      <p>
-	Write the equation of the line through the points <m>(2,11)</m> and <m>(7,1)</m> in Point-Slope Form.
-      </p>
+      <statement>
+	<p>
+	  Write the equation of the line through the points <m>(2,11)</m> and <m>(7,1)</m> in Point-Slope Form.
+	</p>
+      </statement>
     </exercise>
 
     <exercise workspace="1in">
-      <p>
-	Write the equation of the line through the points <m>(2,11)</m> and <m>(7,1)</m> in Slope-Intercept Form.
-      </p>
+      <statement>
+	<p>
+	  Write the equation of the line through the points <m>(2,11)</m> and <m>(7,1)</m> in Slope-Intercept Form.
+	</p>
+      </statement>
     </exercise>
 
     <exercise workspace="1in">
-      <p>
-	Write the equation of the line through the points <m>(2,11)</m> and <m>(7,1)</m> in Standard Form.
-      </p>
+      <statement>
+	<p>
+	  Write the equation of the line through the points <m>(2,11)</m> and <m>(7,1)</m> in Standard Form.
+	</p>
+      </statement>
     </exercise>
 
     <exercise workspace="1in">
-      <p>
-	Find the slope of the line represented by the equation <m>\frac{1}{2}x - \frac{2}{3}y = 1</m>.
-      </p>
+      <statement>
+	<p>
+	  Find the slope of the line represented by the equation <m>\frac{1}{2}x - \frac{2}{3}y = 1</m>.
+	</p>
+      </statement>
     </exercise>
   </page>
 
@@ -61,21 +71,27 @@
 	</p>
       </introduction>
       <task workspace="1in">
-	<p>
-	  Let <m>x</m> represent the number of hours of parking and let <m>y</m> represent the cost.
-	  Assuming the relationship is linear, how much does parking cost per hour?
-	</p>
+	<statement>
+	  <p>
+	    Let <m>x</m> represent the number of hours of parking and let <m>y</m> represent the cost.
+	    Assuming the relationship is linear, how much does parking cost per hour?
+	  </p>
+	</statement>
       </task>
       <task workspace="1in">
-	<p>
-	  Find a linear function that models the cost of parking.
-	</p>
+	<statement>
+	  <p>
+	    Find a linear function that models the cost of parking.
+	  </p>
+	</statement>
       </task>
       <task workspace="1in">
-	<p>
-	  The garage charges a flat fee to enter the parking garage.
-	  How much is this fee?
-	</p>
+	<statement>
+	  <p>
+	    The garage charges a flat fee to enter the parking garage.
+	    How much is this fee?
+	  </p>
+	</statement>
       </task>
     </exercise>
   </page>
