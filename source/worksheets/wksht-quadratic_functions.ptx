@@ -20,23 +20,29 @@
   </introduction>
   <page>
     <exercise workspace="2in">
-      <p>
-	<m>f(x) = -8x^2 + 10x + 5</m>
-      </p>
+      <statement>
+	<p>
+	  <m>f(x) = -8x^2 + 10x + 5</m>
+	</p>
+      </statement>
     </exercise>
 
     <exercise workspace="2in">
-      <p>
-	<m>g(x) = 3x^2 - 5x - 4</m>
-      </p>
+      <statement>
+	<p>
+	  <m>g(x) = 3x^2 - 5x - 4</m>
+	</p>
+      </statement>
     </exercise>
   </page>
   <page>
     <exercise workspace="2in">
-      <p>
-        Graph the equation
-        <me>4x^2 - 4x + 4y^2 + 16y = 19.</me>
-      </p>
+      <statement>
+	<p>
+          Graph the equation
+          <me>4x^2 - 4x + 4y^2 + 16y = 19.</me>
+	</p>
+      </statement>
     </exercise>
   </page>
   
