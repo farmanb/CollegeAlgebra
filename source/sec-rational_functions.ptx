@@ -535,4 +535,60 @@
   </subsection>
 
   <xi:include href="./worksheets/wksht-rational_functions.ptx"/>
+
+  <exercises component="web">
+    <introduction>
+      <p>
+	Solve the following rational inequalities.
+      </p>
+    </introduction>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>\dfrac{2x - 1}{3} > 5</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>\dfrac{x^2 - 4}{x + 2} \leq 0</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>\dfrac{3x - 2}{x + 1} \lt 4</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>\dfrac{2x + 1}{x - 3} \geq \dfrac{x + 4}{2}</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>\dfrac{x - 1}{x^2 + 3x + 2} \lt 0</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>\dfrac{2x^2 - 5x + 3}{x^2 - x - 6} \geq \dfrac{x + 2}{x^2 - 4}</m>
+	</p>
+      </statement>
+    </exercise>
+  </exercises>
 </section>
