@@ -5,8 +5,97 @@
   <objectives>
     <ul>
       <li>
+	Model natural phenomena using exponential functions.
       </li>
     </ul>
   </objectives>
+
+  <page>
+    <exercise>
+      <statement>
+	<p>
+	  The population of a city is measured once every decade.
+	  A table of census data is given below.
+	  Find a function, <m>P</m>, of <m>t</m> years that models the population.
+	  Use your function to estimate the population in the year 2024.
+	</p>
+	<table>
+	    <title>Census data</title>
+	    <tabular halign="center">
+	      <col width="50%"/>
+	      <col width="50%"/>
+	      <row header="yes">
+		<cell><p>Year</p></cell>
+		<cell><p>Population</p></cell>
+	      </row>
+	      <row>
+		<cell><p><m>1970</m></p></cell>
+		<cell><p><m>4,458</m></p></cell>
+	      </row>
+	      <row>
+		<cell><p><m>1980</m></p></cell>
+		<cell><p><m>8,916</m></p></cell>
+	      </row>
+	      <row>
+		<cell><p><m>1990</m></p></cell>
+		<cell><p><m>17,832</m></p></cell>
+	      </row>
+	      <row>
+		<cell><p><m>2000</m></p></cell>
+		<cell><p><m>35,664</m></p></cell>
+	      </row>
+	      <row>
+		<cell><p><m>2010</m></p></cell>
+		<cell><p><m>71,328</m></p></cell>
+	      </row>
+	      <row>
+		<cell><p><m>2020</m></p></cell>
+		<cell><p><m>142,656</m></p></cell>
+	      </row>
+	    </tabular>
+	  </table>
+      </statement>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise>
+      <statement>
+	<p>
+	  A substance decays by losing half of its mass every 30 years.
+	  Assume the initial sample is <m>10</m> grams.
+	  Find a function <m>M</m> that models the mass of the sample after <m>t</m> years.
+	  How much of the material will remain after <m>73</m> years?
+	  Round your answer to two decimal places. 
+	</p>
+      </statement>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise>
+      <statement>
+	<p>
+	  The number of bacteria in a culture triples every six hours.
+	  Find a function <m>N</m> that models the number of bacteria in the culture after <m>t</m> hours.
+	  How many bacteria will be present in the culture after <m>13</m> hours?
+	</p>
+      </statement>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise>
+      <statement>
+	<p>
+	  The local bank offers an investment account with an annual interest rate of <m>5\%</m> that compounds four times per year.
+	  Assume you invest <m>\$1000</m>.
+	  Find a function <m>A</m> that models the amount of money in the account after <m>t</m> years.
+	  How much money will be in the account after 17 months?
+	</p>
+      </statement>
+    </exercise>
+  </page>
+
   
 </worksheet>
