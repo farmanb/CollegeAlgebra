@@ -77,7 +77,7 @@
     <title>Graphing Linear Functions</title>
     <p>
       Consider a linear function <m>y = mx + b</m> with <m>m \neq 0</m>.
-      Recall that the <xref ref="def-graph" text="title"/> of an equation consists of all points <m>(x,y)</m> that are a <xref ref="def-solution" text="title"/> to the equation.
+      Recall that the <xref ref="def-graph" text="custom">graph of an equation</xref> consists of all points <m>(x,y)</m> that are a <xref ref="def-solution" text="custom">solution to the equation</xref>.
       The graph of a linear equation is always a line.
       We can graph the equation by finding any two points on the line and drawing a line through them.
       In general, the two points that are simplest to find are the two intercepts.
