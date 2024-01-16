@@ -3,6 +3,13 @@
 <section xml:id="sec-perp_parallel" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Parallel and Perpendicular Lines</title>
 
+  <introduction>
+    <p>
+      We have seen that a linear function is determined by a slope and a point.
+      In this section, we extend the dictionary between algebra and geometry using two familiar geometric constructs: parallel and perpendicular lines.
+    </p>
+  </introduction>
+
   <subsection xml:id="subsec-parallel">
     <title>Parallel Lines</title>
     <definition xml:id="def-parallel">
