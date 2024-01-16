@@ -45,7 +45,7 @@
       <p>
 	In the definition of <xref ref="def-slope" text="title"/>, we required that <m>x_1 \neq x_2</m>.
 	While there is a line that passes through two distinct points with the same <m>x</m>-coordinate, that line is a vertical line.
-	Since a vertical line is <em>not</em> a function, the slope of a vertical line undefined.
+	Since a vertical line is <em>not</em> a function, the slope of a vertical line is undefined.
       </p>
     </remark>
     
