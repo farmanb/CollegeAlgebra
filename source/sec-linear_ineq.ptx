@@ -3,6 +3,13 @@
 <section xml:id="sec-linear_ineq" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Linear and Absolute Value Inequalities</title>
 
+  <introduction>
+    <p>
+      We have focused primarily on functions of the form <m>y = mx + b</m> or, more generally, on linear equations of the form <m>ax + by = c</m>.
+      In this section, we consider linear inequalities in two variables.
+    </p>
+  </introduction>
+
   <subsection xml:id="subsec-linear_inequalities">
     <title>Linear Inequalities</title>
     <definition xml:id="def-linear_inequality">

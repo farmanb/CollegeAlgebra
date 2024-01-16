@@ -5,10 +5,10 @@
 
   <introduction xml:id="inequalities-intro">
     <p>
-      We have focused primarily on solving equations of the form
-      <me>f(x) = 0</me>
-      where <m>f</m> is a polynomial function in the variable <m>x</m>.
-      We now turn to <term>polynomial inequalities</term>
+      <!-- We have focused primarily on solving equations of the form -->
+      <!-- <me>f(x) = 0</me> -->
+      <!-- where <m>f</m> is a polynomial function in the variable <m>x</m>. -->
+      Similar to <xref ref="sec-linear_ineq"/>, we now turn to <term>polynomial inequalities</term>,
       <idx>
 	<h>Inequality</h>
 	<h>Polynomial</h>
