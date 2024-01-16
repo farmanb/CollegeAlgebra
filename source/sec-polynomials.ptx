@@ -354,32 +354,41 @@
   <exercises component="web">
     <introduction>
       <p>
-	Use the polynomial <m>f(x) = x^3 - 3x^2 + 2x</m> to answer the following.
+	Use the <xref ref="thm-rational_root" text="title"/> to find all rational roots of the following polynomials.
       </p>
     </introduction>
-
-    <exercise>
-      <statement>
-	<p>
-	  Use the <xref ref="thm-rational_root" text="title"/> to list all possible rational roots of <m>f</m>.
-	</p>
-      </statement>
-    </exercise>
-
-    <exercise>
-      <statement>
-	<p>
-	  Use your list to find all the roots of <m>f</m>.
-	</p>
-      </statement>
-    </exercise>
     
     <exercise>
       <statement>
 	<p>
-	  Use the roots of <m>f</m> to find its factorization.
+	  <m>f(x) = x^3 - 3x^2 - 4x + 8</m>
 	</p>
       </statement>
     </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>g(x) = 2x^4 - 5x^3 - 3x^2 + 6x - 3</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>h(x) = 4x^3 + 2x^2 - 9x - 3</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+	<p>
+	  <m>k(x) = x^2 - 7x + 10</m>
+	</p>
+      </statement>
+    </exercise>
+    
   </exercises>
 </section>

@@ -9,37 +9,45 @@
     </ul>
   </objectives>
 
+  <introduction>
+    <p>
+      Use the <xref ref="thm-rational_root" text="title"/> to find all rational roots of the following polynomials.
+    </p>
+  </introduction>
+
   <page>
-    <exercise>
-      <introduction>
+    <exercise workspace="3in">
+      <statement>
 	<p>
-	  Consider the polynomial <m>f(x) = x^3 - 3x^2 + 2x</m>
+	  <m>f(x) = x^3 - 3x^2 - 4x + 8</m>
 	</p>
-      </introduction>
+      </statement>
+    </exercise>
 
-      <task workspace="1in" xml:id="task-rational_root-1_a">
-	<statement>
-	  <p>
-	    Use the <xref ref="thm-rational_root" text="title"/> to list all possible rational roots of <m>f</m>.
-	  </p>
-	</statement>
-      </task>
+    <exercise workspace="3in">
+      <statement>
+	<p>
+	  <m>g(x) = 2x^4 - 5x^3 - 3x^2 + 6x - 3</m>
+	</p>
+      </statement>
+    </exercise>
+  </page>
 
-      <task workspace="1in" xml:id="task-rational_root-1_b">
-	<statement>
-	  <p>
-	    Use your list to find all the roots of <m>f</m>.
-	  </p>
-	</statement>
-      </task>
-      
-      <task workspace="1in" xml:id="task-rational_root-1_c">
-	<statement>
-	  <p>
-	    Use the roots of <m>f</m> to find its factorization.
-	  </p>
-	</statement>
-      </task>
+  <page>
+    <exercise workspace="4in">
+      <statement>
+	<p>
+	  <m>h(x) = 4x^3 + 2x^2 - 9x - 3</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise workspace="4in">
+      <statement>
+	<p>
+	  <m>k(x) = x^2 - 7x + 10</m>
+	</p>
+      </statement>
     </exercise>
   </page>
 </worksheet>
