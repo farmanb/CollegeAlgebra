@@ -152,14 +152,40 @@
   <xi:include href="worksheets/wksht-distance.ptx"/>
 
   <exercises component="web">
-    <exercise>
-      <statement>
+    <exercisegroup>
+      <title>Distance Between Points</title>
+      <introduction>
 	<p>
-	  Plot the points <m>(3,2)</m> and <m>(-2,-10)</m> in the plane.
-	  Find the length of the line segment that connects these two points.
+	  Plot each pair of points in the plane.
+	  Find the length of the line segment that connects them.
+	</p>
+      </introduction>
+      
+      <exercise>
+	<statement>
+	  <p>
+	    <m>(3,2)</m> and <m>(-2,-10)</m>.
 	</p>
       </statement>
-    </exercise>
+      </exercise>
+
+      <exercise>
+	<statement>
+	  <p>
+	    <m>(1,3)</m> and <m>(4,7)</m>
+	  </p>
+	</statement>
+      </exercise>
+
+      <exercise>
+	<statement>
+	  <p>
+	    <m>(0,0)</m> and <m>(3,4)</m>
+	  </p>
+	</statement>
+      </exercise>
+	      
+    </exercisegroup>
 
     <exercise>
       <p>
