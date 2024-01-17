@@ -7,7 +7,7 @@
     <p>
       In the sciences, knowledge is often derived from experimentation in a process known as <em>inductive reasoning</em>.
       While these methods may provide insight into a problem, inductive reasoning is <alert>not</alert> a valid method of producing mathematical truth.
-      Instead, mathematics produces new knowledge from known truths using logical inference in a process known as <em>deductive reasoning</em>.
+      Instead, mathematicians produce new knowledge from known truths using logical inference in a process known as <em>deductive reasoning</em>.
       In fact, all mathematical knowledge is derived from only <em>nine</em> statements that are assumed to be true <mdash/> called <term>axioms</term>.
       These axioms and the truths derived from them are known as <url href="https://en.wikipedia.org/wiki/Zermelo–Fraenkel_set_theory">Zermelo-Fraenkel Set Theory</url>.
     </p>
@@ -169,7 +169,7 @@
     <title>Subsets and Equality</title>
 
     <p>
-      In order to do work with sets effectively, we need a way to compare sets analogous to how we compare numbers.
+      In order to work with sets effectively, we need a way to compare sets analogous to how we compare numbers.
       The simplest comparison we can make is <em>sameness</em>.
       For numbers, this is important because the same number can have two different representations, such as
       <me>4 = \frac{8}{2} \quad\text{or}\quad 7 = 3 \times 2 + 1.</me>
