@@ -17,25 +17,26 @@
       <ul>
 	<li>
 	  <p>
-	    <m>f(x) \lt 0</m>,
+	    <m>p(x) \lt 0</m>,
 	  </p>
 	</li>
 	<li>
 	  <p>
-	    <m>f(x) \leq 0</m>,
+	    <m>p(x) \leq 0</m>,
 	  </p>
 	</li>
 	<li>
 	  <p>
-	    <m>f(x) > 0</m>, or
+	    <m>p(x) > 0</m>, or
 	  </p>
 	</li>
 	<li>
 	  <p>
-	    <m>f(x) \geq 0.</m>
+	    <m>p(x) \geq 0.</m>
 	  </p>
 	</li>
       </ul>
+      where <m>p \colon \R \to \R</m> is a polynomial punction.
     </p>
   </introduction>
 
@@ -64,22 +65,22 @@
       <ul>
 	<li>
 	  <p>
-	    The solutions to <m>f(x) \lt 0</m> are the <m>x</m>-values where the graph of <m>y = f(x)</m> is below the <m>x</m>-axis
+	    The solutions to <m>p(x) \lt 0</m> are the <m>x</m>-values where the graph of <m>y = p(x)</m> is below the <m>x</m>-axis
 	  </p>
 	</li>
 	<li>
 	  <p>
-	    The solutions to <m>f(x) \leq 0</m> are the <m>x</m>-values where the graph of <m>y = f(x)</m> is on or below the <m>x</m>-axis
+	    The solutions to <m>p(x) \leq 0</m> are the <m>x</m>-values where the graph of <m>y = p(x)</m> is on or below the <m>x</m>-axis
 	  </p>
 	</li>
 	<li>
 	  <p>
-	    The solutions to <m>f(x) > 0</m> are the <m>x</m>-values where the graph of <m>y = f(x)</m> is above the <m>x</m>-axis
+	    The solutions to <m>p(x) > 0</m> are the <m>x</m>-values where the graph of <m>y = p(x)</m> is above the <m>x</m>-axis
 	  </p>
 	</li>
 	<li>
 	  <p>
-	    The solutions to <m>f(x) \geq </m> are the <m>x</m>-values where the graph of <m>y = f(x)</m> is on or above the <m>x</m>-axis
+	    The solutions to <m>p(x) \geq </m> are the <m>x</m>-values where the graph of <m>y = p(x)</m> is on or above the <m>x</m>-axis
 	  </p>
 	</li>
       </ul>
@@ -97,11 +98,11 @@
       <title>Solving Polynomial Inequalities Algebraically</title>
       <statement>
 	<p>
-	  To find the solutions to a polynomial inequality involving the polynomial <m>f(x)</m>
+	  To find the solutions to a polynomial inequality involving the polynomial <m>p(x)</m>
 	  <ol>
 	    <li>
 	      <p>
-		Find the <alert>distinct</alert> real roots of <m>f</m> and write them in order from smallest to largest
+		Find the <alert>distinct</alert> real roots of <m>p</m> and write them in order from smallest to largest
 		<me>r_1 \lt r_2 \lt r_3 \lt \ldots \lt r_n.</me>
 	      </p>
 	    </li>
@@ -113,7 +114,7 @@
 	    </li>
 	    <li>
 	      <p>
-		Evaluate <m>f</m> at each <m>x_i</m>.
+		Evaluate <m>p</m> at each <m>x_i</m>.
 		<ul>
 		  <li>
 		    <p>
@@ -139,7 +140,7 @@
 	    <li>
 	      <p>
 		Write down each interval where the inequality holds.
-		Include the endpoints if the inequality is not strict <mdash/> <ie/> <m>f(x) \geq 0</m> or <m>f(x) \leq 0</m>.
+		Include the endpoints if the inequality is not strict <mdash/> <ie/> <m>p(x) \geq 0</m> or <m>p(x) \leq 0</m>.
 		Otherwise, exclude the endpoints.
 	      </p>
 	    </li>
@@ -157,7 +158,7 @@
       </statement>
       <solution>
 	<p>
-	  The roots of the polynomial <m>f(x) = (x + 4)(x + 2)x(x-2)(x-5)</m> in order are
+	  The roots of the polynomial <m>p(x) = (x + 4)(x + 2)x(x-2)(x-5)</m> in order are
 	  <me>-4 \lt -2 \lt 0 \lt 2 \lt 5.</me>
 	  We choose the test points <m>-5</m>, <m>-3</m>, <m>-1</m>, <m>1</m>, <m>3</m>, and <m>6</m>.
 	</p>
@@ -167,7 +168,7 @@
 	      <p>
 		When <m>x = -5</m>,
 		<md>
-		  <mrow>f(-5) \amp= (-5 + 4)(-5 + 2)(-5)(-5 - 2)(-5 - 5)</mrow>
+		  <mrow>p(-5) \amp= (-5 + 4)(-5 + 2)(-5)(-5 - 2)(-5 - 5)</mrow>
 		  <mrow>\amp= (-1)(-3)(-5)(-7)(-10)</mrow>
 		  <mrow>\amp= -(3)(5)(7)(10)</mrow>
 		  <mrow>\amp\lt 0.</mrow>
@@ -179,7 +180,7 @@
 	      <p>
 		When <m>x = -3</m>, 
 		<md>
-		  <mrow>f(-3) \amp = (-3 + 4)(-3 + 2)(-3)(-3 - 2)(-3 - 5)</mrow>
+		  <mrow>p(-3) \amp = (-3 + 4)(-3 + 2)(-3)(-3 - 2)(-3 - 5)</mrow>
 		  <mrow>\amp= (1)(-1)(-3)(-5)(-8)</mrow>
 		  <mrow>\amp= (3)(5)(8)</mrow>
 		  <mrow>\amp > 0.</mrow>
@@ -191,7 +192,7 @@
 	      <p>
 		When <m>x = -1</m>,
 		<md>
-		  <mrow>f(-1) \amp= (-1 + 4)(-1 + 2)(-1)(-1 - 2)(-1 - 5)</mrow>
+		  <mrow>p(-1) \amp= (-1 + 4)(-1 + 2)(-1)(-1 - 2)(-1 - 5)</mrow>
 		  <mrow>\amp= (3)(1)(-1)(-3)(-6)</mrow>
 		  <mrow>\amp= -(3)(3)(6)</mrow>
 		  <mrow>\amp\lt 0.</mrow>
@@ -203,7 +204,7 @@
 	      <p>
 		When <m>x = 1</m>,
 		<md>
-		  <mrow>f(1) \amp= (1 + 4)(1 + 2)(1)(1 - 2)(1 - 5)</mrow>
+		  <mrow>p(1) \amp= (1 + 4)(1 + 2)(1)(1 - 2)(1 - 5)</mrow>
 		  <mrow>\amp= (5)(3)(1)(-1)(-4)</mrow>
 		  <mrow>\amp= 5(3)(4)</mrow>
 		  <mrow>\amp > 0.</mrow>
@@ -215,7 +216,7 @@
 	      <p>
 		When <m>x = 3</m>,
 		<md>
-		  <mrow>f(3) \amp= (3 + 4)(3 + 2)(3)(3 - 2)(3 - 5)</mrow>
+		  <mrow>p(3) \amp= (3 + 4)(3 + 2)(3)(3 - 2)(3 - 5)</mrow>
 		  <mrow>\amp= (7)(5)(3)(1)(-2)</mrow>
 		  <mrow>\amp= -(7)(5)(3)(1)</mrow>
 		  <mrow>\amp \lt 0.</mrow>
@@ -227,7 +228,7 @@
 	      <p>
 		When <m>x = 6</m>,
 		<md>
-		  <mrow>f(6) \amp= (6 + 4)(6 + 2)(6)(6 - 2)(6 - 5)</mrow>
+		  <mrow>p(6) \amp= (6 + 4)(6 + 2)(6)(6 - 2)(6 - 5)</mrow>
 		  <mrow>\amp= (10)(8)(6)(4)1)</mrow>
 		  <mrow>\amp > 0.</mrow>
 		</md>
@@ -273,13 +274,13 @@
       </statement>
       <solution>
 	<p>
-	  First, we place the inequality into the form <m>f(x) \lt 0</m> 
+	  First, we place the inequality into the form <m>p(x) \lt 0</m> 
 	  <md>
 	    <mrow>\amp x^2 \lt 6 - x \amp\amp \text{Add}\ x - 6\ \text{to both sides}</mrow>
 	    <mrow>\amp x^2 + x - 6 \lt 0 \amp\amp\text{Factor the LHS}</mrow>
 	    <mrow>\amp (x + 3)(x - 2) \lt 0</mrow>
 	  </md>
-	  Since <m>f(x) = x^2 + x - 6</m> is a <xref ref="def-concavity" text="custom">concave up</xref> parabola with roots <m>x = -3</m> and <m>x = 2</m>, we can see the inequality is satisfied for all <m>x \in (-3, 2)</m> from the graph of <m>f(x)</m>
+	  Since <m>p(x) = x^2 + x - 6</m> is a <xref ref="def-concavity" text="custom">concave up</xref> parabola with roots <m>x = -3</m> and <m>x = 2</m>, we can see the inequality is satisfied for all <m>x \in (-3, 2)</m> from the graph of <m>p(x)</m>
 	</p>
 	<figure xml:id="fig-example_polynomial_inequality">
 	  <caption>The graph of <m>y = x^2 + x - 6</m>.</caption>
