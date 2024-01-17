@@ -7,7 +7,7 @@
     <p>
       Graphing arbitrary functions can be a difficult task and the general methods are beyond the scope of basic algebra.
       However, if we know the graph of a function, <m>f</m>, and we can write another function, <m>g</m>, in terms of <m>f</m> in a specific way, then we can use the graph of <m>f(x)</m> to graph <m>g(x)</m> using <em>transformations</em>.
-      In this seciton, we discuss three types of transformations: translation, scaling, and reflection.
+      In this section, we discuss three types of transformations: translation, scaling, and reflection.
     </p>
   </introduction>
 
@@ -22,7 +22,7 @@
 	  We say the function <m>g(x)</m> is a <term>vertical translation</term>
 	  <idx>
 	    <h>Graph</h>
-	    <h>Tranformation</h>
+	    <h>Transformation</h>
 	    <h>Vertical Translation</h>
 	  </idx>
 	  of the function <m>f(x)</m> if <m>g(x) = f(x) \pm c</m>.
@@ -101,7 +101,7 @@
 	  We say the function <m>g(x)</m> is a <term>horizontal translation</term>
 	  <idx>
 	    <h>Graph</h>
-	    <h>Tranformation</h>
+	    <h>Transformation</h>
 	    <h>Translation Horizontal</h>
 	  </idx>
 	  of the function <m>f(x)</m> if <m>g(x) = f(x \pm c)</m>.
@@ -180,7 +180,7 @@
 	  We say the function <m>g(x)</m> is a <term>vertical scaling</term>
 	  <idx>
 	    <h>Graph</h>
-	    <h>Tranformation</h>
+	    <h>Transformation</h>
 	    <h>Vertical Scaling</h>
 	  </idx>
 	  of the function <m>f(x)</m> if <m>g(x) = cf(x)</m> or <m>g = \frac{1}{c}f(x)</m>.
@@ -258,7 +258,7 @@
 	  We say the function <m>g(x)</m> is a <term>reflection</term>
 	  <idx>
 	    <h>Graph</h>
-	    <h>Tranformation</h>
+	    <h>Transformation</h>
 	    <h>Reflection</h>
 	  </idx>
 	  of <m>f(x)</m> if either <m>g(x) = -f(x)</m> or <m>g(x) = f(-x).</m>
@@ -291,7 +291,7 @@
 	<figure xml:id="fig-example_reflection">
 	  <caption>Reflection of <m>y = f(x)</m> across the <m>x</m>-axis and <m>y</m>-axis.</caption>
 	  <image xml:id="img-example_reflection">
-		 <latex-image xml:id="tikz-example_reflection">
+	    <latex-image xml:id="tikz-example_reflection">
 	      <xi:include parse="text" href="tex/transformations/reflections.tex"/>
 	    </latex-image>
 	  </image>
@@ -337,7 +337,7 @@
 	  We say the function <m>g(x)</m> is a <term>horizontal scaling</term>
 	  <idx>
 	    <h>Graph</h>
-	    <h>Tranformation</h>
+	    <h>Transformation</h>
 	    <h>Horizontal Scaling</h>
 	  </idx>
 	  of the function <m>f(x)</m> if <m>g(x) = f(cx)</m> or <m>g(x) = f\left(\frac{1}{c}x\right)</m>.

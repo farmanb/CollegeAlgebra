@@ -313,9 +313,9 @@
 	    </sidebyside>
 	    <sidebyside>
 	      <image width="50%">
-	      <latex-image>
-		<xi:include parse="text" href="tex/5_5_grid.tex"/>
-	      </latex-image>
+		<latex-image>
+		  <xi:include parse="text" href="tex/5_5_grid.tex"/>
+		</latex-image>
 	      </image>
 	      <image width="50%">
 		<latex-image>
@@ -578,7 +578,7 @@
 	    </statement>
 	  </task>
 	</example>
-	</page>
+      </page>
     </worksheet>
   </subsection>
 

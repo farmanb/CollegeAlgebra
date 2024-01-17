@@ -360,40 +360,40 @@
 	  Use your function to estimate the population in the year 2024.
 	</p>
 	<table>
-	    <title>Census data</title>
-	    <tabular halign="center">
-	      <col width="50%"/>
-	      <col width="50%"/>
-	      <row header="yes">
-		<cell><p>Year</p></cell>
-		<cell><p>Population</p></cell>
-	      </row>
-	      <row>
-		<cell><p><m>1970</m></p></cell>
-		<cell><p><m>4,458</m></p></cell>
-	      </row>
-	      <row>
-		<cell><p><m>1980</m></p></cell>
-		<cell><p><m>8,916</m></p></cell>
-	      </row>
-	      <row>
-		<cell><p><m>1990</m></p></cell>
-		<cell><p><m>17,832</m></p></cell>
-	      </row>
-	      <row>
-		<cell><p><m>2000</m></p></cell>
-		<cell><p><m>35,664</m></p></cell>
-	      </row>
-	      <row>
-		<cell><p><m>2010</m></p></cell>
-		<cell><p><m>71,328</m></p></cell>
-	      </row>
-	      <row>
-		<cell><p><m>2020</m></p></cell>
-		<cell><p><m>142,656</m></p></cell>
-	      </row>
-	    </tabular>
-	  </table>
+	  <title>Census data</title>
+	  <tabular halign="center">
+	    <col width="50%"/>
+	    <col width="50%"/>
+	    <row header="yes">
+	      <cell><p>Year</p></cell>
+	      <cell><p>Population</p></cell>
+	    </row>
+	    <row>
+	      <cell><p><m>1970</m></p></cell>
+	      <cell><p><m>4,458</m></p></cell>
+	    </row>
+	    <row>
+	      <cell><p><m>1980</m></p></cell>
+	      <cell><p><m>8,916</m></p></cell>
+	    </row>
+	    <row>
+	      <cell><p><m>1990</m></p></cell>
+	      <cell><p><m>17,832</m></p></cell>
+	    </row>
+	    <row>
+	      <cell><p><m>2000</m></p></cell>
+	      <cell><p><m>35,664</m></p></cell>
+	    </row>
+	    <row>
+	      <cell><p><m>2010</m></p></cell>
+	      <cell><p><m>71,328</m></p></cell>
+	    </row>
+	    <row>
+	      <cell><p><m>2020</m></p></cell>
+	      <cell><p><m>142,656</m></p></cell>
+	    </row>
+	  </tabular>
+	</table>
       </statement>
     </exercise>
 

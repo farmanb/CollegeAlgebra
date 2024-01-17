@@ -19,7 +19,7 @@
     <title>Systems of Linear Equations in Three Variables</title>
     <p>
       The same terminology and intuition from linear systems in two variables apply to systems of linear equations in three variables.
-      First, we start with an adaptation of solutions to equations in two varibles to three variables.
+      First, we start with an adaptation of solutions to equations in two variables to three variables.
     </p>
 
     <definition xml:id="def-solution_3d">

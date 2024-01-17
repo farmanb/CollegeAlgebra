@@ -38,7 +38,7 @@
   <example component="web">
     <statement>
       <p>
-	Write the absolute value funtion
+	Write the absolute value function
 	<me>\abs{\cdot} \colon \R \to [0, \infty)</me>
 	as a piecewise defined function.
       </p>
@@ -162,7 +162,7 @@
       <example>
 	<statement>
 	  <p>
-	    Write the absolute value funtion
+	    Write the absolute value function
 	    <me>\abs{\cdot} \colon \R \to [0, \infty)</me>
 	    as a piecewise defined function.
 	  </p>

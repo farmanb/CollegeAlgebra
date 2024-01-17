@@ -281,10 +281,10 @@
 	<example>
 	  <task workspace="4in">
 	    <statement>
-	    <p>
-	      Find the product of <m>f</m> and <m>g</m>.
-	    </p>
-	  </statement>
+	      <p>
+		Find the product of <m>f</m> and <m>g</m>.
+	      </p>
+	    </statement>
 	  </task>
 	  <task workspace="4in">
 	    <statement>

@@ -82,7 +82,7 @@
 	6935 \amp= 30 \times 200 + 935 \amp\amp \text{Substitute the RHS of}\ <xref ref="eq-division_2"/>\ \text{for}\ 935
       </mrow>
       <mrow>
-	\amp = 30 \times 200 + 30 \times 30 + 35 \amp\amp \text{Substitue the RHS of}\ <xref ref="eq-division_3"/>\ \text{for}\ 35
+	\amp = 30 \times 200 + 30 \times 30 + 35 \amp\amp \text{Substitute the RHS of}\ <xref ref="eq-division_3"/>\ \text{for}\ 35
       </mrow>
       <mrow>
 	\amp = 30 \times 200 + 30 \times 30 + 30 \times 1 + 5 \amp\amp \text{Factor}\ 3\ \text{from the first three terms}

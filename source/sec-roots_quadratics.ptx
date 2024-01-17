@@ -183,7 +183,7 @@
 	<task workspace="4in">
 	  <statement>
 	    <p>
-	      Use the roots of the quadratic function to factor <m>f</m> into the product of two linear polyomials.
+	      Use the roots of the quadratic function to factor <m>f</m> into the product of two linear polynomials.
 	    </p>
 	  </statement>
 	</task>
@@ -285,7 +285,7 @@
 
 
 <subsection>
-  <title>Graphing Qudaratics</title>
+  <title>Graphing Quadratics</title>
 
   <p>
     We can simplify the process of graphing a quadratic function by using the tools we have developed in this section.

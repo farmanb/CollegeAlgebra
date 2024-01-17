@@ -12,50 +12,50 @@
   <subsection xml:id="subsec-midpoint_one_dimension">
     <title>Midpoint in One Dimension</title>
     <definition xml:id="def-1_midpoint">
-    <statement>
+      <statement>
+	<p>
+	  The <term>midpoint</term>
+	  <idx>
+	    <h>Midpoint</h>
+	    <h>Number Line</h>
+	  </idx>
+	  between two numbers <m>x</m> and <m>y</m> on the number line is given by the formula
+	  <me>\frac{x + y}{2},</me>
+	  as depicted in <xref ref="fig-1_midpoint"/>.
+	</p>
+      </statement>
+    </definition>
+
+    <figure xml:id="fig-1_midpoint">
+      <caption>Midpoint between two numbers</caption>
+      <image xml:id="img-1_midpoint">
+	<latex-image xml:id="tikz-1_midpoint">
+	  <xi:include parse="text" href="tex/1_midpoint.tex"/>
+	</latex-image>
+      </image>
+    </figure>
+
+    <remark>
       <p>
-	The <term>midpoint</term>
-	<idx>
-	  <h>Midpoint</h>
-	  <h>Number Line</h>
-	</idx>
-	between two numbers <m>x</m> and <m>y</m> on the number line is given by the formula
-	<me>\frac{x + y}{2},</me>
-	as depicted in <xref ref="fig-1_midpoint"/>.
+	The midpoint is so named because it is halfway between the numbers <m>x</m> and <m>y</m>.
+	We can check this using <xref ref="def-1_distance"/>: the distance from <m>x</m> to the midpoint is
+	<md>
+	  <mrow>\abs{x - \frac{x + y}{2}} \amp = \abs{\frac{2x}{2} - \frac{x + y}{2}}</mrow>
+	  <mrow>\amp = \abs{\frac{2x - x - y}{2}}</mrow>
+	  <mrow>\amp = \frac{\abs{x - y}}{2}</mrow>
+	</md>
+	and the distance from the midpoint to <m>y</m> is 
+	<md>
+	  <mrow>\abs{\frac{x + y}{2} - y} \amp = \abs{\frac{x + y}{2} - \frac{2y}{2}}</mrow>
+	  <mrow>\amp = \abs{\frac{x + y - 2y}{2}}</mrow>
+	  <mrow>\amp = \frac{\abs{x - y}}{2}.</mrow>
+	</md>
       </p>
-    </statement>
-  </definition>
-
-  <figure xml:id="fig-1_midpoint">
-    <caption>Midpoint between two numbers</caption>
-    <image xml:id="img-1_midpoint">
-      <latex-image xml:id="tikz-1_midpoint">
-	<xi:include parse="text" href="tex/1_midpoint.tex"/>
-      </latex-image>
-    </image>
-  </figure>
-
-  <remark>
-    <p>
-      The midpoint is so named because it is halfway between the numbers <m>x</m> and <m>y</m>.
-      We can check this using <xref ref="def-1_distance"/>: the distance from <m>x</m> to the midpoint is
-      <md>
-	<mrow>\abs{x - \frac{x + y}{2}} \amp = \abs{\frac{2x}{2} - \frac{x + y}{2}}</mrow>
-	<mrow>\amp = \abs{\frac{2x - x - y}{2}}</mrow>
-	<mrow>\amp = \frac{\abs{x - y}}{2}</mrow>
-      </md>
-      and the distance from the midpoint to <m>y</m> is 
-      <md>
-	<mrow>\abs{\frac{x + y}{2} - y} \amp = \abs{\frac{x + y}{2} - \frac{2y}{2}}</mrow>
-	<mrow>\amp = \abs{\frac{x + y - 2y}{2}}</mrow>
-	<mrow>\amp = \frac{\abs{x - y}}{2}.</mrow>
-      </md>
-    </p>
-  </remark>
+    </remark>
   </subsection>
 
   <subsection>
-    <title>Midpoitn in Two Dimensions</title>
+    <title>Midpoint in Two Dimensions</title>
     <p>
       Similar to the distance formula, we can find the midpoint of a line segment between the points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m> in the Cartesian plane using a triangle.
       We use <xref ref="def-1_midpoint"/> to find the midpoint of the vertical and horizontal sides of the triangle, and use those as the coordinates for the midpoint as depicted in <xref ref="fig-2_midpoint"/>.

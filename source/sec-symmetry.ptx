@@ -12,8 +12,8 @@
   <subsection xml:id="subsec-y_axis_symmetry">
     <title>Symmetry about the <m>y</m>-axis</title>
     <p>
-	The first type of symmetry we are interested in is symmetry about the <m>y</m>-axis in the plane.
-	We begin with the intuitive understanding of this symmetry, and formalize a concrete method for detecting it algebraically.
+      The first type of symmetry we are interested in is symmetry about the <m>y</m>-axis in the plane.
+      We begin with the intuitive understanding of this symmetry, and formalize a concrete method for detecting it algebraically.
     </p>
     
     <definition xml:id="def-y_axis_symmetry">
@@ -496,7 +496,7 @@
   <exercises component="web">
     <introduction>
       <p>
-	Determine whether the following funtions have <m>y</m>-axis symmetry, origin symmetry, or neither.
+	Determine whether the following functions have <m>y</m>-axis symmetry, origin symmetry, or neither.
       </p>
     </introduction>
 
