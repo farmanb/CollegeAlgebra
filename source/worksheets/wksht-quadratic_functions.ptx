@@ -11,39 +11,59 @@
       </li>
     </ul>
   </objectives>
-  <introduction>
-    <p>
-      Place each of the quadratic functions below in vertex form.
-      Use graph transformations to sketch a graph of the function.
-      Label the vertex of the parabola.
-    </p>
-  </introduction>
-  <page>
-    <exercise workspace="2in">
-      <statement>
-	<p>
-	  <m>f(x) = -8x^2 + 10x + 5</m>
-	</p>
-      </statement>
-    </exercise>
 
-    <exercise workspace="2in">
-      <statement>
-	<p>
-	  <m>g(x) = 3x^2 - 5x - 4</m>
-	</p>
-      </statement>
-    </exercise>
-  </page>
   <page>
-    <exercise workspace="2in">
-      <statement>
+    <exercisegroup>
+      <title>Quadratic Functions</title>
+      
+      <introduction>
 	<p>
-          Graph the equation
-          <me>4x^2 - 4x + 4y^2 + 16y = 19.</me>
+	  Place each of the quadratic functions below in vertex form.
+	  Use graph transformations to sketch a graph of the function.
+	  Label the vertex of the parabola.
 	</p>
-      </statement>
-    </exercise>
+      </introduction>
+
+      <exercise workspace="3in">
+	<statement>
+	  <p>
+	    <m>f(x) = -8x^2 + 10x + 5</m>
+	  </p>
+	</statement>
+      </exercise>
+
+      <exercise workspace="3in">
+	<statement>
+	  <p>
+	    <m>g(x) = 3x^2 - 5x - 4</m>
+	  </p>
+	</statement>
+      </exercise>
+    </exercisegroup>
   </page>
-  
+
+  <page>
+    <exercisegroup>
+      <title>Degree 2 Equations in 2 Variables</title>
+      <introduction>
+	<p>Graph the following equations.</p>
+      </introduction>
+
+      <exercise workspace="4in">
+	<statement>
+	  <p>
+	    <m>x^2 - 4x + y^2 + 2y= 4</m>
+	  </p>
+	</statement>
+      </exercise>
+      
+      <exercise workspace="4in">
+	<statement>
+	  <p>
+            <m>4x^2 - 4x + 4y^2 + 16y = 19.</m>
+	  </p>
+	</statement>
+      </exercise>
+    </exercisegroup>
+  </page>
 </worksheet>
