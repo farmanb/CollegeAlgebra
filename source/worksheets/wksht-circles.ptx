@@ -37,7 +37,7 @@
 
     <figure>
       <caption>A circle with <m>(2,2)</m> and <m>(4,4)</m> the endpoints of a diameter.</caption>
-      <image>
+      <image width="50%">
 	<latex-image>
 	  <xi:include parse="text" href="../tex/diameter_exercise.tex"/>
 	</latex-image>
