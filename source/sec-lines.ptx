@@ -117,12 +117,16 @@
       <title/>
       <example>
 	<task workspace="4in">
-	  <p>Find the slope of the line through the points <m>(3,5)</m> and <m>(6,2)</m>.</p>
+	  <statement>
+	    <p>Find the slope of the line through the points <m>(3,5)</m> and <m>(6,2)</m>.</p>
+	  </statement>
 	</task>
 	<task workspace="4in">
-	  <p>
-	    Find the equation of the line through the points <m>(3,5)</m> and <m>(6,2)</m>.
-	  </p>
+	  <statement>
+	    <p>
+	      Find the equation of the line through the points <m>(3,5)</m> and <m>(6,2)</m>.
+	    </p>
+	  </statement>
 	</task>
       </example>
     </worksheet>
@@ -206,14 +210,15 @@
 
     <worksheet component="notes">
       <example>
-	<task>
+	<task workspace="4in">
 	  <statement>
 	    <p>
 	      Find the <xref ref="thm-point_slope" text="title"/> using the point <m>(1,2)</m> and the slope <m>3</m>.
 	    </p>
 	  </statement>
 	</task>
-	<task>
+	
+	<task workspace="4in">
 	  <statement>
 	    <p>
 	      Find an equation for the line that passes through the points <m>(3,2)</m> and <m>(4,3)</m>.
