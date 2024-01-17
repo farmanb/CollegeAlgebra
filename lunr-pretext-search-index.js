@@ -2473,12 +2473,12 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.8",
   "title": "Roots of Quadratic Functions",
-  "body": " Roots of Quadratic Functions   The Quadratic Formula  In order to accurately graph a quadratic function , it is necessary to identify the -intercepts for the function. A point in the Cartesian plane is an for this function if This reduces the geometric problem of finding the -intercepts of a quadratic to the algebraic problem finding solutions to equations.    An equation of the form is called a quadratic equation   Equation  Quadratic      To find the solutions to the quadratic equation , we use to write and solve this equation for    It is important to note that are real numbers only when is a non-negative number. The number is an important invariant of a quadratic function.   The Discriminant   The discriminant   Function  Quadratic  Discriminant  of the quadratic function is the number     The discriminant provides both algebraic and geometric information about quadratic functions. On the algebraic side, the discriminant tells us how many solutions there are to the quadratic equation .   The Quadratic Formula   The quadratic equation has either two, one, or zero real solutions, depending on , .   If , then the two solutions are    If , then the only solution is   If , then there are no real solutions.      If we pair with , then we have an algorithmic way to factor any quadratic function.    The quadratic function factors as where is the .                                Factor the quadratic .    The discriminant is so the roots are By , the factorization is We can check our answer by using FOIL to see     On the geometric side, the discriminant tells us how many -intercepts the graph of has.   The -intercepts of a Quadratic Function   The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.        Find the -intercepts of the function .    Since the discriminant is this function does not have any -intercepts.      Find the -intercepts of the function .    The discriminant of this quadratic is The solutions to the equation are given by the formula This tells us that one intercept occurs when and the other occurs when Therefore the -intercepts are       Graphing Qudaratics  We can simplify the process of graphing a quadratic function by using the tools we have developed in this section.   Graphing a Quadratic Function      Use the to find the vertex, , of the parabola. Plot the vertex in the plane.    Factor or use the to find the -intercept(s). If there are -intercepts, plot them in the plane.    Plot the -intercept, , in the plane.    Draw a parabola through the points in Steps (1) through (3).  The parabola will open upwards if .  The parabola will open downwards if .            Sketch a graph of each of the quadratic functions below. Label the -intercept, the vertex, and any -intercepts.              "
+  "body": " Roots of Quadratic Functions   In order to accurately graph a quadratic function , it is necessary to identify the -intercepts for the function. A point in the Cartesian plane is an for this function if This reduces the geometric problem of finding the -intercepts of a quadratic to the algebraic problem finding solutions to equations.    The Quadratic Formula    An equation of the form is called a quadratic equation   Equation  Quadratic      To find the solutions to the quadratic equation , we use to write and solve this equation for    It is important to note that are real numbers only when is a non-negative number. The number is an important invariant of a quadratic function.   The Discriminant   The discriminant   Function  Quadratic  Discriminant  of the quadratic function is the number     The discriminant provides both algebraic and geometric information about quadratic functions. On the algebraic side, the discriminant tells us how many solutions there are to the quadratic equation .   The Quadratic Formula   The quadratic equation has either two, one, or zero real solutions, depending on , .   If , then the two solutions are    If , then the only solution is   If , then there are no real solutions.      If we pair with , then we have an algorithmic way to factor any quadratic function.    The quadratic function factors as where is the .                                Factor the quadratic .    The discriminant is so the roots are By , the factorization is We can check our answer by using FOIL to see     On the geometric side, the discriminant tells us how many -intercepts the graph of has.   The -intercepts of a Quadratic Function   The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.        Find the -intercepts of the function .    Since the discriminant is this function does not have any -intercepts.      Find the -intercepts of the function .    The discriminant of this quadratic is The solutions to the equation are given by the formula This tells us that one intercept occurs when and the other occurs when Therefore the -intercepts are       Graphing Qudaratics  We can simplify the process of graphing a quadratic function by using the tools we have developed in this section.   Graphing a Quadratic Function      Use the to find the vertex, , of the parabola. Plot the vertex in the plane.    Factor or use the to find the -intercept(s). If there are -intercepts, plot them in the plane.    Plot the -intercept, , in the plane.    Draw a parabola through the points in Steps (1) through (3).  The parabola will open upwards if .  The parabola will open downwards if .            Sketch a graph of each of the quadratic functions below. Label the -intercept, the vertex, and any -intercepts.                                  "
 },
 {
-  "id": "sec-roots_quadratics-2-3",
+  "id": "sec-roots_quadratics-3-2",
   "level": "2",
-  "url": "sec-roots_quadratics.html#sec-roots_quadratics-2-3",
+  "url": "sec-roots_quadratics.html#sec-roots_quadratics-3-2",
   "type": "Definition",
   "number": "3.8.1",
   "title": "",
@@ -2512,65 +2512,101 @@ var ptx_lunr_docs = [
   "body": "  The quadratic function factors as where is the .   "
 },
 {
-  "id": "sec-roots_quadratics-2-11",
+  "id": "sec-roots_quadratics-3-10",
   "level": "2",
-  "url": "sec-roots_quadratics.html#sec-roots_quadratics-2-11",
+  "url": "sec-roots_quadratics.html#sec-roots_quadratics-3-10",
   "type": "Example",
   "number": "3.8.5",
   "title": "",
   "body": "  Factor the quadratic .    The discriminant is so the roots are By , the factorization is We can check our answer by using FOIL to see    "
 },
 {
-  "id": "sec-roots_quadratics-2-13",
+  "id": "sec-roots_quadratics-3-12",
   "level": "2",
-  "url": "sec-roots_quadratics.html#sec-roots_quadratics-2-13",
+  "url": "sec-roots_quadratics.html#sec-roots_quadratics-3-12",
   "type": "Theorem",
   "number": "3.8.6",
   "title": "The <span class=\"process-math\">\\(x\\)<\/span>-intercepts of a Quadratic Function.",
   "body": " The -intercepts of a Quadratic Function   The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.     "
 },
 {
-  "id": "sec-roots_quadratics-2-14",
+  "id": "sec-roots_quadratics-3-13",
   "level": "2",
-  "url": "sec-roots_quadratics.html#sec-roots_quadratics-2-14",
+  "url": "sec-roots_quadratics.html#sec-roots_quadratics-3-13",
   "type": "Example",
   "number": "3.8.7",
   "title": "",
   "body": "  Find the -intercepts of the function .    Since the discriminant is this function does not have any -intercepts.   "
 },
 {
-  "id": "sec-roots_quadratics-2-15",
+  "id": "sec-roots_quadratics-3-14",
   "level": "2",
-  "url": "sec-roots_quadratics.html#sec-roots_quadratics-2-15",
+  "url": "sec-roots_quadratics.html#sec-roots_quadratics-3-14",
   "type": "Example",
   "number": "3.8.8",
   "title": "",
   "body": "  Find the -intercepts of the function .    The discriminant of this quadratic is The solutions to the equation are given by the formula This tells us that one intercept occurs when and the other occurs when Therefore the -intercepts are    "
 },
 {
-  "id": "sec-roots_quadratics-3-3",
+  "id": "sec-roots_quadratics-4-3",
   "level": "2",
-  "url": "sec-roots_quadratics.html#sec-roots_quadratics-3-3",
+  "url": "sec-roots_quadratics.html#sec-roots_quadratics-4-3",
   "type": "Algorithm",
   "number": "3.8.9",
   "title": "Graphing a Quadratic Function.",
   "body": " Graphing a Quadratic Function      Use the to find the vertex, , of the parabola. Plot the vertex in the plane.    Factor or use the to find the -intercept(s). If there are -intercepts, plot them in the plane.    Plot the -intercept, , in the plane.    Draw a parabola through the points in Steps (1) through (3).  The parabola will open upwards if .  The parabola will open downwards if .        "
 },
 {
-  "id": "sec-roots_quadratics-4-2",
+  "id": "sec-roots_quadratics-5-2",
   "level": "2",
-  "url": "sec-roots_quadratics.html#sec-roots_quadratics-4-2",
+  "url": "sec-roots_quadratics.html#sec-roots_quadratics-5-2",
   "type": "Exercise",
   "number": "3.8.3.1",
   "title": "",
   "body": "    "
 },
 {
-  "id": "sec-roots_quadratics-4-3",
+  "id": "sec-roots_quadratics-5-3",
   "level": "2",
-  "url": "sec-roots_quadratics.html#sec-roots_quadratics-4-3",
+  "url": "sec-roots_quadratics.html#sec-roots_quadratics-5-3",
   "type": "Exercise",
   "number": "3.8.3.2",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "sec-roots_quadratics-5-4",
+  "level": "2",
+  "url": "sec-roots_quadratics.html#sec-roots_quadratics-5-4",
+  "type": "Exercise",
+  "number": "3.8.3.3",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "sec-roots_quadratics-5-5",
+  "level": "2",
+  "url": "sec-roots_quadratics.html#sec-roots_quadratics-5-5",
+  "type": "Exercise",
+  "number": "3.8.3.4",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "sec-roots_quadratics-5-6",
+  "level": "2",
+  "url": "sec-roots_quadratics.html#sec-roots_quadratics-5-6",
+  "type": "Exercise",
+  "number": "3.8.3.5",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "sec-roots_quadratics-5-7",
+  "level": "2",
+  "url": "sec-roots_quadratics.html#sec-roots_quadratics-5-7",
+  "type": "Exercise",
+  "number": "3.8.3.6",
   "title": "",
   "body": "    "
 },
