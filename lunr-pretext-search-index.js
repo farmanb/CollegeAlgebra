@@ -619,7 +619,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "The Distance Formula",
-  "body": " The Distance Formula   Within the Cartesian plane, we will often want to determine the distance between two points. In this section, we extend the notion of distance between two points on the number line to the Cartesian plane.    Distance in One Dimension    The distance   Distance  Number Line  between two numbers and on a number line is given by the formula This number measures the length of the segment of the number line between and , as depicted in .     The distance between points on the number line.        Distance in Two Dimensions  Using the Pythagorean Theorem and the distance between two numbers, we can determine the distance between points in the plane.   The Pythagorean Theorem   The right triangle in satisfies the equation    Right triangle with sides of length , , and .        Given two points and , we can introduce a third point to create a triangle, as in .   The triangle formed by adding in the point .      From , we can see the length of the horizontal side is the distance between the points and along the -axis. Similarly, the length of the vertical side is the distance between the points and along the -axis. Using , we have If we square these two side lengths, then By the Pythagorean Theorem, the length of the line segment that connects the points and is    The Distance Formula   The distance   Distance  Cartesian Plane  between the points and in the Cartesian plane is given by This number measures the length of the line segment connecting the two points.      Find the distance between the points and .    By the distance between the points and is        Plot the points and in the plane. Find the length of the line segment that connects these two points.   Find the perimeter of the triangle below.  The triangle with vertices , , and       "
+  "body": " The Distance Formula   Within the Cartesian plane, we will often want to determine the distance between two points. In this section, we extend the notion of distance between two points on the number line to the Cartesian plane.    Distance in One Dimension    The distance   Distance  Number Line  between two numbers and on a number line is given by the formula This number measures the length of the segment of the number line between and , as depicted in .     The distance between points on the number line.        Distance in Two Dimensions  Using the Pythagorean Theorem and the distance between two numbers, we can determine the distance between points in the plane.   The Pythagorean Theorem   The right triangle in satisfies the equation    Right triangle with sides of length , , and .        Given two points and , we can introduce a third point to create a triangle, as in .   The triangle formed by adding in the point .      From , we can see the length of the horizontal side is the distance between the points and along the -axis. Similarly, the length of the vertical side is the distance between the points and along the -axis. Using , we have If we square these two side lengths, then By the Pythagorean Theorem, the length of the line segment that connects the points and is    The Distance Formula   The distance   Distance  Cartesian Plane  between the points and in the Cartesian plane is given by This number measures the length of the line segment connecting the two points.      Find the distance between the points and .    By the distance between the points and is        Distance Between Points   Plot each pair of points in the plane. Find the length of the line segment that connects them.     and .     and      and     Find the perimeter of the triangle below.  The triangle with vertices , , and       "
 },
 {
   "id": "def-1_distance",
@@ -676,20 +676,38 @@ var ptx_lunr_docs = [
   "body": "  Find the distance between the points and .    By the distance between the points and is    "
 },
 {
-  "id": "sec-the_distance_formula-5-1",
+  "id": "sec-the_distance_formula-5-1-3",
   "level": "2",
-  "url": "sec-the_distance_formula.html#sec-the_distance_formula-5-1",
+  "url": "sec-the_distance_formula.html#sec-the_distance_formula-5-1-3",
   "type": "Exercise",
   "number": "1.4.3.1",
   "title": "",
-  "body": " Plot the points and in the plane. Find the length of the line segment that connects these two points.  "
+  "body": "  and .  "
+},
+{
+  "id": "sec-the_distance_formula-5-1-4",
+  "level": "2",
+  "url": "sec-the_distance_formula.html#sec-the_distance_formula-5-1-4",
+  "type": "Exercise",
+  "number": "1.4.3.2",
+  "title": "",
+  "body": "  and   "
+},
+{
+  "id": "sec-the_distance_formula-5-1-5",
+  "level": "2",
+  "url": "sec-the_distance_formula.html#sec-the_distance_formula-5-1-5",
+  "type": "Exercise",
+  "number": "1.4.3.3",
+  "title": "",
+  "body": "  and   "
 },
 {
   "id": "sec-the_distance_formula-5-2",
   "level": "2",
   "url": "sec-the_distance_formula.html#sec-the_distance_formula-5-2",
   "type": "Exercise",
-  "number": "1.4.3.2",
+  "number": "1.4.3.4",
   "title": "",
   "body": "Find the perimeter of the triangle below.  The triangle with vertices , , and     "
 },
@@ -2311,7 +2329,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.7",
   "title": "Quadratic Functions",
-  "body": " Quadratic Functions   In this section, we study polynomial functions of degree 2. These polynomial functions are often called quadratic functions .    Vertex Form   Quadratic Function   A function is quadratic   Function  Quadratic  if it has the form where , , and are numbers, and .    Just as with lines, quadratic functions are easier to understand through visualizations. The simplest quadratic function to understand is . We call the graph of a parabola .  Graph  Parabola  The point is called the vertex .  Graph  Parabola  Vertex    As we have already seen in , the graph of this function is symmetric about the -axis, which is the vertical line through the vertex. While general quadratics are slightly more complicated, we can use the properties of to graph the class of quadratics in the following form.   The Vertex Form of a Quadratic   A quadratic function, , is in vertex form   Function  Quadratic  Vertex Form  if there are numbers and such that     Using the methods of , we can graph quadratics in this form by following the steps below.   Graphing Quadratic Functions in Vertex Form   To graph of the quadratic function    Translate the graph of horizontally by units.   If , then the translation is to the right.    If , then the translation is to the left.       Scale the graph of by .   If , then the graph is stretched.    If , then the graph is compressed.       If , reflect the graph of over the -axis.    Translate the graph of vertically by units.   If , then the translation is down.    If , then the translation is up.            Graph the function .    Following , we perform the following operations on the graph of the function .  Translate the graph of to the left by 1 to obtain the graph of .  Stretch the graph of by a factor of 2 to obtain the graph of .  Reflect the graph of across the -axis to obtain the graph of .  Translate the graph of up by 1 to obtain the graph of .    These operations are shown below.   The transformations used to graph .     Translate the graph of to the left by       Stretch the graph of by a factor of         Reflect the graph of across the -axis       Translate the graph of up by           If we follow the vertex, we can see the first operation moves the point to . Since the point lies on the -axis, the second and third operation do not move the point . The fourth operation moves the point to the point . Since these operations preserve the general shape of the graph, a quadratic function in the form is a parabola with vertex at . Hence the reason for the name vertex form .  Similarly, if we follow the line of symmetry for , then we can see the first operation moves the vertical line to the vertical line . The following three operations do not change the vertical line, so the graph of is symmetric about the vertical line .  Finally, we observe the third operation may change the direction in which the parabola opens.    The graph of a parabola is    concave up   Function  Quadratic  Concave Up  if the parabola opens upwards like .     concave down   Function  Quadratic  Concave Down  if the parabola opens downwards like .       For quadratics in vertex form , we can see that is concave up whenever and concave down whenever .    Completing the Square  Surprisingly, every quadratic function can be placed into vertex form. Paired with the observations above, this tells us the graph of every quadratic function is a parabola. Placing a general quadratic function into vertex form will require the method of completing the square.  Remember that when we multiply two binomials, we must distribute. We can remember how to distribute using the mnemonic FOIL: F irst, O uter, I nner, L ast:   Multiplying binomials using the FOIL method.    If we use this method to multiply a binomial by itself, then we find the useful formula We call a quadratic function of the form a perfect square .  Perfect Square    Given a quadratic equation , we can use the formula to complete the square   Complete the Square  as follows.   Completing the Square   To complete the square with the quadratic function   Factor an from the first two terms to get   Add and subtract inside the parentheses to get   Factor the first three terms inside the parentheses as a perfect square   Distribute the through the sum            The number is the -coordinate of the vertex, and the number is the -coordinate of the vertex.   The Vertex Formula   Let be a quadratic function. The -coordinate of the vertex is and the -coordinate of the vertex is   As an ordered pair, the vertex of the graph of occurs at      Using , the vertex form of the quadratic function is      Find the vertex form of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function       Find the vertex of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function is       Applications to Circles  In we only encountered circles in standard form. However, circles will not always be presented this way. We study how the can help us to identify the equation of a circle, even if it is not presented in standard form.  Consider the equation We can view and as quadratic functions in the variables and , respectively. The first coordinate of the vertex of is and the second coordinate of the vertex as . This allows us to write   Similarly, the first coordinate for the vertex of is the second coordinate of the vertex of is and so   These two observations allow us to rewrite the original equation Therefore the equation represents the circle of radius centered at the point .     Place each of the quadratic functions below in vertex form. Use graph transformations to sketch a graph of the function. Label the vertex of the parabola.              Graph the equation     "
+  "body": " Quadratic Functions   In this section, we study polynomial functions of degree 2. These polynomial functions are often called quadratic functions .    Vertex Form   Quadratic Function   A function is quadratic   Function  Quadratic  if it has the form where , , and are numbers, and .    Just as with lines, quadratic functions are easier to understand through visualizations. The simplest quadratic function to understand is . We call the graph of a parabola .  Graph  Parabola  The point is called the vertex .  Graph  Parabola  Vertex    As we have already seen in , the graph of this function is symmetric about the -axis, which is the vertical line through the vertex. While general quadratics are slightly more complicated, we can use the properties of to graph the class of quadratics in the following form.   The Vertex Form of a Quadratic   A quadratic function, , is in vertex form   Function  Quadratic  Vertex Form  if there are numbers and such that     Using the methods of , we can graph quadratics in this form by following the steps below.   Graphing Quadratic Functions in Vertex Form   To graph of the quadratic function    Translate the graph of horizontally by units.   If , then the translation is to the right.    If , then the translation is to the left.       Scale the graph of by .   If , then the graph is stretched.    If , then the graph is compressed.       If , reflect the graph of over the -axis.    Translate the graph of vertically by units.   If , then the translation is down.    If , then the translation is up.            Graph the function .    Following , we perform the following operations on the graph of the function .  Translate the graph of to the left by 1 to obtain the graph of .  Stretch the graph of by a factor of 2 to obtain the graph of .  Reflect the graph of across the -axis to obtain the graph of .  Translate the graph of up by 1 to obtain the graph of .    These operations are shown below.   The transformations used to graph .     Translate the graph of to the left by       Stretch the graph of by a factor of         Reflect the graph of across the -axis       Translate the graph of up by           If we follow the vertex, we can see the first operation moves the point to . Since the point lies on the -axis, the second and third operation do not move the point . The fourth operation moves the point to the point . Since these operations preserve the general shape of the graph, a quadratic function in the form is a parabola with vertex at . Hence the reason for the name vertex form .  Similarly, if we follow the line of symmetry for , then we can see the first operation moves the vertical line to the vertical line . The following three operations do not change the vertical line, so the graph of is symmetric about the vertical line .  Finally, we observe the third operation may change the direction in which the parabola opens.    The graph of a parabola is    concave up   Function  Quadratic  Concave Up  if the parabola opens upwards like .     concave down   Function  Quadratic  Concave Down  if the parabola opens downwards like .       For quadratics in vertex form , we can see that is concave up whenever and concave down whenever .    Completing the Square  Surprisingly, every quadratic function can be placed into vertex form. Paired with the observations above, this tells us the graph of every quadratic function is a parabola. Placing a general quadratic function into vertex form will require the method of completing the square.  Remember that when we multiply two binomials, we must distribute. We can remember how to distribute using the mnemonic FOIL: F irst, O uter, I nner, L ast:   Multiplying binomials using the FOIL method.    If we use this method to multiply a binomial by itself, then we find the useful formula We call a quadratic function of the form a perfect square .  Perfect Square    Given a quadratic equation , we can use the formula to complete the square   Complete the Square  as follows.   Completing the Square   To complete the square with the quadratic function   Factor an from the first two terms to get   Add and subtract inside the parentheses to get   Factor the first three terms inside the parentheses as a perfect square   Distribute the through the sum            The number is the -coordinate of the vertex, and the number is the -coordinate of the vertex.   The Vertex Formula   Let be a quadratic function. The -coordinate of the vertex is and the -coordinate of the vertex is   As an ordered pair, the vertex of the graph of occurs at      Using , the vertex form of the quadratic function is      Find the vertex form of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function       Find the vertex of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function is       Applications to Circles  In we only encountered circles in standard form. However, circles will not always be presented this way. We study how the can help us to identify the equation of a circle, even if it is not presented in standard form.  Consider the equation We can view and as quadratic functions in the variables and , respectively. The first coordinate of the vertex of is and the second coordinate of the vertex as . This allows us to write   Similarly, the first coordinate for the vertex of is the second coordinate of the vertex of is and so   These two observations allow us to rewrite the original equation Therefore the equation represents the circle of radius centered at the point .     Quadratic Functions   Place each of the quadratic functions below in vertex form. Use graph transformations to sketch a graph of the function. Label the vertex of the parabola.               Degree 2 Equations in 2 Variables   Graph the following equations.               "
 },
 {
   "id": "def-quadratic_function",
@@ -2440,31 +2458,40 @@ var ptx_lunr_docs = [
   "body": "  Find the vertex of the quadratic function .    The -coordinate of the vertex is and the -coordinate of the vertex is Therefore the vertex form of the quadratic function is    "
 },
 {
-  "id": "sec-quadratic_functions-6-2",
+  "id": "sec-quadratic_functions-6-1-3",
   "level": "2",
-  "url": "sec-quadratic_functions.html#sec-quadratic_functions-6-2",
+  "url": "sec-quadratic_functions.html#sec-quadratic_functions-6-1-3",
   "type": "Exercise",
   "number": "3.7.4.1",
   "title": "",
   "body": "    "
 },
 {
-  "id": "sec-quadratic_functions-6-3",
+  "id": "sec-quadratic_functions-6-1-4",
   "level": "2",
-  "url": "sec-quadratic_functions.html#sec-quadratic_functions-6-3",
+  "url": "sec-quadratic_functions.html#sec-quadratic_functions-6-1-4",
   "type": "Exercise",
   "number": "3.7.4.2",
   "title": "",
   "body": "    "
 },
 {
-  "id": "sec-quadratic_functions-6-4",
+  "id": "sec-quadratic_functions-6-2-3",
   "level": "2",
-  "url": "sec-quadratic_functions.html#sec-quadratic_functions-6-4",
+  "url": "sec-quadratic_functions.html#sec-quadratic_functions-6-2-3",
   "type": "Exercise",
   "number": "3.7.4.3",
   "title": "",
-  "body": " Graph the equation   "
+  "body": "    "
+},
+{
+  "id": "sec-quadratic_functions-6-2-4",
+  "level": "2",
+  "url": "sec-quadratic_functions.html#sec-quadratic_functions-6-2-4",
+  "type": "Exercise",
+  "number": "3.7.4.4",
+  "title": "",
+  "body": "    "
 },
 {
   "id": "sec-roots_quadratics",
