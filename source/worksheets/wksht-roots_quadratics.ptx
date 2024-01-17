@@ -14,19 +14,56 @@
       Label the <m>y</m>-intercept, the vertex, and any <m>x</m>-intercepts.
     </p>
   </introduction>
+
   <page>
-    <exercise workspace="2in">
+    <exercise workspace="3in">
       <statement>
 	<p>
-	  <m>f(x) = -8x^2 + 10x + 5</m>
+	  <m>f(x) = x^2 - 5x + 6</m>
 	</p>
       </statement>
     </exercise>
 
-    <exercise workspace="2in">
+    <exercise workspace="3in">
       <statement>
 	<p>
-	  <m>g(x) = 3x^2 - 5x - 4</m>
+	  <m>g(x) = 2x^2 + 4x - 3</m>
+	</p>
+      </statement>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise workspace="4in">
+      <statement>
+	<p>
+	  <m>h(x) = -8x^2 + 10x + 5</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise workspace="4in">
+      <statement>
+	<p>
+	  <m>k(x) = x^2 + x + 1</m>
+	</p>
+      </statement>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise workspace="4in">
+      <statement>
+	<p>
+	  <m>p(x) = x^2 - 3x - 4</m>
+	</p>
+      </statement>
+    </exercise>
+
+    <exercise workspace="4in">
+      <statement>
+	<p>
+	  <m>q(x) = -2x^2 + 6x - 5</m>
 	</p>
       </statement>
     </exercise>

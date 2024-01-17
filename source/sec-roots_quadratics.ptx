@@ -3,15 +3,18 @@
 <section xml:id="sec-roots_quadratics" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Roots of Quadratic Functions</title>
 
-  <subsection>
-    <title>The Quadratic Formula</title>
+  <introduction>
     <p>
       In order to accurately graph a quadratic function <m>y = f(x) = ax^2 + bx + c</m>, it is necessary to identify the <m>x</m>-intercepts for the function.
       A point <m>(x,0)</m> in the Cartesian plane is an <xref ref="def-x_intercept" text="title"/> for this function if
       <me>0 = ax^2 + bx + c.</me>
       This reduces the geometric problem of finding the <m>x</m>-intercepts of a quadratic to the algebraic problem finding solutions to equations.
     </p>
-
+  </introduction>
+  
+  <subsection>
+    <title>The Quadratic Formula</title>
+    
     <definition>
       <statement>
 	<p>
@@ -342,7 +345,7 @@
   <exercise>
     <statement>
       <p>
-	<m>f(x) = -8x^2 + 10x + 5</m>
+	<m>f(x) = x^2 - 5x + 6</m>
       </p>
     </statement>
   </exercise>
@@ -350,7 +353,39 @@
   <exercise>
     <statement>
       <p>
-	<m>g(x) = 3x^2 - 5x - 4</m>
+	<m>g(x) = 2x^2 + 4x - 3</m>
+      </p>
+    </statement>
+  </exercise>
+  
+  <exercise>
+    <statement>
+      <p>
+	<m>h(x) = -8x^2 + 10x + 5</m>
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+	<m>k(x) = x^2 + x + 1</m>
+      </p>
+    </statement>
+  </exercise>
+  
+  <exercise>
+    <statement>
+      <p>
+	<m>p(x) = x^2 - 3x - 4</m>
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise>
+    <statement>
+      <p>
+	<m>q(x) = -2x^2 + 6x - 5</m>
       </p>
     </statement>
   </exercise>
