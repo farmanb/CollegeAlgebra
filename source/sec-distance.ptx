@@ -16,35 +16,139 @@
     <definition xml:id="def-1_distance">
       <statement>
 	<p>
+	  Assume <m>x</m> and <m>y</m> are any two numbers.
 	  The <term>distance</term>
 	  <idx>
 	    <h>Distance</h>
 	    <h>Number Line</h>
 	  </idx>
-	  between two numbers <m>x</m> and <m>y</m> on a number line is given by the formula
-	  <me>\abs{x - y} = \sqrt{(x - y)^2}.</me>
-	  This number measures the length of the segment of the number line between <m>x</m> and <m>y</m>, as depicted in <xref ref="fig-1_distance"/>.
+	  from <m>x</m> to <m>y</m> on the number line is given by the formula
+	  <me>\abs{x - y} = \sqrt{(x - y)^2}</me>
 	</p>
       </statement>
     </definition>
 
+    <p>
+      The number <m>\abs{x - y}</m> measures the length of the segment of the number line starting at <m>x</m> and ending at <m>y</m>.
+    </p>
+    
     <figure xml:id="fig-1_distance">
-      <caption>The distance between points on the number line.</caption>
+      <caption>The distance from <m>x</m> to <m>y</m> on the number line.</caption>
       <image xml:id="img-1_distance">
 	<latex-image xml:id="tikz-1_distance">
 	  <xi:include parse="text" href="tex/1_distance.tex"/>
 	</latex-image>
       </image>
     </figure>
+
+    <p>
+      Of course, we could also ask about the length of the segment of the number line starting at <m>y</m> and ending at <m>x</m>.
+      <xref ref="fig-1_distance"/> suggests that these two numbers should be the same.
+      We can verify this algebraically using <xref ref="def-1_distance"/>: the distance from <m>y</m> to <m>x</m> on the number line is
+      <md>
+	<mrow>\abs{y - x} \amp= \sqrt{(y - x)^2} \amp\amp \text{Factor}\ -1\ \text{from}\ y - x</mrow>
+	<mrow>\amp= \sqrt{\left((-1)(x - y)\right)^2} \amp\amp \text{Expand}</mrow>
+	<mrow>\amp= \sqrt{(-1)(x - y)(-1)(x - y)} \amp\amp \text{Reorder terms}</mrow>
+	<mrow>\amp= \sqrt{(-1)(-1)(x - y)(x - y)} \amp\amp \text{Simplify}</mrow>
+	<mrow>\amp= \sqrt{(x - y)^2}</mrow>
+	<mrow>\amp= \abs{x - y}</mrow>
+      </md>
+      We say the distance is <term>symmetric</term>
+      <idx>
+	<h>Distance</h>
+	<h>Number Line</h>
+	<h>Symmetric</h>
+      </idx>
+      to signify that the distance between <m>x</m> and <m>y</m> whether you start measuring at <m>x</m> and end at <m>y</m>, or if you start measuring at <m>y</m> and end at <m>x</m>.
+    </p>
+
   </subsection>
 
   <subsection xml:id="subsec-distance_in_two_dimensions">
     <title>Distance in Two Dimensions</title>
     
     <p>
-      Using the Pythagorean Theorem and the distance between two numbers, we can determine the distance between points in the plane.
+      Our goal for this section is to measure the distance between two points in the plane using <xref ref="def-1_distance"/>
+      First, we must agree on what that statement should mean.
+      In mathematics, whenever a term might be ambiguous, we remove the ambiguity by defining the term explicitly.
+    </p>
+
+    <definition xml:id="def-2_distance">
+      <statement>
+	<p>
+	  The <term>distance</term>
+	  <idx>
+	    <h>Distance</h>
+	    <h>Cartesian Plane</h>
+	  </idx>
+	  between the points <m>(x_1,y_1)</m> and <m>(x_2,y_2)</m> in the Cartesian plane is the length of the line segment connecting the two points.
+	</p>
+	<figure xml:id="fig-line_segment">
+	  <caption>The line segment of length <m>\ell</m> connecting <m>(x_1,y_1)</m> and <m>(x_2, y_2)</m></caption>
+	  <image xml:id="img-line_segment">
+	    <latex-image xml:id="tikz-line_segment">
+	      \begin{tikzpicture}
+	      \def\xmin{0}
+	      \def\xmax{5}
+	      \def\ymin{0}
+	      \def\ymax{4}
+
+	      \def\a{2.1}
+	      \def\b{2.72}
+	      \def\c{4.8}
+	      \def\d{1}
+	      
+	      \draw [very thick,->] (\xmin,0) -- (\xmax+.1,0) node [anchor=south] {$x$};
+	      \draw [very thick,->] (0,\ymin) -- (0,\ymax+.1) node [anchor=west] {$y$};
+	      
+	      \path [draw, help lines, opacity=.5]  (\xmin,\ymin) grid (\xmax,\ymax);
+	      \draw [very thick] (\a,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$x_1$};
+	      \draw [very thick] (\c,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$x_2$};
+	      \draw [very thick] (2.5pt,\b) -- +(-5pt,0) node [anchor=east, font=\small] {$y_1$};
+	      \draw [very thick] (2.5pt,\d) -- +(-5pt,0) node [anchor=east, font=\small] {$y_2$};
+	      
+	      \coordinate (P) at (\a,\b);
+	      \coordinate (Q) at (\c,\d);
+
+	      \draw [thick,blue] (P) -- (Q);
+	      \draw [decorate,decoration={brace,amplitude=10pt},xshift=-4pt,yshift=0pt] (P) -- (Q) node [midway,above,sloped,yshift=7.2pt,xshift=.2pt] {$\ell$};
+	      
+	      \node at (P) {$\bullet$};
+	      \node at (Q) {$\bullet$};
+	      \node [above] at (P) {$(x_1,y_1)$};
+	      \node [right] at (Q) {$(x_2,y_2)$};
+	      \end{tikzpicture}
+	    </latex-image>
+	  </image>
+	</figure>
+      </statement>
+    </definition>
+    
+    <p>
+      To measure the length of this line, we need a little help from geometry.
+      If our line segment were either horizontal or vertical, then we could use <xref ref="def-1_distance"/> to measure the parallel segment of the <m>x</m>-axis or <m>y</m>-axis, respectively.
+      To take advantage of these observations, we draw one horizontal line and one vertical line to form a right triangle.
     </p>
     
+    <figure xml:id="fig-2_distance">
+      <caption>The triangle formed by adding in the point <m>(x_1, y_2)</m></caption>
+      <image xml:id="img-2_distance">
+	<latex-image xml:id="tikz-2_distance">
+	  <xi:include parse="text" href="tex/2_distance.tex"/>
+	</latex-image>
+      </image>
+    </figure>
+
+    <p>
+      From <xref ref="fig-2_distance"/>, we can see the length of the horizontal side is the distance between the points <m>x_1</m> and <m>x_2</m> along the <m>x</m>-axis.
+      Similarly, the length of the vertical side is the distance between the points <m>y_1</m> and <m>y_2</m> along the <m>y</m>-axis.
+      Using <xref ref="def-1_distance"/>, we have
+      <me>a = \abs{x_1 - x_2} = \sqrt{(x_1 - x_2)^2}
+      \quad\text{and}\quad
+      b = \abs{y_1 - y_2} = \sqrt{(y_1 - y_2)^2}.</me>
+      Since we know two of the three sides, we can use the Pythagorean Theorem to find the third side.
+    </p>
+
     <theorem xml:id="thm-pythagorean">
       <title>The Pythagorean Theorem</title>
       <statement>
@@ -61,55 +165,41 @@
 	</figure>
       </statement>
     </theorem>
-
-    <p>
-      Given two points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m>, we can introduce a third point to create a triangle, as in <xref ref="fig-2_distance"/>.
-    </p>
     
-    <figure xml:id="fig-2_distance">
-      <caption>The triangle formed by adding in the point <m>(x_1, y_2)</m>.</caption>
-      <image xml:id="img-2_distance">
-	<latex-image xml:id="tikz-2_distance">
-	  <xi:include parse="text" href="tex/2_distance.tex"/>
-	</latex-image>
-      </image>
-    </figure>
 
     <p>
-      From <xref ref="fig-2_distance"/>, we can see the length of the horizontal side is the distance between the points <m>x_1</m> and <m>x_2</m> along the <m>x</m>-axis.
-      Similarly, the length of the vertical side is the distance between the points <m>y_1</m> and <m>y_2</m> along the <m>y</m>-axis.
-      Using <xref ref="def-1_distance"/>, we have
-      <me>a = \abs{x_1 - x_2} = \sqrt{(x_1 - x_2)^2}
-      \quad\text{and}\quad
-      b = \abs{y_1 - y_2} = \sqrt{(y_1 - y_2)^2}.</me>
-      If we square these two side lengths, then
+      Square the two side lengths
       <me>
 	a^2 = \sqrt{(x_1 - x_2)^2}^2 = (x_1 - x_2)^2
 	\quad\text{and}\quad
 	b^2 = \sqrt{(y_1 - y_2)^2} = (y_1 - y_2)^2.
       </me>
-      By the Pythagorean Theorem, the length of the line segment that connects the points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m> is
-      <md>
-	<mrow>c \amp= \sqrt{a^2 + b^2}\\</mrow>
-	<mrow>\amp= \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}.</mrow>
-      </md>
+      By the Pythagorean Theorem, the square of the distance between the points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m> satisfies
+      <me>\ell^2 = (x_1 - x_2)^2 + (y_1 - y_2)^2</me>
+      Taking the square root of both sides yields the distance formula in the plane.
     </p>
 
-    <definition xml:id="def-2_distance">
+    <claim xml:id="formula-2_distance">
       <title>The Distance Formula</title>
       <statement>
 	<p>
-	  The <term>distance</term>
-	  <idx>
-	    <h>Distance</h>
-	    <h>Cartesian Plane</h>
-	  </idx>
-	  between the points <m>(x_1,y_1)</m> and <m>(x_2,y_2)</m> in the Cartesian plane is given by
-	  <me>\sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}.</me>
-	  This number measures the length of the line segment connecting the two points.
+	  The distance from the point <m>(x_1,y_1)</m> to the point <m>(x_2,y_2)</m> in the Cartesian plane is given by
+	  <me>\sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}</me>
 	</p>
       </statement>
-    </definition>
+    </claim>
+
+    <remark>
+      <p>
+	Just like the distance between numbers, the distance between two points in the plane is symmetric.
+	We can verify this using <xref ref="formula-2_distance"/>:
+	<md>
+	  <mrow>\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} \amp= \sqrt{\left((-1)(x_1 - x_2)\right)^2 + \left((-1)(y_1 - y_2)\right)^2}</mrow>
+	  <mrow>\amp= \sqrt{(-1)^2(x_1 - x_2)^2 + (-1)^2(y_1 - y_2)^2}</mrow>
+	  <mrow>\amp= \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}</mrow>
+	</md>
+      </p>
+    </remark>
 
     <example xml:id="eg-distance_between_points" component="web">
       <statement>
@@ -119,7 +209,7 @@
       </statement>
       <solution>
 	<p>
-	  By <xref ref="def-2_distance" text="title"/> the distance between the points <m>(3,-2)</m> and <m>(4,7)</m> is
+	  By <xref ref="formula-2_distance" text="title"/> the distance between the points <m>(3,-2)</m> and <m>(4,7)</m> is
 	  <md>
 	    <mrow>\sqrt{(3 - 4)^2 + (-2 - 7)^2} \amp= \sqrt{(-1)^2 + (-9)^2}</mrow>
 	    <mrow>\amp = \sqrt{1 + 81}</mrow>
