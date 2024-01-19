@@ -11,7 +11,7 @@
 	<h>Additive</h>
       </idx>
       because every real number <m>x</m> remains unchanged when <m>0</m> is added to it
-      <me>x + 0 = x \quad\text{and}\quad 0 + x = x.</me>
+      <me>x + 0 = x \quad\text{and}\quad 0 + x = x</me>
     </p>
     <p>
       Similarly, the number <m>1</m> is called the <term>multiplicative identity</term>
@@ -20,7 +20,7 @@
 	<h>Multiplicative</h>
       </idx>
       because every real number <m>x</m> remains unchanged when it is multiplied by <m>1</m>
-      <me>x \times 1 = x \quad\text{and}\quad 1 \times x = x.</me>
+      <me>x \times 1 = x \quad\text{and}\quad 1 \times x = x</me>
     </p>
   </introduction>
 
@@ -38,7 +38,7 @@
 	<p>
 	  Assume <m>A</m> is a set.
 	  The <term>identity function</term> on <m>A</m> is the function <m>\id \colon A \to A</m> defined by
-	  <me>\id_A(x) = x.</me>
+	  <me>\id_A(x) = x</me>
 	</p>
       </statement>
     </definition>
@@ -81,7 +81,7 @@
 	<h>Additive</h>
       </idx>
       is the real number <m>-c</m> that satisfies
-      <me>c + (-c) = 0\quad\text{and}\quad -c + c = 0.</me>
+      <me>c + (-c) = 0\quad\text{and}\quad -c + c = 0</me>
       If we add the number <m>c</m> to another number <m>x</m>, then we obtain the number <m>x + c</m>.
       We can "undo" this operation by performing the operation "add the additive inverse of <m>c</m>" -- which we normally just call "subtract <m>c</m>" -- in the sense that
       <men xml:id="eq-g_of_f">(x + c) + (-c) = x + (c - c) = x + 0 = x.</men>
@@ -89,21 +89,21 @@
       <men xml:id="eq-f_of_g">(x - c) + c = x + (-c + c) = x + 0 = x.</men>
     </p>
     <p>
-      The operations "add <m>c</m>" and "subtract <m>c</m>" define functions <m>\operatorname{add}_c \colon \R \to \R</m> and <m>\operatorname{add}_{-c} \colon \R \to \R</m> by
-      <me>\operatorname{add}_c(x) = x + c \quad\text{and}\quad \operatorname{add}_{-c}(x) = x - c.</me>
+      The operations "add <m>c</m>" and "subtract <m>c</m>" define functions <m>\add{c} \colon \R \to \R</m> and <m>\sub{c} \colon \R \to \R</m> by
+      <me>\add{c}(x) = x + c \quad\text{and}\quad \sub{c}(x) = x - c</me>
       We can view <xref ref="eq-g_of_f"/> and <xref ref="eq-f_of_g"/> in terms of composition:
     </p>
     <sidebyside>
       <p>
 	<md>
-	  <mrow>\operatorname{add}_{-c} \circ \operatorname{add}_c(x) \amp= \operatorname{add}_{-c}(x + c)</mrow>
+	  <mrow>\sub{c} \circ \add{c}(x) \amp= \sub{c}(x + c)</mrow>
 	  <mrow>\amp= (x + c) - c </mrow>
 	  <mrow>\amp= x</mrow>
 	</md>
       </p>
       <p>
 	<md>
-	  <mrow>\operatorname{add}_c \circ \operatorname{add}_{-c}(x) \amp= \operatorname{add}_c(x - c)</mrow>
+	  <mrow>\add{c} \circ \sub{c}(x) \amp= \add{c}(x - c)</mrow>
 	  <mrow>\amp= (x - c) + c </mrow>
 	  <mrow>\amp= x.</mrow>
 	</md>
@@ -116,31 +116,28 @@
 	<h>Inverse</h>
 	<h>Multiplicative</h>
       </idx>
-      of <m>c</m> is the real number <m>c^{-1} = 1/c</m> that satisfies
-      <me>c \times \frac{1}{c} = 1\quad\text{and}\quad \frac{1}{c} \times c = 1.</me>
-      Multiplication by <m>c</m> and multiplication by <m>c^{-1}</m> define functions <m>\operatorname{mul}_c, \operatorname{mul}_{c^{-1}} \colon \R \to \R</m> by
-      <me>\operatorname{mul}_c(x) = cx \quad\text{and}\quad \operatorname{mul}_{c^{-1}}(x) = \frac{1}{c}x.</me>
+      of <m>c</m> is the real number <m>1/c</m> that satisfies
+      <me>c \times \frac{1}{c} = 1\quad\text{and}\quad \frac{1}{c} \times c = 1</me>
+      Multiplication by <m>c</m> and division by <m>c</m> define functions <m>\mul{c}, \Div{c} \colon \R \to \R</m> by
+      <me>\mul{c}(x) = cx \quad\text{and}\quad \Div{c}(x) = \frac{x}{c}</me>
       Just as with addition, these two functions "undo" one another in the sense that
     </p>
     <sidebyside>
       <p>
 	<md>
-	  <mrow>\operatorname{mul}_c \circ \operatorname{mul}_{c^{-1}}(x) \amp= \operatorname{mul}_c\left(c^{-1}x\right)</mrow><!-- \operatorname{mul}_c\left(\frac{1}{c}x\right)</mrow> -->
-	  <mrow>\amp= c\left(\frac{1}{c}x\right) </mrow>
+	  <mrow>\mul{c} \circ \Div{c}(x) \amp= \mul{c}\left(\frac{x}{c}\right)</mrow><!-- \mul{c}\left(\frac{1}{c}x\right)</mrow> -->
+	  <mrow>\amp= c\left(\frac{x}{c}\right) </mrow>
 	  <mrow>\amp= x</mrow>
 	</md>
       </p>
       <p>
 	<md>
-	  <mrow>\operatorname{mul}_{c^{-1}} \circ \operatorname{mul}_c(x) \amp= \operatorname{mul}_{c^{-1}}(cx)</mrow>
-	  <mrow>\amp= \frac{1}{c}(cx)</mrow>
+	  <mrow>\Div{c} \circ \mul{c}(x) \amp= \Div{c}(cx)</mrow>
+	  <mrow>\amp= \frac{cx}{c}</mrow>
 	  <mrow>\amp= x.</mrow>
 	</md>
       </p>
     </sidebyside>
-    <p>
-      Less formally, one often says "division by <m>c</m>" instead of "multiplication by <m>c^{-1}</m>."
-    </p>
     <p>
       These are two canonical examples of functions that are <em>invertible</em>, and the ideas captured in inverting addition and multiplication motivate the more general definition.
     </p>
@@ -176,7 +173,7 @@
 	It is important to infer the meaning from the context.
 	If the object being discussed is a function, then "inverse" means <em>composition</em> inverse, <alert>not</alert> multiplicative inverse.
 	That is to say,
-	<me>f^{-1}(x) \neq \frac{1}{f(x)} = f(x)^{-1}.</me>
+	<me>f^{-1}(x) \neq \frac{1}{f(x)} = f(x)^{-1}</me>
       </p>
       <p>
 	In order to avoid confusion, we will avoid using the notation <m>f(x)^{-1}</m> and write either <m>1/f(x)</m> or
@@ -199,7 +196,8 @@
     <theorem xml:id="thm-invertible_is_surjective">
       <statement>
 	<p>
-	  If <m>f \colon A \to B</m> is a function with a composition inverse, then the range of <m>f</m> is <m>f(A) = B.</m>
+	  If <m>f \colon A \to B</m> is a function with a composition inverse, then the range of <m>f</m> is
+	  <me>f(A) = \left\{f(x) \;\middle\vert\; x \in A\right\} = B</me>
 	</p>
       </statement>
     </theorem>
@@ -212,23 +210,23 @@
       <statement>
 	<p>
 	  If <m>f \colon A \to B</m> is a function with inverse <m>f^{-1} \colon B \to A</m>, then <m>f^{-1}</m> has a composition inverse and
-	  <me>\left(f^{-1}\right)^{-1} = f.</me>
+	  <me>\left(f^{-1}\right)^{-1} = f</me>
 	</p>
       </statement>
     </theorem>
     
     <example xml:id="example-inverse_of_arithmetics">
       <p>
-	In the language of <xref ref="def-composition_inverse"/>, the functions "add <m>c</m>" and "add <m>-c</m>" (or "subtract <m>c</m>") are a pair of inverse functions
-	<me>\left(\operatorname{add}_{c}\right)^{-1} = \operatorname{add}_{-c}
+	In the language of <xref ref="def-composition_inverse"/>, the functions "add <m>c</m>" and "subtract <m>c</m>" are a pair of inverse functions
+	<me>\left(\add{c}\right)^{-1} = \sub{c}
 	\quad\text{and}\quad
-	\left(\operatorname{add}_{-c}\right)^{-1} = \operatorname{add}_c.</me>
+	\left(\sub{c}\right)^{-1} = \add{c}</me>
       </p>
       <p>
-	Similarly, the functions "multiply by <m>c</m>" and "multiply by <m>c^{-1}</m>" (or "divide by <m>c</m>") are a pair of inverse functions
-	<me>\left(\operatorname{mul}_c\right)^{-1} = \operatorname{mul}_{c^{-1}}
+	Similarly, the functions "multiply by <m>c</m>" and "divide by <m>c</m>" are a pair of inverse functions
+	<me>\left(\mul{c}\right)^{-1} = \Div{c}
 	\quad\text{and}\quad
-	\left(\operatorname{mul}_{c^{-1}}\right)^{-1} = \operatorname{mul}_c.</me>
+	\left(\Div{c}\right)^{-1} = \mul{c}</me>
       </p>
     </example>
 
@@ -245,7 +243,7 @@
 	  </li>
 	</ol>
 	This allows us to decompose <m>f</m> as the function "add <m>b</m>" composed with the function "multiply by <m>m</m>"
-	<me>f(x) = \operatorname{add}_b \circ \operatorname{mul}_m(x).</me>
+	<me>f(x) = \add{b} \circ \mul{m}(x)</me>
       	Since each function is invertible, we can invert <m>f</m> by performing the inverse operations in reverse order, like peeling back the layers of an onion.
       </p>
       <p>
@@ -268,9 +266,9 @@
       <p>
 	In the language of <xref ref="example-inverse_of_arithmetics"/>, the inverse of <m>f</m> is the composition
 	<md>
-	  <mrow>f^{-1}(y) \amp= \left(\operatorname{mul}_m\right)^{-1} \circ \left(\operatorname{add}_{b}\right)^{-1}(y)</mrow>
-	  <mrow>\amp=\operatorname{mul}_{m^{-1}} \circ \operatorname{add}_{-b}(y) </mrow>
-	  <mrow>\amp= \operatorname{mul}_{m^{-1}}(y - b)</mrow>
+	  <mrow>f^{-1}(y) \amp= \left(\mul{m}\right)^{-1} \circ \left(\add{b}\right)^{-1}(y)</mrow>
+	  <mrow>\amp=\Div{m} \circ \sub{b}(y) </mrow>
+	  <mrow>\amp= \Div{m}(y - b)</mrow>
 	  <mrow>\amp=\frac{y - b}{m}</mrow>
 	  <mrow>\amp=\frac{1}{m}y - \frac{b}{m}.</mrow>
 	</md>
@@ -310,7 +308,7 @@
     <!-- 	  <mrow>x \amp = \frac{1}{3}y - \frac{5}{3}.</mrow> -->
     <!-- 	</md> -->
     <!-- 	This tells us the inverse function is -->
-    <!-- 	<me>f^{-1}(y) = \frac{1}{3} y - \frac{5}{3}.</me> -->
+    <!-- 	<me>f^{-1}(y) = \frac{1}{3} y - \frac{5}{3}</me> -->
     <!--   </p> -->
     <!--   <p> -->
     <!-- 	We can verify that these two functions are inverses to one another by computing -->
@@ -337,7 +335,7 @@
 	<p>
 	  Assume <m>f</m> and <m>g</m> are invertible functions.
 	  If the composition is well-defined, then <m>g \circ f</m> is invertible and
-	  <me>\left(g \circ f\right)^{-1} = f^{-1} \circ g^{-1}.</me>
+	  <me>\left(g \circ f\right)^{-1} = f^{-1} \circ g^{-1}</me>
 	</p>
       </statement>
     </claim>
@@ -353,10 +351,10 @@
       </p>
       <p>
 	To see why, we must observe that if an inverse function exists, then by <xref ref="def-composition_inverse"/>, it must have the form <m>f^{-1} \colon [0,\infty) \to \R</m> and for every positive number <m>y</m>, we must assign a single number <m>x = f^{-1}(y)</m> such that
-	<me>x^2 = f(x) = f \circ f^{-1}(y) = y.</me>
+	<me>x^2 = f(x) = f \circ f^{-1}(y) = y</me>
       </p>
       <p>
-	However, there are always <alert>two</alert> such values: a positive number <m>x</m> and its negative <m>-x</m>.
+	However, there are always <alert>two</alert> such values: a positive number, <m>x</m>, and its negative, <m>-x</m>.
 	This means we must <em>choose</em> one of these two values to be <m>f^{-1}(y)</m>.
 	Unfortunately, both decisions fail to produce an inverse for <m>f</m>.
       </p>
@@ -371,7 +369,7 @@
       </p>
       <p>
 	On the other hand, if we decide that <m>-x = f^{-1}(y)</m> is the negative number such that <m>(-x)^2 = x^2 = y</m>, then
-	<me>f^{-1} \circ f(x) = f^{-1}(x^2) = -x \neq x.</me>
+	<me>f^{-1} \circ f(x) = f^{-1}(x^2) = -x \neq x</me>
 	Fortunately, these two problems suggest simple solutions.
       </p>
       <p>
