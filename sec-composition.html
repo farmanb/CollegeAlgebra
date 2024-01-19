@@ -480,8 +480,8 @@ window.MathJax = {
 <div class="para">The composition of <span class="process-math">\(f\)</span> with <span class="process-math">\(g\)</span> is the function <span class="process-math">\(f \circ g \colon \R \to \R\)</span> defined by</div>
 <div class="displaymath process-math" id="example-composition_not_commutative-2-1-4">
 \begin{align*}
-(f \circ g)(x) = f\left(f(x)\right)
-\amp= g\left(x^2 + 3\right)\\
+(f \circ g)(x) = f\left(g(x)\right)
+\amp= f\left(x^2 + 3\right)\\
 \amp= \left(x^2 + 3\right) + 2\\
 \amp= x^2 + 5\\
 \amp\neq x^2 + 4x + 7 = (g \circ f)(x).
@@ -506,7 +506,7 @@ d(x) = \frac{f(x + h) - f(x)}{h}
 d(x) \amp= \frac{(x + h)^2 - x^2}{h} \amp\amp \text{Expand}\\
 \amp= \frac{x^2 + 2xh + h^2 - x^2}{h} \amp\amp \text {Collect like terms}\\
 \amp= \frac{2xh + h^2}{h} \amp\amp \text{Factor}\ h\ \text{from numerator}\\
-\amp= \frac{h(2x + h}{h} \amp\amp \text{Cancel}\\
+\amp= \frac{h(2x + h)}{h} \amp\amp \text{Cancel}\\
 \amp= 2x + h.
 \end{align*}
 </div>
