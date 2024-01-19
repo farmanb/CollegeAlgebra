@@ -206,7 +206,7 @@
 		If <m>D > 0</m>, then there are two <m>x</m>-intercepts,
 		<me>\left(\frac{-b + \sqrt{D}}{2a},0\right)
 		\quad\text{and}\quad
-		\left(\frac{-b - \sqrt{D}}{2a},\right).</me>
+		\left(\frac{-b - \sqrt{D}}{2a},0\right).</me>
 	      </p>
 	    </li>
 	    <li>
