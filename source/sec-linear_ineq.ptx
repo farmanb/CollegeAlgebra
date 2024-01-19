@@ -42,7 +42,7 @@
 	    <h>Linear</h>
 	    <h>Solution</h>
 	  </idx>
-	  to an inequality in the variables <m>x</m> and <m>y</m> is an ordered pair <m>(a,b)</m> that make the equation true when
+	  to an inequality in the variables <m>x</m> and <m>y</m> is an ordered pair <m>(a,b)</m> that make the inequality true when
 	  <ol>
 	    <li>
 	      the first coordinate, <m>a</m>, is substituted into the inequality for <m>x</m>, and
