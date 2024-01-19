@@ -260,13 +260,13 @@
     </definition>
 
     <p>
-      Recall from <xref ref="def-1_distance" />, for any number <m>d</m>,
-      <me>\abs{d} = \abs{d - 0}</me>
+      Let <m>d</m> be any positive real number.
+      Recall from <xref ref="def-1_distance" /> that
+      <me>\abs{d - 0} = \abs{0 - d} = \abs{d} = d</me>
       measures the distance between <m>d</m> and the origin on the number line.
-      We can see from 
-      <me>\abs{-d - 0} = \abs{-d} = \sqrt{(-d)^2} = \sqrt{d^2} = \abs{d} = \abs{d - 0}</me>
-      that <m>d</m> and <m>-d</m> are the same distance from the origin.
+      By looking at the number line, we can see the distance between <m>d</m> and the origin is the same as the distance from <m>-d</m> to the origin.
     </p>
+
     <figure xml:id="fig-abs_val_two_sol">
       <caption>The distance between <m>d</m> and the origin, and between <m>-d</m> and the origin.</caption>
       <image xml:id="img-abs_val_two_sol">
@@ -275,35 +275,45 @@
 	</latex-image>
       </image>
     </figure>
+    
     <p>
-      This observation tells us for an linear absolute value inequality of the form <m>\abs{ax + by + c} \lt d</m>, we are looking for the points <m>(x,y)</m> in the plane such that the number <m>ax + by + c</m> is less than <m>d</m> units away from 0 on the number line.
-      From <xref ref="fig-abs_val_two_sol"/> we can see these are the solutions to <alert>both</alert>
-      <me>-d \lt ax + by + c
-      \quad\text{and}\quad
-      ax + by + c \lt d.
-      </me>
-      If we rewrite these as the linear inequalities 
-      <me>-d - c \lt ax + by
-      \quad\text{and}\quad
-      ax + by \lt -c + d,
-      </me>
-      then we can see the solutions to <m>\abs{ax + by + c} \lt d</m> are the points that are above the line <m>-d - c = ax + by</m> and below the line <m>ax + by = -c + d</m>.
-      Similarly, the solutions to <m>\abs{ax + by + c} \leq d</m> are the points that are either on or between the lines <m>-d - c = ax + by</m> and <m>ax + by = -c + d</m>.
+      We can confirm this algebraically using <xref ref="def-1_distance"/>:
+      <me>\abs{-d - 0} = \abs{-d} = \sqrt{(-d)^2} = \sqrt{d^2} = \abs{d} = \abs{d - 0}</me>
+      Hence for any positive number <m>d</m>, there are precisely two numbers that are <m>d</m> units away from the origin: <m>d</m> and <m>-d</m>.
+      All other numbers are either more than <m>d</m> units away from the origin or less than <m>d</m> units away from the origin.
     </p>
+
     <p>
-      For an linear absolute value inequality of the form <m>\abs{ax + by + c} > d</m>, the observation above tells us we are looking for the points <m>(x,y)</m> in the plane such that the number <m>ax + by + c</m> is more than <m>d</m> units away from 0 on the number line.
-      From <xref ref="fig-abs_val_two_sol"/> we can see these are solutions to <alert>either</alert>
-      <me>ax + by +c \lt -d
-      \quad\text{or}\quad
-      d \lt ax + by + c.
-      </me>
-      If we rewrite these as the liner inequalities
-      <me>ax + by \lt -c - d
-      \quad\text{or}\quad
-      -c + d \lt ax + by,
-      </me>
-      then we can see the solutions to <m>\abs{ax + by + c} \gt d</m> are the points that are below the line <m>ax + by = -c - d</m> or above the line <m>ax + by = -c + d</m>.
-      Similarly, the solutions to the linear absolute value inequality <m>\abs{ax + by + c} \geq d</m> are the points that are either on or below the line <m>ax + by = -c - d</m> or on or above the line <m>ax + by = -c + d</m>.
+      Now consider an equation of the form <m>\abs{ax + by + c} = d</m>.
+      The observation above tells us the solutions to this equation are the points <m>(x,y)</m> in the plane such that the number <m>ax + by + c</m> is <em>exactly</em> <m>d</m> units away from the origin.
+      As the only two numbers that are <m>d</m> units away from the origin are <m>d</m> and <m>-d</m>, either 
+      <me>ax + by + c = d \quad\text{or}\quad ax + by + c = -d</me>
+      In standard form, we can recognize these as two parallel lines
+      <me>ax + by = -c + d \quad\text{and}\quad ax + by = -c - d</me>
+      Geometrically, this tells us the points between these lines make the number <m>ax + by + c</m> <em>less</em> than <m>d</m>, while the points outside these lines make the number <m>ax + by + c</m> <em>more</em> than <m>d</m>.
+      This provides a pleasing geometric description of the solutions to the four types of linear absolute value inequalities:
+      <ul>
+	<li>
+	  <p>
+	    The solutions to <m>\abs{ax + by + c} \lt d</m> are the points that are between the lines <m>ax + by = -d - c </m> and <m>ax + by = -c + d</m>,
+	  </p>
+	</li>
+	<li>
+	  <p>
+	    The solutions to <m>\abs{ax + by + c} \leq d</m> are the points that are either on or between the lines <m>-d - c = ax + by</m> and <m>ax + by = -c + d</m>,
+	  </p>
+	</li>
+	<li>
+	  <p>
+	    The solutions to <m>\abs{ax + by + c} > d</m> are the points that are outside the lines <m>ax + by = -c - d</m> and <m>ax + by = -c + d</m>.
+	  </p>
+	</li>
+	<li>
+	  <p>
+	    The solutions to <m>\abs{ax + by + c} \geq d</m> are the points that are either on or outside the lines <m>ax + by = -c - d</m> and <m>ax + by = -c + d</m>.
+	  </p>
+	</li>
+      </ul>
     </p>
 
     <example component="web">
@@ -314,11 +324,13 @@
       </statement>
       <solution>
 	<p>
-	  The solutions to the inequality <m>\abs{2x + 3y} \lt 5</m> are the points that are solutions to <alert>both</alert> of the linear inequalities
-	  <me>-5 \lt 2x + 3y \quad\text{and}\quad 2x + 3y \lt 5.</me>
+	  The solutions to the inequality <m>\abs{2x + 3y} \lt 5</m> are the points between the lines
+	  <me>2x + 3y = -5 \quad\text{and}\quad 2x + 3y = 5</me>
+	  Since <m>2x + 3y = -5</m> is the lower line and <m>2x + 3y = 5x</m> is the upper line, we can regard these as solutions to <alert>both</alert> of the linear inequalities
+	  <me>-5 \lt 2x + 3y \quad\text{and}\quad 2x + 3y \lt 5</me>
+	  We can condense these as the compound inequality
+	  <me>-5 \lt 2x + 3y \lt 5</me>
 	  This means the graph is the <alert>overlap</alert> between <xref ref="fig-2x_3y_lt_5"/> and <xref ref="fig-2x_3y_gt_-5"/>.
-	  That is, the points that are between the lines
-	  <me>2x + 3y = -5 \quad\text{and}\quad 2x + 3y = 5.</me>
 	</p>
 	<figure xml:id="fig-abs_2x_3y_lt_5">
 	  <caption>The graph of the linear absolute value inequality <m>\abs{2x + 3y} \lt 5</m>.</caption>
@@ -339,11 +351,13 @@
       </statement>
       <solution>
 	<p>
-	  The solutions to the inequality <m>\abs{2x + 3y} \leq 5</m> are the points that are solutions to <alert>both</alert> of the linear inequalities
-	  <me>-5 \leq 2x + 3y \quad\text{and}\quad 2x + 3y \leq 5.</me>
+	  The solutions to the inequality <m>\abs{2x + 3y} \leq 5</m> are the points that are either on or between the lines
+	  <me>2x + 3y = -5 \quad\text{and}\quad 2x + 3y = 5</me>
+	  Since <m>2x + 3y = -5</m> is the lower line and <m>2x + 3y = 5</m> is the upper line, we can regard these as the points that are solutions to <alert>both</alert> of the linear inequalities
+	  <me>-5 \leq 2x + 3y \quad\text{and}\quad 2x + 3y \leq 5</me>
+	  We can condense these into the compound inequality
+	  <me>-5 \leq 2x + 3y \leq 5.</me>
 	  This means the graph is the <alert>overlap</alert> between <xref ref="fig-2x_3y_leq_5"/> and <xref ref="fig-2x_3y_geq_-5"/>.
-	  That is, the points that are either on or between the lines
-	  <me>2x + 3y = -5 \quad\text{and}\quad 2x + 3y = 5.</me>
 	</p>
 	<figure>
 	  <caption>The graph of the linear absolute value inequality <m>\abs{2x + 3y} \leq 5</m>.</caption>
@@ -365,17 +379,18 @@
       </statement>
       <solution>
 	<p>
-	  The solutions to the inequality <m>\abs{2x + 3y} \lt 5</m> are the points that are solutions to <alert>either</alert> 
+	  The solutions to the inequality <m>\abs{2x + 3y} \lt 5</m> are the points that are outside the lines
+	  <me>2x + 3y = -5 \quad\text{and}\quad 2x + 3y = 5</me>
+	  Since <m>2x + 3y = -5</m> is the lower line and <m>2x + 3y = 5</m> is the upper line, we can regard these as solutions to <alert>either</alert> 
 	  <me>
-	    5 \lt 2x + 3y
+	    2x + 3y \lt -5
 	    \quad\text{or}\quad
-	    2x + 3y \lt -5.
+	    5 \lt 2x + 3y
 	  </me>
 	  This means the graph is the <alert>combination</alert> of the graphs for the linear inequalities
 	  <me>2x + 3 \lt -5
 	  \quad\text{and}\quad
 	  2x + 3y \gt 5.</me>
-	  That is, the points that are either above the line <m>2x + 3y = 5</m> or below the line <m>2x + 3y = -5</m>.
 	</p>
 	<figure xml:id="fig-abs_2x_3y_gt_5">
 	  <caption>The graph of the linear absolute value inequality <m>\abs{2x + 3y} \gt 5</m>.</caption>
@@ -396,15 +411,14 @@
       </statement>
       <solution>
 	<p>
-	  The solutions to the inequality <m>\abs{2x + 3y} \geq 5</m> are the points that are solutions to <alert>either</alert> the linear inequality
-	  <m>5 \leq 2x + 3y</m>
-	  or the linear inequality
-	  <m>2x + 3y \leq -5.</m>
+	  The solutions to the inequality <m>\abs{2x + 3y} \geq 5</m> are the points that are either on or outside the lines
+	  <me>2x + 3y = -5 \quad\text{and}\quad 2x + 3y = 5</me>
+	  Since <m>2x + 3y = -5</m> is the lower line and <m>2x + 3y = 5</m> is the upper line, we can regard these as solutions to <alert>either</alert>
+	  <me>2x + 3y \leq -5 \quad\text{or}\quad 5 \leq 2x + 3y</me>
 	  This means the graph is the <alert>combination</alert> of the graphs for the linear inequalities
 	  <me>2x + 3 \leq -5
 	  \quad\text{and}\quad
 	  2x + 3y \geq 5.</me>
-	  That is, the points that are either on or above the line <m>2x + 3y = 5</m>, or on or below the line <m>2x + 3y = -5</m>.
 	</p>
 	<figure xml:id="fig-abs_2x_3y_geq_5">
 	  <caption>The graph of the linear absolute value inequality <m>\abs{2x + 3y} \geq 5</m>.</caption>
