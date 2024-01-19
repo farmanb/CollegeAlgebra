@@ -367,9 +367,9 @@
 	<p>
 	  The solutions to the inequality <m>\abs{2x + 3y} \lt 5</m> are the points that are solutions to <alert>either</alert> 
 	  <me>
-	    -5 \lt 2x + 3y
+	    5 \lt 2x + 3y
 	    \quad\text{or}\quad
-	    2x + 3y \lt 5.
+	    2x + 3y \lt -5.
 	  </me>
 	  This means the graph is the <alert>combination</alert> of the graphs for the linear inequalities
 	  <me>2x + 3 \lt -5
@@ -391,15 +391,15 @@
     <example component="web">
       <statement>
 	<p>
-	  Graph the linear absolute value inequality <m>\abs{2x + 3y} \leq 5</m>.
+	  Graph the linear absolute value inequality <m>\abs{2x + 3y} \geq 5</m>.
 	</p>
       </statement>
       <solution>
 	<p>
 	  The solutions to the inequality <m>\abs{2x + 3y} \geq 5</m> are the points that are solutions to <alert>either</alert> the linear inequality
-	  <m>-5 \leq 2x + 3y</m>
+	  <m>5 \leq 2x + 3y</m>
 	  or the linear inequality
-	  <m>2x + 3y \leq 5.</m>
+	  <m>2x + 3y \leq -5.</m>
 	  This means the graph is the <alert>combination</alert> of the graphs for the linear inequalities
 	  <me>2x + 3 \leq -5
 	  \quad\text{and}\quad
@@ -407,7 +407,7 @@
 	  That is, the points that are either on or above the line <m>2x + 3y = 5</m>, or on or below the line <m>2x + 3y = -5</m>.
 	</p>
 	<figure xml:id="fig-abs_2x_3y_geq_5">
-	  <caption>The graph of the linear absolute value inequality <m>\abs{2x + 3y} \leq 5</m>.</caption>
+	  <caption>The graph of the linear absolute value inequality <m>\abs{2x + 3y} \geq 5</m>.</caption>
 	  <image xml:id="img-abs_2x_3y_geq_5">
 	    <latex-image xml:id="tikz-abs_2x_3y_geq_5">
 	      <xi:include parse="text" href="tex/abs_2x_3y_geq_5.tex"/>
@@ -465,7 +465,7 @@
 	<example>
 	  <statement>
 	    <p>
-	      Graph the linear absolute value inequality <m>\abs{2x + 3y} \leq 5</m>.
+	      Graph the linear absolute value inequality <m>\abs{2x + 3y} \geq 5</m>.
 	    </p>
 	    <image width="50%">
 	      <latex-image>
