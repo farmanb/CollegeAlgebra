@@ -91,8 +91,8 @@
       <p>
 	The composition of <m>f</m> with <m>g</m> is the function <m>f \circ g \colon \R \to \R</m> defined by
 	<md>
-	  <mrow>(f \circ g)(x) = f\left(f(x)\right)
-	  \amp= g\left(x^2 + 3\right)</mrow>
+	  <mrow>(f \circ g)(x) = f\left(g(x)\right)
+	  \amp= f\left(x^2 + 3\right)</mrow>
 	  <mrow>\amp= \left(x^2 + 3\right) + 2</mrow>
 	  <mrow>\amp= x^2 + 5</mrow>
 	  <mrow>\amp\neq x^2 + 4x + 7 = (g \circ f)(x).</mrow>
@@ -117,7 +117,7 @@
 	  <mrow>d(x) \amp= \frac{(x + h)^2 - x^2}{h} \amp\amp \text{Expand}</mrow>
 	  <mrow>\amp= \frac{x^2 + 2xh + h^2 - x^2}{h} \amp\amp \text {Collect like terms}</mrow>
 	  <mrow>\amp= \frac{2xh + h^2}{h} \amp\amp \text{Factor}\ h\ \text{from numerator}</mrow>
-	  <mrow>\amp= \frac{h(2x + h}{h} \amp\amp \text{Cancel}</mrow>
+	  <mrow>\amp= \frac{h(2x + h)}{h} \amp\amp \text{Cancel}</mrow>
 	  <mrow>\amp= 2x + h.</mrow>
 	</md>
       </p>
