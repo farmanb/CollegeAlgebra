@@ -30,7 +30,7 @@
   
   
   <p>
-    To find the equation of the circle with radius <m>r</m> and center <m>(h,k)</m> we use <xref ref="def-2_distance" text="title"/>.
+    To find the equation of the circle with radius <m>r</m> and center <m>(h,k)</m> we use <xref ref="formula-2_distance" text="title"/>.
     A point <m>(x,y)</m> is on this circle if the distance between <m>(x,y)</m> and <m>(h,k)</m> is exactly <m>r</m>:
     <me>
       r = \sqrt{(x - h)^2 + (y - k)^2}.
