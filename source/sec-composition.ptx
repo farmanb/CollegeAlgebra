@@ -168,10 +168,10 @@
 	Write
 	<md>
 	  <mrow>d(x) \amp= \frac{\sqrt{x + h} - \sqrt{x}}{h} \amp\amp\text{Multiply RHS by}\ \frac{\sqrt{x + h} + \sqrt{x}}{\sqrt{x + h} + \sqrt{x}}</mrow>
-	  <mrow>\amp= \frac{\left(\sqrt{x + h} - \sqrt{x}\right)\left(\sqrt{x + h} + \sqrt{x}\right)}{h\left(\sqrt{x + h} - \sqrt{x}\right)} \amp\amp \text{Simplify}</mrow>
-	  <mrow>\amp= \frac{x + h - x}{{h\left(\sqrt{x + h} - \sqrt{x}\right)}} \amp\amp \text{Simplify}</mrow>
-	  <mrow>\amp= \frac{h}{h\left(\sqrt{x + h} - \sqrt{x}\right)} \amp\amp\text{Cancel}</mrow>
-	  <mrow>\amp= \frac{1}{\sqrt{x + h} - \sqrt{x}}.</mrow>
+	  <mrow>\amp= \frac{\left(\sqrt{x + h} - \sqrt{x}\right)\left(\sqrt{x + h} + \sqrt{x}\right)}{h\left(\sqrt{x + h} + \sqrt{x}\right)} \amp\amp \text{Simplify}</mrow>
+	  <mrow>\amp= \frac{x + h - x}{{h\left(\sqrt{x + h} + \sqrt{x}\right)}} \amp\amp \text{Simplify}</mrow>
+	  <mrow>\amp= \frac{h}{h\left(\sqrt{x + h} + \sqrt{x}\right)} \amp\amp\text{Cancel}</mrow>
+	  <mrow>\amp= \frac{1}{\sqrt{x + h} + \sqrt{x}}.</mrow>
 	</md>
       </p>
       <p>
