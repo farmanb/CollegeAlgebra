@@ -80,7 +80,7 @@
       <statement>
 	<p>
 	  The quadratic equation
-	  <me>ax + bx + c = 0</me>
+	  <me>ax^2 + bx + c = 0</me>
 	  has either two, one, or zero real solutions, depending on <xref ref="def-discriminant" text="title"/>, <m>D = b^2 - 4ac</m>.
 	  <ol>
 	    <li>
