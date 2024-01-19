@@ -6,7 +6,7 @@
     <p>
       When we study arithmetic in an elementary mathematics course, we focus primarily on operations that we can perform with numbers like addition and multiplication.
       While we have seen we can perform these same operations with functions, there is one operation that is particular to functions that we study here.
-      It is important because it provides a way to create complicated functions from simpler functions.
+      Composition is important because it provides yet another way to create complicated functions from simpler functions.
     </p>
   </introduction>
 
