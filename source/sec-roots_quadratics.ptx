@@ -28,7 +28,7 @@
     </definition>
 
     <p>
-      To find the solutions to the quadratic equation <m>ax^2 + bx + c</m>, we use <xref ref="def-vertex_form" text="title"/> to write 
+      To find the solutions to the quadratic equation <m>ax^2 + bx + c = 0</m>, we use <xref ref="def-vertex_form" text="title"/> to write 
       <me>0 = ax^2 + bx + c = a\left(x + \frac{b}{2a}\right)^2 - \frac{b^2 - 4ac}{4a}</me>
       and solve this equation for <m>x</m>
       <md>
@@ -37,8 +37,8 @@
 	<mrow>\amp \left(x + \frac{b}{2a}\right)^2 = \frac{b^2 - 4ac}{4a^2} \amp\amp \text{Take the square root of both sides}</mrow>
 	<mrow>\amp x + \frac{b}{2a} = \pm\sqrt{\frac{b^2 - 4ac}{4a^2}} \amp\amp \text{Simplify}</mrow>
 	<mrow>\amp x + \frac{b}{2a} = \pm\frac{\sqrt{b^2 - 4ac}}{\sqrt{4a^2}} \amp\amp \text{Simplify}</mrow>
-	<mrow>\amp x + \frac{b}{2a} = \frac{\sqrt{b^2 - 4ac}}{2a} \amp\amp \text{Subtract}\ \frac{b}{2a}\ \text{from both sides}</mrow>
-	<mrow>\amp x = - \frac{b}{2a} + \frac{\sqrt{b^2 - 4ac}}{2a} \amp\amp \text{Simplify}</mrow>
+	<mrow>\amp x + \frac{b}{2a} = \pm \frac{\sqrt{b^2 - 4ac}}{2a} \amp\amp \text{Subtract}\ \frac{b}{2a}\ \text{from both sides}</mrow>
+	<mrow>\amp x = - \frac{b}{2a} \pm \frac{\sqrt{b^2 - 4ac}}{2a} \amp\amp \text{Simplify}</mrow>
 	<mrow>\amp x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \amp\amp \text{Simplify}</mrow>
       </md>
     </p>
