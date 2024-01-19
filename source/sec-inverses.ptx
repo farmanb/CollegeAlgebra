@@ -118,7 +118,7 @@
       </idx>
       of <m>c</m> is the real number <m>c^{-1} = 1/c</m> that satisfies
       <me>c \times \frac{1}{c} = 1\quad\text{and}\quad \frac{1}{c} \times c = 1.</me>
-      Multiplication by <m>c</m> and multiplication by <m>a^{-1}</m> define functions <m>\operatorname{mul}_c, \operatorname{mul}_{c^{-1}} \colon \R \to \R</m> by
+      Multiplication by <m>c</m> and multiplication by <m>c^{-1}</m> define functions <m>\operatorname{mul}_c, \operatorname{mul}_{c^{-1}} \colon \R \to \R</m> by
       <me>\operatorname{mul}_c(x) = cx \quad\text{and}\quad \operatorname{mul}_{c^{-1}}(x) = \frac{1}{c}x.</me>
       Just as with addition, these two functions "undo" one another in the sense that
     </p>
