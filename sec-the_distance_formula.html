@@ -434,26 +434,40 @@ window.MathJax = {
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.4.1</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="def-1_distance-1-1">
-<div class="para">The <dfn class="terminology">distance</dfn>  between two numbers <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> on a number line is given by the formula</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/fig-1_distance.html">
+<div class="para">Assume <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> are any two numbers. The <dfn class="terminology">distance</dfn>  from <span class="process-math">\(x\)</span> to <span class="process-math">\(y\)</span> on the number line is given by the formula</div>
+<div class="displaymath process-math">
 \begin{equation*}
-\abs{x - y} = \sqrt{(x - y)^2}.
+\abs{x - y} = \sqrt{(x - y)^2}
 \end{equation*}
 </div>
-<div class="para">This number measures the length of the segment of the number line between <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{,}\)</span> as depicted in <a href="" class="xref" data-knowl="./knowl/xref/fig-1_distance.html" title="Figure 1.4.2">Figure 1.4.2</a>.</div>
-</div></article><figure class="figure figure-like" id="fig-1_distance"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/tikz-1_distance.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.4.2<span class="period">.</span></span><span class="space"> </span>The distance between points on the number line.</figcaption></figure></section><section class="subsection" id="subsec-distance_in_two_dimensions"><h3 class="heading hide-type">
+</div></article><div class="para" id="subsec-distance_in_one_dimension-3">The number <span class="process-math">\(\abs{x - y}\)</span> measures the length of the segment of the number line starting at <span class="process-math">\(x\)</span> and ending at <span class="process-math">\(y\text{.}\)</span>
+</div>
+<figure class="figure figure-like" id="fig-1_distance"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/tikz-1_distance.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.4.2<span class="period">.</span></span><span class="space"> </span>The distance from <span class="process-math">\(x\)</span> to <span class="process-math">\(y\)</span> on the number line.</figcaption></figure><div class="para logical" id="subsec-distance_in_one_dimension-5">
+<div class="para">Of course, we could also ask about the length of the segment of the number line starting at <span class="process-math">\(y\)</span> and ending at <span class="process-math">\(x\text{.}\)</span> <a href="" class="xref" data-knowl="./knowl/xref/fig-1_distance.html" title="Figure 1.4.2">Figure 1.4.2</a> suggests that these two numbers should be the same. We can verify this algebraically using <a href="" class="xref" data-knowl="./knowl/xref/def-1_distance.html" title="Definition 1.4.1">Definition 1.4.1</a>: the distance from <span class="process-math">\(y\)</span> to <span class="process-math">\(x\)</span> on the number line is</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/fig-1_distance.html ./knowl/xref/def-1_distance.html" id="subsec-distance_in_one_dimension-5-7">
+\begin{align*}
+\abs{y - x} \amp= \sqrt{(y - x)^2} \amp\amp \text{Factor}\ -1\ \text{from}\ y - x\\
+\amp= \sqrt{\left((-1)(x - y)\right)^2} \amp\amp \text{Expand}\\
+\amp= \sqrt{(-1)(x - y)(-1)(x - y)} \amp\amp \text{Reorder terms}\\
+\amp= \sqrt{(-1)(-1)(x - y)(x - y)} \amp\amp \text{Simplify}\\
+\amp= \sqrt{(x - y)^2}\\
+\amp= \abs{x - y}
+\end{align*}
+</div>
+<div class="para">We say the distance is <dfn class="terminology">symmetric</dfn>  to signify that the distance between <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> whether you start measuring at <span class="process-math">\(x\)</span> and end at <span class="process-math">\(y\text{,}\)</span> or if you start measuring at <span class="process-math">\(y\)</span> and end at <span class="process-math">\(x\text{.}\)</span>
+</div>
+</div></section><section class="subsection" id="subsec-distance_in_two_dimensions"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.4.2</span><span class="space"> </span><span class="title">Distance in Two Dimensions</span>
 </h3>
-<div class="para" id="subsec-distance_in_two_dimensions-2">Using the Pythagorean Theorem and the distance between two numbers, we can determine the distance between points in the plane.</div>
-<article class="theorem theorem-like" id="thm-pythagorean"><h4 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">1.4.3</span><span class="period">.</span><span class="space"> </span><span class="title">The Pythagorean Theorem.</span>
+<div class="para" id="subsec-distance_in_two_dimensions-2">Our goal for this section is to measure the distance between two points in the plane using <a href="" class="xref" data-knowl="./knowl/xref/def-1_distance.html" title="Definition 1.4.1">Definition 1.4.1</a> First, we must agree on what that statement should mean. In mathematics, whenever a term might be ambiguous, we remove the ambiguity by defining the term explicitly.</div>
+<article class="definition definition-like" id="def-2_distance"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.4.3</span><span class="period">.</span>
 </h4>
-<div class="para" id="thm-pythagorean-2-1">The right triangle in <a href="" class="xref" data-knowl="./knowl/xref/fig-pythagorean.html" title="Figure 1.4.4">Figure 1.4.4</a> satisfies the equation <span class="process-math">\(a^2 + b^2 = c^2\)</span>
-</div> <figure class="figure figure-like" id="fig-pythagorean"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/tikz-pythagorean.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.4.4<span class="period">.</span></span><span class="space"> </span>Right triangle with sides of length <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> and <span class="process-math">\(c\text{.}\)</span></figcaption></figure></article><div class="para" id="subsec-distance_in_two_dimensions-4">Given two points <span class="process-math">\((x_1, y_1)\)</span> and <span class="process-math">\((x_2, y_2)\text{,}\)</span> we can introduce a third point to create a triangle, as in <a href="" class="xref" data-knowl="./knowl/xref/fig-2_distance.html" title="Figure 1.4.5">Figure 1.4.5</a>.</div>
+<div class="para" id="def-2_distance-1-1">The <dfn class="terminology">distance</dfn>  between the points <span class="process-math">\((x_1,y_1)\)</span> and <span class="process-math">\((x_2,y_2)\)</span> in the Cartesian plane is the length of the line segment connecting the two points.</div> <figure class="figure figure-like" id="fig-line_segment"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/tikz-line_segment.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.4.4<span class="period">.</span></span><span class="space"> </span>The line segment of length <span class="process-math">\(\ell\)</span> connecting <span class="process-math">\((x_1,y_1)\)</span> and <span class="process-math">\((x_2, y_2)\)</span></figcaption></figure></article><div class="para" id="subsec-distance_in_two_dimensions-4">To measure the length of this line, we need a little help from geometry. If our line segment were either horizontal or vertical, then we could use <a href="" class="xref" data-knowl="./knowl/xref/def-1_distance.html" title="Definition 1.4.1">Definition 1.4.1</a> to measure the parallel segment of the <span class="process-math">\(x\)</span>-axis or <span class="process-math">\(y\)</span>-axis, respectively. To take advantage of these observations, we draw one horizontal line and one vertical line to form a right triangle.</div>
 <figure class="figure figure-like" id="fig-2_distance"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/tikz-2_distance.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.4.5<span class="period">.</span></span><span class="space"> </span>The triangle formed by adding in the point <span class="process-math">\((x_1, y_2)\text{.}\)</span></figcaption></figure><div class="para logical" id="subsec-distance_in_two_dimensions-6">
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.4.5<span class="period">.</span></span><span class="space"> </span>The triangle formed by adding in the point <span class="process-math">\((x_1, y_2)\)</span></figcaption></figure><div class="para logical" id="subsec-distance_in_two_dimensions-6">
 <div class="para">From <a href="" class="xref" data-knowl="./knowl/xref/fig-2_distance.html" title="Figure 1.4.5">Figure 1.4.5</a>, we can see the length of the horizontal side is the distance between the points <span class="process-math">\(x_1\)</span> and <span class="process-math">\(x_2\)</span> along the <span class="process-math">\(x\)</span>-axis. Similarly, the length of the vertical side is the distance between the points <span class="process-math">\(y_1\)</span> and <span class="process-math">\(y_2\)</span> along the <span class="process-math">\(y\)</span>-axis. Using <a href="" class="xref" data-knowl="./knowl/xref/def-1_distance.html" title="Definition 1.4.1">Definition 1.4.1</a>, we have</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/fig-2_distance.html ./knowl/xref/def-1_distance.html">
 \begin{equation*}
@@ -462,40 +476,60 @@ a = \abs{x_1 - x_2} = \sqrt{(x_1 - x_2)^2}
 b = \abs{y_1 - y_2} = \sqrt{(y_1 - y_2)^2}.
 \end{equation*}
 </div>
-<div class="para">If we square these two side lengths, then</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/fig-2_distance.html ./knowl/xref/def-1_distance.html">
+<div class="para">Since we know two of the three sides, we can use the Pythagorean Theorem to find the third side.</div>
+</div>
+<article class="theorem theorem-like" id="thm-pythagorean"><h4 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">1.4.6</span><span class="period">.</span><span class="space"> </span><span class="title">The Pythagorean Theorem.</span>
+</h4>
+<div class="para" id="thm-pythagorean-2-1">The right triangle in <a href="" class="xref" data-knowl="./knowl/xref/fig-pythagorean.html" title="Figure 1.4.7">Figure 1.4.7</a> satisfies the equation <span class="process-math">\(a^2 + b^2 = c^2\)</span>
+</div> <figure class="figure figure-like" id="fig-pythagorean"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/tikz-pythagorean.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.4.7<span class="period">.</span></span><span class="space"> </span>Right triangle with sides of length <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> and <span class="process-math">\(c\text{.}\)</span></figcaption></figure></article><div class="para logical" id="subsec-distance_in_two_dimensions-8">
+<div class="para">Square the two side lengths</div>
+<div class="displaymath process-math">
 \begin{equation*}
 a^2 = \sqrt{(x_1 - x_2)^2}^2 = (x_1 - x_2)^2
 \quad\text{and}\quad
 b^2 = \sqrt{(y_1 - y_2)^2} = (y_1 - y_2)^2.
 \end{equation*}
 </div>
-<div class="para">By the Pythagorean Theorem, the length of the line segment that connects the points <span class="process-math">\((x_1, y_1)\)</span> and <span class="process-math">\((x_2, y_2)\)</span> is</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/fig-2_distance.html ./knowl/xref/def-1_distance.html" id="subsec-distance_in_two_dimensions-6-13">
-\begin{align*}
-c \amp= \sqrt{a^2 + b^2}\\\\
-\amp= \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}.
-\end{align*}
-</div>
-</div>
-<article class="definition definition-like" id="def-2_distance"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.4.6</span><span class="period">.</span><span class="space"> </span><span class="title">The Distance Formula.</span>
-</h4> <div class="para logical" id="def-2_distance-2-1">
-<div class="para">The <dfn class="terminology">distance</dfn>  between the points <span class="process-math">\((x_1,y_1)\)</span> and <span class="process-math">\((x_2,y_2)\)</span> in the Cartesian plane is given by</div>
+<div class="para">By the Pythagorean Theorem, the square of the distance between the points <span class="process-math">\((x_1, y_1)\)</span> and <span class="process-math">\((x_2, y_2)\)</span> satisfies</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}.
+\ell^2 = (x_1 - x_2)^2 + (y_1 - y_2)^2
 \end{equation*}
 </div>
-<div class="para">This number measures the length of the line segment connecting the two points.</div>
+<div class="para">Taking the square root of both sides yields the distance formula in the plane.</div>
+</div>
+<article class="claim theorem-like" id="formula-2_distance"><h4 class="heading">
+<span class="type">Formula</span><span class="space"> </span><span class="codenumber">1.4.8</span><span class="period">.</span><span class="space"> </span><span class="title">The Distance Formula.</span>
+</h4>
+<div class="para logical" id="formula-2_distance-2-1">
+<div class="para">The distance from the point <span class="process-math">\((x_1,y_1)\)</span> to the point <span class="process-math">\((x_2,y_2)\)</span> in the Cartesian plane is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}
+\end{equation*}
+</div>
+</div></article><article class="remark remark-like" id="subsec-distance_in_two_dimensions-10"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.4.9</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="subsec-distance_in_two_dimensions-10-1">
+<div class="para">Just like the distance between numbers, the distance between two points in the plane is symmetric. We can verify this using <a href="" class="xref" data-knowl="./knowl/xref/formula-2_distance.html" title="Formula 1.4.8: The Distance Formula">Formula 1.4.8</a>:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/formula-2_distance.html" id="subsec-distance_in_two_dimensions-10-1-2">
+\begin{align*}
+\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} \amp= \sqrt{\left((-1)(x_1 - x_2)\right)^2 + \left((-1)(y_1 - y_2)\right)^2}\\
+\amp= \sqrt{(-1)^2(x_1 - x_2)^2 + (-1)^2(y_1 - y_2)^2}\\
+\amp= \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}
+\end{align*}
+</div>
 </div></article><article class="example example-like" id="eg-distance_between_points"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.4.7</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.4.10</span><span class="period">.</span>
 </h4>
 <div class="para" id="eg-distance_between_points-1-1">Find the distance between the points <span class="process-math">\((3,-2)\)</span> and <span class="process-math">\((4,7)\text{.}\)</span>
 </div>
 <div class="solutions"><details id="eg-distance_between_points-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like"><div class="para logical" id="eg-distance_between_points-2-1">
-<div class="para">By <a href="" class="xref" data-knowl="./knowl/xref/def-2_distance.html" title="Definition 1.4.6: The Distance Formula">The Distance Formula</a> the distance between the points <span class="process-math">\((3,-2)\)</span> and <span class="process-math">\((4,7)\)</span> is</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def-2_distance.html" id="eg-distance_between_points-2-1-4">
+<div class="para">By <a href="" class="xref" data-knowl="./knowl/xref/formula-2_distance.html" title="Formula 1.4.8: The Distance Formula">The Distance Formula</a> the distance between the points <span class="process-math">\((3,-2)\)</span> and <span class="process-math">\((4,7)\)</span> is</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/formula-2_distance.html" id="eg-distance_between_points-2-1-4">
 \begin{align*}
 \sqrt{(3 - 4)^2 + (-2 - 7)^2} \amp= \sqrt{(-1)^2 + (-9)^2}\\
 \amp = \sqrt{1 + 81}\\
@@ -524,7 +558,7 @@ c \amp= \sqrt{a^2 + b^2}\\\\
 <article class="exercise exercise-like" id="sec-the_distance_formula-5-2"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
 <div class="para" id="sec-the_distance_formula-5-2-1">Find the perimeter of the triangle below.</div>
 <figure class="figure figure-like" id="fig-perimeter"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/tikz-perimeter.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.4.8<span class="period">.</span></span><span class="space"> </span>The triangle with vertices <span class="process-math">\((1,-1)\text{,}\)</span> <span class="process-math">\((4,-1)\text{,}\)</span> and <span class="process-math">\((1,4)\)</span></figcaption></figure></article></section></section></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.4.11<span class="period">.</span></span><span class="space"> </span>The triangle with vertices <span class="process-math">\((1,-1)\text{,}\)</span> <span class="process-math">\((4,-1)\text{,}\)</span> and <span class="process-math">\((1,4)\)</span></figcaption></figure></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-graphing_equations.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-midpoint.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

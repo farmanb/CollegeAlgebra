@@ -619,7 +619,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "The Distance Formula",
-  "body": " The Distance Formula   Within the Cartesian plane, we will often want to determine the distance between two points. In this section, we extend the notion of distance between two points on the number line to the Cartesian plane.    Distance in One Dimension    The distance   Distance  Number Line  between two numbers and on a number line is given by the formula This number measures the length of the segment of the number line between and , as depicted in .     The distance between points on the number line.        Distance in Two Dimensions  Using the Pythagorean Theorem and the distance between two numbers, we can determine the distance between points in the plane.   The Pythagorean Theorem   The right triangle in satisfies the equation    Right triangle with sides of length , , and .        Given two points and , we can introduce a third point to create a triangle, as in .   The triangle formed by adding in the point .      From , we can see the length of the horizontal side is the distance between the points and along the -axis. Similarly, the length of the vertical side is the distance between the points and along the -axis. Using , we have If we square these two side lengths, then By the Pythagorean Theorem, the length of the line segment that connects the points and is    The Distance Formula   The distance   Distance  Cartesian Plane  between the points and in the Cartesian plane is given by This number measures the length of the line segment connecting the two points.      Find the distance between the points and .    By the distance between the points and is        Distance Between Points   Plot each pair of points in the plane. Find the length of the line segment that connects them.     and .     and      and     Find the perimeter of the triangle below.  The triangle with vertices , , and       "
+  "body": " The Distance Formula   Within the Cartesian plane, we will often want to determine the distance between two points. In this section, we extend the notion of distance between two points on the number line to the Cartesian plane.    Distance in One Dimension    Assume and are any two numbers. The distance   Distance  Number Line  from to on the number line is given by the formula     The number measures the length of the segment of the number line starting at and ending at .   The distance from to on the number line.      Of course, we could also ask about the length of the segment of the number line starting at and ending at . suggests that these two numbers should be the same. We can verify this algebraically using : the distance from to on the number line is We say the distance is symmetric   Distance  Number Line  Symmetric  to signify that the distance between and whether you start measuring at and end at , or if you start measuring at and end at .    Distance in Two Dimensions  Our goal for this section is to measure the distance between two points in the plane using First, we must agree on what that statement should mean. In mathematics, whenever a term might be ambiguous, we remove the ambiguity by defining the term explicitly.    The distance   Distance  Cartesian Plane  between the points and in the Cartesian plane is the length of the line segment connecting the two points.   The line segment of length connecting and        To measure the length of this line, we need a little help from geometry. If our line segment were either horizontal or vertical, then we could use to measure the parallel segment of the -axis or -axis, respectively. To take advantage of these observations, we draw one horizontal line and one vertical line to form a right triangle.   The triangle formed by adding in the point      From , we can see the length of the horizontal side is the distance between the points and along the -axis. Similarly, the length of the vertical side is the distance between the points and along the -axis. Using , we have Since we know two of the three sides, we can use the Pythagorean Theorem to find the third side.   The Pythagorean Theorem   The right triangle in satisfies the equation    Right triangle with sides of length , , and .        Square the two side lengths By the Pythagorean Theorem, the square of the distance between the points and satisfies Taking the square root of both sides yields the distance formula in the plane.   The Distance Formula   The distance from the point to the point in the Cartesian plane is given by      Just like the distance between numbers, the distance between two points in the plane is symmetric. We can verify this using :      Find the distance between the points and .    By the distance between the points and is        Distance Between Points   Plot each pair of points in the plane. Find the length of the line segment that connects them.     and .     and      and     Find the perimeter of the triangle below.  The triangle with vertices , , and       "
 },
 {
   "id": "def-1_distance",
@@ -628,7 +628,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "1.4.1",
   "title": "",
-  "body": "  The distance   Distance  Number Line  between two numbers and on a number line is given by the formula This number measures the length of the segment of the number line between and , as depicted in .   "
+  "body": "  Assume and are any two numbers. The distance   Distance  Number Line  from to on the number line is given by the formula    "
 },
 {
   "id": "fig-1_distance",
@@ -637,16 +637,25 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "1.4.2",
   "title": "",
-  "body": " The distance between points on the number line.     "
+  "body": " The distance from to on the number line.     "
 },
 {
-  "id": "thm-pythagorean",
+  "id": "subsec-distance_in_one_dimension-5",
   "level": "2",
-  "url": "sec-the_distance_formula.html#thm-pythagorean",
-  "type": "Theorem",
+  "url": "sec-the_distance_formula.html#subsec-distance_in_one_dimension-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "symmetric "
+},
+{
+  "id": "def-2_distance",
+  "level": "2",
+  "url": "sec-the_distance_formula.html#def-2_distance",
+  "type": "Definition",
   "number": "1.4.3",
-  "title": "The Pythagorean Theorem.",
-  "body": " The Pythagorean Theorem   The right triangle in satisfies the equation    Right triangle with sides of length , , and .       "
+  "title": "",
+  "body": "  The distance   Distance  Cartesian Plane  between the points and in the Cartesian plane is the length of the line segment connecting the two points.   The line segment of length connecting and       "
 },
 {
   "id": "fig-2_distance",
@@ -655,23 +664,41 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "1.4.5",
   "title": "",
-  "body": " The triangle formed by adding in the point .     "
+  "body": " The triangle formed by adding in the point     "
 },
 {
-  "id": "def-2_distance",
+  "id": "thm-pythagorean",
   "level": "2",
-  "url": "sec-the_distance_formula.html#def-2_distance",
-  "type": "Definition",
+  "url": "sec-the_distance_formula.html#thm-pythagorean",
+  "type": "Theorem",
   "number": "1.4.6",
+  "title": "The Pythagorean Theorem.",
+  "body": " The Pythagorean Theorem   The right triangle in satisfies the equation    Right triangle with sides of length , , and .       "
+},
+{
+  "id": "formula-2_distance",
+  "level": "2",
+  "url": "sec-the_distance_formula.html#formula-2_distance",
+  "type": "Formula",
+  "number": "1.4.8",
   "title": "The Distance Formula.",
-  "body": " The Distance Formula   The distance   Distance  Cartesian Plane  between the points and in the Cartesian plane is given by This number measures the length of the line segment connecting the two points.   "
+  "body": " The Distance Formula   The distance from the point to the point in the Cartesian plane is given by    "
+},
+{
+  "id": "subsec-distance_in_two_dimensions-10",
+  "level": "2",
+  "url": "sec-the_distance_formula.html#subsec-distance_in_two_dimensions-10",
+  "type": "Remark",
+  "number": "1.4.9",
+  "title": "",
+  "body": " Just like the distance between numbers, the distance between two points in the plane is symmetric. We can verify this using :   "
 },
 {
   "id": "eg-distance_between_points",
   "level": "2",
   "url": "sec-the_distance_formula.html#eg-distance_between_points",
   "type": "Example",
-  "number": "1.4.7",
+  "number": "1.4.10",
   "title": "",
   "body": "  Find the distance between the points and .    By the distance between the points and is    "
 },
@@ -3499,7 +3526,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.4",
   "title": "Composition Inverses",
-  "body": " Composition Inverses   In keeping with the analogy with operations on numbers, recall the operations of addition and multiplication both have distinguished elements. The number is called the additive identity   Identity  Additive  because every real number remains unchanged when is added to it   Similarly, the number is called the multiplicative identity   Identity  Multiplicative  because every real number remains unchanged when it is multiplied by      Identities  We introduced the idea of an identity using two familiar operations to highlight that the identity element depends on the operation. However, the essential behavior of the identity element is the same: when we perform the operation using the identity, nothing changes. This tells us exactly how the identity element for the function composition operation should behave.   Identity Function   Assume is a set. The identity function on is the function defined by     As we have already seen, the order of function composition matters. Complicating matters more, not all functions can be composed. For a function ,   the composition only makes sense when the domain of contains the range of , and    the composition only makes sense when the range of is contained in the domain of .   For this reason, there is not one single identity function that satisfies the condition and .  Instead, we need to consider the identity functions on the domain and codomain of . The identity function on satisfies because and the identity function on satisfies because .    Composition Inverses  The identity elements for these operations are important because they provide a method for \"undoing\" the operation. This is easiest to understand by considering addition and multiplication first. For any real number , the additive inverse   Inverse  Additive  is the real number that satisfies If we add the number to another number , then we obtain the number . We can \"undo\" this operation by performing the operation \"add the additive inverse of \" -- which we normally just call \"subtract \" -- in the sense that Similarly, we note that the operation \"add c\" will \"undo\" the operation \"subtract \" in the sense that   The operations \"add \" and \"subtract \" define functions and by We can view and in terms of composition:          The story is similar for multiplication. For any non-zero real number , the multiplicative inverse   Inverse  Multiplicative  of is the real number that satisfies Multiplication by and multiplication by define functions by Just as with addition, these two functions \"undo\" one another in the sense that          Less formally, one often says \"division by \" instead of \"multiplication by .\"  These are two canonical examples of functions that are invertible , and the ideas captured in inverting addition and multiplication motivate the more general definition.   Composition Inverse   Assume is a function. The composition inverse , if it exists, is a function that satisfies or, equivalently, for every , and for every , .  If has a composition inverse, then we say is invertible .  Function  Invertible       Mathematicians commonly use the word \"inverse\" or \"invertible\" without explicitly stating the operation. It is important to infer the meaning from the context. If the object being discussed is a function, then \"inverse\" means composition inverse, not multiplicative inverse. That is to say,   In order to avoid confusion, we will avoid using the notation and write either or whenever we refer to a fraction with the function in the denominator.     Properties of Invertible Functions  For a function with a composition inverse, the codomain of and the domain of agree. For every , the element satisfies by definition. This provides useful information about the range of an invertible function .    If is a function with a composition inverse, then the range of is     The definition of a composition inverse is symmetric in the sense that the inverse of is and the inverse of is .    If is a function with inverse , then has a composition inverse and      In the language of , the functions \"add \" and \"add \" (or \"subtract \") are a pair of inverse functions   Similarly, the functions \"multiply by \" and \"multiply by \" (or \"divide by \") are a pair of inverse functions     In general, a linear function is invertible if . To evaluate at the real number , we perform the following operations   Multiply by ,    Add to .   This allows us to decompose as the function \"add \" composed with the function \"multiply by \" Since each function is invertible, we can invert by performing the inverse operations in reverse order, like peeling back the layers of an onion.  Write for the result of applying to . We would invert (or \"undo\") the operation of applying to by performing the operations   Subtract from     Divide by ( Important: This is why we required !)   Note this is equivalent to solving the equation for in terms of   In the language of , the inverse of is the composition   Finally, we can check these are in fact inverses of one another by checking the two compositions explicitly:                                         Our observations about compositions of invertible functions in are true in general.    Assume and are invertible functions. If the composition is well-defined, then is invertible and     As a final example, we illustrate why it is necessary to pay close attention to the domain of a function.   Consider the quadratic function defined by . This function is not invertible .  To see why, we must observe that if an inverse function exists, then by , it must have the form and for every positive number , we must assign a single number such that   However, there are always two such values: a positive number and its negative . This means we must choose one of these two values to be . Unfortunately, both decisions fail to produce an inverse for .  If we decide that is the positive number such that , then   On the other hand, if we decide that is the negative number such that , then Fortunately, these two problems suggest simple solutions.  In the first case, we simply exclude the negative numbers from the domain of . This operation is called restriction   Function  Restriction  and produces a new function defined by . This function becomes invertible and its inverse is the principle square root function   Function  Square Root   defined by . For every non-negative number ,          In the second case, we restrict the domain of to the negative numbers. This produces a new function defined by . The function is invertible and its inverse is the function defined by . For every non-negative real number ,              For each function below, determine a subset of the domain where the function is invertible. Find the range of the function on that interval, then find the inverse. Indicate the domain and range of the inverse.     .     .     .     .    "
+  "body": " Composition Inverses   In keeping with the analogy with operations on numbers, recall the operations of addition and multiplication both have distinguished elements. The number is called the additive identity   Identity  Additive  because every real number remains unchanged when is added to it   Similarly, the number is called the multiplicative identity   Identity  Multiplicative  because every real number remains unchanged when it is multiplied by      Identities  We introduced the idea of an identity using two familiar operations to highlight that the identity element depends on the operation. However, the essential behavior of the identity element is the same: when we perform the operation using the identity, nothing changes. This tells us exactly how the identity element for the function composition operation should behave.   Identity Function   Assume is a set. The identity function on is the function defined by     As we have already seen, the order of function composition matters. Complicating matters more, not all functions can be composed. For a function ,   the composition only makes sense when the domain of contains the range of , and    the composition only makes sense when the range of is contained in the domain of .   For this reason, there is not one single identity function that satisfies the condition and .  Instead, we need to consider the identity functions on the domain and codomain of . The identity function on satisfies because and the identity function on satisfies because .    Composition Inverses  The identity elements for these operations are important because they provide a method for \"undoing\" the operation. This is easiest to understand by considering addition and multiplication first. For any real number , the additive inverse   Inverse  Additive  is the real number that satisfies If we add the number to another number , then we obtain the number . We can \"undo\" this operation by performing the operation \"add the additive inverse of \" -- which we normally just call \"subtract \" -- in the sense that Similarly, we note that the operation \"add c\" will \"undo\" the operation \"subtract \" in the sense that   The operations \"add \" and \"subtract \" define functions and by We can view and in terms of composition:          The story is similar for multiplication. For any non-zero real number , the multiplicative inverse   Inverse  Multiplicative  of is the real number that satisfies Multiplication by and division by define functions by Just as with addition, these two functions \"undo\" one another in the sense that          These are two canonical examples of functions that are invertible , and the ideas captured in inverting addition and multiplication motivate the more general definition.   Composition Inverse   Assume is a function. The composition inverse , if it exists, is a function that satisfies or, equivalently, for every , and for every , .  If has a composition inverse, then we say is invertible .  Function  Invertible       Mathematicians commonly use the word \"inverse\" or \"invertible\" without explicitly stating the operation. It is important to infer the meaning from the context. If the object being discussed is a function, then \"inverse\" means composition inverse, not multiplicative inverse. That is to say,   In order to avoid confusion, we will avoid using the notation and write either or whenever we refer to a fraction with the function in the denominator.     Properties of Invertible Functions  For a function with a composition inverse, the codomain of and the domain of agree. For every , the element satisfies by definition. This provides useful information about the range of an invertible function .    If is a function with a composition inverse, then the range of is     The definition of a composition inverse is symmetric in the sense that the inverse of is and the inverse of is .    If is a function with inverse , then has a composition inverse and      In the language of , the functions \"add \" and \"subtract \" are a pair of inverse functions   Similarly, the functions \"multiply by \" and \"divide by \" are a pair of inverse functions     In general, a linear function is invertible if . To evaluate at the real number , we perform the following operations   Multiply by ,    Add to .   This allows us to decompose as the function \"add \" composed with the function \"multiply by \" Since each function is invertible, we can invert by performing the inverse operations in reverse order, like peeling back the layers of an onion.  Write for the result of applying to . We would invert (or \"undo\") the operation of applying to by performing the operations   Subtract from     Divide by ( Important: This is why we required !)   Note this is equivalent to solving the equation for in terms of   In the language of , the inverse of is the composition   Finally, we can check these are in fact inverses of one another by checking the two compositions explicitly:                                         Our observations about compositions of invertible functions in are true in general.    Assume and are invertible functions. If the composition is well-defined, then is invertible and     As a final example, we illustrate why it is necessary to pay close attention to the domain of a function.   Consider the quadratic function defined by . This function is not invertible .  To see why, we must observe that if an inverse function exists, then by , it must have the form and for every positive number , we must assign a single number such that   However, there are always two such values: a positive number, , and its negative, . This means we must choose one of these two values to be . Unfortunately, both decisions fail to produce an inverse for .  If we decide that is the positive number such that , then   On the other hand, if we decide that is the negative number such that , then Fortunately, these two problems suggest simple solutions.  In the first case, we simply exclude the negative numbers from the domain of . This operation is called restriction   Function  Restriction  and produces a new function defined by . This function becomes invertible and its inverse is the principle square root function   Function  Square Root   defined by . For every non-negative number ,          In the second case, we restrict the domain of to the negative numbers. This produces a new function defined by . The function is invertible and its inverse is the function defined by . For every non-negative real number ,              For each function below, determine a subset of the domain where the function is invertible. Find the range of the function on that interval, then find the inverse. Indicate the domain and range of the inverse.     .     .     .     .    "
 },
 {
   "id": "inverses-intro-1",
@@ -3556,9 +3583,9 @@ var ptx_lunr_docs = [
   "body": " Composition Inverse   Assume is a function. The composition inverse , if it exists, is a function that satisfies or, equivalently, for every , and for every , .  If has a composition inverse, then we say is invertible .  Function  Invertible     "
 },
 {
-  "id": "subsec-comp_inverses-10",
+  "id": "subsec-comp_inverses-9",
   "level": "2",
-  "url": "sec-inverses.html#subsec-comp_inverses-10",
+  "url": "sec-inverses.html#subsec-comp_inverses-9",
   "type": "Warning",
   "number": "5.4.3",
   "title": "",
@@ -3589,7 +3616,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "5.4.6",
   "title": "",
-  "body": " In the language of , the functions \"add \" and \"add \" (or \"subtract \") are a pair of inverse functions   Similarly, the functions \"multiply by \" and \"multiply by \" (or \"divide by \") are a pair of inverse functions   "
+  "body": " In the language of , the functions \"add \" and \"subtract \" are a pair of inverse functions   Similarly, the functions \"multiply by \" and \"divide by \" are a pair of inverse functions   "
 },
 {
   "id": "example-inverse_of_composition",
@@ -3616,7 +3643,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "5.4.9",
   "title": "",
-  "body": " Consider the quadratic function defined by . This function is not invertible .  To see why, we must observe that if an inverse function exists, then by , it must have the form and for every positive number , we must assign a single number such that   However, there are always two such values: a positive number and its negative . This means we must choose one of these two values to be . Unfortunately, both decisions fail to produce an inverse for .  If we decide that is the positive number such that , then   On the other hand, if we decide that is the negative number such that , then Fortunately, these two problems suggest simple solutions.  In the first case, we simply exclude the negative numbers from the domain of . This operation is called restriction   Function  Restriction  and produces a new function defined by . This function becomes invertible and its inverse is the principle square root function   Function  Square Root   defined by . For every non-negative number ,          In the second case, we restrict the domain of to the negative numbers. This produces a new function defined by . The function is invertible and its inverse is the function defined by . For every non-negative real number ,          "
+  "body": " Consider the quadratic function defined by . This function is not invertible .  To see why, we must observe that if an inverse function exists, then by , it must have the form and for every positive number , we must assign a single number such that   However, there are always two such values: a positive number, , and its negative, . This means we must choose one of these two values to be . Unfortunately, both decisions fail to produce an inverse for .  If we decide that is the positive number such that , then   On the other hand, if we decide that is the negative number such that , then Fortunately, these two problems suggest simple solutions.  In the first case, we simply exclude the negative numbers from the domain of . This operation is called restriction   Function  Restriction  and produces a new function defined by . This function becomes invertible and its inverse is the principle square root function   Function  Square Root   defined by . For every non-negative number ,          In the second case, we restrict the domain of to the negative numbers. This produces a new function defined by . The function is invertible and its inverse is the function defined by . For every non-negative real number ,          "
 },
 {
   "id": "sec-inverses-6-2",

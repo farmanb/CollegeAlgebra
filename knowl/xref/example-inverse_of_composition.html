@@ -25,7 +25,7 @@
 <div class="para">This allows us to decompose <span class="process-math">\(f\)</span> as the function "add <span class="process-math">\(b\)</span>" composed with the function "multiply by <span class="process-math">\(m\)</span>"</div>
 <div class="displaymath process-math">
 \begin{equation*}
-f(x) = \operatorname{add}_b \circ \operatorname{mul}_m(x).
+f(x) = \add{b} \circ \mul{m}(x)
 \end{equation*}
 </div>
 <div class="para">Since each function is invertible, we can invert <span class="process-math">\(f\)</span> by performing the inverse operations in reverse order, like peeling back the layers of an onion.</div>
@@ -42,9 +42,9 @@ f(x) = \operatorname{add}_b \circ \operatorname{mul}_m(x).
 <div class="para">In the language of <a href="" class="xref" data-knowl="./knowl/xref/example-inverse_of_arithmetics.html" title="Example 5.4.6">Example 5.4.6</a>, the inverse of <span class="process-math">\(f\)</span> is the composition</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-inverse_of_arithmetics.html">
 \begin{align*}
-f^{-1}(y) \amp= \left(\operatorname{mul}_m\right)^{-1} \circ \left(\operatorname{add}_{b}\right)^{-1}(y)\\
-\amp=\operatorname{mul}_{m^{-1}} \circ \operatorname{add}_{-b}(y) \\
-\amp= \operatorname{mul}_{m^{-1}}(y - b)\\
+f^{-1}(y) \amp= \left(\mul{m}\right)^{-1} \circ \left(\add{b}\right)^{-1}(y)\\
+\amp=\Div{m} \circ \sub{b}(y) \\
+\amp= \Div{m}(y - b)\\
 \amp=\frac{y - b}{m}\\
 \amp=\frac{1}{m}y - \frac{b}{m}.
 \end{align*}
