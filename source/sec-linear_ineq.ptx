@@ -264,7 +264,7 @@
       <me>\abs{d} = \abs{d - 0}</me>
       measures the distance between <m>d</m> and the origin on the number line.
       We can see from 
-      <me>\abs{-d} = \abs{(-d)^2} = \abs{d^2} = \abs{d}</me>
+      <me>\abs{-d - 0} = \abs{-d} = \sqrt{(-d)^2} = \sqrt{d^2} = \abs{d} = \abs{d - 0}</me>
       that <m>d</m> and <m>-d</m> are the same distance from the origin.
     </p>
     <figure xml:id="fig-abs_val_two_sol">
@@ -283,12 +283,12 @@
       ax + by + c \lt d.
       </me>
       If we rewrite these as the linear inequalities 
-      <me>-d - c \lt ax + by + c
+      <me>-d - c \lt ax + by
       \quad\text{and}\quad
       ax + by \lt -c + d,
       </me>
-      then we can see the solutions to <m>\abs{ax + by + c} \lt d</m> are the points that are above the line <m>-d - c = ax + by + c</m> and below the line <m>ax + by = -c + d</m>.
-      Similarly, the solutions to <m>\abs{ax + by + c} \leq d</m> are the points that are either on or between the lines <m>-d - c = ax + by + c</m> and below the line <m>ax + by = -c + d</m>.
+      then we can see the solutions to <m>\abs{ax + by + c} \lt d</m> are the points that are above the line <m>-d - c = ax + by</m> and below the line <m>ax + by = -c + d</m>.
+      Similarly, the solutions to <m>\abs{ax + by + c} \leq d</m> are the points that are either on or between the lines <m>-d - c = ax + by</m> and <m>ax + by = -c + d</m>.
     </p>
     <p>
       For an linear absolute value inequality of the form <m>\abs{ax + by + c} > d</m>, the observation above tells us we are looking for the points <m>(x,y)</m> in the plane such that the number <m>ax + by + c</m> is more than <m>d</m> units away from 0 on the number line.
