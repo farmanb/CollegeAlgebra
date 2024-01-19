@@ -503,63 +503,48 @@ window.MathJax = {
 <li id="def-linear_absolute_value_inequality-2-1-5-4"><div class="para" id="p-derived-def-linear_absolute_value_inequality-2-1-5-4"><span class="process-math">\(\abs{ax + by + c} \geq d\text{.}\)</span></div></li>
 </ul>
 </div></article><div class="para logical" id="sec-linear_ineq-4-3">
-<div class="para">Recall from <a href="" class="xref" data-knowl="./knowl/xref/def-1_distance.html" title="Definition 1.4.1">Definition 1.4.1</a>, for any number <span class="process-math">\(d\text{,}\)</span>
-</div>
+<div class="para">Let <span class="process-math">\(d\)</span> be any positive real number. Recall from <a href="" class="xref" data-knowl="./knowl/xref/def-1_distance.html" title="Definition 1.4.1">Definition 1.4.1</a> that</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def-1_distance.html">
 \begin{equation*}
-\abs{d} = \abs{d - 0}
+\abs{d - 0} = \abs{0 - d} = \abs{d} = d
 \end{equation*}
 </div>
-<div class="para">measures the distance between <span class="process-math">\(d\)</span> and the origin on the number line. We can see from</div>
+<div class="para">measures the distance between <span class="process-math">\(d\)</span> and the origin on the number line. By looking at the number line, we can see the distance between <span class="process-math">\(d\)</span> and the origin is the same as the distance from <span class="process-math">\(-d\)</span> to the origin.</div>
+</div>
+<figure class="figure figure-like" id="fig-abs_val_two_sol"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/tikz-abs_val_two_sol.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.6.13<span class="period">.</span></span><span class="space"> </span>The distance between <span class="process-math">\(d\)</span> and the origin, and between <span class="process-math">\(-d\)</span> and the origin.</figcaption></figure><div class="para logical" id="sec-linear_ineq-4-5">
+<div class="para">We can confirm this algebraically using <a href="" class="xref" data-knowl="./knowl/xref/def-1_distance.html" title="Definition 1.4.1">Definition 1.4.1</a>:</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def-1_distance.html">
 \begin{equation*}
 \abs{-d - 0} = \abs{-d} = \sqrt{(-d)^2} = \sqrt{d^2} = \abs{d} = \abs{d - 0}
 \end{equation*}
 </div>
-<div class="para">that <span class="process-math">\(d\)</span> and <span class="process-math">\(-d\)</span> are the same distance from the origin.</div>
-</div>
-<figure class="figure figure-like" id="fig-abs_val_two_sol"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/tikz-abs_val_two_sol.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.6.13<span class="period">.</span></span><span class="space"> </span>The distance between <span class="process-math">\(d\)</span> and the origin, and between <span class="process-math">\(-d\)</span> and the origin.</figcaption></figure><div class="para logical" id="sec-linear_ineq-4-5">
-<div class="para">This observation tells us for an linear absolute value inequality of the form <span class="process-math">\(\abs{ax + by + c} \lt d\text{,}\)</span> we are looking for the points <span class="process-math">\((x,y)\)</span> in the plane such that the number <span class="process-math">\(ax + by + c\)</span> is less than <span class="process-math">\(d\)</span> units away from 0 on the number line. From <a href="" class="xref" data-knowl="./knowl/xref/fig-abs_val_two_sol.html" title="Figure 3.6.13">Figure 3.6.13</a> we can see these are the solutions to <em class="alert">both</em>
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/fig-abs_val_two_sol.html">
-\begin{equation*}
--d \lt ax + by + c
-\quad\text{and}\quad
-ax + by + c \lt d.
-\end{equation*}
-</div>
-<div class="para">If we rewrite these as the linear inequalities</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/fig-abs_val_two_sol.html">
-\begin{equation*}
--d - c \lt ax + by
-\quad\text{and}\quad
-ax + by \lt -c + d,
-\end{equation*}
-</div>
-<div class="para">then we can see the solutions to <span class="process-math">\(\abs{ax + by + c} \lt d\)</span> are the points that are above the line <span class="process-math">\(-d - c = ax + by\)</span> and below the line <span class="process-math">\(ax + by = -c + d\text{.}\)</span> Similarly, the solutions to <span class="process-math">\(\abs{ax + by + c} \leq d\)</span> are the points that are either on or between the lines <span class="process-math">\(-d - c = ax + by\)</span> and <span class="process-math">\(ax + by = -c + d\text{.}\)</span>
-</div>
+<div class="para">Hence for any positive number <span class="process-math">\(d\text{,}\)</span> there are precisely two numbers that are <span class="process-math">\(d\)</span> units away from the origin: <span class="process-math">\(d\)</span> and <span class="process-math">\(-d\text{.}\)</span> All other numbers are either more than <span class="process-math">\(d\)</span> units away from the origin or less than <span class="process-math">\(d\)</span> units away from the origin.</div>
 </div>
 <div class="para logical" id="sec-linear_ineq-4-6">
-<div class="para">For an linear absolute value inequality of the form <span class="process-math">\(\abs{ax + by + c} &gt; d\text{,}\)</span> the observation above tells us we are looking for the points <span class="process-math">\((x,y)\)</span> in the plane such that the number <span class="process-math">\(ax + by + c\)</span> is more than <span class="process-math">\(d\)</span> units away from 0 on the number line. From <a href="" class="xref" data-knowl="./knowl/xref/fig-abs_val_two_sol.html" title="Figure 3.6.13">Figure 3.6.13</a> we can see these are solutions to <em class="alert">either</em>
-</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/fig-abs_val_two_sol.html">
+<div class="para">Now consider an equation of the form <span class="process-math">\(\abs{ax + by + c} = d\text{.}\)</span> The observation above tells us the solutions to this equation are the points <span class="process-math">\((x,y)\)</span> in the plane such that the number <span class="process-math">\(ax + by + c\)</span> is <em class="emphasis">exactly</em> <span class="process-math">\(d\)</span> units away from the origin. As the only two numbers that are <span class="process-math">\(d\)</span> units away from the origin are <span class="process-math">\(d\)</span> and <span class="process-math">\(-d\text{,}\)</span> either</div>
+<div class="displaymath process-math">
 \begin{equation*}
-ax + by +c \lt -d
-\quad\text{or}\quad
-d \lt ax + by + c.
+ax + by + c = d \quad\text{or}\quad ax + by + c = -d
 \end{equation*}
 </div>
-<div class="para">If we rewrite these as the liner inequalities</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/fig-abs_val_two_sol.html">
+<div class="para">In standard form, we can recognize these as two parallel lines</div>
+<div class="displaymath process-math">
 \begin{equation*}
-ax + by \lt -c - d
-\quad\text{or}\quad
--c + d \lt ax + by,
+ax + by = -c + d \quad\text{and}\quad ax + by = -c - d
 \end{equation*}
 </div>
-<div class="para">then we can see the solutions to <span class="process-math">\(\abs{ax + by + c} \gt d\)</span> are the points that are below the line <span class="process-math">\(ax + by = -c - d\)</span> or above the line <span class="process-math">\(ax + by = -c + d\text{.}\)</span> Similarly, the solutions to the linear absolute value inequality <span class="process-math">\(\abs{ax + by + c} \geq d\)</span> are the points that are either on or below the line <span class="process-math">\(ax + by = -c - d\)</span> or on or above the line <span class="process-math">\(ax + by = -c + d\text{.}\)</span>
-</div>
+<div class="para">Geometrically, this tells us the points between these lines make the number <span class="process-math">\(ax + by + c\)</span> <em class="emphasis">less</em> than <span class="process-math">\(d\text{,}\)</span> while the points outside these lines make the number <span class="process-math">\(ax + by + c\)</span> <em class="emphasis">more</em> than <span class="process-math">\(d\text{.}\)</span> This provides a pleasing geometric description of the solutions to the four types of linear absolute value inequalities:</div>
+<ul class="disc">
+<li id="sec-linear_ineq-4-6-17-1"><div class="para" id="sec-linear_ineq-4-6-17-1-1">The solutions to <span class="process-math">\(\abs{ax + by + c} \lt d\)</span> are the points that are between the lines <span class="process-math">\(ax + by = -d - c \)</span> and <span class="process-math">\(ax + by = -c + d\text{,}\)</span>
+</div></li>
+<li id="sec-linear_ineq-4-6-17-2"><div class="para" id="sec-linear_ineq-4-6-17-2-1">The solutions to <span class="process-math">\(\abs{ax + by + c} \leq d\)</span> are the points that are either on or between the lines <span class="process-math">\(-d - c = ax + by\)</span> and <span class="process-math">\(ax + by = -c + d\text{,}\)</span>
+</div></li>
+<li id="sec-linear_ineq-4-6-17-3"><div class="para" id="sec-linear_ineq-4-6-17-3-1">The solutions to <span class="process-math">\(\abs{ax + by + c} &gt; d\)</span> are the points that are outside the lines <span class="process-math">\(ax + by = -c - d\)</span> and <span class="process-math">\(ax + by = -c + d\text{.}\)</span>
+</div></li>
+<li id="sec-linear_ineq-4-6-17-4"><div class="para" id="sec-linear_ineq-4-6-17-4-1">The solutions to <span class="process-math">\(\abs{ax + by + c} \geq d\)</span> are the points that are either on or outside the lines <span class="process-math">\(ax + by = -c - d\)</span> and <span class="process-math">\(ax + by = -c + d\text{.}\)</span>
+</div></li>
+</ul>
 </div>
 <article class="example example-like" id="sec-linear_ineq-4-7"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.6.14</span><span class="period">.</span>
@@ -568,18 +553,25 @@ ax + by \lt -c - d
 </div>
 <div class="solutions"><details id="sec-linear_ineq-4-7-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like">
 <div class="para logical" id="sec-linear_ineq-4-7-2-1">
-<div class="para">The solutions to the inequality <span class="process-math">\(\abs{2x + 3y} \lt 5\)</span> are the points that are solutions to <em class="alert">both</em> of the linear inequalities</div>
+<div class="para">The solutions to the inequality <span class="process-math">\(\abs{2x + 3y} \lt 5\)</span> are the points between the lines</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/fig-2x_3y_lt_5.html ./knowl/xref/fig-2x_3y_gt_-5.html">
 \begin{equation*}
--5 \lt 2x + 3y \quad\text{and}\quad 2x + 3y \lt 5.
+2x + 3y = -5 \quad\text{and}\quad 2x + 3y = 5
 \end{equation*}
 </div>
-<div class="para">This means the graph is the <em class="alert">overlap</em> between <a href="" class="xref" data-knowl="./knowl/xref/fig-2x_3y_lt_5.html" title="Figure 3.6.5">Figure 3.6.5</a> and <a href="" class="xref" data-knowl="./knowl/xref/fig-2x_3y_gt_-5.html" title="Figure 3.6.9">Figure 3.6.9</a>. That is, the points that are between the lines</div>
+<div class="para">Since <span class="process-math">\(2x + 3y = -5\)</span> is the lower line and <span class="process-math">\(2x + 3y = 5x\)</span> is the upper line, we can regard these as solutions to <em class="alert">both</em> of the linear inequalities</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/fig-2x_3y_lt_5.html ./knowl/xref/fig-2x_3y_gt_-5.html">
 \begin{equation*}
-2x + 3y = -5 \quad\text{and}\quad 2x + 3y = 5.
+-5 \lt 2x + 3y \quad\text{and}\quad 2x + 3y \lt 5
 \end{equation*}
 </div>
+<div class="para">We can condense these as the compound inequality</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/fig-2x_3y_lt_5.html ./knowl/xref/fig-2x_3y_gt_-5.html">
+\begin{equation*}
+-5 \lt 2x + 3y \lt 5
+\end{equation*}
+</div>
+<div class="para">This means the graph is the <em class="alert">overlap</em> between <a href="" class="xref" data-knowl="./knowl/xref/fig-2x_3y_lt_5.html" title="Figure 3.6.5">Figure 3.6.5</a> and <a href="" class="xref" data-knowl="./knowl/xref/fig-2x_3y_gt_-5.html" title="Figure 3.6.9">Figure 3.6.9</a>.</div>
 </div> <figure class="figure figure-like" id="fig-abs_2x_3y_lt_5"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/tikz-abs_2x_3y_lt_5.svg" role="img" class="contained"></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.6.15<span class="period">.</span></span><span class="space"> </span>The graph of the linear absolute value inequality <span class="process-math">\(\abs{2x + 3y} \lt 5\text{.}\)</span></figcaption></figure>
 </div></details></div></article><article class="example example-like" id="sec-linear_ineq-4-8"><h4 class="heading">
@@ -589,18 +581,25 @@ ax + by \lt -c - d
 </div>
 <div class="solutions"><details id="sec-linear_ineq-4-8-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like">
 <div class="para logical" id="sec-linear_ineq-4-8-2-1">
-<div class="para">The solutions to the inequality <span class="process-math">\(\abs{2x + 3y} \leq 5\)</span> are the points that are solutions to <em class="alert">both</em> of the linear inequalities</div>
+<div class="para">The solutions to the inequality <span class="process-math">\(\abs{2x + 3y} \leq 5\)</span> are the points that are either on or between the lines</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/fig-2x_3y_leq_5.html ./knowl/xref/fig-2x_3y_geq_-5.html">
 \begin{equation*}
--5 \leq 2x + 3y \quad\text{and}\quad 2x + 3y \leq 5.
+2x + 3y = -5 \quad\text{and}\quad 2x + 3y = 5
 \end{equation*}
 </div>
-<div class="para">This means the graph is the <em class="alert">overlap</em> between <a href="" class="xref" data-knowl="./knowl/xref/fig-2x_3y_leq_5.html" title="Figure 3.6.7">Figure 3.6.7</a> and <a href="" class="xref" data-knowl="./knowl/xref/fig-2x_3y_geq_-5.html" title="Figure 3.6.11">Figure 3.6.11</a>. That is, the points that are either on or between the lines</div>
+<div class="para">Since <span class="process-math">\(2x + 3y = -5\)</span> is the lower line and <span class="process-math">\(2x + 3y = 5\)</span> is the upper line, we can regard these as the points that are solutions to <em class="alert">both</em> of the linear inequalities</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/fig-2x_3y_leq_5.html ./knowl/xref/fig-2x_3y_geq_-5.html">
 \begin{equation*}
-2x + 3y = -5 \quad\text{and}\quad 2x + 3y = 5.
+-5 \leq 2x + 3y \quad\text{and}\quad 2x + 3y \leq 5
 \end{equation*}
 </div>
+<div class="para">We can condense these into the compound inequality</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/fig-2x_3y_leq_5.html ./knowl/xref/fig-2x_3y_geq_-5.html">
+\begin{equation*}
+-5 \leq 2x + 3y \leq 5.
+\end{equation*}
+</div>
+<div class="para">This means the graph is the <em class="alert">overlap</em> between <a href="" class="xref" data-knowl="./knowl/xref/fig-2x_3y_leq_5.html" title="Figure 3.6.7">Figure 3.6.7</a> and <a href="" class="xref" data-knowl="./knowl/xref/fig-2x_3y_geq_-5.html" title="Figure 3.6.11">Figure 3.6.11</a>.</div>
 </div> <figure class="figure figure-like" id="sec-linear_ineq-4-8-2-2"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/sec-linear_ineq-4-8-2-2-2.svg" role="img" class="contained"></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.6.17<span class="period">.</span></span><span class="space"> </span>The graph of the linear absolute value inequality <span class="process-math">\(\abs{2x + 3y} \leq 5\text{.}\)</span></figcaption></figure>
 </div></details></div></article><article class="example example-like" id="sec-linear_ineq-4-9"><h4 class="heading">
@@ -610,13 +609,19 @@ ax + by \lt -c - d
 </div>
 <div class="solutions"><details id="sec-linear_ineq-4-9-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like">
 <div class="para logical" id="sec-linear_ineq-4-9-2-1">
-<div class="para">The solutions to the inequality <span class="process-math">\(\abs{2x + 3y} \lt 5\)</span> are the points that are solutions to <em class="alert">either</em>
+<div class="para">The solutions to the inequality <span class="process-math">\(\abs{2x + 3y} \lt 5\)</span> are the points that are outside the lines</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2x + 3y = -5 \quad\text{and}\quad 2x + 3y = 5
+\end{equation*}
+</div>
+<div class="para">Since <span class="process-math">\(2x + 3y = -5\)</span> is the lower line and <span class="process-math">\(2x + 3y = 5\)</span> is the upper line, we can regard these as solutions to <em class="alert">either</em>
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
-5 \lt 2x + 3y
+2x + 3y \lt -5
 \quad\text{or}\quad
-2x + 3y \lt -5.
+5 \lt 2x + 3y
 \end{equation*}
 </div>
 <div class="para">This means the graph is the <em class="alert">combination</em> of the graphs for the linear inequalities</div>
@@ -627,8 +632,6 @@ ax + by \lt -c - d
 2x + 3y \gt 5.
 \end{equation*}
 </div>
-<div class="para">That is, the points that are either above the line <span class="process-math">\(2x + 3y = 5\)</span> or below the line <span class="process-math">\(2x + 3y = -5\text{.}\)</span>
-</div>
 </div> <figure class="figure figure-like" id="fig-abs_2x_3y_gt_5"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/tikz-abs_2x_3y_gt_5.svg" role="img" class="contained"></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.6.19<span class="period">.</span></span><span class="space"> </span>The graph of the linear absolute value inequality <span class="process-math">\(\abs{2x + 3y} \gt 5\text{.}\)</span></figcaption></figure>
 </div></details></div></article><article class="example example-like" id="sec-linear_ineq-4-10"><h4 class="heading">
@@ -638,15 +641,26 @@ ax + by \lt -c - d
 </div>
 <div class="solutions"><details id="sec-linear_ineq-4-10-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like">
 <div class="para logical" id="sec-linear_ineq-4-10-2-1">
-<div class="para">The solutions to the inequality <span class="process-math">\(\abs{2x + 3y} \geq 5\)</span> are the points that are solutions to <em class="alert">either</em> the linear inequality <span class="process-math">\(5 \leq 2x + 3y\)</span> or the linear inequality <span class="process-math">\(2x + 3y \leq -5.\)</span> This means the graph is the <em class="alert">combination</em> of the graphs for the linear inequalities</div>
+<div class="para">The solutions to the inequality <span class="process-math">\(\abs{2x + 3y} \geq 5\)</span> are the points that are either on or outside the lines</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2x + 3y = -5 \quad\text{and}\quad 2x + 3y = 5
+\end{equation*}
+</div>
+<div class="para">Since <span class="process-math">\(2x + 3y = -5\)</span> is the lower line and <span class="process-math">\(2x + 3y = 5\)</span> is the upper line, we can regard these as solutions to <em class="alert">either</em>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2x + 3y \leq -5 \quad\text{or}\quad 5 \leq 2x + 3y
+\end{equation*}
+</div>
+<div class="para">This means the graph is the <em class="alert">combination</em> of the graphs for the linear inequalities</div>
 <div class="displaymath process-math">
 \begin{equation*}
 2x + 3 \leq -5
 \quad\text{and}\quad
 2x + 3y \geq 5.
 \end{equation*}
-</div>
-<div class="para">That is, the points that are either on or above the line <span class="process-math">\(2x + 3y = 5\text{,}\)</span> or on or below the line <span class="process-math">\(2x + 3y = -5\text{.}\)</span>
 </div>
 </div> <figure class="figure figure-like" id="fig-abs_2x_3y_geq_5"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/tikz-abs_2x_3y_geq_5.svg" role="img" class="contained"></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.6.21<span class="period">.</span></span><span class="space"> </span>The graph of the linear absolute value inequality <span class="process-math">\(\abs{2x + 3y} \geq 5\text{.}\)</span></figcaption></figure>
