@@ -112,7 +112,7 @@
 	    </li>
 	    <li>
 	      <p>
-		If <m>a \lt 1</m>, reflect the graph of <m>\abs{a}(x - h)^2</m> over the <m>x</m>-axis.
+		If <m>a \lt 0</m>, reflect the graph of <m>\abs{a}(x - h)^2</m> over the <m>x</m>-axis.
 	      </p>
 	    </li>
 	    <li>
