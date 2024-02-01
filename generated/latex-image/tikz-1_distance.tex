@@ -1,0 +1,28 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz, pgfplots} \usetikzlibrary{positioning,matrix,arrows} \usetikzlibrary{shapes,decorations,shadows,fadings,patterns} \usetikzlibrary{decorations.markings} \usetikzlibrary{math}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \newcommand{\C}{\mathbb C} \newcommand{\abs}[1]{\left|#1\right|} \newcommand{\id}{\operatorname{id}} \newcommand{\Exp}[1]{\exp_{#1}} \newcommand{\mul}[1]{\operatorname{mul}_{#1}} \newcommand{\add}[1]{\operatorname{add}_{#1}} \newcommand{\Div}[1]{\operatorname{div}_{#1}} \newcommand{\sub}[1]{\operatorname{sub}_{#1}}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+	  \begin{tikzpicture}
+  \coordinate (A) at (-5,0);
+  \coordinate (B) at (5,0);
+
+  \draw [very thick,\lt->] (A) -- (B);
+  \draw [very thick,blue] (-3,0) -- (4,0);
+  \draw [very thick] (-3,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$x$};
+  \draw [very thick] (4,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$y$};
+  \draw[thick,decorate,decoration={brace,amplitude=10pt},yshift=2.5pt] (-3,0) -- (4,0) node [midway,above,yshift=5pt] {$\abs{x - y}$};
+\end{tikzpicture}
+}
+\end{document}

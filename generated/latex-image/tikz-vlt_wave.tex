@@ -1,0 +1,33 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz, pgfplots} \usetikzlibrary{positioning,matrix,arrows} \usetikzlibrary{shapes,decorations,shadows,fadings,patterns} \usetikzlibrary{decorations.markings} \usetikzlibrary{math}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \newcommand{\C}{\mathbb C} \newcommand{\abs}[1]{\left|#1\right|} \newcommand{\id}{\operatorname{id}} \newcommand{\Exp}[1]{\exp_{#1}} \newcommand{\mul}[1]{\operatorname{mul}_{#1}} \newcommand{\add}[1]{\operatorname{add}_{#1}} \newcommand{\Div}[1]{\operatorname{div}_{#1}} \newcommand{\sub}[1]{\operatorname{sub}_{#1}}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+	    \begin{tikzpicture}[domain=-4 : 3]
+  \def\size{5}
+  \path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
+  \foreach \i in {1,...,\size} 
+  \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
+  (-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$} 
+  (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
+  (2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
+  \draw [very thick,->] (-\size,0) -- (\size+.2,0) node [anchor=south] {$x$};
+  \draw [very thick,->] (0,-\size) -- (0,\size+.2) node [anchor=west] {$y$};
+
+  \draw [color=blue,thick] plot [smooth] (\x,{sin(\x r)});
+  \node [color=blue] at (-4, {sin(-4 r)}) {$\bullet$};
+  \node [color=blue] at (3, {sin(3 r)}) {$\bullet$};
+\end{tikzpicture}
+}
+\end{document}

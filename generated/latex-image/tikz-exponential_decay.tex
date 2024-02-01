@@ -1,0 +1,52 @@
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use publisher page-geometry)
+\usepackage{amsmath,amssymb}
+\usepackage{tikz, pgfplots} \usetikzlibrary{positioning,matrix,arrows} \usetikzlibrary{shapes,decorations,shadows,fadings,patterns} \usetikzlibrary{decorations.markings} \usetikzlibrary{math}
+\ifdefined\tikzset
+\tikzset{ampersand replacement = \amp}
+\fi
+\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} \newcommand{\C}{\mathbb C} \newcommand{\abs}[1]{\left|#1\right|} \newcommand{\id}{\operatorname{id}} \newcommand{\Exp}[1]{\exp_{#1}} \newcommand{\mul}[1]{\operatorname{mul}_{#1}} \newcommand{\add}[1]{\operatorname{add}_{#1}} \newcommand{\Div}[1]{\operatorname{div}_{#1}} \newcommand{\sub}[1]{\operatorname{sub}_{#1}}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+\begin{document}
+\pagestyle{empty}
+\resizebox{\width}{\height}{
+\begin{tikzpicture}[pics/legend entry/.style={code={%   
+       \draw[pic actions]
+(-0.5,0.25) -- (0.5,0.25);}}]
+\draw[very thin,color=gray] (-5,0) grid (5,5);
+
+\draw[very thick,->] (-5.2,0) -- (5.2,0) node[right] {$x$};
+\draw[very thick,->] (0,-.2) -- (0,5.2) node[above] {$y$};
+
+\begin{scope}[domain=-3:5]
+\clip (-5,0) rectangle (5,5);
+\draw [color=red,thick] plot[smooth,samples=500] (\x,{(1/2)^(\x)});
+\draw [color=orange,thick] plot[smooth,samples=500] (\x,{(1/e)^(\x)});
+\draw [color=yellow,thick] plot[smooth,samples=500] (\x,{(1/3)^(\x)});
+\draw [color=green!70!black,thick] plot[smooth,samples=500] (\x,{(1/4)^(\x)});
+\draw [color=blue,thick] plot[smooth,samples=500] (\x,{(1/5)^(\x)});
+\draw [color=blue!50,thick] plot[smooth,samples=500] (\x,{(1/6)^(\x)});
+\draw [color=violet,thick] plot[smooth,samples=500] (\x,{(1/7)^(\x)});
+\end{scope}
+
+
+\node at (0,1) {$\bullet$};
+\node [above left] at (0,1) {$(0,1)$};
+
+\matrix [draw, above left] at (8,0) {
+\pic[red]{legend entry}; \amp  \node[red,font=\tiny] {$\frac{1}{2}^x$}; \\
+\pic[orange]{legend entry}; \amp  \node[orange,font=\tiny] {$\frac{1}{e}^x$}; \\
+\pic[yellow]{legend entry}; \amp  \node[yellow!75!black,font=\tiny] {$\frac{1}{3}^x$}; \\
+\pic[green!70!black]{legend entry}; \amp  \node[green!70!black,font=\tiny] {$\frac{1}{4}^x$}; \\
+\pic[blue]{legend entry}; \amp  \node[blue,font=\tiny] {$\frac{1}{5}^x$}; \\
+\pic[blue!50]{legend entry}; \amp  \node[blue!50,font=\tiny] {$\frac{1}{6}^x$}; \\
+\pic[violet]{legend entry}; \amp  \node[violet,font=\tiny] {$\frac{1}{7}^x$}; \\
+};
+
+\end{tikzpicture}
+}
+\end{document}
