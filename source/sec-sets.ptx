@@ -833,18 +833,10 @@
   <xi:include href="./worksheets/wksht-sets.ptx"/>
 
   <exercises component="web">
-    <exercise >
+    <exercise xml:id="exercise-sets-interval-notation">
       <statement>
 	<p>
 	  Write the real numbers that are at least as large as 2 and less than 5 in set notation.
-	</p>
-      </statement>
-    </exercise>
-
-    <exercise >
-      <statement>
-	<p>
-	  Write the integers that are at least as large as 2 and less than 5 in set notation.
 	</p>
       </statement>
     </exercise>
