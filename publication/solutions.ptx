@@ -16,8 +16,8 @@
     <!-- There are four components (statement/hint/answer/solution) for each -->
     <!-- of five exercise types (inline/divisional/worksheet/reading/        -->
     <!-- project). Some examples:                                            -->
-    <exercise-inline statement="yes" hint="yes" answer="no" solution="no" />
-    <exercise-divisional statement="yes" hint="yes" answer="no" solution="no"/>
+    <exercise-inline statement="yes" hint="yes" answer="yes" solution="yes" />
+    <exercise-divisional statement="yes" hint="yes" answer="yes" solution="yes"/>
     <!-- Style of fill-in-the-blanks: -->
     <fillin textstyle="underline" mathstyle="shade" />
     <!-- You can set a watermark: -->
@@ -28,7 +28,7 @@
   <!-- Set where external assets and generated assets will be   -->
   <!-- stored or created.  Directories are relative to the main -->
   <!-- source PreTeXt file                                      -->
-  <source>
+  <source private-solutions="/Users/farman/solutions/collegealgebra.ptx">
     <directories external="../assets" generated="../generated-assets" />
     <version include="web"/>
     <!-- <version include="print"/> -->
