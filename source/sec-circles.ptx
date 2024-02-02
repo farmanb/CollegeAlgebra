@@ -82,13 +82,13 @@
   <xi:include href="worksheets/wksht-circles.ptx"/>
 
   <exercises component="web">
-    <exercise>
+    <exercise xml:id="exercise-circles-equation_from_radius_and_center">
       <p>
 	Write down the equation of the circle of radius <m>\sqrt{2}</m> centered at <m>(-3, 1)</m>.
       </p>
     </exercise>
     
-    <exercise>
+    <exercise xml:id="exercise-circles-radius_and_center_from_equation">
       <p>
 	Find the center and radius of the circle
 	<me>(x - 3)^2 + (y - 17)^2  = 1225.</me>
@@ -96,7 +96,7 @@
       </p>
     </exercise>
 
-    <exercise>
+    <exercise xml:id="exercise-circles-radius_from_two_points">
       <p>
 	Find the radius of the circle with center <m>(2,3)</m> that passes through the point <m>(-1,7)</m>.
 	Write the equation of this circle in standard form.
@@ -104,7 +104,7 @@
       </p>
     </exercise>
 
-    <exercise>
+    <exercise xml:id="exercise-circles-equation_from_diameter">
       <p>
 	The endpoints of a diameter of a circle are <m>(2,2)</m> and <m>(4,4)</m> as in <xref ref="fig-diameter_exercise"/>.
 	Write the equation for this circle in standard form.

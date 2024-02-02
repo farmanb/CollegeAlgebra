@@ -97,7 +97,7 @@
   </subsection>
 
   <exercises component="web">
-    <exercise>
+    <exercise xml:id="exercise-cartesian_coordinates-plot_points">
       <statement>
 	<p>Plot the following points in the Cartesian plane.</p>
 	<sidebyside widths="20% 40% 25%" margins="auto" valign="middle">
@@ -113,7 +113,7 @@
       </statement>
     </exercise>
 
-    <exercise>
+    <exercise xml:id="exercise-cartesian_coordinates-identify_quadrants">
       <statement>
 	<p>
 	  For each of the points that you plotted above, indicate the quadrant that contains the point.

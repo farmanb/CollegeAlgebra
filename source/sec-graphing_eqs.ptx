@@ -416,28 +416,28 @@
       </figure>
     </introduction>
     
-    <exercise>
+    <exercise xml:id="exercise-graphing_eqs-find_x_intercept">
       <p>
 	Find the value of <m>x</m> such that the point <m>(x,0)</m> lies on the graph of the equation.
 	Plot this point on the graph above and label it.
       </p>
     </exercise>
 
-    <exercise>
+    <exercise xml:id="exercise-graphing_eqs-find_y_intercept">
       <p>
 	Find the value of <m>y</m> such that the point <m>(0,y)</m> lies on the graph of the equation.
 	Plot this point on the graph above and label it.
       </p>
     </exercise>
     
-    <exercise>
+    <exercise xml:id="exercise-graphing_eqs-point_on_graph">
       <p>
 	Is the point <m>(-3,-4)</m> on the graph of the equation?
 	Justify your answer using the equation of the graph.
       </p>
     </exercise>
     
-    <exercise>
+    <exercise xml:id="exercise-graphing_eqs-point_not_on_graph">
       <p>
 	Is the point <m>\left(4,\frac{1}{2}\right)</m> on the graph of the equation?
 	Justify your answer using the equation of the graph.
