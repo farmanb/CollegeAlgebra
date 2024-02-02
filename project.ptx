@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-    This file, the project manifest, provides the overall configuration for
-    your PreTeXt project. To edit the content of your document, open
-    `source/main.ptx`. See
-    https://pretextbook.org/doc/guide/html/processing-CLI.html#cli-project-manifest.
--->
+<!-- This file, the project manifest, provides the overall configuration for your PreTeXt project. To edit the content of your document, open `source/main.ptx`. See https://pretextbook.org/doc/guide/html/processing-CLI.html#cli-project-manifest. -->
 <project ptx-version="2">
   <targets>
-    <target name="web" format="html" output-dir="web">
-      <stringparams author.tools="yes"/>
-    </target>
-    <target name="print" format="pdf" output-dir="pdf">
-      <stringparams author.tools="no"/>
-    </target>
+    <target name="web" format="html" />
+    <target name="print" format="pdf" />
     <target name="print-latex" format="latex"/>
     <target name="notes" format="pdf" output-dir="notes" publication="notes.ptx"/>
-    <target name="solutions" format="pdf" source="main.ptx" publication="solutions.ptx" xsl="solution-manual.xsl" output-dir="solutions">
-    </target>
+    <target name="solutions" format="pdf" source="main.ptx" publication="solutions.ptx" xsl="solution-manual.xsl" output-dir="solutions"/>
   </targets>
 </project>
