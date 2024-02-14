@@ -398,7 +398,7 @@
 	    <h>odd</h>
 	  </idx>
 	  if for every <m>x \in A</m>,
-	  <me>f(-x) = f(x)</me>
+	  <me>f(-x) = -f(x)</me>
 	</p>
       </statement>
     </definition>
