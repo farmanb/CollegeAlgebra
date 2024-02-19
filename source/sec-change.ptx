@@ -553,17 +553,22 @@
 	</p>
 	<figure xml:id="fig-local_extrema">
 	  <caption>The graph of <m>f</m></caption>
-	  <image xml:id="img-local_extrema" width="50%">
+	  <image xml:id="img-local_extrema">
 	    <latex-image xml:id="tikz-local_extrama">
-	      \begin{tikzpicture}[scale=0.5]
-	      \draw[very thin,color=gray] (-15,-15) grid (15,15);
+	      \begin{tikzpicture}[scale=0.2]
+	      \def\xmin{-20}
+	      \def\xmax{20}
+	      \def\ymin{-20}
+	      \def\ymax{20}
 	      
-	      \draw[very thick,->] (-15.2,0) -- (15.2,0) node[right] {$x$};
-	      \draw[very thick,->] (0,-15.2) -- (0,15.2) node[above] {$y$};
+	      \draw[very thin,color=gray,step=5] (\xmin,\ymin) grid (\xmax,\ymax);
+	      
+	      \draw[very thick,->] (\xmin -.2,0) -- (\xmax+.2,0) node[right] {$x$};
+	      \draw[very thick,->] (0,\ymin-.2) -- (0,\ymax+.2) node[above] {$y$};
 
 	      \begin{scope}
-	      \clip (-15,-15) rectangle (15,15);
-	      \draw [color=blue,thick] plot[smooth,samples=500,domain=-4:4] (\x,{2*(\x)^3 - 3*(\x)^2 - 12*\x + 5});
+	      \clip (\xmin,\ymin) rectangle (\xmax,\ymax);
+	      \draw [color=blue, thick] plot[smooth,samples=500,domain=-4:4] (\x,{2*(\x)^3 - 3*(\x)^2 - 12*\x + 5});
 	      \end{scope}
 
 	      \node at (-1,12) {$\bullet$};
