@@ -42,13 +42,13 @@
 	    <h>Linear</h>
 	    <h>Solution</h>
 	  </idx>
-	  to an inequality in the variables <m>x</m> and <m>y</m> is an ordered pair <m>(a,b)</m> that make the inequality true when
+	  to an inequality in the variables <m>x</m> and <m>y</m> is an ordered pair <m>(s,t)</m> that make the inequality true when
 	  <ol>
 	    <li>
-	      the first coordinate, <m>a</m>, is substituted into the inequality for <m>x</m>, and
+	      the first coordinate, <m>s</m>, is substituted into the inequality for <m>x</m>, and
 	    </li>
 	    <li>
-	      the second coordinate, <m>b</m>, is substituted into the inequality for <m>y</m>.
+	      the second coordinate, <m>t</m>, is substituted into the inequality for <m>y</m>.
 	    </li>
 	  </ol>
 	</p>
@@ -78,7 +78,13 @@
       </statement>
       <solution>
 	<p>
-	  The graph of <m>2x + 3y \lt 5</m> consists of all the points that are below the line <m>2x + 3y = 5</m>.
+	  First, we rewrite the inequality
+	  <md>
+	    <mrow>\amp 2x + 3y \lt 5 \amp\amp \text{Subtract}\ 2x\ \text{from both sides}</mrow>
+	    <mrow>\amp 3y \lt -2x + 5 \amp\amp \text{Divide both sides by}\ 3</mrow>
+	    <mrow>\amp y \lt -\frac{2}{3}x + \frac{5}{3}</mrow>
+	  </md>
+	  In this form, we can see the graph of <m>2x + 3y \lt 5</m> consists of all the points that are below the line <m>2x + 3y = 5</m>.
 	</p>
 	<p>
 	  We use a dashed line to indicate the points on the line <m>2x + 3y = 5</m> are <alert>not</alert> a solution to the inequality and shade the portion of the plane beneath the line to indicate those points are solutions to the inequality.
@@ -102,7 +108,13 @@
       </statement>
       <solution>
 	<p>
-	  The graph of <m>2x + 3y \leq 5</m> consists of all the points that are on or below the line <m>2x + 3y = 5</m>.
+	  First, we rewrite the inequality
+	  <md>
+	    <mrow>\amp 2x + 3y \leq 5 \amp\amp \text{Subtract}\ 2x\ \text{from both sides}</mrow>
+	    <mrow>\amp 3y \leq -2x + 5 \amp\amp \text{Divide both sides by}\ 3</mrow>
+	    <mrow>\amp y \leq -\frac{2}{3}x + \frac{5}{3}</mrow>
+	  </md>
+	  In this form, we can see the graph of <m>2x + 3y \lt 5</m> consists of all the points that are on or below the line <m>2x + 3y = 5</m>.
 	</p>
 	<p>
 	  We use a solid line to indicate the points on the line <m>2x + 3y = 5</m> are a solution to the linear inequality and shade the portion of the plane beneath the line to indicate that those points are also solutions.
@@ -127,7 +139,13 @@
       </statement>
       <solution>
 	<p>
-	  The graph of <m>2x + 3y \gt -5</m> consists of all the points that are above the line <m>2x + 3y = -5</m>.
+	  First, we rewrite the inequality
+	  <md>
+	    <mrow>\amp 2x + 3y \gt 5 \amp\amp \text{Subtract}\ 2x\ \text{from both sides}</mrow>
+	    <mrow>\amp 3y \gt -2x + 5 \amp\amp \text{Divide both sides by}\ 3</mrow>
+	    <mrow>\amp y \gt -\frac{2}{3}x + \frac{5}{3}</mrow>
+	  </md>
+	  In this form, we can see the graph of <m>2x + 3y \lt 5</m> consists of all the points that are above the line <m>2x + 3y = 5</m>.
 	</p>
 	<p>
 	  We use a dashed line to indicate the points on the line <m>2x + 3y = -5</m> are <alert>not</alert> solutions to the inequality and shade the portion of the plane above the line to indicate that those points are solutions.
@@ -151,7 +169,13 @@
       </statement>
       <solution>
 	<p>
-	  The graph of <m>2x + 3y \lt -5</m> consists of all the points that are either on or above the line <m>2x + 3y = -5</m>.
+	  First, we rewrite the inequality
+	  <md>
+	    <mrow>\amp 2x + 3y \geq 5 \amp\amp \text{Subtract}\ 2x\ \text{from both sides}</mrow>
+	    <mrow>\amp 3y \geq -2x + 5 \amp\amp \text{Divide both sides by}\ 3</mrow>
+	    <mrow>\amp y \geq -\frac{2}{3}x + \frac{5}{3}</mrow>
+	  </md>
+	  In this form, we can see the graph of <m>2x + 3y \lt 5</m> consists of all the points that are on or above the line <m>2x + 3y = 5</m>.
 	</p>
 	<p>
 	  We use a solid line to indicate the points on the line <m>2x + 3y = -5</m> are solutions to the linear inequality and shade the portion of the plane above the line to indicate that those points are also solutions.
@@ -300,7 +324,7 @@
 	</li>
 	<li>
 	  <p>
-	    The solutions to <m>\abs{ax + by + c} \leq d</m> are the points that are either on or between the lines <m>-d - c = ax + by</m> and <m>ax + by = -c + d</m>,
+	    The solutions to <m>\abs{ax + by + c} \leq d</m> are the points that are either on or between the lines <m>ax + by = -d - c</m> and <m>ax + by = -c + d</m>,
 	  </p>
 	</li>
 	<li>
