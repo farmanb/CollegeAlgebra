@@ -4,7 +4,7 @@
   <title>Polynomial Division</title>
   <p>
     Another method for finding roots that is often paired with <xref ref="thm-rational_root" text="title"/> is polynomial division.
-    Besides finding roots, the method of polynomial division will be important in <xref ref="sec-rational_functions"/>.
+    Besides finding roots, the method of polynomial division will be important in <xref ref="sec-alg_comb_functions"/>.
   </p>
   <p>
     Recall that if we have an integer <m>n</m> and a smaller integer, <m>d</m>, then we can always find integers <m>q</m> and <m>r</m> with <m>r \lt d</m> such that

@@ -12,6 +12,6 @@
   <xi:include href="sec-linear_ineq.ptx"/>
   <xi:include href="sec-quadratic_functions.ptx"/>
   <xi:include href="sec-roots_quadratics.ptx"/>
-  <xi:include href="sec-inequalities.ptx"/>
+  <!-- <xi:include href="sec-inequalities.ptx"/> -->
 </chapter>
 
