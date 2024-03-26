@@ -610,7 +610,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "The Distance Formula",
-  "body": " The Distance Formula   Within the Cartesian plane, we will often want to determine the distance between two points. In this section, we extend the notion of distance between two points on the number line to the Cartesian plane.    Distance in One Dimension    Assume and are any two numbers. The distance   Distance  Number Line  from to on the number line is given by the formula     The number measures the length of the segment of the number line starting at and ending at .   The distance from to on the number line.      Of course, we could also ask about the length of the segment of the number line starting at and ending at . suggests that these two numbers should be the same. We can verify this algebraically using : the distance from to on the number line is We say the distance is symmetric   Distance  Number Line  Symmetric  to signify that the distance between and whether you start measuring at and end at , or if you start measuring at and end at .    Distance in Two Dimensions  Our goal for this section is to measure the distance between two points in the plane using First, we must agree on what that statement should mean. In mathematics, whenever a term might be ambiguous, we remove the ambiguity by defining the term explicitly.    The distance   Distance  Cartesian Plane  between the points and in the Cartesian plane is the length of the line segment connecting the two points.   The line segment of length connecting and        To measure the length of this line, we need a little help from geometry. If our line segment were either horizontal or vertical, then we could use to measure the parallel segment of the -axis or -axis, respectively. To take advantage of these observations, we draw one horizontal line and one vertical line to form a right triangle.   The triangle formed by adding in the point      From , we can see the length of the horizontal side is the distance between the points and along the -axis. Similarly, the length of the vertical side is the distance between the points and along the -axis. Using , we have Since we know two of the three sides, we can use the Pythagorean Theorem to find the third side.   The Pythagorean Theorem   The right triangle in satisfies the equation    Right triangle with sides of length , , and .        Square the two side lengths By the Pythagorean Theorem, the square of the distance between the points and satisfies Taking the square root of both sides yields the distance formula in the plane.   The Distance Formula   The distance from the point to the point in the Cartesian plane is given by      Just like the distance between numbers, the distance between two points in the plane is symmetric. We can verify this using :      Find the distance between the points and .    By the distance between the points and is        Distance Between Points   Plot each pair of points in the plane. Find the length of the line segment that connects them.     and .    The points and , and the line segment connecting them.      The distance between the points and is given by the formula      and      The points and , and the line segment connecting them.     The distance between the points and is given by the formula      and     The points and , and the line segment connecting them.      The distance between the points and is given by the formula     Find the perimeter of the triangle below.  The triangle with vertices , , and      The perimeter of the triangle is found by summing the lengths of each side. The length of the vertical side is given by The length of the horizontal side is given by The length of the hypotenuse is given by Therefore the perimeter of the triangle is     "
+  "body": " The Distance Formula   Within the Cartesian plane, we will often want to determine the distance between two points. In this section, we extend the notion of distance between two points on the number line to the Cartesian plane.    Distance in One Dimension    Assume and are any two numbers. The distance   Distance  Number Line  from to on the number line is given by the formula     The number measures the length of the segment of the number line starting at and ending at .   The distance from to on the number line.      Of course, we could also ask about the length of the segment of the number line starting at and ending at . suggests that these two numbers should be the same. We can verify this algebraically using : the distance from to on the number line is We say the distance is symmetric   Distance  Number Line  Symmetric  to signify that the distance between and whether you start measuring at and end at , or if you start measuring at and end at .    Distance in Two Dimensions  Our goal for this section is to measure the distance between two points in the plane using First, we must agree on what that statement should mean. In mathematics, whenever a term might be ambiguous, we remove the ambiguity by defining the term explicitly.   Distance in the Plane   The distance   Distance  Cartesian Plane  between the points and in the Cartesian plane is the length of the line segment connecting the two points.   The line segment of length connecting and        To measure the length of this line, we need a little help from geometry. If our line segment were either horizontal or vertical, then we could use to measure the parallel segment of the -axis or -axis, respectively. To take advantage of these observations, we draw one horizontal line and one vertical line to form a right triangle.   The triangle formed by adding in the point      From , we can see the length of the horizontal side is the distance between the points and along the -axis. Similarly, the length of the vertical side is the distance between the points and along the -axis. Using , we have Since we know two of the three sides, we can use the Pythagorean Theorem to find the third side.   The Pythagorean Theorem   The right triangle in satisfies the equation    Right triangle with sides of length , , and .        Square the two side lengths By the Pythagorean Theorem, the square of the distance between the points and satisfies Taking the square root of both sides yields the distance formula in the plane.   The Distance Formula   The distance from the point to the point in the Cartesian plane is given by      Just like the distance between numbers, the distance between two points in the plane is symmetric. We can verify this using :      Find the distance between the points and .    By the distance between the points and is        Distance Between Points   Plot each pair of points in the plane. Find the length of the line segment that connects them.     and .    The points and , and the line segment connecting them.      The distance between the points and is given by the formula      and      The points and , and the line segment connecting them.     The distance between the points and is given by the formula      and     The points and , and the line segment connecting them.      The distance between the points and is given by the formula     Find the perimeter of the triangle below.  The triangle with vertices , , and      The perimeter of the triangle is found by summing the lengths of each side. The length of the vertical side is given by The length of the horizontal side is given by The length of the hypotenuse is given by Therefore the perimeter of the triangle is     "
 },
 {
   "id": "def-1_distance",
@@ -645,8 +645,8 @@ var ptx_lunr_docs = [
   "url": "sec-the_distance_formula.html#def-2_distance",
   "type": "Definition",
   "number": "1.4.3",
-  "title": "",
-  "body": "  The distance   Distance  Cartesian Plane  between the points and in the Cartesian plane is the length of the line segment connecting the two points.   The line segment of length connecting and       "
+  "title": "Distance in the Plane.",
+  "body": " Distance in the Plane   The distance   Distance  Cartesian Plane  between the points and in the Cartesian plane is the length of the line segment connecting the two points.   The line segment of length connecting and       "
 },
 {
   "id": "fig-2_distance",
@@ -2656,398 +2656,20 @@ var ptx_lunr_docs = [
   "body": "    "
 },
 {
-  "id": "sec-inequalities",
-  "level": "1",
-  "url": "sec-inequalities.html",
-  "type": "Section",
-  "number": "3.9",
-  "title": "Polynomial Inequalities",
-  "body": " Polynomial Inequalities      Similar to , we now turn to polynomial inequalities ,  Inequality  Polynomial  which are relations of the form    ,     ,     , or        where is a polynomial function.    Solutions to Inequalities  First we start with what it means to be a solution to an inequality.   Solution to a Polynomial Inequality   A solution   Inequality  Solution  to an inequality in the variable is a number that makes the expression true when is substituted for .    We can interpret this definition graphically as saying   The solutions to are the -values where the graph of is below the -axis    The solutions to are the -values where the graph of is on or below the -axis    The solutions to are the -values where the graph of is above the -axis    The solutions to are the -values where the graph of is on or above the -axis   This tells us precisely how to solve a polynomial inequality using the roots.    Solving Polynomial Inequalities Algebraically  The first method is purely algebraic. It is useful when you are unable to sketch the graph of the polynomial.   Solving Polynomial Inequalities Algebraically   To find the solutions to a polynomial inequality involving the polynomial    Find the distinct real roots of and write them in order from smallest to largest     Find numbers such that     Evaluate at each .   If the inequality is satisfied for , then the inequality holds on the interval . Otherwise, the inequality does not hold on the interval .    If the inequality is satisfied for where , then the inequality holds on the interval . Otherwise, the inequality does not hold on the interval .    If the inequality is satisfied for , then the inequality holds on the interval . Otherwise, the inequality does not hold on the interval .       Write down each interval where the inequality holds. Include the endpoints if the inequality is not strict   or . Otherwise, exclude the endpoints.         Find all solutions to the inequality     The roots of the polynomial in order are We choose the test points , , , , , and .     When , This tells us the inequality is satisfied on .    When , This tells us the inequality is not satisfied on .    When , This tells us the inequality is satisfied on .    When , This tells us the inequality is not satisfied on .    When , This tells us the inequality is satisfied on .    When , This tells us the inequality is not satisfied on .   Therefore the inequality holds for all in the set       Solving Polynomial Inequalities Graphically  Solving polynomial inequalities graphically is significantly simpler. However, it has the disadvantage that it requires you to be able to sketch the graph of the polynomial function.    Find all the values of that satisfy the inequality     First, we place the inequality into the form  Since is a concave up parabola with roots and , we can see the inequality is satisfied for all from the graph of    The graph of .           Solving Polynomial Inequalities Algebraically   Use to find all values of that satisfy the following inequalities.               Solving Polynomial Inequalities Graphically   Use the graph of the function below to answer the following questions       Find all values of that satisfy .    Find all values of that satisfy .    Find all values of that satisfy .    Find all values of that satisfy .     "
-},
-{
-  "id": "inequalities-intro-1",
-  "level": "2",
-  "url": "sec-inequalities.html#inequalities-intro-1",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "polynomial inequalities "
-},
-{
-  "id": "def-solution_poly_inequality",
-  "level": "2",
-  "url": "sec-inequalities.html#def-solution_poly_inequality",
-  "type": "Definition",
-  "number": "3.9.1",
-  "title": "Solution to a Polynomial Inequality.",
-  "body": " Solution to a Polynomial Inequality   A solution   Inequality  Solution  to an inequality in the variable is a number that makes the expression true when is substituted for .   "
-},
-{
-  "id": "alg-poly_ineq",
-  "level": "2",
-  "url": "sec-inequalities.html#alg-poly_ineq",
-  "type": "Algorithm",
-  "number": "3.9.2",
-  "title": "Solving Polynomial Inequalities Algebraically.",
-  "body": " Solving Polynomial Inequalities Algebraically   To find the solutions to a polynomial inequality involving the polynomial    Find the distinct real roots of and write them in order from smallest to largest     Find numbers such that     Evaluate at each .   If the inequality is satisfied for , then the inequality holds on the interval . Otherwise, the inequality does not hold on the interval .    If the inequality is satisfied for where , then the inequality holds on the interval . Otherwise, the inequality does not hold on the interval .    If the inequality is satisfied for , then the inequality holds on the interval . Otherwise, the inequality does not hold on the interval .       Write down each interval where the inequality holds. Include the endpoints if the inequality is not strict   or . Otherwise, exclude the endpoints.      "
-},
-{
-  "id": "subsec-alg_solutions_polynomial_ineq-4",
-  "level": "2",
-  "url": "sec-inequalities.html#subsec-alg_solutions_polynomial_ineq-4",
-  "type": "Example",
-  "number": "3.9.3",
-  "title": "",
-  "body": "  Find all solutions to the inequality     The roots of the polynomial in order are We choose the test points , , , , , and .     When , This tells us the inequality is satisfied on .    When , This tells us the inequality is not satisfied on .    When , This tells us the inequality is satisfied on .    When , This tells us the inequality is not satisfied on .    When , This tells us the inequality is satisfied on .    When , This tells us the inequality is not satisfied on .   Therefore the inequality holds for all in the set    "
-},
-{
-  "id": "subsec-solving_polynomial_ineq_graphically-3",
-  "level": "2",
-  "url": "sec-inequalities.html#subsec-solving_polynomial_ineq_graphically-3",
-  "type": "Example",
-  "number": "3.9.4",
-  "title": "",
-  "body": "  Find all the values of that satisfy the inequality     First, we place the inequality into the form  Since is a concave up parabola with roots and , we can see the inequality is satisfied for all from the graph of    The graph of .       "
-},
-{
-  "id": "sec-inequalities-6-1-3",
-  "level": "2",
-  "url": "sec-inequalities.html#sec-inequalities-6-1-3",
-  "type": "Exercise",
-  "number": "3.9.4.1",
-  "title": "",
-  "body": "    "
-},
-{
-  "id": "sec-inequalities-6-1-4",
-  "level": "2",
-  "url": "sec-inequalities.html#sec-inequalities-6-1-4",
-  "type": "Exercise",
-  "number": "3.9.4.2",
-  "title": "",
-  "body": "    "
-},
-{
-  "id": "sec-inequalities-6-2-3",
-  "level": "2",
-  "url": "sec-inequalities.html#sec-inequalities-6-2-3",
-  "type": "Exercise",
-  "number": "3.9.4.3",
-  "title": "",
-  "body": " Find all values of that satisfy .  "
-},
-{
-  "id": "sec-inequalities-6-2-4",
-  "level": "2",
-  "url": "sec-inequalities.html#sec-inequalities-6-2-4",
-  "type": "Exercise",
-  "number": "3.9.4.4",
-  "title": "",
-  "body": " Find all values of that satisfy .  "
-},
-{
-  "id": "sec-inequalities-6-2-5",
-  "level": "2",
-  "url": "sec-inequalities.html#sec-inequalities-6-2-5",
-  "type": "Exercise",
-  "number": "3.9.4.5",
-  "title": "",
-  "body": " Find all values of that satisfy .  "
-},
-{
-  "id": "sec-inequalities-6-2-6",
-  "level": "2",
-  "url": "sec-inequalities.html#sec-inequalities-6-2-6",
-  "type": "Exercise",
-  "number": "3.9.4.6",
-  "title": "",
-  "body": " Find all values of that satisfy .  "
-},
-{
-  "id": "sec-sytems_of_lines",
-  "level": "1",
-  "url": "sec-sytems_of_lines.html",
-  "type": "Section",
-  "number": "4.1",
-  "title": "Two Dimensions",
-  "body": " Two Dimensions   It is common to encounter situations involving multiple polynomials where we would like to find the points that are solutions to all of the polynomials at once. In the most general situation, we do not place any restrictions on the polynomials involved. This leads to a branch of mathematics called algebraic geometry . The simplest case occurs when each of the polynomials involved is linear, and is known as linear algebra . Both topics are well beyond the scope of this course, so we focus on finding solutions in two very special cases.    Systems of Linear Equations in Two Variables  First we begin with a rigorous definition of a linear system.    A system of linear equations in the variables and   Linear System  Two Variables  is a collection of equations   A solution   Linear System  Two Variables  Solution  to the system is a point that is a solution for every equation in the system.    Solutions to system of equations have geometric meaning. Given a system of linear equations in the variables and , each equation represents a line in standard form . A solution to the linear system is a point that lies on each line we call this a point of intersection   Intersection  Lines      Verify that is a solution to the system of two equations in and      We must verify that is a solution for both equations. For the first equation, and for the second equation       Interpret the solution, , to the system of two equations in and  geometrically.    To graph the lines, we rewrite each line in slope-intercept form  This tells us the first line passes through the points and , and the second line passes through the points and . Plotting these lines, we can see that is the only point of intersection.   The geometric interpretation of the solution to the system.          Dependent Systems  A slightly stranger way for a linear system in the variables and to have a solution is when the lines are the same. In this case, there are infinitely many solutions.    We say a system of linear equations is dependent   Linear System  Dependent  if there are infinitely many solutions to the system.      Verify geometrically that the system has infinitely many solutions.    First, convert each of the lines to slope-intercept form : and We can see in this form that they are the same line, so they intersect infinitely many times. Moreover, the points of intersection all have the form    The solutions to the system          Consistency  In general, a system is not guaranteed to have any solutions. The simplest way this can happen is if two lines in the system are parallel . However, if there are more than two lines, then the system may fail to have any solutions even if no two lines are parallel.    We say a linear system is consistent   Linear System  Consistent  if there is at least one solution. Otherwise, we say the linear system is inconsistent .  Linear System  Inconsistent        Verify geometrically that the system does not have any solutions.    A solution would correspond to a common point of intersection for all three lines. We graph each line by finding two points on each line   The line passes through the points and     The line passes through the points and     The line passes through the points and    When we plot the lines, we can see that each pair intersects, but there is no one point through which all three pass.   The graph of three lines with no common point of intersection          Characterizing Solutions  It is a surprising fact of linear algebra that this essentially characterizes the behavior of every linear system regardless of the number of variables and equations. That is to say, there are three possible behaviors for a linear system:   The system is inconsistent ( no solutions),    The system has exactly one solution, or    The system has infinitely many solutions.       Finding Solutions Algebraically  The simplest way to find solutions to a linear system in two variables is to use a method called substitution   Linear System  Substitution  The method relies on solving one equation in the system for a single variable of your choice and then substituting that into the other equations.    Use substitution to solve the system     The simplest equation to solve for one variable is the second. We simply add to both sides of the equation to find . When we substitute this into the other equation to obtain Divide both side by to see that . Therefore the system has exactly one solution, .       For each system below, sketch a graph of the lines and determine whether the system is consistent or inconsistent. If the system is consistent, find all solutions. Express the solutions as a set and plot them.                                  "
-},
-{
-  "id": "def-system_lines",
-  "level": "2",
-  "url": "sec-sytems_of_lines.html#def-system_lines",
-  "type": "Definition",
-  "number": "4.1.1",
-  "title": "",
-  "body": "  A system of linear equations in the variables and   Linear System  Two Variables  is a collection of equations   A solution   Linear System  Two Variables  Solution  to the system is a point that is a solution for every equation in the system.   "
-},
-{
-  "id": "sec-sytems_of_lines-3-4",
-  "level": "2",
-  "url": "sec-sytems_of_lines.html#sec-sytems_of_lines-3-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "intersection "
-},
-{
-  "id": "sec-sytems_of_lines-3-5",
-  "level": "2",
-  "url": "sec-sytems_of_lines.html#sec-sytems_of_lines-3-5",
-  "type": "Example",
-  "number": "4.1.2",
-  "title": "",
-  "body": "  Verify that is a solution to the system of two equations in and      We must verify that is a solution for both equations. For the first equation, and for the second equation    "
-},
-{
-  "id": "sec-sytems_of_lines-3-6",
-  "level": "2",
-  "url": "sec-sytems_of_lines.html#sec-sytems_of_lines-3-6",
-  "type": "Example",
-  "number": "4.1.3",
-  "title": "",
-  "body": "  Interpret the solution, , to the system of two equations in and  geometrically.    To graph the lines, we rewrite each line in slope-intercept form  This tells us the first line passes through the points and , and the second line passes through the points and . Plotting these lines, we can see that is the only point of intersection.   The geometric interpretation of the solution to the system.       "
-},
-{
-  "id": "sec-sytems_of_lines-4-3",
-  "level": "2",
-  "url": "sec-sytems_of_lines.html#sec-sytems_of_lines-4-3",
-  "type": "Definition",
-  "number": "4.1.5",
-  "title": "",
-  "body": "  We say a system of linear equations is dependent   Linear System  Dependent  if there are infinitely many solutions to the system.   "
-},
-{
-  "id": "sec-sytems_of_lines-4-4",
-  "level": "2",
-  "url": "sec-sytems_of_lines.html#sec-sytems_of_lines-4-4",
-  "type": "Example",
-  "number": "4.1.6",
-  "title": "",
-  "body": "  Verify geometrically that the system has infinitely many solutions.    First, convert each of the lines to slope-intercept form : and We can see in this form that they are the same line, so they intersect infinitely many times. Moreover, the points of intersection all have the form    The solutions to the system       "
-},
-{
-  "id": "def-inconsistent",
-  "level": "2",
-  "url": "sec-sytems_of_lines.html#def-inconsistent",
-  "type": "Definition",
-  "number": "4.1.8",
-  "title": "",
-  "body": "  We say a linear system is consistent   Linear System  Consistent  if there is at least one solution. Otherwise, we say the linear system is inconsistent .  Linear System  Inconsistent     "
-},
-{
-  "id": "sec-sytems_of_lines-5-4",
-  "level": "2",
-  "url": "sec-sytems_of_lines.html#sec-sytems_of_lines-5-4",
-  "type": "Example",
-  "number": "4.1.9",
-  "title": "",
-  "body": "  Verify geometrically that the system does not have any solutions.    A solution would correspond to a common point of intersection for all three lines. We graph each line by finding two points on each line   The line passes through the points and     The line passes through the points and     The line passes through the points and    When we plot the lines, we can see that each pair intersects, but there is no one point through which all three pass.   The graph of three lines with no common point of intersection       "
-},
-{
-  "id": "finding_solutions_algebraically-2",
-  "level": "2",
-  "url": "sec-sytems_of_lines.html#finding_solutions_algebraically-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "substitution "
-},
-{
-  "id": "finding_solutions_algebraically-3",
-  "level": "2",
-  "url": "sec-sytems_of_lines.html#finding_solutions_algebraically-3",
-  "type": "Example",
-  "number": "4.1.11",
-  "title": "",
-  "body": "  Use substitution to solve the system     The simplest equation to solve for one variable is the second. We simply add to both sides of the equation to find . When we substitute this into the other equation to obtain Divide both side by to see that . Therefore the system has exactly one solution, .   "
-},
-{
-  "id": "sec-sytems_of_lines-8-2",
-  "level": "2",
-  "url": "sec-sytems_of_lines.html#sec-sytems_of_lines-8-2",
-  "type": "Exercise",
-  "number": "4.1.6.1",
-  "title": "",
-  "body": "    "
-},
-{
-  "id": "sec-sytems_of_lines-8-3",
-  "level": "2",
-  "url": "sec-sytems_of_lines.html#sec-sytems_of_lines-8-3",
-  "type": "Exercise",
-  "number": "4.1.6.2",
-  "title": "",
-  "body": "    "
-},
-{
-  "id": "sec-sytems_of_lines-8-4",
-  "level": "2",
-  "url": "sec-sytems_of_lines.html#sec-sytems_of_lines-8-4",
-  "type": "Exercise",
-  "number": "4.1.6.3",
-  "title": "",
-  "body": "    "
-},
-{
-  "id": "sec-sytems_of_lines-8-5",
-  "level": "2",
-  "url": "sec-sytems_of_lines.html#sec-sytems_of_lines-8-5",
-  "type": "Exercise",
-  "number": "4.1.6.4",
-  "title": "",
-  "body": "    "
-},
-{
-  "id": "sec-sytems_of_lines-8-6",
-  "level": "2",
-  "url": "sec-sytems_of_lines.html#sec-sytems_of_lines-8-6",
-  "type": "Exercise",
-  "number": "4.1.6.5",
-  "title": "",
-  "body": "    "
-},
-{
-  "id": "sec-sytems_of_lines-8-7",
-  "level": "2",
-  "url": "sec-sytems_of_lines.html#sec-sytems_of_lines-8-7",
-  "type": "Exercise",
-  "number": "4.1.6.6",
-  "title": "",
-  "body": "    "
-},
-{
-  "id": "sec-sytems_of_planes",
-  "level": "1",
-  "url": "sec-sytems_of_planes.html",
-  "type": "Section",
-  "number": "4.2",
-  "title": "Three Dimensions",
-  "body": " Three Dimensions   When we increase the number of variables in a linear system, we increase the dimension of the ambient space. For linear equations with two variables, and , we work in the Cartesian plane. Linear equations with three variables, , , and , require us to work in three dimensional space This adds additional complexity to the geometric interpretation of solutions to linear equations and systems. In particular, a linear equation in three variables no longer represents a line, but rather a plane  a figure in space that looks like the Cartesian plane. Since this is not a course on linear algebra or multivariable calculus two courses dedicated to the study of higher dimensional spaces we will leave our discussion of the geometry at that, and focus on solving systems algebraically.    Systems of Linear Equations in Three Variables  The same terminology and intuition from linear systems in two variables apply to systems of linear equations in three variables. First, we start with an adaptation of solutions to equations in two variables to three variables.   Solution to an Equation in Three Variables   A solution   Equation  Solution  Three Variables  to an equation in the variables , , and is an ordered pair that make the equation true when   the first coordinate, , is substituted into the equation for ,    the second coordinate, , is substituted into the equation for , and    the third coordinate, , is substituted into the equation for .       Next, we generalize the notion of a linear equation from two variables to three.   Standard Form a Linear Equation in Three Variables   The standard form a linear equation   Equation  Line  Standard (Three Variables)  in the variables , , and is where , , and are not all zero.    Now, the notion of a linear system in three variables generalizes naturally.    A system of linear equations in the variables , , and   Linear System  Three Variables  is a collection of equations   A solution   Linear System  Three Variables  Solution  to the system is a point that is a solution for every equation in the system.      Solving Linear Systems with Three Equations  Fortunately, the method of substitution also generalizes naturally. To solve a system of equations in three variables, solve one equation of your choosing for one of the variables and substitute into the other equations. This reduces to a linear system in two equations, which we already know how to solve.    Solve the system     We choose to solve the last equation for in terms of : Substitute for in the other two equations to reduce to a system of two linear equations in the variables and , Subtract from both sides of the equation : Substitute into the equation to solve for : Finally, substitute into the equation for to find Therefore there is exactly one solution to the system, .    Unlike linear systems with two equations, it is possible for to obtain a dependent system even when the equations are not the same.    Solve the system     Solve the first equation for in terms of and : Substitute for in the second equation to obtain and solve for in terms of  Finally, substitute into the equation to obtain Therefore the solutions to this system form the line in         Solve each system below. If the system is consistent, express the solutions as a set.                                  "
-},
-{
-  "id": "sec-sytems_of_planes-2-1",
-  "level": "2",
-  "url": "sec-sytems_of_planes.html#sec-sytems_of_planes-2-1",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "plane "
-},
-{
-  "id": "def-solution_3d",
-  "level": "2",
-  "url": "sec-sytems_of_planes.html#def-solution_3d",
-  "type": "Definition",
-  "number": "4.2.1",
-  "title": "Solution to an Equation in Three Variables.",
-  "body": " Solution to an Equation in Three Variables   A solution   Equation  Solution  Three Variables  to an equation in the variables , , and is an ordered pair that make the equation true when   the first coordinate, , is substituted into the equation for ,    the second coordinate, , is substituted into the equation for , and    the third coordinate, , is substituted into the equation for .      "
-},
-{
-  "id": "def-linear_equation_3d",
-  "level": "2",
-  "url": "sec-sytems_of_planes.html#def-linear_equation_3d",
-  "type": "Definition",
-  "number": "4.2.2",
-  "title": "Standard Form a Linear Equation in Three Variables.",
-  "body": " Standard Form a Linear Equation in Three Variables   The standard form a linear equation   Equation  Line  Standard (Three Variables)  in the variables , , and is where , , and are not all zero.   "
-},
-{
-  "id": "def-system_planes",
-  "level": "2",
-  "url": "sec-sytems_of_planes.html#def-system_planes",
-  "type": "Definition",
-  "number": "4.2.3",
-  "title": "",
-  "body": "  A system of linear equations in the variables , , and   Linear System  Three Variables  is a collection of equations   A solution   Linear System  Three Variables  Solution  to the system is a point that is a solution for every equation in the system.   "
-},
-{
-  "id": "sec-sytems_of_planes-4-3",
-  "level": "2",
-  "url": "sec-sytems_of_planes.html#sec-sytems_of_planes-4-3",
-  "type": "Example",
-  "number": "4.2.4",
-  "title": "",
-  "body": "  Solve the system     We choose to solve the last equation for in terms of : Substitute for in the other two equations to reduce to a system of two linear equations in the variables and , Subtract from both sides of the equation : Substitute into the equation to solve for : Finally, substitute into the equation for to find Therefore there is exactly one solution to the system, .   "
-},
-{
-  "id": "sec-sytems_of_planes-4-5",
-  "level": "2",
-  "url": "sec-sytems_of_planes.html#sec-sytems_of_planes-4-5",
-  "type": "Example",
-  "number": "4.2.5",
-  "title": "",
-  "body": "  Solve the system     Solve the first equation for in terms of and : Substitute for in the second equation to obtain and solve for in terms of  Finally, substitute into the equation to obtain Therefore the solutions to this system form the line in     "
-},
-{
-  "id": "sec-sytems_of_planes-5-2",
-  "level": "2",
-  "url": "sec-sytems_of_planes.html#sec-sytems_of_planes-5-2",
-  "type": "Exercise",
-  "number": "4.2.3.1",
-  "title": "",
-  "body": "    "
-},
-{
-  "id": "sec-sytems_of_planes-5-3",
-  "level": "2",
-  "url": "sec-sytems_of_planes.html#sec-sytems_of_planes-5-3",
-  "type": "Exercise",
-  "number": "4.2.3.2",
-  "title": "",
-  "body": "    "
-},
-{
-  "id": "sec-sytems_of_planes-5-4",
-  "level": "2",
-  "url": "sec-sytems_of_planes.html#sec-sytems_of_planes-5-4",
-  "type": "Exercise",
-  "number": "4.2.3.3",
-  "title": "",
-  "body": "    "
-},
-{
-  "id": "sec-sytems_of_planes-5-5",
-  "level": "2",
-  "url": "sec-sytems_of_planes.html#sec-sytems_of_planes-5-5",
-  "type": "Exercise",
-  "number": "4.2.3.4",
-  "title": "",
-  "body": "    "
-},
-{
-  "id": "sec-sytems_of_planes-5-6",
-  "level": "2",
-  "url": "sec-sytems_of_planes.html#sec-sytems_of_planes-5-6",
-  "type": "Exercise",
-  "number": "4.2.3.5",
-  "title": "",
-  "body": "    "
-},
-{
-  "id": "sec-sytems_of_planes-5-7",
-  "level": "2",
-  "url": "sec-sytems_of_planes.html#sec-sytems_of_planes-5-7",
-  "type": "Exercise",
-  "number": "4.2.3.6",
-  "title": "",
-  "body": "    "
-},
-{
   "id": "sec-alg_comb_functions",
   "level": "1",
   "url": "sec-alg_comb_functions.html",
   "type": "Section",
-  "number": "5.1",
+  "number": "4.1",
   "title": "Algebraic Combinations of Functions",
-  "body": " Algebraic Combinations of Functions   The simplest way to construct new functions from existing functions is to use the four arithmetic operations.    Sums and Differences of Functions   Sum of Functions      Sum of and    Assume and are functions. The sum   Function  Sum  of and is the function defined by      Suppose and are functions. Since addition of real numbers is commutative the order of addition of functions is also commutative because That is to say or, in words, the sum of and is the same as the sum of and .    Difference of Functions      Difference of and    Assume and are functions. The difference   Function  Difference  of and is the function defined by       Consider the functions defined by and defined by . Find the domain of the sum of and , and an expression for .    The intersection of the domains is so the sum of and is the function defined by   In particular, we can evaluate at by       Consider the functions defined by and defined by . Find the domain of the difference of and , and an expression for .    The intersection of the domains is so the difference of and is the function defined by   In particular, we can evaluate at by      Unlike the sum of functions, the difference of functions is not commutative .     Consider the functions defined by and defined by . Find the domain of the difference of and , and an expression for . Conclude that as functions.    The intersection of the domains is so the difference of and is the function defined by   We can see this is not the same as the function because       Products and Ratios of Functions   Product of Functions      Product of and    Assume and are functions. The product   Function  Product  of and is the function defined by      Suppose and are functions that output real numbers. Since multiplication of real numbers is commutative the order of multiplication of functions is also commutative because That is to say or, in words, the product of and is the same as the product of and .    Ratio of Functions      Ratio of and    Assume and are functions, and for every , . The ratio   Function  Ratio  of and is the function defined by       Consider the functions defined by and defined by . Find the domain of the product of and , and an expression for .    The intersection of the domains is so the product of and is the function defined by   In particular, we can evaluate at by       Consider the functions defined by and defined by . Find the domain of the ratio of and , and an expression for .    The function is non-zero on the set The intersection with the domain of is the set of positive real numbers so the ratio of and is the function defined by   In particular, we can evaluate at by      Unlike the sum and product of functions, the ratio of functions is not commutative .     Consider the functions defined by and defined by . Find the domain of the ratio of and , and an expression for . Conclude that as functions.    The function is non-zero on the set . The intersection with the domain of is the set of positive real numbers so the ratio of and is the function defined by   In particular, we can evaluate at to see        For each of the functions below, find an expression for the algebraic combination. Specify the domain, codomain, and range of the combination.    Find the sum of and .    Find the difference of and .    Find the product of and .    Find the ratio of and .    Find an expression for the function , where and .    Find an expression for the function , where and .    "
+  "body": " Algebraic Combinations of Functions   The simplest way to construct new functions from existing functions is to use the four arithmetic operations.    Sums and Differences of Functions   Sum of Functions      Sum of and    Assume and are functions. The sum   Function  Sum  of and is the function defined by      Suppose and are functions. Since addition of real numbers is commutative the order of addition of functions is also commutative because That is to say or, in words, the sum of and is the same as the sum of and .    Difference of Functions      Difference of and    Assume and are functions. The difference   Function  Difference  of and is the function defined by       Consider the functions defined by and defined by . Find the domain of the sum of and , and an expression for .    The intersection of the domains is so the sum of and is the function defined by   In particular, we can evaluate at by       Consider the functions defined by and defined by . Find the domain of the difference of and , and an expression for .    The intersection of the domains is so the difference of and is the function defined by   In particular, we can evaluate at by      Unlike the sum of functions, the difference of functions is not commutative .     Consider the functions defined by and defined by . Find the domain of the difference of and , and an expression for . Conclude that as functions.    The intersection of the domains is so the difference of and is the function defined by   We can see this is not the same as the function because       Products and Ratios of Functions   Product of Functions      Product of and    Assume and are functions. The product   Function  Product  of and is the function defined by      Suppose and are functions that output real numbers. Since multiplication of real numbers is commutative the order of multiplication of functions is also commutative because That is to say or, in words, the product of and is the same as the product of and .    Ratio of Functions      Ratio of and    Assume and are functions, and for every , . The ratio   Function  Ratio  of and is the function defined by       Consider the functions defined by and defined by . Find the domain of the product of and , and an expression for .    The intersection of the domains is so the product of and is the function defined by   In particular, we can evaluate at by       Consider the functions defined by and defined by . Find the domain of the ratio of and , and an expression for .    The function is non-zero on the set The intersection with the domain of is the set of positive real numbers so the ratio of and is the function defined by   In particular, we can evaluate at by      Unlike the sum and product of functions, the ratio of functions is not commutative .     Consider the functions defined by and defined by . Find the domain of the ratio of and , and an expression for . Conclude that as functions.    The function is non-zero on the set . The intersection with the domain of is the set of positive real numbers so the ratio of and is the function defined by   In particular, we can evaluate at to see       Rational Functions  A special case of ratios of functions arise when both the numerator and denominator are polynomials. These functions are of significant importance in many areas of mathematics, as well as its applications.    A rational function is a function of the form where and are polynomial functions.    Since polynomial functions always have domain , the domain of the rational function is the set     Find the domain of the rational function     This expression is undefined whenever Since the only solutions to this equation are and , the domain of is This is the set of all numbers except and , which we can express as the union of intervals       Simplifying Rational Functions  Recall that we always write rational numbers in lowest terms. For example, instead of writing , we cancel the common factor of in the numerator and denominator to write . The same is true for rational functions, although some extra care is required.    Simplify the function defined by in lowest terms. What is the domain of this simplified function?    To simplify the expression, factor the numerator as and cancel the common factors in the numerator and denominator   It is important to remember that this simplification only holds for elements of the domain of the function ! This says that is equal to the function defined by . However, the function defined by is not equal to the function because the functions and do not have the same domain.      Sums and Differences of Rational Functions  Recall that in order to add or subtract rational numbers, we must find a common denominator. For example, to add and , we use the common denominator  The same is true for rational functions, provided we are careful with the denominator.    Find the sum of the rational functions defined by What is the domain of this function?    To add these functions, we must first find a common denominator. We use the least common multiple of and , which is Once we have the common denominator, the process of adding rational functions is nearly the same as for rational numbers:   By , the function is only defined where both of and are defined. Therefore the sum of and is the function defined by       Products and Ratios of Rational Functions  Recall that when we multiply two rational numbers we multiply the numerators and denominators. For example, When we divide one rational number by another, we multiply the one by the reciprocal of the other. For example The same is true for products and ratios of rational functions.    Find the product of the rational functions defined by     We multiply the rational functions by multiplying the numerators and the denominators   By , the function is only defined where both  and are defined. Therefore product of and is the function defined by       Find the ratio of the rational functions defined by     We can divide these rational functions by multiplying by the reciprocal of :   By , the function is only defined where both  and are defined and  is non-zero. Therefore is the function defined by       Rational Equations  Just as with polynomials, we may wish to solve equations involving rational functions. Fortunately, with some care, rational equations quickly reduce to polynomial equations by simply clearing denominators.    Solve the equation     First we note the domain of the rational function is the set As long as , we may multiply both sides of the equation by the non-zero quantity to obtain the polynomial equation Therefore the two solutions are and                                                           Solve the following rational equations.                                  "
 },
 {
   "id": "def-sum_functions",
   "level": "2",
   "url": "sec-alg_comb_functions.html#def-sum_functions",
   "type": "Definition",
-  "number": "5.1.1",
+  "number": "4.1.1",
   "title": "Sum of Functions.",
   "body": " Sum of Functions      Sum of and    Assume and are functions. The sum   Function  Sum  of and is the function defined by    "
 },
@@ -3056,7 +2678,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-alg_comb_functions.html#subsec-sum_diff_functions-3",
   "type": "Remark",
-  "number": "5.1.2",
+  "number": "4.1.2",
   "title": "",
   "body": " Suppose and are functions. Since addition of real numbers is commutative the order of addition of functions is also commutative because That is to say or, in words, the sum of and is the same as the sum of and .  "
 },
@@ -3065,7 +2687,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-alg_comb_functions.html#def-difference_functions",
   "type": "Definition",
-  "number": "5.1.3",
+  "number": "4.1.3",
   "title": "Difference of Functions.",
   "body": " Difference of Functions      Difference of and    Assume and are functions. The difference   Function  Difference  of and is the function defined by    "
 },
@@ -3074,7 +2696,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-alg_comb_functions.html#subsec-sum_diff_functions-5",
   "type": "Example",
-  "number": "5.1.4",
+  "number": "4.1.4",
   "title": "",
   "body": "  Consider the functions defined by and defined by . Find the domain of the sum of and , and an expression for .    The intersection of the domains is so the sum of and is the function defined by   In particular, we can evaluate at by    "
 },
@@ -3083,7 +2705,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-alg_comb_functions.html#subsec-sum_diff_functions-6",
   "type": "Example",
-  "number": "5.1.5",
+  "number": "4.1.5",
   "title": "",
   "body": "  Consider the functions defined by and defined by . Find the domain of the difference of and , and an expression for .    The intersection of the domains is so the difference of and is the function defined by   In particular, we can evaluate at by    "
 },
@@ -3092,7 +2714,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-alg_comb_functions.html#subsec-sum_diff_functions-7",
   "type": "Warning",
-  "number": "5.1.6",
+  "number": "4.1.6",
   "title": "",
   "body": " Unlike the sum of functions, the difference of functions is not commutative .  "
 },
@@ -3101,7 +2723,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-alg_comb_functions.html#subsec-sum_diff_functions-8",
   "type": "Example",
-  "number": "5.1.7",
+  "number": "4.1.7",
   "title": "",
   "body": "  Consider the functions defined by and defined by . Find the domain of the difference of and , and an expression for . Conclude that as functions.    The intersection of the domains is so the difference of and is the function defined by   We can see this is not the same as the function because    "
 },
@@ -3110,7 +2732,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-alg_comb_functions.html#def-product_functions",
   "type": "Definition",
-  "number": "5.1.8",
+  "number": "4.1.8",
   "title": "Product of Functions.",
   "body": " Product of Functions      Product of and    Assume and are functions. The product   Function  Product  of and is the function defined by    "
 },
@@ -3119,7 +2741,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-4-3",
   "type": "Remark",
-  "number": "5.1.9",
+  "number": "4.1.9",
   "title": "",
   "body": " Suppose and are functions that output real numbers. Since multiplication of real numbers is commutative the order of multiplication of functions is also commutative because That is to say or, in words, the product of and is the same as the product of and .  "
 },
@@ -3128,7 +2750,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-alg_comb_functions.html#def-ratio_functions",
   "type": "Definition",
-  "number": "5.1.10",
+  "number": "4.1.10",
   "title": "Ratio of Functions.",
   "body": " Ratio of Functions      Ratio of and    Assume and are functions, and for every , . The ratio   Function  Ratio  of and is the function defined by    "
 },
@@ -3137,7 +2759,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-4-5",
   "type": "Example",
-  "number": "5.1.11",
+  "number": "4.1.11",
   "title": "",
   "body": "  Consider the functions defined by and defined by . Find the domain of the product of and , and an expression for .    The intersection of the domains is so the product of and is the function defined by   In particular, we can evaluate at by    "
 },
@@ -3146,7 +2768,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-4-6",
   "type": "Example",
-  "number": "5.1.12",
+  "number": "4.1.12",
   "title": "",
   "body": "  Consider the functions defined by and defined by . Find the domain of the ratio of and , and an expression for .    The function is non-zero on the set The intersection with the domain of is the set of positive real numbers so the ratio of and is the function defined by   In particular, we can evaluate at by    "
 },
@@ -3155,7 +2777,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-4-7",
   "type": "Warning",
-  "number": "5.1.13",
+  "number": "4.1.13",
   "title": "",
   "body": " Unlike the sum and product of functions, the ratio of functions is not commutative .  "
 },
@@ -3164,214 +2786,124 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-4-8",
   "type": "Example",
-  "number": "5.1.14",
+  "number": "4.1.14",
   "title": "",
   "body": "  Consider the functions defined by and defined by . Find the domain of the ratio of and , and an expression for . Conclude that as functions.    The function is non-zero on the set . The intersection with the domain of is the set of positive real numbers so the ratio of and is the function defined by   In particular, we can evaluate at to see    "
 },
 {
-  "id": "sec-alg_comb_functions-5-2",
-  "level": "2",
-  "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-5-2",
-  "type": "Exercise",
-  "number": "5.1.3.1",
-  "title": "",
-  "body": " Find the sum of and .  "
-},
-{
-  "id": "sec-alg_comb_functions-5-3",
-  "level": "2",
-  "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-5-3",
-  "type": "Exercise",
-  "number": "5.1.3.2",
-  "title": "",
-  "body": " Find the difference of and .  "
-},
-{
-  "id": "sec-alg_comb_functions-5-4",
-  "level": "2",
-  "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-5-4",
-  "type": "Exercise",
-  "number": "5.1.3.3",
-  "title": "",
-  "body": " Find the product of and .  "
-},
-{
-  "id": "sec-alg_comb_functions-5-5",
-  "level": "2",
-  "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-5-5",
-  "type": "Exercise",
-  "number": "5.1.3.4",
-  "title": "",
-  "body": " Find the ratio of and .  "
-},
-{
-  "id": "sec-alg_comb_functions-5-6",
-  "level": "2",
-  "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-5-6",
-  "type": "Exercise",
-  "number": "5.1.3.5",
-  "title": "",
-  "body": " Find an expression for the function , where and .  "
-},
-{
-  "id": "sec-alg_comb_functions-5-7",
-  "level": "2",
-  "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-5-7",
-  "type": "Exercise",
-  "number": "5.1.3.6",
-  "title": "",
-  "body": " Find an expression for the function , where and .  "
-},
-{
-  "id": "sec-rational_functions",
-  "level": "1",
-  "url": "sec-rational_functions.html",
-  "type": "Section",
-  "number": "5.2",
-  "title": "Rational Functions",
-  "body": " Rational Functions   A special case of ratios of functions arise when both the numerator and denominator are polynomials. These functions are of significant importance in many areas of mathematics, as well as its applications.    The Domain of a Rational Function    A rational function is a function of the form where and are polynomial functions.    Since polynomial functions always have domain and codomain , the domain of the rational function is the set     Find the domain of the rational function     This expression is undefined whenever Since the only solutions to this equation are and , the domain of is This is the set of all numbers except and , which we can express as the union of intervals       Simplifying Rational Functions  Recall that we always write rational numbers in lowest terms. For example, instead of writing , we cancel the common factor of in the numerator and denominator to write . The same is true for rational functions, although some extra care is required.    Simplify the function defined by in lowest terms. What is the domain of this simplified function?    To simplify the expression, factor the numerator as and cancel the common factors in the numerator and denominator   It is important to remember that this simplification only holds for elements of the domain of the function ! This says that is equal to the function defined by . However, the function defined by is not equal to the function because the functions and do not have the same domain.      Sums and Differences of Rational Functions  Recall that in order to add or subtract rational numbers, we must find a common denominator. For example, to add and , we use the common denominator  The same is true for rational functions, provided we are careful with the denominator.    Find the sum of the rational functions defined by What is the domain of this function?    To add these functions, we must first find a common denominator. We use the least common multiple of and , which is Once we have the common denominator, the process of adding rational functions is nearly the same as for rational numbers:   By , the function is only defined where both of and are defined. Therefore the sum of and is the function defined by       Products and Ratios of Rational Functions  Recall that when we multiply two rational numbers we multiply the numerators and denominators. For example, When we divide one rational number by another, we multiply the one by the reciprocal of the other. For example The same is true for products and ratios of rational functions.    Find the product of the rational functions defined by     We multiply the rational functions by multiplying the numerators and the denominators   By , the function is only defined where both  and are defined. Therefore product of and is the function defined by       Find the ratio of the rational functions defined by     We can divide these rational functions by multiplying by the reciprocal of :   By , the function is only defined where both  and are defined and  is non-zero. Therefore is the function defined by       Rational Equations and Inequalities  Just as with polynomials, we may wish to solve equations or inequalities involving rational functions. Fortunately, with some care, rational equations and inequalities quickly reduce to polynomial equations or inequalities by simply multiplying both sides by the denominator.  Rational inequalities are defined nearly identically to polynomial inequalities.   Rational Inequality   Assume and are polynomial functions. A rational inequality   Inequality  Rational  is a relation of the form    ,     ,     , or     .       The solutions are also similarly defined.   Solution to a Rational Inequality   A solution   Inequality  Solution  to an inequality in the variable is a number that makes the expression true when is substituted for .      Solve the equation     First we note the domain of the rational function is the set As long as , we may multiply both sides of the equation by the non-zero quantity to obtain the polynomial equation Therefore the two solutions are and       Solve the rational inequality     First, we must place the inequality in the form We do this using the operations above   Once the inequality is in the proper form, our goal is to reduce from a rational inequality to one or more polynomial inequalities. The tricky part is dealing with the sign of the denominator. We observe that the denominator is positive on the set and negative on . Since multiplying both sides of an inequality reverses the inequality we must handle these two regions separately.  When , we obtain the polynomial inequality The quadratic is a downward facing parabola with roots at . Since it follows that the inequality holds on all of .   Solutions to the inequality      When , we obtain the polynomial inequality Again, as the quadratic is a downward facing parabola with roots at , the solutions to this inequality are on the left- and right-hand sides of the roots    Solutions to the inequality      Combining the solutions to each part, we obtain the solution to the rational inequality        Solve the following rational inequalities.                                  "
-},
-{
   "id": "def-rational_function",
   "level": "2",
-  "url": "sec-rational_functions.html#def-rational_function",
+  "url": "sec-alg_comb_functions.html#def-rational_function",
   "type": "Definition",
-  "number": "5.2.1",
+  "number": "4.1.15",
   "title": "",
   "body": "  A rational function is a function of the form where and are polynomial functions.   "
 },
 {
-  "id": "sec-rational_functions-3-4",
+  "id": "subsec-rational_functions-5",
   "level": "2",
-  "url": "sec-rational_functions.html#sec-rational_functions-3-4",
+  "url": "sec-alg_comb_functions.html#subsec-rational_functions-5",
   "type": "Example",
-  "number": "5.2.2",
+  "number": "4.1.16",
   "title": "",
   "body": "  Find the domain of the rational function     This expression is undefined whenever Since the only solutions to this equation are and , the domain of is This is the set of all numbers except and , which we can express as the union of intervals    "
 },
 {
-  "id": "sec-rational_functions-4-3",
+  "id": "sec-alg_comb_functions-6-3",
   "level": "2",
-  "url": "sec-rational_functions.html#sec-rational_functions-4-3",
+  "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-6-3",
   "type": "Example",
-  "number": "5.2.3",
+  "number": "4.1.17",
   "title": "",
   "body": "  Simplify the function defined by in lowest terms. What is the domain of this simplified function?    To simplify the expression, factor the numerator as and cancel the common factors in the numerator and denominator   It is important to remember that this simplification only holds for elements of the domain of the function ! This says that is equal to the function defined by . However, the function defined by is not equal to the function because the functions and do not have the same domain.   "
 },
 {
-  "id": "sec-rational_functions-5-3",
+  "id": "sec-alg_comb_functions-7-3",
   "level": "2",
-  "url": "sec-rational_functions.html#sec-rational_functions-5-3",
+  "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-7-3",
   "type": "Example",
-  "number": "5.2.4",
+  "number": "4.1.18",
   "title": "",
   "body": "  Find the sum of the rational functions defined by What is the domain of this function?    To add these functions, we must first find a common denominator. We use the least common multiple of and , which is Once we have the common denominator, the process of adding rational functions is nearly the same as for rational numbers:   By , the function is only defined where both of and are defined. Therefore the sum of and is the function defined by    "
 },
 {
-  "id": "sec-rational_functions-6-3",
+  "id": "sec-alg_comb_functions-8-3",
   "level": "2",
-  "url": "sec-rational_functions.html#sec-rational_functions-6-3",
+  "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-8-3",
   "type": "Example",
-  "number": "5.2.5",
+  "number": "4.1.19",
   "title": "",
   "body": "  Find the product of the rational functions defined by     We multiply the rational functions by multiplying the numerators and the denominators   By , the function is only defined where both  and are defined. Therefore product of and is the function defined by    "
 },
 {
-  "id": "sec-rational_functions-6-4",
+  "id": "sec-alg_comb_functions-8-4",
   "level": "2",
-  "url": "sec-rational_functions.html#sec-rational_functions-6-4",
+  "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-8-4",
   "type": "Example",
-  "number": "5.2.6",
+  "number": "4.1.20",
   "title": "",
   "body": "  Find the ratio of the rational functions defined by     We can divide these rational functions by multiplying by the reciprocal of :   By , the function is only defined where both  and are defined and  is non-zero. Therefore is the function defined by    "
 },
 {
-  "id": "def-rational_ineq",
+  "id": "sec-alg_comb_functions-9-3",
   "level": "2",
-  "url": "sec-rational_functions.html#def-rational_ineq",
-  "type": "Definition",
-  "number": "5.2.7",
-  "title": "Rational Inequality.",
-  "body": " Rational Inequality   Assume and are polynomial functions. A rational inequality   Inequality  Rational  is a relation of the form    ,     ,     , or     .      "
-},
-{
-  "id": "def-solution_rational_inequality",
-  "level": "2",
-  "url": "sec-rational_functions.html#def-solution_rational_inequality",
-  "type": "Definition",
-  "number": "5.2.8",
-  "title": "Solution to a Rational Inequality.",
-  "body": " Solution to a Rational Inequality   A solution   Inequality  Solution  to an inequality in the variable is a number that makes the expression true when is substituted for .   "
-},
-{
-  "id": "sec-rational_functions-7-7",
-  "level": "2",
-  "url": "sec-rational_functions.html#sec-rational_functions-7-7",
+  "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-9-3",
   "type": "Example",
-  "number": "5.2.9",
+  "number": "4.1.21",
   "title": "",
   "body": "  Solve the equation     First we note the domain of the rational function is the set As long as , we may multiply both sides of the equation by the non-zero quantity to obtain the polynomial equation Therefore the two solutions are and    "
 },
 {
-  "id": "sec-rational_functions-7-8",
+  "id": "sec-alg_comb_functions-10-2",
   "level": "2",
-  "url": "sec-rational_functions.html#sec-rational_functions-7-8",
-  "type": "Example",
-  "number": "5.2.10",
-  "title": "",
-  "body": "  Solve the rational inequality     First, we must place the inequality in the form We do this using the operations above   Once the inequality is in the proper form, our goal is to reduce from a rational inequality to one or more polynomial inequalities. The tricky part is dealing with the sign of the denominator. We observe that the denominator is positive on the set and negative on . Since multiplying both sides of an inequality reverses the inequality we must handle these two regions separately.  When , we obtain the polynomial inequality The quadratic is a downward facing parabola with roots at . Since it follows that the inequality holds on all of .   Solutions to the inequality      When , we obtain the polynomial inequality Again, as the quadratic is a downward facing parabola with roots at , the solutions to this inequality are on the left- and right-hand sides of the roots    Solutions to the inequality      Combining the solutions to each part, we obtain the solution to the rational inequality    "
-},
-{
-  "id": "sec-rational_functions-8-2",
-  "level": "2",
-  "url": "sec-rational_functions.html#sec-rational_functions-8-2",
+  "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-10-2",
   "type": "Exercise",
-  "number": "5.2.6.1",
+  "number": "4.1.8.1",
   "title": "",
   "body": "    "
 },
 {
-  "id": "sec-rational_functions-8-3",
+  "id": "sec-alg_comb_functions-10-3",
   "level": "2",
-  "url": "sec-rational_functions.html#sec-rational_functions-8-3",
+  "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-10-3",
   "type": "Exercise",
-  "number": "5.2.6.2",
+  "number": "4.1.8.2",
   "title": "",
   "body": "    "
 },
 {
-  "id": "sec-rational_functions-8-4",
+  "id": "sec-alg_comb_functions-10-4",
   "level": "2",
-  "url": "sec-rational_functions.html#sec-rational_functions-8-4",
+  "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-10-4",
   "type": "Exercise",
-  "number": "5.2.6.3",
+  "number": "4.1.8.3",
   "title": "",
   "body": "    "
 },
 {
-  "id": "sec-rational_functions-8-5",
+  "id": "sec-alg_comb_functions-10-5",
   "level": "2",
-  "url": "sec-rational_functions.html#sec-rational_functions-8-5",
+  "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-10-5",
   "type": "Exercise",
-  "number": "5.2.6.4",
+  "number": "4.1.8.4",
   "title": "",
   "body": "    "
 },
 {
-  "id": "sec-rational_functions-8-6",
+  "id": "sec-alg_comb_functions-10-6",
   "level": "2",
-  "url": "sec-rational_functions.html#sec-rational_functions-8-6",
+  "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-10-6",
   "type": "Exercise",
-  "number": "5.2.6.5",
+  "number": "4.1.8.5",
   "title": "",
   "body": "    "
 },
 {
-  "id": "sec-rational_functions-8-7",
+  "id": "sec-alg_comb_functions-10-7",
   "level": "2",
-  "url": "sec-rational_functions.html#sec-rational_functions-8-7",
+  "url": "sec-alg_comb_functions.html#sec-alg_comb_functions-10-7",
   "type": "Exercise",
-  "number": "5.2.6.6",
+  "number": "4.1.8.6",
   "title": "",
   "body": "    "
 },
@@ -3380,7 +2912,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-composition.html",
   "type": "Section",
-  "number": "5.3",
+  "number": "4.2",
   "title": "Composition",
   "body": " Composition   When we study arithmetic in an elementary mathematics course, we focus primarily on operations that we can perform with numbers like addition and multiplication. While we have seen we can perform these same operations with functions, there is one operation that is particular to functions that we study here. Composition is important because it provides yet another way to create complicated functions from simpler functions.    Composition of Functions   Assume and are functions with . The composition   Function  Composition  of with is the function      Composition of with  defined by      It is important to ensure the range of the function is contained within the domain of the function . If not, the composition does not make sense.     The function defined by  cannot be composed with the function defined by because is not a real number when !      Consider the functions defined by and defined by . Find the composition of with .    The composition of with is the function defined by      The order of composition matters. Even if and are both well-defined and have the same domain, these two functions are not the same in general.     Consider the functions defined by and defined by . Find the composition of with . Verify that it is not the same as the composition of with .    The composition of with is the function defined by       Let be any non-zero real number and consider the function defined by . Find a simplified expression for the function     Write   For each value of , this function measures the slope of the line connecting the two points and . This line is often called the secant line and is often called the difference quotient . It is an extraordinarily important tool in Calculus.   The secant line through and          Let be any non-zero real number and consider the function defined by . Find a simplified expression for the function     Write   The trick in the first step is often called rationalizing the numerator .  Rationalizing the Numerator  For positive real numbers and , the quantity is called the conjugate   Conjugate  of , and vise versa. Rationalizing is a trick that often comes in handy in calculus.      Compose each pair of functions. Find the implied domain, codomain, and range.     with      with      with      with      with      with     "
 },
@@ -3389,7 +2921,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-composition.html#def-function_comp",
   "type": "Definition",
-  "number": "5.3.1",
+  "number": "4.2.1",
   "title": "Composition of Functions.",
   "body": " Composition of Functions   Assume and are functions with . The composition   Function  Composition  of with is the function      Composition of with  defined by    "
 },
@@ -3398,7 +2930,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-composition.html#sec-composition-4",
   "type": "Warning",
-  "number": "5.3.2",
+  "number": "4.2.2",
   "title": "",
   "body": " It is important to ensure the range of the function is contained within the domain of the function . If not, the composition does not make sense.  "
 },
@@ -3407,7 +2939,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-composition.html#sec-composition-5",
   "type": "Example",
-  "number": "5.3.3",
+  "number": "4.2.3",
   "title": "",
   "body": "  The function defined by  cannot be composed with the function defined by because is not a real number when !   "
 },
@@ -3416,7 +2948,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-composition.html#sec-composition-6",
   "type": "Example",
-  "number": "5.3.4",
+  "number": "4.2.4",
   "title": "",
   "body": "  Consider the functions defined by and defined by . Find the composition of with .    The composition of with is the function defined by    "
 },
@@ -3425,7 +2957,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-composition.html#sec-composition-7",
   "type": "Warning",
-  "number": "5.3.5",
+  "number": "4.2.5",
   "title": "",
   "body": " The order of composition matters. Even if and are both well-defined and have the same domain, these two functions are not the same in general.  "
 },
@@ -3434,7 +2966,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-composition.html#example-composition_not_commutative",
   "type": "Example",
-  "number": "5.3.6",
+  "number": "4.2.6",
   "title": "",
   "body": "  Consider the functions defined by and defined by . Find the composition of with . Verify that it is not the same as the composition of with .    The composition of with is the function defined by    "
 },
@@ -3443,7 +2975,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-composition.html#sec-composition-9",
   "type": "Example",
-  "number": "5.3.7",
+  "number": "4.2.7",
   "title": "",
   "body": "  Let be any non-zero real number and consider the function defined by . Find a simplified expression for the function     Write   For each value of , this function measures the slope of the line connecting the two points and . This line is often called the secant line and is often called the difference quotient . It is an extraordinarily important tool in Calculus.   The secant line through and       "
 },
@@ -3452,7 +2984,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-composition.html#sec-composition-10",
   "type": "Example",
-  "number": "5.3.9",
+  "number": "4.2.9",
   "title": "",
   "body": "  Let be any non-zero real number and consider the function defined by . Find a simplified expression for the function     Write   The trick in the first step is often called rationalizing the numerator .  Rationalizing the Numerator  For positive real numbers and , the quantity is called the conjugate   Conjugate  of , and vise versa. Rationalizing is a trick that often comes in handy in calculus.   "
 },
@@ -3461,7 +2993,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-composition.html#sec-composition-11-2",
   "type": "Exercise",
-  "number": "5.3.1",
+  "number": "4.2.1",
   "title": "",
   "body": "  with   "
 },
@@ -3470,7 +3002,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-composition.html#sec-composition-11-3",
   "type": "Exercise",
-  "number": "5.3.2",
+  "number": "4.2.2",
   "title": "",
   "body": "  with   "
 },
@@ -3479,7 +3011,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-composition.html#sec-composition-11-4",
   "type": "Exercise",
-  "number": "5.3.3",
+  "number": "4.2.3",
   "title": "",
   "body": "  with   "
 },
@@ -3488,7 +3020,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-composition.html#sec-composition-11-5",
   "type": "Exercise",
-  "number": "5.3.4",
+  "number": "4.2.4",
   "title": "",
   "body": "  with   "
 },
@@ -3497,7 +3029,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-composition.html#sec-composition-11-6",
   "type": "Exercise",
-  "number": "5.3.5",
+  "number": "4.2.5",
   "title": "",
   "body": "  with   "
 },
@@ -3506,7 +3038,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-composition.html#sec-composition-11-7",
   "type": "Exercise",
-  "number": "5.3.6",
+  "number": "4.2.6",
   "title": "",
   "body": "  with   "
 },
@@ -3515,7 +3047,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-inverses.html",
   "type": "Section",
-  "number": "5.4",
+  "number": "4.3",
   "title": "Composition Inverses",
   "body": " Composition Inverses   In keeping with the analogy with operations on numbers, recall the operations of addition and multiplication both have distinguished elements. The number is called the additive identity   Identity  Additive  because every real number remains unchanged when is added to it   Similarly, the number is called the multiplicative identity   Identity  Multiplicative  because every real number remains unchanged when it is multiplied by      Identities  We introduced the idea of an identity using two familiar operations to highlight that the identity element depends on the operation. However, the essential behavior of the identity element is the same: when we perform the operation using the identity, nothing changes. This tells us exactly how the identity element for the function composition operation should behave.   Identity Function   Assume is a set. The identity function on is the function defined by     As we have already seen, the order of function composition matters. Complicating matters more, not all functions can be composed. For a function ,   the composition only makes sense when the domain of contains the range of , and    the composition only makes sense when the range of is contained in the domain of .   For this reason, there is not one single identity function that satisfies the condition and .  Instead, we need to consider the identity functions on the domain and codomain of . The identity function on satisfies because and the identity function on satisfies because .    Composition Inverses  The identity elements for these operations are important because they provide a method for \"undoing\" the operation. This is easiest to understand by considering addition and multiplication first. For any real number , the additive inverse   Inverse  Additive  is the real number that satisfies If we add the number to another number , then we obtain the number . We can \"undo\" this operation by performing the operation \"add the additive inverse of \" -- which we normally just call \"subtract \" -- in the sense that Similarly, we note that the operation \"add c\" will \"undo\" the operation \"subtract \" in the sense that   The operations \"add \" and \"subtract \" define functions and by We can view and in terms of composition:          The story is similar for multiplication. For any non-zero real number , the multiplicative inverse   Inverse  Multiplicative  of is the real number that satisfies Multiplication by and division by define functions by Just as with addition, these two functions \"undo\" one another in the sense that          These are two canonical examples of functions that are invertible , and the ideas captured in inverting addition and multiplication motivate the more general definition.   Composition Inverse   Assume is a function. The composition inverse , if it exists, is a function that satisfies or, equivalently, for every , and for every , .  If has a composition inverse, then we say is invertible .  Function  Invertible       Mathematicians commonly use the word \"inverse\" or \"invertible\" without explicitly stating the operation. It is important to infer the meaning from the context. If the object being discussed is a function, then \"inverse\" means composition inverse, not multiplicative inverse. That is to say,   In order to avoid confusion, we will avoid using the notation and write either or whenever we refer to a fraction with the function in the denominator.     Properties of Invertible Functions  For a function with a composition inverse, the codomain of and the domain of agree. For every , the element satisfies by definition. This provides useful information about the range of an invertible function .    If is a function with a composition inverse, then the range of is     The definition of a composition inverse is symmetric in the sense that the inverse of is and the inverse of is .    If is a function with inverse , then has a composition inverse and      In the language of , the functions \"add \" and \"subtract \" are a pair of inverse functions   Similarly, the functions \"multiply by \" and \"divide by \" are a pair of inverse functions     In general, a linear function is invertible if . To evaluate at the real number , we perform the following operations   Multiply by ,    Add to .   This allows us to decompose as the function \"add \" composed with the function \"multiply by \" Since each function is invertible, we can invert by performing the inverse operations in reverse order, like peeling back the layers of an onion.  Write for the result of applying to . We would invert (or \"undo\") the operation of applying to by performing the operations   Subtract from     Divide by ( Important: This is why we required !)   Note this is equivalent to solving the equation for in terms of   In the language of , the inverse of is the composition   Finally, we can check these are in fact inverses of one another by checking the two compositions explicitly:                                         Our observations about compositions of invertible functions in are true in general.    Assume and are invertible functions. If the composition is well-defined, then is invertible and     As a final example, we illustrate why it is necessary to pay close attention to the domain of a function.   Consider the quadratic function defined by . This function is not invertible .  To see why, we must observe that if an inverse function exists, then by , it must have the form and for every positive number , we must assign a single number such that   However, there are always two such values: a positive number, , and its negative, . This means we must choose one of these two values to be . Unfortunately, both decisions fail to produce an inverse for .  If we decide that is the positive number such that , then   On the other hand, if we decide that is the negative number such that , then Fortunately, these two problems suggest simple solutions.  In the first case, we simply exclude the negative numbers from the domain of . This operation is called restriction   Function  Restriction  and produces a new function defined by . This function becomes invertible and its inverse is the principle square root function   Function  Square Root   defined by . For every non-negative number ,          In the second case, we restrict the domain of to the negative numbers. This produces a new function defined by . The function is invertible and its inverse is the function defined by . For every non-negative real number ,              For each function below, determine a subset of the domain where the function is invertible. Find the range of the function on that interval, then find the inverse. Indicate the domain and range of the inverse.     .     .     .     .    "
 },
@@ -3542,7 +3074,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverses.html#subsec-identities-3",
   "type": "Definition",
-  "number": "5.4.1",
+  "number": "4.3.1",
   "title": "Identity Function.",
   "body": " Identity Function   Assume is a set. The identity function on is the function defined by    "
 },
@@ -3569,7 +3101,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverses.html#def-composition_inverse",
   "type": "Definition",
-  "number": "5.4.2",
+  "number": "4.3.2",
   "title": "Composition Inverse.",
   "body": " Composition Inverse   Assume is a function. The composition inverse , if it exists, is a function that satisfies or, equivalently, for every , and for every , .  If has a composition inverse, then we say is invertible .  Function  Invertible     "
 },
@@ -3578,7 +3110,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverses.html#subsec-comp_inverses-9",
   "type": "Warning",
-  "number": "5.4.3",
+  "number": "4.3.3",
   "title": "",
   "body": " Mathematicians commonly use the word \"inverse\" or \"invertible\" without explicitly stating the operation. It is important to infer the meaning from the context. If the object being discussed is a function, then \"inverse\" means composition inverse, not multiplicative inverse. That is to say,   In order to avoid confusion, we will avoid using the notation and write either or whenever we refer to a fraction with the function in the denominator.  "
 },
@@ -3587,7 +3119,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverses.html#thm-invertible_is_surjective",
   "type": "Theorem",
-  "number": "5.4.4",
+  "number": "4.3.4",
   "title": "",
   "body": "  If is a function with a composition inverse, then the range of is    "
 },
@@ -3596,7 +3128,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverses.html#subsec-props_invertible-5",
   "type": "Theorem",
-  "number": "5.4.5",
+  "number": "4.3.5",
   "title": "",
   "body": "  If is a function with inverse , then has a composition inverse and    "
 },
@@ -3605,7 +3137,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverses.html#example-inverse_of_arithmetics",
   "type": "Example",
-  "number": "5.4.6",
+  "number": "4.3.6",
   "title": "",
   "body": " In the language of , the functions \"add \" and \"subtract \" are a pair of inverse functions   Similarly, the functions \"multiply by \" and \"divide by \" are a pair of inverse functions   "
 },
@@ -3614,7 +3146,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverses.html#example-inverse_of_composition",
   "type": "Example",
-  "number": "5.4.7",
+  "number": "4.3.7",
   "title": "",
   "body": " In general, a linear function is invertible if . To evaluate at the real number , we perform the following operations   Multiply by ,    Add to .   This allows us to decompose as the function \"add \" composed with the function \"multiply by \" Since each function is invertible, we can invert by performing the inverse operations in reverse order, like peeling back the layers of an onion.  Write for the result of applying to . We would invert (or \"undo\") the operation of applying to by performing the operations   Subtract from     Divide by ( Important: This is why we required !)   Note this is equivalent to solving the equation for in terms of   In the language of , the inverse of is the composition   Finally, we can check these are in fact inverses of one another by checking the two compositions explicitly:          "
 },
@@ -3623,7 +3155,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverses.html#formula-inverse_of_composition",
   "type": "Formula",
-  "number": "5.4.8",
+  "number": "4.3.8",
   "title": "",
   "body": "  Assume and are invertible functions. If the composition is well-defined, then is invertible and    "
 },
@@ -3632,7 +3164,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverses.html#example-parabola_not_invertible",
   "type": "Example",
-  "number": "5.4.9",
+  "number": "4.3.9",
   "title": "",
   "body": " Consider the quadratic function defined by . This function is not invertible .  To see why, we must observe that if an inverse function exists, then by , it must have the form and for every positive number , we must assign a single number such that   However, there are always two such values: a positive number, , and its negative, . This means we must choose one of these two values to be . Unfortunately, both decisions fail to produce an inverse for .  If we decide that is the positive number such that , then   On the other hand, if we decide that is the negative number such that , then Fortunately, these two problems suggest simple solutions.  In the first case, we simply exclude the negative numbers from the domain of . This operation is called restriction   Function  Restriction  and produces a new function defined by . This function becomes invertible and its inverse is the principle square root function   Function  Square Root   defined by . For every non-negative number ,          In the second case, we restrict the domain of to the negative numbers. This produces a new function defined by . The function is invertible and its inverse is the function defined by . For every non-negative real number ,          "
 },
@@ -3641,7 +3173,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverses.html#sec-inverses-6-2",
   "type": "Exercise",
-  "number": "5.4.4.1",
+  "number": "4.3.4.1",
   "title": "",
   "body": "  .  "
 },
@@ -3650,7 +3182,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverses.html#sec-inverses-6-3",
   "type": "Exercise",
-  "number": "5.4.4.2",
+  "number": "4.3.4.2",
   "title": "",
   "body": "  .  "
 },
@@ -3659,7 +3191,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverses.html#sec-inverses-6-4",
   "type": "Exercise",
-  "number": "5.4.4.3",
+  "number": "4.3.4.3",
   "title": "",
   "body": "  .  "
 },
@@ -3668,7 +3200,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverses.html#sec-inverses-6-5",
   "type": "Exercise",
-  "number": "5.4.4.4",
+  "number": "4.3.4.4",
   "title": "",
   "body": "  .  "
 },
@@ -3677,7 +3209,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-graphing_inverse_functions.html",
   "type": "Section",
-  "number": "5.5",
+  "number": "4.4",
   "title": "Graphing Inverse Functions",
   "body": " Graphing Inverse Functions   A Little Symmetry  Assume and is a function with inverse . In order to visualize the inverse of a function, it is helpful to recall from that the graph of is the set of points in the Cartesian plane.  Since we have been conditioned by training to think about the input to a function being named and the output of a function being named , we opt to write instead of . This distinction is meaningless in practice, but prompts us to think about the input to as the output of .  We made these observations more precise in , which asserts that every can be written in the form for some  . This allows us to describe the graph of as the set of points Note that we started by describing the points on the graph of in terms of and ended by describing the points on the graph of in terms of . This description tells us that we can obtain the graph of from the graph of by interchanging the - and -coordinates.  Using the , we can exploit this relationship to describe symmetry between the graph of and the graph of as follows. Each corresponds to a point on the graph of and a point on the graph of . The midpoint of the line that connects these two points has coordinates Since the - and -coordinates are the same, the midpoint lies on the line . This says that if we were to plot and together, the image would have symmetry about the line . This allows us to conclude the following.    The graph of is obtained by reflecting the graph of across the line .      The Horizontal Line Test  The importance of is that it provides a geometric condition for testing whether a function is invertible.    Assume . A function is invertible if and only if the graph represents a function.    We can improve significantly with a few key observations. Recall that we can test whether a graph represents a function using . The graph of the vertical line , where is a constant, is the set of points Reflecting this graph across the line interchanges the two coordinates, so we can express the resulting graph as the set As the -coordinate is fixed and the -coordinate is allowed to vary, we can recognize this as the horizontal line . This provides a geometric condition for invertibility that depends only on the graph of the original function .                                       The Horizontal Line Test   Assume . The function is invertible if and only if every horizontal line intersects the graph of in at most one point.     Consider the graph of the function defined by . When we observed that for every positive number , there are two -values that square to , we were observing that every horizontal line intersects the parabola in two places.   The two points of intersection between the parabola and a horizontal line      When we restrict the domain to the set , we fix this problem by removing the left half of the parabola. This makes the function invertible with inverse the principal square root function.   Removing the left-hand side of the parabola    The restriction of to        The principal square root function        On the other hand, we could also remove the right-hand side of the parabola. This creates another invertible function. The inverse of this function is the reflection of the principal square root across the -axis.   Removing the right-hand side of the parabola    The restriction of to .       The inverse of the restriction.           Root Functions  A useful consequence of is that we may define functions with rational exponents.   Odd Root Function   Assume is an odd, positive integer and is the function defined by . The root function   Function  Root  Odd   given by is defined to be the inverse of .     Even Root Function   Assume is an even, positive integer and is the function defined by . The root function   Function  Root  Even   given by is defined to be the inverse of .       For each function below, graph the inverse.     .     .     .     .    "
 },
@@ -3686,7 +3218,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphing_inverse_functions.html#thm-graph_of_inverse",
   "type": "Theorem",
-  "number": "5.5.1",
+  "number": "4.4.1",
   "title": "",
   "body": "  The graph of is obtained by reflecting the graph of across the line .   "
 },
@@ -3695,7 +3227,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphing_inverse_functions.html#thm-invertible_iff_function",
   "type": "Theorem",
-  "number": "5.5.2",
+  "number": "4.4.2",
   "title": "",
   "body": "  Assume . A function is invertible if and only if the graph represents a function.   "
 },
@@ -3704,7 +3236,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphing_inverse_functions.html#thm-horizontal_line_test",
   "type": "Theorem",
-  "number": "5.5.3",
+  "number": "4.4.3",
   "title": "The Horizontal Line Test.",
   "body": " The Horizontal Line Test   Assume . The function is invertible if and only if every horizontal line intersects the graph of in at most one point.   "
 },
@@ -3713,7 +3245,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphing_inverse_functions.html#subsec-horizontal_line_test-6",
   "type": "Example",
-  "number": "5.5.4",
+  "number": "4.4.4",
   "title": "",
   "body": " Consider the graph of the function defined by . When we observed that for every positive number , there are two -values that square to , we were observing that every horizontal line intersects the parabola in two places.   The two points of intersection between the parabola and a horizontal line      When we restrict the domain to the set , we fix this problem by removing the left half of the parabola. This makes the function invertible with inverse the principal square root function.   Removing the left-hand side of the parabola    The restriction of to        The principal square root function        On the other hand, we could also remove the right-hand side of the parabola. This creates another invertible function. The inverse of this function is the reflection of the principal square root across the -axis.   Removing the right-hand side of the parabola    The restriction of to .       The inverse of the restriction.        "
 },
@@ -3722,7 +3254,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphing_inverse_functions.html#def-odd_root_functions",
   "type": "Definition",
-  "number": "5.5.8",
+  "number": "4.4.8",
   "title": "Odd Root Function.",
   "body": " Odd Root Function   Assume is an odd, positive integer and is the function defined by . The root function   Function  Root  Odd   given by is defined to be the inverse of .   "
 },
@@ -3731,7 +3263,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphing_inverse_functions.html#def-even_root_functions",
   "type": "Definition",
-  "number": "5.5.9",
+  "number": "4.4.9",
   "title": "Even Root Function.",
   "body": " Even Root Function   Assume is an even, positive integer and is the function defined by . The root function   Function  Root  Even   given by is defined to be the inverse of .   "
 },
@@ -3740,7 +3272,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphing_inverse_functions.html#sec-graphing_inverse_functions-5-2",
   "type": "Exercise",
-  "number": "5.5.4.1",
+  "number": "4.4.4.1",
   "title": "",
   "body": "  .  "
 },
@@ -3749,7 +3281,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphing_inverse_functions.html#sec-graphing_inverse_functions-5-3",
   "type": "Exercise",
-  "number": "5.5.4.2",
+  "number": "4.4.4.2",
   "title": "",
   "body": "  .  "
 },
@@ -3758,7 +3290,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphing_inverse_functions.html#sec-graphing_inverse_functions-5-4",
   "type": "Exercise",
-  "number": "5.5.4.3",
+  "number": "4.4.4.3",
   "title": "",
   "body": "  .  "
 },
@@ -3767,7 +3299,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graphing_inverse_functions.html#sec-graphing_inverse_functions-5-5",
   "type": "Exercise",
-  "number": "5.5.4.4",
+  "number": "4.4.4.4",
   "title": "",
   "body": "  .  "
 },
@@ -3776,7 +3308,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-piecewise.html",
   "type": "Section",
-  "number": "5.6",
+  "number": "4.5",
   "title": "Piecewise Defined Functions",
   "body": " Piecewise Defined Functions  A powerful method for constructing new functions from existing functions is to \"glue\" two or more functions together.   Piecewise Defined Function   Let be a positive integer. Assume are pairwise disjoint sets, meaning whenever , and let . Suppose are functions. The function defined by is called a piecewise defined function .  Function  Piecewise Defined        Write the absolute value function as a piecewise defined function.    If is a real number, then If is a real number, then Therefore       Graph the piecewise defined function      The graph of          Find the inverse of the function in and graph it.    Since the functions and are invertible, we simply need to find their inverses and glue them together.   The inverse of is defined by .    The inverse of is defined by .   Therefore is defined by the formula    The graph of          Use the piecewise function to answer the following questions.   What is the domain of    What is the range of   Evaluate the following          Graph the function     "
 },
@@ -3785,7 +3317,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise.html#def-piecewise",
   "type": "Definition",
-  "number": "5.6.1",
+  "number": "4.5.1",
   "title": "Piecewise Defined Function.",
   "body": " Piecewise Defined Function   Let be a positive integer. Assume are pairwise disjoint sets, meaning whenever , and let . Suppose are functions. The function defined by is called a piecewise defined function .  Function  Piecewise Defined     "
 },
@@ -3794,7 +3326,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise.html#sec-piecewise-4",
   "type": "Example",
-  "number": "5.6.2",
+  "number": "4.5.2",
   "title": "",
   "body": "  Write the absolute value function as a piecewise defined function.    If is a real number, then If is a real number, then Therefore    "
 },
@@ -3803,7 +3335,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise.html#eg-piecewise_invertible",
   "type": "Example",
-  "number": "5.6.3",
+  "number": "4.5.3",
   "title": "",
   "body": "  Graph the piecewise defined function      The graph of       "
 },
@@ -3812,7 +3344,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise.html#sec-piecewise-6",
   "type": "Example",
-  "number": "5.6.5",
+  "number": "4.5.5",
   "title": "",
   "body": "  Find the inverse of the function in and graph it.    Since the functions and are invertible, we simply need to find their inverses and glue them together.   The inverse of is defined by .    The inverse of is defined by .   Therefore is defined by the formula    The graph of       "
 },
@@ -3821,7 +3353,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise.html#sec-piecewise-7-1",
   "type": "Exercise",
-  "number": "5.6.1",
+  "number": "4.5.1",
   "title": "",
   "body": " Use the piecewise function to answer the following questions.   What is the domain of    What is the range of   Evaluate the following        "
 },
@@ -3830,7 +3362,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise.html#sec-piecewise-7-2",
   "type": "Exercise",
-  "number": "5.6.2",
+  "number": "4.5.2",
   "title": "",
   "body": " Graph the function   "
 },
@@ -3839,7 +3371,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-exponentials.html",
   "type": "Section",
-  "number": "6.1",
+  "number": "5.1",
   "title": "The Exponential Function",
   "body": " The Exponential Function   So far, all of the functions we have encountered are either polynomials or can be constructed from polynomial equations using algebraic operations. A transcendental function   Function  Transcendental  is any function that cannot be constructed in this manner. While it is certainly odd to discuss functions that cannot be constructed by algebraic means in a course on algebra, many calculus courses expect students to already be familiar with these functions. We focus solely on the algebraic properties of these functions.    Properties of the Exponential Function  We start with the definition of a constant. Much like the number , this number cannot be constructed using algebraic methods. Indeed, the proper definition requires calculus, so we provide only a numerical approximation.   Euler's Number    Euler's number   Euler's Number  is the constant .   Euler's number      This constant is essential to the definition of the exponential function.   The Exponential Function   The exponential function   Function  Exponential   is defined by .    We can think about the value of the exponential function at a positive real number as the result of multiplying copies of the number : This definition extends to all real numbers by defining   An interesting consequence of these definitions is that the exponential function transforms addition of the input into multiplication of the output and subtraction of the input into division of the output. For addition of the input, we take advantage of the fact that multiplication is associative to write   For subtraction of the inverse, we note that , so   These two properties also provide a convenient observation about multiplication of the input. Recall that the product of two numbers is simply a notational convenience. Depending on your needs, the product can be regarded as either adding together copies of the number or copies of the number : If we take first interpretation of , then we can apply the formula for the sum of inputs times to get Similarly, if we take the second interpretation of , then we can apply the formula for the sum of inputs times to get    Properties of Exponential Functions   Assume and are real numbers.                            The Graph of the Exponential Function  The graph of the exponential function is provided below.   The graph of         Use the to rewrite each equation so there is only one exponential term.                   Match each function with its graph.                                    "
 },
@@ -3857,7 +3389,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponentials.html#def-euler_constant",
   "type": "Definition",
-  "number": "6.1.1",
+  "number": "5.1.1",
   "title": "Euler’s Number.",
   "body": " Euler's Number    Euler's number   Euler's Number  is the constant .   Euler's number     "
 },
@@ -3866,7 +3398,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponentials.html#def-natural_exponential",
   "type": "Definition",
-  "number": "6.1.2",
+  "number": "5.1.2",
   "title": "The Exponential Function.",
   "body": " The Exponential Function   The exponential function   Function  Exponential   is defined by .   "
 },
@@ -3875,7 +3407,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponentials.html#thm-properties_exp",
   "type": "Theorem",
-  "number": "6.1.3",
+  "number": "5.1.3",
   "title": "Properties of Exponential Functions.",
   "body": " Properties of Exponential Functions   Assume and are real numbers.                         "
 },
@@ -3884,7 +3416,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponentials.html#fig-graph_of_exp",
   "type": "Figure",
-  "number": "6.1.4",
+  "number": "5.1.4",
   "title": "",
   "body": " The graph of     "
 },
@@ -3893,7 +3425,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponentials.html#sec-exponentials-5-2",
   "type": "Exercise",
-  "number": "6.1.3.1",
+  "number": "5.1.3.1",
   "title": "",
   "body": "    "
 },
@@ -3902,7 +3434,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponentials.html#sec-exponentials-5-3",
   "type": "Exercise",
-  "number": "6.1.3.2",
+  "number": "5.1.3.2",
   "title": "",
   "body": "    "
 },
@@ -3911,7 +3443,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponentials.html#sec-exponentials-5-4",
   "type": "Exercise",
-  "number": "6.1.3.3",
+  "number": "5.1.3.3",
   "title": "",
   "body": "    "
 },
@@ -3920,7 +3452,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponentials.html#sec-exponentials-5-5",
   "type": "Exercise",
-  "number": "6.1.3.4",
+  "number": "5.1.3.4",
   "title": "",
   "body": " Match each function with its graph.                                  "
 },
@@ -3929,7 +3461,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-logarithms.html",
   "type": "Section",
-  "number": "6.2",
+  "number": "5.2",
   "title": "The Natural Logarithm",
   "body": " The Natural Logarithm   Looking at the graph of , it appears to satisfy .   The horizontal line test for      We can verify this algebraically as follows. Suppose the points and lie on the same horizontal line. These points must have the same -coordinates, so implies that and so . That is to say, the two points are the same point and so any horizontal line intersects the graph in at most one point. This tells us the exponential function is invertible.    Properties of the Natural Logarithm   The Natural Logarithm    The natural logarithm    The natural logarithm ,  Function  Logarithm  Natural   , is the inverse of .    As the composition inverse of , the logarithm inherits properties that are very similar to the . To describe these properties algebraically it is helpful to phrase the relationship between the exponential and the logarithm as pairing each real number with a positive real number via   Starting from the property , taking and in allows us to write We should note this algebraic fact fits with our geometric understanding. The graph of passes through the point . Since the graph of is the reflection of the graph of the exponential function across the line , the graph of the natural logarithm passes through the point .  If we introduce another real number, , then we obtain a second positive real number, . The function maps the sum of these numbers to the product of their pairs so the right-hand side of tells us that the logarithm pairs the product of positive real numbers with the sum of their pairs   Similarly, the function maps the difference of these numbers to the ratio of their pairs so the right-hand side of tells us that the logarithm pairs the ratio of positive real numbers with the difference of their pairs   Finally, we make the following observation as a convenience. If is any positive real number and is any real number, then we think of as the product of copies of the number  If we transform the log of the product into the sum of the logs times, then we obtain the expression   We summarize these properties below.   Properties of the Logarithm   Assume and are positive real numbers.                            The Graph of the Natural Logarithm  As the composition inverse, the graph of is obtained by reflecting the graph of across the line .   The graph of         Solving Equations with Transcendental Functions  Sometimes, equations arise that involve the exponential function or the natural logarithm. The general tactic for solving equations of this type is to combine the exponentials or logarithms using and , then use the relation as appropriate, to obtain an equation without exponentials or logarithms.    Solve the equation for .    Use the to rewrite Therefore there are two solutions to this equation: and .  We can check is a solution by substituting for on the left-hand side to get then on the right-hand side to get and observe they are the same.  Similarly, we can check is a solution by substituting for on the left-hand side to get then on the right-hand side to get and observe they are the same.      Solve the equation for     Use the to rewrite The two possible solutions are and . The solution is extraneous because is undefined. Therefore the only solution is .  We can verify this is a solution by substituting for to see        Solve the equation for .    Solve the equation for .    Solve the equation for     Solve the equation for .    Solve the equation for .    Solve the equation for .    "
 },
@@ -3938,7 +3470,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-logarithms.html#fig-horizontal_line_test_exp",
   "type": "Figure",
-  "number": "6.2.1",
+  "number": "5.2.1",
   "title": "",
   "body": " The horizontal line test for     "
 },
@@ -3947,7 +3479,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-logarithms.html#sec-logarithms-3-2",
   "type": "Definition",
-  "number": "6.2.2",
+  "number": "5.2.2",
   "title": "The Natural Logarithm.",
   "body": " The Natural Logarithm    The natural logarithm    The natural logarithm ,  Function  Logarithm  Natural   , is the inverse of .   "
 },
@@ -3956,7 +3488,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-logarithms.html#thm-properties_log",
   "type": "Theorem",
-  "number": "6.2.3",
+  "number": "5.2.3",
   "title": "Properties of the Logarithm.",
   "body": " Properties of the Logarithm   Assume and are positive real numbers.                         "
 },
@@ -3965,7 +3497,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-logarithms.html#fig-graph_log",
   "type": "Figure",
-  "number": "6.2.4",
+  "number": "5.2.4",
   "title": "",
   "body": " The graph of      "
 },
@@ -3974,7 +3506,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-logarithms.html#sec-logarithms-5-3",
   "type": "Example",
-  "number": "6.2.5",
+  "number": "5.2.5",
   "title": "",
   "body": "  Solve the equation for .    Use the to rewrite Therefore there are two solutions to this equation: and .  We can check is a solution by substituting for on the left-hand side to get then on the right-hand side to get and observe they are the same.  Similarly, we can check is a solution by substituting for on the left-hand side to get then on the right-hand side to get and observe they are the same.   "
 },
@@ -3983,7 +3515,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-logarithms.html#sec-logarithms-5-4",
   "type": "Example",
-  "number": "6.2.6",
+  "number": "5.2.6",
   "title": "",
   "body": "  Solve the equation for     Use the to rewrite The two possible solutions are and . The solution is extraneous because is undefined. Therefore the only solution is .  We can verify this is a solution by substituting for to see    "
 },
@@ -3992,7 +3524,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-logarithms.html#sec-logarithms-6-1",
   "type": "Exercise",
-  "number": "6.2.4.1",
+  "number": "5.2.4.1",
   "title": "",
   "body": " Solve the equation for .  "
 },
@@ -4001,7 +3533,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-logarithms.html#sec-logarithms-6-2",
   "type": "Exercise",
-  "number": "6.2.4.2",
+  "number": "5.2.4.2",
   "title": "",
   "body": " Solve the equation for .  "
 },
@@ -4010,7 +3542,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-logarithms.html#sec-logarithms-6-3",
   "type": "Exercise",
-  "number": "6.2.4.3",
+  "number": "5.2.4.3",
   "title": "",
   "body": " Solve the equation for   "
 },
@@ -4019,7 +3551,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-logarithms.html#sec-logarithms-6-4",
   "type": "Exercise",
-  "number": "6.2.4.4",
+  "number": "5.2.4.4",
   "title": "",
   "body": " Solve the equation for .  "
 },
@@ -4028,7 +3560,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-logarithms.html#sec-logarithms-6-5",
   "type": "Exercise",
-  "number": "6.2.4.5",
+  "number": "5.2.4.5",
   "title": "",
   "body": " Solve the equation for .  "
 },
@@ -4037,7 +3569,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-logarithms.html#sec-logarithms-6-6",
   "type": "Exercise",
-  "number": "6.2.4.6",
+  "number": "5.2.4.6",
   "title": "",
   "body": " Solve the equation for .  "
 },
@@ -4046,7 +3578,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-other_exponentials.html",
   "type": "Section",
-  "number": "6.3",
+  "number": "5.3",
   "title": "Other Exponential Functions",
   "body": " Other Exponential Functions   The number is chosen for the exponential function specifically because it has nice analytic properties, which are the domain of calculus. Since these properties are beyond the scope of an algebra course, we focus only on the algebraic similarities between exponential functions with different bases.    Changing the Base of the Exponential  When we defined the exponential function , there was nothing algebraically interesting about using the number . We could just as well have chosen any other positive integer  we exclude simply because the constant function is rather boring. Had we chosen a different positive integer, we would have started from the following definition.    Assume is a fixed positive real number. The exponential function with base  Function  Exponential  is defined by .   Exponential function with base  The number is called the base   Function  Exponential  Base  of the exponential function.    At this point, you might be trying to reconcile in your mind how there could be more than one. The answer, thankfully, is there really is not a second exponential function. Since the natural logarithm is defined for all positive real numbers, we can rewrite so that with a little algebraic gymnastics,   To understand the function in general, we need to consider two cases. When , and so is simply a of , which we can see in    The graphs of the exponential functions with base , , , , , , and      When , and so is obtained from by a and a of .   The graphs of the exponential functions with base , , , , , , and        Properties of Exponential Functions  Unsurprisingly, all of the same properties enjoyed by are also enjoyed by .   We can use these properties to compare the effect of choosing a different base by measuring the relative change .    Let be a function that is defined on the interval . The relative change   Function  Relative Change  of on the interval is     Since the exponential functions are defined for all real numbers, we can consider any interval of unit length by taking a number as the left endpoint and as the right endpoint. Over this interval, the relative change is     Assume is a positive number. The number is called the growth rate   Function  Exponential  Growth Rate  of if or the decay rate   Function  Exponential  Decay Rate  of if .   When , we say the function models exponential growth   Function  Exponential  Growth  and we call the number the growth factor .  Function  Exponential  Growth Factor      When , we say the function models exponential decay   Function  Exponential  Decay  and we call the number the decay factor .  Function  Exponential  Decay Factor            Use the properties of exponential functions to rewrite each equation so there is only one exponential term.                   Match each function with its graph.                                    "
 },
@@ -4055,7 +3587,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-other_exponentials.html#def-exponential_function",
   "type": "Definition",
-  "number": "6.3.1",
+  "number": "5.3.1",
   "title": "",
   "body": "  Assume is a fixed positive real number. The exponential function with base  Function  Exponential  is defined by .   Exponential function with base  The number is called the base   Function  Exponential  Base  of the exponential function.   "
 },
@@ -4064,7 +3596,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-other_exponentials.html#fig-exponential_growth",
   "type": "Figure",
-  "number": "6.3.2",
+  "number": "5.3.2",
   "title": "",
   "body": " The graphs of the exponential functions with base , , , , , , and     "
 },
@@ -4073,7 +3605,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-other_exponentials.html#fig-exponential_decay",
   "type": "Figure",
-  "number": "6.3.3",
+  "number": "5.3.3",
   "title": "",
   "body": " The graphs of the exponential functions with base , , , , , , and     "
 },
@@ -4082,7 +3614,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-other_exponentials.html#sec-other_exponentials-4-4",
   "type": "Definition",
-  "number": "6.3.4",
+  "number": "5.3.4",
   "title": "",
   "body": "  Let be a function that is defined on the interval . The relative change   Function  Relative Change  of on the interval is    "
 },
@@ -4091,7 +3623,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-other_exponentials.html#def-exp_unit_relative_change",
   "type": "Definition",
-  "number": "6.3.5",
+  "number": "5.3.5",
   "title": "",
   "body": "  Assume is a positive number. The number is called the growth rate   Function  Exponential  Growth Rate  of if or the decay rate   Function  Exponential  Decay Rate  of if .   When , we say the function models exponential growth   Function  Exponential  Growth  and we call the number the growth factor .  Function  Exponential  Growth Factor      When , we say the function models exponential decay   Function  Exponential  Decay  and we call the number the decay factor .  Function  Exponential  Decay Factor        "
 },
@@ -4100,7 +3632,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-other_exponentials.html#sec-other_exponentials-5-2",
   "type": "Exercise",
-  "number": "6.3.3.1",
+  "number": "5.3.3.1",
   "title": "",
   "body": "    "
 },
@@ -4109,7 +3641,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-other_exponentials.html#sec-other_exponentials-5-3",
   "type": "Exercise",
-  "number": "6.3.3.2",
+  "number": "5.3.3.2",
   "title": "",
   "body": "    "
 },
@@ -4118,7 +3650,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-other_exponentials.html#sec-other_exponentials-5-4",
   "type": "Exercise",
-  "number": "6.3.3.3",
+  "number": "5.3.3.3",
   "title": "",
   "body": "    "
 },
@@ -4127,7 +3659,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-other_exponentials.html#sec-other_exponentials-5-5",
   "type": "Exercise",
-  "number": "6.3.3.4",
+  "number": "5.3.3.4",
   "title": "",
   "body": " Match each function with its graph.                                  "
 },
@@ -4136,7 +3668,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-other_logarithms.html",
   "type": "Section",
-  "number": "6.4",
+  "number": "5.4",
   "title": "Other Logarithmic Functions",
   "body": " Other Logarithmic Functions   Just as there is essentially only one exponential function, it should come as no surprise that there is essentially only one logarithm. We can regard the exponential function with base as the composition The condition guarantees that and thus we may invert using the division by function By , the inverse of the exponential with base is the function defined by     Changing the Base of the Logarithm   The Logarithm with Base   Assume is a positive real number. The logarithm with base ,  Function  Logarithm  Base  is the function ,   The logarithm with base  defined by   In particular, for every real number and every positive real number ,     Our understanding of the natural logarithm and graph transformations allows us to very quickly visualize the logarithm with base . Just as for exponentials, there are two cases: and . When , and so the graph of is obtained as a vertical scaling of by . We have plotted the logarithm for several bases in .   The graphs of the logarithms with base , , , , , , and      When , , and so the graph of is obtained by vertically scaling by and reflecting across the -axis. We have plotted the logarithm for several bases in .   The graphs of the logarithms with base , , , , , , and      Explicitly defining the logarithm with base in terms of the natural logarithm also allows us a simple way to convert between logarithms with different bases. Assume and are both positive numbers. Multiplying both sides of the equation by the number allows us to write We can substitute this for in the definition of the logarithm base to produce It is often convenient to involve only two bases in this expression, so we rewrite    Base Change for Logarithms   Assume and are positive real numbers. For all positive real numbers ,       The logarithm often written  means different things to different people, often depending on the context.   Most mathematicians (and mathematical texts) will write to mean the logarithm with base . This is because mathematicians are primarily interested in the functions and their behaviors, not numbers or numerical data.    Most computer scientists will write to mean the logarithm with base . This is because computer scientists most frequently work with numbers and numerical data expressed in base or binary  the number system used for computational devices. In base , numbers are represented as strings with digits that are either or . For example, in base the string stands for the number     Most scientists and engineers will write to mean the logarithm with base . This is because scientists and engineers most frequently work with numbers and numerical data expressed in the usual base 10 or decimal number system. In contrast to base , the base 10 number system consists of strings of digits that are allowed to be one of , , , , , , , , , or . For example, in base the string stands for          Solving Equations with Exponential Functions   Use the properties of exponentials and the appropriate logarithmic function to solve the following equations for .    Solve the equation for .    Solve the equation for .    Solve the equation for      Solving Equations with Logarithms   Use the properties of logarithms and the appropriate exponential function to solve the following equations for .    Solve the equation for .    Solve the equation for .    Solve the equation for .     "
 },
@@ -4145,7 +3677,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-other_logarithms.html#def-log_base_a",
   "type": "Definition",
-  "number": "6.4.1",
+  "number": "5.4.1",
   "title": "The Logarithm with Base <span class=\"process-math\">\\(a\\)<\/span>.",
   "body": " The Logarithm with Base   Assume is a positive real number. The logarithm with base ,  Function  Logarithm  Base  is the function ,   The logarithm with base  defined by   In particular, for every real number and every positive real number ,    "
 },
@@ -4154,7 +3686,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-other_logarithms.html#fig-refl_exponential_growth",
   "type": "Figure",
-  "number": "6.4.2",
+  "number": "5.4.2",
   "title": "",
   "body": " The graphs of the logarithms with base , , , , , , and     "
 },
@@ -4163,7 +3695,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-other_logarithms.html#fig-refl_exponential_decay",
   "type": "Figure",
-  "number": "6.4.3",
+  "number": "5.4.3",
   "title": "",
   "body": " The graphs of the logarithms with base , , , , , , and     "
 },
@@ -4172,7 +3704,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-other_logarithms.html#formula-base_change",
   "type": "Formula",
-  "number": "6.4.4",
+  "number": "5.4.4",
   "title": "Base Change for Logarithms.",
   "body": " Base Change for Logarithms   Assume and are positive real numbers. For all positive real numbers ,    "
 },
@@ -4181,7 +3713,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-other_logarithms.html#sec-other_logarithms-3-9",
   "type": "Remark",
-  "number": "6.4.5",
+  "number": "5.4.5",
   "title": "",
   "body": "  The logarithm often written  means different things to different people, often depending on the context.   Most mathematicians (and mathematical texts) will write to mean the logarithm with base . This is because mathematicians are primarily interested in the functions and their behaviors, not numbers or numerical data.    Most computer scientists will write to mean the logarithm with base . This is because computer scientists most frequently work with numbers and numerical data expressed in base or binary  the number system used for computational devices. In base , numbers are represented as strings with digits that are either or . For example, in base the string stands for the number     Most scientists and engineers will write to mean the logarithm with base . This is because scientists and engineers most frequently work with numbers and numerical data expressed in the usual base 10 or decimal number system. In contrast to base , the base 10 number system consists of strings of digits that are allowed to be one of , , , , , , , , , or . For example, in base the string stands for      "
 },
@@ -4190,7 +3722,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-other_logarithms.html#sec-other_logarithms-4-1-3",
   "type": "Exercise",
-  "number": "6.4.2.1",
+  "number": "5.4.2.1",
   "title": "",
   "body": " Solve the equation for .  "
 },
@@ -4199,7 +3731,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-other_logarithms.html#sec-other_logarithms-4-1-4",
   "type": "Exercise",
-  "number": "6.4.2.2",
+  "number": "5.4.2.2",
   "title": "",
   "body": " Solve the equation for .  "
 },
@@ -4208,7 +3740,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-other_logarithms.html#sec-other_logarithms-4-1-5",
   "type": "Exercise",
-  "number": "6.4.2.3",
+  "number": "5.4.2.3",
   "title": "",
   "body": " Solve the equation for   "
 },
@@ -4217,7 +3749,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-other_logarithms.html#sec-other_logarithms-4-2-3",
   "type": "Exercise",
-  "number": "6.4.2.4",
+  "number": "5.4.2.4",
   "title": "",
   "body": " Solve the equation for .  "
 },
@@ -4226,7 +3758,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-other_logarithms.html#sec-other_logarithms-4-2-4",
   "type": "Exercise",
-  "number": "6.4.2.5",
+  "number": "5.4.2.5",
   "title": "",
   "body": " Solve the equation for .  "
 },
@@ -4235,7 +3767,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-other_logarithms.html#sec-other_logarithms-4-2-5",
   "type": "Exercise",
-  "number": "6.4.2.6",
+  "number": "5.4.2.6",
   "title": "",
   "body": " Solve the equation for .  "
 },
@@ -4244,7 +3776,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-modeling.html",
   "type": "Section",
-  "number": "6.5",
+  "number": "5.5",
   "title": "Modeling with Exponential Functions",
   "body": " Modeling with Exponential Functions   Exponential functions are of interest to scientists because they are useful in modeling natural phenomena. In this section, we explore some examples that demonstrate how exponential functions can be used for modeling.    Exponential Growth   Population Growth  A biologist observes a population over a six year period. The biologist measures the size of the observed population at the beginning and end of each of the years. In an effort to understand how the population is changing, the biologist records the year-to-year change as a numeric value and as a percentage of the initial population for the year.   Observed Population by Year         Year  Initial Population  Final Population  Change  Percent Change                                               Using the table, the biologist notices the following relations amongst the population sizes This leads the biologist to conclude that the size of the population can be measured with the exponential function where is the amount of time in years that has elapsed. This function agrees with the observations for , and predicts the size of the population at the end of the seventh year will be     Compound Interest  Your local bank offers a savings account with a annual interest that is compounded monthly. This means the bank will add of your current balance to your account every month. In other words, your balance grows at a rate of  per month .  The growth factor for the exponential function that models the amount of money in the account after  months is Assuming you deposit into a savings account, the balance of the account after  months is given by the function   Customarily, one measures investments as a function of the number of years that have elapsed, rather than months. Since there are months in a year, we compress the time scale by a factor of to obtain the function that measures the amount of money in the account after  years .  The table below shows the amount of money in the account for a five year period, with all figures rounded to two decimal places.   Amount of Money in Savings Account         Year  Initial Amount ( )  Final Amount ( )  Change ( )  Growth Rate (Annual)                                        Note that the growth factor for this function is , so the growth rate is slightly higher than the interest rate ( ).   In general, we can model compound interest using the following formula.   Compound Interest Formula   Assume dollars are invested in an account at an annual interest rate of that is compounded times each year. The amount of money in the account after years is The growth rate for this function is which measures the increase in the balance over one year as a percentage of the previous balance.    For interest that compounds continuously , we have the following formula.   Continuously Compounding Interest Formula   Assume dollars are invested in an account at an annual interest rate of that is compounded continuously . The amount of money in the account after years is The growth rate for this function is , which measures the increase in the balance over one year as a percentage of the previous balance.     We can always express compounding interest as continuously compounding interest using the logarithm.    Converting to Continuously Compounding Interest   As we saw in , we can model the balance of a savings account with principal investment of at an annual interest rate of compounded monthly with the function Since the growth factor of this function is , we have and thus we can rewrite with base as       Exponential Decay   Half-Life  The half-life of the radioactive isotope technetium-99m is hours . Assume we start with a sample of grams of technetium-99m. The table below lists the amount at the beginning and the end of each six hour period over the course of a day.   Amount of technetium-99m over 24 hours         Period  Initial Amount (grams)  Final Amount (grams)  Change (grams)  Percent Change                                 We can model the amount of the sample remaining as a function of the number of hour periods that have passed using the exponential function However, it would be more convenient to model the amount of the sample as a function of the number of hours that have passed. To do this, we first recognize that hour is of a period. We can stretch the time scale by a factor of to obtain the function that measures the amount of the technetium-99m sample remaining after hours have elapsed. Using this function, we have recorded the amount remaining after each hour for the first six hour period in the table below.   Amount of technetium-99m over 24 hours       Hour  Amount Remaining (grams)  Percent Change                                        The population of a city is measured once every decade. A table of census data is given below. Find a function, , of years that models the population. Use your function to estimate the population in the year 2024.   Census data      Year  Population                               A substance decays by losing half of its mass every 30 years. Assume the initial sample is grams. Find a function that models the mass of the sample after years. How much of the material will remain after years? Round your answer to two decimal places.    The number of bacteria in a culture triples every six hours. Find a function that models the number of bacteria in the culture after hours. How many bacteria will be present in the culture after hours?    The local bank offers an investment account with an annual interest rate of that compounds four times per year. Assume you invest . Find a function that models the amount of money in the account after years. How much money will be in the account after 17 months?    "
 },
@@ -4253,7 +3785,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-modeling.html#example-exp_growth",
   "type": "Example",
-  "number": "6.5.1",
+  "number": "5.5.1",
   "title": "Population Growth.",
   "body": " Population Growth  A biologist observes a population over a six year period. The biologist measures the size of the observed population at the beginning and end of each of the years. In an effort to understand how the population is changing, the biologist records the year-to-year change as a numeric value and as a percentage of the initial population for the year.   Observed Population by Year         Year  Initial Population  Final Population  Change  Percent Change                                               Using the table, the biologist notices the following relations amongst the population sizes This leads the biologist to conclude that the size of the population can be measured with the exponential function where is the amount of time in years that has elapsed. This function agrees with the observations for , and predicts the size of the population at the end of the seventh year will be   "
 },
@@ -4262,7 +3794,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-modeling.html#example-compound_interest",
   "type": "Example",
-  "number": "6.5.3",
+  "number": "5.5.3",
   "title": "Compound Interest.",
   "body": " Compound Interest  Your local bank offers a savings account with a annual interest that is compounded monthly. This means the bank will add of your current balance to your account every month. In other words, your balance grows at a rate of  per month .  The growth factor for the exponential function that models the amount of money in the account after  months is Assuming you deposit into a savings account, the balance of the account after  months is given by the function   Customarily, one measures investments as a function of the number of years that have elapsed, rather than months. Since there are months in a year, we compress the time scale by a factor of to obtain the function that measures the amount of money in the account after  years .  The table below shows the amount of money in the account for a five year period, with all figures rounded to two decimal places.   Amount of Money in Savings Account         Year  Initial Amount ( )  Final Amount ( )  Change ( )  Growth Rate (Annual)                                        Note that the growth factor for this function is , so the growth rate is slightly higher than the interest rate ( ).  "
 },
@@ -4271,7 +3803,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-modeling.html#formula-compound_interest",
   "type": "Formula",
-  "number": "6.5.5",
+  "number": "5.5.5",
   "title": "Compound Interest Formula.",
   "body": " Compound Interest Formula   Assume dollars are invested in an account at an annual interest rate of that is compounded times each year. The amount of money in the account after years is The growth rate for this function is which measures the increase in the balance over one year as a percentage of the previous balance.   "
 },
@@ -4280,7 +3812,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-modeling.html#formula-cont_compound_interest",
   "type": "Formula",
-  "number": "6.5.6",
+  "number": "5.5.6",
   "title": "Continuously Compounding Interest Formula.",
   "body": " Continuously Compounding Interest Formula   Assume dollars are invested in an account at an annual interest rate of that is compounded continuously . The amount of money in the account after years is The growth rate for this function is , which measures the increase in the balance over one year as a percentage of the previous balance.   "
 },
@@ -4289,7 +3821,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-modeling.html#sec-modeling-3-8",
   "type": "Remark",
-  "number": "6.5.7",
+  "number": "5.5.7",
   "title": "",
   "body": " We can always express compounding interest as continuously compounding interest using the logarithm.  "
 },
@@ -4298,7 +3830,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-modeling.html#sec-modeling-3-9",
   "type": "Example",
-  "number": "6.5.8",
+  "number": "5.5.8",
   "title": "Converting to Continuously Compounding Interest.",
   "body": " Converting to Continuously Compounding Interest   As we saw in , we can model the balance of a savings account with principal investment of at an annual interest rate of compounded monthly with the function Since the growth factor of this function is , we have and thus we can rewrite with base as    "
 },
@@ -4307,7 +3839,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-modeling.html#example-exp_decay",
   "type": "Example",
-  "number": "6.5.9",
+  "number": "5.5.9",
   "title": "Half-Life.",
   "body": " Half-Life  The half-life of the radioactive isotope technetium-99m is hours . Assume we start with a sample of grams of technetium-99m. The table below lists the amount at the beginning and the end of each six hour period over the course of a day.   Amount of technetium-99m over 24 hours         Period  Initial Amount (grams)  Final Amount (grams)  Change (grams)  Percent Change                                 We can model the amount of the sample remaining as a function of the number of hour periods that have passed using the exponential function However, it would be more convenient to model the amount of the sample as a function of the number of hours that have passed. To do this, we first recognize that hour is of a period. We can stretch the time scale by a factor of to obtain the function that measures the amount of the technetium-99m sample remaining after hours have elapsed. Using this function, we have recorded the amount remaining after each hour for the first six hour period in the table below.   Amount of technetium-99m over 24 hours       Hour  Amount Remaining (grams)  Percent Change                                   "
 },
@@ -4316,7 +3848,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-modeling.html#sec-modeling-6-1",
   "type": "Exercise",
-  "number": "6.5.3.1",
+  "number": "5.5.3.1",
   "title": "",
   "body": " The population of a city is measured once every decade. A table of census data is given below. Find a function, , of years that models the population. Use your function to estimate the population in the year 2024.   Census data      Year  Population                             "
 },
@@ -4325,7 +3857,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-modeling.html#sec-modeling-6-2",
   "type": "Exercise",
-  "number": "6.5.3.2",
+  "number": "5.5.3.2",
   "title": "",
   "body": " A substance decays by losing half of its mass every 30 years. Assume the initial sample is grams. Find a function that models the mass of the sample after years. How much of the material will remain after years? Round your answer to two decimal places.  "
 },
@@ -4334,7 +3866,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-modeling.html#sec-modeling-6-3",
   "type": "Exercise",
-  "number": "6.5.3.3",
+  "number": "5.5.3.3",
   "title": "",
   "body": " The number of bacteria in a culture triples every six hours. Find a function that models the number of bacteria in the culture after hours. How many bacteria will be present in the culture after hours?  "
 },
@@ -4343,7 +3875,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-modeling.html#sec-modeling-6-4",
   "type": "Exercise",
-  "number": "6.5.3.4",
+  "number": "5.5.3.4",
   "title": "",
   "body": " The local bank offers an investment account with an annual interest rate of that compounds four times per year. Assume you invest . Find a function that models the amount of money in the account after years. How much money will be in the account after 17 months?  "
 },
