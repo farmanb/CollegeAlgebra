@@ -4,7 +4,6 @@
   <targets>
     <target name="web" format="html" />
     <target name="print" format="pdf" />
-    <target name="print-latex" format="latex"/>
     <target name="notes" format="pdf" output-dir="notes" publication="notes.ptx"/>
     <target name="solutions" format="pdf" source="main.ptx" publication="solutions.ptx" xsl="solution-manual.xsl" output-dir="solutions"/>
   </targets>
