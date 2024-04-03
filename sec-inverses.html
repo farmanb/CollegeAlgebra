@@ -481,7 +481,7 @@ c + (-c) = 0\quad\text{and}\quad -c + c = 0
 \add{c}(x) = x + c \quad\text{and}\quad \sub{c}(x) = x - c
 \end{equation*}
 </div>
-<div class="para">We can view <a href="" class="xref" data-knowl="./knowl/xref/eq-g_of_f.html" title="Equation 4.3.1">(4.3.1)</a> and <a href="" class="xref" data-knowl="./knowl/xref/eq-f_of_g.html" title="Equation 4.3.2">(4.3.2)</a> in terms of composition:</div>
+<div class="para">We can view <a href="sec-inverses.html#eq-g_of_f" class="xref" data-knowl="./knowl/xref/eq-g_of_f.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 4.3.1">(4.3.1)</a> and <a href="sec-inverses.html#eq-f_of_g" class="xref" data-knowl="./knowl/xref/eq-f_of_g.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 4.3.2">(4.3.2)</a> in terms of composition:</div>
 </div>
 <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
 <div class="sbspanel top" style="width:50%;"><div class="para logical" id="subsec-comp_inverses-4-1"><div class="displaymath process-math" id="subsec-comp_inverses-4-1-1">
@@ -601,7 +601,7 @@ f(A) = \left\{f(x) \;\middle\vert\; x \in A\right\} = B
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.3.6</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="example-inverse_of_arithmetics-1">
-<div class="para">In the language of <a href="" class="xref" data-knowl="./knowl/xref/def-composition_inverse.html" title="Definition 4.3.2: Composition Inverse">Definition 4.3.2</a>, the functions "add <span class="process-math">\(c\)</span>" and "subtract <span class="process-math">\(c\)</span>" are a pair of inverse functions</div>
+<div class="para">In the language of <a href="sec-inverses.html#def-composition_inverse" class="xref" data-knowl="./knowl/xref/def-composition_inverse.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 4.3.2: Composition Inverse">Definition 4.3.2</a>, the functions "add <span class="process-math">\(c\)</span>" and "subtract <span class="process-math">\(c\)</span>" are a pair of inverse functions</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def-composition_inverse.html">
 \begin{equation*}
 \left(\add{c}\right)^{-1} = \sub{c}
@@ -646,7 +646,7 @@ f(x) = \add{b} \circ \mul{m}(x)
 <div class="para">Note this is equivalent to solving the equation <span class="process-math">\(y = mx + b\)</span> for <span class="process-math">\(x\)</span> in terms of <span class="process-math">\(y\)</span>
 </div>
 </div> <div class="para logical" id="example-inverse_of_composition-3">
-<div class="para">In the language of <a href="" class="xref" data-knowl="./knowl/xref/example-inverse_of_arithmetics.html" title="Example 4.3.6">Example 4.3.6</a>, the inverse of <span class="process-math">\(f\)</span> is the composition</div>
+<div class="para">In the language of <a href="sec-inverses.html#example-inverse_of_arithmetics" class="xref" data-knowl="./knowl/xref/example-inverse_of_arithmetics.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 4.3.6">Example 4.3.6</a>, the inverse of <span class="process-math">\(f\)</span> is the composition</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/example-inverse_of_arithmetics.html" id="example-inverse_of_composition-3-3">
 \begin{align*}
 f^{-1}(y) \amp= \left(\mul{m}\right)^{-1} \circ \left(\add{b}\right)^{-1}(y)\\
@@ -674,7 +674,7 @@ f^{-1} \circ f(x) \amp = f^{-1}(mx + b)\\
 \amp= x.
 \end{align*}
 </div></div></div>
-</div></div></article><div class="para" id="subsec-props_invertible-8">Our observations about compositions of invertible functions in <a href="" class="xref" data-knowl="./knowl/xref/example-inverse_of_composition.html" title="Example 4.3.7">Example 4.3.7</a> are true in general.</div>
+</div></div></article><div class="para" id="subsec-props_invertible-8">Our observations about compositions of invertible functions in <a href="sec-inverses.html#example-inverse_of_composition" class="xref" data-knowl="./knowl/xref/example-inverse_of_composition.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 4.3.7">Example 4.3.7</a> are true in general.</div>
 <article class="claim theorem-like" id="formula-inverse_of_composition"><h4 class="heading">
 <span class="type">Formula</span><span class="space"> </span><span class="codenumber">4.3.8</span><span class="period">.</span>
 </h4>
@@ -690,7 +690,7 @@ f^{-1} \circ f(x) \amp = f^{-1}(mx + b)\\
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.3.9</span><span class="period">.</span>
 </h4>
 <div class="para" id="example-parabola_not_invertible-1">Consider the quadratic function <span class="process-math">\(f \colon \R \to [0,\infty)\)</span> defined by <span class="process-math">\(f(x) = x^2\text{.}\)</span> This function is <em class="alert">not invertible</em> .</div> <div class="para logical" id="example-parabola_not_invertible-2">
-<div class="para">To see why, we must observe that if an inverse function exists, then by <a href="" class="xref" data-knowl="./knowl/xref/def-composition_inverse.html" title="Definition 4.3.2: Composition Inverse">Definition 4.3.2</a>, it must have the form <span class="process-math">\(f^{-1} \colon [0,\infty) \to \R\)</span> and for every positive number <span class="process-math">\(y\text{,}\)</span> we must assign a single number <span class="process-math">\(x = f^{-1}(y)\)</span> such that</div>
+<div class="para">To see why, we must observe that if an inverse function exists, then by <a href="sec-inverses.html#def-composition_inverse" class="xref" data-knowl="./knowl/xref/def-composition_inverse.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 4.3.2: Composition Inverse">Definition 4.3.2</a>, it must have the form <span class="process-math">\(f^{-1} \colon [0,\infty) \to \R\)</span> and for every positive number <span class="process-math">\(y\text{,}\)</span> we must assign a single number <span class="process-math">\(x = f^{-1}(y)\)</span> such that</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/def-composition_inverse.html">
 \begin{equation*}
 x^2 = f(x) = f \circ f^{-1}(y) = y

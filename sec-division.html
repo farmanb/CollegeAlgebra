@@ -399,7 +399,7 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-division"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">3.2</span><span class="space"> </span><span class="title">Polynomial Division</span>
 </h2>
-<div class="para" id="sec-division-2">Another method for finding roots that is often paired with <a href="" class="xref" data-knowl="./knowl/xref/thm-rational_root.html" title="Theorem 3.1.13: The Rational Root Theorem">The Rational Root Theorem</a> is polynomial division. Besides finding roots, the method of polynomial division will be important in <a href="sec-alg_comb_functions.html" class="internal" title="Section 4.1: Algebraic Combinations of Functions">Section 4.1</a>.</div>
+<div class="para" id="sec-division-2">Another method for finding roots that is often paired with <a href="sec-polynomial_functions.html#thm-rational_root" class="xref" data-knowl="./knowl/xref/thm-rational_root.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 3.1.13: The Rational Root Theorem">The Rational Root Theorem</a> is polynomial division. Besides finding roots, the method of polynomial division will be important in <a href="sec-alg_comb_functions.html" class="internal" title="Section 4.1: Algebraic Combinations of Functions">Section 4.1</a>.</div>
 <div class="para logical" id="sec-division-3">
 <div class="para">Recall that if we have an integer <span class="process-math">\(n\)</span> and a smaller integer, <span class="process-math">\(d\text{,}\)</span> then we can always find integers <span class="process-math">\(q\)</span> and <span class="process-math">\(r\)</span> with <span class="process-math">\(r \lt d\)</span> such that</div>
 <div class="displaymath process-math">
@@ -455,7 +455,7 @@ f(x) = q(x)d(x) + r(x)\text{.}
 35 \amp= 30 \times 1 + 5\tag{3.2.3}
 \end{align}
 </div>
-<div class="para">We arrive at the final answer by repeated substitution for the remainders starting with <a href="" class="xref" data-knowl="./knowl/xref/eq-division_1.html" title="Equation 3.2.1">(3.2.1)</a>.</div>
+<div class="para">We arrive at the final answer by repeated substitution for the remainders starting with <a href="sec-division.html#sec-division-9-2" class="xref" data-knowl="./knowl/xref/eq-division_1.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 3.2.1">(3.2.1)</a>.</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eq-division_1.html ./knowl/xref/eq-division_2.html ./knowl/xref/eq-division_3.html" id="sec-division-9-4">
 \begin{align*}
 6935 \amp= 30 \times 200 + 935 \amp\amp \text{Substitute the RHS of}\ \knowl{./knowl/xref/eq-division_2.html}{\text{(3.2.2)}}\ \text{for}\ 935\\
@@ -471,7 +471,7 @@ f(x) = q(x)d(x) + r(x)\text{.}
 </h3>
 <div class="para" id="sec-division-10-1-1">Long division with integers terminates because we reduce the <em class="emphasis">number of digits</em> in the remainder by at least one at each stage. Our goal will be similar for long division with polynomials, but we will reduce the <em class="emphasis">degree</em> of the remainder polynomial by at least one at every stage. The process terminates when the degree of the remainder is smaller than the degree of the divisor.</div> <div class="para" id="sec-division-10-1-2">Divide the polynomial <span class="process-math">\(f(x) = 6x^3 + 9x^2 + 3x + 5\)</span> by the polynomial <span class="process-math">\(d(x) = 3x\text{.}\)</span>
 </div>
-<div class="solutions"><details id="sec-division-10-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like">
+<div class="solutions"><details id="sec-division-10-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para logical" id="sec-division-10-2-1">
 <div class="para">Write</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eq-poly_div_1.html ./knowl/xref/eq-poly_div_2.html ./knowl/xref/eq-poly_div_3.html" id="sec-division-10-2-1-1">
@@ -481,7 +481,7 @@ f(x) = q(x)d(x) + r(x)\text{.}
 3x + 5 \amp= 1 \times 3x + 5.\tag{3.2.6}
 \end{align}
 </div>
-<div class="para">Starting from <a href="" class="xref" data-knowl="./knowl/xref/eq-poly_div_1.html" title="Equation 3.2.4">(3.2.4)</a>, substitute for the remainders</div>
+<div class="para">Starting from <a href="sec-division.html#sec-division-10-2-1-1" class="xref" data-knowl="./knowl/xref/eq-poly_div_1.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 3.2.4">(3.2.4)</a>, substitute for the remainders</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eq-poly_div_1.html ./knowl/xref/eq-poly_div_2.html ./knowl/xref/eq-poly_div_3.html" id="sec-division-10-2-1-3">
 \begin{align*}
 6x^3 + 9x^2 + 3x + 5 \amp = 2x^2 \times 3x + 9x^2 + 3x + 5 \amp\amp \text{Substitute}\ \knowl{./knowl/xref/eq-poly_div_2.html}{\text{(3.2.5)}}\\
@@ -525,7 +525,7 @@ q(10) = 200 + 30 + 1 = 231
 </div>
 <div class="para">with remainder <span class="process-math">\(r(10) = 5\text{.}\)</span> Indeed, polynomial long division is a generalization of long division in base <span class="process-math">\(10\text{.}\)</span>
 </div>
-</div></article><div class="para" id="sec-division-12">When paired with <a href="" class="xref" data-knowl="./knowl/xref/thm-rational_root.html" title="Theorem 3.1.13: The Rational Root Theorem">The Rational Root Theorem</a>, polynomial long division is useful for factoring polynomials. The main tool is the following theorem.</div>
+</div></article><div class="para" id="sec-division-12">When paired with <a href="sec-polynomial_functions.html#thm-rational_root" class="xref" data-knowl="./knowl/xref/thm-rational_root.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 3.1.13: The Rational Root Theorem">The Rational Root Theorem</a>, polynomial long division is useful for factoring polynomials. The main tool is the following theorem.</div>
 <article class="theorem theorem-like" id="thm-root_div"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.2.6</span><span class="period">.</span>
 </h3>
@@ -533,10 +533,10 @@ q(10) = 200 + 30 + 1 = 231
 </div></article><article class="example example-like" id="sec-division-14"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.2.7</span><span class="period">.</span>
 </h3>
-<div class="para" id="sec-division-14-1-1">As we saw in <a href="" class="xref" data-knowl="./knowl/xref/example-rational_root.html" title="Example 3.1.14">Example 3.1.14</a>, the polynomial <span class="process-math">\(f(x) = 2x^4 - 7x^3 + 5x^2 - 7x + 3\)</span> has a root at <span class="process-math">\(x = 1/2\)</span> and at <span class="process-math">\(x = 3\text{.}\)</span> Use polynomial division to factor <span class="process-math">\(f\)</span> completely.</div>
-<div class="solutions"><details id="sec-division-14-2" class="solution solution-like born-hidden-knowl"><summary><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like">
+<div class="para" id="sec-division-14-1-1">As we saw in <a href="sec-polynomial_functions.html#example-rational_root" class="xref" data-knowl="./knowl/xref/example-rational_root.html" data-reveal-label="Reveal" data-close-label="Close" title="Example 3.1.14">Example 3.1.14</a>, the polynomial <span class="process-math">\(f(x) = 2x^4 - 7x^3 + 5x^2 - 7x + 3\)</span> has a root at <span class="process-math">\(x = 1/2\)</span> and at <span class="process-math">\(x = 3\text{.}\)</span> Use polynomial division to factor <span class="process-math">\(f\)</span> completely.</div>
+<div class="solutions"><details id="sec-division-14-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para logical" id="sec-division-14-2-1">
-<div class="para">By <a href="" class="xref" data-knowl="./knowl/xref/thm-root_div.html" title="Theorem 3.2.6">Theorem 3.2.6</a>, the polynomial <span class="process-math">\(x - 1/2\)</span> divides <span class="process-math">\(f(x)\)</span>
+<div class="para">By <a href="sec-division.html#thm-root_div" class="xref" data-knowl="./knowl/xref/thm-root_div.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 3.2.6">Theorem 3.2.6</a>, the polynomial <span class="process-math">\(x - 1/2\)</span> divides <span class="process-math">\(f(x)\)</span>
 </div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/thm-root_div.html" id="sec-division-14-2-1-4">
 \begin{align*}
@@ -587,14 +587,14 @@ f(x) \amp= \left(x - \frac{1}{2}\right)(x - 3)(2x^2 + 2)\\
 <article class="exercise exercise-like" id="sec-division-15-1"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
 <div class="introduction" id="sec-division-15-1-1"><div class="para" id="sec-division-15-1-1-1">Use the polynomial <span class="process-math">\(f(x) = x^3 - 3x^2 + 2x\)</span> to answer the following questions.</div></div>
 <article class="task exercise-like" id="sec-division-15-1-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="sec-division-15-1-2-1-1">Use the <a href="" class="xref" data-knowl="./knowl/xref/thm-rational_root.html" title="Theorem 3.1.13: The Rational Root Theorem">The Rational Root Theorem</a> to list all possible rational roots of <span class="process-math">\(f\text{.}\)</span>
+<div class="para" id="sec-division-15-1-2-1-1">Use the <a href="sec-polynomial_functions.html#thm-rational_root" class="xref" data-knowl="./knowl/xref/thm-rational_root.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 3.1.13: The Rational Root Theorem">The Rational Root Theorem</a> to list all possible rational roots of <span class="process-math">\(f\text{.}\)</span>
 </div></article><article class="task exercise-like" id="sec-division-15-1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="sec-division-15-1-3-1-1">Use your list to find all the roots of <span class="process-math">\(f\text{.}\)</span>
 </div></article><article class="task exercise-like" id="sec-division-15-1-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="sec-division-15-1-4-1-1">Use the roots of <span class="process-math">\(f\)</span> to find its factorization.</div></article></article><article class="exercise exercise-like" id="sec-division-15-2"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
 <div class="introduction" id="sec-division-15-2-1"><div class="para" id="sec-division-15-2-1-1">Use the polynomial <span class="process-math">\(f(x) = x^3 - x^2 - 2x + 2\)</span> to answer the following questions.</div></div>
 <article class="task exercise-like" id="sec-division-15-2-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="sec-division-15-2-2-1-1">Use the <a href="" class="xref" data-knowl="./knowl/xref/thm-rational_root.html" title="Theorem 3.1.13: The Rational Root Theorem">The Rational Root Theorem</a> to list all possible rational roots of <span class="process-math">\(f\text{.}\)</span>
+<div class="para" id="sec-division-15-2-2-1-1">Use the <a href="sec-polynomial_functions.html#thm-rational_root" class="xref" data-knowl="./knowl/xref/thm-rational_root.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 3.1.13: The Rational Root Theorem">The Rational Root Theorem</a> to list all possible rational roots of <span class="process-math">\(f\text{.}\)</span>
 </div></article><article class="task exercise-like" id="sec-division-15-2-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="sec-division-15-2-3-1-1">Use your list to find all <em class="emphasis">rational</em> roots of <span class="process-math">\(f\text{.}\)</span>
 </div></article><article class="task exercise-like" id="sec-division-15-2-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
