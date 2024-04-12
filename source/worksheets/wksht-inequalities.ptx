@@ -42,40 +42,40 @@
       <title>Solving Polynomial Inequalities Graphically</title>
       <introduction>
 	<p>
-	    Use the graph of the function below to answer the following questions
+	  Use the graph of the function below to answer the following questions
 	</p>
 	<image>
 	  <latex-image>
-	      \begin{tikzpicture}
-	      \def\size{5}
-	      
-	      \path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
+	    \begin{tikzpicture}
+	    \def\size{5}
+	    
+	    \path [draw, help lines, opacity=.5]  (-\size,-\size) grid (\size,\size);
 
-	      \foreach \i in {1,...,\size}
-	      \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
-	      (-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$}
-	      (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
-	      (2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
-	      
-	      \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
-	      \draw [very thick,->] (0,-\size) -- (0,\size+.1) node [anchor=west] {$y$};
-	      
-	      \begin{scope}[domain=-1.5:3]
-	      \clip (-\size,-\size) rectangle (\size,\size);
-	      \draw [color=blue,thick] plot[smooth,samples=500] (\x,{(\x)^5 - 5*(\x)^4 + 6*(\x)^3 + 4*(\x)^2 - 8*\x});
-	      \end{scope}
+	    \foreach \i in {1,...,\size}
+	    \draw [very thick] (\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$\i$}
+	    (-\i,2.5pt) -- +(0,-5pt) node [anchor=north, font=\small] {$-\i$}
+	    (2.5pt,\i) -- +(-5pt,0) node [anchor=east, font=\small] {$\i$}
+	    (2.5pt,-\i) -- +(-5pt,0) node [anchor=east, font=\small] {$-\i$};
+	    
+	    \draw [very thick,->] (-\size,0) -- (\size+.1,0) node [anchor=south] {$x$};
+	    \draw [very thick,->] (0,-\size) -- (0,\size+.1) node [anchor=west] {$y$};
+	    
+	    \begin{scope}[domain=-1.5:3]
+	    \clip (-\size,-\size) rectangle (\size,\size);
+	    \draw [color=blue,thick] plot[smooth,samples=500] (\x,{(\x)^5 - 5*(\x)^4 + 6*(\x)^3 + 4*(\x)^2 - 8*\x});
+	    \end{scope}
 
-	      \node at (-1,0) {$\bullet$};
-	      \node at (-1,0) [above left] {$(-1,0)$};
+	    \node at (-1,0) {$\bullet$};
+	    \node at (-1,0) [above left] {$(-1,0)$};
 
-	      \node at (0,0) {$\bullet$};
-	      \node at (0,0) [below right] {$(0,0)$};
+	    \node at (0,0) {$\bullet$};
+	    \node at (0,0) [below right] {$(0,0)$};
 
-	      \node at (2,0) {$\bullet$};
-	      \node at (2,0) [above left] {$(2,0)$};
-	      \end{tikzpicture}
-	    </latex-image>
-	  </image>
+	    \node at (2,0) {$\bullet$};
+	    \node at (2,0) [above left] {$(2,0)$};
+	    \end{tikzpicture}
+	  </latex-image>
+	</image>
       </introduction>
 
       <exercise workspace="1in">
