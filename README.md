@@ -1,3 +1,3 @@
 # College Algebra
 
-Visit <https://pretextbook.org/documentation.html> to learn more.
+This book authored in PreTeXt.  Visit <https://pretextbook.org/documentation.html> to learn more.
