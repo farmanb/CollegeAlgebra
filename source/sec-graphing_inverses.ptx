@@ -321,14 +321,14 @@
       <title>Even Root Function</title>
       <statement>
 	<p>
-	  Assume <m>n</m> is an even, positive integer and <m>f \colon [0,\infty) \to \R</m> is the function defined by <m>f(x) = x^n</m>.
+	  Assume <m>n</m> is an even, positive integer and <m>f \colon [0,\infty) \to [0,\infty)</m> is the function defined by <m>f(x) = x^n</m>.
 	  The <term><m>n^\text{th}</m> root function</term>
 	  <idx>
 	    <h>Function</h>
 	    <h>Root</h>
 	    <h>Even</h>
 	  </idx>
-	  <m>\sqrt[n]{\phantom{x}} \colon \R \to [0,\infty)</m> given by <m>\sqrt[n]{x} = x^{1/n}</m> is defined to be the inverse of <m>f</m>.
+	  <m>\sqrt[n]{\phantom{x}} \colon [0,\infty) \to [0,\infty)</m> given by <m>\sqrt[n]{x} = x^{1/n}</m> is defined to be the inverse of <m>f</m>.
 	</p>
       </statement>
     </definition>
