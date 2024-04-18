@@ -3772,114 +3772,6 @@ var ptx_lunr_docs = [
   "body": " Solve the equation for .  "
 },
 {
-  "id": "sec-modeling",
-  "level": "1",
-  "url": "sec-modeling.html",
-  "type": "Section",
-  "number": "5.5",
-  "title": "Modeling with Exponential Functions",
-  "body": " Modeling with Exponential Functions   Exponential functions are of interest to scientists because they are useful in modeling natural phenomena. In this section, we explore some examples that demonstrate how exponential functions can be used for modeling.    Exponential Growth   Population Growth  A biologist observes a population over a six year period. The biologist measures the size of the observed population at the beginning and end of each of the years. In an effort to understand how the population is changing, the biologist records the year-to-year change as a numeric value and as a percentage of the initial population for the year.   Observed Population by Year         Year  Initial Population  Final Population  Change  Percent Change                                               Using the table, the biologist notices the following relations amongst the population sizes This leads the biologist to conclude that the size of the population can be measured with the exponential function where is the amount of time in years that has elapsed. This function agrees with the observations for , and predicts the size of the population at the end of the seventh year will be     Compound Interest  Your local bank offers a savings account with a annual interest that is compounded monthly. This means the bank will add of your current balance to your account every month. In other words, your balance grows at a rate of  per month .  The growth factor for the exponential function that models the amount of money in the account after  months is Assuming you deposit into a savings account, the balance of the account after  months is given by the function   Customarily, one measures investments as a function of the number of years that have elapsed, rather than months. Since there are months in a year, we compress the time scale by a factor of to obtain the function that measures the amount of money in the account after  years .  The table below shows the amount of money in the account for a five year period, with all figures rounded to two decimal places.   Amount of Money in Savings Account         Year  Initial Amount ( )  Final Amount ( )  Change ( )  Growth Rate (Annual)                                        Note that the growth factor for this function is , so the growth rate is slightly higher than the interest rate ( ).   In general, we can model compound interest using the following formula.   Compound Interest Formula   Assume dollars are invested in an account at an annual interest rate of that is compounded times each year. The amount of money in the account after years is The growth rate for this function is which measures the increase in the balance over one year as a percentage of the previous balance.    For interest that compounds continuously , we have the following formula.   Continuously Compounding Interest Formula   Assume dollars are invested in an account at an annual interest rate of that is compounded continuously . The amount of money in the account after years is The growth rate for this function is , which measures the increase in the balance over one year as a percentage of the previous balance.     We can always express compounding interest as continuously compounding interest using the logarithm.    Converting to Continuously Compounding Interest   As we saw in , we can model the balance of a savings account with principal investment of at an annual interest rate of compounded monthly with the function Since the growth factor of this function is , we have and thus we can rewrite with base as       Exponential Decay   Half-Life  The half-life of the radioactive isotope technetium-99m is hours . Assume we start with a sample of grams of technetium-99m. The table below lists the amount at the beginning and the end of each six hour period over the course of a day.   Amount of technetium-99m over 24 hours         Period  Initial Amount (grams)  Final Amount (grams)  Change (grams)  Percent Change                                 We can model the amount of the sample remaining as a function of the number of hour periods that have passed using the exponential function However, it would be more convenient to model the amount of the sample as a function of the number of hours that have passed. To do this, we first recognize that hour is of a period. We can stretch the time scale by a factor of to obtain the function that measures the amount of the technetium-99m sample remaining after hours have elapsed. Using this function, we have recorded the amount remaining after each hour for the first six hour period in the table below.   Amount of technetium-99m over 24 hours       Hour  Amount Remaining (grams)  Percent Change                                        The population of a city is measured once every decade. A table of census data is given below. Find a function, , of years that models the population. Use your function to estimate the population in the year 2024.   Census data      Year  Population                               A substance decays by losing half of its mass every 30 years. Assume the initial sample is grams. Find a function that models the mass of the sample after years. How much of the material will remain after years? Round your answer to two decimal places.    The number of bacteria in a culture triples every six hours. Find a function that models the number of bacteria in the culture after hours. How many bacteria will be present in the culture after hours?    The local bank offers an investment account with an annual interest rate of that compounds four times per year. Assume you invest . Find a function that models the amount of money in the account after years. How much money will be in the account after 17 months?    "
-},
-{
-  "id": "example-exp_growth",
-  "level": "2",
-  "url": "sec-modeling.html#example-exp_growth",
-  "type": "Example",
-  "number": "5.5.1",
-  "title": "Population Growth.",
-  "body": " Population Growth  A biologist observes a population over a six year period. The biologist measures the size of the observed population at the beginning and end of each of the years. In an effort to understand how the population is changing, the biologist records the year-to-year change as a numeric value and as a percentage of the initial population for the year.   Observed Population by Year         Year  Initial Population  Final Population  Change  Percent Change                                               Using the table, the biologist notices the following relations amongst the population sizes This leads the biologist to conclude that the size of the population can be measured with the exponential function where is the amount of time in years that has elapsed. This function agrees with the observations for , and predicts the size of the population at the end of the seventh year will be   "
-},
-{
-  "id": "example-compound_interest",
-  "level": "2",
-  "url": "sec-modeling.html#example-compound_interest",
-  "type": "Example",
-  "number": "5.5.3",
-  "title": "Compound Interest.",
-  "body": " Compound Interest  Your local bank offers a savings account with a annual interest that is compounded monthly. This means the bank will add of your current balance to your account every month. In other words, your balance grows at a rate of  per month .  The growth factor for the exponential function that models the amount of money in the account after  months is Assuming you deposit into a savings account, the balance of the account after  months is given by the function   Customarily, one measures investments as a function of the number of years that have elapsed, rather than months. Since there are months in a year, we compress the time scale by a factor of to obtain the function that measures the amount of money in the account after  years .  The table below shows the amount of money in the account for a five year period, with all figures rounded to two decimal places.   Amount of Money in Savings Account         Year  Initial Amount ( )  Final Amount ( )  Change ( )  Growth Rate (Annual)                                        Note that the growth factor for this function is , so the growth rate is slightly higher than the interest rate ( ).  "
-},
-{
-  "id": "formula-compound_interest",
-  "level": "2",
-  "url": "sec-modeling.html#formula-compound_interest",
-  "type": "Formula",
-  "number": "5.5.5",
-  "title": "Compound Interest Formula.",
-  "body": " Compound Interest Formula   Assume dollars are invested in an account at an annual interest rate of that is compounded times each year. The amount of money in the account after years is The growth rate for this function is which measures the increase in the balance over one year as a percentage of the previous balance.   "
-},
-{
-  "id": "formula-cont_compound_interest",
-  "level": "2",
-  "url": "sec-modeling.html#formula-cont_compound_interest",
-  "type": "Formula",
-  "number": "5.5.6",
-  "title": "Continuously Compounding Interest Formula.",
-  "body": " Continuously Compounding Interest Formula   Assume dollars are invested in an account at an annual interest rate of that is compounded continuously . The amount of money in the account after years is The growth rate for this function is , which measures the increase in the balance over one year as a percentage of the previous balance.   "
-},
-{
-  "id": "sec-modeling-3-8",
-  "level": "2",
-  "url": "sec-modeling.html#sec-modeling-3-8",
-  "type": "Remark",
-  "number": "5.5.7",
-  "title": "",
-  "body": " We can always express compounding interest as continuously compounding interest using the logarithm.  "
-},
-{
-  "id": "sec-modeling-3-9",
-  "level": "2",
-  "url": "sec-modeling.html#sec-modeling-3-9",
-  "type": "Example",
-  "number": "5.5.8",
-  "title": "Converting to Continuously Compounding Interest.",
-  "body": " Converting to Continuously Compounding Interest   As we saw in , we can model the balance of a savings account with principal investment of at an annual interest rate of compounded monthly with the function Since the growth factor of this function is , we have and thus we can rewrite with base as    "
-},
-{
-  "id": "example-exp_decay",
-  "level": "2",
-  "url": "sec-modeling.html#example-exp_decay",
-  "type": "Example",
-  "number": "5.5.9",
-  "title": "Half-Life.",
-  "body": " Half-Life  The half-life of the radioactive isotope technetium-99m is hours . Assume we start with a sample of grams of technetium-99m. The table below lists the amount at the beginning and the end of each six hour period over the course of a day.   Amount of technetium-99m over 24 hours         Period  Initial Amount (grams)  Final Amount (grams)  Change (grams)  Percent Change                                 We can model the amount of the sample remaining as a function of the number of hour periods that have passed using the exponential function However, it would be more convenient to model the amount of the sample as a function of the number of hours that have passed. To do this, we first recognize that hour is of a period. We can stretch the time scale by a factor of to obtain the function that measures the amount of the technetium-99m sample remaining after hours have elapsed. Using this function, we have recorded the amount remaining after each hour for the first six hour period in the table below.   Amount of technetium-99m over 24 hours       Hour  Amount Remaining (grams)  Percent Change                                   "
-},
-{
-  "id": "sec-modeling-6-1",
-  "level": "2",
-  "url": "sec-modeling.html#sec-modeling-6-1",
-  "type": "Exercise",
-  "number": "5.5.3.1",
-  "title": "",
-  "body": " The population of a city is measured once every decade. A table of census data is given below. Find a function, , of years that models the population. Use your function to estimate the population in the year 2024.   Census data      Year  Population                             "
-},
-{
-  "id": "sec-modeling-6-2",
-  "level": "2",
-  "url": "sec-modeling.html#sec-modeling-6-2",
-  "type": "Exercise",
-  "number": "5.5.3.2",
-  "title": "",
-  "body": " A substance decays by losing half of its mass every 30 years. Assume the initial sample is grams. Find a function that models the mass of the sample after years. How much of the material will remain after years? Round your answer to two decimal places.  "
-},
-{
-  "id": "sec-modeling-6-3",
-  "level": "2",
-  "url": "sec-modeling.html#sec-modeling-6-3",
-  "type": "Exercise",
-  "number": "5.5.3.3",
-  "title": "",
-  "body": " The number of bacteria in a culture triples every six hours. Find a function that models the number of bacteria in the culture after hours. How many bacteria will be present in the culture after hours?  "
-},
-{
-  "id": "sec-modeling-6-4",
-  "level": "2",
-  "url": "sec-modeling.html#sec-modeling-6-4",
-  "type": "Exercise",
-  "number": "5.5.3.4",
-  "title": "",
-  "body": " The local bank offers an investment account with an annual interest rate of that compounds four times per year. Assume you invest . Find a function that models the amount of money in the account after years. How much money will be in the account after 17 months?  "
-},
-{
   "id": "meta_backmatter-2",
   "level": "1",
   "url": "meta_backmatter-2.html",
@@ -3902,7 +3794,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "meta_backmatter-3-2.html#fig-line",
   "type": "Figure",
-  "number": "B.1.13",
+  "number": "B.1.6",
   "title": "",
   "body": " The graph of .     "
 },
@@ -3911,7 +3803,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "meta_backmatter-3-2.html#fig-parabola",
   "type": "Figure",
-  "number": "B.1.14",
+  "number": "B.1.7",
   "title": "",
   "body": " The graph of .     "
 },
@@ -3920,7 +3812,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "meta_backmatter-3-2.html#fig-cubic",
   "type": "Figure",
-  "number": "B.1.15",
+  "number": "B.1.8",
   "title": "the graph of <span class=\"process-math\">\\(y = x^3\\)<\/span>",
   "body": " the graph of  The graph of .     "
 },
@@ -3929,7 +3821,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "meta_backmatter-3-2.html#fig-quartic",
   "type": "Figure",
-  "number": "B.1.16",
+  "number": "B.1.9",
   "title": "",
   "body": " The graph of .     "
 },
@@ -3938,7 +3830,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "meta_backmatter-3-2.html#fig-quintic",
   "type": "Figure",
-  "number": "B.1.17",
+  "number": "B.1.10",
   "title": "",
   "body": " The graph of .     "
 },
@@ -3956,7 +3848,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "meta_backmatter-3-3.html#fig-sq_root",
   "type": "Figure",
-  "number": "B.2.18",
+  "number": "B.2.11",
   "title": "",
   "body": " The graph of .     "
 },
@@ -3965,7 +3857,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "meta_backmatter-3-3.html#fig-cube_root",
   "type": "Figure",
-  "number": "B.2.19",
+  "number": "B.2.12",
   "title": "",
   "body": " The graph of .     "
 },
@@ -3974,7 +3866,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "meta_backmatter-3-3.html#fig-fourth_root",
   "type": "Figure",
-  "number": "B.2.20",
+  "number": "B.2.13",
   "title": "",
   "body": " The graph of .     "
 },
@@ -3983,7 +3875,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "meta_backmatter-3-3.html#fig-fifth_root",
   "type": "Figure",
-  "number": "B.2.21",
+  "number": "B.2.14",
   "title": "",
   "body": " The graph of .     "
 },
@@ -4001,7 +3893,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "meta_backmatter-3-4.html#fig-1_x",
   "type": "Figure",
-  "number": "B.3.22",
+  "number": "B.3.15",
   "title": "",
   "body": " The graph of .     "
 },
@@ -4010,7 +3902,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "meta_backmatter-3-4.html#fig-1_x_2",
   "type": "Figure",
-  "number": "B.3.23",
+  "number": "B.3.16",
   "title": "",
   "body": " The graph of .     "
 },
@@ -4019,7 +3911,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "meta_backmatter-3-4.html#fig-1_x_3",
   "type": "Figure",
-  "number": "B.3.24",
+  "number": "B.3.17",
   "title": "",
   "body": " The graph of .     "
 },
@@ -4028,7 +3920,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "meta_backmatter-3-4.html#fig-1_x_4",
   "type": "Figure",
-  "number": "B.3.25",
+  "number": "B.3.18",
   "title": "",
   "body": " The graph of .     "
 },
@@ -4037,7 +3929,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "meta_backmatter-3-4.html#fig-1_x_5",
   "type": "Figure",
-  "number": "B.3.26",
+  "number": "B.3.19",
   "title": "",
   "body": " The graph of .     "
 },
@@ -4055,7 +3947,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "meta_backmatter-3-5.html#fig-abs_val",
   "type": "Figure",
-  "number": "B.4.27",
+  "number": "B.4.20",
   "title": "",
   "body": " The graph of .     "
 },
