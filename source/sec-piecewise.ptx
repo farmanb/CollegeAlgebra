@@ -207,7 +207,7 @@
 	  <me>
 	    f(x) = \begin{cases}
 	    -2x - 4 \amp \text{if}\ x \in [-5,-3)\\
-	    x^2 + 3t - 1 \amp \text{if}\ x \in [-3,2]\\
+	    x^2 + 3x - 1 \amp \text{if}\ x \in [-3,2]\\
 	    7 \amp \text{if}\ x \in (2,5]
 	    \end{cases}
 	  </me>
@@ -247,7 +247,7 @@
 	  <me>
 	    f(x) = \begin{cases}
 	    -2x - 4 \amp \text{if}\ x \in [-5,-3)\\
-	    x^2 + 3t - 1 \amp \text{if}\ x \in [-3,2]\\
+	    x^2 + 3x - 1 \amp \text{if}\ x \in [-3,2]\\
 	    7 \amp \text{if}\ x \in (2,5]
 	    \end{cases}
 	  </me>
