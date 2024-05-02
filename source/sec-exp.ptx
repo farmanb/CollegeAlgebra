@@ -64,7 +64,7 @@
       We can think about the value of the exponential function at a positive real number <m>r</m> as the result of multiplying <m>r</m> copies of the number <m>e</m>:
       <me>\exp(r) = e^r = \underbrace{e e e \cdots e}_r.</me>
       This definition extends to all real numbers by defining
-      <me>\exp(0) = e^r = 1 \quad\text{and}\quad \exp(-r) = e^{-r} = \frac{1}{e^r} = \frac{1}{\exp(r)}.</me>
+      <me>\exp(0) = e^0 = 1 \quad\text{and}\quad \exp(-r) = e^{-r} = \frac{1}{e^r} = \frac{1}{\exp(r)}.</me>
     </p>
     <p>
       An interesting consequence of these definitions is that the exponential function transforms addition of the input into multiplication of the output and subtraction of the input into division of the output.
@@ -120,7 +120,7 @@
 	  <ol>
 	    <li>
 	      <p>
-		<m>\exp(0) = a^0 = 1.</m>
+		<m>\exp(0) = e^0 = 1.</m>
 	      </p>
 	    </li>
 	    <li>

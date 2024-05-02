@@ -49,7 +49,7 @@
       Just as for exponentials, there are two cases: <m>a \lt 1</m> and <m>1 \lt a</m>.
       When <m>a > 1</m>, <m>\ln(a) > 0</m> and so the graph of 
       <me>y = \log_a(x) = \frac{\ln(x)}{\ln(a)}</me>
-      is obtained as a vertical scaling of <m>\ln(x)</m> by <m>1/\ln(a)</m>.
+      is obtained as a <xref ref="def-vertical_scaling" text="title"/> of <m>\ln(x)</m> by <m>1/\ln(a)</m>.
       We have plotted the logarithm for several bases in <xref ref="fig-refl_exponential_growth"/>.
     </p>
 
@@ -97,7 +97,7 @@
     <p>
       When <m>a \lt 1</m>, <m>\ln(a) \lt 0</m>, and so the graph of 
       <me>y = \log_a(x) = \frac{\ln(x)}{\ln(a)}</me>
-      is obtained by vertically scaling <m>y = \ln(x)</m> by <m>1/\ln(a)</m> and reflecting across the <m>x</m>-axis.
+      is obtained by a <xref ref="def-vertical_scaling" text="title"/> of <m>y = \ln(x)</m> by <m>1/\ln(a)</m> and a <xref ref="def-reflection" text="title"/> across the <m>x</m>-axis.
       We have plotted the logarithm for several bases in <xref ref="fig-refl_exponential_decay"/>.
     </p>
     <figure xml:id="fig-refl_exponential_decay">
