@@ -518,75 +518,99 @@
   <xi:include href="worksheets/wksht-functions.ptx"/>
 
   <exercises component="web">
-    <exercise>
+    <exercisegroup xml:id="exercise-functions-domain_codomain_range">
+      <title>Implied Domain, Codomain, and Range</title>
       <introduction>
 	<p>
-	  For each of the following functions, find the implied domain, codomain, and range.
+	  For each function, find the implied domain, codomain, and range.
 	</p>
       </introduction>
-      <task>
-	<p>
-	  <m>f(x) = \sqrt{x}</m>
-	</p>
-      </task>
-      <task>
-	<p>
-	  <m>g(x) = \frac{1}{x}</m>
-	</p>
-      </task>
-      <task>
-	<p>
-	  <m>h(x) = \abs{x}</m>
-	</p>
-      </task>
-    </exercise>
+      <exercise xml:id="exercise-functions-domain_codomain_range-sqrt">
+	<statement>
+	  <p>
+	    <m>f(x) = \sqrt{x}</m>
+	  </p>
+	</statement>
+      </exercise>
+      
+      <exercise>
+	<statement>
+	  <p>
+	    <m>g(x) = \frac{1}{x}</m>
+	  </p>
+	</statement>
+      </exercise>
 
-    <exercise>
+      <exercise>
+	<statement>
+	  <p>
+	    <m>h(x) = \abs{x}</m>
+	  </p>
+	</statement>
+      </exercise>
+    </exercisegroup>
+
+    <exercisegroup>
+      <title>Function Evaluation</title>
       <introduction>
 	<p>
-	  Evaluate the function at the given value.
+	  Evaluate the given function at the given value.
 	</p>
       </introduction>
-      <task>
-	<p>
-	  <m>f(x) = 3x^2 + 2x - 7</m>; <m>x = 2</m>.
-	</p>
-      </task>
 
-      <task>
-	<p>
-	  <m>g(x) = x - \sqrt{x} + \frac{7}{x}</m>; <m>x = 49</m>.
-	</p>
-      </task>
+      <exercise>
+	<statement>
+	  <p>
+	    <m>f(x) = 3x^2 + 2x - 7</m>; <m>x = 2</m>.
+	  </p>
+	</statement>
+      </exercise>
 
-      <task>
-	<p>
-	  <m>h(x) = \abs{x} + 3x - 5</m>; <m>x = -11</m>.
-	</p>
-      </task>
-    </exercise>
+      <exercise>
+	<statement>
+	  <p>
+	    <m>g(x) = x - \sqrt{x} + \frac{7}{x}</m>; <m>x = 49</m>.
+	  </p>
+	</statement>
+      </exercise>
 
-    <exercise>
+      <exercise>
+	<statement>
+	  <p>
+	    <m>h(x) = \abs{x} + 3x - 5</m>; <m>x = -11</m>.
+	  </p>
+	</statement>
+      </exercise>
+    </exercisegroup>
+
+    <exercisegroup>
+      <title>Horizontal Line Test</title>
       <introduction>
 	<p>
-	  For each of the graphs, find the domain and range.
+	  For each graph, find the domain and range.
 	  Use the <xref ref="thm-vertical_line_test" text="title"/> to determine whether <m>y</m> is a function of <m>x</m>.
 	</p>
       </introduction>
-      <task>
-	<image xml:id="img-vlt_wave">
-	  <latex-image xml:id="tikz-vlt_wave">
-	    <xi:include parse="text" href="./tex/wksht-functions_a.tex"/>
-	  </latex-image>
-	</image>
-      </task>
-      <task>
-	<image xml:id="img-vlt_circle">
-	  <latex-image xml:id="tikz-vlt_circle">
-	    <xi:include parse="text" href="./tex/wksht-functions_b.tex"/>
-	  </latex-image>
-	</image>
-      </task>
-    </exercise>
+
+      <exercise>
+	<statement>
+	  <image xml:id="img-vlt_wave">
+	    <latex-image xml:id="tikz-vlt_wave">
+	      <xi:include parse="text" href="./tex/wksht-functions_a.tex"/>
+	    </latex-image>
+	  </image>
+	</statement>
+      </exercise>
+
+      <exercise>
+	<statement>
+	  <image xml:id="img-vlt_circle">
+	    <latex-image xml:id="tikz-vlt_circle">
+	      <xi:include parse="text" href="./tex/wksht-functions_b.tex"/>
+	    </latex-image>
+	  </image>
+	</statement>
+      </exercise>
+    </exercisegroup>
   </exercises>
 </section>
