@@ -88,6 +88,74 @@ window.MathJax = {
 <link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#def-solution-2-1-6 { counter-set: def-solution-2-1-6 0; }
+#def-solution-2-1-6 > li::marker { content: ""counter(def-solution-2-1-6,decimal)"."; }
+#def-solution-2-1-6 > li { counter-increment: def-solution-2-1-6; }
+#sec-transformations-8-3-2-1-1 { counter-set: sec-transformations-8-3-2-1-1 0; }
+#sec-transformations-8-3-2-1-1 > li::marker { content: ""counter(sec-transformations-8-3-2-1-1,decimal)"."; }
+#sec-transformations-8-3-2-1-1 > li { counter-increment: sec-transformations-8-3-2-1-1; }
+#sec-transformations-8-4-2-1-3 { counter-set: sec-transformations-8-4-2-1-3 0; }
+#sec-transformations-8-4-2-1-3 > li::marker { content: ""counter(sec-transformations-8-4-2-1-3,decimal)"."; }
+#sec-transformations-8-4-2-1-3 > li { counter-increment: sec-transformations-8-4-2-1-3; }
+#sec-avg_roc-3-9-1-1-7 { counter-set: sec-avg_roc-3-9-1-1-7 0; }
+#sec-avg_roc-3-9-1-1-7 > li::marker { content: ""counter(sec-avg_roc-3-9-1-1-7,decimal)"."; }
+#sec-avg_roc-3-9-1-1-7 > li { counter-increment: sec-avg_roc-3-9-1-1-7; }
+#sec-avg_roc-3-10-1-1-7 { counter-set: sec-avg_roc-3-10-1-1-7 0; }
+#sec-avg_roc-3-10-1-1-7 > li::marker { content: ""counter(sec-avg_roc-3-10-1-1-7,decimal)"."; }
+#sec-avg_roc-3-10-1-1-7 > li { counter-increment: sec-avg_roc-3-10-1-1-7; }
+#sec-linear_functions-5-4-1-1 { counter-set: sec-linear_functions-5-4-1-1 0; }
+#sec-linear_functions-5-4-1-1 > li::marker { content: "("counter(sec-linear_functions-5-4-1-1,lower-alpha)")"; }
+#sec-linear_functions-5-4-1-1 > li { counter-increment: sec-linear_functions-5-4-1-1; }
+#def-solution_inequality-2-1-6 { counter-set: def-solution_inequality-2-1-6 0; }
+#def-solution_inequality-2-1-6 > li::marker { content: ""counter(def-solution_inequality-2-1-6,decimal)"."; }
+#def-solution_inequality-2-1-6 > li { counter-increment: def-solution_inequality-2-1-6; }
+#sec-linear_ineq-5-3-1-1-1 { counter-set: sec-linear_ineq-5-3-1-1-1 0; }
+#sec-linear_ineq-5-3-1-1-1 > li::marker { content: "("counter(sec-linear_ineq-5-3-1-1-1,lower-alpha)")"; }
+#sec-linear_ineq-5-3-1-1-1 > li { counter-increment: sec-linear_ineq-5-3-1-1-1; }
+#algo-graphing_quadratics-2-1-2 { counter-set: algo-graphing_quadratics-2-1-2 0; }
+#algo-graphing_quadratics-2-1-2 > li::marker { content: ""counter(algo-graphing_quadratics-2-1-2,decimal)"."; }
+#algo-graphing_quadratics-2-1-2 > li { counter-increment: algo-graphing_quadratics-2-1-2; }
+#sec-quadratic_functions-3-8-2-1-3 { counter-set: sec-quadratic_functions-3-8-2-1-3 0; }
+#sec-quadratic_functions-3-8-2-1-3 > li::marker { content: ""counter(sec-quadratic_functions-3-8-2-1-3,decimal)"."; }
+#sec-quadratic_functions-3-8-2-1-3 > li { counter-increment: sec-quadratic_functions-3-8-2-1-3; }
+#alg-completing_the_square-2-1-2 { counter-set: alg-completing_the_square-2-1-2 0; }
+#alg-completing_the_square-2-1-2 > li::marker { content: ""counter(alg-completing_the_square-2-1-2,decimal)"."; }
+#alg-completing_the_square-2-1-2 > li { counter-increment: alg-completing_the_square-2-1-2; }
+#quadratic_formula-2-1-4 { counter-set: quadratic_formula-2-1-4 0; }
+#quadratic_formula-2-1-4 > li::marker { content: ""counter(quadratic_formula-2-1-4,decimal)"."; }
+#quadratic_formula-2-1-4 > li { counter-increment: quadratic_formula-2-1-4; }
+#sec-roots_quadratics-3-12-2-1-5 { counter-set: sec-roots_quadratics-3-12-2-1-5 0; }
+#sec-roots_quadratics-3-12-2-1-5 > li::marker { content: ""counter(sec-roots_quadratics-3-12-2-1-5,decimal)"."; }
+#sec-roots_quadratics-3-12-2-1-5 > li { counter-increment: sec-roots_quadratics-3-12-2-1-5; }
+#sec-roots_quadratics-4-3-2-1-1 { counter-set: sec-roots_quadratics-4-3-2-1-1 0; }
+#sec-roots_quadratics-4-3-2-1-1 > li::marker { content: ""counter(sec-roots_quadratics-4-3-2-1-1,decimal)"."; }
+#sec-roots_quadratics-4-3-2-1-1 > li { counter-increment: sec-roots_quadratics-4-3-2-1-1; }
+#alg-poly_ineq-2-1-2 { counter-set: alg-poly_ineq-2-1-2 0; }
+#alg-poly_ineq-2-1-2 > li::marker { content: ""counter(alg-poly_ineq-2-1-2,decimal)"."; }
+#alg-poly_ineq-2-1-2 > li { counter-increment: alg-poly_ineq-2-1-2; }
+#def-solution_3d-2-1-7 { counter-set: def-solution_3d-2-1-7 0; }
+#def-solution_3d-2-1-7 > li::marker { content: ""counter(def-solution_3d-2-1-7,decimal)"."; }
+#def-solution_3d-2-1-7 > li { counter-increment: def-solution_3d-2-1-7; }
+#example-inverse_of_composition-1-5 { counter-set: example-inverse_of_composition-1-5 0; }
+#example-inverse_of_composition-1-5 > li::marker { content: ""counter(example-inverse_of_composition-1-5,decimal)"."; }
+#example-inverse_of_composition-1-5 > li { counter-increment: example-inverse_of_composition-1-5; }
+#example-inverse_of_composition-2-6 { counter-set: example-inverse_of_composition-2-6 0; }
+#example-inverse_of_composition-2-6 > li::marker { content: ""counter(example-inverse_of_composition-2-6,decimal)"."; }
+#example-inverse_of_composition-2-6 > li { counter-increment: example-inverse_of_composition-2-6; }
+#thm-properties_exp-2-1-3 { counter-set: thm-properties_exp-2-1-3 0; }
+#thm-properties_exp-2-1-3 > li::marker { content: ""counter(thm-properties_exp-2-1-3,decimal)"."; }
+#thm-properties_exp-2-1-3 > li { counter-increment: thm-properties_exp-2-1-3; }
+#sec-exponentials-5-5-1-2 { counter-set: sec-exponentials-5-5-1-2 0; }
+#sec-exponentials-5-5-1-2 > li::marker { content: "("counter(sec-exponentials-5-5-1-2,lower-alpha)")"; }
+#sec-exponentials-5-5-1-2 > li { counter-increment: sec-exponentials-5-5-1-2; }
+#thm-properties_log-2-1-3 { counter-set: thm-properties_log-2-1-3 0; }
+#thm-properties_log-2-1-3 > li::marker { content: ""counter(thm-properties_log-2-1-3,decimal)"."; }
+#thm-properties_log-2-1-3 > li { counter-increment: thm-properties_log-2-1-3; }
+#sec-other_exponentials-5-5-1-2 { counter-set: sec-other_exponentials-5-5-1-2 0; }
+#sec-other_exponentials-5-5-1-2 > li::marker { content: "("counter(sec-other_exponentials-5-5-1-2,lower-alpha)")"; }
+#sec-other_exponentials-5-5-1-2 > li { counter-increment: sec-other_exponentials-5-5-1-2; }
+</style>
 </head>
 <body id="changeme" class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
@@ -508,7 +576,7 @@ ax^2 + bx + c = 0
 </div>
 <div class="para">has either two, one, or zero real solutions, depending on <a href="sec-roots_quadratics.html#def-discriminant" class="xref" data-knowl="./knowl/xref/def-discriminant.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.8.2: The Discriminant">The Discriminant</a>, <span class="process-math">\(D = b^2 - 4ac\text{.}\)</span>
 </div>
-<ol class="decimal">
+<ol class="decimal" id="quadratic_formula-2-1-4">
 <li id="quadratic_formula-2-1-4-1"><div class="para logical" id="quadratic_formula-2-1-4-1-1">
 <div class="para">If <span class="process-math">\(D &gt; 0\text{,}\)</span> then the two solutions are</div>
 <div class="displaymath process-math">
@@ -579,7 +647,7 @@ x \amp = \frac{-(-11) - \sqrt{1}}{2(10)} = \frac{11 - 1}{20} = \frac{10}{20} = \
 <div class="para logical" id="sec-roots_quadratics-3-12-2-1">
 <div class="para">The quadratic function <span class="process-math">\(y = ax^2 + bx + c\)</span> has either two, one, or zero <span class="process-math">\(x\)</span>-intercepts, depending on the <a href="sec-roots_quadratics.html#def-discriminant" class="xref" data-knowl="./knowl/xref/def-discriminant.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.8.2: The Discriminant">The Discriminant</a>, <span class="process-math">\(D = b^2 - 4ac\text{.}\)</span>
 </div>
-<ol class="decimal">
+<ol class="decimal" id="sec-roots_quadratics-3-12-2-1-5">
 <li id="sec-roots_quadratics-3-12-2-1-5-1"><div class="para logical" id="sec-roots_quadratics-3-12-2-1-5-1-1">
 <div class="para">If <span class="process-math">\(D &gt; 0\text{,}\)</span> then there are two <span class="process-math">\(x\)</span>-intercepts,</div>
 <div class="displaymath process-math">
@@ -655,13 +723,13 @@ x = \frac{5 - 7}{-6} = \frac{-2}{-6} = \frac{1}{3}.
 <article class="algorithm theorem-like" id="sec-roots_quadratics-4-3"><h4 class="heading">
 <span class="type">Algorithm</span><span class="space"> </span><span class="codenumber">3.8.9</span><span class="period">.</span><span class="space"> </span><span class="title">Graphing a Quadratic Function.</span>
 </h4>
-<div class="para logical" id="sec-roots_quadratics-4-3-2-1"><ol class="decimal">
+<div class="para logical" id="sec-roots_quadratics-4-3-2-1"><ol class="decimal" id="sec-roots_quadratics-4-3-2-1-1">
 <li id="sec-roots_quadratics-4-3-2-1-1-1"><div class="para" id="sec-roots_quadratics-4-3-2-1-1-1-1">Use the <a href="sec-quadratic_functions.html#vertex_formula" class="xref" data-knowl="./knowl/xref/vertex_formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Formula 3.7.9: The Vertex Formula">The Vertex Formula</a> to find the vertex, <span class="process-math">\((h,k)\text{,}\)</span> of the parabola. Plot the vertex in the plane.</div></li>
 <li id="sec-roots_quadratics-4-3-2-1-1-2"><div class="para" id="sec-roots_quadratics-4-3-2-1-1-2-1">Factor or use the <a href="sec-roots_quadratics.html#quadratic_formula" class="xref" data-knowl="./knowl/xref/quadratic_formula.html" data-reveal-label="Reveal" data-close-label="Close" title="Formula 3.8.3: The Quadratic Formula">The Quadratic Formula</a> to find the <span class="process-math">\(x\)</span>-intercept(s). If there are <span class="process-math">\(x\)</span>-intercepts, plot them in the plane.</div></li>
 <li id="sec-roots_quadratics-4-3-2-1-1-3"><div class="para" id="sec-roots_quadratics-4-3-2-1-1-3-1">Plot the <span class="process-math">\(y\)</span>-intercept, <span class="process-math">\((0, f(0))\text{,}\)</span> in the plane.</div></li>
 <li id="sec-roots_quadratics-4-3-2-1-1-4"><div class="para logical" id="sec-roots_quadratics-4-3-2-1-1-4-1">
 <div class="para">Draw a parabola through the points in Steps (1) through (3).</div>
-<ul class="disc">
+<ul class="disc" id="sec-roots_quadratics-4-3-2-1-1-4-1-1">
 <li id="sec-roots_quadratics-4-3-2-1-1-4-1-1-1"><div class="para" id="p-derived-sec-roots_quadratics-4-3-2-1-1-4-1-1-1">The parabola will open upwards if <span class="process-math">\(0 \lt a\text{.}\)</span>
 </div></li>
 <li id="sec-roots_quadratics-4-3-2-1-1-4-1-1-2"><div class="para" id="p-derived-sec-roots_quadratics-4-3-2-1-1-4-1-1-2">The parabola will open downwards if <span class="process-math">\(a \lt 0\text{.}\)</span>

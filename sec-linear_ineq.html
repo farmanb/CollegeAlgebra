@@ -88,6 +88,74 @@ window.MathJax = {
 <link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#def-solution-2-1-6 { counter-set: def-solution-2-1-6 0; }
+#def-solution-2-1-6 > li::marker { content: ""counter(def-solution-2-1-6,decimal)"."; }
+#def-solution-2-1-6 > li { counter-increment: def-solution-2-1-6; }
+#sec-transformations-8-3-2-1-1 { counter-set: sec-transformations-8-3-2-1-1 0; }
+#sec-transformations-8-3-2-1-1 > li::marker { content: ""counter(sec-transformations-8-3-2-1-1,decimal)"."; }
+#sec-transformations-8-3-2-1-1 > li { counter-increment: sec-transformations-8-3-2-1-1; }
+#sec-transformations-8-4-2-1-3 { counter-set: sec-transformations-8-4-2-1-3 0; }
+#sec-transformations-8-4-2-1-3 > li::marker { content: ""counter(sec-transformations-8-4-2-1-3,decimal)"."; }
+#sec-transformations-8-4-2-1-3 > li { counter-increment: sec-transformations-8-4-2-1-3; }
+#sec-avg_roc-3-9-1-1-7 { counter-set: sec-avg_roc-3-9-1-1-7 0; }
+#sec-avg_roc-3-9-1-1-7 > li::marker { content: ""counter(sec-avg_roc-3-9-1-1-7,decimal)"."; }
+#sec-avg_roc-3-9-1-1-7 > li { counter-increment: sec-avg_roc-3-9-1-1-7; }
+#sec-avg_roc-3-10-1-1-7 { counter-set: sec-avg_roc-3-10-1-1-7 0; }
+#sec-avg_roc-3-10-1-1-7 > li::marker { content: ""counter(sec-avg_roc-3-10-1-1-7,decimal)"."; }
+#sec-avg_roc-3-10-1-1-7 > li { counter-increment: sec-avg_roc-3-10-1-1-7; }
+#sec-linear_functions-5-4-1-1 { counter-set: sec-linear_functions-5-4-1-1 0; }
+#sec-linear_functions-5-4-1-1 > li::marker { content: "("counter(sec-linear_functions-5-4-1-1,lower-alpha)")"; }
+#sec-linear_functions-5-4-1-1 > li { counter-increment: sec-linear_functions-5-4-1-1; }
+#def-solution_inequality-2-1-6 { counter-set: def-solution_inequality-2-1-6 0; }
+#def-solution_inequality-2-1-6 > li::marker { content: ""counter(def-solution_inequality-2-1-6,decimal)"."; }
+#def-solution_inequality-2-1-6 > li { counter-increment: def-solution_inequality-2-1-6; }
+#sec-linear_ineq-5-3-1-1-1 { counter-set: sec-linear_ineq-5-3-1-1-1 0; }
+#sec-linear_ineq-5-3-1-1-1 > li::marker { content: "("counter(sec-linear_ineq-5-3-1-1-1,lower-alpha)")"; }
+#sec-linear_ineq-5-3-1-1-1 > li { counter-increment: sec-linear_ineq-5-3-1-1-1; }
+#algo-graphing_quadratics-2-1-2 { counter-set: algo-graphing_quadratics-2-1-2 0; }
+#algo-graphing_quadratics-2-1-2 > li::marker { content: ""counter(algo-graphing_quadratics-2-1-2,decimal)"."; }
+#algo-graphing_quadratics-2-1-2 > li { counter-increment: algo-graphing_quadratics-2-1-2; }
+#sec-quadratic_functions-3-8-2-1-3 { counter-set: sec-quadratic_functions-3-8-2-1-3 0; }
+#sec-quadratic_functions-3-8-2-1-3 > li::marker { content: ""counter(sec-quadratic_functions-3-8-2-1-3,decimal)"."; }
+#sec-quadratic_functions-3-8-2-1-3 > li { counter-increment: sec-quadratic_functions-3-8-2-1-3; }
+#alg-completing_the_square-2-1-2 { counter-set: alg-completing_the_square-2-1-2 0; }
+#alg-completing_the_square-2-1-2 > li::marker { content: ""counter(alg-completing_the_square-2-1-2,decimal)"."; }
+#alg-completing_the_square-2-1-2 > li { counter-increment: alg-completing_the_square-2-1-2; }
+#quadratic_formula-2-1-4 { counter-set: quadratic_formula-2-1-4 0; }
+#quadratic_formula-2-1-4 > li::marker { content: ""counter(quadratic_formula-2-1-4,decimal)"."; }
+#quadratic_formula-2-1-4 > li { counter-increment: quadratic_formula-2-1-4; }
+#sec-roots_quadratics-3-12-2-1-5 { counter-set: sec-roots_quadratics-3-12-2-1-5 0; }
+#sec-roots_quadratics-3-12-2-1-5 > li::marker { content: ""counter(sec-roots_quadratics-3-12-2-1-5,decimal)"."; }
+#sec-roots_quadratics-3-12-2-1-5 > li { counter-increment: sec-roots_quadratics-3-12-2-1-5; }
+#sec-roots_quadratics-4-3-2-1-1 { counter-set: sec-roots_quadratics-4-3-2-1-1 0; }
+#sec-roots_quadratics-4-3-2-1-1 > li::marker { content: ""counter(sec-roots_quadratics-4-3-2-1-1,decimal)"."; }
+#sec-roots_quadratics-4-3-2-1-1 > li { counter-increment: sec-roots_quadratics-4-3-2-1-1; }
+#alg-poly_ineq-2-1-2 { counter-set: alg-poly_ineq-2-1-2 0; }
+#alg-poly_ineq-2-1-2 > li::marker { content: ""counter(alg-poly_ineq-2-1-2,decimal)"."; }
+#alg-poly_ineq-2-1-2 > li { counter-increment: alg-poly_ineq-2-1-2; }
+#def-solution_3d-2-1-7 { counter-set: def-solution_3d-2-1-7 0; }
+#def-solution_3d-2-1-7 > li::marker { content: ""counter(def-solution_3d-2-1-7,decimal)"."; }
+#def-solution_3d-2-1-7 > li { counter-increment: def-solution_3d-2-1-7; }
+#example-inverse_of_composition-1-5 { counter-set: example-inverse_of_composition-1-5 0; }
+#example-inverse_of_composition-1-5 > li::marker { content: ""counter(example-inverse_of_composition-1-5,decimal)"."; }
+#example-inverse_of_composition-1-5 > li { counter-increment: example-inverse_of_composition-1-5; }
+#example-inverse_of_composition-2-6 { counter-set: example-inverse_of_composition-2-6 0; }
+#example-inverse_of_composition-2-6 > li::marker { content: ""counter(example-inverse_of_composition-2-6,decimal)"."; }
+#example-inverse_of_composition-2-6 > li { counter-increment: example-inverse_of_composition-2-6; }
+#thm-properties_exp-2-1-3 { counter-set: thm-properties_exp-2-1-3 0; }
+#thm-properties_exp-2-1-3 > li::marker { content: ""counter(thm-properties_exp-2-1-3,decimal)"."; }
+#thm-properties_exp-2-1-3 > li { counter-increment: thm-properties_exp-2-1-3; }
+#sec-exponentials-5-5-1-2 { counter-set: sec-exponentials-5-5-1-2 0; }
+#sec-exponentials-5-5-1-2 > li::marker { content: "("counter(sec-exponentials-5-5-1-2,lower-alpha)")"; }
+#sec-exponentials-5-5-1-2 > li { counter-increment: sec-exponentials-5-5-1-2; }
+#thm-properties_log-2-1-3 { counter-set: thm-properties_log-2-1-3 0; }
+#thm-properties_log-2-1-3 > li::marker { content: ""counter(thm-properties_log-2-1-3,decimal)"."; }
+#thm-properties_log-2-1-3 > li { counter-increment: thm-properties_log-2-1-3; }
+#sec-other_exponentials-5-5-1-2 { counter-set: sec-other_exponentials-5-5-1-2 0; }
+#sec-other_exponentials-5-5-1-2 > li::marker { content: "("counter(sec-other_exponentials-5-5-1-2,lower-alpha)")"; }
+#sec-other_exponentials-5-5-1-2 > li { counter-increment: sec-other_exponentials-5-5-1-2; }
+</style>
 </head>
 <body id="changeme" class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
@@ -445,7 +513,7 @@ window.MathJax = {
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.6.1</span><span class="period">.</span><span class="space"> </span><span class="title">Linear Inequality.</span>
 </h4> <div class="para logical" id="def-linear_inequality-2-1">
 <div class="para">A <dfn class="terminology">linear inequality</dfn>  in the variables <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> is an expression that can be placed in one of the following forms</div>
-<ul class="disc">
+<ul class="disc" id="def-linear_inequality-2-1-5">
 <li id="def-linear_inequality-2-1-5-1"><div class="para" id="p-derived-def-linear_inequality-2-1-5-1"><span class="process-math">\(ax + by \lt c\text{,}\)</span></div></li>
 <li id="def-linear_inequality-2-1-5-2"><div class="para" id="p-derived-def-linear_inequality-2-1-5-2"><span class="process-math">\(ax + by \leq c\text{,}\)</span></div></li>
 <li id="def-linear_inequality-2-1-5-3"><div class="para" id="p-derived-def-linear_inequality-2-1-5-3">
@@ -456,7 +524,7 @@ window.MathJax = {
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.6.2</span><span class="period">.</span><span class="space"> </span><span class="title">Solution to an Inequality.</span>
 </h4> <div class="para logical" id="def-solution_inequality-2-1">
 <div class="para">A <dfn class="terminology">solution</dfn>  to an inequality in the variables <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> is an ordered pair <span class="process-math">\((s,t)\)</span> that make the inequality true when</div>
-<ol class="decimal">
+<ol class="decimal" id="def-solution_inequality-2-1-6">
 <li id="def-solution_inequality-2-1-6-1"><div class="para" id="p-derived-def-solution_inequality-2-1-6-1">the first coordinate, <span class="process-math">\(s\text{,}\)</span> is substituted into the inequality for <span class="process-math">\(x\text{,}\)</span> and</div></li>
 <li id="def-solution_inequality-2-1-6-2"><div class="para" id="p-derived-def-solution_inequality-2-1-6-2">the second coordinate, <span class="process-math">\(t\text{,}\)</span> is substituted into the inequality for <span class="process-math">\(y\text{.}\)</span>
 </div></li>
@@ -546,7 +614,7 @@ window.MathJax = {
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.6.12</span><span class="period">.</span><span class="space"> </span><span class="title">Linear Absolute Value Inequality.</span>
 </h4> <div class="para logical" id="def-linear_absolute_value_inequality-2-1">
 <div class="para">A <dfn class="terminology">linear absolute value inequality</dfn>  in the variables <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> is an expression that can be placed in one of the following forms</div>
-<ul class="disc">
+<ul class="disc" id="def-linear_absolute_value_inequality-2-1-5">
 <li id="def-linear_absolute_value_inequality-2-1-5-1"><div class="para" id="p-derived-def-linear_absolute_value_inequality-2-1-5-1"><span class="process-math">\(\abs{ax + by + c} \lt d\text{,}\)</span></div></li>
 <li id="def-linear_absolute_value_inequality-2-1-5-2"><div class="para" id="p-derived-def-linear_absolute_value_inequality-2-1-5-2"><span class="process-math">\(\abs{ax + by + c} \leq d\text{,}\)</span></div></li>
 <li id="def-linear_absolute_value_inequality-2-1-5-3"><div class="para" id="p-derived-def-linear_absolute_value_inequality-2-1-5-3">
@@ -586,7 +654,7 @@ ax + by = -c + d \quad\text{and}\quad ax + by = -c - d
 \end{equation*}
 </div>
 <div class="para">Geometrically, this tells us the points between these lines make the number <span class="process-math">\(ax + by + c\)</span> <em class="emphasis">less</em> than <span class="process-math">\(d\text{,}\)</span> while the points outside these lines make the number <span class="process-math">\(ax + by + c\)</span> <em class="emphasis">more</em> than <span class="process-math">\(d\text{.}\)</span> This provides a pleasing geometric description of the solutions to the four types of linear absolute value inequalities:</div>
-<ul class="disc">
+<ul class="disc" id="sec-linear_ineq-4-6-17">
 <li id="sec-linear_ineq-4-6-17-1"><div class="para" id="sec-linear_ineq-4-6-17-1-1">The solutions to <span class="process-math">\(\abs{ax + by + c} \lt d\)</span> are the points that are between the lines <span class="process-math">\(ax + by = -d - c \)</span> and <span class="process-math">\(ax + by = -c + d\text{,}\)</span>
 </div></li>
 <li id="sec-linear_ineq-4-6-17-2"><div class="para" id="sec-linear_ineq-4-6-17-2-1">The solutions to <span class="process-math">\(\abs{ax + by + c} \leq d\)</span> are the points that are either on or between the lines <span class="process-math">\(ax + by = -d - c\)</span> and <span class="process-math">\(ax + by = -c + d\text{,}\)</span>
@@ -725,7 +793,7 @@ ax + by = -c + d \quad\text{and}\quad ax + by = -c - d
 </div></article><article class="exercise exercise-like" id="sec-linear_ineq-5-3"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
 <div class="para logical" id="sec-linear_ineq-5-3-1-1">
 <div class="para">Match the following equations with their graphs.</div>
-<ol class="lower-alpha cols2">
+<ol class="lower-alpha cols2" id="sec-linear_ineq-5-3-1-1-1">
 <li id="sec-linear_ineq-5-3-1-1-1-1"><div class="para" id="sec-linear_ineq-5-3-1-1-1-1-1"><span class="process-math">\(\displaystyle y + \frac{6}{4}x - 2 \gt 0\)</span></div></li>
 <li id="sec-linear_ineq-5-3-1-1-1-2"><div class="para" id="sec-linear_ineq-5-3-1-1-1-2-1"><span class="process-math">\(\displaystyle 2y - x + 12 \leq 2x + 16\)</span></div></li>
 <li id="sec-linear_ineq-5-3-1-1-1-3"><div class="para" id="sec-linear_ineq-5-3-1-1-1-3-1"><span class="process-math">\(\displaystyle 3y &gt; 2x - 6\)</span></div></li>
