@@ -501,7 +501,7 @@ var ptx_lunr_docs = [
   "url": "sec-graphing_equations.html#def-y_intercept",
   "type": "Definition",
   "number": "1.3.4",
-  "title": "<span xmlns:pf=\"https:\/\/prefigure.org\" class=\"process-math\">\\(y\\)<\/span>-intercept.",
+  "title": "<span class=\"process-math\">\\(y\\)<\/span>-intercept.",
   "body": " -intercept   A of the form is called a -intercept .  Equation  -intercept     "
 },
 {
@@ -510,7 +510,7 @@ var ptx_lunr_docs = [
   "url": "sec-graphing_equations.html#def-x_intercept",
   "type": "Definition",
   "number": "1.3.5",
-  "title": "<span xmlns:pf=\"https:\/\/prefigure.org\" class=\"process-math\">\\(x\\)<\/span>-intercept.",
+  "title": "<span class=\"process-math\">\\(x\\)<\/span>-intercept.",
   "body": " -intercept   A of the form is called an -intercept .  Equation  -intercept     "
 },
 {
@@ -2616,7 +2616,7 @@ var ptx_lunr_docs = [
   "url": "sec-roots_quadratics.html#sec-roots_quadratics-3-12",
   "type": "Theorem",
   "number": "3.8.6",
-  "title": "The <span xmlns:pf=\"https:\/\/prefigure.org\" class=\"process-math\">\\(x\\)<\/span>-intercepts of a Quadratic Function.",
+  "title": "The <span class=\"process-math\">\\(x\\)<\/span>-intercepts of a Quadratic Function.",
   "body": " The -intercepts of a Quadratic Function   The quadratic function has either two, one, or zero -intercepts, depending on the , .   If , then there are two -intercepts,    If , then there is one -intercept Note this is the vertex.  If , then there are no -intercepts.     "
 },
 {
@@ -4191,7 +4191,7 @@ var ptx_lunr_docs = [
   "url": "sec-other_logarithms.html#def-log_base_a",
   "type": "Definition",
   "number": "6.4.1",
-  "title": "The Logarithm with Base <span xmlns:pf=\"https:\/\/prefigure.org\" class=\"process-math\">\\(a\\)<\/span>.",
+  "title": "The Logarithm with Base <span class=\"process-math\">\\(a\\)<\/span>.",
   "body": " The Logarithm with Base   Assume is a positive real number. The logarithm with base ,  Function  Logarithm  Base  is the function ,   The logarithm with base  defined by   In particular, for every real number and every positive real number ,    "
 },
 {
@@ -4434,7 +4434,7 @@ var ptx_lunr_docs = [
   "url": "meta_backmatter-3-2.html#fig-cubic",
   "type": "Figure",
   "number": "B.1.15",
-  "title": "the graph of <span xmlns:pf=\"https:\/\/prefigure.org\" class=\"process-math\">\\(y = x^3\\)<\/span>",
+  "title": "the graph of <span class=\"process-math\">\\(y = x^3\\)<\/span>",
   "body": " the graph of  The graph of .     "
 },
 {
